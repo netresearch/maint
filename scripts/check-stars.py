@@ -76,15 +76,10 @@ def save_state(state: dict) -> None:
 def notify_matrix(repo: dict, stargazer: dict, star_count: int) -> None:
     """Send notification to Matrix via webhook."""
     user = stargazer["user"]
-    avatar_url = user.get("avatar_url", "")
 
-    message = f"⭐ [{user['login']}]({user['html_url']}) starred [{repo['name']}]({repo['url']}) ({star_count} ⭐)"
+    message = f"⭐ [{user['login']}]({user['html_url']}) starred [{repo['name']}]({repo['url']}) ({star_count} ⭐) ([?](https://github.com/netresearch/maint))"
 
-    payload = {
-        "text": message,
-        "avatar_url": avatar_url,
-        "displayName": user["login"],
-    }
+    payload = {"text": message}
     response = requests.post(MATRIX_WEBHOOK_URL, json=payload)
     response.raise_for_status()
     print(f"Notified: {user['login']} starred {repo['full_name']}")
