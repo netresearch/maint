@@ -73,19 +73,18 @@ def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, indent=2))
 
 
-def notify_matrix(repo: dict, stargazer: dict) -> None:
+def notify_matrix(repo: dict, stargazer: dict, star_count: int) -> None:
     """Send notification to Matrix via webhook."""
     user = stargazer["user"]
-    starred_at = stargazer.get("starred_at", "unknown")
+    avatar_url = user.get("avatar_url", "")
 
-    message = (
-        f"New star on **{repo['full_name']}**\n\n"
-        f"User: [{user['login']}]({user['html_url']})\n"
-        f"Repo: [{repo['name']}]({repo['url']})\n"
-        f"Starred at: {starred_at}"
-    )
+    message = f"⭐ [{user['login']}]({user['html_url']}) starred [{repo['name']}]({repo['url']}) ({star_count} ⭐)"
 
-    payload = {"text": message}
+    payload = {
+        "text": message,
+        "avatar_url": avatar_url,
+        "displayName": user["login"],
+    }
     response = requests.post(MATRIX_WEBHOOK_URL, json=payload)
     response.raise_for_status()
     print(f"Notified: {user['login']} starred {repo['full_name']}")
@@ -105,11 +104,12 @@ def main():
 
         new_stargazers = current_stargazers - known_stargazers
 
+        star_count = len(stargazers)
         for stargazer in stargazers:
             if stargazer["user"]["login"] in new_stargazers:
                 # Only notify if this isn't the first run (avoid spam on initial setup)
                 if state.get("last_run"):
-                    notify_matrix(repo, stargazer)
+                    notify_matrix(repo, stargazer, star_count)
                 new_stars_found += 1
 
         # Update state with current stargazers
