@@ -36,9 +36,14 @@ def github_request(url: str) -> list | dict:
 
 
 def get_org_repos() -> list[dict]:
-    """Get all public repos in the organization."""
-    repos = github_request(f"{GITHUB_API}/orgs/{ORG_NAME}/repos?type=public&per_page=100")
-    return [{"name": r["name"], "full_name": r["full_name"], "url": r["html_url"]} for r in repos]
+    """Get all public repos in the organization (including forks)."""
+    repos = github_request(f"{GITHUB_API}/orgs/{ORG_NAME}/repos?type=all&per_page=100")
+    # Filter to public repos only (type=all includes private if token has access)
+    return [
+        {"name": r["name"], "full_name": r["full_name"], "url": r["html_url"]}
+        for r in repos
+        if not r.get("private", False)
+    ]
 
 
 def get_stargazers(repo_full_name: str) -> list[dict]:
