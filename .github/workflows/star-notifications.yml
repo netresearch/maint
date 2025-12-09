@@ -1,0 +1,43 @@
+name: Star Notifications
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Every 15 minutes
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  check-stars:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Download previous state
+        uses: dawidd6/action-download-artifact@v6
+        with:
+          name: stars-state
+          path: state/
+          if_no_artifact_found: warn
+        continue-on-error: true
+
+      - name: Check for new stars
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MATRIX_WEBHOOK_URL: ${{ secrets.MATRIX_WEBHOOK_URL }}
+          ORG_NAME: netresearch
+        run: python scripts/check-stars.py
+
+      - name: Upload updated state
+        uses: actions/upload-artifact@v4
+        with:
+          name: stars-state
+          path: state/stars-state.json
+          retention-days: 90
