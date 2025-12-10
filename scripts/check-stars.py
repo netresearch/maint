@@ -101,6 +101,9 @@ def main():
     for repo in repos:
         repo_name = repo["full_name"]
         repo_state = state.get("repos", {}).get(repo_name, {})
+        # Handle old state format (list of stargazers) -> convert to new format
+        if isinstance(repo_state, list):
+            repo_state = {"stars": repo_state, "forks": [], "watchers": []}
 
         # Stars
         stargazers = get_stargazers(repo_name)
