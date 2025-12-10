@@ -13,6 +13,8 @@ ORG_NAME = os.environ.get("ORG_NAME", "netresearch")
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 MATRIX_WEBHOOK_URL = os.environ["MATRIX_WEBHOOK_URL"]
 STATE_FILE = Path("state/stars-state.json")
+MAX_NOTIFICATIONS = 20
+FEED_URL = "https://github.com/netresearch/maint/actions/workflows/star-notifications.yml"
 
 
 def github_request(url: str, accept: str = "application/vnd.github+json") -> list | dict:
@@ -97,6 +99,8 @@ def main():
     is_first_run = not state.get("last_run")
 
     total_new = {"stars": 0, "forks": 0, "watchers": 0}
+    notifications_sent = 0
+    pending_notifications = []
 
     for repo in repos:
         repo_name = repo["full_name"]
@@ -116,7 +120,7 @@ def main():
             if user["login"] in new_stars:
                 if not is_first_run:
                     msg = f"⭐ [{user['login']}]({user['html_url']}) starred [{repo['name']}]({repo['url']}) ({repo['stargazers_count']} ⭐) ([?](https://github.com/netresearch/maint))"
-                    notify_matrix(msg)
+                    pending_notifications.append(msg)
                     print(f"Star: {user['login']} -> {repo_name}")
                 total_new["stars"] += 1
 
@@ -131,7 +135,7 @@ def main():
             if owner["login"] in new_forks:
                 if not is_first_run:
                     msg = f"🍴 [{owner['login']}]({owner['html_url']}) forked [{repo['name']}]({repo['url']}) ({repo['forks_count']} 🍴) ([?](https://github.com/netresearch/maint))"
-                    notify_matrix(msg)
+                    pending_notifications.append(msg)
                     print(f"Fork: {owner['login']} -> {repo_name}")
                 total_new["forks"] += 1
 
@@ -145,7 +149,7 @@ def main():
             if watcher["login"] in new_watchers:
                 if not is_first_run:
                     msg = f"👀 [{watcher['login']}]({watcher['html_url']}) watching [{repo['name']}]({repo['url']}) ({repo['watchers_count']} 👀) ([?](https://github.com/netresearch/maint))"
-                    notify_matrix(msg)
+                    pending_notifications.append(msg)
                     print(f"Watch: {watcher['login']} -> {repo_name}")
                 total_new["watchers"] += 1
 
@@ -158,6 +162,18 @@ def main():
             "watchers": list(current_watchers),
         }
 
+    # Send notifications (limited)
+    for msg in pending_notifications[:MAX_NOTIFICATIONS]:
+        notify_matrix(msg)
+        notifications_sent += 1
+
+    # If there are more, send a summary
+    remaining = len(pending_notifications) - MAX_NOTIFICATIONS
+    if remaining > 0:
+        summary = f"📊 +{remaining} more events. [See full log]({FEED_URL}) ([?](https://github.com/netresearch/maint))"
+        notify_matrix(summary)
+        print(f"Truncated: {remaining} additional notifications not sent")
+
     save_state(state)
 
     if is_first_run:
@@ -168,6 +184,7 @@ def main():
         print(f"Initial run - indexed {totals} existing entries")
     else:
         print(f"Found: {total_new['stars']} star(s), {total_new['forks']} fork(s), {total_new['watchers']} watcher(s)")
+        print(f"Sent: {notifications_sent} notification(s)")
 
 
 if __name__ == "__main__":
