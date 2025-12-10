@@ -45,7 +45,7 @@ def get_org_repos() -> list[dict]:
             "url": r["html_url"],
             "stargazers_count": r["stargazers_count"],
             "forks_count": r["forks_count"],
-            "watchers_count": r["subscribers_count"],  # subscribers = watchers in API
+            "watchers_count": r.get("subscribers_count", r.get("watchers_count", 0)),
         }
         for r in repos
         if not r.get("private", False)
