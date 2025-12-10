@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check for new GitHub stars on netresearch org repos and notify Matrix."""
+"""Check for new GitHub stars, forks, and watchers on netresearch org repos and notify Matrix."""
 
 import json
 import os
@@ -15,11 +15,11 @@ MATRIX_WEBHOOK_URL = os.environ["MATRIX_WEBHOOK_URL"]
 STATE_FILE = Path("state/stars-state.json")
 
 
-def github_request(url: str) -> list | dict:
+def github_request(url: str, accept: str = "application/vnd.github+json") -> list | dict:
     """Make authenticated GitHub API request."""
     headers = {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Accept": "application/vnd.github+json",
+        "Accept": accept,
         "X-GitHub-Api-Version": "2022-11-28",
     }
     results = []
@@ -38,9 +38,15 @@ def github_request(url: str) -> list | dict:
 def get_org_repos() -> list[dict]:
     """Get all public repos in the organization (including forks)."""
     repos = github_request(f"{GITHUB_API}/orgs/{ORG_NAME}/repos?type=all&per_page=100")
-    # Filter to public repos only (type=all includes private if token has access)
     return [
-        {"name": r["name"], "full_name": r["full_name"], "url": r["html_url"]}
+        {
+            "name": r["name"],
+            "full_name": r["full_name"],
+            "url": r["html_url"],
+            "stargazers_count": r["stargazers_count"],
+            "forks_count": r["forks_count"],
+            "watchers_count": r["subscribers_count"],  # subscribers = watchers in API
+        }
         for r in repos
         if not r.get("private", False)
     ]
@@ -48,20 +54,20 @@ def get_org_repos() -> list[dict]:
 
 def get_stargazers(repo_full_name: str) -> list[dict]:
     """Get stargazers for a repo with timestamps."""
-    headers_accept = "application/vnd.github.star+json"  # For starred_at timestamp
-    url = f"{GITHUB_API}/repos/{repo_full_name}/stargazers?per_page=100"
-    headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Accept": headers_accept,
-        "X-GitHub-Api-Version": "2022-11-28",
-    }
-    results = []
-    while url:
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()
-        results.extend(response.json())
-        url = response.links.get("next", {}).get("url")
-    return results
+    return github_request(
+        f"{GITHUB_API}/repos/{repo_full_name}/stargazers?per_page=100",
+        accept="application/vnd.github.star+json",
+    )
+
+
+def get_forks(repo_full_name: str) -> list[dict]:
+    """Get forks for a repo."""
+    return github_request(f"{GITHUB_API}/repos/{repo_full_name}/forks?per_page=100")
+
+
+def get_watchers(repo_full_name: str) -> list[dict]:
+    """Get watchers (subscribers) for a repo."""
+    return github_request(f"{GITHUB_API}/repos/{repo_full_name}/subscribers?per_page=100")
 
 
 def load_state() -> dict:
@@ -78,51 +84,87 @@ def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, indent=2))
 
 
-def notify_matrix(repo: dict, stargazer: dict, star_count: int) -> None:
+def notify_matrix(message: str) -> None:
     """Send notification to Matrix via webhook."""
-    user = stargazer["user"]
-
-    message = f"⭐ [{user['login']}]({user['html_url']}) starred [{repo['name']}]({repo['url']}) ({star_count} ⭐) ([?](https://github.com/netresearch/maint))"
-
     payload = {"text": message}
     response = requests.post(MATRIX_WEBHOOK_URL, json=payload)
     response.raise_for_status()
-    print(f"Notified: {user['login']} starred {repo['full_name']}")
 
 
 def main():
     state = load_state()
     repos = get_org_repos()
-    new_stars_found = 0
+    is_first_run = not state.get("last_run")
+
+    total_new = {"stars": 0, "forks": 0, "watchers": 0}
 
     for repo in repos:
         repo_name = repo["full_name"]
+        repo_state = state.get("repos", {}).get(repo_name, {})
+
+        # Stars
         stargazers = get_stargazers(repo_name)
+        known_stars = set(repo_state.get("stars", []))
+        current_stars = {s["user"]["login"] for s in stargazers}
+        new_stars = current_stars - known_stars
 
-        known_stargazers = set(state.get("repos", {}).get(repo_name, []))
-        current_stargazers = {s["user"]["login"] for s in stargazers}
-
-        new_stargazers = current_stargazers - known_stargazers
-
-        star_count = len(stargazers)
         for stargazer in stargazers:
-            if stargazer["user"]["login"] in new_stargazers:
-                # Only notify if this isn't the first run (avoid spam on initial setup)
-                if state.get("last_run"):
-                    notify_matrix(repo, stargazer, star_count)
-                new_stars_found += 1
+            user = stargazer["user"]
+            if user["login"] in new_stars:
+                if not is_first_run:
+                    msg = f"⭐ [{user['login']}]({user['html_url']}) starred [{repo['name']}]({repo['url']}) ({repo['stargazers_count']} ⭐) ([?](https://github.com/netresearch/maint))"
+                    notify_matrix(msg)
+                    print(f"Star: {user['login']} -> {repo_name}")
+                total_new["stars"] += 1
 
-        # Update state with current stargazers
+        # Forks
+        forks = get_forks(repo_name)
+        known_forks = set(repo_state.get("forks", []))
+        current_forks = {f["owner"]["login"] for f in forks}
+        new_forks = current_forks - known_forks
+
+        for fork in forks:
+            owner = fork["owner"]
+            if owner["login"] in new_forks:
+                if not is_first_run:
+                    msg = f"🍴 [{owner['login']}]({owner['html_url']}) forked [{repo['name']}]({repo['url']}) ({repo['forks_count']} 🍴) ([?](https://github.com/netresearch/maint))"
+                    notify_matrix(msg)
+                    print(f"Fork: {owner['login']} -> {repo_name}")
+                total_new["forks"] += 1
+
+        # Watchers
+        watchers = get_watchers(repo_name)
+        known_watchers = set(repo_state.get("watchers", []))
+        current_watchers = {w["login"] for w in watchers}
+        new_watchers = current_watchers - known_watchers
+
+        for watcher in watchers:
+            if watcher["login"] in new_watchers:
+                if not is_first_run:
+                    msg = f"👀 [{watcher['login']}]({watcher['html_url']}) watching [{repo['name']}]({repo['url']}) ({repo['watchers_count']} 👀) ([?](https://github.com/netresearch/maint))"
+                    notify_matrix(msg)
+                    print(f"Watch: {watcher['login']} -> {repo_name}")
+                total_new["watchers"] += 1
+
+        # Update state
         if "repos" not in state:
             state["repos"] = {}
-        state["repos"][repo_name] = list(current_stargazers)
+        state["repos"][repo_name] = {
+            "stars": list(current_stars),
+            "forks": list(current_forks),
+            "watchers": list(current_watchers),
+        }
 
     save_state(state)
 
-    if state.get("last_run"):
-        print(f"Found {new_stars_found} new star(s)")
+    if is_first_run:
+        totals = sum(
+            len(r.get("stars", [])) + len(r.get("forks", [])) + len(r.get("watchers", []))
+            for r in state["repos"].values()
+        )
+        print(f"Initial run - indexed {totals} existing entries")
     else:
-        print(f"Initial run - indexed {sum(len(v) for v in state['repos'].values())} existing stars")
+        print(f"Found: {total_new['stars']} star(s), {total_new['forks']} fork(s), {total_new['watchers']} watcher(s)")
 
 
 if __name__ == "__main__":
