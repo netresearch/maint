@@ -3,6 +3,7 @@
 
 import json
 import os
+import time
 from datetime import datetime
 from pathlib import Path
 
@@ -17,8 +18,8 @@ MAX_NOTIFICATIONS = 20
 FEED_URL = "https://github.com/netresearch/maint/actions/workflows/star-notifications.yml"
 
 
-def github_request(url: str, accept: str = "application/vnd.github+json") -> list | dict:
-    """Make authenticated GitHub API request."""
+def github_request(url: str, accept: str = "application/vnd.github+json", max_retries: int = 3) -> list | dict:
+    """Make authenticated GitHub API request with retry logic for transient errors."""
     headers = {
         "Authorization": f"Bearer {GITHUB_TOKEN}",
         "Accept": accept,
@@ -26,14 +27,37 @@ def github_request(url: str, accept: str = "application/vnd.github+json") -> lis
     }
     results = []
     while url:
-        response = requests.get(url, headers=headers)
-        response.raise_for_status()
-        data = response.json()
-        if isinstance(data, list):
-            results.extend(data)
-            url = response.links.get("next", {}).get("url")
+        last_error = None
+        for attempt in range(max_retries):
+            try:
+                response = requests.get(url, headers=headers, timeout=30)
+                # Retry on transient server errors
+                if response.status_code in (429, 502, 503, 504):
+                    retry_after = int(response.headers.get("Retry-After", 2 ** attempt))
+                    print(f"Retry {attempt + 1}/{max_retries}: {response.status_code} for {url}, waiting {retry_after}s")
+                    time.sleep(retry_after)
+                    continue
+                response.raise_for_status()
+                data = response.json()
+                if isinstance(data, list):
+                    results.extend(data)
+                    url = response.links.get("next", {}).get("url")
+                else:
+                    return data
+                break  # Success, exit retry loop
+            except requests.exceptions.RequestException as e:
+                last_error = e
+                if attempt < max_retries - 1:
+                    wait_time = 2 ** attempt
+                    print(f"Retry {attempt + 1}/{max_retries}: {e}, waiting {wait_time}s")
+                    time.sleep(wait_time)
+                else:
+                    raise
         else:
-            return data
+            # All retries exhausted for transient HTTP errors
+            if last_error:
+                raise last_error
+            response.raise_for_status()
     return results
 
 
