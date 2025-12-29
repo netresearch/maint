@@ -105,7 +105,6 @@ def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict]:
     }
     
     dependents = []
-    last_error = None
     
     for attempt in range(max_retries):
         try:
@@ -139,7 +138,7 @@ def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict]:
                         "stars": repo_info.get("stargazers_count", 0),
                         "forks": repo_info.get("forks_count", 0),
                     })
-                except Exception as e:
+                except (requests.exceptions.RequestException, KeyError, ValueError) as e:
                     print(f"Warning: Could not get info for dependent {dep_full_name}: {e}")
                     # Still add basic info
                     dependents.append({
@@ -149,9 +148,8 @@ def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict]:
                         "forks": 0,
                     })
             
-            break  # Success, exit retry loop
+            return dependents  # Success, return results
         except requests.exceptions.RequestException as e:
-            last_error = e
             if attempt < max_retries - 1:
                 wait_time = 2 ** attempt
                 print(f"Retry {attempt + 1}/{max_retries}: {e}, waiting {wait_time}s")
@@ -159,12 +157,8 @@ def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict]:
             else:
                 print(f"Failed to get dependents for {repo_full_name}: {e}")
                 return []
-    else:
-        if last_error:
-            print(f"Failed to get dependents for {repo_full_name}: {last_error}")
-            return []
     
-    return dependents
+    return []
 
 
 def load_state() -> dict:
