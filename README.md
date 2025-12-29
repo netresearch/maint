@@ -8,7 +8,7 @@ Organization maintenance and automation tasks for the Netresearch GitHub organiz
 
 **File:** `.github/workflows/star-notifications.yml`
 
-Monitors all public repositories in the netresearch organization for new stars and sends notifications to Matrix.
+Monitors all public repositories in the netresearch organization for new stars, forks, watchers, and dependants, and sends notifications to Matrix.
 
 **Schedule:** Every 15 minutes
 
@@ -25,12 +25,19 @@ Monitors all public repositories in the netresearch organization for new stars a
 #### How It Works
 
 1. Fetches all public repos in the org
-2. Gets current stargazers for each repo
-3. Compares with previously known stargazers (stored as artifact)
-4. Sends Matrix notification for each new star
+2. Gets current stargazers, forks, watchers, and dependants for each repo
+3. Compares with previously known data (stored as artifact)
+4. Sends Matrix notification for each new star, fork, watcher, or dependant
 5. Updates state for next run
 
-The first run indexes existing stars without sending notifications to avoid spam.
+The first run indexes existing data without sending notifications to avoid spam.
+
+#### Notification Types
+
+- **⭐ Stars:** When someone stars a repository
+- **🍴 Forks:** When someone forks a repository
+- **👀 Watchers:** When someone starts watching a repository
+- **📦 Dependants:** When a new repository depends on one of our repositories (includes the dependant's star and fork count)
 
 ## Organization-Wide Automation
 

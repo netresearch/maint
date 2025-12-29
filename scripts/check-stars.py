@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check for new GitHub stars, forks, and watchers on netresearch org repos and notify Matrix."""
+"""Check for new GitHub stars, forks, watchers, and dependants on netresearch org repos and notify Matrix."""
 
 import json
 import os
@@ -8,6 +8,7 @@ from datetime import datetime
 from pathlib import Path
 
 import requests
+from bs4 import BeautifulSoup
 
 GITHUB_API = "https://api.github.com"
 ORG_NAME = os.environ.get("ORG_NAME", "netresearch")
@@ -96,6 +97,76 @@ def get_watchers(repo_full_name: str) -> list[dict]:
     return github_request(f"{GITHUB_API}/repos/{repo_full_name}/subscribers?per_page=100")
 
 
+def get_dependants(repo_full_name: str, max_retries: int = 3) -> list[dict]:
+    """Get dependants (repositories that depend on this repo) by scraping the network/dependents page."""
+    url = f"https://github.com/{repo_full_name}/network/dependents"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; NetresearchBot/1.0)",
+    }
+    
+    dependants = []
+    last_error = None
+    
+    for attempt in range(max_retries):
+        try:
+            response = requests.get(url, headers=headers, timeout=30)
+            if response.status_code in (429, 502, 503, 504):
+                retry_after = int(response.headers.get("Retry-After", 2 ** attempt))
+                print(f"Retry {attempt + 1}/{max_retries}: {response.status_code} for {url}, waiting {retry_after}s")
+                time.sleep(retry_after)
+                continue
+            response.raise_for_status()
+            
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # Find all dependant repository entries
+            for item in soup.select('.Box-row'):
+                # Look for the repository link
+                repo_link = item.select_one('a[data-hovercard-type="repository"]')
+                if not repo_link:
+                    continue
+                
+                dep_full_name = repo_link.get('href', '').lstrip('/')
+                if not dep_full_name or '/' not in dep_full_name:
+                    continue
+                
+                # Get repository info via API
+                try:
+                    repo_info = github_request(f"{GITHUB_API}/repos/{dep_full_name}")
+                    dependants.append({
+                        "full_name": dep_full_name,
+                        "url": f"https://github.com/{dep_full_name}",
+                        "stars": repo_info.get("stargazers_count", 0),
+                        "forks": repo_info.get("forks_count", 0),
+                    })
+                except Exception as e:
+                    print(f"Warning: Could not get info for dependant {dep_full_name}: {e}")
+                    # Still add basic info
+                    dependants.append({
+                        "full_name": dep_full_name,
+                        "url": f"https://github.com/{dep_full_name}",
+                        "stars": 0,
+                        "forks": 0,
+                    })
+            
+            break  # Success, exit retry loop
+        except requests.exceptions.RequestException as e:
+            last_error = e
+            if attempt < max_retries - 1:
+                wait_time = 2 ** attempt
+                print(f"Retry {attempt + 1}/{max_retries}: {e}, waiting {wait_time}s")
+                time.sleep(wait_time)
+            else:
+                print(f"Failed to get dependants for {repo_full_name}: {e}")
+                return []
+    else:
+        if last_error:
+            print(f"Failed to get dependants for {repo_full_name}: {last_error}")
+            return []
+    
+    return dependants
+
+
 def load_state() -> dict:
     """Load previous state from file."""
     if STATE_FILE.exists():
@@ -122,7 +193,7 @@ def main():
     repos = get_org_repos()
     is_first_run = not state.get("last_run")
 
-    total_new = {"stars": 0, "forks": 0, "watchers": 0}
+    total_new = {"stars": 0, "forks": 0, "watchers": 0, "dependants": 0}
     notifications_sent = 0
     pending_notifications = []
 
@@ -131,7 +202,10 @@ def main():
         repo_state = state.get("repos", {}).get(repo_name, {})
         # Handle old state format (list of stargazers) -> convert to new format
         if isinstance(repo_state, list):
-            repo_state = {"stars": repo_state, "forks": [], "watchers": []}
+            repo_state = {"stars": repo_state, "forks": [], "watchers": [], "dependants": []}
+        # Ensure dependants key exists for repos created before this feature
+        if "dependants" not in repo_state:
+            repo_state["dependants"] = []
 
         # Stars
         stargazers = get_stargazers(repo_name)
@@ -177,6 +251,20 @@ def main():
                     print(f"Watch: {watcher['login']} -> {repo_name}")
                 total_new["watchers"] += 1
 
+        # Dependants (repositories using this repo)
+        dependants = get_dependants(repo_name)
+        known_dependants = set(repo_state.get("dependants", []))
+        current_dependants = {d["full_name"] for d in dependants}
+        new_dependants = current_dependants - known_dependants
+
+        for dependant in dependants:
+            if dependant["full_name"] in new_dependants:
+                if not is_first_run:
+                    msg = f"📦 [{dependant['full_name']}]({dependant['url']}) is now using [{repo['name']}]({repo['url']}) ({dependant['stars']} ⭐, {dependant['forks']} 🍴) ([?](https://github.com/netresearch/maint))"
+                    pending_notifications.append(msg)
+                    print(f"Dependant: {dependant['full_name']} -> {repo_name}")
+                total_new["dependants"] += 1
+
         # Update state
         if "repos" not in state:
             state["repos"] = {}
@@ -184,6 +272,7 @@ def main():
             "stars": list(current_stars),
             "forks": list(current_forks),
             "watchers": list(current_watchers),
+            "dependants": list(current_dependants),
         }
 
     # Send notifications (limited)
@@ -202,12 +291,12 @@ def main():
 
     if is_first_run:
         totals = sum(
-            len(r.get("stars", [])) + len(r.get("forks", [])) + len(r.get("watchers", []))
+            len(r.get("stars", [])) + len(r.get("forks", [])) + len(r.get("watchers", [])) + len(r.get("dependants", []))
             for r in state["repos"].values()
         )
         print(f"Initial run - indexed {totals} existing entries")
     else:
-        print(f"Found: {total_new['stars']} star(s), {total_new['forks']} fork(s), {total_new['watchers']} watcher(s)")
+        print(f"Found: {total_new['stars']} star(s), {total_new['forks']} fork(s), {total_new['watchers']} watcher(s), {total_new['dependants']} dependant(s)")
         print(f"Sent: {notifications_sent} notification(s)")
 
 
