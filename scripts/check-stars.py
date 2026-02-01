@@ -97,15 +97,18 @@ def get_watchers(repo_full_name: str) -> list[dict]:
     return github_request(f"{GITHUB_API}/repos/{repo_full_name}/subscribers?per_page=100")
 
 
-def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict]:
-    """Get dependents (repositories that depend on this repo) by scraping the network/dependents page."""
+def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict] | None:
+    """Get dependents (repositories that depend on this repo) by scraping the network/dependents page.
+
+    Returns:
+        list[dict]: List of dependent repos if successful
+        None: If fetch failed (to distinguish from "no dependents exist")
+    """
     url = f"https://github.com/{repo_full_name}/network/dependents"
     headers = {
         "User-Agent": "Mozilla/5.0 (compatible; NetresearchBot/1.0)",
     }
-    
-    dependents = []
-    
+
     for attempt in range(max_retries):
         try:
             response = requests.get(url, headers=headers, timeout=30)
@@ -115,20 +118,28 @@ def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict]:
                 time.sleep(retry_after)
                 continue
             response.raise_for_status()
-            
+
             soup = BeautifulSoup(response.text, 'html.parser')
-            
+
+            # Verify we got a valid dependents page by checking for expected elements
+            # The page should have either dependents or a "No dependents" message
+            dependents_box = soup.select_one('#dependents')
+            if not dependents_box:
+                print(f"Warning: Could not find #dependents container for {repo_full_name} - page structure may have changed")
+                return None  # Page structure changed, don't wipe state
+
+            dependents = []
             # Find all dependent repository entries
             for item in soup.select('.Box-row'):
                 # Look for the repository link
                 repo_link = item.select_one('a[data-hovercard-type="repository"]')
                 if not repo_link:
                     continue
-                
+
                 dep_full_name = repo_link.get('href', '').lstrip('/')
                 if not dep_full_name or '/' not in dep_full_name:
                     continue
-                
+
                 # Get repository info via API
                 try:
                     repo_info = github_request(f"{GITHUB_API}/repos/{dep_full_name}")
@@ -147,8 +158,8 @@ def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict]:
                         "stars": 0,
                         "forks": 0,
                     })
-            
-            return dependents  # Success, return results
+
+            return dependents  # Success, return results (may be empty if truly no dependents)
         except requests.exceptions.RequestException as e:
             if attempt < max_retries - 1:
                 wait_time = 2 ** attempt
@@ -156,9 +167,9 @@ def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict]:
                 time.sleep(wait_time)
             else:
                 print(f"Failed to get dependents for {repo_full_name}: {e}")
-                return []
-    
-    return []
+                return None  # Fetch failed, don't wipe state
+
+    return None  # All retries exhausted
 
 
 def load_state() -> dict:
@@ -246,17 +257,25 @@ def main():
         # Dependents (repositories using this repo)
         dependents = get_dependents(repo_name)
         known_dependents = set(repo_state.get("dependents", []))
-        current_dependents = {d["full_name"] for d in dependents}
-        new_dependents = current_dependents - known_dependents
 
-        for dependent in dependents:
-            if dependent["full_name"] in new_dependents:
-                # Only notify if not first run AND dependents were already being tracked for this repo
-                if not is_first_run and had_dependents_tracking:
-                    msg = f"📦 [{dependent['full_name']}]({dependent['url']}) is now using [{repo['name']}]({repo['url']}) ({dependent['stars']} ⭐, {dependent['forks']} 🍴) ([?](https://github.com/netresearch/maint))"
-                    pending_notifications.append(msg)
-                    print(f"Dependent: {dependent['full_name']} -> {repo_name}")
-                total_new["dependents"] += 1
+        # Only process dependents if fetch succeeded (not None)
+        # If fetch failed, preserve existing known_dependents in state
+        if dependents is not None:
+            current_dependents = {d["full_name"] for d in dependents}
+            new_dependents = current_dependents - known_dependents
+
+            for dependent in dependents:
+                if dependent["full_name"] in new_dependents:
+                    # Only notify if not first run AND dependents were already being tracked for this repo
+                    if not is_first_run and had_dependents_tracking:
+                        msg = f"📦 [{dependent['full_name']}]({dependent['url']}) is now using [{repo['name']}]({repo['url']}) ({dependent['stars']} ⭐, {dependent['forks']} 🍴) ([?](https://github.com/netresearch/maint))"
+                        pending_notifications.append(msg)
+                        print(f"Dependent: {dependent['full_name']} -> {repo_name}")
+                    total_new["dependents"] += 1
+            dependents_to_save = list(current_dependents)
+        else:
+            # Fetch failed - preserve existing state
+            dependents_to_save = list(known_dependents)
 
         # Update state
         if "repos" not in state:
@@ -265,7 +284,7 @@ def main():
             "stars": list(current_stars),
             "forks": list(current_forks),
             "watchers": list(current_watchers),
-            "dependents": list(current_dependents),
+            "dependents": dependents_to_save,
         }
 
     # Send notifications (limited)
