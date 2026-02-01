@@ -194,13 +194,11 @@ def main():
     for repo in repos:
         repo_name = repo["full_name"]
         repo_state = state.get("repos", {}).get(repo_name, {})
+        # Track if this repo had dependents tracking before any state migrations
+        had_dependents_tracking = isinstance(repo_state, dict) and "dependents" in repo_state
         # Handle old state format (list of stargazers) -> convert to new format
         if isinstance(repo_state, list):
-            repo_state = {"stars": repo_state, "forks": [], "watchers": [], "dependents": []}
-        # Ensure dependents key exists for repos created before this feature
-        if "dependents" not in repo_state:
-            repo_state["dependents"] = []
-
+            repo_state = {"stars": repo_state, "forks": [], "watchers": []}
         # Stars
         stargazers = get_stargazers(repo_name)
         known_stars = set(repo_state.get("stars", []))
@@ -253,7 +251,8 @@ def main():
 
         for dependent in dependents:
             if dependent["full_name"] in new_dependents:
-                if not is_first_run:
+                # Only notify if not first run AND dependents were already being tracked for this repo
+                if not is_first_run and had_dependents_tracking:
                     msg = f"📦 [{dependent['full_name']}]({dependent['url']}) is now using [{repo['name']}]({repo['url']}) ({dependent['stars']} ⭐, {dependent['forks']} 🍴) ([?](https://github.com/netresearch/maint))"
                     pending_notifications.append(msg)
                     print(f"Dependent: {dependent['full_name']} -> {repo_name}")
