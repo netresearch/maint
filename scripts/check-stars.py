@@ -79,22 +79,49 @@ def get_org_repos() -> list[dict]:
     ]
 
 
-def get_stargazers(repo_full_name: str) -> list[dict]:
-    """Get stargazers for a repo with timestamps."""
-    return github_request(
-        f"{GITHUB_API}/repos/{repo_full_name}/stargazers?per_page=100",
-        accept="application/vnd.github.star+json",
-    )
+def get_stargazers(repo_full_name: str) -> list[dict] | None:
+    """Get stargazers for a repo with timestamps.
+
+    Returns:
+        list[dict]: List of stargazers if successful
+        None: If fetch failed
+    """
+    try:
+        return github_request(
+            f"{GITHUB_API}/repos/{repo_full_name}/stargazers?per_page=100",
+            accept="application/vnd.github.star+json",
+        )
+    except requests.exceptions.RequestException as e:
+        print(f"Failed to get stargazers for {repo_full_name}: {e}")
+        return None
 
 
-def get_forks(repo_full_name: str) -> list[dict]:
-    """Get forks for a repo."""
-    return github_request(f"{GITHUB_API}/repos/{repo_full_name}/forks?per_page=100")
+def get_forks(repo_full_name: str) -> list[dict] | None:
+    """Get forks for a repo.
+
+    Returns:
+        list[dict]: List of forks if successful
+        None: If fetch failed
+    """
+    try:
+        return github_request(f"{GITHUB_API}/repos/{repo_full_name}/forks?per_page=100")
+    except requests.exceptions.RequestException as e:
+        print(f"Failed to get forks for {repo_full_name}: {e}")
+        return None
 
 
-def get_watchers(repo_full_name: str) -> list[dict]:
-    """Get watchers (subscribers) for a repo."""
-    return github_request(f"{GITHUB_API}/repos/{repo_full_name}/subscribers?per_page=100")
+def get_watchers(repo_full_name: str) -> list[dict] | None:
+    """Get watchers (subscribers) for a repo.
+
+    Returns:
+        list[dict]: List of watchers if successful
+        None: If fetch failed
+    """
+    try:
+        return github_request(f"{GITHUB_API}/repos/{repo_full_name}/subscribers?per_page=100")
+    except requests.exceptions.RequestException as e:
+        print(f"Failed to get watchers for {repo_full_name}: {e}")
+        return None
 
 
 def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict] | None:
@@ -172,6 +199,17 @@ def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict] | No
     return None  # All retries exhausted
 
 
+def is_suspicious_empty(current: set, known: set, entity_type: str, repo_name: str) -> bool:
+    """Check if getting 0 results when we had data before is suspicious.
+
+    Returns True if we should preserve old state instead of using new empty data.
+    """
+    if len(current) == 0 and len(known) > 0:
+        print(f"Warning: {entity_type} for {repo_name} went from {len(known)} to 0 - preserving old state")
+        return True
+    return False
+
+
 def load_state() -> dict:
     """Load previous state from file."""
     if STATE_FILE.exists():
@@ -211,79 +249,95 @@ def main():
         if isinstance(repo_state, list):
             repo_state = {"stars": repo_state, "forks": [], "watchers": []}
         # Stars
-        stargazers = get_stargazers(repo_name)
         known_stars = set(repo_state.get("stars", []))
-        current_stars = {s["user"]["login"] for s in stargazers}
-        new_stars = current_stars - known_stars
-
-        for stargazer in stargazers:
-            user = stargazer["user"]
-            if user["login"] in new_stars:
-                if not is_first_run:
-                    msg = f"⭐ [{user['login']}]({user['html_url']}) starred [{repo['name']}]({repo['url']}) ({repo['stargazers_count']} ⭐) ([?](https://github.com/netresearch/maint))"
-                    pending_notifications.append(msg)
-                    print(f"Star: {user['login']} -> {repo_name}")
-                total_new["stars"] += 1
+        stargazers = get_stargazers(repo_name)
+        if stargazers is not None:
+            current_stars = {s["user"]["login"] for s in stargazers}
+            if is_suspicious_empty(current_stars, known_stars, "stars", repo_name):
+                stars_to_save = list(known_stars)
+            else:
+                new_stars = current_stars - known_stars
+                for stargazer in stargazers:
+                    user = stargazer["user"]
+                    if user["login"] in new_stars:
+                        if not is_first_run:
+                            msg = f"⭐ [{user['login']}]({user['html_url']}) starred [{repo['name']}]({repo['url']}) ({repo['stargazers_count']} ⭐) ([?](https://github.com/netresearch/maint))"
+                            pending_notifications.append(msg)
+                            print(f"Star: {user['login']} -> {repo_name}")
+                        total_new["stars"] += 1
+                stars_to_save = list(current_stars)
+        else:
+            stars_to_save = list(known_stars)
 
         # Forks
-        forks = get_forks(repo_name)
         known_forks = set(repo_state.get("forks", []))
-        current_forks = {f["owner"]["login"] for f in forks}
-        new_forks = current_forks - known_forks
-
-        for fork in forks:
-            owner = fork["owner"]
-            if owner["login"] in new_forks:
-                if not is_first_run:
-                    msg = f"🍴 [{owner['login']}]({owner['html_url']}) forked [{repo['name']}]({repo['url']}) ({repo['forks_count']} 🍴) ([?](https://github.com/netresearch/maint))"
-                    pending_notifications.append(msg)
-                    print(f"Fork: {owner['login']} -> {repo_name}")
-                total_new["forks"] += 1
+        forks = get_forks(repo_name)
+        if forks is not None:
+            current_forks = {f["owner"]["login"] for f in forks}
+            if is_suspicious_empty(current_forks, known_forks, "forks", repo_name):
+                forks_to_save = list(known_forks)
+            else:
+                new_forks = current_forks - known_forks
+                for fork in forks:
+                    owner = fork["owner"]
+                    if owner["login"] in new_forks:
+                        if not is_first_run:
+                            msg = f"🍴 [{owner['login']}]({owner['html_url']}) forked [{repo['name']}]({repo['url']}) ({repo['forks_count']} 🍴) ([?](https://github.com/netresearch/maint))"
+                            pending_notifications.append(msg)
+                            print(f"Fork: {owner['login']} -> {repo_name}")
+                        total_new["forks"] += 1
+                forks_to_save = list(current_forks)
+        else:
+            forks_to_save = list(known_forks)
 
         # Watchers
-        watchers = get_watchers(repo_name)
         known_watchers = set(repo_state.get("watchers", []))
-        current_watchers = {w["login"] for w in watchers}
-        new_watchers = current_watchers - known_watchers
-
-        for watcher in watchers:
-            if watcher["login"] in new_watchers:
-                if not is_first_run:
-                    msg = f"👀 [{watcher['login']}]({watcher['html_url']}) watching [{repo['name']}]({repo['url']}) ({repo['watchers_count']} 👀) ([?](https://github.com/netresearch/maint))"
-                    pending_notifications.append(msg)
-                    print(f"Watch: {watcher['login']} -> {repo_name}")
-                total_new["watchers"] += 1
+        watchers = get_watchers(repo_name)
+        if watchers is not None:
+            current_watchers = {w["login"] for w in watchers}
+            if is_suspicious_empty(current_watchers, known_watchers, "watchers", repo_name):
+                watchers_to_save = list(known_watchers)
+            else:
+                new_watchers = current_watchers - known_watchers
+                for watcher in watchers:
+                    if watcher["login"] in new_watchers:
+                        if not is_first_run:
+                            msg = f"👀 [{watcher['login']}]({watcher['html_url']}) watching [{repo['name']}]({repo['url']}) ({repo['watchers_count']} 👀) ([?](https://github.com/netresearch/maint))"
+                            pending_notifications.append(msg)
+                            print(f"Watch: {watcher['login']} -> {repo_name}")
+                        total_new["watchers"] += 1
+                watchers_to_save = list(current_watchers)
+        else:
+            watchers_to_save = list(known_watchers)
 
         # Dependents (repositories using this repo)
-        dependents = get_dependents(repo_name)
         known_dependents = set(repo_state.get("dependents", []))
-
-        # Only process dependents if fetch succeeded (not None)
-        # If fetch failed, preserve existing known_dependents in state
+        dependents = get_dependents(repo_name)
         if dependents is not None:
             current_dependents = {d["full_name"] for d in dependents}
-            new_dependents = current_dependents - known_dependents
-
-            for dependent in dependents:
-                if dependent["full_name"] in new_dependents:
-                    # Only notify if not first run AND dependents were already being tracked for this repo
-                    if not is_first_run and had_dependents_tracking:
-                        msg = f"📦 [{dependent['full_name']}]({dependent['url']}) is now using [{repo['name']}]({repo['url']}) ({dependent['stars']} ⭐, {dependent['forks']} 🍴) ([?](https://github.com/netresearch/maint))"
-                        pending_notifications.append(msg)
-                        print(f"Dependent: {dependent['full_name']} -> {repo_name}")
-                    total_new["dependents"] += 1
-            dependents_to_save = list(current_dependents)
+            if is_suspicious_empty(current_dependents, known_dependents, "dependents", repo_name):
+                dependents_to_save = list(known_dependents)
+            else:
+                new_dependents = current_dependents - known_dependents
+                for dependent in dependents:
+                    if dependent["full_name"] in new_dependents:
+                        # Only notify if not first run AND dependents were already being tracked for this repo
+                        if not is_first_run and had_dependents_tracking:
+                            msg = f"📦 [{dependent['full_name']}]({dependent['url']}) is now using [{repo['name']}]({repo['url']}) ({dependent['stars']} ⭐, {dependent['forks']} 🍴) ([?](https://github.com/netresearch/maint))"
+                            pending_notifications.append(msg)
+                            print(f"Dependent: {dependent['full_name']} -> {repo_name}")
+                        total_new["dependents"] += 1
+                dependents_to_save = list(current_dependents)
         else:
-            # Fetch failed - preserve existing state
             dependents_to_save = list(known_dependents)
 
         # Update state
         if "repos" not in state:
             state["repos"] = {}
         state["repos"][repo_name] = {
-            "stars": list(current_stars),
-            "forks": list(current_forks),
-            "watchers": list(current_watchers),
+            "stars": stars_to_save,
+            "forks": forks_to_save,
+            "watchers": watchers_to_save,
             "dependents": dependents_to_save,
         }
 
