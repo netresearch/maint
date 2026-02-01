@@ -18,6 +18,9 @@ STATE_FILE = Path("state/stars-state.json")
 MAX_NOTIFICATIONS = 20
 FEED_URL = "https://github.com/netresearch/maint/actions/workflows/star-notifications.yml"
 
+# In-memory cache for user details (login -> user info dict)
+_user_cache: dict[str, dict] = {}
+
 
 def github_request(url: str, accept: str = "application/vnd.github+json", max_retries: int = 3) -> list | dict:
     """Make authenticated GitHub API request with retry logic for transient errors."""
@@ -60,6 +63,55 @@ def github_request(url: str, accept: str = "application/vnd.github+json", max_re
                 raise last_error
             response.raise_for_status()
     return results
+
+
+def get_user_details(login: str) -> dict | None:
+    """Get detailed user info (name, company, followers) with caching.
+
+    Returns:
+        dict with keys: login, name, company, followers, html_url
+        None if fetch failed
+    """
+    if login in _user_cache:
+        return _user_cache[login]
+
+    try:
+        user = github_request(f"{GITHUB_API}/users/{login}")
+        details = {
+            "login": login,
+            "name": user.get("name"),
+            "company": user.get("company"),
+            "followers": user.get("followers", 0),
+            "html_url": user.get("html_url", f"https://github.com/{login}"),
+        }
+        _user_cache[login] = details
+        return details
+    except requests.exceptions.RequestException as e:
+        print(f"Failed to get user details for {login}: {e}")
+        return None
+
+
+def format_user_info(login: str, html_url: str) -> str:
+    """Format user info string: 'login (Name, @Company, N 👥)' with link."""
+    details = get_user_details(login)
+    if not details:
+        return f"[{login}]({html_url})"
+
+    parts = []
+    # Add real name if different from login
+    if details["name"] and details["name"].lower() != login.lower():
+        parts.append(details["name"])
+    # Add company if present
+    if details["company"]:
+        company = details["company"].strip()
+        if not company.startswith("@"):
+            company = f"@{company}"
+        parts.append(company)
+    # Always add followers
+    parts.append(f"{details['followers']} 👥")
+
+    info = ", ".join(parts)
+    return f"[{login}]({details['html_url']}) ({info})"
 
 
 def get_org_repos() -> list[dict]:
@@ -261,7 +313,8 @@ def main():
                     user = stargazer["user"]
                     if user["login"] in new_stars:
                         if not is_first_run:
-                            msg = f"⭐ [{user['login']}]({user['html_url']}) starred [{repo['name']}]({repo['url']}) ({repo['stargazers_count']} ⭐) ([?](https://github.com/netresearch/maint))"
+                            user_info = format_user_info(user["login"], user["html_url"])
+                            msg = f"⭐ [{repo['name']}]({repo['url']}) starred by {user_info} ([?](https://github.com/netresearch/maint))"
                             pending_notifications.append(msg)
                             print(f"Star: {user['login']} -> {repo_name}")
                         total_new["stars"] += 1
@@ -282,7 +335,9 @@ def main():
                     owner = fork["owner"]
                     if owner["login"] in new_forks:
                         if not is_first_run:
-                            msg = f"🍴 [{owner['login']}]({owner['html_url']}) forked [{repo['name']}]({repo['url']}) ({repo['forks_count']} 🍴) ([?](https://github.com/netresearch/maint))"
+                            user_info = format_user_info(owner["login"], owner["html_url"])
+                            fork_url = fork.get("html_url", f"https://github.com/{fork['full_name']}")
+                            msg = f"🍴 [{repo['name']}]({repo['url']}) forked by {user_info} → [{fork['full_name']}]({fork_url}) ([?](https://github.com/netresearch/maint))"
                             pending_notifications.append(msg)
                             print(f"Fork: {owner['login']} -> {repo_name}")
                         total_new["forks"] += 1
@@ -302,7 +357,8 @@ def main():
                 for watcher in watchers:
                     if watcher["login"] in new_watchers:
                         if not is_first_run:
-                            msg = f"👀 [{watcher['login']}]({watcher['html_url']}) watching [{repo['name']}]({repo['url']}) ({repo['watchers_count']} 👀) ([?](https://github.com/netresearch/maint))"
+                            user_info = format_user_info(watcher["login"], watcher["html_url"])
+                            msg = f"👀 [{repo['name']}]({repo['url']}) watched by {user_info} ([?](https://github.com/netresearch/maint))"
                             pending_notifications.append(msg)
                             print(f"Watch: {watcher['login']} -> {repo_name}")
                         total_new["watchers"] += 1
@@ -323,7 +379,7 @@ def main():
                     if dependent["full_name"] in new_dependents:
                         # Only notify if not first run AND dependents were already being tracked for this repo
                         if not is_first_run and had_dependents_tracking:
-                            msg = f"📦 [{dependent['full_name']}]({dependent['url']}) is now using [{repo['name']}]({repo['url']}) ({dependent['stars']} ⭐, {dependent['forks']} 🍴) ([?](https://github.com/netresearch/maint))"
+                            msg = f"📦 [{repo['name']}]({repo['url']}) new dependent: [{dependent['full_name']}]({dependent['url']}) ({dependent['stars']} ⭐, {dependent['forks']} 🍴) ([?](https://github.com/netresearch/maint))"
                             pending_notifications.append(msg)
                             print(f"Dependent: {dependent['full_name']} -> {repo_name}")
                         total_new["dependents"] += 1
