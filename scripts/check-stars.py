@@ -403,9 +403,9 @@ def main():
         try:
             notify_matrix(msg)
             notifications_sent += 1
-        except Exception as e:
+        except requests.exceptions.RequestException as e:
             notification_errors += 1
-            print(f"Failed to send Matrix notification: {e}")
+            print(f"Failed to send Matrix notification. Error: {type(e).__name__}")
             # After first failure, skip remaining notifications (webhook likely down)
             if notification_errors == 1:
                 print("Matrix webhook appears unreachable, skipping remaining notifications")
@@ -417,9 +417,9 @@ def main():
         summary = f"📊 +{remaining} more events. [See full log]({FEED_URL}) ([?](https://github.com/netresearch/maint))"
         try:
             notify_matrix(summary)
-        except Exception as e:
+        except requests.exceptions.RequestException as e:
             notification_errors += 1
-            print(f"Failed to send Matrix summary: {e}")
+            print(f"Failed to send Matrix summary. Error: {type(e).__name__}")
         print(f"Truncated: {remaining} additional notifications not sent")
 
     # Always save state, even if notifications failed - prevents re-detecting
