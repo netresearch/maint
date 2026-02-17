@@ -397,18 +397,33 @@ def main():
             "dependents": dependents_to_save,
         }
 
-    # Send notifications (limited)
+    # Send notifications (limited) - errors must not prevent state saving
+    notification_errors = 0
     for msg in pending_notifications[:MAX_NOTIFICATIONS]:
-        notify_matrix(msg)
-        notifications_sent += 1
+        try:
+            notify_matrix(msg)
+            notifications_sent += 1
+        except Exception as e:
+            notification_errors += 1
+            print(f"Failed to send Matrix notification: {e}")
+            # After first failure, skip remaining notifications (webhook likely down)
+            if notification_errors == 1:
+                print("Matrix webhook appears unreachable, skipping remaining notifications")
+                break
 
     # If there are more, send a summary
     remaining = len(pending_notifications) - MAX_NOTIFICATIONS
-    if remaining > 0:
+    if remaining > 0 and notification_errors == 0:
         summary = f"📊 +{remaining} more events. [See full log]({FEED_URL}) ([?](https://github.com/netresearch/maint))"
-        notify_matrix(summary)
+        try:
+            notify_matrix(summary)
+        except Exception as e:
+            notification_errors += 1
+            print(f"Failed to send Matrix summary: {e}")
         print(f"Truncated: {remaining} additional notifications not sent")
 
+    # Always save state, even if notifications failed - prevents re-detecting
+    # the same changes on the next run
     save_state(state)
 
     if is_first_run:
@@ -420,6 +435,8 @@ def main():
     else:
         print(f"Found: {total_new['stars']} star(s), {total_new['forks']} fork(s), {total_new['watchers']} watcher(s), {total_new['dependents']} dependent(s)")
         print(f"Sent: {notifications_sent} notification(s)")
+        if notification_errors > 0:
+            print(f"Warning: {notification_errors} notification(s) failed to send")
 
 
 if __name__ == "__main__":
