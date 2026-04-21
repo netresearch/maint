@@ -32,6 +32,71 @@ Monitors all public repositories in the netresearch organization for new stars a
 
 The first run indexes existing stars without sending notifications to avoid spam.
 
+### Impact Dashboard
+
+**File:** `.github/workflows/impact-dashboard.yml`
+
+Collects community-impact metrics for all non-archived `t3x-*` (TYPO3 extensions)
+and `*-skill` (Agent Skills) repositories in the org, renders a static dashboard,
+and publishes it to the `gh-pages` branch.
+
+**Schedule:** Daily at 03:00 UTC
+
+**Manual trigger:** Yes (via Actions tab → "Run workflow")
+
+**URL:** `https://netresearch.github.io/maint/` (once GitHub Pages is enabled on the `gh-pages` branch).
+
+#### What gets collected
+
+Per repo — lifetime and last 30 days where meaningful:
+
+- Metadata: language, license, topics, homepage, created/updated timestamps
+- Stars, forks, watchers, network count
+- Issues (open / closed, opened in 30d)
+- Pull requests (open / merged / closed-unmerged, opened and merged in 30d)
+- Releases (count, latest release, total asset downloads)
+- Contributors (total, external = not in public org members, top 10)
+- Commits (lifetime on default branch, last 30 days)
+- Packagist downloads (total / monthly / daily) for PHP repos with a `composer.json`
+- Traffic (clones, views, top referrers, top paths) — **last 14 days only**, requires PAT
+
+Aggregate totals and 90 days of daily snapshots feed the time-series charts.
+
+#### What is deliberately not collected
+
+- **Dependents**: GitHub exposes no API for `/network/dependents`. Skipped.
+- **GHCR container pulls**: no public download counter.
+- **TER downloads (extensions.typo3.org)**: no stable public API; Packagist stats are a reasonable proxy for TYPO3 extensions installed via composer.
+
+#### Secrets
+
+| Secret | Required | Description |
+|--------|----------|-------------|
+| `GITHUB_TOKEN` | Automatic | Provided by Actions; covers all core metrics. |
+| `IMPACT_DASHBOARD_PAT` | Optional | Classic PAT with `repo` scope **or** fine-grained token with `Administration: Read` on the target repos. Required for traffic (clones/views/referrers). Without it, the dashboard shows core metrics only and flags "traffic disabled". |
+
+#### One-time setup
+
+1. **Add the PAT secret** (optional but recommended for traffic):
+   - Create a PAT at <https://github.com/settings/tokens> with `repo` scope, or a fine-grained token on the `netresearch` org with `Administration: Read` on the relevant repos.
+   - Add as `IMPACT_DASHBOARD_PAT` under Settings → Secrets → Actions in this repo.
+2. **Run the workflow once manually** (Actions tab → Impact Dashboard → Run workflow). This creates the `gh-pages` branch and the first snapshot.
+3. **Enable GitHub Pages**: Settings → Pages → Source = "Deploy from a branch", Branch = `gh-pages`, Path = `/ (root)`.
+4. **Lifetime traffic**: GitHub's traffic API only returns the trailing 14 days. A lifetime total is therefore only as old as the first successful run — the pipeline accumulates it via daily snapshots going forward.
+
+#### How the "blast radius" score is computed
+
+A coarse single-number community-participation indicator, per repo:
+
+```
+blast_radius = external_contributors × 3
+             + total_issues
+             + prs_merged
+             + forks × 2
+```
+
+Weighted toward outside-the-org involvement. Compare repos relative to each other; absolute values are not meaningful on their own.
+
 ## Adding New Automation Tasks
 
 1. Create workflow in `.github/workflows/`
