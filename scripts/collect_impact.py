@@ -114,11 +114,14 @@ def count_commits_since(full_name: str, since_iso: str | None = None) -> int:
 # ---- repo discovery -------------------------------------------------------
 
 
-def classify(name: str) -> str | None:
+def classify(repo: dict) -> str | None:
+    name = repo.get("name", "")
     if name.startswith("t3x-"):
         return "typo3-extension"
     if name.endswith("-skill"):
         return "skill"
+    if repo.get("language") == "Go":
+        return "go-project"
     return None
 
 
@@ -128,7 +131,7 @@ def list_target_repos() -> list[dict]:
     for r in repos:
         if r.get("archived") or r.get("private"):
             continue
-        category = classify(r["name"])
+        category = classify(r)
         if category is None:
             continue
         r["_category"] = category
@@ -390,6 +393,15 @@ def collect_repo(repo: dict, org_members: set[str], container_map: dict[str, lis
     name = repo["name"]
     print(f"[{name}] collecting", file=sys.stderr)
 
+    # The /orgs/{org}/repos list endpoint returns a simplified repo object
+    # without subscribers_count or network_count. Fetch the full object.
+    try:
+        full_repo = gh_get(f"{GITHUB_API}/repos/{full}").json()
+        repo = {**repo, **full_repo, "_category": repo["_category"]}
+    except requests.RequestException as e:
+        status = e.response.status_code if isinstance(e, requests.HTTPError) and e.response is not None else type(e).__name__
+        print(f"  full repo fetch failed ({status}), using list data", file=sys.stderr)
+
     issue_pr = fetch_issue_pr_counts(full)
     releases = fetch_releases(full)
     contribs = fetch_contributors(full, org_members)
@@ -438,6 +450,7 @@ def collect_repo(repo: dict, org_members: set[str], container_map: dict[str, lis
             "open_issues_plus_prs": repo.get("open_issues_count", 0),
             "commits": commits_total,
             **{k: v for k, v in issue_pr.items() if not k.endswith("_30d")},
+            "issues_total": issue_pr["issues_open"] + issue_pr["issues_closed"],
             "releases": releases["releases"],
             "release_downloads": releases["release_downloads"],
             "contributors": contribs["contributors"],
@@ -488,6 +501,7 @@ def aggregate_totals(repos: list[dict]) -> dict:
         "commits": sum_of(("lifetime", "commits")),
         "issues_open": sum_of(("lifetime", "issues_open")),
         "issues_closed": sum_of(("lifetime", "issues_closed")),
+        "issues": sum_of(("lifetime", "issues_total")),
         "prs_open": sum_of(("lifetime", "prs_open")),
         "prs_merged": sum_of(("lifetime", "prs_merged")),
         "releases": sum_of(("lifetime", "releases")),

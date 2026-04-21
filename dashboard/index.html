@@ -10,7 +10,7 @@
   <header class="site-header">
     <div class="container">
       <h1>Netresearch Open Source Impact</h1>
-      <p class="subtitle">TYPO3 extensions &amp; AI agent skills on <a href="https://github.com/netresearch">github.com/netresearch</a></p>
+      <p class="subtitle">TYPO3 extensions, AI agent skills &amp; Go projects on <a href="https://github.com/netresearch">github.com/netresearch</a></p>
       <p id="meta" class="meta">Loading…</p>
     </div>
   </header>
@@ -42,6 +42,7 @@
         <input type="search" id="repo-filter" placeholder="Filter repos…" aria-label="Filter repositories">
         <label><input type="checkbox" id="filter-t3x" checked> TYPO3 extensions</label>
         <label><input type="checkbox" id="filter-skill" checked> Skills</label>
+        <label><input type="checkbox" id="filter-go" checked> Go projects</label>
       </div>
       <div class="table-wrap">
         <table id="repo-table">
@@ -53,7 +54,7 @@
               <th data-sort="forks" class="num">Forks</th>
               <th data-sort="contributors" class="num">Contrib.</th>
               <th data-sort="external_contributors" class="num">External</th>
-              <th data-sort="issues_open" class="num">Issues</th>
+              <th data-sort="issues_total" class="num" title="Open + closed">Issues</th>
               <th data-sort="prs_merged" class="num">PRs merged</th>
               <th data-sort="releases" class="num">Releases</th>
               <th data-sort="commits_30d" class="num">Commits 30d</th>
@@ -84,7 +85,10 @@
     </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"
+          integrity="sha384-9nhczxUqK87bcKHh20fSQcTGD4qq5GhayNYSYWqwBkINBhOfQLg/P5HG5lF1urn4"
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"></script>
   <script src="assets/dashboard.js"></script>
 </body>
 </html>
