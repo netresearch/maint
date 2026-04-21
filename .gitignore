@@ -1,4 +1,15 @@
+# Python
 __pycache__/
-*.pyc
-build/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Temporary files
+/tmp/
+
+# State files (handled as artifacts)
 state/
+
+# Impact dashboard build output (published to gh-pages, not tracked on main)
+build/
