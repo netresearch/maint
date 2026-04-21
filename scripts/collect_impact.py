@@ -390,6 +390,15 @@ def collect_repo(repo: dict, org_members: set[str], container_map: dict[str, lis
     name = repo["name"]
     print(f"[{name}] collecting", file=sys.stderr)
 
+    # The /orgs/{org}/repos list endpoint returns a simplified repo object
+    # without subscribers_count or network_count. Fetch the full object.
+    try:
+        full_repo = gh_get(f"{GITHUB_API}/repos/{full}").json()
+        repo = {**repo, **full_repo, "_category": repo["_category"]}
+    except requests.HTTPError as e:
+        status = e.response.status_code if e.response is not None else "?"
+        print(f"  full repo fetch failed (HTTP {status}), using list data", file=sys.stderr)
+
     issue_pr = fetch_issue_pr_counts(full)
     releases = fetch_releases(full)
     contribs = fetch_contributors(full, org_members)
