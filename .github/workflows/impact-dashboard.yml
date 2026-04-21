@@ -1,0 +1,65 @@
+name: Impact Dashboard
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Daily at 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write   # Required to push to gh-pages
+  packages: read    # For GHCR container package enumeration (best effort)
+
+concurrency:
+  group: impact-dashboard
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v5.1.0
+
+      - name: Checkout existing gh-pages (best effort)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v5.1.0
+        with:
+          ref: gh-pages
+          path: gh-pages
+        continue-on-error: true
+
+      - name: Seed build dir with previous snapshots and history
+        run: |
+          mkdir -p build
+          if [ -d gh-pages/data ]; then
+            cp -r gh-pages/data build/
+            echo "Seeded build/ with $(find build/data -type f | wc -l) existing files."
+          else
+            echo "No previous gh-pages data — starting fresh."
+          fi
+
+      - name: Setup Python
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.0.0
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Collect impact metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IMPACT_DASHBOARD_PAT: ${{ secrets.IMPACT_DASHBOARD_PAT }}
+          ORG_NAME: netresearch
+          OUTPUT_DIR: build
+        run: python scripts/collect_impact.py
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e  # v4.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages
+          keep_files: true
+          commit_message: 'chore(dashboard): update impact metrics'
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'

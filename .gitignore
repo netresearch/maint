@@ -10,3 +10,6 @@ __pycache__/
 
 # State files (handled as artifacts)
 state/
+
+# Impact dashboard build output (published to gh-pages, not tracked on main)
+build/
