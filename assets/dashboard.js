@@ -10,7 +10,7 @@
       ['contributors', 'Contributors'],
       ['external_contributors', 'External contrib.'],
       ['dependents_repos', 'Used by (repos)'],
-      ['issues_closed', 'Issues closed'],
+      ['issues', 'Issues (all)'],
       ['prs_merged', 'PRs merged'],
       ['releases', 'Releases'],
       ['commits', 'Commits'],
@@ -36,6 +36,14 @@
   function esc(s) {
     return String(s ?? '').replace(/[&<>"']/g, c => ESC_MAP[c]);
   }
+
+  const CATEGORY_META = {
+    'typo3-extension': { cls: 'typo3', label: 'TYPO3' },
+    'skill': { cls: 'skill', label: 'Skill' },
+    'go-project': { cls: 'go', label: 'Go' },
+  };
+  function categoryPillClass(cat) { return (CATEGORY_META[cat] || { cls: '' }).cls; }
+  function categoryPillLabel(cat) { return (CATEGORY_META[cat] || { label: cat || '?' }).label; }
 
   async function loadJSON(path) {
     const res = await fetch(path, { cache: 'no-cache' });
@@ -84,14 +92,17 @@
   }
 
   function renderCategoryCards() {
-    const t3x = state.snapshot.repos.filter(r => r.category === 'typo3-extension');
-    const skills = state.snapshot.repos.filter(r => r.category === 'skill');
+    const groups = [
+      { key: 'typo3-extension', title: 'TYPO3 extensions', cls: 'typo3' },
+      { key: 'skill', title: 'Skills', cls: 'skill' },
+      { key: 'go-project', title: 'Go projects', cls: 'go' },
+    ];
 
     function card(title, cls, repos) {
       const sum = (path) => repos.reduce((acc, r) => acc + (r[path[0]]?.[path[1]] ?? 0), 0);
       return `
         <div class="card">
-          <h3><span class="pill ${cls}">${title}</span> · ${repos.length} repos</h3>
+          <h3><span class="pill ${cls}">${esc(title)}</span> · ${repos.length} repos</h3>
           <div class="stat"><span>Stars</span><span>${fmt(sum(['lifetime', 'stars']))}</span></div>
           <div class="stat"><span>Forks</span><span>${fmt(sum(['lifetime', 'forks']))}</span></div>
           <div class="stat"><span>Contributors</span><span>${fmt(sum(['lifetime', 'contributors']))}</span></div>
@@ -104,8 +115,9 @@
         </div>`;
     }
 
-    document.getElementById('category-cards').innerHTML =
-      card('TYPO3 extensions', 'typo3', t3x) + card('Skills', 'skill', skills);
+    document.getElementById('category-cards').innerHTML = groups
+      .map(g => card(g.title, g.cls, state.snapshot.repos.filter(r => r.category === g.key)))
+      .join('');
   }
 
   function renderCharts() {
@@ -165,10 +177,12 @@
     const filter = document.getElementById('repo-filter').value.toLowerCase();
     const showT3x = document.getElementById('filter-t3x').checked;
     const showSkill = document.getElementById('filter-skill').checked;
+    const showGo = document.getElementById('filter-go').checked;
 
     let rows = state.snapshot.repos.filter(r => {
       if (r.category === 'typo3-extension' && !showT3x) return false;
       if (r.category === 'skill' && !showSkill) return false;
+      if (r.category === 'go-project' && !showGo) return false;
       if (filter && !r.name.toLowerCase().includes(filter) && !(r.description || '').toLowerCase().includes(filter)) return false;
       return true;
     });
@@ -180,9 +194,11 @@
         va = (a[k] || '').toString(); vb = (b[k] || '').toString();
         return state.sortDir * va.localeCompare(vb);
       }
+      const issuesTotal = (r) => (r.lifetime?.issues_open ?? 0) + (r.lifetime?.issues_closed ?? 0);
       if (k === 'commits_30d') { va = a.recent_30d?.commits ?? 0; vb = b.recent_30d?.commits ?? 0; }
       else if (k === 'blast_radius') { va = a.blast_radius ?? 0; vb = b.blast_radius ?? 0; }
       else if (k === 'dependents_repos') { va = a.lifetime?.dependents_repos ?? 0; vb = b.lifetime?.dependents_repos ?? 0; }
+      else if (k === 'issues_total') { va = issuesTotal(a); vb = issuesTotal(b); }
       else { va = a.lifetime?.[k] ?? 0; vb = b.lifetime?.[k] ?? 0; }
       return state.sortDir * (va - vb);
     });
@@ -191,14 +207,14 @@
       <tr data-name="${esc(r.name)}">
         <td>
           <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>
-          <span class="pill ${r.category === 'typo3-extension' ? 'typo3' : 'skill'}">${r.category === 'typo3-extension' ? 'TYPO3' : 'Skill'}</span>
+          <span class="pill ${categoryPillClass(r.category)}">${categoryPillLabel(r.category)}</span>
         </td>
         <td>${esc(r.language || '—')}</td>
         <td class="num">${fmt(r.lifetime.stars)}</td>
         <td class="num">${fmt(r.lifetime.forks)}</td>
         <td class="num">${fmt(r.lifetime.contributors)}</td>
         <td class="num">${fmt(r.lifetime.external_contributors)}</td>
-        <td class="num">${fmt(r.lifetime.issues_open)}</td>
+        <td class="num" title="open: ${fmt(r.lifetime.issues_open)} · closed: ${fmt(r.lifetime.issues_closed)}">${fmt((r.lifetime.issues_open ?? 0) + (r.lifetime.issues_closed ?? 0))}</td>
         <td class="num">${fmt(r.lifetime.prs_merged)}</td>
         <td class="num">${fmt(r.lifetime.releases)}</td>
         <td class="num">${fmt(r.recent_30d.commits)}</td>
@@ -301,6 +317,7 @@
     document.getElementById('repo-filter').addEventListener('input', renderTable);
     document.getElementById('filter-t3x').addEventListener('change', renderTable);
     document.getElementById('filter-skill').addEventListener('change', renderTable);
+    document.getElementById('filter-go').addEventListener('change', renderTable);
 
     document.querySelector('#repo-table tbody').addEventListener('click', (e) => {
       const tr = e.target.closest('tr[data-name]');

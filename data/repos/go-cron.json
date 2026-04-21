@@ -1,0 +1,215 @@
+{
+  "name": "go-cron",
+  "full_name": "netresearch/go-cron",
+  "url": "https://github.com/netresearch/go-cron",
+  "description": "Go cron job scheduler \u2014 drop-in replacement for robfig/cron with runtime updates, resilience middleware, and active maintenance",
+  "language": "Go",
+  "category": "go-project",
+  "license": "MIT",
+  "topics": [
+    "circuit-breaker",
+    "cron",
+    "cron-expression",
+    "cron-jobs",
+    "cron-parser",
+    "crontab",
+    "go",
+    "gocron",
+    "golang",
+    "job-scheduler",
+    "middleware",
+    "rate-limiting",
+    "robfig-cron",
+    "robfig-cron-alternative",
+    "scheduler",
+    "task-scheduler"
+  ],
+  "homepage": "",
+  "default_branch": "main",
+  "created_at": "2025-11-25T07:26:55Z",
+  "pushed_at": "2026-04-20T15:22:05Z",
+  "updated_at": "2026-04-20T15:22:32Z",
+  "composer_name": null,
+  "lifetime": {
+    "stars": 36,
+    "forks": 5,
+    "watchers": 3,
+    "network": 1695,
+    "open_issues_plus_prs": 10,
+    "commits": 564,
+    "issues_open": 10,
+    "issues_closed": 185,
+    "prs_open": 0,
+    "prs_merged": 167,
+    "prs_closed_unmerged": 6,
+    "issues_total": 195,
+    "releases": 15,
+    "release_downloads": 84,
+    "contributors": 30,
+    "external_contributors": 29,
+    "packagist_downloads": 0,
+    "ghcr_downloads": 0,
+    "dependents_repos": 17,
+    "dependents_packages": 22
+  },
+  "recent_30d": {
+    "commits": 60,
+    "issues_opened": 4,
+    "prs_opened": 24,
+    "prs_merged": 22,
+    "releases": 2,
+    "packagist_downloads": 0,
+    "ghcr_downloads": 0
+  },
+  "traffic_14d": {
+    "clones_total": 1254,
+    "clones_unique": 296,
+    "views_total": 202,
+    "views_unique": 98,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 65,
+        "uniques": 32
+      },
+      {
+        "referrer": "Google",
+        "count": 23,
+        "uniques": 16
+      },
+      {
+        "referrer": "pkg.go.dev",
+        "count": 4,
+        "uniques": 3
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/go-cron",
+        "title": "Overview",
+        "count": 91,
+        "uniques": 72
+      },
+      {
+        "path": "/netresearch/go-cron/issues/357",
+        "title": "/issues/357",
+        "count": 6,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/go-cron/issues",
+        "title": "/issues",
+        "count": 6,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 6,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/discussions",
+        "title": "/discussions",
+        "count": 5,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-cron/pulls",
+        "title": "/pulls",
+        "count": 5,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/issues/355",
+        "title": "/issues/355",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/go-cron/pull/354",
+        "title": "/pull/354",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/go-cron/pull/356",
+        "title": "/pull/356",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/go-cron/pull/358",
+        "title": "/pull/358",
+        "count": 4,
+        "uniques": 4
+      }
+    ]
+  },
+  "latest_release": {
+    "name": "v0.14.0",
+    "tag_name": "v0.14.0",
+    "published_at": "2026-04-16T12:58:39Z",
+    "url": "https://github.com/netresearch/go-cron/releases/tag/v0.14.0"
+  },
+  "top_contributors": [
+    {
+      "login": "CybotTM",
+      "contributions": 404,
+      "url": "https://github.com/CybotTM"
+    },
+    {
+      "login": "robfig",
+      "contributions": 62,
+      "url": "https://github.com/robfig"
+    },
+    {
+      "login": "jrouzierinverse",
+      "contributions": 12,
+      "url": "https://github.com/jrouzierinverse"
+    },
+    {
+      "login": "daft-panda",
+      "contributions": 7,
+      "url": "https://github.com/daft-panda"
+    },
+    {
+      "login": "lukescott",
+      "contributions": 4,
+      "url": "https://github.com/lukescott"
+    },
+    {
+      "login": "soltysh",
+      "contributions": 3,
+      "url": "https://github.com/soltysh"
+    },
+    {
+      "login": "tilinna",
+      "contributions": 3,
+      "url": "https://github.com/tilinna"
+    },
+    {
+      "login": "tdterry",
+      "contributions": 3,
+      "url": "https://github.com/tdterry"
+    },
+    {
+      "login": "cloudfly",
+      "contributions": 3,
+      "url": "https://github.com/cloudfly"
+    },
+    {
+      "login": "DAddYE",
+      "contributions": 2,
+      "url": "https://github.com/DAddYE"
+    }
+  ],
+  "packagist": null,
+  "ghcr": null,
+  "dependents": {
+    "repositories": 17,
+    "packages": 22,
+    "url": "https://github.com/netresearch/go-cron/network/dependents"
+  },
+  "blast_radius": 493
+}
