@@ -68,9 +68,9 @@ Automatically adds new issues and pull requests to the Netresearch TYPO3 project
 
 **File:** `.github/workflows/impact-dashboard.yml`
 
-Collects community-impact metrics for all non-archived `t3x-*` (TYPO3 extensions)
-and `*-skill` (Agent Skills) repositories in the org, renders a static dashboard,
-and publishes it to the `gh-pages` branch.
+Collects community-impact metrics for all non-archived `t3x-*` (TYPO3 extensions),
+`*-skill` (Agent Skills), and Go-language repositories in the org, renders a
+static dashboard, and publishes it to the `gh-pages` branch.
 
 **Schedule:** Daily at 03:00 UTC
 
