@@ -32,6 +32,11 @@
 
   function fmt(n) { return (n === null || n === undefined) ? '—' : nf.format(n); }
 
+  const ESC_MAP = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  function esc(s) {
+    return String(s ?? '').replace(/[&<>"']/g, c => ESC_MAP[c]);
+  }
+
   async function loadJSON(path) {
     const res = await fetch(path, { cache: 'no-cache' });
     if (!res.ok) throw new Error(`failed to load ${path}: ${res.status}`);
@@ -183,12 +188,12 @@
     });
 
     tbody.innerHTML = rows.map(r => `
-      <tr data-name="${r.name}">
+      <tr data-name="${esc(r.name)}">
         <td>
-          <a href="${r.url}" target="_blank" rel="noopener">${r.name}</a>
+          <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>
           <span class="pill ${r.category === 'typo3-extension' ? 'typo3' : 'skill'}">${r.category === 'typo3-extension' ? 'TYPO3' : 'Skill'}</span>
         </td>
-        <td>${r.language || '—'}</td>
+        <td>${esc(r.language || '—')}</td>
         <td class="num">${fmt(r.lifetime.stars)}</td>
         <td class="num">${fmt(r.lifetime.forks)}</td>
         <td class="num">${fmt(r.lifetime.contributors)}</td>
@@ -209,7 +214,7 @@
     if (!r) return;
     const panel = document.getElementById('repo-detail');
     document.getElementById('detail-title').innerHTML =
-      `<a href="${r.url}" target="_blank" rel="noopener">${r.full_name}</a>`;
+      `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.full_name)}</a>`;
 
     const traffic = r.traffic_14d;
     const trafficBlock = traffic ? `
@@ -218,7 +223,7 @@
         <div class="stat"><span>Views (total / unique)</span><span>${fmt(traffic.views_total)} / ${fmt(traffic.views_unique)}</span></div>
         <div class="stat"><span>Clones (total / unique)</span><span>${fmt(traffic.clones_total)} / ${fmt(traffic.clones_unique)}</span></div>
         <div class="stat"><span>Top referrers</span><span></span></div>
-        <ul class="referrer-list">${(traffic.top_referrers || []).map(rf => `<li>${rf.referrer}: ${fmt(rf.count)} views / ${fmt(rf.uniques)} unique</li>`).join('')}</ul>
+        <ul class="referrer-list">${(traffic.top_referrers || []).map(rf => `<li>${esc(rf.referrer)}: ${fmt(rf.count)} views / ${fmt(rf.uniques)} unique</li>`).join('')}</ul>
       </div>` : '<div class="card"><h4>Traffic</h4><p>Traffic data not available (requires PAT with repo scope).</p></div>';
 
     const packagist = r.packagist ? `
@@ -227,7 +232,7 @@
         <div class="stat"><span>Total downloads</span><span>${fmt(r.packagist.total)}</span></div>
         <div class="stat"><span>Monthly</span><span>${fmt(r.packagist.monthly)}</span></div>
         <div class="stat"><span>Daily</span><span>${fmt(r.packagist.daily)}</span></div>
-        <p><a href="${r.packagist.url}" target="_blank" rel="noopener">${r.packagist.name}</a></p>
+        <p><a href="${esc(r.packagist.url)}" target="_blank" rel="noopener">${esc(r.packagist.name)}</a></p>
       </div>` : '';
 
     const ghcr = r.ghcr ? `
@@ -235,7 +240,7 @@
         <h4>GHCR pulls</h4>
         <div class="stat"><span>Total (lifetime)</span><span>${fmt(r.ghcr.total)}</span></div>
         <div class="stat"><span>Last 30 days</span><span>${fmt(r.ghcr.thirty_day)}</span></div>
-        ${r.ghcr.packages.map(p => `<p><a href="${p.url}" target="_blank" rel="noopener">${p.package}</a>: ${fmt(p.total)} total / ${fmt(p.thirty_day)} 30d</p>`).join('')}
+        ${r.ghcr.packages.map(p => `<p><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.package)}</a>: ${fmt(p.total)} total / ${fmt(p.thirty_day)} 30d</p>`).join('')}
       </div>` : '';
 
     const dependents = r.dependents ? `
@@ -243,25 +248,25 @@
         <h4>Used by (dependents)</h4>
         <div class="stat"><span>Repositories</span><span>${fmt(r.dependents.repositories)}</span></div>
         <div class="stat"><span>Packages</span><span>${fmt(r.dependents.packages)}</span></div>
-        <p><a href="${r.dependents.url}" target="_blank" rel="noopener">View dependents graph →</a></p>
+        <p><a href="${esc(r.dependents.url)}" target="_blank" rel="noopener">View dependents graph →</a></p>
       </div>` : '';
 
     const contributors = `
       <div class="card">
         <h4>Top contributors</h4>
-        ${(r.top_contributors || []).map(c => `<div class="stat"><span><a href="${c.url}" target="_blank" rel="noopener">${c.login}</a></span><span>${fmt(c.contributions)}</span></div>`).join('')}
+        ${(r.top_contributors || []).map(c => `<div class="stat"><span><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.login)}</a></span><span>${fmt(c.contributions)}</span></div>`).join('')}
       </div>`;
 
     const release = r.latest_release ? `
       <div class="card">
         <h4>Latest release</h4>
-        <div class="stat"><span>Tag</span><span><a href="${r.latest_release.url}" target="_blank" rel="noopener">${r.latest_release.tag_name}</a></span></div>
-        <div class="stat"><span>Published</span><span>${r.latest_release.published_at ? new Date(r.latest_release.published_at).toLocaleDateString() : '—'}</span></div>
+        <div class="stat"><span>Tag</span><span><a href="${esc(r.latest_release.url)}" target="_blank" rel="noopener">${esc(r.latest_release.tag_name)}</a></span></div>
+        <div class="stat"><span>Published</span><span>${r.latest_release.published_at ? esc(new Date(r.latest_release.published_at).toLocaleDateString()) : '—'}</span></div>
         <div class="stat"><span>Release downloads (total)</span><span>${fmt(r.lifetime.release_downloads)}</span></div>
       </div>` : '';
 
     document.getElementById('detail-body').innerHTML = `
-      <p>${r.description || ''}</p>
+      <p>${esc(r.description || '')}</p>
       <div class="detail-grid">
         ${contributors}
         ${release}

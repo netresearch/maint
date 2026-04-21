@@ -31,7 +31,6 @@ ORG_NAME = os.environ.get("ORG_NAME", "netresearch")
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "build"))
 CORE_TOKEN = os.environ["GITHUB_TOKEN"]
 TRAFFIC_TOKEN = os.environ.get("IMPACT_DASHBOARD_PAT") or None
-REPO_PATTERNS = [re.compile(r"^t3x-"), re.compile(r"-skill$")]
 SCRAPE_UA = "netresearch-impact-dashboard/1.0 (+https://github.com/netresearch/maint)"
 SCRAPE_HEADERS = {"User-Agent": SCRAPE_UA, "Accept": "text/html"}
 
@@ -51,7 +50,14 @@ def auth_headers(token: str = CORE_TOKEN) -> dict[str, str]:
 def gh_get(url: str, token: str = CORE_TOKEN, allow_status: tuple[int, ...] = ()) -> requests.Response:
     """GET with built-in retry for transient errors and secondary rate limits."""
     for attempt in range(4):
-        r = requests.get(url, headers=auth_headers(token), timeout=30)
+        try:
+            r = requests.get(url, headers=auth_headers(token), timeout=30)
+        except requests.RequestException as e:
+            if attempt < 3:
+                print(f"  network error ({type(e).__name__}), retrying", file=sys.stderr)
+                time.sleep(2 ** attempt)
+                continue
+            raise
         if r.status_code in allow_status:
             return r
         if r.status_code in (403, 429) and "rate limit" in r.text.lower():
@@ -231,7 +237,7 @@ def fetch_packagist(composer_name: str) -> dict | None:
             "url": f"https://packagist.org/packages/{composer_name}",
         }
     except requests.RequestException as e:
-        print(f"  packagist lookup failed for {composer_name}: {e}", file=sys.stderr)
+        print(f"  packagist lookup failed for {composer_name}: {type(e).__name__}", file=sys.stderr)
         return None
 
 
@@ -261,7 +267,7 @@ def scrape_html(url: str) -> str | None:
         r.raise_for_status()
         return r.text
     except requests.RequestException as e:
-        print(f"  scrape failed {url}: {e}", file=sys.stderr)
+        print(f"  scrape failed {url}: {type(e).__name__}", file=sys.stderr)
         return None
 
 
@@ -567,7 +573,8 @@ def main() -> int:
         try:
             collected.append(collect_repo(repo, members, containers))
         except requests.HTTPError as e:
-            print(f"  ERROR {repo['name']}: {e}", file=sys.stderr)
+            status = e.response.status_code if e.response is not None else "?"
+            print(f"  ERROR {repo['name']}: HTTP {status}", file=sys.stderr)
 
     snapshot = {
         "generated_at": NOW.isoformat(timespec="seconds"),
