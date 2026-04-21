@@ -1,0 +1,207 @@
+{
+  "name": "t3x-nr-textdb",
+  "full_name": "netresearch/t3x-nr-textdb",
+  "url": "https://github.com/netresearch/t3x-nr-textdb",
+  "description": "Database-backed translation system for TYPO3 frontend system strings (form labels, buttons, messages). Edit translations in backend, import/export XLIFF, manage 10+ languages with zero deployment friction.",
+  "language": "PHP",
+  "category": "typo3-extension",
+  "license": "GPL-3.0",
+  "topics": [
+    "backend",
+    "database",
+    "i18n",
+    "l10n",
+    "localization",
+    "multilingual",
+    "php",
+    "translation",
+    "translation-management",
+    "typo3",
+    "typo3-cms",
+    "typo3-extension",
+    "xliff"
+  ],
+  "homepage": "",
+  "default_branch": "main",
+  "created_at": "2023-09-29T09:01:16Z",
+  "pushed_at": "2026-04-17T10:59:24Z",
+  "updated_at": "2026-04-17T10:59:27Z",
+  "composer_name": "netresearch/nr-textdb",
+  "lifetime": {
+    "stars": 1,
+    "forks": 0,
+    "watchers": 0,
+    "network": 0,
+    "open_issues_plus_prs": 9,
+    "commits": 552,
+    "issues_open": 7,
+    "issues_closed": 25,
+    "prs_open": 2,
+    "prs_merged": 39,
+    "prs_closed_unmerged": 19,
+    "releases": 15,
+    "release_downloads": 0,
+    "contributors": 7,
+    "external_contributors": 3,
+    "packagist_downloads": 748,
+    "ghcr_downloads": 0,
+    "dependents_repos": 0,
+    "dependents_packages": 0
+  },
+  "recent_30d": {
+    "commits": 15,
+    "issues_opened": 0,
+    "prs_opened": 4,
+    "prs_merged": 4,
+    "releases": 0,
+    "packagist_downloads": 11,
+    "ghcr_downloads": 0
+  },
+  "traffic_14d": {
+    "clones_total": 422,
+    "clones_unique": 114,
+    "views_total": 87,
+    "views_unique": 7,
+    "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 31,
+        "uniques": 2
+      },
+      {
+        "referrer": "github.com",
+        "count": 17,
+        "uniques": 3
+      },
+      {
+        "referrer": "jira.netresearch.de",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "netresearch.github.io",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-textdb",
+        "title": "Overview",
+        "count": 14,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/issues/31",
+        "title": "/issues/31",
+        "count": 14,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/issues",
+        "title": "/issues",
+        "count": 10,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/releases",
+        "title": "/releases",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/tree/main/Classes/ViewHelpers",
+        "title": "/tree/main/Classes/ViewHelpers",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/issues/30",
+        "title": "/issues/30",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/main/Classes/ViewHelpers/TextdbViewHelper.php",
+        "title": "/blob/main/Classes/ViewHelpers/TextdbViewHelper.php",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/main/Classes/ViewHelpers/TranslateViewHelper.php",
+        "title": "/blob/main/Classes/ViewHelpers/TranslateViewHelper.php",
+        "count": 2,
+        "uniques": 1
+      }
+    ]
+  },
+  "latest_release": {
+    "name": "v3.0.3 - TER Workflow Fix",
+    "tag_name": "v3.0.3",
+    "published_at": "2025-11-27T08:48:09Z",
+    "url": "https://github.com/netresearch/t3x-nr-textdb/releases/tag/v3.0.3"
+  },
+  "top_contributors": [
+    {
+      "login": "CybotTM",
+      "contributions": 441,
+      "url": "https://github.com/CybotTM"
+    },
+    {
+      "login": "magicsunday",
+      "contributions": 67,
+      "url": "https://github.com/magicsunday"
+    },
+    {
+      "login": "renovate[bot]",
+      "contributions": 24,
+      "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "Copilot",
+      "contributions": 9,
+      "url": "https://github.com/apps/copilot-swe-agent"
+    },
+    {
+      "login": "aseemann",
+      "contributions": 4,
+      "url": "https://github.com/aseemann"
+    },
+    {
+      "login": "Gitsko",
+      "contributions": 3,
+      "url": "https://github.com/Gitsko"
+    },
+    {
+      "login": "just-tobi",
+      "contributions": 1,
+      "url": "https://github.com/just-tobi"
+    }
+  ],
+  "packagist": {
+    "name": "netresearch/nr-textdb",
+    "total": 748,
+    "monthly": 11,
+    "daily": 3,
+    "url": "https://packagist.org/packages/netresearch/nr-textdb"
+  },
+  "ghcr": null,
+  "dependents": {
+    "repositories": 0,
+    "packages": 0,
+    "url": "https://github.com/netresearch/t3x-nr-textdb/network/dependents"
+  },
+  "blast_radius": 80
+}

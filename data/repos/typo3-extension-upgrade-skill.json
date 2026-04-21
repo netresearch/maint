@@ -1,0 +1,176 @@
+{
+  "name": "typo3-extension-upgrade-skill",
+  "full_name": "netresearch/typo3-extension-upgrade-skill",
+  "url": "https://github.com/netresearch/typo3-extension-upgrade-skill",
+  "description": "Agent Skill for systematically upgrading TYPO3 extensions to newer LTS versions | Claude Code compatible",
+  "language": "Shell",
+  "category": "skill",
+  "license": "NOASSERTION",
+  "topics": [
+    "agent-skills",
+    "ai-agent",
+    "open-standard"
+  ],
+  "homepage": "",
+  "default_branch": "main",
+  "created_at": "2025-12-06T00:27:24Z",
+  "pushed_at": "2026-04-21T14:02:43Z",
+  "updated_at": "2026-04-19T09:10:49Z",
+  "composer_name": null,
+  "lifetime": {
+    "stars": 5,
+    "forks": 0,
+    "watchers": 0,
+    "network": 0,
+    "open_issues_plus_prs": 2,
+    "commits": 97,
+    "issues_open": 1,
+    "issues_closed": 0,
+    "prs_open": 1,
+    "prs_merged": 18,
+    "prs_closed_unmerged": 0,
+    "releases": 23,
+    "release_downloads": 59,
+    "contributors": 2,
+    "external_contributors": 0,
+    "packagist_downloads": 0,
+    "ghcr_downloads": 0,
+    "dependents_repos": 0,
+    "dependents_packages": 0
+  },
+  "recent_30d": {
+    "commits": 23,
+    "issues_opened": 0,
+    "prs_opened": 5,
+    "prs_merged": 4,
+    "releases": 2,
+    "packagist_downloads": 0,
+    "ghcr_downloads": 0
+  },
+  "traffic_14d": {
+    "clones_total": 1050,
+    "clones_unique": 184,
+    "views_total": 154,
+    "views_unique": 44,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 40,
+        "uniques": 11
+      },
+      {
+        "referrer": "Google",
+        "count": 22,
+        "uniques": 12
+      },
+      {
+        "referrer": "netresearch.github.io",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "referrer": "skills.sh",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "referrer": "statics.teams.cdn.office.net",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "mcpmarket.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill",
+        "title": "Overview",
+        "count": 59,
+        "uniques": 37
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/SKILL.md",
+        "title": "/blob/main/skills/typo3-extension-upgrade/SKILL.md",
+        "count": 16,
+        "uniques": 9
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/issues/14",
+        "title": "/issues/14",
+        "count": 8,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade",
+        "title": "/tree/main/skills/typo3-extension-upgrade",
+        "count": 6,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main",
+        "title": "/tree/main",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/checkpoints.yaml",
+        "title": "/blob/main/skills/typo3-extension-upgrade/checkpoints.yaml",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/references/upgrade-v13-to-v14.md",
+        "title": "/blob/main/skills/typo3-extension-upgrade/references/upgrade-v13-to-v14.md",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/ee12e0e750b6a5e3cc688836c155a4b32abf8210/agents/upgrade-planner.md",
+        "title": "/blob/ee12e0e750b6a5e3cc688836c155a4b32abf8210/agents/upgrade-planner.md",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/ee12e0e750b6a5e3cc688836c155a4b32abf8210/skills/typo3-extension-upgrade/references/upgrade-v11-to-v12.md",
+        "title": "/blob/ee12e0e750b6a5e3cc688836c155a4b32abf8210/skills/typo3-extension-upgrade/references/upgrade-v11-to-v12.md",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/ee12e0e750b6a5e3cc688836c155a4b32abf8210",
+        "title": "/tree/ee12e0e750b6a5e3cc688836c155a4b32abf8210",
+        "count": 3,
+        "uniques": 1
+      }
+    ]
+  },
+  "latest_release": {
+    "name": "v3.5.0",
+    "tag_name": "v3.5.0",
+    "published_at": "2026-04-01T06:38:10Z",
+    "url": "https://github.com/netresearch/typo3-extension-upgrade-skill/releases/tag/v3.5.0"
+  },
+  "top_contributors": [
+    {
+      "login": "CybotTM",
+      "contributions": 96,
+      "url": "https://github.com/CybotTM"
+    },
+    {
+      "login": "renovate[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/renovate"
+    }
+  ],
+  "packagist": null,
+  "ghcr": null,
+  "dependents": {
+    "repositories": 0,
+    "packages": 0,
+    "url": "https://github.com/netresearch/typo3-extension-upgrade-skill/network/dependents"
+  },
+  "blast_radius": 19
+}
