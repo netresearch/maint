@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # Required to push to gh-pages
+  contents: write   # Required to push to gh-pages
+  packages: read    # For GHCR container package enumeration (best effort)
 
 concurrency:
   group: impact-dashboard

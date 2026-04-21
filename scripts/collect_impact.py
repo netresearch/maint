@@ -19,7 +19,6 @@ import os
 import re
 import sys
 import time
-from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote
@@ -27,11 +26,14 @@ from urllib.parse import quote
 import requests
 
 GITHUB_API = "https://api.github.com"
+GITHUB_WEB = "https://github.com"
 ORG_NAME = os.environ.get("ORG_NAME", "netresearch")
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "build"))
 CORE_TOKEN = os.environ["GITHUB_TOKEN"]
 TRAFFIC_TOKEN = os.environ.get("IMPACT_DASHBOARD_PAT") or None
 REPO_PATTERNS = [re.compile(r"^t3x-"), re.compile(r"-skill$")]
+SCRAPE_UA = "netresearch-impact-dashboard/1.0 (+https://github.com/netresearch/maint)"
+SCRAPE_HEADERS = {"User-Agent": SCRAPE_UA, "Accept": "text/html"}
 
 NOW = datetime.now(timezone.utc)
 TODAY = NOW.date().isoformat()
@@ -248,10 +250,133 @@ def fetch_composer_name(full_name: str, default_branch: str) -> str | None:
     return name if isinstance(name, str) and "/" in name else None
 
 
+# ---- HTML scrapers (no public API) ---------------------------------------
+
+
+def scrape_html(url: str) -> str | None:
+    try:
+        r = requests.get(url, headers=SCRAPE_HEADERS, timeout=30, allow_redirects=True)
+        if r.status_code == 404:
+            return None
+        r.raise_for_status()
+        return r.text
+    except requests.RequestException as e:
+        print(f"  scrape failed {url}: {e}", file=sys.stderr)
+        return None
+
+
+def list_org_containers() -> dict[str, list[str]]:
+    """Map repo name -> list of GHCR container package names owned by that repo.
+
+    Requires a token with `read:packages` scope. If unavailable (403), returns
+    an empty map and the collector falls back to probing package URLs per repo.
+    """
+    url = f"{GITHUB_API}/orgs/{ORG_NAME}/packages?package_type=container&per_page=100"
+    try:
+        packages = gh_get_all(url)
+    except requests.HTTPError as e:
+        if e.response is not None and e.response.status_code in (401, 403, 404):
+            print(
+                f"  container listing unavailable ({e.response.status_code}); "
+                "will probe each repo for a package named after it",
+                file=sys.stderr,
+            )
+            return {}
+        raise
+    mapping: dict[str, list[str]] = {}
+    for pkg in packages:
+        repo = (pkg.get("repository") or {}).get("name")
+        name = pkg.get("name")
+        if repo and name:
+            mapping.setdefault(repo, []).append(name)
+    return mapping
+
+
+# Matches: <h3 title="130712">131K</h3> following a "Total downloads" label.
+_GHCR_TOTAL_RE = re.compile(
+    r'Total downloads</span>\s*<h3[^>]*title="(\d+)"',
+    re.DOTALL,
+)
+# Matches the 30-day sparkline block by its aria-label.
+_GHCR_30D_BLOCK_RE = re.compile(
+    r'aria-label="Downloads for the last 30 days".*?</svg>',
+    re.DOTALL,
+)
+_GHCR_MERGE_COUNT_RE = re.compile(r'data-merge-count="(\d+)"')
+
+
+def fetch_ghcr_stats(repo: str, pkg: str) -> dict | None:
+    """Scrape the package overview page for total + last-30-day download counts."""
+    url = f"{GITHUB_WEB}/{ORG_NAME}/{repo}/pkgs/container/{pkg}"
+    html = scrape_html(url)
+    if not html:
+        return None
+    total_m = _GHCR_TOTAL_RE.search(html)
+    block_m = _GHCR_30D_BLOCK_RE.search(html)
+    thirty_day = 0
+    if block_m:
+        thirty_day = sum(int(x) for x in _GHCR_MERGE_COUNT_RE.findall(block_m.group(0)))
+    return {
+        "package": pkg,
+        "url": url,
+        "total": int(total_m.group(1)) if total_m else 0,
+        "thirty_day": thirty_day,
+    }
+
+
+def fetch_ghcr_for_repo(repo: str, pkg_names: list[str]) -> dict | None:
+    """Aggregate GHCR stats across all container packages owned by a repo.
+
+    If pkg_names is empty (no API listing available), probe `{repo}` as the
+    package name (common convention, e.g. netresearch/ofelia publishes `ofelia`).
+    """
+    probe_names = pkg_names or [repo]
+    packages = []
+    for p in probe_names:
+        s = fetch_ghcr_stats(repo, p)
+        if s is not None:
+            packages.append(s)
+    if not packages:
+        return None
+    return {
+        "packages": packages,
+        "total": sum(p["total"] for p in packages),
+        "thirty_day": sum(p["thirty_day"] for p in packages),
+    }
+
+
+# Matches: <a ... dependent_type=REPOSITORY"> ... </svg> 1,234 Repositories
+_DEPENDENTS_REPO_RE = re.compile(
+    r'dependent_type=REPOSITORY"[^>]*>.*?</svg>\s*([\d,]+)\s*Repositories',
+    re.DOTALL,
+)
+_DEPENDENTS_PKG_RE = re.compile(
+    r'dependent_type=PACKAGE"[^>]*>.*?</svg>\s*([\d,]+)\s*Packages',
+    re.DOTALL,
+)
+
+
+def fetch_dependents(full_name: str) -> dict | None:
+    """Scrape /network/dependents for the "Used by" counts (repositories + packages)."""
+    url = f"{GITHUB_WEB}/{full_name}/network/dependents"
+    html = scrape_html(url)
+    if html is None:
+        return None
+
+    def _to_int(m: re.Match | None) -> int:
+        return int(m.group(1).replace(",", "")) if m else 0
+
+    return {
+        "repositories": _to_int(_DEPENDENTS_REPO_RE.search(html)),
+        "packages": _to_int(_DEPENDENTS_PKG_RE.search(html)),
+        "url": url,
+    }
+
+
 # ---- aggregation ----------------------------------------------------------
 
 
-def collect_repo(repo: dict, org_members: set[str]) -> dict:
+def collect_repo(repo: dict, org_members: set[str], container_map: dict[str, list[str]]) -> dict:
     full = repo["full_name"]
     name = repo["name"]
     print(f"[{name}] collecting", file=sys.stderr)
@@ -270,11 +395,15 @@ def collect_repo(repo: dict, org_members: set[str]) -> dict:
         if composer:
             packagist = fetch_packagist(composer)
 
+    ghcr = fetch_ghcr_for_repo(name, container_map.get(name, []))
+    dependents = fetch_dependents(full)
+
     blast_radius = (
         contribs["external_contributors"] * 3
         + issue_pr["issues_open"] + issue_pr["issues_closed"]
         + issue_pr["prs_merged"]
         + repo.get("forks_count", 0) * 2
+        + (dependents or {}).get("repositories", 0) * 2
     )
 
     return {
@@ -305,6 +434,9 @@ def collect_repo(repo: dict, org_members: set[str]) -> dict:
             "contributors": contribs["contributors"],
             "external_contributors": contribs["external_contributors"],
             "packagist_downloads": (packagist or {}).get("total", 0) if packagist else 0,
+            "ghcr_downloads": (ghcr or {}).get("total", 0),
+            "dependents_repos": (dependents or {}).get("repositories", 0),
+            "dependents_packages": (dependents or {}).get("packages", 0),
         },
         "recent_30d": {
             "commits": commits_30d,
@@ -313,11 +445,14 @@ def collect_repo(repo: dict, org_members: set[str]) -> dict:
             "prs_merged": issue_pr["prs_merged_30d"],
             "releases": releases["releases_30d"],
             "packagist_downloads": (packagist or {}).get("monthly", 0) if packagist else 0,
+            "ghcr_downloads": (ghcr or {}).get("thirty_day", 0),
         },
         "traffic_14d": traffic,
         "latest_release": releases["latest"],
         "top_contributors": contribs["top"],
         "packagist": packagist,
+        "ghcr": ghcr,
+        "dependents": dependents,
         "blast_radius": blast_radius,
     }
 
@@ -351,12 +486,16 @@ def aggregate_totals(repos: list[dict]) -> dict:
         "contributors": sum_of(("lifetime", "contributors")),
         "external_contributors": sum_of(("lifetime", "external_contributors")),
         "packagist_downloads": sum_of(("lifetime", "packagist_downloads")),
+        "ghcr_downloads": sum_of(("lifetime", "ghcr_downloads")),
+        "dependents_repos": sum_of(("lifetime", "dependents_repos")),
+        "dependents_packages": sum_of(("lifetime", "dependents_packages")),
         "commits_30d": sum_of(("recent_30d", "commits")),
         "issues_opened_30d": sum_of(("recent_30d", "issues_opened")),
         "prs_opened_30d": sum_of(("recent_30d", "prs_opened")),
         "prs_merged_30d": sum_of(("recent_30d", "prs_merged")),
         "releases_30d": sum_of(("recent_30d", "releases")),
         "packagist_downloads_30d": sum_of(("recent_30d", "packagist_downloads")),
+        "ghcr_downloads_30d": sum_of(("recent_30d", "ghcr_downloads")),
     }
 
 
@@ -419,10 +558,14 @@ def main() -> int:
     members = list_public_members()
     print(f"Known public org members: {len(members)}", file=sys.stderr)
 
+    print("Enumerating org container packages (GHCR)...", file=sys.stderr)
+    containers = list_org_containers()
+    print(f"Container packages discovered: {sum(len(v) for v in containers.values())} across {len(containers)} repos", file=sys.stderr)
+
     collected: list[dict] = []
     for repo in repos:
         try:
-            collected.append(collect_repo(repo, members))
+            collected.append(collect_repo(repo, members, containers))
         except requests.HTTPError as e:
             print(f"  ERROR {repo['name']}: {e}", file=sys.stderr)
 

@@ -9,11 +9,13 @@
       ['forks', 'Forks'],
       ['contributors', 'Contributors'],
       ['external_contributors', 'External contrib.'],
+      ['dependents_repos', 'Used by (repos)'],
       ['issues_closed', 'Issues closed'],
       ['prs_merged', 'PRs merged'],
       ['releases', 'Releases'],
       ['commits', 'Commits'],
       ['packagist_downloads', 'Packagist DL'],
+      ['ghcr_downloads', 'GHCR pulls'],
     ],
     recent_30d: [
       ['commits_30d', 'Commits'],
@@ -22,6 +24,7 @@
       ['prs_merged_30d', 'PRs merged'],
       ['releases_30d', 'Releases'],
       ['packagist_downloads_30d', 'Packagist DL'],
+      ['ghcr_downloads_30d', 'GHCR pulls'],
     ],
   };
 
@@ -90,6 +93,8 @@
           <div class="stat"><span>External contrib.</span><span>${fmt(sum(['lifetime', 'external_contributors']))}</span></div>
           <div class="stat"><span>Releases</span><span>${fmt(sum(['lifetime', 'releases']))}</span></div>
           <div class="stat"><span>Packagist DL</span><span>${fmt(sum(['lifetime', 'packagist_downloads']))}</span></div>
+          <div class="stat"><span>GHCR pulls</span><span>${fmt(sum(['lifetime', 'ghcr_downloads']))}</span></div>
+          <div class="stat"><span>Used by (repos)</span><span>${fmt(sum(['lifetime', 'dependents_repos']))}</span></div>
           <div class="stat"><span>Commits (30d)</span><span>${fmt(sum(['recent_30d', 'commits']))}</span></div>
         </div>`;
     }
@@ -172,6 +177,7 @@
       }
       if (k === 'commits_30d') { va = a.recent_30d?.commits ?? 0; vb = b.recent_30d?.commits ?? 0; }
       else if (k === 'blast_radius') { va = a.blast_radius ?? 0; vb = b.blast_radius ?? 0; }
+      else if (k === 'dependents_repos') { va = a.lifetime?.dependents_repos ?? 0; vb = b.lifetime?.dependents_repos ?? 0; }
       else { va = a.lifetime?.[k] ?? 0; vb = b.lifetime?.[k] ?? 0; }
       return state.sortDir * (va - vb);
     });
@@ -192,6 +198,8 @@
         <td class="num">${fmt(r.lifetime.releases)}</td>
         <td class="num">${fmt(r.recent_30d.commits)}</td>
         <td class="num">${fmt(r.lifetime.packagist_downloads)}</td>
+        <td class="num">${fmt(r.lifetime.ghcr_downloads)}</td>
+        <td class="num">${fmt(r.lifetime.dependents_repos)}</td>
         <td class="num">${fmt(r.blast_radius)}</td>
       </tr>`).join('');
   }
@@ -222,6 +230,22 @@
         <p><a href="${r.packagist.url}" target="_blank" rel="noopener">${r.packagist.name}</a></p>
       </div>` : '';
 
+    const ghcr = r.ghcr ? `
+      <div class="card">
+        <h4>GHCR pulls</h4>
+        <div class="stat"><span>Total (lifetime)</span><span>${fmt(r.ghcr.total)}</span></div>
+        <div class="stat"><span>Last 30 days</span><span>${fmt(r.ghcr.thirty_day)}</span></div>
+        ${r.ghcr.packages.map(p => `<p><a href="${p.url}" target="_blank" rel="noopener">${p.package}</a>: ${fmt(p.total)} total / ${fmt(p.thirty_day)} 30d</p>`).join('')}
+      </div>` : '';
+
+    const dependents = r.dependents ? `
+      <div class="card">
+        <h4>Used by (dependents)</h4>
+        <div class="stat"><span>Repositories</span><span>${fmt(r.dependents.repositories)}</span></div>
+        <div class="stat"><span>Packages</span><span>${fmt(r.dependents.packages)}</span></div>
+        <p><a href="${r.dependents.url}" target="_blank" rel="noopener">View dependents graph →</a></p>
+      </div>` : '';
+
     const contributors = `
       <div class="card">
         <h4>Top contributors</h4>
@@ -242,6 +266,8 @@
         ${contributors}
         ${release}
         ${packagist}
+        ${ghcr}
+        ${dependents}
         ${trafficBlock}
       </div>`;
     panel.hidden = false;

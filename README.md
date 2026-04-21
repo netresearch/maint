@@ -58,22 +58,29 @@ Per repo — lifetime and last 30 days where meaningful:
 - Contributors (total, external = not in public org members, top 10)
 - Commits (lifetime on default branch, last 30 days)
 - Packagist downloads (total / monthly / daily) for PHP repos with a `composer.json`
+- GHCR container pulls (lifetime total + last 30 days, exact numbers) — scraped from the package page (`<h3 title="N">` and the 30-day sparkline's `data-merge-count` bars)
+- Dependents count ("Used by N repositories / N packages") — scraped from `/network/dependents`
 - Traffic (clones, views, top referrers, top paths) — **last 14 days only**, requires PAT
 
 Aggregate totals and 90 days of daily snapshots feed the time-series charts.
 
-#### What is deliberately not collected
+#### Scraped (no stable API)
 
-- **Dependents**: GitHub exposes no API for `/network/dependents`. Skipped.
-- **GHCR container pulls**: no public download counter.
-- **TER downloads (extensions.typo3.org)**: no stable public API; Packagist stats are a reasonable proxy for TYPO3 extensions installed via composer.
+Two metrics rely on HTML scraping of `github.com` — they work today but may break if GitHub changes the DOM:
+
+- **GHCR pulls** — `github.com/<org>/<repo>/pkgs/container/<pkg>` exposes the exact count in a `title` attribute and the 30-day bars as `data-merge-count`. Package name is discovered via `GET /orgs/<org>/packages` (requires `read:packages`) or falls back to assuming `package == repo` name.
+- **Dependents** — `github.com/<org>/<repo>/network/dependents` shows `"N Repositories"` / `"N Packages"` under toggles filtered by `dependent_type`.
+
+Not collected:
+
+- **TER downloads (extensions.typo3.org)** — no stable public API; Packagist stats are a reasonable proxy for TYPO3 extensions installed via composer.
 
 #### Secrets
 
 | Secret | Required | Description |
 |--------|----------|-------------|
 | `GITHUB_TOKEN` | Automatic | Provided by Actions; covers all core metrics. |
-| `IMPACT_DASHBOARD_PAT` | Optional | Classic PAT with `repo` scope **or** fine-grained token with `Administration: Read` on the target repos. Required for traffic (clones/views/referrers). Without it, the dashboard shows core metrics only and flags "traffic disabled". |
+| `IMPACT_DASHBOARD_PAT` | Optional | Fine-grained PAT on the `netresearch` org with `Administration: Read` (for traffic) and optionally `Packages: Read` (to enumerate GHCR packages exactly instead of falling back to name-based probing). Or a classic PAT with `repo` + `read:packages` scopes. Without this secret, traffic is omitted; GHCR still works for repos whose container package name matches the repo name. |
 
 #### One-time setup
 
@@ -93,6 +100,7 @@ blast_radius = external_contributors × 3
              + total_issues
              + prs_merged
              + forks × 2
+             + dependents_repos × 2
 ```
 
 Weighted toward outside-the-org involvement. Compare repos relative to each other; absolute values are not meaningful on their own.
