@@ -281,9 +281,12 @@ def list_org_containers() -> dict[str, list[str]]:
     try:
         packages = gh_get_all(url)
     except requests.HTTPError as e:
-        if e.response is not None and e.response.status_code in (401, 403, 404):
+        # Any 4xx on this endpoint means the token can't list org packages;
+        # we always have a probe fallback so this is never a hard error.
+        status = e.response.status_code if e.response is not None else "?"
+        if isinstance(status, int) and 400 <= status < 500:
             print(
-                f"  container listing unavailable ({e.response.status_code}); "
+                f"  container listing unavailable (HTTP {status}); "
                 "will probe each repo for a package named after it",
                 file=sys.stderr,
             )
