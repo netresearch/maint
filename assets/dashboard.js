@@ -1,7 +1,7 @@
 (() => {
   'use strict';
 
-  const state = { scope: 'lifetime', snapshot: null, history: null, sortKey: 'stars', sortDir: -1 };
+  const state = { scope: 'lifetime', snapshot: null, history: null, sortKey: 'stars', sortDir: -1, categoryFilter: {} };
 
   const KPI_FIELDS = {
     lifetime: [
@@ -37,13 +37,21 @@
     return String(s ?? '').replace(/[&<>"']/g, c => ESC_MAP[c]);
   }
 
-  const CATEGORY_META = {
-    'typo3-extension': { cls: 'typo3', label: 'TYPO3' },
-    'skill': { cls: 'skill', label: 'Skill' },
-    'go-project': { cls: 'go', label: 'Go' },
+  // Filled from snapshot.categories at load time; exposes both the long label
+  // (used in cards / filter checkboxes) and a short pill label.
+  const SHORT_LABELS = {
+    'typo3-extension': 'TYPO3',
+    'skill': 'Skill',
+    'go-project': 'Go',
+    'commerce': 'Commerce',
+    'ansible': 'Ansible',
+    'tool': 'Tool',
   };
-  function categoryPillClass(cat) { return (CATEGORY_META[cat] || { cls: '' }).cls; }
-  function categoryPillLabel(cat) { return (CATEGORY_META[cat] || { label: cat || '?' }).label; }
+  let CATEGORY_META = {};
+
+  function categoryPillClass(cat) { return (CATEGORY_META[cat] || {}).pill || ''; }
+  function categoryPillLabel(cat) { return SHORT_LABELS[cat] || cat || '?'; }
+  function categoryFullLabel(cat) { return (CATEGORY_META[cat] || {}).label || cat; }
 
   async function loadJSON(path) {
     const res = await fetch(path, { cache: 'no-cache' });
@@ -64,12 +72,23 @@
       return;
     }
 
+    CATEGORY_META = state.snapshot.categories || {};
+    Object.keys(CATEGORY_META).forEach(k => { state.categoryFilter[k] = true; });
+
     renderMeta();
+    renderCategoryFilters();
     renderKPIs();
     renderCategoryCards();
     renderCharts();
     renderTable();
     attachHandlers();
+  }
+
+  function renderCategoryFilters() {
+    const el = document.getElementById('category-filters');
+    el.innerHTML = Object.keys(CATEGORY_META).map(k => `
+      <label><input type="checkbox" data-cat="${esc(k)}" ${state.categoryFilter[k] ? 'checked' : ''}>
+        ${esc(categoryFullLabel(k))}</label>`).join(' ');
   }
 
   function renderMeta() {
@@ -92,11 +111,11 @@
   }
 
   function renderCategoryCards() {
-    const groups = [
-      { key: 'typo3-extension', title: 'TYPO3 extensions', cls: 'typo3' },
-      { key: 'skill', title: 'Skills', cls: 'skill' },
-      { key: 'go-project', title: 'Go projects', cls: 'go' },
-    ];
+    const groups = Object.keys(CATEGORY_META).map(k => ({
+      key: k,
+      title: categoryFullLabel(k),
+      cls: categoryPillClass(k),
+    }));
 
     function card(title, cls, repos) {
       const sum = (path) => repos.reduce((acc, r) => acc + (r[path[0]]?.[path[1]] ?? 0), 0);
@@ -175,14 +194,9 @@
   function renderTable() {
     const tbody = document.querySelector('#repo-table tbody');
     const filter = document.getElementById('repo-filter').value.toLowerCase();
-    const showT3x = document.getElementById('filter-t3x').checked;
-    const showSkill = document.getElementById('filter-skill').checked;
-    const showGo = document.getElementById('filter-go').checked;
 
     let rows = state.snapshot.repos.filter(r => {
-      if (r.category === 'typo3-extension' && !showT3x) return false;
-      if (r.category === 'skill' && !showSkill) return false;
-      if (r.category === 'go-project' && !showGo) return false;
+      if (state.categoryFilter[r.category] === false) return false;
       if (filter && !r.name.toLowerCase().includes(filter) && !(r.description || '').toLowerCase().includes(filter)) return false;
       return true;
     });
@@ -190,26 +204,34 @@
     rows.sort((a, b) => {
       const k = state.sortKey;
       let va, vb;
-      if (k === 'name' || k === 'language') {
-        va = (a[k] || '').toString(); vb = (b[k] || '').toString();
-        return state.sortDir * va.localeCompare(vb);
+      if (k === 'name') {
+        return state.sortDir * (a.name || '').localeCompare(b.name || '');
       }
       const issuesTotal = (r) => (r.lifetime?.issues_open ?? 0) + (r.lifetime?.issues_closed ?? 0);
       if (k === 'commits_30d') { va = a.recent_30d?.commits ?? 0; vb = b.recent_30d?.commits ?? 0; }
       else if (k === 'blast_radius') { va = a.blast_radius ?? 0; vb = b.blast_radius ?? 0; }
       else if (k === 'dependents_repos') { va = a.lifetime?.dependents_repos ?? 0; vb = b.lifetime?.dependents_repos ?? 0; }
       else if (k === 'issues_total') { va = issuesTotal(a); vb = issuesTotal(b); }
+      else if (k === 'clones_14d') { va = a.traffic_14d?.clones_total ?? 0; vb = b.traffic_14d?.clones_total ?? 0; }
+      else if (k === 'views_14d')  { va = a.traffic_14d?.views_total  ?? 0; vb = b.traffic_14d?.views_total  ?? 0; }
       else { va = a.lifetime?.[k] ?? 0; vb = b.lifetime?.[k] ?? 0; }
       return state.sortDir * (va - vb);
     });
 
-    tbody.innerHTML = rows.map(r => `
+    tbody.innerHTML = rows.map(r => {
+      const t = r.traffic_14d;
+      const clonesCell = t
+        ? `<td class="num" title="total: ${fmt(t.clones_total)} · unique: ${fmt(t.clones_unique)}">${fmt(t.clones_total)}<span class="muted"> / ${fmt(t.clones_unique)}</span></td>`
+        : `<td class="num muted">—</td>`;
+      const viewsCell = t
+        ? `<td class="num" title="total: ${fmt(t.views_total)} · unique: ${fmt(t.views_unique)}">${fmt(t.views_total)}<span class="muted"> / ${fmt(t.views_unique)}</span></td>`
+        : `<td class="num muted">—</td>`;
+      return `
       <tr data-name="${esc(r.name)}">
         <td>
           <a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a>
-          <span class="pill ${categoryPillClass(r.category)}">${categoryPillLabel(r.category)}</span>
+          <span class="pill ${categoryPillClass(r.category)}">${esc(categoryPillLabel(r.category))}</span>
         </td>
-        <td>${esc(r.language || '—')}</td>
         <td class="num">${fmt(r.lifetime.stars)}</td>
         <td class="num">${fmt(r.lifetime.forks)}</td>
         <td class="num">${fmt(r.lifetime.contributors)}</td>
@@ -221,8 +243,11 @@
         <td class="num">${fmt(r.lifetime.packagist_downloads)}</td>
         <td class="num">${fmt(r.lifetime.ghcr_downloads)}</td>
         <td class="num">${fmt(r.lifetime.dependents_repos)}</td>
+        ${clonesCell}
+        ${viewsCell}
         <td class="num">${fmt(r.blast_radius)}</td>
-      </tr>`).join('');
+      </tr>`;
+    }).join('');
   }
 
   function renderDetail(name) {
@@ -315,9 +340,12 @@
     });
 
     document.getElementById('repo-filter').addEventListener('input', renderTable);
-    document.getElementById('filter-t3x').addEventListener('change', renderTable);
-    document.getElementById('filter-skill').addEventListener('change', renderTable);
-    document.getElementById('filter-go').addEventListener('change', renderTable);
+    document.getElementById('category-filters').addEventListener('change', (e) => {
+      const cat = e.target?.dataset?.cat;
+      if (!cat) return;
+      state.categoryFilter[cat] = e.target.checked;
+      renderTable();
+    });
 
     document.querySelector('#repo-table tbody').addEventListener('click', (e) => {
       const tr = e.target.closest('tr[data-name]');

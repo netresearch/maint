@@ -1,0 +1,105 @@
+{
+  "name": "ansible-certificates-from-vault",
+  "full_name": "netresearch/ansible-certificates-from-vault",
+  "url": "https://github.com/netresearch/ansible-certificates-from-vault",
+  "description": "Fetch SSL/TLS certificates from Hashicorp's Vault and store them on a host's filesystem.",
+  "language": null,
+  "category": "ansible",
+  "license": "AGPL-3.0",
+  "topics": [
+    "ansible",
+    "hashicorp-vault",
+    "tls-certificates",
+    "vault-secret"
+  ],
+  "homepage": "https://galaxy.ansible.com/netresearch/certificates_from_vault",
+  "default_branch": "master",
+  "created_at": "2019-06-24T07:51:00Z",
+  "pushed_at": "2021-12-28T09:39:42Z",
+  "updated_at": "2026-01-05T15:41:00Z",
+  "composer_name": null,
+  "lifetime": {
+    "stars": 8,
+    "forks": 5,
+    "watchers": 1,
+    "network": 5,
+    "open_issues_plus_prs": 0,
+    "commits": 11,
+    "issues_open": 0,
+    "issues_closed": 0,
+    "prs_open": 0,
+    "prs_merged": 2,
+    "prs_closed_unmerged": 0,
+    "issues_total": 0,
+    "releases": 3,
+    "release_downloads": 0,
+    "contributors": 2,
+    "external_contributors": 1,
+    "packagist_downloads": 0,
+    "ghcr_downloads": 0,
+    "dependents_repos": 0,
+    "dependents_packages": 0
+  },
+  "recent_30d": {
+    "commits": 0,
+    "issues_opened": 0,
+    "prs_opened": 0,
+    "prs_merged": 0,
+    "releases": 0,
+    "packagist_downloads": 0,
+    "ghcr_downloads": 0
+  },
+  "traffic_14d": {
+    "clones_total": 12,
+    "clones_unique": 11,
+    "views_total": 3,
+    "views_unique": 3,
+    "top_referrers": [],
+    "top_paths": [
+      {
+        "path": "/netresearch/ansible-certificates-from-vault",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-certificates-from-vault/discussions",
+        "title": "/discussions",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-certificates-from-vault/issues",
+        "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
+  },
+  "latest_release": {
+    "name": "v3.0.0",
+    "tag_name": "v3.0.0",
+    "published_at": "2021-12-28T09:42:28Z",
+    "url": "https://github.com/netresearch/ansible-certificates-from-vault/releases/tag/v3.0.0"
+  },
+  "top_contributors": [
+    {
+      "login": "tripleawwy",
+      "contributions": 3,
+      "url": "https://github.com/tripleawwy"
+    },
+    {
+      "login": "CybotTM",
+      "contributions": 2,
+      "url": "https://github.com/CybotTM"
+    }
+  ],
+  "packagist": null,
+  "ghcr": null,
+  "dependents": {
+    "repositories": 0,
+    "packages": 0,
+    "url": "https://github.com/netresearch/ansible-certificates-from-vault/network/dependents"
+  },
+  "blast_radius": 15
+}

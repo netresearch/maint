@@ -1,0 +1,208 @@
+{
+  "name": "timetracker",
+  "full_name": "netresearch/timetracker",
+  "url": "https://github.com/netresearch/timetracker",
+  "description": "Simple time tracking front end with optional Jira synchronization, AD/LDAP integration and XLSX export.",
+  "language": "JavaScript",
+  "category": "tool",
+  "license": "AGPL-3.0",
+  "topics": [
+    "extjs",
+    "php",
+    "timetracker"
+  ],
+  "homepage": "",
+  "default_branch": "main",
+  "created_at": "2016-05-12T13:47:03Z",
+  "pushed_at": "2026-04-16T11:48:01Z",
+  "updated_at": "2026-04-16T11:48:04Z",
+  "composer_name": null,
+  "lifetime": {
+    "stars": 24,
+    "forks": 27,
+    "watchers": 6,
+    "network": 27,
+    "open_issues_plus_prs": 4,
+    "commits": 1309,
+    "issues_open": 4,
+    "issues_closed": 29,
+    "prs_open": 0,
+    "prs_merged": 170,
+    "prs_closed_unmerged": 74,
+    "issues_total": 33,
+    "releases": 19,
+    "release_downloads": 0,
+    "contributors": 10,
+    "external_contributors": 5,
+    "packagist_downloads": 0,
+    "ghcr_downloads": 6217,
+    "dependents_repos": 0,
+    "dependents_packages": 0
+  },
+  "recent_30d": {
+    "commits": 26,
+    "issues_opened": 0,
+    "prs_opened": 11,
+    "prs_merged": 10,
+    "releases": 0,
+    "packagist_downloads": 0,
+    "ghcr_downloads": 634
+  },
+  "traffic_14d": {
+    "clones_total": 123,
+    "clones_unique": 51,
+    "views_total": 39,
+    "views_unique": 10,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 11,
+        "uniques": 5
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/timetracker",
+        "title": "Overview",
+        "count": 11,
+        "uniques": 9
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/phpstan-baseline.neon",
+        "title": "/blob/main/phpstan-baseline.neon",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/commits/main/phpstan-baseline.neon",
+        "title": "/commits/main/phpstan-baseline.neon",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/070bd3308c947ba898a1ae8cb3aa2b18a5b6a2c1/docs/adr/ADR-001-php-8-4-symfony-7-3-selection.md",
+        "title": "/blob/070bd3308c947ba898a1ae8cb3aa2b18a5b6a2c1/docs/adr/ADR-001-php-8-4-symfony-7-3-selection.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/070bd3308c947ba898a1ae8cb3aa2b18a5b6a2c1/docs/adr/ADR-010-repository-pattern-refactoring.md",
+        "title": "/blob/070bd3308c947ba898a1ae8cb3aa2b18a5b6a2c1/docs/adr/ADR-010-repository-pattern-refactoring.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/070bd3308c947ba898a1ae8cb3aa2b18a5b6a2c1/docs/adr/ADR-012-performance-optimization-strategy.md",
+        "title": "/blob/070bd3308c947ba898a1ae8cb3aa2b18a5b6a2c1/docs/adr/ADR-012-performance-optimization-strategy.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/95835844d7e2d8eb1a1129dcb17ec4de392d6e54/docs/adr/ADR-005-caching-strategy.md",
+        "title": "/blob/95835844d7e2d8eb1a1129dcb17ec4de392d6e54/docs/adr/ADR-005-caching-strategy.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/d3798729020273c90e230bfbdd78fd03717026db/docs/adr/ADR-006-testing-philosophy.md",
+        "title": "/blob/d3798729020273c90e230bfbdd78fd03717026db/docs/adr/ADR-006-testing-philosophy.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/d3798729020273c90e230bfbdd78fd03717026db/docs/adr/ADR-007-api-design-patterns.md",
+        "title": "/blob/d3798729020273c90e230bfbdd78fd03717026db/docs/adr/ADR-007-api-design-patterns.md",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
+  },
+  "latest_release": {
+    "name": "v5.0.0-alpha4",
+    "tag_name": "v5.0.0-alpha4",
+    "published_at": "2025-08-30T18:35:54Z",
+    "url": "https://github.com/netresearch/timetracker/releases/tag/v5.0.0-alpha4"
+  },
+  "top_contributors": [
+    {
+      "login": "CybotTM",
+      "contributions": 1010,
+      "url": "https://github.com/CybotTM"
+    },
+    {
+      "login": "cweiske",
+      "contributions": 91,
+      "url": "https://github.com/cweiske"
+    },
+    {
+      "login": "tivvie",
+      "contributions": 63,
+      "url": "https://github.com/tivvie"
+    },
+    {
+      "login": "just-tobi",
+      "contributions": 29,
+      "url": "https://github.com/just-tobi"
+    },
+    {
+      "login": "dependabot[bot]",
+      "contributions": 22,
+      "url": "https://github.com/apps/dependabot"
+    },
+    {
+      "login": "renovate[bot]",
+      "contributions": 15,
+      "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 12,
+      "url": "https://github.com/apps/github-actions"
+    },
+    {
+      "login": "vergissberlin",
+      "contributions": 1,
+      "url": "https://github.com/vergissberlin"
+    },
+    {
+      "login": "bergo",
+      "contributions": 1,
+      "url": "https://github.com/bergo"
+    },
+    {
+      "login": "Copilot",
+      "contributions": 1,
+      "url": "https://github.com/apps/copilot-swe-agent"
+    }
+  ],
+  "packagist": null,
+  "ghcr": {
+    "packages": [
+      {
+        "package": "timetracker",
+        "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
+        "total": 6217,
+        "thirty_day": 634
+      }
+    ],
+    "total": 6217,
+    "thirty_day": 634
+  },
+  "dependents": {
+    "repositories": 0,
+    "packages": 0,
+    "url": "https://github.com/netresearch/timetracker/network/dependents"
+  },
+  "blast_radius": 272
+}
