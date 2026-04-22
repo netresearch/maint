@@ -68,9 +68,19 @@ Automatically adds new issues and pull requests to the Netresearch TYPO3 project
 
 **File:** `.github/workflows/impact-dashboard.yml`
 
-Collects community-impact metrics for all non-archived `t3x-*` (TYPO3 extensions),
-`*-skill` (Agent Skills), and Go-language repositories in the org, renders a
-static dashboard, and publishes it to the `gh-pages` branch.
+Collects community-impact metrics for repositories listed in
+[`config/dashboard-repos.yaml`](config/dashboard-repos.yaml), renders a static
+dashboard, and publishes it to the `gh-pages` branch.
+
+The config combines two mechanisms:
+
+- **Patterns** auto-include every non-archived public repo whose name matches
+  a prefix/suffix or whose primary language matches a value (today: `t3x-*`,
+  `*-skill`, language `Go`).
+- **`include`** explicitly adds individual repos by name and assigns them to a
+  category. This is how the Commerce, Ansible, and Tools categories are
+  populated. Add or remove entries here in a PR — the workflow picks them up
+  on the next run.
 
 **Schedule:** Daily at 03:00 UTC
 

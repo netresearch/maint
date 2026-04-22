@@ -10,7 +10,7 @@
   <header class="site-header">
     <div class="container">
       <h1>Netresearch Open Source Impact</h1>
-      <p class="subtitle">TYPO3 extensions, AI agent skills &amp; Go projects on <a href="https://github.com/netresearch">github.com/netresearch</a></p>
+      <p class="subtitle">Open-source impact across <a href="https://github.com/netresearch">github.com/netresearch</a> — TYPO3 extensions, agent skills, Go projects, commerce integrations, Ansible roles &amp; tools.</p>
       <p id="meta" class="meta">Loading…</p>
     </div>
   </header>
@@ -40,16 +40,13 @@
       <h2>Repositories</h2>
       <div class="filter-bar">
         <input type="search" id="repo-filter" placeholder="Filter repos…" aria-label="Filter repositories">
-        <label><input type="checkbox" id="filter-t3x" checked> TYPO3 extensions</label>
-        <label><input type="checkbox" id="filter-skill" checked> Skills</label>
-        <label><input type="checkbox" id="filter-go" checked> Go projects</label>
+        <span id="category-filters"></span>
       </div>
       <div class="table-wrap">
         <table id="repo-table">
           <thead>
             <tr>
               <th data-sort="name">Repo</th>
-              <th data-sort="language">Lang</th>
               <th data-sort="stars" class="num">★</th>
               <th data-sort="forks" class="num">Forks</th>
               <th data-sort="contributors" class="num">Contrib.</th>
@@ -61,6 +58,8 @@
               <th data-sort="packagist_downloads" class="num">Packagist</th>
               <th data-sort="ghcr_downloads" class="num">GHCR</th>
               <th data-sort="dependents_repos" class="num">Used by</th>
+              <th data-sort="clones_14d" class="num" title="Last 14 days · total / unique on hover">Clones 14d</th>
+              <th data-sort="views_14d" class="num" title="Last 14 days · total / unique on hover">Views 14d</th>
               <th data-sort="blast_radius" class="num">Blast radius</th>
             </tr>
           </thead>
