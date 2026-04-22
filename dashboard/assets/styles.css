@@ -202,9 +202,14 @@ tbody tr { cursor: pointer; }
   letter-spacing: .04em;
 }
 
-.pill.typo3 { background: rgba(47, 153, 164, 0.18); color: var(--nr-teal); }
-.pill.skill { background: rgba(255, 77, 0, 0.18); color: var(--nr-orange); }
-.pill.go { background: rgba(0, 173, 216, 0.18); color: #00ADD8; }
+.pill.typo3    { background: rgba(47, 153, 164, 0.18); color: var(--nr-teal); }
+.pill.skill    { background: rgba(255, 77, 0, 0.18);   color: var(--nr-orange); }
+.pill.go       { background: rgba(0, 173, 216, 0.18);  color: #00ADD8; }
+.pill.commerce { background: rgba(255, 193, 7, 0.18);  color: #FFC107; }
+.pill.ansible  { background: rgba(238, 0, 0, 0.18);    color: #EE0000; }
+.pill.tool     { background: rgba(154, 160, 166, 0.22); color: var(--fg-muted); }
+
+.muted { color: var(--fg-muted); }
 
 #repo-detail {
   margin-top: 2rem;

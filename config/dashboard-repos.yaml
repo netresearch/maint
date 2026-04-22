@@ -1,0 +1,97 @@
+# Repos covered by the impact dashboard.
+#
+# `patterns` adds every non-archived public repo whose name matches one of the
+# rules. `include` adds specific repos by name (and lets you assign them to a
+# category that wouldn't be picked up by a pattern). A repo can appear in both;
+# the `include` entry's category wins.
+
+patterns:
+  - { match: prefix,   value: "t3x-",   category: typo3-extension }
+  - { match: suffix,   value: "-skill", category: skill }
+  - { match: language, value: "Go",     category: go-project }
+
+# Pretty labels and per-category UI metadata used by the dashboard.
+categories:
+  typo3-extension: { label: "TYPO3 extensions",       pill: typo3 }
+  skill:           { label: "Agent Skills",           pill: skill }
+  go-project:      { label: "Go projects",            pill: go }
+  commerce:        { label: "Commerce integrations",  pill: commerce }
+  ansible:         { label: "Ansible roles",          pill: ansible }
+  tool:            { label: "Tools & libraries",      pill: tool }
+
+include:
+  # ---- Commerce: DHL ----
+  - { name: dhl-lib-shipping-mx,                         category: commerce }
+  - { name: dhl-module-carrier-ecom-us,                  category: commerce }
+  - { name: dhl-module-carrier-paket,                    category: commerce }
+  - { name: dhl-module-carrier-paket-returns,            category: commerce }
+  - { name: dhl-module-carrier-update,                   category: commerce }
+  - { name: dhl-module-label-status-m2,                  category: commerce }
+  - { name: dhl-module-shipping-core,                    category: commerce }
+  - { name: dhl-module-shipping-m2,                      category: commerce }
+  - { name: dhl-module-ui,                               category: commerce }
+  - { name: dhl-module-unified-tracking,                 category: commerce }
+  - { name: dhl-module-versenden-m1,                     category: commerce }
+  - { name: dhl-online-retoure-m1,                       category: commerce }
+  - { name: dhl-sdk-api-bcs,                             category: commerce }
+  - { name: dhl-sdk-api-bcs-returns,                     category: commerce }
+  - { name: dhl-sdk-api-location-finder,                 category: commerce }
+  - { name: dhl-sdk-api-parcel-de,                       category: commerce }
+  - { name: dhl-sdk-api-parcel-de-returns,               category: commerce }
+  - { name: dhl-sdk-api-parcel-management,               category: commerce }
+  - { name: dhl-sdk-api-unified-location-finder,         category: commerce }
+  - { name: dhl-sdk-api-unified-tracking,                category: commerce }
+  - { name: dhl-shipping-m2,                             category: commerce }
+  - { name: module-admin-notification-feed,              category: commerce }
+  - { name: module-interactive-batch-processing,         category: commerce }
+  - { name: module-shipping-core,                        category: commerce }
+  - { name: module-shipping-dispatch,                    category: commerce }
+  - { name: module-shipping-inventory,                   category: commerce }
+  - { name: module-shipping-ui,                          category: commerce }
+
+  # ---- Commerce: Deutsche Post ----
+  - { name: deutschepost-module-addressfactory-m1,       category: commerce }
+  - { name: deutschepost-module-addressfactory-m2,       category: commerce }
+  - { name: deutschepost-module-addressfactory-sw6,      category: commerce }
+  - { name: deutschepost-module-autocomplete-m1,         category: commerce }
+  - { name: deutschepost-module-autocomplete-m2,         category: commerce }
+  - { name: deutschepost-module-autocomplete-sw6,        category: commerce }
+  - { name: deutschepost-module-core,                    category: commerce }
+  - { name: deutschepost-module-internetmarke,           category: commerce }
+  - { name: deutschepost-sdk-addressfactory,             category: commerce }
+  - { name: deutschepost-sdk-api-internetmarke,          category: commerce }
+  - { name: deutschepost-sdk-api-prodws,                 category: commerce }
+  - { name: deutschepost-sdk-autocomplete-authentication, category: commerce }
+
+  # ---- Commerce: Postdirekt + standalone SDKs + Magento utilities ----
+  - { name: postdirekt-autocomplete-monorepo,            category: commerce }
+  - { name: sdk-api-central-station,                     category: commerce }
+  - { name: sdk-api-universal-messenger,                 category: commerce }
+  - { name: sdk-eu-vat,                                  category: commerce }
+  - { name: config-fields-m2,                            category: commerce }
+  - { name: magento2-patches,                            category: commerce }
+  - { name: node-magento-eqp,                            category: commerce }
+  - { name: node-red-contrib-magento-eqp,                category: commerce }
+  - { name: oro-hide-unavailable-variants,               category: commerce }
+  - { name: timalytics,                                  category: commerce }
+
+  # ---- Ansible roles & collections ----
+  - { name: ansible-certificates-from-vault,             category: ansible }
+  - { name: ansible-collection-mautic,                   category: ansible }
+  - { name: ansible-role-gitlab-runner,                  category: ansible }
+  - { name: ansible-role-monitoring-client,              category: ansible }
+  - { name: ansible-role-monitoring-server,              category: ansible }
+  - { name: ansible_role_client_base,                    category: ansible }
+  - { name: ansible_role_docker_containers,              category: ansible }
+
+  # ---- Tools & libraries (the strong-pick set) ----
+  - { name: composer-patches-plugin,                     category: tool }
+  - { name: composer-agent-skill-plugin,                 category: tool }
+  - { name: claude-code-marketplace,                     category: tool }
+  - { name: claude-coach-plugin,                         category: tool }
+  - { name: assetpicker,                                 category: tool }
+  - { name: timetracker,                                 category: tool }
+  - { name: timetracker-ui,                              category: tool }
+  - { name: jira-export,                                 category: tool }
+  - { name: jira-to-openproject,                         category: tool }
+  - { name: deploy-rst,                                  category: tool }

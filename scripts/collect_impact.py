@@ -24,6 +24,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 import requests
+import yaml
 
 GITHUB_API = "https://api.github.com"
 GITHUB_WEB = "https://github.com"
@@ -33,6 +34,11 @@ CORE_TOKEN = os.environ["GITHUB_TOKEN"]
 TRAFFIC_TOKEN = os.environ.get("IMPACT_DASHBOARD_PAT") or None
 SCRAPE_UA = "netresearch-impact-dashboard/1.0 (+https://github.com/netresearch/maint)"
 SCRAPE_HEADERS = {"User-Agent": SCRAPE_UA, "Accept": "text/html"}
+
+CONFIG_PATH = Path(os.environ.get(
+    "DASHBOARD_CONFIG",
+    Path(__file__).resolve().parent.parent / "config" / "dashboard-repos.yaml",
+))
 
 NOW = datetime.now(timezone.utc)
 TODAY = NOW.date().isoformat()
@@ -114,30 +120,72 @@ def count_commits_since(full_name: str, since_iso: str | None = None) -> int:
 # ---- repo discovery -------------------------------------------------------
 
 
-def classify(repo: dict) -> str | None:
+def load_config(path: Path = CONFIG_PATH) -> dict:
+    """Read the YAML allow-list/category config."""
+    with path.open() as fh:
+        cfg = yaml.safe_load(fh) or {}
+    cfg.setdefault("patterns", [])
+    cfg.setdefault("include", [])
+    cfg.setdefault("categories", {})
+    return cfg
+
+
+def classify(repo: dict, cfg: dict) -> str | None:
+    """Return the category for a repo, or None if it shouldn't be included.
+
+    Explicit `include` entries take precedence over `patterns`.
+    """
     name = repo.get("name", "")
-    if name.startswith("t3x-"):
-        return "typo3-extension"
-    if name.endswith("-skill"):
-        return "skill"
-    if repo.get("language") == "Go":
-        return "go-project"
+    for entry in cfg["include"]:
+        if entry.get("name") == name:
+            return entry.get("category")
+    for pat in cfg["patterns"]:
+        match = pat.get("match")
+        value = pat.get("value")
+        if match == "prefix" and name.startswith(value):
+            return pat.get("category")
+        if match == "suffix" and name.endswith(value):
+            return pat.get("category")
+        if match == "language" and repo.get("language") == value:
+            return pat.get("category")
     return None
 
 
-def list_target_repos() -> list[dict]:
+def list_target_repos(cfg: dict) -> list[dict]:
+    """List public repos that either match a pattern or are explicitly included.
+
+    Repos in `include` that aren't in the org's public list (deleted/private/
+    archived) are quietly skipped after one extra GET attempt.
+    """
     repos = gh_get_all(f"{GITHUB_API}/orgs/{ORG_NAME}/repos?type=public&per_page=100")
-    selected = []
-    for r in repos:
-        if r.get("archived") or r.get("private"):
-            continue
-        category = classify(r)
+    by_name = {r["name"]: r for r in repos if not (r.get("archived") or r.get("private"))}
+
+    selected: dict[str, dict] = {}
+    for r in by_name.values():
+        category = classify(r, cfg)
         if category is None:
             continue
         r["_category"] = category
-        selected.append(r)
-    selected.sort(key=lambda r: r["name"])
-    return selected
+        selected[r["name"]] = r
+
+    explicit_names = {e["name"] for e in cfg["include"] if "name" in e}
+    for name in explicit_names - selected.keys():
+        try:
+            r = gh_get(f"{GITHUB_API}/repos/{ORG_NAME}/{name}").json()
+        except requests.HTTPError as e:
+            status = e.response.status_code if e.response is not None else "?"
+            print(f"  config repo {name}: not reachable (HTTP {status}), skipping", file=sys.stderr)
+            continue
+        if r.get("archived") or r.get("private"):
+            print(f"  config repo {name}: archived/private, skipping", file=sys.stderr)
+            continue
+        cat = classify(r, cfg)
+        if cat is None:
+            continue
+        r["_category"] = cat
+        selected[name] = r
+
+    return sorted(selected.values(), key=lambda r: r["name"])
 
 
 def list_public_members() -> set[str]:
@@ -573,9 +621,12 @@ def copy_dashboard_assets(base: Path) -> None:
 def main() -> int:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    print(f"Loading config from {CONFIG_PATH}", file=sys.stderr)
+    cfg = load_config()
+
     print(f"Scanning {ORG_NAME} for matching repos...", file=sys.stderr)
-    repos = list_target_repos()
-    print(f"Found {len(repos)} repos (t3x-* + *-skill, non-archived).", file=sys.stderr)
+    repos = list_target_repos(cfg)
+    print(f"Found {len(repos)} repos in dashboard scope.", file=sys.stderr)
 
     print("Loading org public members...", file=sys.stderr)
     members = list_public_members()
@@ -597,6 +648,7 @@ def main() -> int:
         "generated_at": NOW.isoformat(timespec="seconds"),
         "org": ORG_NAME,
         "traffic_available": TRAFFIC_TOKEN is not None,
+        "categories": cfg["categories"],
         "totals": aggregate_totals(collected),
         "repos": collected,
     }

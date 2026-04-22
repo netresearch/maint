@@ -43,7 +43,7 @@ jobs:
           python-version: '3.14'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests pyyaml
 
       - name: Collect impact metrics
         env:
