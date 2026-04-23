@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-10T11:16:02Z",
-  "pushed_at": "2026-04-22T00:45:30Z",
-  "updated_at": "2026-04-22T00:45:34Z",
+  "pushed_at": "2026-04-22T10:53:26Z",
+  "updated_at": "2026-04-22T10:53:29Z",
   "composer_name": null,
   "lifetime": {
     "stars": 0,
@@ -19,14 +19,14 @@
     "watchers": 0,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 35,
+    "commits": 39,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 12,
+    "prs_merged": 14,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
-    "releases": 2,
+    "releases": 3,
     "release_downloads": 0,
     "contributors": 2,
     "external_contributors": 0,
@@ -36,45 +36,51 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 35,
+    "commits": 39,
     "issues_opened": 1,
-    "prs_opened": 12,
-    "prs_merged": 12,
-    "releases": 2,
+    "prs_opened": 14,
+    "prs_merged": 14,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 359,
-    "clones_unique": 76,
-    "views_total": 5,
-    "views_unique": 5,
+    "clones_total": 684,
+    "clones_unique": 162,
+    "views_total": 9,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 3,
-        "uniques": 3
+        "count": 6,
+        "uniques": 5
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/github-release-skill",
         "title": "Overview",
-        "count": 5,
-        "uniques": 5
+        "count": 7,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/github-release-skill/releases",
+        "title": "/releases",
+        "count": 2,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v0.2.0",
-    "tag_name": "v0.2.0",
-    "published_at": "2026-04-16T13:46:03Z",
-    "url": "https://github.com/netresearch/github-release-skill/releases/tag/v0.2.0"
+    "name": "v0.3.0",
+    "tag_name": "v0.3.0",
+    "published_at": "2026-04-22T10:06:11Z",
+    "url": "https://github.com/netresearch/github-release-skill/releases/tag/v0.3.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 34,
+      "contributions": 38,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -90,5 +96,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-release-skill/network/dependents"
   },
-  "blast_radius": 13
+  "blast_radius": 15
 }

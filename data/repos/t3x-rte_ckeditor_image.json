@@ -38,40 +38,35 @@
     "release_downloads": 37,
     "contributors": 50,
     "external_contributors": 44,
-    "packagist_downloads": 1005240,
+    "packagist_downloads": 1006053,
     "ghcr_downloads": 0,
     "dependents_repos": 44,
     "dependents_packages": 3
   },
   "recent_30d": {
-    "commits": 48,
-    "issues_opened": 3,
-    "prs_opened": 35,
-    "prs_merged": 24,
+    "commits": 46,
+    "issues_opened": 1,
+    "prs_opened": 29,
+    "prs_merged": 22,
     "releases": 2,
-    "packagist_downloads": 16994,
+    "packagist_downloads": 16907,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2140,
-    "clones_unique": 341,
-    "views_total": 372,
+    "clones_total": 2051,
+    "clones_unique": 393,
+    "views_total": 359,
     "views_unique": 77,
     "top_referrers": [
       {
-        "referrer": "packagist.org",
-        "count": 62,
-        "uniques": 7
-      },
-      {
         "referrer": "extensions.typo3.org",
-        "count": 61,
-        "uniques": 13
+        "count": 54,
+        "uniques": 11
       },
       {
         "referrer": "Google",
-        "count": 56,
-        "uniques": 16
+        "count": 53,
+        "uniques": 14
       },
       {
         "referrer": "github.com",
@@ -79,13 +74,23 @@
         "uniques": 10
       },
       {
+        "referrer": "packagist.org",
+        "count": 38,
+        "uniques": 6
+      },
+      {
         "referrer": "docs.typo3.org",
-        "count": 5,
+        "count": 6,
         "uniques": 1
       },
       {
         "referrer": "chatgpt.com",
         "count": 4,
+        "uniques": 1
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -103,14 +108,20 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image",
         "title": "Overview",
-        "count": 77,
+        "count": 72,
         "uniques": 43
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues",
         "title": "/issues",
-        "count": 41,
+        "count": 40,
         "uniques": 14
+      },
+      {
+        "path": "/netresearch/t3x-rte_ckeditor_image/releases",
+        "title": "/releases",
+        "count": 17,
+        "uniques": 12
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues/778",
@@ -125,16 +136,10 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/releases",
-        "title": "/releases",
-        "count": 12,
-        "uniques": 11
-      },
-      {
         "path": "/netresearch/t3x-rte_ckeditor_image/pulls",
         "title": "/pulls",
-        "count": 9,
-        "uniques": 8
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues/293",
@@ -149,16 +154,16 @@
         "uniques": 4
       },
       {
+        "path": "/netresearch/t3x-rte_ckeditor_image/issues/291",
+        "title": "/issues/291",
+        "count": 5,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/Resources/Private/Templates/Image/Popup.html",
         "title": "/blob/main/Resources/Private/Templates/Image/Popup.html",
         "count": 5,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/CHANGELOG.md",
-        "title": "/blob/main/CHANGELOG.md",
-        "count": 4,
-        "uniques": 3
       }
     ]
   },
@@ -222,9 +227,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1005240,
-    "monthly": 16994,
-    "daily": 824,
+    "total": 1006053,
+    "monthly": 16907,
+    "daily": 712,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,

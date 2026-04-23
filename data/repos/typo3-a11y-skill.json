@@ -5,28 +5,28 @@
   "description": "WCAG 2.1 AA accessibility patterns for TYPO3 projects",
   "language": null,
   "category": "skill",
-  "license": "MIT",
+  "license": "NOASSERTION",
   "topics": [],
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-08T20:40:10Z",
-  "pushed_at": "2026-04-22T08:01:13Z",
-  "updated_at": "2026-04-21T15:21:11Z",
+  "pushed_at": "2026-04-22T10:53:57Z",
+  "updated_at": "2026-04-22T10:54:00Z",
   "composer_name": null,
   "lifetime": {
     "stars": 0,
     "forks": 0,
     "watchers": 0,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 7,
+    "open_issues_plus_prs": 1,
+    "commits": 13,
     "issues_open": 0,
     "issues_closed": 0,
-    "prs_open": 2,
-    "prs_merged": 1,
+    "prs_open": 1,
+    "prs_merged": 3,
     "prs_closed_unmerged": 0,
     "issues_total": 0,
-    "releases": 0,
+    "releases": 1,
     "release_downloads": 0,
     "contributors": 2,
     "external_contributors": 1,
@@ -36,38 +36,44 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 7,
+    "commits": 13,
     "issues_opened": 0,
-    "prs_opened": 3,
-    "prs_merged": 1,
-    "releases": 0,
+    "prs_opened": 4,
+    "prs_merged": 3,
+    "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 241,
-    "clones_unique": 38,
-    "views_total": 31,
-    "views_unique": 8,
+    "clones_total": 288,
+    "clones_unique": 57,
+    "views_total": 36,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 26,
-        "uniques": 8
+        "count": 31,
+        "uniques": 9
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-a11y-skill",
         "title": "Overview",
-        "count": 10,
-        "uniques": 8
+        "count": 11,
+        "uniques": 9
       },
       {
         "path": "/netresearch/typo3-a11y-skill/tree/main/skills/typo3-a11y",
         "title": "/tree/main/skills/typo3-a11y",
-        "count": 6,
-        "uniques": 4
+        "count": 8,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/typo3-a11y-skill/tree/main/skills/typo3-a11y/references",
+        "title": "/tree/main/skills/typo3-a11y/references",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-a11y-skill/blob/main/skills/typo3-a11y/references/patterns-clickable-cards.md",
@@ -84,12 +90,6 @@
       {
         "path": "/netresearch/typo3-a11y-skill/blob/main/skills/typo3-a11y/references/accessibility.md",
         "title": "/blob/main/skills/typo3-a11y/references/accessibility.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-a11y-skill/tree/main/skills/typo3-a11y/references",
-        "title": "/tree/main/skills/typo3-a11y/references",
         "count": 2,
         "uniques": 2
       },
@@ -112,23 +112,28 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-a11y-skill/commit/2b6efecf0928d9e0acb485d58c41507e1f8a8f99",
-        "title": "/commit/2b6efecf0928d9e0acb485d58c41507e1f8a8f99",
+        "path": "/netresearch/typo3-a11y-skill/blob/main/skills/typo3-a11y/references/patterns-accessible-forms.md",
+        "title": "/blob/main/skills/typo3-a11y/references/patterns-accessible-forms.md",
         "count": 1,
         "uniques": 1
       }
     ]
   },
-  "latest_release": null,
+  "latest_release": {
+    "name": "v1.1.0",
+    "tag_name": "v1.1.0",
+    "published_at": "2026-04-22T10:29:45Z",
+    "url": "https://github.com/netresearch/typo3-a11y-skill/releases/tag/v1.1.0"
+  },
   "top_contributors": [
     {
       "login": "Gitsko",
-      "contributions": 4,
+      "contributions": 8,
       "url": "https://github.com/Gitsko"
     },
     {
       "login": "CybotTM",
-      "contributions": 3,
+      "contributions": 5,
       "url": "https://github.com/CybotTM"
     }
   ],
@@ -139,5 +144,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-a11y-skill/network/dependents"
   },
-  "blast_radius": 4
+  "blast_radius": 6
 }

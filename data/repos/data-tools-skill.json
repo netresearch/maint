@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:20Z",
-  "pushed_at": "2026-04-19T09:03:34Z",
-  "updated_at": "2026-04-19T09:03:37Z",
+  "pushed_at": "2026-04-22T10:53:09Z",
+  "updated_at": "2026-04-22T10:53:13Z",
   "composer_name": null,
   "lifetime": {
     "stars": 0,
@@ -21,14 +21,14 @@
     "watchers": 0,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 44,
+    "commits": 48,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 7,
+    "prs_merged": 9,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
-    "releases": 6,
+    "releases": 7,
     "release_downloads": 19,
     "contributors": 2,
     "external_contributors": 0,
@@ -38,23 +38,23 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 13,
+    "commits": 17,
     "issues_opened": 0,
-    "prs_opened": 2,
-    "prs_merged": 2,
-    "releases": 2,
+    "prs_opened": 4,
+    "prs_merged": 4,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 786,
-    "clones_unique": 161,
+    "clones_total": 744,
+    "clones_unique": 159,
     "views_total": 12,
-    "views_unique": 7,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 11,
+        "count": 10,
         "uniques": 6
       },
       {
@@ -73,33 +73,45 @@
       {
         "path": "/netresearch/data-tools-skill/blob/main/skills/data-tools/SKILL.md",
         "title": "/blob/main/skills/data-tools/SKILL.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/data-tools-skill/tree/main/skills/data-tools",
-        "title": "/tree/main/skills/data-tools",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/data-tools-skill/blob/main/skills/data-tools/references/csv-processing.md",
         "title": "/blob/main/skills/data-tools/references/csv-processing.md",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/data-tools-skill/pull/7/files/0dba0881a9aa2d272f0e4bb5454fcf394d3a5c4a",
+        "title": "/pull/7/files/0dba0881a9aa2d272f0e4bb5454fcf394d3a5c4a",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/data-tools-skill/releases",
+        "title": "/releases",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/data-tools-skill/tree/main/skills/data-tools",
+        "title": "/tree/main/skills/data-tools",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.3.0",
-    "tag_name": "v1.3.0",
-    "published_at": "2026-04-01T09:11:54Z",
-    "url": "https://github.com/netresearch/data-tools-skill/releases/tag/v1.3.0"
+    "name": "v1.3.1",
+    "tag_name": "v1.3.1",
+    "published_at": "2026-04-22T09:59:02Z",
+    "url": "https://github.com/netresearch/data-tools-skill/releases/tag/v1.3.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 43,
+      "contributions": 47,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -115,5 +127,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/data-tools-skill/network/dependents"
   },
-  "blast_radius": 8
+  "blast_radius": 10
 }

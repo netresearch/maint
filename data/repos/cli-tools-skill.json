@@ -20,8 +20,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-29T21:10:49Z",
-  "pushed_at": "2026-04-19T09:03:38Z",
-  "updated_at": "2026-04-19T09:03:42Z",
+  "pushed_at": "2026-04-22T10:52:54Z",
+  "updated_at": "2026-04-22T10:52:58Z",
   "composer_name": null,
   "lifetime": {
     "stars": 4,
@@ -29,14 +29,14 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 89,
+    "commits": 93,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 21,
+    "prs_merged": 23,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
-    "releases": 18,
+    "releases": 19,
     "release_downloads": 48,
     "contributors": 5,
     "external_contributors": 1,
@@ -46,55 +46,49 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 11,
+    "commits": 14,
     "issues_opened": 0,
-    "prs_opened": 2,
-    "prs_merged": 2,
+    "prs_opened": 4,
+    "prs_merged": 4,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 823,
-    "clones_unique": 75,
-    "views_total": 102,
-    "views_unique": 38,
+    "clones_total": 776,
+    "clones_unique": 76,
+    "views_total": 98,
+    "views_unique": 40,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 57,
-        "uniques": 17
+        "count": 59,
+        "uniques": 19
       },
       {
         "referrer": "github.com",
-        "count": 24,
-        "uniques": 9
+        "count": 17,
+        "uniques": 8
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/cli-tools-skill",
         "title": "Overview",
-        "count": 45,
-        "uniques": 36
+        "count": 47,
+        "uniques": 38
       },
       {
         "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools",
         "title": "/tree/main/skills/cli-tools",
-        "count": 10,
-        "uniques": 9
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/SKILL.md",
-        "title": "/blob/main/skills/cli-tools/SKILL.md",
         "count": 9,
         "uniques": 8
       },
       {
-        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools/scripts",
-        "title": "/tree/main/skills/cli-tools/scripts",
-        "count": 5,
-        "uniques": 3
+        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/SKILL.md",
+        "title": "/blob/main/skills/cli-tools/SKILL.md",
+        "count": 8,
+        "uniques": 7
       },
       {
         "path": "/netresearch/cli-tools-skill/releases/tag/v1.6.0",
@@ -103,16 +97,22 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools/scripts/installers",
-        "title": "/tree/main/skills/cli-tools/scripts/installers",
-        "count": 4,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools/references",
         "title": "/tree/main/skills/cli-tools/references",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools/scripts",
+        "title": "/tree/main/skills/cli-tools/scripts",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools/scripts/installers",
+        "title": "/tree/main/skills/cli-tools/scripts/installers",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/cli-tools-skill/issues",
@@ -121,29 +121,29 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/scripts/install_tool.sh",
-        "title": "/blob/main/skills/cli-tools/scripts/install_tool.sh",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/references/resolution-workflow.md",
         "title": "/blob/main/skills/cli-tools/references/resolution-workflow.md",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/blob/main/LICENSE-MIT",
+        "title": "/blob/main/LICENSE-MIT",
+        "count": 1,
         "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.6.0",
-    "tag_name": "v1.6.0",
-    "published_at": "2026-04-01T09:11:43Z",
-    "url": "https://github.com/netresearch/cli-tools-skill/releases/tag/v1.6.0"
+    "name": "v1.6.1",
+    "tag_name": "v1.6.1",
+    "published_at": "2026-04-22T09:58:55Z",
+    "url": "https://github.com/netresearch/cli-tools-skill/releases/tag/v1.6.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 79,
+      "contributions": 83,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -174,5 +174,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/cli-tools-skill/network/dependents"
   },
-  "blast_radius": 27
+  "blast_radius": 29
 }

@@ -19,8 +19,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-30T19:41:25Z",
-  "pushed_at": "2026-04-19T09:10:57Z",
-  "updated_at": "2026-04-19T09:11:00Z",
+  "pushed_at": "2026-04-22T10:52:54Z",
+  "updated_at": "2026-04-22T10:52:57Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
@@ -28,14 +28,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 117,
+    "commits": 121,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 21,
+    "prs_merged": 23,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
-    "releases": 17,
+    "releases": 18,
     "release_downloads": 19,
     "contributors": 4,
     "external_contributors": 0,
@@ -45,23 +45,23 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 25,
+    "commits": 28,
     "issues_opened": 0,
-    "prs_opened": 5,
-    "prs_merged": 5,
+    "prs_opened": 7,
+    "prs_merged": 7,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 625,
+    "clones_total": 607,
     "clones_unique": 75,
-    "views_total": 17,
-    "views_unique": 7,
+    "views_total": 15,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 11,
+        "count": 9,
         "uniques": 2
       }
     ],
@@ -75,20 +75,8 @@
       {
         "path": "/netresearch/automated-assessment-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/automated-assessment-skill/blob/main/skills/automated-assessment/SKILL.md",
-        "title": "/blob/main/skills/automated-assessment/SKILL.md",
         "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/automated-assessment-skill/discussions",
-        "title": "/discussions",
-        "count": 2,
-        "uniques": 2
+        "uniques": 1
       },
       {
         "path": "/netresearch/automated-assessment-skill/tree/main/skills/automated-assessment",
@@ -103,8 +91,26 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/automated-assessment-skill/blob/main/skills/automated-assessment/SKILL.md",
+        "title": "/blob/main/skills/automated-assessment/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/automated-assessment-skill/discussions",
+        "title": "/discussions",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/automated-assessment-skill/pulls",
         "title": "/pulls",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/automated-assessment-skill/releases",
+        "title": "/releases",
         "count": 1,
         "uniques": 1
       },
@@ -117,15 +123,15 @@
     ]
   },
   "latest_release": {
-    "name": "v2.6.0",
-    "tag_name": "v2.6.0",
-    "published_at": "2026-03-30T13:34:37Z",
-    "url": "https://github.com/netresearch/automated-assessment-skill/releases/tag/v2.6.0"
+    "name": "v2.7.0",
+    "tag_name": "v2.7.0",
+    "published_at": "2026-04-22T10:05:12Z",
+    "url": "https://github.com/netresearch/automated-assessment-skill/releases/tag/v2.7.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 112,
+      "contributions": 116,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -151,5 +157,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/automated-assessment-skill/network/dependents"
   },
-  "blast_radius": 22
+  "blast_radius": 24
 }

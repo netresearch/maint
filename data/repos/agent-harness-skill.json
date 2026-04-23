@@ -18,25 +18,25 @@
   "homepage": "https://github.com/netresearch/claude-code-marketplace",
   "default_branch": "main",
   "created_at": "2026-03-22T09:31:51Z",
-  "pushed_at": "2026-04-19T09:03:56Z",
-  "updated_at": "2026-04-19T09:03:59Z",
+  "pushed_at": "2026-04-22T10:55:45Z",
+  "updated_at": "2026-04-22T10:55:48Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 0,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 29,
+    "open_issues_plus_prs": 2,
+    "commits": 35,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 2,
-    "prs_merged": 4,
+    "prs_open": 1,
+    "prs_merged": 7,
     "prs_closed_unmerged": 3,
     "issues_total": 1,
-    "releases": 2,
+    "releases": 3,
     "release_downloads": 0,
-    "contributors": 2,
+    "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -44,29 +44,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 22,
+    "commits": 28,
     "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 4,
-    "releases": 2,
+    "prs_opened": 9,
+    "prs_merged": 7,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 453,
-    "clones_unique": 43,
-    "views_total": 50,
-    "views_unique": 28,
+    "clones_total": 434,
+    "clones_unique": 44,
+    "views_total": 52,
+    "views_unique": 30,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 20,
+        "count": 18,
         "uniques": 5
       },
       {
         "referrer": "Google",
-        "count": 15,
-        "uniques": 10
+        "count": 17,
+        "uniques": 11
       },
       {
         "referrer": "jira.netresearch.de",
@@ -78,20 +78,20 @@
       {
         "path": "/netresearch/agent-harness-skill",
         "title": "Overview",
-        "count": 27,
-        "uniques": 24
-      },
-      {
-        "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/SKILL.md",
-        "title": "/blob/main/skills/agent-harness/SKILL.md",
-        "count": 5,
-        "uniques": 5
+        "count": 29,
+        "uniques": 26
       },
       {
         "path": "/netresearch/agent-harness-skill/tree/main/skills/agent-harness",
         "title": "/tree/main/skills/agent-harness",
         "count": 5,
         "uniques": 5
+      },
+      {
+        "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/SKILL.md",
+        "title": "/blob/main/skills/agent-harness/SKILL.md",
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/agent-harness-skill/blob/main/AGENTS.md",
@@ -138,21 +138,31 @@
     ]
   },
   "latest_release": {
-    "name": "v1.1.0",
-    "tag_name": "v1.1.0",
-    "published_at": "2026-03-30T10:51:12Z",
-    "url": "https://github.com/netresearch/agent-harness-skill/releases/tag/v1.1.0"
+    "name": "v1.2.0",
+    "tag_name": "v1.2.0",
+    "published_at": "2026-04-22T10:02:21Z",
+    "url": "https://github.com/netresearch/agent-harness-skill/releases/tag/v1.2.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 19,
+      "contributions": 23,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "powli",
       "contributions": 10,
       "url": "https://github.com/powli"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/github-actions"
+    },
+    {
+      "login": "renovate[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/renovate"
     }
   ],
   "packagist": null,
@@ -162,5 +172,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/agent-harness-skill/network/dependents"
   },
-  "blast_radius": 5
+  "blast_radius": 8
 }

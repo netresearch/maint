@@ -37,26 +37,44 @@
     "contributors": 4,
     "external_contributors": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 2563,
+    "ghcr_downloads": 2617,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 117,
+    "commits": 115,
     "issues_opened": 1,
-    "prs_opened": 53,
-    "prs_merged": 50,
+    "prs_opened": 52,
+    "prs_merged": 49,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 484
+    "ghcr_downloads": 538
   },
   "traffic_14d": {
-    "clones_total": 2188,
-    "clones_unique": 323,
-    "views_total": 3,
-    "views_unique": 2,
-    "top_referrers": [],
+    "clones_total": 2400,
+    "clones_unique": 354,
+    "views_total": 6,
+    "views_unique": 4,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 2,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/raybeam/pulls",
+        "title": "/pulls",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/raybeam",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/raybeam/commit/c9f37c85711b1e7018dc46e5fb66c7a1c28348be",
         "title": "/commit/c9f37c85711b1e7018dc46e5fb66c7a1c28348be",
@@ -70,8 +88,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/raybeam/pulls",
-        "title": "/pulls",
+        "path": "/netresearch/raybeam/releases",
+        "title": "/releases",
         "count": 1,
         "uniques": 1
       }
@@ -111,12 +129,12 @@
       {
         "package": "raybeam",
         "url": "https://github.com/netresearch/raybeam/pkgs/container/raybeam",
-        "total": 2563,
-        "thirty_day": 484
+        "total": 2617,
+        "thirty_day": 538
       }
     ],
-    "total": 2563,
-    "thirty_day": 484
+    "total": 2617,
+    "thirty_day": 538
   },
   "dependents": {
     "repositories": 0,

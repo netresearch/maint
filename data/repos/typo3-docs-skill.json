@@ -22,8 +22,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T07:02:25Z",
-  "pushed_at": "2026-04-21T15:34:34Z",
-  "updated_at": "2026-04-21T15:35:06Z",
+  "pushed_at": "2026-04-22T10:54:29Z",
+  "updated_at": "2026-04-22T10:54:32Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -31,14 +31,14 @@
     "watchers": 2,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 169,
+    "commits": 173,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 35,
+    "prs_merged": 37,
     "prs_closed_unmerged": 4,
     "issues_total": 2,
-    "releases": 37,
+    "releases": 38,
     "release_downloads": 73,
     "contributors": 2,
     "external_contributors": 0,
@@ -48,24 +48,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 38,
+    "commits": 41,
     "issues_opened": 1,
-    "prs_opened": 13,
-    "prs_merged": 9,
-    "releases": 3,
+    "prs_opened": 15,
+    "prs_merged": 11,
+    "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 836,
-    "clones_unique": 206,
-    "views_total": 61,
-    "views_unique": 32,
+    "clones_total": 920,
+    "clones_unique": 234,
+    "views_total": 85,
+    "views_unique": 40,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 21,
-        "uniques": 12
+        "count": 30,
+        "uniques": 15
       },
       {
         "referrer": "github.com",
@@ -82,25 +82,25 @@
       {
         "path": "/netresearch/typo3-docs-skill",
         "title": "Overview",
-        "count": 46,
-        "uniques": 28
+        "count": 61,
+        "uniques": 35
       },
       {
         "path": "/netresearch/typo3-docs-skill/tree/main/skills/typo3-docs",
         "title": "/tree/main/skills/typo3-docs",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/SKILL.md",
         "title": "/blob/main/skills/typo3-docs/SKILL.md",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-docs-skill/pulls",
         "title": "/pulls",
-        "count": 2,
+        "count": 3,
         "uniques": 2
       },
       {
@@ -112,6 +112,12 @@
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/blob/main/Build/Scripts/check-plugin-version.sh",
+        "title": "/blob/main/Build/Scripts/check-plugin-version.sh",
         "count": 1,
         "uniques": 1
       },
@@ -132,25 +138,19 @@
         "title": "/blob/main/skills/typo3-docs/references/rendering.md",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/discussions",
-        "title": "/discussions",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v2.12.0",
-    "tag_name": "v2.12.0",
-    "published_at": "2026-04-01T08:26:25Z",
-    "url": "https://github.com/netresearch/typo3-docs-skill/releases/tag/v2.12.0"
+    "name": "v2.13.0",
+    "tag_name": "v2.13.0",
+    "published_at": "2026-04-22T10:09:31Z",
+    "url": "https://github.com/netresearch/typo3-docs-skill/releases/tag/v2.13.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 167,
+      "contributions": 171,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -166,5 +166,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-docs-skill/network/dependents"
   },
-  "blast_radius": 37
+  "blast_radius": 39
 }

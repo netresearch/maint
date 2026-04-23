@@ -36,10 +36,10 @@
     "prs_closed_unmerged": 17,
     "issues_total": 14,
     "releases": 16,
-    "release_downloads": 24,
+    "release_downloads": 25,
     "contributors": 12,
     "external_contributors": 8,
-    "packagist_downloads": 11035,
+    "packagist_downloads": 11048,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -50,19 +50,19 @@
     "prs_opened": 2,
     "prs_merged": 2,
     "releases": 1,
-    "packagist_downloads": 222,
+    "packagist_downloads": 205,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 117,
-    "clones_unique": 34,
-    "views_total": 31,
-    "views_unique": 8,
+    "clones_total": 118,
+    "clones_unique": 33,
+    "views_total": 35,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 16,
-        "uniques": 3
+        "count": 18,
+        "uniques": 4
       },
       {
         "referrer": "Google",
@@ -85,8 +85,8 @@
       {
         "path": "/netresearch/t3x-cowriter/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 5,
-        "uniques": 3
+        "count": 6,
+        "uniques": 4
       },
       {
         "path": "/netresearch/t3x-cowriter/blob/main/composer.json",
@@ -99,6 +99,12 @@
         "title": "/issues",
         "count": 3,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
+        "title": "/blob/main/Documentation/Images/CowriterHero.png",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-cowriter/blob/1.2.7/README.md",
@@ -127,12 +133,6 @@
       {
         "path": "/netresearch/t3x-cowriter/blob/HEAD/LICENSE",
         "title": "/blob/HEAD/LICENSE",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
-        "title": "/blob/main/Documentation/Images/CowriterHero.png",
         "count": 1,
         "uniques": 1
       }
@@ -198,9 +198,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 11035,
-    "monthly": 222,
-    "daily": 17,
+    "total": 11048,
+    "monthly": 205,
+    "daily": 11,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,
