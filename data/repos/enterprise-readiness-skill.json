@@ -57,14 +57,19 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 776,
-    "clones_unique": 211,
-    "views_total": 29,
-    "views_unique": 18,
+    "clones_total": 859,
+    "clones_unique": 240,
+    "views_total": 50,
+    "views_unique": 19,
     "top_referrers": [
       {
+        "referrer": "yandex.ru",
+        "count": 20,
+        "uniques": 1
+      },
+      {
         "referrer": "github.com",
-        "count": 6,
+        "count": 7,
         "uniques": 6
       },
       {
@@ -77,25 +82,43 @@
       {
         "path": "/netresearch/enterprise-readiness-skill",
         "title": "Overview",
-        "count": 18,
-        "uniques": 17
-      },
-      {
-        "path": "/netresearch/enterprise-readiness-skill/tree/main/skills/enterprise-readiness",
-        "title": "/tree/main/skills/enterprise-readiness",
-        "count": 3,
-        "uniques": 2
+        "count": 20,
+        "uniques": 18
       },
       {
         "path": "/netresearch/enterprise-readiness-skill/blob/main/skills/enterprise-readiness/SKILL.md",
         "title": "/blob/main/skills/enterprise-readiness/SKILL.md",
-        "count": 2,
-        "uniques": 2
+        "count": 10,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/tree/main/skills/enterprise-readiness",
+        "title": "/tree/main/skills/enterprise-readiness",
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/enterprise-readiness-skill/tree/main/skills/enterprise-readiness/references",
         "title": "/tree/main/skills/enterprise-readiness/references",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/blob/main/skills/enterprise-readiness/checkpoints.yaml",
+        "title": "/blob/main/skills/enterprise-readiness/checkpoints.yaml",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/blame/main/skills/enterprise-readiness/SKILL.md",
+        "title": "/blame/main/skills/enterprise-readiness/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/blame/main/skills/enterprise-readiness/checkpoints.yaml",
+        "title": "/blame/main/skills/enterprise-readiness/checkpoints.yaml",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -113,12 +136,6 @@
       {
         "path": "/netresearch/enterprise-readiness-skill/issues",
         "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/enterprise-readiness-skill/pulls",
-        "title": "/pulls",
         "count": 1,
         "uniques": 1
       }

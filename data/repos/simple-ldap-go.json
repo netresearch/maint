@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-28T08:06:06Z",
-  "pushed_at": "2026-04-22T20:13:20Z",
-  "updated_at": "2026-04-22T20:13:24Z",
+  "pushed_at": "2026-04-23T21:26:10Z",
+  "updated_at": "2026-04-23T21:26:15Z",
   "composer_name": null,
   "lifetime": {
     "stars": 4,
@@ -21,16 +21,16 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 498,
+    "commits": 500,
     "issues_open": 1,
     "issues_closed": 7,
     "prs_open": 0,
-    "prs_merged": 150,
+    "prs_merged": 151,
     "prs_closed_unmerged": 6,
     "issues_total": 8,
     "releases": 20,
     "release_downloads": 6,
-    "contributors": 5,
+    "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -38,23 +38,23 @@
     "dependents_packages": 5
   },
   "recent_30d": {
-    "commits": 128,
+    "commits": 130,
     "issues_opened": 4,
-    "prs_opened": 48,
-    "prs_merged": 44,
+    "prs_opened": 49,
+    "prs_merged": 45,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2969,
-    "clones_unique": 476,
-    "views_total": 38,
-    "views_unique": 17,
+    "clones_total": 3176,
+    "clones_unique": 527,
+    "views_total": 40,
+    "views_unique": 16,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 13,
+        "count": 14,
         "uniques": 9
       },
       {
@@ -72,8 +72,8 @@
       {
         "path": "/netresearch/simple-ldap-go",
         "title": "Overview",
-        "count": 14,
-        "uniques": 13
+        "count": 13,
+        "uniques": 11
       },
       {
         "path": "/netresearch/simple-ldap-go/pull/129",
@@ -91,6 +91,18 @@
         "path": "/netresearch/simple-ldap-go/pulls",
         "title": "/pulls",
         "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/releases",
+        "title": "/releases",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/blob/main/docs/CACHING_GUIDE.md",
+        "title": "/blob/main/docs/CACHING_GUIDE.md",
+        "count": 2,
         "uniques": 1
       },
       {
@@ -114,18 +126,6 @@
       {
         "path": "/netresearch/simple-ldap-go/blob/main/SECURITY.md",
         "title": "/blob/main/SECURITY.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/simple-ldap-go/blob/main/cache.go",
-        "title": "/blob/main/cache.go",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/simple-ldap-go/blob/main/examples/user-management",
-        "title": "/blob/main/examples/user-management",
         "count": 1,
         "uniques": 1
       }
@@ -155,13 +155,18 @@
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 6,
+      "contributions": 7,
       "url": "https://github.com/apps/dependabot"
     },
     {
       "login": "Copilot",
       "contributions": 2,
       "url": "https://github.com/apps/copilot-swe-agent"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/github-actions"
     }
   ],
   "packagist": null,
@@ -171,5 +176,5 @@
     "packages": 5,
     "url": "https://github.com/netresearch/simple-ldap-go/network/dependents"
   },
-  "blast_radius": 171
+  "blast_radius": 172
 }

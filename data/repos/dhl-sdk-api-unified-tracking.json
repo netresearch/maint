@@ -2,18 +2,28 @@
   "name": "dhl-sdk-api-unified-tracking",
   "full_name": "netresearch/dhl-sdk-api-unified-tracking",
   "url": "https://github.com/netresearch/dhl-sdk-api-unified-tracking",
-  "description": "",
+  "description": "SDK to the DHL Unified Shipment Tracking API which provides up-to-the-minute shipment status reports",
   "language": "PHP",
   "category": "commerce",
   "license": "MIT",
   "topics": [
-    "gitlab-mirror"
+    "dhl-api",
+    "dhl-ecommerce",
+    "dhl-express",
+    "dhl-parcel",
+    "dhl-php",
+    "dhl-php-sdk",
+    "dhl-sdk",
+    "gitlab-mirror",
+    "php-library",
+    "sdk",
+    "sdk-php"
   ],
   "homepage": "",
   "default_branch": "master",
   "created_at": "2019-12-12T15:16:46Z",
   "pushed_at": "2026-04-01T06:58:37Z",
-  "updated_at": "2026-04-01T06:58:41Z",
+  "updated_at": "2026-04-23T08:05:59Z",
   "composer_name": "dhl/sdk-api-unified-tracking",
   "lifetime": {
     "stars": 2,
@@ -32,7 +42,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 316157,
+    "packagist_downloads": 316498,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -43,19 +53,19 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5782,
+    "packagist_downloads": 5873,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 23,
     "clones_unique": 20,
-    "views_total": 27,
-    "views_unique": 11,
+    "views_total": 26,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 16,
-        "uniques": 9
+        "count": 15,
+        "uniques": 8
       },
       {
         "referrer": "packagist.org",
@@ -67,8 +77,8 @@
       {
         "path": "/netresearch/dhl-sdk-api-unified-tracking",
         "title": "Overview",
-        "count": 11,
-        "uniques": 11
+        "count": 10,
+        "uniques": 10
       },
       {
         "path": "/netresearch/dhl-sdk-api-unified-tracking/tree/master/src",
@@ -166,9 +176,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-unified-tracking",
-    "total": 316157,
-    "monthly": 5782,
-    "daily": 349,
+    "total": 316498,
+    "monthly": 5873,
+    "daily": 281,
     "url": "https://packagist.org/packages/dhl/sdk-api-unified-tracking"
   },
   "ghcr": null,

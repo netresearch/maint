@@ -45,10 +45,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 124,
-    "clones_unique": 58,
-    "views_total": 33,
-    "views_unique": 27,
+    "clones_total": 119,
+    "clones_unique": 56,
+    "views_total": 32,
+    "views_unique": 28,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -57,7 +57,12 @@
       },
       {
         "referrer": "commercemarketplace.adobe.com",
-        "count": 4,
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "dhl.com",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -71,7 +76,7 @@
         "path": "/netresearch/dhl-module-shipping-m2",
         "title": "Overview",
         "count": 12,
-        "uniques": 9
+        "uniques": 10
       },
       {
         "path": "/netresearch/dhl-module-shipping-m2/issues/50",
@@ -94,12 +99,18 @@
       {
         "path": "/netresearch/dhl-module-shipping-m2/blob/master/README.md",
         "title": "/blob/master/README.md",
-        "count": 2,
+        "count": 1,
         "uniques": 1
       },
       {
         "path": "/netresearch/dhl-module-shipping-m2/blob/master/Webservice/Client/GlRestClient.php",
         "title": "/blob/master/Webservice/Client/GlRestClient.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-m2/blob/master/etc/config.xml",
+        "title": "/blob/master/etc/config.xml",
         "count": 1,
         "uniques": 1
       },
@@ -118,12 +129,6 @@
       {
         "path": "/netresearch/dhl-module-shipping-m2/compare/netresearch:a71e644...DevinNorgarb:76ec2ee",
         "title": "/compare/netresearch:a71e644...DevinNorgarb:76ec2ee",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-shipping-m2/compare/{{ urlEncodedRefName }}...DevinNorgarb:dhl-module-shipping-m2:master",
-        "title": "/compare/{{ urlEncodedRefName }}...DevinNorgarb:dhl-module-shipping-m2:master",
         "count": 1,
         "uniques": 1
       }

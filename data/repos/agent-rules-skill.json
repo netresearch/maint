@@ -37,7 +37,7 @@
     "prs_closed_unmerged": 3,
     "issues_total": 4,
     "releases": 43,
-    "release_downloads": 248,
+    "release_downloads": 249,
     "contributors": 5,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -55,30 +55,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1566,
-    "clones_unique": 310,
-    "views_total": 975,
-    "views_unique": 389,
+    "clones_total": 1710,
+    "clones_unique": 356,
+    "views_total": 950,
+    "views_unique": 386,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 560,
-        "uniques": 257
+        "count": 538,
+        "uniques": 254
       },
       {
         "referrer": "github.com",
-        "count": 79,
-        "uniques": 22
-      },
-      {
-        "referrer": "Bing",
-        "count": 20,
-        "uniques": 5
+        "count": 65,
+        "uniques": 20
       },
       {
         "referrer": "chatgpt.com",
-        "count": 11,
-        "uniques": 5
+        "count": 14,
+        "uniques": 7
       },
       {
         "referrer": "statics.teams.cdn.office.net",
@@ -86,14 +81,24 @@
         "uniques": 2
       },
       {
-        "referrer": "planner.cloud.microsoft",
-        "count": 5,
+        "referrer": "Bing",
+        "count": 6,
+        "uniques": 4
+      },
+      {
+        "referrer": "packagist.org",
+        "count": 6,
         "uniques": 1
       },
       {
         "referrer": "yandex.ru",
-        "count": 4,
+        "count": 5,
         "uniques": 3
+      },
+      {
+        "referrer": "planner.cloud.microsoft",
+        "count": 5,
+        "uniques": 1
       },
       {
         "referrer": "jira.netresearch.de",
@@ -104,36 +109,31 @@
         "referrer": "clouddevops.huawei.com",
         "count": 3,
         "uniques": 1
-      },
-      {
-        "referrer": "perplexity.ai",
-        "count": 2,
-        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/agent-rules-skill",
         "title": "Overview",
-        "count": 507,
-        "uniques": 375
+        "count": 509,
+        "uniques": 372
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
         "title": "/tree/main/skills/agent-rules",
-        "count": 78,
-        "uniques": 62
+        "count": 72,
+        "uniques": 57
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md",
         "title": "/blob/main/skills/agent-rules/SKILL.md",
-        "count": 60,
-        "uniques": 45
+        "count": 49,
+        "uniques": 38
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 25,
+        "count": 27,
         "uniques": 21
       },
       {
@@ -143,10 +143,16 @@
         "uniques": 18
       },
       {
+        "path": "/netresearch/agent-rules-skill/blob/main/CLAUDE.md",
+        "title": "/blob/main/CLAUDE.md",
+        "count": 13,
+        "uniques": 11
+      },
+      {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules/scripts",
         "title": "/tree/main/skills/agent-rules/scripts",
-        "count": 14,
-        "uniques": 11
+        "count": 13,
+        "uniques": 10
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main",
@@ -157,20 +163,14 @@
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 11,
-        "uniques": 10
-      },
-      {
-        "path": "/netresearch/agent-rules-skill/blob/main/CLAUDE.md",
-        "title": "/blob/main/CLAUDE.md",
-        "count": 11,
+        "count": 10,
         "uniques": 9
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 10,
-        "uniques": 10
+        "count": 9,
+        "uniques": 9
       }
     ]
   },

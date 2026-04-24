@@ -15,20 +15,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-10-02T10:38:21Z",
-  "pushed_at": "2026-04-22T22:19:01Z",
-  "updated_at": "2026-04-21T05:05:33Z",
+  "pushed_at": "2026-04-24T01:59:16Z",
+  "updated_at": "2026-04-24T01:58:17Z",
   "composer_name": null,
   "lifetime": {
     "stars": 11,
     "forks": 2,
     "watchers": 1,
     "network": 2,
-    "open_issues_plus_prs": 2,
-    "commits": 1061,
+    "open_issues_plus_prs": 6,
+    "commits": 1063,
     "issues_open": 1,
     "issues_closed": 7,
-    "prs_open": 1,
-    "prs_merged": 519,
+    "prs_open": 5,
+    "prs_merged": 520,
     "prs_closed_unmerged": 43,
     "issues_total": 8,
     "releases": 17,
@@ -43,22 +43,22 @@
   "recent_30d": {
     "commits": 160,
     "issues_opened": 3,
-    "prs_opened": 63,
+    "prs_opened": 67,
     "prs_merged": 59,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 250
   },
   "traffic_14d": {
-    "clones_total": 3121,
-    "clones_unique": 355,
-    "views_total": 43,
+    "clones_total": 3946,
+    "clones_unique": 425,
+    "views_total": 44,
     "views_unique": 28,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 32,
-        "uniques": 19
+        "uniques": 18
       },
       {
         "referrer": "github.com",
@@ -76,11 +76,11 @@
         "path": "/netresearch/ldap-manager",
         "title": "Overview",
         "count": 36,
-        "uniques": 25
+        "uniques": 24
       },
       {
-        "path": "/netresearch/ldap-manager/blob/main/docs/assets/ldap_manager_users.png",
-        "title": "/blob/main/docs/assets/ldap_manager_users.png",
+        "path": "/netresearch/ldap-manager/issues",
+        "title": "/issues",
         "count": 2,
         "uniques": 2
       },
@@ -91,8 +91,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/ldap-manager/issues",
-        "title": "/issues",
+        "path": "/netresearch/ldap-manager/blob/main/docs/assets/ldap_manager_users.png",
+        "title": "/blob/main/docs/assets/ldap_manager_users.png",
         "count": 1,
         "uniques": 1
       },
@@ -107,6 +107,12 @@
         "title": "/releases/tag/v1.2.0",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/ldap-manager/stargazers",
+        "title": "/stargazers",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -119,7 +125,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 500,
+      "contributions": 502,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -176,5 +182,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/ldap-manager/network/dependents"
   },
-  "blast_radius": 540
+  "blast_radius": 541
 }

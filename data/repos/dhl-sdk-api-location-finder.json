@@ -6,12 +6,21 @@
   "language": "PHP",
   "category": "commerce",
   "license": "MIT",
-  "topics": [],
+  "topics": [
+    "dhl",
+    "dhl-api",
+    "dhl-php",
+    "dhl-php-sdk",
+    "dhl-sdk",
+    "php-library",
+    "sdk",
+    "sdk-php"
+  ],
   "homepage": "",
   "default_branch": "master",
   "created_at": "2019-12-16T13:20:16Z",
   "pushed_at": "2026-04-01T06:59:27Z",
-  "updated_at": "2026-04-01T06:58:32Z",
+  "updated_at": "2026-04-23T07:57:37Z",
   "composer_name": "dhl/sdk-api-location-finder",
   "lifetime": {
     "stars": 2,
@@ -45,15 +54,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 42,
+    "clones_total": 40,
     "clones_unique": 18,
-    "views_total": 13,
-    "views_unique": 6,
+    "views_total": 17,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 7,
-        "uniques": 4
+        "count": 11,
+        "uniques": 5
       },
       {
         "referrer": "DuckDuckGo",
@@ -65,8 +74,8 @@
       {
         "path": "/netresearch/dhl-sdk-api-location-finder",
         "title": "Overview",
-        "count": 6,
-        "uniques": 4
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/dhl-sdk-api-location-finder/issues/1",
@@ -95,6 +104,24 @@
       {
         "path": "/netresearch/dhl-sdk-api-location-finder/pulls",
         "title": "/pulls",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-location-finder/tree/master/src",
+        "title": "/tree/master/src",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-location-finder/tree/master/src/Exception",
+        "title": "/tree/master/src/Exception",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-location-finder/tree/master/src/Service",
+        "title": "/tree/master/src/Service",
         "count": 1,
         "uniques": 1
       }

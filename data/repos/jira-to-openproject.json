@@ -47,14 +47,19 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1536,
-    "clones_unique": 271,
-    "views_total": 18,
-    "views_unique": 12,
+    "clones_total": 1679,
+    "clones_unique": 313,
+    "views_total": 20,
+    "views_unique": 13,
     "top_referrers": [
       {
         "referrer": "statics.teams.cdn.office.net",
         "count": 4,
+        "uniques": 2
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 3,
         "uniques": 2
       },
       {
@@ -63,17 +68,12 @@
         "uniques": 2
       },
       {
-        "referrer": "DuckDuckGo",
+        "referrer": "claude.ai",
         "count": 2,
         "uniques": 1
       },
       {
         "referrer": "Bing",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "claude.ai",
         "count": 1,
         "uniques": 1
       }
@@ -82,8 +82,14 @@
       {
         "path": "/netresearch/jira-to-openproject",
         "title": "Overview",
-        "count": 15,
+        "count": 16,
         "uniques": 11
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/blob/main/scripts/README.md",
+        "title": "/blob/main/scripts/README.md",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/jira-to-openproject/tree/main",

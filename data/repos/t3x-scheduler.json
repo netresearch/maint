@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-01-10T12:01:19Z",
-  "pushed_at": "2026-04-10T06:04:12Z",
+  "pushed_at": "2026-04-23T13:11:52Z",
   "updated_at": "2026-04-10T06:04:17Z",
   "composer_name": "netresearch/nr-scheduler",
   "lifetime": {
@@ -20,11 +20,11 @@
     "forks": 0,
     "watchers": 2,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 81,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 24,
     "prs_closed_unmerged": 7,
     "issues_total": 1,
@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 1485,
+    "packagist_downloads": 1510,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -40,62 +40,19 @@
   "recent_30d": {
     "commits": 12,
     "issues_opened": 0,
-    "prs_opened": 5,
+    "prs_opened": 6,
     "prs_merged": 5,
     "releases": 0,
-    "packagist_downloads": 167,
+    "packagist_downloads": 181,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 426,
+    "clones_total": 424,
     "clones_unique": 71,
-    "views_total": 6,
-    "views_unique": 1,
-    "top_referrers": [
-      {
-        "referrer": "extensions.typo3.org",
-        "count": 6,
-        "uniques": 1
-      }
-    ],
-    "top_paths": [
-      {
-        "path": "/netresearch/t3x-scheduler/blob/main/Classes/Exception.php",
-        "title": "/blob/main/Classes/Exception.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-scheduler/blob/main/Classes/Validators/AbstractValidator.php",
-        "title": "/blob/main/Classes/Validators/AbstractValidator.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-scheduler/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-scheduler/tree/main",
-        "title": "/tree/main",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-scheduler/tree/main/Classes",
-        "title": "/tree/main/Classes",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-scheduler/tree/main/Classes/Validators",
-        "title": "/tree/main/Classes/Validators",
-        "count": 1,
-        "uniques": 1
-      }
-    ]
+    "views_total": 0,
+    "views_unique": 0,
+    "top_referrers": [],
+    "top_paths": []
   },
   "latest_release": {
     "name": "1.1.8",
@@ -122,9 +79,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-scheduler",
-    "total": 1485,
-    "monthly": 167,
-    "daily": 5,
+    "total": 1510,
+    "monthly": 181,
+    "daily": 20,
     "url": "https://packagist.org/packages/netresearch/nr-scheduler"
   },
   "ghcr": null,

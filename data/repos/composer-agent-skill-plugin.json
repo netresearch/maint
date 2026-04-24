@@ -54,10 +54,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 176,
-    "clones_unique": 70,
-    "views_total": 109,
-    "views_unique": 33,
+    "clones_total": 214,
+    "clones_unique": 84,
+    "views_total": 113,
+    "views_unique": 32,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -66,37 +66,31 @@
       },
       {
         "referrer": "github.com",
-        "count": 17,
-        "uniques": 16
+        "count": 16,
+        "uniques": 15
+      },
+      {
+        "referrer": "packagist.org",
+        "count": 8,
+        "uniques": 3
       },
       {
         "referrer": "Bing",
         "count": 4,
         "uniques": 1
-      },
-      {
-        "referrer": "packagist.org",
-        "count": 2,
-        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 41,
-        "uniques": 29
+        "count": 43,
+        "uniques": 30
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/discussions",
         "title": "/discussions",
         "count": 6,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
-        "count": 5,
         "uniques": 2
       },
       {
@@ -124,10 +118,16 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/renovate.json",
-        "title": "/blob/main/renovate.json",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/composer-agent-skill-plugin/tree/main",
+        "title": "/tree/main",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 4,
+        "uniques": 1
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/src/SkillPlugin.php",
@@ -180,7 +180,7 @@
     "name": "netresearch/composer-agent-skill-plugin",
     "total": 570,
     "monthly": 533,
-    "daily": 88,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,

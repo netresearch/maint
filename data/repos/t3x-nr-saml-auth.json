@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-27T11:57:45Z",
-  "pushed_at": "2026-04-01T08:27:00Z",
-  "updated_at": "2026-04-01T08:27:03Z",
+  "pushed_at": "2026-04-23T13:41:51Z",
+  "updated_at": "2026-04-23T13:41:55Z",
   "composer_name": "netresearch/nr-saml-auth",
   "lifetime": {
     "stars": 1,
@@ -21,11 +21,11 @@
     "watchers": 4,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 99,
+    "commits": 101,
     "issues_open": 2,
     "issues_closed": 29,
     "prs_open": 0,
-    "prs_merged": 35,
+    "prs_merged": 36,
     "prs_closed_unmerged": 10,
     "issues_total": 31,
     "releases": 10,
@@ -38,20 +38,25 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 6,
+    "commits": 8,
     "issues_opened": 0,
-    "prs_opened": 0,
-    "prs_merged": 0,
+    "prs_opened": 1,
+    "prs_merged": 1,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 147,
-    "clones_unique": 39,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 149,
+    "clones_unique": 40,
+    "views_total": 7,
+    "views_unique": 3,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 5,
+        "uniques": 1
+      },
       {
         "referrer": "Google",
         "count": 1,
@@ -59,6 +64,12 @@
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-saml-auth",
+        "title": "Overview",
+        "count": 5,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/t3x-nr-saml-auth/blob/main/README.md",
         "title": "/blob/main/README.md",
@@ -82,7 +93,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 46,
+      "contributions": 48,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -114,5 +125,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-saml-auth/network/dependents"
   },
-  "blast_radius": 72
+  "blast_radius": 73
 }

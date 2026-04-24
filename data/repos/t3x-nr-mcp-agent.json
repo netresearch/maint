@@ -15,9 +15,9 @@
   "composer_name": "netresearch/nr-mcp-agent",
   "lifetime": {
     "stars": 0,
-    "forks": 0,
+    "forks": 1,
     "watchers": 0,
-    "network": 0,
+    "network": 1,
     "open_issues_plus_prs": 1,
     "commits": 176,
     "issues_open": 0,
@@ -36,48 +36,49 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 54,
+    "commits": 37,
     "issues_opened": 0,
-    "prs_opened": 13,
-    "prs_merged": 13,
-    "releases": 11,
+    "prs_opened": 9,
+    "prs_merged": 9,
+    "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 20,
     "clones_unique": 15,
-    "views_total": 9,
+    "views_total": 11,
     "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 6,
-        "uniques": 1
+        "count": 8,
+        "uniques": 2
       },
       {
         "referrer": "netresearch.github.io",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "referrer": "Google",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-mcp-agent",
         "title": "Overview",
-        "count": 7,
-        "uniques": 3
+        "count": 9,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-mcp-agent/commit/a2b9146241ec851586c75df4e8d9b558df3d7060",
+        "title": "/commit/a2b9146241ec851586c75df4e8d9b558df3d7060",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-mcp-agent/pulls",
         "title": "/pulls",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -101,5 +102,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-mcp-agent/network/dependents"
   },
-  "blast_radius": 16
+  "blast_radius": 18
 }

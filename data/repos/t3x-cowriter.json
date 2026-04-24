@@ -19,7 +19,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-01-14T19:41:07Z",
-  "pushed_at": "2026-04-01T08:26:50Z",
+  "pushed_at": "2026-04-23T13:11:08Z",
   "updated_at": "2026-04-01T08:26:54Z",
   "composer_name": "netresearch/t3-cowriter",
   "lifetime": {
@@ -27,11 +27,11 @@
     "forks": 1,
     "watchers": 5,
     "network": 1,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 381,
     "issues_open": 1,
     "issues_closed": 13,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 80,
     "prs_closed_unmerged": 17,
     "issues_total": 14,
@@ -39,30 +39,30 @@
     "release_downloads": 25,
     "contributors": 12,
     "external_contributors": 8,
-    "packagist_downloads": 11048,
+    "packagist_downloads": 11055,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 13,
+    "commits": 7,
     "issues_opened": 0,
-    "prs_opened": 2,
-    "prs_merged": 2,
-    "releases": 1,
-    "packagist_downloads": 205,
+    "prs_opened": 1,
+    "prs_merged": 0,
+    "releases": 0,
+    "packagist_downloads": 199,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 118,
-    "clones_unique": 33,
-    "views_total": 35,
+    "clones_total": 154,
+    "clones_unique": 48,
+    "views_total": 27,
     "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 18,
-        "uniques": 4
+        "count": 12,
+        "uniques": 5
       },
       {
         "referrer": "Google",
@@ -77,28 +77,16 @@
     ],
     "top_paths": [
       {
-        "path": "/netresearch/t3x-cowriter",
-        "title": "Overview",
-        "count": 8,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/t3x-cowriter/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 6,
-        "uniques": 4
+        "count": 8,
+        "uniques": 5
       },
       {
-        "path": "/netresearch/t3x-cowriter/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
-        "count": 3,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/issues",
-        "title": "/issues",
-        "count": 3,
-        "uniques": 1
+        "path": "/netresearch/t3x-cowriter",
+        "title": "Overview",
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
@@ -109,12 +97,6 @@
       {
         "path": "/netresearch/t3x-cowriter/blob/1.2.7/README.md",
         "title": "/blob/1.2.7/README.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/blob/1.2.7/composer.json",
-        "title": "/blob/1.2.7/composer.json",
         "count": 2,
         "uniques": 1
       },
@@ -131,8 +113,26 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-cowriter/blob/1.2.7/composer.json",
+        "title": "/blob/1.2.7/composer.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-cowriter/blob/HEAD/LICENSE",
         "title": "/blob/HEAD/LICENSE",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/Classes/Tools/ContentQueryTool.php",
+        "title": "/blob/main/Classes/Tools/ContentQueryTool.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/Configuration/JavaScriptModules.php",
+        "title": "/blob/main/Configuration/JavaScriptModules.php",
         "count": 1,
         "uniques": 1
       }
@@ -198,9 +198,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 11048,
-    "monthly": 205,
-    "daily": 11,
+    "total": 11055,
+    "monthly": 199,
+    "daily": 6,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,
