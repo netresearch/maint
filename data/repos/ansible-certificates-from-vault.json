@@ -52,10 +52,22 @@
   "traffic_14d": {
     "clones_total": 11,
     "clones_unique": 10,
-    "views_total": 3,
-    "views_unique": 3,
-    "top_referrers": [],
+    "views_total": 7,
+    "views_unique": 4,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 4,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/ansible-certificates-from-vault",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/ansible-certificates-from-vault/issues",
         "title": "/issues",
@@ -63,8 +75,20 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/ansible-certificates-from-vault",
-        "title": "Overview",
+        "path": "/netresearch/ansible-certificates-from-vault/blob/master/tasks/main.yml",
+        "title": "/blob/master/tasks/main.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-certificates-from-vault/tree/master/defaults",
+        "title": "/tree/master/defaults",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-certificates-from-vault/tree/master/tasks",
+        "title": "/tree/master/tasks",
         "count": 1,
         "uniques": 1
       }

@@ -50,10 +50,23 @@
   "traffic_14d": {
     "clones_total": 14,
     "clones_unique": 11,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "views_total": 2,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "netresearch.github.io",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/magento2-patches",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": null,
   "top_contributors": [

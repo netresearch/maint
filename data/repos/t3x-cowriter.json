@@ -39,7 +39,7 @@
     "release_downloads": 25,
     "contributors": 12,
     "external_contributors": 8,
-    "packagist_downloads": 11055,
+    "packagist_downloads": 11064,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -50,28 +50,28 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 199,
+    "packagist_downloads": 188,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 154,
-    "clones_unique": 48,
-    "views_total": 27,
-    "views_unique": 9,
+    "clones_total": 281,
+    "clones_unique": 83,
+    "views_total": 32,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 12,
-        "uniques": 5
+        "count": 14,
+        "uniques": 6
+      },
+      {
+        "referrer": "github.com",
+        "count": 3,
+        "uniques": 1
       },
       {
         "referrer": "Google",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
         "uniques": 1
       }
     ],
@@ -79,18 +79,24 @@
       {
         "path": "/netresearch/t3x-cowriter/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 8,
-        "uniques": 5
+        "count": 9,
+        "uniques": 6
       },
       {
         "path": "/netresearch/t3x-cowriter",
         "title": "Overview",
-        "count": 4,
+        "count": 6,
         "uniques": 3
       },
       {
         "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
         "title": "/blob/main/Documentation/Images/CowriterHero.png",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
         "count": 2,
         "uniques": 2
       },
@@ -127,12 +133,6 @@
       {
         "path": "/netresearch/t3x-cowriter/blob/main/Classes/Tools/ContentQueryTool.php",
         "title": "/blob/main/Classes/Tools/ContentQueryTool.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/blob/main/Configuration/JavaScriptModules.php",
-        "title": "/blob/main/Configuration/JavaScriptModules.php",
         "count": 1,
         "uniques": 1
       }
@@ -198,9 +198,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 11055,
-    "monthly": 199,
-    "daily": 6,
+    "total": 11064,
+    "monthly": 188,
+    "daily": 8,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,

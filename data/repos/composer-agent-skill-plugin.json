@@ -39,9 +39,9 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 570,
+    "packagist_downloads": 628,
     "ghcr_downloads": 0,
-    "dependents_repos": 37,
+    "dependents_repos": 38,
     "dependents_packages": 0
   },
   "recent_30d": {
@@ -50,24 +50,24 @@
     "prs_opened": 10,
     "prs_merged": 8,
     "releases": 2,
-    "packagist_downloads": 533,
+    "packagist_downloads": 591,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 214,
-    "clones_unique": 84,
-    "views_total": 113,
+    "clones_total": 204,
+    "clones_unique": 80,
+    "views_total": 120,
     "views_unique": 32,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 46,
-        "uniques": 7
+        "count": 48,
+        "uniques": 8
       },
       {
         "referrer": "github.com",
-        "count": 16,
-        "uniques": 15
+        "count": 15,
+        "uniques": 14
       },
       {
         "referrer": "packagist.org",
@@ -84,7 +84,7 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 43,
+        "count": 46,
         "uniques": 30
       },
       {
@@ -124,6 +124,12 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/composer-agent-skill-plugin/tree/main/claudedocs/phase-prompts",
+        "title": "/tree/main/claudedocs/phase-prompts",
+        "count": 4,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/composer.json",
         "title": "/blob/main/composer.json",
         "count": 4,
@@ -134,12 +140,6 @@
         "title": "/blob/main/src/SkillPlugin.php",
         "count": 3,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 3,
-        "uniques": 1
       }
     ]
   },
@@ -178,16 +178,16 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 570,
-    "monthly": 533,
-    "daily": 0,
+    "total": 628,
+    "monthly": 591,
+    "daily": 48,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,
   "dependents": {
-    "repositories": 37,
+    "repositories": 38,
     "packages": 0,
     "url": "https://github.com/netresearch/composer-agent-skill-plugin/network/dependents"
   },
-  "blast_radius": 104
+  "blast_radius": 106
 }

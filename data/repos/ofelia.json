@@ -32,11 +32,11 @@
     "prs_closed_unmerged": 51,
     "issues_total": 139,
     "releases": 43,
-    "release_downloads": 1489,
+    "release_downloads": 1490,
     "contributors": 41,
     "external_contributors": 35,
     "packagist_downloads": 0,
-    "ghcr_downloads": 135977,
+    "ghcr_downloads": 137592,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -47,13 +47,13 @@
     "prs_merged": 38,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 48434
+    "ghcr_downloads": 48385
   },
   "traffic_14d": {
-    "clones_total": 5273,
-    "clones_unique": 1031,
-    "views_total": 59,
-    "views_unique": 21,
+    "clones_total": 4620,
+    "clones_unique": 929,
+    "views_total": 101,
+    "views_unique": 23,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -69,14 +69,25 @@
         "referrer": "Google",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 25,
-        "uniques": 14
+        "count": 33,
+        "uniques": 15
+      },
+      {
+        "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
+        "title": "/blob/main/docs/CONFIGURATION.md",
+        "count": 9,
+        "uniques": 4
       },
       {
         "path": "/netresearch/ofelia/pull/461",
@@ -85,52 +96,46 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/ofelia/blob/main/docs/API.md",
+        "title": "/blob/main/docs/API.md",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/blob/main/docs/QUICK_REFERENCE.md",
+        "title": "/blob/main/docs/QUICK_REFERENCE.md",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ofelia/blob/main/example/compose.yml",
+        "title": "/blob/main/example/compose.yml",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/blob/main/example/ofelia.ini",
+        "title": "/blob/main/example/ofelia.ini",
+        "count": 3,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/ofelia/pull/461/changes",
         "title": "/pull/461/changes",
         "count": 3,
         "uniques": 1
       },
       {
-        "path": "/netresearch/ofelia/blob/main/example/compose.yml",
-        "title": "/blob/main/example/compose.yml",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ofelia/blob/main/example/ofelia.ini",
-        "title": "/blob/main/example/ofelia.ini",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ofelia/issues/462",
-        "title": "/issues/462",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ofelia/issues/523",
-        "title": "/issues/523",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ofelia/blob/main/docs/API.md",
-        "title": "/blob/main/docs/API.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/ofelia/blob/main/docs/ARCHITECTURE_DIAGRAMS.md",
         "title": "/blob/main/docs/ARCHITECTURE_DIAGRAMS.md",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
-        "title": "/blob/main/docs/CONFIGURATION.md",
-        "count": 1,
-        "uniques": 1
+        "path": "/netresearch/ofelia/issues",
+        "title": "/issues",
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
@@ -198,12 +203,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 135977,
-        "thirty_day": 48434
+        "total": 137592,
+        "thirty_day": 48385
       }
     ],
-    "total": 135977,
-    "thirty_day": 48434
+    "total": 137592,
+    "thirty_day": 48385
   },
   "dependents": {
     "repositories": 0,

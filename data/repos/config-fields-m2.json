@@ -35,7 +35,7 @@
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 4,
-    "packagist_downloads": 345624,
+    "packagist_downloads": 345846,
     "ghcr_downloads": 0,
     "dependents_repos": 19,
     "dependents_packages": 3
@@ -46,16 +46,29 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 6442,
+    "packagist_downloads": 6348,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 21,
     "clones_unique": 17,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "views_total": 2,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/config-fields-m2",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.3.0",
@@ -107,9 +120,9 @@
   ],
   "packagist": {
     "name": "netresearch/config-fields-m2",
-    "total": 345624,
-    "monthly": 6442,
-    "daily": 329,
+    "total": 345846,
+    "monthly": 6348,
+    "daily": 184,
     "url": "https://packagist.org/packages/netresearch/config-fields-m2"
   },
   "ghcr": null,

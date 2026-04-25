@@ -51,11 +51,17 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1479,
-    "clones_unique": 212,
-    "views_total": 120,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 1549,
+    "clones_unique": 225,
+    "views_total": 122,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "netresearch.github.io",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-library/src/model/autocomplete-handler.ts",
@@ -112,10 +118,10 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-library/src/view/list-renderer.ts",
-        "title": "/blob/master/packages/autocomplete-library/src/view/list-renderer.ts",
+        "path": "/netresearch/postdirekt-autocomplete-monorepo",
+        "title": "Overview",
         "count": 4,
-        "uniques": 1
+        "uniques": 2
       }
     ]
   },

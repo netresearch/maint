@@ -13,20 +13,20 @@
   "homepage": "https://registry.terraform.io/providers/netresearch/ad/latest",
   "default_branch": "main",
   "created_at": "2024-08-14T10:21:14Z",
-  "pushed_at": "2026-04-23T21:24:14Z",
-  "updated_at": "2026-03-20T20:36:43Z",
+  "pushed_at": "2026-04-24T08:13:02Z",
+  "updated_at": "2026-04-24T08:13:06Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 76,
-    "open_issues_plus_prs": 1,
-    "commits": 178,
+    "open_issues_plus_prs": 0,
+    "commits": 179,
     "issues_open": 0,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 10,
+    "prs_open": 0,
+    "prs_merged": 11,
     "prs_closed_unmerged": 1,
     "issues_total": 0,
     "releases": 3,
@@ -39,17 +39,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 1,
     "issues_opened": 0,
     "prs_opened": 1,
-    "prs_merged": 0,
+    "prs_merged": 1,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 10,
-    "clones_unique": 6,
+    "clones_total": 14,
+    "clones_unique": 8,
     "views_total": 0,
     "views_unique": 0,
     "top_referrers": [],
@@ -78,14 +78,14 @@
       "url": "https://github.com/katbyte"
     },
     {
+      "login": "dependabot[bot]",
+      "contributions": 8,
+      "url": "https://github.com/apps/dependabot"
+    },
+    {
       "login": "aareet",
       "contributions": 8,
       "url": "https://github.com/aareet"
-    },
-    {
-      "login": "dependabot[bot]",
-      "contributions": 7,
-      "url": "https://github.com/apps/dependabot"
     },
     {
       "login": "CybotTM",
@@ -120,5 +120,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/terraform-provider-ad/network/dependents"
   },
-  "blast_radius": 67
+  "blast_radius": 68
 }

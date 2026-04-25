@@ -29,10 +29,10 @@
     "prs_closed_unmerged": 9,
     "issues_total": 3,
     "releases": 13,
-    "release_downloads": 166,
+    "release_downloads": 167,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 12837,
+    "packagist_downloads": 13647,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,22 +43,27 @@
     "prs_opened": 26,
     "prs_merged": 26,
     "releases": 1,
-    "packagist_downloads": 2150,
+    "packagist_downloads": 2855,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3113,
-    "clones_unique": 357,
-    "views_total": 3,
-    "views_unique": 2,
+    "clones_total": 3115,
+    "clones_unique": 392,
+    "views_total": 5,
+    "views_unique": 4,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "referrer": "extensions.typo3.org",
         "count": 2,
         "uniques": 1
       },
       {
-        "referrer": "Google",
+        "referrer": "github.com",
         "count": 1,
         "uniques": 1
       }
@@ -67,8 +72,8 @@
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 3,
-        "uniques": 2
+        "count": 5,
+        "uniques": 4
       }
     ]
   },
@@ -102,9 +107,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 12837,
-    "monthly": 2150,
-    "daily": 380,
+    "total": 13647,
+    "monthly": 2855,
+    "daily": 664,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,
