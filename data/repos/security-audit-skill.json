@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:25Z",
-  "pushed_at": "2026-04-24T15:31:09Z",
-  "updated_at": "2026-04-24T15:31:11Z",
+  "pushed_at": "2026-04-25T11:40:32Z",
+  "updated_at": "2026-04-25T11:40:32Z",
   "composer_name": null,
   "lifetime": {
     "stars": 12,
@@ -23,14 +23,14 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 200,
+    "commits": 202,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 54,
+    "prs_merged": 55,
     "prs_closed_unmerged": 5,
     "issues_total": 2,
-    "releases": 22,
+    "releases": 23,
     "release_downloads": 75,
     "contributors": 4,
     "external_contributors": 0,
@@ -40,34 +40,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 102,
+    "commits": 104,
     "issues_opened": 1,
-    "prs_opened": 31,
-    "prs_merged": 30,
-    "releases": 5,
+    "prs_opened": 32,
+    "prs_merged": 31,
+    "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2371,
-    "clones_unique": 555,
-    "views_total": 379,
-    "views_unique": 143,
+    "clones_total": 2594,
+    "clones_unique": 595,
+    "views_total": 357,
+    "views_unique": 134,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 197,
-        "uniques": 73
+        "count": 188,
+        "uniques": 72
       },
       {
         "referrer": "github.com",
-        "count": 43,
-        "uniques": 12
+        "count": 40,
+        "uniques": 10
       },
       {
         "referrer": "Bing",
-        "count": 11,
-        "uniques": 10
+        "count": 10,
+        "uniques": 9
       },
       {
         "referrer": "statics.teams.cdn.office.net",
@@ -81,8 +81,8 @@
       },
       {
         "referrer": "chatgpt.com",
-        "count": 4,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "mcpmarket.com",
@@ -109,26 +109,26 @@
       {
         "path": "/netresearch/security-audit-skill",
         "title": "Overview",
-        "count": 153,
-        "uniques": 118
+        "count": 143,
+        "uniques": 113
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
         "title": "/tree/main/skills/security-audit",
-        "count": 41,
-        "uniques": 22
+        "count": 37,
+        "uniques": 19
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
         "title": "/blob/main/skills/security-audit/SKILL.md",
-        "count": 35,
-        "uniques": 28
+        "count": 29,
+        "uniques": 22
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main",
         "title": "/tree/main",
-        "count": 24,
-        "uniques": 15
+        "count": 23,
+        "uniques": 14
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/references",
@@ -155,10 +155,10 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/security-audit-skill/issues",
-        "title": "/issues",
+        "path": "/netresearch/security-audit-skill/pull/55",
+        "title": "/pull/55",
         "count": 5,
-        "uniques": 3
+        "uniques": 1
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/references/file-upload-security.md",
@@ -169,10 +169,10 @@
     ]
   },
   "latest_release": {
-    "name": "v2.8.0",
-    "tag_name": "v2.8.0",
-    "published_at": "2026-04-22T10:10:22Z",
-    "url": "https://github.com/netresearch/security-audit-skill/releases/tag/v2.8.0"
+    "name": "v2.8.1",
+    "tag_name": "v2.8.1",
+    "published_at": "2026-04-25T11:42:08Z",
+    "url": "https://github.com/netresearch/security-audit-skill/releases/tag/v2.8.1"
   },
   "top_contributors": [
     {
@@ -181,14 +181,14 @@
       "url": "https://github.com/CybotTM"
     },
     {
+      "login": "github-actions[bot]",
+      "contributions": 5,
+      "url": "https://github.com/apps/github-actions"
+    },
+    {
       "login": "renovate[bot]",
       "contributions": 5,
       "url": "https://github.com/apps/renovate"
-    },
-    {
-      "login": "github-actions[bot]",
-      "contributions": 3,
-      "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "dependabot[bot]",
@@ -203,5 +203,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/security-audit-skill/network/dependents"
   },
-  "blast_radius": 58
+  "blast_radius": 59
 }

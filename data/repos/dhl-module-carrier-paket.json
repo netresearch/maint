@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 5,
-    "packagist_downloads": 234976,
+    "packagist_downloads": 234987,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 2
@@ -47,15 +47,20 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5151,
+    "packagist_downloads": 4932,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 23,
-    "clones_unique": 18,
-    "views_total": 12,
-    "views_unique": 9,
+    "clones_total": 22,
+    "clones_unique": 17,
+    "views_total": 21,
+    "views_unique": 11,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 6,
+        "uniques": 1
+      },
       {
         "referrer": "statics.teams.cdn.office.net",
         "count": 2,
@@ -71,14 +76,20 @@
       {
         "path": "/netresearch/dhl-module-carrier-paket/wiki/Documentation-German",
         "title": "/wiki/Documentation-German",
-        "count": 5,
-        "uniques": 3
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/dhl-module-carrier-paket",
         "title": "Overview",
-        "count": 4,
-        "uniques": 4
+        "count": 5,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/blob/master/etc/config.xml",
+        "title": "/blob/master/etc/config.xml",
+        "count": 3,
+        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-module-carrier-paket/wiki/Documentation-English",
@@ -87,8 +98,26 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/dhl-module-carrier-paket/blob/master/etc/module.xml",
+        "title": "/blob/master/etc/module.xml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/commit/90a3170a6399450ae6e3127acfaa835eebdd0a4c",
+        "title": "/commit/90a3170a6399450ae6e3127acfaa835eebdd0a4c",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/dhl-module-carrier-paket/issues",
         "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/tree/master/etc",
+        "title": "/tree/master/etc",
         "count": 1,
         "uniques": 1
       }
@@ -144,9 +173,9 @@
   ],
   "packagist": {
     "name": "dhl/module-carrier-paket",
-    "total": 234976,
-    "monthly": 5151,
-    "daily": 139,
+    "total": 234987,
+    "monthly": 4932,
+    "daily": 9,
     "url": "https://packagist.org/packages/dhl/module-carrier-paket"
   },
   "ghcr": null,

@@ -19,20 +19,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-01-14T19:41:07Z",
-  "pushed_at": "2026-04-23T13:11:08Z",
-  "updated_at": "2026-04-01T08:26:54Z",
+  "pushed_at": "2026-04-25T08:17:16Z",
+  "updated_at": "2026-04-25T08:17:20Z",
   "composer_name": "netresearch/t3-cowriter",
   "lifetime": {
     "stars": 10,
     "forks": 1,
     "watchers": 5,
     "network": 1,
-    "open_issues_plus_prs": 2,
-    "commits": 381,
+    "open_issues_plus_prs": 1,
+    "commits": 386,
     "issues_open": 1,
     "issues_closed": 13,
-    "prs_open": 1,
-    "prs_merged": 80,
+    "prs_open": 0,
+    "prs_merged": 81,
     "prs_closed_unmerged": 17,
     "issues_total": 14,
     "releases": 16,
@@ -45,32 +45,32 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 7,
+    "commits": 12,
     "issues_opened": 0,
     "prs_opened": 1,
-    "prs_merged": 0,
+    "prs_merged": 1,
     "releases": 0,
-    "packagist_downloads": 188,
+    "packagist_downloads": 156,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 281,
-    "clones_unique": 83,
-    "views_total": 32,
-    "views_unique": 10,
+    "clones_total": 405,
+    "clones_unique": 127,
+    "views_total": 21,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 14,
-        "uniques": 6
-      },
-      {
-        "referrer": "github.com",
-        "count": 3,
-        "uniques": 1
+        "count": 10,
+        "uniques": 5
       },
       {
         "referrer": "Google",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
         "count": 2,
         "uniques": 1
       }
@@ -79,14 +79,14 @@
       {
         "path": "/netresearch/t3x-cowriter/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 9,
-        "uniques": 6
+        "count": 8,
+        "uniques": 5
       },
       {
         "path": "/netresearch/t3x-cowriter",
         "title": "Overview",
-        "count": 6,
-        "uniques": 3
+        "count": 4,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
@@ -95,32 +95,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-cowriter/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/blob/1.2.7/README.md",
-        "title": "/blob/1.2.7/README.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-cowriter/blob/0319cc30e0977da0d29e92f974b8367c0fa9918e/Resources/Private/Language/locallang_mod.xlf",
         "title": "/blob/0319cc30e0977da0d29e92f974b8367c0fa9918e/Resources/Private/Language/locallang_mod.xlf",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/blob/1.2.7/Documentation/Images/t3-cowriter.gif",
-        "title": "/blob/1.2.7/Documentation/Images/t3-cowriter.gif",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/blob/1.2.7/composer.json",
-        "title": "/blob/1.2.7/composer.json",
         "count": 1,
         "uniques": 1
       },
@@ -135,6 +111,30 @@
         "title": "/blob/main/Classes/Tools/ContentQueryTool.php",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/Configuration/JavaScriptModules.php",
+        "title": "/blob/main/Configuration/JavaScriptModules.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/commits",
+        "title": "/commits",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/discussions",
+        "title": "/discussions",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -147,7 +147,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 223,
+      "contributions": 228,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -199,8 +199,8 @@
   "packagist": {
     "name": "netresearch/t3-cowriter",
     "total": 11064,
-    "monthly": 188,
-    "daily": 8,
+    "monthly": 156,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,
@@ -209,5 +209,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-cowriter/network/dependents"
   },
-  "blast_radius": 120
+  "blast_radius": 121
 }

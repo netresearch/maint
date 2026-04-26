@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-28T08:06:06Z",
-  "pushed_at": "2026-04-23T21:26:10Z",
-  "updated_at": "2026-04-23T21:26:15Z",
+  "pushed_at": "2026-04-25T08:05:33Z",
+  "updated_at": "2026-04-25T08:05:37Z",
   "composer_name": null,
   "lifetime": {
     "stars": 4,
@@ -21,11 +21,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 500,
+    "commits": 504,
     "issues_open": 1,
     "issues_closed": 7,
     "prs_open": 0,
-    "prs_merged": 151,
+    "prs_merged": 153,
     "prs_closed_unmerged": 6,
     "issues_total": 8,
     "releases": 20,
@@ -38,19 +38,19 @@
     "dependents_packages": 5
   },
   "recent_30d": {
-    "commits": 130,
+    "commits": 128,
     "issues_opened": 4,
-    "prs_opened": 49,
-    "prs_merged": 45,
+    "prs_opened": 48,
+    "prs_merged": 44,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3117,
-    "clones_unique": 524,
-    "views_total": 39,
-    "views_unique": 15,
+    "clones_total": 3264,
+    "clones_unique": 565,
+    "views_total": 38,
+    "views_unique": 14,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -88,12 +88,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/simple-ldap-go/blob/main/sam_account_type.go",
-        "title": "/blob/main/sam_account_type.go",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/simple-ldap-go/releases",
         "title": "/releases",
         "count": 2,
@@ -128,6 +122,12 @@
         "title": "/blob/main/SECURITY.md",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/blob/main/cache.go",
+        "title": "/blob/main/cache.go",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -140,7 +140,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 311,
+      "contributions": 315,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -176,5 +176,5 @@
     "packages": 5,
     "url": "https://github.com/netresearch/simple-ldap-go/network/dependents"
   },
-  "blast_radius": 172
+  "blast_radius": 174
 }

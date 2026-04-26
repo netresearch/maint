@@ -52,10 +52,65 @@
   "traffic_14d": {
     "clones_total": 14,
     "clones_unique": 11,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "views_total": 8,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "kagi.com",
+        "count": 8,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/ansible-collection-mautic",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-collection-mautic/blob/main/galaxy.yml",
+        "title": "/blob/main/galaxy.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-collection-mautic/blob/main/meta/runtime.yml",
+        "title": "/blob/main/meta/runtime.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-collection-mautic/blob/main/roles/mautic/defaults/main.yml",
+        "title": "/blob/main/roles/mautic/defaults/main.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-collection-mautic/tree/main/meta",
+        "title": "/tree/main/meta",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-collection-mautic/tree/main/plugins",
+        "title": "/tree/main/plugins",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-collection-mautic/tree/main/roles/mautic",
+        "title": "/tree/main/roles/mautic",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-collection-mautic/tree/main/roles/mautic/defaults",
+        "title": "/tree/main/roles/mautic/defaults",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v1.4.0",

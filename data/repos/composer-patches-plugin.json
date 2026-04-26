@@ -34,35 +34,30 @@
     "release_downloads": 0,
     "contributors": 15,
     "external_contributors": 12,
-    "packagist_downloads": 264229,
+    "packagist_downloads": 264314,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 4,
+    "commits": 2,
     "issues_opened": 0,
-    "prs_opened": 3,
-    "prs_merged": 3,
+    "prs_opened": 1,
+    "prs_merged": 1,
     "releases": 0,
-    "packagist_downloads": 2279,
+    "packagist_downloads": 2248,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 88,
-    "clones_unique": 51,
-    "views_total": 12,
+    "clones_total": 103,
+    "clones_unique": 58,
+    "views_total": 15,
     "views_unique": 9,
     "top_referrers": [
       {
-        "referrer": "Google",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
+        "count": 3,
+        "uniques": 2
       },
       {
         "referrer": "netresearch.github.io",
@@ -74,8 +69,14 @@
       {
         "path": "/netresearch/composer-patches-plugin",
         "title": "Overview",
-        "count": 9,
+        "count": 11,
         "uniques": 7
+      },
+      {
+        "path": "/netresearch/composer-patches-plugin/commit/4e80ab44608dbe5d32ce594d5b1b228eae610f30",
+        "title": "/commit/4e80ab44608dbe5d32ce594d5b1b228eae610f30",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/composer-patches-plugin/actions/runs/21586282897",
@@ -86,12 +87,6 @@
       {
         "path": "/netresearch/composer-patches-plugin/issues/24",
         "title": "/issues/24",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-patches-plugin/tags",
-        "title": "/tags",
         "count": 1,
         "uniques": 1
       }
@@ -157,9 +152,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-patches-plugin",
-    "total": 264229,
-    "monthly": 2279,
-    "daily": 173,
+    "total": 264314,
+    "monthly": 2248,
+    "daily": 82,
     "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
   },
   "ghcr": null,
