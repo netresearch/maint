@@ -35,8 +35,8 @@
     "issues_open": 2,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 53,
-    "prs_closed_unmerged": 2,
+    "prs_merged": 46,
+    "prs_closed_unmerged": 1,
     "issues_total": 2,
     "releases": 37,
     "release_downloads": 61,
@@ -48,19 +48,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 63,
+    "commits": 51,
     "issues_opened": 0,
-    "prs_opened": 20,
-    "prs_merged": 19,
-    "releases": 6,
+    "prs_opened": 14,
+    "prs_merged": 14,
+    "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 931,
-    "clones_unique": 276,
-    "views_total": 44,
-    "views_unique": 14,
+    "clones_total": 964,
+    "clones_unique": 296,
+    "views_total": 47,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "yandex.ru",
@@ -68,13 +68,13 @@
         "uniques": 1
       },
       {
-        "referrer": "Google",
-        "count": 6,
-        "uniques": 4
+        "referrer": "github.com",
+        "count": 7,
+        "uniques": 5
       },
       {
-        "referrer": "github.com",
-        "count": 4,
+        "referrer": "Google",
+        "count": 6,
         "uniques": 4
       }
     ],
@@ -82,8 +82,8 @@
       {
         "path": "/netresearch/enterprise-readiness-skill",
         "title": "Overview",
-        "count": 13,
-        "uniques": 12
+        "count": 15,
+        "uniques": 14
       },
       {
         "path": "/netresearch/enterprise-readiness-skill/blob/main/skills/enterprise-readiness/SKILL.md",
@@ -94,8 +94,8 @@
       {
         "path": "/netresearch/enterprise-readiness-skill/tree/main/skills/enterprise-readiness",
         "title": "/tree/main/skills/enterprise-readiness",
-        "count": 5,
-        "uniques": 3
+        "count": 6,
+        "uniques": 4
       },
       {
         "path": "/netresearch/enterprise-readiness-skill/tree/main/skills/enterprise-readiness/references",
@@ -106,6 +106,12 @@
       {
         "path": "/netresearch/enterprise-readiness-skill/issues",
         "title": "/issues",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/tree/main/skills/enterprise-readiness/scripts",
+        "title": "/tree/main/skills/enterprise-readiness/scripts",
         "count": 2,
         "uniques": 2
       },
@@ -130,12 +136,6 @@
       {
         "path": "/netresearch/enterprise-readiness-skill/blob/main/skills/enterprise-readiness/references/badges-and-workflows.md",
         "title": "/blob/main/skills/enterprise-readiness/references/badges-and-workflows.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/enterprise-readiness-skill/discussions",
-        "title": "/discussions",
         "count": 1,
         "uniques": 1
       }
@@ -171,5 +171,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/enterprise-readiness-skill/network/dependents"
   },
-  "blast_radius": 55
+  "blast_radius": 48
 }

@@ -19,19 +19,19 @@
   "composer_name": null,
   "lifetime": {
     "stars": 14,
-    "forks": 1,
+    "forks": 2,
     "watchers": 1,
-    "network": 1,
+    "network": 2,
     "open_issues_plus_prs": 1,
     "commits": 202,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 55,
+    "prs_merged": 50,
     "prs_closed_unmerged": 5,
     "issues_total": 2,
     "releases": 23,
-    "release_downloads": 75,
+    "release_downloads": 77,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,39 +40,39 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 93,
+    "commits": 85,
     "issues_opened": 1,
-    "prs_opened": 28,
-    "prs_merged": 27,
-    "releases": 6,
+    "prs_opened": 24,
+    "prs_merged": 24,
+    "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2594,
-    "clones_unique": 595,
-    "views_total": 357,
-    "views_unique": 134,
+    "clones_total": 2624,
+    "clones_unique": 607,
+    "views_total": 419,
+    "views_unique": 144,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 188,
-        "uniques": 72
+        "count": 234,
+        "uniques": 81
       },
       {
         "referrer": "github.com",
-        "count": 40,
-        "uniques": 10
-      },
-      {
-        "referrer": "Bing",
-        "count": 10,
-        "uniques": 9
+        "count": 42,
+        "uniques": 12
       },
       {
         "referrer": "statics.teams.cdn.office.net",
         "count": 7,
         "uniques": 1
+      },
+      {
+        "referrer": "Bing",
+        "count": 6,
+        "uniques": 6
       },
       {
         "referrer": "packagist.org",
@@ -85,13 +85,13 @@
         "uniques": 2
       },
       {
-        "referrer": "mcpmarket.com",
+        "referrer": "claude.ai",
         "count": 2,
-        "uniques": 1
+        "uniques": 2
       },
       {
-        "referrer": "claude.ai",
-        "count": 1,
+        "referrer": "mcpmarket.com",
+        "count": 2,
         "uniques": 1
       },
       {
@@ -100,7 +100,7 @@
         "uniques": 1
       },
       {
-        "referrer": "search.brave.com",
+        "referrer": "wiki.queo-group.com",
         "count": 1,
         "uniques": 1
       }
@@ -109,32 +109,38 @@
       {
         "path": "/netresearch/security-audit-skill",
         "title": "Overview",
-        "count": 143,
-        "uniques": 113
+        "count": 163,
+        "uniques": 125
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
         "title": "/tree/main/skills/security-audit",
-        "count": 37,
-        "uniques": 19
+        "count": 44,
+        "uniques": 21
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
         "title": "/blob/main/skills/security-audit/SKILL.md",
-        "count": 29,
-        "uniques": 22
+        "count": 33,
+        "uniques": 24
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main",
         "title": "/tree/main",
         "count": 23,
-        "uniques": 14
+        "uniques": 15
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/references",
         "title": "/tree/main/skills/security-audit/references",
-        "count": 14,
-        "uniques": 8
+        "count": 17,
+        "uniques": 10
+      },
+      {
+        "path": "/netresearch/security-audit-skill/tree/main/skills",
+        "title": "/tree/main/skills",
+        "count": 9,
+        "uniques": 6
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/scripts",
@@ -143,28 +149,22 @@
         "uniques": 7
       },
       {
-        "path": "/netresearch/security-audit-skill/tree/main/skills",
-        "title": "/tree/main/skills",
-        "count": 8,
-        "uniques": 6
+        "path": "/netresearch/security-audit-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 7,
+        "uniques": 2
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/references/php-security-features.md",
         "title": "/blob/main/skills/security-audit/references/php-security-features.md",
-        "count": 5,
-        "uniques": 3
+        "count": 6,
+        "uniques": 4
       },
       {
         "path": "/netresearch/security-audit-skill/pull/55",
         "title": "/pull/55",
         "count": 5,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/references/file-upload-security.md",
-        "title": "/blob/main/skills/security-audit/references/file-upload-security.md",
-        "count": 4,
-        "uniques": 3
       }
     ]
   },
@@ -203,5 +203,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/security-audit-skill/network/dependents"
   },
-  "blast_radius": 59
+  "blast_radius": 56
 }

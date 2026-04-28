@@ -16,7 +16,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-13T13:42:10Z",
-  "pushed_at": "2026-04-25T21:23:45Z",
+  "pushed_at": "2026-04-28T01:23:29Z",
   "updated_at": "2026-04-25T21:23:47Z",
   "composer_name": null,
   "lifetime": {
@@ -24,20 +24,20 @@
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 391,
     "issues_open": 1,
     "issues_closed": 1,
-    "prs_open": 0,
-    "prs_merged": 215,
-    "prs_closed_unmerged": 14,
+    "prs_open": 1,
+    "prs_merged": 139,
+    "prs_closed_unmerged": 7,
     "issues_total": 2,
     "releases": 9,
     "release_downloads": 93,
     "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 2733,
+    "ghcr_downloads": 2767,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -45,15 +45,15 @@
     "commits": 111,
     "issues_opened": 1,
     "prs_opened": 50,
-    "prs_merged": 47,
+    "prs_merged": 46,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 570
+    "ghcr_downloads": 604
   },
   "traffic_14d": {
-    "clones_total": 2552,
-    "clones_unique": 390,
-    "views_total": 6,
+    "clones_total": 2633,
+    "clones_unique": 395,
+    "views_total": 5,
     "views_unique": 4,
     "top_referrers": [
       {
@@ -63,12 +63,6 @@
       }
     ],
     "top_paths": [
-      {
-        "path": "/netresearch/raybeam/pulls",
-        "title": "/pulls",
-        "count": 2,
-        "uniques": 2
-      },
       {
         "path": "/netresearch/raybeam",
         "title": "Overview",
@@ -84,6 +78,12 @@
       {
         "path": "/netresearch/raybeam/labels",
         "title": "/labels",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/raybeam/pulls",
+        "title": "/pulls",
         "count": 1,
         "uniques": 1
       },
@@ -134,17 +134,17 @@
       {
         "package": "raybeam",
         "url": "https://github.com/netresearch/raybeam/pkgs/container/raybeam",
-        "total": 2733,
-        "thirty_day": 570
+        "total": 2767,
+        "thirty_day": 604
       }
     ],
-    "total": 2733,
-    "thirty_day": 570
+    "total": 2767,
+    "thirty_day": 604
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/raybeam/network/dependents"
   },
-  "blast_radius": 222
+  "blast_radius": 146
 }

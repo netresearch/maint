@@ -25,7 +25,7 @@
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 10,
+    "prs_merged": 7,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 8,
@@ -38,29 +38,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 26,
+    "commits": 24,
     "issues_opened": 0,
     "prs_opened": 5,
     "prs_merged": 5,
-    "releases": 4,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 933,
-    "clones_unique": 241,
-    "views_total": 410,
-    "views_unique": 153,
+    "clones_total": 909,
+    "clones_unique": 230,
+    "views_total": 381,
+    "views_unique": 148,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 249,
-        "uniques": 109
+        "count": 214,
+        "uniques": 104
       },
       {
         "referrer": "github.com",
-        "count": 21,
-        "uniques": 16
+        "count": 24,
+        "uniques": 14
       },
       {
         "referrer": "chatgpt.com",
@@ -92,20 +92,20 @@
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 201,
-        "uniques": 149
+        "count": 193,
+        "uniques": 144
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 45,
-        "uniques": 21
+        "count": 38,
+        "uniques": 19
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
         "title": "/blob/main/skills/file-search/SKILL.md",
-        "count": 36,
-        "uniques": 22
+        "count": 33,
+        "uniques": 20
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
@@ -128,14 +128,8 @@
       {
         "path": "/netresearch/file-search-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 9,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
-        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
-        "count": 7,
-        "uniques": 6
+        "count": 8,
+        "uniques": 5
       },
       {
         "path": "/netresearch/file-search-skill/tree/main",
@@ -144,10 +138,16 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/search-strategies.md",
-        "title": "/blob/main/skills/file-search/references/search-strategies.md",
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
         "count": 6,
-        "uniques": 6
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 5,
+        "uniques": 5
       }
     ]
   },
@@ -176,5 +176,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/file-search-skill/network/dependents"
   },
-  "blast_radius": 13
+  "blast_radius": 10
 }

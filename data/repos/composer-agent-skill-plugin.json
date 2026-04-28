@@ -32,37 +32,37 @@
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 28,
-    "prs_closed_unmerged": 10,
+    "prs_merged": 24,
+    "prs_closed_unmerged": 9,
     "issues_total": 2,
     "releases": 6,
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 643,
+    "packagist_downloads": 648,
     "ghcr_downloads": 0,
-    "dependents_repos": 38,
+    "dependents_repos": 39,
     "dependents_packages": 0
   },
   "recent_30d": {
     "commits": 12,
     "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 6,
+    "prs_opened": 4,
+    "prs_merged": 4,
     "releases": 2,
-    "packagist_downloads": 606,
+    "packagist_downloads": 611,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 210,
-    "clones_unique": 81,
-    "views_total": 102,
-    "views_unique": 36,
+    "clones_total": 215,
+    "clones_unique": 85,
+    "views_total": 99,
+    "views_unique": 38,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 23,
-        "uniques": 10
+        "count": 21,
+        "uniques": 9
       },
       {
         "referrer": "github.com",
@@ -71,8 +71,8 @@
       },
       {
         "referrer": "packagist.org",
-        "count": 8,
-        "uniques": 3
+        "count": 9,
+        "uniques": 4
       },
       {
         "referrer": "Bing",
@@ -84,31 +84,19 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 45,
-        "uniques": 33
+        "count": 43,
+        "uniques": 35
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 7,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
-        "count": 5,
-        "uniques": 2
+        "count": 8,
+        "uniques": 3
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/tree/main/docs",
         "title": "/tree/main/docs",
         "count": 5,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/.php-cs-fixer.php",
-        "title": "/blob/main/.php-cs-fixer.php",
-        "count": 4,
         "uniques": 2
       },
       {
@@ -118,9 +106,21 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/composer-agent-skill-plugin/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 4,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/composer-agent-skill-plugin/tree/main",
         "title": "/tree/main",
         "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/blob/main/.php-cs-fixer.php",
+        "title": "/blob/main/.php-cs-fixer.php",
+        "count": 3,
         "uniques": 2
       },
       {
@@ -178,16 +178,16 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 643,
-    "monthly": 606,
-    "daily": 6,
+    "total": 648,
+    "monthly": 611,
+    "daily": 4,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,
   "dependents": {
-    "repositories": 38,
+    "repositories": 39,
     "packages": 0,
     "url": "https://github.com/netresearch/composer-agent-skill-plugin/network/dependents"
   },
-  "blast_radius": 106
+  "blast_radius": 104
 }

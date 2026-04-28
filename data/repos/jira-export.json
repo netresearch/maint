@@ -27,8 +27,8 @@
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 10,
-    "prs_closed_unmerged": 1,
+    "prs_merged": 2,
+    "prs_closed_unmerged": 0,
     "issues_total": 3,
     "releases": 0,
     "release_downloads": 0,
@@ -49,15 +49,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 109,
+    "clones_total": 135,
     "clones_unique": 20,
-    "views_total": 48,
+    "views_total": 50,
     "views_unique": 21,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 27,
-        "uniques": 9
+        "count": 30,
+        "uniques": 10
       },
       {
         "referrer": "dev.azure.com",
@@ -89,14 +89,14 @@
       {
         "path": "/netresearch/jira-export",
         "title": "Overview",
-        "count": 28,
-        "uniques": 20
+        "count": 27,
+        "uniques": 19
       },
       {
         "path": "/netresearch/jira-export/blob/master/bin/export-html.php",
         "title": "/blob/master/bin/export-html.php",
-        "count": 4,
-        "uniques": 3
+        "count": 6,
+        "uniques": 4
       },
       {
         "path": "/netresearch/jira-export/tree/master/build",
@@ -113,6 +113,12 @@
       {
         "path": "/netresearch/jira-export/blob/master/data/config.php.dist",
         "title": "/blob/master/data/config.php.dist",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/jira-export/issues",
+        "title": "/issues",
         "count": 2,
         "uniques": 2
       },
@@ -137,12 +143,6 @@
       {
         "path": "/netresearch/jira-export/blob/master/www/.htaccess",
         "title": "/blob/master/www/.htaccess",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-export/issues",
-        "title": "/issues",
         "count": 1,
         "uniques": 1
       }
@@ -183,5 +183,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jira-export/network/dependents"
   },
-  "blast_radius": 38
+  "blast_radius": 30
 }

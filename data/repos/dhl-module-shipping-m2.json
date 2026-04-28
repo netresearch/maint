@@ -22,9 +22,9 @@
     "commits": 570,
     "issues_open": 1,
     "issues_closed": 73,
-    "prs_open": 5,
-    "prs_merged": 3,
-    "prs_closed_unmerged": 7,
+    "prs_open": 3,
+    "prs_merged": 2,
+    "prs_closed_unmerged": 3,
     "issues_total": 74,
     "releases": 11,
     "release_downloads": 14511,
@@ -45,10 +45,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 137,
+    "clones_total": 154,
     "clones_unique": 56,
-    "views_total": 50,
-    "views_unique": 30,
+    "views_total": 46,
+    "views_unique": 27,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -61,11 +61,6 @@
         "uniques": 3
       },
       {
-        "referrer": "commercemarketplace.adobe.com",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "referrer": "dhl.com",
         "count": 1,
         "uniques": 1
@@ -75,8 +70,8 @@
       {
         "path": "/netresearch/dhl-module-shipping-m2",
         "title": "Overview",
-        "count": 17,
-        "uniques": 12
+        "count": 16,
+        "uniques": 11
       },
       {
         "path": "/netresearch/dhl-module-shipping-m2/releases/tag/0.11.1",
@@ -115,20 +110,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-module-shipping-m2/blob/master/README.md",
-        "title": "/blob/master/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-shipping-m2/blob/master/Webservice/Client/GlRestClient.php",
-        "title": "/blob/master/Webservice/Client/GlRestClient.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/dhl-module-shipping-m2/blob/master/composer.json",
         "title": "/blob/master/composer.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-m2/blob/master/view/adminhtml/templates/order/packaging/grid/bcs.phtml",
+        "title": "/blob/master/view/adminhtml/templates/order/packaging/grid/bcs.phtml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-m2/blob/master/webservice/client/glrestclient.php",
+        "title": "/blob/master/webservice/client/glrestclient.php",
         "count": 1,
         "uniques": 1
       }
@@ -199,5 +194,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/dhl-module-shipping-m2/network/dependents"
   },
-  "blast_radius": 136
+  "blast_radius": 135
 }

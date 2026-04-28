@@ -30,15 +30,15 @@
     "commits": 38,
     "issues_open": 1,
     "issues_closed": 8,
-    "prs_open": 1,
+    "prs_open": 0,
     "prs_merged": 3,
-    "prs_closed_unmerged": 7,
+    "prs_closed_unmerged": 0,
     "issues_total": 9,
     "releases": 6,
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 239300,
+    "packagist_downloads": 239395,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
@@ -49,14 +49,14 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1725,
+    "packagist_downloads": 1805,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 21,
-    "clones_unique": 15,
-    "views_total": 11,
-    "views_unique": 7,
+    "clones_total": 25,
+    "clones_unique": 19,
+    "views_total": 10,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -77,14 +77,14 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/dhl-sdk-api-bcs-returns/issues",
-        "title": "/issues",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/dhl-sdk-api-bcs-returns/blob/main/CHANGELOG.md",
         "title": "/blob/main/CHANGELOG.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs-returns/issues",
+        "title": "/issues",
         "count": 1,
         "uniques": 1
       },
@@ -148,9 +148,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs-returns",
-    "total": 239300,
-    "monthly": 1725,
-    "daily": 18,
+    "total": 239395,
+    "monthly": 1805,
+    "daily": 83,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs-returns"
   },
   "ghcr": null,

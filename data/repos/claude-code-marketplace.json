@@ -20,21 +20,21 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T07:59:00Z",
-  "pushed_at": "2026-04-25T05:18:38Z",
-  "updated_at": "2026-04-25T05:18:42Z",
+  "pushed_at": "2026-04-27T07:59:38Z",
+  "updated_at": "2026-04-28T02:13:10Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 31,
+    "stars": 32,
     "forks": 5,
     "watchers": 2,
     "network": 5,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 3,
     "commits": 170,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 1,
-    "prs_merged": 22,
-    "prs_closed_unmerged": 13,
+    "prs_open": 2,
+    "prs_merged": 19,
+    "prs_closed_unmerged": 9,
     "issues_total": 3,
     "releases": 3,
     "release_downloads": 0,
@@ -48,37 +48,27 @@
   "recent_30d": {
     "commits": 10,
     "issues_opened": 1,
-    "prs_opened": 4,
+    "prs_opened": 5,
     "prs_merged": 3,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 981,
-    "clones_unique": 360,
-    "views_total": 449,
-    "views_unique": 288,
+    "clones_total": 1100,
+    "clones_unique": 379,
+    "views_total": 468,
+    "views_unique": 293,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 220,
-        "uniques": 155
+        "count": 235,
+        "uniques": 158
       },
       {
         "referrer": "github.com",
-        "count": 76,
+        "count": 81,
         "uniques": 59
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "referrer": "perplexity.ai",
-        "count": 3,
-        "uniques": 2
       },
       {
         "referrer": "Baidu",
@@ -91,7 +81,17 @@
         "uniques": 2
       },
       {
+        "referrer": "search.brave.com",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "referrer": "netresearch.atlassian.net",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "perplexity.ai",
         "count": 2,
         "uniques": 1
       },
@@ -115,20 +115,20 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 326,
-        "uniques": 277
+        "count": 329,
+        "uniques": 281
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 24,
-        "uniques": 21
+        "count": 28,
+        "uniques": 24
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
         "title": "/blob/main/.claude-plugin/marketplace.json",
-        "count": 19,
-        "uniques": 17
+        "count": 21,
+        "uniques": 18
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/scripts",
@@ -143,6 +143,18 @@
         "uniques": 7
       },
       {
+        "path": "/netresearch/claude-code-marketplace/issues",
+        "title": "/issues",
+        "count": 8,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/pulls",
+        "title": "/pulls",
+        "count": 8,
+        "uniques": 4
+      },
+      {
         "path": "/netresearch/claude-code-marketplace/tree/main/.github/workflows",
         "title": "/tree/main/.github/workflows",
         "count": 6,
@@ -151,18 +163,6 @@
       {
         "path": "/netresearch/claude-code-marketplace/discussions",
         "title": "/discussions",
-        "count": 6,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/issues",
-        "title": "/issues",
-        "count": 5,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/pulls",
-        "title": "/pulls",
         "count": 5,
         "uniques": 3
       },
@@ -224,5 +224,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
   },
-  "blast_radius": 47
+  "blast_radius": 44
 }

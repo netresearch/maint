@@ -32,11 +32,11 @@
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 17,
-    "prs_closed_unmerged": 1,
+    "prs_merged": 14,
+    "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 15,
-    "release_downloads": 31,
+    "release_downloads": 32,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -45,24 +45,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 23,
+    "commits": 21,
     "issues_opened": 0,
     "prs_opened": 6,
     "prs_merged": 6,
-    "releases": 4,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 780,
-    "clones_unique": 127,
-    "views_total": 239,
-    "views_unique": 91,
+    "clones_total": 790,
+    "clones_unique": 146,
+    "views_total": 248,
+    "views_unique": 92,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 182,
-        "uniques": 73
+        "count": 198,
+        "uniques": 76
       },
       {
         "referrer": "statics.teams.cdn.office.net",
@@ -80,11 +80,6 @@
         "uniques": 5
       },
       {
-        "referrer": "yandex.ru",
-        "count": 6,
-        "uniques": 1
-      },
-      {
         "referrer": "search.brave.com",
         "count": 1,
         "uniques": 1
@@ -94,32 +89,32 @@
       {
         "path": "/netresearch/docker-development-skill",
         "title": "Overview",
-        "count": 110,
-        "uniques": 85
-      },
-      {
-        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/SKILL.md",
-        "title": "/blob/main/skills/docker-development/SKILL.md",
-        "count": 24,
-        "uniques": 21
+        "count": 111,
+        "uniques": 87
       },
       {
         "path": "/netresearch/docker-development-skill/tree/main/skills/docker-development",
         "title": "/tree/main/skills/docker-development",
-        "count": 23,
-        "uniques": 20
+        "count": 26,
+        "uniques": 22
+      },
+      {
+        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/SKILL.md",
+        "title": "/blob/main/skills/docker-development/SKILL.md",
+        "count": 25,
+        "uniques": 21
       },
       {
         "path": "/netresearch/docker-development-skill/tree/main/skills/docker-development/references",
         "title": "/tree/main/skills/docker-development/references",
-        "count": 9,
-        "uniques": 9
+        "count": 10,
+        "uniques": 10
       },
       {
         "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/references/ci-testing.md",
         "title": "/blob/main/skills/docker-development/references/ci-testing.md",
-        "count": 9,
-        "uniques": 7
+        "count": 10,
+        "uniques": 8
       },
       {
         "path": "/netresearch/docker-development-skill/blob/main/docs/ARCHITECTURE.md",
@@ -128,20 +123,20 @@
         "uniques": 8
       },
       {
-        "path": "/netresearch/docker-development-skill/tree/main/docs",
-        "title": "/tree/main/docs",
-        "count": 8,
-        "uniques": 7
-      },
-      {
         "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/references/dind-testing-patterns.md",
         "title": "/blob/main/skills/docker-development/references/dind-testing-patterns.md",
         "count": 6,
         "uniques": 6
       },
       {
-        "path": "/netresearch/docker-development-skill/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/docker-development-skill/tree/main/docs",
+        "title": "/tree/main/docs",
+        "count": 6,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/checkpoints.yaml",
+        "title": "/blob/main/skills/docker-development/checkpoints.yaml",
         "count": 5,
         "uniques": 5
       },
@@ -183,5 +178,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/docker-development-skill/network/dependents"
   },
-  "blast_radius": 18
+  "blast_radius": 15
 }

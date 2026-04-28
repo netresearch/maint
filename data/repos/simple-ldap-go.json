@@ -25,8 +25,8 @@
     "issues_open": 1,
     "issues_closed": 7,
     "prs_open": 0,
-    "prs_merged": 153,
-    "prs_closed_unmerged": 6,
+    "prs_merged": 127,
+    "prs_closed_unmerged": 5,
     "issues_total": 8,
     "releases": 20,
     "release_downloads": 6,
@@ -40,17 +40,17 @@
   "recent_30d": {
     "commits": 124,
     "issues_opened": 4,
-    "prs_opened": 46,
-    "prs_merged": 42,
+    "prs_opened": 44,
+    "prs_merged": 40,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3264,
-    "clones_unique": 565,
-    "views_total": 38,
-    "views_unique": 14,
+    "clones_total": 3279,
+    "clones_unique": 576,
+    "views_total": 40,
+    "views_unique": 16,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -88,6 +88,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/simple-ldap-go/blob/main/concurrency.go",
+        "title": "/blob/main/concurrency.go",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/simple-ldap-go/releases",
         "title": "/releases",
         "count": 2,
@@ -120,12 +126,6 @@
       {
         "path": "/netresearch/simple-ldap-go/blob/main/SECURITY.md",
         "title": "/blob/main/SECURITY.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/simple-ldap-go/blob/main/cache.go",
-        "title": "/blob/main/cache.go",
         "count": 1,
         "uniques": 1
       }
@@ -176,5 +176,5 @@
     "packages": 5,
     "url": "https://github.com/netresearch/simple-ldap-go/network/dependents"
   },
-  "blast_radius": 174
+  "blast_radius": 148
 }

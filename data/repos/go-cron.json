@@ -28,7 +28,7 @@
   "default_branch": "main",
   "created_at": "2025-11-25T07:26:55Z",
   "pushed_at": "2026-04-20T15:22:05Z",
-  "updated_at": "2026-04-20T15:22:32Z",
+  "updated_at": "2026-04-27T20:40:02Z",
   "composer_name": null,
   "lifetime": {
     "stars": 36,
@@ -40,16 +40,16 @@
     "issues_open": 10,
     "issues_closed": 185,
     "prs_open": 0,
-    "prs_merged": 167,
+    "prs_merged": 149,
     "prs_closed_unmerged": 6,
     "issues_total": 195,
     "releases": 15,
-    "release_downloads": 84,
+    "release_downloads": 86,
     "contributors": 30,
     "external_contributors": 29,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
-    "dependents_repos": 18,
+    "dependents_repos": 19,
     "dependents_packages": 22
   },
   "recent_30d": {
@@ -62,10 +62,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1498,
-    "clones_unique": 407,
-    "views_total": 336,
-    "views_unique": 111,
+    "clones_total": 1518,
+    "clones_unique": 413,
+    "views_total": 338,
+    "views_unique": 109,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -74,8 +74,8 @@
       },
       {
         "referrer": "Google",
-        "count": 38,
-        "uniques": 21
+        "count": 45,
+        "uniques": 23
       },
       {
         "referrer": "pkg.go.dev",
@@ -87,7 +87,7 @@
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 119,
+        "count": 123,
         "uniques": 84
       },
       {
@@ -103,16 +103,16 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/go-cron/issues",
-        "title": "/issues",
-        "count": 10,
-        "uniques": 8
-      },
-      {
         "path": "/netresearch/go-cron/pulls",
         "title": "/pulls",
-        "count": 9,
+        "count": 10,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/go-cron/issues",
+        "title": "/issues",
+        "count": 9,
+        "uniques": 7
       },
       {
         "path": "/netresearch/go-cron/tree/main/docs",
@@ -139,8 +139,8 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/go-cron/discussions",
-        "title": "/discussions",
+        "path": "/netresearch/go-cron/pull/359",
+        "title": "/pull/359",
         "count": 5,
         "uniques": 4
       }
@@ -207,9 +207,9 @@
   "packagist": null,
   "ghcr": null,
   "dependents": {
-    "repositories": 18,
+    "repositories": 19,
     "packages": 22,
     "url": "https://github.com/netresearch/go-cron/network/dependents"
   },
-  "blast_radius": 495
+  "blast_radius": 479
 }

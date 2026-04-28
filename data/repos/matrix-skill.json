@@ -34,11 +34,11 @@
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 26,
+    "prs_merged": 23,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 38,
-    "release_downloads": 80,
+    "release_downloads": 81,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -47,29 +47,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 47,
+    "commits": 42,
     "issues_opened": 0,
-    "prs_opened": 10,
+    "prs_opened": 9,
     "prs_merged": 11,
-    "releases": 6,
+    "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1038,
-    "clones_unique": 257,
-    "views_total": 37,
-    "views_unique": 20,
+    "clones_total": 1382,
+    "clones_unique": 330,
+    "views_total": 32,
+    "views_unique": 18,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 28,
-        "uniques": 14
+        "count": 23,
+        "uniques": 11
       },
       {
         "referrer": "github.com",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "search.brave.com",
@@ -81,8 +86,8 @@
       {
         "path": "/netresearch/matrix-skill",
         "title": "Overview",
-        "count": 18,
-        "uniques": 18
+        "count": 16,
+        "uniques": 16
       },
       {
         "path": "/netresearch/matrix-skill/tree/main/skills/matrix-communication",
@@ -99,12 +104,6 @@
       {
         "path": "/netresearch/matrix-skill/blob/main/.markdownlint-cli2.jsonc",
         "title": "/blob/main/.markdownlint-cli2.jsonc",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/matrix-skill/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
         "count": 1,
         "uniques": 1
       },
@@ -135,6 +134,12 @@
       {
         "path": "/netresearch/matrix-skill/issues",
         "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/matrix-skill/releases",
+        "title": "/releases",
         "count": 1,
         "uniques": 1
       }
@@ -170,5 +175,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/matrix-skill/network/dependents"
   },
-  "blast_radius": 27
+  "blast_radius": 24
 }
