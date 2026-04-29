@@ -29,11 +29,11 @@
     "open_issues_plus_prs": 3,
     "commits": 454,
     "issues_open": 3,
-    "issues_closed": 8,
+    "issues_closed": 9,
     "prs_open": 0,
     "prs_merged": 1,
-    "prs_closed_unmerged": 0,
-    "issues_total": 11,
+    "prs_closed_unmerged": 1,
+    "issues_total": 12,
     "releases": 15,
     "release_downloads": 14339,
     "contributors": 7,
@@ -45,7 +45,7 @@
   },
   "recent_30d": {
     "commits": 1,
-    "issues_opened": 0,
+    "issues_opened": 1,
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
@@ -53,14 +53,14 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 27,
-    "clones_unique": 19,
-    "views_total": 210,
+    "clones_total": 25,
+    "clones_unique": 16,
+    "views_total": 208,
     "views_unique": 28,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 19,
+        "count": 26,
         "uniques": 6
       },
       {
@@ -70,7 +70,7 @@
       },
       {
         "referrer": "github.com",
-        "count": 1,
+        "count": 3,
         "uniques": 1
       }
     ],
@@ -78,13 +78,13 @@
       {
         "path": "/netresearch/dhl-module-versenden-m1",
         "title": "Overview",
-        "count": 42,
+        "count": 45,
         "uniques": 14
       },
       {
         "path": "/netresearch/dhl-module-versenden-m1/tree/master/src",
         "title": "/tree/master/src",
-        "count": 25,
+        "count": 23,
         "uniques": 10
       },
       {
@@ -102,8 +102,8 @@
       {
         "path": "/netresearch/dhl-module-versenden-m1/tree/master",
         "title": "/tree/master",
-        "count": 7,
-        "uniques": 6
+        "count": 8,
+        "uniques": 7
       },
       {
         "path": "/netresearch/dhl-module-versenden-m1/releases/tag/2.0.0",
@@ -118,6 +118,12 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/app/code/community/Dhl/Versenden/etc",
+        "title": "/tree/master/src/app/code/community/Dhl/Versenden/etc",
+        "count": 7,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/dhl-module-versenden-m1/blob/master/src/app/code/community/Dhl/Versenden/etc/config.xml",
         "title": "/blob/master/src/app/code/community/Dhl/Versenden/etc/config.xml",
         "count": 6,
@@ -128,12 +134,6 @@
         "title": "/pulls",
         "count": 6,
         "uniques": 3
-      },
-      {
-        "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/app/code/community/Dhl/Versenden/etc",
-        "title": "/tree/master/src/app/code/community/Dhl/Versenden/etc",
-        "count": 6,
-        "uniques": 2
       }
     ]
   },
@@ -187,5 +187,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/dhl-module-versenden-m1/network/dependents"
   },
-  "blast_radius": 35
+  "blast_radius": 36
 }

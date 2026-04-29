@@ -30,7 +30,7 @@
     "issues_closed": 1,
     "prs_open": 11,
     "prs_merged": 64,
-    "prs_closed_unmerged": 43,
+    "prs_closed_unmerged": 46,
     "issues_total": 2,
     "releases": 2,
     "release_downloads": 5,
@@ -51,11 +51,16 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2223,
-    "clones_unique": 278,
-    "views_total": 122,
+    "clones_total": 2662,
+    "clones_unique": 309,
+    "views_total": 125,
     "views_unique": 2,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "referrer": "netresearch.github.io",
         "count": 1,
@@ -100,6 +105,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/postdirekt-autocomplete-monorepo",
+        "title": "Overview",
+        "count": 5,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-library/src/model/autocomplete-address-suggestions.ts",
         "title": "/blob/master/packages/autocomplete-library/src/model/autocomplete-address-suggestions.ts",
         "count": 5,
@@ -116,12 +127,6 @@
         "title": "/blob/master/packages/autocomplete-sdk/src/service/select-service.ts",
         "count": 5,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/postdirekt-autocomplete-monorepo",
-        "title": "Overview",
-        "count": 4,
-        "uniques": 2
       }
     ]
   },

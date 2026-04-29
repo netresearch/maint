@@ -39,7 +39,7 @@
     "prs_closed_unmerged": 3,
     "issues_total": 0,
     "releases": 27,
-    "release_downloads": 56,
+    "release_downloads": 57,
     "contributors": 2,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -48,7 +48,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 30,
+    "commits": 29,
     "issues_opened": 0,
     "prs_opened": 8,
     "prs_merged": 8,
@@ -57,20 +57,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1373,
-    "clones_unique": 244,
-    "views_total": 154,
-    "views_unique": 29,
+    "clones_total": 1593,
+    "clones_unique": 255,
+    "views_total": 85,
+    "views_unique": 27,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 117,
-        "uniques": 20
+        "count": 44,
+        "uniques": 17
       },
       {
         "referrer": "github.com",
         "count": 32,
         "uniques": 6
+      },
+      {
+        "referrer": "skills.sh",
+        "count": 4,
+        "uniques": 1
       },
       {
         "referrer": "go.bsky.app",
@@ -87,32 +92,14 @@
       {
         "path": "/netresearch/typo3-ddev-skill",
         "title": "Overview",
-        "count": 31,
-        "uniques": 28
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/SKILL.md",
-        "title": "/blob/main/skills/typo3-ddev/SKILL.md",
-        "count": 23,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/tree/main",
-        "title": "/tree/main",
-        "count": 11,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/tree/main/Build",
-        "title": "/tree/main/Build",
-        "count": 11,
-        "uniques": 2
+        "count": 28,
+        "uniques": 26
       },
       {
         "path": "/netresearch/typo3-ddev-skill/tree/main/skills/typo3-ddev",
         "title": "/tree/main/skills/typo3-ddev",
-        "count": 9,
-        "uniques": 5
+        "count": 7,
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-ddev-skill/tree/main/skills/typo3-ddev/scripts",
@@ -121,28 +108,46 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/tree/main/Build/Scripts",
-        "title": "/tree/main/Build/Scripts",
-        "count": 7,
+        "path": "/netresearch/typo3-ddev-skill/tree/main/Build",
+        "title": "/tree/main/Build",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/SKILL.md",
+        "title": "/blob/main/skills/typo3-ddev/SKILL.md",
+        "count": 3,
         "uniques": 2
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/tree/main/Build/hooks",
-        "title": "/tree/main/Build/hooks",
-        "count": 5,
+        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/checkpoints.yaml",
+        "title": "/blob/main/skills/typo3-ddev/checkpoints.yaml",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/scripts/validate-prerequisites.sh",
+        "title": "/blob/main/skills/typo3-ddev/scripts/validate-prerequisites.sh",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/main/scripts/verify-harness.sh",
+        "title": "/blob/main/scripts/verify-harness.sh",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/tree/main",
+        "title": "/tree/main",
+        "count": 2,
         "uniques": 2
       },
       {
         "path": "/netresearch/typo3-ddev-skill/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/scripts/verify-harness.sh",
-        "title": "/blob/main/scripts/verify-harness.sh",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
       }
     ]
   },

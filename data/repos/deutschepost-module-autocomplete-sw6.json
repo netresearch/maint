@@ -30,7 +30,7 @@
     "issues_closed": 1,
     "prs_open": 1,
     "prs_merged": 1,
-    "prs_closed_unmerged": 0,
+    "prs_closed_unmerged": 3,
     "issues_total": 2,
     "releases": 15,
     "release_downloads": 0,
@@ -51,9 +51,9 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 17,
-    "clones_unique": 15,
-    "views_total": 32,
+    "clones_total": 241,
+    "clones_unique": 29,
+    "views_total": 42,
     "views_unique": 6,
     "top_referrers": [
       {
@@ -62,28 +62,28 @@
         "uniques": 1
       },
       {
-        "referrer": "Google",
-        "count": 3,
-        "uniques": 2
+        "referrer": "github.com",
+        "count": 4,
+        "uniques": 3
       },
       {
-        "referrer": "github.com",
+        "referrer": "Google",
         "count": 3,
         "uniques": 2
       }
     ],
     "top_paths": [
       {
+        "path": "/netresearch/deutschepost-module-autocomplete-sw6",
+        "title": "Overview",
+        "count": 8,
+        "uniques": 5
+      },
+      {
         "path": "/netresearch/deutschepost-module-autocomplete-sw6/blob/master/src/Resources/app/storefront/package.json",
         "title": "/blob/master/src/Resources/app/storefront/package.json",
         "count": 7,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-module-autocomplete-sw6",
-        "title": "Overview",
-        "count": 6,
-        "uniques": 5
       },
       {
         "path": "/netresearch/deutschepost-module-autocomplete-sw6/blob/master/src/Resources/app/storefront/src/dpautocomplete/dpautocomplete.plugin.js",
@@ -100,6 +100,12 @@
       {
         "path": "/netresearch/deutschepost-module-autocomplete-sw6/blob/master/src/Subscriber/AddressSubscriber.php",
         "title": "/blob/master/src/Subscriber/AddressSubscriber.php",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-autocomplete-sw6/commit/8709727cdec2416de148692fe769f38a84b7abc3",
+        "title": "/commit/8709727cdec2416de148692fe769f38a84b7abc3",
         "count": 2,
         "uniques": 1
       },
@@ -124,12 +130,6 @@
       {
         "path": "/netresearch/deutschepost-module-autocomplete-sw6/blob/master/src/Resources/app/storefront/src/main.js",
         "title": "/blob/master/src/Resources/app/storefront/src/main.js",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-module-autocomplete-sw6/blob/master/src/Resources/config/services.xml",
-        "title": "/blob/master/src/Resources/config/services.xml",
         "count": 1,
         "uniques": 1
       }

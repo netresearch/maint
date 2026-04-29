@@ -39,7 +39,7 @@
     "prs_closed_unmerged": 4,
     "issues_total": 2,
     "releases": 39,
-    "release_downloads": 75,
+    "release_downloads": 78,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -48,29 +48,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 33,
-    "issues_opened": 1,
-    "prs_opened": 10,
-    "prs_merged": 9,
-    "releases": 4,
+    "commits": 25,
+    "issues_opened": 0,
+    "prs_opened": 8,
+    "prs_merged": 7,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1096,
-    "clones_unique": 285,
-    "views_total": 73,
-    "views_unique": 29,
+    "clones_total": 1157,
+    "clones_unique": 283,
+    "views_total": 80,
+    "views_unique": 31,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 23,
+        "count": 25,
         "uniques": 12
       },
       {
         "referrer": "github.com",
         "count": 6,
         "uniques": 5
+      },
+      {
+        "referrer": "ecosia.org",
+        "count": 3,
+        "uniques": 1
       },
       {
         "referrer": "netresearch.github.io",
@@ -82,8 +87,14 @@
       {
         "path": "/netresearch/typo3-docs-skill",
         "title": "Overview",
-        "count": 52,
-        "uniques": 25
+        "count": 56,
+        "uniques": 26
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/tree/main/skills/typo3-docs",
+        "title": "/tree/main/skills/typo3-docs",
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/typo3-docs-skill/pulls",
@@ -92,16 +103,16 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/typo3-docs-skill/tree/main/skills/typo3-docs",
-        "title": "/tree/main/skills/typo3-docs",
-        "count": 3,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/SKILL.md",
         "title": "/blob/main/skills/typo3-docs/SKILL.md",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/activity",
+        "title": "/activity",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/Build/Scripts/check-plugin-version.sh",
@@ -130,12 +141,6 @@
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/references/rst-syntax.md",
         "title": "/blob/main/skills/typo3-docs/references/rst-syntax.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/pull/41",
-        "title": "/pull/41",
         "count": 1,
         "uniques": 1
       }

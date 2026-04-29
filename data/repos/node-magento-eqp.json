@@ -29,8 +29,8 @@
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 218,
-    "prs_closed_unmerged": 21,
+    "prs_merged": 298,
+    "prs_closed_unmerged": 40,
     "issues_total": 1,
     "releases": 29,
     "release_downloads": 76,
@@ -51,10 +51,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 537,
-    "clones_unique": 181,
+    "clones_total": 497,
+    "clones_unique": 176,
     "views_total": 10,
-    "views_unique": 5,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -66,8 +66,14 @@
       {
         "path": "/netresearch/node-magento-eqp",
         "title": "Overview",
-        "count": 4,
-        "uniques": 3
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/node-magento-eqp/blob/318bf9b85f9f270b1e8c1c199bdfe80afaca020d/src/services/ReportService.ts",
+        "title": "/blob/318bf9b85f9f270b1e8c1c199bdfe80afaca020d/src/services/ReportService.ts",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/node-magento-eqp/commit/141fa0468ab12160877d532fbafb8be98c4c3ee6",
@@ -78,12 +84,6 @@
       {
         "path": "/netresearch/node-magento-eqp/blob/2adbd1dc3e451ee8347f4abae7826f43fc207afa/src/services/ReportService.ts",
         "title": "/blob/2adbd1dc3e451ee8347f4abae7826f43fc207afa/src/services/ReportService.ts",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/node-magento-eqp/blob/318bf9b85f9f270b1e8c1c199bdfe80afaca020d/src/services/ReportService.ts",
-        "title": "/blob/318bf9b85f9f270b1e8c1c199bdfe80afaca020d/src/services/ReportService.ts",
         "count": 1,
         "uniques": 1
       },
@@ -156,5 +156,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/node-magento-eqp/network/dependents"
   },
-  "blast_radius": 230
+  "blast_radius": 310
 }

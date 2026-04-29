@@ -30,14 +30,14 @@
     "issues_open": 0,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 1,
-    "prs_closed_unmerged": 2,
+    "prs_merged": 2,
+    "prs_closed_unmerged": 3,
     "issues_total": 2,
     "releases": 1,
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 4,
-    "packagist_downloads": 373480,
+    "packagist_downloads": 373969,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 0
@@ -48,19 +48,19 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 8766,
+    "packagist_downloads": 8662,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 23,
+    "clones_total": 24,
     "clones_unique": 19,
-    "views_total": 10,
-    "views_unique": 10,
+    "views_total": 14,
+    "views_unique": 12,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 5,
-        "uniques": 5
+        "count": 8,
+        "uniques": 6
       },
       {
         "referrer": "search.brave.com",
@@ -72,8 +72,20 @@
       {
         "path": "/netresearch/deutschepost-sdk-addressfactory",
         "title": "Overview",
-        "count": 7,
-        "uniques": 7
+        "count": 8,
+        "uniques": 8
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-addressfactory/blob/master/CHANGELOG.md",
+        "title": "/blob/master/CHANGELOG.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-addressfactory/blame/master/CHANGELOG.md",
+        "title": "/blame/master/CHANGELOG.md",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/deutschepost-sdk-addressfactory/blob/master/rector.php",
@@ -140,9 +152,9 @@
   ],
   "packagist": {
     "name": "deutschepost/sdk-api-addressfactory",
-    "total": 373480,
-    "monthly": 8766,
-    "daily": 346,
+    "total": 373969,
+    "monthly": 8662,
+    "daily": 415,
     "url": "https://packagist.org/packages/deutschepost/sdk-api-addressfactory"
   },
   "ghcr": null,
@@ -151,5 +163,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/deutschepost-sdk-addressfactory/network/dependents"
   },
-  "blast_radius": 33
+  "blast_radius": 34
 }

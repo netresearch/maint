@@ -42,10 +42,10 @@
     "prs_closed_unmerged": 9,
     "issues_total": 6,
     "releases": 24,
-    "release_downloads": 241,
+    "release_downloads": 246,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 4791,
+    "packagist_downloads": 4793,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -56,12 +56,12 @@
     "prs_opened": 33,
     "prs_merged": 33,
     "releases": 1,
-    "packagist_downloads": 489,
+    "packagist_downloads": 463,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4719,
-    "clones_unique": 517,
+    "clones_total": 4720,
+    "clones_unique": 518,
     "views_total": 86,
     "views_unique": 16,
     "top_referrers": [
@@ -77,15 +77,20 @@
       },
       {
         "referrer": "Google",
-        "count": 8,
+        "count": 7,
         "uniques": 4
+      },
+      {
+        "referrer": "docs.typo3.org",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 18,
+        "count": 17,
         "uniques": 10
       },
       {
@@ -179,9 +184,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 4791,
-    "monthly": 489,
-    "daily": 50,
+    "total": 4793,
+    "monthly": 463,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,
