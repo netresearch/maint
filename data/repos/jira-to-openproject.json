@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-04-03T08:29:24Z",
-  "pushed_at": "2026-04-21T22:23:47Z",
-  "updated_at": "2026-04-21T22:23:51Z",
+  "pushed_at": "2026-04-29T15:27:48Z",
+  "updated_at": "2026-04-29T15:28:16Z",
   "composer_name": null,
   "lifetime": {
     "stars": 3,
@@ -21,16 +21,16 @@
     "watchers": 2,
     "network": 1,
     "open_issues_plus_prs": 4,
-    "commits": 758,
+    "commits": 804,
     "issues_open": 4,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 50,
+    "prs_merged": 64,
     "prs_closed_unmerged": 39,
     "issues_total": 7,
     "releases": 0,
     "release_downloads": 0,
-    "contributors": 3,
+    "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -38,10 +38,10 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 19,
+    "commits": 65,
     "issues_opened": 0,
-    "prs_opened": 18,
-    "prs_merged": 17,
+    "prs_opened": 29,
+    "prs_merged": 28,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
@@ -104,18 +104,23 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 709,
+      "contributions": 747,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 33,
+      "contributions": 37,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "dependabot[bot]",
       "contributions": 16,
       "url": "https://github.com/apps/dependabot"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 4,
+      "url": "https://github.com/apps/github-actions"
     }
   ],
   "packagist": null,
@@ -125,5 +130,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jira-to-openproject/network/dependents"
   },
-  "blast_radius": 59
+  "blast_radius": 73
 }
