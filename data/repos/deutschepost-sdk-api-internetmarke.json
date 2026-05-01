@@ -32,34 +32,29 @@
     "release_downloads": 0,
     "contributors": 2,
     "external_contributors": 1,
-    "packagist_downloads": 2108,
+    "packagist_downloads": 2119,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 1,
+    "commits": 0,
     "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1521,
+    "packagist_downloads": 1405,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 21,
-    "clones_unique": 15,
-    "views_total": 24,
-    "views_unique": 4,
+    "clones_total": 20,
+    "clones_unique": 14,
+    "views_total": 17,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 10,
-        "uniques": 1
-      },
-      {
-        "referrer": "packagist.org",
-        "count": 7,
         "uniques": 1
       },
       {
@@ -70,38 +65,20 @@
     ],
     "top_paths": [
       {
-        "path": "/netresearch/deutschepost-sdk-api-internetmarke",
-        "title": "Overview",
-        "count": 4,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/deutschepost-sdk-api-internetmarke/tree/main/src",
         "title": "/tree/main/src",
         "count": 4,
         "uniques": 1
       },
       {
+        "path": "/netresearch/deutschepost-sdk-api-internetmarke",
+        "title": "Overview",
+        "count": 3,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/deutschepost-sdk-api-internetmarke/blob/main/src/Model/PageFormat.php",
         "title": "/blob/main/src/Model/PageFormat.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-sdk-api-internetmarke/blob/main/test/Auth/BearerTokenAuthenticationTest.php",
-        "title": "/blob/main/test/Auth/BearerTokenAuthenticationTest.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-sdk-api-internetmarke/blob/main/test/Auth/TokenProviderTest.php",
-        "title": "/blob/main/test/Auth/TokenProviderTest.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-sdk-api-internetmarke/blob/main/test/TestCase/Service/OrderServiceTest.php",
-        "title": "/blob/main/test/TestCase/Service/OrderServiceTest.php",
         "count": 1,
         "uniques": 1
       },
@@ -151,8 +128,8 @@
   ],
   "packagist": {
     "name": "deutschepost/sdk-api-internetmarke",
-    "total": 2108,
-    "monthly": 1521,
+    "total": 2119,
+    "monthly": 1405,
     "daily": 9,
     "url": "https://packagist.org/packages/deutschepost/sdk-api-internetmarke"
   },

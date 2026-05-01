@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-08T20:40:10Z",
-  "pushed_at": "2026-04-29T18:38:02Z",
-  "updated_at": "2026-04-29T18:38:05Z",
+  "pushed_at": "2026-04-30T09:10:25Z",
+  "updated_at": "2026-04-30T09:10:28Z",
   "composer_name": null,
   "lifetime": {
     "stars": 0,
@@ -19,11 +19,11 @@
     "watchers": 0,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 15,
+    "commits": 20,
     "issues_open": 0,
     "issues_closed": 0,
     "prs_open": 1,
-    "prs_merged": 4,
+    "prs_merged": 6,
     "prs_closed_unmerged": 0,
     "issues_total": 0,
     "releases": 1,
@@ -36,24 +36,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 15,
+    "commits": 20,
     "issues_opened": 0,
-    "prs_opened": 5,
-    "prs_merged": 4,
+    "prs_opened": 7,
+    "prs_merged": 6,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 374,
-    "clones_unique": 77,
-    "views_total": 21,
-    "views_unique": 6,
+    "clones_total": 410,
+    "clones_unique": 89,
+    "views_total": 17,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 18,
-        "uniques": 4
+        "count": 14,
+        "uniques": 5
       },
       {
         "referrer": "Google",
@@ -71,42 +71,18 @@
       {
         "path": "/netresearch/typo3-a11y-skill/tree/main/skills/typo3-a11y",
         "title": "/tree/main/skills/typo3-a11y",
-        "count": 5,
+        "count": 6,
         "uniques": 3
       },
       {
         "path": "/netresearch/typo3-a11y-skill/blob/main/skills/typo3-a11y/references/patterns-clickable-cards.md",
         "title": "/blob/main/skills/typo3-a11y/references/patterns-clickable-cards.md",
-        "count": 3,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-a11y-skill/blob/main/.claude-plugin/plugin.json",
-        "title": "/blob/main/.claude-plugin/plugin.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-a11y-skill/blob/main/skills/typo3-a11y/SKILL.md",
-        "title": "/blob/main/skills/typo3-a11y/SKILL.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-a11y-skill/blob/main/skills/typo3-a11y/references/accessibility.md",
-        "title": "/blob/main/skills/typo3-a11y/references/accessibility.md",
-        "count": 1,
+        "count": 2,
         "uniques": 1
       },
       {
         "path": "/netresearch/typo3-a11y-skill/blob/main/skills/typo3-a11y/references/patterns-accessible-forms.md",
         "title": "/blob/main/skills/typo3-a11y/references/patterns-accessible-forms.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-a11y-skill/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
         "count": 1,
         "uniques": 1
       },
@@ -126,14 +102,14 @@
   },
   "top_contributors": [
     {
+      "login": "CybotTM",
+      "contributions": 12,
+      "url": "https://github.com/CybotTM"
+    },
+    {
       "login": "Gitsko",
       "contributions": 8,
       "url": "https://github.com/Gitsko"
-    },
-    {
-      "login": "CybotTM",
-      "contributions": 7,
-      "url": "https://github.com/CybotTM"
     }
   ],
   "packagist": null,
@@ -143,5 +119,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-a11y-skill/network/dependents"
   },
-  "blast_radius": 7
+  "blast_radius": 9
 }

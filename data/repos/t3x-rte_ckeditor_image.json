@@ -18,8 +18,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2017-05-12T13:29:43Z",
-  "pushed_at": "2026-04-29T06:50:22Z",
-  "updated_at": "2026-04-29T06:50:24Z",
+  "pushed_at": "2026-04-30T12:21:57Z",
+  "updated_at": "2026-04-30T12:21:59Z",
   "composer_name": "netresearch/rte-ckeditor-image",
   "lifetime": {
     "stars": 60,
@@ -27,51 +27,51 @@
     "watchers": 8,
     "network": 67,
     "open_issues_plus_prs": 5,
-    "commits": 1715,
+    "commits": 1717,
     "issues_open": 5,
     "issues_closed": 269,
     "prs_open": 0,
-    "prs_merged": 458,
+    "prs_merged": 459,
     "prs_closed_unmerged": 60,
     "issues_total": 274,
     "releases": 60,
     "release_downloads": 39,
     "contributors": 50,
     "external_contributors": 44,
-    "packagist_downloads": 1010484,
+    "packagist_downloads": 1011248,
     "ghcr_downloads": 0,
     "dependents_repos": 44,
     "dependents_packages": 3
   },
   "recent_30d": {
-    "commits": 97,
+    "commits": 82,
     "issues_opened": 4,
-    "prs_opened": 43,
-    "prs_merged": 32,
+    "prs_opened": 39,
+    "prs_merged": 31,
     "releases": 2,
-    "packagist_downloads": 17228,
+    "packagist_downloads": 17254,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6286,
-    "clones_unique": 788,
-    "views_total": 247,
-    "views_unique": 61,
+    "clones_total": 6803,
+    "clones_unique": 816,
+    "views_total": 227,
+    "views_unique": 59,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 53,
-        "uniques": 9
+        "count": 63,
+        "uniques": 10
       },
       {
         "referrer": "extensions.typo3.org",
-        "count": 48,
-        "uniques": 8
+        "count": 39,
+        "uniques": 7
       },
       {
         "referrer": "github.com",
-        "count": 23,
-        "uniques": 5
+        "count": 10,
+        "uniques": 4
       },
       {
         "referrer": "docs.typo3.org",
@@ -80,16 +80,11 @@
       },
       {
         "referrer": "packagist.org",
-        "count": 3,
-        "uniques": 3
+        "count": 6,
+        "uniques": 4
       },
       {
         "referrer": "DuckDuckGo",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "jira.netresearch.de",
         "count": 1,
         "uniques": 1
       },
@@ -103,20 +98,20 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image",
         "title": "Overview",
-        "count": 55,
-        "uniques": 30
+        "count": 41,
+        "uniques": 24
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues",
         "title": "/issues",
-        "count": 24,
-        "uniques": 10
+        "count": 33,
+        "uniques": 12
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/releases",
         "title": "/releases",
-        "count": 11,
-        "uniques": 7
+        "count": 12,
+        "uniques": 8
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/pulls",
@@ -131,16 +126,22 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/Resources/Private/Templates/Image/Popup.html",
-        "title": "/blob/main/Resources/Private/Templates/Image/Popup.html",
+        "path": "/netresearch/t3x-rte_ckeditor_image/tree/main/Configuration/RTE",
+        "title": "/tree/main/Configuration/RTE",
         "count": 5,
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/tree/main/Configuration/TypoScript/ImageRendering",
-        "title": "/tree/main/Configuration/TypoScript/ImageRendering",
+        "path": "/netresearch/t3x-rte_ckeditor_image/tree/main/Configuration/TypoScript",
+        "title": "/tree/main/Configuration/TypoScript",
         "count": 4,
-        "uniques": 2
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/Resources/Private/Templates/Image/Popup.html",
+        "title": "/blob/main/Resources/Private/Templates/Image/Popup.html",
+        "count": 4,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/Configuration/TypoScript/setup.typoscript",
@@ -149,14 +150,8 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/Resources/Public/JavaScript/Plugins/typo3image.js",
-        "title": "/blob/main/Resources/Public/JavaScript/Plugins/typo3image.js",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-rte_ckeditor_image/tree/main/Configuration/TypoScript",
-        "title": "/tree/main/Configuration/TypoScript",
+        "path": "/netresearch/t3x-rte_ckeditor_image/issues/187",
+        "title": "/issues/187",
         "count": 3,
         "uniques": 3
       }
@@ -176,7 +171,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 114,
+      "contributions": 116,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -222,9 +217,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1010484,
-    "monthly": 17228,
-    "daily": 755,
+    "total": 1011248,
+    "monthly": 17254,
+    "daily": 685,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,
@@ -233,5 +228,5 @@
     "packages": 3,
     "url": "https://github.com/netresearch/t3x-rte_ckeditor_image/network/dependents"
   },
-  "blast_radius": 1086
+  "blast_radius": 1087
 }

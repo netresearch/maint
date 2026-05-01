@@ -45,12 +45,37 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 84,
-    "clones_unique": 50,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 132,
+    "clones_unique": 72,
+    "views_total": 6,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/peer-qa-review-skill/pull/2",
+        "title": "/pull/2",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/peer-qa-review-skill/pull/2/changes",
+        "title": "/pull/2/changes",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/peer-qa-review-skill/pull/2/checks",
+        "title": "/pull/2/checks",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/peer-qa-review-skill/pull/2/commits",
+        "title": "/pull/2/commits",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v0.2.0 \u2014 first matured release",

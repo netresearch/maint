@@ -32,27 +32,40 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 276859,
+    "packagist_downloads": 277124,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 1,
+    "commits": 0,
     "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5112,
+    "packagist_downloads": 5089,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 20,
-    "clones_unique": 16,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 18,
+    "clones_unique": 15,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/dhl-module-unified-tracking/blob/master/composer.json",
+        "title": "/blob/master/composer.json",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "2.3.0",
@@ -94,9 +107,9 @@
   ],
   "packagist": {
     "name": "dhl/module-unified-tracking",
-    "total": 276859,
-    "monthly": 5112,
-    "daily": 228,
+    "total": 277124,
+    "monthly": 5089,
+    "daily": 264,
     "url": "https://packagist.org/packages/dhl/module-unified-tracking"
   },
   "ghcr": null,

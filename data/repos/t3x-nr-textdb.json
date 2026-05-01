@@ -50,7 +50,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 9,
+    "commits": 3,
     "issues_opened": 1,
     "prs_opened": 1,
     "prs_merged": 1,
@@ -60,23 +60,18 @@
   },
   "traffic_14d": {
     "clones_total": 604,
-    "clones_unique": 152,
-    "views_total": 107,
-    "views_unique": 5,
+    "clones_unique": 153,
+    "views_total": 50,
+    "views_unique": 4,
     "top_referrers": [
-      {
-        "referrer": "extensions.typo3.org",
-        "count": 31,
-        "uniques": 2
-      },
-      {
-        "referrer": "github.com",
-        "count": 16,
-        "uniques": 2
-      },
       {
         "referrer": "jira.netresearch.de",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
         "uniques": 1
       }
     ],
@@ -84,19 +79,13 @@
       {
         "path": "/netresearch/t3x-nr-textdb",
         "title": "Overview",
-        "count": 14,
-        "uniques": 4
+        "count": 9,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-textdb/issues/31",
         "title": "/issues/31",
-        "count": 14,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb/issues",
-        "title": "/issues",
-        "count": 12,
+        "count": 9,
         "uniques": 2
       },
       {
@@ -106,39 +95,45 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-textdb/issues",
+        "title": "/issues",
+        "count": 6,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-textdb/releases",
         "title": "/releases",
         "count": 5,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/tree/main/Classes/ViewHelpers",
-        "title": "/tree/main/Classes/ViewHelpers",
-        "count": 4,
+        "path": "/netresearch/t3x-nr-textdb/commit/01541a9d0073ef6ee3fe9d4c1ba58f5aac6ad57c",
+        "title": "/commit/01541a9d0073ef6ee3fe9d4c1ba58f5aac6ad57c",
+        "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb/issues/30",
-        "title": "/issues/30",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 2,
+        "path": "/netresearch/t3x-nr-textdb/commit/1072ce5ad2fba94739e55004b696454f4a5e64db",
+        "title": "/commit/1072ce5ad2fba94739e55004b696454f4a5e64db",
+        "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/blob/main/Classes/ViewHelpers/TextdbViewHelper.php",
-        "title": "/blob/main/Classes/ViewHelpers/TextdbViewHelper.php",
-        "count": 2,
+        "path": "/netresearch/t3x-nr-textdb/commit/17f543ef024be13e402253e5b5e6cab8ac4e0bb9",
+        "title": "/commit/17f543ef024be13e402253e5b5e6cab8ac4e0bb9",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/commit/a6ba2f3115afb2a5170fba2cb5ce1ea12193079f",
+        "title": "/commit/a6ba2f3115afb2a5170fba2cb5ce1ea12193079f",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/commit/e097599b1b738b53ea868f02f2606c8788d18835",
+        "title": "/commit/e097599b1b738b53ea868f02f2606c8788d18835",
+        "count": 1,
         "uniques": 1
       }
     ]
@@ -190,7 +185,7 @@
     "name": "netresearch/nr-textdb",
     "total": 753,
     "monthly": 15,
-    "daily": 1,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,

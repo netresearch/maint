@@ -21,10 +21,10 @@
   "default_branch": "main",
   "created_at": "2025-10-18T07:59:00Z",
   "pushed_at": "2026-04-29T11:05:43Z",
-  "updated_at": "2026-04-29T11:05:46Z",
+  "updated_at": "2026-04-30T08:32:41Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 33,
+    "stars": 34,
     "forks": 5,
     "watchers": 2,
     "network": 5,
@@ -46,7 +46,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 17,
+    "commits": 16,
     "issues_opened": 1,
     "prs_opened": 6,
     "prs_merged": 5,
@@ -55,25 +55,35 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1801,
-    "clones_unique": 393,
-    "views_total": 459,
-    "views_unique": 286,
+    "clones_total": 2294,
+    "clones_unique": 438,
+    "views_total": 431,
+    "views_unique": 269,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 235,
-        "uniques": 158
+        "count": 218,
+        "uniques": 146
       },
       {
         "referrer": "github.com",
-        "count": 74,
-        "uniques": 55
+        "count": 61,
+        "uniques": 45
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "Baidu",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "chatgpt.com",
@@ -81,23 +91,8 @@
         "uniques": 2
       },
       {
-        "referrer": "search.brave.com",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "referrer": "perplexity.ai",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "referrer": "Bing",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "DuckDuckGo",
-        "count": 1,
         "uniques": 1
       },
       {
@@ -109,38 +104,49 @@
         "referrer": "ecosia.org",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "yandex.ru",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 324,
-        "uniques": 285
+        "count": 304,
+        "uniques": 268
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 28,
-        "uniques": 24
+        "count": 26,
+        "uniques": 22
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
         "title": "/blob/main/.claude-plugin/marketplace.json",
         "count": 21,
-        "uniques": 17
+        "uniques": 15
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 14,
-        "uniques": 12
+        "count": 12,
+        "uniques": 10
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main",
         "title": "/tree/main",
-        "count": 12,
-        "uniques": 7
+        "count": 10,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/pulls",
+        "title": "/pulls",
+        "count": 8,
+        "uniques": 4
       },
       {
         "path": "/netresearch/claude-code-marketplace/issues",
@@ -149,28 +155,22 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/claude-code-marketplace/pulls",
-        "title": "/pulls",
-        "count": 7,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/claude-code-marketplace/tree/main/.github/workflows",
         "title": "/tree/main/.github/workflows",
         "count": 6,
         "uniques": 5
       },
       {
-        "path": "/netresearch/claude-code-marketplace/blob/main/.envrc",
-        "title": "/blob/main/.envrc",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/claude-code-marketplace/pull/37",
         "title": "/pull/37",
         "count": 4,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/blob/main/.envrc",
+        "title": "/blob/main/.envrc",
+        "count": 3,
+        "uniques": 3
       }
     ]
   },

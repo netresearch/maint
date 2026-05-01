@@ -38,24 +38,30 @@
   "recent_30d": {
     "commits": 11,
     "issues_opened": 0,
-    "prs_opened": 12,
+    "prs_opened": 11,
     "prs_merged": 11,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 188,
-    "clones_unique": 76,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 152,
+    "clones_unique": 67,
+    "views_total": 2,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/ansible-role-monitoring-server",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       }
     ]
   },

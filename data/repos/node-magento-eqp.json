@@ -16,8 +16,8 @@
   "homepage": "https://netresearch.github.io/node-magento-eqp",
   "default_branch": "main",
   "created_at": "2021-03-31T09:13:35Z",
-  "pushed_at": "2026-04-25T18:36:13Z",
-  "updated_at": "2026-04-25T18:36:17Z",
+  "pushed_at": "2026-04-30T19:36:41Z",
+  "updated_at": "2026-04-30T19:36:46Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
@@ -25,11 +25,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 590,
+    "commits": 591,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 461,
+    "prs_merged": 462,
     "prs_closed_unmerged": 78,
     "issues_total": 1,
     "releases": 29,
@@ -42,19 +42,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 30,
+    "commits": 21,
     "issues_opened": 0,
-    "prs_opened": 23,
-    "prs_merged": 23,
+    "prs_opened": 22,
+    "prs_merged": 22,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 497,
-    "clones_unique": 176,
-    "views_total": 10,
-    "views_unique": 6,
+    "clones_total": 465,
+    "clones_unique": 169,
+    "views_total": 7,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -76,20 +76,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/node-magento-eqp/commit/141fa0468ab12160877d532fbafb8be98c4c3ee6",
-        "title": "/commit/141fa0468ab12160877d532fbafb8be98c4c3ee6",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/node-magento-eqp/blob/2adbd1dc3e451ee8347f4abae7826f43fc207afa/src/services/ReportService.ts",
         "title": "/blob/2adbd1dc3e451ee8347f4abae7826f43fc207afa/src/services/ReportService.ts",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/node-magento-eqp/blob/main/vitest.config.ts",
-        "title": "/blob/main/vitest.config.ts",
         "count": 1,
         "uniques": 1
       },
@@ -110,7 +98,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 337,
+      "contributions": 338,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -156,5 +144,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/node-magento-eqp/network/dependents"
   },
-  "blast_radius": 473
+  "blast_radius": 474
 }

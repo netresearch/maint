@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-06T00:27:24Z",
-  "pushed_at": "2026-04-28T07:14:30Z",
-  "updated_at": "2026-04-28T07:14:33Z",
+  "pushed_at": "2026-04-30T09:14:37Z",
+  "updated_at": "2026-04-30T09:14:40Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
@@ -23,15 +23,15 @@
     "watchers": 2,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 112,
+    "commits": 117,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 1,
-    "prs_merged": 23,
+    "prs_merged": 25,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 25,
-    "release_downloads": 61,
+    "release_downloads": 62,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,29 +40,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 30,
+    "commits": 31,
     "issues_opened": 0,
-    "prs_opened": 9,
-    "prs_merged": 8,
+    "prs_opened": 11,
+    "prs_merged": 10,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1393,
-    "clones_unique": 280,
-    "views_total": 144,
-    "views_unique": 38,
+    "clones_total": 1390,
+    "clones_unique": 284,
+    "views_total": 148,
+    "views_unique": 40,
     "top_referrers": [
       {
-        "referrer": "Google",
-        "count": 27,
-        "uniques": 12
+        "referrer": "github.com",
+        "count": 28,
+        "uniques": 10
       },
       {
-        "referrer": "github.com",
-        "count": 22,
-        "uniques": 9
+        "referrer": "Google",
+        "count": 25,
+        "uniques": 13
       },
       {
         "referrer": "netresearch.github.io",
@@ -74,8 +74,14 @@
       {
         "path": "/netresearch/typo3-extension-upgrade-skill",
         "title": "Overview",
-        "count": 60,
-        "uniques": 35
+        "count": 62,
+        "uniques": 37
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade",
+        "title": "/tree/main/skills/typo3-extension-upgrade",
+        "count": 14,
+        "uniques": 8
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/issues/14",
@@ -84,33 +90,27 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade",
-        "title": "/tree/main/skills/typo3-extension-upgrade",
-        "count": 12,
-        "uniques": 7
-      },
-      {
         "path": "/netresearch/typo3-extension-upgrade-skill/tree/main",
         "title": "/tree/main",
-        "count": 10,
-        "uniques": 6
+        "count": 9,
+        "uniques": 5
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/SKILL.md",
         "title": "/blob/main/skills/typo3-extension-upgrade/SKILL.md",
-        "count": 7,
+        "count": 6,
         "uniques": 5
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade/references",
+        "title": "/tree/main/skills/typo3-extension-upgrade/references",
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/agents",
         "title": "/tree/main/agents",
         "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade/references",
-        "title": "/tree/main/skills/typo3-extension-upgrade/references",
-        "count": 3,
         "uniques": 3
       },
       {
@@ -142,7 +142,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 109,
+      "contributions": 114,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -163,5 +163,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-extension-upgrade-skill/network/dependents"
   },
-  "blast_radius": 24
+  "blast_radius": 26
 }

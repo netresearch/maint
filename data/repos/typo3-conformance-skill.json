@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T10:14:23Z",
-  "pushed_at": "2026-04-25T11:40:58Z",
-  "updated_at": "2026-04-25T11:40:59Z",
+  "pushed_at": "2026-04-30T09:14:13Z",
+  "updated_at": "2026-04-30T09:14:17Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 260,
+    "commits": 265,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 51,
+    "prs_merged": 53,
     "prs_closed_unmerged": 5,
     "issues_total": 2,
     "releases": 39,
@@ -47,29 +47,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 50,
+    "commits": 47,
     "issues_opened": 1,
     "prs_opened": 19,
-    "prs_merged": 17,
+    "prs_merged": 18,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1569,
-    "clones_unique": 417,
+    "clones_total": 1553,
+    "clones_unique": 412,
     "views_total": 58,
-    "views_unique": 27,
+    "views_unique": 28,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 33,
-        "uniques": 14
+        "count": 38,
+        "uniques": 16
       },
       {
         "referrer": "github.com",
-        "count": 16,
-        "uniques": 9
+        "count": 8,
+        "uniques": 7
       },
       {
         "referrer": "netresearch.github.io",
@@ -81,20 +81,32 @@
       {
         "path": "/netresearch/typo3-conformance-skill",
         "title": "Overview",
-        "count": 37,
-        "uniques": 27
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance",
-        "title": "/tree/main/skills/typo3-conformance",
-        "count": 7,
-        "uniques": 5
+        "count": 35,
+        "uniques": 26
       },
       {
         "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/SKILL.md",
         "title": "/blob/main/skills/typo3-conformance/SKILL.md",
-        "count": 5,
+        "count": 6,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance",
+        "title": "/tree/main/skills/typo3-conformance",
+        "count": 6,
         "uniques": 5
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/.claude-plugin/plugin.json",
+        "title": "/blob/main/.claude-plugin/plugin.json",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/tree/main",
+        "title": "/tree/main",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-conformance-skill/actions",
@@ -103,8 +115,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/.claude-plugin/plugin.json",
-        "title": "/blob/main/.claude-plugin/plugin.json",
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/checkpoints.yaml",
+        "title": "/blob/main/skills/typo3-conformance/checkpoints.yaml",
         "count": 1,
         "uniques": 1
       },
@@ -125,18 +137,6 @@
         "title": "/discussions",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/tree/main",
-        "title": "/tree/main",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/tree/main/Build",
-        "title": "/tree/main/Build",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -149,7 +149,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 256,
+      "contributions": 261,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -170,5 +170,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "blast_radius": 53
+  "blast_radius": 55
 }

@@ -27,42 +27,42 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 66,
-    "issues_open": 1,
+    "issues_open": 2,
     "issues_closed": 1,
     "prs_open": 0,
     "prs_merged": 28,
     "prs_closed_unmerged": 10,
-    "issues_total": 2,
+    "issues_total": 3,
     "releases": 6,
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 709,
+    "packagist_downloads": 839,
     "ghcr_downloads": 0,
     "dependents_repos": 41,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 12,
-    "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 6,
+    "commits": 10,
+    "issues_opened": 1,
+    "prs_opened": 5,
+    "prs_merged": 5,
     "releases": 1,
-    "packagist_downloads": 671,
+    "packagist_downloads": 695,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 191,
-    "clones_unique": 76,
-    "views_total": 73,
+    "clones_total": 164,
+    "clones_unique": 67,
+    "views_total": 71,
     "views_unique": 38,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 23,
-        "uniques": 11
+        "count": 24,
+        "uniques": 12
       },
       {
         "referrer": "github.com",
@@ -84,8 +84,8 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 42,
-        "uniques": 35
+        "count": 40,
+        "uniques": 33
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/README.md",
@@ -94,16 +94,16 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
-        "count": 3,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/WORKFLOW.md",
         "title": "/blob/main/WORKFLOW.md",
         "count": 3,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/blob/main/renovate.json",
+        "title": "/blob/main/renovate.json",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/tree/main/claudedocs/phase-prompts",
@@ -136,8 +136,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/renovate.json",
-        "title": "/blob/main/renovate.json",
+        "path": "/netresearch/composer-agent-skill-plugin/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
         "count": 1,
         "uniques": 1
       }
@@ -178,9 +178,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 709,
-    "monthly": 671,
-    "daily": 44,
+    "total": 839,
+    "monthly": 695,
+    "daily": 107,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,
@@ -189,5 +189,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/composer-agent-skill-plugin/network/dependents"
   },
-  "blast_radius": 112
+  "blast_radius": 113
 }
