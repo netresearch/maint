@@ -36,7 +36,7 @@
     "prs_closed_unmerged": 1,
     "issues_total": 1,
     "releases": 15,
-    "release_downloads": 33,
+    "release_downloads": 34,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -45,24 +45,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 19,
+    "commits": 18,
     "issues_opened": 0,
     "prs_opened": 7,
-    "prs_merged": 8,
-    "releases": 3,
+    "prs_merged": 7,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 783,
-    "clones_unique": 138,
-    "views_total": 232,
-    "views_unique": 89,
+    "clones_total": 693,
+    "clones_unique": 154,
+    "views_total": 250,
+    "views_unique": 94,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 195,
-        "uniques": 75
+        "count": 200,
+        "uniques": 76
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 16,
+        "uniques": 3
       },
       {
         "referrer": "statics.teams.cdn.office.net",
@@ -71,39 +76,34 @@
       },
       {
         "referrer": "github.com",
-        "count": 7,
-        "uniques": 5
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 7,
-        "uniques": 2
+        "count": 8,
+        "uniques": 6
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/docker-development-skill",
         "title": "Overview",
-        "count": 103,
-        "uniques": 87
+        "count": 108,
+        "uniques": 91
       },
       {
         "path": "/netresearch/docker-development-skill/tree/main/skills/docker-development",
         "title": "/tree/main/skills/docker-development",
-        "count": 25,
-        "uniques": 22
+        "count": 29,
+        "uniques": 24
       },
       {
         "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/SKILL.md",
         "title": "/blob/main/skills/docker-development/SKILL.md",
-        "count": 19,
-        "uniques": 18
+        "count": 23,
+        "uniques": 21
       },
       {
         "path": "/netresearch/docker-development-skill/tree/main/skills/docker-development/references",
         "title": "/tree/main/skills/docker-development/references",
-        "count": 9,
-        "uniques": 9
+        "count": 11,
+        "uniques": 11
       },
       {
         "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/references/ci-testing.md",
@@ -126,18 +126,18 @@
       {
         "path": "/netresearch/docker-development-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 5,
+        "count": 6,
         "uniques": 5
       },
       {
-        "path": "/netresearch/docker-development-skill/tree/main/docs",
-        "title": "/tree/main/docs",
-        "count": 4,
-        "uniques": 4
+        "path": "/netresearch/docker-development-skill/tree/main",
+        "title": "/tree/main",
+        "count": 5,
+        "uniques": 3
       },
       {
-        "path": "/netresearch/docker-development-skill/tree/main/scripts",
-        "title": "/tree/main/scripts",
+        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/references/dind-testing-patterns.md",
+        "title": "/blob/main/skills/docker-development/references/dind-testing-patterns.md",
         "count": 4,
         "uniques": 4
       }

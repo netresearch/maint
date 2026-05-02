@@ -13,10 +13,10 @@
   "default_branch": "main",
   "created_at": "2025-12-23T21:54:50Z",
   "pushed_at": "2026-04-30T09:07:29Z",
-  "updated_at": "2026-04-30T09:07:33Z",
+  "updated_at": "2026-05-01T15:01:24Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 13,
+    "stars": 14,
     "forks": 2,
     "watchers": 1,
     "network": 2,
@@ -29,7 +29,7 @@
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 17,
-    "release_downloads": 63,
+    "release_downloads": 64,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -38,29 +38,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 19,
+    "commits": 15,
     "issues_opened": 0,
-    "prs_opened": 6,
-    "prs_merged": 6,
-    "releases": 2,
+    "prs_opened": 5,
+    "prs_merged": 5,
+    "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1103,
-    "clones_unique": 353,
-    "views_total": 1050,
-    "views_unique": 534,
+    "clones_total": 1008,
+    "clones_unique": 375,
+    "views_total": 1043,
+    "views_unique": 540,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 881,
-        "uniques": 484
+        "count": 899,
+        "uniques": 499
       },
       {
         "referrer": "ecosia.org",
-        "count": 22,
-        "uniques": 1
+        "count": 24,
+        "uniques": 2
       },
       {
         "referrer": "search.brave.com",
@@ -69,13 +69,8 @@
       },
       {
         "referrer": "statics.teams.cdn.office.net",
-        "count": 12,
-        "uniques": 8
-      },
-      {
-        "referrer": "perplexity.ai",
-        "count": 8,
-        "uniques": 2
+        "count": 10,
+        "uniques": 7
       },
       {
         "referrer": "github.com",
@@ -83,14 +78,9 @@
         "uniques": 7
       },
       {
-        "referrer": "doubao.com",
-        "count": 7,
-        "uniques": 1
-      },
-      {
         "referrer": "context7.com",
-        "count": 3,
-        "uniques": 3
+        "count": 5,
+        "uniques": 5
       },
       {
         "referrer": "Bing",
@@ -101,66 +91,76 @@
         "referrer": "claude.ai",
         "count": 3,
         "uniques": 1
+      },
+      {
+        "referrer": "doubao.com",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "referrer": "Yahoo",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/context7-skill",
         "title": "Overview",
-        "count": 644,
-        "uniques": 531
+        "count": 650,
+        "uniques": 543
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7",
         "title": "/tree/main/skills/context7",
-        "count": 114,
-        "uniques": 78
+        "count": 110,
+        "uniques": 76
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/SKILL.md",
         "title": "/blob/main/skills/context7/SKILL.md",
-        "count": 88,
-        "uniques": 62
+        "count": 72,
+        "uniques": 57
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7/scripts",
         "title": "/tree/main/skills/context7/scripts",
-        "count": 47,
-        "uniques": 34
+        "count": 45,
+        "uniques": 32
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/scripts/context7.sh",
         "title": "/blob/main/skills/context7/scripts/context7.sh",
-        "count": 37,
-        "uniques": 31
+        "count": 32,
+        "uniques": 27
       },
       {
         "path": "/netresearch/context7-skill/tree/main",
         "title": "/tree/main",
-        "count": 18,
-        "uniques": 13
+        "count": 19,
+        "uniques": 14
       },
       {
         "path": "/netresearch/context7-skill/issues",
         "title": "/issues",
-        "count": 17,
-        "uniques": 8
+        "count": 18,
+        "uniques": 9
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 12,
-        "uniques": 11
+        "count": 15,
+        "uniques": 14
       },
       {
-        "path": "/netresearch/context7-skill/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
-        "count": 9,
-        "uniques": 8
+        "path": "/netresearch/context7-skill/releases/tag/v1.4.1",
+        "title": "/releases/tag/v1.4.1",
+        "count": 11,
+        "uniques": 10
       },
       {
-        "path": "/netresearch/context7-skill/tree/main/scripts",
-        "title": "/tree/main/scripts",
+        "path": "/netresearch/context7-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
         "count": 8,
         "uniques": 7
       }

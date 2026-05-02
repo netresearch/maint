@@ -56,17 +56,23 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 211,
-    "clones_unique": 94,
-    "views_total": 80,
-    "views_unique": 3,
-    "top_referrers": [],
+    "clones_total": 280,
+    "clones_unique": 116,
+    "views_total": 81,
+    "views_unique": 4,
+    "top_referrers": [
+      {
+        "referrer": "chatgpt.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/german-technical-writing-skill",
         "title": "Overview",
-        "count": 9,
-        "uniques": 3
+        "count": 10,
+        "uniques": 4
       },
       {
         "path": "/netresearch/german-technical-writing-skill/tree/main/skills/german-technical-writing",

@@ -32,13 +32,13 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 1637,
+    "packagist_downloads": 1638,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 12,
+    "commits": 11,
     "issues_opened": 0,
     "prs_opened": 9,
     "prs_merged": 9,
@@ -49,10 +49,23 @@
   "traffic_14d": {
     "clones_total": 458,
     "clones_unique": 103,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-scheduler/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.1.8",
@@ -79,9 +92,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-scheduler",
-    "total": 1637,
+    "total": 1638,
     "monthly": 243,
-    "daily": 4,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/nr-scheduler"
   },
   "ghcr": null,
