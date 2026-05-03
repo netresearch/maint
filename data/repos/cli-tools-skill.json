@@ -20,8 +20,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-29T21:10:49Z",
-  "pushed_at": "2026-04-30T09:11:51Z",
-  "updated_at": "2026-04-30T09:11:54Z",
+  "pushed_at": "2026-05-02T17:19:55Z",
+  "updated_at": "2026-05-02T17:19:58Z",
   "composer_name": null,
   "lifetime": {
     "stars": 4,
@@ -29,15 +29,15 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 98,
+    "commits": 101,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 25,
+    "prs_merged": 26,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
     "releases": 19,
-    "release_downloads": 52,
+    "release_downloads": 54,
     "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -46,24 +46,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 13,
+    "commits": 16,
     "issues_opened": 0,
-    "prs_opened": 5,
-    "prs_merged": 5,
+    "prs_opened": 6,
+    "prs_merged": 6,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 739,
-    "clones_unique": 172,
-    "views_total": 52,
-    "views_unique": 28,
+    "clones_total": 715,
+    "clones_unique": 174,
+    "views_total": 46,
+    "views_unique": 27,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 28,
-        "uniques": 15
+        "count": 22,
+        "uniques": 14
       },
       {
         "referrer": "github.com",
@@ -80,26 +80,14 @@
       {
         "path": "/netresearch/cli-tools-skill",
         "title": "Overview",
-        "count": 28,
-        "uniques": 26
+        "count": 26,
+        "uniques": 24
       },
       {
         "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools",
         "title": "/tree/main/skills/cli-tools",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools/scripts/installers",
-        "title": "/tree/main/skills/cli-tools/scripts/installers",
         "count": 3,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/SKILL.md",
-        "title": "/blob/main/skills/cli-tools/SKILL.md",
-        "count": 2,
-        "uniques": 2
+        "uniques": 3
       },
       {
         "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools/references",
@@ -108,10 +96,10 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools/scripts",
-        "title": "/tree/main/skills/cli-tools/scripts",
+        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools/scripts/installers",
+        "title": "/tree/main/skills/cli-tools/scripts/installers",
         "count": 2,
-        "uniques": 2
+        "uniques": 1
       },
       {
         "path": "/netresearch/cli-tools-skill/blob/main/.claude-plugin/plugin.json",
@@ -132,8 +120,20 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/SKILL.md",
+        "title": "/blob/main/skills/cli-tools/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/references/preferred-tools.md",
         "title": "/blob/main/skills/cli-tools/references/preferred-tools.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/scripts/detect_project_type.sh",
+        "title": "/blob/main/skills/cli-tools/scripts/detect_project_type.sh",
         "count": 1,
         "uniques": 1
       }
@@ -148,7 +148,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 88,
+      "contributions": 91,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -179,5 +179,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/cli-tools-skill/network/dependents"
   },
-  "blast_radius": 31
+  "blast_radius": 32
 }

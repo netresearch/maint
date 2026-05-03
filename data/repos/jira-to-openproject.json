@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-04-03T08:29:24Z",
-  "pushed_at": "2026-05-01T22:33:17Z",
+  "pushed_at": "2026-05-02T09:33:40Z",
   "updated_at": "2026-05-01T22:33:19Z",
   "composer_name": null,
   "lifetime": {
@@ -20,11 +20,11 @@
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 4,
+    "open_issues_plus_prs": 8,
     "commits": 980,
     "issues_open": 4,
     "issues_closed": 3,
-    "prs_open": 0,
+    "prs_open": 4,
     "prs_merged": 124,
     "prs_closed_unmerged": 39,
     "issues_total": 7,
@@ -40,17 +40,17 @@
   "recent_30d": {
     "commits": 239,
     "issues_opened": 0,
-    "prs_opened": 85,
+    "prs_opened": 89,
     "prs_merged": 87,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2771,
-    "clones_unique": 335,
-    "views_total": 21,
-    "views_unique": 11,
+    "clones_total": 4717,
+    "clones_unique": 524,
+    "views_total": 31,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -64,6 +64,11 @@
       },
       {
         "referrer": "DuckDuckGo",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "referrer": "github.com",
         "count": 3,
         "uniques": 2
       },
@@ -82,8 +87,20 @@
       {
         "path": "/netresearch/jira-to-openproject",
         "title": "Overview",
-        "count": 15,
-        "uniques": 9
+        "count": 18,
+        "uniques": 12
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/pulls",
+        "title": "/pulls",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/pull/140",
+        "title": "/pull/140",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/jira-to-openproject/blob/main/scripts/README.md",
@@ -110,14 +127,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/jira-to-openproject/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/jira-to-openproject/pull/140/files",
+        "title": "/pull/140/files",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/jira-to-openproject/tree/main/src",
-        "title": "/tree/main/src",
+        "path": "/netresearch/jira-to-openproject/pull/155",
+        "title": "/pull/155",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/tree/main",
+        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       }

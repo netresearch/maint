@@ -44,7 +44,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 3,
-    "packagist_downloads": 753,
+    "packagist_downloads": 754,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -55,33 +55,22 @@
     "prs_opened": 1,
     "prs_merged": 1,
     "releases": 0,
-    "packagist_downloads": 15,
+    "packagist_downloads": 16,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 603,
-    "clones_unique": 151,
-    "views_total": 44,
-    "views_unique": 4,
+    "clones_total": 544,
+    "clones_unique": 142,
+    "views_total": 25,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "jira.netresearch.de",
         "count": 2,
         "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
-      {
-        "path": "/netresearch/t3x-nr-textdb/issues/31",
-        "title": "/issues/31",
-        "count": 9,
-        "uniques": 2
-      },
       {
         "path": "/netresearch/t3x-nr-textdb/commits/typo3-14",
         "title": "/commits/typo3-14",
@@ -91,19 +80,13 @@
       {
         "path": "/netresearch/t3x-nr-textdb",
         "title": "Overview",
-        "count": 6,
+        "count": 3,
         "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-textdb/issues",
         "title": "/issues",
-        "count": 6,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb/releases",
-        "title": "/releases",
-        "count": 3,
+        "count": 2,
         "uniques": 1
       },
       {
@@ -133,6 +116,18 @@
       {
         "path": "/netresearch/t3x-nr-textdb/commit/e097599b1b738b53ea868f02f2606c8788d18835",
         "title": "/commit/e097599b1b738b53ea868f02f2606c8788d18835",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/commit/f431732c1174c10c67d4a6cd16d06397c9feb045",
+        "title": "/commit/f431732c1174c10c67d4a6cd16d06397c9feb045",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/commits/main",
+        "title": "/commits/main",
         "count": 1,
         "uniques": 1
       }
@@ -183,9 +178,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 753,
-    "monthly": 15,
-    "daily": 0,
+    "total": 754,
+    "monthly": 16,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,

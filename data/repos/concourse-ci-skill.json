@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-23T10:28:16Z",
-  "pushed_at": "2026-04-30T09:07:24Z",
-  "updated_at": "2026-04-30T09:07:27Z",
+  "pushed_at": "2026-05-02T17:19:51Z",
+  "updated_at": "2026-05-02T17:19:54Z",
   "composer_name": null,
   "lifetime": {
     "stars": 0,
@@ -21,11 +21,11 @@
     "watchers": 0,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 81,
+    "commits": 84,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 17,
+    "prs_merged": 18,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
     "releases": 13,
@@ -38,19 +38,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 14,
+    "commits": 17,
     "issues_opened": 0,
-    "prs_opened": 5,
-    "prs_merged": 5,
+    "prs_opened": 6,
+    "prs_merged": 6,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 373,
-    "clones_unique": 95,
-    "views_total": 56,
-    "views_unique": 6,
+    "clones_unique": 98,
+    "views_total": 33,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -68,24 +68,12 @@
       {
         "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/examples/basic-pipeline.yml",
         "title": "/blob/main/skills/concourse-ci/examples/basic-pipeline.yml",
-        "count": 5,
-        "uniques": 3
+        "count": 4,
+        "uniques": 2
       },
       {
         "path": "/netresearch/concourse-ci-skill/tree/main/skills/concourse-ci",
         "title": "/tree/main/skills/concourse-ci",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/SKILL.md",
-        "title": "/blob/main/skills/concourse-ci/SKILL.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/concourse-ci-skill/tree/main/skills/concourse-ci/examples",
-        "title": "/tree/main/skills/concourse-ci/examples",
         "count": 3,
         "uniques": 2
       },
@@ -96,16 +84,10 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/concourse-ci-skill/tree/main/scripts",
-        "title": "/tree/main/scripts",
+        "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/SKILL.md",
+        "title": "/blob/main/skills/concourse-ci/SKILL.md",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/concourse-ci-skill/blob/main/.github/workflows/eval-validate.yml",
-        "title": "/blob/main/.github/workflows/eval-validate.yml",
-        "count": 2,
-        "uniques": 1
       },
       {
         "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/examples/multi-branch.yml",
@@ -117,6 +99,24 @@
         "path": "/netresearch/concourse-ci-skill/tree/main",
         "title": "/tree/main",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/concourse-ci-skill/tree/main/skills/concourse-ci/examples",
+        "title": "/tree/main/skills/concourse-ci/examples",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/examples",
+        "title": "/blob/main/skills/concourse-ci/examples",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/examples/docker-build.yml",
+        "title": "/blob/main/skills/concourse-ci/examples/docker-build.yml",
+        "count": 1,
         "uniques": 1
       }
     ]
@@ -130,7 +130,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 80,
+      "contributions": 83,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -146,5 +146,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/concourse-ci-skill/network/dependents"
   },
-  "blast_radius": 18
+  "blast_radius": 19
 }
