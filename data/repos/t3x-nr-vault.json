@@ -47,11 +47,16 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3151,
-    "clones_unique": 454,
-    "views_total": 5,
+    "clones_total": 3153,
+    "clones_unique": 457,
+    "views_total": 10,
     "views_unique": 4,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 4,
+        "uniques": 1
+      },
       {
         "referrer": "Google",
         "count": 2,
@@ -61,19 +66,38 @@
         "referrer": "extensions.typo3.org",
         "count": 2,
         "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 5,
+        "count": 6,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/commit/69fe15f0861c3441581c6652706b826a17958a28",
+        "title": "/commit/69fe15f0861c3441581c6652706b826a17958a28",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/commits/main",
+        "title": "/commits/main",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/issues",
+        "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/issues/7",
+        "title": "/issues/7",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
