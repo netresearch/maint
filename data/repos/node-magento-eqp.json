@@ -16,20 +16,20 @@
   "homepage": "https://netresearch.github.io/node-magento-eqp",
   "default_branch": "main",
   "created_at": "2021-03-31T09:13:35Z",
-  "pushed_at": "2026-04-30T19:36:41Z",
-  "updated_at": "2026-04-30T19:36:46Z",
+  "pushed_at": "2026-05-04T15:49:54Z",
+  "updated_at": "2026-05-04T15:49:01Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 1,
-    "commits": 591,
+    "open_issues_plus_prs": 2,
+    "commits": 592,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 0,
-    "prs_merged": 462,
+    "prs_open": 1,
+    "prs_merged": 463,
     "prs_closed_unmerged": 78,
     "issues_total": 1,
     "releases": 29,
@@ -42,23 +42,23 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 21,
+    "commits": 22,
     "issues_opened": 0,
-    "prs_opened": 21,
-    "prs_merged": 21,
+    "prs_opened": 23,
+    "prs_merged": 22,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 356,
-    "clones_unique": 144,
-    "views_total": 7,
-    "views_unique": 5,
+    "clones_total": 343,
+    "clones_unique": 138,
+    "views_total": 22,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 4,
+        "count": 18,
         "uniques": 2
       }
     ],
@@ -66,8 +66,14 @@
       {
         "path": "/netresearch/node-magento-eqp",
         "title": "Overview",
-        "count": 3,
-        "uniques": 2
+        "count": 7,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/node-magento-eqp/tree/main/.github",
+        "title": "/tree/main/.github",
+        "count": 4,
+        "uniques": 1
       },
       {
         "path": "/netresearch/node-magento-eqp/blob/318bf9b85f9f270b1e8c1c199bdfe80afaca020d/src/services/ReportService.ts",
@@ -76,8 +82,38 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/node-magento-eqp/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/node-magento-eqp/blob/2adbd1dc3e451ee8347f4abae7826f43fc207afa/src/services/ReportService.ts",
         "title": "/blob/2adbd1dc3e451ee8347f4abae7826f43fc207afa/src/services/ReportService.ts",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/node-magento-eqp/pull/465",
+        "title": "/pull/465",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/node-magento-eqp/pull/471",
+        "title": "/pull/471",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/node-magento-eqp/pull/482",
+        "title": "/pull/482",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/node-magento-eqp/pull/503",
+        "title": "/pull/503",
         "count": 1,
         "uniques": 1
       },
@@ -98,7 +134,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 338,
+      "contributions": 339,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -144,5 +180,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/node-magento-eqp/network/dependents"
   },
-  "blast_radius": 474
+  "blast_radius": 475
 }
