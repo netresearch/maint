@@ -37,7 +37,7 @@
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 3,
-    "packagist_downloads": 785,
+    "packagist_downloads": 794,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -48,14 +48,14 @@
     "prs_opened": 39,
     "prs_merged": 41,
     "releases": 6,
-    "packagist_downloads": 184,
+    "packagist_downloads": 191,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6488,
-    "clones_unique": 623,
-    "views_total": 84,
-    "views_unique": 10,
+    "clones_total": 5087,
+    "clones_unique": 518,
+    "views_total": 27,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -64,39 +64,21 @@
       },
       {
         "referrer": "jira.netresearch.de",
-        "count": 3,
-        "uniques": 2
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-image-optimize",
         "title": "Overview",
-        "count": 13,
-        "uniques": 6
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/t3x-nr-image-optimize/issues",
         "title": "/issues",
-        "count": 9,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/issues/70",
-        "title": "/issues/70",
-        "count": 8,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/releases",
-        "title": "/releases",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/pull/72",
-        "title": "/pull/72",
-        "count": 4,
+        "count": 5,
         "uniques": 2
       },
       {
@@ -106,27 +88,45 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-image-optimize/actions",
-        "title": "/actions",
-        "count": 4,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-image-optimize/commits/main",
         "title": "/commits/main",
         "count": 3,
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-image-optimize/actions/runs/24653493071",
-        "title": "/actions/runs/24653493071",
+        "path": "/netresearch/t3x-nr-image-optimize/issues/70",
+        "title": "/issues/70",
         "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Classes/Processor.php",
+        "title": "/blob/main/Classes/Processor.php",
+        "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-optimize/actions/runs/24653493071/job/72081349727",
-        "title": "/actions/runs/24653493071/job/72081349727",
-        "count": 2,
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Classes/ProcessorInterface.php",
+        "title": "/blob/main/Classes/ProcessorInterface.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/pull/88",
+        "title": "/pull/88",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/releases/tag/v1.1.1",
+        "title": "/releases/tag/v1.1.1",
+        "count": 1,
         "uniques": 1
       }
     ]
@@ -181,8 +181,8 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 785,
-    "monthly": 184,
+    "total": 794,
+    "monthly": 191,
     "daily": 7,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },

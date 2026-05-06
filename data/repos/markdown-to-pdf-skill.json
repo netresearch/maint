@@ -45,13 +45,28 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 140,
-    "clones_unique": 58,
-    "views_total": 2,
-    "views_unique": 1,
+    "clones_total": 145,
+    "clones_unique": 61,
+    "views_total": 30,
+    "views_unique": 4,
     "top_referrers": [
       {
+        "referrer": "Google",
+        "count": 14,
+        "uniques": 1
+      },
+      {
         "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "perplexity.ai",
         "count": 1,
         "uniques": 1
       }
@@ -60,7 +75,43 @@
       {
         "path": "/netresearch/markdown-to-pdf-skill",
         "title": "Overview",
-        "count": 2,
+        "count": 5,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/blob/main/skills/markdown-to-pdf/scripts/convert.py",
+        "title": "/blob/main/skills/markdown-to-pdf/scripts/convert.py",
+        "count": 5,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf",
+        "title": "/tree/main/skills/markdown-to-pdf",
+        "count": 5,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf/scripts",
+        "title": "/tree/main/skills/markdown-to-pdf/scripts",
+        "count": 5,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf/assets",
+        "title": "/tree/main/skills/markdown-to-pdf/assets",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/blob/main/skills/markdown-to-pdf/SKILL.md",
+        "title": "/blob/main/skills/markdown-to-pdf/SKILL.md",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/blob/main/skills/markdown-to-pdf/assets/style.css",
+        "title": "/blob/main/skills/markdown-to-pdf/assets/style.css",
+        "count": 3,
         "uniques": 1
       }
     ]

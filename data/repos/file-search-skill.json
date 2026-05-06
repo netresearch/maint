@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:13Z",
-  "pushed_at": "2026-05-04T12:27:20Z",
-  "updated_at": "2026-05-04T12:27:26Z",
+  "pushed_at": "2026-05-06T00:41:27Z",
+  "updated_at": "2026-05-06T00:41:11Z",
   "composer_name": null,
   "lifetime": {
     "stars": 12,
@@ -21,16 +21,16 @@
     "watchers": 0,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 69,
+    "commits": 84,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 14,
+    "prs_merged": 18,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 8,
     "release_downloads": 30,
-    "contributors": 2,
+    "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -38,24 +38,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 17,
+    "commits": 32,
     "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 7,
+    "prs_opened": 11,
+    "prs_merged": 11,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 684,
-    "clones_unique": 209,
-    "views_total": 297,
-    "views_unique": 119,
+    "clones_total": 729,
+    "clones_unique": 219,
+    "views_total": 294,
+    "views_unique": 112,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 149,
-        "uniques": 74
+        "count": 153,
+        "uniques": 69
       },
       {
         "referrer": "chatgpt.com",
@@ -64,8 +64,8 @@
       },
       {
         "referrer": "github.com",
-        "count": 29,
-        "uniques": 15
+        "count": 28,
+        "uniques": 14
       },
       {
         "referrer": "search.brave.com",
@@ -81,26 +81,31 @@
         "referrer": "DuckDuckGo",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "Yahoo",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 150,
-        "uniques": 115
+        "count": 139,
+        "uniques": 108
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 25,
-        "uniques": 17
+        "count": 26,
+        "uniques": 18
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
         "title": "/blob/main/skills/file-search/SKILL.md",
-        "count": 17,
-        "uniques": 13
+        "count": 19,
+        "uniques": 15
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
@@ -112,13 +117,13 @@
         "path": "/netresearch/file-search-skill/blob/main/README.md",
         "title": "/blob/main/README.md",
         "count": 10,
-        "uniques": 8
+        "uniques": 6
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 8,
-        "uniques": 7
+        "count": 9,
+        "uniques": 8
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/evals/evals.json",
@@ -135,12 +140,12 @@
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
         "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
-        "count": 5,
-        "uniques": 3
+        "count": 6,
+        "uniques": 4
       },
       {
-        "path": "/netresearch/file-search-skill/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/fd-guide.md",
+        "title": "/blob/main/skills/file-search/references/fd-guide.md",
         "count": 4,
         "uniques": 4
       }
@@ -155,13 +160,18 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 68,
+      "contributions": 77,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 1,
+      "contributions": 4,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 3,
+      "url": "https://github.com/apps/github-actions"
     }
   ],
   "packagist": null,
@@ -171,5 +181,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/file-search-skill/network/dependents"
   },
-  "blast_radius": 19
+  "blast_radius": 23
 }
