@@ -3,7 +3,7 @@
   "full_name": "netresearch/php-modernization-skill",
   "url": "https://github.com/netresearch/php-modernization-skill",
   "description": "Agent Skill: PHP 8.x modernization patterns - typing, attributes, PHPStan | Claude Code compatible",
-  "language": "Shell",
+  "language": "Python",
   "category": "skill",
   "license": "NOASSERTION",
   "topics": [
@@ -14,20 +14,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:20Z",
-  "pushed_at": "2026-04-30T09:12:24Z",
-  "updated_at": "2026-05-02T16:02:20Z",
+  "pushed_at": "2026-05-07T00:43:41Z",
+  "updated_at": "2026-05-07T00:43:14Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 17,
+    "stars": 18,
     "forks": 0,
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 153,
+    "commits": 183,
     "issues_open": 2,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 36,
+    "prs_merged": 45,
     "prs_closed_unmerged": 1,
     "issues_total": 2,
     "releases": 27,
@@ -40,24 +40,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 25,
+    "commits": 55,
     "issues_opened": 0,
-    "prs_opened": 11,
-    "prs_merged": 11,
+    "prs_opened": 20,
+    "prs_merged": 20,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 927,
-    "clones_unique": 287,
-    "views_total": 460,
-    "views_unique": 153,
+    "clones_total": 850,
+    "clones_unique": 263,
+    "views_total": 445,
+    "views_unique": 148,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 328,
-        "uniques": 118
+        "count": 300,
+        "uniques": 110
       },
       {
         "referrer": "github.com",
@@ -65,24 +65,29 @@
         "uniques": 13
       },
       {
+        "referrer": "search.brave.com",
+        "count": 9,
+        "uniques": 2
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 7,
+        "uniques": 1
+      },
+      {
         "referrer": "claude.ai",
         "count": 7,
         "uniques": 1
       },
       {
+        "referrer": "Bing",
+        "count": 5,
+        "uniques": 3
+      },
+      {
         "referrer": "DuckDuckGo",
         "count": 5,
         "uniques": 1
-      },
-      {
-        "referrer": "chatgpt.com",
-        "count": 5,
-        "uniques": 1
-      },
-      {
-        "referrer": "Bing",
-        "count": 4,
-        "uniques": 3
       },
       {
         "referrer": "skills.laravel.cloud",
@@ -98,11 +103,6 @@
         "referrer": "doubao.com",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "kagi.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
@@ -110,13 +110,13 @@
         "path": "/netresearch/php-modernization-skill",
         "title": "Overview",
         "count": 207,
-        "uniques": 145
+        "uniques": 140
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization",
         "title": "/tree/main/skills/php-modernization",
-        "count": 49,
-        "uniques": 39
+        "count": 54,
+        "uniques": 42
       },
       {
         "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/SKILL.md",
@@ -127,14 +127,14 @@
       {
         "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/references",
         "title": "/tree/main/skills/php-modernization/references",
-        "count": 23,
-        "uniques": 22
+        "count": 21,
+        "uniques": 20
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/scripts",
         "title": "/tree/main/skills/php-modernization/scripts",
-        "count": 17,
-        "uniques": 17
+        "count": 16,
+        "uniques": 16
       },
       {
         "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/references/php8-features.md",
@@ -161,9 +161,9 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/php-modernization-skill/tree/main/docs",
-        "title": "/tree/main/docs",
-        "count": 5,
+        "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/references/type-safety.md",
+        "title": "/blob/main/skills/php-modernization/references/type-safety.md",
+        "count": 6,
         "uniques": 5
       }
     ]
@@ -177,17 +177,17 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 150,
+      "contributions": 172,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 2,
+      "contributions": 6,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 1,
+      "contributions": 5,
       "url": "https://github.com/apps/renovate"
     }
   ],
@@ -198,5 +198,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/php-modernization-skill/network/dependents"
   },
-  "blast_radius": 38
+  "blast_radius": 47
 }

@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 3,
-    "packagist_downloads": 210410,
+    "packagist_downloads": 210621,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,16 +43,29 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5514,
+    "packagist_downloads": 5410,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 971,
-    "clones_unique": 47,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 970,
+    "clones_unique": 46,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/deutschepost-module-internetmarke",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "2.7.0",
@@ -84,9 +97,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-internetmarke",
-    "total": 210410,
-    "monthly": 5514,
-    "daily": 163,
+    "total": 210621,
+    "monthly": 5410,
+    "daily": 187,
     "url": "https://packagist.org/packages/deutschepost/module-internetmarke"
   },
   "ghcr": null,

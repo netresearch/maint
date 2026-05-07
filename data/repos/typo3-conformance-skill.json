@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T10:14:23Z",
-  "pushed_at": "2026-04-30T09:14:13Z",
-  "updated_at": "2026-04-30T09:14:17Z",
+  "pushed_at": "2026-05-06T20:33:09Z",
+  "updated_at": "2026-05-06T20:33:13Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 265,
+    "commits": 271,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 53,
+    "prs_merged": 55,
     "prs_closed_unmerged": 5,
     "issues_total": 2,
     "releases": 39,
@@ -47,29 +47,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 43,
+    "commits": 49,
     "issues_opened": 1,
-    "prs_opened": 18,
-    "prs_merged": 17,
+    "prs_opened": 20,
+    "prs_merged": 19,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1207,
-    "clones_unique": 359,
-    "views_total": 59,
-    "views_unique": 25,
+    "clones_total": 844,
+    "clones_unique": 261,
+    "views_total": 60,
+    "views_unique": 26,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 36,
+        "count": 34,
         "uniques": 13
       },
       {
         "referrer": "github.com",
-        "count": 11,
-        "uniques": 8
+        "count": 10,
+        "uniques": 7
       },
       {
         "referrer": "packagist.org",
@@ -81,8 +81,8 @@
       {
         "path": "/netresearch/typo3-conformance-skill",
         "title": "Overview",
-        "count": 30,
-        "uniques": 23
+        "count": 29,
+        "uniques": 24
       },
       {
         "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance",
@@ -103,10 +103,22 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/checkpoints.yaml",
+        "title": "/blob/main/skills/typo3-conformance/checkpoints.yaml",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/typo3-conformance-skill/tree/main",
         "title": "/tree/main",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/tree/main/Build",
+        "title": "/tree/main/Build",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/typo3-conformance-skill/actions",
@@ -115,26 +127,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/checkpoints.yaml",
-        "title": "/blob/main/skills/typo3-conformance/checkpoints.yaml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/references/localization-coverage.md",
-        "title": "/blob/main/skills/typo3-conformance/references/localization-coverage.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/references/v13-deprecations.md",
-        "title": "/blob/main/skills/typo3-conformance/references/v13-deprecations.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/typo3-conformance-skill/discussions",
         "title": "/discussions",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
         "count": 1,
         "uniques": 1
       }
@@ -149,7 +149,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 261,
+      "contributions": 267,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -170,5 +170,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "blast_radius": 55
+  "blast_radius": 57
 }

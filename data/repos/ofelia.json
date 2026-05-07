@@ -15,50 +15,50 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2022-05-30T12:58:03Z",
-  "pushed_at": "2026-05-04T11:51:12Z",
-  "updated_at": "2026-05-05T21:48:33Z",
+  "pushed_at": "2026-05-06T10:40:26Z",
+  "updated_at": "2026-05-06T10:40:29Z",
   "composer_name": null,
   "lifetime": {
     "stars": 54,
-    "forks": 5,
+    "forks": 4,
     "watchers": 1,
-    "network": 206,
-    "open_issues_plus_prs": 30,
-    "commits": 1259,
+    "network": 205,
+    "open_issues_plus_prs": 28,
+    "commits": 1273,
     "issues_open": 28,
     "issues_closed": 112,
-    "prs_open": 2,
-    "prs_merged": 399,
+    "prs_open": 0,
+    "prs_merged": 404,
     "prs_closed_unmerged": 53,
     "issues_total": 140,
     "releases": 43,
     "release_downloads": 1502,
-    "contributors": 41,
-    "external_contributors": 35,
+    "contributors": 42,
+    "external_contributors": 36,
     "packagist_downloads": 0,
-    "ghcr_downloads": 155304,
+    "ghcr_downloads": 156834,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 78,
+    "commits": 92,
     "issues_opened": 2,
-    "prs_opened": 40,
-    "prs_merged": 31,
+    "prs_opened": 43,
+    "prs_merged": 36,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 48844
+    "ghcr_downloads": 48853
   },
   "traffic_14d": {
-    "clones_total": 2473,
-    "clones_unique": 638,
-    "views_total": 155,
+    "clones_total": 2215,
+    "clones_unique": 556,
+    "views_total": 144,
     "views_unique": 27,
     "top_referrers": [
       {
         "referrer": "github.com",
         "count": 37,
-        "uniques": 9
+        "uniques": 8
       },
       {
         "referrer": "Google",
@@ -67,8 +67,8 @@
       },
       {
         "referrer": "reddit.com",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "search.brave.com",
@@ -85,14 +85,14 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 43,
-        "uniques": 19
+        "count": 42,
+        "uniques": 20
       },
       {
         "path": "/netresearch/ofelia/issues",
         "title": "/issues",
-        "count": 18,
-        "uniques": 4
+        "count": 17,
+        "uniques": 3
       },
       {
         "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
@@ -113,26 +113,20 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/ofelia/blob/main/example/compose.yml",
-        "title": "/blob/main/example/compose.yml",
-        "count": 5,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/ofelia/blob/main/example/ofelia.ini",
-        "title": "/blob/main/example/ofelia.ini",
-        "count": 4,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/ofelia/releases",
         "title": "/releases",
         "count": 4,
         "uniques": 1
       },
       {
-        "path": "/netresearch/ofelia/issues/522",
-        "title": "/issues/522",
+        "path": "/netresearch/ofelia/blob/main/docs/webhooks.md",
+        "title": "/blob/main/docs/webhooks.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/ofelia/blob/main/example/compose.yml",
+        "title": "/blob/main/example/compose.yml",
         "count": 3,
         "uniques": 3
       },
@@ -141,6 +135,12 @@
         "title": "/blob/main/docs/API.md",
         "count": 3,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/ofelia/blob/main/example/ofelia.ini",
+        "title": "/blob/main/example/ofelia.ini",
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
@@ -153,7 +153,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 973,
+      "contributions": 983,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -168,7 +168,7 @@
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 32,
+      "contributions": 33,
       "url": "https://github.com/apps/dependabot"
     },
     {
@@ -192,9 +192,9 @@
       "url": "https://github.com/apps/copilot-swe-agent"
     },
     {
-      "login": "renovate[bot]",
+      "login": "0xERR0R",
       "contributions": 4,
-      "url": "https://github.com/apps/renovate"
+      "url": "https://github.com/0xERR0R"
     },
     {
       "login": "saschabuehrle",
@@ -208,17 +208,17 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 155304,
-        "thirty_day": 48844
+        "total": 156834,
+        "thirty_day": 48853
       }
     ],
-    "total": 155304,
-    "thirty_day": 48844
+    "total": 156834,
+    "thirty_day": 48853
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/ofelia/network/dependents"
   },
-  "blast_radius": 654
+  "blast_radius": 660
 }
