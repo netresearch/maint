@@ -39,7 +39,7 @@
     "prs_closed_unmerged": 3,
     "issues_total": 0,
     "releases": 27,
-    "release_downloads": 59,
+    "release_downloads": 60,
     "contributors": 2,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -57,20 +57,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2762,
-    "clones_unique": 255,
-    "views_total": 49,
+    "clones_total": 2740,
+    "clones_unique": 235,
+    "views_total": 51,
     "views_unique": 21,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 22,
+        "uniques": 14
+      },
       {
         "referrer": "github.com",
         "count": 21,
         "uniques": 3
-      },
-      {
-        "referrer": "Google",
-        "count": 20,
-        "uniques": 14
       },
       {
         "referrer": "skills.sh",
@@ -86,6 +86,11 @@
         "referrer": "go.bsky.app",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -98,7 +103,13 @@
       {
         "path": "/netresearch/typo3-ddev-skill/tree/main/skills/typo3-ddev",
         "title": "/tree/main/skills/typo3-ddev",
-        "count": 5,
+        "count": 6,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/tree/main",
+        "title": "/tree/main",
+        "count": 3,
         "uniques": 2
       },
       {
@@ -118,12 +129,6 @@
         "title": "/blob/main/skills/typo3-ddev/SKILL.md",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/tree/main",
-        "title": "/tree/main",
-        "count": 2,
-        "uniques": 1
       },
       {
         "path": "/netresearch/typo3-ddev-skill/blob/main/README.md",

@@ -13,10 +13,10 @@
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:13Z",
   "pushed_at": "2026-05-06T00:41:27Z",
-  "updated_at": "2026-05-06T00:41:11Z",
+  "updated_at": "2026-05-08T03:50:49Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 12,
+    "stars": 14,
     "forks": 2,
     "watchers": 0,
     "network": 2,
@@ -29,7 +29,7 @@
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 8,
-    "release_downloads": 30,
+    "release_downloads": 31,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -47,29 +47,34 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 895,
-    "clones_unique": 245,
-    "views_total": 271,
+    "clones_total": 866,
+    "clones_unique": 240,
+    "views_total": 290,
     "views_unique": 106,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 157,
-        "uniques": 66
+        "count": 161,
+        "uniques": 64
       },
       {
         "referrer": "chatgpt.com",
-        "count": 30,
-        "uniques": 3
+        "count": 37,
+        "uniques": 4
       },
       {
         "referrer": "github.com",
-        "count": 21,
-        "uniques": 12
+        "count": 20,
+        "uniques": 11
       },
       {
         "referrer": "search.brave.com",
         "count": 11,
+        "uniques": 1
+      },
+      {
+        "referrer": "perplexity.ai",
+        "count": 6,
         "uniques": 1
       },
       {
@@ -87,20 +92,20 @@
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 132,
+        "count": 134,
         "uniques": 102
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 26,
-        "uniques": 19
+        "count": 29,
+        "uniques": 21
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
         "title": "/blob/main/skills/file-search/SKILL.md",
-        "count": 16,
-        "uniques": 13
+        "count": 18,
+        "uniques": 15
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
@@ -111,14 +116,26 @@
       {
         "path": "/netresearch/file-search-skill/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 10,
-        "uniques": 6
+        "count": 11,
+        "uniques": 7
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/scripts",
         "title": "/tree/main/scripts",
+        "count": 8,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/evals",
+        "title": "/tree/main/skills/file-search/evals",
         "count": 7,
-        "uniques": 6
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/evals/evals.json",
@@ -127,22 +144,10 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/evals",
-        "title": "/tree/main/skills/file-search/evals",
-        "count": 6,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
-        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
-        "count": 6,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/file-search-skill/releases/tag/v1.4.0",
-        "title": "/releases/tag/v1.4.0",
-        "count": 4,
-        "uniques": 3
+        "path": "/netresearch/file-search-skill/tree/main",
+        "title": "/tree/main",
+        "count": 5,
+        "uniques": 5
       }
     ]
   },

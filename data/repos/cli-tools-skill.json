@@ -37,7 +37,7 @@
     "prs_closed_unmerged": 1,
     "issues_total": 1,
     "releases": 19,
-    "release_downloads": 55,
+    "release_downloads": 56,
     "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -55,33 +55,39 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 709,
-    "clones_unique": 176,
-    "views_total": 35,
-    "views_unique": 22,
+    "clones_total": 639,
+    "clones_unique": 153,
+    "views_total": 39,
+    "views_unique": 26,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 13,
-        "uniques": 10
+        "count": 15,
+        "uniques": 12
       },
       {
         "referrer": "github.com",
-        "count": 12,
-        "uniques": 6
+        "count": 10,
+        "uniques": 4
       },
       {
         "referrer": "Bing",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/cli-tools-skill",
         "title": "Overview",
-        "count": 22,
-        "uniques": 19
+        "count": 23,
+        "uniques": 20
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools",
+        "title": "/tree/main/skills/cli-tools",
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools/scripts/installers",
@@ -128,12 +134,6 @@
       {
         "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/scripts/installers/github_clone.sh",
         "title": "/blob/main/skills/cli-tools/scripts/installers/github_clone.sh",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
         "count": 1,
         "uniques": 1
       }

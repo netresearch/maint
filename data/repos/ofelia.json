@@ -36,7 +36,7 @@
     "contributors": 42,
     "external_contributors": 36,
     "packagist_downloads": 0,
-    "ghcr_downloads": 156834,
+    "ghcr_downloads": 158437,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -47,13 +47,13 @@
     "prs_merged": 36,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 48853
+    "ghcr_downloads": 48942
   },
   "traffic_14d": {
-    "clones_total": 2215,
-    "clones_unique": 556,
-    "views_total": 144,
-    "views_unique": 27,
+    "clones_total": 2456,
+    "clones_unique": 540,
+    "views_total": 151,
+    "views_unique": 26,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -62,12 +62,7 @@
       },
       {
         "referrer": "Google",
-        "count": 5,
-        "uniques": 3
-      },
-      {
-        "referrer": "reddit.com",
-        "count": 2,
+        "count": 4,
         "uniques": 2
       },
       {
@@ -79,14 +74,19 @@
         "referrer": "chatgpt.com",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "reddit.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 42,
-        "uniques": 20
+        "count": 41,
+        "uniques": 18
       },
       {
         "path": "/netresearch/ofelia/issues",
@@ -97,7 +97,7 @@
       {
         "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
         "title": "/blob/main/docs/CONFIGURATION.md",
-        "count": 13,
+        "count": 14,
         "uniques": 7
       },
       {
@@ -111,6 +111,12 @@
         "title": "/blob/main/docs/QUICK_REFERENCE.md",
         "count": 7,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/ofelia/graphs/contributors",
+        "title": "/graphs/contributors",
+        "count": 4,
+        "uniques": 1
       },
       {
         "path": "/netresearch/ofelia/releases",
@@ -135,12 +141,6 @@
         "title": "/blob/main/docs/API.md",
         "count": 3,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/ofelia/blob/main/example/ofelia.ini",
-        "title": "/blob/main/example/ofelia.ini",
-        "count": 2,
-        "uniques": 2
       }
     ]
   },
@@ -208,12 +208,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 156834,
-        "thirty_day": 48853
+        "total": 158437,
+        "thirty_day": 48942
       }
     ],
-    "total": 156834,
-    "thirty_day": 48853
+    "total": 158437,
+    "thirty_day": 48942
   },
   "dependents": {
     "repositories": 0,

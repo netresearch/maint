@@ -26,10 +26,10 @@
     "forks": 8,
     "watchers": 8,
     "network": 8,
-    "open_issues_plus_prs": 3,
+    "open_issues_plus_prs": 2,
     "commits": 38,
-    "issues_open": 2,
-    "issues_closed": 8,
+    "issues_open": 1,
+    "issues_closed": 9,
     "prs_open": 1,
     "prs_merged": 3,
     "prs_closed_unmerged": 7,
@@ -38,7 +38,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 240010,
+    "packagist_downloads": 240113,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
@@ -49,32 +49,56 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1893,
+    "packagist_downloads": 1895,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 19,
     "clones_unique": 16,
-    "views_total": 8,
-    "views_unique": 7,
+    "views_total": 20,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 4,
-        "uniques": 3
+        "count": 6,
+        "uniques": 4
       },
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
+        "count": 3,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-bcs-returns",
         "title": "Overview",
-        "count": 6,
-        "uniques": 5
+        "count": 8,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs-returns/pulls",
+        "title": "/pulls",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs-returns/issues",
+        "title": "/issues",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs-returns/issues/21",
+        "title": "/issues/21",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs-returns/commits/main",
+        "title": "/commits/main",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-sdk-api-bcs-returns/forks",
@@ -83,8 +107,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-sdk-api-bcs-returns/issues",
-        "title": "/issues",
+        "path": "/netresearch/dhl-sdk-api-bcs-returns/pull/12",
+        "title": "/pull/12",
         "count": 1,
         "uniques": 1
       }
@@ -130,9 +154,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs-returns",
-    "total": 240010,
-    "monthly": 1893,
-    "daily": 76,
+    "total": 240113,
+    "monthly": 1895,
+    "daily": 85,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs-returns"
   },
   "ghcr": null,

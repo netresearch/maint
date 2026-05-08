@@ -21,10 +21,10 @@
   "default_branch": "main",
   "created_at": "2025-10-18T19:35:16Z",
   "pushed_at": "2026-05-06T11:21:46Z",
-  "updated_at": "2026-05-06T13:05:15Z",
+  "updated_at": "2026-05-07T19:07:51Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 36,
+    "stars": 37,
     "forks": 3,
     "watchers": 1,
     "network": 3,
@@ -37,7 +37,7 @@
     "prs_closed_unmerged": 3,
     "issues_total": 5,
     "releases": 44,
-    "release_downloads": 262,
+    "release_downloads": 265,
     "contributors": 5,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -55,35 +55,30 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1278,
-    "clones_unique": 380,
-    "views_total": 958,
-    "views_unique": 386,
+    "clones_total": 1227,
+    "clones_unique": 360,
+    "views_total": 931,
+    "views_unique": 387,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 625,
-        "uniques": 270
+        "count": 621,
+        "uniques": 273
       },
       {
         "referrer": "github.com",
-        "count": 61,
-        "uniques": 10
+        "count": 69,
+        "uniques": 14
       },
       {
         "referrer": "chatgpt.com",
-        "count": 17,
-        "uniques": 7
+        "count": 14,
+        "uniques": 5
       },
       {
         "referrer": "doubao.com",
         "count": 7,
         "uniques": 2
-      },
-      {
-        "referrer": "packagist.org",
-        "count": 6,
-        "uniques": 1
       },
       {
         "referrer": "Bing",
@@ -109,38 +104,37 @@
         "referrer": "DuckDuckGo",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/agent-rules-skill",
         "title": "Overview",
-        "count": 482,
-        "uniques": 361
+        "count": 469,
+        "uniques": 357
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
         "title": "/tree/main/skills/agent-rules",
-        "count": 97,
-        "uniques": 72
+        "count": 92,
+        "uniques": 69
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md",
         "title": "/blob/main/skills/agent-rules/SKILL.md",
-        "count": 47,
-        "uniques": 42
+        "count": 44,
+        "uniques": 41
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 31,
-        "uniques": 26
-      },
-      {
-        "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/AGENTS.md",
-        "title": "/blob/main/skills/agent-rules/AGENTS.md",
-        "count": 27,
-        "uniques": 27
+        "count": 26,
+        "uniques": 24
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main",
@@ -149,10 +143,16 @@
         "uniques": 22
       },
       {
+        "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/AGENTS.md",
+        "title": "/blob/main/skills/agent-rules/AGENTS.md",
+        "count": 25,
+        "uniques": 25
+      },
+      {
         "path": "/netresearch/agent-rules-skill/blob/main/CLAUDE.md",
         "title": "/blob/main/CLAUDE.md",
         "count": 16,
-        "uniques": 11
+        "uniques": 10
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/scripts",
@@ -161,16 +161,16 @@
         "uniques": 12
       },
       {
-        "path": "/netresearch/agent-rules-skill/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
-        "count": 11,
+        "path": "/netresearch/agent-rules-skill/tree/main/docs",
+        "title": "/tree/main/docs",
+        "count": 12,
         "uniques": 10
       },
       {
-        "path": "/netresearch/agent-rules-skill/tree/main/docs",
-        "title": "/tree/main/docs",
-        "count": 11,
-        "uniques": 10
+        "path": "/netresearch/agent-rules-skill/tree/main/Build",
+        "title": "/tree/main/Build",
+        "count": 12,
+        "uniques": 9
       }
     ]
   },

@@ -12,25 +12,25 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-02-12T13:31:46Z",
-  "pushed_at": "2026-04-20T20:05:13Z",
-  "updated_at": "2026-03-20T22:27:11Z",
+  "pushed_at": "2026-05-07T09:03:35Z",
+  "updated_at": "2026-05-07T09:00:18Z",
   "composer_name": "netresearch/sdk-api-central-station",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 9,
-    "commits": 217,
-    "issues_open": 1,
+    "open_issues_plus_prs": 2,
+    "commits": 219,
+    "issues_open": 2,
     "issues_closed": 0,
-    "prs_open": 8,
-    "prs_merged": 4,
-    "prs_closed_unmerged": 11,
-    "issues_total": 1,
+    "prs_open": 0,
+    "prs_merged": 5,
+    "prs_closed_unmerged": 18,
+    "issues_total": 2,
     "releases": 5,
     "release_downloads": 0,
-    "contributors": 3,
+    "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 586,
     "ghcr_downloads": 0,
@@ -38,17 +38,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
-    "issues_opened": 0,
+    "commits": 2,
+    "issues_opened": 1,
     "prs_opened": 3,
-    "prs_merged": 0,
+    "prs_merged": 1,
     "releases": 0,
     "packagist_downloads": 34,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 199,
-    "clones_unique": 32,
+    "clones_total": 204,
+    "clones_unique": 29,
     "views_total": 0,
     "views_unique": 0,
     "top_referrers": [],
@@ -68,13 +68,18 @@
     },
     {
       "login": "CybotTM",
-      "contributions": 7,
+      "contributions": 8,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
       "contributions": 3,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "dependabot[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/dependabot"
     }
   ],
   "packagist": {
@@ -90,5 +95,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/sdk-api-central-station/network/dependents"
   },
-  "blast_radius": 5
+  "blast_radius": 7
 }
