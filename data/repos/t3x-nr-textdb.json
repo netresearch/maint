@@ -55,28 +55,22 @@
     "prs_opened": 1,
     "prs_merged": 1,
     "releases": 0,
-    "packagist_downloads": 19,
+    "packagist_downloads": 16,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 119,
-    "clones_unique": 47,
-    "views_total": 4,
+    "clones_total": 111,
+    "clones_unique": 43,
+    "views_total": 3,
     "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "jira.netresearch.de",
-        "count": 2,
+        "count": 1,
         "uniques": 1
       }
     ],
     "top_paths": [
-      {
-        "path": "/netresearch/t3x-nr-textdb/issues/93",
-        "title": "/issues/93",
-        "count": 2,
-        "uniques": 1
-      },
       {
         "path": "/netresearch/t3x-nr-textdb",
         "title": "Overview",
@@ -86,6 +80,12 @@
       {
         "path": "/netresearch/t3x-nr-textdb/issues/23",
         "title": "/issues/23",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/issues/93",
+        "title": "/issues/93",
         "count": 1,
         "uniques": 1
       }
@@ -137,7 +137,7 @@
   "packagist": {
     "name": "netresearch/nr-textdb",
     "total": 757,
-    "monthly": 19,
+    "monthly": 16,
     "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },

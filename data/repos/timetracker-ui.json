@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2018-06-28T11:43:08Z",
-  "pushed_at": "2026-05-07T11:23:20Z",
+  "pushed_at": "2026-05-08T13:50:27Z",
   "updated_at": "2026-05-06T11:28:51Z",
   "composer_name": null,
   "lifetime": {
@@ -20,11 +20,11 @@
     "forks": 1,
     "watchers": 3,
     "network": 1,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 3,
     "commits": 556,
     "issues_open": 1,
     "issues_closed": 8,
-    "prs_open": 1,
+    "prs_open": 2,
     "prs_merged": 473,
     "prs_closed_unmerged": 231,
     "issues_total": 9,
@@ -33,26 +33,39 @@
     "contributors": 8,
     "external_contributors": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 1759,
+    "ghcr_downloads": 1833,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 46,
+    "commits": 44,
     "issues_opened": 0,
     "prs_opened": 24,
-    "prs_merged": 23,
+    "prs_merged": 22,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 990
+    "ghcr_downloads": 1064
   },
   "traffic_14d": {
-    "clones_total": 318,
-    "clones_unique": 114,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 309,
+    "clones_unique": 106,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/timetracker-ui",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v2.0.0 - Complete Stack Modernization \ud83d\ude80",
@@ -108,12 +121,12 @@
       {
         "package": "timetracker-ui",
         "url": "https://github.com/netresearch/timetracker-ui/pkgs/container/timetracker-ui",
-        "total": 1759,
-        "thirty_day": 990
+        "total": 1833,
+        "thirty_day": 1064
       }
     ],
-    "total": 1759,
-    "thirty_day": 990
+    "total": 1833,
+    "thirty_day": 1064
   },
   "dependents": {
     "repositories": 0,

@@ -2,30 +2,45 @@
   "name": "jira-to-openproject",
   "full_name": "netresearch/jira-to-openproject",
   "url": "https://github.com/netresearch/jira-to-openproject",
-  "description": "Jira to OpenProject migration",
+  "description": "Lossless Jira Server \u2192 OpenProject migration tool. Python 3.14 ETL pipelines driving the OpenProject Rails console over SSH. Preserves users, projects, work packages, custom fields, attachments, journals, and provenance.",
   "language": "Python",
   "category": "tool",
   "license": "MIT",
   "topics": [
-    "application"
+    "automation",
+    "data-migration",
+    "docker",
+    "etl",
+    "fastapi",
+    "jira",
+    "migration",
+    "migration-tool",
+    "netresearch",
+    "openproject",
+    "project-management",
+    "pydantic",
+    "python",
+    "python314",
+    "rails-console",
+    "ssh"
   ],
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-04-03T08:29:24Z",
-  "pushed_at": "2026-05-07T23:53:14Z",
-  "updated_at": "2026-05-07T23:53:16Z",
+  "pushed_at": "2026-05-08T17:55:21Z",
+  "updated_at": "2026-05-08T16:56:20Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 4,
-    "commits": 1131,
+    "open_issues_plus_prs": 6,
+    "commits": 1197,
     "issues_open": 4,
     "issues_closed": 3,
-    "prs_open": 0,
-    "prs_merged": 170,
+    "prs_open": 2,
+    "prs_merged": 195,
     "prs_closed_unmerged": 41,
     "issues_total": 7,
     "releases": 0,
@@ -38,32 +53,32 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 386,
+    "commits": 452,
     "issues_opened": 0,
-    "prs_opened": 131,
-    "prs_merged": 129,
+    "prs_opened": 158,
+    "prs_merged": 154,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7833,
-    "clones_unique": 738,
-    "views_total": 27,
-    "views_unique": 13,
+    "clones_total": 9051,
+    "clones_unique": 835,
+    "views_total": 29,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 5,
-        "uniques": 4
-      },
-      {
-        "referrer": "Bing",
-        "count": 3,
-        "uniques": 2
+        "count": 6,
+        "uniques": 5
       },
       {
         "referrer": "github.com",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "referrer": "Bing",
         "count": 3,
         "uniques": 2
       },
@@ -82,8 +97,8 @@
       {
         "path": "/netresearch/jira-to-openproject",
         "title": "Overview",
-        "count": 16,
-        "uniques": 11
+        "count": 18,
+        "uniques": 13
       },
       {
         "path": "/netresearch/jira-to-openproject/pulls",
@@ -139,7 +154,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1074,
+      "contributions": 1140,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -165,5 +180,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jira-to-openproject/network/dependents"
   },
-  "blast_radius": 179
+  "blast_radius": 204
 }
