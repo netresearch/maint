@@ -34,7 +34,7 @@
     "stars": 37,
     "forks": 5,
     "watchers": 3,
-    "network": 1696,
+    "network": 1697,
     "open_issues_plus_prs": 10,
     "commits": 566,
     "issues_open": 10,
@@ -62,10 +62,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 313,
-    "clones_unique": 113,
-    "views_total": 113,
-    "views_unique": 55,
+    "clones_total": 258,
+    "clones_unique": 93,
+    "views_total": 120,
+    "views_unique": 52,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -74,12 +74,17 @@
       },
       {
         "referrer": "Google",
-        "count": 34,
-        "uniques": 21
+        "count": 30,
+        "uniques": 19
       },
       {
         "referrer": "pkg.go.dev",
         "count": 9,
+        "uniques": 1
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -92,8 +97,14 @@
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 61,
-        "uniques": 48
+        "count": 57,
+        "uniques": 46
+      },
+      {
+        "path": "/netresearch/go-cron/commits/main",
+        "title": "/commits/main",
+        "count": 13,
+        "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/pulls",
@@ -102,15 +113,15 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/go-cron/issues",
-        "title": "/issues",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/go-cron/blob/main/docs/MIGRATION.md",
         "title": "/blob/main/docs/MIGRATION.md",
         "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-cron/issues",
+        "title": "/issues",
+        "count": 3,
         "uniques": 3
       },
       {
@@ -140,12 +151,6 @@
       {
         "path": "/netresearch/go-cron/blob/main/CHANGELOG.md",
         "title": "/blob/main/CHANGELOG.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/go.mod",
-        "title": "/blob/main/go.mod",
         "count": 2,
         "uniques": 1
       }
