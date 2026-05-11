@@ -39,7 +39,7 @@
     "release_downloads": 25,
     "contributors": 12,
     "external_contributors": 8,
-    "packagist_downloads": 11108,
+    "packagist_downloads": 11113,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -50,24 +50,19 @@
     "prs_opened": 2,
     "prs_merged": 2,
     "releases": 0,
-    "packagist_downloads": 125,
+    "packagist_downloads": 130,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 402,
-    "clones_unique": 85,
-    "views_total": 7,
-    "views_unique": 6,
+    "clones_total": 132,
+    "clones_unique": 37,
+    "views_total": 6,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
         "count": 3,
         "uniques": 2
-      },
-      {
-        "referrer": "Google",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
@@ -78,16 +73,16 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-cowriter",
-        "title": "Overview",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/t3x-cowriter/blob/0319cc30e0977da0d29e92f974b8367c0fa9918e/Resources/Private/Language/locallang_mod.xlf",
         "title": "/blob/0319cc30e0977da0d29e92f974b8367c0fa9918e/Resources/Private/Language/locallang_mod.xlf",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-cowriter",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -151,9 +146,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 11108,
-    "monthly": 125,
-    "daily": 0,
+    "total": 11113,
+    "monthly": 130,
+    "daily": 4,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,

@@ -47,11 +47,16 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 266,
-    "clones_unique": 33,
-    "views_total": 1,
-    "views_unique": 1,
+    "clones_total": 238,
+    "clones_unique": 31,
+    "views_total": 4,
+    "views_unique": 2,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 3,
+        "uniques": 1
+      },
       {
         "referrer": "Google",
         "count": 1,
@@ -62,6 +67,12 @@
       {
         "path": "/netresearch/sdk-api-central-station",
         "title": "Overview",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/sdk-api-central-station/blob/main/doc/Requirements.md",
+        "title": "/blob/main/doc/Requirements.md",
         "count": 1,
         "uniques": 1
       }

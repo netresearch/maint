@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-26T12:52:38Z",
-  "pushed_at": "2026-04-30T09:10:16Z",
-  "updated_at": "2026-04-30T09:10:19Z",
+  "pushed_at": "2026-05-11T02:11:20Z",
+  "updated_at": "2026-05-11T02:11:24Z",
   "composer_name": null,
   "lifetime": {
     "stars": 0,
@@ -21,11 +21,11 @@
     "watchers": 0,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 104,
+    "commits": 106,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 32,
+    "prs_merged": 33,
     "prs_closed_unmerged": 2,
     "issues_total": 1,
     "releases": 12,
@@ -38,23 +38,33 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 13,
+    "commits": 15,
     "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 6,
+    "prs_opened": 8,
+    "prs_merged": 7,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 470,
-    "clones_unique": 98,
-    "views_total": 2,
-    "views_unique": 1,
+    "clones_total": 451,
+    "clones_unique": 86,
+    "views_total": 5,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "github.com",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "Bing",
+        "count": 1,
         "uniques": 1
       }
     ],
@@ -62,6 +72,12 @@
       {
         "path": "/netresearch/pagerangers-skill",
         "title": "Overview",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/pagerangers-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
         "count": 1,
         "uniques": 1
       },
@@ -87,7 +103,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 21,
+      "contributions": 22,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -97,7 +113,7 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 5,
+      "contributions": 6,
       "url": "https://github.com/apps/github-actions"
     },
     {
@@ -118,5 +134,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/pagerangers-skill/network/dependents"
   },
-  "blast_radius": 39
+  "blast_radius": 40
 }

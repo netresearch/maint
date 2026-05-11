@@ -42,10 +42,10 @@
     "prs_closed_unmerged": 9,
     "issues_total": 6,
     "releases": 24,
-    "release_downloads": 253,
+    "release_downloads": 255,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 4809,
+    "packagist_downloads": 4811,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -56,14 +56,14 @@
     "prs_opened": 81,
     "prs_merged": 81,
     "releases": 1,
-    "packagist_downloads": 291,
+    "packagist_downloads": 293,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6517,
-    "clones_unique": 485,
-    "views_total": 20,
-    "views_unique": 11,
+    "clones_total": 6386,
+    "clones_unique": 463,
+    "views_total": 21,
+    "views_unique": 13,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -95,18 +95,12 @@
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 10,
-        "uniques": 9
+        "count": 12,
+        "uniques": 11
       },
       {
         "path": "/netresearch/t3x-nr-llm/edit/main/Documentation/Index.rst",
         "title": "/edit/main/Documentation/Index.rst",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/issues",
-        "title": "/issues",
         "count": 2,
         "uniques": 1
       },
@@ -131,6 +125,12 @@
       {
         "path": "/netresearch/t3x-nr-llm/commit/23cbef75416178b7109ff31b4346facea56ed233",
         "title": "/commit/23cbef75416178b7109ff31b4346facea56ed233",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/issues",
+        "title": "/issues",
         "count": 1,
         "uniques": 1
       },
@@ -183,9 +183,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 4809,
-    "monthly": 291,
-    "daily": 0,
+    "total": 4811,
+    "monthly": 293,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,
