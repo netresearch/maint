@@ -20,21 +20,21 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T07:59:00Z",
-  "pushed_at": "2026-04-29T11:05:43Z",
-  "updated_at": "2026-04-30T08:32:41Z",
+  "pushed_at": "2026-05-11T11:27:08Z",
+  "updated_at": "2026-05-11T11:27:12Z",
   "composer_name": null,
   "lifetime": {
     "stars": 34,
     "forks": 5,
     "watchers": 2,
     "network": 5,
-    "open_issues_plus_prs": 2,
-    "commits": 177,
+    "open_issues_plus_prs": 1,
+    "commits": 179,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 1,
+    "prs_open": 0,
     "prs_merged": 24,
-    "prs_closed_unmerged": 13,
+    "prs_closed_unmerged": 14,
     "issues_total": 3,
     "releases": 3,
     "release_downloads": 0,
@@ -46,7 +46,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 9,
+    "commits": 11,
     "issues_opened": 1,
     "prs_opened": 4,
     "prs_merged": 3,
@@ -55,35 +55,35 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2624,
-    "clones_unique": 340,
-    "views_total": 395,
-    "views_unique": 246,
+    "clones_total": 2631,
+    "clones_unique": 336,
+    "views_total": 393,
+    "views_unique": 251,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 206,
+        "count": 192,
         "uniques": 143
       },
       {
         "referrer": "github.com",
-        "count": 49,
-        "uniques": 32
+        "count": 56,
+        "uniques": 34
       },
       {
         "referrer": "Baidu",
-        "count": 3,
+        "count": 5,
+        "uniques": 4
+      },
+      {
+        "referrer": "perplexity.ai",
+        "count": 4,
         "uniques": 3
       },
       {
         "referrer": "search.brave.com",
         "count": 3,
         "uniques": 3
-      },
-      {
-        "referrer": "perplexity.ai",
-        "count": 3,
-        "uniques": 2
       },
       {
         "referrer": "DuckDuckGo",
@@ -115,32 +115,32 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 285,
-        "uniques": 237
+        "count": 295,
+        "uniques": 240
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
         "title": "/blob/main/.claude-plugin/marketplace.json",
-        "count": 20,
-        "uniques": 14
+        "count": 19,
+        "uniques": 15
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 19,
+        "count": 18,
         "uniques": 17
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/issues",
-        "title": "/issues",
-        "count": 11,
-        "uniques": 5
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 10,
-        "uniques": 9
+        "count": 11,
+        "uniques": 10
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/issues",
+        "title": "/issues",
+        "count": 8,
+        "uniques": 4
       },
       {
         "path": "/netresearch/claude-code-marketplace/discussions",
@@ -149,28 +149,28 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/claude-code-marketplace/tree/main",
-        "title": "/tree/main",
-        "count": 6,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/pulls",
-        "title": "/pulls",
-        "count": 6,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/claude-code-marketplace/commits/main",
         "title": "/commits/main",
         "count": 6,
         "uniques": 1
       },
       {
+        "path": "/netresearch/claude-code-marketplace/tree/main",
+        "title": "/tree/main",
+        "count": 5,
+        "uniques": 5
+      },
+      {
         "path": "/netresearch/claude-code-marketplace/blob/main/scripts/validate.sh",
         "title": "/blob/main/scripts/validate.sh",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/pulls",
+        "title": "/pulls",
+        "count": 3,
+        "uniques": 2
       }
     ]
   },
@@ -183,7 +183,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 107,
+      "contributions": 109,
       "url": "https://github.com/CybotTM"
     },
     {
