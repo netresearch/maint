@@ -62,11 +62,16 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 11148,
-    "clones_unique": 1018,
-    "views_total": 29,
-    "views_unique": 15,
+    "clones_total": 11172,
+    "clones_unique": 1024,
+    "views_total": 31,
+    "views_unique": 17,
     "top_referrers": [
+      {
+        "referrer": "Bing",
+        "count": 5,
+        "uniques": 4
+      },
       {
         "referrer": "Google",
         "count": 5,
@@ -76,11 +81,6 @@
         "referrer": "github.com",
         "count": 5,
         "uniques": 4
-      },
-      {
-        "referrer": "Bing",
-        "count": 3,
-        "uniques": 2
       },
       {
         "referrer": "qwant.com",
@@ -97,8 +97,8 @@
       {
         "path": "/netresearch/jira-to-openproject",
         "title": "Overview",
-        "count": 18,
-        "uniques": 13
+        "count": 20,
+        "uniques": 15
       },
       {
         "path": "/netresearch/jira-to-openproject/pulls",

@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 4,
-    "packagist_downloads": 216608,
+    "packagist_downloads": 216866,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
@@ -43,16 +43,77 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5257,
+    "packagist_downloads": 5282,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 18,
-    "clones_unique": 16,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 16,
+    "clones_unique": 14,
+    "views_total": 9,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "packagist.org",
+        "count": 9,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/deutschepost-module-core/blob/master/Test/Mftf/ActionGroup/AdminSystemConfigCustomerActionGroup.xml",
+        "title": "/blob/master/Test/Mftf/ActionGroup/AdminSystemConfigCustomerActionGroup.xml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-core/blob/master/Test/Mftf/ActionGroup/AdminSystemConfigDefaultActionGroup.xml",
+        "title": "/blob/master/Test/Mftf/ActionGroup/AdminSystemConfigDefaultActionGroup.xml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-core/blob/master/Test/Mftf/Data/PostDiretktCoreData.xml",
+        "title": "/blob/master/Test/Mftf/Data/PostDiretktCoreData.xml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-core/blob/master/i18n/de_DE.csv",
+        "title": "/blob/master/i18n/de_DE.csv",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-core/blob/master/i18n/en_US.csv",
+        "title": "/blob/master/i18n/en_US.csv",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-core/blob/master/registration.php",
+        "title": "/blob/master/registration.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-core/tree/master/Test/Mftf/Data",
+        "title": "/tree/master/Test/Mftf/Data",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-core/tree/master/Test/Mftf/Page",
+        "title": "/tree/master/Test/Mftf/Page",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-core/tree/master/i18n",
+        "title": "/tree/master/i18n",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.4.0",
@@ -94,9 +155,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-core",
-    "total": 216608,
-    "monthly": 5257,
-    "daily": 205,
+    "total": 216866,
+    "monthly": 5282,
+    "daily": 220,
     "url": "https://packagist.org/packages/deutschepost/module-core"
   },
   "ghcr": null,
