@@ -45,17 +45,28 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 219,
-    "clones_unique": 73,
-    "views_total": 7,
-    "views_unique": 6,
-    "top_referrers": [],
+    "clones_total": 223,
+    "clones_unique": 76,
+    "views_total": 10,
+    "views_unique": 8,
+    "top_referrers": [
+      {
+        "referrer": "packagist.org",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-passkeys-fe/blob/HEAD/Documentation/DeveloperGuide/Index.rst",
         "title": "/blob/HEAD/Documentation/DeveloperGuide/Index.rst",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-fe/actions/workflows/ci.yml",
@@ -78,6 +89,18 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-fe/blob/HEAD/Documentation/QuickStart/Index.rst",
         "title": "/blob/HEAD/Documentation/QuickStart/Index.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/blob/HEAD/Documentation/Security/Index.rst",
+        "title": "/blob/HEAD/Documentation/Security/Index.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/blob/main/ext_localconf.php",
+        "title": "/blob/main/ext_localconf.php",
         "count": 1,
         "uniques": 1
       }
@@ -110,7 +133,7 @@
     "name": "netresearch/nr-passkeys-fe",
     "total": 7,
     "monthly": 7,
-    "daily": 3,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-fe"
   },
   "ghcr": null,

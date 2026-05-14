@@ -18,8 +18,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2017-05-12T13:29:43Z",
-  "pushed_at": "2026-05-11T22:34:01Z",
-  "updated_at": "2026-05-11T15:29:04Z",
+  "pushed_at": "2026-05-13T22:28:53Z",
+  "updated_at": "2026-05-13T22:28:25Z",
   "composer_name": "netresearch/rte-ckeditor-image",
   "lifetime": {
     "stars": 61,
@@ -27,51 +27,51 @@
     "watchers": 8,
     "network": 67,
     "open_issues_plus_prs": 4,
-    "commits": 1756,
+    "commits": 1758,
     "issues_open": 3,
     "issues_closed": 273,
     "prs_open": 1,
-    "prs_merged": 477,
+    "prs_merged": 478,
     "prs_closed_unmerged": 60,
     "issues_total": 276,
     "releases": 63,
     "release_downloads": 49,
     "contributors": 50,
     "external_contributors": 44,
-    "packagist_downloads": 1018381,
+    "packagist_downloads": 1019126,
     "ghcr_downloads": 0,
     "dependents_repos": 44,
     "dependents_packages": 3
   },
   "recent_30d": {
-    "commits": 96,
+    "commits": 98,
     "issues_opened": 5,
-    "prs_opened": 39,
-    "prs_merged": 35,
+    "prs_opened": 40,
+    "prs_merged": 36,
     "releases": 4,
-    "packagist_downloads": 18873,
+    "packagist_downloads": 18693,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4571,
-    "clones_unique": 436,
-    "views_total": 234,
-    "views_unique": 138,
+    "clones_total": 4564,
+    "clones_unique": 433,
+    "views_total": 221,
+    "views_unique": 142,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 51,
-        "uniques": 15
+        "count": 30,
+        "uniques": 11
       },
       {
         "referrer": "extensions.typo3.org",
-        "count": 14,
+        "count": 13,
         "uniques": 4
       },
       {
         "referrer": "packagist.org",
-        "count": 6,
-        "uniques": 3
+        "count": 9,
+        "uniques": 4
       },
       {
         "referrer": "github.com",
@@ -93,14 +93,14 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image",
         "title": "Overview",
-        "count": 43,
-        "uniques": 31
+        "count": 41,
+        "uniques": 30
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues",
         "title": "/issues",
-        "count": 25,
-        "uniques": 13
+        "count": 16,
+        "uniques": 11
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/releases",
@@ -123,18 +123,12 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/actions/workflows/codeql.yml",
         "title": "/actions/workflows/codeql.yml",
-        "count": 5,
-        "uniques": 5
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/actions",
         "title": "/actions",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/t3x-rte_ckeditor_image/issues/187",
-        "title": "/issues/187",
         "count": 4,
         "uniques": 4
       },
@@ -145,8 +139,14 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
+        "path": "/netresearch/t3x-rte_ckeditor_image/pull/629",
+        "title": "/pull/629",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-rte_ckeditor_image/tags",
+        "title": "/tags",
         "count": 3,
         "uniques": 3
       }
@@ -166,7 +166,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 125,
+      "contributions": 127,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -212,9 +212,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1018381,
-    "monthly": 18873,
-    "daily": 835,
+    "total": 1019126,
+    "monthly": 18693,
+    "daily": 661,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,
@@ -223,5 +223,5 @@
     "packages": 3,
     "url": "https://github.com/netresearch/t3x-rte_ckeditor_image/network/dependents"
   },
-  "blast_radius": 1107
+  "blast_radius": 1108
 }

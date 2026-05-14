@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-16T10:15:03Z",
-  "pushed_at": "2026-05-12T20:41:02Z",
-  "updated_at": "2026-05-12T20:41:05Z",
+  "pushed_at": "2026-05-13T21:06:25Z",
+  "updated_at": "2026-05-13T21:06:00Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -23,15 +23,15 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 319,
+    "commits": 321,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 87,
+    "prs_merged": 88,
     "prs_closed_unmerged": 3,
     "issues_total": 2,
     "releases": 41,
-    "release_downloads": 127,
+    "release_downloads": 128,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,34 +40,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 109,
+    "commits": 111,
     "issues_opened": 1,
-    "prs_opened": 37,
-    "prs_merged": 36,
+    "prs_opened": 38,
+    "prs_merged": 37,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4085,
-    "clones_unique": 402,
-    "views_total": 175,
-    "views_unique": 97,
+    "clones_total": 4350,
+    "clones_unique": 440,
+    "views_total": 161,
+    "views_unique": 94,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 72,
-        "uniques": 39
-      },
-      {
-        "referrer": "github.com",
-        "count": 24,
-        "uniques": 10
+        "count": 69,
+        "uniques": 37
       },
       {
         "referrer": "Baidu",
-        "count": 15,
-        "uniques": 12
+        "count": 14,
+        "uniques": 11
+      },
+      {
+        "referrer": "github.com",
+        "count": 14,
+        "uniques": 10
       },
       {
         "referrer": "lobehub.com",
@@ -109,8 +109,8 @@
       {
         "path": "/netresearch/skill-repo-skill",
         "title": "Overview",
-        "count": 81,
-        "uniques": 73
+        "count": 79,
+        "uniques": 71
       },
       {
         "path": "/netresearch/skill-repo-skill/releases",
@@ -127,26 +127,8 @@
       {
         "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
         "title": "/blob/main/skills/skill-repo/SKILL.md",
-        "count": 14,
-        "uniques": 10
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/blob/main/SECURITY-AUDIT.md",
-        "title": "/blob/main/SECURITY-AUDIT.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/evals",
-        "title": "/tree/main/skills/skill-repo/evals",
-        "count": 3,
-        "uniques": 3
+        "count": 12,
+        "uniques": 9
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main",
@@ -155,16 +137,34 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/skill-repo-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/skill-repo-skill/blob/main/README.md",
         "title": "/blob/main/README.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/references/composer-setup.md",
-        "title": "/blob/main/skills/skill-repo/references/composer-setup.md",
+        "path": "/netresearch/skill-repo-skill/releases/tag/v1.19.1",
+        "title": "/releases/tag/v1.19.1",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/evals",
+        "title": "/tree/main/skills/skill-repo/evals",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/graphs/contributors",
+        "title": "/graphs/contributors",
+        "count": 2,
+        "uniques": 1
       }
     ]
   },
@@ -182,12 +182,12 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 40,
+      "contributions": 41,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 39,
+      "contributions": 40,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -203,5 +203,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/skill-repo-skill/network/dependents"
   },
-  "blast_radius": 155
+  "blast_radius": 156
 }

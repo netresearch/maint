@@ -27,8 +27,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-04-03T08:29:24Z",
-  "pushed_at": "2026-05-11T17:38:50Z",
-  "updated_at": "2026-05-11T17:38:54Z",
+  "pushed_at": "2026-05-13T17:34:01Z",
+  "updated_at": "2026-05-13T17:34:05Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
@@ -36,11 +36,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 4,
-    "commits": 1227,
+    "commits": 1229,
     "issues_open": 4,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 203,
+    "prs_merged": 204,
     "prs_closed_unmerged": 41,
     "issues_total": 7,
     "releases": 0,
@@ -53,25 +53,20 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 482,
+    "commits": 472,
     "issues_opened": 0,
-    "prs_opened": 164,
-    "prs_merged": 162,
+    "prs_opened": 153,
+    "prs_merged": 151,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 11172,
+    "clones_total": 11182,
     "clones_unique": 1024,
-    "views_total": 31,
+    "views_total": 30,
     "views_unique": 17,
     "top_referrers": [
-      {
-        "referrer": "Bing",
-        "count": 5,
-        "uniques": 4
-      },
       {
         "referrer": "Google",
         "count": 5,
@@ -80,6 +75,11 @@
       {
         "referrer": "github.com",
         "count": 5,
+        "uniques": 4
+      },
+      {
+        "referrer": "Bing",
+        "count": 4,
         "uniques": 4
       },
       {
@@ -97,7 +97,7 @@
       {
         "path": "/netresearch/jira-to-openproject",
         "title": "Overview",
-        "count": 20,
+        "count": 19,
         "uniques": 15
       },
       {
@@ -159,7 +159,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 37,
+      "contributions": 38,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -169,7 +169,7 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 5,
+      "contributions": 6,
       "url": "https://github.com/apps/github-actions"
     }
   ],
@@ -180,5 +180,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jira-to-openproject/network/dependents"
   },
-  "blast_radius": 212
+  "blast_radius": 213
 }
