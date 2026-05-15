@@ -29,10 +29,10 @@
     "prs_closed_unmerged": 9,
     "issues_total": 3,
     "releases": 13,
-    "release_downloads": 183,
+    "release_downloads": 184,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 17107,
+    "packagist_downloads": 17119,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -47,11 +47,16 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 696,
-    "clones_unique": 97,
-    "views_total": 5,
-    "views_unique": 1,
+    "clones_total": 801,
+    "clones_unique": 104,
+    "views_total": 10,
+    "views_unique": 2,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 5,
+        "uniques": 1
+      },
       {
         "referrer": "github.com",
         "count": 3,
@@ -62,8 +67,20 @@
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/issues",
+        "title": "/issues",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/issues/7",
+        "title": "/issues/7",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-vault/commit/69fe15f0861c3441581c6652706b826a17958a28",
@@ -78,14 +95,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-vault/issues",
-        "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/issues/7",
-        "title": "/issues/7",
+        "path": "/netresearch/t3x-nr-vault/releases",
+        "title": "/releases",
         "count": 1,
         "uniques": 1
       }
@@ -121,9 +132,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 17107,
+    "total": 17119,
     "monthly": 5468,
-    "daily": 3,
+    "daily": 12,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,

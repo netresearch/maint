@@ -31,7 +31,7 @@
     "prs_closed_unmerged": 5,
     "issues_total": 2,
     "releases": 23,
-    "release_downloads": 100,
+    "release_downloads": 101,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -49,30 +49,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 991,
-    "clones_unique": 247,
-    "views_total": 223,
+    "clones_total": 983,
+    "clones_unique": 250,
+    "views_total": 232,
     "views_unique": 115,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 129,
-        "uniques": 68
+        "count": 135,
+        "uniques": 69
       },
       {
         "referrer": "github.com",
-        "count": 22,
-        "uniques": 10
-      },
-      {
-        "referrer": "wiki.queo-group.com",
-        "count": 4,
-        "uniques": 2
-      },
-      {
-        "referrer": "mcpmarket.com",
-        "count": 2,
-        "uniques": 2
+        "count": 23,
+        "uniques": 11
       },
       {
         "referrer": "qwant.com",
@@ -85,7 +75,22 @@
         "uniques": 1
       },
       {
+        "referrer": "wiki.queo-group.com",
+        "count": 2,
+        "uniques": 1
+      },
+      {
         "referrer": "doubao.com",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "mcpmarket.com",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "packagist.org",
         "count": 1,
         "uniques": 1
       },
@@ -104,26 +109,32 @@
       {
         "path": "/netresearch/security-audit-skill",
         "title": "Overview",
-        "count": 122,
+        "count": 123,
         "uniques": 103
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
         "title": "/tree/main/skills/security-audit",
         "count": 24,
-        "uniques": 21
+        "uniques": 19
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
         "title": "/blob/main/skills/security-audit/SKILL.md",
-        "count": 13,
-        "uniques": 13
+        "count": 16,
+        "uniques": 14
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main",
         "title": "/tree/main",
-        "count": 12,
-        "uniques": 11
+        "count": 11,
+        "uniques": 10
+      },
+      {
+        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/references",
+        "title": "/tree/main/skills/security-audit/references",
+        "count": 7,
+        "uniques": 7
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/evals",
@@ -132,8 +143,8 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/references",
-        "title": "/tree/main/skills/security-audit/references",
+        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/scripts",
+        "title": "/tree/main/skills/security-audit/scripts",
         "count": 5,
         "uniques": 5
       },
@@ -150,15 +161,9 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/scripts",
-        "title": "/tree/main/skills/security-audit/scripts",
+        "path": "/netresearch/security-audit-skill/releases/tag/v2.8.1",
+        "title": "/releases/tag/v2.8.1",
         "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/security-audit-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 3,
         "uniques": 3
       }
     ]

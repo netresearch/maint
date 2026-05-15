@@ -37,7 +37,7 @@
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 3,
-    "packagist_downloads": 841,
+    "packagist_downloads": 843,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -48,16 +48,29 @@
     "prs_opened": 38,
     "prs_merged": 40,
     "releases": 5,
-    "packagist_downloads": 192,
+    "packagist_downloads": 182,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 118,
-    "clones_unique": 36,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 113,
+    "clones_unique": 35,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-image-optimize",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v2.2.3",
@@ -109,9 +122,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 841,
-    "monthly": 192,
-    "daily": 7,
+    "total": 843,
+    "monthly": 182,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,

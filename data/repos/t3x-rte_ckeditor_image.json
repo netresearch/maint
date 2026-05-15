@@ -18,8 +18,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2017-05-12T13:29:43Z",
-  "pushed_at": "2026-05-13T22:28:53Z",
-  "updated_at": "2026-05-13T22:28:25Z",
+  "pushed_at": "2026-05-15T02:17:34Z",
+  "updated_at": "2026-05-15T02:16:46Z",
   "composer_name": "netresearch/rte-ckeditor-image",
   "lifetime": {
     "stars": 61,
@@ -27,36 +27,36 @@
     "watchers": 8,
     "network": 67,
     "open_issues_plus_prs": 4,
-    "commits": 1758,
+    "commits": 1762,
     "issues_open": 3,
     "issues_closed": 273,
     "prs_open": 1,
-    "prs_merged": 478,
+    "prs_merged": 480,
     "prs_closed_unmerged": 60,
     "issues_total": 276,
     "releases": 63,
-    "release_downloads": 49,
+    "release_downloads": 51,
     "contributors": 50,
     "external_contributors": 44,
-    "packagist_downloads": 1019126,
+    "packagist_downloads": 1019419,
     "ghcr_downloads": 0,
     "dependents_repos": 44,
     "dependents_packages": 3
   },
   "recent_30d": {
-    "commits": 98,
+    "commits": 102,
     "issues_opened": 5,
-    "prs_opened": 40,
-    "prs_merged": 36,
+    "prs_opened": 42,
+    "prs_merged": 38,
     "releases": 4,
-    "packagist_downloads": 18693,
+    "packagist_downloads": 17957,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4564,
-    "clones_unique": 433,
-    "views_total": 221,
-    "views_unique": 142,
+    "clones_total": 4234,
+    "clones_unique": 412,
+    "views_total": 230,
+    "views_unique": 145,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -65,23 +65,33 @@
       },
       {
         "referrer": "extensions.typo3.org",
-        "count": 13,
+        "count": 14,
         "uniques": 4
       },
       {
         "referrer": "packagist.org",
-        "count": 9,
+        "count": 7,
         "uniques": 4
       },
       {
         "referrer": "github.com",
-        "count": 5,
-        "uniques": 5
+        "count": 4,
+        "uniques": 4
       },
       {
         "referrer": "DuckDuckGo",
         "count": 3,
         "uniques": 2
+      },
+      {
+        "referrer": "hub.toumoro.com",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "Baidu",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "docs.typo3.org",
@@ -93,8 +103,8 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image",
         "title": "Overview",
-        "count": 41,
-        "uniques": 30
+        "count": 44,
+        "uniques": 32
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues",
@@ -105,8 +115,8 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/releases",
         "title": "/releases",
-        "count": 10,
-        "uniques": 10
+        "count": 8,
+        "uniques": 8
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/pulls",
@@ -139,14 +149,14 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/pull/629",
-        "title": "/pull/629",
+        "path": "/netresearch/t3x-rte_ckeditor_image/graphs/contributors",
+        "title": "/graphs/contributors",
         "count": 3,
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/tags",
-        "title": "/tags",
+        "path": "/netresearch/t3x-rte_ckeditor_image/pull/629",
+        "title": "/pull/629",
         "count": 3,
         "uniques": 3
       }
@@ -166,7 +176,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 127,
+      "contributions": 131,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -212,9 +222,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1019126,
-    "monthly": 18693,
-    "daily": 661,
+    "total": 1019419,
+    "monthly": 17957,
+    "daily": 288,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,
@@ -223,5 +233,5 @@
     "packages": 3,
     "url": "https://github.com/netresearch/t3x-rte_ckeditor_image/network/dependents"
   },
-  "blast_radius": 1108
+  "blast_radius": 1110
 }

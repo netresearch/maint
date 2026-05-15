@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-16T10:15:03Z",
-  "pushed_at": "2026-05-13T21:06:25Z",
-  "updated_at": "2026-05-13T21:06:00Z",
+  "pushed_at": "2026-05-14T22:13:26Z",
+  "updated_at": "2026-05-14T22:13:10Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -23,15 +23,15 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 321,
+    "commits": 323,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 88,
+    "prs_merged": 89,
     "prs_closed_unmerged": 3,
     "issues_total": 2,
     "releases": 41,
-    "release_downloads": 128,
+    "release_downloads": 129,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,34 +40,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 111,
+    "commits": 113,
     "issues_opened": 1,
-    "prs_opened": 38,
-    "prs_merged": 37,
+    "prs_opened": 39,
+    "prs_merged": 38,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4350,
-    "clones_unique": 440,
-    "views_total": 161,
-    "views_unique": 94,
+    "clones_total": 3801,
+    "clones_unique": 404,
+    "views_total": 151,
+    "views_unique": 88,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 69,
-        "uniques": 37
-      },
-      {
-        "referrer": "Baidu",
-        "count": 14,
-        "uniques": 11
+        "count": 64,
+        "uniques": 35
       },
       {
         "referrer": "github.com",
-        "count": 14,
-        "uniques": 10
+        "count": 15,
+        "uniques": 11
       },
       {
         "referrer": "lobehub.com",
@@ -75,14 +70,19 @@
         "uniques": 1
       },
       {
-        "referrer": "packagist.org",
-        "count": 8,
-        "uniques": 5
+        "referrer": "Baidu",
+        "count": 12,
+        "uniques": 9
       },
       {
         "referrer": "linkedin.com",
         "count": 6,
         "uniques": 2
+      },
+      {
+        "referrer": "packagist.org",
+        "count": 4,
+        "uniques": 3
       },
       {
         "referrer": "chatgpt.com",
@@ -98,31 +98,26 @@
         "referrer": "DuckDuckGo",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "skillsmp.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/skill-repo-skill",
         "title": "Overview",
-        "count": 79,
-        "uniques": 71
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/releases",
-        "title": "/releases",
-        "count": 18,
-        "uniques": 17
+        "count": 72,
+        "uniques": 65
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo",
         "title": "/tree/main/skills/skill-repo",
-        "count": 18,
-        "uniques": 14
+        "count": 17,
+        "uniques": 13
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/releases",
+        "title": "/releases",
+        "count": 16,
+        "uniques": 15
       },
       {
         "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
@@ -131,16 +126,16 @@
         "uniques": 9
       },
       {
+        "path": "/netresearch/skill-repo-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/skill-repo-skill/tree/main",
         "title": "/tree/main",
         "count": 3,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 2,
-        "uniques": 2
       },
       {
         "path": "/netresearch/skill-repo-skill/blob/main/README.md",
@@ -182,12 +177,12 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 41,
+      "contributions": 42,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 40,
+      "contributions": 41,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -203,5 +198,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/skill-repo-skill/network/dependents"
   },
-  "blast_radius": 156
+  "blast_radius": 157
 }

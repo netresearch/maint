@@ -49,19 +49,19 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 888,
-    "clones_unique": 170,
-    "views_total": 71,
-    "views_unique": 28,
+    "clones_total": 865,
+    "clones_unique": 171,
+    "views_total": 79,
+    "views_unique": 26,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 21,
-        "uniques": 12
+        "count": 30,
+        "uniques": 11
       },
       {
         "referrer": "github.com",
-        "count": 18,
+        "count": 19,
         "uniques": 6
       }
     ],
@@ -69,25 +69,31 @@
       {
         "path": "/netresearch/typo3-extension-upgrade-skill",
         "title": "Overview",
-        "count": 31,
-        "uniques": 20
+        "count": 29,
+        "uniques": 18
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/SKILL.md",
         "title": "/blob/main/skills/typo3-extension-upgrade/SKILL.md",
+        "count": 7,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade",
+        "title": "/tree/main/skills/typo3-extension-upgrade",
         "count": 5,
         "uniques": 4
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/issues/14",
         "title": "/issues/14",
-        "count": 5,
+        "count": 4,
         "uniques": 2
       },
       {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade",
-        "title": "/tree/main/skills/typo3-extension-upgrade",
-        "count": 4,
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade/references",
+        "title": "/tree/main/skills/typo3-extension-upgrade/references",
+        "count": 3,
         "uniques": 3
       },
       {
@@ -97,34 +103,28 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/references/upgrade-v12-to-v13.md",
+        "title": "/blob/main/skills/typo3-extension-upgrade/references/upgrade-v12-to-v13.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/agents",
+        "title": "/tree/main/agents",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/commands",
+        "title": "/tree/main/commands",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrad",
         "title": "/tree/main/skills/typo3-extension-upgrad",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade/references",
-        "title": "/tree/main/skills/typo3-extension-upgrade/references",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/pull/29",
-        "title": "/pull/29",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/.github",
-        "title": "/tree/main/.github",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/.github/dependabot.yml",
-        "title": "/blob/main/.github/dependabot.yml",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -153,10 +153,6 @@
   ],
   "packagist": null,
   "ghcr": null,
-  "dependents": {
-    "repositories": 0,
-    "packages": 0,
-    "url": "https://github.com/netresearch/typo3-extension-upgrade-skill/network/dependents"
-  },
+  "dependents": null,
   "blast_radius": 31
 }

@@ -45,13 +45,18 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 764,
-    "clones_unique": 160,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 743,
+    "clones_unique": 156,
+    "views_total": 3,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "Google",
         "count": 1,
         "uniques": 1
       },
@@ -67,6 +72,12 @@
         "title": "Overview",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/github-release-skill/actions",
+        "title": "/actions",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
