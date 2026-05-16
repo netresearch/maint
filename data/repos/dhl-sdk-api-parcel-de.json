@@ -39,35 +39,35 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 2,
-    "packagist_downloads": 73270,
+    "packagist_downloads": 73387,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 1,
-    "issues_opened": 1,
+    "commits": 0,
+    "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5402,
+    "packagist_downloads": 5255,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 66,
+    "clones_total": 81,
     "clones_unique": 19,
-    "views_total": 23,
+    "views_total": 32,
     "views_unique": 16,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 17,
+        "uniques": 5
+      },
       {
         "referrer": "Google",
         "count": 13,
         "uniques": 9
-      },
-      {
-        "referrer": "github.com",
-        "count": 5,
-        "uniques": 4
       },
       {
         "referrer": "chatgpt.com",
@@ -85,13 +85,49 @@
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de/tree/main",
         "title": "/tree/main",
-        "count": 9,
-        "uniques": 5
+        "count": 10,
+        "uniques": 6
       },
       {
-        "path": "/netresearch/dhl-sdk-api-parcel-de/issues",
-        "title": "/issues",
+        "path": "/netresearch/dhl-sdk-api-parcel-de/blob/main/src/Service/ServiceFactory.php",
+        "title": "/blob/main/src/Service/ServiceFactory.php",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de/tree/main/src",
+        "title": "/tree/main/src",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de/tree/main/src/Service",
+        "title": "/tree/main/src/Service",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de/blob/main/src/Auth/AuthenticationStorage.php",
+        "title": "/blob/main/src/Auth/AuthenticationStorage.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de/blob/main/src/Http/HttpServiceFactory.php",
+        "title": "/blob/main/src/Http/HttpServiceFactory.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de/blob/main/src/Service/ShipmentService.php",
+        "title": "/blob/main/src/Service/ShipmentService.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de/tree/main/src/Service/ShipmentService",
+        "title": "/tree/main/src/Service/ShipmentService",
+        "count": 1,
         "uniques": 1
       }
     ]
@@ -126,9 +162,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-parcel-de",
-    "total": 73270,
-    "monthly": 5402,
-    "daily": 126,
+    "total": 73387,
+    "monthly": 5255,
+    "daily": 100,
     "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de"
   },
   "ghcr": null,

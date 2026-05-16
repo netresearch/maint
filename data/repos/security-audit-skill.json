@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:25Z",
-  "pushed_at": "2026-05-05T10:09:20Z",
-  "updated_at": "2026-05-12T11:47:29Z",
+  "pushed_at": "2026-05-15T11:40:01Z",
+  "updated_at": "2026-05-15T11:39:39Z",
   "composer_name": null,
   "lifetime": {
     "stars": 19,
@@ -23,14 +23,14 @@
     "watchers": 1,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 215,
+    "commits": 217,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 60,
+    "prs_merged": 61,
     "prs_closed_unmerged": 5,
     "issues_total": 2,
-    "releases": 23,
+    "releases": 24,
     "release_downloads": 101,
     "contributors": 4,
     "external_contributors": 0,
@@ -40,24 +40,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 80,
+    "commits": 82,
     "issues_opened": 1,
-    "prs_opened": 26,
-    "prs_merged": 26,
-    "releases": 3,
+    "prs_opened": 27,
+    "prs_merged": 27,
+    "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 983,
-    "clones_unique": 250,
-    "views_total": 232,
+    "clones_total": 863,
+    "clones_unique": 216,
+    "views_total": 226,
     "views_unique": 115,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 135,
-        "uniques": 69
+        "count": 128,
+        "uniques": 66
       },
       {
         "referrer": "github.com",
@@ -66,8 +66,13 @@
       },
       {
         "referrer": "qwant.com",
-        "count": 2,
+        "count": 3,
         "uniques": 1
+      },
+      {
+        "referrer": "mcpmarket.com",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "statics.teams.cdn.office.net",
@@ -75,17 +80,7 @@
         "uniques": 1
       },
       {
-        "referrer": "wiki.queo-group.com",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "referrer": "doubao.com",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "mcpmarket.com",
         "count": 1,
         "uniques": 1
       },
@@ -103,6 +98,11 @@
         "referrer": "skills.sh",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "wiki.queo-group.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -110,13 +110,13 @@
         "path": "/netresearch/security-audit-skill",
         "title": "Overview",
         "count": 123,
-        "uniques": 103
+        "uniques": 102
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
         "title": "/tree/main/skills/security-audit",
-        "count": 24,
-        "uniques": 19
+        "count": 22,
+        "uniques": 17
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
@@ -127,14 +127,14 @@
       {
         "path": "/netresearch/security-audit-skill/tree/main",
         "title": "/tree/main",
-        "count": 11,
-        "uniques": 10
+        "count": 9,
+        "uniques": 9
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/references",
         "title": "/tree/main/skills/security-audit/references",
-        "count": 7,
-        "uniques": 7
+        "count": 8,
+        "uniques": 8
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/evals",
@@ -155,29 +155,29 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/security-audit-skill/issues",
-        "title": "/issues",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/security-audit-skill/releases/tag/v2.8.1",
         "title": "/releases/tag/v2.8.1",
         "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/security-audit-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 3,
         "uniques": 3
       }
     ]
   },
   "latest_release": {
-    "name": "v2.8.1",
-    "tag_name": "v2.8.1",
-    "published_at": "2026-04-25T11:42:08Z",
-    "url": "https://github.com/netresearch/security-audit-skill/releases/tag/v2.8.1"
+    "name": "v2.9.0",
+    "tag_name": "v2.9.0",
+    "published_at": "2026-05-15T11:42:41Z",
+    "url": "https://github.com/netresearch/security-audit-skill/releases/tag/v2.9.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 201,
+      "contributions": 203,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -203,5 +203,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/security-audit-skill/network/dependents"
   },
-  "blast_radius": 68
+  "blast_radius": 69
 }

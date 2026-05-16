@@ -47,36 +47,36 @@
     "prs_merged": 61,
     "releases": 4,
     "packagist_downloads": 0,
-    "ghcr_downloads": 3577
+    "ghcr_downloads": 3545
   },
   "traffic_14d": {
-    "clones_total": 1245,
-    "clones_unique": 184,
+    "clones_total": 1278,
+    "clones_unique": 185,
     "views_total": 27,
-    "views_unique": 13,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 19,
-        "uniques": 7
+        "count": 21,
+        "uniques": 6
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/ldap-manager",
         "title": "Overview",
-        "count": 10,
+        "count": 11,
         "uniques": 9
+      },
+      {
+        "path": "/netresearch/ldap-manager/blob/main/docs/user-guide/installation.md",
+        "title": "/blob/main/docs/user-guide/installation.md",
+        "count": 3,
+        "uniques": 1
       },
       {
         "path": "/netresearch/ldap-manager/releases/tag/v1.4.1",
         "title": "/releases/tag/v1.4.1",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/ldap-manager/tree/main",
-        "title": "/tree/main",
         "count": 2,
         "uniques": 2
       },
@@ -89,12 +89,6 @@
       {
         "path": "/netresearch/ldap-manager/blob/main/cmd/ldap-manager/main.go",
         "title": "/blob/main/cmd/ldap-manager/main.go",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ldap-manager/blob/main/compose.yml",
-        "title": "/blob/main/compose.yml",
         "count": 1,
         "uniques": 1
       },
@@ -119,6 +113,12 @@
       {
         "path": "/netresearch/ldap-manager/blob/main/internal/ldap/doc.go",
         "title": "/blob/main/internal/ldap/doc.go",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ldap-manager/blob/main/scripts/AGENTS.md",
+        "title": "/blob/main/scripts/AGENTS.md",
         "count": 1,
         "uniques": 1
       }
@@ -179,11 +179,11 @@
         "package": "ldap-manager",
         "url": "https://github.com/netresearch/ldap-manager/pkgs/container/ldap-manager",
         "total": 10469,
-        "thirty_day": 3577
+        "thirty_day": 3545
       }
     ],
     "total": 10469,
-    "thirty_day": 3577
+    "thirty_day": 3545
   },
   "dependents": {
     "repositories": 0,
