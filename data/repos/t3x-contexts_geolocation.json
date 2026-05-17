@@ -55,19 +55,25 @@
   "traffic_14d": {
     "clones_total": 62,
     "clones_unique": 22,
-    "views_total": 5,
-    "views_unique": 5,
-    "top_referrers": [],
+    "views_total": 3,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-contexts_geolocation/pulls",
         "title": "/pulls",
-        "count": 4,
-        "uniques": 4
+        "count": 2,
+        "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-contexts_geolocation/issues",
-        "title": "/issues",
+        "path": "/netresearch/t3x-contexts_geolocation",
+        "title": "Overview",
         "count": 1,
         "uniques": 1
       }

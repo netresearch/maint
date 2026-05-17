@@ -47,29 +47,34 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 742,
-    "clones_unique": 281,
-    "views_total": 805,
-    "views_unique": 426,
+    "clones_total": 812,
+    "clones_unique": 296,
+    "views_total": 755,
+    "views_unique": 419,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 639,
-        "uniques": 343
+        "count": 603,
+        "uniques": 341
       },
       {
         "referrer": "github.com",
-        "count": 24,
-        "uniques": 10
+        "count": 18,
+        "uniques": 9
       },
       {
         "referrer": "search.brave.com",
         "count": 17,
-        "uniques": 9
+        "uniques": 10
       },
       {
         "referrer": "statics.teams.cdn.office.net",
         "count": 13,
+        "uniques": 2
+      },
+      {
+        "referrer": "context7.com",
+        "count": 6,
         "uniques": 2
       },
       {
@@ -81,43 +86,38 @@
         "referrer": "Bing",
         "count": 3,
         "uniques": 3
-      },
-      {
-        "referrer": "context7.com",
-        "count": 3,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/context7-skill",
         "title": "Overview",
-        "count": 498,
-        "uniques": 397
+        "count": 475,
+        "uniques": 386
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7",
         "title": "/tree/main/skills/context7",
-        "count": 72,
-        "uniques": 61
+        "count": 65,
+        "uniques": 57
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/SKILL.md",
         "title": "/blob/main/skills/context7/SKILL.md",
-        "count": 57,
-        "uniques": 50
+        "count": 50,
+        "uniques": 45
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7/scripts",
         "title": "/tree/main/skills/context7/scripts",
-        "count": 28,
-        "uniques": 27
+        "count": 24,
+        "uniques": 23
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/scripts/context7.sh",
         "title": "/blob/main/skills/context7/scripts/context7.sh",
-        "count": 22,
-        "uniques": 20
+        "count": 18,
+        "uniques": 16
       },
       {
         "path": "/netresearch/context7-skill/releases/tag/v1.4.1",
@@ -132,6 +132,12 @@
         "uniques": 10
       },
       {
+        "path": "/netresearch/context7-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 8,
+        "uniques": 6
+      },
+      {
         "path": "/netresearch/context7-skill/tree/main",
         "title": "/tree/main",
         "count": 7,
@@ -142,12 +148,6 @@
         "title": "/tree/main/Build",
         "count": 7,
         "uniques": 5
-      },
-      {
-        "path": "/netresearch/context7-skill/tree/main/skills",
-        "title": "/tree/main/skills",
-        "count": 6,
-        "uniques": 6
       }
     ]
   },
