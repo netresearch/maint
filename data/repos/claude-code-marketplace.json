@@ -25,13 +25,13 @@
   "default_branch": "main",
   "created_at": "2025-10-18T07:59:00Z",
   "pushed_at": "2026-05-17T07:21:03Z",
-  "updated_at": "2026-05-17T07:21:05Z",
+  "updated_at": "2026-05-19T04:14:27Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 36,
-    "forks": 7,
+    "stars": 37,
+    "forks": 8,
     "watchers": 2,
-    "network": 7,
+    "network": 8,
     "open_issues_plus_prs": 2,
     "commits": 253,
     "issues_open": 1,
@@ -59,24 +59,29 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2094,
-    "clones_unique": 638,
-    "views_total": 426,
-    "views_unique": 253,
+    "clones_total": 2014,
+    "clones_unique": 643,
+    "views_total": 450,
+    "views_unique": 262,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 202,
-        "uniques": 132
+        "count": 217,
+        "uniques": 142
       },
       {
         "referrer": "github.com",
-        "count": 72,
-        "uniques": 39
+        "count": 76,
+        "uniques": 40
       },
       {
         "referrer": "Baidu",
         "count": 4,
+        "uniques": 3
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 3,
         "uniques": 3
       },
       {
@@ -90,12 +95,12 @@
         "uniques": 2
       },
       {
-        "referrer": "search.brave.com",
-        "count": 2,
-        "uniques": 2
+        "referrer": "buildwithclaude.com",
+        "count": 1,
+        "uniques": 1
       },
       {
-        "referrer": "buildwithclaude.com",
+        "referrer": "chatgpt.com",
         "count": 1,
         "uniques": 1
       },
@@ -108,42 +113,37 @@
         "referrer": "doubao.com",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "zarebin.ir",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 293,
-        "uniques": 234
+        "count": 306,
+        "uniques": 244
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 24,
-        "uniques": 20
+        "count": 28,
+        "uniques": 22
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
         "title": "/blob/main/.claude-plugin/marketplace.json",
-        "count": 23,
-        "uniques": 17
+        "count": 24,
+        "uniques": 18
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 12,
-        "uniques": 12
+        "count": 14,
+        "uniques": 14
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main",
         "title": "/tree/main",
-        "count": 10,
+        "count": 11,
         "uniques": 9
       },
       {
@@ -155,14 +155,14 @@
       {
         "path": "/netresearch/claude-code-marketplace/commits/main",
         "title": "/commits/main",
-        "count": 6,
-        "uniques": 1
+        "count": 7,
+        "uniques": 2
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 5,
-        "uniques": 5
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/claude-code-marketplace/pulls",
@@ -171,10 +171,10 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/claude-code-marketplace/discussions",
-        "title": "/discussions",
-        "count": 4,
-        "uniques": 2
+        "path": "/netresearch/claude-code-marketplace/tree/main/.githooks",
+        "title": "/tree/main/.githooks",
+        "count": 3,
+        "uniques": 3
       }
     ]
   },
@@ -228,5 +228,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
   },
-  "blast_radius": 68
+  "blast_radius": 70
 }

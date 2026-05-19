@@ -15,45 +15,45 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2022-05-30T12:58:03Z",
-  "pushed_at": "2026-05-17T19:53:38Z",
-  "updated_at": "2026-05-17T19:53:40Z",
+  "pushed_at": "2026-05-18T19:57:20Z",
+  "updated_at": "2026-05-18T19:57:40Z",
   "composer_name": null,
   "lifetime": {
     "stars": 55,
     "forks": 5,
     "watchers": 1,
     "network": 203,
-    "open_issues_plus_prs": 21,
-    "commits": 1460,
+    "open_issues_plus_prs": 20,
+    "commits": 1466,
     "issues_open": 19,
     "issues_closed": 163,
-    "prs_open": 2,
-    "prs_merged": 463,
-    "prs_closed_unmerged": 56,
+    "prs_open": 1,
+    "prs_merged": 466,
+    "prs_closed_unmerged": 57,
     "issues_total": 182,
     "releases": 46,
-    "release_downloads": 1504,
-    "contributors": 42,
-    "external_contributors": 36,
+    "release_downloads": 1505,
+    "contributors": 43,
+    "external_contributors": 37,
     "packagist_downloads": 0,
-    "ghcr_downloads": 174876,
+    "ghcr_downloads": 176498,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 257,
+    "commits": 263,
     "issues_opened": 44,
-    "prs_opened": 96,
-    "prs_merged": 87,
+    "prs_opened": 99,
+    "prs_merged": 88,
     "releases": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 50000
+    "ghcr_downloads": 50064
   },
   "traffic_14d": {
-    "clones_total": 10162,
-    "clones_unique": 1318,
-    "views_total": 215,
-    "views_unique": 26,
+    "clones_total": 10865,
+    "clones_unique": 1422,
+    "views_total": 239,
+    "views_unique": 27,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -70,19 +70,19 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 55,
+        "count": 61,
         "uniques": 20
       },
       {
         "path": "/netresearch/ofelia/issues",
         "title": "/issues",
-        "count": 20,
+        "count": 22,
         "uniques": 2
       },
       {
         "path": "/netresearch/ofelia/pulls",
         "title": "/pulls",
-        "count": 12,
+        "count": 15,
         "uniques": 2
       },
       {
@@ -90,6 +90,12 @@
         "title": "/tags",
         "count": 10,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/commits/main",
+        "title": "/commits/main",
+        "count": 10,
+        "uniques": 1
       },
       {
         "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
@@ -104,9 +110,9 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/ofelia/commits/main",
-        "title": "/commits/main",
-        "count": 8,
+        "path": "/netresearch/ofelia/pull/692",
+        "title": "/pull/692",
+        "count": 6,
         "uniques": 1
       },
       {
@@ -118,12 +124,6 @@
       {
         "path": "/netresearch/ofelia/blob/main/docs/jobs.md",
         "title": "/blob/main/docs/jobs.md",
-        "count": 5,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/ofelia/tree/main/docs",
-        "title": "/tree/main/docs",
         "count": 5,
         "uniques": 2
       }
@@ -138,7 +138,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1170,
+      "contributions": 1173,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -153,7 +153,7 @@
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 33,
+      "contributions": 35,
       "url": "https://github.com/apps/dependabot"
     },
     {
@@ -193,17 +193,17 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 174876,
-        "thirty_day": 50000
+        "total": 176498,
+        "thirty_day": 50064
       }
     ],
-    "total": 174876,
-    "thirty_day": 50000
+    "total": 176498,
+    "thirty_day": 50064
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/ofelia/network/dependents"
   },
-  "blast_radius": 763
+  "blast_radius": 769
 }

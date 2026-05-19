@@ -10,20 +10,20 @@
   "homepage": "https://www.netresearch.de/",
   "default_branch": "main",
   "created_at": "2026-03-15T19:35:10Z",
-  "pushed_at": "2026-05-11T15:14:16Z",
-  "updated_at": "2026-05-03T20:44:21Z",
+  "pushed_at": "2026-05-18T21:58:09Z",
+  "updated_at": "2026-05-18T21:58:12Z",
   "composer_name": "netresearch/nr-passkeys-fe",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 210,
+    "open_issues_plus_prs": 1,
+    "commits": 218,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 1,
-    "prs_merged": 12,
+    "prs_open": 0,
+    "prs_merged": 14,
     "prs_closed_unmerged": 3,
     "issues_total": 3,
     "releases": 6,
@@ -36,19 +36,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 6,
+    "commits": 14,
     "issues_opened": 0,
-    "prs_opened": 4,
-    "prs_merged": 3,
+    "prs_opened": 5,
+    "prs_merged": 5,
     "releases": 0,
     "packagist_downloads": 6,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 220,
-    "clones_unique": 73,
-    "views_total": 10,
-    "views_unique": 8,
+    "clones_total": 197,
+    "clones_unique": 62,
+    "views_total": 3,
+    "views_unique": 2,
     "top_referrers": [
       {
         "referrer": "packagist.org",
@@ -65,30 +65,6 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-fe/blob/HEAD/Documentation/DeveloperGuide/Index.rst",
         "title": "/blob/HEAD/Documentation/DeveloperGuide/Index.rst",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-fe/actions/workflows/ci.yml",
-        "title": "/actions/workflows/ci.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-fe/blob/HEAD/Documentation/Configuration/Index.rst",
-        "title": "/blob/HEAD/Documentation/Configuration/Index.rst",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-fe/blob/HEAD/Documentation/Installation/Index.rst",
-        "title": "/blob/HEAD/Documentation/Installation/Index.rst",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-fe/blob/HEAD/Documentation/QuickStart/Index.rst",
-        "title": "/blob/HEAD/Documentation/QuickStart/Index.rst",
         "count": 1,
         "uniques": 1
       },
@@ -115,7 +91,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 195,
+      "contributions": 203,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -142,5 +118,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-passkeys-fe/network/dependents"
   },
-  "blast_radius": 15
+  "blast_radius": 17
 }

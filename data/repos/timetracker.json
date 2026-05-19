@@ -49,15 +49,20 @@
     "ghcr_downloads": 1674
   },
   "traffic_14d": {
-    "clones_total": 1513,
-    "clones_unique": 237,
-    "views_total": 15,
-    "views_unique": 12,
+    "clones_total": 1514,
+    "clones_unique": 236,
+    "views_total": 27,
+    "views_unique": 13,
     "top_referrers": [
       {
-        "referrer": "github.com",
+        "referrer": "DuckDuckGo",
         "count": 7,
-        "uniques": 6
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
+        "count": 6,
+        "uniques": 5
       },
       {
         "referrer": "Google",
@@ -69,14 +74,26 @@
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 8,
-        "uniques": 7
+        "count": 14,
+        "uniques": 8
       },
       {
         "path": "/netresearch/timetracker/tree/v4",
         "title": "/tree/v4",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/timetracker/pulse",
+        "title": "/pulse",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/actions",
+        "title": "/actions",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/timetracker/blob/main/LICENSE",
@@ -87,6 +104,12 @@
       {
         "path": "/netresearch/timetracker/blob/main/docs/api.md",
         "title": "/blob/main/docs/api.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/docs/testing.md",
+        "title": "/blob/main/docs/testing.md",
         "count": 1,
         "uniques": 1
       },
@@ -103,8 +126,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/timetracker/pull/39",
-        "title": "/pull/39",
+        "path": "/netresearch/timetracker/network",
+        "title": "/network",
         "count": 1,
         "uniques": 1
       }

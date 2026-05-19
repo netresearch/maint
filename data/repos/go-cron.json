@@ -27,8 +27,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-25T07:26:55Z",
-  "pushed_at": "2026-04-29T05:10:51Z",
-  "updated_at": "2026-05-16T09:11:46Z",
+  "pushed_at": "2026-05-18T21:54:09Z",
+  "updated_at": "2026-05-18T21:54:12Z",
   "composer_name": null,
   "lifetime": {
     "stars": 38,
@@ -36,11 +36,11 @@
     "watchers": 3,
     "network": 1696,
     "open_issues_plus_prs": 10,
-    "commits": 566,
+    "commits": 568,
     "issues_open": 10,
     "issues_closed": 185,
     "prs_open": 0,
-    "prs_merged": 168,
+    "prs_merged": 169,
     "prs_closed_unmerged": 6,
     "issues_total": 195,
     "releases": 15,
@@ -53,29 +53,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 27,
+    "commits": 29,
     "issues_opened": 1,
-    "prs_opened": 14,
-    "prs_merged": 12,
+    "prs_opened": 15,
+    "prs_merged": 13,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 128,
-    "clones_unique": 39,
-    "views_total": 117,
-    "views_unique": 51,
+    "clones_total": 118,
+    "clones_unique": 35,
+    "views_total": 110,
+    "views_unique": 50,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 52,
-        "uniques": 20
+        "count": 44,
+        "uniques": 18
       },
       {
         "referrer": "Google",
-        "count": 18,
-        "uniques": 16
+        "count": 17,
+        "uniques": 15
       },
       {
         "referrer": "pkg.go.dev",
@@ -114,20 +114,14 @@
       {
         "path": "/netresearch/go-cron/issues",
         "title": "/issues",
-        "count": 6,
-        "uniques": 6
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/go-cron/issues/301",
         "title": "/issues/301",
-        "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/docs/MIGRATION.md",
-        "title": "/blob/main/docs/MIGRATION.md",
         "count": 3,
-        "uniques": 2
+        "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/blob/main/docs/PERSISTENCE_GUIDE.md",
@@ -154,6 +148,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/go-cron/blob/main/docs/MIGRATION.md",
+        "title": "/blob/main/docs/MIGRATION.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/go-cron/blob/v0.14.0/docs/COOKBOOK.md",
         "title": "/blob/v0.14.0/docs/COOKBOOK.md",
         "count": 2,
@@ -170,7 +170,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 406,
+      "contributions": 408,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -226,5 +226,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/go-cron/network/dependents"
   },
-  "blast_radius": 460
+  "blast_radius": 461
 }
