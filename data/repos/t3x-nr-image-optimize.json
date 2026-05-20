@@ -37,7 +37,7 @@
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 3,
-    "packagist_downloads": 861,
+    "packagist_downloads": 867,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -48,27 +48,33 @@
     "prs_opened": 35,
     "prs_merged": 35,
     "releases": 5,
-    "packagist_downloads": 182,
+    "packagist_downloads": 181,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 91,
-    "clones_unique": 27,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 126,
+    "clones_unique": 26,
+    "views_total": 5,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 2,
-        "uniques": 2
+        "count": 5,
+        "uniques": 4
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-image-optimize",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -122,9 +128,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 861,
-    "monthly": 182,
-    "daily": 6,
+    "total": 867,
+    "monthly": 181,
+    "daily": 5,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,

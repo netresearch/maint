@@ -45,7 +45,7 @@
     "release_downloads": 263,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 4888,
+    "packagist_downloads": 4892,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -56,12 +56,12 @@
     "prs_opened": 81,
     "prs_merged": 81,
     "releases": 1,
-    "packagist_downloads": 328,
+    "packagist_downloads": 304,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 389,
-    "clones_unique": 63,
+    "clones_total": 380,
+    "clones_unique": 53,
     "views_total": 16,
     "views_unique": 11,
     "top_referrers": [
@@ -100,12 +100,6 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-nr-llm/actions/workflows/auto-merge-deps.yml",
-        "title": "/actions/workflows/auto-merge-deps.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-llm/blob/main/Documentation/Configuration/Index.rst",
         "title": "/blob/main/Documentation/Configuration/Index.rst",
         "count": 1,
@@ -114,6 +108,12 @@
       {
         "path": "/netresearch/t3x-nr-llm/issues",
         "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/issues/98",
+        "title": "/issues/98",
         "count": 1,
         "uniques": 1
       },
@@ -160,9 +160,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 4888,
-    "monthly": 328,
-    "daily": 23,
+    "total": 4892,
+    "monthly": 304,
+    "daily": 3,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,
