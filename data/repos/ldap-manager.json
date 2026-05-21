@@ -36,37 +36,42 @@
     "contributors": 8,
     "external_contributors": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 11125,
+    "ghcr_downloads": 11218,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 289,
-    "issues_opened": 3,
-    "prs_opened": 60,
-    "prs_merged": 54,
+    "commits": 246,
+    "issues_opened": 0,
+    "prs_opened": 37,
+    "prs_merged": 34,
     "releases": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 4126
+    "ghcr_downloads": 4205
   },
   "traffic_14d": {
-    "clones_total": 1270,
-    "clones_unique": 176,
-    "views_total": 39,
-    "views_unique": 11,
+    "clones_total": 1370,
+    "clones_unique": 195,
+    "views_total": 48,
+    "views_unique": 14,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 20,
-        "uniques": 5
+        "count": 23,
+        "uniques": 6
+      },
+      {
+        "referrer": "github.com",
+        "count": 5,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/ldap-manager",
         "title": "Overview",
-        "count": 10,
-        "uniques": 8
+        "count": 13,
+        "uniques": 11
       },
       {
         "path": "/netresearch/ldap-manager/blob/main/docs/user-guide/installation.md",
@@ -85,6 +90,12 @@
         "title": "/tree/main",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/ldap-manager/blob/main/CLAUDE.md",
+        "title": "/blob/main/CLAUDE.md",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/ldap-manager/actions/runs/25629781319/workflow",
@@ -111,14 +122,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/ldap-manager/blob/main/cmd/AGENTS.md",
-        "title": "/blob/main/cmd/AGENTS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ldap-manager/blob/main/cmd/ldap-manager/main.go",
-        "title": "/blob/main/cmd/ldap-manager/main.go",
+        "path": "/netresearch/ldap-manager/blob/main/Dockerfile",
+        "title": "/blob/main/Dockerfile",
         "count": 1,
         "uniques": 1
       }
@@ -178,12 +183,12 @@
       {
         "package": "ldap-manager",
         "url": "https://github.com/netresearch/ldap-manager/pkgs/container/ldap-manager",
-        "total": 11125,
-        "thirty_day": 4126
+        "total": 11218,
+        "thirty_day": 4205
       }
     ],
-    "total": 11125,
-    "thirty_day": 4126
+    "total": 11218,
+    "thirty_day": 4205
   },
   "dependents": {
     "repositories": 0,

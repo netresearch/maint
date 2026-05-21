@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 6,
-    "packagist_downloads": 215544,
+    "packagist_downloads": 215860,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,28 +43,22 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5026,
+    "packagist_downloads": 5043,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 17,
-    "clones_unique": 14,
-    "views_total": 6,
+    "clones_total": 16,
+    "clones_unique": 13,
+    "views_total": 4,
     "views_unique": 2,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
+        "count": 4,
+        "uniques": 2
       }
     ],
     "top_paths": [
-      {
-        "path": "/netresearch/deutschepost-module-addressfactory-m2/releases",
-        "title": "/releases",
-        "count": 3,
-        "uniques": 1
-      },
       {
         "path": "/netresearch/deutschepost-module-addressfactory-m2",
         "title": "Overview",
@@ -72,8 +66,14 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/deutschepost-module-addressfactory-m2/blob/master/README.md",
-        "title": "/blob/master/README.md",
+        "path": "/netresearch/deutschepost-module-addressfactory-m2/blob/master/composer.json",
+        "title": "/blob/master/composer.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-addressfactory-m2/blob/master/registration.php",
+        "title": "/blob/master/registration.php",
         "count": 1,
         "uniques": 1
       }
@@ -129,9 +129,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-addressfactory-m2",
-    "total": 215544,
-    "monthly": 5026,
-    "daily": 218,
+    "total": 215860,
+    "monthly": 5043,
+    "daily": 267,
     "url": "https://packagist.org/packages/deutschepost/module-addressfactory-m2"
   },
   "ghcr": null,
