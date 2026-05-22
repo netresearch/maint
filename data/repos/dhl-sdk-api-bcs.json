@@ -42,7 +42,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 4,
-    "packagist_downloads": 326003,
+    "packagist_downloads": 326088,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
@@ -53,24 +53,24 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1518,
+    "packagist_downloads": 1485,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 44,
-    "clones_unique": 39,
-    "views_total": 22,
-    "views_unique": 10,
+    "clones_total": 45,
+    "clones_unique": 40,
+    "views_total": 18,
+    "views_unique": 9,
     "top_referrers": [
       {
-        "referrer": "Google",
-        "count": 8,
-        "uniques": 4
+        "referrer": "chatgpt.com",
+        "count": 4,
+        "uniques": 1
       },
       {
-        "referrer": "chatgpt.com",
-        "count": 3,
-        "uniques": 1
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "github.com",
@@ -87,19 +87,37 @@
       {
         "path": "/netresearch/dhl-sdk-api-bcs",
         "title": "Overview",
-        "count": 13,
-        "uniques": 9
+        "count": 11,
+        "uniques": 7
       },
       {
-        "path": "/netresearch/dhl-sdk-api-bcs/commit/2ae9459388b136db92f9eb4a1883960b18e0b3b6",
-        "title": "/commit/2ae9459388b136db92f9eb4a1883960b18e0b3b6",
-        "count": 2,
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/README.md",
+        "title": "/blob/master/README.md",
+        "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-sdk-api-bcs/releases",
-        "title": "/releases",
-        "count": 2,
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Api/ShipmentOrderRequestBuilderInterface.php",
+        "title": "/blob/master/src/Api/ShipmentOrderRequestBuilderInterface.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Http/ClientPlugin/OrderErrorPlugin.php",
+        "title": "/blob/master/src/Http/ClientPlugin/OrderErrorPlugin.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Model/ParcelDe/ShipmentOrderRequest.php",
+        "title": "/blob/master/src/Model/ParcelDe/ShipmentOrderRequest.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Model/ParcelDe/ShipmentResponse.php",
+        "title": "/blob/master/src/Model/ParcelDe/ShipmentResponse.php",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -109,26 +127,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-sdk-api-bcs/commit/a549a9ecd2cb619829f21f2426a03daa15e9209b",
-        "title": "/commit/a549a9ecd2cb619829f21f2426a03daa15e9209b",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-sdk-api-bcs/commit/be55d2f50698d138e118c448e0e0d34b5a28555c",
-        "title": "/commit/be55d2f50698d138e118c448e0e0d34b5a28555c",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/dhl-sdk-api-bcs/pulls",
         "title": "/pulls",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-sdk-api-bcs/tree/master/src",
-        "title": "/tree/master/src",
         "count": 1,
         "uniques": 1
       }
@@ -179,9 +179,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs",
-    "total": 326003,
-    "monthly": 1518,
-    "daily": 98,
+    "total": 326088,
+    "monthly": 1485,
+    "daily": 71,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs"
   },
   "ghcr": null,

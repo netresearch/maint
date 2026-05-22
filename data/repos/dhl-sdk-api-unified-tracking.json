@@ -42,7 +42,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 321883,
+    "packagist_downloads": 322188,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -53,42 +53,84 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 6107,
+    "packagist_downloads": 6031,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 15,
-    "clones_unique": 12,
-    "views_total": 8,
-    "views_unique": 6,
+    "clones_total": 19,
+    "clones_unique": 15,
+    "views_total": 23,
+    "views_unique": 9,
     "top_referrers": [
       {
-        "referrer": "Google",
-        "count": 5,
-        "uniques": 3
+        "referrer": "github.com",
+        "count": 14,
+        "uniques": 2
       },
       {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
+        "referrer": "Google",
+        "count": 7,
+        "uniques": 5
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-unified-tracking",
         "title": "Overview",
-        "count": 6,
-        "uniques": 6
+        "count": 9,
+        "uniques": 9
       },
       {
         "path": "/netresearch/dhl-sdk-api-unified-tracking/blob/master/src/Service/TrackingService.php",
         "title": "/blob/master/src/Service/TrackingService.php",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/blob/master/src/Model/Tracking/Types/TrackingResponseType.php",
+        "title": "/blob/master/src/Model/Tracking/Types/TrackingResponseType.php",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/tree/master/src/Model",
+        "title": "/tree/master/src/Model",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/blob/master/src/Model/ResponseMapper.php",
+        "title": "/blob/master/src/Model/ResponseMapper.php",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-sdk-api-unified-tracking/tree/master/src/Service",
-        "title": "/tree/master/src/Service",
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/blob/master/src/Model/Tracking/Types/Shipment.php",
+        "title": "/blob/master/src/Model/Tracking/Types/Shipment.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/blob/master/src/Service/ServiceFactory.php",
+        "title": "/blob/master/src/Service/ServiceFactory.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/tree/master/src",
+        "title": "/tree/master/src",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/tree/master/src/Model/Tracking",
+        "title": "/tree/master/src/Model/Tracking",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/tree/master/src/Model/Tracking/Response",
+        "title": "/tree/master/src/Model/Tracking/Response",
         "count": 1,
         "uniques": 1
       }
@@ -134,9 +176,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-unified-tracking",
-    "total": 321883,
-    "monthly": 6107,
-    "daily": 336,
+    "total": 322188,
+    "monthly": 6031,
+    "daily": 260,
     "url": "https://packagist.org/packages/dhl/sdk-api-unified-tracking"
   },
   "ghcr": null,

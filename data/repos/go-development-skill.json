@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:56:59Z",
-  "pushed_at": "2026-05-15T11:50:14Z",
+  "pushed_at": "2026-05-21T21:31:33Z",
   "updated_at": "2026-05-18T03:27:54Z",
   "composer_name": null,
   "lifetime": {
@@ -22,11 +22,11 @@
     "forks": 0,
     "watchers": 2,
     "network": 0,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 3,
     "commits": 120,
     "issues_open": 2,
     "issues_closed": 0,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 30,
     "prs_closed_unmerged": 0,
     "issues_total": 2,
@@ -43,65 +43,58 @@
     "commits": 11,
     "issues_opened": 0,
     "prs_opened": 6,
-    "prs_merged": 6,
+    "prs_merged": 5,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 200,
-    "clones_unique": 73,
-    "views_total": 112,
-    "views_unique": 22,
+    "clones_unique": 72,
+    "views_total": 97,
+    "views_unique": 19,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 104,
+        "count": 90,
         "uniques": 14
+      },
+      {
+        "referrer": "statics.teams.cdn.office.net",
+        "count": 3,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
-        "path": "/netresearch/go-development-skill",
-        "title": "Overview",
-        "count": 19,
-        "uniques": 16
-      },
-      {
         "path": "/netresearch/go-development-skill/tree/main/skills/go-development",
         "title": "/tree/main/skills/go-development",
-        "count": 18,
+        "count": 17,
         "uniques": 11
+      },
+      {
+        "path": "/netresearch/go-development-skill",
+        "title": "Overview",
+        "count": 15,
+        "uniques": 12
       },
       {
         "path": "/netresearch/go-development-skill/blob/main/skills/go-development/SKILL.md",
         "title": "/blob/main/skills/go-development/SKILL.md",
-        "count": 11,
-        "uniques": 8
+        "count": 8,
+        "uniques": 7
       },
       {
         "path": "/netresearch/go-development-skill/tree/main/skills/go-development/references",
         "title": "/tree/main/skills/go-development/references",
-        "count": 7,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/go-development-skill/tree/main",
-        "title": "/tree/main",
-        "count": 6,
-        "uniques": 4
+        "count": 8,
+        "uniques": 6
       },
       {
         "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/architecture.md",
         "title": "/blob/main/skills/go-development/references/architecture.md",
-        "count": 5,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/go-development-skill/tree/main/skills/go-development/evals",
-        "title": "/tree/main/skills/go-development/evals",
-        "count": 4,
-        "uniques": 4
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/makefile.md",
@@ -110,14 +103,26 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/go-development-skill/tree/main/skills",
-        "title": "/tree/main/skills",
+        "path": "/netresearch/go-development-skill/tree/main",
+        "title": "/tree/main",
         "count": 4,
         "uniques": 3
       },
       {
         "path": "/netresearch/go-development-skill/blob/main/skills/go-development/evals/evals.json",
         "title": "/blob/main/skills/go-development/evals/evals.json",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/resilience.md",
+        "title": "/blob/main/skills/go-development/references/resilience.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-development-skill/tree/main/skills/go-development/evals",
+        "title": "/tree/main/skills/go-development/evals",
         "count": 3,
         "uniques": 3
       }

@@ -47,21 +47,27 @@
   "traffic_14d": {
     "clones_total": 314,
     "clones_unique": 77,
-    "views_total": 3,
-    "views_unique": 2,
+    "views_total": 5,
+    "views_unique": 3,
     "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 3,
+        "uniques": 2
+      },
       {
         "referrer": "packagist.org",
         "count": 2,
         "uniques": 1
-      },
-      {
-        "referrer": "extensions.typo3.org",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/blob/main/Classes/Controller/LoginController.php",
+        "title": "/blob/main/Classes/Controller/LoginController.php",
+        "count": 2,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/t3x-nr-passkeys-fe/blob/HEAD/Documentation/DeveloperGuide/Index.rst",
         "title": "/blob/HEAD/Documentation/DeveloperGuide/Index.rst",

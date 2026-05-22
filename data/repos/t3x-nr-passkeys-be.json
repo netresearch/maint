@@ -39,29 +39,34 @@
     "release_downloads": 10,
     "contributors": 2,
     "external_contributors": 0,
-    "packagist_downloads": 2805,
+    "packagist_downloads": 2810,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 48,
+    "commits": 37,
     "issues_opened": 0,
-    "prs_opened": 13,
-    "prs_merged": 13,
+    "prs_opened": 11,
+    "prs_merged": 11,
     "releases": 4,
-    "packagist_downloads": 277,
+    "packagist_downloads": 260,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 68,
-    "clones_unique": 35,
-    "views_total": 7,
-    "views_unique": 2,
+    "clones_total": 54,
+    "clones_unique": 29,
+    "views_total": 18,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 6,
+        "count": 5,
+        "uniques": 1
+      },
+      {
+        "referrer": "Google",
+        "count": 2,
         "uniques": 1
       }
     ],
@@ -69,6 +74,24 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be",
         "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/25272177744",
+        "title": "/actions/runs/25272177744",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/25402666122",
+        "title": "/actions/runs/25402666122",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/CLAUDE.md",
+        "title": "/blob/main/CLAUDE.md",
         "count": 1,
         "uniques": 1
       },
@@ -91,20 +114,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-be/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Tests/E2E/passkey-login-flow.spec.ts",
+        "title": "/blob/main/Tests/E2E/passkey-login-flow.spec.ts",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-be/tree/main/Classes",
-        "title": "/tree/main/Classes",
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/playwright.config.ts",
+        "title": "/blob/main/playwright.config.ts",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-be/tree/main/Classes/Form/Element",
-        "title": "/tree/main/Classes/Form/Element",
+        "path": "/netresearch/t3x-nr-passkeys-be/tree/main/.ddev",
+        "title": "/tree/main/.ddev",
         "count": 1,
         "uniques": 1
       }
@@ -130,9 +153,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 2805,
-    "monthly": 277,
-    "daily": 6,
+    "total": 2810,
+    "monthly": 260,
+    "daily": 7,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,
