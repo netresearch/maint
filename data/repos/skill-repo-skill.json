@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-16T10:15:03Z",
-  "pushed_at": "2026-05-21T17:27:27Z",
-  "updated_at": "2026-05-21T17:27:22Z",
+  "pushed_at": "2026-05-23T04:46:20Z",
+  "updated_at": "2026-05-23T04:46:23Z",
   "composer_name": null,
   "lifetime": {
     "stars": 7,
@@ -23,15 +23,15 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 331,
+    "commits": 333,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 93,
+    "prs_merged": 94,
     "prs_closed_unmerged": 3,
     "issues_total": 2,
     "releases": 42,
-    "release_downloads": 169,
+    "release_downloads": 172,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,44 +40,39 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 93,
+    "commits": 91,
     "issues_opened": 1,
-    "prs_opened": 34,
-    "prs_merged": 33,
-    "releases": 3,
+    "prs_opened": 33,
+    "prs_merged": 32,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1529,
-    "clones_unique": 209,
+    "clones_total": 1390,
+    "clones_unique": 184,
     "views_total": 161,
-    "views_unique": 84,
+    "views_unique": 83,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 106,
-        "uniques": 59
+        "count": 95,
+        "uniques": 58
       },
       {
         "referrer": "github.com",
-        "count": 20,
-        "uniques": 9
+        "count": 19,
+        "uniques": 8
+      },
+      {
+        "referrer": "Bing",
+        "count": 9,
+        "uniques": 2
       },
       {
         "referrer": "packagist.org",
         "count": 7,
         "uniques": 2
-      },
-      {
-        "referrer": "Bing",
-        "count": 3,
-        "uniques": 1
-      },
-      {
-        "referrer": "Baidu",
-        "count": 1,
-        "uniques": 1
       },
       {
         "referrer": "chatgpt.com",
@@ -99,26 +94,32 @@
       {
         "path": "/netresearch/skill-repo-skill",
         "title": "Overview",
-        "count": 77,
-        "uniques": 67
+        "count": 74,
+        "uniques": 64
       },
       {
         "path": "/netresearch/skill-repo-skill/releases",
         "title": "/releases",
-        "count": 25,
-        "uniques": 19
+        "count": 26,
+        "uniques": 20
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo",
         "title": "/tree/main/skills/skill-repo",
-        "count": 17,
-        "uniques": 14
+        "count": 14,
+        "uniques": 12
       },
       {
         "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
         "title": "/blob/main/skills/skill-repo/SKILL.md",
-        "count": 6,
+        "count": 5,
         "uniques": 5
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/tree/main/.github",
+        "title": "/tree/main/.github",
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/evals",
@@ -127,20 +128,14 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/skill-repo-skill/tree/main/.github",
-        "title": "/tree/main/.github",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/blob/main/.claude-plugin/plugin.json",
-        "title": "/blob/main/.claude-plugin/plugin.json",
+        "path": "/netresearch/skill-repo-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/skill-repo-skill/blob/main/README.md",
-        "title": "/blob/main/README.md",
+        "path": "/netresearch/skill-repo-skill/blob/main/package.json",
+        "title": "/blob/main/package.json",
         "count": 2,
         "uniques": 2
       },
@@ -151,10 +146,10 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/skill-repo-skill/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
+        "path": "/netresearch/skill-repo-skill/blob/main/.github/workflows/release.yml",
+        "title": "/blob/main/.github/workflows/release.yml",
         "count": 2,
-        "uniques": 2
+        "uniques": 1
       }
     ]
   },
@@ -167,7 +162,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 243,
+      "contributions": 245,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -193,5 +188,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/skill-repo-skill/network/dependents"
   },
-  "blast_radius": 161
+  "blast_radius": 162
 }

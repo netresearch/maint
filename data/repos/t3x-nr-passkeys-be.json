@@ -39,31 +39,26 @@
     "release_downloads": 10,
     "contributors": 2,
     "external_contributors": 0,
-    "packagist_downloads": 2810,
+    "packagist_downloads": 2815,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 37,
+    "commits": 34,
     "issues_opened": 0,
-    "prs_opened": 11,
-    "prs_merged": 11,
-    "releases": 4,
-    "packagist_downloads": 260,
+    "prs_opened": 9,
+    "prs_merged": 10,
+    "releases": 3,
+    "packagist_downloads": 241,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 54,
-    "clones_unique": 29,
-    "views_total": 18,
-    "views_unique": 3,
+    "clones_total": 49,
+    "clones_unique": 28,
+    "views_total": 13,
+    "views_unique": 2,
     "top_referrers": [
-      {
-        "referrer": "extensions.typo3.org",
-        "count": 5,
-        "uniques": 1
-      },
       {
         "referrer": "Google",
         "count": 2,
@@ -96,24 +91,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Classes/Form/Element/PasskeyInfoElement.php",
-        "title": "/blob/main/Classes/Form/Element/PasskeyInfoElement.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Classes/Middleware/PasskeySetupInterstitial.php",
-        "title": "/blob/main/Classes/Middleware/PasskeySetupInterstitial.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Classes/UserSettings/PasskeySettingsPanel.php",
-        "title": "/blob/main/Classes/UserSettings/PasskeySettingsPanel.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Tests/E2E/passkey-login-flow.spec.ts",
         "title": "/blob/main/Tests/E2E/passkey-login-flow.spec.ts",
         "count": 1,
@@ -128,6 +105,24 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be/tree/main/.ddev",
         "title": "/tree/main/.ddev",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/tree/main/.ddev/apache",
+        "title": "/tree/main/.ddev/apache",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/tree/main/.ddev/commands",
+        "title": "/tree/main/.ddev/commands",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/tree/main/.ddev/web-build",
+        "title": "/tree/main/.ddev/web-build",
         "count": 1,
         "uniques": 1
       }
@@ -153,8 +148,8 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 2810,
-    "monthly": 260,
+    "total": 2815,
+    "monthly": 241,
     "daily": 7,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },

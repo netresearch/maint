@@ -62,24 +62,24 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 173,
-    "clones_unique": 54,
-    "views_total": 108,
-    "views_unique": 46,
+    "clones_total": 177,
+    "clones_unique": 56,
+    "views_total": 86,
+    "views_unique": 45,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 43,
-        "uniques": 17
+        "count": 28,
+        "uniques": 15
       },
       {
         "referrer": "Google",
-        "count": 13,
-        "uniques": 12
+        "count": 11,
+        "uniques": 11
       },
       {
-        "referrer": "pkg.go.dev",
-        "count": 9,
+        "referrer": "libdocs.koiostechgroup.com",
+        "count": 3,
         "uniques": 1
       },
       {
@@ -96,19 +96,14 @@
         "referrer": "doubao.com",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "libdocs.koiostechgroup.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 50,
-        "uniques": 38
+        "count": 46,
+        "uniques": 37
       },
       {
         "path": "/netresearch/go-cron/commits/main",
@@ -119,8 +114,14 @@
       {
         "path": "/netresearch/go-cron/issues",
         "title": "/issues",
-        "count": 5,
-        "uniques": 5
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/go-cron/blob/1d5f78469c78536c5e78ca2c338bde587c00ec93/cron.go",
+        "title": "/blob/1d5f78469c78536c5e78ca2c338bde587c00ec93/cron.go",
+        "count": 3,
+        "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/issues/301",
@@ -129,39 +130,33 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/go-cron/blob/1d5f78469c78536c5e78ca2c338bde587c00ec93/CHANGELOG.md",
-        "title": "/blob/1d5f78469c78536c5e78ca2c338bde587c00ec93/CHANGELOG.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-cron/blob/1d5f78469c78536c5e78ca2c338bde587c00ec93/example_test.go",
-        "title": "/blob/1d5f78469c78536c5e78ca2c338bde587c00ec93/example_test.go",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/CHANGELOG.md",
-        "title": "/blob/main/CHANGELOG.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/docs/MIGRATION.md",
-        "title": "/blob/main/docs/MIGRATION.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-cron/blob/v0.14.0/docs/COOKBOOK.md",
-        "title": "/blob/v0.14.0/docs/COOKBOOK.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/go-cron/issues/190",
         "title": "/issues/190",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/go-cron/blob/1d5f78469c78536c5e78ca2c338bde587c00ec93/triggered.go",
+        "title": "/blob/1d5f78469c78536c5e78ca2c338bde587c00ec93/triggered.go",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/LICENSE",
+        "title": "/blob/main/LICENSE",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/PERSISTENCE_GUIDE.md",
+        "title": "/blob/main/docs/PERSISTENCE_GUIDE.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/adr/ADR-005-decorator-pattern.md",
+        "title": "/blob/main/docs/adr/ADR-005-decorator-pattern.md",
+        "count": 1,
         "uniques": 1
       }
     ]
