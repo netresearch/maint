@@ -10,8 +10,8 @@
   "homepage": "https://github.com/netresearch/markdown-to-pdf-skill",
   "default_branch": "main",
   "created_at": "2026-04-29T10:04:58Z",
-  "pushed_at": "2026-05-15T11:49:56Z",
-  "updated_at": "2026-05-15T11:49:14Z",
+  "pushed_at": "2026-05-23T06:20:43Z",
+  "updated_at": "2026-05-23T06:20:46Z",
   "composer_name": null,
   "lifetime": {
     "stars": 0,
@@ -19,11 +19,11 @@
     "watchers": 0,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 10,
+    "commits": 12,
     "issues_open": 0,
     "issues_closed": 0,
     "prs_open": 1,
-    "prs_merged": 3,
+    "prs_merged": 4,
     "prs_closed_unmerged": 0,
     "issues_total": 0,
     "releases": 2,
@@ -36,55 +36,37 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 10,
+    "commits": 12,
     "issues_opened": 0,
-    "prs_opened": 4,
-    "prs_merged": 3,
+    "prs_opened": 5,
+    "prs_merged": 4,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 84,
+    "clones_total": 83,
     "clones_unique": 46,
-    "views_total": 14,
-    "views_unique": 6,
+    "views_total": 7,
+    "views_unique": 4,
     "top_referrers": [
-      {
-        "referrer": "github.com",
-        "count": 7,
-        "uniques": 2
-      },
       {
         "referrer": "Google",
         "count": 3,
         "uniques": 2
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/markdown-to-pdf-skill",
         "title": "Overview",
-        "count": 6,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf",
-        "title": "/tree/main/skills/markdown-to-pdf",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/markdown-to-pdf-skill/blob/main/skills/markdown-to-pdf/SKILL.md",
-        "title": "/blob/main/skills/markdown-to-pdf/SKILL.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/markdown-to-pdf-skill/blob/main/skills/markdown-to-pdf/scripts/convert.py",
-        "title": "/blob/main/skills/markdown-to-pdf/scripts/convert.py",
-        "count": 1,
-        "uniques": 1
+        "count": 5,
+        "uniques": 4
       },
       {
         "path": "/netresearch/markdown-to-pdf-skill/releases/tag/v1.0.0",
@@ -95,12 +77,6 @@
       {
         "path": "/netresearch/markdown-to-pdf-skill/tree/main",
         "title": "/tree/main",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf/scripts",
-        "title": "/tree/main/skills/markdown-to-pdf/scripts",
         "count": 1,
         "uniques": 1
       }
@@ -115,7 +91,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 10,
+      "contributions": 12,
       "url": "https://github.com/CybotTM"
     }
   ],
@@ -126,5 +102,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/markdown-to-pdf-skill/network/dependents"
   },
-  "blast_radius": 3
+  "blast_radius": 4
 }

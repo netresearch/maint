@@ -24,8 +24,8 @@
   "homepage": "https://netresearch.github.io/claude-code-marketplace/",
   "default_branch": "main",
   "created_at": "2025-10-18T07:59:00Z",
-  "pushed_at": "2026-05-17T07:21:03Z",
-  "updated_at": "2026-05-21T06:53:51Z",
+  "pushed_at": "2026-05-23T22:24:38Z",
+  "updated_at": "2026-05-23T22:24:40Z",
   "composer_name": null,
   "lifetime": {
     "stars": 37,
@@ -33,16 +33,16 @@
     "watchers": 2,
     "network": 8,
     "open_issues_plus_prs": 2,
-    "commits": 253,
+    "commits": 255,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 1,
-    "prs_merged": 39,
+    "prs_merged": 40,
     "prs_closed_unmerged": 14,
     "issues_total": 3,
     "releases": 3,
     "release_downloads": 0,
-    "contributors": 7,
+    "contributors": 8,
     "external_contributors": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -50,34 +50,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 85,
+    "commits": 87,
     "issues_opened": 1,
-    "prs_opened": 20,
-    "prs_merged": 18,
+    "prs_opened": 21,
+    "prs_merged": 19,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2226,
-    "clones_unique": 724,
-    "views_total": 502,
-    "views_unique": 279,
+    "clones_total": 2340,
+    "clones_unique": 746,
+    "views_total": 507,
+    "views_unique": 278,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 248,
-        "uniques": 154
+        "count": 254,
+        "uniques": 155
       },
       {
         "referrer": "github.com",
-        "count": 80,
-        "uniques": 40
+        "count": 75,
+        "uniques": 38
       },
       {
         "referrer": "Baidu",
-        "count": 5,
-        "uniques": 4
+        "count": 4,
+        "uniques": 3
       },
       {
         "referrer": "DuckDuckGo",
@@ -119,14 +119,14 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 333,
-        "uniques": 257
+        "count": 327,
+        "uniques": 251
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 29,
-        "uniques": 24
+        "count": 31,
+        "uniques": 25
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
@@ -143,8 +143,8 @@
       {
         "path": "/netresearch/claude-code-marketplace/tree/main",
         "title": "/tree/main",
-        "count": 8,
-        "uniques": 6
+        "count": 9,
+        "uniques": 7
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
@@ -153,28 +153,28 @@
         "uniques": 7
       },
       {
+        "path": "/netresearch/claude-code-marketplace/issues",
+        "title": "/issues",
+        "count": 7,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/tree/main/site",
+        "title": "/tree/main/site",
+        "count": 7,
+        "uniques": 6
+      },
+      {
         "path": "/netresearch/claude-code-marketplace/commits/main",
         "title": "/commits/main",
         "count": 7,
         "uniques": 2
       },
       {
-        "path": "/netresearch/claude-code-marketplace/issues",
-        "title": "/issues",
-        "count": 6,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/discussions",
-        "title": "/discussions",
+        "path": "/netresearch/claude-code-marketplace/tree/main/site/src",
+        "title": "/tree/main/site/src",
         "count": 5,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/pulls",
-        "title": "/pulls",
-        "count": 5,
-        "uniques": 3
+        "uniques": 5
       }
     ]
   },
@@ -187,7 +187,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 183,
+      "contributions": 184,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -219,6 +219,11 @@
       "login": "Sebastian80",
       "contributions": 1,
       "url": "https://github.com/Sebastian80"
+    },
+    {
+      "login": "dependabot[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/dependabot"
     }
   ],
   "packagist": null,
@@ -228,5 +233,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
   },
-  "blast_radius": 70
+  "blast_radius": 71
 }

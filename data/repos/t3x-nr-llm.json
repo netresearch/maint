@@ -51,20 +51,25 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 212,
+    "commits": 181,
     "issues_opened": 0,
-    "prs_opened": 73,
-    "prs_merged": 72,
+    "prs_opened": 65,
+    "prs_merged": 64,
     "releases": 0,
-    "packagist_downloads": 270,
+    "packagist_downloads": 267,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 390,
-    "clones_unique": 48,
-    "views_total": 18,
-    "views_unique": 11,
+    "clones_total": 315,
+    "clones_unique": 41,
+    "views_total": 26,
+    "views_unique": 12,
     "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 9,
+        "uniques": 2
+      },
       {
         "referrer": "github.com",
         "count": 3,
@@ -76,12 +81,7 @@
         "uniques": 2
       },
       {
-        "referrer": "claude.ai",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "extensions.typo3.org",
+        "referrer": "chatgpt.com",
         "count": 1,
         "uniques": 1
       }
@@ -90,8 +90,8 @@
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 9,
-        "uniques": 8
+        "count": 10,
+        "uniques": 9
       },
       {
         "path": "/netresearch/t3x-nr-llm/discussions",
@@ -106,8 +106,26 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-llm/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/Configuration/Extbase/Persistence/Classes.php",
+        "title": "/blob/main/Configuration/Extbase/Persistence/Classes.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-llm/blob/main/Documentation/Configuration/Index.rst",
         "title": "/blob/main/Documentation/Configuration/Index.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/Resources/AGENTS.md",
+        "title": "/blob/main/Resources/AGENTS.md",
         "count": 1,
         "uniques": 1
       },
@@ -167,7 +185,7 @@
   "packagist": {
     "name": "netresearch/nr-llm",
     "total": 4893,
-    "monthly": 270,
+    "monthly": 267,
     "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },

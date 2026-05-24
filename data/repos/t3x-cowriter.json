@@ -39,53 +39,64 @@
     "release_downloads": 26,
     "contributors": 12,
     "external_contributors": 8,
-    "packagist_downloads": 11294,
+    "packagist_downloads": 11316,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 7,
+    "commits": 6,
     "issues_opened": 0,
-    "prs_opened": 2,
+    "prs_opened": 1,
     "prs_merged": 2,
     "releases": 0,
-    "packagist_downloads": 239,
+    "packagist_downloads": 253,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 109,
+    "clones_total": 110,
     "clones_unique": 27,
-    "views_total": 11,
-    "views_unique": 7,
+    "views_total": 13,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
         "count": 5,
-        "uniques": 3
+        "uniques": 4
       },
       {
         "referrer": "github.com",
-        "count": 4,
-        "uniques": 3
+        "count": 5,
+        "uniques": 4
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-cowriter/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 6,
+        "count": 5,
         "uniques": 3
       },
       {
         "path": "/netresearch/t3x-cowriter",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
         "title": "/blob/main/Documentation/Images/CowriterHero.png",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/Resources/Public/JavaScript/Ckeditor/cowriter.js",
+        "title": "/blob/main/Resources/Public/JavaScript/Ckeditor/cowriter.js",
         "count": 1,
         "uniques": 1
       },
@@ -169,9 +180,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 11294,
-    "monthly": 239,
-    "daily": 22,
+    "total": 11316,
+    "monthly": 253,
+    "daily": 23,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,

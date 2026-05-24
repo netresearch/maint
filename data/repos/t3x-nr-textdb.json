@@ -59,17 +59,23 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 411,
-    "clones_unique": 66,
-    "views_total": 2,
-    "views_unique": 2,
-    "top_referrers": [],
+    "clones_total": 416,
+    "clones_unique": 67,
+    "views_total": 3,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-textdb",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-textdb/pulls",
@@ -126,7 +132,7 @@
     "name": "netresearch/nr-textdb",
     "total": 766,
     "monthly": 16,
-    "daily": 2,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,

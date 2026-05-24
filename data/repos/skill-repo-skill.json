@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-16T10:15:03Z",
-  "pushed_at": "2026-05-23T04:46:20Z",
-  "updated_at": "2026-05-23T04:46:23Z",
+  "pushed_at": "2026-05-23T07:15:30Z",
+  "updated_at": "2026-05-23T07:15:28Z",
   "composer_name": null,
   "lifetime": {
     "stars": 7,
@@ -23,14 +23,14 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 333,
+    "commits": 344,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 94,
+    "prs_merged": 99,
     "prs_closed_unmerged": 3,
     "issues_total": 2,
-    "releases": 42,
+    "releases": 46,
     "release_downloads": 172,
     "contributors": 4,
     "external_contributors": 0,
@@ -40,24 +40,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 91,
+    "commits": 102,
     "issues_opened": 1,
-    "prs_opened": 33,
-    "prs_merged": 32,
-    "releases": 2,
+    "prs_opened": 38,
+    "prs_merged": 37,
+    "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1390,
-    "clones_unique": 184,
-    "views_total": 161,
-    "views_unique": 83,
+    "clones_total": 1453,
+    "clones_unique": 188,
+    "views_total": 181,
+    "views_unique": 96,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 95,
-        "uniques": 58
+        "count": 114,
+        "uniques": 70
       },
       {
         "referrer": "github.com",
@@ -71,8 +71,8 @@
       },
       {
         "referrer": "packagist.org",
-        "count": 7,
-        "uniques": 2
+        "count": 8,
+        "uniques": 3
       },
       {
         "referrer": "chatgpt.com",
@@ -94,26 +94,32 @@
       {
         "path": "/netresearch/skill-repo-skill",
         "title": "Overview",
-        "count": 74,
-        "uniques": 64
+        "count": 88,
+        "uniques": 77
       },
       {
         "path": "/netresearch/skill-repo-skill/releases",
         "title": "/releases",
-        "count": 26,
-        "uniques": 20
+        "count": 25,
+        "uniques": 19
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo",
         "title": "/tree/main/skills/skill-repo",
-        "count": 14,
-        "uniques": 12
+        "count": 16,
+        "uniques": 14
       },
       {
         "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
         "title": "/blob/main/skills/skill-repo/SKILL.md",
-        "count": 5,
-        "uniques": 5
+        "count": 7,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/evals",
+        "title": "/tree/main/skills/skill-repo/evals",
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/.github",
@@ -122,8 +128,8 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/evals",
-        "title": "/tree/main/skills/skill-repo/evals",
+        "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/evals/evals.json",
+        "title": "/blob/main/skills/skill-repo/evals/evals.json",
         "count": 3,
         "uniques": 3
       },
@@ -140,29 +146,23 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/evals/evals.json",
-        "title": "/blob/main/skills/skill-repo/evals/evals.json",
+        "path": "/netresearch/skill-repo-skill/tree/main/scripts",
+        "title": "/tree/main/scripts",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/blob/main/.github/workflows/release.yml",
-        "title": "/blob/main/.github/workflows/release.yml",
-        "count": 2,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.20.0",
-    "tag_name": "v1.20.0",
-    "published_at": "2026-05-15T11:43:02Z",
-    "url": "https://github.com/netresearch/skill-repo-skill/releases/tag/v1.20.0"
+    "name": "v1.22.1",
+    "tag_name": "v1.22.1",
+    "published_at": "2026-05-23T07:16:01Z",
+    "url": "https://github.com/netresearch/skill-repo-skill/releases/tag/v1.22.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 245,
+      "contributions": 256,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -188,5 +188,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/skill-repo-skill/network/dependents"
   },
-  "blast_radius": 162
+  "blast_radius": 167
 }

@@ -22,8 +22,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T07:02:25Z",
-  "pushed_at": "2026-05-15T11:38:17Z",
-  "updated_at": "2026-05-15T11:37:38Z",
+  "pushed_at": "2026-05-23T06:21:48Z",
+  "updated_at": "2026-05-23T06:21:51Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -31,11 +31,11 @@
     "watchers": 2,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 187,
+    "commits": 189,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 43,
+    "prs_merged": 44,
     "prs_closed_unmerged": 4,
     "issues_total": 2,
     "releases": 40,
@@ -48,24 +48,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 14,
+    "commits": 16,
     "issues_opened": 0,
-    "prs_opened": 6,
-    "prs_merged": 6,
+    "prs_opened": 7,
+    "prs_merged": 7,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 408,
-    "clones_unique": 83,
-    "views_total": 111,
-    "views_unique": 27,
+    "clones_total": 405,
+    "clones_unique": 80,
+    "views_total": 138,
+    "views_unique": 30,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 78,
-        "uniques": 14
+        "count": 103,
+        "uniques": 16
       },
       {
         "referrer": "github.com",
@@ -87,12 +87,24 @@
       {
         "path": "/netresearch/typo3-docs-skill",
         "title": "Overview",
-        "count": 40,
-        "uniques": 25
+        "count": 42,
+        "uniques": 27
       },
       {
         "path": "/netresearch/typo3-docs-skill/tree/main/skills/typo3-docs",
         "title": "/tree/main/skills/typo3-docs",
+        "count": 6,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/SKILL.md",
+        "title": "/blob/main/skills/typo3-docs/SKILL.md",
+        "count": 5,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
         "count": 4,
         "uniques": 4
       },
@@ -115,14 +127,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-docs-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
+        "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/assets/AGENTS.md",
+        "title": "/blob/main/skills/typo3-docs/assets/AGENTS.md",
         "count": 3,
         "uniques": 3
       },
       {
-        "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/SKILL.md",
-        "title": "/blob/main/skills/typo3-docs/SKILL.md",
+        "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/references/file-structure.md",
+        "title": "/blob/main/skills/typo3-docs/references/file-structure.md",
         "count": 3,
         "uniques": 3
       },
@@ -131,18 +143,6 @@
         "title": "/blob/main/.claude-plugin/plugin.json",
         "count": 3,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/tree/main/.github",
-        "title": "/tree/main/.github",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/blob/main/.github/dependabot.yml",
-        "title": "/blob/main/.github/dependabot.yml",
-        "count": 3,
-        "uniques": 1
       }
     ]
   },
@@ -155,7 +155,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 183,
+      "contributions": 185,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -176,5 +176,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-docs-skill/network/dependents"
   },
-  "blast_radius": 45
+  "blast_radius": 46
 }
