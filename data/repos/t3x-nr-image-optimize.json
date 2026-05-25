@@ -37,38 +37,79 @@
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 3,
-    "packagist_downloads": 907,
+    "packagist_downloads": 908,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 32,
+    "commits": 2,
     "issues_opened": 0,
-    "prs_opened": 16,
-    "prs_merged": 16,
-    "releases": 2,
-    "packagist_downloads": 169,
+    "prs_opened": 5,
+    "prs_merged": 4,
+    "releases": 0,
+    "packagist_downloads": 170,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 323,
-    "clones_unique": 59,
-    "views_total": 13,
-    "views_unique": 6,
+    "clones_total": 328,
+    "clones_unique": 65,
+    "views_total": 26,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 13,
-        "uniques": 6
+        "count": 25,
+        "uniques": 7
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-image-optimize",
         "title": "Overview",
-        "count": 6,
-        "uniques": 6
+        "count": 8,
+        "uniques": 8
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/tree/main/Resources",
+        "title": "/tree/main/Resources",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/tree/main/Resources/Private",
+        "title": "/tree/main/Resources/Private",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Classes/AGENTS.md",
+        "title": "/blob/main/Classes/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Classes/Middleware/ProcessingMiddleware.php",
+        "title": "/blob/main/Classes/Middleware/ProcessingMiddleware.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Resources/AGENTS.md",
+        "title": "/blob/main/Resources/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Resources/CLAUDE.md",
+        "title": "/blob/main/Resources/CLAUDE.md",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-image-optimize/blob/main/Resources/Private/Templates/Maintenance/Index.html",
@@ -85,30 +126,6 @@
       {
         "path": "/netresearch/t3x-nr-image-optimize/issues",
         "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/tree/main/Configuration/Backend",
-        "title": "/tree/main/Configuration/Backend",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/tree/main/Resources",
-        "title": "/tree/main/Resources",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/tree/main/Resources/Private",
-        "title": "/tree/main/Resources/Private",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/tree/main/Resources/Private/Templates/Maintenance",
-        "title": "/tree/main/Resources/Private/Templates/Maintenance",
         "count": 1,
         "uniques": 1
       }
@@ -164,9 +181,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 907,
-    "monthly": 169,
-    "daily": 0,
+    "total": 908,
+    "monthly": 170,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,

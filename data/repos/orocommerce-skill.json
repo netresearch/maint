@@ -38,53 +38,47 @@
   "recent_30d": {
     "commits": 9,
     "issues_opened": 0,
-    "prs_opened": 5,
+    "prs_opened": 4,
     "prs_merged": 4,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 76,
-    "clones_unique": 35,
-    "views_total": 99,
-    "views_unique": 14,
+    "clones_total": 111,
+    "clones_unique": 48,
+    "views_total": 81,
+    "views_unique": 15,
     "top_referrers": [
-      {
-        "referrer": "github.com",
-        "count": 20,
-        "uniques": 2
-      },
       {
         "referrer": "Google",
         "count": 18,
         "uniques": 4
+      },
+      {
+        "referrer": "github.com",
+        "count": 12,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/orocommerce-skill",
         "title": "Overview",
-        "count": 16,
+        "count": 14,
         "uniques": 12
       },
       {
         "path": "/netresearch/orocommerce-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 14,
+        "count": 12,
         "uniques": 8
       },
       {
         "path": "/netresearch/orocommerce-skill/blob/main/skills/oro-frontend/SKILL.md",
         "title": "/blob/main/skills/oro-frontend/SKILL.md",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/orocommerce-skill/tree/main/skills/oro-frontend",
-        "title": "/tree/main/skills/oro-frontend",
-        "count": 4,
-        "uniques": 4
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/orocommerce-skill/blob/main/skills/oro-frontend/references/layout-actions.md",
@@ -99,16 +93,16 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/orocommerce-skill/tree/main/skills/oro-workflow",
-        "title": "/tree/main/skills/oro-workflow",
+        "path": "/netresearch/orocommerce-skill/tree/main/skills/oro-frontend",
+        "title": "/tree/main/skills/oro-frontend",
         "count": 3,
         "uniques": 3
       },
       {
-        "path": "/netresearch/orocommerce-skill/blob/main/skills/oro-datagrid/SKILL.md",
-        "title": "/blob/main/skills/oro-datagrid/SKILL.md",
+        "path": "/netresearch/orocommerce-skill/tree/main/skills/oro-workflow",
+        "title": "/tree/main/skills/oro-workflow",
         "count": 3,
-        "uniques": 2
+        "uniques": 3
       },
       {
         "path": "/netresearch/orocommerce-skill/tree/main/skills/oro-api/references",
@@ -120,6 +114,12 @@
         "path": "/netresearch/orocommerce-skill/tree/main/skills/oro-frontend/references",
         "title": "/tree/main/skills/oro-frontend/references",
         "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/orocommerce-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 2,
         "uniques": 2
       }
     ]

@@ -32,14 +32,14 @@
     "forks": 8,
     "watchers": 2,
     "network": 8,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 3,
     "commits": 255,
-    "issues_open": 1,
+    "issues_open": 2,
     "issues_closed": 2,
     "prs_open": 1,
     "prs_merged": 40,
     "prs_closed_unmerged": 14,
-    "issues_total": 3,
+    "issues_total": 4,
     "releases": 3,
     "release_downloads": 0,
     "contributors": 8,
@@ -50,44 +50,39 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 87,
-    "issues_opened": 1,
-    "prs_opened": 21,
+    "commits": 85,
+    "issues_opened": 2,
+    "prs_opened": 20,
     "prs_merged": 19,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2340,
-    "clones_unique": 746,
-    "views_total": 507,
-    "views_unique": 278,
+    "clones_total": 2344,
+    "clones_unique": 757,
+    "views_total": 511,
+    "views_unique": 288,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 254,
-        "uniques": 155
+        "count": 266,
+        "uniques": 165
       },
       {
         "referrer": "github.com",
-        "count": 75,
-        "uniques": 38
+        "count": 72,
+        "uniques": 36
       },
       {
         "referrer": "Baidu",
-        "count": 4,
-        "uniques": 3
+        "count": 3,
+        "uniques": 2
       },
       {
         "referrer": "DuckDuckGo",
         "count": 3,
         "uniques": 1
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 2,
-        "uniques": 2
       },
       {
         "referrer": "agentskillsindex.com",
@@ -113,26 +108,31 @@
         "referrer": "doubao.com",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "perplexity.ai",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 327,
-        "uniques": 251
+        "count": 329,
+        "uniques": 258
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 31,
-        "uniques": 25
+        "count": 32,
+        "uniques": 26
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
         "title": "/blob/main/.claude-plugin/marketplace.json",
-        "count": 27,
-        "uniques": 23
+        "count": 28,
+        "uniques": 24
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/scripts",
@@ -141,22 +141,22 @@
         "uniques": 12
       },
       {
+        "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 9,
+        "uniques": 9
+      },
+      {
         "path": "/netresearch/claude-code-marketplace/tree/main",
         "title": "/tree/main",
         "count": 9,
         "uniques": 7
       },
       {
-        "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 7,
-        "uniques": 7
-      },
-      {
         "path": "/netresearch/claude-code-marketplace/issues",
         "title": "/issues",
         "count": 7,
-        "uniques": 7
+        "uniques": 6
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/site",
@@ -165,10 +165,10 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/claude-code-marketplace/commits/main",
-        "title": "/commits/main",
-        "count": 7,
-        "uniques": 2
+        "path": "/netresearch/claude-code-marketplace/blob/main/SPEC.md",
+        "title": "/blob/main/SPEC.md",
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/site/src",
@@ -233,5 +233,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
   },
-  "blast_radius": 71
+  "blast_radius": 72
 }
