@@ -20,45 +20,45 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-07T10:15:13Z",
-  "pushed_at": "2026-05-23T06:20:36Z",
-  "updated_at": "2026-05-25T03:30:23Z",
+  "pushed_at": "2026-05-25T08:56:03Z",
+  "updated_at": "2026-05-25T23:08:35Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 54,
+    "stars": 55,
     "forks": 18,
     "watchers": 1,
     "network": 18,
-    "open_issues_plus_prs": 7,
-    "commits": 419,
-    "issues_open": 5,
-    "issues_closed": 21,
-    "prs_open": 2,
-    "prs_merged": 82,
+    "open_issues_plus_prs": 1,
+    "commits": 437,
+    "issues_open": 1,
+    "issues_closed": 25,
+    "prs_open": 0,
+    "prs_merged": 89,
     "prs_closed_unmerged": 5,
     "issues_total": 26,
     "releases": 39,
     "release_downloads": 330,
-    "contributors": 15,
-    "external_contributors": 9,
+    "contributors": 16,
+    "external_contributors": 10,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 149,
+    "commits": 165,
     "issues_opened": 11,
-    "prs_opened": 28,
-    "prs_merged": 26,
-    "releases": 4,
+    "prs_opened": 32,
+    "prs_merged": 32,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2142,
-    "clones_unique": 428,
-    "views_total": 570,
-    "views_unique": 174,
+    "clones_total": 1836,
+    "clones_unique": 379,
+    "views_total": 585,
+    "views_unique": 176,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -66,14 +66,14 @@
         "uniques": 29
       },
       {
+        "referrer": "Google",
+        "count": 64,
+        "uniques": 21
+      },
+      {
         "referrer": "Bing",
         "count": 61,
         "uniques": 25
-      },
-      {
-        "referrer": "Google",
-        "count": 61,
-        "uniques": 19
       },
       {
         "referrer": "packagist.org",
@@ -115,8 +115,8 @@
       {
         "path": "/netresearch/jira-skill",
         "title": "Overview",
-        "count": 181,
-        "uniques": 136
+        "count": 184,
+        "uniques": 139
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills",
@@ -143,16 +143,22 @@
         "uniques": 17
       },
       {
+        "path": "/netresearch/jira-skill/releases",
+        "title": "/releases",
+        "count": 15,
+        "uniques": 14
+      },
+      {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-syntax/SKILL.md",
         "title": "/blob/main/skills/jira-syntax/SKILL.md",
         "count": 15,
         "uniques": 12
       },
       {
-        "path": "/netresearch/jira-skill/releases",
-        "title": "/releases",
-        "count": 13,
-        "uniques": 12
+        "path": "/netresearch/jira-skill/tree/main",
+        "title": "/tree/main",
+        "count": 12,
+        "uniques": 11
       },
       {
         "path": "/netresearch/jira-skill/releases/tag/v3.14.0",
@@ -161,16 +167,10 @@
         "uniques": 8
       },
       {
-        "path": "/netresearch/jira-skill/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/jira-skill/tree/main/scripts",
+        "title": "/tree/main/scripts",
         "count": 11,
-        "uniques": 10
-      },
-      {
-        "path": "/netresearch/jira-skill/tree/main/skills/jira-communication/scripts",
-        "title": "/tree/main/skills/jira-communication/scripts",
-        "count": 9,
-        "uniques": 8
+        "uniques": 6
       }
     ]
   },
@@ -183,7 +183,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 226,
+      "contributions": 242,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -212,6 +212,11 @@
       "url": "https://github.com/claude"
     },
     {
+      "login": "RitvikAleti",
+      "contributions": 2,
+      "url": "https://github.com/RitvikAleti"
+    },
+    {
       "login": "Sebastian80",
       "contributions": 2,
       "url": "https://github.com/Sebastian80"
@@ -225,11 +230,6 @@
       "login": "khoi",
       "contributions": 2,
       "url": "https://github.com/khoi"
-    },
-    {
-      "login": "tgreat1",
-      "contributions": 2,
-      "url": "https://github.com/tgreat1"
     }
   ],
   "packagist": null,
@@ -239,5 +239,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jira-skill/network/dependents"
   },
-  "blast_radius": 171
+  "blast_radius": 181
 }

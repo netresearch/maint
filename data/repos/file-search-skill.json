@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:13Z",
-  "pushed_at": "2026-05-25T00:43:17Z",
-  "updated_at": "2026-05-25T00:42:56Z",
+  "pushed_at": "2026-05-25T22:41:27Z",
+  "updated_at": "2026-05-25T22:40:45Z",
   "composer_name": null,
   "lifetime": {
     "stars": 23,
@@ -21,11 +21,11 @@
     "watchers": 0,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 126,
+    "commits": 132,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 38,
+    "prs_merged": 41,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 9,
@@ -38,29 +38,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 68,
+    "commits": 74,
     "issues_opened": 0,
-    "prs_opened": 28,
-    "prs_merged": 28,
+    "prs_opened": 31,
+    "prs_merged": 31,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1194,
-    "clones_unique": 303,
-    "views_total": 290,
-    "views_unique": 137,
+    "clones_total": 1229,
+    "clones_unique": 316,
+    "views_total": 289,
+    "views_unique": 135,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 205,
-        "uniques": 99
+        "count": 198,
+        "uniques": 95
       },
       {
         "referrer": "github.com",
-        "count": 25,
-        "uniques": 11
+        "count": 21,
+        "uniques": 12
       },
       {
         "referrer": "Bing",
@@ -69,17 +69,17 @@
       },
       {
         "referrer": "search.brave.com",
-        "count": 3,
+        "count": 6,
+        "uniques": 2
+      },
+      {
+        "referrer": "kagi.com",
+        "count": 5,
         "uniques": 1
       },
       {
         "referrer": "yandex.kz",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "referrer": "Yahoo",
-        "count": 1,
         "uniques": 1
       },
       {
@@ -97,14 +97,14 @@
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 160,
-        "uniques": 129
+        "count": 156,
+        "uniques": 127
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
         "count": 31,
-        "uniques": 26
+        "uniques": 25
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
@@ -131,12 +131,6 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
-        "title": "/tree/main/skills/file-search/references",
-        "count": 6,
-        "uniques": 6
-      },
-      {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/evals/evals.json",
         "title": "/blob/main/skills/file-search/evals/evals.json",
         "count": 5,
@@ -145,6 +139,12 @@
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search/evals",
         "title": "/tree/main/skills/file-search/evals",
+        "count": 5,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
+        "title": "/tree/main/skills/file-search/references",
         "count": 5,
         "uniques": 5
       },
@@ -170,12 +170,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 21,
+      "contributions": 24,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 20,
+      "contributions": 23,
       "url": "https://github.com/apps/github-actions"
     }
   ],
@@ -186,5 +186,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/file-search-skill/network/dependents"
   },
-  "blast_radius": 45
+  "blast_radius": 48
 }
