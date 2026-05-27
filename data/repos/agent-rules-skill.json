@@ -37,7 +37,7 @@
     "prs_closed_unmerged": 3,
     "issues_total": 5,
     "releases": 45,
-    "release_downloads": 283,
+    "release_downloads": 284,
     "contributors": 5,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -55,30 +55,30 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1028,
-    "clones_unique": 242,
-    "views_total": 882,
-    "views_unique": 384,
+    "clones_total": 1021,
+    "clones_unique": 240,
+    "views_total": 832,
+    "views_unique": 366,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 637,
-        "uniques": 290
+        "count": 597,
+        "uniques": 276
       },
       {
         "referrer": "github.com",
-        "count": 31,
-        "uniques": 10
+        "count": 38,
+        "uniques": 12
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 9,
+        "uniques": 3
       },
       {
         "referrer": "chatgpt.com",
         "count": 8,
         "uniques": 6
-      },
-      {
-        "referrer": "doubao.com",
-        "count": 8,
-        "uniques": 2
       },
       {
         "referrer": "kagi.com",
@@ -96,17 +96,12 @@
         "uniques": 1
       },
       {
-        "referrer": "search.brave.com",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "referrer": "yandex.ru",
         "count": 2,
         "uniques": 1
       },
       {
-        "referrer": "l.facebook.com",
+        "referrer": "doubao.com",
         "count": 1,
         "uniques": 1
       }
@@ -115,32 +110,38 @@
       {
         "path": "/netresearch/agent-rules-skill",
         "title": "Overview",
-        "count": 430,
-        "uniques": 341
+        "count": 412,
+        "uniques": 326
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
         "title": "/tree/main/skills/agent-rules",
-        "count": 73,
-        "uniques": 63
+        "count": 68,
+        "uniques": 60
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md",
         "title": "/blob/main/skills/agent-rules/SKILL.md",
         "count": 60,
-        "uniques": 43
+        "uniques": 42
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/AGENTS.md",
         "title": "/blob/main/skills/agent-rules/AGENTS.md",
-        "count": 34,
-        "uniques": 27
+        "count": 32,
+        "uniques": 26
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 24,
-        "uniques": 17
+        "count": 28,
+        "uniques": 21
+      },
+      {
+        "path": "/netresearch/agent-rules-skill/blob/main/CLAUDE.md",
+        "title": "/blob/main/CLAUDE.md",
+        "count": 16,
+        "uniques": 13
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main",
@@ -149,28 +150,22 @@
         "uniques": 11
       },
       {
-        "path": "/netresearch/agent-rules-skill/blob/main/CLAUDE.md",
-        "title": "/blob/main/CLAUDE.md",
-        "count": 13,
-        "uniques": 10
-      },
-      {
         "path": "/netresearch/agent-rules-skill/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 12,
-        "uniques": 12
-      },
-      {
-        "path": "/netresearch/agent-rules-skill/tree/main/skills",
-        "title": "/tree/main/skills",
         "count": 10,
         "uniques": 10
       },
       {
-        "path": "/netresearch/agent-rules-skill/tree/main/docs",
-        "title": "/tree/main/docs",
-        "count": 10,
-        "uniques": 9
+        "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules/references",
+        "title": "/tree/main/skills/agent-rules/references",
+        "count": 8,
+        "uniques": 8
+      },
+      {
+        "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules/scripts",
+        "title": "/tree/main/skills/agent-rules/scripts",
+        "count": 8,
+        "uniques": 8
       }
     ]
   },

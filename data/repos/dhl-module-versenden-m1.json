@@ -18,8 +18,8 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2019-09-18T09:37:12Z",
-  "pushed_at": "2026-04-01T06:58:20Z",
-  "updated_at": "2026-04-01T06:58:24Z",
+  "pushed_at": "2026-05-26T13:14:25Z",
+  "updated_at": "2026-05-26T13:15:31Z",
   "composer_name": "dhl/module-versenden-m1",
   "lifetime": {
     "stars": 7,
@@ -27,16 +27,16 @@
     "watchers": 10,
     "network": 4,
     "open_issues_plus_prs": 4,
-    "commits": 454,
+    "commits": 457,
     "issues_open": 3,
     "issues_closed": 9,
     "prs_open": 1,
     "prs_merged": 1,
     "prs_closed_unmerged": 1,
     "issues_total": 12,
-    "releases": 15,
+    "releases": 16,
     "release_downloads": 14339,
-    "contributors": 7,
+    "contributors": 6,
     "external_contributors": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -44,19 +44,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 4,
     "issues_opened": 1,
     "prs_opened": 1,
     "prs_merged": 0,
-    "releases": 0,
+    "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 31,
-    "clones_unique": 26,
-    "views_total": 134,
-    "views_unique": 14,
+    "clones_total": 27,
+    "clones_unique": 22,
+    "views_total": 120,
+    "views_unique": 13,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -78,14 +78,14 @@
       {
         "path": "/netresearch/dhl-module-versenden-m1",
         "title": "Overview",
-        "count": 22,
-        "uniques": 14
+        "count": 21,
+        "uniques": 13
       },
       {
         "path": "/netresearch/dhl-module-versenden-m1/tree/master/src",
         "title": "/tree/master/src",
-        "count": 8,
-        "uniques": 5
+        "count": 7,
+        "uniques": 4
       },
       {
         "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/lib/Dhl/Versenden/ParcelDe",
@@ -96,20 +96,8 @@
       {
         "path": "/netresearch/dhl-module-versenden-m1/issues",
         "title": "/issues",
-        "count": 5,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/app",
-        "title": "/tree/master/src/app",
         "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/dhl-module-versenden-m1/pull/15",
-        "title": "/pull/15",
-        "count": 4,
-        "uniques": 2
+        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/lib/Dhl/Versenden",
@@ -124,6 +112,12 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/app",
+        "title": "/tree/master/src/app",
+        "count": 3,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/lib",
         "title": "/tree/master/src/lib",
         "count": 3,
@@ -134,14 +128,20 @@
         "title": "/blob/master/modman",
         "count": 3,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/lib/Dhl/Versenden/ParcelDe/Service",
+        "title": "/tree/master/src/lib/Dhl/Versenden/ParcelDe/Service",
+        "count": 3,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "2.0.0",
-    "tag_name": "2.0.0",
-    "published_at": "2026-02-18T11:59:04Z",
-    "url": "https://github.com/netresearch/dhl-module-versenden-m1/releases/tag/2.0.0"
+    "name": "2.0.1",
+    "tag_name": "2.0.1",
+    "published_at": "2026-05-26T13:46:02Z",
+    "url": "https://github.com/netresearch/dhl-module-versenden-m1/releases/tag/2.0.1"
   },
   "top_contributors": [
     {
@@ -150,14 +150,14 @@
       "url": "https://github.com/mam08ixo"
     },
     {
+      "login": "Sebastian80",
+      "contributions": 85,
+      "url": "https://github.com/Sebastian80"
+    },
+    {
       "login": "AndreasMueller75",
       "contributions": 83,
       "url": "https://github.com/AndreasMueller75"
-    },
-    {
-      "login": "Sebastian80",
-      "contributions": 81,
-      "url": "https://github.com/Sebastian80"
     },
     {
       "login": "ngolatka",
@@ -168,11 +168,6 @@
       "login": "powli",
       "contributions": 28,
       "url": "https://github.com/powli"
-    },
-    {
-      "login": "CybotTM",
-      "contributions": 1,
-      "url": "https://github.com/CybotTM"
     },
     {
       "login": "tobstomar",

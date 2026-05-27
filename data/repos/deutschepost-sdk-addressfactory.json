@@ -37,7 +37,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 4,
-    "packagist_downloads": 382295,
+    "packagist_downloads": 382733,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 0
@@ -48,19 +48,42 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 9234,
+    "packagist_downloads": 9265,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 46,
-    "clones_unique": 19,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 50,
+    "clones_unique": 23,
+    "views_total": 4,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/deutschepost-sdk-addressfactory",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/deutschepost-sdk-addressfactory/labels",
         "title": "/labels",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-addressfactory/tags",
+        "title": "/tags",
         "count": 1,
         "uniques": 1
       }
@@ -111,9 +134,9 @@
   ],
   "packagist": {
     "name": "deutschepost/sdk-api-addressfactory",
-    "total": 382295,
-    "monthly": 9234,
-    "daily": 113,
+    "total": 382733,
+    "monthly": 9265,
+    "daily": 369,
     "url": "https://packagist.org/packages/deutschepost/sdk-api-addressfactory"
   },
   "ghcr": null,
