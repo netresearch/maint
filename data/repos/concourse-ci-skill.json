@@ -47,11 +47,16 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 267,
-    "clones_unique": 65,
-    "views_total": 24,
-    "views_unique": 4,
+    "clones_total": 268,
+    "clones_unique": 73,
+    "views_total": 29,
+    "views_unique": 5,
     "top_referrers": [
+      {
+        "referrer": "jira.netresearch.de",
+        "count": 5,
+        "uniques": 1
+      },
       {
         "referrer": "github.com",
         "count": 4,
@@ -67,14 +72,14 @@
       {
         "path": "/netresearch/concourse-ci-skill",
         "title": "Overview",
-        "count": 5,
-        "uniques": 4
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/SKILL.md",
         "title": "/blob/main/skills/concourse-ci/SKILL.md",
-        "count": 3,
-        "uniques": 1
+        "count": 4,
+        "uniques": 2
       },
       {
         "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/examples/docker-build.yml",
@@ -89,9 +94,21 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/concourse-ci-skill/tree/main/skills/concourse-ci",
+        "title": "/tree/main/skills/concourse-ci",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/examples/basic-pipeline.yml",
         "title": "/blob/main/skills/concourse-ci/examples/basic-pipeline.yml",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/concourse-ci-skill/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -109,18 +126,6 @@
       {
         "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/examples/vars-template.yml",
         "title": "/blob/main/skills/concourse-ci/examples/vars-template.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/references/pipeline-syntax.md",
-        "title": "/blob/main/skills/concourse-ci/references/pipeline-syntax.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/references/resources-guide.md",
-        "title": "/blob/main/skills/concourse-ci/references/resources-guide.md",
         "count": 1,
         "uniques": 1
       }

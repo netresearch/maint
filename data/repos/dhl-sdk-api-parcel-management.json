@@ -40,7 +40,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 339744,
+    "packagist_downloads": 340036,
     "ghcr_downloads": 0,
     "dependents_repos": 9,
     "dependents_packages": 0
@@ -51,20 +51,32 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5642,
+    "packagist_downloads": 5574,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 23,
-    "clones_unique": 22,
-    "views_total": 3,
-    "views_unique": 2,
-    "top_referrers": [],
+    "clones_total": 29,
+    "clones_unique": 28,
+    "views_total": 5,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-parcel-management",
         "title": "Overview",
-        "count": 2,
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-management/graphs/contributors",
+        "title": "/graphs/contributors",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -115,9 +127,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-parcel-management",
-    "total": 339744,
-    "monthly": 5642,
-    "daily": 230,
+    "total": 340036,
+    "monthly": 5574,
+    "daily": 241,
     "url": "https://packagist.org/packages/dhl/sdk-api-parcel-management"
   },
   "ghcr": null,

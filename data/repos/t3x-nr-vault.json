@@ -29,10 +29,10 @@
     "prs_closed_unmerged": 9,
     "issues_total": 3,
     "releases": 13,
-    "release_downloads": 201,
+    "release_downloads": 202,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 17466,
+    "packagist_downloads": 17473,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,19 +43,19 @@
     "prs_opened": 28,
     "prs_merged": 28,
     "releases": 0,
-    "packagist_downloads": 3588,
+    "packagist_downloads": 3593,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5378,
-    "clones_unique": 438,
-    "views_total": 12,
-    "views_unique": 6,
+    "clones_total": 5316,
+    "clones_unique": 441,
+    "views_total": 13,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 5,
-        "uniques": 1
+        "count": 6,
+        "uniques": 2
       },
       {
         "referrer": "github.com",
@@ -80,6 +80,12 @@
         "title": "/releases",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/blob/main/playwright.config.ts",
+        "title": "/blob/main/playwright.config.ts",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-vault/issues",
@@ -125,9 +131,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 17466,
-    "monthly": 3588,
-    "daily": 0,
+    "total": 17473,
+    "monthly": 3593,
+    "daily": 6,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,
