@@ -26,19 +26,19 @@
     "forks": 4,
     "watchers": 10,
     "network": 4,
-    "open_issues_plus_prs": 4,
+    "open_issues_plus_prs": 3,
     "commits": 457,
-    "issues_open": 3,
-    "issues_closed": 9,
+    "issues_open": 2,
+    "issues_closed": 11,
     "prs_open": 1,
     "prs_merged": 1,
     "prs_closed_unmerged": 1,
-    "issues_total": 12,
+    "issues_total": 13,
     "releases": 16,
     "release_downloads": 14339,
     "contributors": 6,
     "external_contributors": 5,
-    "packagist_downloads": 0,
+    "packagist_downloads": 5,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,14 +49,14 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 0,
+    "packagist_downloads": 5,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 91,
-    "clones_unique": 43,
-    "views_total": 132,
-    "views_unique": 16,
+    "clones_total": 162,
+    "clones_unique": 54,
+    "views_total": 141,
+    "views_unique": 19,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -65,21 +65,32 @@
       },
       {
         "referrer": "Google",
-        "count": 26,
-        "uniques": 12
+        "count": 28,
+        "uniques": 14
       },
       {
         "referrer": "dhl.support.netresearch.de",
         "count": 3,
         "uniques": 2
+      },
+      {
+        "referrer": "jira.netresearch.de",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-module-versenden-m1",
         "title": "Overview",
-        "count": 26,
-        "uniques": 15
+        "count": 30,
+        "uniques": 17
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/releases",
+        "title": "/releases",
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/dhl-module-versenden-m1/tree/master/src",
@@ -100,40 +111,34 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/lib",
+        "title": "/tree/master/src/lib",
+        "count": 4,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/lib/Dhl/Versenden",
         "title": "/tree/master/src/lib/Dhl/Versenden",
         "count": 4,
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-module-versenden-m1/releases",
-        "title": "/releases",
+        "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/EndKundenDoku.rst",
+        "title": "/blob/master/doc/src/EndKundenDoku.rst",
         "count": 3,
         "uniques": 3
       },
       {
-        "path": "/netresearch/dhl-module-versenden-m1/blob/master/src/lib/Dhl/Versenden/ParcelDe/Product.php",
-        "title": "/blob/master/src/lib/Dhl/Versenden/ParcelDe/Product.php",
+        "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/EndUserDoc.rst",
+        "title": "/blob/master/doc/src/EndUserDoc.rst",
         "count": 3,
-        "uniques": 2
+        "uniques": 3
       },
       {
         "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/app",
         "title": "/tree/master/src/app",
         "count": 3,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/lib",
-        "title": "/tree/master/src/lib",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/dhl-module-versenden-m1/blob/master/modman",
-        "title": "/blob/master/modman",
-        "count": 3,
-        "uniques": 1
       }
     ]
   },
@@ -175,12 +180,18 @@
       "url": "https://github.com/tobstomar"
     }
   ],
-  "packagist": null,
+  "packagist": {
+    "name": "dhl/module-versenden-m1",
+    "total": 5,
+    "monthly": 5,
+    "daily": 4,
+    "url": "https://packagist.org/packages/dhl/module-versenden-m1"
+  },
   "ghcr": null,
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/dhl-module-versenden-m1/network/dependents"
   },
-  "blast_radius": 36
+  "blast_radius": 37
 }

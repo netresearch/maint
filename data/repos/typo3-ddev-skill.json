@@ -22,8 +22,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-21T10:05:16Z",
-  "pushed_at": "2026-05-23T06:21:42Z",
-  "updated_at": "2026-05-23T06:21:44Z",
+  "pushed_at": "2026-05-28T20:13:40Z",
+  "updated_at": "2026-05-28T20:13:39Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
@@ -31,14 +31,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 0,
-    "commits": 182,
+    "commits": 184,
     "issues_open": 0,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 32,
+    "prs_merged": 33,
     "prs_closed_unmerged": 3,
     "issues_total": 0,
-    "releases": 28,
+    "releases": 29,
     "release_downloads": 66,
     "contributors": 2,
     "external_contributors": 0,
@@ -48,29 +48,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 12,
+    "commits": 14,
     "issues_opened": 0,
-    "prs_opened": 5,
-    "prs_merged": 5,
-    "releases": 1,
+    "prs_opened": 6,
+    "prs_merged": 6,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 300,
-    "clones_unique": 88,
-    "views_total": 42,
-    "views_unique": 19,
+    "clones_total": 295,
+    "clones_unique": 89,
+    "views_total": 34,
+    "views_unique": 17,
     "top_referrers": [
       {
-        "referrer": "github.com",
-        "count": 23,
-        "uniques": 7
+        "referrer": "Google",
+        "count": 16,
+        "uniques": 9
       },
       {
-        "referrer": "Google",
-        "count": 17,
-        "uniques": 10
+        "referrer": "github.com",
+        "count": 16,
+        "uniques": 6
       },
       {
         "referrer": "search.brave.com",
@@ -82,26 +82,20 @@
       {
         "path": "/netresearch/typo3-ddev-skill",
         "title": "Overview",
-        "count": 20,
-        "uniques": 18
+        "count": 18,
+        "uniques": 16
       },
       {
         "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/SKILL.md",
         "title": "/blob/main/skills/typo3-ddev/SKILL.md",
-        "count": 5,
-        "uniques": 4
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-ddev-skill/tree/main/skills/typo3-ddev",
         "title": "/tree/main/skills/typo3-ddev",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/scripts/validate-prerequisites.sh",
-        "title": "/blob/main/skills/typo3-ddev/scripts/validate-prerequisites.sh",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-ddev-skill/tree/main/evals",
@@ -128,8 +122,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/references/0001-valkey-default-with-redis-alternative.md",
-        "title": "/blob/main/skills/typo3-ddev/references/0001-valkey-default-with-redis-alternative.md",
+        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/scripts/validate-prerequisites.sh",
+        "title": "/blob/main/skills/typo3-ddev/scripts/validate-prerequisites.sh",
         "count": 1,
         "uniques": 1
       },
@@ -138,19 +132,25 @@
         "title": "/tree/main/Build",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/tree/main/Build/Scripts",
+        "title": "/tree/main/Build/Scripts",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.19.1",
-    "tag_name": "v1.19.1",
-    "published_at": "2026-05-15T11:41:45Z",
-    "url": "https://github.com/netresearch/typo3-ddev-skill/releases/tag/v1.19.1"
+    "name": "v1.20.0",
+    "tag_name": "v1.20.0",
+    "published_at": "2026-05-28T20:14:09Z",
+    "url": "https://github.com/netresearch/typo3-ddev-skill/releases/tag/v1.20.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 179,
+      "contributions": 181,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -166,5 +166,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-ddev-skill/network/dependents"
   },
-  "blast_radius": 32
+  "blast_radius": 33
 }

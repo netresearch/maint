@@ -32,7 +32,7 @@
     "release_downloads": 202,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 17473,
+    "packagist_downloads": 17482,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,20 +43,15 @@
     "prs_opened": 28,
     "prs_merged": 28,
     "releases": 0,
-    "packagist_downloads": 3593,
+    "packagist_downloads": 2792,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5316,
-    "clones_unique": 441,
-    "views_total": 13,
-    "views_unique": 7,
+    "clones_total": 5210,
+    "clones_unique": 436,
+    "views_total": 8,
+    "views_unique": 6,
     "top_referrers": [
-      {
-        "referrer": "Google",
-        "count": 6,
-        "uniques": 2
-      },
       {
         "referrer": "github.com",
         "count": 3,
@@ -66,20 +61,19 @@
         "referrer": "DuckDuckGo",
         "count": 2,
         "uniques": 1
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 8,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/releases",
-        "title": "/releases",
-        "count": 2,
-        "uniques": 2
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/t3x-nr-vault/blob/main/playwright.config.ts",
@@ -88,14 +82,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-vault/issues",
-        "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/issues/7",
-        "title": "/issues/7",
+        "path": "/netresearch/t3x-nr-vault/releases",
+        "title": "/releases",
         "count": 1,
         "uniques": 1
       }
@@ -131,9 +119,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 17473,
-    "monthly": 3593,
-    "daily": 6,
+    "total": 17482,
+    "monthly": 2792,
+    "daily": 7,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,

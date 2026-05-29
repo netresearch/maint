@@ -35,7 +35,7 @@
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 4,
-    "packagist_downloads": 352843,
+    "packagist_downloads": 353266,
     "ghcr_downloads": 0,
     "dependents_repos": 20,
     "dependents_packages": 3
@@ -46,16 +46,29 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 6301,
+    "packagist_downloads": 6383,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 100,
-    "clones_unique": 58,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 209,
+    "clones_unique": 88,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/config-fields-m2",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.3.0",
@@ -107,9 +120,9 @@
   ],
   "packagist": {
     "name": "netresearch/config-fields-m2",
-    "total": 352843,
-    "monthly": 6301,
-    "daily": 305,
+    "total": 353266,
+    "monthly": 6383,
+    "daily": 352,
     "url": "https://packagist.org/packages/netresearch/config-fields-m2"
   },
   "ghcr": null,

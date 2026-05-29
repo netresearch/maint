@@ -19,8 +19,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-09T16:08:11Z",
-  "pushed_at": "2026-05-05T21:13:45Z",
-  "updated_at": "2026-05-05T21:13:49Z",
+  "pushed_at": "2026-05-28T21:08:31Z",
+  "updated_at": "2026-05-28T21:08:11Z",
   "composer_name": "netresearch/nr-passkeys-be",
   "lifetime": {
     "stars": 3,
@@ -28,34 +28,34 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 0,
-    "commits": 307,
+    "commits": 321,
     "issues_open": 0,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 53,
+    "prs_merged": 59,
     "prs_closed_unmerged": 4,
     "issues_total": 2,
-    "releases": 12,
-    "release_downloads": 10,
-    "contributors": 2,
-    "external_contributors": 0,
-    "packagist_downloads": 2832,
+    "releases": 15,
+    "release_downloads": 20,
+    "contributors": 3,
+    "external_contributors": 1,
+    "packagist_downloads": 2850,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 11,
+    "commits": 25,
     "issues_opened": 0,
-    "prs_opened": 3,
-    "prs_merged": 3,
-    "releases": 1,
-    "packagist_downloads": 240,
+    "prs_opened": 9,
+    "prs_merged": 9,
+    "releases": 4,
+    "packagist_downloads": 254,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 56,
-    "clones_unique": 35,
+    "clones_total": 59,
+    "clones_unique": 38,
     "views_total": 13,
     "views_unique": 2,
     "top_referrers": [
@@ -129,16 +129,21 @@
     ]
   },
   "latest_release": {
-    "name": "v0.9.0",
-    "tag_name": "v0.9.0",
-    "published_at": "2026-05-03T16:43:32Z",
-    "url": "https://github.com/netresearch/t3x-nr-passkeys-be/releases/tag/v0.9.0"
+    "name": "v0.9.3",
+    "tag_name": "v0.9.3",
+    "published_at": "2026-05-28T21:10:31Z",
+    "url": "https://github.com/netresearch/t3x-nr-passkeys-be/releases/tag/v0.9.3"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 301,
+      "contributions": 305,
       "url": "https://github.com/CybotTM"
+    },
+    {
+      "login": "just-tobi",
+      "contributions": 10,
+      "url": "https://github.com/just-tobi"
     },
     {
       "login": "dependabot[bot]",
@@ -148,9 +153,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 2832,
-    "monthly": 240,
-    "daily": 6,
+    "total": 2850,
+    "monthly": 254,
+    "daily": 17,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,
@@ -159,5 +164,5 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-passkeys-be/network/dependents"
   },
-  "blast_radius": 61
+  "blast_radius": 70
 }
