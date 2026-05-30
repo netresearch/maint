@@ -74,7 +74,7 @@ dashboard, and publishes it to the `gh-pages` branch.
 
 The config combines two mechanisms:
 
-- **Patterns** auto-include every non-archived public repo whose name matches
+- **Patterns** auto-include every public repo (archived included) whose name matches
   a prefix/suffix or whose primary language matches a value (today: `t3x-*`,
   `*-skill`, language `Go`).
 - **`include`** explicitly adds individual repos by name and assigns them to a

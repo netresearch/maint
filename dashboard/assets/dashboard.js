@@ -95,8 +95,11 @@
     const s = state.snapshot;
     const ts = new Date(s.generated_at).toLocaleString();
     const traffic = s.traffic_available ? 'traffic enabled' : 'traffic disabled (no PAT)';
+    const archived = s.repos.filter(r => r.archived).length;
+    const active = s.repos.length - archived;
+    const repoLabel = archived ? `${active} active repos (+${archived} archived)` : `${active} repos`;
     document.getElementById('meta').textContent =
-      `${s.repos.length} repos · last updated ${ts} · ${traffic}`;
+      `${repoLabel} · last updated ${ts} · ${traffic}`;
   }
 
   function renderKPIs() {
@@ -196,6 +199,7 @@
     const filter = document.getElementById('repo-filter').value.toLowerCase();
 
     let rows = state.snapshot.repos.filter(r => {
+      if (r.archived) return false;
       if (state.categoryFilter[r.category] === false) return false;
       if (filter && !r.name.toLowerCase().includes(filter) && !(r.description || '').toLowerCase().includes(filter)) return false;
       return true;

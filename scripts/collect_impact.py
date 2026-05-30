@@ -154,11 +154,13 @@ def classify(repo: dict, cfg: dict) -> str | None:
 def list_target_repos(cfg: dict) -> list[dict]:
     """List public repos that either match a pattern or are explicitly included.
 
-    Repos in `include` that aren't in the org's public list (deleted/private/
-    archived) are quietly skipped after one extra GET attempt.
+    Archived repos are kept (they still count toward the lifetime totals and
+    growth charts); the dashboard hides them from the active repository table.
+    Private repos are excluded. Repos in `include` that aren't in the org's
+    public list (deleted/private) are quietly skipped after one extra GET attempt.
     """
     repos = gh_get_all(f"{GITHUB_API}/orgs/{ORG_NAME}/repos?type=public&per_page=100")
-    by_name = {r["name"]: r for r in repos if not (r.get("archived") or r.get("private"))}
+    by_name = {r["name"]: r for r in repos if not r.get("private")}
 
     selected: dict[str, dict] = {}
     for r in by_name.values():
@@ -176,8 +178,8 @@ def list_target_repos(cfg: dict) -> list[dict]:
             status = e.response.status_code if e.response is not None else "?"
             print(f"  config repo {name}: not reachable (HTTP {status}), skipping", file=sys.stderr)
             continue
-        if r.get("archived") or r.get("private"):
-            print(f"  config repo {name}: archived/private, skipping", file=sys.stderr)
+        if r.get("private"):
+            print(f"  config repo {name}: private, skipping", file=sys.stderr)
             continue
         cat = classify(r, cfg)
         if cat is None:
@@ -639,7 +641,9 @@ def main() -> int:
     collected: list[dict] = []
     for repo in repos:
         try:
-            collected.append(collect_repo(repo, members, containers))
+            record = collect_repo(repo, members, containers)
+            record["archived"] = bool(repo.get("archived"))
+            collected.append(record)
         except requests.HTTPError as e:
             status = e.response.status_code if e.response is not None else "?"
             print(f"  ERROR {repo['name']}: HTTP {status}", file=sys.stderr)
