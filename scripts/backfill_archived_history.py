@@ -36,6 +36,8 @@ import json
 import sys
 from pathlib import Path
 
+import requests
+
 from collect_impact import (
     OUTPUT_DIR,
     aggregate_totals,
@@ -50,6 +52,10 @@ from collect_impact import (
 # count handled separately (per-day membership), so it is added on its own.
 _SKIP_TOTALS_KEYS = {"repos"}
 
+# Per-date set of repo names, populated by last_seen_records() and reused by
+# load_snapshot_names() so each snapshot file is read and parsed only once.
+_SNAPSHOT_NAMES: dict[str, set[str]] = {}
+
 
 def repo_contribution(record: dict) -> dict:
     """Return the totals a single repo contributes to aggregate_totals()."""
@@ -58,18 +64,32 @@ def repo_contribution(record: dict) -> dict:
 
 
 def load_snapshot_names(base: Path, date: str) -> set[str] | None:
-    """Repo names present in the snapshot for ``date`` (None if it is missing)."""
+    """Repo names present in the snapshot for ``date`` (None if it is missing).
+
+    Served from the cache populated by last_seen_records(); only dates with no
+    snapshot file fall through to a disk check.
+    """
+    if date in _SNAPSHOT_NAMES:
+        return _SNAPSHOT_NAMES[date]
     path = base / "data" / "snapshots" / f"{date}.json"
     if not path.exists():
         return None
-    return {r["name"] for r in json.loads(path.read_text()).get("repos", [])}
+    names = {r["name"] for r in json.loads(path.read_text()).get("repos", [])}
+    _SNAPSHOT_NAMES[date] = names
+    return names
 
 
 def last_seen_records(base: Path) -> dict[str, dict]:
-    """Each repo's record from the most recent daily snapshot it appeared in."""
+    """Each repo's record from the most recent daily snapshot it appeared in.
+
+    Also fills _SNAPSHOT_NAMES so load_snapshot_names() avoids re-reading the
+    same files during the per-day pass.
+    """
     seen: dict[str, dict] = {}
     for path in sorted((base / "data" / "snapshots").glob("*.json")):  # latest wins
-        for repo in json.loads(path.read_text()).get("repos", []):
+        repos = json.loads(path.read_text()).get("repos", [])
+        _SNAPSHOT_NAMES[path.stem] = {r["name"] for r in repos}
+        for repo in repos:
             seen[repo["name"]] = repo
     return seen
 
@@ -115,7 +135,14 @@ def main() -> int:
             members = list_public_members()
             containers = list_org_containers()
             for repo in need_fresh:
-                record = collect_repo(repo, members, containers)
+                try:
+                    record = collect_repo(repo, members, containers)
+                except requests.RequestException as e:
+                    # One unreachable repo (deleted, transient error) must not
+                    # abort the whole backfill. Log the type only -- never the
+                    # exception object, which can carry tokens in the URL.
+                    print(f"  ERROR collecting {repo['name']}: {type(e).__name__}, skipping", file=sys.stderr)
+                    continue
                 record["archived"] = True
                 contributions[repo["name"]] = repo_contribution(record)
         else:
