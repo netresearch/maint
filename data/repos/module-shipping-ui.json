@@ -51,15 +51,51 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 482,
-    "clones_unique": 62,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 485,
+    "clones_unique": 65,
+    "views_total": 6,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 5,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/module-shipping-ui",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-ui/blob/master/view/adminhtml/ui_component/sales_order_grid.xml",
+        "title": "/blob/master/view/adminhtml/ui_component/sales_order_grid.xml",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/module-shipping-ui/forks",
         "title": "/forks",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-ui/tree/master/view",
+        "title": "/tree/master/view",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-ui/tree/master/view/adminhtml",
+        "title": "/tree/master/view/adminhtml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-ui/tree/master/view/adminhtml/ui_component",
+        "title": "/tree/master/view/adminhtml/ui_component",
         "count": 1,
         "uniques": 1
       }
@@ -110,5 +146,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/module-shipping-ui/network/dependents"
   },
-  "blast_radius": 55
+  "blast_radius": 55,
+  "archived": false
 }

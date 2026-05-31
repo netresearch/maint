@@ -19,7 +19,7 @@
   "default_branch": "main",
   "created_at": "2019-12-12T14:27:37Z",
   "pushed_at": "2026-04-01T06:58:25Z",
-  "updated_at": "2026-04-01T06:58:28Z",
+  "updated_at": "2026-05-28T20:02:19Z",
   "composer_name": "dhl/sdk-api-bcs-returns",
   "lifetime": {
     "stars": 3,
@@ -38,9 +38,9 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 241438,
+    "packagist_downloads": 241608,
     "ghcr_downloads": 0,
-    "dependents_repos": 4,
+    "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
@@ -49,26 +49,26 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1913,
+    "packagist_downloads": 1908,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 51,
-    "clones_unique": 29,
-    "views_total": 5,
-    "views_unique": 2,
+    "clones_total": 79,
+    "clones_unique": 42,
+    "views_total": 4,
+    "views_unique": 1,
     "top_referrers": [],
     "top_paths": [
-      {
-        "path": "/netresearch/dhl-sdk-api-bcs-returns",
-        "title": "Overview",
-        "count": 2,
-        "uniques": 2
-      },
       {
         "path": "/netresearch/dhl-sdk-api-bcs-returns/commit/be2a0b3146bf9c38a2d61046b14fc451ff0f962c",
         "title": "/commit/be2a0b3146bf9c38a2d61046b14fc451ff0f962c",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs-returns",
+        "title": "Overview",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -119,16 +119,17 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs-returns",
-    "total": 241438,
-    "monthly": 1913,
-    "daily": 83,
+    "total": 241608,
+    "monthly": 1908,
+    "daily": 15,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs-returns"
   },
   "ghcr": null,
   "dependents": {
-    "repositories": 4,
+    "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/dhl-sdk-api-bcs-returns/network/dependents"
   },
-  "blast_radius": 46
+  "blast_radius": 38,
+  "archived": true
 }

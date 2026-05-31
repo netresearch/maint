@@ -35,7 +35,7 @@
     "prs_closed_unmerged": 1,
     "issues_total": 13,
     "releases": 16,
-    "release_downloads": 14339,
+    "release_downloads": 14340,
     "contributors": 6,
     "external_contributors": 5,
     "packagist_downloads": 7,
@@ -53,15 +53,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 192,
-    "clones_unique": 59,
-    "views_total": 238,
-    "views_unique": 24,
+    "clones_total": 198,
+    "clones_unique": 65,
+    "views_total": 318,
+    "views_unique": 26,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 35,
-        "uniques": 17
+        "count": 37,
+        "uniques": 18
       },
       {
         "referrer": "github.com",
@@ -83,20 +83,32 @@
       {
         "path": "/netresearch/dhl-module-versenden-m1",
         "title": "Overview",
-        "count": 34,
-        "uniques": 20
-      },
-      {
-        "path": "/netresearch/dhl-module-versenden-m1/releases",
-        "title": "/releases",
-        "count": 9,
-        "uniques": 6
+        "count": 40,
+        "uniques": 21
       },
       {
         "path": "/netresearch/dhl-module-versenden-m1/tree/master/src",
         "title": "/tree/master/src",
+        "count": 9,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/releases",
+        "title": "/releases",
+        "count": 8,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/app",
+        "title": "/tree/master/src/app",
+        "count": 8,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/EndKundenDoku.rst",
+        "title": "/blob/master/doc/src/EndKundenDoku.rst",
         "count": 7,
-        "uniques": 4
+        "uniques": 7
       },
       {
         "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/lib/Dhl/Versenden/ParcelDe",
@@ -105,40 +117,28 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/EndKundenDoku.rst",
-        "title": "/blob/master/doc/src/EndKundenDoku.rst",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/app",
-        "title": "/tree/master/src/app",
-        "count": 5,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/dhl-module-versenden-m1/issues",
         "title": "/issues",
-        "count": 5,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/lib",
-        "title": "/tree/master/src/lib",
-        "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/lib/Dhl/Versenden",
-        "title": "/tree/master/src/lib/Dhl/Versenden",
-        "count": 4,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/EndUserDoc.rst",
-        "title": "/blob/master/doc/src/EndUserDoc.rst",
-        "count": 3,
+        "count": 6,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/tree/master",
+        "title": "/tree/master",
+        "count": 5,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/tree/master/src/app/code/community/Dhl/Versenden",
+        "title": "/tree/master/src/app/code/community/Dhl/Versenden",
+        "count": 5,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/tree/1.9.1/src",
+        "title": "/tree/1.9.1/src",
+        "count": 5,
+        "uniques": 1
       }
     ]
   },
@@ -184,7 +184,7 @@
     "name": "dhl/module-versenden-m1",
     "total": 7,
     "monthly": 7,
-    "daily": 2,
+    "daily": 0,
     "url": "https://packagist.org/packages/dhl/module-versenden-m1"
   },
   "ghcr": null,
@@ -193,5 +193,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/dhl-module-versenden-m1/network/dependents"
   },
-  "blast_radius": 37
+  "blast_radius": 37,
+  "archived": false
 }

@@ -23,7 +23,7 @@
   "default_branch": "master",
   "created_at": "2019-12-16T13:30:16Z",
   "pushed_at": "2026-04-01T06:58:24Z",
-  "updated_at": "2026-04-23T08:07:50Z",
+  "updated_at": "2026-05-28T20:02:18Z",
   "composer_name": "dhl/sdk-api-bcs",
   "lifetime": {
     "stars": 7,
@@ -42,9 +42,9 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 4,
-    "packagist_downloads": 326311,
+    "packagist_downloads": 326438,
     "ghcr_downloads": 0,
-    "dependents_repos": 4,
+    "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
@@ -53,14 +53,14 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1423,
+    "packagist_downloads": 1370,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 100,
-    "clones_unique": 50,
-    "views_total": 14,
-    "views_unique": 7,
+    "clones_total": 142,
+    "clones_unique": 67,
+    "views_total": 15,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "chatgpt.com",
@@ -69,13 +69,8 @@
       },
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "packagist.org",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       }
     ],
     "top_paths": [
@@ -112,6 +107,12 @@
       {
         "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Model/ParcelDe/ShipmentResponse.php",
         "title": "/blob/master/src/Model/ParcelDe/ShipmentResponse.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Service/ShipmentService.php",
+        "title": "/blob/master/src/Service/ShipmentService.php",
         "count": 1,
         "uniques": 1
       },
@@ -168,16 +169,17 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs",
-    "total": 326311,
-    "monthly": 1423,
-    "daily": 73,
+    "total": 326438,
+    "monthly": 1370,
+    "daily": 3,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs"
   },
   "ghcr": null,
   "dependents": {
-    "repositories": 4,
+    "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/dhl-sdk-api-bcs/network/dependents"
   },
-  "blast_radius": 61
+  "blast_radius": 53,
+  "archived": true
 }

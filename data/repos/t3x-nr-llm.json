@@ -42,7 +42,7 @@
     "prs_closed_unmerged": 9,
     "issues_total": 6,
     "releases": 24,
-    "release_downloads": 265,
+    "release_downloads": 266,
     "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 4921,
@@ -51,19 +51,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 106,
+    "commits": 27,
     "issues_opened": 0,
-    "prs_opened": 41,
-    "prs_merged": 41,
+    "prs_opened": 10,
+    "prs_merged": 13,
     "releases": 0,
     "packagist_downloads": 112,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 623,
-    "clones_unique": 121,
-    "views_total": 22,
-    "views_unique": 9,
+    "clones_total": 625,
+    "clones_unique": 124,
+    "views_total": 17,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -90,14 +90,8 @@
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 7,
+        "count": 6,
         "uniques": 6
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/discussions",
-        "title": "/discussions",
-        "count": 2,
-        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-llm/releases",
@@ -124,12 +118,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-llm/issues",
-        "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-llm/issues/98",
         "title": "/issues/98",
         "count": 1,
@@ -142,8 +130,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-llm/pulls",
-        "title": "/pulls",
+        "path": "/netresearch/t3x-nr-llm/tree/main/Classes",
+        "title": "/tree/main/Classes",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/tree/main/Classes/Controller/Backend",
+        "title": "/tree/main/Classes/Controller/Backend",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/tree/main/Classes/Service",
+        "title": "/tree/main/Classes/Service",
         "count": 1,
         "uniques": 1
       }
@@ -195,5 +195,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-llm/network/dependents"
   },
-  "blast_radius": 214
+  "blast_radius": 214,
+  "archived": false
 }

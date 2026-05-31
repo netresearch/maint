@@ -36,7 +36,7 @@
     "contributors": 43,
     "external_contributors": 37,
     "packagist_downloads": 0,
-    "ghcr_downloads": 194676,
+    "ghcr_downloads": 196505,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -47,18 +47,23 @@
     "prs_merged": 69,
     "releases": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 47814
+    "ghcr_downloads": 48041
   },
   "traffic_14d": {
-    "clones_total": 4183,
-    "clones_unique": 630,
-    "views_total": 106,
-    "views_unique": 18,
+    "clones_total": 3534,
+    "clones_unique": 584,
+    "views_total": 103,
+    "views_unique": 19,
     "top_referrers": [
       {
         "referrer": "github.com",
         "count": 16,
         "uniques": 6
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "claude.ai",
@@ -92,21 +97,21 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
-        "title": "/blob/main/docs/CONFIGURATION.md",
-        "count": 5,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/ofelia/releases/tag/v0.25.1",
         "title": "/releases/tag/v0.25.1",
         "count": 5,
         "uniques": 2
       },
       {
+        "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
+        "title": "/blob/main/docs/CONFIGURATION.md",
+        "count": 4,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/ofelia/blob/main/docs/QUICK_REFERENCE.md",
         "title": "/blob/main/docs/QUICK_REFERENCE.md",
-        "count": 4,
+        "count": 3,
         "uniques": 3
       },
       {
@@ -193,17 +198,18 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 194676,
-        "thirty_day": 47814
+        "total": 196505,
+        "thirty_day": 48041
       }
     ],
-    "total": 194676,
-    "thirty_day": 47814
+    "total": 196505,
+    "thirty_day": 48041
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/ofelia/network/dependents"
   },
-  "blast_radius": 771
+  "blast_radius": 771,
+  "archived": false
 }

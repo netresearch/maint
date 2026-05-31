@@ -29,7 +29,7 @@
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 19,
-    "release_downloads": 86,
+    "release_downloads": 90,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -38,34 +38,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 14,
+    "commits": 9,
     "issues_opened": 0,
-    "prs_opened": 6,
-    "prs_merged": 6,
+    "prs_opened": 4,
+    "prs_merged": 4,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 774,
-    "clones_unique": 295,
-    "views_total": 579,
-    "views_unique": 314,
+    "clones_total": 745,
+    "clones_unique": 309,
+    "views_total": 617,
+    "views_unique": 336,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 457,
-        "uniques": 260
+        "count": 488,
+        "uniques": 276
       },
       {
         "referrer": "github.com",
-        "count": 14,
-        "uniques": 8
+        "count": 15,
+        "uniques": 9
       },
       {
         "referrer": "search.brave.com",
-        "count": 12,
-        "uniques": 8
+        "count": 11,
+        "uniques": 7
       },
       {
         "referrer": "yandex.ru",
@@ -74,8 +74,8 @@
       },
       {
         "referrer": "context7.com",
-        "count": 5,
-        "uniques": 3
+        "count": 7,
+        "uniques": 4
       },
       {
         "referrer": "Bing",
@@ -87,32 +87,38 @@
       {
         "path": "/netresearch/context7-skill",
         "title": "Overview",
-        "count": 377,
-        "uniques": 306
+        "count": 400,
+        "uniques": 322
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7",
         "title": "/tree/main/skills/context7",
-        "count": 53,
-        "uniques": 46
+        "count": 56,
+        "uniques": 48
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/SKILL.md",
         "title": "/blob/main/skills/context7/SKILL.md",
-        "count": 46,
-        "uniques": 33
-      },
-      {
-        "path": "/netresearch/context7-skill/blob/main/skills/context7/scripts/context7.sh",
-        "title": "/blob/main/skills/context7/scripts/context7.sh",
-        "count": 23,
-        "uniques": 17
+        "count": 47,
+        "uniques": 35
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7/scripts",
         "title": "/tree/main/skills/context7/scripts",
-        "count": 22,
-        "uniques": 17
+        "count": 25,
+        "uniques": 20
+      },
+      {
+        "path": "/netresearch/context7-skill/blob/main/skills/context7/scripts/context7.sh",
+        "title": "/blob/main/skills/context7/scripts/context7.sh",
+        "count": 25,
+        "uniques": 19
+      },
+      {
+        "path": "/netresearch/context7-skill/tree/main",
+        "title": "/tree/main",
+        "count": 10,
+        "uniques": 8
       },
       {
         "path": "/netresearch/context7-skill/tree/main/docs",
@@ -121,27 +127,21 @@
         "uniques": 7
       },
       {
-        "path": "/netresearch/context7-skill/tree/main",
-        "title": "/tree/main",
-        "count": 7,
-        "uniques": 6
-      },
-      {
         "path": "/netresearch/context7-skill/tree/main/skills",
         "title": "/tree/main/skills",
         "count": 5,
         "uniques": 5
       },
       {
-        "path": "/netresearch/context7-skill/releases/tag/v1.5.0",
-        "title": "/releases/tag/v1.5.0",
+        "path": "/netresearch/context7-skill/tree/main/Build",
+        "title": "/tree/main/Build",
         "count": 4,
         "uniques": 4
       },
       {
-        "path": "/netresearch/context7-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 4,
+        "path": "/netresearch/context7-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 3,
         "uniques": 3
       }
     ]
@@ -176,5 +176,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/context7-skill/network/dependents"
   },
-  "blast_radius": 31
+  "blast_radius": 31,
+  "archived": false
 }

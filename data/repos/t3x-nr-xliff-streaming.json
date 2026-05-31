@@ -54,12 +54,19 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 70,
-    "clones_unique": 31,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 71,
+    "clones_unique": 32,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-xliff-streaming/discussions",
+        "title": "/discussions",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": null,
   "top_contributors": [
@@ -76,5 +83,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-xliff-streaming/network/dependents"
   },
-  "blast_radius": 5
+  "blast_radius": 5,
+  "archived": false
 }

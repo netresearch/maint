@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2017-03-29T11:00:38Z",
-  "pushed_at": "2026-04-01T06:58:44Z",
-  "updated_at": "2026-04-01T06:58:04Z",
+  "pushed_at": "2026-05-21T10:15:56Z",
+  "updated_at": "2026-05-21T10:16:03Z",
   "composer_name": "dhl/lib-shipping-mx",
   "lifetime": {
     "stars": 6,
@@ -19,7 +19,7 @@
     "watchers": 11,
     "network": 5,
     "open_issues_plus_prs": 2,
-    "commits": 180,
+    "commits": 183,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 1,
@@ -32,11 +32,11 @@
     "external_contributors": 5,
     "packagist_downloads": 39964,
     "ghcr_downloads": 0,
-    "dependents_repos": 5,
+    "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 3,
     "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
@@ -45,12 +45,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 27,
-    "clones_unique": 15,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 309,
+    "clones_unique": 70,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "jira.netresearch.de",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/dhl-lib-shipping-mx/blob/master/DEPRECATED.md",
+        "title": "/blob/master/DEPRECATED.md",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "0.11.1",
@@ -66,7 +79,7 @@
     },
     {
       "login": "Sebastian80",
-      "contributions": 24,
+      "contributions": 27,
       "url": "https://github.com/Sebastian80"
     },
     {
@@ -114,9 +127,10 @@
   },
   "ghcr": null,
   "dependents": {
-    "repositories": 5,
+    "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/dhl-lib-shipping-mx/network/dependents"
   },
-  "blast_radius": 38
+  "blast_radius": 28,
+  "archived": true
 }

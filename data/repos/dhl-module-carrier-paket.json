@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 5,
-    "packagist_downloads": 241343,
+    "packagist_downloads": 241375,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 2
@@ -47,14 +47,14 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5233,
+    "packagist_downloads": 5163,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 395,
-    "clones_unique": 77,
+    "clones_total": 398,
+    "clones_unique": 80,
     "views_total": 40,
-    "views_unique": 10,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -65,13 +65,18 @@
         "referrer": "amasty.atlassian.net",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-module-carrier-paket",
         "title": "Overview",
-        "count": 8,
+        "count": 9,
         "uniques": 5
       },
       {
@@ -180,9 +185,9 @@
   ],
   "packagist": {
     "name": "dhl/module-carrier-paket",
-    "total": 241343,
-    "monthly": 5233,
-    "daily": 236,
+    "total": 241375,
+    "monthly": 5163,
+    "daily": 31,
     "url": "https://packagist.org/packages/dhl/module-carrier-paket"
   },
   "ghcr": null,
@@ -191,5 +196,6 @@
     "packages": 2,
     "url": "https://github.com/netresearch/dhl-module-carrier-paket/network/dependents"
   },
-  "blast_radius": 48
+  "blast_radius": 48,
+  "archived": false
 }

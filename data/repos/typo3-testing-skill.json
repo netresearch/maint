@@ -38,7 +38,7 @@
     "prs_closed_unmerged": 5,
     "issues_total": 1,
     "releases": 38,
-    "release_downloads": 128,
+    "release_downloads": 129,
     "contributors": 2,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -47,19 +47,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 23,
+    "commits": 18,
     "issues_opened": 0,
-    "prs_opened": 9,
-    "prs_merged": 8,
+    "prs_opened": 7,
+    "prs_merged": 6,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 356,
-    "clones_unique": 96,
-    "views_total": 60,
-    "views_unique": 25,
+    "clones_total": 364,
+    "clones_unique": 103,
+    "views_total": 57,
+    "views_unique": 24,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -95,16 +95,16 @@
         "uniques": 18
       },
       {
-        "path": "/netresearch/typo3-testing-skill/tree/main/skills/typo3-testing",
-        "title": "/tree/main/skills/typo3-testing",
-        "count": 9,
-        "uniques": 6
-      },
-      {
         "path": "/netresearch/typo3-testing-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 9,
-        "uniques": 3
+        "count": 10,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/tree/main/skills/typo3-testing",
+        "title": "/tree/main/skills/typo3-testing",
+        "count": 7,
+        "uniques": 4
       },
       {
         "path": "/netresearch/typo3-testing-skill/blob/main/skills/typo3-testing/SKILL.md",
@@ -113,22 +113,10 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/typo3-testing-skill/blob/main/agents/coverage-analyzer.md",
-        "title": "/blob/main/agents/coverage-analyzer.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/typo3-testing-skill/tree/main/skills/typo3-testing/assets",
         "title": "/tree/main/skills/typo3-testing/assets",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/blob/main/.claude-plugin/plugin.json",
-        "title": "/blob/main/.claude-plugin/plugin.json",
-        "count": 1,
-        "uniques": 1
       },
       {
         "path": "/netresearch/typo3-testing-skill/blob/main/Build/Scripts/check-plugin-version.sh",
@@ -145,6 +133,18 @@
       {
         "path": "/netresearch/typo3-testing-skill/blob/main/README.md",
         "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/blob/main/SKILL.md",
+        "title": "/blob/main/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/blob/main/agents/coverage-analyzer.md",
+        "title": "/blob/main/agents/coverage-analyzer.md",
         "count": 1,
         "uniques": 1
       }
@@ -175,5 +175,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
   },
-  "blast_radius": 68
+  "blast_radius": 68,
+  "archived": false
 }

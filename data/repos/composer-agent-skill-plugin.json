@@ -19,7 +19,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-25T08:00:19Z",
-  "pushed_at": "2026-05-27T22:40:37Z",
+  "pushed_at": "2026-05-30T21:43:16Z",
   "updated_at": "2026-05-29T10:55:50Z",
   "composer_name": "netresearch/composer-agent-skill-plugin",
   "lifetime": {
@@ -27,11 +27,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 181,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 58,
     "prs_closed_unmerged": 11,
     "issues_total": 3,
@@ -39,25 +39,25 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 1485,
+    "packagist_downloads": 1488,
     "ghcr_downloads": 0,
     "dependents_repos": 42,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 115,
-    "issues_opened": 1,
-    "prs_opened": 31,
+    "commits": 110,
+    "issues_opened": 0,
+    "prs_opened": 32,
     "prs_merged": 30,
     "releases": 2,
-    "packagist_downloads": 646,
+    "packagist_downloads": 648,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 869,
-    "clones_unique": 194,
-    "views_total": 33,
-    "views_unique": 22,
+    "clones_total": 795,
+    "clones_unique": 176,
+    "views_total": 37,
+    "views_unique": 23,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -66,8 +66,8 @@
       },
       {
         "referrer": "Google",
-        "count": 5,
-        "uniques": 5
+        "count": 4,
+        "uniques": 4
       },
       {
         "referrer": "packagist.org",
@@ -79,8 +79,8 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 22,
-        "uniques": 21
+        "count": 25,
+        "uniques": 22
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/docs/IMPLEMENTATION-DIRECT-SKILLS.md",
@@ -91,8 +91,8 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/docs/adr/001-universal-discovery.md",
         "title": "/blob/main/docs/adr/001-universal-discovery.md",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/discussions",
@@ -173,9 +173,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 1485,
-    "monthly": 646,
-    "daily": 4,
+    "total": 1488,
+    "monthly": 648,
+    "daily": 3,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,
@@ -184,5 +184,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/composer-agent-skill-plugin/network/dependents"
   },
-  "blast_radius": 145
+  "blast_radius": 145,
+  "archived": false
 }

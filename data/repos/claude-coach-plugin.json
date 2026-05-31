@@ -37,7 +37,7 @@
     "prs_closed_unmerged": 1,
     "issues_total": 1,
     "releases": 12,
-    "release_downloads": 14,
+    "release_downloads": 16,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -46,19 +46,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 5,
+    "commits": 2,
     "issues_opened": 0,
-    "prs_opened": 2,
-    "prs_merged": 2,
+    "prs_opened": 1,
+    "prs_merged": 1,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 563,
-    "clones_unique": 103,
-    "views_total": 29,
-    "views_unique": 18,
+    "clones_total": 587,
+    "clones_unique": 117,
+    "views_total": 33,
+    "views_unique": 22,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -67,16 +67,16 @@
       },
       {
         "referrer": "Google",
-        "count": 7,
-        "uniques": 6
+        "count": 9,
+        "uniques": 8
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/claude-coach-plugin",
         "title": "Overview",
-        "count": 19,
-        "uniques": 17
+        "count": 23,
+        "uniques": 21
       },
       {
         "path": "/netresearch/claude-coach-plugin/blob/main/assets/templates/antipattern.md",
@@ -164,5 +164,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-coach-plugin/network/dependents"
   },
-  "blast_radius": 27
+  "blast_radius": 27,
+  "archived": false
 }

@@ -27,7 +27,7 @@
     "prs_closed_unmerged": 0,
     "issues_total": 0,
     "releases": 5,
-    "release_downloads": 16,
+    "release_downloads": 17,
     "contributors": 1,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -36,18 +36,18 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 11,
+    "commits": 6,
     "issues_opened": 0,
-    "prs_opened": 5,
-    "prs_merged": 5,
+    "prs_opened": 3,
+    "prs_merged": 3,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 387,
-    "clones_unique": 90,
-    "views_total": 50,
+    "clones_total": 353,
+    "clones_unique": 87,
+    "views_total": 52,
     "views_unique": 19,
     "top_referrers": [
       {
@@ -57,8 +57,8 @@
       },
       {
         "referrer": "Google",
-        "count": 8,
-        "uniques": 4
+        "count": 10,
+        "uniques": 5
       },
       {
         "referrer": "netresearch.github.io",
@@ -70,8 +70,8 @@
       {
         "path": "/netresearch/typo3-project-upgrade-skill",
         "title": "Overview",
-        "count": 21,
-        "uniques": 16
+        "count": 20,
+        "uniques": 15
       },
       {
         "path": "/netresearch/typo3-project-upgrade-skill/tree/main/skills/typo3-project-upgrade",
@@ -90,6 +90,12 @@
         "title": "/tree/main/skills/typo3-project-upgrade/references",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/typo3-project-upgrade-skill/releases",
+        "title": "/releases",
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-project-upgrade-skill/blob/main/skills/typo3-project-upgrade/references/v13-to-v14-project-upgrade.md",
@@ -112,12 +118,6 @@
       {
         "path": "/netresearch/typo3-project-upgrade-skill/blob/main/skills/typo3-project-upgrade/evals/evals.json",
         "title": "/blob/main/skills/typo3-project-upgrade/evals/evals.json",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-project-upgrade-skill/releases",
-        "title": "/releases",
         "count": 2,
         "uniques": 2
       },
@@ -149,5 +149,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-project-upgrade-skill/network/dependents"
   },
-  "blast_radius": 12
+  "blast_radius": 12,
+  "archived": false
 }

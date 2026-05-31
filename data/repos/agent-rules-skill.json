@@ -37,7 +37,7 @@
     "prs_closed_unmerged": 3,
     "issues_total": 5,
     "releases": 46,
-    "release_downloads": 286,
+    "release_downloads": 291,
     "contributors": 5,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -46,29 +46,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 22,
+    "commits": 17,
     "issues_opened": 0,
-    "prs_opened": 9,
-    "prs_merged": 9,
+    "prs_opened": 7,
+    "prs_merged": 7,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 921,
-    "clones_unique": 228,
-    "views_total": 710,
-    "views_unique": 322,
+    "clones_total": 970,
+    "clones_unique": 269,
+    "views_total": 672,
+    "views_unique": 308,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 525,
-        "uniques": 249
+        "count": 498,
+        "uniques": 237
       },
       {
         "referrer": "github.com",
-        "count": 41,
-        "uniques": 13
+        "count": 33,
+        "uniques": 11
       },
       {
         "referrer": "search.brave.com",
@@ -77,18 +77,13 @@
       },
       {
         "referrer": "chatgpt.com",
-        "count": 5,
-        "uniques": 4
-      },
-      {
-        "referrer": "clouddevops.huawei.com",
-        "count": 2,
-        "uniques": 1
+        "count": 7,
+        "uniques": 6
       },
       {
         "referrer": "Bing",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "doubao.com",
@@ -110,44 +105,38 @@
       {
         "path": "/netresearch/agent-rules-skill",
         "title": "Overview",
-        "count": 372,
-        "uniques": 296
+        "count": 352,
+        "uniques": 286
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
         "title": "/tree/main/skills/agent-rules",
-        "count": 66,
-        "uniques": 58
+        "count": 62,
+        "uniques": 55
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md",
         "title": "/blob/main/skills/agent-rules/SKILL.md",
         "count": 47,
-        "uniques": 33
+        "uniques": 34
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 31,
-        "uniques": 22
+        "count": 30,
+        "uniques": 21
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/AGENTS.md",
         "title": "/blob/main/skills/agent-rules/AGENTS.md",
-        "count": 25,
-        "uniques": 20
+        "count": 21,
+        "uniques": 18
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/CLAUDE.md",
         "title": "/blob/main/CLAUDE.md",
-        "count": 16,
-        "uniques": 13
-      },
-      {
-        "path": "/netresearch/agent-rules-skill/tree/main",
-        "title": "/tree/main",
-        "count": 10,
-        "uniques": 9
+        "count": 15,
+        "uniques": 12
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules/scripts",
@@ -156,14 +145,20 @@
         "uniques": 8
       },
       {
+        "path": "/netresearch/agent-rules-skill/tree/main",
+        "title": "/tree/main",
+        "count": 8,
+        "uniques": 7
+      },
+      {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules/references",
         "title": "/tree/main/skills/agent-rules/references",
         "count": 7,
         "uniques": 7
       },
       {
-        "path": "/netresearch/agent-rules-skill/tree/main/scripts",
-        "title": "/tree/main/scripts",
+        "path": "/netresearch/agent-rules-skill/tree/main/skills",
+        "title": "/tree/main/skills",
         "count": 6,
         "uniques": 6
       }
@@ -209,5 +204,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/agent-rules-skill/network/dependents"
   },
-  "blast_radius": 55
+  "blast_radius": 55,
+  "archived": false
 }

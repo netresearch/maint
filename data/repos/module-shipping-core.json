@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 2,
-    "packagist_downloads": 224495,
+    "packagist_downloads": 224539,
     "ghcr_downloads": 0,
     "dependents_repos": 18,
     "dependents_packages": 3
@@ -47,19 +47,24 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5823,
+    "packagist_downloads": 5759,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 37,
-    "clones_unique": 34,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 40,
+    "clones_unique": 37,
+    "views_total": 19,
+    "views_unique": 3,
     "top_referrers": [
       {
-        "referrer": "Google",
-        "count": 2,
+        "referrer": "github.com",
+        "count": 7,
         "uniques": 2
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -68,6 +73,60 @@
         "title": "Overview",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/module-shipping-core/tree/master",
+        "title": "/tree/master",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/module-shipping-core/tree/master/Controller",
+        "title": "/tree/master/Controller",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/module-shipping-core/tree/master/Controller/Adminhtml",
+        "title": "/tree/master/Controller/Adminhtml",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/module-shipping-core/blob/master/Model/ResourceModel/LabelStatus.php",
+        "title": "/blob/master/Model/ResourceModel/LabelStatus.php",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/blob/master/etc/db_schema.xml",
+        "title": "/blob/master/etc/db_schema.xml",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/blob/ad691c1d9f83429382923f3a20127aea92f6069a/etc/crontab.xml",
+        "title": "/blob/ad691c1d9f83429382923f3a20127aea92f6069a/etc/crontab.xml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/blob/master/Controller/Adminhtml/Shipment/Autocreate.php",
+        "title": "/blob/master/Controller/Adminhtml/Shipment/Autocreate.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/tree/ad691c1d9f83429382923f3a20127aea92f6069a",
+        "title": "/tree/ad691c1d9f83429382923f3a20127aea92f6069a",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/tree/master/Controller/Adminhtml/Shipment",
+        "title": "/tree/master/Controller/Adminhtml/Shipment",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -101,9 +160,9 @@
   ],
   "packagist": {
     "name": "netresearch/module-shipping-core",
-    "total": 224495,
-    "monthly": 5823,
-    "daily": 252,
+    "total": 224539,
+    "monthly": 5759,
+    "daily": 38,
     "url": "https://packagist.org/packages/netresearch/module-shipping-core"
   },
   "ghcr": null,
@@ -112,5 +171,6 @@
     "packages": 3,
     "url": "https://github.com/netresearch/module-shipping-core/network/dependents"
   },
-  "blast_radius": 55
+  "blast_radius": 55,
+  "archived": false
 }

@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2021-03-18T09:46:57Z",
-  "pushed_at": "2026-05-18T12:10:58Z",
-  "updated_at": "2026-04-01T06:58:06Z",
+  "pushed_at": "2026-05-21T10:15:48Z",
+  "updated_at": "2026-05-21T10:15:57Z",
   "composer_name": "dhl/module-carrier-ecom-us",
   "lifetime": {
     "stars": 1,
@@ -19,7 +19,7 @@
     "watchers": 7,
     "network": 0,
     "open_issues_plus_prs": 4,
-    "commits": 56,
+    "commits": 59,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 3,
@@ -36,7 +36,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 3,
     "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
@@ -45,12 +45,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 137,
-    "clones_unique": 37,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 156,
+    "clones_unique": 80,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/dhl-module-carrier-ecom-us",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.1.0",
@@ -66,7 +79,7 @@
     },
     {
       "login": "Sebastian80",
-      "contributions": 17,
+      "contributions": 20,
       "url": "https://github.com/Sebastian80"
     },
     {
@@ -103,5 +116,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/dhl-module-carrier-ecom-us/network/dependents"
   },
-  "blast_radius": 13
+  "blast_radius": 13,
+  "archived": true
 }

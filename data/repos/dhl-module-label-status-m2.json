@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2019-01-18T09:39:25Z",
-  "pushed_at": "2026-05-10T10:54:39Z",
-  "updated_at": "2026-04-01T06:58:13Z",
+  "pushed_at": "2026-05-21T10:15:43Z",
+  "updated_at": "2026-05-21T10:15:52Z",
   "composer_name": "dhl/module-label-status",
   "lifetime": {
     "stars": 5,
@@ -19,7 +19,7 @@
     "watchers": 8,
     "network": 6,
     "open_issues_plus_prs": 3,
-    "commits": 21,
+    "commits": 24,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 2,
@@ -32,11 +32,11 @@
     "external_contributors": 4,
     "packagist_downloads": 22121,
     "ghcr_downloads": 0,
-    "dependents_repos": 3,
+    "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 3,
     "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
@@ -45,12 +45,37 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 32,
-    "clones_unique": 15,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 74,
+    "clones_unique": 45,
+    "views_total": 3,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "jira.netresearch.de",
+        "count": 2,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/dhl-module-label-status-m2",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-label-status-m2/blob/master/DEPRECATED.md",
+        "title": "/blob/master/DEPRECATED.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-label-status-m2/releases",
+        "title": "/releases",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.1.0",
@@ -61,7 +86,7 @@
   "top_contributors": [
     {
       "login": "Sebastian80",
-      "contributions": 6,
+      "contributions": 9,
       "url": "https://github.com/Sebastian80"
     },
     {
@@ -109,9 +134,10 @@
   },
   "ghcr": null,
   "dependents": {
-    "repositories": 3,
+    "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/dhl-module-label-status-m2/network/dependents"
   },
-  "blast_radius": 35
+  "blast_radius": 29,
+  "archived": true
 }

@@ -38,40 +38,40 @@
     "release_downloads": 56,
     "contributors": 50,
     "external_contributors": 44,
-    "packagist_downloads": 1029588,
+    "packagist_downloads": 1029742,
     "ghcr_downloads": 0,
     "dependents_repos": 45,
     "dependents_packages": 3
   },
   "recent_30d": {
-    "commits": 74,
+    "commits": 72,
     "issues_opened": 4,
-    "prs_opened": 31,
-    "prs_merged": 31,
+    "prs_opened": 30,
+    "prs_merged": 30,
     "releases": 4,
-    "packagist_downloads": 18377,
+    "packagist_downloads": 18321,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3998,
-    "clones_unique": 613,
-    "views_total": 163,
-    "views_unique": 67,
+    "clones_total": 4116,
+    "clones_unique": 617,
+    "views_total": 172,
+    "views_unique": 71,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 22,
-        "uniques": 7
-      },
-      {
-        "referrer": "Google",
-        "count": 16,
+        "count": 21,
         "uniques": 6
       },
       {
+        "referrer": "Google",
+        "count": 20,
+        "uniques": 10
+      },
+      {
         "referrer": "docs.typo3.org",
-        "count": 10,
-        "uniques": 1
+        "count": 11,
+        "uniques": 2
       },
       {
         "referrer": "github.com",
@@ -93,7 +93,7 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image",
         "title": "Overview",
-        "count": 28,
+        "count": 29,
         "uniques": 20
       },
       {
@@ -105,8 +105,8 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/releases",
         "title": "/releases",
-        "count": 5,
-        "uniques": 4
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/pulls",
@@ -212,9 +212,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1029588,
-    "monthly": 18377,
-    "daily": 653,
+    "total": 1029742,
+    "monthly": 18321,
+    "daily": 178,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,
@@ -223,5 +223,6 @@
     "packages": 3,
     "url": "https://github.com/netresearch/t3x-rte_ckeditor_image/network/dependents"
   },
-  "blast_radius": 1123
+  "blast_radius": 1123,
+  "archived": false
 }

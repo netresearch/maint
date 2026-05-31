@@ -29,7 +29,7 @@
     "prs_closed_unmerged": 6,
     "issues_total": 8,
     "releases": 20,
-    "release_downloads": 6,
+    "release_downloads": 7,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -48,27 +48,27 @@
   },
   "traffic_14d": {
     "clones_total": 440,
-    "clones_unique": 109,
-    "views_total": 26,
-    "views_unique": 9,
+    "clones_unique": 110,
+    "views_total": 30,
+    "views_unique": 13,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 8,
-        "uniques": 5
+        "count": 9,
+        "uniques": 6
       }
     ],
     "top_paths": [
       {
+        "path": "/netresearch/simple-ldap-go",
+        "title": "Overview",
+        "count": 5,
+        "uniques": 5
+      },
+      {
         "path": "/netresearch/simple-ldap-go/blob/main/sam_account_type.go",
         "title": "/blob/main/sam_account_type.go",
         "count": 5,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/simple-ldap-go",
-        "title": "Overview",
-        "count": 4,
         "uniques": 4
       },
       {
@@ -166,5 +166,6 @@
     "packages": 5,
     "url": "https://github.com/netresearch/simple-ldap-go/network/dependents"
   },
-  "blast_radius": 176
+  "blast_radius": 176,
+  "archived": false
 }
