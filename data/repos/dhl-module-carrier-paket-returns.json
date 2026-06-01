@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 254538,
+    "packagist_downloads": 254649,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,16 +43,83 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5228,
+    "packagist_downloads": 5303,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 168,
-    "clones_unique": 57,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 184,
+    "clones_unique": 60,
+    "views_total": 10,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 10,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/dhl-module-carrier-paket-returns",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket-returns/blob/master/Model/BulkShipment/ReturnShipmentConfiguration.php",
+        "title": "/blob/master/Model/BulkShipment/ReturnShipmentConfiguration.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket-returns/blob/master/Model/Carrier/Paket.php",
+        "title": "/blob/master/Model/Carrier/Paket.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket-returns/blob/master/Model/Webservice/ReturnLabelService.php",
+        "title": "/blob/master/Model/Webservice/ReturnLabelService.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket-returns/blob/master/etc/di.xml",
+        "title": "/blob/master/etc/di.xml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket-returns/tree/master/Model",
+        "title": "/tree/master/Model",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket-returns/tree/master/Model/Carrier",
+        "title": "/tree/master/Model/Carrier",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket-returns/tree/master/Model/Webservice",
+        "title": "/tree/master/Model/Webservice",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket-returns/tree/master/Plugin",
+        "title": "/tree/master/Plugin",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket-returns/tree/master/etc",
+        "title": "/tree/master/etc",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "2.4.0",
@@ -94,9 +161,9 @@
   ],
   "packagist": {
     "name": "dhl/module-carrier-paket-returns",
-    "total": 254538,
-    "monthly": 5228,
-    "daily": 37,
+    "total": 254649,
+    "monthly": 5303,
+    "daily": 96,
     "url": "https://packagist.org/packages/dhl/module-carrier-paket-returns"
   },
   "ghcr": null,

@@ -55,15 +55,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 661,
+    "clones_total": 669,
     "clones_unique": 154,
-    "views_total": 36,
-    "views_unique": 27,
+    "views_total": 37,
+    "views_unique": 29,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 22,
         "uniques": 16
+      },
+      {
+        "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "github.com",
@@ -80,8 +85,14 @@
       {
         "path": "/netresearch/cli-tools-skill",
         "title": "Overview",
-        "count": 26,
+        "count": 25,
         "uniques": 23
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/activity",
+        "title": "/activity",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/cli-tools-skill/blob/main/renovate.json",
