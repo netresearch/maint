@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-16T10:15:03Z",
-  "pushed_at": "2026-05-28T20:21:33Z",
+  "pushed_at": "2026-06-02T17:48:52Z",
   "updated_at": "2026-05-30T15:04:26Z",
   "composer_name": null,
   "lifetime": {
@@ -22,16 +22,16 @@
     "forks": 3,
     "watchers": 1,
     "network": 3,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 349,
     "issues_open": 1,
     "issues_closed": 1,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 101,
     "prs_closed_unmerged": 3,
     "issues_total": 2,
     "releases": 47,
-    "release_downloads": 174,
+    "release_downloads": 175,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,34 +40,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 67,
+    "commits": 64,
     "issues_opened": 1,
     "prs_opened": 26,
-    "prs_merged": 25,
+    "prs_merged": 24,
     "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1810,
-    "clones_unique": 200,
-    "views_total": 260,
-    "views_unique": 138,
+    "clones_total": 1766,
+    "clones_unique": 194,
+    "views_total": 257,
+    "views_unique": 141,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 167,
-        "uniques": 106
+        "count": 176,
+        "uniques": 111
       },
       {
         "referrer": "github.com",
-        "count": 21,
-        "uniques": 6
-      },
-      {
-        "referrer": "packagist.org",
-        "count": 10,
-        "uniques": 6
+        "count": 14,
+        "uniques": 5
       },
       {
         "referrer": "Bing",
@@ -75,13 +70,18 @@
         "uniques": 2
       },
       {
-        "referrer": "perplexity.ai",
-        "count": 3,
-        "uniques": 2
+        "referrer": "packagist.org",
+        "count": 8,
+        "uniques": 5
       },
       {
         "referrer": "search.brave.com",
-        "count": 1,
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "perplexity.ai",
+        "count": 2,
         "uniques": 1
       }
     ],
@@ -89,20 +89,20 @@
       {
         "path": "/netresearch/skill-repo-skill",
         "title": "Overview",
-        "count": 140,
+        "count": 134,
         "uniques": 119
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo",
         "title": "/tree/main/skills/skill-repo",
-        "count": 24,
-        "uniques": 21
+        "count": 28,
+        "uniques": 24
       },
       {
         "path": "/netresearch/skill-repo-skill/releases",
         "title": "/releases",
-        "count": 12,
-        "uniques": 11
+        "count": 10,
+        "uniques": 10
       },
       {
         "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
@@ -113,13 +113,19 @@
       {
         "path": "/netresearch/skill-repo-skill/tree/main/.github",
         "title": "/tree/main/.github",
-        "count": 5,
-        "uniques": 4
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/evals",
         "title": "/tree/main/skills/skill-repo/evals",
-        "count": 4,
+        "count": 5,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/references",
+        "title": "/tree/main/skills/skill-repo/references",
+        "count": 5,
         "uniques": 4
       },
       {
@@ -135,16 +141,10 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/skill-repo-skill/tree/main/scripts",
-        "title": "/tree/main/scripts",
+        "path": "/netresearch/skill-repo-skill/tree/main/Build",
+        "title": "/tree/main/Build",
         "count": 3,
         "uniques": 3
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/references",
-        "title": "/tree/main/skills/skill-repo/references",
-        "count": 3,
-        "uniques": 2
       }
     ]
   },

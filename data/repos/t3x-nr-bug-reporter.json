@@ -1,31 +1,28 @@
 {
-  "name": "t3x-hubspot_import",
-  "full_name": "netresearch/t3x-hubspot_import",
-  "url": "https://github.com/netresearch/t3x-hubspot_import",
-  "description": "",
+  "name": "t3x-nr-bug-reporter",
+  "full_name": "netresearch/t3x-nr-bug-reporter",
+  "url": "https://github.com/netresearch/t3x-nr-bug-reporter",
+  "description": "TYPO3 backend bug reporter: attribute an error to its originating Composer package and open a prefilled issue on that package's upstream GitHub tracker.",
   "language": "PHP",
   "category": "typo3-extension",
-  "license": "AGPL-3.0",
-  "topics": [
-    "hubspot",
-    "typo3-extension"
-  ],
+  "license": "GPL-2.0",
+  "topics": [],
   "homepage": "",
-  "default_branch": "master",
-  "created_at": "2017-05-19T10:38:41Z",
-  "pushed_at": "2020-03-10T12:55:51Z",
-  "updated_at": "2023-11-23T14:03:37Z",
-  "composer_name": "netresearch/hubspot-import",
+  "default_branch": "main",
+  "created_at": "2026-06-02T13:28:58Z",
+  "pushed_at": "2026-06-02T15:04:57Z",
+  "updated_at": "2026-06-02T15:10:57Z",
+  "composer_name": "netresearch/nr-bug-reporter",
   "lifetime": {
     "stars": 0,
     "forks": 0,
-    "watchers": 5,
+    "watchers": 0,
     "network": 0,
-    "open_issues_plus_prs": 0,
+    "open_issues_plus_prs": 1,
     "commits": 5,
     "issues_open": 0,
     "issues_closed": 0,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 0,
     "prs_closed_unmerged": 0,
     "issues_total": 0,
@@ -39,17 +36,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 5,
     "issues_opened": 0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "prs_merged": 0,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 35,
-    "clones_unique": 31,
+    "clones_total": 0,
+    "clones_unique": 0,
     "views_total": 0,
     "views_unique": 0,
     "top_referrers": [],
@@ -59,7 +56,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1,
+      "contributions": 5,
       "url": "https://github.com/CybotTM"
     }
   ],
@@ -68,8 +65,8 @@
   "dependents": {
     "repositories": 0,
     "packages": 0,
-    "url": "https://github.com/netresearch/t3x-hubspot_import/network/dependents"
+    "url": "https://github.com/netresearch/t3x-nr-bug-reporter/network/dependents"
   },
   "blast_radius": 0,
-  "archived": true
+  "archived": false
 }

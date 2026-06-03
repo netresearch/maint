@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:13Z",
-  "pushed_at": "2026-05-30T18:05:34Z",
-  "updated_at": "2026-05-30T18:05:12Z",
+  "pushed_at": "2026-06-02T17:24:07Z",
+  "updated_at": "2026-06-02T17:13:23Z",
   "composer_name": null,
   "lifetime": {
     "stars": 24,
@@ -21,15 +21,15 @@
     "watchers": 0,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 140,
+    "commits": 142,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 45,
+    "prs_merged": 46,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 10,
-    "release_downloads": 43,
+    "release_downloads": 45,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -38,24 +38,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 74,
+    "commits": 76,
     "issues_opened": 0,
-    "prs_opened": 32,
-    "prs_merged": 32,
+    "prs_opened": 33,
+    "prs_merged": 33,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1438,
-    "clones_unique": 357,
-    "views_total": 287,
-    "views_unique": 125,
+    "clones_total": 1370,
+    "clones_unique": 349,
+    "views_total": 273,
+    "views_unique": 121,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 144,
-        "uniques": 80
+        "count": 137,
+        "uniques": 75
       },
       {
         "referrer": "github.com",
@@ -68,19 +68,14 @@
         "uniques": 8
       },
       {
-        "referrer": "com.slack",
+        "referrer": "Bing",
         "count": 8,
         "uniques": 1
       },
       {
-        "referrer": "Bing",
-        "count": 7,
+        "referrer": "com.slack",
+        "count": 8,
         "uniques": 1
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 6,
-        "uniques": 2
       },
       {
         "referrer": "kagi.com",
@@ -93,12 +88,12 @@
         "uniques": 2
       },
       {
-        "referrer": "yandex.kz",
-        "count": 2,
+        "referrer": "search.brave.com",
+        "count": 3,
         "uniques": 1
       },
       {
-        "referrer": "chatgpt.com",
+        "referrer": "statics.teams.cdn.office.net",
         "count": 1,
         "uniques": 1
       }
@@ -107,20 +102,20 @@
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 169,
-        "uniques": 118
+        "count": 165,
+        "uniques": 114
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 30,
-        "uniques": 20
+        "count": 26,
+        "uniques": 15
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
         "title": "/blob/main/skills/file-search/SKILL.md",
-        "count": 27,
-        "uniques": 20
+        "count": 23,
+        "uniques": 16
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ripgrep-patterns.md",
@@ -153,16 +148,16 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
-        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search/evals",
         "title": "/tree/main/skills/file-search/evals",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/search-strategies.md",
+        "title": "/blob/main/skills/file-search/references/search-strategies.md",
+        "count": 3,
+        "uniques": 2
       }
     ]
   },
@@ -180,12 +175,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 27,
+      "contributions": 28,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 26,
+      "contributions": 27,
       "url": "https://github.com/apps/github-actions"
     }
   ],
@@ -196,6 +191,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/file-search-skill/network/dependents"
   },
-  "blast_radius": 52,
+  "blast_radius": 53,
   "archived": false
 }
