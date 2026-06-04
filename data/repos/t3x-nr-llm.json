@@ -42,10 +42,10 @@
     "prs_closed_unmerged": 10,
     "issues_total": 6,
     "releases": 25,
-    "release_downloads": 266,
+    "release_downloads": 267,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 4950,
+    "packagist_downloads": 4952,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -56,14 +56,14 @@
     "prs_opened": 15,
     "prs_merged": 13,
     "releases": 1,
-    "packagist_downloads": 141,
+    "packagist_downloads": 143,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1692,
-    "clones_unique": 232,
-    "views_total": 27,
-    "views_unique": 12,
+    "clones_total": 2179,
+    "clones_unique": 264,
+    "views_total": 23,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -76,12 +76,12 @@
         "uniques": 1
       },
       {
-        "referrer": "github.com",
-        "count": 4,
-        "uniques": 2
+        "referrer": "chatgpt.com",
+        "count": 1,
+        "uniques": 1
       },
       {
-        "referrer": "chatgpt.com",
+        "referrer": "github.com",
         "count": 1,
         "uniques": 1
       }
@@ -90,14 +90,8 @@
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 13,
-        "uniques": 10
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/releases",
-        "title": "/releases",
-        "count": 2,
-        "uniques": 1
+        "count": 11,
+        "uniques": 8
       },
       {
         "path": "/netresearch/t3x-nr-llm/blob/main/AGENTS.md",
@@ -146,6 +140,12 @@
         "title": "/tree/main/Classes/Controller/Backend",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/tree/main/Classes/Service",
+        "title": "/tree/main/Classes/Service",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -184,9 +184,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 4950,
-    "monthly": 141,
-    "daily": 1,
+    "total": 4952,
+    "monthly": 143,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,

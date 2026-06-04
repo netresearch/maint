@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-28T08:06:06Z",
-  "pushed_at": "2026-06-02T14:19:28Z",
-  "updated_at": "2026-06-02T14:29:53Z",
+  "pushed_at": "2026-06-03T10:09:29Z",
+  "updated_at": "2026-06-03T10:09:32Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
@@ -21,11 +21,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 510,
+    "commits": 512,
     "issues_open": 1,
     "issues_closed": 7,
     "prs_open": 0,
-    "prs_merged": 156,
+    "prs_merged": 157,
     "prs_closed_unmerged": 6,
     "issues_total": 8,
     "releases": 20,
@@ -38,24 +38,29 @@
     "dependents_packages": 5
   },
   "recent_30d": {
-    "commits": 6,
+    "commits": 8,
     "issues_opened": 0,
-    "prs_opened": 3,
-    "prs_merged": 3,
+    "prs_opened": 4,
+    "prs_merged": 4,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 389,
-    "clones_unique": 97,
-    "views_total": 28,
-    "views_unique": 11,
+    "clones_total": 445,
+    "clones_unique": 116,
+    "views_total": 33,
+    "views_unique": 12,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 7,
         "uniques": 4
+      },
+      {
+        "referrer": "libraries.io",
+        "count": 5,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -70,6 +75,12 @@
         "title": "/blob/main/sam_account_type.go",
         "count": 4,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/blob/main/users.go",
+        "title": "/blob/main/users.go",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/simple-ldap-go/blob/main/groups.go",
@@ -112,12 +123,6 @@
         "title": "/blob/main/KNOWLEDGE_BASE.md",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/simple-ldap-go/blob/main/SECURITY.md",
-        "title": "/blob/main/SECURITY.md",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -130,7 +135,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 319,
+      "contributions": 321,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -166,6 +171,6 @@
     "packages": 5,
     "url": "https://github.com/netresearch/simple-ldap-go/network/dependents"
   },
-  "blast_radius": 177,
+  "blast_radius": 178,
   "archived": false
 }

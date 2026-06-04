@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T10:14:23Z",
-  "pushed_at": "2026-05-28T20:14:03Z",
-  "updated_at": "2026-05-28T20:14:01Z",
+  "pushed_at": "2026-06-03T11:30:47Z",
+  "updated_at": "2026-06-03T11:30:50Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 280,
+    "commits": 286,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 59,
+    "prs_merged": 61,
     "prs_closed_unmerged": 5,
     "issues_total": 2,
     "releases": 41,
@@ -47,33 +47,28 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 15,
+    "commits": 21,
     "issues_opened": 0,
-    "prs_opened": 6,
-    "prs_merged": 6,
+    "prs_opened": 8,
+    "prs_merged": 8,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 564,
-    "clones_unique": 164,
-    "views_total": 78,
-    "views_unique": 16,
+    "clones_total": 570,
+    "clones_unique": 167,
+    "views_total": 50,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 49,
+        "count": 37,
         "uniques": 5
       },
       {
-        "referrer": "mcpmarket.com",
-        "count": 17,
-        "uniques": 1
-      },
-      {
         "referrer": "Google",
-        "count": 5,
+        "count": 6,
         "uniques": 5
       },
       {
@@ -92,32 +87,14 @@
       {
         "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/SKILL.md",
         "title": "/blob/main/skills/typo3-conformance/SKILL.md",
-        "count": 6,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance/assets",
-        "title": "/tree/main/skills/typo3-conformance/assets",
-        "count": 5,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance",
         "title": "/tree/main/skills/typo3-conformance",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/tree/main",
-        "title": "/tree/main",
         "count": 3,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance/assets/Build/composer-unused",
-        "title": "/tree/main/skills/typo3-conformance/assets/Build/composer-unused",
-        "count": 3,
-        "uniques": 1
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance/scripts",
@@ -126,22 +103,40 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/assets/Build/composer-unused/composer-unused.php",
+        "title": "/blob/main/skills/typo3-conformance/assets/Build/composer-unused/composer-unused.php",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance/assets/Build/composer-unused",
+        "title": "/tree/main/skills/typo3-conformance/assets/Build/composer-unused",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/docs/ARCHITECTURE.md",
+        "title": "/blob/main/docs/ARCHITECTURE.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/assets/Build/eslint/.eslintrc.json",
+        "title": "/blob/main/skills/typo3-conformance/assets/Build/eslint/.eslintrc.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/assets/Build/php-cs-fixer/php-cs-fixer.php",
         "title": "/blob/main/skills/typo3-conformance/assets/Build/php-cs-fixer/php-cs-fixer.php",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/checkpoints.yaml",
-        "title": "/blob/main/skills/typo3-conformance/checkpoints.yaml",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/references/coding-guidelines.md",
-        "title": "/blob/main/skills/typo3-conformance/references/coding-guidelines.md",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/assets/Build/phpstan/phpstan-baseline.neon",
+        "title": "/blob/main/skills/typo3-conformance/assets/Build/phpstan/phpstan-baseline.neon",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -154,7 +149,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 276,
+      "contributions": 282,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -175,6 +170,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "blast_radius": 61,
+  "blast_radius": 63,
   "archived": false
 }

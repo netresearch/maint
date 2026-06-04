@@ -20,8 +20,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-18T13:49:41Z",
-  "pushed_at": "2026-05-28T20:22:20Z",
-  "updated_at": "2026-05-28T20:22:50Z",
+  "pushed_at": "2026-06-03T11:32:27Z",
+  "updated_at": "2026-06-03T11:32:31Z",
   "composer_name": null,
   "lifetime": {
     "stars": 12,
@@ -29,11 +29,11 @@
     "watchers": 2,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 86,
+    "commits": 89,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 24,
+    "prs_merged": 25,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
     "releases": 12,
@@ -46,19 +46,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 2,
+    "commits": 5,
     "issues_opened": 0,
-    "prs_opened": 1,
-    "prs_merged": 1,
+    "prs_opened": 2,
+    "prs_merged": 2,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 635,
-    "clones_unique": 133,
-    "views_total": 28,
-    "views_unique": 23,
+    "clones_total": 617,
+    "clones_unique": 141,
+    "views_total": 32,
+    "views_unique": 25,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -75,8 +75,20 @@
       {
         "path": "/netresearch/claude-coach-plugin",
         "title": "Overview",
-        "count": 28,
-        "uniques": 23
+        "count": 30,
+        "uniques": 24
+      },
+      {
+        "path": "/netresearch/claude-coach-plugin/blob/main/commands/retro.md",
+        "title": "/blob/main/commands/retro.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/claude-coach-plugin/tree/main/commands",
+        "title": "/tree/main/commands",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -89,7 +101,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 70,
+      "contributions": 73,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -110,6 +122,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-coach-plugin/network/dependents"
   },
-  "blast_radius": 27,
+  "blast_radius": 28,
   "archived": false
 }
