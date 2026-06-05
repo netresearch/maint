@@ -13,25 +13,25 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2024-11-12T12:36:15Z",
-  "pushed_at": "2026-06-04T00:47:41Z",
-  "updated_at": "2026-04-01T06:57:11Z",
+  "pushed_at": "2026-06-04T08:35:48Z",
+  "updated_at": "2026-06-04T08:27:27Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 15,
+    "open_issues_plus_prs": 1,
+    "commits": 19,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 2,
-    "prs_merged": 5,
+    "prs_open": 0,
+    "prs_merged": 7,
     "prs_closed_unmerged": 2,
     "issues_total": 3,
     "releases": 0,
     "release_downloads": 0,
-    "contributors": 4,
+    "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -39,17 +39,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 4,
     "issues_opened": 0,
     "prs_opened": 2,
-    "prs_merged": 0,
+    "prs_merged": 2,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 39,
-    "clones_unique": 31,
+    "clones_total": 46,
+    "clones_unique": 32,
     "views_total": 5,
     "views_unique": 5,
     "top_referrers": [
@@ -88,13 +88,18 @@
     },
     {
       "login": "CybotTM",
-      "contributions": 3,
+      "contributions": 5,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 2,
+      "contributions": 3,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "dependabot[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/dependabot"
     }
   ],
   "packagist": null,
@@ -104,6 +109,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/ansible-role-gitlab-runner/network/dependents"
   },
-  "blast_radius": 11,
+  "blast_radius": 13,
   "archived": false
 }

@@ -46,22 +46,22 @@
   "recent_30d": {
     "commits": 32,
     "issues_opened": 0,
-    "prs_opened": 11,
-    "prs_merged": 11,
+    "prs_opened": 10,
+    "prs_merged": 10,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 763,
-    "clones_unique": 187,
-    "views_total": 88,
-    "views_unique": 45,
+    "clones_total": 777,
+    "clones_unique": 184,
+    "views_total": 79,
+    "views_unique": 43,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 43,
-        "uniques": 22
+        "count": 31,
+        "uniques": 20
       },
       {
         "referrer": "github.com",
@@ -70,12 +70,12 @@
       },
       {
         "referrer": "search.brave.com",
-        "count": 10,
+        "count": 11,
         "uniques": 2
       },
       {
         "referrer": "chatgpt.com",
-        "count": 5,
+        "count": 7,
         "uniques": 3
       }
     ],
@@ -83,26 +83,20 @@
       {
         "path": "/netresearch/agent-harness-skill",
         "title": "Overview",
-        "count": 43,
-        "uniques": 38
+        "count": 42,
+        "uniques": 37
       },
       {
         "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/SKILL.md",
         "title": "/blob/main/skills/agent-harness/SKILL.md",
-        "count": 10,
+        "count": 11,
         "uniques": 3
       },
       {
         "path": "/netresearch/agent-harness-skill/tree/main/skills/agent-harness",
         "title": "/tree/main/skills/agent-harness",
-        "count": 6,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/references/agent-first-architecture.md",
-        "title": "/blob/main/skills/agent-harness/references/agent-first-architecture.md",
         "count": 5,
-        "uniques": 4
+        "uniques": 5
       },
       {
         "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/references/enforcement-mechanisms.md",
@@ -111,16 +105,10 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/agent-harness-skill/tree/main/skills/agent-harness/references",
-        "title": "/tree/main/skills/agent-harness/references",
-        "count": 3,
+        "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/references/agent-first-architecture.md",
+        "title": "/blob/main/skills/agent-harness/references/agent-first-architecture.md",
+        "count": 4,
         "uniques": 3
-      },
-      {
-        "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/checkpoints.yaml",
-        "title": "/blob/main/skills/agent-harness/checkpoints.yaml",
-        "count": 2,
-        "uniques": 2
       },
       {
         "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/references/adr/003-skill-delegation-model.md",
@@ -135,10 +123,22 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/scripts/verify-harness.sh",
-        "title": "/blob/main/skills/agent-harness/scripts/verify-harness.sh",
+        "path": "/netresearch/agent-harness-skill/tree/main/skills/agent-harness/references",
+        "title": "/tree/main/skills/agent-harness/references",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/references/adr/002-enforcement-layers.md",
+        "title": "/blob/main/skills/agent-harness/references/adr/002-enforcement-layers.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/checkpoints.yaml",
+        "title": "/blob/main/skills/agent-harness/checkpoints.yaml",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },

@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:13Z",
-  "pushed_at": "2026-06-03T18:51:53Z",
-  "updated_at": "2026-06-03T18:43:24Z",
+  "pushed_at": "2026-06-04T20:50:24Z",
+  "updated_at": "2026-06-04T20:41:19Z",
   "composer_name": null,
   "lifetime": {
     "stars": 24,
@@ -21,11 +21,11 @@
     "watchers": 0,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 146,
+    "commits": 150,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 48,
+    "prs_merged": 50,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 10,
@@ -38,24 +38,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 77,
+    "commits": 66,
     "issues_opened": 0,
-    "prs_opened": 34,
-    "prs_merged": 34,
+    "prs_opened": 33,
+    "prs_merged": 33,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1407,
-    "clones_unique": 356,
-    "views_total": 263,
-    "views_unique": 116,
+    "clones_total": 1350,
+    "clones_unique": 347,
+    "views_total": 262,
+    "views_unique": 115,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 125,
-        "uniques": 69
+        "count": 130,
+        "uniques": 71
       },
       {
         "referrer": "github.com",
@@ -102,32 +102,32 @@
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 163,
+        "count": 165,
         "uniques": 110
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 24,
-        "uniques": 14
+        "count": 23,
+        "uniques": 13
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
         "title": "/blob/main/skills/file-search/SKILL.md",
-        "count": 22,
-        "uniques": 15
-      },
-      {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ripgrep-patterns.md",
-        "title": "/blob/main/skills/file-search/references/ripgrep-patterns.md",
-        "count": 5,
-        "uniques": 4
+        "count": 20,
+        "uniques": 13
       },
       {
         "path": "/netresearch/file-search-skill/tree/main",
         "title": "/tree/main",
         "count": 5,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ripgrep-patterns.md",
+        "title": "/blob/main/skills/file-search/references/ripgrep-patterns.md",
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/file-search-skill/graphs/contributors",
@@ -148,14 +148,14 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/search-strategies.md",
-        "title": "/blob/main/skills/file-search/references/search-strategies.md",
-        "count": 3,
+        "path": "/netresearch/file-search-skill/blob/main/scripts/verify-harness.sh",
+        "title": "/blob/main/scripts/verify-harness.sh",
+        "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/file-search-skill/blob/main/scripts/verify-harness.sh",
-        "title": "/blob/main/scripts/verify-harness.sh",
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
         "count": 2,
         "uniques": 2
       }
@@ -175,12 +175,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 30,
+      "contributions": 32,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 29,
+      "contributions": 31,
       "url": "https://github.com/apps/github-actions"
     }
   ],
@@ -191,6 +191,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/file-search-skill/network/dependents"
   },
-  "blast_radius": 55,
+  "blast_radius": 57,
   "archived": false
 }

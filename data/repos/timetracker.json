@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-05-28T12:48:45Z",
-  "updated_at": "2026-05-28T12:48:47Z",
+  "pushed_at": "2026-06-04T11:44:41Z",
+  "updated_at": "2026-06-04T11:44:44Z",
   "composer_name": null,
   "lifetime": {
     "stars": 24,
@@ -23,11 +23,11 @@
     "watchers": 6,
     "network": 27,
     "open_issues_plus_prs": 4,
-    "commits": 1382,
+    "commits": 1384,
     "issues_open": 4,
     "issues_closed": 29,
     "prs_open": 0,
-    "prs_merged": 195,
+    "prs_merged": 196,
     "prs_closed_unmerged": 74,
     "issues_total": 33,
     "releases": 19,
@@ -35,22 +35,22 @@
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 8475,
+    "ghcr_downloads": 8503,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 71,
+    "commits": 73,
     "issues_opened": 0,
-    "prs_opened": 24,
-    "prs_merged": 24,
+    "prs_opened": 25,
+    "prs_merged": 25,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 1908
+    "ghcr_downloads": 1404
   },
   "traffic_14d": {
-    "clones_total": 489,
-    "clones_unique": 127,
+    "clones_total": 463,
+    "clones_unique": 124,
     "views_total": 9,
     "views_unique": 9,
     "top_referrers": [
@@ -122,18 +122,18 @@
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 39,
+      "contributions": 40,
       "url": "https://github.com/apps/dependabot"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 30,
+      "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "just-tobi",
       "contributions": 29,
       "url": "https://github.com/just-tobi"
-    },
-    {
-      "login": "github-actions[bot]",
-      "contributions": 29,
-      "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
@@ -162,18 +162,18 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 8475,
-        "thirty_day": 1908
+        "total": 8503,
+        "thirty_day": 1404
       }
     ],
-    "total": 8475,
-    "thirty_day": 1908
+    "total": 8503,
+    "thirty_day": 1404
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "blast_radius": 297,
+  "blast_radius": 298,
   "archived": false
 }

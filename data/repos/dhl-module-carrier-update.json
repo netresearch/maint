@@ -53,12 +53,19 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 138,
-    "clones_unique": 74,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 160,
+    "clones_unique": 82,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/dhl-module-carrier-update/releases/tag/1.4.0",
+        "title": "/releases/tag/1.4.0",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.4.0",
@@ -87,7 +94,7 @@
     "name": "dhl/module-carrier-update",
     "total": 2340,
     "monthly": 70,
-    "daily": 2,
+    "daily": 0,
     "url": "https://packagist.org/packages/dhl/module-carrier-update"
   },
   "ghcr": null,

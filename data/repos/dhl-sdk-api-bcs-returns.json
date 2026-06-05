@@ -38,7 +38,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 241953,
+    "packagist_downloads": 241984,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,22 +49,22 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 2036,
+    "packagist_downloads": 1974,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 83,
-    "clones_unique": 46,
-    "views_total": 6,
-    "views_unique": 3,
+    "clones_total": 85,
+    "clones_unique": 48,
+    "views_total": 7,
+    "views_unique": 5,
     "top_referrers": [
       {
-        "referrer": "Google",
-        "count": 1,
-        "uniques": 1
+        "referrer": "github.com",
+        "count": 4,
+        "uniques": 2
       },
       {
-        "referrer": "github.com",
+        "referrer": "Google",
         "count": 1,
         "uniques": 1
       }
@@ -73,18 +73,24 @@
       {
         "path": "/netresearch/dhl-sdk-api-bcs-returns",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/dhl-sdk-api-bcs-returns/commit/be2a0b3146bf9c38a2d61046b14fc451ff0f962c",
-        "title": "/commit/be2a0b3146bf9c38a2d61046b14fc451ff0f962c",
-        "count": 2,
-        "uniques": 1
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/dhl-sdk-api-bcs-returns/blob/main/renovate.json",
         "title": "/blob/main/renovate.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs-returns/tree/main/test",
+        "title": "/tree/main/test",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs-returns/tree/main/test/Provider/_files",
+        "title": "/tree/main/test/Provider/_files",
         "count": 1,
         "uniques": 1
       }
@@ -130,9 +136,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs-returns",
-    "total": 241953,
-    "monthly": 2036,
-    "daily": 85,
+    "total": 241984,
+    "monthly": 1974,
+    "daily": 29,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs-returns"
   },
   "ghcr": null,
