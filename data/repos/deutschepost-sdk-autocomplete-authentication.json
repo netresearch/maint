@@ -38,7 +38,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 2,
-    "packagist_downloads": 248399,
+    "packagist_downloads": 248642,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -53,23 +53,23 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 51,
+    "clones_total": 63,
     "clones_unique": 44,
-    "views_total": 4,
-    "views_unique": 1,
+    "views_total": 7,
+    "views_unique": 2,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 4,
-        "uniques": 1
+        "count": 7,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/deutschepost-sdk-autocomplete-authentication",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/blob/master/src/Http/HttpServiceFactory.php",
@@ -78,8 +78,20 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/blob/master/src/Service/AuthenticationService.php",
+        "title": "/blob/master/src/Service/AuthenticationService.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/tree/master/src",
         "title": "/tree/master/src",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/tree/master/src/Api",
+        "title": "/tree/master/src/Api",
         "count": 1,
         "uniques": 1
       },
@@ -121,9 +133,9 @@
   ],
   "packagist": {
     "name": "deutschepost/sdk-api-autocomplete-authentication",
-    "total": 248399,
+    "total": 248642,
     "monthly": 6014,
-    "daily": 209,
+    "daily": 204,
     "url": "https://packagist.org/packages/deutschepost/sdk-api-autocomplete-authentication"
   },
   "ghcr": null,

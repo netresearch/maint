@@ -38,25 +38,25 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 241984,
+    "packagist_downloads": 242027,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
     "commits": 0,
-    "issues_opened": 1,
+    "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1974,
+    "packagist_downloads": 1915,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 85,
-    "clones_unique": 48,
-    "views_total": 7,
-    "views_unique": 5,
+    "clones_total": 86,
+    "clones_unique": 49,
+    "views_total": 8,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -67,6 +67,11 @@
         "referrer": "Google",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -75,6 +80,12 @@
         "title": "Overview",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs-returns/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-sdk-api-bcs-returns/blob/main/renovate.json",
@@ -136,9 +147,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs-returns",
-    "total": 241984,
-    "monthly": 1974,
-    "daily": 29,
+    "total": 242027,
+    "monthly": 1915,
+    "daily": 40,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs-returns"
   },
   "ghcr": null,
