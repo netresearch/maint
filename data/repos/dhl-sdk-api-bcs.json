@@ -42,7 +42,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 4,
-    "packagist_downloads": 326769,
+    "packagist_downloads": 326771,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -53,14 +53,14 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1413,
+    "packagist_downloads": 1383,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 132,
+    "clones_total": 133,
     "clones_unique": 58,
-    "views_total": 7,
-    "views_unique": 6,
+    "views_total": 9,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "chatgpt.com",
@@ -82,12 +82,18 @@
       {
         "path": "/netresearch/dhl-sdk-api-bcs",
         "title": "Overview",
-        "count": 4,
-        "uniques": 3
+        "count": 5,
+        "uniques": 4
       },
       {
         "path": "/netresearch/dhl-sdk-api-bcs/blob/6026b435110785ee34a5d7c449389d5f97f35c97/src/Http/ClientPlugin/RequestValidatorPlugin.php",
         "title": "/blob/6026b435110785ee34a5d7c449389d5f97f35c97/src/Http/ClientPlugin/RequestValidatorPlugin.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Service/OrderService.php",
+        "title": "/blob/master/src/Service/OrderService.php",
         "count": 1,
         "uniques": 1
       },
@@ -150,9 +156,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs",
-    "total": 326769,
-    "monthly": 1413,
-    "daily": 21,
+    "total": 326771,
+    "monthly": 1383,
+    "daily": 2,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs"
   },
   "ghcr": null,

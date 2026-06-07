@@ -55,25 +55,30 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1301,
-    "clones_unique": 334,
-    "views_total": 585,
-    "views_unique": 260,
+    "clones_total": 1566,
+    "clones_unique": 379,
+    "views_total": 602,
+    "views_unique": 275,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 410,
-        "uniques": 197
+        "uniques": 202
       },
       {
         "referrer": "github.com",
-        "count": 24,
-        "uniques": 10
+        "count": 25,
+        "uniques": 11
       },
       {
         "referrer": "search.brave.com",
         "count": 14,
         "uniques": 5
+      },
+      {
+        "referrer": "chat.mistral.ai",
+        "count": 7,
+        "uniques": 1
       },
       {
         "referrer": "chatgpt.com",
@@ -95,32 +100,32 @@
       {
         "path": "/netresearch/agent-rules-skill",
         "title": "Overview",
-        "count": 297,
-        "uniques": 239
+        "count": 313,
+        "uniques": 249
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
         "title": "/tree/main/skills/agent-rules",
-        "count": 66,
-        "uniques": 48
+        "count": 67,
+        "uniques": 50
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md",
         "title": "/blob/main/skills/agent-rules/SKILL.md",
-        "count": 36,
-        "uniques": 26
+        "count": 37,
+        "uniques": 30
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 22,
-        "uniques": 20
+        "count": 24,
+        "uniques": 22
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/AGENTS.md",
         "title": "/blob/main/skills/agent-rules/AGENTS.md",
-        "count": 18,
-        "uniques": 15
+        "count": 16,
+        "uniques": 14
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/CLAUDE.md",
@@ -141,15 +146,15 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/agent-rules-skill/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
-        "count": 6,
-        "uniques": 6
-      },
-      {
         "path": "/netresearch/agent-rules-skill/issues",
         "title": "/issues",
         "count": 6,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/agent-rules-skill/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
+        "count": 5,
         "uniques": 5
       }
     ]

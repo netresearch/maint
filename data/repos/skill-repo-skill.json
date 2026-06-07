@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-16T10:15:03Z",
-  "pushed_at": "2026-06-04T14:00:16Z",
-  "updated_at": "2026-06-05T19:27:30Z",
+  "pushed_at": "2026-06-07T01:52:15Z",
+  "updated_at": "2026-06-07T01:51:47Z",
   "composer_name": null,
   "lifetime": {
     "stars": 10,
@@ -23,15 +23,15 @@
     "watchers": 1,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 355,
+    "commits": 357,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 104,
+    "prs_merged": 105,
     "prs_closed_unmerged": 3,
     "issues_total": 2,
     "releases": 47,
-    "release_downloads": 176,
+    "release_downloads": 180,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -49,25 +49,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2006,
-    "clones_unique": 208,
-    "views_total": 247,
-    "views_unique": 144,
+    "clones_total": 1957,
+    "clones_unique": 205,
+    "views_total": 279,
+    "views_unique": 150,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 193,
-        "uniques": 120
+        "count": 226,
+        "uniques": 127
       },
       {
         "referrer": "github.com",
-        "count": 9,
-        "uniques": 6
+        "count": 10,
+        "uniques": 7
       },
       {
         "referrer": "packagist.org",
-        "count": 7,
-        "uniques": 4
+        "count": 6,
+        "uniques": 3
       },
       {
         "referrer": "search.brave.com",
@@ -84,32 +84,44 @@
       {
         "path": "/netresearch/skill-repo-skill",
         "title": "Overview",
-        "count": 138,
-        "uniques": 124
+        "count": 145,
+        "uniques": 129
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo",
         "title": "/tree/main/skills/skill-repo",
-        "count": 26,
-        "uniques": 22
+        "count": 34,
+        "uniques": 28
       },
       {
         "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
         "title": "/blob/main/skills/skill-repo/SKILL.md",
-        "count": 10,
-        "uniques": 9
+        "count": 12,
+        "uniques": 11
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/references",
         "title": "/tree/main/skills/skill-repo/references",
-        "count": 5,
-        "uniques": 4
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/skill-repo-skill/releases",
         "title": "/releases",
-        "count": 4,
+        "count": 6,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/tree/main/docs",
+        "title": "/tree/main/docs",
+        "count": 6,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/tree/main/skills",
+        "title": "/tree/main/skills",
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/evals",
@@ -128,18 +140,6 @@
         "title": "/tree/main/.github",
         "count": 4,
         "uniques": 3
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/tree/main/skills",
-        "title": "/tree/main/skills",
-        "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 3,
-        "uniques": 3
       }
     ]
   },
@@ -157,12 +157,12 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 46,
+      "contributions": 47,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 45,
+      "contributions": 46,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -178,6 +178,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/skill-repo-skill/network/dependents"
   },
-  "blast_radius": 174,
+  "blast_radius": 175,
   "archived": false
 }
