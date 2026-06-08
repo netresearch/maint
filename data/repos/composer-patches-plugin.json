@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2014-01-21T20:27:08Z",
-  "pushed_at": "2026-06-05T18:15:52Z",
-  "updated_at": "2026-06-05T18:15:55Z",
+  "pushed_at": "2026-06-08T04:34:45Z",
+  "updated_at": "2026-06-08T04:34:48Z",
   "composer_name": "netresearch/composer-patches-plugin",
   "lifetime": {
     "stars": 80,
@@ -23,48 +23,54 @@
     "watchers": 12,
     "network": 22,
     "open_issues_plus_prs": 1,
-    "commits": 102,
+    "commits": 103,
     "issues_open": 1,
     "issues_closed": 30,
     "prs_open": 0,
-    "prs_merged": 35,
+    "prs_merged": 36,
     "prs_closed_unmerged": 9,
     "issues_total": 31,
     "releases": 9,
     "release_downloads": 0,
-    "contributors": 15,
+    "contributors": 16,
     "external_contributors": 12,
-    "packagist_downloads": 268377,
+    "packagist_downloads": 268389,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 3,
+    "commits": 4,
     "issues_opened": 0,
-    "prs_opened": 3,
-    "prs_merged": 3,
+    "prs_opened": 4,
+    "prs_merged": 4,
     "releases": 0,
-    "packagist_downloads": 2581,
+    "packagist_downloads": 2590,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 198,
-    "clones_unique": 126,
-    "views_total": 8,
-    "views_unique": 5,
+    "clones_total": 193,
+    "clones_unique": 122,
+    "views_total": 10,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 7,
-        "uniques": 4
+        "count": 8,
+        "uniques": 5
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/composer-patches-plugin",
         "title": "Overview",
-        "count": 4,
+        "count": 5,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/composer-patches-plugin/issues/6",
+        "title": "/issues/6",
+        "count": 2,
         "uniques": 2
       },
       {
@@ -82,12 +88,6 @@
       {
         "path": "/netresearch/composer-patches-plugin/issues/24",
         "title": "/issues/24",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-patches-plugin/issues/6",
-        "title": "/issues/6",
         "count": 1,
         "uniques": 1
       }
@@ -153,9 +153,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-patches-plugin",
-    "total": 268377,
-    "monthly": 2581,
-    "daily": 39,
+    "total": 268389,
+    "monthly": 2590,
+    "daily": 11,
     "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
   },
   "ghcr": null,
@@ -164,6 +164,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/composer-patches-plugin/network/dependents"
   },
-  "blast_radius": 146,
+  "blast_radius": 147,
   "archived": false
 }

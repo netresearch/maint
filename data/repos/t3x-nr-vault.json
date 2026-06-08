@@ -32,7 +32,7 @@
     "release_downloads": 206,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 18440,
+    "packagist_downloads": 18574,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,41 +43,42 @@
     "prs_opened": 40,
     "prs_merged": 40,
     "releases": 3,
-    "packagist_downloads": 1504,
+    "packagist_downloads": 1638,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5620,
-    "clones_unique": 459,
-    "views_total": 11,
-    "views_unique": 7,
+    "clones_total": 3962,
+    "clones_unique": 363,
+    "views_total": 16,
+    "views_unique": 11,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 3,
+        "uniques": 3
+      },
       {
         "referrer": "extensions.typo3.org",
         "count": 3,
         "uniques": 2
-      },
-      {
-        "referrer": "Google",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 4,
-        "uniques": 3
+        "count": 8,
+        "uniques": 6
       },
       {
         "path": "/netresearch/t3x-nr-vault/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
         "count": 1,
         "uniques": 1
       },
@@ -149,9 +150,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 18440,
-    "monthly": 1504,
-    "daily": 20,
+    "total": 18574,
+    "monthly": 1638,
+    "daily": 107,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,

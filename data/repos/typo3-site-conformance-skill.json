@@ -6,12 +6,22 @@
   "language": "Python",
   "category": "skill",
   "license": "NOASSERTION",
-  "topics": [],
+  "topics": [
+    "agent-skills",
+    "ai-agent",
+    "claude-code-skill",
+    "conformance",
+    "open-standard",
+    "quality-assurance",
+    "skill",
+    "typo3",
+    "typo3-cms"
+  ],
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-06T14:32:09Z",
-  "pushed_at": "2026-06-06T21:00:21Z",
-  "updated_at": "2026-06-06T21:00:25Z",
+  "pushed_at": "2026-06-07T09:12:30Z",
+  "updated_at": "2026-06-07T09:12:33Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
@@ -19,11 +29,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 5,
+    "commits": 13,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 1,
+    "prs_merged": 3,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 0,
@@ -36,17 +46,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 5,
+    "commits": 13,
     "issues_opened": 1,
-    "prs_opened": 1,
-    "prs_merged": 1,
+    "prs_opened": 3,
+    "prs_merged": 3,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 0,
-    "clones_unique": 0,
+    "clones_total": 239,
+    "clones_unique": 99,
     "views_total": 0,
     "views_unique": 0,
     "top_referrers": [],
@@ -56,7 +66,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 5,
+      "contributions": 13,
       "url": "https://github.com/CybotTM"
     }
   ],
@@ -67,6 +77,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-site-conformance-skill/network/dependents"
   },
-  "blast_radius": 2,
+  "blast_radius": 4,
   "archived": false
 }

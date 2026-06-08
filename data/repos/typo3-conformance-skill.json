@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T10:14:23Z",
-  "pushed_at": "2026-06-06T14:20:25Z",
-  "updated_at": "2026-06-03T11:30:50Z",
+  "pushed_at": "2026-06-07T16:30:37Z",
+  "updated_at": "2026-06-07T16:30:51Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 286,
+    "commits": 289,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 1,
-    "prs_merged": 61,
+    "prs_merged": 62,
     "prs_closed_unmerged": 5,
     "issues_total": 2,
     "releases": 41,
@@ -47,28 +47,28 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 15,
+    "commits": 18,
     "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 6,
+    "prs_opened": 8,
+    "prs_merged": 7,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 754,
-    "clones_unique": 222,
-    "views_total": 18,
-    "views_unique": 12,
+    "clones_total": 768,
+    "clones_unique": 224,
+    "views_total": 25,
+    "views_unique": 10,
     "top_referrers": [
       {
-        "referrer": "github.com",
-        "count": 10,
-        "uniques": 5
+        "referrer": "Google",
+        "count": 13,
+        "uniques": 4
       },
       {
-        "referrer": "Google",
-        "count": 4,
+        "referrer": "github.com",
+        "count": 9,
         "uniques": 4
       }
     ],
@@ -76,18 +76,24 @@
       {
         "path": "/netresearch/typo3-conformance-skill",
         "title": "Overview",
-        "count": 13,
-        "uniques": 11
+        "count": 12,
+        "uniques": 10
       },
       {
         "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance",
         "title": "/tree/main/skills/typo3-conformance",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance/scripts",
+        "title": "/tree/main/skills/typo3-conformance/scripts",
         "count": 2,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/SKILL.md",
+        "title": "/blob/main/skills/typo3-conformance/SKILL.md",
         "count": 1,
         "uniques": 1
       },
@@ -98,8 +104,32 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/scripts/check-architecture.sh",
+        "title": "/blob/main/skills/typo3-conformance/scripts/check-architecture.sh",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/scripts/check-conformance.sh",
+        "title": "/blob/main/skills/typo3-conformance/scripts/check-conformance.sh",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/scripts/check-phpstan-baseline.sh",
+        "title": "/blob/main/skills/typo3-conformance/scripts/check-phpstan-baseline.sh",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-conformance-skill/pull/63",
         "title": "/pull/63",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/tree/main",
+        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       }
@@ -114,7 +144,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 282,
+      "contributions": 285,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -135,6 +165,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "blast_radius": 63,
+  "blast_radius": 64,
   "archived": false
 }

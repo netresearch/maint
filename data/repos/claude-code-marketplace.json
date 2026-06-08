@@ -24,20 +24,20 @@
   "homepage": "https://netresearch.github.io/claude-code-marketplace/",
   "default_branch": "main",
   "created_at": "2025-10-18T07:59:00Z",
-  "pushed_at": "2026-06-06T14:34:57Z",
-  "updated_at": "2026-06-04T03:13:02Z",
+  "pushed_at": "2026-06-07T09:34:19Z",
+  "updated_at": "2026-06-07T09:34:22Z",
   "composer_name": null,
   "lifetime": {
     "stars": 42,
     "forks": 10,
     "watchers": 2,
     "network": 10,
-    "open_issues_plus_prs": 2,
-    "commits": 257,
+    "open_issues_plus_prs": 1,
+    "commits": 262,
     "issues_open": 1,
     "issues_closed": 4,
-    "prs_open": 1,
-    "prs_merged": 41,
+    "prs_open": 0,
+    "prs_merged": 43,
     "prs_closed_unmerged": 17,
     "issues_total": 5,
     "releases": 3,
@@ -50,29 +50,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 80,
+    "commits": 85,
     "issues_opened": 2,
-    "prs_opened": 21,
-    "prs_merged": 17,
+    "prs_opened": 22,
+    "prs_merged": 19,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 933,
-    "clones_unique": 474,
-    "views_total": 493,
-    "views_unique": 313,
+    "clones_total": 919,
+    "clones_unique": 478,
+    "views_total": 491,
+    "views_unique": 320,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 265,
-        "uniques": 206
+        "count": 258,
+        "uniques": 200
       },
       {
         "referrer": "github.com",
-        "count": 64,
-        "uniques": 32
+        "count": 70,
+        "uniques": 37
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 5,
+        "uniques": 4
       },
       {
         "referrer": "statics.teams.cdn.office.net",
@@ -83,11 +88,6 @@
         "referrer": "search.brave.com",
         "count": 4,
         "uniques": 4
-      },
-      {
-        "referrer": "chatgpt.com",
-        "count": 4,
-        "uniques": 3
       },
       {
         "referrer": "claude.ai",
@@ -114,26 +114,20 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 380,
-        "uniques": 322
+        "count": 387,
+        "uniques": 319
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 20,
-        "uniques": 15
+        "count": 19,
+        "uniques": 14
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
         "title": "/blob/main/.claude-plugin/marketplace.json",
-        "count": 14,
-        "uniques": 9
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 7,
-        "uniques": 4
+        "count": 13,
+        "uniques": 8
       },
       {
         "path": "/netresearch/claude-code-marketplace/pull/61",
@@ -160,14 +154,20 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 5,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/claude-code-marketplace/pull/61/changes",
         "title": "/pull/61/changes",
         "count": 5,
         "uniques": 1
       },
       {
-        "path": "/netresearch/claude-code-marketplace/blob/main/SPEC.md",
-        "title": "/blob/main/SPEC.md",
+        "path": "/netresearch/claude-code-marketplace/blob/main/scripts/validate.sh",
+        "title": "/blob/main/scripts/validate.sh",
         "count": 4,
         "uniques": 3
       }
@@ -182,7 +182,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 185,
+      "contributions": 190,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -228,6 +228,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
   },
-  "blast_radius": 78,
+  "blast_radius": 80,
   "archived": false
 }
