@@ -59,30 +59,35 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 919,
-    "clones_unique": 478,
-    "views_total": 491,
-    "views_unique": 320,
+    "clones_total": 984,
+    "clones_unique": 499,
+    "views_total": 483,
+    "views_unique": 326,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 258,
-        "uniques": 200
+        "count": 260,
+        "uniques": 203
       },
       {
         "referrer": "github.com",
-        "count": 70,
-        "uniques": 37
+        "count": 63,
+        "uniques": 34
       },
       {
         "referrer": "chatgpt.com",
-        "count": 5,
-        "uniques": 4
+        "count": 6,
+        "uniques": 5
       },
       {
         "referrer": "statics.teams.cdn.office.net",
-        "count": 5,
+        "count": 6,
         "uniques": 4
+      },
+      {
+        "referrer": "claude.ai",
+        "count": 5,
+        "uniques": 3
       },
       {
         "referrer": "search.brave.com",
@@ -90,17 +95,12 @@
         "uniques": 4
       },
       {
-        "referrer": "claude.ai",
+        "referrer": "Bing",
         "count": 4,
         "uniques": 2
       },
       {
         "referrer": "Baidu",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "Bing",
         "count": 1,
         "uniques": 1
       },
@@ -114,8 +114,8 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 387,
-        "uniques": 319
+        "count": 383,
+        "uniques": 316
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
@@ -154,12 +154,6 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 5,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/claude-code-marketplace/pull/61/changes",
         "title": "/pull/61/changes",
         "count": 5,
@@ -168,6 +162,12 @@
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/scripts/validate.sh",
         "title": "/blob/main/scripts/validate.sh",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/pulls",
+        "title": "/pulls",
         "count": 4,
         "uniques": 3
       }
