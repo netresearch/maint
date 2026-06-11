@@ -24,8 +24,8 @@
   "homepage": "https://netresearch.github.io/claude-code-marketplace/",
   "default_branch": "main",
   "created_at": "2025-10-18T07:59:00Z",
-  "pushed_at": "2026-06-07T09:34:19Z",
-  "updated_at": "2026-06-07T09:34:22Z",
+  "pushed_at": "2026-06-10T06:32:35Z",
+  "updated_at": "2026-06-10T06:32:37Z",
   "composer_name": null,
   "lifetime": {
     "stars": 42,
@@ -33,11 +33,11 @@
     "watchers": 2,
     "network": 10,
     "open_issues_plus_prs": 1,
-    "commits": 262,
+    "commits": 270,
     "issues_open": 1,
     "issues_closed": 4,
     "prs_open": 0,
-    "prs_merged": 43,
+    "prs_merged": 46,
     "prs_closed_unmerged": 17,
     "issues_total": 5,
     "releases": 3,
@@ -50,29 +50,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 85,
+    "commits": 91,
     "issues_opened": 2,
-    "prs_opened": 22,
-    "prs_merged": 19,
+    "prs_opened": 25,
+    "prs_merged": 22,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 984,
-    "clones_unique": 499,
-    "views_total": 483,
-    "views_unique": 326,
+    "clones_total": 920,
+    "clones_unique": 474,
+    "views_total": 457,
+    "views_unique": 320,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 260,
-        "uniques": 203
+        "count": 247,
+        "uniques": 201
       },
       {
         "referrer": "github.com",
-        "count": 63,
-        "uniques": 34
+        "count": 64,
+        "uniques": 33
       },
       {
         "referrer": "chatgpt.com",
@@ -85,19 +85,19 @@
         "uniques": 4
       },
       {
-        "referrer": "claude.ai",
-        "count": 5,
-        "uniques": 3
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "referrer": "Bing",
         "count": 4,
         "uniques": 2
+      },
+      {
+        "referrer": "claude.ai",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "Baidu",
@@ -108,32 +108,31 @@
         "referrer": "ecosia.org",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "safe2.dbswiso.prd",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 383,
-        "uniques": 316
+        "count": 375,
+        "uniques": 309
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 19,
-        "uniques": 14
+        "count": 16,
+        "uniques": 11
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
         "title": "/blob/main/.claude-plugin/marketplace.json",
-        "count": 13,
-        "uniques": 8
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/pull/61",
-        "title": "/pull/61",
-        "count": 7,
-        "uniques": 1
+        "count": 10,
+        "uniques": 5
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/scripts",
@@ -142,22 +141,16 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/claude-code-marketplace/tree/main/site",
-        "title": "/tree/main/site",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/pull/60",
-        "title": "/pull/60",
-        "count": 5,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/pull/61/changes",
-        "title": "/pull/61/changes",
+        "path": "/netresearch/claude-code-marketplace/pull/61",
+        "title": "/pull/61",
         "count": 5,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/tree/main/site",
+        "title": "/tree/main/site",
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/scripts/validate.sh",
@@ -170,6 +163,18 @@
         "title": "/pulls",
         "count": 4,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/discussions",
+        "title": "/discussions",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/tree/main",
+        "title": "/tree/main",
+        "count": 3,
+        "uniques": 2
       }
     ]
   },
@@ -182,7 +187,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 190,
+      "contributions": 198,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -228,6 +233,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
   },
-  "blast_radius": 80,
+  "blast_radius": 83,
   "archived": false
 }

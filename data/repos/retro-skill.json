@@ -26,14 +26,14 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 0,
+    "open_issues_plus_prs": 1,
     "commits": 47,
-    "issues_open": 0,
+    "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
     "prs_merged": 17,
     "prs_closed_unmerged": 1,
-    "issues_total": 0,
+    "issues_total": 1,
     "releases": 4,
     "release_downloads": 0,
     "contributors": 1,
@@ -45,7 +45,7 @@
   },
   "recent_30d": {
     "commits": 47,
-    "issues_opened": 0,
+    "issues_opened": 1,
     "prs_opened": 18,
     "prs_merged": 17,
     "releases": 4,
@@ -53,10 +53,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 368,
-    "clones_unique": 128,
-    "views_total": 10,
-    "views_unique": 7,
+    "clones_total": 603,
+    "clones_unique": 171,
+    "views_total": 13,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "DuckDuckGo",
@@ -67,14 +67,25 @@
         "referrer": "Google",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "Bing",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/retro-skill",
         "title": "Overview",
-        "count": 7,
-        "uniques": 6
+        "count": 8,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/retro-skill/blob/main/skills/retro/SKILL.md",
+        "title": "/blob/main/skills/retro/SKILL.md",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/retro-skill/blob/main/scripts/detect-mechanical.py",
@@ -83,8 +94,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/retro-skill/blob/main/skills/retro/SKILL.md",
-        "title": "/blob/main/skills/retro/SKILL.md",
+        "path": "/netresearch/retro-skill/tree/main",
+        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       },
@@ -116,6 +127,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/retro-skill/network/dependents"
   },
-  "blast_radius": 17,
+  "blast_radius": 18,
   "archived": false
 }

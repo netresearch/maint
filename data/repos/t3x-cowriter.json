@@ -39,7 +39,7 @@
     "release_downloads": 30,
     "contributors": 12,
     "external_contributors": 8,
-    "packagist_downloads": 11524,
+    "packagist_downloads": 11528,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -54,10 +54,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 110,
-    "clones_unique": 37,
-    "views_total": 11,
-    "views_unique": 5,
+    "clones_total": 207,
+    "clones_unique": 46,
+    "views_total": 12,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -68,20 +68,25 @@
         "referrer": "packagist.org",
         "count": 3,
         "uniques": 1
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-cowriter",
+        "title": "Overview",
+        "count": 4,
+        "uniques": 4
+      },
       {
         "path": "/netresearch/t3x-cowriter/blob/main/README.md",
         "title": "/blob/main/README.md",
         "count": 4,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-cowriter",
-        "title": "Overview",
-        "count": 3,
-        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-cowriter/releases",
@@ -163,9 +168,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 11524,
+    "total": 11528,
     "monthly": 406,
-    "daily": 2,
+    "daily": 4,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,
