@@ -57,18 +57,28 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 529,
-    "clones_unique": 134,
-    "views_total": 23,
-    "views_unique": 8,
+    "clones_total": 611,
+    "clones_unique": 140,
+    "views_total": 55,
+    "views_unique": 14,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 22,
-        "uniques": 7
+        "count": 26,
+        "uniques": 9
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 3,
+        "uniques": 1
       },
       {
         "referrer": "github.com",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "statics.teams.cdn.office.net",
         "count": 1,
         "uniques": 1
       }
@@ -77,36 +87,60 @@
       {
         "path": "/netresearch/typo3-ddev-skill",
         "title": "Overview",
-        "count": 14,
-        "uniques": 7
+        "count": 22,
+        "uniques": 12
       },
       {
         "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/SKILL.md",
         "title": "/blob/main/skills/typo3-ddev/SKILL.md",
-        "count": 5,
+        "count": 7,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/references/0001-valkey-default-with-redis-alternative.md",
-        "title": "/blob/main/skills/typo3-ddev/references/0001-valkey-default-with-redis-alternative.md",
+        "path": "/netresearch/typo3-ddev-skill/tree/main/skills/typo3-ddev",
+        "title": "/tree/main/skills/typo3-ddev",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/main/SECURITY-AUDIT.md",
+        "title": "/blob/main/SECURITY-AUDIT.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/checkpoints.yaml",
+        "title": "/blob/main/skills/typo3-ddev/checkpoints.yaml",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/commit/e95e2470c024e123ae69cea8d634ad3cd083d841",
+        "title": "/commit/e95e2470c024e123ae69cea8d634ad3cd083d841",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/main/.envrc",
+        "title": "/blob/main/.envrc",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/references/advanced-options.md",
-        "title": "/blob/main/skills/typo3-ddev/references/advanced-options.md",
+        "path": "/netresearch/typo3-ddev-skill/blob/main/docs/ARCHITECTURE.md",
+        "title": "/blob/main/docs/ARCHITECTURE.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/references/post-setup-verification.md",
-        "title": "/blob/main/skills/typo3-ddev/references/post-setup-verification.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/scripts/validate-prerequisites.sh",
-        "title": "/blob/main/skills/typo3-ddev/scripts/validate-prerequisites.sh",
+        "path": "/netresearch/typo3-ddev-skill/blob/main/scripts/verify-harness.sh",
+        "title": "/blob/main/scripts/verify-harness.sh",
         "count": 1,
         "uniques": 1
       }

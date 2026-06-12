@@ -12,23 +12,23 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-23T10:28:16Z",
-  "pushed_at": "2026-06-10T11:21:42Z",
-  "updated_at": "2026-06-09T12:07:06Z",
+  "pushed_at": "2026-06-11T15:14:03Z",
+  "updated_at": "2026-06-11T15:17:39Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 92,
+    "open_issues_plus_prs": 1,
+    "commits": 97,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 22,
+    "prs_open": 0,
+    "prs_merged": 24,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
-    "releases": 15,
+    "releases": 16,
     "release_downloads": 60,
     "contributors": 3,
     "external_contributors": 1,
@@ -38,28 +38,28 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 8,
+    "commits": 13,
     "issues_opened": 0,
-    "prs_opened": 5,
-    "prs_merged": 4,
-    "releases": 2,
+    "prs_opened": 6,
+    "prs_merged": 6,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 280,
-    "clones_unique": 59,
+    "clones_total": 352,
+    "clones_unique": 69,
     "views_total": 34,
     "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 8,
-        "uniques": 4
+        "count": 7,
+        "uniques": 3
       },
       {
-        "referrer": "jira.netresearch.de",
-        "count": 5,
+        "referrer": "github.com",
+        "count": 1,
         "uniques": 1
       }
     ],
@@ -67,14 +67,20 @@
       {
         "path": "/netresearch/concourse-ci-skill",
         "title": "Overview",
-        "count": 7,
-        "uniques": 6
+        "count": 6,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/concourse-ci-skill/pull/24",
+        "title": "/pull/24",
+        "count": 4,
+        "uniques": 2
       },
       {
         "path": "/netresearch/concourse-ci-skill/tree/main/skills/concourse-ci",
         "title": "/tree/main/skills/concourse-ci",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/references/resources-guide.md",
@@ -95,18 +101,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/concourse-ci-skill/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/SKILL.md",
-        "title": "/blob/main/skills/concourse-ci/SKILL.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/concourse-ci-skill/blob/v1.8.0/AGENTS.md",
         "title": "/blob/v1.8.0/AGENTS.md",
         "count": 1,
@@ -123,24 +117,30 @@
         "title": "/blob/v1.8.0/skills/concourse-ci/SKILL.md",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/concourse-ci-skill/blob/v1.8.0/skills/concourse-ci/examples/multi-branch.yml",
+        "title": "/blob/v1.8.0/skills/concourse-ci/examples/multi-branch.yml",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.8.0",
-    "tag_name": "v1.8.0",
-    "published_at": "2026-05-28T20:23:10Z",
-    "url": "https://github.com/netresearch/concourse-ci-skill/releases/tag/v1.8.0"
+    "name": "v1.9.0",
+    "tag_name": "v1.9.0",
+    "published_at": "2026-06-11T15:14:40Z",
+    "url": "https://github.com/netresearch/concourse-ci-skill/releases/tag/v1.9.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 89,
+      "contributions": 91,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "aseemann",
-      "contributions": 2,
+      "contributions": 5,
       "url": "https://github.com/aseemann"
     },
     {
@@ -156,6 +156,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/concourse-ci-skill/network/dependents"
   },
-  "blast_radius": 26,
+  "blast_radius": 28,
   "archived": false
 }

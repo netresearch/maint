@@ -40,7 +40,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 2,
-    "packagist_downloads": 59324,
+    "packagist_downloads": 59474,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
@@ -51,56 +51,38 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 4571,
+    "packagist_downloads": 4497,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 88,
-    "clones_unique": 57,
-    "views_total": 38,
-    "views_unique": 8,
+    "clones_total": 72,
+    "clones_unique": 48,
+    "views_total": 23,
+    "views_unique": 7,
     "top_referrers": [
       {
-        "referrer": "github.com",
-        "count": 16,
+        "referrer": "Google",
+        "count": 9,
         "uniques": 3
       },
       {
-        "referrer": "Google",
-        "count": 14,
-        "uniques": 4
+        "referrer": "github.com",
+        "count": 7,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de-returns",
         "title": "Overview",
-        "count": 12,
-        "uniques": 7
+        "count": 10,
+        "uniques": 5
       },
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de-returns/tree/master/src",
         "title": "/tree/master/src",
-        "count": 8,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/dhl-sdk-api-parcel-de-returns/tree/master/src/Api",
-        "title": "/tree/master/src/Api",
-        "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/dhl-sdk-api-parcel-de-returns/blob/master/composer.json",
-        "title": "/blob/master/composer.json",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/dhl-sdk-api-parcel-de-returns/tree/master/src/Api/Data",
-        "title": "/tree/master/src/Api/Data",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de-returns/tree/master/src/Serializer",
@@ -111,6 +93,18 @@
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de-returns/blob/master/CHANGELOG.md",
         "title": "/blob/master/CHANGELOG.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de-returns/blob/master/README.md",
+        "title": "/blob/master/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de-returns/blob/master/composer.json",
+        "title": "/blob/master/composer.json",
         "count": 1,
         "uniques": 1
       },
@@ -127,8 +121,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-sdk-api-parcel-de-returns/blob/master/src/Service/ReturnLabelService.php",
-        "title": "/blob/master/src/Service/ReturnLabelService.php",
+        "path": "/netresearch/dhl-sdk-api-parcel-de-returns/tree/master/src/Api",
+        "title": "/tree/master/src/Api",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de-returns/tree/master/src/Api/Data",
+        "title": "/tree/master/src/Api/Data",
         "count": 1,
         "uniques": 1
       }
@@ -159,9 +159,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-parcel-de-returns",
-    "total": 59324,
-    "monthly": 4571,
-    "daily": 184,
+    "total": 59474,
+    "monthly": 4497,
+    "daily": 124,
     "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de-returns"
   },
   "ghcr": null,

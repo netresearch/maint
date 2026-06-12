@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 3,
-    "packagist_downloads": 256843,
+    "packagist_downloads": 257043,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,22 +43,28 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 5648,
+    "packagist_downloads": 5572,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 359,
-    "clones_unique": 94,
-    "views_total": 11,
-    "views_unique": 2,
+    "clones_total": 245,
+    "clones_unique": 71,
+    "views_total": 12,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 10,
-        "uniques": 1
+        "count": 11,
+        "uniques": 2
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/dhl-module-carrier-paket-returns/blob/master/etc/di.xml",
+        "title": "/blob/master/etc/di.xml",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/dhl-module-carrier-paket-returns",
         "title": "Overview",
@@ -80,12 +86,6 @@
       {
         "path": "/netresearch/dhl-module-carrier-paket-returns/blob/master/Model/Webservice/ReturnLabelService.php",
         "title": "/blob/master/Model/Webservice/ReturnLabelService.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-carrier-paket-returns/blob/master/etc/di.xml",
-        "title": "/blob/master/etc/di.xml",
         "count": 1,
         "uniques": 1
       },
@@ -156,9 +156,9 @@
   ],
   "packagist": {
     "name": "dhl/module-carrier-paket-returns",
-    "total": 256843,
-    "monthly": 5648,
-    "daily": 219,
+    "total": 257043,
+    "monthly": 5572,
+    "daily": 164,
     "url": "https://packagist.org/packages/dhl/module-carrier-paket-returns"
   },
   "ghcr": null,

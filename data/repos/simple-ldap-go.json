@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-28T08:06:06Z",
-  "pushed_at": "2026-06-08T14:48:16Z",
-  "updated_at": "2026-06-08T14:49:00Z",
+  "pushed_at": "2026-06-12T01:05:04Z",
+  "updated_at": "2026-06-12T01:05:27Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
@@ -21,11 +21,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 515,
+    "commits": 517,
     "issues_open": 1,
     "issues_closed": 7,
     "prs_open": 0,
-    "prs_merged": 158,
+    "prs_merged": 159,
     "prs_closed_unmerged": 6,
     "issues_total": 8,
     "releases": 20,
@@ -38,24 +38,24 @@
     "dependents_packages": 5
   },
   "recent_30d": {
-    "commits": 9,
+    "commits": 11,
     "issues_opened": 0,
-    "prs_opened": 4,
-    "prs_merged": 4,
+    "prs_opened": 5,
+    "prs_merged": 5,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 607,
-    "clones_unique": 175,
+    "clones_total": 350,
+    "clones_unique": 138,
     "views_total": 18,
     "views_unique": 14,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 6,
-        "uniques": 6
+        "count": 7,
+        "uniques": 7
       },
       {
         "referrer": "libraries.io",
@@ -67,8 +67,8 @@
       {
         "path": "/netresearch/simple-ldap-go",
         "title": "Overview",
-        "count": 5,
-        "uniques": 5
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/simple-ldap-go/blob/main/sam_account_type.go",
@@ -79,12 +79,6 @@
       {
         "path": "/netresearch/simple-ldap-go/blob/main/client.go",
         "title": "/blob/main/client.go",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/simple-ldap-go/blob/main/errors_test.go",
-        "title": "/blob/main/errors_test.go",
         "count": 1,
         "uniques": 1
       },
@@ -123,6 +117,12 @@
         "title": "/blob/main/utils.go",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/blob/main/validation_test.go",
+        "title": "/blob/main/validation_test.go",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -140,7 +140,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 139,
+      "contributions": 141,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -171,6 +171,6 @@
     "packages": 5,
     "url": "https://github.com/netresearch/simple-ldap-go/network/dependents"
   },
-  "blast_radius": 179,
+  "blast_radius": 180,
   "archived": false
 }

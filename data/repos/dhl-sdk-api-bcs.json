@@ -42,7 +42,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 4,
-    "packagist_downloads": 326990,
+    "packagist_downloads": 327056,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -53,28 +53,28 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1473,
+    "packagist_downloads": 1471,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 118,
-    "clones_unique": 44,
-    "views_total": 10,
-    "views_unique": 9,
+    "clones_total": 30,
+    "clones_unique": 27,
+    "views_total": 24,
+    "views_unique": 11,
     "top_referrers": [
       {
+        "referrer": "github.com",
+        "count": 12,
+        "uniques": 2
+      },
+      {
         "referrer": "Google",
-        "count": 2,
+        "count": 3,
         "uniques": 2
       },
       {
         "referrer": "chatgpt.com",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
         "uniques": 1
       }
     ],
@@ -82,12 +82,42 @@
       {
         "path": "/netresearch/dhl-sdk-api-bcs",
         "title": "Overview",
-        "count": 6,
-        "uniques": 5
+        "count": 10,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/tree/master/src",
+        "title": "/tree/master/src",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-sdk-api-bcs/blob/6026b435110785ee34a5d7c449389d5f97f35c97/src/Http/ClientPlugin/RequestValidatorPlugin.php",
         "title": "/blob/6026b435110785ee34a5d7c449389d5f97f35c97/src/Http/ClientPlugin/RequestValidatorPlugin.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Api/Data/AuthenticationStorageInterface.php",
+        "title": "/blob/master/src/Api/Data/AuthenticationStorageInterface.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Api/ServiceFactoryInterface.php",
+        "title": "/blob/master/src/Api/ServiceFactoryInterface.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Api/ShipmentServiceInterface.php",
+        "title": "/blob/master/src/Api/ShipmentServiceInterface.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Auth/AuthenticationStorage.php",
+        "title": "/blob/master/src/Auth/AuthenticationStorage.php",
         "count": 1,
         "uniques": 1
       },
@@ -98,14 +128,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Service/ShipmentService.php",
-        "title": "/blob/master/src/Service/ShipmentService.php",
+        "path": "/netresearch/dhl-sdk-api-bcs/commits/master/README.md",
+        "title": "/commits/master/README.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-sdk-api-bcs/commits/master/README.md",
-        "title": "/commits/master/README.md",
+        "path": "/netresearch/dhl-sdk-api-bcs/releases",
+        "title": "/releases",
         "count": 1,
         "uniques": 1
       }
@@ -156,9 +186,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs",
-    "total": 326990,
-    "monthly": 1473,
-    "daily": 56,
+    "total": 327056,
+    "monthly": 1471,
+    "daily": 54,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs"
   },
   "ghcr": null,

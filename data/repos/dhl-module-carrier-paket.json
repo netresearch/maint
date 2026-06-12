@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 5,
-    "packagist_downloads": 243646,
+    "packagist_downloads": 243853,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 2
@@ -47,32 +47,37 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 5557,
+    "packagist_downloads": 5498,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 628,
-    "clones_unique": 112,
-    "views_total": 51,
-    "views_unique": 10,
+    "clones_total": 322,
+    "clones_unique": 72,
+    "views_total": 67,
+    "views_unique": 13,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 6,
-        "uniques": 2
+        "count": 9,
+        "uniques": 3
       },
       {
         "referrer": "github.com",
         "count": 3,
         "uniques": 2
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-module-carrier-paket",
         "title": "Overview",
-        "count": 12,
-        "uniques": 6
+        "count": 14,
+        "uniques": 9
       },
       {
         "path": "/netresearch/dhl-module-carrier-paket/wiki/Documentation-German",
@@ -87,14 +92,32 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/dhl-module-carrier-paket/blob/master/composer.json",
+        "title": "/blob/master/composer.json",
+        "count": 3,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/dhl-module-carrier-paket/tree/master/etc",
         "title": "/tree/master/etc",
         "count": 3,
         "uniques": 1
       },
       {
+        "path": "/netresearch/dhl-module-carrier-paket/blob/3.3.0/composer.json",
+        "title": "/blob/3.3.0/composer.json",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/dhl-module-carrier-paket/blob/master/CHANGELOG.md",
         "title": "/blob/master/CHANGELOG.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/tree/3.3.0",
+        "title": "/tree/3.3.0",
         "count": 2,
         "uniques": 2
       },
@@ -108,24 +131,6 @@
         "path": "/netresearch/dhl-module-carrier-paket/releases",
         "title": "/releases",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-carrier-paket/blob/master/Model/Config/ModuleConfig.php",
-        "title": "/blob/master/Model/Config/ModuleConfig.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-carrier-paket/blob/master/README.md",
-        "title": "/blob/master/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-carrier-paket/blob/master/Setup/Patch/Data/MigrateAccountSettingsPatch.php",
-        "title": "/blob/master/Setup/Patch/Data/MigrateAccountSettingsPatch.php",
-        "count": 1,
         "uniques": 1
       }
     ]
@@ -175,9 +180,9 @@
   ],
   "packagist": {
     "name": "dhl/module-carrier-paket",
-    "total": 243646,
-    "monthly": 5557,
-    "daily": 205,
+    "total": 243853,
+    "monthly": 5498,
+    "daily": 171,
     "url": "https://packagist.org/packages/dhl/module-carrier-paket"
   },
   "ghcr": null,

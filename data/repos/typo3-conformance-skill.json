@@ -21,74 +21,85 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T10:14:23Z",
-  "pushed_at": "2026-06-09T09:43:16Z",
-  "updated_at": "2026-06-09T09:45:06Z",
+  "pushed_at": "2026-06-11T15:10:46Z",
+  "updated_at": "2026-06-11T15:13:12Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 296,
+    "open_issues_plus_prs": 2,
+    "commits": 299,
     "issues_open": 1,
     "issues_closed": 1,
-    "prs_open": 2,
-    "prs_merged": 65,
+    "prs_open": 1,
+    "prs_merged": 67,
     "prs_closed_unmerged": 5,
     "issues_total": 2,
-    "releases": 42,
+    "releases": 43,
     "release_downloads": 120,
-    "contributors": 3,
-    "external_contributors": 0,
+    "contributors": 4,
+    "external_contributors": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 25,
+    "commits": 28,
     "issues_opened": 0,
-    "prs_opened": 12,
-    "prs_merged": 10,
-    "releases": 3,
+    "prs_opened": 13,
+    "prs_merged": 12,
+    "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1032,
-    "clones_unique": 256,
-    "views_total": 26,
+    "clones_total": 1177,
+    "clones_unique": 291,
+    "views_total": 28,
     "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 13,
-        "uniques": 4
+        "count": 12,
+        "uniques": 3
       },
       {
         "referrer": "github.com",
-        "count": 10,
-        "uniques": 4
+        "count": 7,
+        "uniques": 3
+      },
+      {
+        "referrer": "ecosia.org",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-conformance-skill",
         "title": "Overview",
-        "count": 13,
-        "uniques": 10
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance",
-        "title": "/tree/main/skills/typo3-conformance",
-        "count": 3,
-        "uniques": 2
+        "count": 16,
+        "uniques": 9
       },
       {
         "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance/scripts",
         "title": "/tree/main/skills/typo3-conformance/scripts",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -98,8 +109,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/references/runtests-validation.md",
-        "title": "/blob/main/skills/typo3-conformance/references/runtests-validation.md",
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/checkpoints.yaml",
+        "title": "/blob/main/skills/typo3-conformance/checkpoints.yaml",
         "count": 1,
         "uniques": 1
       },
@@ -122,12 +133,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-conformance-skill/pull/63",
-        "title": "/pull/63",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/typo3-conformance-skill/tree/main",
         "title": "/tree/main",
         "count": 1,
@@ -136,15 +141,15 @@
     ]
   },
   "latest_release": {
-    "name": "v2.14.1",
-    "tag_name": "v2.14.1",
-    "published_at": "2026-06-09T09:34:08Z",
-    "url": "https://github.com/netresearch/typo3-conformance-skill/releases/tag/v2.14.1"
+    "name": "v2.15.0",
+    "tag_name": "v2.15.0",
+    "published_at": "2026-06-11T15:12:29Z",
+    "url": "https://github.com/netresearch/typo3-conformance-skill/releases/tag/v2.15.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 290,
+      "contributions": 291,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -156,6 +161,11 @@
       "login": "renovate[bot]",
       "contributions": 2,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "aseemann",
+      "contributions": 2,
+      "url": "https://github.com/aseemann"
     }
   ],
   "packagist": null,
@@ -165,6 +175,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "blast_radius": 67,
+  "blast_radius": 72,
   "archived": false
 }

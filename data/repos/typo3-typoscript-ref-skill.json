@@ -16,8 +16,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-03-02T10:00:54Z",
-  "pushed_at": "2026-05-28T20:23:40Z",
-  "updated_at": "2026-06-07T07:07:43Z",
+  "pushed_at": "2026-06-11T08:35:34Z",
+  "updated_at": "2026-06-11T08:29:48Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
@@ -25,14 +25,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 0,
-    "commits": 70,
+    "commits": 83,
     "issues_open": 0,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 13,
+    "prs_merged": 15,
     "prs_closed_unmerged": 1,
     "issues_total": 0,
-    "releases": 5,
+    "releases": 6,
     "release_downloads": 2,
     "contributors": 2,
     "external_contributors": 1,
@@ -42,51 +42,27 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 6,
+    "commits": 19,
     "issues_opened": 0,
-    "prs_opened": 3,
-    "prs_merged": 3,
-    "releases": 2,
+    "prs_opened": 5,
+    "prs_merged": 5,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 489,
-    "clones_unique": 135,
-    "views_total": 14,
-    "views_unique": 5,
+    "clones_total": 515,
+    "clones_unique": 131,
+    "views_total": 7,
+    "views_unique": 2,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 12,
-        "uniques": 3
+        "count": 6,
+        "uniques": 1
       }
     ],
     "top_paths": [
-      {
-        "path": "/netresearch/typo3-typoscript-ref-skill",
-        "title": "Overview",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-typoscript-ref-skill/blob/main/skills/typo3-typoscript-ref/references/recipes/content-elements.md",
-        "title": "/blob/main/skills/typo3-typoscript-ref/references/recipes/content-elements.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-typoscript-ref-skill/discussions",
-        "title": "/discussions",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-typoscript-ref-skill/blob/main/skills/typo3-typoscript-ref/references/patterns.md",
-        "title": "/blob/main/skills/typo3-typoscript-ref/references/patterns.md",
-        "count": 2,
-        "uniques": 1
-      },
       {
         "path": "/netresearch/typo3-typoscript-ref-skill/blob/main/.claude-plugin/plugin.json",
         "title": "/blob/main/.claude-plugin/plugin.json",
@@ -100,14 +76,20 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/typo3-typoscript-ref-skill/blob/main/skills/typo3-typoscript-ref/references/patterns.md",
+        "title": "/blob/main/skills/typo3-typoscript-ref/references/patterns.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-typoscript-ref-skill/blob/main/skills/typo3-typoscript-ref/references/recipes/ajax-endpoint.md",
         "title": "/blob/main/skills/typo3-typoscript-ref/references/recipes/ajax-endpoint.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-typoscript-ref-skill/blob/main/skills/typo3-typoscript-ref/references/recipes/breadcrumb.md",
-        "title": "/blob/main/skills/typo3-typoscript-ref/references/recipes/breadcrumb.md",
+        "path": "/netresearch/typo3-typoscript-ref-skill/blob/main/skills/typo3-typoscript-ref/references/recipes/content-elements.md",
+        "title": "/blob/main/skills/typo3-typoscript-ref/references/recipes/content-elements.md",
         "count": 1,
         "uniques": 1
       },
@@ -118,29 +100,29 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-typoscript-ref-skill/tree/main/skills/typo3-typoscript-ref/references/recipes",
-        "title": "/tree/main/skills/typo3-typoscript-ref/references/recipes",
+        "path": "/netresearch/typo3-typoscript-ref-skill/discussions",
+        "title": "/discussions",
         "count": 1,
         "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.3.0",
-    "tag_name": "v1.3.0",
-    "published_at": "2026-05-28T20:24:17Z",
-    "url": "https://github.com/netresearch/typo3-typoscript-ref-skill/releases/tag/v1.3.0"
+    "name": "v1.4.0",
+    "tag_name": "v1.4.0",
+    "published_at": "2026-06-11T08:36:04Z",
+    "url": "https://github.com/netresearch/typo3-typoscript-ref-skill/releases/tag/v1.4.0"
   },
   "top_contributors": [
+    {
+      "login": "Gitsko",
+      "contributions": 46,
+      "url": "https://github.com/Gitsko"
+    },
     {
       "login": "CybotTM",
       "contributions": 37,
       "url": "https://github.com/CybotTM"
-    },
-    {
-      "login": "Gitsko",
-      "contributions": 33,
-      "url": "https://github.com/Gitsko"
     }
   ],
   "packagist": null,
@@ -150,6 +132,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-typoscript-ref-skill/network/dependents"
   },
-  "blast_radius": 16,
+  "blast_radius": 18,
   "archived": false
 }

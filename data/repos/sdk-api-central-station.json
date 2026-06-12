@@ -47,12 +47,31 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 109,
-    "clones_unique": 38,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 90,
+    "clones_unique": 28,
+    "views_total": 4,
+    "views_unique": 2,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/sdk-api-central-station/commit/69b3dd190b7083394a37acfea828ef3aa81d6943",
+        "title": "/commit/69b3dd190b7083394a37acfea828ef3aa81d6943",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-central-station",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-central-station/blob/main/doc/Basic.md",
+        "title": "/blob/main/doc/Basic.md",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "2.0.2",
@@ -86,7 +105,7 @@
     "name": "netresearch/sdk-api-central-station",
     "total": 605,
     "monthly": 15,
-    "daily": 2,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/sdk-api-central-station"
   },
   "ghcr": null,

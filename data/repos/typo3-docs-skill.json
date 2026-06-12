@@ -57,15 +57,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 748,
-    "clones_unique": 212,
-    "views_total": 28,
-    "views_unique": 16,
+    "clones_total": 805,
+    "clones_unique": 213,
+    "views_total": 44,
+    "views_unique": 18,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 19,
+        "count": 18,
         "uniques": 9
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "referrer": "claude.ai",
+        "count": 2,
+        "uniques": 1
       },
       {
         "referrer": "ecosia.org",
@@ -77,24 +87,30 @@
       {
         "path": "/netresearch/typo3-docs-skill",
         "title": "Overview",
-        "count": 16,
+        "count": 17,
         "uniques": 14
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/tree/main/skills/typo3-docs",
-        "title": "/tree/main/skills/typo3-docs",
-        "count": 3,
-        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 3,
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/blob/main/docs/ARCHITECTURE.md",
+        "title": "/blob/main/docs/ARCHITECTURE.md",
+        "count": 2,
         "uniques": 2
       },
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/SKILL.md",
         "title": "/blob/main/skills/typo3-docs/SKILL.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/tree/main/skills/typo3-docs",
+        "title": "/tree/main/skills/typo3-docs",
         "count": 2,
         "uniques": 2
       },
@@ -105,14 +121,26 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-docs-skill/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
+        "path": "/netresearch/typo3-docs-skill/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/blob/main/.claude-plugin/plugin.json",
+        "title": "/blob/main/.claude-plugin/plugin.json",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-docs-skill/discussions",
-        "title": "/discussions",
+        "path": "/netresearch/typo3-docs-skill/blob/main/Build/hooks/pre-push",
+        "title": "/blob/main/Build/hooks/pre-push",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/blob/main/hooks/hooks.json",
+        "title": "/blob/main/hooks/hooks.json",
         "count": 1,
         "uniques": 1
       }
