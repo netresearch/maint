@@ -32,7 +32,7 @@
     "release_downloads": 206,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 21396,
+    "packagist_downloads": 21397,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,37 +43,43 @@
     "prs_opened": 47,
     "prs_merged": 47,
     "releases": 6,
-    "packagist_downloads": 4289,
+    "packagist_downloads": 4278,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4802,
-    "clones_unique": 395,
-    "views_total": 17,
-    "views_unique": 11,
+    "clones_total": 5130,
+    "clones_unique": 413,
+    "views_total": 23,
+    "views_unique": 14,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 6,
+        "uniques": 3
+      },
       {
         "referrer": "extensions.typo3.org",
         "count": 3,
         "uniques": 2
       },
       {
-        "referrer": "Google",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "referrer": "github.com",
-        "count": 2,
-        "uniques": 1
+        "count": 3,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 10,
-        "uniques": 7
+        "count": 14,
+        "uniques": 11
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/tree/main/Classes",
+        "title": "/tree/main/Classes",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-vault/blob/main/AGENTS.md",
@@ -100,12 +106,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-vault/pull/129",
-        "title": "/pull/129",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-vault/pull/87",
         "title": "/pull/87",
         "count": 1,
@@ -114,6 +114,12 @@
       {
         "path": "/netresearch/t3x-nr-vault/releases",
         "title": "/releases",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/tree/main/Classes/Hook",
+        "title": "/tree/main/Classes/Hook",
         "count": 1,
         "uniques": 1
       }
@@ -149,9 +155,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 21396,
-    "monthly": 4289,
-    "daily": 191,
+    "total": 21397,
+    "monthly": 4278,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,

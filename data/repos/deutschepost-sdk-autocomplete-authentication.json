@@ -38,7 +38,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 2,
-    "packagist_downloads": 250252,
+    "packagist_downloads": 250301,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,37 +49,61 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 6335,
+    "packagist_downloads": 6219,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 48,
-    "clones_unique": 26,
-    "views_total": 8,
+    "clones_total": 45,
+    "clones_unique": 23,
+    "views_total": 13,
     "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 7,
+        "count": 11,
         "uniques": 2
       }
     ],
     "top_paths": [
       {
-        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication",
-        "title": "Overview",
+        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/blob/master/src/Service/AuthenticationService.php",
+        "title": "/blob/master/src/Service/AuthenticationService.php",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/blob/master/src/Http/HttpServiceFactory.php",
-        "title": "/blob/master/src/Http/HttpServiceFactory.php",
+        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/tree/master/src/Api/Data",
+        "title": "/tree/master/src/Api/Data",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication",
+        "title": "Overview",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/blob/master/src/Service/AuthenticationService.php",
-        "title": "/blob/master/src/Service/AuthenticationService.php",
+        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/actions",
+        "title": "/actions",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/blob/master/CHANGELOG.md",
+        "title": "/blob/master/CHANGELOG.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/blob/master/src/Api/ServiceFactoryInterface.php",
+        "title": "/blob/master/src/Api/ServiceFactoryInterface.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/blob/master/src/Model/Token.php",
+        "title": "/blob/master/src/Model/Token.php",
         "count": 1,
         "uniques": 1
       },
@@ -90,20 +114,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/tree/master/src",
-        "title": "/tree/master/src",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/tree/master/src/Api",
         "title": "/tree/master/src/Api",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/tree/master/src/Http",
-        "title": "/tree/master/src/Http",
+        "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/tree/master/src/Exception",
+        "title": "/tree/master/src/Exception",
         "count": 1,
         "uniques": 1
       }
@@ -139,9 +157,9 @@
   ],
   "packagist": {
     "name": "deutschepost/sdk-api-autocomplete-authentication",
-    "total": 250252,
-    "monthly": 6335,
-    "daily": 230,
+    "total": 250301,
+    "monthly": 6219,
+    "daily": 49,
     "url": "https://packagist.org/packages/deutschepost/sdk-api-autocomplete-authentication"
   },
   "ghcr": null,

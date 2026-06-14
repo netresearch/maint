@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 3,
-    "packagist_downloads": 306804,
+    "packagist_downloads": 306845,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,33 +43,22 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 5856,
+    "packagist_downloads": 5728,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 254,
-    "clones_unique": 68,
-    "views_total": 15,
-    "views_unique": 4,
+    "clones_total": 250,
+    "clones_unique": 65,
+    "views_total": 10,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 9,
         "uniques": 2
-      },
-      {
-        "referrer": "github.com",
-        "count": 5,
-        "uniques": 1
       }
     ],
     "top_paths": [
-      {
-        "path": "/netresearch/dhl-module-shipping-core",
-        "title": "Overview",
-        "count": 2,
-        "uniques": 2
-      },
       {
         "path": "/netresearch/dhl-module-shipping-core/blob/master/README.md",
         "title": "/blob/master/README.md",
@@ -83,14 +72,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-module-shipping-core/blob/master/.gitignore",
-        "title": "/blob/master/.gitignore",
+        "path": "/netresearch/dhl-module-shipping-core",
+        "title": "Overview",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-module-shipping-core/blob/master/etc/di.xml",
-        "title": "/blob/master/etc/di.xml",
+        "path": "/netresearch/dhl-module-shipping-core/blob/master/.gitignore",
+        "title": "/blob/master/.gitignore",
         "count": 1,
         "uniques": 1
       },
@@ -115,12 +104,6 @@
       {
         "path": "/netresearch/dhl-module-shipping-core/tree/master/Setup/Module",
         "title": "/tree/master/Setup/Module",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-shipping-core/tree/master/etc",
-        "title": "/tree/master/etc",
         "count": 1,
         "uniques": 1
       }
@@ -161,9 +144,9 @@
   ],
   "packagist": {
     "name": "dhl/module-shipping-core",
-    "total": 306804,
-    "monthly": 5856,
-    "daily": 226,
+    "total": 306845,
+    "monthly": 5728,
+    "daily": 38,
     "url": "https://packagist.org/packages/dhl/module-shipping-core"
   },
   "ghcr": null,

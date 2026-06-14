@@ -16,8 +16,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2021-04-07T08:07:39Z",
-  "pushed_at": "2026-06-12T19:56:01Z",
-  "updated_at": "2026-06-12T19:56:04Z",
+  "pushed_at": "2026-06-14T01:27:51Z",
+  "updated_at": "2026-06-14T01:27:54Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
@@ -25,11 +25,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 519,
+    "commits": 521,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 359,
+    "prs_merged": 360,
     "prs_closed_unmerged": 74,
     "issues_total": 2,
     "releases": 25,
@@ -42,21 +42,27 @@
     "dependents_packages": 3
   },
   "recent_30d": {
-    "commits": 43,
+    "commits": 39,
     "issues_opened": 0,
-    "prs_opened": 22,
-    "prs_merged": 22,
+    "prs_opened": 21,
+    "prs_merged": 21,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 363,
-    "clones_unique": 120,
-    "views_total": 3,
-    "views_unique": 2,
+    "clones_total": 375,
+    "clones_unique": 123,
+    "views_total": 5,
+    "views_unique": 3,
     "top_referrers": [],
     "top_paths": [
+      {
+        "path": "/netresearch/node-red-contrib-magento-eqp/commit/a8562cfd4d34663c08da6d6256ab431d6b1db265",
+        "title": "/commit/a8562cfd4d34663c08da6d6256ab431d6b1db265",
+        "count": 2,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/node-red-contrib-magento-eqp",
         "title": "Overview",
@@ -86,7 +92,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 358,
+      "contributions": 360,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -127,6 +133,6 @@
     "packages": 3,
     "url": "https://github.com/netresearch/node-red-contrib-magento-eqp/network/dependents"
   },
-  "blast_radius": 369,
+  "blast_radius": 370,
   "archived": false
 }

@@ -36,7 +36,7 @@
     "prs_closed_unmerged": 17,
     "issues_total": 14,
     "releases": 16,
-    "release_downloads": 30,
+    "release_downloads": 36,
     "contributors": 12,
     "external_contributors": 8,
     "packagist_downloads": 11576,
@@ -50,24 +50,24 @@
     "prs_opened": 1,
     "prs_merged": 1,
     "releases": 0,
-    "packagist_downloads": 451,
+    "packagist_downloads": 444,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 213,
-    "clones_unique": 51,
-    "views_total": 12,
-    "views_unique": 6,
+    "clones_total": 218,
+    "clones_unique": 55,
+    "views_total": 15,
+    "views_unique": 5,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 7,
+        "uniques": 1
+      },
       {
         "referrer": "extensions.typo3.org",
         "count": 5,
         "uniques": 2
-      },
-      {
-        "referrer": "packagist.org",
-        "count": 3,
-        "uniques": 1
       },
       {
         "referrer": "github.com",
@@ -89,20 +89,32 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-cowriter/releases",
-        "title": "/releases",
-        "count": 2,
+        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
+        "title": "/blob/main/Documentation/Images/CowriterHero.png",
+        "count": 3,
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
-        "title": "/blob/main/Documentation/Images/CowriterHero.png",
+        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterDialog.png",
+        "title": "/blob/main/Documentation/Images/CowriterDialog.png",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-cowriter/tags",
-        "title": "/tags",
+        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterDialogCropped.png",
+        "title": "/blob/main/Documentation/Images/CowriterDialogCropped.png",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterToolbarButton.png",
+        "title": "/blob/main/Documentation/Images/CowriterToolbarButton.png",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/pagetsconfig.png",
+        "title": "/blob/main/Documentation/Images/pagetsconfig.png",
         "count": 1,
         "uniques": 1
       }
@@ -169,8 +181,8 @@
   "packagist": {
     "name": "netresearch/t3-cowriter",
     "total": 11576,
-    "monthly": 451,
-    "daily": 36,
+    "monthly": 444,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,

@@ -62,15 +62,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1124,
-    "clones_unique": 173,
-    "views_total": 45,
-    "views_unique": 14,
+    "clones_total": 839,
+    "clones_unique": 131,
+    "views_total": 62,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 6,
-        "uniques": 5
+        "count": 14,
+        "uniques": 6
+      },
+      {
+        "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "github.com",
@@ -82,13 +87,25 @@
       {
         "path": "/netresearch/jira-to-openproject",
         "title": "Overview",
-        "count": 17,
-        "uniques": 8
+        "count": 26,
+        "uniques": 9
       },
       {
         "path": "/netresearch/jira-to-openproject/issues/260",
         "title": "/issues/260",
-        "count": 16,
+        "count": 14,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/blob/main/docs/configuration.md",
+        "title": "/blob/main/docs/configuration.md",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/issues",
+        "title": "/issues",
+        "count": 4,
         "uniques": 1
       },
       {
@@ -98,44 +115,32 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/jira-to-openproject/blob/main/docs/configuration.md",
-        "title": "/blob/main/docs/configuration.md",
+        "path": "/netresearch/jira-to-openproject/blob/main/docs/DEVELOPER_GUIDE.md",
+        "title": "/blob/main/docs/DEVELOPER_GUIDE.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/jira-to-openproject/issues",
-        "title": "/issues",
+        "path": "/netresearch/jira-to-openproject/blob/main/docs/ENTITY_MAPPING.md",
+        "title": "/blob/main/docs/ENTITY_MAPPING.md",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-to-openproject/blob/main/docs/DEVELOPER_GUIDE.md",
-        "title": "/blob/main/docs/DEVELOPER_GUIDE.md",
-        "count": 1,
-        "uniques": 1
+        "uniques": 2
       },
       {
         "path": "/netresearch/jira-to-openproject/blob/main/docs/WORKFLOW_STATUS_GUIDE.md",
         "title": "/blob/main/docs/WORKFLOW_STATUS_GUIDE.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/blob/main/.env",
+        "title": "/blob/main/.env",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/jira-to-openproject/pull/233",
-        "title": "/pull/233",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-to-openproject/pull/244",
-        "title": "/pull/244",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-to-openproject/pull/245",
-        "title": "/pull/245",
+        "path": "/netresearch/jira-to-openproject/blob/main/docs/adr/ADR-001-two-phase-work-package-migration.md",
+        "title": "/blob/main/docs/adr/ADR-001-two-phase-work-package-migration.md",
         "count": 1,
         "uniques": 1
       }

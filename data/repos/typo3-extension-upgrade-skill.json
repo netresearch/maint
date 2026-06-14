@@ -49,49 +49,79 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 738,
-    "clones_unique": 184,
-    "views_total": 48,
-    "views_unique": 28,
+    "clones_total": 775,
+    "clones_unique": 189,
+    "views_total": 89,
+    "views_unique": 29,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 23,
-        "uniques": 13
-      },
-      {
-        "referrer": "statics.teams.cdn.office.net",
-        "count": 6,
-        "uniques": 3
+        "count": 61,
+        "uniques": 12
       },
       {
         "referrer": "claude.ai",
-        "count": 4,
+        "count": 5,
         "uniques": 1
       },
       {
         "referrer": "github.com",
-        "count": 3,
-        "uniques": 2
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "referrer": "statics.teams.cdn.office.net",
+        "count": 4,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-extension-upgrade-skill",
         "title": "Overview",
-        "count": 23,
-        "uniques": 17
+        "count": 21,
+        "uniques": 16
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/SKILL.md",
         "title": "/blob/main/skills/typo3-extension-upgrade/SKILL.md",
-        "count": 5,
-        "uniques": 4
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/tree/main",
         "title": "/tree/main",
+        "count": 6,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade",
+        "title": "/tree/main/skills/typo3-extension-upgrade",
+        "count": 5,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/agents",
+        "title": "/tree/main/agents",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/agents/upgrade-planner.md",
+        "title": "/blob/main/agents/upgrade-planner.md",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/.claude-plugin/plugin.json",
+        "title": "/blob/main/.claude-plugin/plugin.json",
         "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/assets/rector.php",
+        "title": "/blob/main/skills/typo3-extension-upgrade/assets/rector.php",
+        "count": 2,
         "uniques": 2
       },
       {
@@ -101,39 +131,9 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/agents",
-        "title": "/tree/main/agents",
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
         "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade",
-        "title": "/tree/main/skills/typo3-extension-upgrade",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/actions/runs/26325181327/workflow",
-        "title": "/actions/runs/26325181327/workflow",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/12a0a907d06b136e6e5b28a02f561b327eae9558/skills/typo3-extension-upgrade/assets/rector.php",
-        "title": "/blob/12a0a907d06b136e6e5b28a02f561b327eae9558/skills/typo3-extension-upgrade/assets/rector.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/agents/upgrade-planner.md",
-        "title": "/blob/main/agents/upgrade-planner.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
-        "count": 1,
         "uniques": 1
       }
     ]

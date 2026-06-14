@@ -29,14 +29,14 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 214,
-    "issues_open": 1,
+    "issues_open": 2,
     "issues_closed": 0,
     "prs_open": 0,
     "prs_merged": 40,
     "prs_closed_unmerged": 0,
-    "issues_total": 1,
+    "issues_total": 2,
     "releases": 43,
     "release_downloads": 104,
     "contributors": 4,
@@ -48,7 +48,7 @@
   },
   "recent_30d": {
     "commits": 16,
-    "issues_opened": 0,
+    "issues_opened": 1,
     "prs_opened": 5,
     "prs_merged": 5,
     "releases": 3,
@@ -56,23 +56,23 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 873,
-    "clones_unique": 217,
-    "views_total": 22,
-    "views_unique": 20,
+    "clones_total": 751,
+    "clones_unique": 183,
+    "views_total": 24,
+    "views_unique": 21,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 12,
+        "count": 13,
         "uniques": 10
       },
       {
-        "referrer": "chatgpt.com",
-        "count": 1,
-        "uniques": 1
+        "referrer": "github.com",
+        "count": 2,
+        "uniques": 2
       },
       {
-        "referrer": "github.com",
+        "referrer": "chatgpt.com",
         "count": 1,
         "uniques": 1
       },
@@ -91,8 +91,14 @@
       {
         "path": "/netresearch/matrix-skill",
         "title": "Overview",
-        "count": 20,
-        "uniques": 19
+        "count": 21,
+        "uniques": 20
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-administration",
@@ -101,8 +107,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication",
-        "title": "/blob/main/skills/matrix-communication",
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/SKILL.md",
+        "title": "/blob/main/skills/matrix-communication/SKILL.md",
         "count": 1,
         "uniques": 1
       }
@@ -143,6 +149,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/matrix-skill/network/dependents"
   },
-  "blast_radius": 41,
+  "blast_radius": 42,
   "archived": false
 }

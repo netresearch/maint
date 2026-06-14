@@ -42,7 +42,7 @@
     "prs_closed_unmerged": 13,
     "issues_total": 6,
     "releases": 30,
-    "release_downloads": 267,
+    "release_downloads": 325,
     "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 5351,
@@ -56,49 +56,89 @@
     "prs_opened": 38,
     "prs_merged": 34,
     "releases": 6,
-    "packagist_downloads": 503,
+    "packagist_downloads": 491,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5326,
-    "clones_unique": 456,
-    "views_total": 15,
-    "views_unique": 8,
+    "clones_total": 6948,
+    "clones_unique": 535,
+    "views_total": 38,
+    "views_unique": 13,
     "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 19,
+        "uniques": 2
+      },
       {
         "referrer": "Google",
         "count": 10,
         "uniques": 5
+      },
+      {
+        "referrer": "github.com",
+        "count": 3,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 11,
-        "uniques": 7
+        "count": 16,
+        "uniques": 12
       },
       {
-        "path": "/netresearch/t3x-nr-llm/blob/main/Documentation/Administration/UserBudgets.rst",
-        "title": "/blob/main/Documentation/Administration/UserBudgets.rst",
+        "path": "/netresearch/t3x-nr-llm/blob/main/.env.example",
+        "title": "/blob/main/.env.example",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-llm/graphs/contributors",
-        "title": "/graphs/contributors",
+        "path": "/netresearch/t3x-nr-llm/blob/main/Build/Scripts/runTests.sh",
+        "title": "/blob/main/Build/Scripts/runTests.sh",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-llm/tree/main/Documentation",
-        "title": "/tree/main/Documentation",
+        "path": "/netresearch/t3x-nr-llm/blob/main/Build/fractor/fractor.php",
+        "title": "/blob/main/Build/fractor/fractor.php",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-llm/tree/main/Documentation/Administration",
-        "title": "/tree/main/Documentation/Administration",
+        "path": "/netresearch/t3x-nr-llm/blob/main/Build/phpstan/phpstan.neon",
+        "title": "/blob/main/Build/phpstan/phpstan.neon",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/Build/rector/rector.php",
+        "title": "/blob/main/Build/rector/rector.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/Classes/AGENTS.md",
+        "title": "/blob/main/Classes/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/Classes/CLAUDE.md",
+        "title": "/blob/main/Classes/CLAUDE.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/Configuration/AGENTS.md",
+        "title": "/blob/main/Configuration/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/Configuration/Caching.php",
+        "title": "/blob/main/Configuration/Caching.php",
         "count": 1,
         "uniques": 1
       }
@@ -140,8 +180,8 @@
   "packagist": {
     "name": "netresearch/nr-llm",
     "total": 5351,
-    "monthly": 503,
-    "daily": 39,
+    "monthly": 491,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,

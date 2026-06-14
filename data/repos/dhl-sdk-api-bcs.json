@@ -42,7 +42,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 4,
-    "packagist_downloads": 327080,
+    "packagist_downloads": 327082,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -53,14 +53,14 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1469,
+    "packagist_downloads": 1425,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 30,
-    "clones_unique": 27,
+    "clones_total": 21,
+    "clones_unique": 18,
     "views_total": 24,
-    "views_unique": 11,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -69,8 +69,8 @@
       },
       {
         "referrer": "Google",
-        "count": 3,
-        "uniques": 2
+        "count": 4,
+        "uniques": 3
       },
       {
         "referrer": "chatgpt.com",
@@ -82,8 +82,14 @@
       {
         "path": "/netresearch/dhl-sdk-api-bcs",
         "title": "Overview",
-        "count": 10,
-        "uniques": 7
+        "count": 9,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Service/OrderService.php",
+        "title": "/blob/master/src/Service/OrderService.php",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-sdk-api-bcs/tree/master/src",
@@ -118,12 +124,6 @@
       {
         "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Auth/AuthenticationStorage.php",
         "title": "/blob/master/src/Auth/AuthenticationStorage.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Service/OrderService.php",
-        "title": "/blob/master/src/Service/OrderService.php",
         "count": 1,
         "uniques": 1
       },
@@ -186,9 +186,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs",
-    "total": 327080,
-    "monthly": 1469,
-    "daily": 20,
+    "total": 327082,
+    "monthly": 1425,
+    "daily": 2,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs"
   },
   "ghcr": null,
