@@ -38,7 +38,7 @@
     "release_downloads": 14340,
     "contributors": 6,
     "external_contributors": 5,
-    "packagist_downloads": 10,
+    "packagist_downloads": 13,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,19 +49,19 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 10,
+    "packagist_downloads": 13,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 61,
-    "clones_unique": 33,
-    "views_total": 41,
-    "views_unique": 18,
+    "clones_total": 60,
+    "clones_unique": 32,
+    "views_total": 29,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 9,
-        "uniques": 6
+        "count": 4,
+        "uniques": 4
       },
       {
         "referrer": "Bing",
@@ -78,8 +78,8 @@
       {
         "path": "/netresearch/dhl-module-versenden-m1",
         "title": "Overview",
-        "count": 11,
-        "uniques": 10
+        "count": 9,
+        "uniques": 9
       },
       {
         "path": "/netresearch/dhl-module-versenden-m1/issues",
@@ -106,12 +106,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/EndUserDoc.rst",
-        "title": "/blob/master/doc/src/EndUserDoc.rst",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/dhl-module-versenden-m1/blob/1.9.0/CHANGELOG.md",
         "title": "/blob/1.9.0/CHANGELOG.md",
         "count": 1,
@@ -124,14 +118,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/Dhl_Versenden/.gitkeep",
-        "title": "/blob/master/doc/Dhl_Versenden/.gitkeep",
+        "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/EndUserDoc.rst",
+        "title": "/blob/master/doc/src/EndUserDoc.rst",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/EndKundenDoku.pdf",
-        "title": "/blob/master/doc/src/EndKundenDoku.pdf",
+        "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/images/en/merchant_services.png",
+        "title": "/blob/master/doc/src/images/en/merchant_services.png",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/issues/13",
+        "title": "/issues/13",
         "count": 1,
         "uniques": 1
       }
@@ -177,9 +177,9 @@
   ],
   "packagist": {
     "name": "dhl/module-versenden-m1",
-    "total": 10,
-    "monthly": 10,
-    "daily": 0,
+    "total": 13,
+    "monthly": 13,
+    "daily": 2,
     "url": "https://packagist.org/packages/dhl/module-versenden-m1"
   },
   "ghcr": null,

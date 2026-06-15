@@ -15,10 +15,10 @@
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:34Z",
   "pushed_at": "2026-06-12T22:23:08Z",
-  "updated_at": "2026-06-12T22:23:10Z",
+  "updated_at": "2026-06-14T20:08:53Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 24,
+    "stars": 25,
     "forks": 3,
     "watchers": 1,
     "network": 3,
@@ -31,7 +31,7 @@
     "prs_closed_unmerged": 0,
     "issues_total": 2,
     "releases": 28,
-    "release_downloads": 109,
+    "release_downloads": 111,
     "contributors": 4,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -40,39 +40,39 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 66,
+    "commits": 64,
     "issues_opened": 0,
-    "prs_opened": 24,
-    "prs_merged": 24,
-    "releases": 4,
+    "prs_opened": 23,
+    "prs_merged": 23,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2382,
-    "clones_unique": 555,
-    "views_total": 580,
-    "views_unique": 256,
+    "clones_total": 2378,
+    "clones_unique": 553,
+    "views_total": 591,
+    "views_unique": 257,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 327,
-        "uniques": 172
-      },
-      {
-        "referrer": "github.com",
-        "count": 41,
-        "uniques": 18
+        "count": 354,
+        "uniques": 178
       },
       {
         "referrer": "search.brave.com",
-        "count": 37,
-        "uniques": 5
+        "count": 38,
+        "uniques": 6
+      },
+      {
+        "referrer": "github.com",
+        "count": 33,
+        "uniques": 18
       },
       {
         "referrer": "Bing",
-        "count": 19,
-        "uniques": 12
+        "count": 17,
+        "uniques": 10
       },
       {
         "referrer": "perplexity.ai",
@@ -86,8 +86,8 @@
       },
       {
         "referrer": "DuckDuckGo",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "claude.ai",
@@ -104,20 +104,20 @@
       {
         "path": "/netresearch/git-workflow-skill",
         "title": "Overview",
-        "count": 281,
-        "uniques": 229
+        "count": 285,
+        "uniques": 230
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow",
         "title": "/tree/main/skills/git-workflow",
-        "count": 65,
-        "uniques": 51
+        "count": 63,
+        "uniques": 49
       },
       {
         "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/SKILL.md",
         "title": "/blob/main/skills/git-workflow/SKILL.md",
-        "count": 45,
-        "uniques": 32
+        "count": 44,
+        "uniques": 31
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main",
@@ -138,16 +138,16 @@
         "uniques": 9
       },
       {
+        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/scripts/verify-git-workflow.sh",
+        "title": "/blob/main/skills/git-workflow/scripts/verify-git-workflow.sh",
+        "count": 9,
+        "uniques": 7
+      },
+      {
         "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/branching-strategies.md",
         "title": "/blob/main/skills/git-workflow/references/branching-strategies.md",
         "count": 7,
         "uniques": 7
-      },
-      {
-        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/scripts/verify-git-workflow.sh",
-        "title": "/blob/main/skills/git-workflow/scripts/verify-git-workflow.sh",
-        "count": 7,
-        "uniques": 6
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/scripts",
@@ -156,10 +156,10 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/git-workflow-skill/tree/main/scripts",
-        "title": "/tree/main/scripts",
-        "count": 6,
-        "uniques": 6
+        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/checkpoints.yaml",
+        "title": "/blob/main/skills/git-workflow/checkpoints.yaml",
+        "count": 7,
+        "uniques": 4
       }
     ]
   },

@@ -47,40 +47,41 @@
   "recent_30d": {
     "commits": 58,
     "issues_opened": 0,
-    "prs_opened": 34,
-    "prs_merged": 31,
+    "prs_opened": 32,
+    "prs_merged": 29,
     "releases": 1,
-    "packagist_downloads": 569,
+    "packagist_downloads": 568,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 815,
-    "clones_unique": 151,
-    "views_total": 30,
-    "views_unique": 24,
+    "clones_total": 806,
+    "clones_unique": 152,
+    "views_total": 32,
+    "views_unique": 25,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 13,
+        "uniques": 10
+      },
       {
         "referrer": "github.com",
         "count": 12,
         "uniques": 9
-      },
-      {
-        "referrer": "Google",
-        "count": 11,
-        "uniques": 9
-      },
-      {
-        "referrer": "netresearch.github.io",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 23,
-        "uniques": 19
+        "count": 24,
+        "uniques": 20
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/tree/main/src",
+        "title": "/tree/main/src",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/docs/adr/001-universal-discovery.md",
@@ -115,12 +116,6 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin/tree/main/examples/database-analyzer-skill",
         "title": "/tree/main/examples/database-analyzer-skill",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/tree/main/src",
-        "title": "/tree/main/src",
         "count": 1,
         "uniques": 1
       }
@@ -162,7 +157,7 @@
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
     "total": 1782,
-    "monthly": 569,
+    "monthly": 568,
     "daily": 0,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },

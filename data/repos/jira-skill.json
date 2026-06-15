@@ -20,7 +20,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-07T10:15:13Z",
-  "pushed_at": "2026-06-11T15:16:25Z",
+  "pushed_at": "2026-06-14T21:15:07Z",
   "updated_at": "2026-06-12T02:55:20Z",
   "composer_name": null,
   "lifetime": {
@@ -28,11 +28,11 @@
     "forks": 20,
     "watchers": 1,
     "network": 20,
-    "open_issues_plus_prs": 3,
+    "open_issues_plus_prs": 4,
     "commits": 456,
     "issues_open": 2,
     "issues_closed": 25,
-    "prs_open": 1,
+    "prs_open": 2,
     "prs_merged": 96,
     "prs_closed_unmerged": 6,
     "issues_total": 27,
@@ -46,39 +46,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 59,
+    "commits": 46,
     "issues_opened": 3,
-    "prs_opened": 22,
-    "prs_merged": 21,
-    "releases": 4,
+    "prs_opened": 19,
+    "prs_merged": 17,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1938,
+    "clones_total": 1946,
     "clones_unique": 460,
-    "views_total": 805,
-    "views_unique": 312,
+    "views_total": 795,
+    "views_unique": 310,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 294,
-        "uniques": 117
-      },
-      {
-        "referrer": "Bing",
-        "count": 77,
-        "uniques": 34
+        "count": 297,
+        "uniques": 118
       },
       {
         "referrer": "github.com",
-        "count": 76,
+        "count": 80,
         "uniques": 35
       },
       {
-        "referrer": "DuckDuckGo",
-        "count": 18,
-        "uniques": 9
+        "referrer": "Bing",
+        "count": 75,
+        "uniques": 32
       },
       {
         "referrer": "statics.teams.cdn.office.net",
@@ -91,9 +86,9 @@
         "uniques": 4
       },
       {
-        "referrer": "yandex.ru",
-        "count": 6,
-        "uniques": 1
+        "referrer": "DuckDuckGo",
+        "count": 12,
+        "uniques": 8
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
@@ -109,20 +104,31 @@
         "referrer": "Yahoo",
         "count": 2,
         "uniques": 1
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/jira-skill",
         "title": "Overview",
-        "count": 323,
-        "uniques": 238
+        "count": 318,
+        "uniques": 233
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 63,
+        "count": 62,
         "uniques": 56
+      },
+      {
+        "path": "/netresearch/jira-skill/tree/main/skills/jira-communication",
+        "title": "/tree/main/skills/jira-communication",
+        "count": 36,
+        "uniques": 33
       },
       {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-communication/SKILL.md",
@@ -131,16 +137,10 @@
         "uniques": 30
       },
       {
-        "path": "/netresearch/jira-skill/tree/main/skills/jira-communication",
-        "title": "/tree/main/skills/jira-communication",
-        "count": 34,
-        "uniques": 31
-      },
-      {
         "path": "/netresearch/jira-skill/tree/main/skills/jira-syntax",
         "title": "/tree/main/skills/jira-syntax",
-        "count": 18,
-        "uniques": 13
+        "count": 15,
+        "uniques": 11
       },
       {
         "path": "/netresearch/jira-skill/issues",
@@ -151,8 +151,8 @@
       {
         "path": "/netresearch/jira-skill/tree/main/skills/jira-communication/scripts",
         "title": "/tree/main/skills/jira-communication/scripts",
-        "count": 10,
-        "uniques": 10
+        "count": 11,
+        "uniques": 11
       },
       {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-communication/CLAUDE.md",
@@ -161,14 +161,14 @@
         "uniques": 7
       },
       {
-        "path": "/netresearch/jira-skill/blob/main/skills/jira-communication/scripts/core/jira-issue.py",
-        "title": "/blob/main/skills/jira-communication/scripts/core/jira-issue.py",
-        "count": 8,
-        "uniques": 8
+        "path": "/netresearch/jira-skill/releases",
+        "title": "/releases",
+        "count": 9,
+        "uniques": 9
       },
       {
-        "path": "/netresearch/jira-skill/blob/main/skills/jira-syntax/SKILL.md",
-        "title": "/blob/main/skills/jira-syntax/SKILL.md",
+        "path": "/netresearch/jira-skill/blob/main/skills/jira-communication/scripts/core/jira-issue.py",
+        "title": "/blob/main/skills/jira-communication/scripts/core/jira-issue.py",
         "count": 8,
         "uniques": 8
       }
