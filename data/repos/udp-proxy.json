@@ -47,21 +47,32 @@
   "traffic_14d": {
     "clones_total": 13,
     "clones_unique": 13,
-    "views_total": 17,
-    "views_unique": 15,
+    "views_total": 21,
+    "views_unique": 18,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 13,
-        "uniques": 12
+        "count": 15,
+        "uniques": 14
+      },
+      {
+        "referrer": "pkg.go.dev",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/udp-proxy",
         "title": "Overview",
-        "count": 14,
-        "uniques": 13
+        "count": 16,
+        "uniques": 15
+      },
+      {
+        "path": "/netresearch/udp-proxy/blob/v1.0.1/main.go",
+        "title": "/blob/v1.0.1/main.go",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/udp-proxy/blob/main/main.go",

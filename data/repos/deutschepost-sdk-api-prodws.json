@@ -37,7 +37,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 2,
-    "packagist_downloads": 216588,
+    "packagist_downloads": 216942,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -48,16 +48,29 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5641,
+    "packagist_downloads": 5711,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 39,
     "clones_unique": 19,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "packagist.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/deutschepost-sdk-api-prodws/tree/master/src",
+        "title": "/tree/master/src",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.3.0",
@@ -89,9 +102,9 @@
   ],
   "packagist": {
     "name": "deutschepost/sdk-api-prodws",
-    "total": 216588,
-    "monthly": 5641,
-    "daily": 257,
+    "total": 216942,
+    "monthly": 5711,
+    "daily": 294,
     "url": "https://packagist.org/packages/deutschepost/sdk-api-prodws"
   },
   "ghcr": null,

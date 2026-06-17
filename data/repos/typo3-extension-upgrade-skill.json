@@ -49,20 +49,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 772,
-    "clones_unique": 194,
-    "views_total": 91,
-    "views_unique": 31,
+    "clones_total": 784,
+    "clones_unique": 196,
+    "views_total": 95,
+    "views_unique": 30,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 61,
-        "uniques": 12
+        "count": 59,
+        "uniques": 11
       },
       {
         "referrer": "github.com",
-        "count": 6,
-        "uniques": 5
+        "count": 7,
+        "uniques": 6
+      },
+      {
+        "referrer": "skills.sh",
+        "count": 7,
+        "uniques": 1
       },
       {
         "referrer": "claude.ai",
@@ -71,16 +76,16 @@
       },
       {
         "referrer": "statics.teams.cdn.office.net",
-        "count": 4,
-        "uniques": 3
+        "count": 3,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-extension-upgrade-skill",
         "title": "Overview",
-        "count": 23,
-        "uniques": 18
+        "count": 21,
+        "uniques": 17
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/SKILL.md",
@@ -97,14 +102,20 @@
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade",
         "title": "/tree/main/skills/typo3-extension-upgrade",
-        "count": 5,
-        "uniques": 3
+        "count": 6,
+        "uniques": 4
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/agents",
         "title": "/tree/main/agents",
+        "count": 5,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/.claude-plugin/plugin.json",
+        "title": "/blob/main/.claude-plugin/plugin.json",
         "count": 4,
-        "uniques": 3
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/agents/upgrade-planner.md",
@@ -113,10 +124,10 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/.claude-plugin/plugin.json",
-        "title": "/blob/main/.claude-plugin/plugin.json",
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
         "count": 3,
-        "uniques": 1
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/assets/rector.php",
@@ -129,12 +140,6 @@
         "title": "/blob/main/skills/typo3-extension-upgrade/references/upgrade-v13-to-v14.md",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 2,
-        "uniques": 1
       }
     ]
   },

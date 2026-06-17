@@ -33,11 +33,11 @@
     "open_issues_plus_prs": 1,
     "commits": 193,
     "issues_open": 1,
-    "issues_closed": 2,
+    "issues_closed": 1,
     "prs_open": 0,
     "prs_merged": 46,
     "prs_closed_unmerged": 4,
-    "issues_total": 3,
+    "issues_total": 2,
     "releases": 41,
     "release_downloads": 92,
     "contributors": 3,
@@ -49,7 +49,7 @@
   },
   "recent_30d": {
     "commits": 6,
-    "issues_opened": 1,
+    "issues_opened": 0,
     "prs_opened": 3,
     "prs_merged": 3,
     "releases": 1,
@@ -57,15 +57,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 619,
-    "clones_unique": 158,
-    "views_total": 36,
-    "views_unique": 15,
+    "clones_total": 640,
+    "clones_unique": 161,
+    "views_total": 43,
+    "views_unique": 17,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 10,
-        "uniques": 8
+        "count": 13,
+        "uniques": 9
       },
       {
         "referrer": "search.brave.com",
@@ -82,8 +82,8 @@
       {
         "path": "/netresearch/typo3-docs-skill",
         "title": "Overview",
-        "count": 14,
-        "uniques": 12
+        "count": 17,
+        "uniques": 14
       },
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/AGENTS.md",
@@ -94,6 +94,12 @@
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/hooks/hooks.json",
         "title": "/blob/main/hooks/hooks.json",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/blob/main/.claude-plugin/plugin.json",
+        "title": "/blob/main/.claude-plugin/plugin.json",
         "count": 2,
         "uniques": 1
       },
@@ -104,14 +110,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-docs-skill/blob/main/.claude-plugin/plugin.json",
-        "title": "/blob/main/.claude-plugin/plugin.json",
+        "path": "/netresearch/typo3-docs-skill/blob/main/Build/hooks/pre-push",
+        "title": "/blob/main/Build/hooks/pre-push",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-docs-skill/blob/main/Build/hooks/pre-push",
-        "title": "/blob/main/Build/hooks/pre-push",
+        "path": "/netresearch/typo3-docs-skill/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
         "count": 1,
         "uniques": 1
       },
@@ -130,12 +136,6 @@
       {
         "path": "/netresearch/typo3-docs-skill/discussions",
         "title": "/discussions",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/issues",
-        "title": "/issues",
         "count": 1,
         "uniques": 1
       }
@@ -171,6 +171,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-docs-skill/network/dependents"
   },
-  "blast_radius": 49,
+  "blast_radius": 48,
   "archived": false
 }
