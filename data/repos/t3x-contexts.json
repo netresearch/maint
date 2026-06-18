@@ -48,12 +48,19 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 48,
-    "clones_unique": 23,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 170,
+    "clones_unique": 50,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-contexts",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v4.0.0",
@@ -117,7 +124,7 @@
     "name": "netresearch/contexts",
     "total": 18888,
     "monthly": 432,
-    "daily": 108,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,

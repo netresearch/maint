@@ -55,16 +55,41 @@
     "prs_opened": 4,
     "prs_merged": 4,
     "releases": 0,
-    "packagist_downloads": 19,
+    "packagist_downloads": 17,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 173,
-    "clones_unique": 45,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 255,
+    "clones_unique": 54,
+    "views_total": 3,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "jira.netresearch.de",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-textdb",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/issues/93",
+        "title": "/issues/93",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/tree/typo3-14",
+        "title": "/tree/typo3-14",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v3.0.3 - TER Workflow Fix",
@@ -117,7 +142,7 @@
   "packagist": {
     "name": "netresearch/nr-textdb",
     "total": 779,
-    "monthly": 19,
+    "monthly": 17,
     "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },

@@ -49,14 +49,14 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 426,
-    "clones_unique": 136,
-    "views_total": 33,
+    "clones_total": 423,
+    "clones_unique": 142,
+    "views_total": 50,
     "views_unique": 12,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 6,
+        "count": 21,
         "uniques": 3
       },
       {
@@ -66,7 +66,7 @@
       },
       {
         "referrer": "Bing",
-        "count": 1,
+        "count": 2,
         "uniques": 1
       }
     ],
@@ -74,18 +74,48 @@
       {
         "path": "/netresearch/typo3-ckeditor5-skill",
         "title": "Overview",
-        "count": 9,
+        "count": 10,
         "uniques": 8
       },
       {
         "path": "/netresearch/typo3-ckeditor5-skill/blob/main/skills/typo3-ckeditor5/SKILL.md",
         "title": "/blob/main/skills/typo3-ckeditor5/SKILL.md",
+        "count": 5,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/typo3-ckeditor5-skill/tree/main/skills/typo3-ckeditor5",
+        "title": "/tree/main/skills/typo3-ckeditor5",
         "count": 4,
-        "uniques": 4
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-ckeditor5-skill/tree/main",
         "title": "/tree/main",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/skills/typo3-ckeditor5/references/ckeditor5-architecture.md",
+        "title": "/blob/main/skills/typo3-ckeditor5/references/ckeditor5-architecture.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/skills/typo3-ckeditor5/references/migration-guide.md",
+        "title": "/blob/main/skills/typo3-ckeditor5/references/migration-guide.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/skills/typo3-ckeditor5/references/plugin-development.md",
+        "title": "/blob/main/skills/typo3-ckeditor5/references/plugin-development.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-ckeditor5-skill/tree/main/.github",
+        "title": "/tree/main/.github",
         "count": 2,
         "uniques": 2
       },
@@ -99,36 +129,6 @@
         "path": "/netresearch/typo3-ckeditor5-skill/tree/main/evals",
         "title": "/tree/main/evals",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/.claude-plugin/plugin.json",
-        "title": "/blob/main/.claude-plugin/plugin.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/evals/evals.json",
-        "title": "/blob/main/evals/evals.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/evals/run-ab-test.sh",
-        "title": "/blob/main/evals/run-ab-test.sh",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/scripts/verify-harness.sh",
-        "title": "/blob/main/scripts/verify-harness.sh",
-        "count": 1,
         "uniques": 1
       }
     ]
