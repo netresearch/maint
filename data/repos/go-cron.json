@@ -44,7 +44,7 @@
     "prs_closed_unmerged": 7,
     "issues_total": 195,
     "releases": 16,
-    "release_downloads": 134,
+    "release_downloads": 178,
     "contributors": 30,
     "external_contributors": 29,
     "packagist_downloads": 0,
@@ -62,20 +62,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 400,
-    "clones_unique": 139,
-    "views_total": 114,
-    "views_unique": 55,
+    "clones_total": 267,
+    "clones_unique": 103,
+    "views_total": 110,
+    "views_unique": 54,
     "top_referrers": [
       {
-        "referrer": "github.com",
-        "count": 21,
-        "uniques": 16
+        "referrer": "Google",
+        "count": 22,
+        "uniques": 14
       },
       {
-        "referrer": "Google",
-        "count": 20,
-        "uniques": 13
+        "referrer": "github.com",
+        "count": 17,
+        "uniques": 15
       },
       {
         "referrer": "Bing",
@@ -97,8 +97,14 @@
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 56,
-        "uniques": 41
+        "count": 57,
+        "uniques": 42
+      },
+      {
+        "path": "/netresearch/go-cron/releases",
+        "title": "/releases",
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/go-cron/issues",
@@ -119,38 +125,32 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/go-cron/blob/main/retry.go",
-        "title": "/blob/main/retry.go",
-        "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/go-cron/releases",
-        "title": "/releases",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/go-cron/releases/tag/v0.15.0",
-        "title": "/releases/tag/v0.15.0",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/go-cron/commits",
-        "title": "/commits",
-        "count": 3,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/go-cron/discussions",
         "title": "/discussions",
         "count": 3,
         "uniques": 2
       },
       {
+        "path": "/netresearch/go-cron/blob/main/retry.go",
+        "title": "/blob/main/retry.go",
+        "count": 3,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/go-cron/blob/main/README.md",
         "title": "/blob/main/README.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
+        "title": "/blob/main/docs/COOKBOOK.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/MIGRATION.md",
+        "title": "/blob/main/docs/MIGRATION.md",
         "count": 2,
         "uniques": 2
       }

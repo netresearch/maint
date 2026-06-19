@@ -42,18 +42,18 @@
     "prs_merged": 0,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 155
+    "ghcr_downloads": 122
   },
   "traffic_14d": {
-    "clones_total": 12,
-    "clones_unique": 12,
-    "views_total": 22,
-    "views_unique": 19,
+    "clones_total": 10,
+    "clones_unique": 10,
+    "views_total": 24,
+    "views_unique": 21,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 16,
-        "uniques": 15
+        "count": 19,
+        "uniques": 18
       },
       {
         "referrer": "pkg.go.dev",
@@ -65,8 +65,14 @@
       {
         "path": "/netresearch/udp-proxy",
         "title": "Overview",
-        "count": 17,
-        "uniques": 16
+        "count": 19,
+        "uniques": 19
+      },
+      {
+        "path": "/netresearch/udp-proxy/releases",
+        "title": "/releases",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/udp-proxy/blob/v1.0.1/main.go",
@@ -75,20 +81,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/udp-proxy/blob/main/main.go",
-        "title": "/blob/main/main.go",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/udp-proxy/commits/main",
         "title": "/commits/main",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/udp-proxy/releases",
-        "title": "/releases",
         "count": 1,
         "uniques": 1
       }
@@ -124,11 +118,11 @@
         "package": "udp-proxy",
         "url": "https://github.com/netresearch/udp-proxy/pkgs/container/udp-proxy",
         "total": 809,
-        "thirty_day": 155
+        "thirty_day": 122
       }
     ],
     "total": 809,
-    "thirty_day": 155
+    "thirty_day": 122
   },
   "dependents": {
     "repositories": 0,

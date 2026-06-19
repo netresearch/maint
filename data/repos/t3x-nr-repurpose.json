@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-08T21:31:58Z",
-  "pushed_at": "2026-06-17T13:27:41Z",
-  "updated_at": "2026-06-17T13:23:24Z",
+  "pushed_at": "2026-06-18T10:49:08Z",
+  "updated_at": "2026-06-18T10:45:14Z",
   "composer_name": "netresearch/nr-repurpose",
   "lifetime": {
     "stars": 1,
@@ -19,16 +19,16 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 159,
+    "commits": 161,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 24,
+    "prs_merged": 25,
     "prs_closed_unmerged": 3,
     "issues_total": 1,
     "releases": 1,
     "release_downloads": 0,
-    "contributors": 2,
+    "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -36,17 +36,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 159,
+    "commits": 161,
     "issues_opened": 1,
-    "prs_opened": 27,
-    "prs_merged": 24,
+    "prs_opened": 28,
+    "prs_merged": 25,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2185,
-    "clones_unique": 312,
+    "clones_total": 2206,
+    "clones_unique": 313,
     "views_total": 2,
     "views_unique": 2,
     "top_referrers": [
@@ -85,8 +85,13 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 3,
+      "contributions": 4,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/github-actions"
     }
   ],
   "packagist": null,
@@ -96,6 +101,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-repurpose/network/dependents"
   },
-  "blast_radius": 25,
+  "blast_radius": 26,
   "archived": false
 }

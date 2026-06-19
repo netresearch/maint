@@ -24,20 +24,20 @@
   "homepage": "https://netresearch.github.io/claude-code-marketplace/",
   "default_branch": "main",
   "created_at": "2025-10-18T07:59:00Z",
-  "pushed_at": "2026-06-17T20:15:15Z",
-  "updated_at": "2026-06-10T06:32:37Z",
+  "pushed_at": "2026-06-18T09:44:42Z",
+  "updated_at": "2026-06-18T09:44:45Z",
   "composer_name": null,
   "lifetime": {
     "stars": 42,
     "forks": 11,
     "watchers": 2,
     "network": 11,
-    "open_issues_plus_prs": 2,
-    "commits": 270,
+    "open_issues_plus_prs": 1,
+    "commits": 272,
     "issues_open": 1,
     "issues_closed": 5,
-    "prs_open": 1,
-    "prs_merged": 46,
+    "prs_open": 0,
+    "prs_merged": 47,
     "prs_closed_unmerged": 19,
     "issues_total": 6,
     "releases": 3,
@@ -50,29 +50,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 17,
+    "commits": 19,
     "issues_opened": 3,
     "prs_opened": 12,
-    "prs_merged": 7,
+    "prs_merged": 8,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 878,
-    "clones_unique": 466,
-    "views_total": 498,
-    "views_unique": 336,
+    "clones_total": 937,
+    "clones_unique": 486,
+    "views_total": 527,
+    "views_unique": 350,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 268,
-        "uniques": 213
+        "count": 293,
+        "uniques": 225
       },
       {
         "referrer": "github.com",
-        "count": 76,
-        "uniques": 50
+        "count": 79,
+        "uniques": 53
       },
       {
         "referrer": "perplexity.ai",
@@ -86,8 +86,8 @@
       },
       {
         "referrer": "Bing",
-        "count": 6,
-        "uniques": 4
+        "count": 5,
+        "uniques": 3
       },
       {
         "referrer": "chatgpt.com",
@@ -110,7 +110,7 @@
         "uniques": 1
       },
       {
-        "referrer": "ecosia.org",
+        "referrer": "safe2.dbswiso.prd",
         "count": 1,
         "uniques": 1
       }
@@ -119,26 +119,26 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 395,
-        "uniques": 319
+        "count": 415,
+        "uniques": 327
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 21,
-        "uniques": 14
+        "count": 24,
+        "uniques": 16
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
         "title": "/blob/main/.claude-plugin/marketplace.json",
-        "count": 12,
-        "uniques": 5
+        "count": 13,
+        "uniques": 6
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main",
         "title": "/tree/main",
-        "count": 8,
-        "uniques": 6
+        "count": 9,
+        "uniques": 7
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
@@ -149,24 +149,24 @@
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 6,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/tree/main/site",
-        "title": "/tree/main/site",
         "count": 5,
-        "uniques": 5
+        "uniques": 4
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.github/workflows",
         "title": "/tree/main/.github/workflows",
-        "count": 4,
-        "uniques": 2
+        "count": 5,
+        "uniques": 3
       },
       {
-        "path": "/netresearch/claude-code-marketplace/blob/main/scripts/validate.sh",
-        "title": "/blob/main/scripts/validate.sh",
+        "path": "/netresearch/claude-code-marketplace/tree/main/site",
+        "title": "/tree/main/site",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/blob/main/.github/workflows/AGENTS.md",
+        "title": "/blob/main/.github/workflows/AGENTS.md",
         "count": 3,
         "uniques": 3
       },
@@ -187,7 +187,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 198,
+      "contributions": 199,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -207,7 +207,7 @@
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 2,
+      "contributions": 3,
       "url": "https://github.com/apps/dependabot"
     },
     {
@@ -233,6 +233,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
   },
-  "blast_radius": 86,
+  "blast_radius": 87,
   "archived": false
 }

@@ -19,8 +19,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-25T08:00:19Z",
-  "pushed_at": "2026-06-17T13:48:19Z",
-  "updated_at": "2026-06-17T13:49:56Z",
+  "pushed_at": "2026-06-18T21:42:12Z",
+  "updated_at": "2026-06-18T21:39:29Z",
   "composer_name": "netresearch/composer-agent-skill-plugin",
   "lifetime": {
     "stars": 8,
@@ -28,60 +28,54 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 205,
+    "commits": 211,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 69,
+    "prs_merged": 72,
     "prs_closed_unmerged": 14,
     "issues_total": 3,
     "releases": 9,
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 1882,
+    "packagist_downloads": 1954,
     "ghcr_downloads": 0,
     "dependents_repos": 43,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 50,
+    "commits": 56,
     "issues_opened": 0,
-    "prs_opened": 27,
-    "prs_merged": 24,
+    "prs_opened": 30,
+    "prs_merged": 27,
     "releases": 1,
-    "packagist_downloads": 649,
+    "packagist_downloads": 712,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 787,
-    "clones_unique": 167,
-    "views_total": 34,
-    "views_unique": 25,
+    "clones_total": 819,
+    "clones_unique": 172,
+    "views_total": 31,
+    "views_unique": 22,
     "top_referrers": [
       {
-        "referrer": "Google",
-        "count": 13,
-        "uniques": 10
+        "referrer": "github.com",
+        "count": 12,
+        "uniques": 9
       },
       {
-        "referrer": "github.com",
-        "count": 13,
-        "uniques": 10
+        "referrer": "Google",
+        "count": 11,
+        "uniques": 8
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 26,
-        "uniques": 22
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/issues",
-        "title": "/issues",
-        "count": 2,
-        "uniques": 2
+        "count": 24,
+        "uniques": 20
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/tree/main/src",
@@ -98,6 +92,12 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/examples/database-analyzer-skill/SKILL.md",
         "title": "/blob/main/examples/database-analyzer-skill/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/issues",
+        "title": "/issues",
         "count": 1,
         "uniques": 1
       },
@@ -124,17 +124,17 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 88,
+      "contributions": 92,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 52,
+      "contributions": 53,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 50,
+      "contributions": 51,
       "url": "https://github.com/apps/github-actions"
     },
     {
@@ -150,9 +150,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 1882,
-    "monthly": 649,
-    "daily": 25,
+    "total": 1954,
+    "monthly": 712,
+    "daily": 59,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,
@@ -161,6 +161,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/composer-agent-skill-plugin/network/dependents"
   },
-  "blast_radius": 158,
+  "blast_radius": 161,
   "archived": false
 }
