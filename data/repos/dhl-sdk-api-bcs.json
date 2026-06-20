@@ -42,7 +42,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 4,
-    "packagist_downloads": 327408,
+    "packagist_downloads": 327451,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -53,14 +53,14 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1407,
+    "packagist_downloads": 1363,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 17,
-    "clones_unique": 15,
-    "views_total": 21,
-    "views_unique": 8,
+    "clones_total": 18,
+    "clones_unique": 16,
+    "views_total": 23,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -69,16 +69,27 @@
       },
       {
         "referrer": "Google",
-        "count": 5,
+        "count": 6,
         "uniques": 4
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-bcs",
         "title": "Overview",
-        "count": 7,
-        "uniques": 5
+        "count": 8,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/README.md",
+        "title": "/blob/master/README.md",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-sdk-api-bcs/blob/master/src/Service/OrderService.php",
@@ -90,12 +101,6 @@
         "path": "/netresearch/dhl-sdk-api-bcs/tree/master/src",
         "title": "/tree/master/src",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-sdk-api-bcs/blob/master/README.md",
-        "title": "/blob/master/README.md",
-        "count": 1,
         "uniques": 1
       },
       {
@@ -181,9 +186,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs",
-    "total": 327408,
-    "monthly": 1407,
-    "daily": 72,
+    "total": 327451,
+    "monthly": 1363,
+    "daily": 35,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs"
   },
   "ghcr": null,

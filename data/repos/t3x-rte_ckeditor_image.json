@@ -18,8 +18,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2017-05-12T13:29:43Z",
-  "pushed_at": "2026-06-18T18:12:01Z",
-  "updated_at": "2026-06-18T18:12:03Z",
+  "pushed_at": "2026-06-19T10:05:00Z",
+  "updated_at": "2026-06-19T10:04:03Z",
   "composer_name": "netresearch/rte-ckeditor-image",
   "lifetime": {
     "stars": 61,
@@ -27,18 +27,18 @@
     "watchers": 8,
     "network": 67,
     "open_issues_plus_prs": 3,
-    "commits": 1814,
+    "commits": 1816,
     "issues_open": 3,
     "issues_closed": 276,
     "prs_open": 0,
-    "prs_merged": 501,
+    "prs_merged": 502,
     "prs_closed_unmerged": 60,
     "issues_total": 279,
-    "releases": 65,
+    "releases": 66,
     "release_downloads": 85,
     "contributors": 50,
     "external_contributors": 44,
-    "packagist_downloads": 1043236,
+    "packagist_downloads": 1044007,
     "ghcr_downloads": 0,
     "dependents_repos": 45,
     "dependents_packages": 3
@@ -48,20 +48,20 @@
     "issues_opened": 3,
     "prs_opened": 19,
     "prs_merged": 20,
-    "releases": 2,
-    "packagist_downloads": 19833,
+    "releases": 3,
+    "packagist_downloads": 19497,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1176,
-    "clones_unique": 206,
-    "views_total": 128,
-    "views_unique": 59,
+    "clones_total": 1564,
+    "clones_unique": 218,
+    "views_total": 129,
+    "views_unique": 61,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 19,
-        "uniques": 9
+        "count": 25,
+        "uniques": 10
       },
       {
         "referrer": "Google",
@@ -87,25 +87,30 @@
         "referrer": "ecosia.org",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "workspace-sp2019.ad.klinik.uni-ulm.de",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-rte_ckeditor_image",
         "title": "Overview",
-        "count": 30,
-        "uniques": 26
+        "count": 31,
+        "uniques": 27
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues",
         "title": "/issues",
-        "count": 13,
-        "uniques": 6
+        "count": 16,
+        "uniques": 7
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/pull/845",
         "title": "/pull/845",
-        "count": 9,
+        "count": 5,
         "uniques": 1
       },
       {
@@ -139,29 +144,29 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/actions",
-        "title": "/actions",
+        "path": "/netresearch/t3x-rte_ckeditor_image/issues/836",
+        "title": "/issues/836",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/issues/836",
-        "title": "/issues/836",
+        "path": "/netresearch/t3x-rte_ckeditor_image/tree/v13.10.0",
+        "title": "/tree/v13.10.0",
         "count": 2,
         "uniques": 2
       }
     ]
   },
   "latest_release": {
-    "name": "v12.0.14",
-    "tag_name": "v12.0.14",
-    "published_at": "2026-06-08T11:15:40Z",
-    "url": "https://github.com/netresearch/t3x-rte_ckeditor_image/releases/tag/v12.0.14"
+    "name": "v13.10.1",
+    "tag_name": "v13.10.1",
+    "published_at": "2026-06-19T10:06:36Z",
+    "url": "https://github.com/netresearch/t3x-rte_ckeditor_image/releases/tag/v13.10.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1273,
+      "contributions": 1275,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -212,9 +217,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1043236,
-    "monthly": 19833,
-    "daily": 841,
+    "total": 1044007,
+    "monthly": 19497,
+    "daily": 714,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,
@@ -223,6 +228,6 @@
     "packages": 3,
     "url": "https://github.com/netresearch/t3x-rte_ckeditor_image/network/dependents"
   },
-  "blast_radius": 1136,
+  "blast_radius": 1137,
   "archived": false
 }
