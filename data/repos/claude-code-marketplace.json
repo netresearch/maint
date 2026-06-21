@@ -29,16 +29,16 @@
   "composer_name": null,
   "lifetime": {
     "stars": 42,
-    "forks": 11,
+    "forks": 13,
     "watchers": 2,
-    "network": 11,
-    "open_issues_plus_prs": 1,
+    "network": 13,
+    "open_issues_plus_prs": 2,
     "commits": 272,
     "issues_open": 1,
     "issues_closed": 5,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 47,
-    "prs_closed_unmerged": 19,
+    "prs_closed_unmerged": 20,
     "issues_total": 6,
     "releases": 3,
     "release_downloads": 0,
@@ -52,27 +52,27 @@
   "recent_30d": {
     "commits": 19,
     "issues_opened": 3,
-    "prs_opened": 12,
+    "prs_opened": 14,
     "prs_merged": 8,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 962,
-    "clones_unique": 493,
-    "views_total": 528,
-    "views_unique": 357,
+    "clones_total": 983,
+    "clones_unique": 499,
+    "views_total": 531,
+    "views_unique": 356,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 292,
-        "uniques": 222
+        "count": 282,
+        "uniques": 216
       },
       {
         "referrer": "github.com",
-        "count": 76,
-        "uniques": 55
+        "count": 69,
+        "uniques": 53
       },
       {
         "referrer": "perplexity.ai",
@@ -80,19 +80,19 @@
         "uniques": 2
       },
       {
-        "referrer": "statics.teams.cdn.office.net",
-        "count": 5,
-        "uniques": 4
-      },
-      {
         "referrer": "Bing",
-        "count": 5,
-        "uniques": 3
+        "count": 6,
+        "uniques": 4
       },
       {
         "referrer": "chatgpt.com",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "referrer": "statics.teams.cdn.office.net",
+        "count": 4,
+        "uniques": 3
       },
       {
         "referrer": "DuckDuckGo",
@@ -119,20 +119,20 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 412,
-        "uniques": 329
+        "count": 413,
+        "uniques": 333
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 25,
+        "count": 23,
         "uniques": 19
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
         "title": "/blob/main/.claude-plugin/marketplace.json",
-        "count": 12,
-        "uniques": 7
+        "count": 11,
+        "uniques": 8
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main",
@@ -233,6 +233,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
   },
-  "blast_radius": 87,
+  "blast_radius": 91,
   "archived": false
 }

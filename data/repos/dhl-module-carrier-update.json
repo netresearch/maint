@@ -49,16 +49,35 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 57,
+    "packagist_downloads": 55,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 41,
-    "clones_unique": 23,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 42,
+    "clones_unique": 24,
+    "views_total": 2,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/dhl-module-carrier-update",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-update/releases/tag/1.4.0",
+        "title": "/releases/tag/1.4.0",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.4.0",
@@ -86,8 +105,8 @@
   "packagist": {
     "name": "dhl/module-carrier-update",
     "total": 2371,
-    "monthly": 57,
-    "daily": 1,
+    "monthly": 55,
+    "daily": 0,
     "url": "https://packagist.org/packages/dhl/module-carrier-update"
   },
   "ghcr": null,

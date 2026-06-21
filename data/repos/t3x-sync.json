@@ -53,12 +53,49 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 143,
-    "clones_unique": 31,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 145,
+    "clones_unique": 33,
+    "views_total": 5,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 5,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-sync/blob/4f51e5e8c693a2a65f5b5e6875fb630ef7cbbb1f/Classes/Table.php",
+        "title": "/blob/4f51e5e8c693a2a65f5b5e6875fb630ef7cbbb1f/Classes/Table.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-sync/blob/4f51e5e8c693a2a65f5b5e6875fb630ef7cbbb1f/Configuration/Services.yaml",
+        "title": "/blob/4f51e5e8c693a2a65f5b5e6875fb630ef7cbbb1f/Configuration/Services.yaml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-sync/blob/4f51e5e8c693a2a65f5b5e6875fb630ef7cbbb1f/ext_tables.sql",
+        "title": "/blob/4f51e5e8c693a2a65f5b5e6875fb630ef7cbbb1f/ext_tables.sql",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-sync/tree/4f51e5e8c693a2a65f5b5e6875fb630ef7cbbb1f/Classes/Middleware",
+        "title": "/tree/4f51e5e8c693a2a65f5b5e6875fb630ef7cbbb1f/Classes/Middleware",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-sync/tree/4f51e5e8c693a2a65f5b5e6875fb630ef7cbbb1f/Configuration/Backend",
+        "title": "/tree/4f51e5e8c693a2a65f5b5e6875fb630ef7cbbb1f/Configuration/Backend",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.0.7",

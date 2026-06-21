@@ -57,10 +57,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 697,
-    "clones_unique": 174,
-    "views_total": 55,
-    "views_unique": 21,
+    "clones_total": 732,
+    "clones_unique": 173,
+    "views_total": 58,
+    "views_unique": 22,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -76,19 +76,24 @@
         "referrer": "claude.ai",
         "count": 3,
         "uniques": 1
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-docs-skill",
         "title": "Overview",
-        "count": 19,
-        "uniques": 16
+        "count": 20,
+        "uniques": 17
       },
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/.claude-plugin/plugin.json",
         "title": "/blob/main/.claude-plugin/plugin.json",
-        "count": 5,
+        "count": 6,
         "uniques": 1
       },
       {
@@ -106,6 +111,12 @@
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/docs/ARCHITECTURE.md",
         "title": "/blob/main/docs/ARCHITECTURE.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/issues",
+        "title": "/issues",
         "count": 2,
         "uniques": 2
       },
@@ -130,12 +141,6 @@
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/Build/hooks/pre-push",
         "title": "/blob/main/Build/hooks/pre-push",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
         "count": 1,
         "uniques": 1
       }

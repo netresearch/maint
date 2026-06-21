@@ -16,10 +16,10 @@
   "default_branch": "main",
   "created_at": "2022-05-30T12:58:03Z",
   "pushed_at": "2026-06-18T09:13:16Z",
-  "updated_at": "2026-06-18T10:26:57Z",
+  "updated_at": "2026-06-21T01:44:43Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 60,
+    "stars": 61,
     "forks": 5,
     "watchers": 1,
     "network": 205,
@@ -36,7 +36,7 @@
     "contributors": 44,
     "external_contributors": 38,
     "packagist_downloads": 0,
-    "ghcr_downloads": 228359,
+    "ghcr_downloads": 230277,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -47,18 +47,18 @@
     "prs_merged": 16,
     "releases": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 47253
+    "ghcr_downloads": 47553
   },
   "traffic_14d": {
-    "clones_total": 1013,
-    "clones_unique": 260,
-    "views_total": 62,
-    "views_unique": 34,
+    "clones_total": 1028,
+    "clones_unique": 264,
+    "views_total": 60,
+    "views_unique": 32,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 23,
-        "uniques": 10
+        "count": 21,
+        "uniques": 8
       },
       {
         "referrer": "Google",
@@ -70,13 +70,13 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 19,
-        "uniques": 15
+        "count": 16,
+        "uniques": 12
       },
       {
-        "path": "/netresearch/ofelia/issues/353",
-        "title": "/issues/353",
-        "count": 2,
+        "path": "/netresearch/ofelia/blob/main/docs/jobs.md",
+        "title": "/blob/main/docs/jobs.md",
+        "count": 3,
         "uniques": 2
       },
       {
@@ -104,12 +104,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/jobs.md",
-        "title": "/blob/main/docs/jobs.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/ofelia/issues/354",
         "title": "/issues/354",
         "count": 2,
@@ -124,6 +118,12 @@
       {
         "path": "/netresearch/ofelia/actions/runs/16976552593/workflow",
         "title": "/actions/runs/16976552593/workflow",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ofelia/blob/3ae73233fcab/core/adapters/mock/exec.go",
+        "title": "/blob/3ae73233fcab/core/adapters/mock/exec.go",
         "count": 1,
         "uniques": 1
       }
@@ -193,12 +193,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 228359,
-        "thirty_day": 47253
+        "total": 230277,
+        "thirty_day": 47553
       }
     ],
-    "total": 228359,
-    "thirty_day": 47253
+    "total": 230277,
+    "thirty_day": 47553
   },
   "dependents": {
     "repositories": 0,

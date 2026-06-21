@@ -15,7 +15,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-10-02T10:38:21Z",
-  "pushed_at": "2026-06-19T17:33:29Z",
+  "pushed_at": "2026-06-21T01:36:54Z",
   "updated_at": "2026-06-19T17:33:32Z",
   "composer_name": null,
   "lifetime": {
@@ -23,42 +23,42 @@
     "forks": 2,
     "watchers": 1,
     "network": 2,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 1323,
     "issues_open": 1,
     "issues_closed": 7,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 537,
     "prs_closed_unmerged": 46,
     "issues_total": 8,
     "releases": 20,
-    "release_downloads": 33,
+    "release_downloads": 34,
     "contributors": 8,
     "external_contributors": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 13918,
+    "ghcr_downloads": 14485,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
     "commits": 16,
     "issues_opened": 0,
-    "prs_opened": 8,
+    "prs_opened": 9,
     "prs_merged": 8,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 2700
+    "ghcr_downloads": 3267
   },
   "traffic_14d": {
-    "clones_total": 361,
-    "clones_unique": 110,
-    "views_total": 38,
-    "views_unique": 19,
+    "clones_total": 402,
+    "clones_unique": 123,
+    "views_total": 31,
+    "views_unique": 16,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 26,
-        "uniques": 13
+        "count": 19,
+        "uniques": 10
       },
       {
         "referrer": "Yahoo",
@@ -70,14 +70,8 @@
       {
         "path": "/netresearch/ldap-manager",
         "title": "Overview",
-        "count": 17,
-        "uniques": 12
-      },
-      {
-        "path": "/netresearch/ldap-manager/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 2,
-        "uniques": 2
+        "count": 15,
+        "uniques": 10
       },
       {
         "path": "/netresearch/ldap-manager/blob/main/docs/development/architecture.md",
@@ -88,12 +82,6 @@
       {
         "path": "/netresearch/ldap-manager/blob/main/docs/user-guide/installation.md",
         "title": "/blob/main/docs/user-guide/installation.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/ldap-manager/tree/main",
-        "title": "/tree/main",
         "count": 2,
         "uniques": 2
       },
@@ -116,14 +104,26 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/ldap-manager/blob/main/CLAUDE.md",
-        "title": "/blob/main/CLAUDE.md",
+        "path": "/netresearch/ldap-manager/blob/main/docs/assets/ldap_manager_users.png",
+        "title": "/blob/main/docs/assets/ldap_manager_users.png",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/ldap-manager/blob/main/cmd/AGENTS.md",
-        "title": "/blob/main/cmd/AGENTS.md",
+        "path": "/netresearch/ldap-manager/commit/4aeb1a8ae3547d2a2e4ee0da51f3497bde4a73a4",
+        "title": "/commit/4aeb1a8ae3547d2a2e4ee0da51f3497bde4a73a4",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ldap-manager/commit/c85a96bcad54689b47bb035b1b43a17bf5137b21",
+        "title": "/commit/c85a96bcad54689b47bb035b1b43a17bf5137b21",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ldap-manager/commit/f937cc32d4206fae4794eaf6b8f78f2cfeb66459",
+        "title": "/commit/f937cc32d4206fae4794eaf6b8f78f2cfeb66459",
         "count": 1,
         "uniques": 1
       }
@@ -183,12 +183,12 @@
       {
         "package": "ldap-manager",
         "url": "https://github.com/netresearch/ldap-manager/pkgs/container/ldap-manager",
-        "total": 13918,
-        "thirty_day": 2700
+        "total": 14485,
+        "thirty_day": 3267
       }
     ],
-    "total": 13918,
-    "thirty_day": 2700
+    "total": 14485,
+    "thirty_day": 3267
   },
   "dependents": {
     "repositories": 0,

@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 6,
-    "packagist_downloads": 221982,
+    "packagist_downloads": 222010,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,31 +43,31 @@
     "prs_opened": 3,
     "prs_merged": 1,
     "releases": 1,
-    "packagist_downloads": 5870,
+    "packagist_downloads": 5673,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 91,
-    "clones_unique": 44,
-    "views_total": 14,
+    "clones_unique": 43,
+    "views_total": 16,
     "views_unique": 6,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 7,
+        "uniques": 2
+      },
       {
         "referrer": "Google",
         "count": 6,
         "uniques": 3
-      },
-      {
-        "referrer": "github.com",
-        "count": 5,
-        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/deutschepost-module-addressfactory-m2",
         "title": "Overview",
-        "count": 6,
+        "count": 7,
         "uniques": 4
       },
       {
@@ -75,6 +75,12 @@
         "title": "/releases",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/deutschepost-module-addressfactory-m2/releases/tag/1.7.0",
+        "title": "/releases/tag/1.7.0",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/deutschepost-module-addressfactory-m2/blob/master/registration.php",
@@ -85,12 +91,6 @@
       {
         "path": "/netresearch/deutschepost-module-addressfactory-m2/releases/new",
         "title": "/releases/new",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-module-addressfactory-m2/releases/tag/1.7.0",
-        "title": "/releases/tag/1.7.0",
         "count": 1,
         "uniques": 1
       },
@@ -147,9 +147,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-addressfactory-m2",
-    "total": 221982,
-    "monthly": 5870,
-    "daily": 194,
+    "total": 222010,
+    "monthly": 5673,
+    "daily": 25,
     "url": "https://packagist.org/packages/deutschepost/module-addressfactory-m2"
   },
   "ghcr": null,

@@ -38,40 +38,45 @@
     "release_downloads": 85,
     "contributors": 50,
     "external_contributors": 44,
-    "packagist_downloads": 1044007,
+    "packagist_downloads": 1044145,
     "ghcr_downloads": 0,
     "dependents_repos": 45,
     "dependents_packages": 3
   },
   "recent_30d": {
-    "commits": 50,
+    "commits": 47,
     "issues_opened": 3,
-    "prs_opened": 19,
-    "prs_merged": 20,
+    "prs_opened": 18,
+    "prs_merged": 19,
     "releases": 3,
-    "packagist_downloads": 19497,
+    "packagist_downloads": 18853,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1564,
-    "clones_unique": 218,
-    "views_total": 129,
-    "views_unique": 61,
+    "clones_total": 1562,
+    "clones_unique": 219,
+    "views_total": 172,
+    "views_unique": 58,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 25,
-        "uniques": 10
-      },
-      {
-        "referrer": "Google",
-        "count": 16,
+        "count": 24,
         "uniques": 9
       },
       {
+        "referrer": "Google",
+        "count": 14,
+        "uniques": 8
+      },
+      {
         "referrer": "github.com",
-        "count": 11,
-        "uniques": 6
+        "count": 13,
+        "uniques": 8
+      },
+      {
+        "referrer": "docs.typo3.org",
+        "count": 9,
+        "uniques": 1
       },
       {
         "referrer": "jira.netresearch.de",
@@ -98,44 +103,38 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image",
         "title": "Overview",
-        "count": 31,
+        "count": 36,
         "uniques": 27
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues",
         "title": "/issues",
-        "count": 16,
+        "count": 27,
         "uniques": 7
-      },
-      {
-        "path": "/netresearch/t3x-rte_ckeditor_image/pull/845",
-        "title": "/pull/845",
-        "count": 5,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-rte_ckeditor_image/issues/187",
-        "title": "/issues/187",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-rte_ckeditor_image/pulls",
-        "title": "/pulls",
-        "count": 4,
-        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/composer.json",
         "title": "/blob/main/composer.json",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/releases",
-        "title": "/releases",
+        "path": "/netresearch/t3x-rte_ckeditor_image/blob/TYPO3_10/Configuration/TypoScript/ImageRendering/setup.txt",
+        "title": "/blob/TYPO3_10/Configuration/TypoScript/ImageRendering/setup.txt",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-rte_ckeditor_image/issues/78",
+        "title": "/issues/78",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-rte_ckeditor_image/pulls",
+        "title": "/pulls",
         "count": 3,
-        "uniques": 3
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues/287",
@@ -144,16 +143,22 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/issues/836",
-        "title": "/issues/836",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/t3x-rte_ckeditor_image/pull/95",
+        "title": "/pull/95",
+        "count": 3,
+        "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/tree/v13.10.0",
-        "title": "/tree/v13.10.0",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/t3x-rte_ckeditor_image/tree/TYPO3_10",
+        "title": "/tree/TYPO3_10",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-rte_ckeditor_image/tree/TYPO3_10/Configuration/TypoScript/ImageRendering",
+        "title": "/tree/TYPO3_10/Configuration/TypoScript/ImageRendering",
+        "count": 3,
+        "uniques": 1
       }
     ]
   },
@@ -217,9 +222,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1044007,
-    "monthly": 19497,
-    "daily": 714,
+    "total": 1044145,
+    "monthly": 18853,
+    "daily": 151,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,
