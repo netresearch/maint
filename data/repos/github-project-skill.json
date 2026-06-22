@@ -14,20 +14,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T13:14:49Z",
-  "pushed_at": "2026-06-21T00:55:57Z",
-  "updated_at": "2026-06-18T09:19:36Z",
+  "pushed_at": "2026-06-21T10:10:01Z",
+  "updated_at": "2026-06-21T10:10:03Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 4,
-    "commits": 300,
+    "open_issues_plus_prs": 3,
+    "commits": 302,
     "issues_open": 3,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 85,
+    "prs_open": 0,
+    "prs_merged": 86,
     "prs_closed_unmerged": 2,
     "issues_total": 3,
     "releases": 37,
@@ -40,18 +40,18 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 38,
+    "commits": 29,
     "issues_opened": 0,
     "prs_opened": 15,
-    "prs_merged": 14,
+    "prs_merged": 15,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 944,
-    "clones_unique": 204,
-    "views_total": 57,
+    "clones_total": 1003,
+    "clones_unique": 217,
+    "views_total": 58,
     "views_unique": 21,
     "top_referrers": [
       {
@@ -61,8 +61,8 @@
       },
       {
         "referrer": "github.com",
-        "count": 6,
-        "uniques": 2
+        "count": 8,
+        "uniques": 3
       },
       {
         "referrer": "claude.ai",
@@ -79,8 +79,8 @@
       {
         "path": "/netresearch/github-project-skill",
         "title": "Overview",
-        "count": 25,
-        "uniques": 17
+        "count": 24,
+        "uniques": 16
       },
       {
         "path": "/netresearch/github-project-skill/tree/main/skills/github-project",
@@ -107,6 +107,12 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/github-project-skill/actions",
+        "title": "/actions",
+        "count": 2,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/github-project-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
         "count": 1,
@@ -129,12 +135,6 @@
         "title": "/blob/main/scripts/verify-harness.sh",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/assets/CODEOWNERS.template",
-        "title": "/blob/main/skills/github-project/assets/CODEOWNERS.template",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -147,7 +147,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 295,
+      "contributions": 297,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -168,6 +168,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-project-skill/network/dependents"
   },
-  "blast_radius": 88,
+  "blast_radius": 89,
   "archived": false
 }

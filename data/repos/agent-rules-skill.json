@@ -20,8 +20,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T19:35:16Z",
-  "pushed_at": "2026-06-18T09:17:36Z",
-  "updated_at": "2026-06-20T11:06:08Z",
+  "pushed_at": "2026-06-21T20:33:36Z",
+  "updated_at": "2026-06-21T20:33:39Z",
   "composer_name": null,
   "lifetime": {
     "stars": 53,
@@ -29,11 +29,11 @@
     "watchers": 2,
     "network": 3,
     "open_issues_plus_prs": 3,
-    "commits": 296,
+    "commits": 298,
     "issues_open": 3,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 50,
+    "prs_merged": 51,
     "prs_closed_unmerged": 3,
     "issues_total": 6,
     "releases": 48,
@@ -48,42 +48,47 @@
   "recent_30d": {
     "commits": 26,
     "issues_opened": 1,
-    "prs_opened": 9,
-    "prs_merged": 9,
+    "prs_opened": 10,
+    "prs_merged": 10,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1686,
-    "clones_unique": 386,
-    "views_total": 795,
-    "views_unique": 417,
+    "clones_total": 1707,
+    "clones_unique": 391,
+    "views_total": 836,
+    "views_unique": 422,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 593,
-        "uniques": 328
+        "count": 588,
+        "uniques": 327
       },
       {
         "referrer": "github.com",
-        "count": 18,
+        "count": 46,
         "uniques": 11
       },
       {
         "referrer": "yandex.ru",
-        "count": 13,
-        "uniques": 2
+        "count": 14,
+        "uniques": 3
       },
       {
         "referrer": "chatgpt.com",
-        "count": 5,
+        "count": 6,
         "uniques": 5
       },
       {
         "referrer": "search.brave.com",
         "count": 4,
         "uniques": 3
+      },
+      {
+        "referrer": "coccoc.com",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "perplexity.ai",
@@ -104,55 +109,44 @@
         "referrer": "claude.ai",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "coccoc.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/agent-rules-skill",
         "title": "Overview",
-        "count": 467,
-        "uniques": 391
+        "count": 479,
+        "uniques": 401
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
         "title": "/tree/main/skills/agent-rules",
-        "count": 65,
-        "uniques": 58
+        "count": 67,
+        "uniques": 59
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md",
         "title": "/blob/main/skills/agent-rules/SKILL.md",
-        "count": 48,
-        "uniques": 41
+        "count": 50,
+        "uniques": 42
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 28,
-        "uniques": 23
+        "count": 26,
+        "uniques": 22
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/AGENTS.md",
         "title": "/blob/main/skills/agent-rules/AGENTS.md",
-        "count": 15,
-        "uniques": 14
+        "count": 17,
+        "uniques": 16
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/CLAUDE.md",
         "title": "/blob/main/CLAUDE.md",
-        "count": 15,
+        "count": 14,
         "uniques": 10
-      },
-      {
-        "path": "/netresearch/agent-rules-skill/tree/main/docs",
-        "title": "/tree/main/docs",
-        "count": 8,
-        "uniques": 8
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main",
@@ -161,16 +155,22 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/agent-rules-skill/tree/main/.github",
-        "title": "/tree/main/.github",
+        "path": "/netresearch/agent-rules-skill/tree/main/docs",
+        "title": "/tree/main/docs",
         "count": 7,
         "uniques": 7
       },
       {
-        "path": "/netresearch/agent-rules-skill/tree/main/skills",
-        "title": "/tree/main/skills",
-        "count": 7,
-        "uniques": 7
+        "path": "/netresearch/agent-rules-skill/tree/main/.github",
+        "title": "/tree/main/.github",
+        "count": 6,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/agent-rules-skill/tree/main/scripts",
+        "title": "/tree/main/scripts",
+        "count": 6,
+        "uniques": 6
       }
     ]
   },
@@ -183,7 +183,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 285,
+      "contributions": 287,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -214,6 +214,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/agent-rules-skill/network/dependents"
   },
-  "blast_radius": 62,
+  "blast_radius": 63,
   "archived": false
 }

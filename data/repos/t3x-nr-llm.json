@@ -60,10 +60,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5723,
-    "clones_unique": 488,
-    "views_total": 40,
-    "views_unique": 15,
+    "clones_total": 5686,
+    "clones_unique": 483,
+    "views_total": 44,
+    "views_unique": 16,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -79,14 +79,19 @@
         "referrer": "github.com",
         "count": 5,
         "uniques": 4
+      },
+      {
+        "referrer": "sonarcloud.io",
+        "count": 4,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 16,
-        "uniques": 14
+        "count": 17,
+        "uniques": 15
       },
       {
         "path": "/netresearch/t3x-nr-llm/blob/main/Configuration/AGENTS.md",
@@ -97,6 +102,12 @@
       {
         "path": "/netresearch/t3x-nr-llm/tree/main",
         "title": "/tree/main",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/tree/main/Classes",
+        "title": "/tree/main/Classes",
         "count": 2,
         "uniques": 2
       },
@@ -133,12 +144,6 @@
       {
         "path": "/netresearch/t3x-nr-llm/blob/main/Build/rector/rector.php",
         "title": "/blob/main/Build/rector/rector.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/blob/main/Classes/AGENTS.md",
-        "title": "/blob/main/Classes/AGENTS.md",
         "count": 1,
         "uniques": 1
       }

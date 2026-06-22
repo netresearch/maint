@@ -16,8 +16,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-13T13:42:10Z",
-  "pushed_at": "2026-06-19T10:49:56Z",
-  "updated_at": "2026-06-19T10:49:58Z",
+  "pushed_at": "2026-06-21T17:19:01Z",
+  "updated_at": "2026-06-21T17:19:03Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
@@ -25,11 +25,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 414,
+    "commits": 416,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 223,
+    "prs_merged": 224,
     "prs_closed_unmerged": 15,
     "issues_total": 2,
     "releases": 9,
@@ -42,26 +42,32 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 15,
+    "commits": 17,
     "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 7,
+    "prs_opened": 8,
+    "prs_merged": 8,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 440
+    "ghcr_downloads": 406
   },
   "traffic_14d": {
-    "clones_total": 341,
-    "clones_unique": 70,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 346,
+    "clones_unique": 75,
+    "views_total": 2,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/raybeam",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
@@ -74,7 +80,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 216,
+      "contributions": 218,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -105,17 +111,17 @@
         "package": "raybeam",
         "url": "https://github.com/netresearch/raybeam/pkgs/container/raybeam",
         "total": 3905,
-        "thirty_day": 440
+        "thirty_day": 406
       }
     ],
     "total": 3905,
-    "thirty_day": 440
+    "thirty_day": 406
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/raybeam/network/dependents"
   },
-  "blast_radius": 230,
+  "blast_radius": 231,
   "archived": false
 }
