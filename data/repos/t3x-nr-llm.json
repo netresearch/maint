@@ -25,7 +25,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-22T23:35:44Z",
-  "pushed_at": "2026-06-18T14:35:33Z",
+  "pushed_at": "2026-06-24T00:32:45Z",
   "updated_at": "2026-06-18T14:37:06Z",
   "composer_name": "netresearch/nr-llm",
   "lifetime": {
@@ -33,11 +33,11 @@
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 5,
     "commits": 1004,
     "issues_open": 2,
     "issues_closed": 4,
-    "prs_open": 0,
+    "prs_open": 3,
     "prs_merged": 231,
     "prs_closed_unmerged": 13,
     "issues_total": 6,
@@ -45,25 +45,25 @@
     "release_downloads": 325,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 5531,
+    "packagist_downloads": 5532,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 156,
+    "commits": 150,
     "issues_opened": 0,
-    "prs_opened": 42,
+    "prs_opened": 44,
     "prs_merged": 39,
     "releases": 6,
-    "packagist_downloads": 638,
+    "packagist_downloads": 611,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5493,
-    "clones_unique": 480,
-    "views_total": 45,
-    "views_unique": 17,
+    "clones_total": 4955,
+    "clones_unique": 444,
+    "views_total": 46,
+    "views_unique": 18,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -112,6 +112,12 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/t3x-nr-llm/blob/HEAD/Documentation/Administration/Analytics.rst",
+        "title": "/blob/HEAD/Documentation/Administration/Analytics.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-llm/blob/main/.env.example",
         "title": "/blob/main/.env.example",
         "count": 1,
@@ -138,12 +144,6 @@
       {
         "path": "/netresearch/t3x-nr-llm/blob/main/Build/phpstan/phpstan.neon",
         "title": "/blob/main/Build/phpstan/phpstan.neon",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/blob/main/Build/rector/rector.php",
-        "title": "/blob/main/Build/rector/rector.php",
         "count": 1,
         "uniques": 1
       }
@@ -184,9 +184,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 5531,
-    "monthly": 638,
-    "daily": 26,
+    "total": 5532,
+    "monthly": 611,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,

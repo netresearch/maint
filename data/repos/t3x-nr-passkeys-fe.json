@@ -30,7 +30,7 @@
     "release_downloads": 14,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 11,
+    "packagist_downloads": 12,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -41,14 +41,14 @@
     "prs_opened": 3,
     "prs_merged": 3,
     "releases": 1,
-    "packagist_downloads": 4,
+    "packagist_downloads": 5,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 402,
-    "clones_unique": 95,
-    "views_total": 18,
-    "views_unique": 3,
+    "clones_total": 430,
+    "clones_unique": 97,
+    "views_total": 23,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -57,16 +57,22 @@
       },
       {
         "referrer": "Google",
-        "count": 3,
-        "uniques": 2
+        "count": 4,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-passkeys-fe",
         "title": "Overview",
-        "count": 6,
-        "uniques": 3
+        "count": 7,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/issues",
+        "title": "/issues",
+        "count": 3,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-fe/blob/main/AGENTS.md",
@@ -111,14 +117,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-fe/tree/main/Classes",
-        "title": "/tree/main/Classes",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-fe/tree/main/Classes/Authentication",
-        "title": "/tree/main/Classes/Authentication",
+        "path": "/netresearch/t3x-nr-passkeys-fe/issues/11",
+        "title": "/issues/11",
         "count": 1,
         "uniques": 1
       }
@@ -149,9 +149,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-fe",
-    "total": 11,
-    "monthly": 4,
-    "daily": 3,
+    "total": 12,
+    "monthly": 5,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-fe"
   },
   "ghcr": null,

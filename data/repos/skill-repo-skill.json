@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-16T10:15:03Z",
-  "pushed_at": "2026-06-19T16:34:39Z",
-  "updated_at": "2026-06-22T11:56:39Z",
+  "pushed_at": "2026-06-23T15:42:48Z",
+  "updated_at": "2026-06-23T15:42:58Z",
   "composer_name": null,
   "lifetime": {
     "stars": 14,
@@ -23,11 +23,11 @@
     "watchers": 1,
     "network": 3,
     "open_issues_plus_prs": 2,
-    "commits": 384,
+    "commits": 386,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 1,
-    "prs_merged": 115,
+    "prs_merged": 116,
     "prs_closed_unmerged": 3,
     "issues_total": 3,
     "releases": 49,
@@ -40,63 +40,59 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 40,
+    "commits": 42,
     "issues_opened": 1,
-    "prs_opened": 17,
-    "prs_merged": 16,
+    "prs_opened": 18,
+    "prs_merged": 17,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3045,
-    "clones_unique": 308,
-    "views_total": 427,
-    "views_unique": 215,
+    "clones_total": 2859,
+    "clones_unique": 299,
+    "views_total": 448,
+    "views_unique": 220,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 319,
-        "uniques": 181
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 21,
-        "uniques": 5
+        "count": 340,
+        "uniques": 187
       },
       {
         "referrer": "github.com",
-        "count": 20,
-        "uniques": 8
+        "count": 24,
+        "uniques": 9
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 7,
+        "uniques": 4
       },
       {
         "referrer": "lobehub.com",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "referrer": "Bing",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "claude.ai",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/skill-repo-skill",
         "title": "Overview",
-        "count": 236,
-        "uniques": 205
+        "count": 240,
+        "uniques": 209
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo",
         "title": "/tree/main/skills/skill-repo",
-        "count": 32,
-        "uniques": 22
+        "count": 34,
+        "uniques": 24
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/tree/main",
+        "title": "/tree/main",
+        "count": 12,
+        "uniques": 7
       },
       {
         "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
@@ -105,20 +101,8 @@
         "uniques": 8
       },
       {
-        "path": "/netresearch/skill-repo-skill/tree/main",
-        "title": "/tree/main",
-        "count": 6,
-        "uniques": 6
-      },
-      {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/evals",
         "title": "/tree/main/skills/skill-repo/evals",
-        "count": 6,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/references",
-        "title": "/tree/main/skills/skill-repo/references",
         "count": 6,
         "uniques": 6
       },
@@ -129,22 +113,28 @@
         "uniques": 5
       },
       {
+        "path": "/netresearch/skill-repo-skill/tree/main/docs",
+        "title": "/tree/main/docs",
+        "count": 6,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/releases",
+        "title": "/releases",
+        "count": 6,
+        "uniques": 4
+      },
+      {
         "path": "/netresearch/skill-repo-skill/blob/main/docs/ARCHITECTURE.md",
         "title": "/blob/main/docs/ARCHITECTURE.md",
         "count": 5,
         "uniques": 5
       },
       {
-        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/scripts",
-        "title": "/tree/main/skills/skill-repo/scripts",
+        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/references",
+        "title": "/tree/main/skills/skill-repo/references",
         "count": 5,
         "uniques": 5
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
-        "count": 5,
-        "uniques": 4
       }
     ]
   },
@@ -157,7 +147,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 280,
+      "contributions": 282,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -188,6 +178,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/skill-repo-skill/network/dependents"
   },
-  "blast_radius": 186,
+  "blast_radius": 187,
   "archived": false
 }
