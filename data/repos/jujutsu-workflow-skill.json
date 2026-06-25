@@ -19,7 +19,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-22T22:47:47Z",
-  "pushed_at": "2026-06-23T12:00:40Z",
+  "pushed_at": "2026-06-24T15:54:44Z",
   "updated_at": "2026-06-23T12:00:50Z",
   "composer_name": null,
   "lifetime": {
@@ -35,7 +35,7 @@
     "prs_merged": 7,
     "prs_closed_unmerged": 0,
     "issues_total": 0,
-    "releases": 0,
+    "releases": 1,
     "release_downloads": 0,
     "contributors": 1,
     "external_contributors": 0,
@@ -49,19 +49,37 @@
     "issues_opened": 0,
     "prs_opened": 7,
     "prs_merged": 7,
-    "releases": 0,
+    "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 58,
-    "clones_unique": 30,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 340,
+    "clones_unique": 107,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/jujutsu-workflow-skill",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
-  "latest_release": null,
+  "latest_release": {
+    "name": "v0.1.0",
+    "tag_name": "v0.1.0",
+    "published_at": "2026-06-24T15:55:28Z",
+    "url": "https://github.com/netresearch/jujutsu-workflow-skill/releases/tag/v0.1.0"
+  },
   "top_contributors": [
     {
       "login": "CybotTM",

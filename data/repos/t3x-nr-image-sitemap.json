@@ -38,7 +38,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 1,
-    "packagist_downloads": 1630,
+    "packagist_downloads": 1632,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,33 +49,27 @@
     "prs_opened": 2,
     "prs_merged": 2,
     "releases": 0,
-    "packagist_downloads": 86,
+    "packagist_downloads": 85,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 214,
+    "clones_total": 216,
     "clones_unique": 48,
-    "views_total": 13,
-    "views_unique": 3,
+    "views_total": 5,
+    "views_unique": 2,
     "top_referrers": [
-      {
-        "referrer": "Google",
-        "count": 10,
-        "uniques": 2
-      },
       {
         "referrer": "extensions.typo3.org",
         "count": 3,
         "uniques": 1
+      },
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/blob/main/Classes/Seo/ImagesXmlSitemapDataProvider.php",
-        "title": "/blob/main/Classes/Seo/ImagesXmlSitemapDataProvider.php",
-        "count": 3,
-        "uniques": 1
-      },
       {
         "path": "/netresearch/t3x-nr-image-sitemap",
         "title": "Overview",
@@ -83,38 +77,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-image-sitemap/blob/main/Classes/Domain/Repository/ImageFileReferenceRepository.php",
-        "title": "/blob/main/Classes/Domain/Repository/ImageFileReferenceRepository.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/blob/main/Configuration/TCA/Overrides/sys_template.php",
-        "title": "/blob/main/Configuration/TCA/Overrides/sys_template.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/blob/main/Resources/Private/Templates/Sitemap/Images.xml",
-        "title": "/blob/main/Resources/Private/Templates/Sitemap/Images.xml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-image-sitemap/blob/main/composer.json",
         "title": "/blob/main/composer.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/tree/main/Classes",
-        "title": "/tree/main/Classes",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/tree/main/Classes/Seo",
-        "title": "/tree/main/Classes/Seo",
         "count": 1,
         "uniques": 1
       },
@@ -162,9 +126,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-sitemap",
-    "total": 1630,
-    "monthly": 86,
-    "daily": 4,
+    "total": 1632,
+    "monthly": 85,
+    "daily": 3,
     "url": "https://packagist.org/packages/netresearch/nr-image-sitemap"
   },
   "ghcr": null,

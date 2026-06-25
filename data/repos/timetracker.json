@@ -14,63 +14,63 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-06-23T22:31:28Z",
-  "updated_at": "2026-06-23T22:31:31Z",
+  "pushed_at": "2026-06-24T15:03:19Z",
+  "updated_at": "2026-06-24T14:44:44Z",
   "composer_name": null,
   "lifetime": {
     "stars": 24,
     "forks": 27,
     "watchers": 6,
     "network": 27,
-    "open_issues_plus_prs": 2,
-    "commits": 1850,
-    "issues_open": 2,
-    "issues_closed": 41,
-    "prs_open": 0,
-    "prs_merged": 318,
+    "open_issues_plus_prs": 5,
+    "commits": 1876,
+    "issues_open": 4,
+    "issues_closed": 42,
+    "prs_open": 1,
+    "prs_merged": 326,
     "prs_closed_unmerged": 78,
-    "issues_total": 43,
+    "issues_total": 46,
     "releases": 22,
     "release_downloads": 0,
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 20469,
+    "ghcr_downloads": 21233,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 486,
-    "issues_opened": 10,
-    "prs_opened": 136,
-    "prs_merged": 132,
+    "commits": 512,
+    "issues_opened": 13,
+    "prs_opened": 145,
+    "prs_merged": 140,
     "releases": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 12246
+    "ghcr_downloads": 13010
   },
   "traffic_14d": {
-    "clones_total": 12467,
-    "clones_unique": 1005,
-    "views_total": 22,
-    "views_unique": 10,
+    "clones_total": 13206,
+    "clones_unique": 1019,
+    "views_total": 32,
+    "views_unique": 14,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 9,
+        "uniques": 5
+      },
       {
         "referrer": "Google",
         "count": 9,
         "uniques": 3
-      },
-      {
-        "referrer": "github.com",
-        "count": 6,
-        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 4,
-        "uniques": 4
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/timetracker/blob/main/SECURITY.md",
@@ -83,6 +83,12 @@
         "title": "/tree/main",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/timetracker/issues/441",
+        "title": "/issues/441",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/timetracker/blob/main/.env",
@@ -109,20 +115,14 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/timetracker/blob/main/docs/Benutzerdokumentation.rst",
+        "title": "/blob/main/docs/Benutzerdokumentation.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/timetracker/blob/main/docs/api.md",
         "title": "/blob/main/docs/api.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/package-lock.json",
-        "title": "/blob/main/package-lock.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/src/Dto/ActivitySaveDto.php",
-        "title": "/blob/main/src/Dto/ActivitySaveDto.php",
         "count": 1,
         "uniques": 1
       }
@@ -137,7 +137,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1497,
+      "contributions": 1523,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -192,18 +192,18 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 20469,
-        "thirty_day": 12246
+        "total": 21233,
+        "thirty_day": 13010
       }
     ],
-    "total": 20469,
-    "thirty_day": 12246
+    "total": 21233,
+    "thirty_day": 13010
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "blast_radius": 430,
+  "blast_radius": 441,
   "archived": false
 }

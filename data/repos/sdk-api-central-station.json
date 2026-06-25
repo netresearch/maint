@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-02-12T13:31:46Z",
-  "pushed_at": "2026-06-23T17:40:08Z",
+  "pushed_at": "2026-06-24T11:05:09Z",
   "updated_at": "2026-05-07T09:00:18Z",
   "composer_name": "netresearch/sdk-api-central-station",
   "lifetime": {
@@ -26,13 +26,13 @@
     "issues_closed": 0,
     "prs_open": 6,
     "prs_merged": 5,
-    "prs_closed_unmerged": 19,
+    "prs_closed_unmerged": 20,
     "issues_total": 2,
     "releases": 5,
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 614,
+    "packagist_downloads": 616,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -40,16 +40,16 @@
   "recent_30d": {
     "commits": 0,
     "issues_opened": 0,
-    "prs_opened": 5,
+    "prs_opened": 6,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 20,
+    "packagist_downloads": 22,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 56,
-    "clones_unique": 26,
-    "views_total": 18,
+    "clones_total": 77,
+    "clones_unique": 32,
+    "views_total": 15,
     "views_unique": 11,
     "top_referrers": [
       {
@@ -66,21 +66,15 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/sdk-api-central-station",
-        "title": "Overview",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/sdk-api-central-station/commit/69b3dd190b7083394a37acfea828ef3aa81d6943",
-        "title": "/commit/69b3dd190b7083394a37acfea828ef3aa81d6943",
+        "path": "/netresearch/sdk-api-central-station/pull/16",
+        "title": "/pull/16",
         "count": 2,
         "uniques": 1
       },
       {
-        "path": "/netresearch/sdk-api-central-station/pull/16",
-        "title": "/pull/16",
-        "count": 2,
+        "path": "/netresearch/sdk-api-central-station",
+        "title": "Overview",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -118,6 +112,12 @@
         "title": "/issues",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-central-station/pulls",
+        "title": "/pulls",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -151,9 +151,9 @@
   ],
   "packagist": {
     "name": "netresearch/sdk-api-central-station",
-    "total": 614,
-    "monthly": 20,
-    "daily": 1,
+    "total": 616,
+    "monthly": 22,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/sdk-api-central-station"
   },
   "ghcr": null,

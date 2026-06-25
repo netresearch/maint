@@ -45,11 +45,17 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 269,
-    "clones_unique": 33,
+    "clones_total": 296,
+    "clones_unique": 35,
     "views_total": 5,
     "views_unique": 3,
-    "top_referrers": [],
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-a11y-skill",

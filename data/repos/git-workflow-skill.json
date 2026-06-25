@@ -14,24 +14,24 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:34Z",
-  "pushed_at": "2026-06-23T15:25:25Z",
-  "updated_at": "2026-06-23T15:25:31Z",
+  "pushed_at": "2026-06-24T21:07:00Z",
+  "updated_at": "2026-06-24T19:09:12Z",
   "composer_name": null,
   "lifetime": {
     "stars": 25,
-    "forks": 3,
+    "forks": 4,
     "watchers": 1,
-    "network": 3,
-    "open_issues_plus_prs": 2,
-    "commits": 246,
+    "network": 4,
+    "open_issues_plus_prs": 3,
+    "commits": 253,
     "issues_open": 2,
     "issues_closed": 0,
-    "prs_open": 0,
-    "prs_merged": 72,
+    "prs_open": 1,
+    "prs_merged": 75,
     "prs_closed_unmerged": 1,
     "issues_total": 2,
-    "releases": 29,
-    "release_downloads": 138,
+    "releases": 30,
+    "release_downloads": 139,
     "contributors": 4,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -40,34 +40,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 84,
+    "commits": 91,
     "issues_opened": 0,
-    "prs_opened": 30,
-    "prs_merged": 29,
-    "releases": 4,
+    "prs_opened": 34,
+    "prs_merged": 32,
+    "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2575,
-    "clones_unique": 567,
-    "views_total": 642,
-    "views_unique": 250,
+    "clones_total": 2351,
+    "clones_unique": 533,
+    "views_total": 654,
+    "views_unique": 251,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 443,
-        "uniques": 172
-      },
-      {
-        "referrer": "github.com",
-        "count": 18,
-        "uniques": 14
+        "count": 458,
+        "uniques": 174
       },
       {
         "referrer": "Bing",
         "count": 18,
         "uniques": 8
+      },
+      {
+        "referrer": "github.com",
+        "count": 17,
+        "uniques": 13
       },
       {
         "referrer": "search.brave.com",
@@ -100,31 +100,43 @@
         "path": "/netresearch/git-workflow-skill",
         "title": "Overview",
         "count": 322,
-        "uniques": 226
+        "uniques": 228
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow",
         "title": "/tree/main/skills/git-workflow",
-        "count": 41,
-        "uniques": 33
+        "count": 46,
+        "uniques": 36
       },
       {
         "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/SKILL.md",
         "title": "/blob/main/skills/git-workflow/SKILL.md",
-        "count": 38,
-        "uniques": 26
-      },
-      {
-        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/commit-conventions.md",
-        "title": "/blob/main/skills/git-workflow/references/commit-conventions.md",
-        "count": 12,
-        "uniques": 7
+        "count": 43,
+        "uniques": 31
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/references",
         "title": "/tree/main/skills/git-workflow/references",
-        "count": 11,
+        "count": 13,
+        "uniques": 10
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/commit-conventions.md",
+        "title": "/blob/main/skills/git-workflow/references/commit-conventions.md",
+        "count": 13,
         "uniques": 8
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/branching-strategies.md",
+        "title": "/blob/main/skills/git-workflow/references/branching-strategies.md",
+        "count": 12,
+        "uniques": 10
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 11,
+        "uniques": 10
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/.claude-plugin",
@@ -133,41 +145,29 @@
         "uniques": 9
       },
       {
-        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/branching-strategies.md",
-        "title": "/blob/main/skills/git-workflow/references/branching-strategies.md",
-        "count": 10,
-        "uniques": 8
-      },
-      {
         "path": "/netresearch/git-workflow-skill/tree/main",
         "title": "/tree/main",
-        "count": 10,
-        "uniques": 8
+        "count": 8,
+        "uniques": 6
       },
       {
-        "path": "/netresearch/git-workflow-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 9,
-        "uniques": 8
-      },
-      {
-        "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/scripts",
-        "title": "/tree/main/skills/git-workflow/scripts",
+        "path": "/netresearch/git-workflow-skill/tree/main/docs",
+        "title": "/tree/main/docs",
         "count": 7,
         "uniques": 7
       }
     ]
   },
   "latest_release": {
-    "name": "v1.18.0",
-    "tag_name": "v1.18.0",
-    "published_at": "2026-06-18T08:47:44Z",
-    "url": "https://github.com/netresearch/git-workflow-skill/releases/tag/v1.18.0"
+    "name": "v1.18.1",
+    "tag_name": "v1.18.1",
+    "published_at": "2026-06-24T16:01:42Z",
+    "url": "https://github.com/netresearch/git-workflow-skill/releases/tag/v1.18.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 232,
+      "contributions": 239,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -193,6 +193,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/git-workflow-skill/network/dependents"
   },
-  "blast_radius": 83,
+  "blast_radius": 88,
   "archived": false
 }

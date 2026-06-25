@@ -36,7 +36,7 @@
     "prs_closed_unmerged": 17,
     "issues_total": 14,
     "releases": 16,
-    "release_downloads": 36,
+    "release_downloads": 37,
     "contributors": 12,
     "external_contributors": 8,
     "packagist_downloads": 11597,
@@ -50,14 +50,14 @@
     "prs_opened": 2,
     "prs_merged": 2,
     "releases": 0,
-    "packagist_downloads": 249,
+    "packagist_downloads": 220,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 248,
-    "clones_unique": 64,
-    "views_total": 7,
-    "views_unique": 1,
+    "clones_total": 240,
+    "clones_unique": 58,
+    "views_total": 9,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -67,15 +67,15 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/t3x-cowriter",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
         "title": "/blob/main/Documentation/Images/CowriterHero.png",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter",
-        "title": "Overview",
-        "count": 1,
         "uniques": 1
       },
       {
@@ -99,6 +99,12 @@
       {
         "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/pagetsconfig.png",
         "title": "/blob/main/Documentation/Images/pagetsconfig.png",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/Makefile",
+        "title": "/blob/main/Makefile",
         "count": 1,
         "uniques": 1
       }
@@ -165,7 +171,7 @@
   "packagist": {
     "name": "netresearch/t3-cowriter",
     "total": 11597,
-    "monthly": 249,
+    "monthly": 220,
     "daily": 0,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },

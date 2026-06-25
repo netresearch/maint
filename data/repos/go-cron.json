@@ -44,7 +44,7 @@
     "prs_closed_unmerged": 7,
     "issues_total": 195,
     "releases": 16,
-    "release_downloads": 178,
+    "release_downloads": 185,
     "contributors": 30,
     "external_contributors": 29,
     "packagist_downloads": 0,
@@ -62,25 +62,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 200,
-    "clones_unique": 83,
-    "views_total": 96,
+    "clones_total": 249,
+    "clones_unique": 87,
+    "views_total": 120,
     "views_unique": 50,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 16,
+        "count": 21,
         "uniques": 12
       },
       {
         "referrer": "github.com",
-        "count": 13,
-        "uniques": 12
-      },
-      {
-        "referrer": "DuckDuckGo",
-        "count": 2,
-        "uniques": 1
+        "count": 21,
+        "uniques": 11
       },
       {
         "referrer": "sixworks.atlassian.net",
@@ -92,13 +87,19 @@
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 43,
-        "uniques": 35
+        "count": 47,
+        "uniques": 34
       },
       {
         "path": "/netresearch/go-cron/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 7,
+        "count": 10,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/parser.go",
+        "title": "/blob/main/parser.go",
+        "count": 5,
         "uniques": 4
       },
       {
@@ -108,22 +109,28 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/go-cron/pulls",
-        "title": "/pulls",
-        "count": 4,
+        "path": "/netresearch/go-cron/tree/main",
+        "title": "/tree/main",
+        "count": 5,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/parser.go",
-        "title": "/blob/main/parser.go",
-        "count": 3,
-        "uniques": 3
       },
       {
         "path": "/netresearch/go-cron/releases",
         "title": "/releases",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-cron/pulls",
+        "title": "/pulls",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/tree/main/docs",
+        "title": "/tree/main/docs",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/go-cron/blob/main/retry.go",
@@ -134,18 +141,6 @@
       {
         "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
         "title": "/blob/main/docs/COOKBOOK.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/docs/adr/ADR-003-async-observability.md",
-        "title": "/blob/main/docs/adr/ADR-003-async-observability.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/go-cron/tree/v0.14.0",
-        "title": "/tree/v0.14.0",
         "count": 2,
         "uniques": 2
       }

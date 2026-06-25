@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 2,
-    "packagist_downloads": 230527,
+    "packagist_downloads": 230893,
     "ghcr_downloads": 0,
     "dependents_repos": 18,
     "dependents_packages": 3
@@ -47,17 +47,22 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 2,
-    "packagist_downloads": 7187,
+    "packagist_downloads": 7294,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 46,
-    "clones_unique": 28,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 45,
+    "clones_unique": 27,
+    "views_total": 9,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "github.com",
         "count": 1,
         "uniques": 1
       }
@@ -66,12 +71,42 @@
       {
         "path": "/netresearch/module-shipping-core",
         "title": "Overview",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/module-shipping-core/blob/master/Model/Email/MixedPartMimeMessage.php",
+        "title": "/blob/master/Model/Email/MixedPartMimeMessage.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/blob/master/Model/Email/Shipment/TransportBuilder.php",
+        "title": "/blob/master/Model/Email/Shipment/TransportBuilder.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/commit/74b2d3c99e697b2ab1477a5c207a768b5a5cf165",
+        "title": "/commit/74b2d3c99e697b2ab1477a5c207a768b5a5cf165",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/releases/tag/4.0.2",
+        "title": "/releases/tag/4.0.2",
         "count": 1,
         "uniques": 1
       },
       {
         "path": "/netresearch/module-shipping-core/tree/2.0.0",
         "title": "/tree/2.0.0",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/tree/master/Model/Email",
+        "title": "/tree/master/Model/Email",
         "count": 1,
         "uniques": 1
       }
@@ -102,9 +137,9 @@
   ],
   "packagist": {
     "name": "netresearch/module-shipping-core",
-    "total": 230527,
-    "monthly": 7187,
-    "daily": 320,
+    "total": 230893,
+    "monthly": 7294,
+    "daily": 302,
     "url": "https://packagist.org/packages/netresearch/module-shipping-core"
   },
   "ghcr": null,
