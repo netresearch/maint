@@ -50,11 +50,17 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7,
-    "clones_unique": 7,
-    "views_total": 5,
-    "views_unique": 4,
-    "top_referrers": [],
+    "clones_total": 5,
+    "clones_unique": 5,
+    "views_total": 7,
+    "views_unique": 5,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/ansible-certificates-from-vault/issues",
@@ -77,6 +83,18 @@
       {
         "path": "/netresearch/ansible-certificates-from-vault/labels",
         "title": "/labels",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-certificates-from-vault/tree/master",
+        "title": "/tree/master",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-certificates-from-vault/tree/master/meta",
+        "title": "/tree/master/meta",
         "count": 1,
         "uniques": 1
       }

@@ -21,10 +21,10 @@
   "default_branch": "main",
   "created_at": "2025-11-07T10:15:13Z",
   "pushed_at": "2026-06-24T16:01:55Z",
-  "updated_at": "2026-06-24T16:01:23Z",
+  "updated_at": "2026-06-25T10:39:47Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 66,
+    "stars": 67,
     "forks": 20,
     "watchers": 1,
     "network": 20,
@@ -55,25 +55,30 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2914,
-    "clones_unique": 632,
-    "views_total": 769,
-    "views_unique": 281,
+    "clones_total": 3101,
+    "clones_unique": 650,
+    "views_total": 797,
+    "views_unique": 290,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 408,
-        "uniques": 147
+        "count": 427,
+        "uniques": 153
       },
       {
         "referrer": "Bing",
-        "count": 106,
-        "uniques": 35
+        "count": 99,
+        "uniques": 34
       },
       {
         "referrer": "github.com",
         "count": 85,
-        "uniques": 26
+        "uniques": 25
+      },
+      {
+        "referrer": "statics.teams.cdn.office.net",
+        "count": 16,
+        "uniques": 10
       },
       {
         "referrer": "DuckDuckGo",
@@ -81,44 +86,34 @@
         "uniques": 9
       },
       {
-        "referrer": "statics.teams.cdn.office.net",
-        "count": 14,
-        "uniques": 9
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "count": 9,
+        "uniques": 7
       },
       {
         "referrer": "packagist.org",
-        "count": 10,
-        "uniques": 5
-      },
-      {
-        "referrer": "teams.public.onecdn.static.microsoft",
-        "count": 8,
-        "uniques": 6
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 1,
-        "uniques": 1
+        "count": 9,
+        "uniques": 4
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/jira-skill",
         "title": "Overview",
-        "count": 332,
-        "uniques": 250
+        "count": 350,
+        "uniques": 261
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 69,
-        "uniques": 60
+        "count": 72,
+        "uniques": 62
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills/jira-communication",
         "title": "/tree/main/skills/jira-communication",
-        "count": 44,
-        "uniques": 36
+        "count": 48,
+        "uniques": 37
       },
       {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-communication/SKILL.md",
@@ -129,38 +124,38 @@
       {
         "path": "/netresearch/jira-skill/tree/main/skills/jira-syntax",
         "title": "/tree/main/skills/jira-syntax",
-        "count": 26,
-        "uniques": 23
+        "count": 25,
+        "uniques": 24
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills/jira-communication/scripts",
         "title": "/tree/main/skills/jira-communication/scripts",
-        "count": 17,
-        "uniques": 17
+        "count": 16,
+        "uniques": 16
       },
       {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-syntax/SKILL.md",
         "title": "/blob/main/skills/jira-syntax/SKILL.md",
-        "count": 13,
-        "uniques": 12
-      },
-      {
-        "path": "/netresearch/jira-skill/releases",
-        "title": "/releases",
-        "count": 10,
-        "uniques": 10
+        "count": 12,
+        "uniques": 11
       },
       {
         "path": "/netresearch/jira-skill/tree/main",
         "title": "/tree/main",
-        "count": 10,
+        "count": 11,
         "uniques": 8
       },
       {
         "path": "/netresearch/jira-skill/issues",
         "title": "/issues",
+        "count": 10,
+        "uniques": 9
+      },
+      {
+        "path": "/netresearch/jira-skill/releases",
+        "title": "/releases",
         "count": 9,
-        "uniques": 8
+        "uniques": 9
       }
     ]
   },

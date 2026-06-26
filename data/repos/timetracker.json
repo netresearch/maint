@@ -14,50 +14,50 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-06-24T15:03:19Z",
-  "updated_at": "2026-06-24T14:44:44Z",
+  "pushed_at": "2026-06-25T15:42:34Z",
+  "updated_at": "2026-06-25T15:42:38Z",
   "composer_name": null,
   "lifetime": {
     "stars": 24,
     "forks": 27,
     "watchers": 6,
     "network": 27,
-    "open_issues_plus_prs": 5,
-    "commits": 1876,
-    "issues_open": 4,
-    "issues_closed": 42,
-    "prs_open": 1,
-    "prs_merged": 326,
+    "open_issues_plus_prs": 2,
+    "commits": 1912,
+    "issues_open": 2,
+    "issues_closed": 45,
+    "prs_open": 0,
+    "prs_merged": 339,
     "prs_closed_unmerged": 78,
-    "issues_total": 46,
+    "issues_total": 47,
     "releases": 22,
     "release_downloads": 0,
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 21233,
+    "ghcr_downloads": 22071,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 512,
-    "issues_opened": 13,
-    "prs_opened": 145,
-    "prs_merged": 140,
+    "commits": 548,
+    "issues_opened": 14,
+    "prs_opened": 157,
+    "prs_merged": 153,
     "releases": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 13010
+    "ghcr_downloads": 13624
   },
   "traffic_14d": {
-    "clones_total": 13206,
-    "clones_unique": 1019,
-    "views_total": 32,
-    "views_unique": 14,
+    "clones_total": 13117,
+    "clones_unique": 998,
+    "views_total": 60,
+    "views_unique": 19,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 9,
-        "uniques": 5
+        "count": 14,
+        "uniques": 7
       },
       {
         "referrer": "Google",
@@ -69,8 +69,44 @@
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 6,
-        "uniques": 6
+        "count": 10,
+        "uniques": 9
+      },
+      {
+        "path": "/netresearch/timetracker/issues",
+        "title": "/issues",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/timetracker/pull/458",
+        "title": "/pull/458",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/docs/adr/ADR-014-typography-and-font-preferences.md",
+        "title": "/blob/main/docs/adr/ADR-014-typography-and-font-preferences.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/timetracker/issues/441",
+        "title": "/issues/441",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/timetracker/issues/453",
+        "title": "/issues/453",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/.env",
+        "title": "/blob/main/.env",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/timetracker/blob/main/SECURITY.md",
@@ -79,52 +115,16 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/timetracker/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/timetracker/issues/446",
+        "title": "/issues/446",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/timetracker/issues/441",
-        "title": "/issues/441",
+        "path": "/netresearch/timetracker/tree/main",
+        "title": "/tree/main",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/.env",
-        "title": "/blob/main/.env",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/README.rst",
-        "title": "/blob/main/README.rst",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs",
-        "title": "/blob/main/docs",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs/BREAKING-CHANGES.md",
-        "title": "/blob/main/docs/BREAKING-CHANGES.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs/Benutzerdokumentation.rst",
-        "title": "/blob/main/docs/Benutzerdokumentation.rst",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs/api.md",
-        "title": "/blob/main/docs/api.md",
-        "count": 1,
-        "uniques": 1
+        "uniques": 2
       }
     ]
   },
@@ -137,7 +137,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1523,
+      "contributions": 1555,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -152,12 +152,12 @@
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 47,
+      "contributions": 49,
       "url": "https://github.com/apps/dependabot"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 37,
+      "contributions": 39,
       "url": "https://github.com/apps/github-actions"
     },
     {
@@ -192,18 +192,18 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 21233,
-        "thirty_day": 13010
+        "total": 22071,
+        "thirty_day": 13624
       }
     ],
-    "total": 21233,
-    "thirty_day": 13010
+    "total": 22071,
+    "thirty_day": 13624
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "blast_radius": 441,
+  "blast_radius": 455,
   "archived": false
 }
