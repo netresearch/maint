@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 4,
-    "packagist_downloads": 225994,
+    "packagist_downloads": 226175,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
@@ -43,16 +43,29 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 6526,
+    "packagist_downloads": 6438,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 49,
-    "clones_unique": 30,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_unique": 29,
+    "views_total": 2,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 2,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/deutschepost-module-core",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.5.0",
@@ -89,9 +102,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-core",
-    "total": 225994,
-    "monthly": 6526,
-    "daily": 276,
+    "total": 226175,
+    "monthly": 6438,
+    "daily": 152,
     "url": "https://packagist.org/packages/deutschepost/module-core"
   },
   "ghcr": null,

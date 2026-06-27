@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 3,
-    "packagist_downloads": 310261,
+    "packagist_downloads": 310459,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,18 +43,23 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 6951,
+    "packagist_downloads": 6878,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 37,
-    "clones_unique": 25,
-    "views_total": 3,
-    "views_unique": 2,
+    "clones_total": 40,
+    "clones_unique": 24,
+    "views_total": 6,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
         "uniques": 1
       }
     ],
@@ -62,12 +67,24 @@
       {
         "path": "/netresearch/dhl-module-shipping-core",
         "title": "Overview",
-        "count": 2,
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/actions",
+        "title": "/actions",
+        "count": 1,
         "uniques": 1
       },
       {
         "path": "/netresearch/dhl-module-shipping-core/blob/1.1.5/etc/di.xml",
         "title": "/blob/1.1.5/etc/di.xml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/blob/2.4.0/etc/config.xml",
+        "title": "/blob/2.4.0/etc/config.xml",
         "count": 1,
         "uniques": 1
       }
@@ -108,9 +125,9 @@
   ],
   "packagist": {
     "name": "dhl/module-shipping-core",
-    "total": 310261,
-    "monthly": 6951,
-    "daily": 322,
+    "total": 310459,
+    "monthly": 6878,
+    "daily": 166,
     "url": "https://packagist.org/packages/dhl/module-shipping-core"
   },
   "ghcr": null,

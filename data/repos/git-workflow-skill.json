@@ -49,20 +49,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2469,
-    "clones_unique": 546,
-    "views_total": 692,
-    "views_unique": 256,
+    "clones_total": 2007,
+    "clones_unique": 498,
+    "views_total": 780,
+    "views_unique": 259,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 488,
-        "uniques": 181
+        "count": 522,
+        "uniques": 188
       },
       {
         "referrer": "github.com",
-        "count": 24,
-        "uniques": 14
+        "count": 19,
+        "uniques": 11
+      },
+      {
+        "referrer": "claude.ai",
+        "count": 19,
+        "uniques": 2
       },
       {
         "referrer": "Bing",
@@ -70,24 +75,19 @@
         "uniques": 6
       },
       {
-        "referrer": "search.brave.com",
-        "count": 11,
-        "uniques": 8
+        "referrer": "DuckDuckGo",
+        "count": 16,
+        "uniques": 1
       },
       {
-        "referrer": "claude.ai",
-        "count": 7,
-        "uniques": 1
+        "referrer": "search.brave.com",
+        "count": 13,
+        "uniques": 10
       },
       {
         "referrer": "chatgpt.com",
         "count": 4,
         "uniques": 3
-      },
-      {
-        "referrer": "DuckDuckGo",
-        "count": 1,
-        "uniques": 1
       },
       {
         "referrer": "perplexity.ai",
@@ -99,26 +99,26 @@
       {
         "path": "/netresearch/git-workflow-skill",
         "title": "Overview",
-        "count": 330,
-        "uniques": 235
-      },
-      {
-        "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow",
-        "title": "/tree/main/skills/git-workflow",
-        "count": 48,
-        "uniques": 39
+        "count": 340,
+        "uniques": 242
       },
       {
         "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/SKILL.md",
         "title": "/blob/main/skills/git-workflow/SKILL.md",
-        "count": 46,
-        "uniques": 32
+        "count": 57,
+        "uniques": 39
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow",
+        "title": "/tree/main/skills/git-workflow",
+        "count": 54,
+        "uniques": 41
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/references",
         "title": "/tree/main/skills/git-workflow/references",
-        "count": 16,
-        "uniques": 13
+        "count": 21,
+        "uniques": 17
       },
       {
         "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/commit-conventions.md",
@@ -127,34 +127,34 @@
         "uniques": 9
       },
       {
+        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/branching-strategies.md",
+        "title": "/blob/main/skills/git-workflow/references/branching-strategies.md",
+        "count": 14,
+        "uniques": 11
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
+        "count": 13,
+        "uniques": 10
+      },
+      {
         "path": "/netresearch/git-workflow-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
         "count": 12,
         "uniques": 11
       },
       {
-        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/branching-strategies.md",
-        "title": "/blob/main/skills/git-workflow/references/branching-strategies.md",
-        "count": 12,
-        "uniques": 10
-      },
-      {
-        "path": "/netresearch/git-workflow-skill/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
-        "count": 10,
-        "uniques": 9
-      },
-      {
         "path": "/netresearch/git-workflow-skill/tree/main/docs",
         "title": "/tree/main/docs",
-        "count": 8,
-        "uniques": 8
+        "count": 10,
+        "uniques": 10
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/scripts",
         "title": "/tree/main/skills/git-workflow/scripts",
-        "count": 7,
-        "uniques": 7
+        "count": 10,
+        "uniques": 9
       }
     ]
   },

@@ -35,7 +35,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 3,
-    "packagist_downloads": 179514,
+    "packagist_downloads": 179694,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -46,21 +46,33 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 2,
-    "packagist_downloads": 6338,
+    "packagist_downloads": 6250,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 37,
+    "clones_total": 41,
     "clones_unique": 20,
-    "views_total": 2,
-    "views_unique": 2,
-    "top_referrers": [],
+    "views_total": 3,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/module-interactive-batch-processing",
         "title": "Overview",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/module-interactive-batch-processing/releases",
+        "title": "/releases",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -89,9 +101,9 @@
   ],
   "packagist": {
     "name": "netresearch/module-interactive-batch-processing",
-    "total": 179514,
-    "monthly": 6338,
-    "daily": 274,
+    "total": 179694,
+    "monthly": 6250,
+    "daily": 151,
     "url": "https://packagist.org/packages/netresearch/module-interactive-batch-processing"
   },
   "ghcr": null,

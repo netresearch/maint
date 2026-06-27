@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 2,
-    "packagist_downloads": 231280,
+    "packagist_downloads": 231480,
     "ghcr_downloads": 0,
     "dependents_repos": 18,
     "dependents_packages": 3
@@ -47,22 +47,22 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 2,
-    "packagist_downloads": 7375,
+    "packagist_downloads": 7280,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 44,
-    "clones_unique": 25,
-    "views_total": 8,
-    "views_unique": 3,
+    "clones_total": 50,
+    "clones_unique": 27,
+    "views_total": 12,
+    "views_unique": 4,
     "top_referrers": [
       {
-        "referrer": "Google",
-        "count": 1,
-        "uniques": 1
+        "referrer": "github.com",
+        "count": 3,
+        "uniques": 2
       },
       {
-        "referrer": "github.com",
+        "referrer": "Google",
         "count": 1,
         "uniques": 1
       }
@@ -71,8 +71,8 @@
       {
         "path": "/netresearch/module-shipping-core",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/module-shipping-core/blob/master/Model/Email/MixedPartMimeMessage.php",
@@ -87,8 +87,20 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/module-shipping-core/commit/4cf33339b90c7fc114d02e949e13b4a343621f77",
+        "title": "/commit/4cf33339b90c7fc114d02e949e13b4a343621f77",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/module-shipping-core/commit/74b2d3c99e697b2ab1477a5c207a768b5a5cf165",
         "title": "/commit/74b2d3c99e697b2ab1477a5c207a768b5a5cf165",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/releases",
+        "title": "/releases",
         "count": 1,
         "uniques": 1
       },
@@ -101,6 +113,12 @@
       {
         "path": "/netresearch/module-shipping-core/tree/2.0.0",
         "title": "/tree/2.0.0",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/tree/3.0.0/Model",
+        "title": "/tree/3.0.0/Model",
         "count": 1,
         "uniques": 1
       },
@@ -137,9 +155,9 @@
   ],
   "packagist": {
     "name": "netresearch/module-shipping-core",
-    "total": 231280,
-    "monthly": 7375,
-    "daily": 329,
+    "total": 231480,
+    "monthly": 7280,
+    "daily": 167,
     "url": "https://packagist.org/packages/netresearch/module-shipping-core"
   },
   "ghcr": null,

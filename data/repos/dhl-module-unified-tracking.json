@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 3,
-    "packagist_downloads": 288325,
+    "packagist_downloads": 288506,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,15 +43,20 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 6584,
+    "packagist_downloads": 6496,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 53,
+    "clones_total": 58,
     "clones_unique": 29,
-    "views_total": 4,
-    "views_unique": 3,
+    "views_total": 14,
+    "views_unique": 4,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 10,
+        "uniques": 1
+      },
       {
         "referrer": "packagist.org",
         "count": 2,
@@ -62,12 +67,54 @@
       {
         "path": "/netresearch/dhl-module-unified-tracking",
         "title": "Overview",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/dhl-module-unified-tracking/tree/master",
+        "title": "/tree/master",
         "count": 3,
-        "uniques": 3
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-unified-tracking/blob/master/Api/TrackingInfoProviderInterface.php",
+        "title": "/blob/master/Api/TrackingInfoProviderInterface.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-unified-tracking/blob/master/Test/Integration/TestDouble/TrackingServiceStub.php",
+        "title": "/blob/master/Test/Integration/TestDouble/TrackingServiceStub.php",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-module-unified-tracking/blob/master/composer.json",
         "title": "/blob/master/composer.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-unified-tracking/tree/master/Api",
+        "title": "/tree/master/Api",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-unified-tracking/tree/master/Model",
+        "title": "/tree/master/Model",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-unified-tracking/tree/master/Test/Integration",
+        "title": "/tree/master/Test/Integration",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-unified-tracking/tree/master/Test/Integration/TestDouble",
+        "title": "/tree/master/Test/Integration/TestDouble",
         "count": 1,
         "uniques": 1
       }
@@ -108,9 +155,9 @@
   ],
   "packagist": {
     "name": "dhl/module-unified-tracking",
-    "total": 288325,
-    "monthly": 6584,
-    "daily": 282,
+    "total": 288506,
+    "monthly": 6496,
+    "daily": 152,
     "url": "https://packagist.org/packages/dhl/module-unified-tracking"
   },
   "ghcr": null,

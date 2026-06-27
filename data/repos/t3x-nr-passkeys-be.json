@@ -39,7 +39,7 @@
     "release_downloads": 49,
     "contributors": 3,
     "external_contributors": 1,
-    "packagist_downloads": 3233,
+    "packagist_downloads": 3239,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -50,14 +50,14 @@
     "prs_opened": 20,
     "prs_merged": 20,
     "releases": 5,
-    "packagist_downloads": 404,
+    "packagist_downloads": 392,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2058,
-    "clones_unique": 208,
-    "views_total": 63,
-    "views_unique": 2,
+    "clones_total": 3463,
+    "clones_unique": 276,
+    "views_total": 67,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -66,6 +66,11 @@
       },
       {
         "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
         "count": 1,
         "uniques": 1
       }
@@ -108,6 +113,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-passkeys-be/releases/tag/v0.10.0",
+        "title": "/releases/tag/v0.10.0",
+        "count": 2,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-passkeys-be/tree/main/Build",
         "title": "/tree/main/Build",
         "count": 2,
@@ -122,12 +133,6 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be/tree/main/Configuration/Backend",
         "title": "/tree/main/Configuration/Backend",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/tree/main/Configuration/TCA",
-        "title": "/tree/main/Configuration/TCA",
         "count": 2,
         "uniques": 1
       }
@@ -158,9 +163,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 3233,
-    "monthly": 404,
-    "daily": 26,
+    "total": 3239,
+    "monthly": 392,
+    "daily": 6,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,

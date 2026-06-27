@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 3,
-    "packagist_downloads": 223858,
+    "packagist_downloads": 224039,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,32 +43,32 @@
     "prs_opened": 3,
     "prs_merged": 1,
     "releases": 1,
-    "packagist_downloads": 6315,
+    "packagist_downloads": 6227,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 199,
-    "clones_unique": 50,
+    "clones_unique": 49,
     "views_total": 25,
-    "views_unique": 8,
+    "views_unique": 6,
     "top_referrers": [
-      {
-        "referrer": "Google",
-        "count": 8,
-        "uniques": 4
-      },
       {
         "referrer": "github.com",
         "count": 4,
         "uniques": 2
+      },
+      {
+        "referrer": "Google",
+        "count": 4,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/deutschepost-module-autocomplete-m2",
         "title": "Overview",
-        "count": 9,
-        "uniques": 6
+        "count": 6,
+        "uniques": 3
       },
       {
         "path": "/netresearch/deutschepost-module-autocomplete-m2/releases",
@@ -79,6 +79,12 @@
       {
         "path": "/netresearch/deutschepost-module-autocomplete-m2/releases/tag/1.7.0",
         "title": "/releases/tag/1.7.0",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/tree/1.5.0",
+        "title": "/tree/1.5.0",
         "count": 2,
         "uniques": 1
       },
@@ -95,8 +101,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/master/registration.php",
-        "title": "/blob/master/registration.php",
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/1.5.0/composer.json",
+        "title": "/blob/1.5.0/composer.json",
         "count": 1,
         "uniques": 1
       },
@@ -115,12 +121,6 @@
       {
         "path": "/netresearch/deutschepost-module-autocomplete-m2/releases/edit/1.7.0",
         "title": "/releases/edit/1.7.0",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-module-autocomplete-m2/releases/new",
-        "title": "/releases/new",
         "count": 1,
         "uniques": 1
       }
@@ -156,9 +156,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-autocomplete-m2",
-    "total": 223858,
-    "monthly": 6315,
-    "daily": 277,
+    "total": 224039,
+    "monthly": 6227,
+    "daily": 152,
     "url": "https://packagist.org/packages/deutschepost/module-autocomplete-m2"
   },
   "ghcr": null,
