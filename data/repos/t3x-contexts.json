@@ -13,20 +13,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2013-03-11T14:10:52Z",
-  "pushed_at": "2026-06-26T21:02:08Z",
-  "updated_at": "2026-06-26T21:02:11Z",
+  "pushed_at": "2026-06-27T08:41:44Z",
+  "updated_at": "2026-06-27T08:41:45Z",
   "composer_name": "netresearch/contexts",
   "lifetime": {
     "stars": 11,
     "forks": 11,
     "watchers": 11,
     "network": 11,
-    "open_issues_plus_prs": 2,
-    "commits": 485,
-    "issues_open": 2,
-    "issues_closed": 16,
+    "open_issues_plus_prs": 1,
+    "commits": 486,
+    "issues_open": 1,
+    "issues_closed": 17,
     "prs_open": 0,
-    "prs_merged": 99,
+    "prs_merged": 100,
     "prs_closed_unmerged": 33,
     "issues_total": 18,
     "releases": 7,
@@ -39,26 +39,32 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 6,
+    "commits": 7,
     "issues_opened": 0,
-    "prs_opened": 6,
-    "prs_merged": 6,
+    "prs_opened": 7,
+    "prs_merged": 7,
     "releases": 0,
     "packagist_downloads": 424,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 426,
-    "clones_unique": 68,
-    "views_total": 6,
-    "views_unique": 2,
-    "top_referrers": [],
+    "clones_total": 722,
+    "clones_unique": 82,
+    "views_total": 8,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 2,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-contexts",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-contexts/blob/main/infection.json5",
@@ -95,7 +101,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 144,
+      "contributions": 145,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -148,7 +154,7 @@
     "name": "netresearch/contexts",
     "total": 18936,
     "monthly": 424,
-    "daily": 1,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,
@@ -157,6 +163,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts/network/dependents"
   },
-  "blast_radius": 166,
+  "blast_radius": 167,
   "archived": false
 }

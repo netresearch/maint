@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-27T07:58:22Z",
-  "pushed_at": "2026-06-26T11:55:53Z",
-  "updated_at": "2026-06-26T11:55:56Z",
+  "pushed_at": "2026-06-27T20:20:21Z",
+  "updated_at": "2026-06-27T20:18:20Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
@@ -19,14 +19,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 64,
+    "commits": 66,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 1,
-    "prs_merged": 22,
+    "prs_merged": 23,
     "prs_closed_unmerged": 0,
     "issues_total": 3,
-    "releases": 6,
+    "releases": 7,
     "release_downloads": 16,
     "contributors": 1,
     "external_contributors": 0,
@@ -45,25 +45,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 365,
-    "clones_unique": 118,
+    "clones_total": 471,
+    "clones_unique": 150,
     "views_total": 7,
-    "views_unique": 5,
+    "views_unique": 6,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 4,
+        "uniques": 4
+      },
       {
         "referrer": "Google",
         "count": 3,
         "uniques": 2
-      },
-      {
-        "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "referrer": "netresearch.github.io",
-        "count": 2,
-        "uniques": 1
       }
     ],
     "top_paths": [
@@ -71,7 +66,7 @@
         "path": "/netresearch/peer-qa-review-skill",
         "title": "Overview",
         "count": 4,
-        "uniques": 3
+        "uniques": 4
       },
       {
         "path": "/netresearch/peer-qa-review-skill/releases",
@@ -88,15 +83,15 @@
     ]
   },
   "latest_release": {
-    "name": "v0.5.1",
-    "tag_name": "v0.5.1",
-    "published_at": "2026-06-24T16:01:58Z",
-    "url": "https://github.com/netresearch/peer-qa-review-skill/releases/tag/v0.5.1"
+    "name": "v0.5.2",
+    "tag_name": "v0.5.2",
+    "published_at": "2026-06-27T20:22:06Z",
+    "url": "https://github.com/netresearch/peer-qa-review-skill/releases/tag/v0.5.2"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 64,
+      "contributions": 66,
       "url": "https://github.com/CybotTM"
     }
   ],
@@ -107,6 +102,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/peer-qa-review-skill/network/dependents"
   },
-  "blast_radius": 25,
+  "blast_radius": 26,
   "archived": false
 }

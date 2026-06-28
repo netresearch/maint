@@ -14,20 +14,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-21T13:01:02Z",
-  "pushed_at": "2026-06-25T10:46:37Z",
-  "updated_at": "2026-06-25T10:44:22Z",
+  "pushed_at": "2026-06-27T07:23:21Z",
+  "updated_at": "2026-06-27T07:23:23Z",
   "composer_name": null,
   "lifetime": {
     "stars": 3,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 46,
+    "open_issues_plus_prs": 1,
+    "commits": 50,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 2,
-    "prs_merged": 18,
+    "prs_open": 0,
+    "prs_merged": 20,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 14,
@@ -40,17 +40,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 10,
+    "commits": 14,
     "issues_opened": 0,
     "prs_opened": 7,
-    "prs_merged": 5,
+    "prs_merged": 7,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 207,
-    "clones_unique": 69,
+    "clones_total": 208,
+    "clones_unique": 70,
     "views_total": 1,
     "views_unique": 1,
     "top_referrers": [],
@@ -77,8 +77,13 @@
     },
     {
       "login": "CybotTM",
-      "contributions": 11,
+      "contributions": 13,
       "url": "https://github.com/CybotTM"
+    },
+    {
+      "login": "renovate[bot]",
+      "contributions": 8,
+      "url": "https://github.com/apps/renovate"
     },
     {
       "login": "tripleawwy",
@@ -86,13 +91,8 @@
       "url": "https://github.com/tripleawwy"
     },
     {
-      "login": "renovate[bot]",
-      "contributions": 7,
-      "url": "https://github.com/apps/renovate"
-    },
-    {
       "login": "dependabot[bot]",
-      "contributions": 1,
+      "contributions": 2,
       "url": "https://github.com/apps/dependabot"
     }
   ],
@@ -103,6 +103,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/ansible_role_docker_containers/network/dependents"
   },
-  "blast_radius": 25,
+  "blast_radius": 27,
   "archived": false
 }

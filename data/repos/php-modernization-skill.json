@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:20Z",
-  "pushed_at": "2026-06-24T16:01:14Z",
-  "updated_at": "2026-06-24T16:00:37Z",
+  "pushed_at": "2026-06-27T20:21:03Z",
+  "updated_at": "2026-06-27T20:20:12Z",
   "composer_name": null,
   "lifetime": {
     "stars": 32,
@@ -23,14 +23,14 @@
     "watchers": 2,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 218,
+    "commits": 223,
     "issues_open": 2,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 59,
+    "prs_merged": 61,
     "prs_closed_unmerged": 3,
     "issues_total": 2,
-    "releases": 31,
+    "releases": 32,
     "release_downloads": 132,
     "contributors": 4,
     "external_contributors": 1,
@@ -40,29 +40,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 14,
+    "commits": 17,
     "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 7,
+    "prs_opened": 8,
+    "prs_merged": 8,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1335,
-    "clones_unique": 323,
-    "views_total": 536,
-    "views_unique": 194,
+    "clones_total": 1388,
+    "clones_unique": 320,
+    "views_total": 501,
+    "views_unique": 189,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 351,
-        "uniques": 147
+        "count": 322,
+        "uniques": 143
       },
       {
         "referrer": "github.com",
-        "count": 16,
-        "uniques": 6
+        "count": 27,
+        "uniques": 7
       },
       {
         "referrer": "search.brave.com",
@@ -90,14 +90,14 @@
         "uniques": 1
       },
       {
-        "referrer": "cardmarket.atlassian.net",
-        "count": 3,
-        "uniques": 1
-      },
-      {
         "referrer": "Bing",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "mcpmarket.com",
+        "count": 2,
+        "uniques": 1
       },
       {
         "referrer": "statics.teams.cdn.office.net",
@@ -109,26 +109,20 @@
       {
         "path": "/netresearch/php-modernization-skill",
         "title": "Overview",
-        "count": 285,
-        "uniques": 181
+        "count": 276,
+        "uniques": 177
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization",
         "title": "/tree/main/skills/php-modernization",
-        "count": 34,
-        "uniques": 24
+        "count": 33,
+        "uniques": 23
       },
       {
         "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/SKILL.md",
         "title": "/blob/main/skills/php-modernization/SKILL.md",
-        "count": 31,
-        "uniques": 28
-      },
-      {
-        "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/references",
-        "title": "/tree/main/skills/php-modernization/references",
-        "count": 15,
-        "uniques": 13
+        "count": 30,
+        "uniques": 27
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main",
@@ -137,22 +131,16 @@
         "uniques": 10
       },
       {
+        "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/references",
+        "title": "/tree/main/skills/php-modernization/references",
+        "count": 10,
+        "uniques": 9
+      },
+      {
         "path": "/netresearch/php-modernization-skill/tree/main/skills",
         "title": "/tree/main/skills",
         "count": 8,
         "uniques": 8
-      },
-      {
-        "path": "/netresearch/php-modernization-skill/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
-        "count": 7,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/scripts",
-        "title": "/tree/main/skills/php-modernization/scripts",
-        "count": 6,
-        "uniques": 6
       },
       {
         "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/templates/composer-scripts.json",
@@ -161,23 +149,35 @@
         "uniques": 5
       },
       {
+        "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/references/php-8.4.md",
+        "title": "/blob/main/skills/php-modernization/references/php-8.4.md",
+        "count": 5,
+        "uniques": 5
+      },
+      {
         "path": "/netresearch/php-modernization-skill/issues",
         "title": "/issues",
-        "count": 6,
+        "count": 5,
         "uniques": 5
+      },
+      {
+        "path": "/netresearch/php-modernization-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 4,
+        "uniques": 4
       }
     ]
   },
   "latest_release": {
-    "name": "v1.19.1",
-    "tag_name": "v1.19.1",
-    "published_at": "2026-06-24T16:01:54Z",
-    "url": "https://github.com/netresearch/php-modernization-skill/releases/tag/v1.19.1"
+    "name": "v1.19.2",
+    "tag_name": "v1.19.2",
+    "published_at": "2026-06-27T20:22:17Z",
+    "url": "https://github.com/netresearch/php-modernization-skill/releases/tag/v1.19.2"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 199,
+      "contributions": 204,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -203,6 +203,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/php-modernization-skill/network/dependents"
   },
-  "blast_radius": 64,
+  "blast_radius": 66,
   "archived": false
 }

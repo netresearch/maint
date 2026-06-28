@@ -62,28 +62,33 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 243,
-    "clones_unique": 95,
-    "views_total": 121,
-    "views_unique": 55,
+    "clones_total": 236,
+    "clones_unique": 87,
+    "views_total": 128,
+    "views_unique": 58,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 23,
+        "count": 24,
         "uniques": 15
       },
       {
         "referrer": "github.com",
         "count": 19,
         "uniques": 9
+      },
+      {
+        "referrer": "awesome-go.com",
+        "count": 3,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 49,
-        "uniques": 35
+        "count": 54,
+        "uniques": 38
       },
       {
         "path": "/netresearch/go-cron/blob/main/README.md",
@@ -100,14 +105,26 @@
       {
         "path": "/netresearch/go-cron/tree/main",
         "title": "/tree/main",
-        "count": 4,
-        "uniques": 1
+        "count": 5,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/MIGRATION.md",
+        "title": "/blob/main/docs/MIGRATION.md",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/go-cron/releases",
         "title": "/releases",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/PERSISTENCE_GUIDE.md",
+        "title": "/blob/main/docs/PERSISTENCE_GUIDE.md",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/go-cron/blob/main/parser.go",
@@ -125,18 +142,6 @@
         "path": "/netresearch/go-cron/tree/main/docs",
         "title": "/tree/main/docs",
         "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
-        "title": "/blob/main/docs/COOKBOOK.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/docs/MIGRATION.md",
-        "title": "/blob/main/docs/MIGRATION.md",
-        "count": 2,
         "uniques": 2
       }
     ]

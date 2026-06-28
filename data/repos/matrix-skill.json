@@ -21,43 +21,43 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-31T12:42:05Z",
-  "pushed_at": "2026-06-19T08:29:26Z",
-  "updated_at": "2026-06-18T08:48:36Z",
+  "pushed_at": "2026-06-27T20:20:59Z",
+  "updated_at": "2026-06-27T20:20:02Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 220,
+    "open_issues_plus_prs": 1,
+    "commits": 231,
     "issues_open": 1,
     "issues_closed": 1,
-    "prs_open": 1,
-    "prs_merged": 43,
+    "prs_open": 0,
+    "prs_merged": 47,
     "prs_closed_unmerged": 0,
     "issues_total": 2,
-    "releases": 44,
+    "releases": 45,
     "release_downloads": 156,
-    "contributors": 4,
-    "external_contributors": 0,
+    "contributors": 5,
+    "external_contributors": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 18,
+    "commits": 27,
     "issues_opened": 1,
-    "prs_opened": 7,
-    "prs_merged": 6,
+    "prs_opened": 9,
+    "prs_merged": 9,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 891,
-    "clones_unique": 236,
+    "clones_total": 901,
+    "clones_unique": 235,
     "views_total": 34,
     "views_unique": 22,
     "top_referrers": [
@@ -72,6 +72,11 @@
         "uniques": 1
       },
       {
+        "referrer": "doubao.com",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "referrer": "ecosia.org",
         "count": 1,
         "uniques": 1
@@ -81,8 +86,8 @@
       {
         "path": "/netresearch/matrix-skill",
         "title": "Overview",
-        "count": 19,
-        "uniques": 16
+        "count": 20,
+        "uniques": 17
       },
       {
         "path": "/netresearch/matrix-skill/tree/main",
@@ -105,12 +110,6 @@
       {
         "path": "/netresearch/matrix-skill/blob/main/GEMINI.md",
         "title": "/blob/main/GEMINI.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/SKILL.md",
-        "title": "/blob/main/skills/matrix-communication/SKILL.md",
         "count": 1,
         "uniques": 1
       },
@@ -141,15 +140,15 @@
     ]
   },
   "latest_release": {
-    "name": "v1.25.1",
-    "tag_name": "v1.25.1",
-    "published_at": "2026-06-18T08:50:19Z",
-    "url": "https://github.com/netresearch/matrix-skill/releases/tag/v1.25.1"
+    "name": "v1.25.2",
+    "tag_name": "v1.25.2",
+    "published_at": "2026-06-27T20:22:28Z",
+    "url": "https://github.com/netresearch/matrix-skill/releases/tag/v1.25.2"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 179,
+      "contributions": 189,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -161,6 +160,11 @@
       "login": "renovate[bot]",
       "contributions": 2,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "aseemann",
+      "contributions": 1,
+      "url": "https://github.com/aseemann"
     },
     {
       "login": "dependabot[bot]",
@@ -175,6 +179,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/matrix-skill/network/dependents"
   },
-  "blast_radius": 45,
+  "blast_radius": 52,
   "archived": false
 }

@@ -53,34 +53,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 58,
+    "commits": 43,
     "issues_opened": 0,
-    "prs_opened": 22,
-    "prs_merged": 21,
+    "prs_opened": 18,
+    "prs_merged": 17,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 867,
-    "clones_unique": 185,
-    "views_total": 56,
-    "views_unique": 15,
+    "clones_total": 869,
+    "clones_unique": 184,
+    "views_total": 49,
+    "views_unique": 16,
     "top_referrers": [
       {
+        "referrer": "ecosia.org",
+        "count": 12,
+        "uniques": 2
+      },
+      {
         "referrer": "Google",
-        "count": 14,
+        "count": 11,
         "uniques": 6
       },
       {
-        "referrer": "ecosia.org",
-        "count": 7,
-        "uniques": 1
-      },
-      {
         "referrer": "Bing",
-        "count": 5,
-        "uniques": 3
+        "count": 4,
+        "uniques": 2
       },
       {
         "referrer": "perplexity.ai",
@@ -97,19 +97,25 @@
       {
         "path": "/netresearch/jira-to-openproject",
         "title": "Overview",
-        "count": 23,
-        "uniques": 13
+        "count": 21,
+        "uniques": 14
       },
       {
         "path": "/netresearch/jira-to-openproject/issues/260",
         "title": "/issues/260",
-        "count": 9,
+        "count": 8,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/blob/main/docs/DEVELOPER_GUIDE.md",
+        "title": "/blob/main/docs/DEVELOPER_GUIDE.md",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/jira-to-openproject/blob/main/docs/ENTITY_MAPPING.md",
         "title": "/blob/main/docs/ENTITY_MAPPING.md",
-        "count": 3,
+        "count": 2,
         "uniques": 2
       },
       {
@@ -119,14 +125,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/jira-to-openproject/blob/main/docs/configuration.md",
-        "title": "/blob/main/docs/configuration.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-to-openproject/blob/main/.env",
-        "title": "/blob/main/.env",
+        "path": "/netresearch/jira-to-openproject/blob/main/README.md",
+        "title": "/blob/main/README.md",
         "count": 1,
         "uniques": 1
       },
@@ -137,20 +137,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/jira-to-openproject/blob/main/docs/DEVELOPER_GUIDE.md",
-        "title": "/blob/main/docs/DEVELOPER_GUIDE.md",
+        "path": "/netresearch/jira-to-openproject/blob/main/docs/configuration.md",
+        "title": "/blob/main/docs/configuration.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/jira-to-openproject/blob/main/docs/WORKFLOW_STATUS_GUIDE.md",
-        "title": "/blob/main/docs/WORKFLOW_STATUS_GUIDE.md",
+        "path": "/netresearch/jira-to-openproject/blob/main/jira/resources.py",
+        "title": "/blob/main/jira/resources.py",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/jira-to-openproject/blob/main/docs/adr/ADR-001-two-phase-work-package-migration.md",
-        "title": "/blob/main/docs/adr/ADR-001-two-phase-work-package-migration.md",
+        "path": "/netresearch/jira-to-openproject/blob/main/scripts/comprehensive_migration_test.py",
+        "title": "/blob/main/scripts/comprehensive_migration_test.py",
         "count": 1,
         "uniques": 1
       }

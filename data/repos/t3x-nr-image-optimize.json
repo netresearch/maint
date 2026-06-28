@@ -37,7 +37,7 @@
     "release_downloads": 6,
     "contributors": 8,
     "external_contributors": 3,
-    "packagist_downloads": 1133,
+    "packagist_downloads": 1135,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -48,27 +48,32 @@
     "prs_opened": 2,
     "prs_merged": 2,
     "releases": 0,
-    "packagist_downloads": 189,
+    "packagist_downloads": 190,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 659,
-    "clones_unique": 123,
-    "views_total": 8,
-    "views_unique": 3,
+    "clones_total": 636,
+    "clones_unique": 105,
+    "views_total": 9,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
         "count": 7,
         "uniques": 2
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-image-optimize",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-image-optimize/blob/main/Classes/EventListener/OptimizeOnUploadListener.php",
@@ -164,9 +169,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 1133,
-    "monthly": 189,
-    "daily": 5,
+    "total": 1135,
+    "monthly": 190,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,
