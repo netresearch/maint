@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2014-01-21T20:27:08Z",
-  "pushed_at": "2026-06-26T17:09:31Z",
-  "updated_at": "2026-06-26T17:09:34Z",
+  "pushed_at": "2026-06-29T04:34:59Z",
+  "updated_at": "2026-06-29T04:35:02Z",
   "composer_name": "netresearch/composer-patches-plugin",
   "lifetime": {
     "stars": 80,
@@ -23,36 +23,36 @@
     "watchers": 12,
     "network": 22,
     "open_issues_plus_prs": 1,
-    "commits": 106,
+    "commits": 107,
     "issues_open": 1,
     "issues_closed": 30,
     "prs_open": 0,
-    "prs_merged": 39,
+    "prs_merged": 40,
     "prs_closed_unmerged": 9,
     "issues_total": 31,
     "releases": 9,
     "release_downloads": 0,
     "contributors": 16,
     "external_contributors": 12,
-    "packagist_downloads": 269839,
+    "packagist_downloads": 269874,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 5,
+    "commits": 6,
     "issues_opened": 0,
-    "prs_opened": 5,
-    "prs_merged": 5,
+    "prs_opened": 6,
+    "prs_merged": 6,
     "releases": 0,
-    "packagist_downloads": 2146,
+    "packagist_downloads": 2160,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 134,
-    "clones_unique": 73,
+    "clones_total": 136,
+    "clones_unique": 75,
     "views_total": 9,
-    "views_unique": 6,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -70,12 +70,18 @@
       {
         "path": "/netresearch/composer-patches-plugin/activity",
         "title": "/activity",
-        "count": 2,
+        "count": 1,
         "uniques": 1
       },
       {
         "path": "/netresearch/composer-patches-plugin/blob/master/README.md",
         "title": "/blob/master/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-patches-plugin/commits/master",
+        "title": "/commits/master",
         "count": 1,
         "uniques": 1
       },
@@ -136,6 +142,11 @@
       "url": "https://github.com/c33s"
     },
     {
+      "login": "dependabot[bot]",
+      "contributions": 2,
+      "url": "https://github.com/apps/dependabot"
+    },
+    {
       "login": "vergissberlin",
       "contributions": 1,
       "url": "https://github.com/vergissberlin"
@@ -144,18 +155,13 @@
       "login": "cweiske",
       "contributions": 1,
       "url": "https://github.com/cweiske"
-    },
-    {
-      "login": "dooug",
-      "contributions": 1,
-      "url": "https://github.com/dooug"
     }
   ],
   "packagist": {
     "name": "netresearch/composer-patches-plugin",
-    "total": 269839,
-    "monthly": 2146,
-    "daily": 0,
+    "total": 269874,
+    "monthly": 2160,
+    "daily": 30,
     "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
   },
   "ghcr": null,
@@ -164,6 +170,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/composer-patches-plugin/network/dependents"
   },
-  "blast_radius": 150,
+  "blast_radius": 151,
   "archived": false
 }

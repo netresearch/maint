@@ -28,10 +28,10 @@
   "default_branch": "main",
   "created_at": "2025-11-25T07:26:55Z",
   "pushed_at": "2026-06-08T16:15:04Z",
-  "updated_at": "2026-06-23T01:24:10Z",
+  "updated_at": "2026-06-29T03:24:07Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 42,
+    "stars": 44,
     "forks": 5,
     "watchers": 3,
     "network": 1696,
@@ -62,10 +62,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 236,
-    "clones_unique": 87,
-    "views_total": 128,
-    "views_unique": 58,
+    "clones_total": 245,
+    "clones_unique": 90,
+    "views_total": 121,
+    "views_unique": 57,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -79,8 +79,8 @@
       },
       {
         "referrer": "awesome-go.com",
-        "count": 3,
-        "uniques": 1
+        "count": 4,
+        "uniques": 2
       }
     ],
     "top_paths": [
@@ -97,16 +97,16 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/go-cron/discussions",
-        "title": "/discussions",
-        "count": 5,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/go-cron/tree/main",
         "title": "/tree/main",
         "count": 5,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/discussions",
+        "title": "/discussions",
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/go-cron/blob/main/docs/MIGRATION.md",
@@ -139,9 +139,9 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/go-cron/tree/main/docs",
-        "title": "/tree/main/docs",
-        "count": 3,
+        "path": "/netresearch/go-cron/blob/main/docs/adr/ADR-003-async-observability.md",
+        "title": "/blob/main/docs/adr/ADR-003-async-observability.md",
+        "count": 2,
         "uniques": 2
       }
     ]
