@@ -50,14 +50,19 @@
   },
   "traffic_14d": {
     "clones_total": 170,
-    "clones_unique": 32,
-    "views_total": 15,
-    "views_unique": 8,
+    "clones_unique": 33,
+    "views_total": 16,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 7,
         "uniques": 4
+      },
+      {
+        "referrer": "vertexaisearch.cloud.google",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "Bing",
@@ -68,19 +73,14 @@
         "referrer": "search.brave.com",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "vertexaisearch.cloud.google",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/jira-export",
         "title": "Overview",
-        "count": 8,
-        "uniques": 5
+        "count": 9,
+        "uniques": 6
       },
       {
         "path": "/netresearch/jira-export/blob/master/bin/export-html.php",
