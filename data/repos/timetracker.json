@@ -3,7 +3,7 @@
   "full_name": "netresearch/timetracker",
   "url": "https://github.com/netresearch/timetracker",
   "description": "Simple time tracking front end with optional Jira synchronization, AD/LDAP integration and XLSX export.",
-  "language": "JavaScript",
+  "language": "PHP",
   "category": "tool",
   "license": "AGPL-3.0",
   "topics": [
@@ -14,20 +14,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-06-27T06:13:44Z",
-  "updated_at": "2026-06-27T06:13:47Z",
-  "composer_name": null,
+  "pushed_at": "2026-07-01T04:27:47Z",
+  "updated_at": "2026-07-01T04:27:50Z",
+  "composer_name": "netresearch/timetracker",
   "lifetime": {
     "stars": 24,
     "forks": 27,
     "watchers": 6,
     "network": 27,
     "open_issues_plus_prs": 2,
-    "commits": 1931,
+    "commits": 1971,
     "issues_open": 2,
     "issues_closed": 45,
     "prs_open": 0,
-    "prs_merged": 343,
+    "prs_merged": 355,
     "prs_closed_unmerged": 78,
     "issues_total": 47,
     "releases": 22,
@@ -35,23 +35,23 @@
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 22383,
+    "ghcr_downloads": 23407,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 549,
+    "commits": 589,
     "issues_opened": 14,
-    "prs_opened": 152,
-    "prs_merged": 148,
+    "prs_opened": 164,
+    "prs_merged": 160,
     "releases": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 13908
+    "ghcr_downloads": 14932
   },
   "traffic_14d": {
-    "clones_total": 10355,
-    "clones_unique": 809,
-    "views_total": 52,
+    "clones_total": 8638,
+    "clones_unique": 710,
+    "views_total": 59,
     "views_unique": 18,
     "top_referrers": [
       {
@@ -70,7 +70,7 @@
         "path": "/netresearch/timetracker",
         "title": "Overview",
         "count": 9,
-        "uniques": 8
+        "uniques": 7
       },
       {
         "path": "/netresearch/timetracker/issues",
@@ -109,20 +109,20 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/timetracker/blob/main/.editorconfig",
-        "title": "/blob/main/.editorconfig",
-        "count": 1,
+        "path": "/netresearch/timetracker/pull/469",
+        "title": "/pull/469",
+        "count": 2,
         "uniques": 1
       },
       {
-        "path": "/netresearch/timetracker/blob/main/.env",
-        "title": "/blob/main/.env",
-        "count": 1,
+        "path": "/netresearch/timetracker/pull/471",
+        "title": "/pull/471",
+        "count": 2,
         "uniques": 1
       },
       {
-        "path": "/netresearch/timetracker/blob/main/Dockerfile",
-        "title": "/blob/main/Dockerfile",
+        "path": "/netresearch/timetracker/blob/main/.dockerignore",
+        "title": "/blob/main/.dockerignore",
         "count": 1,
         "uniques": 1
       }
@@ -137,7 +137,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1574,
+      "contributions": 1614,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -192,18 +192,18 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 22383,
-        "thirty_day": 13908
+        "total": 23407,
+        "thirty_day": 14932
       }
     ],
-    "total": 22383,
-    "thirty_day": 13908
+    "total": 23407,
+    "thirty_day": 14932
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "blast_radius": 459,
+  "blast_radius": 471,
   "archived": false
 }

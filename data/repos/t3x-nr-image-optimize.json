@@ -37,7 +37,7 @@
     "release_downloads": 6,
     "contributors": 8,
     "external_contributors": 3,
-    "packagist_downloads": 1142,
+    "packagist_downloads": 1151,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -48,19 +48,19 @@
     "prs_opened": 2,
     "prs_merged": 2,
     "releases": 0,
-    "packagist_downloads": 196,
+    "packagist_downloads": 189,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 640,
-    "clones_unique": 107,
+    "clones_total": 642,
+    "clones_unique": 108,
     "views_total": 9,
     "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 7,
-        "uniques": 2
+        "count": 6,
+        "uniques": 1
       },
       {
         "referrer": "Google",
@@ -74,6 +74,12 @@
         "title": "Overview",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/blob/HEAD/LICENSE",
+        "title": "/blob/HEAD/LICENSE",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-image-optimize/blob/main/Classes/EventListener/OptimizeOnUploadListener.php",
@@ -108,12 +114,6 @@
       {
         "path": "/netresearch/t3x-nr-image-optimize/blob/main/infection-full.json5",
         "title": "/blob/main/infection-full.json5",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/tree/main",
-        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       }
@@ -169,9 +169,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 1142,
-    "monthly": 196,
-    "daily": 3,
+    "total": 1151,
+    "monthly": 189,
+    "daily": 7,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,

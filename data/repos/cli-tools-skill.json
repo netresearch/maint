@@ -55,15 +55,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 966,
-    "clones_unique": 237,
-    "views_total": 20,
-    "views_unique": 15,
+    "clones_total": 950,
+    "clones_unique": 232,
+    "views_total": 35,
+    "views_unique": 17,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 9,
-        "uniques": 7
+        "count": 24,
+        "uniques": 9
       },
       {
         "referrer": "github.com",
@@ -80,8 +80,14 @@
       {
         "path": "/netresearch/cli-tools-skill",
         "title": "Overview",
-        "count": 14,
-        "uniques": 12
+        "count": 15,
+        "uniques": 13
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/SKILL.md",
+        "title": "/blob/main/skills/cli-tools/SKILL.md",
+        "count": 4,
+        "uniques": 2
       },
       {
         "path": "/netresearch/cli-tools-skill/blob/main/AGENTS.md",
@@ -90,32 +96,44 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/SKILL.md",
-        "title": "/blob/main/skills/cli-tools/SKILL.md",
+        "path": "/netresearch/cli-tools-skill/blob/main/catalog/ansible-core.json",
+        "title": "/blob/main/catalog/ansible-core.json",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/scripts/install_tool.sh",
-        "title": "/blob/main/skills/cli-tools/scripts/install_tool.sh",
+        "path": "/netresearch/cli-tools-skill/blob/main/catalog/ast-grep.json",
+        "title": "/blob/main/catalog/ast-grep.json",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/cli-tools-skill/issues",
-        "title": "/issues",
+        "path": "/netresearch/cli-tools-skill/blob/main/catalog/bat.json",
+        "title": "/blob/main/catalog/bat.json",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/cli-tools-skill/releases/tag/v1.8.0",
-        "title": "/releases/tag/v1.8.0",
+        "path": "/netresearch/cli-tools-skill/blob/main/catalog/jq.json",
+        "title": "/blob/main/catalog/jq.json",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools",
-        "title": "/tree/main/skills/cli-tools",
+        "path": "/netresearch/cli-tools-skill/blob/main/catalog/rust.json",
+        "title": "/blob/main/catalog/rust.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/blob/main/hooks/hooks.json",
+        "title": "/blob/main/hooks/hooks.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/blob/main/scripts/detect_missing_tool.py",
+        "title": "/blob/main/scripts/detect_missing_tool.py",
         "count": 1,
         "uniques": 1
       }
