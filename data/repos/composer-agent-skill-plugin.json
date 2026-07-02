@@ -39,7 +39,7 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 2173,
+    "packagist_downloads": 2230,
     "ghcr_downloads": 0,
     "dependents_repos": 44,
     "dependents_packages": 0
@@ -50,32 +50,37 @@
     "prs_opened": 18,
     "prs_merged": 16,
     "releases": 1,
-    "packagist_downloads": 680,
+    "packagist_downloads": 716,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 601,
-    "clones_unique": 140,
-    "views_total": 30,
-    "views_unique": 21,
+    "clones_total": 548,
+    "clones_unique": 130,
+    "views_total": 33,
+    "views_unique": 23,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 13,
-        "uniques": 9
+        "count": 15,
+        "uniques": 11
       },
       {
         "referrer": "github.com",
-        "count": 8,
-        "uniques": 8
+        "count": 7,
+        "uniques": 7
+      },
+      {
+        "referrer": "packagist.org",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 24,
-        "uniques": 21
+        "count": 27,
+        "uniques": 23
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/docs/adr/001-universal-discovery.md",
@@ -96,8 +101,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/issues",
-        "title": "/issues",
+        "path": "/netresearch/composer-agent-skill-plugin/discussions/categories/q-a",
+        "title": "/discussions/categories/q-a",
         "count": 1,
         "uniques": 1
       },
@@ -150,9 +155,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 2173,
-    "monthly": 680,
-    "daily": 1,
+    "total": 2230,
+    "monthly": 716,
+    "daily": 48,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,

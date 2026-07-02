@@ -25,8 +25,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-22T23:35:44Z",
-  "pushed_at": "2026-07-01T04:11:33Z",
-  "updated_at": "2026-07-01T04:11:35Z",
+  "pushed_at": "2026-07-01T12:48:19Z",
+  "updated_at": "2026-07-01T12:48:21Z",
   "composer_name": "netresearch/nr-llm",
   "lifetime": {
     "stars": 3,
@@ -34,36 +34,36 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 3,
-    "commits": 1145,
+    "commits": 1171,
     "issues_open": 3,
     "issues_closed": 4,
     "prs_open": 0,
-    "prs_merged": 266,
+    "prs_merged": 270,
     "prs_closed_unmerged": 13,
     "issues_total": 7,
     "releases": 31,
-    "release_downloads": 333,
+    "release_downloads": 337,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 5791,
+    "packagist_downloads": 5807,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 285,
+    "commits": 282,
     "issues_opened": 1,
-    "prs_opened": 73,
+    "prs_opened": 72,
     "prs_merged": 70,
     "releases": 7,
-    "packagist_downloads": 842,
+    "packagist_downloads": 857,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4131,
-    "clones_unique": 348,
-    "views_total": 30,
-    "views_unique": 23,
+    "clones_total": 6486,
+    "clones_unique": 434,
+    "views_total": 28,
+    "views_unique": 22,
     "top_referrers": [
       {
         "referrer": "sonarcloud.io",
@@ -77,13 +77,13 @@
       },
       {
         "referrer": "Google",
-        "count": 3,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "netresearch.github.io",
@@ -95,8 +95,8 @@
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 15,
-        "uniques": 15
+        "count": 13,
+        "uniques": 13
       },
       {
         "path": "/netresearch/t3x-nr-llm/actions/runs/27358781232/workflow",
@@ -111,8 +111,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-llm/blob/main/Documentation/Introduction/Index.rst",
-        "title": "/blob/main/Documentation/Introduction/Index.rst",
+        "path": "/netresearch/t3x-nr-llm/blob/main/Documentation/Developer/IntegrationGuide.rst",
+        "title": "/blob/main/Documentation/Developer/IntegrationGuide.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/Documentation/Developer/ProviderRegistration.rst",
+        "title": "/blob/main/Documentation/Developer/ProviderRegistration.rst",
         "count": 1,
         "uniques": 1
       },
@@ -123,8 +129,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-llm/commits/main",
-        "title": "/commits/main",
+        "path": "/netresearch/t3x-nr-llm/issues",
+        "title": "/issues",
         "count": 1,
         "uniques": 1
       },
@@ -145,12 +151,6 @@
         "title": "/releases",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/tree/047a55362e657d2382440326c75890cc19edc30c",
-        "title": "/tree/047a55362e657d2382440326c75890cc19edc30c",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -163,7 +163,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1045,
+      "contributions": 1071,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -189,9 +189,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 5791,
-    "monthly": 842,
-    "daily": 50,
+    "total": 5807,
+    "monthly": 857,
+    "daily": 13,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,
@@ -200,6 +200,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-llm/network/dependents"
   },
-  "blast_radius": 286,
+  "blast_radius": 290,
   "archived": false
 }

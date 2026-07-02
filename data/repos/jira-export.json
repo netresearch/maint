@@ -49,10 +49,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 172,
-    "clones_unique": 33,
-    "views_total": 17,
-    "views_unique": 9,
+    "clones_total": 174,
+    "clones_unique": 31,
+    "views_total": 29,
+    "views_unique": 12,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -67,7 +67,7 @@
       {
         "referrer": "Bing",
         "count": 2,
-        "uniques": 1
+        "uniques": 2
       },
       {
         "referrer": "search.brave.com",
@@ -80,7 +80,13 @@
         "path": "/netresearch/jira-export",
         "title": "Overview",
         "count": 10,
-        "uniques": 6
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/jira-export/tree/master",
+        "title": "/tree/master",
+        "count": 4,
+        "uniques": 2
       },
       {
         "path": "/netresearch/jira-export/blob/master/bin/export-html.php",
@@ -89,32 +95,44 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/jira-export/tree/master/data",
+        "title": "/tree/master/data",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jira-export/blob/master/Dockerfile",
+        "title": "/blob/master/Dockerfile",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jira-export/blob/master/Make/version.mk",
+        "title": "/blob/master/Make/version.mk",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jira-export/blob/master/build/Dockerfile",
+        "title": "/blob/master/build/Dockerfile",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/jira-export/blob/master/composer.json",
         "title": "/blob/master/composer.json",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/jira-export/blob/master/renovate.json",
-        "title": "/blob/master/renovate.json",
+        "path": "/netresearch/jira-export/blob/master/composer.lock",
+        "title": "/blob/master/composer.lock",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/jira-export/issues",
-        "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-export/pulse",
-        "title": "/pulse",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-export/tree/master",
-        "title": "/tree/master",
+        "path": "/netresearch/jira-export/blob/master/data/config.php.dist",
+        "title": "/blob/master/data/config.php.dist",
         "count": 1,
         "uniques": 1
       }

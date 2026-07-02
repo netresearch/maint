@@ -29,16 +29,16 @@
   "composer_name": null,
   "lifetime": {
     "stars": 45,
-    "forks": 12,
+    "forks": 13,
     "watchers": 2,
-    "network": 12,
+    "network": 13,
     "open_issues_plus_prs": 1,
     "commits": 274,
     "issues_open": 1,
     "issues_closed": 5,
     "prs_open": 0,
     "prs_merged": 48,
-    "prs_closed_unmerged": 21,
+    "prs_closed_unmerged": 22,
     "issues_total": 6,
     "releases": 3,
     "release_downloads": 0,
@@ -52,27 +52,37 @@
   "recent_30d": {
     "commits": 17,
     "issues_opened": 1,
-    "prs_opened": 11,
+    "prs_opened": 12,
     "prs_merged": 7,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1082,
-    "clones_unique": 485,
-    "views_total": 552,
-    "views_unique": 341,
+    "clones_total": 1030,
+    "clones_unique": 460,
+    "views_total": 568,
+    "views_unique": 343,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 304,
-        "uniques": 212
+        "count": 311,
+        "uniques": 221
       },
       {
         "referrer": "github.com",
-        "count": 83,
-        "uniques": 49
+        "count": 90,
+        "uniques": 48
+      },
+      {
+        "referrer": "perplexity.ai",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "referrer": "claude.ai",
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "chatgpt.com",
@@ -81,16 +91,6 @@
       },
       {
         "referrer": "Bing",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "referrer": "claude.ai",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "referrer": "perplexity.ai",
         "count": 2,
         "uniques": 2
       },
@@ -114,14 +114,14 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 384,
-        "uniques": 319
+        "count": 393,
+        "uniques": 328
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 31,
-        "uniques": 26
+        "count": 32,
+        "uniques": 27
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
@@ -132,20 +132,26 @@
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/CLAUDE.md",
         "title": "/blob/main/CLAUDE.md",
-        "count": 10,
-        "uniques": 8
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 8,
-        "uniques": 6
+        "count": 11,
+        "uniques": 9
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main",
         "title": "/tree/main",
+        "count": 8,
+        "uniques": 8
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/tree/main/scripts",
+        "title": "/tree/main/scripts",
         "count": 7,
         "uniques": 7
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/site",
@@ -160,14 +166,8 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/claude-code-marketplace/pulls",
-        "title": "/pulls",
-        "count": 5,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/tree/main/docs/decisions",
-        "title": "/tree/main/docs/decisions",
+        "path": "/netresearch/claude-code-marketplace/blob/main/GEMINI.md",
+        "title": "/blob/main/GEMINI.md",
         "count": 4,
         "uniques": 4
       }
@@ -228,6 +228,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
   },
-  "blast_radius": 90,
+  "blast_radius": 92,
   "archived": false
 }

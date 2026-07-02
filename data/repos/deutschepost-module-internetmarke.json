@@ -10,9 +10,9 @@
     "gitlab-mirror"
   ],
   "homepage": "",
-  "default_branch": "master",
+  "default_branch": "main",
   "created_at": "2021-01-26T17:00:54Z",
-  "pushed_at": "2026-06-03T11:13:18Z",
+  "pushed_at": "2026-07-01T08:08:48Z",
   "updated_at": "2026-06-03T11:13:24Z",
   "composer_name": "deutschepost/module-internetmarke",
   "lifetime": {
@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 3,
-    "packagist_downloads": 221687,
+    "packagist_downloads": 222013,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -40,17 +40,17 @@
   "recent_30d": {
     "commits": 1,
     "issues_opened": 0,
-    "prs_opened": 1,
+    "prs_opened": 0,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 6444,
+    "packagist_downloads": 6519,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 44,
-    "clones_unique": 23,
-    "views_total": 13,
-    "views_unique": 2,
+    "clones_total": 42,
+    "clones_unique": 24,
+    "views_total": 14,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -59,6 +59,12 @@
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/deutschepost-module-internetmarke",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/deutschepost-module-internetmarke/blob/master/Controller/Adminhtml/Config/Update/Products.php",
         "title": "/blob/master/Controller/Adminhtml/Config/Update/Products.php",
@@ -69,12 +75,6 @@
         "path": "/netresearch/deutschepost-module-internetmarke/tree/master/Controller/Adminhtml/Config/Update",
         "title": "/tree/master/Controller/Adminhtml/Config/Update",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-module-internetmarke",
-        "title": "Overview",
-        "count": 1,
         "uniques": 1
       },
       {
@@ -146,9 +146,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-internetmarke",
-    "total": 221687,
-    "monthly": 6444,
-    "daily": 211,
+    "total": 222013,
+    "monthly": 6519,
+    "daily": 274,
     "url": "https://packagist.org/packages/deutschepost/module-internetmarke"
   },
   "ghcr": null,

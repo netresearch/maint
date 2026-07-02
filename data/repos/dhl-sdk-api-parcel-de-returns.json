@@ -40,7 +40,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 2,
-    "packagist_downloads": 63490,
+    "packagist_downloads": 63743,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
@@ -51,19 +51,19 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5792,
+    "packagist_downloads": 5865,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 38,
-    "clones_unique": 34,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 73,
+    "clones_unique": 37,
+    "views_total": 5,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
+        "count": 4,
+        "uniques": 2
       }
     ],
     "top_paths": [
@@ -72,6 +72,24 @@
         "title": "Overview",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de-returns/blob/master/src/Api/ReturnLabelRequestBuilderInterface.php",
+        "title": "/blob/master/src/Api/ReturnLabelRequestBuilderInterface.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de-returns/blob/master/src/Api/ReturnLabelServiceInterface.php",
+        "title": "/blob/master/src/Api/ReturnLabelServiceInterface.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de-returns/blob/master/src/Api/ServiceFactoryInterface.php",
+        "title": "/blob/master/src/Api/ServiceFactoryInterface.php",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -100,9 +118,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-parcel-de-returns",
-    "total": 63490,
-    "monthly": 5792,
-    "daily": 210,
+    "total": 63743,
+    "monthly": 5865,
+    "daily": 212,
     "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de-returns"
   },
   "ghcr": null,
