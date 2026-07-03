@@ -37,7 +37,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 4,
-    "packagist_downloads": 395617,
+    "packagist_downloads": 395982,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 0
@@ -48,24 +48,19 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 10634,
+    "packagist_downloads": 10617,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 102,
-    "clones_unique": 21,
+    "clones_total": 103,
+    "clones_unique": 22,
     "views_total": 7,
-    "views_unique": 6,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 4,
+        "count": 5,
         "uniques": 3
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
       },
       {
         "referrer": "search.brave.com",
@@ -77,8 +72,14 @@
       {
         "path": "/netresearch/deutschepost-sdk-addressfactory",
         "title": "Overview",
-        "count": 7,
-        "uniques": 6
+        "count": 6,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-addressfactory/blob/main/src/RequestBuilder/RequestBuilder.php",
+        "title": "/blob/main/src/RequestBuilder/RequestBuilder.php",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -127,9 +128,9 @@
   ],
   "packagist": {
     "name": "deutschepost/sdk-api-addressfactory",
-    "total": 395617,
-    "monthly": 10634,
-    "daily": 424,
+    "total": 395982,
+    "monthly": 10617,
+    "daily": 314,
     "url": "https://packagist.org/packages/deutschepost/sdk-api-addressfactory"
   },
   "ghcr": null,

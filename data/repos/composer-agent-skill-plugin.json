@@ -39,35 +39,35 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 2230,
+    "packagist_downloads": 2242,
     "ghcr_downloads": 0,
     "dependents_repos": 44,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 34,
+    "commits": 32,
     "issues_opened": 0,
-    "prs_opened": 18,
-    "prs_merged": 16,
+    "prs_opened": 17,
+    "prs_merged": 15,
     "releases": 1,
-    "packagist_downloads": 716,
+    "packagist_downloads": 706,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 548,
-    "clones_unique": 130,
-    "views_total": 33,
-    "views_unique": 23,
+    "clones_total": 437,
+    "clones_unique": 114,
+    "views_total": 38,
+    "views_unique": 25,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 15,
-        "uniques": 11
+        "count": 17,
+        "uniques": 12
       },
       {
         "referrer": "github.com",
-        "count": 7,
-        "uniques": 7
+        "count": 10,
+        "uniques": 8
       },
       {
         "referrer": "packagist.org",
@@ -79,8 +79,14 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 27,
-        "uniques": 23
+        "count": 29,
+        "uniques": 25
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/tree/main/docs",
+        "title": "/tree/main/docs",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/docs/adr/001-universal-discovery.md",
@@ -107,14 +113,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/tree/main/docs",
-        "title": "/tree/main/docs",
+        "path": "/netresearch/composer-agent-skill-plugin/tree/main",
+        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/tree/main/src",
         "title": "/tree/main/src",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/tree/main/tests",
+        "title": "/tree/main/tests",
         "count": 1,
         "uniques": 1
       }
@@ -155,9 +167,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 2230,
-    "monthly": 716,
-    "daily": 48,
+    "total": 2242,
+    "monthly": 706,
+    "daily": 15,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,

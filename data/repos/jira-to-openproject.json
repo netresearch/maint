@@ -27,8 +27,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-04-03T08:29:24Z",
-  "pushed_at": "2026-06-28T23:31:26Z",
-  "updated_at": "2026-06-28T23:31:29Z",
+  "pushed_at": "2026-07-02T11:33:36Z",
+  "updated_at": "2026-07-02T11:33:39Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
@@ -36,11 +36,11 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 4,
-    "commits": 1304,
+    "commits": 1306,
     "issues_open": 4,
     "issues_closed": 5,
     "prs_open": 0,
-    "prs_merged": 232,
+    "prs_merged": 233,
     "prs_closed_unmerged": 42,
     "issues_total": 9,
     "releases": 0,
@@ -53,19 +53,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 41,
+    "commits": 27,
     "issues_opened": 0,
-    "prs_opened": 17,
-    "prs_merged": 16,
+    "prs_opened": 14,
+    "prs_merged": 13,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 844,
-    "clones_unique": 174,
-    "views_total": 41,
-    "views_unique": 19,
+    "clones_total": 840,
+    "clones_unique": 175,
+    "views_total": 47,
+    "views_unique": 20,
     "top_referrers": [
       {
         "referrer": "ecosia.org",
@@ -83,12 +83,12 @@
         "uniques": 4
       },
       {
-        "referrer": "perplexity.ai",
-        "count": 2,
-        "uniques": 1
+        "referrer": "github.com",
+        "count": 4,
+        "uniques": 2
       },
       {
-        "referrer": "github.com",
+        "referrer": "strive.devops.t-systems.net",
         "count": 1,
         "uniques": 1
       }
@@ -97,7 +97,7 @@
       {
         "path": "/netresearch/jira-to-openproject",
         "title": "Overview",
-        "count": 24,
+        "count": 25,
         "uniques": 14
       },
       {
@@ -111,6 +111,18 @@
         "title": "/blob/main/docs/ENTITY_MAPPING.md",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/blob/ab2ba94c2ef1523c881ce7388ace38af676f7fb3/docs/QUICK_START.md",
+        "title": "/blob/ab2ba94c2ef1523c881ce7388ace38af676f7fb3/docs/QUICK_START.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/blob/main/docs/MIGRATION_COMPONENTS.md",
+        "title": "/blob/main/docs/MIGRATION_COMPONENTS.md",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/jira-to-openproject/activity",
@@ -141,18 +153,6 @@
         "title": "/blob/main/docs/configuration.md",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-to-openproject/blob/main/scripts/comprehensive_migration_test.py",
-        "title": "/blob/main/scripts/comprehensive_migration_test.py",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-to-openproject/commits/main",
-        "title": "/commits/main",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -165,7 +165,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 48,
+      "contributions": 49,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -175,7 +175,7 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 18,
+      "contributions": 19,
       "url": "https://github.com/apps/github-actions"
     }
   ],
@@ -186,6 +186,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jira-to-openproject/network/dependents"
   },
-  "blast_radius": 245,
+  "blast_radius": 246,
   "archived": false
 }
