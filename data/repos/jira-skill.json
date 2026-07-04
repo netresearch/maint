@@ -21,10 +21,10 @@
   "default_branch": "main",
   "created_at": "2025-11-07T10:15:13Z",
   "pushed_at": "2026-07-01T16:14:24Z",
-  "updated_at": "2026-07-01T16:12:10Z",
+  "updated_at": "2026-07-03T12:42:37Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 67,
+    "stars": 68,
     "forks": 20,
     "watchers": 1,
     "network": 20,
@@ -37,7 +37,7 @@
     "prs_closed_unmerged": 6,
     "issues_total": 27,
     "releases": 46,
-    "release_downloads": 372,
+    "release_downloads": 375,
     "contributors": 17,
     "external_contributors": 11,
     "packagist_downloads": 0,
@@ -55,35 +55,40 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3113,
-    "clones_unique": 619,
-    "views_total": 816,
-    "views_unique": 283,
+    "clones_total": 2993,
+    "clones_unique": 580,
+    "views_total": 817,
+    "views_unique": 292,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 464,
-        "uniques": 169
-      },
-      {
-        "referrer": "Bing",
-        "count": 84,
-        "uniques": 29
+        "count": 473,
+        "uniques": 179
       },
       {
         "referrer": "github.com",
-        "count": 80,
+        "count": 84,
         "uniques": 22
       },
       {
+        "referrer": "Bing",
+        "count": 76,
+        "uniques": 25
+      },
+      {
         "referrer": "DuckDuckGo",
-        "count": 14,
-        "uniques": 5
+        "count": 11,
+        "uniques": 4
       },
       {
         "referrer": "statics.teams.cdn.office.net",
-        "count": 5,
-        "uniques": 4
+        "count": 6,
+        "uniques": 5
+      },
+      {
+        "referrer": "packagist.org",
+        "count": 4,
+        "uniques": 3
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
@@ -91,32 +96,27 @@
         "uniques": 3
       },
       {
-        "referrer": "packagist.org",
+        "referrer": "kagi.com",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "referrer": "lobehub.com",
         "count": 3,
-        "uniques": 2
+        "uniques": 1
       },
       {
         "referrer": "search.brave.com",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "referrer": "Yahoo",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "link.csdn.net",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/jira-skill",
         "title": "Overview",
-        "count": 363,
-        "uniques": 258
+        "count": 362,
+        "uniques": 265
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills",
@@ -127,32 +127,32 @@
       {
         "path": "/netresearch/jira-skill/tree/main/skills/jira-communication",
         "title": "/tree/main/skills/jira-communication",
-        "count": 43,
-        "uniques": 33
+        "count": 45,
+        "uniques": 35
       },
       {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-communication/SKILL.md",
         "title": "/blob/main/skills/jira-communication/SKILL.md",
-        "count": 26,
+        "count": 28,
         "uniques": 21
-      },
-      {
-        "path": "/netresearch/jira-skill/tree/main/skills/jira-syntax",
-        "title": "/tree/main/skills/jira-syntax",
-        "count": 21,
-        "uniques": 20
       },
       {
         "path": "/netresearch/jira-skill/tree/main",
         "title": "/tree/main",
-        "count": 19,
-        "uniques": 14
+        "count": 22,
+        "uniques": 16
       },
       {
-        "path": "/netresearch/jira-skill/issues",
-        "title": "/issues",
+        "path": "/netresearch/jira-skill/tree/main/skills/jira-syntax",
+        "title": "/tree/main/skills/jira-syntax",
+        "count": 20,
+        "uniques": 19
+      },
+      {
+        "path": "/netresearch/jira-skill/blob/main/skills/jira-syntax/SKILL.md",
+        "title": "/blob/main/skills/jira-syntax/SKILL.md",
         "count": 18,
-        "uniques": 13
+        "uniques": 16
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills/jira-communication/scripts",
@@ -161,10 +161,10 @@
         "uniques": 16
       },
       {
-        "path": "/netresearch/jira-skill/blob/main/skills/jira-syntax/SKILL.md",
-        "title": "/blob/main/skills/jira-syntax/SKILL.md",
-        "count": 15,
-        "uniques": 14
+        "path": "/netresearch/jira-skill/issues",
+        "title": "/issues",
+        "count": 16,
+        "uniques": 11
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills/jira-communication/scripts/core",

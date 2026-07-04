@@ -50,13 +50,18 @@
   },
   "traffic_14d": {
     "clones_total": 167,
-    "clones_unique": 28,
-    "views_total": 27,
-    "views_unique": 10,
+    "clones_unique": 24,
+    "views_total": 30,
+    "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 5,
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
+        "count": 3,
         "uniques": 2
       },
       {
@@ -68,30 +73,19 @@
         "referrer": "Bing",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/jira-export",
         "title": "Overview",
-        "count": 9,
-        "uniques": 6
+        "count": 13,
+        "uniques": 8
       },
       {
         "path": "/netresearch/jira-export/tree/master",
         "title": "/tree/master",
         "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/jira-export/blob/master/bin/export-html.php",
-        "title": "/blob/master/bin/export-html.php",
-        "count": 2,
         "uniques": 2
       },
       {
@@ -109,6 +103,12 @@
       {
         "path": "/netresearch/jira-export/blob/master/Make/version.mk",
         "title": "/blob/master/Make/version.mk",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jira-export/blob/master/bin/export-html.php",
+        "title": "/blob/master/bin/export-html.php",
         "count": 1,
         "uniques": 1
       },
