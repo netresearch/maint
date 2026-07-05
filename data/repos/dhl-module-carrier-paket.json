@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 5,
-    "packagist_downloads": 249091,
+    "packagist_downloads": 249175,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 2
@@ -47,32 +47,32 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 6628,
+    "packagist_downloads": 6492,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 185,
-    "clones_unique": 57,
-    "views_total": 12,
-    "views_unique": 6,
+    "clones_total": 188,
+    "clones_unique": 59,
+    "views_total": 15,
+    "views_unique": 8,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 4,
+        "uniques": 2
+      },
       {
         "referrer": "Google",
         "count": 3,
         "uniques": 2
-      },
-      {
-        "referrer": "github.com",
-        "count": 3,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-module-carrier-paket",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/dhl-module-carrier-paket/releases",
@@ -119,6 +119,12 @@
       {
         "path": "/netresearch/dhl-module-carrier-paket/tree/3.4.0",
         "title": "/tree/3.4.0",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/wiki",
+        "title": "/wiki",
         "count": 1,
         "uniques": 1
       }
@@ -169,9 +175,9 @@
   ],
   "packagist": {
     "name": "dhl/module-carrier-paket",
-    "total": 249091,
-    "monthly": 6628,
-    "daily": 194,
+    "total": 249175,
+    "monthly": 6492,
+    "daily": 71,
     "url": "https://packagist.org/packages/dhl/module-carrier-paket"
   },
   "ghcr": null,

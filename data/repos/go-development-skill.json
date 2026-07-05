@@ -49,15 +49,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 567,
-    "clones_unique": 201,
-    "views_total": 51,
-    "views_unique": 28,
+    "clones_total": 556,
+    "clones_unique": 200,
+    "views_total": 67,
+    "views_unique": 32,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 28,
-        "uniques": 22
+        "count": 37,
+        "uniques": 23
+      },
+      {
+        "referrer": "github.com",
+        "count": 8,
+        "uniques": 2
       },
       {
         "referrer": "yandex.ru",
@@ -68,23 +73,36 @@
         "referrer": "Bing",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/go-development-skill",
         "title": "Overview",
-        "count": 24,
-        "uniques": 19
+        "count": 25,
+        "uniques": 21
       },
       {
         "path": "/netresearch/go-development-skill/blob/main/skills/go-development/SKILL.md",
         "title": "/blob/main/skills/go-development/SKILL.md",
+        "count": 6,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/go-development-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/go-development-skill/tree/main/skills/go-development",
+        "title": "/tree/main/skills/go-development",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/architecture.md",
+        "title": "/blob/main/skills/go-development/references/architecture.md",
         "count": 3,
         "uniques": 3
       },
@@ -95,9 +113,9 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/go-development-skill/tree/main/skills/go-development",
-        "title": "/tree/main/skills/go-development",
-        "count": 3,
+        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/evals/evals.json",
+        "title": "/blob/main/skills/go-development/evals/evals.json",
+        "count": 2,
         "uniques": 2
       },
       {
@@ -113,28 +131,10 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/go-development-skill/blob/main/.gitignore",
-        "title": "/blob/main/.gitignore",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-development-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-development-skill/blob/main/SKILL.md",
-        "title": "/blob/main/SKILL.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-development-skill/blob/main/evals/evals.json",
-        "title": "/blob/main/evals/evals.json",
-        "count": 1,
-        "uniques": 1
+        "path": "/netresearch/go-development-skill/tree/main",
+        "title": "/tree/main",
+        "count": 2,
+        "uniques": 2
       }
     ]
   },

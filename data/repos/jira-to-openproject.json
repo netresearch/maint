@@ -62,11 +62,16 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 792,
-    "clones_unique": 168,
-    "views_total": 47,
-    "views_unique": 20,
+    "clones_total": 779,
+    "clones_unique": 166,
+    "views_total": 48,
+    "views_unique": 19,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 6,
+        "uniques": 5
+      },
       {
         "referrer": "ecosia.org",
         "count": 6,
@@ -76,11 +81,6 @@
         "referrer": "Bing",
         "count": 5,
         "uniques": 2
-      },
-      {
-        "referrer": "Google",
-        "count": 4,
-        "uniques": 4
       },
       {
         "referrer": "github.com",
@@ -97,20 +97,14 @@
       {
         "path": "/netresearch/jira-to-openproject",
         "title": "Overview",
-        "count": 25,
+        "count": 26,
         "uniques": 14
       },
       {
         "path": "/netresearch/jira-to-openproject/issues/260",
         "title": "/issues/260",
-        "count": 7,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/jira-to-openproject/blob/main/docs/ENTITY_MAPPING.md",
-        "title": "/blob/main/docs/ENTITY_MAPPING.md",
-        "count": 2,
-        "uniques": 2
+        "count": 6,
+        "uniques": 1
       },
       {
         "path": "/netresearch/jira-to-openproject/blob/ab2ba94c2ef1523c881ce7388ace38af676f7fb3/docs/QUICK_START.md",
@@ -149,8 +143,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/jira-to-openproject/blob/main/docs/configuration.md",
-        "title": "/blob/main/docs/configuration.md",
+        "path": "/netresearch/jira-to-openproject/blob/main/docs/ENTITY_MAPPING.md",
+        "title": "/blob/main/docs/ENTITY_MAPPING.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/blob/main/docs/QUICK_START.md",
+        "title": "/blob/main/docs/QUICK_START.md",
         "count": 1,
         "uniques": 1
       }
