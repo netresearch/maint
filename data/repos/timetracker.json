@@ -2,20 +2,34 @@
   "name": "timetracker",
   "full_name": "netresearch/timetracker",
   "url": "https://github.com/netresearch/timetracker",
-  "description": "Simple time tracking front end with optional Jira synchronization, AD/LDAP integration and XLSX export.",
+  "description": "Self-hosted team time tracking (Symfony 8 + SolidJS) with Jira Server/Cloud sync, LDAP/AD login, passkeys & 2FA, scoped API tokens, and XLSX export.",
   "language": "PHP",
   "category": "tool",
   "license": "AGPL-3.0",
   "topics": [
-    "extjs",
+    "active-directory",
+    "docker",
+    "jira",
+    "jira-integration",
+    "ldap",
+    "mariadb",
+    "openapi",
+    "passkeys",
     "php",
-    "timetracker"
+    "self-hosted",
+    "solidjs",
+    "symfony",
+    "time-tracking",
+    "timetracker",
+    "two-factor-authentication",
+    "typescript",
+    "webauthn"
   ],
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-07-05T00:03:06Z",
-  "updated_at": "2026-07-05T00:03:09Z",
+  "pushed_at": "2026-07-06T00:05:45Z",
+  "updated_at": "2026-07-06T00:05:47Z",
   "composer_name": "netresearch/timetracker",
   "lifetime": {
     "stars": 24,
@@ -23,55 +37,55 @@
     "watchers": 6,
     "network": 27,
     "open_issues_plus_prs": 1,
-    "commits": 2207,
+    "commits": 2244,
     "issues_open": 1,
     "issues_closed": 49,
     "prs_open": 0,
-    "prs_merged": 425,
+    "prs_merged": 441,
     "prs_closed_unmerged": 78,
     "issues_total": 50,
-    "releases": 23,
+    "releases": 24,
     "release_downloads": 0,
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 30316,
+    "ghcr_downloads": 31224,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 823,
+    "commits": 860,
     "issues_opened": 17,
-    "prs_opened": 233,
-    "prs_merged": 229,
-    "releases": 4,
+    "prs_opened": 249,
+    "prs_merged": 245,
+    "releases": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 21813
+    "ghcr_downloads": 22721
   },
   "traffic_14d": {
-    "clones_total": 12269,
-    "clones_unique": 834,
-    "views_total": 125,
-    "views_unique": 22,
+    "clones_total": 13875,
+    "clones_unique": 903,
+    "views_total": 126,
+    "views_unique": 21,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 16,
-        "uniques": 7
+        "count": 15,
+        "uniques": 6
       }
     ],
     "top_paths": [
-      {
-        "path": "/netresearch/timetracker",
-        "title": "Overview",
-        "count": 13,
-        "uniques": 8
-      },
       {
         "path": "/netresearch/timetracker/pulls",
         "title": "/pulls",
         "count": 12,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker",
+        "title": "Overview",
+        "count": 11,
+        "uniques": 6
       },
       {
         "path": "/netresearch/timetracker/issues",
@@ -124,15 +138,15 @@
     ]
   },
   "latest_release": {
-    "name": "v6.0.0",
-    "tag_name": "v6.0.0",
-    "published_at": "2026-07-04T18:28:59Z",
-    "url": "https://github.com/netresearch/timetracker/releases/tag/v6.0.0"
+    "name": "v4.5.0",
+    "tag_name": "v4.5.0",
+    "published_at": "2026-07-05T17:25:41Z",
+    "url": "https://github.com/netresearch/timetracker/releases/tag/v4.5.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1842,
+      "contributions": 1879,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -187,18 +201,18 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 30316,
-        "thirty_day": 21813
+        "total": 31224,
+        "thirty_day": 22721
       }
     ],
-    "total": 30316,
-    "thirty_day": 21813
+    "total": 31224,
+    "thirty_day": 22721
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "blast_radius": 544,
+  "blast_radius": 560,
   "archived": false
 }

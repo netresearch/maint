@@ -29,28 +29,28 @@
     "prs_closed_unmerged": 10,
     "issues_total": 6,
     "releases": 19,
-    "release_downloads": 243,
+    "release_downloads": 244,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 27185,
+    "packagist_downloads": 27782,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 70,
+    "commits": 68,
     "issues_opened": 3,
-    "prs_opened": 27,
-    "prs_merged": 26,
+    "prs_opened": 26,
+    "prs_merged": 25,
     "releases": 3,
-    "packagist_downloads": 8769,
+    "packagist_downloads": 9343,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2187,
-    "clones_unique": 203,
-    "views_total": 105,
-    "views_unique": 82,
+    "clones_total": 2181,
+    "clones_unique": 206,
+    "views_total": 110,
+    "views_unique": 86,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -78,12 +78,18 @@
       {
         "path": "/netresearch/t3x-nr-vault/pulls",
         "title": "/pulls",
-        "count": 3,
-        "uniques": 2
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-vault/issues",
         "title": "/issues",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/pull/191",
+        "title": "/pull/191",
         "count": 2,
         "uniques": 2
       },
@@ -122,12 +128,6 @@
         "title": "/blob/main/.gitleaks.toml",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/blob/main/.semgrepignore",
-        "title": "/blob/main/.semgrepignore",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -161,9 +161,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 27185,
-    "monthly": 8769,
-    "daily": 1003,
+    "total": 27782,
+    "monthly": 9343,
+    "daily": 553,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,

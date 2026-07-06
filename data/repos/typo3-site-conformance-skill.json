@@ -55,17 +55,29 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 162,
-    "clones_unique": 26,
-    "views_total": 13,
-    "views_unique": 11,
-    "top_referrers": [],
+    "clones_total": 167,
+    "clones_unique": 24,
+    "views_total": 18,
+    "views_unique": 12,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 6,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-site-conformance-skill",
         "title": "Overview",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-site-conformance-skill/tree/main",
+        "title": "/tree/main",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-site-conformance-skill/pulls",
@@ -112,12 +124,6 @@
       {
         "path": "/netresearch/typo3-site-conformance-skill/pull/8/files/1d31dbe80f5af375b7638fbdb7037d3ee6ced8be",
         "title": "/pull/8/files/1d31dbe80f5af375b7638fbdb7037d3ee6ced8be",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-site-conformance-skill/tree/main",
-        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       }

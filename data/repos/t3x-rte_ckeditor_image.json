@@ -35,28 +35,28 @@
     "prs_closed_unmerged": 60,
     "issues_total": 279,
     "releases": 66,
-    "release_downloads": 151,
+    "release_downloads": 152,
     "contributors": 49,
     "external_contributors": 43,
-    "packagist_downloads": 1053717,
+    "packagist_downloads": 1053958,
     "ghcr_downloads": 0,
     "dependents_repos": 45,
     "dependents_packages": 3
   },
   "recent_30d": {
-    "commits": 27,
+    "commits": 24,
     "issues_opened": 1,
     "prs_opened": 12,
-    "prs_merged": 13,
+    "prs_merged": 12,
     "releases": 2,
-    "packagist_downloads": 19956,
+    "packagist_downloads": 20052,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 882,
-    "clones_unique": 252,
-    "views_total": 63,
-    "views_unique": 39,
+    "clones_total": 905,
+    "clones_unique": 256,
+    "views_total": 62,
+    "views_unique": 38,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -103,15 +103,15 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/releases",
-        "title": "/releases",
-        "count": 4,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/t3x-rte_ckeditor_image/pulls",
         "title": "/pulls",
         "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-rte_ckeditor_image/releases",
+        "title": "/releases",
+        "count": 3,
         "uniques": 2
       },
       {
@@ -127,26 +127,26 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/t3x-rte_ckeditor_image/issues/2",
+        "title": "/issues/2",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-rte_ckeditor_image/releases/tag/v12.0.5",
         "title": "/releases/tag/v12.0.5",
         "count": 2,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/actions/workflows/dependabot/dependabot-updates",
-        "title": "/actions/workflows/dependabot/dependabot-updates",
+        "path": "/netresearch/t3x-rte_ckeditor_image/actions/runs/23238439037",
+        "title": "/actions/runs/23238439037",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/5d7b55c5756da7423a5eff2abcdbbc9989eeb086/Classes/Listener/TCA/RteSoftrefEnforcer.php",
-        "title": "/blob/5d7b55c5756da7423a5eff2abcdbbc9989eeb086/Classes/Listener/TCA/RteSoftrefEnforcer.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/HEAD/AGENTS.md",
-        "title": "/blob/HEAD/AGENTS.md",
+        "path": "/netresearch/t3x-rte_ckeditor_image/actions/workflows/agents/copilot-pull-request-reviewer",
+        "title": "/actions/workflows/agents/copilot-pull-request-reviewer",
         "count": 1,
         "uniques": 1
       }
@@ -212,9 +212,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1053717,
-    "monthly": 19956,
-    "daily": 162,
+    "total": 1053958,
+    "monthly": 20052,
+    "daily": 239,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,
