@@ -32,7 +32,7 @@
     "release_downloads": 244,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 28110,
+    "packagist_downloads": 28141,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,14 +43,14 @@
     "prs_opened": 25,
     "prs_merged": 24,
     "releases": 3,
-    "packagist_downloads": 9536,
+    "packagist_downloads": 9226,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2181,
-    "clones_unique": 206,
-    "views_total": 110,
-    "views_unique": 86,
+    "clones_total": 2159,
+    "clones_unique": 199,
+    "views_total": 112,
+    "views_unique": 87,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -82,6 +82,12 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/t3x-nr-vault/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-nr-vault/issues",
         "title": "/issues",
         "count": 2,
@@ -90,6 +96,12 @@
       {
         "path": "/netresearch/t3x-nr-vault/pull/191",
         "title": "/pull/191",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/pull/195",
+        "title": "/pull/195",
         "count": 2,
         "uniques": 2
       },
@@ -114,18 +126,6 @@
       {
         "path": "/netresearch/t3x-nr-vault/activity",
         "title": "/activity",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/blob/main/.gitignore",
-        "title": "/blob/main/.gitignore",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/blob/main/.gitleaks.toml",
-        "title": "/blob/main/.gitleaks.toml",
         "count": 1,
         "uniques": 1
       }
@@ -161,9 +161,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 28110,
-    "monthly": 9536,
-    "daily": 267,
+    "total": 28141,
+    "monthly": 9226,
+    "daily": 32,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,

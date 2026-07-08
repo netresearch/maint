@@ -56,25 +56,54 @@
   "traffic_14d": {
     "clones_total": 15,
     "clones_unique": 11,
-    "views_total": 5,
+    "views_total": 8,
     "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 4,
-        "uniques": 4
+        "uniques": 3
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-location-finder/issues/1",
         "title": "/issues/1",
-        "count": 4,
-        "uniques": 4
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/dhl-sdk-api-location-finder",
         "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-location-finder/blob/master/README.md",
+        "title": "/blob/master/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-location-finder/commits/master",
+        "title": "/commits/master",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-location-finder/pulls",
+        "title": "/pulls",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-location-finder/tree/master/src",
+        "title": "/tree/master/src",
         "count": 1,
         "uniques": 1
       }
