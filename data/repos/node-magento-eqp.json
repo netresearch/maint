@@ -16,8 +16,8 @@
   "homepage": "https://netresearch.github.io/node-magento-eqp",
   "default_branch": "main",
   "created_at": "2021-03-31T09:13:35Z",
-  "pushed_at": "2026-07-05T10:40:03Z",
-  "updated_at": "2026-07-05T10:40:07Z",
+  "pushed_at": "2026-07-09T03:01:26Z",
+  "updated_at": "2026-07-09T03:01:29Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
@@ -25,11 +25,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 636,
+    "commits": 638,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 506,
+    "prs_merged": 508,
     "prs_closed_unmerged": 79,
     "issues_total": 1,
     "releases": 29,
@@ -42,32 +42,32 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 17,
+    "commits": 19,
     "issues_opened": 0,
-    "prs_opened": 17,
-    "prs_merged": 16,
+    "prs_opened": 19,
+    "prs_merged": 18,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 343,
-    "clones_unique": 97,
+    "clones_total": 309,
+    "clones_unique": 92,
     "views_total": 6,
     "views_unique": 6,
-    "top_referrers": [
-      {
-        "referrer": "Google",
-        "count": 1,
-        "uniques": 1
-      }
-    ],
+    "top_referrers": [],
     "top_paths": [
       {
         "path": "/netresearch/node-magento-eqp",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/node-magento-eqp/blob/main/yarn.lock",
+        "title": "/blob/main/yarn.lock",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/node-magento-eqp/discussions",
@@ -104,7 +104,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 379,
+      "contributions": 380,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 70,
+      "contributions": 71,
       "url": "https://github.com/apps/dependabot"
     },
     {
@@ -150,6 +150,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/node-magento-eqp/network/dependents"
   },
-  "blast_radius": 518,
+  "blast_radius": 520,
   "archived": false
 }

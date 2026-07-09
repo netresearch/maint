@@ -51,17 +51,28 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 15,
-    "clones_unique": 10,
-    "views_total": 2,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 18,
+    "clones_unique": 13,
+    "views_total": 4,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "postdirekt.support.netresearch.de",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/deutschepost-module-autocomplete-sw6",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/deutschepost-module-autocomplete-sw6/issues",

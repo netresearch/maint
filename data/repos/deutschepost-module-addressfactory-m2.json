@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 6,
-    "packagist_downloads": 225811,
+    "packagist_downloads": 226110,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,26 +43,36 @@
     "prs_opened": 2,
     "prs_merged": 1,
     "releases": 1,
-    "packagist_downloads": 6537,
+    "packagist_downloads": 6542,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 131,
-    "clones_unique": 27,
-    "views_total": 4,
+    "clones_total": 129,
+    "clones_unique": 25,
+    "views_total": 6,
     "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 3,
-        "uniques": 2
+        "uniques": 1
+      },
+      {
+        "referrer": "netresearch.freshdesk.com",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "postdirekt.support.netresearch.de",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/deutschepost-module-addressfactory-m2",
         "title": "Overview",
-        "count": 2,
+        "count": 3,
         "uniques": 2
       },
       {
@@ -74,6 +84,12 @@
       {
         "path": "/netresearch/deutschepost-module-addressfactory-m2/tree/1.4.2",
         "title": "/tree/1.4.2",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-addressfactory-m2/wiki/Documentation-English",
+        "title": "/wiki/Documentation-English",
         "count": 1,
         "uniques": 1
       }
@@ -124,9 +140,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-addressfactory-m2",
-    "total": 225811,
-    "monthly": 6537,
-    "daily": 178,
+    "total": 226110,
+    "monthly": 6542,
+    "daily": 253,
     "url": "https://packagist.org/packages/deutschepost/module-addressfactory-m2"
   },
   "ghcr": null,
