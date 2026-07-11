@@ -32,25 +32,25 @@
     "release_downloads": 246,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 29600,
+    "packagist_downloads": 30386,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 69,
+    "commits": 44,
     "issues_opened": 2,
-    "prs_opened": 26,
-    "prs_merged": 25,
-    "releases": 2,
-    "packagist_downloads": 9229,
+    "prs_opened": 21,
+    "prs_merged": 20,
+    "releases": 1,
+    "packagist_downloads": 9232,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1498,
-    "clones_unique": 153,
-    "views_total": 75,
-    "views_unique": 50,
+    "clones_total": 1572,
+    "clones_unique": 151,
+    "views_total": 37,
+    "views_unique": 12,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -72,25 +72,19 @@
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 7,
+        "count": 6,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
+        "title": "/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
+        "count": 3,
         "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-vault/pulls",
         "title": "/pulls",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/commits",
-        "title": "/commits",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/issues",
-        "title": "/issues",
-        "count": 2,
+        "count": 3,
         "uniques": 2
       },
       {
@@ -106,27 +100,33 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-vault/tags",
-        "title": "/tags",
+        "path": "/netresearch/t3x-nr-vault/blob/77e1d281a229b4d783385fa77c974b8a2cae3942/Classes/Seeder/DemoDataProvider.php",
+        "title": "/blob/77e1d281a229b4d783385fa77c974b8a2cae3942/Classes/Seeder/DemoDataProvider.php",
         "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
-        "title": "/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/tree/main/Classes",
-        "title": "/tree/main/Classes",
-        "count": 2,
-        "uniques": 2
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-vault/issues/190",
         "title": "/issues/190",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/commit/597d9d409c8945c4ef9f74181f7f58ee52dd969b",
+        "title": "/commit/597d9d409c8945c4ef9f74181f7f58ee52dd969b",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/commit/73e0a56f4051abc78a0c96c922f8bfa8f86f8e5c",
+        "title": "/commit/73e0a56f4051abc78a0c96c922f8bfa8f86f8e5c",
+        "count": 1,
         "uniques": 1
       }
     ]
@@ -161,9 +161,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 29600,
-    "monthly": 9229,
-    "daily": 735,
+    "total": 30386,
+    "monthly": 9232,
+    "daily": 774,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,

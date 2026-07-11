@@ -18,14 +18,14 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 30,
-    "issues_open": 0,
+    "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 1,
     "prs_merged": 8,
     "prs_closed_unmerged": 0,
-    "issues_total": 0,
+    "issues_total": 1,
     "releases": 4,
     "release_downloads": 16,
     "contributors": 4,
@@ -37,7 +37,7 @@
   },
   "recent_30d": {
     "commits": 0,
-    "issues_opened": 0,
+    "issues_opened": 1,
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
@@ -45,18 +45,28 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 57,
-    "clones_unique": 18,
-    "views_total": 46,
-    "views_unique": 8,
+    "clones_total": 55,
+    "clones_unique": 17,
+    "views_total": 49,
+    "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 41,
-        "uniques": 5
+        "count": 42,
+        "uniques": 6
       },
       {
         "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "statics.teams.cdn.office.net",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "teams.public.onecdn.static.microsoft",
         "count": 1,
         "uniques": 1
       }
@@ -65,8 +75,8 @@
       {
         "path": "/netresearch/orocommerce-skill",
         "title": "Overview",
-        "count": 9,
-        "uniques": 7
+        "count": 12,
+        "uniques": 10
       },
       {
         "path": "/netresearch/orocommerce-skill/tree/main/skills",
@@ -159,6 +169,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/orocommerce-skill/network/dependents"
   },
-  "blast_radius": 11,
+  "blast_radius": 12,
   "archived": false
 }

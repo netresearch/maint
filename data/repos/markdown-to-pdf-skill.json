@@ -45,15 +45,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 156,
-    "clones_unique": 24,
-    "views_total": 37,
-    "views_unique": 28,
+    "clones_total": 159,
+    "clones_unique": 25,
+    "views_total": 43,
+    "views_unique": 30,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 35,
+        "count": 36,
         "uniques": 26
+      },
+      {
+        "referrer": "perplexity.ai",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "referrer": "duck.ai",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "github.com",
@@ -65,8 +75,14 @@
       {
         "path": "/netresearch/markdown-to-pdf-skill",
         "title": "Overview",
-        "count": 29,
-        "uniques": 27
+        "count": 31,
+        "uniques": 28
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf",
+        "title": "/tree/main/skills/markdown-to-pdf",
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/markdown-to-pdf-skill/blob/main/skills/markdown-to-pdf/SKILL.md",
@@ -75,10 +91,10 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf",
-        "title": "/tree/main/skills/markdown-to-pdf",
-        "count": 3,
-        "uniques": 2
+        "path": "/netresearch/markdown-to-pdf-skill/pulls",
+        "title": "/pulls",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/markdown-to-pdf-skill/tree/main",
@@ -89,6 +105,12 @@
       {
         "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills",
         "title": "/tree/main/skills",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf/assets",
+        "title": "/tree/main/skills/markdown-to-pdf/assets",
         "count": 1,
         "uniques": 1
       }

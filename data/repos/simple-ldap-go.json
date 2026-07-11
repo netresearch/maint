@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-28T08:06:06Z",
-  "pushed_at": "2026-07-06T20:59:38Z",
+  "pushed_at": "2026-07-10T19:26:55Z",
   "updated_at": "2026-07-06T20:59:43Z",
   "composer_name": null,
   "lifetime": {
@@ -20,11 +20,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 521,
     "issues_open": 1,
     "issues_closed": 7,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 161,
     "prs_closed_unmerged": 6,
     "issues_total": 8,
@@ -40,36 +40,36 @@
   "recent_30d": {
     "commits": 6,
     "issues_opened": 0,
-    "prs_opened": 3,
+    "prs_opened": 4,
     "prs_merged": 3,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 103,
-    "clones_unique": 34,
-    "views_total": 30,
-    "views_unique": 25,
+    "clones_total": 94,
+    "clones_unique": 33,
+    "views_total": 29,
+    "views_unique": 24,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 14,
-        "uniques": 9
+        "count": 12,
+        "uniques": 7
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/simple-ldap-go",
         "title": "Overview",
-        "count": 10,
-        "uniques": 10
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/simple-ldap-go/blob/main/sam_account_type.go",
         "title": "/blob/main/sam_account_type.go",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/simple-ldap-go/blob/v1.5.1/auth.go",
@@ -86,6 +86,12 @@
       {
         "path": "/netresearch/simple-ldap-go/blob/main/SECURITY.md",
         "title": "/blob/main/SECURITY.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/blob/main/errors.go",
+        "title": "/blob/main/errors.go",
         "count": 1,
         "uniques": 1
       },
@@ -110,12 +116,6 @@
       {
         "path": "/netresearch/simple-ldap-go/blob/main/groups_integration_test.go",
         "title": "/blob/main/groups_integration_test.go",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/simple-ldap-go/blob/v1.1.0/examples/basic-usage/basic_usage.go",
-        "title": "/blob/v1.1.0/examples/basic-usage/basic_usage.go",
         "count": 1,
         "uniques": 1
       }

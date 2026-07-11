@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2020-03-31T08:44:02Z",
-  "pushed_at": "2026-07-01T08:01:47Z",
-  "updated_at": "2026-06-03T11:13:14Z",
+  "pushed_at": "2026-07-10T16:41:38Z",
+  "updated_at": "2026-07-10T16:43:03Z",
   "composer_name": "dhl/module-unified-tracking",
   "lifetime": {
     "stars": 2,
@@ -21,7 +21,7 @@
     "watchers": 7,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 73,
+    "commits": 76,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
@@ -32,82 +32,27 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 3,
-    "packagist_downloads": 291398,
+    "packagist_downloads": 291722,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 3,
     "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 6780,
+    "packagist_downloads": 6894,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 142,
-    "clones_unique": 30,
-    "views_total": 10,
-    "views_unique": 1,
-    "top_referrers": [
-      {
-        "referrer": "Google",
-        "count": 10,
-        "uniques": 1
-      }
-    ],
-    "top_paths": [
-      {
-        "path": "/netresearch/dhl-module-unified-tracking/tree/master",
-        "title": "/tree/master",
-        "count": 3,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-unified-tracking",
-        "title": "Overview",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-unified-tracking/blob/master/Api/TrackingInfoProviderInterface.php",
-        "title": "/blob/master/Api/TrackingInfoProviderInterface.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-unified-tracking/blob/master/Test/Integration/TestDouble/TrackingServiceStub.php",
-        "title": "/blob/master/Test/Integration/TestDouble/TrackingServiceStub.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-unified-tracking/tree/master/Api",
-        "title": "/tree/master/Api",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-unified-tracking/tree/master/Model",
-        "title": "/tree/master/Model",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-unified-tracking/tree/master/Test/Integration",
-        "title": "/tree/master/Test/Integration",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-unified-tracking/tree/master/Test/Integration/TestDouble",
-        "title": "/tree/master/Test/Integration/TestDouble",
-        "count": 1,
-        "uniques": 1
-      }
-    ]
+    "clones_total": 136,
+    "clones_unique": 28,
+    "views_total": 0,
+    "views_unique": 0,
+    "top_referrers": [],
+    "top_paths": []
   },
   "latest_release": {
     "name": "2.4.0",
@@ -123,7 +68,7 @@
     },
     {
       "login": "Sebastian80",
-      "contributions": 13,
+      "contributions": 16,
       "url": "https://github.com/Sebastian80"
     },
     {
@@ -144,9 +89,9 @@
   ],
   "packagist": {
     "name": "dhl/module-unified-tracking",
-    "total": 291398,
-    "monthly": 6780,
-    "daily": 274,
+    "total": 291722,
+    "monthly": 6894,
+    "daily": 271,
     "url": "https://packagist.org/packages/dhl/module-unified-tracking"
   },
   "ghcr": null,

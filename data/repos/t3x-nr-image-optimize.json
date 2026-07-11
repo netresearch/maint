@@ -37,33 +37,33 @@
     "release_downloads": 6,
     "contributors": 8,
     "external_contributors": 3,
-    "packagist_downloads": 1220,
+    "packagist_downloads": 1225,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
     "commits": 2,
-    "issues_opened": 1,
+    "issues_opened": 0,
     "prs_opened": 1,
     "prs_merged": 1,
     "releases": 0,
-    "packagist_downloads": 186,
+    "packagist_downloads": 180,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 159,
-    "clones_unique": 38,
-    "views_total": 10,
-    "views_unique": 5,
+    "clones_total": 147,
+    "clones_unique": 35,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [
       {
-        "referrer": "extensions.typo3.org",
-        "count": 7,
-        "uniques": 2
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
       },
       {
-        "referrer": "Google",
+        "referrer": "extensions.typo3.org",
         "count": 1,
         "uniques": 1
       }
@@ -78,42 +78,6 @@
       {
         "path": "/netresearch/t3x-nr-image-optimize/blob/HEAD/LICENSE",
         "title": "/blob/HEAD/LICENSE",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Classes/EventListener/OptimizeOnUploadListener.php",
-        "title": "/blob/main/Classes/EventListener/OptimizeOnUploadListener.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Classes/Service/ImageOptimizer.php",
-        "title": "/blob/main/Classes/Service/ImageOptimizer.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Classes/ViewHelpers/SourceSetViewHelper.php",
-        "title": "/blob/main/Classes/ViewHelpers/SourceSetViewHelper.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Configuration/Services.yaml",
-        "title": "/blob/main/Configuration/Services.yaml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/blob/main/ext_emconf.php",
-        "title": "/blob/main/ext_emconf.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/blob/main/infection-full.json5",
-        "title": "/blob/main/infection-full.json5",
         "count": 1,
         "uniques": 1
       }
@@ -169,9 +133,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 1220,
-    "monthly": 186,
-    "daily": 11,
+    "total": 1225,
+    "monthly": 180,
+    "daily": 4,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,
