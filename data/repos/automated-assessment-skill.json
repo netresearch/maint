@@ -54,15 +54,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 470,
-    "clones_unique": 123,
-    "views_total": 2,
+    "clones_total": 490,
+    "clones_unique": 141,
+    "views_total": 4,
     "views_unique": 2,
     "top_referrers": [
       {
+        "referrer": "Google",
+        "count": 3,
+        "uniques": 1
+      },
+      {
         "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -71,6 +76,18 @@
         "title": "Overview",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/automated-assessment-skill/blob/main/scripts/verify-harness.sh",
+        "title": "/blob/main/scripts/verify-harness.sh",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/automated-assessment-skill/tree/main/scripts",
+        "title": "/tree/main/scripts",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },

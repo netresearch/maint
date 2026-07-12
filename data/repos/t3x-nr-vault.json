@@ -29,28 +29,28 @@
     "prs_closed_unmerged": 10,
     "issues_total": 6,
     "releases": 19,
-    "release_downloads": 246,
+    "release_downloads": 247,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 30386,
+    "packagist_downloads": 30496,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 44,
+    "commits": 38,
     "issues_opened": 2,
-    "prs_opened": 21,
-    "prs_merged": 20,
-    "releases": 1,
-    "packagist_downloads": 9232,
+    "prs_opened": 18,
+    "prs_merged": 17,
+    "releases": 0,
+    "packagist_downloads": 9100,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1572,
-    "clones_unique": 151,
-    "views_total": 37,
-    "views_unique": 12,
+    "clones_total": 1577,
+    "clones_unique": 154,
+    "views_total": 39,
+    "views_unique": 13,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -78,8 +78,8 @@
       {
         "path": "/netresearch/t3x-nr-vault/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
         "title": "/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/t3x-nr-vault/pulls",
@@ -112,6 +112,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-vault/blob/8f3308095fa0c7e9f8160d542dd4b4bd4be208c5/Classes/Seeder/DemoDataProvider.php",
+        "title": "/blob/8f3308095fa0c7e9f8160d542dd4b4bd4be208c5/Classes/Seeder/DemoDataProvider.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-vault/blob/main/composer.json",
         "title": "/blob/main/composer.json",
         "count": 1,
@@ -120,12 +126,6 @@
       {
         "path": "/netresearch/t3x-nr-vault/commit/597d9d409c8945c4ef9f74181f7f58ee52dd969b",
         "title": "/commit/597d9d409c8945c4ef9f74181f7f58ee52dd969b",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/commit/73e0a56f4051abc78a0c96c922f8bfa8f86f8e5c",
-        "title": "/commit/73e0a56f4051abc78a0c96c922f8bfa8f86f8e5c",
         "count": 1,
         "uniques": 1
       }
@@ -161,9 +161,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 30386,
-    "monthly": 9232,
-    "daily": 774,
+    "total": 30496,
+    "monthly": 9100,
+    "daily": 90,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,

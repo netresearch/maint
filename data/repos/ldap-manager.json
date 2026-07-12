@@ -15,7 +15,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-10-02T10:38:21Z",
-  "pushed_at": "2026-07-09T10:34:51Z",
+  "pushed_at": "2026-07-12T01:00:14Z",
   "updated_at": "2026-06-29T01:39:49Z",
   "composer_name": null,
   "lifetime": {
@@ -23,11 +23,11 @@
     "forks": 2,
     "watchers": 1,
     "network": 2,
-    "open_issues_plus_prs": 3,
+    "open_issues_plus_prs": 4,
     "commits": 1333,
     "issues_open": 1,
     "issues_closed": 7,
-    "prs_open": 2,
+    "prs_open": 3,
     "prs_merged": 562,
     "prs_closed_unmerged": 46,
     "issues_total": 8,
@@ -36,34 +36,34 @@
     "contributors": 8,
     "external_contributors": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 16284,
+    "ghcr_downloads": 16879,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
     "commits": 16,
     "issues_opened": 0,
-    "prs_opened": 10,
+    "prs_opened": 11,
     "prs_merged": 8,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 3165
+    "ghcr_downloads": 3658
   },
   "traffic_14d": {
-    "clones_total": 426,
-    "clones_unique": 128,
-    "views_total": 23,
-    "views_unique": 15,
+    "clones_total": 440,
+    "clones_unique": 135,
+    "views_total": 30,
+    "views_unique": 19,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 8,
+        "uniques": 7
+      },
       {
         "referrer": "github.com",
         "count": 8,
         "uniques": 1
-      },
-      {
-        "referrer": "Google",
-        "count": 7,
-        "uniques": 6
       },
       {
         "referrer": "Bing",
@@ -74,14 +74,25 @@
         "referrer": "doubao.com",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/ldap-manager",
         "title": "Overview",
-        "count": 8,
-        "uniques": 8
+        "count": 12,
+        "uniques": 11
+      },
+      {
+        "path": "/netresearch/ldap-manager/blob/v1.1.4/internal/options/app.go",
+        "title": "/blob/v1.1.4/internal/options/app.go",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/ldap-manager/blob/main/dev/acl.ldif",
@@ -128,12 +139,6 @@
       {
         "path": "/netresearch/ldap-manager/blob/main/internal/web/users.go",
         "title": "/blob/main/internal/web/users.go",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ldap-manager/blob/v1.0.4/internal/options/app.go",
-        "title": "/blob/v1.0.4/internal/options/app.go",
         "count": 1,
         "uniques": 1
       }
@@ -193,12 +198,12 @@
       {
         "package": "ldap-manager",
         "url": "https://github.com/netresearch/ldap-manager/pkgs/container/ldap-manager",
-        "total": 16284,
-        "thirty_day": 3165
+        "total": 16879,
+        "thirty_day": 3658
       }
     ],
-    "total": 16284,
-    "thirty_day": 3165
+    "total": 16879,
+    "thirty_day": 3658
   },
   "dependents": {
     "repositories": 0,

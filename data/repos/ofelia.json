@@ -36,7 +36,7 @@
     "contributors": 44,
     "external_contributors": 38,
     "packagist_downloads": 0,
-    "ghcr_downloads": 263840,
+    "ghcr_downloads": 265772,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -47,18 +47,18 @@
     "prs_merged": 8,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 48699
+    "ghcr_downloads": 48974
   },
   "traffic_14d": {
-    "clones_total": 386,
-    "clones_unique": 167,
-    "views_total": 216,
-    "views_unique": 164,
+    "clones_total": 391,
+    "clones_unique": 170,
+    "views_total": 197,
+    "views_unique": 163,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 17,
-        "uniques": 10
+        "count": 15,
+        "uniques": 9
       },
       {
         "referrer": "reddit.com",
@@ -67,7 +67,7 @@
       },
       {
         "referrer": "Google",
-        "count": 2,
+        "count": 3,
         "uniques": 2
       },
       {
@@ -80,14 +80,8 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 24,
-        "uniques": 18
-      },
-      {
-        "path": "/netresearch/ofelia/releases",
-        "title": "/releases",
-        "count": 9,
-        "uniques": 6
+        "count": 22,
+        "uniques": 16
       },
       {
         "path": "/netresearch/ofelia/issues",
@@ -96,28 +90,16 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/ofelia/tags",
-        "title": "/tags",
+        "path": "/netresearch/ofelia/releases",
+        "title": "/releases",
         "count": 5,
-        "uniques": 1
+        "uniques": 4
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/webhooks.md",
-        "title": "/blob/main/docs/webhooks.md",
+        "path": "/netresearch/ofelia/blob/main/docs/jobs.md",
+        "title": "/blob/main/docs/jobs.md",
         "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/ofelia/issues/347",
-        "title": "/issues/347",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/ofelia/blob/main/CHANGELOG.md",
-        "title": "/blob/main/CHANGELOG.md",
-        "count": 3,
-        "uniques": 2
+        "uniques": 4
       },
       {
         "path": "/netresearch/ofelia/blob/main/docs/API.md",
@@ -126,14 +108,32 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
-        "title": "/blob/main/docs/CONFIGURATION.md",
+        "path": "/netresearch/ofelia/blob/main/docs/webhooks.md",
+        "title": "/blob/main/docs/webhooks.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/jobs.md",
-        "title": "/blob/main/docs/jobs.md",
+        "path": "/netresearch/ofelia/blob/main/go.sum",
+        "title": "/blob/main/go.sum",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/issues/347",
+        "title": "/issues/347",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/tree/main/docs",
+        "title": "/tree/main/docs",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/tree/main/example",
+        "title": "/tree/main/example",
         "count": 2,
         "uniques": 2
       }
@@ -203,12 +203,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 263840,
-        "thirty_day": 48699
+        "total": 265772,
+        "thirty_day": 48974
       }
     ],
-    "total": 263840,
-    "thirty_day": 48699
+    "total": 265772,
+    "thirty_day": 48974
   },
   "dependents": {
     "repositories": 0,

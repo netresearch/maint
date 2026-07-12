@@ -35,10 +35,10 @@
     "prs_closed_unmerged": 60,
     "issues_total": 279,
     "releases": 66,
-    "release_downloads": 164,
+    "release_downloads": 167,
     "contributors": 49,
     "external_contributors": 43,
-    "packagist_downloads": 1058368,
+    "packagist_downloads": 1058507,
     "ghcr_downloads": 0,
     "dependents_repos": 46,
     "dependents_packages": 3
@@ -49,14 +49,14 @@
     "prs_opened": 9,
     "prs_merged": 8,
     "releases": 1,
-    "packagist_downloads": 20127,
+    "packagist_downloads": 19592,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 523,
-    "clones_unique": 185,
+    "clones_total": 529,
+    "clones_unique": 190,
     "views_total": 89,
-    "views_unique": 40,
+    "views_unique": 38,
     "top_referrers": [
       {
         "referrer": "packagist.org",
@@ -70,7 +70,7 @@
       },
       {
         "referrer": "Google",
-        "count": 5,
+        "count": 7,
         "uniques": 4
       },
       {
@@ -88,14 +88,20 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image",
         "title": "Overview",
-        "count": 12,
-        "uniques": 7
+        "count": 13,
+        "uniques": 8
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues",
         "title": "/issues",
         "count": 10,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-rte_ckeditor_image/pulls",
+        "title": "/pulls",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/CHANGELOG.md",
@@ -136,12 +142,6 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/Resources/Private/Language/af.locallang_be.xlf",
         "title": "/blob/main/Resources/Private/Language/af.locallang_be.xlf",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/Resources/Public/JavaScript/Plugins/select-image-bparams.js",
-        "title": "/blob/main/Resources/Public/JavaScript/Plugins/select-image-bparams.js",
         "count": 2,
         "uniques": 1
       }
@@ -207,9 +207,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1058368,
-    "monthly": 20127,
-    "daily": 583,
+    "total": 1058507,
+    "monthly": 19592,
+    "daily": 152,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,

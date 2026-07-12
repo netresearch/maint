@@ -12,21 +12,21 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-28T08:06:06Z",
-  "pushed_at": "2026-07-10T19:26:55Z",
-  "updated_at": "2026-07-06T20:59:43Z",
+  "pushed_at": "2026-07-11T23:01:44Z",
+  "updated_at": "2026-07-11T23:00:02Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 521,
+    "open_issues_plus_prs": 1,
+    "commits": 525,
     "issues_open": 1,
     "issues_closed": 7,
-    "prs_open": 1,
-    "prs_merged": 161,
-    "prs_closed_unmerged": 6,
+    "prs_open": 0,
+    "prs_merged": 163,
+    "prs_closed_unmerged": 7,
     "issues_total": 8,
     "releases": 20,
     "release_downloads": 13,
@@ -38,32 +38,32 @@
     "dependents_packages": 5
   },
   "recent_30d": {
-    "commits": 6,
+    "commits": 8,
     "issues_opened": 0,
-    "prs_opened": 4,
-    "prs_merged": 3,
+    "prs_opened": 6,
+    "prs_merged": 5,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 94,
-    "clones_unique": 33,
-    "views_total": 29,
-    "views_unique": 24,
+    "clones_total": 123,
+    "clones_unique": 35,
+    "views_total": 28,
+    "views_unique": 23,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 12,
-        "uniques": 7
+        "count": 10,
+        "uniques": 5
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/simple-ldap-go",
         "title": "Overview",
-        "count": 6,
-        "uniques": 6
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/simple-ldap-go/blob/main/sam_account_type.go",
@@ -81,12 +81,6 @@
         "path": "/netresearch/simple-ldap-go/blob/main/docs/CACHING_GUIDE.md",
         "title": "/blob/main/docs/CACHING_GUIDE.md",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/simple-ldap-go/blob/main/SECURITY.md",
-        "title": "/blob/main/SECURITY.md",
-        "count": 1,
         "uniques": 1
       },
       {
@@ -118,6 +112,12 @@
         "title": "/blob/main/groups_integration_test.go",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/blob/v1.1.0/examples/basic-usage/basic_usage.go",
+        "title": "/blob/v1.1.0/examples/basic-usage/basic_usage.go",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -135,7 +135,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 145,
+      "contributions": 149,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -166,6 +166,6 @@
     "packages": 5,
     "url": "https://github.com/netresearch/simple-ldap-go/network/dependents"
   },
-  "blast_radius": 182,
+  "blast_radius": 184,
   "archived": false
 }

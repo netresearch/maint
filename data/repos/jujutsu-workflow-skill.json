@@ -19,8 +19,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-22T22:47:47Z",
-  "pushed_at": "2026-07-08T12:10:48Z",
-  "updated_at": "2026-07-08T12:11:02Z",
+  "pushed_at": "2026-07-11T14:56:47Z",
+  "updated_at": "2026-07-11T14:56:50Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
@@ -28,11 +28,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 0,
-    "commits": 24,
+    "commits": 27,
     "issues_open": 0,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 8,
+    "prs_merged": 9,
     "prs_closed_unmerged": 0,
     "issues_total": 0,
     "releases": 1,
@@ -45,30 +45,84 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 24,
+    "commits": 27,
     "issues_opened": 0,
-    "prs_opened": 8,
-    "prs_merged": 8,
+    "prs_opened": 9,
+    "prs_merged": 9,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 98,
-    "clones_unique": 45,
-    "views_total": 1,
-    "views_unique": 1,
+    "clones_total": 85,
+    "clones_unique": 44,
+    "views_total": 17,
+    "views_unique": 2,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
+        "count": 16,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
+        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/why-jj-for-agents.md",
+        "title": "/blob/main/skills/jujutsu-workflow/references/why-jj-for-agents.md",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/SKILL.md",
+        "title": "/blob/main/skills/jujutsu-workflow/SKILL.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/agent-safety.md",
+        "title": "/blob/main/skills/jujutsu-workflow/references/agent-safety.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/pr-handoff.md",
+        "title": "/blob/main/skills/jujutsu-workflow/references/pr-handoff.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/recovery-playbook.md",
+        "title": "/blob/main/skills/jujutsu-workflow/references/recovery-playbook.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/jujutsu-workflow-skill",
         "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/git-interop.md",
+        "title": "/blob/main/skills/jujutsu-workflow/references/git-interop.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/parallel-agents.md",
+        "title": "/blob/main/skills/jujutsu-workflow/references/parallel-agents.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/commit/a22e4befb7639004698f8f63035e99bbe4a39ffd",
+        "title": "/commit/a22e4befb7639004698f8f63035e99bbe4a39ffd",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow",
+        "title": "/tree/main/skills/jujutsu-workflow",
         "count": 1,
         "uniques": 1
       }
@@ -83,7 +137,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 24,
+      "contributions": 27,
       "url": "https://github.com/CybotTM"
     }
   ],
@@ -94,6 +148,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jujutsu-workflow-skill/network/dependents"
   },
-  "blast_radius": 8,
+  "blast_radius": 9,
   "archived": false
 }

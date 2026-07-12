@@ -51,28 +51,28 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 406,
+    "commits": 372,
     "issues_opened": 6,
-    "prs_opened": 99,
-    "prs_merged": 97,
-    "releases": 7,
-    "packagist_downloads": 749,
+    "prs_opened": 92,
+    "prs_merged": 91,
+    "releases": 6,
+    "packagist_downloads": 700,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 13373,
-    "clones_unique": 630,
-    "views_total": 58,
+    "clones_total": 14243,
+    "clones_unique": 642,
+    "views_total": 63,
     "views_unique": 23,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 14,
-        "uniques": 6
+        "count": 12,
+        "uniques": 4
       },
       {
         "referrer": "Google",
-        "count": 2,
+        "count": 5,
         "uniques": 1
       },
       {
@@ -95,7 +95,7 @@
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 23,
+        "count": 27,
         "uniques": 15
       },
       {
@@ -135,6 +135,12 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/t3x-nr-llm/actions/workflows/docs.yml",
+        "title": "/actions/workflows/docs.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-llm/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
         "count": 1,
@@ -143,12 +149,6 @@
       {
         "path": "/netresearch/t3x-nr-llm/blob/main/CLAUDE.md",
         "title": "/blob/main/CLAUDE.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/blob/main/Classes/Provider/OpenRouterProvider.php",
-        "title": "/blob/main/Classes/Provider/OpenRouterProvider.php",
         "count": 1,
         "uniques": 1
       }
@@ -190,8 +190,8 @@
   "packagist": {
     "name": "netresearch/nr-llm",
     "total": 6051,
-    "monthly": 749,
-    "daily": 21,
+    "monthly": 700,
+    "daily": 5,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,
