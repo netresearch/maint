@@ -20,8 +20,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-18T13:49:41Z",
-  "pushed_at": "2026-07-11T10:12:31Z",
-  "updated_at": "2026-07-11T10:12:35Z",
+  "pushed_at": "2026-07-12T10:21:36Z",
+  "updated_at": "2026-07-12T11:31:25Z",
   "composer_name": null,
   "lifetime": {
     "stars": 13,
@@ -29,11 +29,11 @@
     "watchers": 2,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 103,
+    "commits": 106,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 30,
+    "prs_merged": 31,
     "prs_closed_unmerged": 1,
     "issues_total": 2,
     "releases": 14,
@@ -46,48 +46,38 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 13,
+    "commits": 16,
     "issues_opened": 1,
-    "prs_opened": 4,
-    "prs_merged": 4,
+    "prs_opened": 5,
+    "prs_merged": 5,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 815,
-    "clones_unique": 189,
-    "views_total": 16,
-    "views_unique": 11,
+    "clones_total": 867,
+    "clones_unique": 195,
+    "views_total": 20,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 10,
         "uniques": 7
-      },
-      {
-        "referrer": "github.com",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "referrer": "Bing",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/claude-coach-plugin",
         "title": "Overview",
-        "count": 9,
-        "uniques": 6
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/claude-coach-plugin/blob/main/skills/coach/SKILL.md",
         "title": "/blob/main/skills/coach/SKILL.md",
-        "count": 3,
-        "uniques": 3
+        "count": 5,
+        "uniques": 4
       },
       {
         "path": "/netresearch/claude-coach-plugin/releases",
@@ -106,6 +96,30 @@
         "title": "/blob/main/README.md",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/claude-coach-plugin/blob/main/skills/coach/scripts/aggregate.py",
+        "title": "/blob/main/skills/coach/scripts/aggregate.py",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/claude-coach-plugin/blob/main/skills/coach/scripts/apply.py",
+        "title": "/blob/main/skills/coach/scripts/apply.py",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/claude-coach-plugin/tree/main/skills/coach",
+        "title": "/tree/main/skills/coach",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/claude-coach-plugin/tree/main/skills/coach/scripts",
+        "title": "/tree/main/skills/coach/scripts",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -118,7 +132,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 87,
+      "contributions": 90,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -139,6 +153,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-coach-plugin/network/dependents"
   },
-  "blast_radius": 34,
-  "archived": false
+  "blast_radius": 35,
+  "archived": true
 }
