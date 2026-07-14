@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 GITHUB_API = "https://api.github.com"
 ORG_NAME = os.environ.get("ORG_NAME", "netresearch")
-GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 MATRIX_WEBHOOK_URL = os.environ["MATRIX_WEBHOOK_URL"]
 STATE_FILE = Path("state/stars-state.json")
 MAX_NOTIFICATIONS = 20
@@ -20,6 +20,28 @@ FEED_URL = "https://github.com/netresearch/maint/actions/workflows/star-notifica
 
 # In-memory cache for user details (login -> user info dict)
 _user_cache: dict[str, dict] = {}
+
+
+class AuthError(Exception):
+    """The token may not read an endpoint.
+
+    Systemic rather than per-repo, so it aborts the run instead of letting every
+    repo degrade to "no news" and reporting success.
+    """
+
+
+def is_rate_limited(response: requests.Response) -> bool:
+    """Distinguish a rate-limit 403 (transient) from a permission 403 (not).
+
+    A primary limit zeroes the budget header. A secondary limit does not, and only
+    sometimes sends Retry-After, so the body is the last resort.
+    https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api
+    """
+    if response.headers.get("X-RateLimit-Remaining") == "0":
+        return True
+    if "Retry-After" in response.headers:
+        return True
+    return "secondary rate limit" in response.text.lower()
 
 
 def github_request(url: str, accept: str = "application/vnd.github+json", max_retries: int = 3) -> list | dict:
@@ -36,11 +58,19 @@ def github_request(url: str, accept: str = "application/vnd.github+json", max_re
             try:
                 response = requests.get(url, headers=headers, timeout=30)
                 # Retry on transient server errors
-                if response.status_code in (429, 502, 503, 504):
+                if response.status_code in (429, 502, 503, 504) or (
+                    response.status_code == 403 and is_rate_limited(response)
+                ):
                     retry_after = int(response.headers.get("Retry-After", 2 ** attempt))
                     print(f"Retry {attempt + 1}/{max_retries}: {response.status_code} for {url}, waiting {retry_after}s")
                     time.sleep(retry_after)
                     continue
+                if response.status_code in (401, 403):
+                    try:
+                        detail = response.json().get("message", response.reason)
+                    except (ValueError, AttributeError):
+                        detail = response.reason
+                    raise AuthError(f"{response.status_code} for {url}: {detail}")
                 response.raise_for_status()
                 data = response.json()
                 if isinstance(data, list):
@@ -51,6 +81,10 @@ def github_request(url: str, accept: str = "application/vnd.github+json", max_re
                 break  # Success, exit retry loop
             except requests.exceptions.RequestException as e:
                 last_error = e
+                # Client errors are the server's final answer, so retrying only burns time
+                status = e.response.status_code if e.response is not None else None
+                if status is not None and 400 <= status < 500:
+                    raise
                 if attempt < max_retries - 1:
                     wait_time = 2 ** attempt
                     print(f"Retry {attempt + 1}/{max_retries}: {e}, waiting {wait_time}s")
@@ -284,6 +318,8 @@ def notify_matrix(message: str) -> None:
 
 
 def main():
+    if not GITHUB_TOKEN:
+        raise AuthError("no token in the environment")
     state = load_state()
     repos = get_org_repos()
     is_first_run = not state.get("last_run")
@@ -440,4 +476,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except AuthError as e:
+        print(f"::error::{e}. Check that STAR_NOTIFICATIONS_PAT is set, unexpired, and grants "
+              f"Metadata: read on the {ORG_NAME} org.")
+        raise SystemExit(1)
