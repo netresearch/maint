@@ -15,7 +15,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2022-05-30T12:58:03Z",
-  "pushed_at": "2026-07-12T13:43:35Z",
+  "pushed_at": "2026-07-13T09:50:39Z",
   "updated_at": "2026-07-12T13:43:48Z",
   "composer_name": null,
   "lifetime": {
@@ -29,46 +29,41 @@
     "issues_closed": 167,
     "prs_open": 1,
     "prs_merged": 488,
-    "prs_closed_unmerged": 58,
+    "prs_closed_unmerged": 59,
     "issues_total": 190,
     "releases": 48,
     "release_downloads": 1842,
     "contributors": 44,
     "external_contributors": 38,
     "packagist_downloads": 0,
-    "ghcr_downloads": 267481,
+    "ghcr_downloads": 269113,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
     "commits": 21,
     "issues_opened": 3,
-    "prs_opened": 10,
+    "prs_opened": 11,
     "prs_merged": 9,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 49148
+    "ghcr_downloads": 48890
   },
   "traffic_14d": {
-    "clones_total": 390,
-    "clones_unique": 169,
-    "views_total": 161,
-    "views_unique": 130,
+    "clones_total": 361,
+    "clones_unique": 130,
+    "views_total": 124,
+    "views_unique": 97,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 11,
-        "uniques": 6
+        "count": 16,
+        "uniques": 5
       },
       {
         "referrer": "Google",
         "count": 3,
         "uniques": 2
-      },
-      {
-        "referrer": "reddit.com",
-        "count": 3,
-        "uniques": 1
       },
       {
         "referrer": "awesome-go.com",
@@ -85,14 +80,8 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 20,
-        "uniques": 15
-      },
-      {
-        "path": "/netresearch/ofelia/issues",
-        "title": "/issues",
-        "count": 6,
-        "uniques": 4
+        "count": 17,
+        "uniques": 13
       },
       {
         "path": "/netresearch/ofelia/blob/main/docs/jobs.md",
@@ -101,20 +90,26 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/ofelia/releases",
-        "title": "/releases",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/ofelia/blob/main/docs/API.md",
-        "title": "/blob/main/docs/API.md",
-        "count": 3,
+        "path": "/netresearch/ofelia/blob/main/docs/webhooks.md",
+        "title": "/blob/main/docs/webhooks.md",
+        "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/webhooks.md",
-        "title": "/blob/main/docs/webhooks.md",
+        "path": "/netresearch/ofelia/blob/main/example/ofelia.ini",
+        "title": "/blob/main/example/ofelia.ini",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/issues",
+        "title": "/issues",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/releases",
+        "title": "/releases",
         "count": 2,
         "uniques": 2
       },
@@ -131,14 +126,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/ofelia/pulls",
-        "title": "/pulls",
-        "count": 2,
+        "path": "/netresearch/ofelia/blob/01dd135db133102708a89bf4d9180e63365ac3a8/core/hash_test.go",
+        "title": "/blob/01dd135db133102708a89bf4d9180e63365ac3a8/core/hash_test.go",
+        "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/ofelia/blob/01dd135db133102708a89bf4d9180e63365ac3a8/core/hash_test.go",
-        "title": "/blob/01dd135db133102708a89bf4d9180e63365ac3a8/core/hash_test.go",
+        "path": "/netresearch/ofelia/blob/1a472f3fab61eda5f47e10fd68c0643fd29bb2c4/go.mod",
+        "title": "/blob/1a472f3fab61eda5f47e10fd68c0643fd29bb2c4/go.mod",
         "count": 1,
         "uniques": 1
       }
@@ -208,12 +203,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 267481,
-        "thirty_day": 49148
+        "total": 269113,
+        "thirty_day": 48890
       }
     ],
-    "total": 267481,
-    "thirty_day": 49148
+    "total": 269113,
+    "thirty_day": 48890
   },
   "dependents": {
     "repositories": 0,

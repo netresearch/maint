@@ -18,8 +18,8 @@
   "homepage": "https://github.com/netresearch/retro-skill",
   "default_branch": "main",
   "created_at": "2026-05-12T13:08:08Z",
-  "pushed_at": "2026-07-12T11:33:14Z",
-  "updated_at": "2026-07-12T11:33:17Z",
+  "pushed_at": "2026-07-13T20:25:09Z",
+  "updated_at": "2026-07-13T20:01:48Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
@@ -27,14 +27,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 82,
+    "commits": 84,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 31,
+    "prs_merged": 32,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
-    "releases": 9,
+    "releases": 10,
     "release_downloads": 10,
     "contributors": 1,
     "external_contributors": 0,
@@ -44,24 +44,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 35,
+    "commits": 37,
     "issues_opened": 0,
-    "prs_opened": 14,
-    "prs_merged": 14,
-    "releases": 5,
+    "prs_opened": 15,
+    "prs_merged": 15,
+    "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 540,
-    "clones_unique": 86,
-    "views_total": 56,
-    "views_unique": 42,
+    "clones_total": 592,
+    "clones_unique": 98,
+    "views_total": 64,
+    "views_unique": 43,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 38,
         "uniques": 29
+      },
+      {
+        "referrer": "claude.ai",
+        "count": 8,
+        "uniques": 1
       },
       {
         "referrer": "github.com",
@@ -83,8 +88,8 @@
       {
         "path": "/netresearch/retro-skill",
         "title": "Overview",
-        "count": 42,
-        "uniques": 34
+        "count": 43,
+        "uniques": 35
       },
       {
         "path": "/netresearch/retro-skill/blob/main/docs/specs/retro-skill.md",
@@ -117,6 +122,18 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/retro-skill/blob/main/commands/retro.md",
+        "title": "/blob/main/commands/retro.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/retro-skill/blob/main/hooks/session-end.json",
+        "title": "/blob/main/hooks/session-end.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/retro-skill/blob/main/skills/retro/SKILL.md",
         "title": "/blob/main/skills/retro/SKILL.md",
         "count": 1,
@@ -127,31 +144,19 @@
         "title": "/blob/main/skills/retro/scripts/scan-memory-inventory.py",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/retro-skill/commit/f82c18785ddcdcdf904232267fd35859b4fe9caf",
-        "title": "/commit/f82c18785ddcdcdf904232267fd35859b4fe9caf",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/retro-skill/pull/24/files/f82c18785ddcdcdf904232267fd35859b4fe9caf",
-        "title": "/pull/24/files/f82c18785ddcdcdf904232267fd35859b4fe9caf",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.0.1",
-    "tag_name": "v1.0.1",
-    "published_at": "2026-07-06T00:09:35Z",
-    "url": "https://github.com/netresearch/retro-skill/releases/tag/v1.0.1"
+    "name": "v1.0.2",
+    "tag_name": "v1.0.2",
+    "published_at": "2026-07-13T20:25:36Z",
+    "url": "https://github.com/netresearch/retro-skill/releases/tag/v1.0.2"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 82,
+      "contributions": 84,
       "url": "https://github.com/CybotTM"
     }
   ],
@@ -162,6 +167,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/retro-skill/network/dependents"
   },
-  "blast_radius": 32,
+  "blast_radius": 33,
   "archived": false
 }

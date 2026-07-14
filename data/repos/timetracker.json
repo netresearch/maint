@@ -28,7 +28,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-07-12T20:40:02Z",
+  "pushed_at": "2026-07-14T03:04:50Z",
   "updated_at": "2026-07-12T18:45:14Z",
   "composer_name": "netresearch/timetracker",
   "lifetime": {
@@ -36,11 +36,11 @@
     "forks": 27,
     "watchers": 6,
     "network": 27,
-    "open_issues_plus_prs": 5,
+    "open_issues_plus_prs": 6,
     "commits": 2486,
     "issues_open": 5,
     "issues_closed": 53,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 476,
     "prs_closed_unmerged": 78,
     "issues_total": 58,
@@ -49,24 +49,24 @@
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 35060,
+    "ghcr_downloads": 35144,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 989,
+    "commits": 938,
     "issues_opened": 16,
-    "prs_opened": 259,
-    "prs_merged": 256,
+    "prs_opened": 254,
+    "prs_merged": 250,
     "releases": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 23034
+    "ghcr_downloads": 22002
   },
   "traffic_14d": {
-    "clones_total": 12415,
-    "clones_unique": 727,
-    "views_total": 120,
-    "views_unique": 24,
+    "clones_total": 13224,
+    "clones_unique": 738,
+    "views_total": 123,
+    "views_unique": 27,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -133,6 +133,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/timetracker/blob/main/package-lock.json",
+        "title": "/blob/main/package-lock.json",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/timetracker/issues/571",
         "title": "/issues/571",
         "count": 2,
@@ -141,12 +147,6 @@
       {
         "path": "/netresearch/timetracker/issues/197",
         "title": "/issues/197",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/pull/469",
-        "title": "/pull/469",
         "count": 2,
         "uniques": 1
       }
@@ -216,12 +216,12 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 35060,
-        "thirty_day": 23034
+        "total": 35144,
+        "thirty_day": 22002
       }
     ],
-    "total": 35060,
-    "thirty_day": 23034
+    "total": 35144,
+    "thirty_day": 22002
   },
   "dependents": {
     "repositories": 0,
