@@ -34,7 +34,11 @@ jobs:
 
       - name: Check for new stars
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Since 2026-06-30 the stargazers and subscribers endpoints are readable
+          # only by a repo's admins/collaborators, which the Actions GITHUB_TOKEN is
+          # not. Needs a fine-grained PAT (Metadata: read) on the netresearch org.
+          # https://github.blog/changelog/2026-06-30-upcoming-access-restrictions-to-public-api-endpoints-and-ui-views/
+          GITHUB_TOKEN: ${{ secrets.STAR_NOTIFICATIONS_PAT }}
           MATRIX_WEBHOOK_URL: ${{ secrets.MATRIX_WEBHOOK_URL }}
           ORG_NAME: netresearch
         run: python scripts/check-stars.py
