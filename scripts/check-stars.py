@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 GITHUB_API = "https://api.github.com"
 ORG_NAME = os.environ.get("ORG_NAME", "netresearch")
-GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 MATRIX_WEBHOOK_URL = os.environ["MATRIX_WEBHOOK_URL"]
 STATE_FILE = Path("state/stars-state.json")
 MAX_NOTIFICATIONS = 20
@@ -31,8 +31,17 @@ class AuthError(Exception):
 
 
 def is_rate_limited(response: requests.Response) -> bool:
-    """Distinguish a rate-limit 403 (transient) from a permission 403 (not)."""
-    return response.headers.get("X-RateLimit-Remaining") == "0"
+    """Distinguish a rate-limit 403 (transient) from a permission 403 (not).
+
+    A primary limit zeroes the budget header. A secondary limit does not, and only
+    sometimes sends Retry-After, so the body is the last resort.
+    https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api
+    """
+    if response.headers.get("X-RateLimit-Remaining") == "0":
+        return True
+    if "Retry-After" in response.headers:
+        return True
+    return "secondary rate limit" in response.text.lower()
 
 
 def github_request(url: str, accept: str = "application/vnd.github+json", max_retries: int = 3) -> list | dict:
@@ -57,7 +66,11 @@ def github_request(url: str, accept: str = "application/vnd.github+json", max_re
                     time.sleep(retry_after)
                     continue
                 if response.status_code in (401, 403):
-                    raise AuthError(f"{response.status_code} for {url} - token cannot read this endpoint")
+                    try:
+                        detail = response.json().get("message", response.reason)
+                    except (ValueError, AttributeError):
+                        detail = response.reason
+                    raise AuthError(f"{response.status_code} for {url}: {detail}")
                 response.raise_for_status()
                 data = response.json()
                 if isinstance(data, list):
@@ -305,6 +318,8 @@ def notify_matrix(message: str) -> None:
 
 
 def main():
+    if not GITHUB_TOKEN:
+        raise AuthError("no token in the environment")
     state = load_state()
     repos = get_org_repos()
     is_first_run = not state.get("last_run")
