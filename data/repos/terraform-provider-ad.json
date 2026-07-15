@@ -30,7 +30,7 @@
     "prs_closed_unmerged": 1,
     "issues_total": 0,
     "releases": 3,
-    "release_downloads": 484,
+    "release_downloads": 490,
     "contributors": 22,
     "external_contributors": 19,
     "packagist_downloads": 0,
@@ -48,12 +48,19 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 27,
-    "clones_unique": 13,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 26,
+    "clones_unique": 12,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/terraform-provider-ad",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v0.3.0",

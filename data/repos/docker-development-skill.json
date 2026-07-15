@@ -19,8 +19,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-29T17:18:27Z",
-  "pushed_at": "2026-07-13T20:22:50Z",
-  "updated_at": "2026-07-13T19:51:56Z",
+  "pushed_at": "2026-07-15T00:25:52Z",
+  "updated_at": "2026-07-15T00:25:55Z",
   "composer_name": null,
   "lifetime": {
     "stars": 10,
@@ -28,15 +28,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 133,
+    "commits": 135,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 39,
+    "prs_merged": 40,
     "prs_closed_unmerged": 1,
     "issues_total": 2,
     "releases": 22,
-    "release_downloads": 70,
+    "release_downloads": 72,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -45,34 +45,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 30,
+    "commits": 32,
     "issues_opened": 1,
-    "prs_opened": 12,
-    "prs_merged": 12,
+    "prs_opened": 13,
+    "prs_merged": 13,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 856,
-    "clones_unique": 233,
-    "views_total": 207,
-    "views_unique": 86,
+    "clones_total": 883,
+    "clones_unique": 225,
+    "views_total": 208,
+    "views_unique": 83,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 130,
-        "uniques": 70
+        "count": 132,
+        "uniques": 67
+      },
+      {
+        "referrer": "github.com",
+        "count": 11,
+        "uniques": 5
       },
       {
         "referrer": "chatgpt.com",
         "count": 11,
         "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 10,
-        "uniques": 5
       },
       {
         "referrer": "search.brave.com",
@@ -89,14 +89,14 @@
       {
         "path": "/netresearch/docker-development-skill",
         "title": "Overview",
-        "count": 104,
-        "uniques": 78
+        "count": 102,
+        "uniques": 76
       },
       {
         "path": "/netresearch/docker-development-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 24,
-        "uniques": 14
+        "count": 23,
+        "uniques": 13
       },
       {
         "path": "/netresearch/docker-development-skill/tree/main/skills/docker-development",
@@ -129,20 +129,20 @@
         "uniques": 4
       },
       {
+        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-via-wsl/SKILL.md",
+        "title": "/blob/main/skills/docker-via-wsl/SKILL.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/docker-development-skill/tree/main/scripts",
+        "title": "/tree/main/scripts",
+        "count": 3,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/docker-development-skill/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/checkpoints.yaml",
-        "title": "/blob/main/skills/docker-development/checkpoints.yaml",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/references/bind-mount-ownership.md",
-        "title": "/blob/main/skills/docker-development/references/bind-mount-ownership.md",
         "count": 2,
         "uniques": 2
       }
@@ -157,7 +157,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 129,
+      "contributions": 131,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -178,6 +178,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/docker-development-skill/network/dependents"
   },
-  "blast_radius": 41,
+  "blast_radius": 42,
   "archived": false
 }

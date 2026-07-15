@@ -28,45 +28,45 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-07-14T03:04:50Z",
-  "updated_at": "2026-07-12T18:45:14Z",
+  "pushed_at": "2026-07-15T03:16:56Z",
+  "updated_at": "2026-07-15T00:36:55Z",
   "composer_name": "netresearch/timetracker",
   "lifetime": {
     "stars": 24,
     "forks": 27,
     "watchers": 6,
     "network": 27,
-    "open_issues_plus_prs": 6,
-    "commits": 2486,
-    "issues_open": 5,
-    "issues_closed": 53,
+    "open_issues_plus_prs": 3,
+    "commits": 2570,
+    "issues_open": 2,
+    "issues_closed": 59,
     "prs_open": 1,
-    "prs_merged": 476,
+    "prs_merged": 488,
     "prs_closed_unmerged": 78,
-    "issues_total": 58,
-    "releases": 25,
+    "issues_total": 61,
+    "releases": 28,
     "release_downloads": 0,
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 35144,
+    "ghcr_downloads": 36271,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 938,
-    "issues_opened": 16,
-    "prs_opened": 254,
-    "prs_merged": 250,
-    "releases": 3,
+    "commits": 987,
+    "issues_opened": 19,
+    "prs_opened": 255,
+    "prs_merged": 252,
+    "releases": 6,
     "packagist_downloads": 0,
-    "ghcr_downloads": 22002
+    "ghcr_downloads": 22061
   },
   "traffic_14d": {
-    "clones_total": 13224,
-    "clones_unique": 738,
-    "views_total": 123,
-    "views_unique": 27,
+    "clones_total": 13310,
+    "clones_unique": 741,
+    "views_total": 127,
+    "views_unique": 26,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -93,7 +93,7 @@
       {
         "path": "/netresearch/timetracker/issues",
         "title": "/issues",
-        "count": 15,
+        "count": 16,
         "uniques": 5
       },
       {
@@ -121,6 +121,12 @@
         "uniques": 5
       },
       {
+        "path": "/netresearch/timetracker/issues/588",
+        "title": "/issues/588",
+        "count": 3,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/timetracker/pull/518",
         "title": "/pull/518",
         "count": 3,
@@ -143,25 +149,19 @@
         "title": "/issues/571",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/timetracker/issues/197",
-        "title": "/issues/197",
-        "count": 2,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v6.1.0",
-    "tag_name": "v6.1.0",
-    "published_at": "2026-07-09T05:59:27Z",
-    "url": "https://github.com/netresearch/timetracker/releases/tag/v6.1.0"
+    "name": "v6.2.2",
+    "tag_name": "v6.2.2",
+    "published_at": "2026-07-15T00:48:05Z",
+    "url": "https://github.com/netresearch/timetracker/releases/tag/v6.2.2"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 2119,
+      "contributions": 2203,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -216,18 +216,18 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 35144,
-        "thirty_day": 22002
+        "total": 36271,
+        "thirty_day": 22061
       }
     ],
-    "total": 35144,
-    "thirty_day": 22002
+    "total": 36271,
+    "thirty_day": 22061
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "blast_radius": 603,
+  "blast_radius": 618,
   "archived": false
 }

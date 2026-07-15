@@ -16,8 +16,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2019-12-16T13:43:04Z",
-  "pushed_at": "2026-07-10T16:48:48Z",
-  "updated_at": "2026-07-10T16:50:09Z",
+  "pushed_at": "2026-07-14T12:23:03Z",
+  "updated_at": "2026-07-14T12:23:10Z",
   "composer_name": "dhl/module-carrier-paket",
   "lifetime": {
     "stars": 4,
@@ -25,40 +25,40 @@
     "watchers": 9,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 448,
+    "commits": 450,
     "issues_open": 1,
     "issues_closed": 13,
     "prs_open": 0,
     "prs_merged": 1,
     "prs_closed_unmerged": 3,
     "issues_total": 14,
-    "releases": 29,
+    "releases": 30,
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 5,
-    "packagist_downloads": 251179,
+    "packagist_downloads": 251643,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 2
   },
   "recent_30d": {
-    "commits": 7,
+    "commits": 9,
     "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
-    "releases": 3,
-    "packagist_downloads": 7007,
+    "releases": 4,
+    "packagist_downloads": 7148,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 265,
+    "clones_total": 243,
     "clones_unique": 67,
-    "views_total": 14,
+    "views_total": 18,
     "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 5,
+        "count": 7,
         "uniques": 3
       },
       {
@@ -71,14 +71,20 @@
       {
         "path": "/netresearch/dhl-module-carrier-paket",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
+        "count": 5,
+        "uniques": 4
       },
       {
         "path": "/netresearch/dhl-module-carrier-paket/wiki/Documentation-German",
         "title": "/wiki/Documentation-German",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/releases/tag/3.6.0",
+        "title": "/releases/tag/3.6.0",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-module-carrier-paket/blob/2.6.0/composer.json",
@@ -121,20 +127,14 @@
         "title": "/releases/tag/3.5.1",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-carrier-paket/releases/tag/3.5.2",
-        "title": "/releases/tag/3.5.2",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "3.6.0",
-    "tag_name": "3.6.0",
-    "published_at": "2026-07-13T10:14:35Z",
-    "url": "https://github.com/netresearch/dhl-module-carrier-paket/releases/tag/3.6.0"
+    "name": "3.6.1",
+    "tag_name": "3.6.1",
+    "published_at": "2026-07-14T12:28:19Z",
+    "url": "https://github.com/netresearch/dhl-module-carrier-paket/releases/tag/3.6.1"
   },
   "top_contributors": [
     {
@@ -144,7 +144,7 @@
     },
     {
       "login": "Sebastian80",
-      "contributions": 108,
+      "contributions": 110,
       "url": "https://github.com/Sebastian80"
     },
     {
@@ -175,9 +175,9 @@
   ],
   "packagist": {
     "name": "dhl/module-carrier-paket",
-    "total": 251179,
-    "monthly": 7007,
-    "daily": 286,
+    "total": 251643,
+    "monthly": 7148,
+    "daily": 387,
     "url": "https://packagist.org/packages/dhl/module-carrier-paket"
   },
   "ghcr": null,

@@ -28,11 +28,11 @@
     "prs_merged": 183,
     "prs_closed_unmerged": 10,
     "issues_total": 6,
-    "releases": 19,
+    "releases": 20,
     "release_downloads": 247,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 31985,
+    "packagist_downloads": 34029,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -42,24 +42,19 @@
     "issues_opened": 2,
     "prs_opened": 18,
     "prs_merged": 17,
-    "releases": 0,
-    "packagist_downloads": 10583,
+    "releases": 1,
+    "packagist_downloads": 12405,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1641,
-    "clones_unique": 163,
+    "clones_total": 1652,
+    "clones_unique": 168,
     "views_total": 44,
     "views_unique": 14,
     "top_referrers": [
       {
         "referrer": "github.com",
         "count": 14,
-        "uniques": 1
-      },
-      {
-        "referrer": "Google",
-        "count": 1,
         "uniques": 1
       },
       {
@@ -70,16 +65,16 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/t3x-nr-vault/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
+        "title": "/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
+        "count": 6,
+        "uniques": 6
+      },
+      {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
         "count": 6,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
-        "title": "/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
-        "count": 5,
-        "uniques": 5
       },
       {
         "path": "/netresearch/t3x-nr-vault/issues/190",
@@ -132,10 +127,10 @@
     ]
   },
   "latest_release": {
-    "name": "v0.10.0",
-    "tag_name": "v0.10.0",
-    "published_at": "2026-06-11T14:53:41Z",
-    "url": "https://github.com/netresearch/t3x-nr-vault/releases/tag/v0.10.0"
+    "name": "v0.10.1",
+    "tag_name": "v0.10.1",
+    "published_at": "2026-07-14T18:09:49Z",
+    "url": "https://github.com/netresearch/t3x-nr-vault/releases/tag/v0.10.1"
   },
   "top_contributors": [
     {
@@ -161,9 +156,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 31985,
-    "monthly": 10583,
-    "daily": 1101,
+    "total": 34029,
+    "monthly": 12405,
+    "daily": 2064,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,

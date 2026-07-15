@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2019-12-16T13:41:42Z",
-  "pushed_at": "2026-07-10T16:39:47Z",
-  "updated_at": "2026-07-10T16:41:12Z",
+  "pushed_at": "2026-07-14T12:24:25Z",
+  "updated_at": "2026-07-14T12:24:41Z",
   "composer_name": "dhl/module-shipping-core",
   "lifetime": {
     "stars": 4,
@@ -21,44 +21,69 @@
     "watchers": 8,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 471,
+    "commits": 473,
     "issues_open": 1,
     "issues_closed": 8,
     "prs_open": 0,
     "prs_merged": 1,
     "prs_closed_unmerged": 2,
     "issues_total": 9,
-    "releases": 10,
+    "releases": 11,
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 3,
-    "packagist_downloads": 314310,
+    "packagist_downloads": 314755,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 3,
+    "commits": 5,
     "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
-    "releases": 1,
-    "packagist_downloads": 7410,
+    "releases": 2,
+    "packagist_downloads": 7518,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 115,
-    "clones_unique": 40,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 119,
+    "clones_unique": 43,
+    "views_total": 4,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/dhl-module-shipping-core",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/releases",
+        "title": "/releases",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/releases/new",
+        "title": "/releases/new",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/releases/tag/2.7.0",
+        "title": "/releases/tag/2.7.0",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
-    "name": "2.7.0",
-    "tag_name": "2.7.0",
-    "published_at": "2026-07-13T14:06:51Z",
-    "url": "https://github.com/netresearch/dhl-module-shipping-core/releases/tag/2.7.0"
+    "name": "2.7.1",
+    "tag_name": "2.7.1",
+    "published_at": "2026-07-14T12:28:20Z",
+    "url": "https://github.com/netresearch/dhl-module-shipping-core/releases/tag/2.7.1"
   },
   "top_contributors": [
     {
@@ -73,7 +98,7 @@
     },
     {
       "login": "Sebastian80",
-      "contributions": 75,
+      "contributions": 77,
       "url": "https://github.com/Sebastian80"
     },
     {
@@ -89,9 +114,9 @@
   ],
   "packagist": {
     "name": "dhl/module-shipping-core",
-    "total": 314310,
-    "monthly": 7410,
-    "daily": 278,
+    "total": 314755,
+    "monthly": 7518,
+    "daily": 380,
     "url": "https://packagist.org/packages/dhl/module-shipping-core"
   },
   "ghcr": null,

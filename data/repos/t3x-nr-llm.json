@@ -25,50 +25,50 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-22T23:35:44Z",
-  "pushed_at": "2026-07-14T03:27:53Z",
-  "updated_at": "2026-07-14T03:26:33Z",
+  "pushed_at": "2026-07-15T04:25:35Z",
+  "updated_at": "2026-07-15T04:06:01Z",
   "composer_name": "netresearch/nr-llm",
   "lifetime": {
     "stars": 4,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 1,
-    "commits": 1394,
+    "open_issues_plus_prs": 4,
+    "commits": 1455,
     "issues_open": 1,
     "issues_closed": 14,
-    "prs_open": 0,
-    "prs_merged": 330,
+    "prs_open": 3,
+    "prs_merged": 345,
     "prs_closed_unmerged": 14,
     "issues_total": 15,
-    "releases": 38,
-    "release_downloads": 359,
+    "releases": 39,
+    "release_downloads": 360,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 6181,
+    "packagist_downloads": 6212,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 400,
+    "commits": 461,
     "issues_opened": 9,
-    "prs_opened": 105,
-    "prs_merged": 104,
-    "releases": 8,
-    "packagist_downloads": 825,
+    "prs_opened": 123,
+    "prs_merged": 119,
+    "releases": 9,
+    "packagist_downloads": 808,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 13615,
-    "clones_unique": 611,
-    "views_total": 60,
-    "views_unique": 17,
+    "clones_total": 13140,
+    "clones_unique": 569,
+    "views_total": 62,
+    "views_unique": 18,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 10,
-        "uniques": 3
+        "count": 12,
+        "uniques": 4
       },
       {
         "referrer": "Google",
@@ -84,19 +84,14 @@
         "referrer": "566e.com",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "sonarcloud.io",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 27,
-        "uniques": 13
+        "count": 29,
+        "uniques": 15
       },
       {
         "path": "/netresearch/t3x-nr-llm/tree/main/Classes",
@@ -123,6 +118,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-llm/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-nr-llm/blob/main/Classes/Provider/OpenAiProvider.php",
         "title": "/blob/main/Classes/Provider/OpenAiProvider.php",
         "count": 2,
@@ -141,12 +142,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-llm/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-llm/blob/main/CLAUDE.md",
         "title": "/blob/main/CLAUDE.md",
         "count": 1,
@@ -155,15 +150,15 @@
     ]
   },
   "latest_release": {
-    "name": "v0.18.0",
-    "tag_name": "v0.18.0",
-    "published_at": "2026-07-14T03:29:15Z",
-    "url": "https://github.com/netresearch/t3x-nr-llm/releases/tag/v0.18.0"
+    "name": "v0.19.0",
+    "tag_name": "v0.19.0",
+    "published_at": "2026-07-14T18:53:18Z",
+    "url": "https://github.com/netresearch/t3x-nr-llm/releases/tag/v0.19.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1293,
+      "contributions": 1354,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -189,9 +184,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 6181,
-    "monthly": 825,
-    "daily": 77,
+    "total": 6212,
+    "monthly": 808,
+    "daily": 25,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,
@@ -200,6 +195,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-llm/network/dependents"
   },
-  "blast_radius": 358,
+  "blast_radius": 373,
   "archived": false
 }
