@@ -36,29 +36,29 @@
     "contributors": 44,
     "external_contributors": 38,
     "packagist_downloads": 0,
-    "ghcr_downloads": 270839,
+    "ghcr_downloads": 272492,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 23,
+    "commits": 21,
     "issues_opened": 3,
-    "prs_opened": 11,
-    "prs_merged": 10,
+    "prs_opened": 10,
+    "prs_merged": 9,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 49077
+    "ghcr_downloads": 49196
   },
   "traffic_14d": {
-    "clones_total": 344,
-    "clones_unique": 129,
-    "views_total": 124,
-    "views_unique": 96,
+    "clones_total": 353,
+    "clones_unique": 132,
+    "views_total": 110,
+    "views_unique": 84,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 17,
-        "uniques": 5
+        "count": 18,
+        "uniques": 6
       },
       {
         "referrer": "Google",
@@ -96,8 +96,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/blob/main/example/ofelia.ini",
-        "title": "/blob/main/example/ofelia.ini",
+        "path": "/netresearch/ofelia/blob/v0.13.2/cli/validate.go",
+        "title": "/blob/v0.13.2/cli/validate.go",
         "count": 2,
         "uniques": 2
       },
@@ -108,14 +108,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/releases",
-        "title": "/releases",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/ofelia/blob/main/docs/QUICK_REFERENCE.md",
-        "title": "/blob/main/docs/QUICK_REFERENCE.md",
+        "path": "/netresearch/ofelia/commit/68f6b04df6a951c132903236ab5789f8f1080ae8",
+        "title": "/commit/68f6b04df6a951c132903236ab5789f8f1080ae8",
         "count": 2,
         "uniques": 1
       },
@@ -134,6 +128,12 @@
       {
         "path": "/netresearch/ofelia/blob/1a472f3fab61eda5f47e10fd68c0643fd29bb2c4/go.mod",
         "title": "/blob/1a472f3fab61eda5f47e10fd68c0643fd29bb2c4/go.mod",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ofelia/blob/3ae73233fcab/core/adapters/docker/container.go",
+        "title": "/blob/3ae73233fcab/core/adapters/docker/container.go",
         "count": 1,
         "uniques": 1
       }
@@ -203,12 +203,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 270839,
-        "thirty_day": 49077
+        "total": 272492,
+        "thirty_day": 49196
       }
     ],
-    "total": 270839,
-    "thirty_day": 49077
+    "total": 272492,
+    "thirty_day": 49196
   },
   "dependents": {
     "repositories": 0,

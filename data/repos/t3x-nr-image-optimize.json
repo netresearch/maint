@@ -37,7 +37,7 @@
     "release_downloads": 6,
     "contributors": 8,
     "external_contributors": 3,
-    "packagist_downloads": 1259,
+    "packagist_downloads": 1267,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -48,17 +48,22 @@
     "prs_opened": 5,
     "prs_merged": 5,
     "releases": 2,
-    "packagist_downloads": 196,
+    "packagist_downloads": 187,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 155,
-    "clones_unique": 42,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 653,
+    "clones_unique": 95,
+    "views_total": 8,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
         "count": 1,
         "uniques": 1
       }
@@ -67,8 +72,26 @@
       {
         "path": "/netresearch/t3x-nr-image-optimize",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/pull/110",
+        "title": "/pull/110",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/actions/runs/29323550877/job/87054374643",
+        "title": "/actions/runs/29323550877/job/87054374643",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/pulls",
+        "title": "/pulls",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -122,9 +145,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 1259,
-    "monthly": 196,
-    "daily": 13,
+    "total": 1267,
+    "monthly": 187,
+    "daily": 7,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,

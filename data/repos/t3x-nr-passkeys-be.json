@@ -39,7 +39,7 @@
     "release_downloads": 52,
     "contributors": 3,
     "external_contributors": 1,
-    "packagist_downloads": 3427,
+    "packagist_downloads": 3437,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -50,14 +50,14 @@
     "prs_opened": 11,
     "prs_merged": 11,
     "releases": 1,
-    "packagist_downloads": 344,
+    "packagist_downloads": 304,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 191,
-    "clones_unique": 38,
-    "views_total": 21,
-    "views_unique": 17,
+    "clones_total": 187,
+    "clones_unique": 37,
+    "views_total": 15,
+    "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -103,26 +103,26 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/27610755270/job/81634731509",
-        "title": "/actions/runs/27610755270/job/81634731509",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/27610755270/job/81634731599",
         "title": "/actions/runs/27610755270/job/81634731599",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/27610755270/job/81634731667",
-        "title": "/actions/runs/27610755270/job/81634731667",
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/.github/workflows/codeql.yml",
+        "title": "/blob/main/.github/workflows/codeql.yml",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/27610755270/job/81634731669",
-        "title": "/actions/runs/27610755270/job/81634731669",
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Classes/Service/WebAuthnService.php",
+        "title": "/blob/main/Classes/Service/WebAuthnService.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/LICENSE",
+        "title": "/blob/main/LICENSE",
         "count": 1,
         "uniques": 1
       }
@@ -153,9 +153,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 3427,
-    "monthly": 344,
-    "daily": 10,
+    "total": 3437,
+    "monthly": 304,
+    "daily": 12,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,

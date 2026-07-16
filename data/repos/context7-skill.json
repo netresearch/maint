@@ -13,13 +13,13 @@
   "default_branch": "main",
   "created_at": "2025-12-23T21:54:50Z",
   "pushed_at": "2026-07-13T20:22:42Z",
-  "updated_at": "2026-07-14T08:46:28Z",
+  "updated_at": "2026-07-16T00:00:25Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 29,
-    "forks": 4,
+    "stars": 30,
+    "forks": 5,
     "watchers": 1,
-    "network": 4,
+    "network": 5,
     "open_issues_plus_prs": 1,
     "commits": 105,
     "issues_open": 1,
@@ -29,7 +29,7 @@
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 20,
-    "release_downloads": 161,
+    "release_downloads": 165,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -47,43 +47,38 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1142,
-    "clones_unique": 423,
-    "views_total": 750,
-    "views_unique": 473,
+    "clones_total": 1135,
+    "clones_unique": 438,
+    "views_total": 783,
+    "views_unique": 475,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 579,
-        "uniques": 381
+        "count": 583,
+        "uniques": 379
       },
       {
         "referrer": "github.com",
-        "count": 22,
-        "uniques": 12
+        "count": 25,
+        "uniques": 14
       },
       {
         "referrer": "search.brave.com",
-        "count": 12,
-        "uniques": 10
+        "count": 25,
+        "uniques": 12
       },
       {
         "referrer": "Bing",
-        "count": 8,
-        "uniques": 7
+        "count": 11,
+        "uniques": 8
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
-        "count": 8,
-        "uniques": 4
+        "count": 7,
+        "uniques": 3
       },
       {
         "referrer": "chatgpt.com",
-        "count": 5,
-        "uniques": 4
-      },
-      {
-        "referrer": "statics.teams.cdn.office.net",
         "count": 3,
         "uniques": 3
       },
@@ -94,7 +89,17 @@
       },
       {
         "referrer": "perplexity.ai",
-        "count": 1,
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "statics.teams.cdn.office.net",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "doubao.com",
+        "count": 2,
         "uniques": 1
       }
     ],
@@ -102,37 +107,43 @@
       {
         "path": "/netresearch/context7-skill",
         "title": "Overview",
-        "count": 542,
-        "uniques": 444
+        "count": 554,
+        "uniques": 453
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7",
         "title": "/tree/main/skills/context7",
-        "count": 61,
-        "uniques": 46
+        "count": 60,
+        "uniques": 44
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/SKILL.md",
         "title": "/blob/main/skills/context7/SKILL.md",
-        "count": 40,
-        "uniques": 29
+        "count": 43,
+        "uniques": 30
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7/scripts",
         "title": "/tree/main/skills/context7/scripts",
-        "count": 26,
-        "uniques": 19
+        "count": 30,
+        "uniques": 22
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/scripts/context7.sh",
         "title": "/blob/main/skills/context7/scripts/context7.sh",
-        "count": 21,
-        "uniques": 15
+        "count": 24,
+        "uniques": 17
       },
       {
         "path": "/netresearch/context7-skill/blob/main/README.md",
         "title": "/blob/main/README.md",
         "count": 10,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/context7-skill/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
+        "count": 6,
         "uniques": 6
       },
       {
@@ -144,20 +155,14 @@
       {
         "path": "/netresearch/context7-skill/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 5,
-        "uniques": 4
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/context7-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/context7-skill/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
-        "count": 4,
-        "uniques": 4
+        "count": 5,
+        "uniques": 5
       }
     ]
   },
@@ -191,6 +196,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/context7-skill/network/dependents"
   },
-  "blast_radius": 38,
+  "blast_radius": 40,
   "archived": false
 }
