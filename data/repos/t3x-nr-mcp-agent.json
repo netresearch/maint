@@ -21,8 +21,8 @@
   "homepage": "https://netresearch.github.io/t3x-nr-mcp-agent/",
   "default_branch": "main",
   "created_at": "2026-03-22T17:16:16Z",
-  "pushed_at": "2026-07-14T14:53:44Z",
-  "updated_at": "2026-07-14T05:15:36Z",
+  "pushed_at": "2026-07-16T10:58:49Z",
+  "updated_at": "2026-07-16T10:59:01Z",
   "composer_name": "netresearch/nr-mcp-agent",
   "lifetime": {
     "stars": 2,
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 248,
+    "commits": 249,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 45,
+    "prs_merged": 46,
     "prs_closed_unmerged": 6,
     "issues_total": 1,
     "releases": 12,
@@ -47,19 +47,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 48,
+    "commits": 38,
     "issues_opened": 0,
-    "prs_opened": 25,
-    "prs_merged": 21,
+    "prs_opened": 18,
+    "prs_merged": 22,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 307,
-    "clones_unique": 62,
-    "views_total": 24,
-    "views_unique": 5,
+    "clones_total": 268,
+    "clones_unique": 56,
+    "views_total": 20,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -68,16 +68,16 @@
       },
       {
         "referrer": "github.com",
-        "count": 6,
-        "uniques": 2
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-mcp-agent",
         "title": "Overview",
-        "count": 4,
-        "uniques": 4
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-mcp-agent/tree/main/Build",
@@ -110,26 +110,26 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-mcp-agent/blob/main/Documentation",
-        "title": "/blob/main/Documentation",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-mcp-agent/blob/main/Documentation/Changelog.rst",
-        "title": "/blob/main/Documentation/Changelog.rst",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-mcp-agent/blob/main/ext_emconf.php",
-        "title": "/blob/main/ext_emconf.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-mcp-agent/issues",
         "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-mcp-agent/pulls",
+        "title": "/pulls",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-mcp-agent/tree/main",
+        "title": "/tree/main",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-mcp-agent/tree/main/Build/Scripts",
+        "title": "/tree/main/Build/Scripts",
         "count": 1,
         "uniques": 1
       }
@@ -154,7 +154,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 20,
+      "contributions": 21,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -170,6 +170,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-mcp-agent/network/dependents"
   },
-  "blast_radius": 51,
+  "blast_radius": 52,
   "archived": false
 }

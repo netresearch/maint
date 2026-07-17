@@ -50,27 +50,27 @@
   "recent_30d": {
     "commits": 0,
     "issues_opened": 1,
-    "prs_opened": 2,
-    "prs_merged": 1,
+    "prs_opened": 0,
+    "prs_merged": 0,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 114,
-    "clones_unique": 55,
-    "views_total": 44,
-    "views_unique": 17,
+    "clones_total": 113,
+    "clones_unique": 53,
+    "views_total": 48,
+    "views_unique": 18,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 14,
-        "uniques": 5
+        "count": 15,
+        "uniques": 6
       },
       {
         "referrer": "Google",
-        "count": 10,
-        "uniques": 7
+        "count": 13,
+        "uniques": 8
       },
       {
         "referrer": "dhl.support.netresearch.de",
@@ -82,8 +82,8 @@
       {
         "path": "/netresearch/dhl-shipping-m2",
         "title": "Overview",
-        "count": 10,
-        "uniques": 6
+        "count": 11,
+        "uniques": 7
       },
       {
         "path": "/netresearch/dhl-shipping-m2/releases",
@@ -92,14 +92,26 @@
         "uniques": 5
       },
       {
+        "path": "/netresearch/dhl-shipping-m2/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/dhl-shipping-m2/releases/tag/2.16.0",
+        "title": "/releases/tag/2.16.0",
+        "count": 3,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/dhl-shipping-m2/tags",
         "title": "/tags",
         "count": 3,
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-shipping-m2/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
+        "path": "/netresearch/dhl-shipping-m2/blob/main/CHANGELOG.md",
+        "title": "/blob/main/CHANGELOG.md",
         "count": 2,
         "uniques": 2
       },
@@ -116,12 +128,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/dhl-shipping-m2/releases/tag/2.16.0",
-        "title": "/releases/tag/2.16.0",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/dhl-shipping-m2/issues",
         "title": "/issues",
         "count": 2,
@@ -131,12 +137,6 @@
         "path": "/netresearch/dhl-shipping-m2/tree/main/.github/workflows",
         "title": "/tree/main/.github/workflows",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-shipping-m2/blob/main/CHANGELOG.md",
-        "title": "/blob/main/CHANGELOG.md",
-        "count": 1,
         "uniques": 1
       }
     ]

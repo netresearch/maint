@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-29T10:10:38Z",
-  "pushed_at": "2026-07-15T09:49:01Z",
-  "updated_at": "2026-07-15T09:42:48Z",
+  "pushed_at": "2026-07-16T10:42:53Z",
+  "updated_at": "2026-07-16T10:43:01Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
@@ -19,14 +19,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 50,
+    "commits": 56,
     "issues_open": 0,
     "issues_closed": 0,
     "prs_open": 2,
-    "prs_merged": 15,
+    "prs_merged": 17,
     "prs_closed_unmerged": 0,
     "issues_total": 0,
-    "releases": 6,
+    "releases": 7,
     "release_downloads": 15,
     "contributors": 3,
     "external_contributors": 1,
@@ -36,23 +36,23 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 39,
+    "commits": 45,
     "issues_opened": 0,
-    "prs_opened": 12,
-    "prs_merged": 11,
-    "releases": 3,
+    "prs_opened": 13,
+    "prs_merged": 13,
+    "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 598,
-    "clones_unique": 90,
-    "views_total": 12,
+    "clones_total": 645,
+    "clones_unique": 103,
+    "views_total": 14,
     "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 2,
+        "count": 4,
         "uniques": 2
       }
     ],
@@ -76,6 +76,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/typo3-upgrade-effort-model-skill/blob/main/skills/typo3-upgrade-effort-model/SKILL.md",
+        "title": "/blob/main/skills/typo3-upgrade-effort-model/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-upgrade-effort-model-skill/pull/10/changes",
         "title": "/pull/10/changes",
         "count": 1,
@@ -86,24 +92,30 @@
         "title": "/pull/10/commits",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-upgrade-effort-model-skill/tree/main/skills/typo3-upgrade-effort-model",
+        "title": "/tree/main/skills/typo3-upgrade-effort-model",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.3.0",
-    "tag_name": "v1.3.0",
-    "published_at": "2026-07-13T20:26:50Z",
-    "url": "https://github.com/netresearch/typo3-upgrade-effort-model-skill/releases/tag/v1.3.0"
+    "name": "v1.3.1",
+    "tag_name": "v1.3.1",
+    "published_at": "2026-07-16T07:22:32Z",
+    "url": "https://github.com/netresearch/typo3-upgrade-effort-model-skill/releases/tag/v1.3.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 25,
+      "contributions": 27,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "magicsunday",
-      "contributions": 21,
+      "contributions": 25,
       "url": "https://github.com/magicsunday"
     },
     {
@@ -119,6 +131,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-upgrade-effort-model-skill/network/dependents"
   },
-  "blast_radius": 18,
+  "blast_radius": 20,
   "archived": false
 }

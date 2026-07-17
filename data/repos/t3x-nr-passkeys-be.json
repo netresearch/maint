@@ -39,25 +39,25 @@
     "release_downloads": 52,
     "contributors": 3,
     "external_contributors": 1,
-    "packagist_downloads": 3437,
+    "packagist_downloads": 3440,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 56,
-    "issues_opened": 1,
-    "prs_opened": 11,
-    "prs_merged": 11,
+    "commits": 19,
+    "issues_opened": 0,
+    "prs_opened": 5,
+    "prs_merged": 6,
     "releases": 1,
-    "packagist_downloads": 304,
+    "packagist_downloads": 298,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 187,
-    "clones_unique": 37,
-    "views_total": 15,
-    "views_unique": 11,
+    "clones_total": 207,
+    "clones_unique": 39,
+    "views_total": 9,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -71,42 +71,6 @@
         "title": "Overview",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/27604962902/job/81614635786",
-        "title": "/actions/runs/27604962902/job/81614635786",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/27605115111/job/81615153553",
-        "title": "/actions/runs/27605115111/job/81615153553",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/27605115111/job/81615153561",
-        "title": "/actions/runs/27605115111/job/81615153561",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/27607918272/job/81624583844",
-        "title": "/actions/runs/27607918272/job/81624583844",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/27607918272/job/81624583890",
-        "title": "/actions/runs/27607918272/job/81624583890",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/27610755270/job/81634731599",
-        "title": "/actions/runs/27610755270/job/81634731599",
-        "count": 1,
-        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/.github/workflows/codeql.yml",
@@ -123,6 +87,30 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/LICENSE",
         "title": "/blob/main/LICENSE",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/package.json",
+        "title": "/blob/main/package.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/tree/main/Classes",
+        "title": "/tree/main/Classes",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/tree/main/Classes/Service",
+        "title": "/tree/main/Classes/Service",
         "count": 1,
         "uniques": 1
       }
@@ -153,9 +141,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 3437,
-    "monthly": 304,
-    "daily": 12,
+    "total": 3440,
+    "monthly": 298,
+    "daily": 3,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,
