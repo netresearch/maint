@@ -56,15 +56,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1386,
-    "clones_unique": 270,
-    "views_total": 25,
-    "views_unique": 12,
+    "clones_total": 1496,
+    "clones_unique": 280,
+    "views_total": 35,
+    "views_unique": 17,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 13,
-        "uniques": 5
+        "count": 16,
+        "uniques": 7
+      },
+      {
+        "referrer": "github.com",
+        "count": 5,
+        "uniques": 2
       },
       {
         "referrer": "Bing",
@@ -75,19 +80,26 @@
         "referrer": "chatgpt.com",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-testing-skill",
         "title": "Overview",
-        "count": 13,
-        "uniques": 11
+        "count": 18,
+        "uniques": 16
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/tree/main/skills/typo3-testing",
+        "title": "/tree/main/skills/typo3-testing",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/discussions",
+        "title": "/discussions",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/typo3-testing-skill/tree/main/agents",
@@ -98,6 +110,18 @@
       {
         "path": "/netresearch/typo3-testing-skill/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
         "title": "/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/blob/main/.envrc",
+        "title": "/blob/main/.envrc",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/blob/main/.gitleaks.toml",
+        "title": "/blob/main/.gitleaks.toml",
         "count": 1,
         "uniques": 1
       },
@@ -114,32 +138,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-testing-skill/commit/0fe431e01c073f4d2f56542a8d198fb652999a86",
-        "title": "/commit/0fe431e01c073f4d2f56542a8d198fb652999a86",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/commit/4a3568ad681332ade9b45f247d445c9c017ef8b3",
-        "title": "/commit/4a3568ad681332ade9b45f247d445c9c017ef8b3",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/discussions",
-        "title": "/discussions",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/issues",
-        "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/pull/86",
-        "title": "/pull/86",
+        "path": "/netresearch/typo3-testing-skill/blob/main/skills/typo3-testing/SKILL.md",
+        "title": "/blob/main/skills/typo3-testing/SKILL.md",
         "count": 1,
         "uniques": 1
       }

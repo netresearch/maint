@@ -45,21 +45,44 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 82,
-    "clones_unique": 18,
-    "views_total": 1,
-    "views_unique": 1,
+    "clones_total": 85,
+    "clones_unique": 20,
+    "views_total": 7,
+    "views_unique": 2,
     "top_referrers": [
       {
-        "referrer": "Google",
-        "count": 1,
+        "referrer": "extensions.typo3.org",
+        "count": 4,
         "uniques": 1
+      },
+      {
+        "referrer": "Google",
+        "count": 3,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-passkeys-fe",
         "title": "Overview",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/blob/main/Classes/Authentication/PasskeyFrontendAuthenticationService.php",
+        "title": "/blob/main/Classes/Authentication/PasskeyFrontendAuthenticationService.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/tree/main/Classes/Authentication",
+        "title": "/tree/main/Classes/Authentication",
         "count": 1,
         "uniques": 1
       }

@@ -42,7 +42,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 3,
-    "packagist_downloads": 336787,
+    "packagist_downloads": 337120,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -53,17 +53,22 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 8314,
+    "packagist_downloads": 8205,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 136,
-    "clones_unique": 48,
-    "views_total": 3,
-    "views_unique": 3,
+    "clones_total": 135,
+    "clones_unique": 47,
+    "views_total": 5,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "chatgpt.com",
         "count": 1,
         "uniques": 1
       }
@@ -72,8 +77,8 @@
       {
         "path": "/netresearch/dhl-sdk-api-unified-tracking",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/dhl-sdk-api-unified-tracking/actions/runs/28800934535",
@@ -128,9 +133,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-unified-tracking",
-    "total": 336787,
-    "monthly": 8314,
-    "daily": 334,
+    "total": 337120,
+    "monthly": 8205,
+    "daily": 280,
     "url": "https://packagist.org/packages/dhl/sdk-api-unified-tracking"
   },
   "ghcr": null,
