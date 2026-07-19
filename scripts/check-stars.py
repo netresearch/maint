@@ -159,6 +159,9 @@ def get_org_repos() -> list[dict]:
             "stargazers_count": r["stargazers_count"],
             "forks_count": r["forks_count"],
             "watchers_count": r.get("subscribers_count", r.get("watchers_count", 0)),
+            # Empty repos (no commits) have no dependency graph page. A missing
+            # size is treated as non-empty so we still scrape rather than skip.
+            "is_empty": r.get("size") == 0,
         }
         for r in repos
         if not r.get("private", False)
@@ -210,13 +213,50 @@ def get_watchers(repo_full_name: str) -> list[dict] | None:
         return None
 
 
-def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict] | None:
+def _parse_dependents(soup: BeautifulSoup) -> list[dict]:
+    """Extract dependent repos from a parsed #dependents page.
+
+    Each Box-row links to a repository; enrich it with star/fork counts via the
+    API, falling back to zeros when that lookup fails.
+    """
+    dependents = []
+    for item in soup.select('.Box-row'):
+        repo_link = item.select_one('a[data-hovercard-type="repository"]')
+        if not repo_link:
+            continue
+        dep_full_name = repo_link.get('href', '').lstrip('/')
+        if not dep_full_name or '/' not in dep_full_name:
+            continue
+        entry = {
+            "full_name": dep_full_name,
+            "url": f"https://github.com/{dep_full_name}",
+            "stars": 0,
+            "forks": 0,
+        }
+        try:
+            repo_info = github_request(f"{GITHUB_API}/repos/{dep_full_name}")
+            entry["stars"] = repo_info.get("stargazers_count", 0)
+            entry["forks"] = repo_info.get("forks_count", 0)
+        except (requests.exceptions.RequestException, KeyError, ValueError) as e:
+            print(f"Warning: Could not get info for dependent {dep_full_name}: {e}")
+        dependents.append(entry)
+    return dependents
+
+
+def get_dependents(repo_full_name: str, repo_is_empty: bool = False, max_retries: int = 3) -> list[dict] | None:
     """Get dependents (repositories that depend on this repo) by scraping the network/dependents page.
 
     Returns:
         list[dict]: List of dependent repos if successful
         None: If fetch failed (to distinguish from "no dependents exist")
     """
+    # An empty repo has no dependency graph, so /network/dependents renders the
+    # "This repository is empty" page with no #dependents container. Treat it as
+    # zero dependents rather than a scrape failure (avoids a false "page structure
+    # may have changed" warning on every run).
+    if repo_is_empty:
+        return []
+
     url = f"https://github.com/{repo_full_name}/network/dependents"
     headers = {
         "User-Agent": "Mozilla/5.0 (compatible; NetresearchBot/1.0)",
@@ -241,38 +281,7 @@ def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict] | No
                 print(f"Warning: Could not find #dependents container for {repo_full_name} - page structure may have changed")
                 return None  # Page structure changed, don't wipe state
 
-            dependents = []
-            # Find all dependent repository entries
-            for item in soup.select('.Box-row'):
-                # Look for the repository link
-                repo_link = item.select_one('a[data-hovercard-type="repository"]')
-                if not repo_link:
-                    continue
-
-                dep_full_name = repo_link.get('href', '').lstrip('/')
-                if not dep_full_name or '/' not in dep_full_name:
-                    continue
-
-                # Get repository info via API
-                try:
-                    repo_info = github_request(f"{GITHUB_API}/repos/{dep_full_name}")
-                    dependents.append({
-                        "full_name": dep_full_name,
-                        "url": f"https://github.com/{dep_full_name}",
-                        "stars": repo_info.get("stargazers_count", 0),
-                        "forks": repo_info.get("forks_count", 0),
-                    })
-                except (requests.exceptions.RequestException, KeyError, ValueError) as e:
-                    print(f"Warning: Could not get info for dependent {dep_full_name}: {e}")
-                    # Still add basic info
-                    dependents.append({
-                        "full_name": dep_full_name,
-                        "url": f"https://github.com/{dep_full_name}",
-                        "stars": 0,
-                        "forks": 0,
-                    })
-
-            return dependents  # Success, return results (may be empty if truly no dependents)
+            return _parse_dependents(soup)  # may be empty if truly no dependents
         except requests.exceptions.RequestException as e:
             if attempt < max_retries - 1:
                 wait_time = 2 ** attempt
@@ -404,7 +413,7 @@ def main():
 
         # Dependents (repositories using this repo)
         known_dependents = set(repo_state.get("dependents", []))
-        dependents = get_dependents(repo_name)
+        dependents = get_dependents(repo_name, repo_is_empty=repo.get("is_empty", False))
         if dependents is not None:
             current_dependents = {d["full_name"] for d in dependents}
             if is_suspicious_empty(current_dependents, known_dependents, "dependents", repo_name):
