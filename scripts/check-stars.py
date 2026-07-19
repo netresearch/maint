@@ -159,6 +159,8 @@ def get_org_repos() -> list[dict]:
             "stargazers_count": r["stargazers_count"],
             "forks_count": r["forks_count"],
             "watchers_count": r.get("subscribers_count", r.get("watchers_count", 0)),
+            # Empty repos (no commits) have no dependency graph page
+            "is_empty": r.get("size", 0) == 0,
         }
         for r in repos
         if not r.get("private", False)
@@ -210,13 +212,20 @@ def get_watchers(repo_full_name: str) -> list[dict] | None:
         return None
 
 
-def get_dependents(repo_full_name: str, max_retries: int = 3) -> list[dict] | None:
+def get_dependents(repo_full_name: str, repo_is_empty: bool = False, max_retries: int = 3) -> list[dict] | None:
     """Get dependents (repositories that depend on this repo) by scraping the network/dependents page.
 
     Returns:
         list[dict]: List of dependent repos if successful
         None: If fetch failed (to distinguish from "no dependents exist")
     """
+    # An empty repo has no dependency graph, so /network/dependents renders the
+    # "This repository is empty" page with no #dependents container. Treat it as
+    # zero dependents rather than a scrape failure (avoids a false "page structure
+    # may have changed" warning on every run).
+    if repo_is_empty:
+        return []
+
     url = f"https://github.com/{repo_full_name}/network/dependents"
     headers = {
         "User-Agent": "Mozilla/5.0 (compatible; NetresearchBot/1.0)",
@@ -404,7 +413,7 @@ def main():
 
         # Dependents (repositories using this repo)
         known_dependents = set(repo_state.get("dependents", []))
-        dependents = get_dependents(repo_name)
+        dependents = get_dependents(repo_name, repo_is_empty=repo.get("is_empty", False))
         if dependents is not None:
             current_dependents = {d["full_name"] for d in dependents}
             if is_suspicious_empty(current_dependents, known_dependents, "dependents", repo_name):
