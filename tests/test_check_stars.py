@@ -17,18 +17,19 @@ check_stars = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(check_stars)
 
 
-def test_empty_repo_returns_no_dependents_without_scraping(monkeypatch=None):
+def test_empty_repo_returns_no_dependents_without_scraping():
     """An empty repo must yield [] (zero dependents) and never hit the network."""
     def _fail(*args, **kwargs):
         raise AssertionError("get_dependents scraped an empty repo instead of short-circuiting")
 
-    # Fail loudly if any HTTP call is attempted for an empty repo.
+    # Fail loudly if any HTTP call is attempted for an empty repo, restoring
+    # the real requests.get afterwards so other tests are unaffected.
+    original_get = check_stars.requests.get
     check_stars.requests.get = _fail  # type: ignore[assignment]
     try:
         result = check_stars.get_dependents("netresearch/dind", repo_is_empty=True)
     finally:
-        # Restore is not required across the tiny standalone run, but keep it tidy.
-        pass
+        check_stars.requests.get = original_get  # type: ignore[assignment]
     assert result == [], f"expected [] for empty repo, got {result!r}"
 
 
