@@ -10,50 +10,50 @@
   "homepage": "https://github.com/netresearch/markdown-to-pdf-skill",
   "default_branch": "main",
   "created_at": "2026-04-29T10:04:58Z",
-  "pushed_at": "2026-07-15T11:42:32Z",
-  "updated_at": "2026-07-13T19:59:51Z",
+  "pushed_at": "2026-07-18T09:49:54Z",
+  "updated_at": "2026-07-18T09:05:44Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 21,
-    "issues_open": 0,
+    "open_issues_plus_prs": 1,
+    "commits": 28,
+    "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 2,
-    "prs_merged": 8,
+    "prs_open": 0,
+    "prs_merged": 10,
     "prs_closed_unmerged": 0,
-    "issues_total": 0,
-    "releases": 4,
+    "issues_total": 1,
+    "releases": 5,
     "release_downloads": 5,
-    "contributors": 1,
-    "external_contributors": 0,
+    "contributors": 3,
+    "external_contributors": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 7,
-    "issues_opened": 0,
+    "commits": 13,
+    "issues_opened": 1,
     "prs_opened": 4,
-    "prs_merged": 3,
-    "releases": 1,
+    "prs_merged": 5,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 281,
-    "clones_unique": 64,
-    "views_total": 40,
-    "views_unique": 27,
+    "clones_total": 286,
+    "clones_unique": 67,
+    "views_total": 50,
+    "views_unique": 32,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 21,
-        "uniques": 19
+        "count": 29,
+        "uniques": 22
       },
       {
         "referrer": "perplexity.ai",
@@ -75,18 +75,36 @@
       {
         "path": "/netresearch/markdown-to-pdf-skill",
         "title": "Overview",
-        "count": 34,
-        "uniques": 25
+        "count": 38,
+        "uniques": 29
       },
       {
         "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf",
         "title": "/tree/main/skills/markdown-to-pdf",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf/assets",
+        "title": "/tree/main/skills/markdown-to-pdf/assets",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf/scripts",
+        "title": "/tree/main/skills/markdown-to-pdf/scripts",
         "count": 2,
         "uniques": 1
       },
       {
         "path": "/netresearch/markdown-to-pdf-skill/blob/main/LICENSE-MIT",
         "title": "/blob/main/LICENSE-MIT",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/blob/main/skills/markdown-to-pdf/SKILL.md",
+        "title": "/blob/main/skills/markdown-to-pdf/SKILL.md",
         "count": 1,
         "uniques": 1
       },
@@ -101,26 +119,30 @@
         "title": "/tree/main",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf/assets",
-        "title": "/tree/main/skills/markdown-to-pdf/assets",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.3.0",
-    "tag_name": "v1.3.0",
-    "published_at": "2026-07-13T20:24:57Z",
-    "url": "https://github.com/netresearch/markdown-to-pdf-skill/releases/tag/v1.3.0"
+    "name": "v1.3.1",
+    "tag_name": "v1.3.1",
+    "published_at": "2026-07-18T09:50:57Z",
+    "url": "https://github.com/netresearch/markdown-to-pdf-skill/releases/tag/v1.3.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 21,
+      "contributions": 26,
       "url": "https://github.com/CybotTM"
+    },
+    {
+      "login": "aseemann",
+      "contributions": 1,
+      "url": "https://github.com/aseemann"
+    },
+    {
+      "login": "renovate[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/renovate"
     }
   ],
   "packagist": null,
@@ -130,6 +152,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/markdown-to-pdf-skill/network/dependents"
   },
-  "blast_radius": 8,
+  "blast_radius": 14,
   "archived": false
 }

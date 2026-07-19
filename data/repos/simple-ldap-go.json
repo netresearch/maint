@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-28T08:06:06Z",
-  "pushed_at": "2026-07-11T23:01:44Z",
-  "updated_at": "2026-07-11T23:00:02Z",
+  "pushed_at": "2026-07-19T01:53:04Z",
+  "updated_at": "2026-07-19T01:53:07Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
@@ -21,11 +21,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 525,
+    "commits": 527,
     "issues_open": 1,
     "issues_closed": 7,
     "prs_open": 0,
-    "prs_merged": 163,
+    "prs_merged": 164,
     "prs_closed_unmerged": 7,
     "issues_total": 8,
     "releases": 20,
@@ -38,32 +38,37 @@
     "dependents_packages": 5
   },
   "recent_30d": {
-    "commits": 8,
+    "commits": 10,
     "issues_opened": 0,
-    "prs_opened": 5,
-    "prs_merged": 4,
+    "prs_opened": 6,
+    "prs_merged": 5,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 207,
-    "clones_unique": 44,
+    "clones_total": 209,
+    "clones_unique": 46,
     "views_total": 35,
     "views_unique": 30,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 13,
-        "uniques": 8
+        "count": 14,
+        "uniques": 9
+      },
+      {
+        "referrer": "kagi.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/simple-ldap-go",
         "title": "Overview",
-        "count": 6,
-        "uniques": 6
+        "count": 8,
+        "uniques": 8
       },
       {
         "path": "/netresearch/simple-ldap-go/blob/main/sam_account_type.go",
@@ -135,7 +140,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 149,
+      "contributions": 151,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -166,6 +171,6 @@
     "packages": 5,
     "url": "https://github.com/netresearch/simple-ldap-go/network/dependents"
   },
-  "blast_radius": 184,
+  "blast_radius": 185,
   "archived": false
 }

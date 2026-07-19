@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-08T20:40:10Z",
-  "pushed_at": "2026-07-13T20:25:16Z",
-  "updated_at": "2026-07-12T09:18:38Z",
+  "pushed_at": "2026-07-18T08:07:38Z",
+  "updated_at": "2026-07-18T08:07:49Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
@@ -19,16 +19,16 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 37,
-    "issues_open": 0,
+    "commits": 40,
+    "issues_open": 1,
     "issues_closed": 1,
-    "prs_open": 1,
-    "prs_merged": 11,
+    "prs_open": 0,
+    "prs_merged": 12,
     "prs_closed_unmerged": 0,
-    "issues_total": 1,
+    "issues_total": 2,
     "releases": 4,
     "release_downloads": 7,
-    "contributors": 2,
+    "contributors": 3,
     "external_contributors": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -36,17 +36,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 11,
-    "issues_opened": 1,
+    "commits": 13,
+    "issues_opened": 2,
     "prs_opened": 2,
-    "prs_merged": 2,
+    "prs_merged": 3,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 292,
-    "clones_unique": 48,
+    "clones_total": 287,
+    "clones_unique": 49,
     "views_total": 6,
     "views_unique": 3,
     "top_referrers": [
@@ -80,13 +80,18 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 29,
+      "contributions": 31,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "Gitsko",
       "contributions": 8,
       "url": "https://github.com/Gitsko"
+    },
+    {
+      "login": "renovate[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/renovate"
     }
   ],
   "packagist": null,
@@ -96,6 +101,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-a11y-skill/network/dependents"
   },
-  "blast_radius": 15,
+  "blast_radius": 17,
   "archived": false
 }

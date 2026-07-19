@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 3,
-    "packagist_downloads": 315769,
+    "packagist_downloads": 315833,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,20 +43,32 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 2,
-    "packagist_downloads": 7273,
+    "packagist_downloads": 7094,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 176,
-    "clones_unique": 51,
-    "views_total": 4,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 172,
+    "clones_unique": 47,
+    "views_total": 10,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 6,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-module-shipping-core",
         "title": "Overview",
-        "count": 1,
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/tree/main/ViewModel/Adminhtml/System",
+        "title": "/tree/main/ViewModel/Adminhtml/System",
+        "count": 2,
         "uniques": 1
       },
       {
@@ -74,6 +86,18 @@
       {
         "path": "/netresearch/dhl-module-shipping-core/releases/tag/2.7.0",
         "title": "/releases/tag/2.7.0",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/tree/main/Model",
+        "title": "/tree/main/Model",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/tree/main/ViewModel/Adminhtml",
+        "title": "/tree/main/ViewModel/Adminhtml",
         "count": 1,
         "uniques": 1
       }
@@ -114,9 +138,9 @@
   ],
   "packagist": {
     "name": "dhl/module-shipping-core",
-    "total": 315769,
-    "monthly": 7273,
-    "daily": 221,
+    "total": 315833,
+    "monthly": 7094,
+    "daily": 58,
     "url": "https://packagist.org/packages/dhl/module-shipping-core"
   },
   "ghcr": null,
