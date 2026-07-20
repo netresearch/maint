@@ -22,48 +22,48 @@
     "typo3",
     "typo3-extension"
   ],
-  "homepage": "",
+  "homepage": "https://netresearch.github.io/t3x-nr-llm/",
   "default_branch": "main",
   "created_at": "2025-12-22T23:35:44Z",
-  "pushed_at": "2026-07-18T22:52:27Z",
-  "updated_at": "2026-07-18T21:52:50Z",
+  "pushed_at": "2026-07-19T21:17:52Z",
+  "updated_at": "2026-07-19T21:18:25Z",
   "composer_name": "netresearch/nr-llm",
   "lifetime": {
     "stars": 4,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 7,
-    "commits": 1639,
+    "open_issues_plus_prs": 1,
+    "commits": 1693,
     "issues_open": 1,
     "issues_closed": 26,
-    "prs_open": 6,
-    "prs_merged": 407,
+    "prs_open": 0,
+    "prs_merged": 425,
     "prs_closed_unmerged": 16,
     "issues_total": 27,
     "releases": 42,
-    "release_downloads": 363,
+    "release_downloads": 379,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 6704,
+    "packagist_downloads": 7052,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 635,
+    "commits": 689,
     "issues_opened": 21,
-    "prs_opened": 185,
-    "prs_merged": 176,
+    "prs_opened": 197,
+    "prs_merged": 194,
     "releases": 12,
-    "packagist_downloads": 1206,
+    "packagist_downloads": 1554,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 20160,
-    "clones_unique": 599,
-    "views_total": 94,
-    "views_unique": 28,
+    "clones_total": 21275,
+    "clones_unique": 569,
+    "views_total": 112,
+    "views_unique": 39,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -84,14 +84,19 @@
         "referrer": "566e.com",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 39,
-        "uniques": 20
+        "count": 54,
+        "uniques": 28
       },
       {
         "path": "/netresearch/t3x-nr-llm/commits/main",
@@ -124,26 +129,26 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-llm/blob/main/.github/dependabot.yml",
+        "title": "/blob/main/.github/dependabot.yml",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-nr-llm/blob/main/CLAUDE.md",
         "title": "/blob/main/CLAUDE.md",
         "count": 2,
         "uniques": 2
       },
       {
+        "path": "/netresearch/t3x-nr-llm/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-nr-llm/blame/main/GEMINI.md",
         "title": "/blame/main/GEMINI.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/blob/main/Documentation/Images/backend-analytics.png",
-        "title": "/blob/main/Documentation/Images/backend-analytics.png",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/blob/main/GEMINI.md",
-        "title": "/blob/main/GEMINI.md",
         "count": 2,
         "uniques": 1
       }
@@ -158,12 +163,12 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1537,
+      "contributions": 1590,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 40,
+      "contributions": 41,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -184,9 +189,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 6704,
-    "monthly": 1206,
-    "daily": 293,
+    "total": 7052,
+    "monthly": 1554,
+    "daily": 283,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,
@@ -195,6 +200,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-llm/network/dependents"
   },
-  "blast_radius": 447,
+  "blast_radius": 465,
   "archived": false
 }

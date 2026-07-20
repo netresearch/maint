@@ -16,8 +16,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-13T13:42:10Z",
-  "pushed_at": "2026-07-19T02:45:53Z",
-  "updated_at": "2026-07-19T02:45:55Z",
+  "pushed_at": "2026-07-19T14:01:13Z",
+  "updated_at": "2026-07-19T14:01:18Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
@@ -25,11 +25,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 424,
+    "commits": 426,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 231,
+    "prs_merged": 232,
     "prs_closed_unmerged": 15,
     "issues_total": 2,
     "releases": 9,
@@ -37,7 +37,7 @@
     "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 4483,
+    "ghcr_downloads": 4569,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -48,15 +48,21 @@
     "prs_merged": 6,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 604
+    "ghcr_downloads": 690
   },
   "traffic_14d": {
-    "clones_total": 173,
-    "clones_unique": 30,
-    "views_total": 3,
-    "views_unique": 3,
+    "clones_total": 171,
+    "clones_unique": 28,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [],
     "top_paths": [
+      {
+        "path": "/netresearch/raybeam/pull/39",
+        "title": "/pull/39",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/raybeam/pull/51",
         "title": "/pull/51",
@@ -91,7 +97,7 @@
     },
     {
       "login": "CybotTM",
-      "contributions": 135,
+      "contributions": 137,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -116,18 +122,18 @@
       {
         "package": "raybeam",
         "url": "https://github.com/netresearch/raybeam/pkgs/container/raybeam",
-        "total": 4483,
-        "thirty_day": 604
+        "total": 4569,
+        "thirty_day": 690
       }
     ],
-    "total": 4483,
-    "thirty_day": 604
+    "total": 4569,
+    "thirty_day": 690
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/raybeam/network/dependents"
   },
-  "blast_radius": 238,
+  "blast_radius": 239,
   "archived": false
 }
