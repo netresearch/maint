@@ -55,23 +55,28 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 734,
-    "clones_unique": 179,
-    "views_total": 26,
-    "views_unique": 12,
+    "clones_total": 711,
+    "clones_unique": 181,
+    "views_total": 27,
+    "views_unique": 13,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 10,
         "uniques": 8
+      },
+      {
+        "referrer": "perplexity.ai",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/claude-coach-plugin",
         "title": "Overview",
-        "count": 15,
-        "uniques": 8
+        "count": 16,
+        "uniques": 9
       },
       {
         "path": "/netresearch/claude-coach-plugin/blob/main/skills/coach/SKILL.md",

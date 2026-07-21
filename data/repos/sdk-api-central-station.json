@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 732,
+    "packagist_downloads": 736,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,17 +43,22 @@
     "prs_opened": 8,
     "prs_merged": 7,
     "releases": 4,
-    "packagist_downloads": 121,
+    "packagist_downloads": 124,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 399,
-    "clones_unique": 93,
-    "views_total": 1,
-    "views_unique": 1,
+    "clones_total": 440,
+    "clones_unique": 101,
+    "views_total": 2,
+    "views_unique": 2,
     "top_referrers": [
       {
         "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
         "count": 1,
         "uniques": 1
       }
@@ -62,6 +67,12 @@
       {
         "path": "/netresearch/sdk-api-central-station/blob/main/README.md",
         "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-central-station/issues/25",
+        "title": "/issues/25",
         "count": 1,
         "uniques": 1
       }
@@ -97,9 +108,9 @@
   ],
   "packagist": {
     "name": "netresearch/sdk-api-central-station",
-    "total": 732,
-    "monthly": 121,
-    "daily": 0,
+    "total": 736,
+    "monthly": 124,
+    "daily": 3,
     "url": "https://packagist.org/packages/netresearch/sdk-api-central-station"
   },
   "ghcr": null,

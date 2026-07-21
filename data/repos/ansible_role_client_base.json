@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2024-12-05T11:07:56Z",
-  "pushed_at": "2026-07-05T10:56:56Z",
-  "updated_at": "2026-07-05T10:56:58Z",
+  "pushed_at": "2026-07-20T16:14:52Z",
+  "updated_at": "2026-07-20T16:15:26Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
@@ -19,11 +19,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 155,
+    "commits": 160,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 124,
+    "prs_merged": 126,
     "prs_closed_unmerged": 4,
     "issues_total": 4,
     "releases": 0,
@@ -31,37 +31,44 @@
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 1554,
+    "ghcr_downloads": 1636,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 16,
+    "commits": 19,
     "issues_opened": 0,
-    "prs_opened": 10,
-    "prs_merged": 8,
+    "prs_opened": 11,
+    "prs_merged": 9,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 1098
+    "ghcr_downloads": 1180
   },
   "traffic_14d": {
-    "clones_total": 118,
-    "clones_unique": 47,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 26,
+    "clones_unique": 16,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/ansible_role_client_base",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": null,
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 123,
+      "contributions": 125,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "CybotTM",
-      "contributions": 18,
+      "contributions": 21,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -81,18 +88,18 @@
       {
         "package": "ansible_role_client_base",
         "url": "https://github.com/netresearch/ansible_role_client_base/pkgs/container/ansible_role_client_base",
-        "total": 1554,
-        "thirty_day": 1098
+        "total": 1636,
+        "thirty_day": 1180
       }
     ],
-    "total": 1554,
-    "thirty_day": 1098
+    "total": 1636,
+    "thirty_day": 1180
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/ansible_role_client_base/network/dependents"
   },
-  "blast_radius": 130,
+  "blast_radius": 132,
   "archived": false
 }

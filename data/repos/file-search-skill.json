@@ -47,25 +47,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1005,
-    "clones_unique": 224,
-    "views_total": 167,
-    "views_unique": 76,
+    "clones_total": 999,
+    "clones_unique": 225,
+    "views_total": 147,
+    "views_unique": 72,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 99,
-        "uniques": 56
-      },
-      {
-        "referrer": "chatgpt.com",
-        "count": 21,
-        "uniques": 3
+        "count": 96,
+        "uniques": 53
       },
       {
         "referrer": "github.com",
         "count": 6,
         "uniques": 4
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 6,
+        "uniques": 3
       },
       {
         "referrer": "perplexity.ai",
@@ -76,55 +76,44 @@
         "referrer": "Bing",
         "count": 2,
         "uniques": 1
-      },
-      {
-        "referrer": "claude.ai",
-        "count": 2,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 88,
-        "uniques": 70
+        "count": 82,
+        "uniques": 66
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 17,
-        "uniques": 8
+        "count": 14,
+        "uniques": 7
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
         "title": "/blob/main/skills/file-search/SKILL.md",
-        "count": 10,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
-        "title": "/tree/main/skills/file-search/references",
         "count": 8,
         "uniques": 5
       },
       {
+        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
+        "title": "/tree/main/skills/file-search/references",
+        "count": 5,
+        "uniques": 4
+      },
+      {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/semgrep-patterns.md",
         "title": "/blob/main/skills/file-search/references/semgrep-patterns.md",
-        "count": 6,
+        "count": 5,
         "uniques": 2
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ripgrep-patterns.md",
         "title": "/blob/main/skills/file-search/references/ripgrep-patterns.md",
-        "count": 5,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
-        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
         "count": 4,
-        "uniques": 3
+        "uniques": 2
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/Build/Scripts",
@@ -139,8 +128,14 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/file-search-skill/blob/main/README.md",
-        "title": "/blob/main/README.md",
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/evals/evals.json",
+        "title": "/blob/main/skills/file-search/evals/evals.json",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
         "count": 2,
         "uniques": 2
       }

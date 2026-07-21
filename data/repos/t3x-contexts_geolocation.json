@@ -18,8 +18,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2013-04-26T09:53:17Z",
-  "pushed_at": "2026-06-16T10:59:55Z",
-  "updated_at": "2026-06-16T10:59:59Z",
+  "pushed_at": "2026-07-20T21:57:31Z",
+  "updated_at": "2026-07-20T21:57:33Z",
   "composer_name": "netresearch/contexts-geolocation",
   "lifetime": {
     "stars": 2,
@@ -27,11 +27,11 @@
     "watchers": 10,
     "network": 7,
     "open_issues_plus_prs": 1,
-    "commits": 186,
+    "commits": 188,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 23,
+    "prs_merged": 24,
     "prs_closed_unmerged": 7,
     "issues_total": 3,
     "releases": 5,
@@ -44,17 +44,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 2,
     "issues_opened": 0,
-    "prs_opened": 0,
-    "prs_merged": 0,
+    "prs_opened": 1,
+    "prs_merged": 1,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 81,
-    "clones_unique": 9,
+    "clones_total": 82,
+    "clones_unique": 10,
     "views_total": 0,
     "views_unique": 0,
     "top_referrers": [],
@@ -79,7 +79,7 @@
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 6,
+      "contributions": 7,
       "url": "https://github.com/apps/dependabot"
     },
     {
@@ -91,6 +91,11 @@
       "login": "Copilot",
       "contributions": 2,
       "url": "https://github.com/apps/copilot-swe-agent"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 2,
+      "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
@@ -111,11 +116,6 @@
       "login": "just-tobi",
       "contributions": 1,
       "url": "https://github.com/just-tobi"
-    },
-    {
-      "login": "github-actions[bot]",
-      "contributions": 1,
-      "url": "https://github.com/apps/github-actions"
     }
   ],
   "packagist": null,
@@ -125,6 +125,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts_geolocation/network/dependents"
   },
-  "blast_radius": 52,
+  "blast_radius": 53,
   "archived": false
 }

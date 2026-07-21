@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T10:14:23Z",
-  "pushed_at": "2026-07-18T10:01:38Z",
-  "updated_at": "2026-07-18T09:59:48Z",
+  "pushed_at": "2026-07-20T21:06:11Z",
+  "updated_at": "2026-07-20T21:07:58Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 330,
+    "commits": 332,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 79,
+    "prs_merged": 80,
     "prs_closed_unmerged": 5,
     "issues_total": 4,
     "releases": 46,
@@ -47,17 +47,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 18,
+    "commits": 20,
     "issues_opened": 2,
-    "prs_opened": 5,
-    "prs_merged": 7,
+    "prs_opened": 6,
+    "prs_merged": 8,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1286,
-    "clones_unique": 227,
+    "clones_total": 1266,
+    "clones_unique": 230,
     "views_total": 18,
     "views_unique": 12,
     "top_referrers": [
@@ -68,8 +68,8 @@
       },
       {
         "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       }
     ],
     "top_paths": [
@@ -104,6 +104,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/SKILL.md",
+        "title": "/blob/main/skills/typo3-conformance/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/references/coding-guidelines.md",
         "title": "/blob/main/skills/typo3-conformance/references/coding-guidelines.md",
         "count": 1,
@@ -112,12 +118,6 @@
       {
         "path": "/netresearch/typo3-conformance-skill/commit/2f7d136b7d4dba5bd98fc755b4132a0a98daf4eb",
         "title": "/commit/2f7d136b7d4dba5bd98fc755b4132a0a98daf4eb",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/pulls",
-        "title": "/pulls",
         "count": 1,
         "uniques": 1
       }
@@ -137,12 +137,12 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 4,
+      "contributions": 5,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 3,
+      "contributions": 4,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -158,6 +158,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "blast_radius": 86,
+  "blast_radius": 87,
   "archived": false
 }
