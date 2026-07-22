@@ -31,7 +31,7 @@
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 1636,
+    "ghcr_downloads": 1811,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -42,18 +42,30 @@
     "prs_merged": 9,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 1180
+    "ghcr_downloads": 1355
   },
   "traffic_14d": {
-    "clones_total": 26,
-    "clones_unique": 16,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 147,
+    "clones_unique": 50,
+    "views_total": 3,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/ansible_role_client_base",
         "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ansible_role_client_base/issues",
+        "title": "/issues",
         "count": 1,
         "uniques": 1
       }
@@ -88,12 +100,12 @@
       {
         "package": "ansible_role_client_base",
         "url": "https://github.com/netresearch/ansible_role_client_base/pkgs/container/ansible_role_client_base",
-        "total": 1636,
-        "thirty_day": 1180
+        "total": 1811,
+        "thirty_day": 1355
       }
     ],
-    "total": 1636,
-    "thirty_day": 1180
+    "total": 1811,
+    "thirty_day": 1355
   },
   "dependents": {
     "repositories": 0,

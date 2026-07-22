@@ -44,14 +44,14 @@
     "prs_opened": 5,
     "prs_merged": 5,
     "releases": 0,
-    "packagist_downloads": 283,
+    "packagist_downloads": 236,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 223,
-    "clones_unique": 39,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 222,
+    "clones_unique": 38,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -65,6 +65,18 @@
         "title": "Overview",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-contexts/blob/main/.github/workflows/ci.yml",
+        "title": "/blob/main/.github/workflows/ci.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts/blob/main/.github/workflows/dependency-review.yml",
+        "title": "/blob/main/.github/workflows/dependency-review.yml",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -129,8 +141,8 @@
   "packagist": {
     "name": "netresearch/contexts",
     "total": 19171,
-    "monthly": 283,
-    "daily": 77,
+    "monthly": 236,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,

@@ -12,46 +12,51 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-28T09:41:02Z",
-  "pushed_at": "2026-07-20T23:21:44Z",
-  "updated_at": "2026-07-20T23:21:32Z",
+  "pushed_at": "2026-07-21T15:46:27Z",
+  "updated_at": "2026-07-21T15:08:03Z",
   "composer_name": "netresearch/nr-vault",
   "lifetime": {
     "stars": 2,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 934,
+    "open_issues_plus_prs": 3,
+    "commits": 945,
     "issues_open": 2,
     "issues_closed": 6,
-    "prs_open": 0,
-    "prs_merged": 191,
+    "prs_open": 1,
+    "prs_merged": 196,
     "prs_closed_unmerged": 10,
     "issues_total": 8,
-    "releases": 23,
+    "releases": 25,
     "release_downloads": 252,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 43012,
+    "packagist_downloads": 44180,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 54,
+    "commits": 65,
     "issues_opened": 4,
-    "prs_opened": 25,
-    "prs_merged": 24,
-    "releases": 4,
-    "packagist_downloads": 20983,
+    "prs_opened": 31,
+    "prs_merged": 29,
+    "releases": 6,
+    "packagist_downloads": 21869,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1102,
-    "clones_unique": 120,
-    "views_total": 31,
-    "views_unique": 20,
+    "clones_total": 1319,
+    "clones_unique": 149,
+    "views_total": 32,
+    "views_unique": 22,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "referrer": "extensions.typo3.org",
         "count": 1,
@@ -62,12 +67,12 @@
       {
         "path": "/netresearch/t3x-nr-vault/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
         "title": "/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
-        "count": 12,
-        "uniques": 12
+        "count": 13,
+        "uniques": 13
       },
       {
-        "path": "/netresearch/t3x-nr-vault/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
+        "path": "/netresearch/t3x-nr-vault",
+        "title": "Overview",
         "count": 2,
         "uniques": 2
       },
@@ -81,6 +86,12 @@
         "path": "/netresearch/t3x-nr-vault/blob/8f3308095fa0c7e9f8160d542dd4b4bd4be208c5/Classes/Seeder/DemoDataProvider.php",
         "title": "/blob/8f3308095fa0c7e9f8160d542dd4b4bd4be208c5/Classes/Seeder/DemoDataProvider.php",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -112,25 +123,19 @@
         "title": "/commits",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/commits/main/ext_emconf.php",
-        "title": "/commits/main/ext_emconf.php",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v0.11.1",
-    "tag_name": "v0.11.1",
-    "published_at": "2026-07-20T23:23:37Z",
-    "url": "https://github.com/netresearch/t3x-nr-vault/releases/tag/v0.11.1"
+    "name": "v0.11.3",
+    "tag_name": "v0.11.3",
+    "published_at": "2026-07-21T15:05:17Z",
+    "url": "https://github.com/netresearch/t3x-nr-vault/releases/tag/v0.11.3"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 760,
+      "contributions": 771,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -151,9 +156,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 43012,
-    "monthly": 20983,
-    "daily": 1236,
+    "total": 44180,
+    "monthly": 21869,
+    "daily": 888,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,
@@ -162,6 +167,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-vault/network/dependents"
   },
-  "blast_radius": 199,
+  "blast_radius": 204,
   "archived": false
 }
