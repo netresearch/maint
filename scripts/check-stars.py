@@ -162,6 +162,13 @@ def get_org_repos() -> list[dict]:
             # Empty repos (no commits) have no dependency graph page. A missing
             # size is treated as non-empty so we still scrape rather than skip.
             "is_empty": r.get("size") == 0,
+            # Since the 2026-06-30 API restriction, the stargazers/subscribers/
+            # forks endpoints of an ARCHIVED repo are not readable even by a
+            # fine-grained PAT (403 "Resource not accessible…" for the PAT, 404
+            # for other token types). Those repos are read-only, so their social
+            # counts cannot change anyway — the run skips the token-gated fetches
+            # for them (see main()) rather than aborting on the AuthError.
+            "archived": r.get("archived", False),
         }
         for r in repos
         if not r.get("private", False)
@@ -339,6 +346,13 @@ def main():
 
     for repo in repos:
         repo_name = repo["full_name"]
+        # An archived repo's stargazers/forks/subscribers endpoints are not
+        # readable (403/404) since the 2026-06-30 API restriction. Skipping the
+        # token-gated fetches for it — rather than aborting the whole run on the
+        # AuthError — is safe: an archived repo is read-only, so those counts
+        # cannot change. A genuinely bad token still aborts on the first
+        # NON-archived repo, so systemic auth failures are still caught loudly.
+        social_readable = not repo.get("archived", False)
         repo_state = state.get("repos", {}).get(repo_name, {})
         # Track if this repo had dependents tracking before any state migrations
         had_dependents_tracking = isinstance(repo_state, dict) and "dependents" in repo_state
@@ -347,7 +361,7 @@ def main():
             repo_state = {"stars": repo_state, "forks": [], "watchers": []}
         # Stars
         known_stars = set(repo_state.get("stars", []))
-        stargazers = get_stargazers(repo_name)
+        stargazers = get_stargazers(repo_name) if social_readable else None
         if stargazers is not None:
             current_stars = {s["user"]["login"] for s in stargazers}
             if is_suspicious_empty(current_stars, known_stars, "stars", repo_name):
@@ -369,7 +383,7 @@ def main():
 
         # Forks
         known_forks = set(repo_state.get("forks", []))
-        forks = get_forks(repo_name)
+        forks = get_forks(repo_name) if social_readable else None
         if forks is not None:
             current_forks = {f["owner"]["login"] for f in forks}
             if is_suspicious_empty(current_forks, known_forks, "forks", repo_name):
@@ -392,7 +406,7 @@ def main():
 
         # Watchers
         known_watchers = set(repo_state.get("watchers", []))
-        watchers = get_watchers(repo_name)
+        watchers = get_watchers(repo_name) if social_readable else None
         if watchers is not None:
             current_watchers = {w["login"] for w in watchers}
             if is_suspicious_empty(current_watchers, known_watchers, "watchers", repo_name):
