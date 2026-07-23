@@ -25,55 +25,55 @@
   "homepage": "https://netresearch.github.io/t3x-nr-llm/",
   "default_branch": "main",
   "created_at": "2025-12-22T23:35:44Z",
-  "pushed_at": "2026-07-21T16:07:46Z",
-  "updated_at": "2026-07-21T15:37:39Z",
+  "pushed_at": "2026-07-22T22:48:22Z",
+  "updated_at": "2026-07-22T22:48:26Z",
   "composer_name": "netresearch/nr-llm",
   "lifetime": {
     "stars": 4,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 5,
-    "commits": 1747,
+    "open_issues_plus_prs": 2,
+    "commits": 1774,
     "issues_open": 1,
     "issues_closed": 27,
-    "prs_open": 4,
-    "prs_merged": 441,
-    "prs_closed_unmerged": 16,
+    "prs_open": 1,
+    "prs_merged": 454,
+    "prs_closed_unmerged": 18,
     "issues_total": 28,
-    "releases": 43,
-    "release_downloads": 381,
+    "releases": 44,
+    "release_downloads": 382,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 7919,
+    "packagist_downloads": 8558,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 743,
+    "commits": 770,
     "issues_opened": 22,
-    "prs_opened": 217,
-    "prs_merged": 210,
-    "releases": 13,
-    "packagist_downloads": 2388,
+    "prs_opened": 229,
+    "prs_merged": 223,
+    "releases": 14,
+    "packagist_downloads": 3026,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 23377,
-    "clones_unique": 587,
-    "views_total": 116,
-    "views_unique": 42,
+    "clones_total": 24071,
+    "clones_unique": 597,
+    "views_total": 129,
+    "views_unique": 47,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 37,
-        "uniques": 10
+        "count": 39,
+        "uniques": 12
       },
       {
         "referrer": "Google",
-        "count": 6,
-        "uniques": 2
+        "count": 7,
+        "uniques": 3
       },
       {
         "referrer": "docs.typo3.org",
@@ -82,16 +82,16 @@
       },
       {
         "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
+        "count": 3,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 56,
-        "uniques": 29
+        "count": 60,
+        "uniques": 33
       },
       {
         "path": "/netresearch/t3x-nr-llm/commits/main",
@@ -104,6 +104,12 @@
         "title": "/tree/main/Classes",
         "count": 4,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/GEMINI.md",
+        "title": "/blob/main/GEMINI.md",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-llm/issues",
@@ -140,25 +146,19 @@
         "title": "/blob/main/composer.json",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/blame/main/GEMINI.md",
-        "title": "/blame/main/GEMINI.md",
-        "count": 2,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v0.23.0",
-    "tag_name": "v0.23.0",
-    "published_at": "2026-07-20T11:22:07Z",
-    "url": "https://github.com/netresearch/t3x-nr-llm/releases/tag/v0.23.0"
+    "name": "v0.23.1",
+    "tag_name": "v0.23.1",
+    "published_at": "2026-07-22T06:12:16Z",
+    "url": "https://github.com/netresearch/t3x-nr-llm/releases/tag/v0.23.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1644,
+      "contributions": 1671,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -184,9 +184,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 7919,
-    "monthly": 2388,
-    "daily": 465,
+    "total": 8558,
+    "monthly": 3026,
+    "daily": 523,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,
@@ -195,6 +195,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-llm/network/dependents"
   },
-  "blast_radius": 482,
+  "blast_radius": 495,
   "archived": false
 }

@@ -3,30 +3,30 @@
   "full_name": "netresearch/orocommerce-skill",
   "url": "https://github.com/netresearch/orocommerce-skill",
   "description": "Claude Code skills for OroCommerce v6.1 development \u2014 entities, grids, API, workflows, frontend, security, integration, and bundle scaffolding",
-  "language": "PHP",
+  "language": "Shell",
   "category": "skill",
   "license": "NOASSERTION",
   "topics": [],
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-07T11:28:33Z",
-  "pushed_at": "2026-07-18T09:58:46Z",
-  "updated_at": "2026-07-18T09:57:37Z",
-  "composer_name": "netresearch/orocommerce-skill",
+  "pushed_at": "2026-07-22T12:05:43Z",
+  "updated_at": "2026-07-22T12:07:26Z",
+  "composer_name": null,
   "lifetime": {
     "stars": 2,
     "forks": 0,
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 44,
+    "commits": 51,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 12,
+    "prs_merged": 15,
     "prs_closed_unmerged": 0,
     "issues_total": 2,
-    "releases": 6,
+    "releases": 7,
     "release_downloads": 16,
     "contributors": 5,
     "external_contributors": 1,
@@ -36,24 +36,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 14,
+    "commits": 21,
     "issues_opened": 2,
-    "prs_opened": 3,
-    "prs_merged": 4,
-    "releases": 2,
+    "prs_opened": 6,
+    "prs_merged": 7,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 256,
+    "clones_total": 259,
     "clones_unique": 64,
-    "views_total": 41,
-    "views_unique": 10,
+    "views_total": 30,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 26,
-        "uniques": 3
+        "count": 13,
+        "uniques": 2
       },
       {
         "referrer": "github.com",
@@ -75,38 +75,14 @@
       {
         "path": "/netresearch/orocommerce-skill",
         "title": "Overview",
-        "count": 12,
-        "uniques": 9
+        "count": 10,
+        "uniques": 7
       },
       {
         "path": "/netresearch/orocommerce-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 6,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/orocommerce-skill/tree/main",
-        "title": "/tree/main",
-        "count": 2,
+        "count": 4,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/orocommerce-skill/blob/main/skills/oro-api/SKILL.md",
-        "title": "/blob/main/skills/oro-api/SKILL.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/orocommerce-skill/blob/main/skills/oro-frontend/SKILL.md",
-        "title": "/blob/main/skills/oro-frontend/SKILL.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/orocommerce-skill/tree/main/skills/oro-frontend/references",
-        "title": "/tree/main/skills/oro-frontend/references",
-        "count": 2,
-        "uniques": 1
       },
       {
         "path": "/netresearch/orocommerce-skill/blob/main/AGENTS.md",
@@ -127,18 +103,42 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/orocommerce-skill/blob/main/skills/oro-frontend/references/v6.1.md",
-        "title": "/blob/main/skills/oro-frontend/references/v6.1.md",
+        "path": "/netresearch/orocommerce-skill/blob/main/skills/oro-functional-testing/SKILL.md",
+        "title": "/blob/main/skills/oro-functional-testing/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/orocommerce-skill/blob/main/skills/oro-integration/references/integration-patterns.md",
+        "title": "/blob/main/skills/oro-integration/references/integration-patterns.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/orocommerce-skill/blob/main/skills/oro-integration/references/message-queue-config.md",
+        "title": "/blob/main/skills/oro-integration/references/message-queue-config.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/orocommerce-skill/blob/main/skills/oro-integration/references/v6.1.md",
+        "title": "/blob/main/skills/oro-integration/references/v6.1.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/orocommerce-skill/commit/9acf61af3da4c310c2c6aa04bd27e405e802092d",
+        "title": "/commit/9acf61af3da4c310c2c6aa04bd27e405e802092d",
         "count": 1,
         "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.2.1",
-    "tag_name": "v1.2.1",
-    "published_at": "2026-07-18T09:59:57Z",
-    "url": "https://github.com/netresearch/orocommerce-skill/releases/tag/v1.2.1"
+    "name": "v1.3.0",
+    "tag_name": "v1.3.0",
+    "published_at": "2026-07-22T12:06:20Z",
+    "url": "https://github.com/netresearch/orocommerce-skill/releases/tag/v1.3.0"
   },
   "top_contributors": [
     {
@@ -148,7 +148,7 @@
     },
     {
       "login": "powli",
-      "contributions": 12,
+      "contributions": 19,
       "url": "https://github.com/powli"
     },
     {
@@ -174,6 +174,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/orocommerce-skill/network/dependents"
   },
-  "blast_radius": 17,
+  "blast_radius": 20,
   "archived": false
 }

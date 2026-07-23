@@ -17,8 +17,8 @@
   "homepage": "https://extensions.typo3.org/extension/nr_image_optimize",
   "default_branch": "main",
   "created_at": "2025-09-12T06:59:28Z",
-  "pushed_at": "2026-07-20T12:09:06Z",
-  "updated_at": "2026-07-20T12:10:28Z",
+  "pushed_at": "2026-07-22T18:52:24Z",
+  "updated_at": "2026-07-22T18:53:55Z",
   "composer_name": "netresearch/nr-image-optimize",
   "lifetime": {
     "stars": 2,
@@ -26,41 +26,41 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 3,
-    "commits": 397,
+    "commits": 408,
     "issues_open": 2,
-    "issues_closed": 4,
+    "issues_closed": 6,
     "prs_open": 1,
-    "prs_merged": 101,
-    "prs_closed_unmerged": 8,
-    "issues_total": 6,
-    "releases": 15,
+    "prs_merged": 109,
+    "prs_closed_unmerged": 10,
+    "issues_total": 8,
+    "releases": 18,
     "release_downloads": 6,
     "contributors": 8,
     "external_contributors": 3,
-    "packagist_downloads": 1309,
+    "packagist_downloads": 1399,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 15,
-    "issues_opened": 1,
-    "prs_opened": 6,
-    "prs_merged": 6,
-    "releases": 2,
-    "packagist_downloads": 198,
+    "commits": 26,
+    "issues_opened": 3,
+    "prs_opened": 16,
+    "prs_merged": 14,
+    "releases": 5,
+    "packagist_downloads": 280,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1397,
-    "clones_unique": 148,
+    "clones_total": 1396,
+    "clones_unique": 149,
     "views_total": 15,
     "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       }
     ],
     "top_paths": [
@@ -127,15 +127,15 @@
     ]
   },
   "latest_release": {
-    "name": "v2.2.4",
-    "tag_name": "v2.2.4",
-    "published_at": "2026-07-14T11:37:30Z",
-    "url": "https://github.com/netresearch/t3x-nr-image-optimize/releases/tag/v2.2.4"
+    "name": "v2.3.1",
+    "tag_name": "v2.3.1",
+    "published_at": "2026-07-22T18:54:18Z",
+    "url": "https://github.com/netresearch/t3x-nr-image-optimize/releases/tag/v2.3.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 223,
+      "contributions": 228,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -145,7 +145,7 @@
     },
     {
       "login": "aseemann",
-      "contributions": 25,
+      "contributions": 31,
       "url": "https://github.com/aseemann"
     },
     {
@@ -176,9 +176,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 1309,
-    "monthly": 198,
-    "daily": 5,
+    "total": 1399,
+    "monthly": 280,
+    "daily": 74,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,
@@ -187,6 +187,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-image-optimize/network/dependents"
   },
-  "blast_radius": 118,
+  "blast_radius": 128,
   "archived": false
 }

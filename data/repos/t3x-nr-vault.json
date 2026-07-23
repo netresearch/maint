@@ -12,27 +12,27 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-28T09:41:02Z",
-  "pushed_at": "2026-07-21T15:46:27Z",
-  "updated_at": "2026-07-21T15:08:03Z",
+  "pushed_at": "2026-07-22T05:56:03Z",
+  "updated_at": "2026-07-22T05:55:47Z",
   "composer_name": "netresearch/nr-vault",
   "lifetime": {
     "stars": 2,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 945,
+    "open_issues_plus_prs": 2,
+    "commits": 947,
     "issues_open": 2,
     "issues_closed": 6,
-    "prs_open": 1,
-    "prs_merged": 196,
+    "prs_open": 0,
+    "prs_merged": 197,
     "prs_closed_unmerged": 10,
     "issues_total": 8,
-    "releases": 25,
+    "releases": 26,
     "release_downloads": 252,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 44180,
+    "packagist_downloads": 45448,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -41,15 +41,15 @@
     "commits": 65,
     "issues_opened": 4,
     "prs_opened": 31,
-    "prs_merged": 29,
-    "releases": 6,
-    "packagist_downloads": 21869,
+    "prs_merged": 30,
+    "releases": 7,
+    "packagist_downloads": 23094,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1319,
-    "clones_unique": 149,
-    "views_total": 32,
+    "clones_total": 1918,
+    "clones_unique": 173,
+    "views_total": 30,
     "views_unique": 22,
     "top_referrers": [
       {
@@ -61,20 +61,25 @@
         "referrer": "extensions.typo3.org",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-vault/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
         "title": "/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
-        "count": 13,
-        "uniques": 13
+        "count": 12,
+        "uniques": 12
       },
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-vault/blob/77e1d281a229b4d783385fa77c974b8a2cae3942/Classes/Seeder/DemoDataProvider.php",
@@ -91,12 +96,6 @@
       {
         "path": "/netresearch/t3x-nr-vault/blob/main/composer.json",
         "title": "/blob/main/composer.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/commit/ac19ec5adae3033abdd2d5a67fe2459c4a91db69",
-        "title": "/commit/ac19ec5adae3033abdd2d5a67fe2459c4a91db69",
         "count": 1,
         "uniques": 1
       },
@@ -123,19 +122,25 @@
         "title": "/commits",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/commits/main/ext_emconf.php",
+        "title": "/commits/main/ext_emconf.php",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v0.11.3",
-    "tag_name": "v0.11.3",
-    "published_at": "2026-07-21T15:05:17Z",
-    "url": "https://github.com/netresearch/t3x-nr-vault/releases/tag/v0.11.3"
+    "name": "v0.11.4",
+    "tag_name": "v0.11.4",
+    "published_at": "2026-07-22T06:00:04Z",
+    "url": "https://github.com/netresearch/t3x-nr-vault/releases/tag/v0.11.4"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 771,
+      "contributions": 773,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -156,9 +161,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 44180,
-    "monthly": 21869,
-    "daily": 888,
+    "total": 45448,
+    "monthly": 23094,
+    "daily": 1047,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,
@@ -167,6 +172,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-vault/network/dependents"
   },
-  "blast_radius": 204,
+  "blast_radius": 205,
   "archived": false
 }

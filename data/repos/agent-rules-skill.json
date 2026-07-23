@@ -31,13 +31,13 @@
     "open_issues_plus_prs": 2,
     "commits": 315,
     "issues_open": 2,
-    "issues_closed": 5,
+    "issues_closed": 6,
     "prs_open": 0,
     "prs_merged": 59,
     "prs_closed_unmerged": 3,
-    "issues_total": 7,
+    "issues_total": 8,
     "releases": 50,
-    "release_downloads": 432,
+    "release_downloads": 437,
     "contributors": 5,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -55,15 +55,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1410,
-    "clones_unique": 326,
-    "views_total": 508,
-    "views_unique": 254,
+    "clones_total": 1473,
+    "clones_unique": 335,
+    "views_total": 500,
+    "views_unique": 246,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 335,
-        "uniques": 166
+        "count": 329,
+        "uniques": 159
       },
       {
         "referrer": "search.brave.com",
@@ -71,14 +71,9 @@
         "uniques": 1
       },
       {
-        "referrer": "github.com",
-        "count": 10,
-        "uniques": 5
-      },
-      {
         "referrer": "chatgpt.com",
-        "count": 9,
-        "uniques": 7
+        "count": 7,
+        "uniques": 5
       },
       {
         "referrer": "Bing",
@@ -86,13 +81,13 @@
         "uniques": 5
       },
       {
-        "referrer": "ecosia.org",
-        "count": 5,
-        "uniques": 3
+        "referrer": "github.com",
+        "count": 6,
+        "uniques": 4
       },
       {
-        "referrer": "kagi.com",
-        "count": 3,
+        "referrer": "ecosia.org",
+        "count": 4,
         "uniques": 2
       },
       {
@@ -106,6 +101,11 @@
         "uniques": 2
       },
       {
+        "referrer": "kagi.com",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "referrer": "composer.ha15.com",
         "count": 1,
         "uniques": 1
@@ -115,8 +115,8 @@
       {
         "path": "/netresearch/agent-rules-skill",
         "title": "Overview",
-        "count": 293,
-        "uniques": 238
+        "count": 283,
+        "uniques": 229
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
@@ -127,7 +127,7 @@
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md",
         "title": "/blob/main/skills/agent-rules/SKILL.md",
-        "count": 31,
+        "count": 33,
         "uniques": 26
       },
       {
@@ -145,24 +145,18 @@
       {
         "path": "/netresearch/agent-rules-skill/tree/main",
         "title": "/tree/main",
-        "count": 9,
-        "uniques": 7
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/agent-rules-skill/releases/tag/v3.13.1",
         "title": "/releases/tag/v3.13.1",
-        "count": 7,
+        "count": 6,
         "uniques": 4
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules/scripts",
         "title": "/tree/main/skills/agent-rules/scripts",
-        "count": 6,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/CLAUDE.md",
-        "title": "/blob/main/skills/agent-rules/CLAUDE.md",
         "count": 5,
         "uniques": 5
       },
@@ -170,6 +164,12 @@
         "path": "/netresearch/agent-rules-skill/tree/main/Build",
         "title": "/tree/main/Build",
         "count": 5,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/agent-rules-skill/blob/main/.claude-plugin/plugin.json",
+        "title": "/blob/main/.claude-plugin/plugin.json",
+        "count": 4,
         "uniques": 4
       }
     ]
@@ -214,6 +214,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/agent-rules-skill/network/dependents"
   },
-  "blast_radius": 72,
+  "blast_radius": 73,
   "archived": false
 }

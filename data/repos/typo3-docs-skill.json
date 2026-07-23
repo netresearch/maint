@@ -33,11 +33,11 @@
     "open_issues_plus_prs": 1,
     "commits": 206,
     "issues_open": 1,
-    "issues_closed": 1,
+    "issues_closed": 2,
     "prs_open": 0,
     "prs_merged": 51,
     "prs_closed_unmerged": 4,
-    "issues_total": 2,
+    "issues_total": 3,
     "releases": 43,
     "release_downloads": 107,
     "contributors": 3,
@@ -58,9 +58,9 @@
   },
   "traffic_14d": {
     "clones_total": 808,
-    "clones_unique": 181,
-    "views_total": 43,
-    "views_unique": 22,
+    "clones_unique": 182,
+    "views_total": 53,
+    "views_unique": 25,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -69,8 +69,8 @@
       },
       {
         "referrer": "github.com",
-        "count": 5,
-        "uniques": 3
+        "count": 4,
+        "uniques": 2
       },
       {
         "referrer": "search.brave.com",
@@ -82,19 +82,19 @@
       {
         "path": "/netresearch/typo3-docs-skill",
         "title": "Overview",
-        "count": 21,
+        "count": 23,
         "uniques": 18
       },
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/.claude-plugin/plugin.json",
         "title": "/blob/main/.claude-plugin/plugin.json",
-        "count": 7,
+        "count": 6,
         "uniques": 2
       },
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 3,
+        "count": 5,
         "uniques": 3
       },
       {
@@ -102,6 +102,12 @@
         "title": "/blob/main/skills/typo3-docs/SKILL.md",
         "count": 3,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/tree/main/skills/typo3-docs",
+        "title": "/tree/main/skills/typo3-docs",
+        "count": 3,
+        "uniques": 1
       },
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/docs/ARCHITECTURE.md",
@@ -116,26 +122,20 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/typo3-docs-skill/actions/runs/22049634254",
+        "title": "/actions/runs/22049634254",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-docs-skill/blob/main/composer.json",
         "title": "/blob/main/composer.json",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-docs-skill/blob/main/renovate.json",
-        "title": "/blob/main/renovate.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/references/typo3-directives.md",
-        "title": "/blob/main/skills/typo3-docs/references/typo3-directives.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/releases/tag/v2.14.2",
-        "title": "/releases/tag/v2.14.2",
+        "path": "/netresearch/typo3-docs-skill/blob/main/references/intercept-deployment.md",
+        "title": "/blob/main/references/intercept-deployment.md",
         "count": 1,
         "uniques": 1
       }
@@ -171,6 +171,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-docs-skill/network/dependents"
   },
-  "blast_radius": 53,
+  "blast_radius": 54,
   "archived": false
 }

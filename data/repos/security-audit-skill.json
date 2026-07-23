@@ -31,7 +31,7 @@
     "prs_closed_unmerged": 5,
     "issues_total": 3,
     "releases": 30,
-    "release_downloads": 247,
+    "release_downloads": 253,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -49,15 +49,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1115,
-    "clones_unique": 324,
-    "views_total": 249,
+    "clones_total": 1160,
+    "clones_unique": 317,
+    "views_total": 227,
     "views_unique": 118,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 131,
-        "uniques": 59
+        "count": 134,
+        "uniques": 62
       },
       {
         "referrer": "chatgpt.com",
@@ -65,27 +65,32 @@
         "uniques": 6
       },
       {
-        "referrer": "Bing",
-        "count": 9,
-        "uniques": 2
-      },
-      {
         "referrer": "search.brave.com",
-        "count": 6,
-        "uniques": 3
-      },
-      {
-        "referrer": "statics.teams.cdn.office.net",
-        "count": 6,
-        "uniques": 2
-      },
-      {
-        "referrer": "github.com",
-        "count": 5,
+        "count": 7,
         "uniques": 4
       },
       {
+        "referrer": "github.com",
+        "count": 6,
+        "uniques": 5
+      },
+      {
+        "referrer": "statics.teams.cdn.office.net",
+        "count": 5,
+        "uniques": 3
+      },
+      {
+        "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "claudemarketplaces.com",
         "count": 1,
         "uniques": 1
       },
@@ -98,61 +103,44 @@
         "referrer": "teams.public.onecdn.static.microsoft",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "wiki.queo-group.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/security-audit-skill",
         "title": "Overview",
-        "count": 107,
-        "uniques": 87
+        "count": 102,
+        "uniques": 85
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
         "title": "/blob/main/skills/security-audit/SKILL.md",
-        "count": 25,
+        "count": 24,
         "uniques": 23
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
         "title": "/tree/main/skills/security-audit",
-        "count": 22,
-        "uniques": 14
+        "count": 15,
+        "uniques": 12
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main",
         "title": "/tree/main",
         "count": 14,
-        "uniques": 9
+        "uniques": 10
+      },
+      {
+        "path": "/netresearch/security-audit-skill/issues",
+        "title": "/issues",
+        "count": 7,
+        "uniques": 6
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/references",
         "title": "/tree/main/skills/security-audit/references",
         "count": 6,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/security-audit-skill/issues",
-        "title": "/issues",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/security-audit-skill/tree/main/skills",
-        "title": "/tree/main/skills",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/scripts",
-        "title": "/tree/main/skills/security-audit/scripts",
-        "count": 5,
-        "uniques": 4
+        "uniques": 6
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/README.md",
@@ -161,10 +149,22 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/references/deserialization-prevention.md",
-        "title": "/blob/main/skills/security-audit/references/deserialization-prevention.md",
+        "path": "/netresearch/security-audit-skill/releases/tag/v2.10.5",
+        "title": "/releases/tag/v2.10.5",
         "count": 4,
-        "uniques": 1
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/security-audit-skill/tree/main/skills",
+        "title": "/tree/main/skills",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/scripts/github-security-audit.sh",
+        "title": "/blob/main/skills/security-audit/scripts/github-security-audit.sh",
+        "count": 3,
+        "uniques": 3
       }
     ]
   },

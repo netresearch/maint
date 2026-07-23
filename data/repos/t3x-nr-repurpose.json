@@ -10,43 +10,43 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-08T21:31:58Z",
-  "pushed_at": "2026-07-21T16:01:26Z",
-  "updated_at": "2026-07-21T15:01:23Z",
+  "pushed_at": "2026-07-22T06:22:37Z",
+  "updated_at": "2026-07-22T06:22:50Z",
   "composer_name": "netresearch/nr-repurpose",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 196,
+    "open_issues_plus_prs": 1,
+    "commits": 205,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 41,
+    "prs_open": 0,
+    "prs_merged": 45,
     "prs_closed_unmerged": 4,
     "issues_total": 1,
-    "releases": 3,
+    "releases": 5,
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 0,
+    "packagist_downloads": 100,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 35,
+    "commits": 44,
     "issues_opened": 0,
-    "prs_opened": 18,
-    "prs_merged": 16,
-    "releases": 2,
-    "packagist_downloads": 0,
+    "prs_opened": 21,
+    "prs_merged": 20,
+    "releases": 4,
+    "packagist_downloads": 100,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 433,
-    "clones_unique": 91,
+    "clones_total": 586,
+    "clones_unique": 117,
     "views_total": 1,
     "views_unique": 1,
     "top_referrers": [],
@@ -60,35 +60,41 @@
     ]
   },
   "latest_release": {
-    "name": "v0.2.1",
-    "tag_name": "v0.2.1",
-    "published_at": "2026-07-21T15:00:47Z",
-    "url": "https://github.com/netresearch/t3x-nr-repurpose/releases/tag/v0.2.1"
+    "name": "v0.2.3",
+    "tag_name": "v0.2.3",
+    "published_at": "2026-07-22T06:23:05Z",
+    "url": "https://github.com/netresearch/t3x-nr-repurpose/releases/tag/v0.2.3"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 175,
+      "contributions": 180,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 12,
+      "contributions": 14,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 9,
+      "contributions": 11,
       "url": "https://github.com/apps/github-actions"
     }
   ],
-  "packagist": null,
+  "packagist": {
+    "name": "netresearch/nr-repurpose",
+    "total": 100,
+    "monthly": 100,
+    "daily": 82,
+    "url": "https://packagist.org/packages/netresearch/nr-repurpose"
+  },
   "ghcr": null,
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-repurpose/network/dependents"
   },
-  "blast_radius": 42,
+  "blast_radius": 46,
   "archived": false
 }

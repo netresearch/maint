@@ -10,63 +10,63 @@
   "homepage": "https://www.netresearch.de/",
   "default_branch": "main",
   "created_at": "2026-03-15T19:35:10Z",
-  "pushed_at": "2026-07-21T15:45:48Z",
-  "updated_at": "2026-07-21T15:16:16Z",
+  "pushed_at": "2026-07-22T10:14:16Z",
+  "updated_at": "2026-07-22T10:16:18Z",
   "composer_name": "netresearch/nr-passkeys-fe",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 237,
+    "open_issues_plus_prs": 1,
+    "commits": 243,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 1,
-    "prs_merged": 22,
+    "prs_open": 0,
+    "prs_merged": 25,
     "prs_closed_unmerged": 3,
     "issues_total": 3,
-    "releases": 9,
+    "releases": 11,
     "release_downloads": 19,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 43,
+    "packagist_downloads": 153,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 11,
+    "commits": 17,
     "issues_opened": 0,
-    "prs_opened": 6,
-    "prs_merged": 5,
-    "releases": 2,
-    "packagist_downloads": 32,
+    "prs_opened": 8,
+    "prs_merged": 8,
+    "releases": 4,
+    "packagist_downloads": 141,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 85,
-    "clones_unique": 20,
-    "views_total": 8,
-    "views_unique": 2,
+    "clones_total": 499,
+    "clones_unique": 73,
+    "views_total": 10,
+    "views_unique": 3,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 5,
+        "uniques": 3
+      },
       {
         "referrer": "extensions.typo3.org",
         "count": 5,
         "uniques": 1
-      },
-      {
-        "referrer": "Google",
-        "count": 3,
-        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-passkeys-fe",
         "title": "Overview",
-        "count": 4,
-        "uniques": 2
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-fe/blob/main/composer.json",
@@ -81,6 +81,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-passkeys-fe/issues",
+        "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-passkeys-fe/tree/main/Classes/Authentication",
         "title": "/tree/main/Classes/Authentication",
         "count": 1,
@@ -89,15 +95,15 @@
     ]
   },
   "latest_release": {
-    "name": "v0.3.3",
-    "tag_name": "v0.3.3",
-    "published_at": "2026-07-21T15:14:37Z",
-    "url": "https://github.com/netresearch/t3x-nr-passkeys-fe/releases/tag/v0.3.3"
+    "name": "v0.3.5",
+    "tag_name": "v0.3.5",
+    "published_at": "2026-07-22T10:16:29Z",
+    "url": "https://github.com/netresearch/t3x-nr-passkeys-fe/releases/tag/v0.3.5"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 220,
+      "contributions": 226,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -113,9 +119,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-fe",
-    "total": 43,
-    "monthly": 32,
-    "daily": 12,
+    "total": 153,
+    "monthly": 141,
+    "daily": 95,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-fe"
   },
   "ghcr": null,
@@ -124,6 +130,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-passkeys-fe/network/dependents"
   },
-  "blast_radius": 25,
+  "blast_radius": 28,
   "archived": false
 }

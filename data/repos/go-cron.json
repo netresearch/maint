@@ -62,25 +62,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 213,
-    "clones_unique": 108,
-    "views_total": 107,
+    "clones_total": 214,
+    "clones_unique": 110,
+    "views_total": 119,
     "views_unique": 59,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 20,
-        "uniques": 13
+        "count": 23,
+        "uniques": 12
       },
       {
         "referrer": "github.com",
-        "count": 14,
+        "count": 15,
         "uniques": 13
-      },
-      {
-        "referrer": "awesome-go.com",
-        "count": 3,
-        "uniques": 3
       },
       {
         "referrer": "statics.teams.cdn.office.net",
@@ -93,7 +88,12 @@
         "uniques": 1
       },
       {
-        "referrer": "ecosia.org",
+        "referrer": "awesome-go.com",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "claude.ai",
         "count": 1,
         "uniques": 1
       }
@@ -102,7 +102,7 @@
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 70,
+        "count": 72,
         "uniques": 50
       },
       {
@@ -118,45 +118,45 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/go-cron/discussions",
-        "title": "/discussions",
+        "path": "/netresearch/go-cron/issues/295",
+        "title": "/issues/295",
         "count": 3,
         "uniques": 2
       },
       {
-        "path": "/netresearch/go-cron/tree/v0.14.0",
-        "title": "/tree/v0.14.0",
+        "path": "/netresearch/go-cron/blob/2d84b012e857592846069b3cc2656e0260e5dab9/parser_test.go",
+        "title": "/blob/2d84b012e857592846069b3cc2656e0260e5dab9/parser_test.go",
         "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/go-cron/issues/230",
-        "title": "/issues/230",
-        "count": 2,
-        "uniques": 2
+        "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/blob/main/docs/PERSISTENCE_GUIDE.md",
         "title": "/blob/main/docs/PERSISTENCE_GUIDE.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-cron/issues/295",
-        "title": "/issues/295",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/LICENSE",
-        "title": "/blob/main/LICENSE",
-        "count": 1,
+        "count": 3,
         "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/blob/main/cron.go",
         "title": "/blob/main/cron.go",
-        "count": 1,
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/parser.go",
+        "title": "/blob/main/parser.go",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/issues",
+        "title": "/issues",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/discussions",
+        "title": "/discussions",
+        "count": 2,
         "uniques": 1
       }
     ]
