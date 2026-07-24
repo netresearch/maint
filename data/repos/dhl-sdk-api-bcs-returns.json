@@ -38,7 +38,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 244830,
+    "packagist_downloads": 244875,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,16 +49,23 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1661,
+    "packagist_downloads": 1604,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 16,
-    "clones_unique": 16,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 17,
+    "clones_unique": 17,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs-returns",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "2.1.2",
@@ -100,8 +107,8 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs-returns",
-    "total": 244830,
-    "monthly": 1661,
+    "total": 244875,
+    "monthly": 1604,
     "daily": 47,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs-returns"
   },

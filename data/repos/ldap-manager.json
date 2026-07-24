@@ -15,8 +15,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-10-02T10:38:21Z",
-  "pushed_at": "2026-07-19T21:31:14Z",
-  "updated_at": "2026-07-19T21:31:16Z",
+  "pushed_at": "2026-07-23T21:40:08Z",
+  "updated_at": "2026-07-23T21:40:15Z",
   "composer_name": null,
   "lifetime": {
     "stars": 12,
@@ -24,40 +24,40 @@
     "watchers": 2,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 1348,
+    "commits": 1351,
     "issues_open": 1,
     "issues_closed": 7,
     "prs_open": 0,
-    "prs_merged": 569,
+    "prs_merged": 570,
     "prs_closed_unmerged": 48,
     "issues_total": 8,
     "releases": 20,
-    "release_downloads": 71,
+    "release_downloads": 76,
     "contributors": 8,
     "external_contributors": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 22627,
+    "ghcr_downloads": 22733,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 19,
+    "commits": 22,
     "issues_opened": 0,
-    "prs_opened": 11,
-    "prs_merged": 9,
+    "prs_opened": 12,
+    "prs_merged": 10,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 8130
+    "ghcr_downloads": 8236
   },
   "traffic_14d": {
-    "clones_total": 797,
-    "clones_unique": 101,
-    "views_total": 52,
-    "views_unique": 33,
+    "clones_total": 806,
+    "clones_unique": 103,
+    "views_total": 58,
+    "views_unique": 38,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 25,
+        "count": 24,
         "uniques": 12
       },
       {
@@ -71,12 +71,12 @@
         "uniques": 2
       },
       {
-        "referrer": "Bing",
+        "referrer": "doubao.com",
         "count": 1,
         "uniques": 1
       },
       {
-        "referrer": "doubao.com",
+        "referrer": "search.brave.com",
         "count": 1,
         "uniques": 1
       },
@@ -92,12 +92,6 @@
         "title": "Overview",
         "count": 23,
         "uniques": 18
-      },
-      {
-        "path": "/netresearch/ldap-manager/blob/main/docs/assets/ldap_manager_users.png",
-        "title": "/blob/main/docs/assets/ldap_manager_users.png",
-        "count": 2,
-        "uniques": 2
       },
       {
         "path": "/netresearch/ldap-manager/blob/v1.1.0/internal/web/server.go",
@@ -120,6 +114,12 @@
       {
         "path": "/netresearch/ldap-manager/blob/main/README.md",
         "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ldap-manager/blob/main/SECURITY.md",
+        "title": "/blob/main/SECURITY.md",
         "count": 1,
         "uniques": 1
       },
@@ -158,7 +158,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 671,
+      "contributions": 674,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -203,18 +203,18 @@
       {
         "package": "ldap-manager",
         "url": "https://github.com/netresearch/ldap-manager/pkgs/container/ldap-manager",
-        "total": 22627,
-        "thirty_day": 8130
+        "total": 22733,
+        "thirty_day": 8236
       }
     ],
-    "total": 22627,
-    "thirty_day": 8130
+    "total": 22733,
+    "thirty_day": 8236
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/ldap-manager/network/dependents"
   },
-  "blast_radius": 590,
+  "blast_radius": 591,
   "archived": false
 }

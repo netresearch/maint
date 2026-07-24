@@ -54,15 +54,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1217,
-    "clones_unique": 288,
-    "views_total": 254,
-    "views_unique": 87,
+    "clones_total": 1229,
+    "clones_unique": 290,
+    "views_total": 268,
+    "views_unique": 89,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 173,
-        "uniques": 74
+        "count": 170,
+        "uniques": 73
+      },
+      {
+        "referrer": "github.com",
+        "count": 25,
+        "uniques": 4
       },
       {
         "referrer": "Yahoo",
@@ -70,45 +75,40 @@
         "uniques": 1
       },
       {
-        "referrer": "github.com",
-        "count": 10,
-        "uniques": 3
+        "referrer": "search.brave.com",
+        "count": 6,
+        "uniques": 4
       },
       {
         "referrer": "chatgpt.com",
-        "count": 10,
-        "uniques": 2
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 3,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/docker-development-skill",
         "title": "Overview",
-        "count": 111,
-        "uniques": 79
+        "count": 112,
+        "uniques": 81
       },
       {
         "path": "/netresearch/docker-development-skill/tree/main/skills/docker-development",
         "title": "/tree/main/skills/docker-development",
-        "count": 30,
+        "count": 31,
         "uniques": 18
       },
       {
         "path": "/netresearch/docker-development-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 24,
-        "uniques": 18
+        "count": 27,
+        "uniques": 19
       },
       {
         "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/SKILL.md",
         "title": "/blob/main/skills/docker-development/SKILL.md",
-        "count": 23,
-        "uniques": 18
+        "count": 26,
+        "uniques": 19
       },
       {
         "path": "/netresearch/docker-development-skill/tree/main/skills/docker-development/references",
@@ -117,8 +117,8 @@
         "uniques": 7
       },
       {
-        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/checkpoints.yaml",
-        "title": "/blob/main/skills/docker-development/checkpoints.yaml",
+        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/references/bind-mount-ownership.md",
+        "title": "/blob/main/skills/docker-development/references/bind-mount-ownership.md",
         "count": 5,
         "uniques": 4
       },
@@ -129,22 +129,22 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/references/bind-mount-ownership.md",
-        "title": "/blob/main/skills/docker-development/references/bind-mount-ownership.md",
+        "path": "/netresearch/docker-development-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/checkpoints.yaml",
+        "title": "/blob/main/skills/docker-development/checkpoints.yaml",
         "count": 4,
         "uniques": 3
       },
       {
-        "path": "/netresearch/docker-development-skill/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-via-wsl/SKILL.md",
-        "title": "/blob/main/skills/docker-via-wsl/SKILL.md",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/references/ci-testing.md",
+        "title": "/blob/main/skills/docker-development/references/ci-testing.md",
+        "count": 4,
+        "uniques": 2
       }
     ]
   },

@@ -32,11 +32,11 @@
     "prs_closed_unmerged": 59,
     "issues_total": 190,
     "releases": 48,
-    "release_downloads": 1843,
+    "release_downloads": 1844,
     "contributors": 44,
     "external_contributors": 38,
     "packagist_downloads": 0,
-    "ghcr_downloads": 285245,
+    "ghcr_downloads": 287060,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -47,17 +47,17 @@
     "prs_merged": 7,
     "releases": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 50454
+    "ghcr_downloads": 50683
   },
   "traffic_14d": {
     "clones_total": 813,
-    "clones_unique": 225,
-    "views_total": 160,
-    "views_unique": 101,
+    "clones_unique": 224,
+    "views_total": 163,
+    "views_unique": 103,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 26,
+        "count": 29,
         "uniques": 10
       },
       {
@@ -71,6 +71,11 @@
         "uniques": 1
       },
       {
+        "referrer": "pkg.go.dev",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "referrer": "reddit.com",
         "count": 1,
         "uniques": 1
@@ -80,8 +85,14 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 23,
-        "uniques": 17
+        "count": 25,
+        "uniques": 18
+      },
+      {
+        "path": "/netresearch/ofelia/issues",
+        "title": "/issues",
+        "count": 6,
+        "uniques": 3
       },
       {
         "path": "/netresearch/ofelia/commit/68f6b04df6a951c132903236ab5789f8f1080ae8",
@@ -104,12 +115,6 @@
       {
         "path": "/netresearch/ofelia/blob/main/docs/webhooks.md",
         "title": "/blob/main/docs/webhooks.md",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/ofelia/issues",
-        "title": "/issues",
         "count": 3,
         "uniques": 2
       },
@@ -203,12 +208,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 285245,
-        "thirty_day": 50454
+        "total": 287060,
+        "thirty_day": 50683
       }
     ],
-    "total": 285245,
-    "thirty_day": 50454
+    "total": 287060,
+    "thirty_day": 50683
   },
   "dependents": {
     "repositories": 0,

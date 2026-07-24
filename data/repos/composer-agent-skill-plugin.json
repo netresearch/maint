@@ -19,8 +19,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-25T08:00:19Z",
-  "pushed_at": "2026-07-20T23:17:43Z",
-  "updated_at": "2026-07-20T23:17:05Z",
+  "pushed_at": "2026-07-23T14:28:38Z",
+  "updated_at": "2026-07-23T14:29:38Z",
   "composer_name": "netresearch/composer-agent-skill-plugin",
   "lifetime": {
     "stars": 8,
@@ -28,60 +28,55 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 217,
+    "commits": 223,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 75,
+    "prs_merged": 77,
     "prs_closed_unmerged": 14,
     "issues_total": 3,
     "releases": 9,
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 2918,
+    "packagist_downloads": 2934,
     "ghcr_downloads": 0,
     "dependents_repos": 44,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 6,
+    "commits": 10,
     "issues_opened": 0,
-    "prs_opened": 3,
-    "prs_merged": 3,
+    "prs_opened": 4,
+    "prs_merged": 4,
     "releases": 0,
-    "packagist_downloads": 899,
+    "packagist_downloads": 850,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 112,
     "clones_unique": 32,
-    "views_total": 33,
-    "views_unique": 22,
+    "views_total": 24,
+    "views_unique": 17,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 9,
-        "uniques": 8
+        "count": 7,
+        "uniques": 7
       },
       {
         "referrer": "github.com",
-        "count": 6,
-        "uniques": 6
+        "count": 4,
+        "uniques": 4
       },
       {
         "referrer": "DuckDuckGo",
-        "count": 5,
-        "uniques": 2
-      },
-      {
-        "referrer": "packagist.org",
         "count": 4,
         "uniques": 1
       },
       {
-        "referrer": "netresearch.github.io",
-        "count": 3,
+        "referrer": "packagist.org",
+        "count": 4,
         "uniques": 1
       },
       {
@@ -99,26 +94,14 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 20,
-        "uniques": 18
+        "count": 15,
+        "uniques": 15
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/discussions",
         "title": "/discussions",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/tree/main/examples/database-analyzer-skill",
-        "title": "/tree/main/examples/database-analyzer-skill",
         "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/tree/main/src",
-        "title": "/tree/main/src",
-        "count": 2,
-        "uniques": 2
+        "uniques": 1
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/actions/workflows/ci.yml",
@@ -145,8 +128,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/tree/main/examples",
-        "title": "/tree/main/examples",
+        "path": "/netresearch/composer-agent-skill-plugin/tree/main/examples/database-analyzer-skill",
+        "title": "/tree/main/examples/database-analyzer-skill",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/tree/main/src",
+        "title": "/tree/main/src",
         "count": 1,
         "uniques": 1
       },
@@ -167,7 +156,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 92,
+      "contributions": 98,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -193,8 +182,8 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 2918,
-    "monthly": 899,
+    "total": 2934,
+    "monthly": 850,
     "daily": 13,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
@@ -204,6 +193,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/composer-agent-skill-plugin/network/dependents"
   },
-  "blast_radius": 166,
+  "blast_radius": 168,
   "archived": false
 }
