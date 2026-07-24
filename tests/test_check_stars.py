@@ -92,6 +92,30 @@ def test_archived_repo_skips_token_gated_fetches():
         check_stars.get_stargazers, check_stars.get_forks, check_stars.get_watchers = original  # type: ignore[assignment]
 
 
+def test_per_repo_autherror_is_skipped_not_fatal():
+    """A 403 on one repo's stargazers must skip that repo, not abort the run.
+
+    Before this, github_request's AuthError propagated out of get_stargazers and
+    killed the whole scheduled run on the first inaccessible repo. Now the fetch
+    returns None (skip) and records the repo in _inaccessible.
+    """
+    check_stars._inaccessible.clear()
+
+    def _deny(*args, **kwargs):
+        raise check_stars.AuthError("403 for …/stargazers: Resource not accessible by personal access token")
+
+    original = check_stars.github_request
+    check_stars.github_request = _deny  # type: ignore[assignment]
+    try:
+        result = check_stars.get_stargazers("netresearch/deploy-rst")
+    finally:
+        check_stars.github_request = original  # type: ignore[assignment]
+
+    assert result is None, "an inaccessible repo must yield None, not raise"
+    assert "netresearch/deploy-rst" in check_stars._inaccessible, "the skip must be recorded for the summary"
+    check_stars._inaccessible.clear()
+
+
 if __name__ == "__main__":
     test_empty_repo_returns_no_dependents_without_scraping()
     print("OK: empty repo returns [] without scraping")
@@ -99,3 +123,5 @@ if __name__ == "__main__":
     print("OK: get_org_repos maps archived flag")
     test_archived_repo_skips_token_gated_fetches()
     print("OK: archived repo skips token-gated fetches")
+    test_per_repo_autherror_is_skipped_not_fatal()
+    print("OK: per-repo AuthError is skipped, not fatal")
