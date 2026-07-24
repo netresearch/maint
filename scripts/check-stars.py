@@ -21,12 +21,31 @@ FEED_URL = "https://github.com/netresearch/maint/actions/workflows/star-notifica
 # In-memory cache for user details (login -> user info dict)
 _user_cache: dict[str, dict] = {}
 
+# Repos whose social endpoints the token was NOT allowed to read this run, with
+# the reason. Since the 2026-06-30 API restriction the stargazers/subscribers/
+# forks endpoints are "limited to admins and collaborators", so a token that is
+# deliberately scoped narrower gets a 403 on some repos. Those are skipped and
+# summarised at the end rather than aborting the whole run — the goal is to
+# process every repo the token CAN read, not to fail the schedule on the first
+# one it cannot.
+_inaccessible: dict[str, str] = {}
+
+
+def note_inaccessible(repo_full_name: str, endpoint: str, detail: str) -> None:
+    """Record (once per repo) that the token could not read a social endpoint."""
+    if repo_full_name not in _inaccessible:
+        _inaccessible[repo_full_name] = f"{endpoint}: {detail}"
+        print(f"Skipping {repo_full_name} ({endpoint}): {detail}")
+
 
 class AuthError(Exception):
     """The token may not read an endpoint.
 
-    Systemic rather than per-repo, so it aborts the run instead of letting every
-    repo degrade to "no news" and reporting success.
+    Raised by github_request on a non-rate-limit 401/403. It is FATAL only for
+    the prerequisites (no token at all, or the org-repos listing) — without
+    those there is no work to do. For an individual repo's social endpoints it
+    is caught by the per-repo fetchers, which skip that repo and continue, so
+    one inaccessible repo never aborts the whole run.
     """
 
 
@@ -120,7 +139,9 @@ def get_user_details(login: str) -> dict | None:
         }
         _user_cache[login] = details
         return details
-    except requests.exceptions.RequestException as e:
+    except (requests.exceptions.RequestException, AuthError) as e:
+        # A missing user detail must never abort the run — the caller falls
+        # back to a bare profile link.
         print(f"Failed to get user details for {login}: {e}")
         return None
 
@@ -187,6 +208,11 @@ def get_stargazers(repo_full_name: str) -> list[dict] | None:
             f"{GITHUB_API}/repos/{repo_full_name}/stargazers?per_page=100",
             accept="application/vnd.github.star+json",
         )
+    except AuthError as e:
+        # The token may not read THIS repo's stargazers (private/archived, or a
+        # narrowly-scoped token post-2026-06-30). Skip it and carry on.
+        note_inaccessible(repo_full_name, "stargazers", str(e))
+        return None
     except requests.exceptions.RequestException as e:
         print(f"Failed to get stargazers for {repo_full_name}: {e}")
         return None
@@ -201,6 +227,9 @@ def get_forks(repo_full_name: str) -> list[dict] | None:
     """
     try:
         return github_request(f"{GITHUB_API}/repos/{repo_full_name}/forks?per_page=100")
+    except AuthError as e:
+        note_inaccessible(repo_full_name, "forks", str(e))
+        return None
     except requests.exceptions.RequestException as e:
         print(f"Failed to get forks for {repo_full_name}: {e}")
         return None
@@ -215,6 +244,9 @@ def get_watchers(repo_full_name: str) -> list[dict] | None:
     """
     try:
         return github_request(f"{GITHUB_API}/repos/{repo_full_name}/subscribers?per_page=100")
+    except AuthError as e:
+        note_inaccessible(repo_full_name, "subscribers", str(e))
+        return None
     except requests.exceptions.RequestException as e:
         print(f"Failed to get watchers for {repo_full_name}: {e}")
         return None
@@ -496,6 +528,20 @@ def main():
         print(f"Sent: {notifications_sent} notification(s)")
         if notification_errors > 0:
             print(f"Warning: {notification_errors} notification(s) failed to send")
+
+    # Report — but do not fail on — repos whose social endpoints the token could
+    # not read. A ::warning:: keeps it visible in the Actions UI (so a token that
+    # can suddenly read NOTHING is noticeable) without turning the scheduled run
+    # red on every trigger, which is the whole point of degrading gracefully.
+    if _inaccessible:
+        total = len(repos)
+        print(
+            f"::warning::Skipped {len(_inaccessible)} of {total} repo(s) whose social "
+            f"endpoints the token may not read (archived, private, or a narrowly-scoped "
+            f"token; see the 2026-06-30 API restriction). The rest were processed normally."
+        )
+        for name, reason in sorted(_inaccessible.items()):
+            print(f"  - {name}: {reason}")
 
 
 if __name__ == "__main__":
