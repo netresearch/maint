@@ -52,10 +52,23 @@
   "traffic_14d": {
     "clones_total": 3,
     "clones_unique": 3,
-    "views_total": 0,
-    "views_unique": 0,
+    "views_total": 2,
+    "views_unique": 2,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-demio",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-demio/blob/main/.editorconfig",
+        "title": "/blob/main/.editorconfig",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.1.2",

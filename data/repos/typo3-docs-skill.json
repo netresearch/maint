@@ -22,8 +22,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T07:02:25Z",
-  "pushed_at": "2026-07-13T20:25:55Z",
-  "updated_at": "2026-07-13T20:07:34Z",
+  "pushed_at": "2026-07-24T14:09:08Z",
+  "updated_at": "2026-07-24T14:12:10Z",
   "composer_name": null,
   "lifetime": {
     "stars": 7,
@@ -31,11 +31,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 206,
+    "commits": 208,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 51,
+    "prs_merged": 52,
     "prs_closed_unmerged": 4,
     "issues_total": 3,
     "releases": 43,
@@ -48,18 +48,18 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 13,
+    "commits": 15,
     "issues_opened": 0,
-    "prs_opened": 5,
-    "prs_merged": 5,
+    "prs_opened": 6,
+    "prs_merged": 6,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 795,
-    "clones_unique": 181,
-    "views_total": 52,
+    "clones_total": 810,
+    "clones_unique": 185,
+    "views_total": 49,
     "views_unique": 26,
     "top_referrers": [
       {
@@ -94,7 +94,7 @@
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/.claude-plugin/plugin.json",
         "title": "/blob/main/.claude-plugin/plugin.json",
-        "count": 5,
+        "count": 4,
         "uniques": 2
       },
       {
@@ -110,20 +110,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-docs-skill/actions",
-        "title": "/actions",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/typo3-docs-skill/actions/runs/22049634254",
         "title": "/actions/runs/22049634254",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
         "count": 1,
         "uniques": 1
       },
@@ -138,6 +126,18 @@
         "title": "/blob/main/renovate.json",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/evals/evals.json",
+        "title": "/blob/main/skills/typo3-docs/evals/evals.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/references/typo3-directives.md",
+        "title": "/blob/main/skills/typo3-docs/references/typo3-directives.md",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -150,7 +150,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 202,
+      "contributions": 204,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -171,6 +171,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-docs-skill/network/dependents"
   },
-  "blast_radius": 54,
+  "blast_radius": 55,
   "archived": false
 }

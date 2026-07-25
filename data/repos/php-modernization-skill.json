@@ -14,20 +14,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:20Z",
-  "pushed_at": "2026-07-23T17:00:00Z",
-  "updated_at": "2026-07-21T20:43:04Z",
+  "pushed_at": "2026-07-24T06:42:40Z",
+  "updated_at": "2026-07-24T06:42:44Z",
   "composer_name": null,
   "lifetime": {
     "stars": 35,
     "forks": 1,
     "watchers": 2,
     "network": 1,
-    "open_issues_plus_prs": 3,
-    "commits": 248,
+    "open_issues_plus_prs": 2,
+    "commits": 255,
     "issues_open": 2,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 70,
+    "prs_open": 0,
+    "prs_merged": 73,
     "prs_closed_unmerged": 4,
     "issues_total": 2,
     "releases": 35,
@@ -40,24 +40,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 32,
+    "commits": 37,
     "issues_opened": 0,
-    "prs_opened": 14,
-    "prs_merged": 12,
-    "releases": 5,
+    "prs_opened": 15,
+    "prs_merged": 14,
+    "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1125,
-    "clones_unique": 254,
-    "views_total": 437,
-    "views_unique": 162,
+    "clones_total": 1158,
+    "clones_unique": 249,
+    "views_total": 421,
+    "views_unique": 159,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 316,
-        "uniques": 128
+        "count": 306,
+        "uniques": 123
       },
       {
         "referrer": "DuckDuckGo",
@@ -70,6 +70,16 @@
         "uniques": 3
       },
       {
+        "referrer": "Bing",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "yandex.ru",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "referrer": "mcpmarket.com",
         "count": 2,
         "uniques": 1
@@ -77,11 +87,6 @@
       {
         "referrer": "teams.public.onecdn.static.microsoft",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "referrer": "Bing",
-        "count": 1,
         "uniques": 1
       },
       {
@@ -93,31 +98,26 @@
         "referrer": "statics.teams.cdn.office.net",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "yandex.ru",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/php-modernization-skill",
         "title": "Overview",
-        "count": 193,
-        "uniques": 140
+        "count": 181,
+        "uniques": 134
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization",
         "title": "/tree/main/skills/php-modernization",
-        "count": 38,
-        "uniques": 26
+        "count": 39,
+        "uniques": 27
       },
       {
         "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/SKILL.md",
         "title": "/blob/main/skills/php-modernization/SKILL.md",
-        "count": 36,
-        "uniques": 28
+        "count": 38,
+        "uniques": 30
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main",
@@ -126,26 +126,26 @@
         "uniques": 8
       },
       {
-        "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/references",
-        "title": "/tree/main/skills/php-modernization/references",
+        "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/templates/README.md",
+        "title": "/blob/main/skills/php-modernization/templates/README.md",
         "count": 9,
-        "uniques": 8
+        "uniques": 5
       },
       {
-        "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/scripts",
-        "title": "/tree/main/skills/php-modernization/scripts",
+        "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/references",
+        "title": "/tree/main/skills/php-modernization/references",
         "count": 8,
-        "uniques": 6
+        "uniques": 8
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/templates",
         "title": "/tree/main/skills/php-modernization/templates",
-        "count": 7,
-        "uniques": 6
+        "count": 8,
+        "uniques": 7
       },
       {
-        "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/references/php-8.5.md",
-        "title": "/blob/main/skills/php-modernization/references/php-8.5.md",
+        "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/scripts",
+        "title": "/tree/main/skills/php-modernization/scripts",
         "count": 7,
         "uniques": 5
       },
@@ -156,10 +156,10 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/templates/README.md",
-        "title": "/blob/main/skills/php-modernization/templates/README.md",
-        "count": 6,
-        "uniques": 4
+        "path": "/netresearch/php-modernization-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 5,
+        "uniques": 5
       }
     ]
   },
@@ -172,7 +172,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 229,
+      "contributions": 236,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -198,6 +198,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/php-modernization-skill/network/dependents"
   },
-  "blast_radius": 77,
+  "blast_radius": 80,
   "archived": false
 }
