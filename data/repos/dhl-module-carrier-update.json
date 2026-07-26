@@ -53,12 +53,24 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 48,
-    "clones_unique": 24,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 42,
+    "clones_unique": 21,
+    "views_total": 3,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 2,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/dhl-module-carrier-update",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/dhl-module-carrier-update/releases/tag/1.5.0",
         "title": "/releases/tag/1.5.0",
@@ -89,7 +101,7 @@
     "name": "dhl/module-carrier-update",
     "total": 2459,
     "monthly": 87,
-    "daily": 13,
+    "daily": 0,
     "url": "https://packagist.org/packages/dhl/module-carrier-update"
   },
   "ghcr": null,

@@ -50,19 +50,19 @@
     "prs_opened": 12,
     "prs_merged": 12,
     "releases": 5,
-    "packagist_downloads": 451,
+    "packagist_downloads": 444,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1761,
-    "clones_unique": 124,
-    "views_total": 27,
-    "views_unique": 20,
+    "clones_total": 1868,
+    "clones_unique": 126,
+    "views_total": 43,
+    "views_unique": 21,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 15,
-        "uniques": 10
+        "count": 31,
+        "uniques": 11
       },
       {
         "referrer": "github.com",
@@ -74,8 +74,8 @@
       {
         "path": "/netresearch/t3x-cowriter/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 18,
-        "uniques": 12
+        "count": 21,
+        "uniques": 13
       },
       {
         "path": "/netresearch/t3x-cowriter",
@@ -84,20 +84,50 @@
         "uniques": 6
       },
       {
+        "path": "/netresearch/t3x-cowriter/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-cowriter/actions/workflows/ci.yml",
         "title": "/actions/workflows/ci.yml",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-cowriter/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
+        "path": "/netresearch/t3x-cowriter/blob/main/.github/CODEOWNERS",
+        "title": "/blob/main/.github/CODEOWNERS",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-cowriter/blob/main/SECURITY.md",
-        "title": "/blob/main/SECURITY.md",
+        "path": "/netresearch/t3x-cowriter/blob/main/.github/ISSUE_TEMPLATE/bug_report.md",
+        "title": "/blob/main/.github/ISSUE_TEMPLATE/bug_report.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/.github/ISSUE_TEMPLATE/feature_request.md",
+        "title": "/blob/main/.github/ISSUE_TEMPLATE/feature_request.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/.github/labeler.yml",
+        "title": "/blob/main/.github/labeler.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/.github/template.yaml",
+        "title": "/blob/main/.github/template.yaml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/.github/workflows/auto-merge-deps.yml",
+        "title": "/blob/main/.github/workflows/auto-merge-deps.yml",
         "count": 1,
         "uniques": 1
       }
@@ -164,8 +194,8 @@
   "packagist": {
     "name": "netresearch/t3-cowriter",
     "total": 12056,
-    "monthly": 451,
-    "daily": 39,
+    "monthly": 444,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,

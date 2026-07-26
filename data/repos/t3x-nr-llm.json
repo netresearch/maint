@@ -42,7 +42,7 @@
     "prs_closed_unmerged": 18,
     "issues_total": 29,
     "releases": 46,
-    "release_downloads": 382,
+    "release_downloads": 383,
     "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 8916,
@@ -54,16 +54,16 @@
     "commits": 810,
     "issues_opened": 23,
     "prs_opened": 245,
-    "prs_merged": 243,
+    "prs_merged": 242,
     "releases": 16,
-    "packagist_downloads": 3384,
+    "packagist_downloads": 3379,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 24184,
-    "clones_unique": 621,
-    "views_total": 114,
-    "views_unique": 50,
+    "clones_total": 23698,
+    "clones_unique": 616,
+    "views_total": 120,
+    "views_unique": 54,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -71,14 +71,14 @@
         "uniques": 10
       },
       {
-        "referrer": "Google",
-        "count": 6,
-        "uniques": 3
+        "referrer": "github.com",
+        "count": 9,
+        "uniques": 4
       },
       {
         "referrer": "linkedin.com",
-        "count": 6,
-        "uniques": 1
+        "count": 9,
+        "uniques": 3
       },
       {
         "referrer": "docs.typo3.org",
@@ -86,9 +86,14 @@
         "uniques": 2
       },
       {
-        "referrer": "github.com",
+        "referrer": "Google",
         "count": 3,
-        "uniques": 3
+        "uniques": 2
+      },
+      {
+        "referrer": "netresearch.github.io",
+        "count": 2,
+        "uniques": 2
       }
     ],
     "top_paths": [
@@ -96,7 +101,7 @@
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
         "count": 56,
-        "uniques": 35
+        "uniques": 38
       },
       {
         "path": "/netresearch/t3x-nr-llm/commits/main",
@@ -107,12 +112,36 @@
       {
         "path": "/netresearch/t3x-nr-llm/blob/main/GEMINI.md",
         "title": "/blob/main/GEMINI.md",
-        "count": 3,
-        "uniques": 2
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-llm/blob/main/.github/dependabot.yml",
         "title": "/blob/main/.github/dependabot.yml",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/CLAUDE.md",
+        "title": "/blob/main/CLAUDE.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/Classes/Provider/ClaudeProvider.php",
+        "title": "/blob/main/Classes/Provider/ClaudeProvider.php",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
         "count": 2,
         "uniques": 2
       },
@@ -126,30 +155,6 @@
         "path": "/netresearch/t3x-nr-llm/blame/main/GEMINI.md",
         "title": "/blame/main/GEMINI.md",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/blob/main/Documentation/Images/backend-analytics.png",
-        "title": "/blob/main/Documentation/Images/backend-analytics.png",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/actions/workflows/docs.yml",
-        "title": "/actions/workflows/docs.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/blob/HEAD/Documentation/Adr/Adr023BackendCapabilityPermissions.rst",
-        "title": "/blob/HEAD/Documentation/Adr/Adr023BackendCapabilityPermissions.rst",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/blob/HEAD/Documentation/Developer/IntegrationGuide.rst",
-        "title": "/blob/HEAD/Documentation/Developer/IntegrationGuide.rst",
-        "count": 1,
         "uniques": 1
       }
     ]
@@ -190,8 +195,8 @@
   "packagist": {
     "name": "netresearch/nr-llm",
     "total": 8916,
-    "monthly": 3384,
-    "daily": 196,
+    "monthly": 3379,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,

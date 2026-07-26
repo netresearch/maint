@@ -45,12 +45,24 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 706,
-    "clones_unique": 119,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 759,
+    "clones_unique": 125,
+    "views_total": 3,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 2,
+        "uniques": 2
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-repurpose",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/t3x-nr-repurpose/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
@@ -86,7 +98,7 @@
     "name": "netresearch/nr-repurpose",
     "total": 232,
     "monthly": 232,
-    "daily": 28,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-repurpose"
   },
   "ghcr": null,

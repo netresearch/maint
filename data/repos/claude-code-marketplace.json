@@ -59,24 +59,29 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 874,
-    "clones_unique": 343,
-    "views_total": 335,
-    "views_unique": 225,
+    "clones_total": 897,
+    "clones_unique": 356,
+    "views_total": 334,
+    "views_unique": 221,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 171,
-        "uniques": 121
+        "count": 167,
+        "uniques": 116
       },
       {
         "referrer": "github.com",
         "count": 46,
-        "uniques": 39
+        "uniques": 41
       },
       {
         "referrer": "claude.ai",
         "count": 9,
+        "uniques": 3
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 3,
         "uniques": 3
       },
       {
@@ -88,11 +93,6 @@
         "referrer": "gist.github.com",
         "count": 3,
         "uniques": 1
-      },
-      {
-        "referrer": "chatgpt.com",
-        "count": 2,
-        "uniques": 2
       },
       {
         "referrer": "perplexity.ai",
@@ -119,8 +119,8 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 265,
-        "uniques": 206
+        "count": 263,
+        "uniques": 202
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
@@ -131,25 +131,37 @@
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
         "title": "/blob/main/.claude-plugin/marketplace.json",
-        "count": 8,
-        "uniques": 8
+        "count": 7,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/tree/main/site",
+        "title": "/tree/main/site",
+        "count": 5,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/blob/main/CLAUDE.md",
+        "title": "/blob/main/CLAUDE.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/tree/main",
+        "title": "/tree/main",
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 6,
-        "uniques": 5
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/claude-code-marketplace/issues",
         "title": "/issues",
         "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/blob/main/CLAUDE.md",
-        "title": "/blob/main/CLAUDE.md",
-        "count": 3,
         "uniques": 3
       },
       {
@@ -159,20 +171,8 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/claude-code-marketplace/tree/main",
-        "title": "/tree/main",
-        "count": 3,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/claude-code-marketplace/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/tree/main/site",
-        "title": "/tree/main/site",
         "count": 3,
         "uniques": 3
       }

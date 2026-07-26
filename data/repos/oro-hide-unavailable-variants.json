@@ -49,15 +49,45 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 26,
-    "clones_unique": 17,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 24,
+    "clones_unique": 18,
+    "views_total": 5,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 4,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/oro-hide-unavailable-variants",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/oro-hide-unavailable-variants/blob/master/CHANGELOG.md",
         "title": "/blob/master/CHANGELOG.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/oro-hide-unavailable-variants/blob/master/src/Decorator/MatrixGridOrderManagerDecorator.php",
+        "title": "/blob/master/src/Decorator/MatrixGridOrderManagerDecorator.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/oro-hide-unavailable-variants/tree/master/src",
+        "title": "/tree/master/src",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/oro-hide-unavailable-variants/tree/master/src/Decorator",
+        "title": "/tree/master/src/Decorator",
         "count": 1,
         "uniques": 1
       }
