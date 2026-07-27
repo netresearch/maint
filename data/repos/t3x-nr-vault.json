@@ -32,7 +32,7 @@
     "release_downloads": 255,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 46864,
+    "packagist_downloads": 46895,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,19 +43,19 @@
     "prs_opened": 35,
     "prs_merged": 34,
     "releases": 9,
-    "packagist_downloads": 24243,
+    "packagist_downloads": 24065,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2895,
-    "clones_unique": 207,
-    "views_total": 31,
-    "views_unique": 25,
+    "clones_total": 3053,
+    "clones_unique": 212,
+    "views_total": 35,
+    "views_unique": 27,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 5,
-        "uniques": 3
+        "count": 11,
+        "uniques": 5
       },
       {
         "referrer": "Google",
@@ -64,8 +64,8 @@
       },
       {
         "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "netresearch.github.io",
@@ -75,22 +75,22 @@
     ],
     "top_paths": [
       {
-        "path": "/netresearch/t3x-nr-vault/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
-        "title": "/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
-        "count": 10,
-        "uniques": 10
-      },
-      {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 8,
-        "uniques": 8
+        "count": 11,
+        "uniques": 11
       },
       {
-        "path": "/netresearch/t3x-nr-vault/blob/8f3308095fa0c7e9f8160d542dd4b4bd4be208c5/Classes/Seeder/DemoDataProvider.php",
-        "title": "/blob/8f3308095fa0c7e9f8160d542dd4b4bd4be208c5/Classes/Seeder/DemoDataProvider.php",
-        "count": 1,
-        "uniques": 1
+        "path": "/netresearch/t3x-nr-vault/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
+        "title": "/tree/86105aa0c6cf5c255ae66bb8b9249e0b39d2232b",
+        "count": 9,
+        "uniques": 9
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/issues",
+        "title": "/issues",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-vault/blob/main/AGENTS.md",
@@ -111,6 +111,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-vault/commit/7c8e21e526c90cd26b862b688eaf62d3df2057a6",
+        "title": "/commit/7c8e21e526c90cd26b862b688eaf62d3df2057a6",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-vault/commit/cdb1522439e15f93b12c95d297d36d75ae9e62f0",
         "title": "/commit/cdb1522439e15f93b12c95d297d36d75ae9e62f0",
         "count": 1,
@@ -125,12 +131,6 @@
       {
         "path": "/netresearch/t3x-nr-vault/commit/d5c309339e2eb4655c421e5fd6b4c5c3a14ed763",
         "title": "/commit/d5c309339e2eb4655c421e5fd6b4c5c3a14ed763",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/commits/main/ext_emconf.php",
-        "title": "/commits/main/ext_emconf.php",
         "count": 1,
         "uniques": 1
       }
@@ -166,9 +166,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 46864,
-    "monthly": 24243,
-    "daily": 3,
+    "total": 46895,
+    "monthly": 24065,
+    "daily": 26,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,

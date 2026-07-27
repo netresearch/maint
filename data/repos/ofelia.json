@@ -36,7 +36,7 @@
     "contributors": 44,
     "external_contributors": 38,
     "packagist_downloads": 0,
-    "ghcr_downloads": 291073,
+    "ghcr_downloads": 292968,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -47,13 +47,13 @@
     "prs_merged": 5,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 51443
+    "ghcr_downloads": 51751
   },
   "traffic_14d": {
-    "clones_total": 812,
-    "clones_unique": 229,
-    "views_total": 219,
-    "views_unique": 162,
+    "clones_total": 813,
+    "clones_unique": 228,
+    "views_total": 223,
+    "views_unique": 166,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -69,19 +69,14 @@
         "referrer": "reddit.com",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "referrer": "awesome-go.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 25,
-        "uniques": 18
+        "count": 24,
+        "uniques": 17
       },
       {
         "path": "/netresearch/ofelia/issues",
@@ -108,6 +103,12 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/ofelia/blob/v0.18.0/cli/config.go",
+        "title": "/blob/v0.18.0/cli/config.go",
+        "count": 3,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/ofelia/issues/653",
         "title": "/issues/653",
         "count": 3,
@@ -128,12 +129,6 @@
       {
         "path": "/netresearch/ofelia/blob/3ae73233fcab/cli/docker-labels.go",
         "title": "/blob/3ae73233fcab/cli/docker-labels.go",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/ofelia/blob/3ae73233fcab/core/adapters/mock/system.go",
-        "title": "/blob/3ae73233fcab/core/adapters/mock/system.go",
         "count": 2,
         "uniques": 2
       }
@@ -203,12 +198,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 291073,
-        "thirty_day": 51443
+        "total": 292968,
+        "thirty_day": 51751
       }
     ],
-    "total": 291073,
-    "thirty_day": 51443
+    "total": 292968,
+    "thirty_day": 51751
   },
   "dependents": {
     "repositories": 0,

@@ -37,7 +37,7 @@
     "release_downloads": 6,
     "contributors": 8,
     "external_contributors": 3,
-    "packagist_downloads": 1554,
+    "packagist_downloads": 1556,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -52,14 +52,19 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3478,
-    "clones_unique": 232,
-    "views_total": 39,
-    "views_unique": 8,
+    "clones_total": 3597,
+    "clones_unique": 240,
+    "views_total": 42,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "outlook.live.com",
         "count": 11,
+        "uniques": 1
+      },
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 3,
         "uniques": 1
       },
       {
@@ -86,6 +91,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-image-optimize/issues",
+        "title": "/issues",
+        "count": 6,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-nr-image-optimize/pulls",
         "title": "/pulls",
         "count": 6,
@@ -101,12 +112,6 @@
         "path": "/netresearch/t3x-nr-image-optimize/pull/134",
         "title": "/pull/134",
         "count": 4,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/issues",
-        "title": "/issues",
-        "count": 3,
         "uniques": 1
       },
       {
@@ -191,9 +196,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 1554,
+    "total": 1556,
     "monthly": 421,
-    "daily": 4,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,
