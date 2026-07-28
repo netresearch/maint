@@ -36,25 +36,20 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 43,
+    "commits": 42,
     "issues_opened": 0,
-    "prs_opened": 20,
-    "prs_merged": 19,
-    "releases": 5,
+    "prs_opened": 19,
+    "prs_merged": 18,
+    "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 885,
-    "clones_unique": 123,
-    "views_total": 61,
+    "clones_total": 886,
+    "clones_unique": 122,
+    "views_total": 28,
     "views_unique": 5,
     "top_referrers": [
-      {
-        "referrer": "Google",
-        "count": 35,
-        "uniques": 1
-      },
       {
         "referrer": "github.com",
         "count": 26,
@@ -63,64 +58,64 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/github-release-skill",
+        "title": "Overview",
+        "count": 6,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/github-release-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/github-release-skill/blob/main/skills/github-release/SKILL.md",
         "title": "/blob/main/skills/github-release/SKILL.md",
-        "count": 9,
-        "uniques": 2
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/github-release-skill/blob/main/skills/github-release/templates/release-generic.yml",
         "title": "/blob/main/skills/github-release/templates/release-generic.yml",
-        "count": 7,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/github-release-skill",
-        "title": "Overview",
-        "count": 5,
-        "uniques": 5
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/github-release-skill/tree/main/skills/github-release",
         "title": "/tree/main/skills/github-release",
-        "count": 5,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/github-release-skill/tree/main/skills/github-release/references",
-        "title": "/tree/main/skills/github-release/references",
-        "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/github-release-skill/blob/main/skills/github-release/checkpoints.yaml",
-        "title": "/blob/main/skills/github-release/checkpoints.yaml",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/github-release-skill/tree/main/skills/github-release/templates",
-        "title": "/tree/main/skills/github-release/templates",
-        "count": 3,
+        "count": 2,
         "uniques": 1
       },
       {
-        "path": "/netresearch/github-release-skill/blob/main/skills/github-release/evals/evals.json",
-        "title": "/blob/main/skills/github-release/evals/evals.json",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/github-release-skill/blob/main/.github/workflows/auto-merge-deps.yml",
+        "title": "/blob/main/.github/workflows/auto-merge-deps.yml",
+        "count": 1,
+        "uniques": 1
       },
       {
-        "path": "/netresearch/github-release-skill/blob/main/skills/github-release/templates/pre-push-tag-guard.sh",
-        "title": "/blob/main/skills/github-release/templates/pre-push-tag-guard.sh",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/github-release-skill/blob/main/.github/workflows/release.yml",
+        "title": "/blob/main/.github/workflows/release.yml",
+        "count": 1,
+        "uniques": 1
       },
       {
-        "path": "/netresearch/github-release-skill/tree/main/skills/github-release/scripts",
-        "title": "/tree/main/skills/github-release/scripts",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/github-release-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-release-skill/blob/main/commands/release.md",
+        "title": "/blob/main/commands/release.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-release-skill/blob/main/hooks/hooks.json",
+        "title": "/blob/main/hooks/hooks.json",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },

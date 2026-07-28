@@ -10,8 +10,8 @@
   "homepage": "https://www.netresearch.de/",
   "default_branch": "main",
   "created_at": "2026-03-15T19:35:10Z",
-  "pushed_at": "2026-07-24T09:32:10Z",
-  "updated_at": "2026-07-24T09:32:18Z",
+  "pushed_at": "2026-07-27T08:46:34Z",
+  "updated_at": "2026-07-27T08:47:33Z",
   "composer_name": "netresearch/nr-passkeys-fe",
   "lifetime": {
     "stars": 1,
@@ -19,36 +19,36 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 250,
+    "commits": 252,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 28,
+    "prs_merged": 29,
     "prs_closed_unmerged": 4,
     "issues_total": 3,
     "releases": 13,
     "release_downloads": 19,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 306,
+    "packagist_downloads": 308,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 22,
+    "commits": 24,
     "issues_opened": 0,
-    "prs_opened": 11,
-    "prs_merged": 10,
+    "prs_opened": 12,
+    "prs_merged": 11,
     "releases": 6,
-    "packagist_downloads": 293,
+    "packagist_downloads": 295,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1069,
+    "clones_total": 1068,
     "clones_unique": 116,
-    "views_total": 20,
-    "views_unique": 6,
+    "views_total": 21,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -103,6 +103,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-passkeys-fe/pull/30",
+        "title": "/pull/30",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-passkeys-fe/tree/main/Classes",
         "title": "/tree/main/Classes",
         "count": 1,
@@ -130,20 +136,20 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 9,
+      "contributions": 10,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 8,
+      "contributions": 9,
       "url": "https://github.com/apps/github-actions"
     }
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-fe",
-    "total": 306,
-    "monthly": 293,
-    "daily": 0,
+    "total": 308,
+    "monthly": 295,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-fe"
   },
   "ghcr": null,
@@ -152,6 +158,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-passkeys-fe/network/dependents"
   },
-  "blast_radius": 31,
+  "blast_radius": 32,
   "archived": false
 }

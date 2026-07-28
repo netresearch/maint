@@ -39,7 +39,7 @@
     "release_downloads": 53,
     "contributors": 3,
     "external_contributors": 1,
-    "packagist_downloads": 4350,
+    "packagist_downloads": 4397,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -50,12 +50,12 @@
     "prs_opened": 11,
     "prs_merged": 10,
     "releases": 5,
-    "packagist_downloads": 1108,
+    "packagist_downloads": 1152,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1748,
-    "clones_unique": 132,
+    "clones_total": 1750,
+    "clones_unique": 133,
     "views_total": 16,
     "views_unique": 8,
     "top_referrers": [
@@ -78,10 +78,10 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/package.json",
-        "title": "/blob/main/package.json",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/24832877059/workflow",
+        "title": "/actions/runs/24832877059/workflow",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/.github/workflows/codeql.yml",
@@ -104,6 +104,12 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/docs/adr/0001-per-user-password-enforcement.md",
         "title": "/blob/main/docs/adr/0001-per-user-password-enforcement.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/package.json",
+        "title": "/blob/main/package.json",
         "count": 1,
         "uniques": 1
       },
@@ -152,9 +158,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 4350,
-    "monthly": 1108,
-    "daily": 5,
+    "total": 4397,
+    "monthly": 1152,
+    "daily": 39,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,

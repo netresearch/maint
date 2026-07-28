@@ -27,21 +27,21 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-04-03T08:29:24Z",
-  "pushed_at": "2026-07-27T01:47:22Z",
-  "updated_at": "2026-07-27T01:46:23Z",
+  "pushed_at": "2026-07-27T18:31:56Z",
+  "updated_at": "2026-07-27T18:31:37Z",
   "composer_name": null,
   "lifetime": {
     "stars": 3,
     "forks": 4,
     "watchers": 1,
     "network": 4,
-    "open_issues_plus_prs": 5,
-    "commits": 1333,
+    "open_issues_plus_prs": 4,
+    "commits": 1335,
     "issues_open": 4,
     "issues_closed": 5,
-    "prs_open": 1,
-    "prs_merged": 246,
-    "prs_closed_unmerged": 44,
+    "prs_open": 0,
+    "prs_merged": 247,
+    "prs_closed_unmerged": 45,
     "issues_total": 9,
     "releases": 0,
     "release_downloads": 0,
@@ -53,18 +53,18 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 31,
+    "commits": 33,
     "issues_opened": 0,
-    "prs_opened": 18,
-    "prs_merged": 15,
+    "prs_opened": 19,
+    "prs_merged": 16,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 384,
-    "clones_unique": 53,
-    "views_total": 50,
+    "clones_total": 364,
+    "clones_unique": 50,
+    "views_total": 48,
     "views_unique": 18,
     "top_referrers": [
       {
@@ -109,12 +109,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/jira-to-openproject/blob/main/.importlinter",
-        "title": "/blob/main/.importlinter",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/jira-to-openproject/blob/main/Dockerfile",
         "title": "/blob/main/Dockerfile",
         "count": 1,
@@ -143,6 +137,12 @@
         "title": "/branches/all",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/fork",
+        "title": "/fork",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -160,12 +160,12 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 30,
+      "contributions": 31,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 20,
+      "contributions": 21,
       "url": "https://github.com/apps/dependabot"
     }
   ],
@@ -176,6 +176,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jira-to-openproject/network/dependents"
   },
-  "blast_radius": 263,
+  "blast_radius": 264,
   "archived": false
 }
