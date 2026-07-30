@@ -45,12 +45,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 250,
-    "clones_unique": 24,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 421,
+    "clones_unique": 35,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-wellknown",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": null,
   "top_contributors": [
@@ -64,7 +77,7 @@
     "name": "netresearch/nr-wellknown",
     "total": 1,
     "monthly": 1,
-    "daily": 1,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-wellknown"
   },
   "ghcr": null,

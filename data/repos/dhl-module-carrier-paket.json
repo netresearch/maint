@@ -36,25 +36,25 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 5,
-    "packagist_downloads": 254527,
+    "packagist_downloads": 254730,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 2
   },
   "recent_30d": {
-    "commits": 11,
+    "commits": 9,
     "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
-    "releases": 5,
-    "packagist_downloads": 6492,
+    "releases": 4,
+    "packagist_downloads": 6433,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 131,
-    "clones_unique": 52,
-    "views_total": 21,
-    "views_unique": 9,
+    "clones_total": 79,
+    "clones_unique": 42,
+    "views_total": 23,
+    "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -87,9 +87,21 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/dhl-module-carrier-paket/wiki/Documentation-English",
+        "title": "/wiki/Documentation-English",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/dhl-module-carrier-paket/blob/main/composer.json",
         "title": "/blob/main/composer.json",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/blob/5d3cdbe2453f0349ca76c1b869a18943ee8fe188/Model/AdditionalFee/AdditionalFeeProvider.php",
+        "title": "/blob/5d3cdbe2453f0349ca76c1b869a18943ee8fe188/Model/AdditionalFee/AdditionalFeeProvider.php",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -113,18 +125,6 @@
       {
         "path": "/netresearch/dhl-module-carrier-paket/issues",
         "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-carrier-paket/labels/bug",
-        "title": "/labels/bug",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-carrier-paket/tree/main",
-        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       }
@@ -175,9 +175,9 @@
   ],
   "packagist": {
     "name": "dhl/module-carrier-paket",
-    "total": 254527,
-    "monthly": 6492,
-    "daily": 179,
+    "total": 254730,
+    "monthly": 6433,
+    "daily": 177,
     "url": "https://packagist.org/packages/dhl/module-carrier-paket"
   },
   "ghcr": null,

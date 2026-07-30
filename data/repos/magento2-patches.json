@@ -50,16 +50,28 @@
   "traffic_14d": {
     "clones_total": 15,
     "clones_unique": 12,
-    "views_total": 1,
-    "views_unique": 1,
+    "views_total": 4,
+    "views_unique": 2,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/magento2-patches/blob/main/renovate.json",
+        "title": "/blob/main/renovate.json",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/magento2-patches",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/magento2-patches/blob/main/composer.json",
         "title": "/blob/main/composer.json",

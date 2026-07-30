@@ -19,7 +19,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-09T16:08:11Z",
-  "pushed_at": "2026-07-24T08:37:58Z",
+  "pushed_at": "2026-07-30T04:32:38Z",
   "updated_at": "2026-07-24T08:39:04Z",
   "composer_name": "netresearch/nr-passkeys-be",
   "lifetime": {
@@ -27,11 +27,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 411,
     "issues_open": 1,
     "issues_closed": 3,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 83,
     "prs_closed_unmerged": 5,
     "issues_total": 4,
@@ -39,7 +39,7 @@
     "release_downloads": 53,
     "contributors": 3,
     "external_contributors": 1,
-    "packagist_downloads": 4402,
+    "packagist_downloads": 4413,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -47,17 +47,17 @@
   "recent_30d": {
     "commits": 26,
     "issues_opened": 0,
-    "prs_opened": 11,
+    "prs_opened": 12,
     "prs_merged": 10,
     "releases": 5,
-    "packagist_downloads": 1130,
+    "packagist_downloads": 1132,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1749,
-    "clones_unique": 130,
+    "clones_total": 1750,
+    "clones_unique": 131,
     "views_total": 16,
-    "views_unique": 8,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -66,7 +66,7 @@
       },
       {
         "referrer": "netresearch.github.io",
-        "count": 2,
+        "count": 3,
         "uniques": 1
       }
     ],
@@ -74,18 +74,12 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be",
         "title": "Overview",
-        "count": 7,
+        "count": 8,
         "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/24832877059/workflow",
         "title": "/actions/runs/24832877059/workflow",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/.github/workflows/codeql.yml",
-        "title": "/blob/main/.github/workflows/codeql.yml",
         "count": 1,
         "uniques": 1
       },
@@ -158,9 +152,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 4402,
-    "monthly": 1130,
-    "daily": 5,
+    "total": 4413,
+    "monthly": 1132,
+    "daily": 11,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,
