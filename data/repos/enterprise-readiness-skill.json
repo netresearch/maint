@@ -22,7 +22,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-29T17:57:15Z",
-  "pushed_at": "2026-07-28T05:54:52Z",
+  "pushed_at": "2026-07-30T19:53:13Z",
   "updated_at": "2026-07-28T05:54:55Z",
   "composer_name": null,
   "lifetime": {
@@ -30,11 +30,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 3,
     "commits": 277,
     "issues_open": 2,
     "issues_closed": 0,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 78,
     "prs_closed_unmerged": 2,
     "issues_total": 2,
@@ -50,22 +50,22 @@
   "recent_30d": {
     "commits": 17,
     "issues_opened": 0,
-    "prs_opened": 7,
+    "prs_opened": 8,
     "prs_merged": 7,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 606,
-    "clones_unique": 185,
-    "views_total": 13,
-    "views_unique": 8,
+    "clones_total": 592,
+    "clones_unique": 180,
+    "views_total": 24,
+    "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 3,
-        "uniques": 3
+        "count": 8,
+        "uniques": 5
       },
       {
         "referrer": "github.com",
@@ -82,14 +82,32 @@
       {
         "path": "/netresearch/enterprise-readiness-skill",
         "title": "Overview",
-        "count": 9,
-        "uniques": 7
+        "count": 11,
+        "uniques": 9
       },
       {
         "path": "/netresearch/enterprise-readiness-skill/tree/v4.15.2",
         "title": "/tree/v4.15.2",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/tree/v4.15.2/skills/enterprise-readiness",
+        "title": "/tree/v4.15.2/skills/enterprise-readiness",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/releases/tag/v4.15.2",
+        "title": "/releases/tag/v4.15.2",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/enterprise-readiness-skill/blob/HEAD/LICENSE",
@@ -98,8 +116,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/enterprise-readiness-skill/tree/v4.15.2/skills/enterprise-readiness",
-        "title": "/tree/v4.15.2/skills/enterprise-readiness",
+        "path": "/netresearch/enterprise-readiness-skill/blob/main/skills/enterprise-readiness/references/github.md",
+        "title": "/blob/main/skills/enterprise-readiness/references/github.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/blob/main/skills/enterprise-readiness/references/security-hardening.md",
+        "title": "/blob/main/skills/enterprise-readiness/references/security-hardening.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/blob/v4.15.2/skills/enterprise-readiness/SKILL.md",
+        "title": "/blob/v4.15.2/skills/enterprise-readiness/SKILL.md",
         "count": 1,
         "uniques": 1
       }

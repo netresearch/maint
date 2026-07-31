@@ -13,8 +13,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2013-03-11T14:10:52Z",
-  "pushed_at": "2026-07-27T22:54:12Z",
-  "updated_at": "2026-07-27T22:54:17Z",
+  "pushed_at": "2026-07-30T09:45:41Z",
+  "updated_at": "2026-07-30T09:45:14Z",
   "composer_name": "netresearch/contexts",
   "lifetime": {
     "stars": 11,
@@ -22,36 +22,36 @@
     "watchers": 11,
     "network": 11,
     "open_issues_plus_prs": 1,
-    "commits": 489,
+    "commits": 499,
     "issues_open": 1,
     "issues_closed": 17,
     "prs_open": 0,
-    "prs_merged": 102,
+    "prs_merged": 104,
     "prs_closed_unmerged": 33,
     "issues_total": 18,
-    "releases": 7,
+    "releases": 8,
     "release_downloads": 31,
     "contributors": 12,
     "external_contributors": 7,
-    "packagist_downloads": 19218,
+    "packagist_downloads": 19282,
     "ghcr_downloads": 0,
-    "dependents_repos": 3,
+    "dependents_repos": 4,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 3,
+    "commits": 13,
     "issues_opened": 0,
-    "prs_opened": 3,
-    "prs_merged": 3,
-    "releases": 0,
-    "packagist_downloads": 235,
+    "prs_opened": 5,
+    "prs_merged": 5,
+    "releases": 1,
+    "packagist_downloads": 299,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 405,
-    "clones_unique": 46,
-    "views_total": 6,
-    "views_unique": 6,
+    "clones_total": 417,
+    "clones_unique": 45,
+    "views_total": 7,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -68,8 +68,14 @@
       {
         "path": "/netresearch/t3x-contexts",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-contexts/actions/runs/21729897948",
+        "title": "/actions/runs/21729897948",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-contexts/blob/main/.github/workflows/ci.yml",
@@ -88,19 +94,25 @@
         "title": "/blob/main/ext_localconf.php",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts/issues/25",
+        "title": "/issues/25",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v4.0.0",
-    "tag_name": "v4.0.0",
-    "published_at": "2026-02-28T23:13:52Z",
-    "url": "https://github.com/netresearch/t3x-contexts/releases/tag/v4.0.0"
+    "name": "v5.0.1",
+    "tag_name": "v5.0.1",
+    "published_at": "2026-07-30T09:48:54Z",
+    "url": "https://github.com/netresearch/t3x-contexts/releases/tag/v5.0.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 146,
+      "contributions": 156,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -151,17 +163,17 @@
   ],
   "packagist": {
     "name": "netresearch/contexts",
-    "total": 19218,
-    "monthly": 235,
-    "daily": 0,
+    "total": 19282,
+    "monthly": 299,
+    "daily": 56,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,
   "dependents": {
-    "repositories": 3,
+    "repositories": 4,
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts/network/dependents"
   },
-  "blast_radius": 169,
+  "blast_radius": 173,
   "archived": false
 }

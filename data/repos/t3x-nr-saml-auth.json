@@ -47,12 +47,24 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 172,
-    "clones_unique": 26,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 233,
+    "clones_unique": 31,
+    "views_total": 2,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-saml-auth",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/t3x-nr-saml-auth/blob/main/composer.json",
         "title": "/blob/main/composer.json",

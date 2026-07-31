@@ -21,7 +21,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T08:31:58Z",
-  "pushed_at": "2026-07-25T14:44:36Z",
+  "pushed_at": "2026-07-30T19:53:09Z",
   "updated_at": "2026-07-25T14:44:41Z",
   "composer_name": null,
   "lifetime": {
@@ -29,11 +29,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 0,
+    "open_issues_plus_prs": 1,
     "commits": 374,
     "issues_open": 0,
     "issues_closed": 2,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 100,
     "prs_closed_unmerged": 5,
     "issues_total": 2,
@@ -49,22 +49,22 @@
   "recent_30d": {
     "commits": 59,
     "issues_opened": 1,
-    "prs_opened": 21,
+    "prs_opened": 22,
     "prs_merged": 21,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1202,
-    "clones_unique": 236,
-    "views_total": 55,
-    "views_unique": 26,
+    "clones_total": 1130,
+    "clones_unique": 224,
+    "views_total": 57,
+    "views_unique": 27,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 29,
-        "uniques": 14
+        "count": 30,
+        "uniques": 15
       },
       {
         "referrer": "github.com",
@@ -73,13 +73,8 @@
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
-        "count": 5,
-        "uniques": 2
-      },
-      {
-        "referrer": "chatgpt.com",
-        "count": 1,
-        "uniques": 1
+        "count": 7,
+        "uniques": 3
       }
     ],
     "top_paths": [
@@ -94,6 +89,12 @@
         "title": "/blob/main/skills/typo3-testing/SKILL.md",
         "count": 4,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-testing-skill/blob/main/AGENTS.md",
@@ -134,12 +135,6 @@
       {
         "path": "/netresearch/typo3-testing-skill/blob/main/.gitleaks.toml",
         "title": "/blob/main/.gitleaks.toml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/blob/main/README.md",
-        "title": "/blob/main/README.md",
         "count": 1,
         "uniques": 1
       }

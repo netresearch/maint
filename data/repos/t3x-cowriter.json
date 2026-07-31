@@ -19,8 +19,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-01-14T19:41:07Z",
-  "pushed_at": "2026-07-24T10:29:55Z",
-  "updated_at": "2026-07-24T10:29:56Z",
+  "pushed_at": "2026-07-30T10:44:09Z",
+  "updated_at": "2026-07-30T10:44:56Z",
   "composer_name": "netresearch/t3-cowriter",
   "lifetime": {
     "stars": 10,
@@ -28,33 +28,33 @@
     "watchers": 5,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 432,
+    "commits": 434,
     "issues_open": 1,
     "issues_closed": 13,
     "prs_open": 0,
-    "prs_merged": 96,
+    "prs_merged": 97,
     "prs_closed_unmerged": 17,
     "issues_total": 14,
     "releases": 21,
     "release_downloads": 44,
     "contributors": 12,
     "external_contributors": 8,
-    "packagist_downloads": 12089,
+    "packagist_downloads": 12161,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 40,
+    "commits": 42,
     "issues_opened": 0,
-    "prs_opened": 12,
-    "prs_merged": 12,
+    "prs_opened": 13,
+    "prs_merged": 13,
     "releases": 5,
-    "packagist_downloads": 467,
+    "packagist_downloads": 537,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1908,
+    "clones_total": 1921,
     "clones_unique": 134,
     "views_total": 45,
     "views_unique": 22,
@@ -147,13 +147,18 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 60,
+      "contributions": 61,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "TheDevMinerTV",
       "contributions": 13,
       "url": "https://github.com/TheDevMinerTV"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 13,
+      "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "Gitsko",
@@ -164,11 +169,6 @@
       "login": "Copilot",
       "contributions": 12,
       "url": "https://github.com/apps/copilot-swe-agent"
-    },
-    {
-      "login": "github-actions[bot]",
-      "contributions": 12,
-      "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "Thoemel42",
@@ -193,9 +193,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 12089,
-    "monthly": 467,
-    "daily": 6,
+    "total": 12161,
+    "monthly": 537,
+    "daily": 59,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,
@@ -204,6 +204,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-cowriter/network/dependents"
   },
-  "blast_radius": 136,
+  "blast_radius": 137,
   "archived": false
 }
