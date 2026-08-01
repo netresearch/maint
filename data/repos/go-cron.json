@@ -62,25 +62,30 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 494,
-    "clones_unique": 192,
-    "views_total": 229,
-    "views_unique": 78,
+    "clones_total": 505,
+    "clones_unique": 201,
+    "views_total": 244,
+    "views_unique": 84,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 47,
-        "uniques": 15
+        "count": 51,
+        "uniques": 16
       },
       {
         "referrer": "Google",
-        "count": 39,
-        "uniques": 21
+        "count": 45,
+        "uniques": 24
       },
       {
         "referrer": "awesome-go.com",
         "count": 4,
         "uniques": 3
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 3,
+        "uniques": 1
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
@@ -91,19 +96,14 @@
         "referrer": "claude.ai",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "statics.teams.cdn.office.net",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 88,
-        "uniques": 56
+        "count": 96,
+        "uniques": 61
       },
       {
         "path": "/netresearch/go-cron/pull/390",
@@ -120,8 +120,14 @@
       {
         "path": "/netresearch/go-cron/issues",
         "title": "/issues",
-        "count": 6,
-        "uniques": 4
+        "count": 7,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/PERSISTENCE_GUIDE.md",
+        "title": "/blob/main/docs/PERSISTENCE_GUIDE.md",
+        "count": 7,
+        "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/pulls",
@@ -132,12 +138,6 @@
       {
         "path": "/netresearch/go-cron/blob/2d84b012e857592846069b3cc2656e0260e5dab9/parser_test.go",
         "title": "/blob/2d84b012e857592846069b3cc2656e0260e5dab9/parser_test.go",
-        "count": 6,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/docs/PERSISTENCE_GUIDE.md",
-        "title": "/blob/main/docs/PERSISTENCE_GUIDE.md",
         "count": 6,
         "uniques": 1
       },

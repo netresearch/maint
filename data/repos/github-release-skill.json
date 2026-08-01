@@ -10,20 +10,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-10T11:16:02Z",
-  "pushed_at": "2026-07-30T19:53:11Z",
-  "updated_at": "2026-07-29T08:48:58Z",
+  "pushed_at": "2026-07-31T05:07:06Z",
+  "updated_at": "2026-07-31T05:07:19Z",
   "composer_name": null,
   "lifetime": {
     "stars": 3,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 145,
+    "open_issues_plus_prs": 1,
+    "commits": 147,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 60,
+    "prs_open": 0,
+    "prs_merged": 61,
     "prs_closed_unmerged": 2,
     "issues_total": 1,
     "releases": 14,
@@ -36,23 +36,23 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 44,
+    "commits": 37,
     "issues_opened": 0,
-    "prs_opened": 21,
-    "prs_merged": 19,
-    "releases": 4,
+    "prs_opened": 19,
+    "prs_merged": 18,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 809,
-    "clones_unique": 117,
-    "views_total": 6,
+    "clones_total": 775,
+    "clones_unique": 110,
+    "views_total": 8,
     "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 3,
+        "count": 5,
         "uniques": 3
       }
     ],
@@ -60,8 +60,8 @@
       {
         "path": "/netresearch/github-release-skill",
         "title": "Overview",
-        "count": 4,
-        "uniques": 3
+        "count": 5,
+        "uniques": 4
       },
       {
         "path": "/netresearch/github-release-skill/blob/main/LICENSE-CC-BY-SA-4.0",
@@ -70,8 +70,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/github-release-skill/blob/main/skills/github-release/templates/release-generic.yml",
-        "title": "/blob/main/skills/github-release/templates/release-generic.yml",
+        "path": "/netresearch/github-release-skill/blob/main/skills/github-release/checkpoints.yaml",
+        "title": "/blob/main/skills/github-release/checkpoints.yaml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-release-skill/tree/main/skills/github-release",
+        "title": "/tree/main/skills/github-release",
         "count": 1,
         "uniques": 1
       }
@@ -86,7 +92,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 141,
+      "contributions": 143,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -102,6 +108,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-release-skill/network/dependents"
   },
-  "blast_radius": 61,
+  "blast_radius": 62,
   "archived": false
 }

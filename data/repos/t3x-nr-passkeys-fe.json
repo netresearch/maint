@@ -30,7 +30,7 @@
     "release_downloads": 19,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 387,
+    "packagist_downloads": 415,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -41,24 +41,19 @@
     "prs_opened": 12,
     "prs_merged": 11,
     "releases": 6,
-    "packagist_downloads": 374,
+    "packagist_downloads": 402,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1172,
-    "clones_unique": 126,
-    "views_total": 21,
+    "clones_total": 1171,
+    "clones_unique": 125,
+    "views_total": 16,
     "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 7,
-        "uniques": 3
-      },
-      {
-        "referrer": "extensions.typo3.org",
         "count": 5,
-        "uniques": 1
+        "uniques": 3
       },
       {
         "referrer": "packagist.org",
@@ -67,7 +62,12 @@
       },
       {
         "referrer": "netresearch.github.io",
-        "count": 3,
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
         "uniques": 1
       }
     ],
@@ -75,25 +75,13 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-fe",
         "title": "Overview",
-        "count": 11,
+        "count": 10,
         "uniques": 5
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-fe/blob/main/Classes/Authentication/PasskeyFrontendAuthenticationService.php",
         "title": "/blob/main/Classes/Authentication/PasskeyFrontendAuthenticationService.php",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-fe/tree/main/Classes/Authentication",
-        "title": "/tree/main/Classes/Authentication",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-fe/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
-        "count": 2,
+        "count": 1,
         "uniques": 1
       },
       {
@@ -111,6 +99,12 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-fe/tree/main/Classes",
         "title": "/tree/main/Classes",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/tree/main/Classes/Authentication",
+        "title": "/tree/main/Classes/Authentication",
         "count": 1,
         "uniques": 1
       },
@@ -147,9 +141,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-fe",
-    "total": 387,
-    "monthly": 374,
-    "daily": 60,
+    "total": 415,
+    "monthly": 402,
+    "daily": 23,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-fe"
   },
   "ghcr": null,
