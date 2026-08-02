@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:25Z",
-  "pushed_at": "2026-07-31T06:27:10Z",
-  "updated_at": "2026-07-31T23:25:05Z",
+  "pushed_at": "2026-08-01T14:38:18Z",
+  "updated_at": "2026-08-01T14:38:20Z",
   "composer_name": null,
   "lifetime": {
     "stars": 31,
@@ -23,11 +23,11 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 270,
+    "commits": 275,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 80,
+    "prs_merged": 82,
     "prs_closed_unmerged": 5,
     "issues_total": 3,
     "releases": 30,
@@ -40,23 +40,23 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 26,
+    "commits": 31,
     "issues_opened": 1,
-    "prs_opened": 9,
-    "prs_merged": 9,
+    "prs_opened": 11,
+    "prs_merged": 11,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1172,
-    "clones_unique": 290,
-    "views_total": 282,
-    "views_unique": 128,
+    "clones_total": 1240,
+    "clones_unique": 299,
+    "views_total": 281,
+    "views_unique": 133,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 142,
+        "count": 130,
         "uniques": 73
       },
       {
@@ -66,8 +66,13 @@
       },
       {
         "referrer": "github.com",
+        "count": 11,
+        "uniques": 8
+      },
+      {
+        "referrer": "Bing",
         "count": 7,
-        "uniques": 5
+        "uniques": 2
       },
       {
         "referrer": "DuckDuckGo",
@@ -90,11 +95,6 @@
         "uniques": 1
       },
       {
-        "referrer": "Bing",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "referrer": "claudemarketplaces.com",
         "count": 1,
         "uniques": 1
@@ -109,32 +109,32 @@
       {
         "path": "/netresearch/security-audit-skill",
         "title": "Overview",
-        "count": 121,
-        "uniques": 99
+        "count": 127,
+        "uniques": 106
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
         "title": "/blob/main/skills/security-audit/SKILL.md",
-        "count": 25,
-        "uniques": 23
+        "count": 24,
+        "uniques": 22
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
         "title": "/tree/main/skills/security-audit",
-        "count": 19,
+        "count": 18,
         "uniques": 12
-      },
-      {
-        "path": "/netresearch/security-audit-skill/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 9,
-        "uniques": 5
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/references",
         "title": "/tree/main/skills/security-audit/references",
         "count": 9,
-        "uniques": 5
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/security-audit-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 8,
+        "uniques": 4
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/scripts",
@@ -149,12 +149,6 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/security-audit-skill/releases/tag/v2.10.5",
-        "title": "/releases/tag/v2.10.5",
-        "count": 5,
-        "uniques": 5
-      },
-      {
         "path": "/netresearch/security-audit-skill/tree/main/scripts",
         "title": "/tree/main/scripts",
         "count": 5,
@@ -165,6 +159,12 @@
         "title": "/tree/main/skills",
         "count": 5,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/security-audit-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 5,
+        "uniques": 3
       }
     ]
   },
@@ -177,7 +177,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 256,
+      "contributions": 261,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -203,6 +203,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/security-audit-skill/network/dependents"
   },
-  "blast_radius": 87,
+  "blast_radius": 89,
   "archived": false
 }

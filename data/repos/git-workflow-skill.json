@@ -31,7 +31,7 @@
     "prs_closed_unmerged": 1,
     "issues_total": 3,
     "releases": 37,
-    "release_downloads": 253,
+    "release_downloads": 255,
     "contributors": 4,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -49,19 +49,24 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1553,
-    "clones_unique": 379,
-    "views_total": 579,
-    "views_unique": 232,
+    "clones_total": 1618,
+    "clones_unique": 389,
+    "views_total": 641,
+    "views_unique": 239,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 372,
-        "uniques": 168
+        "count": 397,
+        "uniques": 174
+      },
+      {
+        "referrer": "Bing",
+        "count": 56,
+        "uniques": 11
       },
       {
         "referrer": "github.com",
-        "count": 37,
+        "count": 40,
         "uniques": 13
       },
       {
@@ -70,13 +75,8 @@
         "uniques": 6
       },
       {
-        "referrer": "Bing",
-        "count": 11,
-        "uniques": 8
-      },
-      {
-        "referrer": "perplexity.ai",
-        "count": 6,
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "count": 7,
         "uniques": 1
       },
       {
@@ -94,32 +94,38 @@
       {
         "path": "/netresearch/git-workflow-skill",
         "title": "Overview",
-        "count": 287,
-        "uniques": 212
+        "count": 298,
+        "uniques": 217
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow",
         "title": "/tree/main/skills/git-workflow",
-        "count": 55,
-        "uniques": 42
+        "count": 59,
+        "uniques": 46
       },
       {
         "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/SKILL.md",
         "title": "/blob/main/skills/git-workflow/SKILL.md",
-        "count": 55,
-        "uniques": 34
-      },
-      {
-        "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/references",
-        "title": "/tree/main/skills/git-workflow/references",
-        "count": 18,
-        "uniques": 12
+        "count": 56,
+        "uniques": 35
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main",
         "title": "/tree/main",
-        "count": 16,
+        "count": 20,
+        "uniques": 13
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/references",
+        "title": "/tree/main/skills/git-workflow/references",
+        "count": 17,
         "uniques": 11
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/tree/main/hooks",
+        "title": "/tree/main/hooks",
+        "count": 9,
+        "uniques": 8
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/scripts",
@@ -128,28 +134,22 @@
         "uniques": 8
       },
       {
+        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/commit-conventions.md",
+        "title": "/blob/main/skills/git-workflow/references/commit-conventions.md",
+        "count": 9,
+        "uniques": 7
+      },
+      {
         "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/pull-request-workflow.md",
         "title": "/blob/main/skills/git-workflow/references/pull-request-workflow.md",
         "count": 9,
         "uniques": 7
       },
       {
-        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/commit-conventions.md",
-        "title": "/blob/main/skills/git-workflow/references/commit-conventions.md",
-        "count": 8,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/git-workflow-skill/tree/main/hooks",
-        "title": "/tree/main/hooks",
-        "count": 7,
-        "uniques": 6
-      },
-      {
         "path": "/netresearch/git-workflow-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 7,
-        "uniques": 6
+        "count": 8,
+        "uniques": 7
       }
     ]
   },

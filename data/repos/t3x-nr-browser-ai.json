@@ -16,11 +16,11 @@
     "typo3",
     "typo3-extension"
   ],
-  "homepage": "",
+  "homepage": "https://netresearch.github.io/t3x-nr-browser-ai/",
   "default_branch": "main",
   "created_at": "2026-07-28T14:31:41Z",
-  "pushed_at": "2026-07-31T18:03:44Z",
-  "updated_at": "2026-07-31T18:04:26Z",
+  "pushed_at": "2026-08-01T17:37:36Z",
+  "updated_at": "2026-08-01T17:37:39Z",
   "composer_name": null,
   "lifetime": {
     "stars": 0,
@@ -28,14 +28,14 @@
     "watchers": 0,
     "network": 0,
     "open_issues_plus_prs": 0,
-    "commits": 40,
+    "commits": 62,
     "issues_open": 0,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 2,
+    "prs_merged": 10,
     "prs_closed_unmerged": 0,
     "issues_total": 0,
-    "releases": 0,
+    "releases": 1,
     "release_downloads": 0,
     "contributors": 1,
     "external_contributors": 0,
@@ -45,19 +45,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 40,
+    "commits": 62,
     "issues_opened": 0,
-    "prs_opened": 2,
-    "prs_merged": 2,
-    "releases": 0,
+    "prs_opened": 10,
+    "prs_merged": 10,
+    "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5,
-    "clones_unique": 5,
-    "views_total": 6,
-    "views_unique": 1,
+    "clones_total": 329,
+    "clones_unique": 22,
+    "views_total": 7,
+    "views_unique": 2,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -69,8 +69,8 @@
       {
         "path": "/netresearch/t3x-nr-browser-ai",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-browser-ai/blob/main/docs/superpowers/plans/2026-07-28-nr-browser-ai-poc.md",
@@ -104,11 +104,16 @@
       }
     ]
   },
-  "latest_release": null,
+  "latest_release": {
+    "name": "v0.2.0",
+    "tag_name": "v0.2.0",
+    "published_at": "2026-08-01T12:33:39Z",
+    "url": "https://github.com/netresearch/t3x-nr-browser-ai/releases/tag/v0.2.0"
+  },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 40,
+      "contributions": 62,
       "url": "https://github.com/CybotTM"
     }
   ],
@@ -119,6 +124,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-browser-ai/network/dependents"
   },
-  "blast_radius": 2,
+  "blast_radius": 10,
   "archived": false
 }
