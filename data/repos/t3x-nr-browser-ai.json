@@ -2,25 +2,31 @@
   "name": "t3x-nr-browser-ai",
   "full_name": "netresearch/t3x-nr-browser-ai",
   "url": "https://github.com/netresearch/t3x-nr-browser-ai",
-  "description": "On-device AI assistant for TYPO3 frontend pages powered by Chrome built-in AI - by Netresearch",
+  "description": "On-device AI assistant for TYPO3 that answers questions about the current page, powered by Chrome built-in AI - by Netresearch",
   "language": "TypeScript",
   "category": "typo3-extension",
   "license": "GPL-2.0",
   "topics": [
+    "accessibility",
     "ai",
+    "assistant",
+    "chatbot",
     "chrome-ai",
+    "frontend",
     "gemini-nano",
     "llm",
     "on-device-ai",
     "php",
+    "privacy",
+    "prompt-api",
     "typo3",
     "typo3-extension"
   ],
   "homepage": "https://netresearch.github.io/t3x-nr-browser-ai/",
   "default_branch": "main",
   "created_at": "2026-07-28T14:31:41Z",
-  "pushed_at": "2026-08-01T17:37:36Z",
-  "updated_at": "2026-08-01T17:37:39Z",
+  "pushed_at": "2026-08-02T20:08:15Z",
+  "updated_at": "2026-08-02T20:08:08Z",
   "composer_name": null,
   "lifetime": {
     "stars": 0,
@@ -28,14 +34,14 @@
     "watchers": 0,
     "network": 0,
     "open_issues_plus_prs": 0,
-    "commits": 62,
+    "commits": 85,
     "issues_open": 0,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 10,
+    "prs_merged": 20,
     "prs_closed_unmerged": 0,
     "issues_total": 0,
-    "releases": 1,
+    "releases": 2,
     "release_downloads": 0,
     "contributors": 1,
     "external_contributors": 0,
@@ -45,11 +51,11 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 62,
+    "commits": 85,
     "issues_opened": 0,
-    "prs_opened": 10,
-    "prs_merged": 10,
-    "releases": 1,
+    "prs_opened": 20,
+    "prs_merged": 20,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
@@ -105,15 +111,15 @@
     ]
   },
   "latest_release": {
-    "name": "v0.2.0",
-    "tag_name": "v0.2.0",
-    "published_at": "2026-08-01T12:33:39Z",
-    "url": "https://github.com/netresearch/t3x-nr-browser-ai/releases/tag/v0.2.0"
+    "name": "v0.3.0",
+    "tag_name": "v0.3.0",
+    "published_at": "2026-08-02T20:16:38Z",
+    "url": "https://github.com/netresearch/t3x-nr-browser-ai/releases/tag/v0.3.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 62,
+      "contributions": 85,
       "url": "https://github.com/CybotTM"
     }
   ],
@@ -124,6 +130,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-browser-ai/network/dependents"
   },
-  "blast_radius": 10,
+  "blast_radius": 20,
   "archived": false
 }

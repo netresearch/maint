@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:13Z",
-  "pushed_at": "2026-08-01T14:38:04Z",
-  "updated_at": "2026-08-01T14:38:08Z",
+  "pushed_at": "2026-08-02T18:40:31Z",
+  "updated_at": "2026-08-02T18:40:42Z",
   "composer_name": null,
   "lifetime": {
     "stars": 31,
@@ -21,11 +21,11 @@
     "watchers": 1,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 177,
+    "commits": 181,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 62,
+    "prs_merged": 64,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 12,
@@ -38,29 +38,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 11,
+    "commits": 15,
     "issues_opened": 0,
-    "prs_opened": 4,
-    "prs_merged": 4,
+    "prs_opened": 6,
+    "prs_merged": 6,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1002,
-    "clones_unique": 193,
-    "views_total": 94,
-    "views_unique": 47,
+    "clones_total": 1052,
+    "clones_unique": 206,
+    "views_total": 109,
+    "views_unique": 50,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 71,
-        "uniques": 38
+        "count": 76,
+        "uniques": 39
       },
       {
         "referrer": "github.com",
-        "count": 6,
-        "uniques": 2
+        "count": 7,
+        "uniques": 3
       },
       {
         "referrer": "Bing",
@@ -77,14 +77,26 @@
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 54,
-        "uniques": 46
+        "count": 57,
+        "uniques": 49
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 7,
-        "uniques": 7
+        "count": 8,
+        "uniques": 8
+      },
+      {
+        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
+        "title": "/tree/main/skills/file-search/references",
+        "count": 8,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ripgrep-patterns.md",
+        "title": "/blob/main/skills/file-search/references/ripgrep-patterns.md",
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
@@ -93,16 +105,10 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
-        "title": "/tree/main/skills/file-search/references",
-        "count": 6,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ripgrep-patterns.md",
-        "title": "/blob/main/skills/file-search/references/ripgrep-patterns.md",
-        "count": 5,
-        "uniques": 5
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/scripts",
@@ -111,8 +117,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
-        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/evals",
+        "title": "/tree/main/skills/file-search/evals",
         "count": 2,
         "uniques": 2
       },
@@ -127,12 +133,6 @@
         "title": "/blob/main/AGENTS.md",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/file-search-skill/blob/main/scripts/verify-harness.sh",
-        "title": "/blob/main/scripts/verify-harness.sh",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -145,7 +145,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 106,
+      "contributions": 110,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -166,6 +166,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/file-search-skill/network/dependents"
   },
-  "blast_radius": 69,
+  "blast_radius": 71,
   "archived": false
 }
