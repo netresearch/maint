@@ -55,10 +55,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1123,
-    "clones_unique": 223,
-    "views_total": 38,
-    "views_unique": 21,
+    "clones_total": 1240,
+    "clones_unique": 244,
+    "views_total": 43,
+    "views_unique": 22,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -67,20 +67,42 @@
       },
       {
         "referrer": "github.com",
-        "count": 15,
-        "uniques": 5
+        "count": 14,
+        "uniques": 4
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/cli-tools-skill",
         "title": "Overview",
-        "count": 23,
-        "uniques": 18
+        "count": 25,
+        "uniques": 19
       },
       {
         "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools",
         "title": "/tree/main/skills/cli-tools",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/SKILL.md",
+        "title": "/blob/main/skills/cli-tools/SKILL.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/tree/main/scripts",
+        "title": "/tree/main/scripts",
         "count": 2,
         "uniques": 2
       },
@@ -103,12 +125,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/SKILL.md",
-        "title": "/blob/main/skills/cli-tools/SKILL.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/scripts/install_composer.sh",
         "title": "/blob/main/skills/cli-tools/scripts/install_composer.sh",
         "count": 1,
@@ -123,12 +139,6 @@
       {
         "path": "/netresearch/cli-tools-skill/discussions/categories/polls",
         "title": "/discussions/categories/polls",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/pull/39",
-        "title": "/pull/39",
         "count": 1,
         "uniques": 1
       }

@@ -14,20 +14,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T13:14:49Z",
-  "pushed_at": "2026-08-03T13:45:07Z",
-  "updated_at": "2026-08-03T13:48:14Z",
+  "pushed_at": "2026-08-04T19:40:58Z",
+  "updated_at": "2026-08-04T19:39:21Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 3,
-    "commits": 435,
+    "open_issues_plus_prs": 4,
+    "commits": 450,
     "issues_open": 3,
     "issues_closed": 0,
-    "prs_open": 0,
-    "prs_merged": 137,
+    "prs_open": 1,
+    "prs_merged": 142,
     "prs_closed_unmerged": 2,
     "issues_total": 3,
     "releases": 48,
@@ -40,29 +40,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 97,
+    "commits": 104,
     "issues_opened": 0,
-    "prs_opened": 38,
-    "prs_merged": 38,
-    "releases": 8,
+    "prs_opened": 41,
+    "prs_merged": 40,
+    "releases": 7,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 941,
-    "clones_unique": 236,
-    "views_total": 88,
+    "clones_total": 1175,
+    "clones_unique": 275,
+    "views_total": 97,
     "views_unique": 54,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 55,
-        "uniques": 23
+        "uniques": 24
       },
       {
         "referrer": "github.com",
-        "count": 4,
-        "uniques": 2
+        "count": 7,
+        "uniques": 3
       }
     ],
     "top_paths": [
@@ -70,13 +70,13 @@
         "path": "/netresearch/github-project-skill",
         "title": "Overview",
         "count": 35,
-        "uniques": 30
+        "uniques": 31
       },
       {
         "path": "/netresearch/github-project-skill/tree/main/skills/github-project",
         "title": "/tree/main/skills/github-project",
-        "count": 5,
-        "uniques": 3
+        "count": 6,
+        "uniques": 4
       },
       {
         "path": "/netresearch/github-project-skill/blob/main/skills/github-project/SKILL.md",
@@ -87,6 +87,12 @@
       {
         "path": "/netresearch/github-project-skill/blob/main/LICENSE-CC-BY-SA-4.0",
         "title": "/blob/main/LICENSE-CC-BY-SA-4.0",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/github-project-skill/tree/main/docs",
+        "title": "/tree/main/docs",
         "count": 3,
         "uniques": 2
       },
@@ -115,14 +121,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/github-project-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/github-project-skill/blob/main/LICENSE-MIT",
-        "title": "/blob/main/LICENSE-MIT",
+        "path": "/netresearch/github-project-skill/blob/main/.envrc",
+        "title": "/blob/main/.envrc",
         "count": 1,
         "uniques": 1
       }
@@ -137,7 +137,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 430,
+      "contributions": 445,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -158,6 +158,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-project-skill/network/dependents"
   },
-  "blast_radius": 142,
+  "blast_radius": 147,
   "archived": false
 }

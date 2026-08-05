@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 5,
-    "packagist_downloads": 255510,
+    "packagist_downloads": 255738,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 2
@@ -47,27 +47,27 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 4,
-    "packagist_downloads": 6164,
+    "packagist_downloads": 6160,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 54,
-    "clones_unique": 40,
-    "views_total": 25,
-    "views_unique": 12,
+    "clones_total": 51,
+    "clones_unique": 37,
+    "views_total": 20,
+    "views_unique": 16,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 3,
-        "uniques": 2
+        "count": 4,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-module-carrier-paket",
         "title": "Overview",
-        "count": 8,
-        "uniques": 3
+        "count": 6,
+        "uniques": 4
       },
       {
         "path": "/netresearch/dhl-module-carrier-paket/wiki/Documentation-German",
@@ -82,16 +82,10 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/dhl-module-carrier-paket/wiki/Documentation-English",
-        "title": "/wiki/Documentation-English",
+        "path": "/netresearch/dhl-module-carrier-paket/issues/3",
+        "title": "/issues/3",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/dhl-module-carrier-paket/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
-        "count": 2,
-        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-module-carrier-paket/blob/5d3cdbe2453f0349ca76c1b869a18943ee8fe188/Model/AdditionalFee/AdditionalFeeProvider.php",
@@ -106,20 +100,26 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/dhl-module-carrier-paket/blob/main/Model/Webservice/LocationFinderServiceFactory.php",
+        "title": "/blob/main/Model/Webservice/LocationFinderServiceFactory.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/dhl-module-carrier-paket/blob/main/README.md",
         "title": "/blob/main/README.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-module-carrier-paket/branches",
-        "title": "/branches",
+        "path": "/netresearch/dhl-module-carrier-paket/issues/8",
+        "title": "/issues/8",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-module-carrier-paket/issues",
-        "title": "/issues",
+        "path": "/netresearch/dhl-module-carrier-paket/labels/bug",
+        "title": "/labels/bug",
         "count": 1,
         "uniques": 1
       }
@@ -170,9 +170,9 @@
   ],
   "packagist": {
     "name": "dhl/module-carrier-paket",
-    "total": 255510,
-    "monthly": 6164,
-    "daily": 204,
+    "total": 255738,
+    "monthly": 6160,
+    "daily": 198,
     "url": "https://packagist.org/packages/dhl/module-carrier-paket"
   },
   "ghcr": null,

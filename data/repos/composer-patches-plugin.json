@@ -34,7 +34,7 @@
     "release_downloads": 0,
     "contributors": 16,
     "external_contributors": 12,
-    "packagist_downloads": 272665,
+    "packagist_downloads": 272784,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -45,18 +45,23 @@
     "prs_opened": 1,
     "prs_merged": 1,
     "releases": 0,
-    "packagist_downloads": 2356,
+    "packagist_downloads": 2353,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 164,
-    "clones_unique": 78,
-    "views_total": 13,
-    "views_unique": 9,
+    "clones_total": 94,
+    "clones_unique": 49,
+    "views_total": 18,
+    "views_unique": 14,
     "top_referrers": [
       {
         "referrer": "DuckDuckGo",
         "count": 5,
+        "uniques": 1
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -97,6 +102,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/composer-patches-plugin/commit/41798117c1e5ff66ac696628bce4696115a965e1",
+        "title": "/commit/41798117c1e5ff66ac696628bce4696115a965e1",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/composer-patches-plugin/commit/f573447ae0f1b5dd9a516aff6b3ee3d999f91a79",
         "title": "/commit/f573447ae0f1b5dd9a516aff6b3ee3d999f91a79",
         "count": 1,
@@ -115,8 +126,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/composer-patches-plugin/releases",
-        "title": "/releases",
+        "path": "/netresearch/composer-patches-plugin/issues/18",
+        "title": "/issues/18",
         "count": 1,
         "uniques": 1
       }
@@ -182,9 +193,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-patches-plugin",
-    "total": 272665,
-    "monthly": 2356,
-    "daily": 52,
+    "total": 272784,
+    "monthly": 2353,
+    "daily": 113,
     "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
   },
   "ghcr": null,

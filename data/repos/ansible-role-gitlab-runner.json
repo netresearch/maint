@@ -48,11 +48,16 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 104,
-    "clones_unique": 41,
-    "views_total": 3,
-    "views_unique": 3,
+    "clones_total": 89,
+    "clones_unique": 33,
+    "views_total": 15,
+    "views_unique": 4,
     "top_referrers": [
+      {
+        "referrer": "DuckDuckGo",
+        "count": 6,
+        "uniques": 1
+      },
       {
         "referrer": "Google",
         "count": 2,
@@ -68,12 +73,60 @@
       {
         "path": "/netresearch/ansible-role-gitlab-runner",
         "title": "Overview",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/tasks/configuration.yml",
+        "title": "/blob/main/tasks/configuration.yml",
         "count": 2,
-        "uniques": 2
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/tree/main/tasks",
+        "title": "/tree/main/tasks",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/ansible-role-gitlab-runner/blob/main/defaults/main.yml",
         "title": "/blob/main/defaults/main.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/tasks/install.yml",
+        "title": "/blob/main/tasks/install.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/tasks/main.yml",
+        "title": "/blob/main/tasks/main.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/tasks/registration.yml",
+        "title": "/blob/main/tasks/registration.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/templates/etc/apt/preferences.d/pin-gitlab-runner.pref.j2",
+        "title": "/blob/main/templates/etc/apt/preferences.d/pin-gitlab-runner.pref.j2",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/templates/etc/systemd/system/gitlab-runner.service.d/kill.conf.j2",
+        "title": "/blob/main/templates/etc/systemd/system/gitlab-runner.service.d/kill.conf.j2",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/tree/main",
+        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       }

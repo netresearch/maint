@@ -45,12 +45,31 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 10,
-    "clones_unique": 10,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 9,
+    "clones_unique": 9,
+    "views_total": 3,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/dhl-lib-shipping-mx",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-lib-shipping-mx/blob/0.9.0/Util/ShippingRoutes.php",
+        "title": "/blob/0.9.0/Util/ShippingRoutes.php",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "0.11.1",
