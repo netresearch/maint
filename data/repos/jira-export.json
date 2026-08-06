@@ -49,13 +49,18 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 188,
-    "clones_unique": 30,
-    "views_total": 4,
-    "views_unique": 4,
+    "clones_total": 183,
+    "clones_unique": 31,
+    "views_total": 5,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "netresearch.github.io",
         "count": 1,
         "uniques": 1
       }
@@ -64,8 +69,8 @@
       {
         "path": "/netresearch/jira-export",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/jira-export/blob/master/bin/export-html.php",

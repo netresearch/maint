@@ -17,8 +17,8 @@
   "homepage": "https://extensions.typo3.org/extension/nr_image_optimize",
   "default_branch": "main",
   "created_at": "2025-09-12T06:59:28Z",
-  "pushed_at": "2026-08-04T09:41:32Z",
-  "updated_at": "2026-08-04T09:43:52Z",
+  "pushed_at": "2026-08-05T23:30:21Z",
+  "updated_at": "2026-08-05T23:30:26Z",
   "composer_name": "netresearch/nr-image-optimize",
   "lifetime": {
     "stars": 2,
@@ -26,34 +26,34 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 4,
-    "commits": 453,
+    "commits": 457,
     "issues_open": 2,
     "issues_closed": 9,
     "prs_open": 2,
-    "prs_merged": 128,
-    "prs_closed_unmerged": 10,
+    "prs_merged": 130,
+    "prs_closed_unmerged": 12,
     "issues_total": 11,
     "releases": 20,
     "release_downloads": 6,
     "contributors": 8,
     "external_contributors": 3,
-    "packagist_downloads": 1749,
+    "packagist_downloads": 1802,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 71,
+    "commits": 75,
     "issues_opened": 6,
-    "prs_opened": 36,
-    "prs_merged": 33,
+    "prs_opened": 40,
+    "prs_merged": 35,
     "releases": 7,
-    "packagist_downloads": 562,
+    "packagist_downloads": 606,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3737,
-    "clones_unique": 233,
+    "clones_total": 3917,
+    "clones_unique": 243,
     "views_total": 33,
     "views_unique": 8,
     "top_referrers": [
@@ -74,13 +74,8 @@
       },
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "qwant.com",
@@ -102,12 +97,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-optimize",
-        "title": "Overview",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/t3x-nr-image-optimize/issues",
         "title": "/issues",
         "count": 4,
@@ -118,6 +107,12 @@
         "title": "/pull/134",
         "count": 4,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize",
+        "title": "Overview",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-image-optimize/pull/129",
@@ -138,14 +133,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-optimize/issues/131",
-        "title": "/issues/131",
+        "path": "/netresearch/t3x-nr-image-optimize/issues/117",
+        "title": "/issues/117",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-optimize/pull/106",
-        "title": "/pull/106",
+        "path": "/netresearch/t3x-nr-image-optimize/issues/131",
+        "title": "/issues/131",
         "count": 1,
         "uniques": 1
       }
@@ -160,7 +155,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 257,
+      "contributions": 261,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -201,9 +196,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 1749,
-    "monthly": 562,
-    "daily": 7,
+    "total": 1802,
+    "monthly": 606,
+    "daily": 47,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,
@@ -212,6 +207,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-image-optimize/network/dependents"
   },
-  "blast_radius": 150,
+  "blast_radius": 152,
   "archived": false
 }
