@@ -59,15 +59,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 633,
-    "clones_unique": 330,
-    "views_total": 336,
-    "views_unique": 230,
+    "clones_total": 613,
+    "clones_unique": 334,
+    "views_total": 363,
+    "views_unique": 246,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 164,
-        "uniques": 124
+        "count": 178,
+        "uniques": 133
       },
       {
         "referrer": "github.com",
@@ -75,14 +75,14 @@
         "uniques": 44
       },
       {
+        "referrer": "search.brave.com",
+        "count": 5,
+        "uniques": 2
+      },
+      {
         "referrer": "chatgpt.com",
         "count": 3,
         "uniques": 3
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 3,
-        "uniques": 1
       },
       {
         "referrer": "claude.ai",
@@ -99,14 +99,20 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 245,
-        "uniques": 216
+        "count": 268,
+        "uniques": 232
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 13,
+        "count": 14,
         "uniques": 12
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
+        "title": "/blob/main/.claude-plugin/marketplace.json",
+        "count": 8,
+        "uniques": 6
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/site",
@@ -115,33 +121,33 @@
         "uniques": 7
       },
       {
-        "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
-        "title": "/blob/main/.claude-plugin/marketplace.json",
+        "path": "/netresearch/claude-code-marketplace/tree/main/skills",
+        "title": "/tree/main/skills",
+        "count": 7,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/tree/main/skills/php-modernization",
+        "title": "/tree/main/skills/php-modernization",
         "count": 7,
         "uniques": 5
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 6,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/tree/main/skills/php-modernization",
-        "title": "/tree/main/skills/php-modernization",
-        "count": 6,
+        "count": 5,
         "uniques": 5
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/CLAUDE.md",
         "title": "/blob/main/CLAUDE.md",
-        "count": 6,
-        "uniques": 4
+        "count": 5,
+        "uniques": 3
       },
       {
-        "path": "/netresearch/claude-code-marketplace/tree/main/skills",
-        "title": "/tree/main/skills",
-        "count": 5,
+        "path": "/netresearch/claude-code-marketplace/tree/main/scripts",
+        "title": "/tree/main/scripts",
+        "count": 4,
         "uniques": 4
       },
       {
@@ -149,12 +155,6 @@
         "title": "/tree/main/site/src",
         "count": 4,
         "uniques": 4
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/tree/main/scripts",
-        "title": "/tree/main/scripts",
-        "count": 3,
-        "uniques": 3
       }
     ]
   },

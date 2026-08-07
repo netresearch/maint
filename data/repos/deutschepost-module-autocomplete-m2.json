@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 3,
-    "packagist_downloads": 232214,
+    "packagist_downloads": 232350,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,20 +43,56 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5968,
+    "packagist_downloads": 5827,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 45,
-    "clones_unique": 36,
-    "views_total": 3,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_unique": 37,
+    "views_total": 12,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 8,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/deutschepost-module-autocomplete-m2",
         "title": "Overview",
-        "count": 3,
+        "count": 6,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/etc/adminhtml/system.xml",
+        "title": "/blob/main/etc/adminhtml/system.xml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/etc/config.xml",
+        "title": "/blob/main/etc/config.xml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/tree/main/etc",
+        "title": "/tree/main/etc",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/tree/main/etc/adminhtml",
+        "title": "/tree/main/etc/adminhtml",
+        "count": 1,
         "uniques": 1
       }
     ]
@@ -91,9 +127,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-autocomplete-m2",
-    "total": 232214,
-    "monthly": 5968,
-    "daily": 205,
+    "total": 232350,
+    "monthly": 5827,
+    "daily": 113,
     "url": "https://packagist.org/packages/deutschepost/module-autocomplete-m2"
   },
   "ghcr": null,

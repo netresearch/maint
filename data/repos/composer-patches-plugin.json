@@ -34,7 +34,7 @@
     "release_downloads": 0,
     "contributors": 16,
     "external_contributors": 12,
-    "packagist_downloads": 272869,
+    "packagist_downloads": 272969,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -45,14 +45,14 @@
     "prs_opened": 1,
     "prs_merged": 1,
     "releases": 0,
-    "packagist_downloads": 2357,
+    "packagist_downloads": 2356,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 94,
-    "clones_unique": 47,
-    "views_total": 15,
-    "views_unique": 11,
+    "clones_total": 101,
+    "clones_unique": 48,
+    "views_total": 16,
+    "views_unique": 12,
     "top_referrers": [
       {
         "referrer": "DuckDuckGo",
@@ -61,8 +61,8 @@
       },
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "netresearch.github.io",
@@ -86,6 +86,12 @@
       {
         "path": "/netresearch/composer-patches-plugin/blob/master/README.md",
         "title": "/blob/master/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-patches-plugin/blob/master/renovate.json",
+        "title": "/blob/master/renovate.json",
         "count": 1,
         "uniques": 1
       },
@@ -122,12 +128,6 @@
       {
         "path": "/netresearch/composer-patches-plugin/issues/24",
         "title": "/issues/24",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-patches-plugin/issues/38",
-        "title": "/issues/38",
         "count": 1,
         "uniques": 1
       }
@@ -193,9 +193,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-patches-plugin",
-    "total": 272869,
-    "monthly": 2357,
-    "daily": 80,
+    "total": 272969,
+    "monthly": 2356,
+    "daily": 92,
     "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
   },
   "ghcr": null,

@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T10:14:23Z",
-  "pushed_at": "2026-08-05T20:31:32Z",
-  "updated_at": "2026-08-05T20:31:40Z",
+  "pushed_at": "2026-08-06T07:39:53Z",
+  "updated_at": "2026-08-06T07:39:59Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -30,14 +30,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 345,
+    "commits": 347,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 86,
+    "prs_merged": 87,
     "prs_closed_unmerged": 5,
     "issues_total": 4,
-    "releases": 47,
+    "releases": 48,
     "release_downloads": 155,
     "contributors": 4,
     "external_contributors": 1,
@@ -47,18 +47,18 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 33,
+    "commits": 35,
     "issues_opened": 2,
-    "prs_opened": 12,
-    "prs_merged": 14,
-    "releases": 3,
+    "prs_opened": 13,
+    "prs_merged": 15,
+    "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1021,
-    "clones_unique": 192,
-    "views_total": 21,
+    "clones_total": 1050,
+    "clones_unique": 204,
+    "views_total": 23,
     "views_unique": 19,
     "top_referrers": [
       {
@@ -68,16 +68,22 @@
       },
       {
         "referrer": "Google",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-conformance-skill",
         "title": "Overview",
-        "count": 9,
-        "uniques": 9
+        "count": 10,
+        "uniques": 10
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/tree/main",
+        "title": "/tree/main",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-conformance-skill/commit/a202f6a10c869f1c9190413f27ab8d29ed9379dd",
@@ -86,8 +92,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/typo3-conformance-skill/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance",
+        "title": "/tree/main/skills/typo3-conformance",
         "count": 2,
         "uniques": 2
       },
@@ -100,12 +106,6 @@
       {
         "path": "/netresearch/typo3-conformance-skill/actions/workflows/lint.yml",
         "title": "/actions/workflows/lint.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/SKILL.md",
-        "title": "/blob/main/skills/typo3-conformance/SKILL.md",
         "count": 1,
         "uniques": 1
       },
@@ -136,15 +136,15 @@
     ]
   },
   "latest_release": {
-    "name": "v2.16.1",
-    "tag_name": "v2.16.1",
-    "published_at": "2026-08-03T08:42:19Z",
-    "url": "https://github.com/netresearch/typo3-conformance-skill/releases/tag/v2.16.1"
+    "name": "v2.16.2",
+    "tag_name": "v2.16.2",
+    "published_at": "2026-08-06T07:41:12Z",
+    "url": "https://github.com/netresearch/typo3-conformance-skill/releases/tag/v2.16.2"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 332,
+      "contributions": 334,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -170,6 +170,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "blast_radius": 93,
+  "blast_radius": 94,
   "archived": false
 }
