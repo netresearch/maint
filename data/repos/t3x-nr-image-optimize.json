@@ -37,7 +37,7 @@
     "release_downloads": 6,
     "contributors": 8,
     "external_contributors": 3,
-    "packagist_downloads": 1809,
+    "packagist_downloads": 1865,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -48,14 +48,14 @@
     "prs_opened": 40,
     "prs_merged": 35,
     "releases": 7,
-    "packagist_downloads": 603,
+    "packagist_downloads": 645,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3414,
-    "clones_unique": 222,
-    "views_total": 30,
-    "views_unique": 7,
+    "clones_total": 3314,
+    "clones_unique": 219,
+    "views_total": 29,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "outlook.live.com",
@@ -64,18 +64,23 @@
       },
       {
         "referrer": "extensions.typo3.org",
-        "count": 5,
-        "uniques": 2
-      },
-      {
-        "referrer": "jira.netresearch.de",
-        "count": 4,
-        "uniques": 1
+        "count": 6,
+        "uniques": 3
       },
       {
         "referrer": "Google",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "jira.netresearch.de",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "packagist.org",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "qwant.com",
@@ -91,10 +96,10 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-optimize/pulls",
-        "title": "/pulls",
-        "count": 5,
-        "uniques": 1
+        "path": "/netresearch/t3x-nr-image-optimize",
+        "title": "Overview",
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-image-optimize/issues",
@@ -109,15 +114,9 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-optimize",
-        "title": "Overview",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/pull/129",
-        "title": "/pull/129",
-        "count": 2,
+        "path": "/netresearch/t3x-nr-image-optimize/pulls",
+        "title": "/pulls",
+        "count": 3,
         "uniques": 1
       },
       {
@@ -135,6 +134,12 @@
       {
         "path": "/netresearch/t3x-nr-image-optimize/issues/131",
         "title": "/issues/131",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/pull/129",
+        "title": "/pull/129",
         "count": 1,
         "uniques": 1
       },
@@ -196,9 +201,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 1809,
-    "monthly": 603,
-    "daily": 13,
+    "total": 1865,
+    "monthly": 645,
+    "daily": 48,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,

@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 3,
-    "packagist_downloads": 232350,
+    "packagist_downloads": 232541,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,15 +43,20 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5827,
+    "packagist_downloads": 5706,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 45,
-    "clones_unique": 37,
-    "views_total": 12,
-    "views_unique": 2,
+    "clones_total": 44,
+    "clones_unique": 38,
+    "views_total": 36,
+    "views_unique": 3,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 20,
+        "uniques": 1
+      },
       {
         "referrer": "Google",
         "count": 8,
@@ -62,13 +67,31 @@
       {
         "path": "/netresearch/deutschepost-module-autocomplete-m2",
         "title": "Overview",
-        "count": 6,
-        "uniques": 2
+        "count": 13,
+        "uniques": 3
       },
       {
         "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/composer.json",
         "title": "/blob/main/composer.json",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/tree/main/etc",
+        "title": "/tree/main/etc",
         "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/view/frontend/web/js/lib/postdirekt-autocomplete-lib.amd.js",
+        "title": "/blob/main/view/frontend/web/js/lib/postdirekt-autocomplete-lib.amd.js",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/Setup/Uninstall.php",
+        "title": "/blob/main/Setup/Uninstall.php",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -84,14 +107,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/deutschepost-module-autocomplete-m2/tree/main/etc",
-        "title": "/tree/main/etc",
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/etc/csp_whitelist.xml",
+        "title": "/blob/main/etc/csp_whitelist.xml",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/deutschepost-module-autocomplete-m2/tree/main/etc/adminhtml",
-        "title": "/tree/main/etc/adminhtml",
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/rector.php",
+        "title": "/blob/main/rector.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/view/frontend/web/js/autocomplete-dynamic.js",
+        "title": "/blob/main/view/frontend/web/js/autocomplete-dynamic.js",
         "count": 1,
         "uniques": 1
       }
@@ -127,9 +156,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-autocomplete-m2",
-    "total": 232350,
-    "monthly": 5827,
-    "daily": 113,
+    "total": 232541,
+    "monthly": 5706,
+    "daily": 164,
     "url": "https://packagist.org/packages/deutschepost/module-autocomplete-m2"
   },
   "ghcr": null,

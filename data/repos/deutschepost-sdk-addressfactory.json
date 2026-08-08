@@ -37,7 +37,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 4,
-    "packagist_downloads": 408455,
+    "packagist_downloads": 408759,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 0
@@ -48,15 +48,20 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 10605,
+    "packagist_downloads": 10399,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 40,
-    "clones_unique": 37,
-    "views_total": 3,
-    "views_unique": 3,
+    "clones_total": 39,
+    "clones_unique": 36,
+    "views_total": 13,
+    "views_unique": 5,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 9,
+        "uniques": 1
+      },
       {
         "referrer": "ecosia.org",
         "count": 1,
@@ -67,6 +72,30 @@
       {
         "path": "/netresearch/deutschepost-sdk-addressfactory",
         "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-addressfactory/pulls",
+        "title": "/pulls",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-addressfactory/blob/main/src/Soap/Client.php",
+        "title": "/blob/main/src/Soap/Client.php",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-addressfactory/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-addressfactory/blob/main/src/Service/AddressVerificationService.php",
+        "title": "/blob/main/src/Service/AddressVerificationService.php",
         "count": 1,
         "uniques": 1
       },
@@ -77,8 +106,26 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/deutschepost-sdk-addressfactory/pulls",
-        "title": "/pulls",
+        "path": "/netresearch/deutschepost-sdk-addressfactory/tree/main",
+        "title": "/tree/main",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-addressfactory/tree/main/src",
+        "title": "/tree/main/src",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-addressfactory/tree/main/src/Api",
+        "title": "/tree/main/src/Api",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-addressfactory/tree/main/src/Service",
+        "title": "/tree/main/src/Service",
         "count": 1,
         "uniques": 1
       }
@@ -129,9 +176,9 @@
   ],
   "packagist": {
     "name": "deutschepost/sdk-api-addressfactory",
-    "total": 408455,
-    "monthly": 10605,
-    "daily": 334,
+    "total": 408759,
+    "monthly": 10399,
+    "daily": 261,
     "url": "https://packagist.org/packages/deutschepost/sdk-api-addressfactory"
   },
   "ghcr": null,

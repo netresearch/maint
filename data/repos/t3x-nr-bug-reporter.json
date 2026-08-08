@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-02T13:28:58Z",
-  "pushed_at": "2026-08-06T01:43:15Z",
-  "updated_at": "2026-08-06T01:43:18Z",
+  "pushed_at": "2026-08-07T10:27:28Z",
+  "updated_at": "2026-08-07T10:27:33Z",
   "composer_name": "netresearch/nr-bug-reporter",
   "lifetime": {
     "stars": 1,
@@ -19,16 +19,16 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 18,
-    "issues_open": 0,
+    "commits": 23,
+    "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 4,
+    "prs_open": 0,
+    "prs_merged": 6,
     "prs_closed_unmerged": 0,
-    "issues_total": 0,
+    "issues_total": 1,
     "releases": 0,
     "release_downloads": 0,
-    "contributors": 1,
+    "contributors": 2,
     "external_contributors": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -36,20 +36,25 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 13,
-    "issues_opened": 0,
-    "prs_opened": 4,
-    "prs_merged": 4,
+    "commits": 17,
+    "issues_opened": 1,
+    "prs_opened": 5,
+    "prs_merged": 6,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 146,
-    "clones_unique": 23,
-    "views_total": 1,
-    "views_unique": 1,
+    "clones_total": 282,
+    "clones_unique": 43,
+    "views_total": 2,
+    "views_unique": 2,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "referrer": "netresearch.github.io",
         "count": 1,
@@ -60,8 +65,8 @@
       {
         "path": "/netresearch/t3x-nr-bug-reporter",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
@@ -69,8 +74,13 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 18,
+      "contributions": 21,
       "url": "https://github.com/CybotTM"
+    },
+    {
+      "login": "renovate[bot]",
+      "contributions": 2,
+      "url": "https://github.com/apps/renovate"
     }
   ],
   "packagist": null,
@@ -80,6 +90,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-bug-reporter/network/dependents"
   },
-  "blast_radius": 4,
+  "blast_radius": 7,
   "archived": false
 }
