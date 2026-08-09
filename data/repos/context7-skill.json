@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-23T21:54:50Z",
-  "pushed_at": "2026-08-07T20:08:14Z",
-  "updated_at": "2026-08-07T20:08:20Z",
+  "pushed_at": "2026-08-08T09:34:38Z",
+  "updated_at": "2026-08-08T09:34:28Z",
   "composer_name": null,
   "lifetime": {
     "stars": 49,
@@ -21,15 +21,15 @@
     "watchers": 1,
     "network": 7,
     "open_issues_plus_prs": 1,
-    "commits": 116,
+    "commits": 120,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 34,
+    "prs_merged": 36,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
-    "releases": 20,
-    "release_downloads": 212,
+    "releases": 21,
+    "release_downloads": 215,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -38,39 +38,44 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 16,
+    "commits": 20,
     "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 7,
-    "releases": 1,
+    "prs_opened": 9,
+    "prs_merged": 9,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1466,
-    "clones_unique": 464,
-    "views_total": 1125,
-    "views_unique": 612,
+    "clones_total": 1437,
+    "clones_unique": 457,
+    "views_total": 1062,
+    "views_unique": 585,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 817,
-        "uniques": 463
+        "count": 752,
+        "uniques": 445
       },
       {
         "referrer": "github.com",
-        "count": 104,
-        "uniques": 43
+        "count": 101,
+        "uniques": 41
       },
       {
         "referrer": "search.brave.com",
-        "count": 43,
-        "uniques": 23
+        "count": 42,
+        "uniques": 22
       },
       {
         "referrer": "Bing",
-        "count": 24,
-        "uniques": 8
+        "count": 25,
+        "uniques": 9
+      },
+      {
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "count": 12,
+        "uniques": 2
       },
       {
         "referrer": "context7.com",
@@ -93,11 +98,6 @@
         "uniques": 2
       },
       {
-        "referrer": "teams.public.onecdn.static.microsoft",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "referrer": "yandex.ru",
         "count": 1,
         "uniques": 1
@@ -107,85 +107,85 @@
       {
         "path": "/netresearch/context7-skill",
         "title": "Overview",
-        "count": 761,
-        "uniques": 559
+        "count": 732,
+        "uniques": 535
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7",
         "title": "/tree/main/skills/context7",
-        "count": 76,
-        "uniques": 52
+        "count": 72,
+        "uniques": 51
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/SKILL.md",
         "title": "/blob/main/skills/context7/SKILL.md",
-        "count": 61,
-        "uniques": 45
+        "count": 55,
+        "uniques": 43
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7/scripts",
         "title": "/tree/main/skills/context7/scripts",
-        "count": 39,
-        "uniques": 34
+        "count": 34,
+        "uniques": 32
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/scripts/context7.sh",
         "title": "/blob/main/skills/context7/scripts/context7.sh",
-        "count": 28,
-        "uniques": 15
+        "count": 27,
+        "uniques": 14
       },
       {
         "path": "/netresearch/context7-skill/tree/main",
         "title": "/tree/main",
-        "count": 23,
-        "uniques": 14
+        "count": 25,
+        "uniques": 15
       },
       {
         "path": "/netresearch/context7-skill/releases/tag/v1.6.1",
         "title": "/releases/tag/v1.6.1",
-        "count": 20,
-        "uniques": 18
+        "count": 18,
+        "uniques": 17
       },
       {
         "path": "/netresearch/context7-skill/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 15,
-        "uniques": 12
+        "count": 16,
+        "uniques": 14
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 12,
-        "uniques": 8
+        "count": 14,
+        "uniques": 9
       },
       {
-        "path": "/netresearch/context7-skill/tree/main/scripts",
-        "title": "/tree/main/scripts",
+        "path": "/netresearch/context7-skill/pulse",
+        "title": "/pulse",
         "count": 7,
-        "uniques": 6
+        "uniques": 4
       }
     ]
   },
   "latest_release": {
-    "name": "v1.6.1",
-    "tag_name": "v1.6.1",
-    "published_at": "2026-07-13T20:23:10Z",
-    "url": "https://github.com/netresearch/context7-skill/releases/tag/v1.6.1"
+    "name": "v1.7.0",
+    "tag_name": "v1.7.0",
+    "published_at": "2026-08-08T07:52:42Z",
+    "url": "https://github.com/netresearch/context7-skill/releases/tag/v1.7.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 110,
+      "contributions": 112,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 4,
+      "contributions": 5,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 2,
+      "contributions": 3,
       "url": "https://github.com/apps/github-actions"
     }
   ],
@@ -196,6 +196,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/context7-skill/network/dependents"
   },
-  "blast_radius": 49,
+  "blast_radius": 51,
   "archived": false
 }

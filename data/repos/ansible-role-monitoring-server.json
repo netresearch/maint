@@ -45,11 +45,17 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 50,
-    "clones_unique": 24,
-    "views_total": 4,
-    "views_unique": 4,
-    "top_referrers": [],
+    "clones_total": 64,
+    "clones_unique": 26,
+    "views_total": 9,
+    "views_unique": 5,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 5,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/ansible-role-monitoring-server/forks",
@@ -58,8 +64,38 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/ansible-role-monitoring-server",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-monitoring-server/blob/master/meta/main.yml",
+        "title": "/blob/master/meta/main.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/ansible-role-monitoring-server/graphs/commit-activity",
         "title": "/graphs/commit-activity",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-monitoring-server/tree/master/files",
+        "title": "/tree/master/files",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-monitoring-server/tree/master/files/samples",
+        "title": "/tree/master/files/samples",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-monitoring-server/tree/master/meta",
+        "title": "/tree/master/meta",
         "count": 1,
         "uniques": 1
       }

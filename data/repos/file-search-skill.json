@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:13Z",
-  "pushed_at": "2026-08-07T20:08:41Z",
-  "updated_at": "2026-08-07T20:08:47Z",
+  "pushed_at": "2026-08-08T08:36:17Z",
+  "updated_at": "2026-08-08T08:36:01Z",
   "composer_name": null,
   "lifetime": {
     "stars": 31,
@@ -21,15 +21,15 @@
     "watchers": 1,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 183,
+    "commits": 187,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 65,
+    "prs_merged": 67,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
-    "releases": 12,
-    "release_downloads": 119,
+    "releases": 13,
+    "release_downloads": 122,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -38,29 +38,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 17,
+    "commits": 21,
     "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 7,
-    "releases": 1,
+    "prs_opened": 9,
+    "prs_merged": 9,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1023,
-    "clones_unique": 216,
-    "views_total": 146,
+    "clones_total": 1026,
+    "clones_unique": 220,
+    "views_total": 144,
     "views_unique": 61,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 107,
-        "uniques": 47
+        "count": 104,
+        "uniques": 46
       },
       {
         "referrer": "github.com",
-        "count": 8,
-        "uniques": 4
+        "count": 7,
+        "uniques": 3
+      },
+      {
+        "referrer": "ecosia.org",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "skills.sh",
@@ -78,14 +83,14 @@
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 17,
-        "uniques": 13
+        "count": 16,
+        "uniques": 12
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
         "title": "/blob/main/skills/file-search/SKILL.md",
-        "count": 15,
-        "uniques": 10
+        "count": 14,
+        "uniques": 9
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
@@ -132,25 +137,25 @@
     ]
   },
   "latest_release": {
-    "name": "v1.6.2",
-    "tag_name": "v1.6.2",
-    "published_at": "2026-07-13T20:23:55Z",
-    "url": "https://github.com/netresearch/file-search-skill/releases/tag/v1.6.2"
+    "name": "v1.7.0",
+    "tag_name": "v1.7.0",
+    "published_at": "2026-08-08T07:54:29Z",
+    "url": "https://github.com/netresearch/file-search-skill/releases/tag/v1.7.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 112,
+      "contributions": 114,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 36,
+      "contributions": 37,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 35,
+      "contributions": 36,
       "url": "https://github.com/apps/github-actions"
     }
   ],
@@ -161,6 +166,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/file-search-skill/network/dependents"
   },
-  "blast_radius": 72,
+  "blast_radius": 74,
   "archived": false
 }

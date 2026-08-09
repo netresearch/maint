@@ -48,10 +48,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 26,
+    "clones_total": 25,
     "clones_unique": 13,
-    "views_total": 19,
-    "views_unique": 4,
+    "views_total": 22,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "DuckDuckGo",
@@ -65,6 +65,11 @@
       },
       {
         "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "ecosia.org",
         "count": 1,
         "uniques": 1
       },
@@ -78,6 +83,12 @@
       {
         "path": "/netresearch/ansible-role-gitlab-runner",
         "title": "Overview",
+        "count": 6,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/tasks/registration.yml",
+        "title": "/blob/main/tasks/registration.yml",
         "count": 4,
         "uniques": 3
       },
@@ -85,12 +96,6 @@
         "path": "/netresearch/ansible-role-gitlab-runner/tree/main/tasks",
         "title": "/tree/main/tasks",
         "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/tasks/registration.yml",
-        "title": "/blob/main/tasks/registration.yml",
-        "count": 3,
         "uniques": 2
       },
       {

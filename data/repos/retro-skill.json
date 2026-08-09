@@ -18,8 +18,8 @@
   "homepage": "https://github.com/netresearch/retro-skill",
   "default_branch": "main",
   "created_at": "2026-05-12T13:08:08Z",
-  "pushed_at": "2026-08-07T17:45:12Z",
-  "updated_at": "2026-08-07T17:45:17Z",
+  "pushed_at": "2026-08-08T07:51:20Z",
+  "updated_at": "2026-08-08T07:51:30Z",
   "composer_name": null,
   "lifetime": {
     "stars": 3,
@@ -27,14 +27,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 146,
+    "commits": 148,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 56,
+    "prs_merged": 57,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
-    "releases": 15,
+    "releases": 16,
     "release_downloads": 10,
     "contributors": 1,
     "external_contributors": 0,
@@ -44,23 +44,23 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 75,
+    "commits": 77,
     "issues_opened": 0,
-    "prs_opened": 29,
-    "prs_merged": 29,
-    "releases": 6,
+    "prs_opened": 30,
+    "prs_merged": 30,
+    "releases": 7,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 852,
-    "clones_unique": 149,
-    "views_total": 196,
-    "views_unique": 80,
+    "clones_total": 787,
+    "clones_unique": 138,
+    "views_total": 192,
+    "views_unique": 81,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 130,
+        "count": 126,
         "uniques": 48
       },
       {
@@ -85,7 +85,7 @@
       },
       {
         "referrer": "claude.ai",
-        "count": 4,
+        "count": 3,
         "uniques": 3
       },
       {
@@ -98,20 +98,20 @@
       {
         "path": "/netresearch/retro-skill",
         "title": "Overview",
-        "count": 101,
-        "uniques": 63
+        "count": 104,
+        "uniques": 64
       },
       {
         "path": "/netresearch/retro-skill/blob/main/docs/specs/retro-skill.md",
         "title": "/blob/main/docs/specs/retro-skill.md",
-        "count": 16,
-        "uniques": 16
+        "count": 15,
+        "uniques": 15
       },
       {
         "path": "/netresearch/retro-skill/tree/main/skills/retro",
         "title": "/tree/main/skills/retro",
-        "count": 14,
-        "uniques": 11
+        "count": 12,
+        "uniques": 10
       },
       {
         "path": "/netresearch/retro-skill/tree/main",
@@ -122,8 +122,8 @@
       {
         "path": "/netresearch/retro-skill/blob/main/skills/retro/SKILL.md",
         "title": "/blob/main/skills/retro/SKILL.md",
-        "count": 7,
-        "uniques": 7
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/retro-skill/tree/main/.github",
@@ -144,29 +144,29 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/retro-skill/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
-        "count": 3,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/retro-skill/blob/main/skills/retro/references/eval-integration.md",
         "title": "/blob/main/skills/retro/references/eval-integration.md",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/retro-skill/blob/main/skills/retro/scripts/detect-mechanical.py",
+        "title": "/blob/main/skills/retro/scripts/detect-mechanical.py",
         "count": 3,
         "uniques": 2
       }
     ]
   },
   "latest_release": {
-    "name": "v1.2.0",
-    "tag_name": "v1.2.0",
-    "published_at": "2026-08-06T07:42:17Z",
-    "url": "https://github.com/netresearch/retro-skill/releases/tag/v1.2.0"
+    "name": "v1.3.0",
+    "tag_name": "v1.3.0",
+    "published_at": "2026-08-08T07:55:20Z",
+    "url": "https://github.com/netresearch/retro-skill/releases/tag/v1.3.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 146,
+      "contributions": 148,
       "url": "https://github.com/CybotTM"
     }
   ],
@@ -177,6 +177,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/retro-skill/network/dependents"
   },
-  "blast_radius": 57,
+  "blast_radius": 58,
   "archived": false
 }

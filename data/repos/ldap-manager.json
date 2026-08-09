@@ -32,51 +32,46 @@
     "prs_closed_unmerged": 49,
     "issues_total": 8,
     "releases": 22,
-    "release_downloads": 79,
+    "release_downloads": 80,
     "contributors": 8,
     "external_contributors": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 24846,
+    "ghcr_downloads": 25475,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
     "commits": 48,
     "issues_opened": 0,
-    "prs_opened": 23,
+    "prs_opened": 22,
     "prs_merged": 21,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 8725
+    "ghcr_downloads": 9214
   },
   "traffic_14d": {
-    "clones_total": 1107,
-    "clones_unique": 93,
-    "views_total": 55,
+    "clones_total": 993,
+    "clones_unique": 90,
+    "views_total": 72,
     "views_unique": 35,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 18,
-        "uniques": 12
+        "count": 19,
+        "uniques": 13
       },
       {
         "referrer": "github.com",
-        "count": 6,
-        "uniques": 2
-      },
-      {
-        "referrer": "chatgpt.com",
-        "count": 1,
+        "count": 3,
         "uniques": 1
       },
       {
         "referrer": "kagi.com",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
-        "referrer": "perplexity.ai",
+        "referrer": "chatgpt.com",
         "count": 1,
         "uniques": 1
       }
@@ -85,8 +80,14 @@
       {
         "path": "/netresearch/ldap-manager",
         "title": "Overview",
-        "count": 28,
+        "count": 29,
         "uniques": 23
+      },
+      {
+        "path": "/netresearch/ldap-manager/blob/main/docs/user-guide/configuration.md",
+        "title": "/blob/main/docs/user-guide/configuration.md",
+        "count": 4,
+        "uniques": 1
       },
       {
         "path": "/netresearch/ldap-manager/blob/main/docs/assets/ldap_manager_users.png",
@@ -95,10 +96,34 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/ldap-manager/tree/main/docs/user-guide",
+        "title": "/tree/main/docs/user-guide",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ldap-manager/blob/main/docs/assets/ldap_manager_group_detail.png",
+        "title": "/blob/main/docs/assets/ldap_manager_group_detail.png",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/ldap-manager/blob/v1.0.5/LICENSE",
         "title": "/blob/v1.0.5/LICENSE",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/ldap-manager/blob/main/docs/user-guide/installation.md",
+        "title": "/blob/main/docs/user-guide/installation.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ldap-manager/tree/main/docs",
+        "title": "/tree/main/docs",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/ldap-manager/actions/workflows/ci.yml",
@@ -109,36 +134,6 @@
       {
         "path": "/netresearch/ldap-manager/blob/main/.editorconfig",
         "title": "/blob/main/.editorconfig",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ldap-manager/blob/main/.testcoverage.yml",
-        "title": "/blob/main/.testcoverage.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ldap-manager/blob/main/docs/assets/ldap_manager_group_detail.png",
-        "title": "/blob/main/docs/assets/ldap_manager_group_detail.png",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ldap-manager/blob/main/docs/assets/ldap_manager_groups.png",
-        "title": "/blob/main/docs/assets/ldap_manager_groups.png",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ldap-manager/blob/v1.0.5/internal/options/app.go",
-        "title": "/blob/v1.0.5/internal/options/app.go",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ldap-manager/blob/v1.0.7/internal/web/static/static.go",
-        "title": "/blob/v1.0.7/internal/web/static/static.go",
         "count": 1,
         "uniques": 1
       }
@@ -198,12 +193,12 @@
       {
         "package": "ldap-manager",
         "url": "https://github.com/netresearch/ldap-manager/pkgs/container/ldap-manager",
-        "total": 24846,
-        "thirty_day": 8725
+        "total": 25475,
+        "thirty_day": 9214
       }
     ],
-    "total": 24846,
-    "thirty_day": 8725
+    "total": 25475,
+    "thirty_day": 9214
   },
   "dependents": {
     "repositories": 0,

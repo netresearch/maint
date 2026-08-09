@@ -22,10 +22,10 @@
   "default_branch": "main",
   "created_at": "2022-05-30T12:58:03Z",
   "pushed_at": "2026-08-04T10:54:30Z",
-  "updated_at": "2026-08-04T10:54:35Z",
+  "updated_at": "2026-08-08T07:11:40Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 63,
+    "stars": 64,
     "forks": 6,
     "watchers": 1,
     "network": 204,
@@ -42,7 +42,7 @@
     "contributors": 45,
     "external_contributors": 39,
     "packagist_downloads": 0,
-    "ghcr_downloads": 315722,
+    "ghcr_downloads": 317890,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -53,23 +53,18 @@
     "prs_merged": 40,
     "releases": 4,
     "packagist_downloads": 0,
-    "ghcr_downloads": 53956
+    "ghcr_downloads": 54404
   },
   "traffic_14d": {
-    "clones_total": 3708,
-    "clones_unique": 277,
-    "views_total": 199,
-    "views_unique": 105,
+    "clones_total": 3700,
+    "clones_unique": 269,
+    "views_total": 196,
+    "views_unique": 99,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 32,
-        "uniques": 11
-      },
-      {
-        "referrer": "reddit.com",
-        "count": 3,
-        "uniques": 2
+        "count": 34,
+        "uniques": 12
       },
       {
         "referrer": "claude.ai",
@@ -80,14 +75,19 @@
         "referrer": "Google",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "reddit.com",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 47,
-        "uniques": 26
+        "count": 49,
+        "uniques": 25
       },
       {
         "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
@@ -209,12 +209,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 315722,
-        "thirty_day": 53956
+        "total": 317890,
+        "thirty_day": 54404
       }
     ],
-    "total": 315722,
-    "thirty_day": 53956
+    "total": 317890,
+    "thirty_day": 54404
   },
   "dependents": {
     "repositories": 0,
