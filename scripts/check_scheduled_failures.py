@@ -545,7 +545,7 @@ def main(argv: list[str] | None = None) -> int:
             previous = previous_workflows.get(key)
 
             if is_baseline:
-                # Nothing to compare against: record, and let report_baseline
+                # Nothing to compare against: record, and let format_baseline
                 # say it once rather than pretending each is a fresh break.
                 if summary["failing"]:
                     baseline_failures.append((repo, summary))
