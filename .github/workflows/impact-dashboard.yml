@@ -27,15 +27,24 @@ jobs:
           path: gh-pages
         continue-on-error: true
 
-      - name: Seed build dir with previous snapshots and history
+      - name: Seed build dir with previous snapshots, history and archived pages
         run: |
           mkdir -p build
           if [ -d gh-pages/data ]; then
             cp -r gh-pages/data build/
-            echo "Seeded build/ with $(find build/data -type f | wc -l) existing files."
+            echo "Seeded build/data with $(find build/data -type f | wc -l) existing files."
           else
             echo "No previous gh-pages data — starting fresh."
           fi
+          # Archived snapshot pages are written once and never regenerated: a
+          # cited snapshot URL has to keep showing the figures it showed when it
+          # was cited. Seeding them makes the renderer skip them.
+          for dir in gh-pages/snapshot gh-pages/de/snapshot; do
+            [ -d "$dir" ] || continue
+            target="build/${dir#gh-pages/}"
+            mkdir -p "$(dirname "$target")"
+            cp -r "$dir" "$target"
+          done
 
       - name: Setup Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
@@ -43,7 +52,7 @@ jobs:
           python-version: '3.14'
 
       - name: Install dependencies
-        run: pip install requests pyyaml
+        run: pip install requests pyyaml jinja2
 
       - name: Collect impact metrics
         env:
@@ -52,6 +61,19 @@ jobs:
           ORG_NAME: netresearch
           OUTPUT_DIR: build
         run: python scripts/collect_impact.py
+
+      - name: Render static site
+        env:
+          OUTPUT_DIR: build
+        run: python scripts/render_site.py
+
+      # Gate the artefact, not the source: placeholders, missing metadata, an
+      # uncaveated estimate or a third-party asset request fail here rather than
+      # on the live site.
+      - name: Verify rendered site
+        env:
+          OUTPUT_DIR: build
+        run: python scripts/verify_site.py
 
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453  # v4.1.0

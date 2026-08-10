@@ -1,0 +1,247 @@
+lang: de
+locale: de-DE
+html_lang: de
+og_locale: de_DE
+other_lang: en
+other_label: English
+
+meta:
+  title: Netresearch Open-Source-Impact — transparent, reproduzierbar, täglich aktualisiert
+  description: >-
+    Gemessene Aktivität in der Open-Source-Organisation von Netresearch: Repositories,
+    Releases, Mitwirkende, Downloads und abhängige Projekte – mit Methode, bekannten
+    Lücken und den Rohdaten hinter jeder Zahl.
+
+nav:
+  label: Dashboard-Navigation
+  snapshot: Momentaufnahme
+  provenance: Daten und Herkunft
+  method: Methodik
+  repos: Repositories
+  downloads: Downloads
+  cite: Zitieren
+
+hero:
+  title: Netresearch Open-Source-Impact
+  lead: >-
+    Transparent, reproduzierbar und täglich aktualisiert. Jede Zahl auf dieser Seite
+    stammt aus einer veröffentlichten Momentaufnahme, und jede Momentaufnahme bleibt
+    unter einer dauerhaften Adresse erreichbar.
+  cta_business: Open-Source-Kompetenz im Projekt nutzen
+  cta_technical: Daten herunterladen
+
+snapshot:
+  heading: Momentaufnahme
+  as_of: Datenstand
+  scope_lifetime: Gesamt
+  scope_recent: Letzte 30 Tage
+  scope_hint: >-
+    Beide Zeiträume sind unten gerendert. Die Schaltflächen wechseln nur, welcher
+    davon sichtbar ist.
+  repos_active: Aktive Repositories
+  repos_archived: archiviert, nicht in den Zahlen enthalten
+  traffic_on: Traffic-Werte erhoben
+  traffic_off: Traffic-Werte nicht verfügbar – kein Token mit der nötigen Berechtigung
+
+kpi:
+  stars: Sterne
+  forks: Forks
+  contributors: Mitwirkende
+  external_contributors: Externe Mitwirkende
+  dependents_repos: Abhängige Repositories
+  issues: Issues (offen und geschlossen)
+  prs_merged: Gemergte Pull Requests
+  releases: Releases
+  commits: Commits
+  packagist_downloads: Packagist-Downloads
+  ghcr_downloads: Container-Abrufe
+  commits_30d: Commits
+  issues_opened_30d: Geöffnete Issues
+  prs_opened_30d: Geöffnete Pull Requests
+  prs_merged_30d: Gemergte Pull Requests
+  releases_30d: Releases
+  packagist_downloads_30d: Packagist-Downloads
+  ghcr_downloads_30d: Container-Abrufe
+
+provenance:
+  heading: Daten und Herkunft
+  generated: Erhoben am
+  sources_heading: Verwendete Quellen
+  sources:
+    - GitHub-REST-API – Repositories, Issues, Pull Requests, Releases, Mitwirkende, Commits
+    - GitHub-Dependency-Graph – abhängige Repositories und Pakete
+    - Packagist – Download-Zahlen der veröffentlichten PHP-Pakete
+    - GitHub Container Registry – Abrufzahlen der Container
+  coverage_heading: Abdeckung
+  coverage: >-
+    Jedes nicht archivierte Repository der Organisation, das die Konfiguration des
+    Sammlers aufführt. Archivierte Repositories werden erhoben, fließen aber nicht
+    in die Summen ein.
+  gaps_heading: Bekannte Lücken
+  gaps:
+    - >-
+      Traffic-Werte (Aufrufe und Klone) brauchen ein Token mit Repository-Berechtigung.
+      Fehlt es, entfallen die Felder – sie werden nicht als Null ausgewiesen.
+    - >-
+      Die Zahl abhängiger Projekte stammt aus dem Dependency-Graph von GitHub, der
+      nur öffentliche Repositories mit deklarierter Abhängigkeit sieht. Sie ist eine
+      Untergrenze.
+    - >-
+      Container-Abrufe werden nach bestem Bemühen erhoben und können unvollständig
+      sein, wenn ein Paket nicht mit seinem Repository verknüpft ist.
+    - >-
+      Commit-Zahlen stammen aus der Commits-API und unterliegen deren Grenzen bei
+      sehr großen Historien.
+  history_heading: Historische Abdeckung
+  history_from: Tägliche Momentaufnahmen werden erfasst seit
+
+method:
+  heading: Methodik
+  intro: Was jede Zahl bedeutet – und was nicht.
+  cumulative_heading: Kumuliert oder Momentwert?
+  cumulative: >-
+    Releases, Downloads, Commits, Issues und Pull Requests sind kumulierte Summen
+    über die Lebensdauer des jeweiligen Repositories. Sterne, Forks, Beobachter und
+    abhängige Projekte sind Momentwerte zum Erhebungszeitpunkt. Alles mit
+    „30 Tage“ ist ein gleitendes Fenster bis zum Erhebungszeitpunkt – es wird bei
+    jedem Lauf neu gebildet und ist kein Kalendermonat.
+  not_measured_heading: Nicht gemessen
+  not_measured:
+    - Private Repositories und interne Forks.
+    - Nutzung ohne öffentliche Spur – mitgelieferte Kopien, Spiegel, Installation aus Archiven.
+    - Umsatz, Projektwert oder Kundennutzen. Nichts auf dieser Seite ist eine Geschäftskennzahl.
+    - Codequalität. Aktivität ist kein Qualitätsmaß.
+
+reach:
+  heading: Geschätzte nachgelagerte Reichweite
+  lead: >-
+    Eine einzelne Richtzahl, die jene Signale zusammenfasst, die dafür sprechen,
+    dass ein Projekt über das eigene Repository hinaus genutzt und bearbeitet wird.
+  formula_heading: Wie sie berechnet wird
+  warning: >-
+    Ein Schätzindikator, kein belastbarer Reichweiten- oder Umsatzwert. Die
+    Gewichte sind eine Setzung, keine Messung, und die Eingangsgrößen tragen die
+    oben genannten Lücken. Zum Sortieren geeignet, nicht zum Entscheiden.
+  components:
+    external_contributors: Externe Mitwirkende
+    issues: Geöffnete, offene und geschlossene Issues
+    prs_merged: Gemergte Pull Requests
+    forks: Forks
+    dependents_repos: Abhängige Repositories
+
+categories:
+  heading: Nach Kategorie
+  repos: Repositories
+
+charts:
+  heading: Entwicklung über die Zeit
+  note: >-
+    Gerendert aus der Historie der täglichen Momentaufnahmen. Dieselben Zahlen
+    stehen unter jedem Diagramm als Tabelle und als JSON- und CSV-Download bereit.
+  cumulative_title: Kumulierte Sterne, Forks und Mitwirkende (90 Tage)
+  activity_title: Aktivität, gleitende 30-Tage-Summen, täglich erfasst (90 Tage)
+  table_toggle: Diagrammdaten als Tabelle anzeigen
+  no_history: Noch zu wenig Historie für ein Diagramm.
+  date: Datum
+
+table:
+  heading: Repositories
+  filter_placeholder: Repositories filtern…
+  filter_label: Repositories filtern
+  sort_hint: Die Spaltenköpfe sortieren die Tabelle. Ohne JavaScript bleibt die Standardsortierung nach Sternen bestehen.
+  columns:
+    name: Repository
+    stars: Sterne
+    forks: Forks
+    contributors: Mitwirkende
+    external_contributors: Extern
+    issues_total: Issues
+    prs_merged: Gemergte PRs
+    releases: Releases
+    commits_30d: Commits (30 T.)
+    packagist_downloads: Packagist
+    ghcr_downloads: Container-Abrufe
+    dependents_repos: Abhängige
+    clones_14d: Klone (14 T.)
+    views_14d: Aufrufe (14 T.)
+    reach: Nachgelagerte Reichweite
+  detail: Details
+
+repo:
+  back: Zurück zum Dashboard
+  heading_suffix: — Impact im Detail
+  description_missing: Keine Beschreibung.
+  lifetime: Gesamt
+  recent: Letzte 30 Tage
+  contributors_heading: Wichtigste Mitwirkende
+  release_heading: Letzter Release
+  release_tag: Tag
+  release_published: Veröffentlicht
+  release_downloads: Downloads der Release-Dateien
+  packagist_heading: Packagist
+  packagist_total: Downloads gesamt
+  packagist_monthly: Monatlich
+  packagist_daily: Täglich
+  ghcr_heading: Container-Abrufe
+  ghcr_total: Gesamt
+  ghcr_30d: Letzte 30 Tage
+  dependents_heading: Abhängige Projekte
+  dependents_repos: Repositories
+  dependents_packages: Pakete
+  dependents_link: Dependency-Graph öffnen
+  traffic_heading: Traffic (letzte 14 Tage)
+  traffic_views: Aufrufe (gesamt / eindeutig)
+  traffic_clones: Klone (gesamt / eindeutig)
+  traffic_referrers: Wichtigste Verweisquellen
+  traffic_missing: Für diesen Lauf wurden keine Traffic-Daten erhoben.
+  product_page: Produktseite
+  repository: Repository
+
+downloads:
+  heading: Downloads
+  lead: >-
+    Die Daten hinter dieser Seite, in der Form, die die Seite selbst verwendet.
+    Lizenziert unter CC BY 4.0 – nennen Sie Netresearch DTT GmbH und verlinken Sie
+    die verwendete Momentaufnahme.
+  latest_json: Aktuelle Momentaufnahme (JSON)
+  history_json: Tägliche Historie (JSON)
+  repos_csv: Repository-Tabelle (CSV)
+  dictionary: Datenwörterbuch
+  license: Lizenz
+
+snapshots:
+  heading: Dauerhafte Momentaufnahmen
+  lead: >-
+    Jeder Tageslauf wird unter einer Adresse archiviert, die sich danach nicht mehr
+    ändert. Zitieren Sie eine davon statt dieser Seite, die täglich überschrieben wird.
+  view: Momentaufnahme öffnen
+  immutable_notice: >-
+    Dies ist eine archivierte Momentaufnahme und wird nicht aktualisiert. Die
+    aktuellen Zahlen stehen im Dashboard.
+  current: Aktuelles Dashboard
+
+cite:
+  heading: Diesen Datensatz zitieren
+  lead: >-
+    Für Veröffentlichungen, Ausschreibungen und Berichte. Die Adresse der
+    Momentaufnahme ist stabil, diese Seite nicht.
+  copy: Zitat kopieren
+  copied: Kopiert
+  cff: Zitationsmetadaten (CITATION.cff)
+  publisher: Netresearch DTT GmbH
+
+footer:
+  company: Netresearch DTT GmbH
+  contact: Kontakt
+  imprint: Impressum
+  privacy: Datenschutz
+  source: Quellcode
+  data_note: >-
+    Erhoben über die GitHub-REST-API, den Dependency-Graph, Packagist und die
+    GitHub Container Registry.
+
+noscript: >-
+  JavaScript ist ausgeschaltet. Alle Zahlen, die vollständige Repository-Tabelle
+  und sämtliche Downloads stehen auch ohne zur Verfügung – nur Sortieren, Filtern
+  und die Diagramme brauchen es. Die Diagrammdaten sind als Tabelle und als
+  Download veröffentlicht.

@@ -133,19 +133,70 @@ Not collected:
 3. **Enable GitHub Pages**: Settings → Pages → Source = "Deploy from a branch", Branch = `gh-pages`, Path = `/ (root)`.
 4. **Lifetime traffic**: GitHub's traffic API only returns the trailing 14 days. A lifetime total is therefore only as old as the first successful run — the pipeline accumulates it via daily snapshots going forward.
 
-#### How the "blast radius" score is computed
+#### Estimated downstream reach
 
-A coarse single-number community-participation indicator, per repo:
+A coarse single-number indicator of participation from outside the organisation,
+per repository:
 
 ```
-blast_radius = external_contributors × 3
-             + total_issues
-             + prs_merged
-             + forks × 2
-             + dependents_repos × 2
+estimated_downstream_reach = external_contributors × 3
+                           + total_issues
+                           + prs_merged
+                           + forks × 2
+                           + dependents_repos × 2
 ```
 
-Weighted toward outside-the-org involvement. Compare repos relative to each other; absolute values are not meaningful on their own.
+An estimate, not a measurement: the weights are a judgement call and the inputs
+carry the known gaps documented on the dashboard. Useful for ordering
+repositories against each other, not for a decision. The dashboard renders the
+formula next to the number and never shows one without the other — a build gate
+enforces that.
+
+Formerly `blast_radius`. That key is still emitted as a deprecated alias for one
+release cycle; read `estimated_downstream_reach`.
+
+#### Static rendering
+
+`scripts/render_site.py` turns the collector's JSON into finished HTML before
+publishing. The dashboard used to ship an empty shell and build every figure in
+the browser, so crawlers and text browsers saw "Loading…" and nothing was
+citable.
+
+What the renderer produces:
+
+| Path | Contents |
+| --- | --- |
+| `index.html`, `de/index.html` | Dashboard, both languages |
+| `repo/<name>/`, `de/repo/<name>/` | One stable URL per repository |
+| `snapshot/<date>/`, `de/snapshot/<date>/` | Immutable archive of one run |
+| `data/repositories.csv` | The repository table, for reuse |
+| `data/data-dictionary.json` | What every field means, and its kind |
+| `sitemap.xml`, `robots.txt`, `CITATION.cff` | Crawling and citation |
+
+JavaScript is left with sorting, filtering, the charts and the copy-citation
+button. It never introduces a figure the HTML does not already contain, and the
+chart series is published as a table beside each chart.
+
+Snapshot pages are written once. The workflow seeds the build directory with the
+previously published snapshot pages so the renderer skips them: a cited snapshot
+URL has to keep showing the figures it showed when it was cited.
+
+Content lives in `dashboard/i18n/{en,de}.yaml`; markup in
+`dashboard/templates/`. Chart.js and the brand fonts are served from this origin
+— the page makes no third-party request, and the build gate fails if one appears.
+
+```bash
+OUTPUT_DIR=build python scripts/render_site.py   # render
+OUTPUT_DIR=build python scripts/verify_site.py   # gate
+uv run scripts/render_og.py                      # social cards, after a headline change
+```
+
+`scripts/verify_site.py` fails the build on placeholder text, a missing
+canonical, description, `x-default` hreflang, `og:image`, `twitter:card` or
+JSON-LD block, invalid JSON-LD, an untagged contact link, a logo that does not
+appear exactly once, a dashboard page with no rendered figure, the reach estimate
+shown without its caveat, a missing download or citation file, or any asset
+loaded from a third-party origin.
 
 ## Tests
 

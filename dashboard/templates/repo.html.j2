@@ -1,0 +1,133 @@
+{% extends "base.html.j2" %}
+
+{% block content %}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ home }}">{{ t.hero.title }}</a> / <span aria-current="page">{{ repo.name }}</span>
+</nav>
+
+<section class="hero">
+  <h1>{{ repo.name }} <span class="pill {{ pill }}">{{ pill_label }}</span></h1>
+  <p class="lead">{{ repo.description or t.repo.description_missing }}</p>
+  <p class="meta">
+    {{ t.snapshot.as_of }}: <time datetime="{{ snapshot.generated_at }}">{{ generated_display }}</time>
+  </p>
+  <p class="cta-row">
+    <a class="btn" href="{{ repo.url }}">{{ t.repo.repository }}</a>
+    {%- if product_page %}
+    <a class="btn" href="{{ product_page }}">{{ t.repo.product_page }}</a>
+    {%- endif %}
+    <a class="btn btn-primary" href="{{ contact.repo }}" data-cta="business" data-cta-position="repo">{{ t.hero.cta_business }}</a>
+  </p>
+</section>
+
+<section aria-labelledby="lifetime-heading">
+  <h2 id="lifetime-heading">{{ t.repo.lifetime }}</h2>
+  <dl class="kpis">
+    {%- for key, value in lifetime_kpis %}
+    <div class="kpi">
+      <dt class="kpi-label">{{ t.kpi[key] }}</dt>
+      <dd class="kpi-value" data-figure="{{ key }}">{{ value | number(locale) }}</dd>
+    </div>
+    {%- endfor %}
+  </dl>
+</section>
+
+<section aria-labelledby="recent-heading">
+  <h2 id="recent-heading">{{ t.repo.recent }}</h2>
+  <dl class="kpis">
+    {%- for key, value in recent_kpis %}
+    <div class="kpi">
+      <dt class="kpi-label">{{ t.kpi[key] }}</dt>
+      <dd class="kpi-value" data-figure="{{ key }}">{{ value | number(locale) }}</dd>
+    </div>
+    {%- endfor %}
+  </dl>
+</section>
+
+<section aria-labelledby="detail-heading">
+  <h2 id="detail-heading">{{ t.reach.heading }}: {{ repo.estimated_downstream_reach | number(locale) }}</h2>
+  <p class="warning">{{ t.reach.warning }}</p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>{{ t.repo.contributors_heading }}</h3>
+      <dl>
+        {%- for contributor in repo.top_contributors %}
+        <div class="stat">
+          <dt><a href="{{ contributor.url }}">{{ contributor.login }}</a></dt>
+          <dd>{{ contributor.contributions | number(locale) }}</dd>
+        </div>
+        {%- else %}
+        <div class="stat"><dt>&mdash;</dt><dd></dd></div>
+        {%- endfor %}
+      </dl>
+    </div>
+
+    {%- if repo.latest_release %}
+    <div class="card">
+      <h3>{{ t.repo.release_heading }}</h3>
+      <dl>
+        <div class="stat"><dt>{{ t.repo.release_tag }}</dt><dd><a href="{{ repo.latest_release.url }}">{{ repo.latest_release.tag_name }}</a></dd></div>
+        <div class="stat"><dt>{{ t.repo.release_published }}</dt><dd>{{ release_published or '—' }}</dd></div>
+        <div class="stat"><dt>{{ t.repo.release_downloads }}</dt><dd>{{ repo.lifetime.release_downloads | number(locale) }}</dd></div>
+      </dl>
+    </div>
+    {%- endif %}
+
+    {%- if repo.packagist %}
+    <div class="card">
+      <h3>{{ t.repo.packagist_heading }}</h3>
+      <dl>
+        <div class="stat"><dt>{{ t.repo.packagist_total }}</dt><dd>{{ repo.packagist.total | number(locale) }}</dd></div>
+        <div class="stat"><dt>{{ t.repo.packagist_monthly }}</dt><dd>{{ repo.packagist.monthly | number(locale) }}</dd></div>
+        <div class="stat"><dt>{{ t.repo.packagist_daily }}</dt><dd>{{ repo.packagist.daily | number(locale) }}</dd></div>
+      </dl>
+      <p><a href="{{ repo.packagist.url }}">{{ repo.packagist.name }}</a></p>
+    </div>
+    {%- endif %}
+
+    {%- if repo.ghcr %}
+    <div class="card">
+      <h3>{{ t.repo.ghcr_heading }}</h3>
+      <dl>
+        <div class="stat"><dt>{{ t.repo.ghcr_total }}</dt><dd>{{ repo.ghcr.total | number(locale) }}</dd></div>
+        <div class="stat"><dt>{{ t.repo.ghcr_30d }}</dt><dd>{{ repo.ghcr.thirty_day | number(locale) }}</dd></div>
+      </dl>
+    </div>
+    {%- endif %}
+
+    {%- if repo.dependents %}
+    <div class="card">
+      <h3>{{ t.repo.dependents_heading }}</h3>
+      <dl>
+        <div class="stat"><dt>{{ t.repo.dependents_repos }}</dt><dd>{{ repo.dependents.repositories | number(locale) }}</dd></div>
+        <div class="stat"><dt>{{ t.repo.dependents_packages }}</dt><dd>{{ repo.dependents.packages | number(locale) }}</dd></div>
+      </dl>
+      <p><a href="{{ repo.dependents.url }}">{{ t.repo.dependents_link }}</a></p>
+    </div>
+    {%- endif %}
+
+    <div class="card">
+      <h3>{{ t.repo.traffic_heading }}</h3>
+      {%- if repo.traffic_14d %}
+      <dl>
+        <div class="stat"><dt>{{ t.repo.traffic_views }}</dt><dd>{{ repo.traffic_14d.views_total | number(locale) }} / {{ repo.traffic_14d.views_unique | number(locale) }}</dd></div>
+        <div class="stat"><dt>{{ t.repo.traffic_clones }}</dt><dd>{{ repo.traffic_14d.clones_total | number(locale) }} / {{ repo.traffic_14d.clones_unique | number(locale) }}</dd></div>
+      </dl>
+      {%- if repo.traffic_14d.top_referrers %}
+      <h4>{{ t.repo.traffic_referrers }}</h4>
+      <ul class="referrer-list">
+        {%- for referrer in repo.traffic_14d.top_referrers %}
+        <li>{{ referrer.referrer }}: {{ referrer.count | number(locale) }} / {{ referrer.uniques | number(locale) }}</li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+      {%- else %}
+      <p>{{ t.repo.traffic_missing }}</p>
+      {%- endif %}
+    </div>
+  </div>
+</section>
+
+<p><a href="{{ home }}">&larr; {{ t.repo.back }}</a></p>
+{% endblock %}
