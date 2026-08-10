@@ -35,8 +35,8 @@ REQUIRED_META = (
 
 
 def strip_markup(html: str) -> str:
-    html = re.sub(r"<script\b.*?</script\s*>", " ", html, flags=re.S | re.I)
-    html = re.sub(r"<style\b.*?</style\s*>", " ", html, flags=re.S | re.I)
+    html = re.sub(r"<script\b[^>]*>.*?</script\b[^>]*>", " ", html, flags=re.S | re.I)
+    html = re.sub(r"<style\b[^>]*>.*?</style\b[^>]*>", " ", html, flags=re.S | re.I)
     return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html))
 
 
