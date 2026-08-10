@@ -38,7 +38,15 @@ jobs:
           python-version: '3.14'
 
       - name: Install dependencies
-        run: pip install requests
+        # Hash-pinned and wheels-only. `--require-hashes` fixes the whole
+        # resolved tree, not just the top-level name, so a compromised release
+        # of a transitive dependency cannot enter; `--only-binary :all:` refuses
+        # sdists, whose build step would execute setup.py from that dependency
+        # on the runner. Renovate keeps requirements/scheduled-failures.txt
+        # current.
+        # Block scalar because `:all:` would otherwise read as a YAML mapping.
+        run: |
+          pip install --only-binary :all: --require-hashes -r requirements/scheduled-failures.txt
 
       - name: Download previous state
         uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151  # v21

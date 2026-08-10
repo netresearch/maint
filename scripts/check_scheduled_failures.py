@@ -44,7 +44,11 @@ from github_api import (
 
 ORG_NAME = os.environ.get("ORG_NAME", "netresearch")
 MATRIX_WEBHOOK_URL = os.environ.get("MATRIX_WEBHOOK_URL", "")
-STATE_FILE = Path(os.environ.get("STATE_FILE", "state/scheduled-failures-state.json"))
+# Fixed path, not an env override: this is a write target, and building a path
+# the process then writes to out of environment input is path injection (Sonar
+# S2083) for the sake of test convenience the tests do not need — they rebind
+# this module attribute directly. Matches check-stars.py's STATE_FILE.
+STATE_FILE = Path("state/scheduled-failures-state.json")
 HELP_URL = "https://github.com/netresearch/maint"
 FEED_URL = "https://github.com/netresearch/maint/actions/workflows/scheduled-failure-notifications.yml"
 
