@@ -211,7 +211,7 @@ def test_a_crowded_page_does_not_hide_a_second_workflow():
                 _run("failure", 9, workflow_id=2, name="Impact Dashboard"),
                 _run("failure", 8, workflow_id=2, name="Impact Dashboard"),
             ]}
-        if url.endswith("/actions/workflows?per_page=100"):
+        if "/actions/workflows?" in url:
             return {"total_count": 2, "workflows": [
                 {"id": 1, "name": "Star Notifications", "state": "active"},
                 {"id": 2, "name": "Impact Dashboard", "state": "active"},
@@ -251,7 +251,7 @@ def test_a_repo_with_schedules_costs_two_requests():
     still run. Two requests across the ~79 repos that have scheduled runs.
     """
     def _handler(url):
-        if url.endswith("/actions/workflows?per_page=100"):
+        if "/actions/workflows?" in url:
             return {"total_count": 1, "workflows": [{"id": 243601301, "name": "Build & Deploy", "state": "active"}]}
         return {"total_count": 2, "workflow_runs": [_run("success", 9), _run("success", 8)]}
 
@@ -259,27 +259,29 @@ def test_a_repo_with_schedules_costs_two_requests():
     assert len(calls) == 2, f"expected the runs page and the workflow list; made {len(calls)}: {calls}"
 
 
-def test_a_deleted_workflow_is_marked_retired():
-    """netresearch/ofelia's shape: 5 runs, newest red 2026-04-19, no workflow file.
+def test_a_renamed_or_removed_workflow_is_marked_retired():
+    """netresearch/ofelia's shape: 5 runs, newest red 2026-04-19, id gone from the list.
 
-    Its id is simply absent from the workflow list. Left unmarked it would earn
-    a weekly reminder forever about something nobody can fix, which is how the
-    channel gets muted and takes the real signals with it.
+    It is a RENAME, not a deletion — a template sync replaced "Cleanup Container
+    Images" with "Container Retention" at a new path, so a new id exists and the
+    old one is gone. Either way the old identity's history is frozen red, and
+    left unmarked it would earn a weekly reminder forever about something nobody
+    can fix.
     """
     def _handler(url):
-        if url.endswith("/actions/workflows?per_page=100"):
+        if "/actions/workflows?" in url:
             return {"total_count": 1, "workflows": [{"id": 999, "name": "Something Else", "state": "active"}]}
         return {"total_count": 5, "workflow_runs": [_run("failure", 9), _run("failure", 8)]}
 
     grouped, _ = _drive_collect(_handler)
-    assert grouped[243601301]["retired"] == "the workflow no longer exists"
+    assert grouped[243601301]["retired"] == "the workflow was renamed or removed"
 
 
 def test_a_disabled_workflow_is_marked_retired():
     """netresearch/claude-code-marketplace-P's shape: file present, state disabled_manually."""
     for state in ("disabled_manually", "disabled_inactivity", "disabled_fork"):
         def _handler(url, state=state):
-            if url.endswith("/actions/workflows?per_page=100"):
+            if "/actions/workflows?" in url:
                 return {"total_count": 1, "workflows": [
                     {"id": 243601301, "name": "Build & Deploy", "state": state},
                 ]}
@@ -298,7 +300,7 @@ def test_an_active_workflow_with_an_old_run_is_not_retired():
     workflow; age never does.
     """
     def _handler(url):
-        if url.endswith("/actions/workflows?per_page=100"):
+        if "/actions/workflows?" in url:
             return {"total_count": 1, "workflows": [
                 {"id": 243601301, "name": "Build & Deploy", "state": "active"},
             ]}
@@ -309,6 +311,84 @@ def test_an_active_workflow_with_an_old_run_is_not_retired():
     assert grouped[243601301]["retired"] is None, "age alone must never retire a live workflow"
 
 
+def test_an_in_place_rename_keeps_the_workflow_live():
+    """A sync that edits `name:` without moving the file keeps the id.
+
+    The rule is keyed on id precisely so this case survives: the runs carry the
+    OLD name, the list carries the new one, and it is the same workflow, still
+    scheduled. A name-matching rule would retire it and silence a workflow that
+    runs perfectly well.
+    """
+    def _handler(url):
+        if "/actions/workflows?" in url:
+            return {"total_count": 1, "workflows": [
+                {"id": 243601301, "name": "Container Retention", "state": "active"},
+            ]}
+        return {"total_count": 2, "workflow_runs": [
+            _run("failure", 9, name="Cleanup Container Images"),
+            _run("success", 8, name="Cleanup Container Images"),
+        ]}
+
+    grouped, _ = _drive_collect(_handler)
+    assert grouped[243601301]["retired"] is None, \
+        "same id, new name — the workflow still runs and must still be reported"
+
+
+def test_a_truncated_workflow_list_keeps_everything_live():
+    """The trap the page size hides: 63 workflows today, 100 to a page.
+
+    A short list marks everything past page one as retired, silencing real
+    failures — the exact opposite of what this feature is for. So the pages must
+    add up to total_count, and anything less is 'cannot determine'.
+    """
+    def _handler(url):
+        if "/actions/workflows?" in url:
+            # Claims 140 workflows, hands back 1 and no further pages.
+            return {"total_count": 140, "workflows": [
+                {"id": 999, "name": "Something Else", "state": "active"},
+            ]}
+        return {"total_count": 2, "workflow_runs": [_run("failure", 9)]}
+
+    grouped, _ = _drive_collect(_handler)
+    assert grouped[243601301]["retired"] is None, \
+        "an incomplete list must never be read as 'this workflow is retired'"
+
+
+def test_a_paginated_workflow_list_is_read_to_the_end():
+    """And when the pages DO add up, the answer is still correct."""
+    def _handler(url):
+        if "/actions/workflows?" in url:
+            page = int(url.rsplit("page=", 1)[1])
+            if page == 1:
+                return {"total_count": 2, "workflows": [
+                    {"id": 999, "name": "Something Else", "state": "active"},
+                ]}
+            return {"total_count": 2, "workflows": [
+                {"id": 243601301, "name": "Build & Deploy", "state": "active"},
+            ]}
+        return {"total_count": 2, "workflow_runs": [_run("failure", 9)]}
+
+    grouped, calls = _drive_collect(_handler)
+    assert grouped[243601301]["retired"] is None, "found on page 2, so it is live"
+    assert sum(1 for u in calls if "/actions/workflows?" in u) == 2, \
+        f"both pages must be read; calls were {calls}"
+
+
+def test_an_empty_workflow_list_for_a_repo_with_runs_is_not_trusted():
+    """Self-contradictory: scheduled runs exist, so workflows existed.
+
+    Reading this as 'everything here is retired' would silence a whole repo on
+    one odd response.
+    """
+    def _handler(url):
+        if "/actions/workflows?" in url:
+            return {"total_count": 0, "workflows": []}
+        return {"total_count": 2, "workflow_runs": [_run("failure", 9)]}
+
+    grouped, _ = _drive_collect(_handler)
+    assert grouped[243601301]["retired"] is None, "an empty list is not evidence of retirement"
+
+
 def test_an_unreadable_workflow_list_keeps_everything_live():
     """A transient error must not retire a whole repo's worth of workflows.
 
@@ -316,7 +396,7 @@ def test_an_unreadable_workflow_list_keeps_everything_live():
     one because a list call 403'd is the failure this tool exists to prevent.
     """
     def _handler(url):
-        if url.endswith("/actions/workflows?per_page=100"):
+        if "/actions/workflows?" in url:
             raise csf.AuthError("403 for …/actions/workflows: Resource not accessible")
         return {"total_count": 2, "workflow_runs": [_run("failure", 9)]}
 
@@ -333,7 +413,7 @@ def test_a_retired_workflow_is_not_fetched_by_the_gapfill():
     busy = [_run("success", 9, workflow_id=1, name="Star Notifications") for _ in range(100)]
 
     def _handler(url):
-        if url.endswith("/actions/workflows?per_page=100"):
+        if "/actions/workflows?" in url:
             return {"total_count": 2, "workflows": [
                 {"id": 1, "name": "Star Notifications", "state": "active"},
                 {"id": 2, "name": "Retired Nightly", "state": "disabled_manually"},
@@ -357,10 +437,10 @@ def test_a_tracked_failure_that_retires_is_closed_out_not_dropped():
     previous = csf.state_entry(REPO, summary, previous=None, notified=True, now=NOW)
     assert previous["failing"] is True
 
-    message = csf.format_retired(REPO, summary, "the workflow no longer exists")
+    message = csf.format_retired(REPO, summary, "the workflow was renamed or removed")
     assert REPO["name"] in message
     assert "Build & Deploy" in message
-    assert "no longer exists" in message, f"the reason must be stated: {message}"
+    assert "renamed or removed" in message, f"the reason must be stated: {message}"
     assert "no longer reported" in message, f"it must say the nagging stops: {message}"
 
 
@@ -369,14 +449,14 @@ def test_the_baseline_names_what_it_excluded():
     csf._retired_and_red.clear()
     summary = csf.summarise_workflow(_group([_run("failure", 9), _run("success", 8)]))
     try:
-        csf._retired_and_red["ofelia / Cleanup Container Images"] = "the workflow no longer exists"
+        csf._retired_and_red["ofelia / Cleanup Container Images"] = "the workflow was renamed or removed"
         message = csf.format_baseline([(REPO, summary)], NOW)
     finally:
         csf._retired_and_red.clear()
 
     assert "Excluded 1 workflow(s)" in message, f"the count must appear: {message}"
     assert "ofelia / Cleanup Container Images" in message, f"the name must appear: {message}"
-    assert "the workflow no longer exists" in message, f"the reason must appear: {message}"
+    assert "the workflow was renamed or removed" in message, f"the reason must appear: {message}"
 
     # With nothing excluded the sentence must not appear at all.
     assert "Excluded" not in csf.format_baseline([(REPO, summary)], NOW)

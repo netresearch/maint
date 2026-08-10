@@ -63,6 +63,11 @@ REMINDER_INTERVAL_DAYS = 7
 # a longer streak we can state exactly rather than as a lower bound.
 RUNS_PAGE_SIZE = 100
 
+# Page cap for the workflow list. The biggest repo in the org has 63 workflows,
+# so this is slack rather than a real bound; it exists so a pathological
+# total_count cannot spin the walk.
+MAX_WORKFLOW_PAGES = 10
+
 # Matches check-stars.py: past this, one summary line beats a wall of messages.
 MAX_NOTIFICATIONS = 20
 
@@ -146,22 +151,51 @@ def fetch_scheduled_runs(url: str) -> tuple[list[dict], bool]:
 def list_workflows(repo_full_name: str) -> dict[int, dict] | None:
     """The repo's workflows as {id: {"name", "state"}}, or None if unreadable.
 
-    None is deliberately distinct from an empty dict: it means "GitHub would not
-    tell us", and the caller must then treat every workflow as live rather than
-    silently retiring the whole repo on a transient error.
+    None is deliberately distinct from an empty dict, and the asymmetry is the
+    whole point: an absent id means "retired", so a list that is wrong in the
+    SHORT direction retires workflows that are alive and silences their real
+    failures. That is strictly worse than the noise this exclusion removes, so
+    anything less than a confidently complete list returns None and the caller
+    keeps every entry.
+
+    Three ways the list can be untrustworthy, all handled:
+
+    - The request fails. Caught below.
+    - The list is paginated and we read one page. `netresearch/.github` already
+      has 63 workflows against a 100 page size — one file away from mattering,
+      and the symptom would be silent. So it pages to completion and refuses to
+      guess if the pages do not add up to `total_count`.
+    - The list comes back empty while the repo demonstrably has scheduled runs.
+      That is self-contradictory, so it is treated as unreadable rather than as
+      "every workflow here is retired".
     """
-    try:
-        workflows = github_request(
-            f"{GITHUB_API}/repos/{repo_full_name}/actions/workflows?per_page={RUNS_PAGE_SIZE}"
-        ).get("workflows", [])
-    except (AuthError, requests.exceptions.HTTPError) as e:
-        print(f"Could not list workflows for {repo_full_name} ({e}); treating all as live")
+    collected: dict[int, dict] = {}
+    total: int | None = None
+    for page in range(1, MAX_WORKFLOW_PAGES + 1):
+        try:
+            data = github_request(
+                f"{GITHUB_API}/repos/{repo_full_name}/actions/workflows"
+                f"?per_page={RUNS_PAGE_SIZE}&page={page}"
+            )
+        except (AuthError, requests.exceptions.HTTPError) as e:
+            print(f"Could not list workflows for {repo_full_name} ({e}); treating all as live")
+            return None
+        batch = data.get("workflows", [])
+        if total is None:
+            total = data.get("total_count", len(batch))
+        for workflow in batch:
+            if workflow.get("id") is not None:
+                collected[workflow["id"]] = {"name": workflow.get("name"), "state": workflow.get("state")}
+        if not batch or len(collected) >= (total or 0):
+            break
+
+    if not collected or len(collected) < (total or 0):
+        print(
+            f"Workflow list for {repo_full_name} looks incomplete "
+            f"({len(collected)} of {total}); treating all as live"
+        )
         return None
-    return {
-        w["id"]: {"name": w.get("name"), "state": w.get("state")}
-        for w in workflows
-        if w.get("id") is not None
-    }
+    return collected
 
 
 def retirement_reason(workflow_id: int, workflows: dict[int, dict] | None) -> str | None:
@@ -170,26 +204,38 @@ def retirement_reason(workflow_id: int, workflows: dict[int, dict] | None) -> st
     GitHub answers this directly, so there is no time threshold here and there
     must not be one. A threshold gets it wrong in both directions: a monthly
     cron whose last run is 45 days old is perfectly alive and must still be
-    reported, while a workflow deleted yesterday is already dead. Two shapes,
+    reported, while a workflow retired yesterday is already dead. Two shapes,
     both seen in the org on the day this was written:
 
-    - The id is absent from the workflow list — the file was deleted.
-      `netresearch/ofelia`'s "Cleanup Container Images" is this: five runs, the
-      newest a failure from 2026-04-19, and no workflow file since.
+    - The id is absent from the workflow list. `netresearch/ofelia`'s "Cleanup
+      Container Images" is this, and it is a RENAME rather than a deletion: a
+      template sync on 2026-04-19/20 replaced it with "Container Retention" at
+      `.github/workflows/container-retention.yml`, which is alive and active
+      today. Only the old name's run history is frozen red. Expect more of
+      these — `netresearch/.github` template syncs rename workflows across the
+      fleet.
     - The state is not `active` — `disabled_manually`, `disabled_inactivity`
       (GitHub's automatic pause after 60 days of repo inactivity) or
       `disabled_fork`. `netresearch/claude-code-marketplace-P`'s "Pages" is
-      `disabled_manually`.
+      `disabled_manually`, and note that a disabled workflow STILL APPEARS in
+      the list, so the first shape alone would miss it entirely.
 
-    Either way the newest run is frozen red forever, and a weekly reminder about
-    it is noise nobody can action — which is how a channel earns a mute, taking
-    the real signals with it.
+    Keyed on workflow id, not name. That matters for exactly the rename case:
+    an id follows the workflow FILE, so a sync that edits `name:` in place
+    keeps the id and the entry is correctly kept (same workflow, still
+    scheduled), while a sync that moves the file mints a new id and the old one
+    legitimately disappears. Matching on name would retire the first kind too,
+    silencing a workflow that is running perfectly well.
+
+    Either way the newest run under the retired identity is frozen red forever,
+    and a weekly reminder about it is noise nobody can action — which is how a
+    channel earns a mute, taking the real signals with it.
     """
     if workflows is None:
         return None
     workflow = workflows.get(workflow_id)
     if workflow is None:
-        return "the workflow no longer exists"
+        return "the workflow was renamed or removed"
     state = workflow.get("state")
     if state != "active":
         return f"the workflow is {state}"

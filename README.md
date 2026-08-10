@@ -64,11 +64,22 @@ Runs whose conclusion is `cancelled`, `skipped`, `neutral`, `stale` or `action_r
 
 #### Retired workflows
 
-A workflow that can no longer run is excluded, however red its last run is. Two shapes, both present in the organization: the workflow file was **deleted** (its id is gone from `GET /actions/workflows`), or its **state is not `active`** — `disabled_manually`, `disabled_inactivity` (GitHub's automatic pause after 60 days of repo inactivity) or `disabled_fork`. `netresearch/ofelia`'s "Cleanup Container Images" is the first kind: five runs, the newest a failure from 2026-04-19, and no workflow file since. `netresearch/claude-code-marketplace-P`'s "Pages" is the second.
+A workflow that can no longer run is excluded, however red its last run is:
 
-Without this they would each earn a weekly reminder forever about something nobody can action, which is how a notification channel earns a mute — taking the real signals with it.
+```
+retired  :=  its id has no entry in GET /actions/workflows   (renamed or removed)
+         OR  that entry's state is not "active"              (disabled)
+```
 
-There is deliberately **no age threshold** in this rule. A threshold gets it wrong in both directions: a monthly cron whose last run is 45 days old is perfectly alive and must still be reported, while a workflow deleted yesterday is already dead. GitHub's own answer is the ground truth, and it is also what distinguishes a *retired* workflow from a merely *dormant* one.
+Both halves are needed, and each catches a case in the organization today. `netresearch/ofelia`'s "Cleanup Container Images" is the first: a `netresearch/.github` template sync on 2026-04-19/20 **renamed** it to "Container Retention" at `.github/workflows/container-retention.yml`, which is alive and active — only the old identity's run history is frozen red. Expect more of these, because template syncs rename workflows across the fleet. `netresearch/claude-code-marketplace-P`'s "Pages" is the second: still listed, but `state: disabled_manually`. A disabled workflow **still appears** in `actions/workflows`, so the first half alone would miss it entirely. Retired states are `disabled_manually`, `disabled_inactivity` (GitHub's automatic pause after 60 days of repo inactivity) and `disabled_fork`.
+
+Without this each would earn a weekly reminder forever about something nobody can action, which is how a notification channel earns a mute — taking the real signals with it.
+
+The rule is keyed on **workflow id, not name**. An id follows the workflow file, so a sync that edits `name:` in place keeps the id and the entry is correctly kept — same workflow, still scheduled — whereas matching on name would retire a workflow that is running perfectly well. A sync that moves the file mints a new id and the old one legitimately disappears, which is the `ofelia` case.
+
+There is deliberately **no age threshold**. A threshold gets it wrong in both directions: a monthly cron whose last run is 45 days old is perfectly alive and must still be reported, while a workflow retired yesterday is already dead. GitHub's own answer is the ground truth, and it is also what distinguishes a *retired* workflow from a merely *dormant* one.
+
+Because an absent id means "retired", a workflow list that is wrong in the **short** direction would retire live workflows and silence their real failures — strictly worse than the noise being removed. So anything less than a confidently complete list is treated as "cannot determine" and every entry is kept: the request failing, the pages not adding up to `total_count` (`netresearch/.github` already has 63 workflows against a 100-item page, so the list is read to the end), or an empty list for a repo that demonstrably has scheduled runs.
 
 The exclusion is never silent. It is listed in the run log on every cycle, named in the baseline message, and a workflow that was being actively reported as failing when it retires gets one closing `🗄` message rather than just ceasing to appear. If the workflow is ever re-added or re-enabled it runs again, becomes `active`, and is picked up by the next poll. The trade-off accepted: a repo GitHub auto-paused for inactivity stops being reported, which is correct in the narrow sense — it genuinely will not run again until someone touches the repo — but it does mean a dormant repo's broken nightly goes quiet.
 
