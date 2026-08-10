@@ -80,6 +80,12 @@ PASSING_CONCLUSIONS = frozenset({"success"})
 # process every repo we CAN read.
 _inaccessible: dict[str, str] = {}
 
+# Workflows excluded this run because they can no longer run even though their
+# last run is red, as "repo / workflow" -> reason. Reported in the baseline
+# message and in the run log every cycle, so the exclusion is auditable rather
+# than an invisible filter that might equally be swallowing real failures.
+_retired_and_red: dict[str, str] = {}
+
 
 def note_inaccessible(repo_full_name: str, detail: str) -> None:
     """Record (once per repo) that the token could not read its Actions runs."""
@@ -137,26 +143,86 @@ def fetch_scheduled_runs(url: str) -> tuple[list[dict], bool]:
     return runs, total <= len(runs)
 
 
+def list_workflows(repo_full_name: str) -> dict[int, dict] | None:
+    """The repo's workflows as {id: {"name", "state"}}, or None if unreadable.
+
+    None is deliberately distinct from an empty dict: it means "GitHub would not
+    tell us", and the caller must then treat every workflow as live rather than
+    silently retiring the whole repo on a transient error.
+    """
+    try:
+        workflows = github_request(
+            f"{GITHUB_API}/repos/{repo_full_name}/actions/workflows?per_page={RUNS_PAGE_SIZE}"
+        ).get("workflows", [])
+    except (AuthError, requests.exceptions.HTTPError) as e:
+        print(f"Could not list workflows for {repo_full_name} ({e}); treating all as live")
+        return None
+    return {
+        w["id"]: {"name": w.get("name"), "state": w.get("state")}
+        for w in workflows
+        if w.get("id") is not None
+    }
+
+
+def retirement_reason(workflow_id: int, workflows: dict[int, dict] | None) -> str | None:
+    """Why this workflow can no longer run, or None if it still can.
+
+    GitHub answers this directly, so there is no time threshold here and there
+    must not be one. A threshold gets it wrong in both directions: a monthly
+    cron whose last run is 45 days old is perfectly alive and must still be
+    reported, while a workflow deleted yesterday is already dead. Two shapes,
+    both seen in the org on the day this was written:
+
+    - The id is absent from the workflow list — the file was deleted.
+      `netresearch/ofelia`'s "Cleanup Container Images" is this: five runs, the
+      newest a failure from 2026-04-19, and no workflow file since.
+    - The state is not `active` — `disabled_manually`, `disabled_inactivity`
+      (GitHub's automatic pause after 60 days of repo inactivity) or
+      `disabled_fork`. `netresearch/claude-code-marketplace-P`'s "Pages" is
+      `disabled_manually`.
+
+    Either way the newest run is frozen red forever, and a weekly reminder about
+    it is noise nobody can action — which is how a channel earns a mute, taking
+    the real signals with it.
+    """
+    if workflows is None:
+        return None
+    workflow = workflows.get(workflow_id)
+    if workflow is None:
+        return "the workflow no longer exists"
+    state = workflow.get("state")
+    if state != "active":
+        return f"the workflow is {state}"
+    return None
+
+
 def collect_workflow_runs(repo_full_name: str) -> dict[int, dict]:
     """Recent completed scheduled runs for a repo, grouped by workflow.
 
-    Returns {workflow_id: {"name": str, "runs": [...], "exhaustive": bool}},
-    newest run first within each workflow. Empty when the repo has never run a
-    scheduled workflow — those repos are skipped by the caller, not reported.
+    Returns {workflow_id: {"name", "runs", "exhaustive", "retired"}}, newest run
+    first within each workflow, where `retired` is None for a workflow that can
+    still run and a reason string for one that cannot. Empty when the repo has
+    never run a scheduled workflow — those repos are skipped by the caller, not
+    reported, and cost exactly one request.
 
-    One request covers the whole repo. That is enough right up until a
-    high-frequency workflow crowds the page: netresearch/maint runs Star
-    Notifications every 15 minutes, so of the 100 most recent scheduled runs in
-    that repo, 98 are that one workflow and only 2 belong to the nightly Impact
-    Dashboard — a couple more and the dashboard would vanish from the page and
-    its failures would be invisible to this notifier. So when the page is
-    truncated, the repo's workflow list is fetched and every workflow missing
-    from the page is queried on its own.
+    A repo WITH scheduled runs costs two: the runs page, and the workflow list.
+    The list is what makes `retired` answerable, and it doubles as the index for
+    the crowded-page gapfill below, so it is fetched once and used twice.
+
+    One runs page covers the whole repo right up until a high-frequency workflow
+    crowds it: netresearch/maint runs Star Notifications every 15 minutes, so of
+    the 100 most recent scheduled runs there, 98 are that one workflow and only
+    2 belong to the nightly Impact Dashboard — a couple more and the dashboard
+    would vanish from the page and its failures would be invisible to this
+    notifier. So when the page is truncated, every workflow missing from it is
+    queried on its own.
     """
     runs, exhaustive = fetch_scheduled_runs(
         f"{GITHUB_API}/repos/{repo_full_name}/actions/runs"
         f"?event=schedule&status=completed&per_page={RUNS_PAGE_SIZE}&exclude_pull_requests=true"
     )
+    if not runs:
+        return {}
 
     grouped: dict[int, dict] = {}
     for run in runs:
@@ -169,28 +235,28 @@ def collect_workflow_runs(repo_full_name: str) -> dict[int, dict]:
         )
         group["runs"].append(run)
 
+    workflows = list_workflows(repo_full_name)
     if not exhaustive:
-        _fill_crowded_out_workflows(repo_full_name, grouped)
+        _fill_crowded_out_workflows(repo_full_name, grouped, workflows)
+    for workflow_id, group in grouped.items():
+        group["retired"] = retirement_reason(workflow_id, workflows)
 
     return grouped
 
 
-def _fill_crowded_out_workflows(repo_full_name: str, grouped: dict[int, dict]) -> None:
+def _fill_crowded_out_workflows(
+    repo_full_name: str, grouped: dict[int, dict], workflows: dict[int, dict] | None
+) -> None:
     """Query, per workflow, the ones that did not fit on the repo-wide page.
 
     Mutates `grouped` in place. A workflow that has never run on a schedule
     comes back with zero runs and is left out, so this cannot invent entries for
     push-only workflows.
     """
-    workflows = github_request(
-        f"{GITHUB_API}/repos/{repo_full_name}/actions/workflows?per_page={RUNS_PAGE_SIZE}"
-    ).get("workflows", [])
-
-    for workflow in workflows:
-        workflow_id = workflow.get("id")
-        # `disabled_manually` / `disabled_inactivity` workflows do not run, so a
-        # stale red run of theirs is history, not an incident.
-        if workflow_id is None or workflow_id in grouped or workflow.get("state") != "active":
+    for workflow_id, workflow in (workflows or {}).items():
+        # A non-active workflow is skipped outright rather than fetched and then
+        # discarded as retired — no point spending a request to learn that.
+        if workflow_id in grouped or workflow.get("state") != "active":
             continue
         runs, exhaustive = fetch_scheduled_runs(
             f"{GITHUB_API}/repos/{repo_full_name}/actions/workflows/{workflow_id}/runs"
@@ -376,6 +442,19 @@ def format_recovery(repo: dict, summary: dict, previous: dict) -> str:
     )
 
 
+def format_retired(repo: dict, summary: dict, reason: str) -> str:
+    """Close out a tracked failure whose workflow has been retired.
+
+    Without this the entry would simply stop appearing — an open incident
+    vanishing mid-flight, which is the same silence this tool exists to end,
+    just quieter. One line says the nagging has stopped and why.
+    """
+    return (
+        f"🗄 [{repo['name']}]({repo['url']}) scheduled workflow \"{summary['workflow_name']}\" "
+        f"was still failing, but {reason} — no longer reported. ([?]({HELP_URL}))"
+    )
+
+
 def format_baseline(failing: list[tuple[dict, dict]], now: datetime) -> str:
     """One summary line for a first run, or a run whose state artifact was lost.
 
@@ -388,11 +467,20 @@ def format_baseline(failing: list[tuple[dict, dict]], now: datetime) -> str:
         f"{describe_age(s['failing_since'], now)})"
         for repo, s in failing
     ]
-    return (
+    message = (
         f"📋 Scheduled-failure monitoring has no previous state (first run, or the state artifact "
         f"expired). Baseline: {len(failing)} scheduled workflow(s) currently failing — "
-        f"{'; '.join(parts)}. Weekly reminders continue from here. ([?]({HELP_URL}))"
+        f"{'; '.join(parts)}. Weekly reminders continue from here."
     )
+    if _retired_and_red:
+        # Named, not merely counted: an exclusion nobody can see is
+        # indistinguishable from a bug that drops real failures.
+        excluded = "; ".join(f"{name} ({reason})" for name, reason in sorted(_retired_and_red.items()))
+        message += (
+            f" Excluded {len(_retired_and_red)} workflow(s) whose last run is red but which can no "
+            f"longer run — {excluded}."
+        )
+    return f"{message} ([?]({HELP_URL}))"
 
 
 def classify(repo: dict, summary: dict, previous: dict | None, now: datetime) -> tuple[str, str | None]:
@@ -544,6 +632,18 @@ def main(argv: list[str] | None = None) -> int:
             key = f"{repo['full_name']}::{workflow_id}"
             previous = previous_workflows.get(key)
 
+            if group.get("retired"):
+                # Not added to next_workflows, so it also leaves the state file.
+                if summary["failing"]:
+                    _retired_and_red[f"{repo['name']} / {summary['workflow_name']}"] = group["retired"]
+                    # A tracked, still-open failure gets closed out loudly rather
+                    # than just ceasing to appear. On a baseline run there is
+                    # nothing to close, and format_baseline names the exclusions.
+                    if not is_baseline and previous and previous.get("failing"):
+                        messages.append(format_retired(repo, summary, group["retired"]))
+                        print(f"retired: {key} ({group['retired']})")
+                continue
+
             if is_baseline:
                 # Nothing to compare against: record, and let format_baseline
                 # say it once rather than pretending each is a fresh break.
@@ -578,6 +678,15 @@ def main(argv: list[str] | None = None) -> int:
             f"New failures: {counts['new-failure']}, reminders: {counts['reminder']}, "
             f"recoveries: {counts['recovery']}, unchanged: {counts['quiet']}. Sent: {sent}."
         )
+
+    if _retired_and_red:
+        # Logged every run, not only when it changes: a filter that hides
+        # failures has to be visible even on the cycles where it stays quiet.
+        print(
+            f"Excluded {len(_retired_and_red)} workflow(s) with a red last run that can no longer run:"
+        )
+        for name, reason in sorted(_retired_and_red.items()):
+            print(f"  - {name}: {reason}")
 
     if _inaccessible:
         print(

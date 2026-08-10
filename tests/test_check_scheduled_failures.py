@@ -37,8 +37,8 @@ def _run(conclusion, day, workflow_id=243601301, name="Build & Deploy"):
     }
 
 
-def _group(runs, exhaustive=True, name="Build & Deploy"):
-    return {"name": name, "runs": runs, "exhaustive": exhaustive}
+def _group(runs, exhaustive=True, name="Build & Deploy", retired=None):
+    return {"name": name, "runs": runs, "exhaustive": exhaustive, "retired": retired}
 
 
 def test_streak_counts_consecutive_failures_and_dates_the_first():
@@ -171,10 +171,8 @@ def test_a_crowded_page_does_not_hide_a_second_workflow():
     would then be invisible to the very notifier meant to catch them.
     """
     busy = [_run("success", 9, workflow_id=1, name="Star Notifications") for _ in range(100)]
-    calls = []
 
-    def _fake(url):
-        calls.append(url)
+    def _handler(url):
         if "/actions/workflows/2/runs" in url:
             return {"total_count": 2, "workflow_runs": [
                 _run("failure", 9, workflow_id=2, name="Impact Dashboard"),
@@ -187,55 +185,168 @@ def test_a_crowded_page_does_not_hide_a_second_workflow():
             ]}
         return {"total_count": 12996, "workflow_runs": busy}
 
-    original = csf.github_request
-    csf.github_request = _fake  # type: ignore[assignment]
-    try:
-        grouped = csf.collect_workflow_runs("netresearch/maint")
-    finally:
-        csf.github_request = original  # type: ignore[assignment]
+    grouped, calls = _drive_collect(_handler, "netresearch/maint")
 
     assert 2 in grouped, f"the crowded-out workflow must be fetched separately; got keys {sorted(grouped)}"
     assert grouped[2]["name"] == "Impact Dashboard"
+    assert grouped[2]["retired"] is None
     assert csf.summarise_workflow(grouped[2])["consecutive_failures"] == 2
-    assert any("/actions/workflows?per_page=100" in u for u in calls), \
-        "the workflow list is only worth fetching when the page was truncated"
+    assert any("/actions/workflows/2/runs" in u for u in calls), \
+        "the crowded-out workflow must get its own runs query"
 
 
-def test_an_untruncated_page_costs_exactly_one_request():
-    """The gapfill must not fire for the ~190 repos that fit on one page."""
+def _drive_collect(handler, repo="netresearch/some-repo"):
+    """Run collect_workflow_runs against a stubbed API, returning (grouped, urls)."""
     calls = []
 
     def _fake(url):
         calls.append(url)
+        return handler(url)
+
+    original = csf.github_request
+    csf.github_request = _fake  # type: ignore[assignment]
+    try:
+        return csf.collect_workflow_runs(repo), calls
+    finally:
+        csf.github_request = original  # type: ignore[assignment]
+
+
+def test_a_repo_with_schedules_costs_two_requests():
+    """The runs page plus the workflow list — the gapfill must not fire as well.
+
+    The list is not optional: it is the only way to know whether a workflow can
+    still run. Two requests across the ~79 repos that have scheduled runs.
+    """
+    def _handler(url):
+        if url.endswith("/actions/workflows?per_page=100"):
+            return {"total_count": 1, "workflows": [{"id": 243601301, "name": "Build & Deploy", "state": "active"}]}
         return {"total_count": 2, "workflow_runs": [_run("success", 9), _run("success", 8)]}
 
-    original = csf.github_request
-    csf.github_request = _fake  # type: ignore[assignment]
-    try:
-        csf.collect_workflow_runs("netresearch/small-repo")
-    finally:
-        csf.github_request = original  # type: ignore[assignment]
-
-    assert len(calls) == 1, f"one page covered the history, so one request; made {len(calls)}: {calls}"
+    _, calls = _drive_collect(_handler, "netresearch/small-repo")
+    assert len(calls) == 2, f"expected the runs page and the workflow list; made {len(calls)}: {calls}"
 
 
-def test_disabled_workflows_are_not_resurrected():
-    """A disabled workflow's last red run is history, not an incident."""
-    def _fake(url):
+def test_a_deleted_workflow_is_marked_retired():
+    """netresearch/ofelia's shape: 5 runs, newest red 2026-04-19, no workflow file.
+
+    Its id is simply absent from the workflow list. Left unmarked it would earn
+    a weekly reminder forever about something nobody can fix, which is how the
+    channel gets muted and takes the real signals with it.
+    """
+    def _handler(url):
+        if url.endswith("/actions/workflows?per_page=100"):
+            return {"total_count": 1, "workflows": [{"id": 999, "name": "Something Else", "state": "active"}]}
+        return {"total_count": 5, "workflow_runs": [_run("failure", 9), _run("failure", 8)]}
+
+    grouped, _ = _drive_collect(_handler)
+    assert grouped[243601301]["retired"] == "the workflow no longer exists"
+
+
+def test_a_disabled_workflow_is_marked_retired():
+    """netresearch/claude-code-marketplace-P's shape: file present, state disabled_manually."""
+    for state in ("disabled_manually", "disabled_inactivity", "disabled_fork"):
+        def _handler(url, state=state):
+            if url.endswith("/actions/workflows?per_page=100"):
+                return {"total_count": 1, "workflows": [
+                    {"id": 243601301, "name": "Build & Deploy", "state": state},
+                ]}
+            return {"total_count": 2, "workflow_runs": [_run("failure", 9)]}
+
+        grouped, _ = _drive_collect(_handler)
+        assert grouped[243601301]["retired"] == f"the workflow is {state}", \
+            f"{state} must count as retired, got {grouped[243601301]['retired']!r}"
+
+
+def test_an_active_workflow_with_an_old_run_is_not_retired():
+    """The guard against a time-threshold rule.
+
+    A monthly cron whose last run is months old is alive and must still be
+    reported. Only GitHub's own answer — absent, or not `active` — retires a
+    workflow; age never does.
+    """
+    def _handler(url):
         if url.endswith("/actions/workflows?per_page=100"):
             return {"total_count": 1, "workflows": [
-                {"id": 7, "name": "Retired Nightly", "state": "disabled_manually"},
+                {"id": 243601301, "name": "Build & Deploy", "state": "active"},
             ]}
-        return {"total_count": 500, "workflow_runs": [_run("success", 9, workflow_id=1)]}
+        # A single failure from months ago, on a live workflow.
+        return {"total_count": 1, "workflow_runs": [_run("failure", 1)]}
 
-    original = csf.github_request
-    csf.github_request = _fake  # type: ignore[assignment]
+    grouped, _ = _drive_collect(_handler)
+    assert grouped[243601301]["retired"] is None, "age alone must never retire a live workflow"
+
+
+def test_an_unreadable_workflow_list_keeps_everything_live():
+    """A transient error must not retire a whole repo's worth of workflows.
+
+    Reporting a stale failure is recoverable noise; silently dropping every real
+    one because a list call 403'd is the failure this tool exists to prevent.
+    """
+    def _handler(url):
+        if url.endswith("/actions/workflows?per_page=100"):
+            raise csf.AuthError("403 for …/actions/workflows: Resource not accessible")
+        return {"total_count": 2, "workflow_runs": [_run("failure", 9)]}
+
+    grouped, _ = _drive_collect(_handler)
+    assert grouped[243601301]["retired"] is None, "an unreadable list must not be read as 'retired'"
+
+
+def test_a_retired_workflow_is_not_fetched_by_the_gapfill():
+    """A non-active workflow missing from a crowded page is skipped, not fetched.
+
+    Spending a request to learn something the list already told us would be the
+    one place this design pays twice.
+    """
+    busy = [_run("success", 9, workflow_id=1, name="Star Notifications") for _ in range(100)]
+
+    def _handler(url):
+        if url.endswith("/actions/workflows?per_page=100"):
+            return {"total_count": 2, "workflows": [
+                {"id": 1, "name": "Star Notifications", "state": "active"},
+                {"id": 2, "name": "Retired Nightly", "state": "disabled_manually"},
+            ]}
+        if "/actions/workflows/2/runs" in url:
+            raise AssertionError("the gapfill fetched runs for a workflow it already knew was retired")
+        return {"total_count": 12996, "workflow_runs": busy}
+
+    grouped, _ = _drive_collect(_handler)
+    assert 2 not in grouped, "a retired workflow must not be added by the gapfill"
+
+
+def test_a_tracked_failure_that_retires_is_closed_out_not_dropped():
+    """An open incident must never just stop being mentioned.
+
+    This is the counterpart to excluding retired workflows: the exclusion is
+    right, but doing it silently to something the channel was actively nagging
+    about is its own small version of the silence this tool exists to end.
+    """
+    summary = csf.summarise_workflow(_group([_run("failure", 9), _run("success", 8)]))
+    previous = csf.state_entry(REPO, summary, previous=None, notified=True, now=NOW)
+    assert previous["failing"] is True
+
+    message = csf.format_retired(REPO, summary, "the workflow no longer exists")
+    assert "netresearch.github.io" in message
+    assert "Build & Deploy" in message
+    assert "no longer exists" in message, f"the reason must be stated: {message}"
+    assert "no longer reported" in message, f"it must say the nagging stops: {message}"
+
+
+def test_the_baseline_names_what_it_excluded():
+    """An exclusion nobody can see is indistinguishable from a bug dropping real failures."""
+    csf._retired_and_red.clear()
+    summary = csf.summarise_workflow(_group([_run("failure", 9), _run("success", 8)]))
     try:
-        grouped = csf.collect_workflow_runs("netresearch/some-repo")
+        csf._retired_and_red["ofelia / Cleanup Container Images"] = "the workflow no longer exists"
+        message = csf.format_baseline([(REPO, summary)], NOW)
     finally:
-        csf.github_request = original  # type: ignore[assignment]
+        csf._retired_and_red.clear()
 
-    assert 7 not in grouped, "a disabled workflow cannot run, so it cannot be failing"
+    assert "Excluded 1 workflow(s)" in message, f"the count must appear: {message}"
+    assert "ofelia / Cleanup Container Images" in message, f"the name must appear: {message}"
+    assert "the workflow no longer exists" in message, f"the reason must appear: {message}"
+
+    # With nothing excluded the sentence must not appear at all.
+    assert "Excluded" not in csf.format_baseline([(REPO, summary)], NOW)
 
 
 def test_baseline_is_one_line_not_a_flood():

@@ -62,6 +62,16 @@ Every failure message carries the repository, the workflow name, the number of c
 
 Runs whose conclusion is `cancelled`, `skipped`, `neutral`, `stale` or `action_required` are ignored in both directions: they are verdicts on GitHub's plumbing rather than on the software, so counting them as red would generate noise and counting them as green would silently reset a real failure streak.
 
+#### Retired workflows
+
+A workflow that can no longer run is excluded, however red its last run is. Two shapes, both present in the organization: the workflow file was **deleted** (its id is gone from `GET /actions/workflows`), or its **state is not `active`** — `disabled_manually`, `disabled_inactivity` (GitHub's automatic pause after 60 days of repo inactivity) or `disabled_fork`. `netresearch/ofelia`'s "Cleanup Container Images" is the first kind: five runs, the newest a failure from 2026-04-19, and no workflow file since. `netresearch/claude-code-marketplace-P`'s "Pages" is the second.
+
+Without this they would each earn a weekly reminder forever about something nobody can action, which is how a notification channel earns a mute — taking the real signals with it.
+
+There is deliberately **no age threshold** in this rule. A threshold gets it wrong in both directions: a monthly cron whose last run is 45 days old is perfectly alive and must still be reported, while a workflow deleted yesterday is already dead. GitHub's own answer is the ground truth, and it is also what distinguishes a *retired* workflow from a merely *dormant* one.
+
+The exclusion is never silent. It is listed in the run log on every cycle, named in the baseline message, and a workflow that was being actively reported as failing when it retires gets one closing `🗄` message rather than just ceasing to appear. If the workflow is ever re-added or re-enabled it runs again, becomes `active`, and is picked up by the next poll. The trade-off accepted: a repo GitHub auto-paused for inactivity stops being reported, which is correct in the narrow sense — it genuinely will not run again until someone touches the repo — but it does mean a dormant repo's broken nightly goes quiet.
+
 #### State
 
 Previous statuses live in a workflow **artifact** (`scheduled-failures-state`), downloaded at the start of the job and re-uploaded at the end — the same mechanism `star-notifications.yml` uses. A committed state file was rejected because it would put a commit on `main` on every run; the Actions cache was rejected because entries are evicted after 7 days without a read, which is shorter than the reminder interval this has to measure. The accepted cost of an artifact is that it can expire or be deleted, after which there is no history — handled by the baseline summary above rather than by re-announcing everything.
