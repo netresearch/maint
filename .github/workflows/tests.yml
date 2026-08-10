@@ -1,0 +1,36 @@
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - name: Setup Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: '3.14'
+
+      - name: Install test dependencies
+        # beautifulsoup4 is not optional: tests/test_check_stars.py imports
+        # scripts/check-stars.py at module scope, so without it pytest fails
+        # during collection rather than in a single test.
+        # Hash-pinned and wheels-only, as in requirements/. `--require-hashes`
+        # fixes the whole resolved tree rather than the three top-level names,
+        # and `--only-binary :all:` refuses sdists, whose build step would run
+        # a dependency's setup.py on the runner.
+        # Block scalar because `:all:` would otherwise read as a YAML mapping.
+        run: |
+          pip install --only-binary :all: --require-hashes -r requirements/tests.txt
+
+      - name: Run tests
+        run: pytest tests/ -v

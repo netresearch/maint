@@ -147,6 +147,32 @@ blast_radius = external_contributors × 3
 
 Weighted toward outside-the-org involvement. Compare repos relative to each other; absolute values are not meaningful on their own.
 
+## Tests
+
+**File:** `.github/workflows/tests.yml`
+
+Runs `pytest tests/` on every pull request and on every push to `main`.
+
+Locally:
+
+```bash
+python3 -m venv .venv && . .venv/bin/activate
+pip install --only-binary :all: --require-hashes -r requirements/tests.txt
+pytest tests/ -v
+```
+
+`beautifulsoup4` is a hard requirement even for tests that never scrape:
+`tests/test_check_stars.py` imports `scripts/check-stars.py` at module scope, so
+without it pytest fails during collection.
+
+To change a pinned version, regenerate the file rather than editing a hash by
+hand:
+
+```bash
+printf 'pytest\nrequests\nbeautifulsoup4\n' | uv pip compile --generate-hashes \
+  --python-version 3.14 --output-file requirements/tests.txt -
+```
+
 ## Adding New Automation Tasks
 
 1. Create workflow in `.github/workflows/`
