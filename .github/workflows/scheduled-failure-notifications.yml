@@ -1,0 +1,84 @@
+name: Scheduled Failure Notifications
+
+on:
+  # Once a day, at 07:00 UTC. The thing being watched is other repos' SCHEDULED
+  # workflows, and those are overwhelmingly nightly — polling faster than the
+  # runs appear buys no detection speed, it just multiplies API calls (~200
+  # requests a poll across the org). 07:00 UTC lands after the nightly window
+  # most of the org builds in (00:00-06:00 UTC) and at 08:00/09:00 CET, so a
+  # failure is in the channel at the start of the working day that could fix it
+  # rather than at 03:00. Against the incident that motivated this — 13 days of
+  # silence — a worst case of 24 hours is not the constraint worth optimising.
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Print the notifications instead of posting them to Matrix'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scheduled-failure-notifications
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - name: Setup Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: '3.14'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Download previous state
+        uses: dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151  # v21
+        with:
+          name: scheduled-failures-state
+          path: state/
+          if_no_artifact_found: warn
+        continue-on-error: true
+
+      - name: Check scheduled workflow runs
+        env:
+          # A fine-grained PAT on the netresearch org with Metadata: read and
+          # Actions: read. The job's own GITHUB_TOKEN is scoped to THIS repo, so
+          # it cannot read another repo's workflow runs — which is the entire
+          # job. Reusing STAR_NOTIFICATIONS_PAT or IMPACT_DASHBOARD_PAT would
+          # couple three schedules to one token's expiry and to each other's
+          # permission changes, so this gets its own.
+          GITHUB_TOKEN: ${{ secrets.SCHEDULED_FAILURES_PAT }}
+          MATRIX_WEBHOOK_URL: ${{ secrets.MATRIX_WEBHOOK_URL }}
+          ORG_NAME: netresearch
+          # Passed through the environment rather than interpolated into the
+          # `run:` string, so the shell never sees expression output. `inputs` is
+          # null on a schedule trigger, which is simply not "true".
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            python scripts/check_scheduled_failures.py --dry-run
+          else
+            python scripts/check_scheduled_failures.py
+          fi
+
+      - name: Upload updated state
+        # Runs even when the check failed part-way: the state written before the
+        # failure is still better than none, and losing it would re-announce
+        # every red workflow as new on the next run.
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7
+        with:
+          name: scheduled-failures-state
+          path: state/scheduled-failures-state.json
+          retention-days: 90
+          overwrite: true
+          if-no-files-found: ignore
