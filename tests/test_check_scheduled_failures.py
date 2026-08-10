@@ -53,6 +53,39 @@ def test_streak_counts_consecutive_failures_and_dates_the_first():
     assert summary["at_least"] is False, "the window reached a success, so the count is exact"
 
 
+def test_the_verdict_does_not_depend_on_the_order_runs_arrive_in():
+    """Ordering is the assumption every other answer here rests on.
+
+    Reproduces what a live dry run produced for netresearch/t3x-rte_ckeditor_image:
+    a weekly CI reported as "failing 1x since 2026-07-13" when that failure was
+    four runs back and the newest run was a success. Whatever made the sequence
+    arrive that way, the function must not be able to conclude it — the newest
+    run decides, not the first one in the list.
+    """
+    ordered = [_run("success", 10), _run("success", 9), _run("failure", 8), _run("failure", 7)]
+
+    for label, runs in (
+        ("newest first", ordered),
+        ("oldest first", list(reversed(ordered))),
+        ("failure first", [ordered[2], ordered[3], ordered[0], ordered[1]]),
+    ):
+        summary = csf.summarise_workflow(_group(list(runs)))
+        assert summary["failing"] is False, f"{label}: the newest run is a success, so this is green"
+        assert summary["run_url"].endswith("/10"), \
+            f"{label}: run_url must point at the NEWEST run, got {summary['run_url']}"
+
+    # And the same for a genuine failure: the streak is read newest-to-oldest
+    # whatever order the runs are handed over in.
+    failing = [_run("failure", 9), _run("failure", 8), _run("success", 7)]
+    for label, runs in (("newest first", failing), ("shuffled", [failing[2], failing[0], failing[1]])):
+        summary = csf.summarise_workflow(_group(list(runs)))
+        assert summary["failing"] is True, f"{label}: newest run is a failure"
+        assert summary["consecutive_failures"] == 2, \
+            f"{label}: expected a 2-run streak, got {summary['consecutive_failures']}"
+        assert summary["failing_since"].startswith("2026-08-08"), \
+            f"{label}: the streak starts at the OLDEST failure, got {summary['failing_since']}"
+
+
 def test_cancelled_runs_neither_break_nor_extend_a_streak():
     """A cancelled run is GitHub's plumbing, not a verdict on the software.
 

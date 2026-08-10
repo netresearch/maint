@@ -271,6 +271,11 @@ def _fill_crowded_out_workflows(
         }
 
 
+def run_timestamp(run: dict) -> str:
+    """When a run started, as a sortable ISO-8601 string ('' if absent)."""
+    return run.get("run_started_at") or run.get("created_at") or ""
+
+
 def summarise_workflow(group: dict) -> dict | None:
     """Reduce one workflow's runs to the status a message can be written from.
 
@@ -284,7 +289,17 @@ def summarise_workflow(group: dict) -> dict | None:
     set when the window runs out before a success is found, so the message can
     say "at least 100" instead of stating a floor as if it were the total.
     """
-    runs = group["runs"]
+    # Sorted here rather than trusted from the API. Every answer below — which
+    # run is the latest, how long the streak is, when it started — is an
+    # ordering claim, and the code had no ordering of its own: it took whatever
+    # sequence the endpoint happened to return. A dry run against the live org
+    # reported netresearch/t3x-rte_ckeditor_image's weekly CI as "failing 1x
+    # since 2026-07-13" when that failure was four runs back and the newest was
+    # a success; the same query fifteen minutes later, and twelve times in a
+    # row after that, was correctly ordered, so the exact trigger is not
+    # established. What is established is that nothing in this function made the
+    # right answer inevitable. Now it does, at the cost of one sort.
+    runs = sorted(group["runs"], key=run_timestamp, reverse=True)
     latest = next(
         (r for r in runs if r.get("conclusion") in FAILING_CONCLUSIONS | PASSING_CONCLUSIONS),
         None,
