@@ -183,7 +183,7 @@ def test_message_carries_everything_needed_to_act():
     summary = csf.summarise_workflow(_group([_run("failure", d) for d in (9, 8, 7)] + [_run("success", 6)]))
     message = csf.format_failure(REPO, summary, NOW, reminder=False)
 
-    for expected in ("netresearch.github.io", "Build & Deploy", "3 consecutive failures",
+    for expected in (REPO["name"], "Build & Deploy", "3 consecutive failures",
                      "since 2026-08-07", "(3 days)", "/actions/runs/9"):
         assert expected in message, f"the message must carry {expected!r}; got: {message}"
 
@@ -358,7 +358,7 @@ def test_a_tracked_failure_that_retires_is_closed_out_not_dropped():
     assert previous["failing"] is True
 
     message = csf.format_retired(REPO, summary, "the workflow no longer exists")
-    assert "netresearch.github.io" in message
+    assert REPO["name"] in message
     assert "Build & Deploy" in message
     assert "no longer exists" in message, f"the reason must be stated: {message}"
     assert "no longer reported" in message, f"it must say the nagging stops: {message}"
@@ -388,7 +388,7 @@ def test_baseline_is_one_line_not_a_flood():
     summary = csf.summarise_workflow(_group([_run("failure", d) for d in (9, 8)] + [_run("success", 7)]))
     message = csf.format_baseline([(REPO, summary), (REPO, summary)], NOW)
 
-    assert message.count("netresearch.github.io") == 2, "every failing workflow is named"
+    assert message.count(REPO["name"]) == 2, "every failing workflow is named"
     assert "no previous state" in message, "the message must say why it is not a transition"
     assert "🔴" not in message, "a baseline is not a green -> red transition and must not read as one"
 
