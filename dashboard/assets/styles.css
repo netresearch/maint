@@ -189,7 +189,6 @@ th {
 th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 tbody tr:hover { background: rgba(47, 153, 164, 0.08); }
-tbody tr { cursor: pointer; }
 
 .pill {
   display: inline-block;
@@ -397,8 +396,9 @@ main > section > h2 { font-size: 1.4rem; }
 .chart-data { margin-top: 1rem; }
 .chart-data summary { cursor: pointer; color: var(--accent); min-height: 44px; display: flex; align-items: center; }
 
-/* Rows link out through their first cell; the row itself is not clickable. */
-tbody tr { cursor: auto; }
+/* Rows link out through their first cell; the row itself is not clickable, so
+   the pointer cursor moves to the sortable headers. The base rule above set it
+   on the row. */
 th[data-sort] { cursor: pointer; }
 th[data-sort][aria-sort="descending"]::after { content: " ▾"; }
 th[data-sort][aria-sort="ascending"]::after { content: " ▴"; }

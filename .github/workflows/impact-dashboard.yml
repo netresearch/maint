@@ -52,7 +52,12 @@ jobs:
           python-version: '3.14'
 
       - name: Install dependencies
-        run: pip install requests pyyaml jinja2
+        # Pinned and binary-only: an unpinned install resolves to whatever was
+        # published this morning, and a source distribution runs its own setup
+        # script during installation.
+        run: >-
+          pip install --only-binary :all:
+          requests==2.34.2 PyYAML==6.0.3 Jinja2==3.1.6
 
       - name: Collect impact metrics
         env:

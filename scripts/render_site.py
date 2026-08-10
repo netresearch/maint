@@ -44,6 +44,11 @@ SITE_URL = os.environ.get("SITE_URL", "https://netresearch.github.io/maint/")
 
 LANGS = ("en", "de")
 
+UTC_SUFFIX = "+00:00"
+SCHEMA_TYPE = "@type"
+INDEX_HTML = "index.html"
+TWO_UP = "../../"
+
 # Short pill labels, shared by both languages: these are technology names.
 SHORT_LABELS = {
     "typo3-extension": "TYPO3",
@@ -112,14 +117,14 @@ def dash(value, locale: str) -> str:
 def format_date(iso: str | None, locale: str) -> str:
     if not iso:
         return "—"
-    stamp = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    stamp = datetime.fromisoformat(iso.replace("Z", UTC_SUFFIX))
     if locale.startswith("de"):
         return stamp.strftime("%d.%m.%Y")
     return stamp.strftime("%d %B %Y")
 
 
 def format_datetime(iso: str, locale: str) -> str:
-    stamp = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    stamp = datetime.fromisoformat(iso.replace("Z", UTC_SUFFIX))
     if locale.startswith("de"):
         return stamp.strftime("%d.%m.%Y, %H:%M UTC")
     return stamp.strftime("%d %B %Y, %H:%M UTC")
@@ -176,7 +181,9 @@ def build_repo_rows(snapshot: dict, lang: str) -> list[dict]:
             "category": repo.get("category", "tool"),
             "pill": pill_class(repo.get("category", "tool")),
             "pill_label": SHORT_LABELS.get(repo.get("category"), repo.get("category", "?")),
-            "detail_href": f"repo/{repo['name']}/" if lang == "en" else f"repo/{repo['name']}/",
+            # Both languages link relative to their own root, so the path is
+            # the same either way.
+            "detail_href": f"repo/{repo['name']}/",
             "stars": life.get("stars", 0),
             "forks": life.get("forks", 0),
             "contributors": life.get("contributors", 0),
@@ -196,7 +203,7 @@ def build_repo_rows(snapshot: dict, lang: str) -> list[dict]:
     return rows
 
 
-def build_category_groups(snapshot: dict, translations: dict) -> list[dict]:
+def build_category_groups(snapshot: dict) -> list[dict]:
     meta = snapshot.get("categories", {})
     groups = []
     for key, info in meta.items():
@@ -233,29 +240,29 @@ def build_history_rows(history: dict) -> list[dict]:
     return rows
 
 
-def citation_text(t: dict, url: str, generated_at: str, locale: str) -> str:
+def citation_text(t: dict, url: str, generated_at: str) -> str:
     """Cite the data date, not the build date.
 
     An "accessed today" stamp baked into static HTML would state the build date
     while looking like the reader's. The snapshot date is the fact that matters
     and it does not change, which is what makes a snapshot URL citable.
     """
-    stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+    stamp = datetime.fromisoformat(generated_at.replace("Z", UTC_SUFFIX))
     return (
         f"{t['cite']['publisher']} ({stamp.year}). {t['hero']['title']} "
         f"[dataset]. {t['snapshot']['as_of']} {stamp.strftime('%Y-%m-%d')}. {url}"
     )
 
 
-def json_ld_for(t: dict, snapshot: dict, canonical: str, page: str) -> str:
+def json_ld_for(t: dict, snapshot: dict, canonical: str) -> str:
     organisation = {
-        "@type": "Organization",
+        SCHEMA_TYPE: "Organization",
         "@id": f"{SITE_URL}#organization",
         "name": "Netresearch DTT GmbH",
         "url": "https://www.netresearch.de/",
     }
     dataset = {
-        "@type": "Dataset",
+        SCHEMA_TYPE: "Dataset",
         "@id": f"{SITE_URL}#dataset",
         "name": t["hero"]["title"],
         "description": t["meta"]["description"],
@@ -269,19 +276,19 @@ def json_ld_for(t: dict, snapshot: dict, canonical: str, page: str) -> str:
         "isAccessibleForFree": True,
         "distribution": [
             {
-                "@type": "DataDownload",
+                SCHEMA_TYPE: "DataDownload",
                 "name": t["downloads"]["latest_json"],
                 "encodingFormat": "application/json",
                 "contentUrl": f"{SITE_URL}data/latest.json",
             },
             {
-                "@type": "DataDownload",
+                SCHEMA_TYPE: "DataDownload",
                 "name": t["downloads"]["repos_csv"],
                 "encodingFormat": "text/csv",
                 "contentUrl": f"{SITE_URL}data/repositories.csv",
             },
             {
-                "@type": "DataDownload",
+                SCHEMA_TYPE: "DataDownload",
                 "name": t["downloads"]["history_json"],
                 "encodingFormat": "application/json",
                 "contentUrl": f"{SITE_URL}data/history.json",
@@ -289,9 +296,9 @@ def json_ld_for(t: dict, snapshot: dict, canonical: str, page: str) -> str:
         ],
     }
     breadcrumb = {
-        "@type": "BreadcrumbList",
+        SCHEMA_TYPE: "BreadcrumbList",
         "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": t["hero"]["title"], "item": canonical},
+            {SCHEMA_TYPE: "ListItem", "position": 1, "name": t["hero"]["title"], "item": canonical},
         ],
     }
     graph = [organisation, dataset, breadcrumb]
@@ -408,13 +415,13 @@ def main() -> None:
             },
         }
 
-        category_groups = build_category_groups(snapshot, t)
+        category_groups = build_category_groups(snapshot)
         category_groups_cache[lang] = category_groups
         repo_rows = build_repo_rows(snapshot, lang)
 
         # ── Dashboard ────────────────────────────────────────────────────────
         write(
-            OUTPUT_DIR / prefix / "index.html",
+            OUTPUT_DIR / prefix / INDEX_HTML,
             env.get_template("index.html.j2").render(
                 **common,
                 page_title=t["meta"]["title"],
@@ -424,7 +431,7 @@ def main() -> None:
                 base="" if lang == "en" else "../",
                 home="./",
                 other_href=SITE_URL if lang == "de" else f"{SITE_URL}de/",
-                json_ld=json_ld_for(t, snapshot, home_url, "index"),
+                json_ld=json_ld_for(t, snapshot, home_url),
                 kpis={
                     "lifetime": [(k, totals.get(k)) for k in LIFETIME_KPIS],
                     "recent_30d": [(k, totals.get(k)) for k in RECENT_KPIS],
@@ -439,7 +446,7 @@ def main() -> None:
                     {"date": date, "href": f"snapshot/{date}/"}
                     for date in snapshot_dates[:SNAPSHOT_LINKS]
                 ],
-                citation=citation_text(t, home_url, snapshot["generated_at"], locale),
+                citation=citation_text(t, home_url, snapshot["generated_at"]),
             ),
         )
 
@@ -450,7 +457,7 @@ def main() -> None:
             repo_url = f"{home_url}repo/{repo['name']}/"
             repo_view = {**repo, "estimated_downstream_reach": reach_for(repo)}
             write(
-                OUTPUT_DIR / prefix / "repo" / repo["name"] / "index.html",
+                OUTPUT_DIR / prefix / "repo" / repo["name"] / INDEX_HTML,
                 env.get_template("repo.html.j2").render(
                     **common,
                     page_title=f"{repo['name']} {t['repo']['heading_suffix']} — {t['hero']['title']}",
@@ -461,13 +468,14 @@ def main() -> None:
                         {"hreflang": "de", "href": f"{SITE_URL}de/repo/{repo['name']}/"},
                         {"hreflang": "x-default", "href": f"{SITE_URL}repo/{repo['name']}/"},
                     ],
-                    base="../../" if lang == "en" else "../../../",
-                    home="../../" if lang == "en" else "../../",
+                    base=TWO_UP if lang == "en" else TWO_UP + "../",
+                    # Two levels up is the language root in both languages.
+                    home=TWO_UP,
                     other_href=(
                         f"{SITE_URL}repo/{repo['name']}/" if lang == "de"
                         else f"{SITE_URL}de/repo/{repo['name']}/"
                     ),
-                    json_ld=json_ld_for(t, snapshot, repo_url, "repo"),
+                    json_ld=json_ld_for(t, snapshot, repo_url),
                     repo=repo_view,
                     pill=pill_class(repo.get("category", "tool")),
                     pill_label=SHORT_LABELS.get(repo.get("category"), repo.get("category", "?")),
@@ -495,7 +503,7 @@ def main() -> None:
 
         # ── Immutable snapshot pages ─────────────────────────────────────────
         for date in snapshot_dates:
-            target = OUTPUT_DIR / prefix / "snapshot" / date / "index.html"
+            target = OUTPUT_DIR / prefix / "snapshot" / date / INDEX_HTML
             if target.exists():
                 # Written once. Regenerating would break the promise that a cited
                 # snapshot URL still shows the figures it showed when cited.
@@ -519,19 +527,20 @@ def main() -> None:
                         {"hreflang": "de", "href": f"{SITE_URL}de/snapshot/{date}/"},
                         {"hreflang": "x-default", "href": f"{SITE_URL}snapshot/{date}/"},
                     ],
-                    base="../../" if lang == "en" else "../../../",
-                    home="../../" if lang == "en" else "../../",
+                    base=TWO_UP if lang == "en" else TWO_UP + "../",
+                    # Two levels up is the language root in both languages.
+                    home=TWO_UP,
                     other_href=(
                         f"{SITE_URL}snapshot/{date}/" if lang == "de"
                         else f"{SITE_URL}de/snapshot/{date}/"
                     ),
-                    json_ld=json_ld_for(t, archived_snapshot, snapshot_url, "snapshot"),
+                    json_ld=json_ld_for(t, archived_snapshot, snapshot_url),
                     snapshot_date=date,
                     kpis={
                         "lifetime": [(k, archived_totals.get(k)) for k in LIFETIME_KPIS],
                         "recent_30d": [(k, archived_totals.get(k)) for k in RECENT_KPIS],
                     },
-                    citation=citation_text(t, snapshot_url, archived_snapshot["generated_at"], locale),
+                    citation=citation_text(t, snapshot_url, archived_snapshot["generated_at"]),
                 ),
             )
 
