@@ -12,55 +12,50 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-28T09:41:02Z",
-  "pushed_at": "2026-08-08T08:50:00Z",
-  "updated_at": "2026-08-08T08:50:17Z",
+  "pushed_at": "2026-08-09T22:12:42Z",
+  "updated_at": "2026-08-09T22:12:26Z",
   "composer_name": "netresearch/nr-vault",
   "lifetime": {
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 1274,
+    "commits": 1276,
     "issues_open": 2,
     "issues_closed": 10,
     "prs_open": 0,
-    "prs_merged": 271,
+    "prs_merged": 272,
     "prs_closed_unmerged": 13,
     "issues_total": 12,
     "releases": 31,
     "release_downloads": 255,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 57267,
+    "packagist_downloads": 60196,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 358,
+    "commits": 360,
     "issues_opened": 6,
-    "prs_opened": 91,
-    "prs_merged": 88,
+    "prs_opened": 92,
+    "prs_merged": 89,
     "releases": 12,
-    "packagist_downloads": 26881,
+    "packagist_downloads": 29701,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 13116,
-    "clones_unique": 387,
-    "views_total": 24,
-    "views_unique": 16,
+    "clones_total": 13062,
+    "clones_unique": 381,
+    "views_total": 16,
+    "views_unique": 12,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 12,
-        "uniques": 4
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
+        "count": 6,
+        "uniques": 2
       },
       {
         "referrer": "netresearch.github.io",
@@ -77,14 +72,8 @@
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 6,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/issues",
-        "title": "/issues",
         "count": 3,
-        "uniques": 2
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-vault/blob/HEAD/LICENSE",
@@ -129,8 +118,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-vault/commit/7c8e21e526c90cd26b862b688eaf62d3df2057a6",
-        "title": "/commit/7c8e21e526c90cd26b862b688eaf62d3df2057a6",
+        "path": "/netresearch/t3x-nr-vault/discussions",
+        "title": "/discussions",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/forks",
+        "title": "/forks",
         "count": 1,
         "uniques": 1
       }
@@ -150,12 +145,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 143,
+      "contributions": 144,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 35,
+      "contributions": 36,
       "url": "https://github.com/apps/github-actions"
     },
     {
@@ -166,9 +161,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 57267,
-    "monthly": 26881,
-    "daily": 964,
+    "total": 60196,
+    "monthly": 29701,
+    "daily": 2647,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,
@@ -177,6 +172,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-vault/network/dependents"
   },
-  "blast_radius": 283,
+  "blast_radius": 284,
   "archived": false
 }

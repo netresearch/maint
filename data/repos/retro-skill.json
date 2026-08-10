@@ -53,20 +53,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 787,
-    "clones_unique": 138,
-    "views_total": 192,
-    "views_unique": 81,
+    "clones_total": 759,
+    "clones_unique": 131,
+    "views_total": 183,
+    "views_unique": 79,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 126,
-        "uniques": 48
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 12,
-        "uniques": 2
+        "count": 125,
+        "uniques": 47
       },
       {
         "referrer": "github.com",
@@ -84,6 +79,11 @@
         "uniques": 2
       },
       {
+        "referrer": "search.brave.com",
+        "count": 4,
+        "uniques": 1
+      },
+      {
         "referrer": "claude.ai",
         "count": 3,
         "uniques": 3
@@ -98,32 +98,26 @@
       {
         "path": "/netresearch/retro-skill",
         "title": "Overview",
-        "count": 104,
-        "uniques": 64
+        "count": 103,
+        "uniques": 63
       },
       {
         "path": "/netresearch/retro-skill/blob/main/docs/specs/retro-skill.md",
         "title": "/blob/main/docs/specs/retro-skill.md",
-        "count": 15,
-        "uniques": 15
+        "count": 14,
+        "uniques": 14
       },
       {
         "path": "/netresearch/retro-skill/tree/main/skills/retro",
         "title": "/tree/main/skills/retro",
-        "count": 12,
-        "uniques": 10
+        "count": 10,
+        "uniques": 9
       },
       {
         "path": "/netresearch/retro-skill/tree/main",
         "title": "/tree/main",
-        "count": 10,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/retro-skill/blob/main/skills/retro/SKILL.md",
-        "title": "/blob/main/skills/retro/SKILL.md",
-        "count": 5,
-        "uniques": 5
+        "count": 9,
+        "uniques": 2
       },
       {
         "path": "/netresearch/retro-skill/tree/main/.github",
@@ -132,16 +126,16 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/retro-skill/tree/main/skills/retro/scripts",
-        "title": "/tree/main/skills/retro/scripts",
+        "path": "/netresearch/retro-skill/blob/main/skills/retro/SKILL.md",
+        "title": "/blob/main/skills/retro/SKILL.md",
         "count": 4,
         "uniques": 4
       },
       {
-        "path": "/netresearch/retro-skill/tree/main/commands",
-        "title": "/tree/main/commands",
+        "path": "/netresearch/retro-skill/tree/main/skills/retro/scripts",
+        "title": "/tree/main/skills/retro/scripts",
         "count": 4,
-        "uniques": 3
+        "uniques": 4
       },
       {
         "path": "/netresearch/retro-skill/blob/main/skills/retro/references/eval-integration.md",
@@ -153,6 +147,12 @@
         "path": "/netresearch/retro-skill/blob/main/skills/retro/scripts/detect-mechanical.py",
         "title": "/blob/main/skills/retro/scripts/detect-mechanical.py",
         "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/retro-skill/blob/main/hooks/session-end.json",
+        "title": "/blob/main/hooks/session-end.json",
+        "count": 2,
         "uniques": 2
       }
     ]
