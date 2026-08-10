@@ -278,21 +278,69 @@ def load_state() -> dict:
       Retention is refreshed on every run, so it cannot age out while the
       workflow is alive.
     """
+    raw: object = {}
     if STATE_FILE.exists():
         try:
-            return json.loads(STATE_FILE.read_text())
-        except json.JSONDecodeError as e:
+            with open(STATE_FILE, encoding="utf-8") as handle:
+                raw = json.load(handle)
+        except (json.JSONDecodeError, UnicodeDecodeError) as e:
             # A corrupt artifact must not wedge the notifier permanently; losing
             # the baseline costs one summary line, a hard failure costs silence.
             print(f"::warning::State file is unreadable ({e}); starting from an empty baseline")
-    return {"workflows": {}, "last_run": None}
+    if not isinstance(raw, dict):
+        print(f"::warning::State file holds a {type(raw).__name__}, not an object; starting from an empty baseline")
+        raw = {}
+    return {
+        "last_run": clean_timestamp(raw.get("last_run")),
+        "workflows": clean_workflows(raw.get("workflows")),
+    }
 
 
-def save_state(state: dict) -> None:
-    """Write the state file, creating its directory if needed."""
+def clean_timestamp(value: object) -> str | None:
+    """Re-emit a timestamp parsed from `value`, or None if it is not one."""
+    parsed = parse_timestamp(value) if isinstance(value, str) else None
+    return parsed.isoformat() if parsed else None
+
+
+def clean_workflows(value: object) -> dict[str, dict]:
+    """Rebuild the per-workflow state from validated primitives.
+
+    The file is whatever the downloaded artifact contained, and the rest of this
+    module reads it assuming a shape: `previous.get("failing")`, a `timedelta`
+    against `last_notified`, an int failure count. Trusting that shape put an
+    AttributeError one malformed entry away from killing a 190-repo run, and
+    handing the parsed blob straight back to the writer is what makes the write
+    read as a path sink to static analysis (Sonar S2083). Reconstructing it from
+    the four fields actually read — coerced, with timestamps re-emitted from
+    parsed datetimes — fixes both, and everything else in an entry is rewritten
+    from live API data each run anyway.
+    """
+    if not isinstance(value, dict):
+        return {}
+    cleaned: dict[str, dict] = {}
+    for key, entry in value.items():
+        if not isinstance(key, str) or not isinstance(entry, dict):
+            continue
+        count = entry.get("consecutive_failures")
+        cleaned[key] = {
+            "failing": bool(entry.get("failing")),
+            "consecutive_failures": count if isinstance(count, int) and count >= 0 else 0,
+            "failing_since": clean_timestamp(entry.get("failing_since")),
+            "last_notified": clean_timestamp(entry.get("last_notified")),
+        }
+    return cleaned
+
+
+def save_state(workflows: dict) -> None:
+    """Write the state file, creating its directory if needed.
+
+    Takes the workflow map rather than the loaded state dict, so nothing that
+    came out of the artifact is carried back into the write untouched.
+    """
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
-    state["last_run"] = datetime.now(timezone.utc).isoformat()
-    STATE_FILE.write_text(json.dumps(state, indent=2, sort_keys=True))
+    payload = {"last_run": datetime.now(timezone.utc).isoformat(), "workflows": workflows}
+    with open(STATE_FILE, "w", encoding="utf-8") as handle:
+        json.dump(payload, handle, indent=2, sort_keys=True)
 
 
 def describe_age(since: str | None, now: datetime) -> str:
@@ -387,7 +435,11 @@ def state_entry(repo: dict, summary: dict, previous: dict | None, notified: bool
         "workflow_name": summary["workflow_name"],
         "failing": summary["failing"],
         "consecutive_failures": summary["consecutive_failures"],
-        "failing_since": summary["failing_since"],
+        # Normalised on the way in, so the file is byte-stable across a
+        # write/read cycle: GitHub sends `...Z`, clean_timestamp re-emits
+        # `...+00:00`, and without this the state churns representation on every
+        # reload for no reason.
+        "failing_since": clean_timestamp(summary["failing_since"]),
         "last_notified": now.isoformat() if notified else carried,
     }
 
@@ -512,11 +564,10 @@ def main(argv: list[str] | None = None) -> int:
 
     sent = send(messages, args.dry_run)
 
-    state["workflows"] = next_workflows
     if args.dry_run:
         print("[dry-run] state file not written")
     else:
-        save_state(state)
+        save_state(next_workflows)
 
     tracked = len(next_workflows)
     if is_baseline:

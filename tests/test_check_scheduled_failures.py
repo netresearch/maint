@@ -263,7 +263,11 @@ def test_dry_run_sends_nothing():
 
 
 def test_state_round_trips_through_the_artifact_file():
-    """What is written is what the next run reads: the transition rules depend on it."""
+    """What is written is what the next run reads: the transition rules depend on it.
+
+    Only the four fields the rules actually read have to survive; the rest of an
+    entry is rewritten from live API data on every run.
+    """
     summary = csf.summarise_workflow(_group([_run("failure", 9), _run("success", 8)]))
     entry = csf.state_entry(REPO, summary, previous=None, notified=True, now=NOW)
 
@@ -271,13 +275,79 @@ def test_state_round_trips_through_the_artifact_file():
     with tempfile.TemporaryDirectory() as tmp:
         csf.STATE_FILE = Path(tmp) / "state" / "scheduled-failures-state.json"
         try:
-            csf.save_state({"workflows": {"netresearch/x::1": entry}})
+            csf.save_state({"netresearch/x::1": entry})
             reloaded = csf.load_state()
         finally:
             csf.STATE_FILE = original_path
 
-    assert reloaded["workflows"]["netresearch/x::1"] == entry, "the entry must survive verbatim"
+    restored = reloaded["workflows"]["netresearch/x::1"]
+    for field in ("failing", "consecutive_failures", "failing_since", "last_notified"):
+        assert restored[field] == entry[field], \
+            f"{field} must survive the round trip: wrote {entry[field]!r}, read {restored[field]!r}"
     assert reloaded["last_run"], "last_run marks the state as a real baseline, not a first run"
+
+    # The reminder clock is the round trip's whole point — prove it still ticks
+    # from the reloaded value rather than only from the in-memory one.
+    assert csf.classify(REPO, summary, restored, NOW + timedelta(days=7))[0] == "reminder"
+    assert csf.classify(REPO, summary, restored, NOW + timedelta(days=6))[0] == "quiet"
+
+
+def test_a_malformed_artifact_cannot_derail_the_run():
+    """The state file is whatever the artifact held, so its shape is not a given.
+
+    Every entry here is the wrong type in a way the transition rules would
+    otherwise hit as an AttributeError or a TypeError, hundreds of API calls
+    into a run.
+    """
+    hostile = {
+        "last_run": ["not", "a", "timestamp"],
+        "workflows": {
+            "netresearch/a::1": {"failing": "yes", "consecutive_failures": "many",
+                                 "failing_since": None, "last_notified": "not-a-date"},
+            "netresearch/b::2": "an entry should be an object",
+            "netresearch/c::3": {"consecutive_failures": -5},
+        },
+    }
+    original_path = csf.STATE_FILE
+    with tempfile.TemporaryDirectory() as tmp:
+        csf.STATE_FILE = Path(tmp) / "scheduled-failures-state.json"
+        csf.STATE_FILE.write_text(json.dumps(hostile))
+        try:
+            state = csf.load_state()
+        finally:
+            csf.STATE_FILE = original_path
+
+    assert state["last_run"] is None, "a non-timestamp last_run must not pass for a real baseline"
+    workflows = state["workflows"]
+    assert set(workflows) == {"netresearch/a::1", "netresearch/c::3"}, \
+        f"non-dict entries and non-string keys must be dropped, kept {sorted(map(str, workflows))}"
+    assert workflows["netresearch/a::1"]["failing"] is True, "'yes' is truthy, and must arrive as a bool"
+    assert workflows["netresearch/a::1"]["consecutive_failures"] == 0, "a non-int count must not reach a format string"
+    assert workflows["netresearch/a::1"]["last_notified"] is None, "an unparseable date must not stall the reminder"
+    assert workflows["netresearch/c::3"]["consecutive_failures"] == 0, "a negative count is not a count"
+
+    # A non-string key cannot come through JSON (it stringifies them), so the
+    # guard against one is only reachable in memory. Exercise it there.
+    assert csf.clean_workflows({7: {"failing": True}}) == {}, "a non-string key must be dropped"
+
+    # The rules must now run over it without raising.
+    summary = csf.summarise_workflow(_group([_run("failure", 9), _run("success", 8)]))
+    for previous in workflows.values():
+        csf.classify(REPO, summary, previous, NOW)
+
+
+def test_a_state_file_holding_a_list_is_not_an_object():
+    """json.load happily returns a list; .get() on it would be an AttributeError."""
+    original_path = csf.STATE_FILE
+    with tempfile.TemporaryDirectory() as tmp:
+        csf.STATE_FILE = Path(tmp) / "scheduled-failures-state.json"
+        csf.STATE_FILE.write_text("[1, 2, 3]")
+        try:
+            state = csf.load_state()
+        finally:
+            csf.STATE_FILE = original_path
+
+    assert state == {"workflows": {}, "last_run": None}, f"expected an empty baseline, got {state}"
 
 
 def test_unreadable_state_starts_a_baseline_instead_of_crashing():
