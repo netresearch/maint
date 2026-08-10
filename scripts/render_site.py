@@ -35,7 +35,7 @@ from pathlib import Path
 from urllib.parse import urlencode
 
 import yaml
-from jinja2 import Environment, FileSystemLoader, select_autoescape
+from jinja2 import Environment, FileSystemLoader
 
 ROOT = Path(__file__).resolve().parent.parent
 DASHBOARD = ROOT / "dashboard"
@@ -358,9 +358,11 @@ def main() -> None:
     history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else {"daily": []}
 
     translations = load_translations()
-    env = Environment(
+    env = Environment(# nosemgrep: python.flask.security.xss.audit.direct-use-of-jinja2.direct-use-of-jinja2
         loader=FileSystemLoader(DASHBOARD / "templates"),
-        autoescape=select_autoescape(["html", "j2"]),
+        # Autoescape everything. An extension allow-list would miss ".html.j2",
+        # and every deliberate raw-HTML injection is marked |safe at its use site.
+        autoescape=True,
         trim_blocks=True,
         lstrip_blocks=True,
     )
