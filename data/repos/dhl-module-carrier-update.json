@@ -55,10 +55,23 @@
   "traffic_14d": {
     "clones_total": 11,
     "clones_unique": 9,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/dhl-module-carrier-update/releases",
+        "title": "/releases",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.5.0",
@@ -82,7 +95,7 @@
     "name": "dhl/module-carrier-update",
     "total": 2521,
     "monthly": 136,
-    "daily": 11,
+    "daily": 10,
     "url": "https://packagist.org/packages/dhl/module-carrier-update"
   },
   "ghcr": null,

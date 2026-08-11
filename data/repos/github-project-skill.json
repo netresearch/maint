@@ -49,14 +49,14 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1688,
-    "clones_unique": 316,
-    "views_total": 48,
-    "views_unique": 34,
+    "clones_total": 1784,
+    "clones_unique": 319,
+    "views_total": 58,
+    "views_unique": 38,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 22,
+        "count": 26,
         "uniques": 21
       },
       {
@@ -71,16 +71,34 @@
       },
       {
         "referrer": "search.brave.com",
-        "count": 1,
-        "uniques": 1
+        "count": 3,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/github-project-skill",
         "title": "Overview",
-        "count": 37,
-        "uniques": 33
+        "count": 40,
+        "uniques": 36
+      },
+      {
+        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/SKILL.md",
+        "title": "/blob/main/skills/github-project/SKILL.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/github-project-skill/tree/main/scripts",
+        "title": "/tree/main/scripts",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/github-project-skill/tree/main/skills/github-project",
+        "title": "/tree/main/skills/github-project",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/github-project-skill/tree/main/docs",
@@ -107,32 +125,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/SKILL.md",
-        "title": "/blob/main/skills/github-project/SKILL.md",
+        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/references/sub-issues.md",
+        "title": "/blob/main/skills/github-project/references/sub-issues.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/github-project-skill/tree/main/docs/exec-plans",
-        "title": "/tree/main/docs/exec-plans",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/github-project-skill/tree/main/docs/exec-plans/active",
-        "title": "/tree/main/docs/exec-plans/active",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/github-project-skill/tree/main/docs/exec-plans/completed",
-        "title": "/tree/main/docs/exec-plans/completed",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/github-project-skill/tree/main/scripts",
-        "title": "/tree/main/scripts",
+        "path": "/netresearch/github-project-skill/tree/main",
+        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       }
@@ -163,11 +163,7 @@
   ],
   "packagist": null,
   "ghcr": null,
-  "dependents": {
-    "repositories": 0,
-    "packages": 0,
-    "url": "https://github.com/netresearch/github-project-skill/network/dependents"
-  },
+  "dependents": null,
   "estimated_downstream_reach": 156,
   "blast_radius": 156,
   "archived": false
