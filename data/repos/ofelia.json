@@ -21,7 +21,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2022-05-30T12:58:03Z",
-  "pushed_at": "2026-08-04T10:54:30Z",
+  "pushed_at": "2026-08-10T10:21:06Z",
   "updated_at": "2026-08-08T07:11:40Z",
   "composer_name": null,
   "lifetime": {
@@ -29,11 +29,11 @@
     "forks": 6,
     "watchers": 1,
     "network": 204,
-    "open_issues_plus_prs": 24,
+    "open_issues_plus_prs": 26,
     "commits": 1656,
     "issues_open": 24,
     "issues_closed": 173,
-    "prs_open": 0,
+    "prs_open": 2,
     "prs_merged": 527,
     "prs_closed_unmerged": 60,
     "issues_total": 197,
@@ -42,29 +42,34 @@
     "contributors": 45,
     "external_contributors": 39,
     "packagist_downloads": 0,
-    "ghcr_downloads": 319771,
+    "ghcr_downloads": 321931,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
     "commits": 121,
-    "issues_opened": 8,
-    "prs_opened": 41,
+    "issues_opened": 7,
+    "prs_opened": 43,
     "prs_merged": 40,
     "releases": 4,
     "packagist_downloads": 0,
-    "ghcr_downloads": 54636
+    "ghcr_downloads": 54816
   },
   "traffic_14d": {
     "clones_total": 3704,
     "clones_unique": 271,
-    "views_total": 184,
-    "views_unique": 87,
+    "views_total": 154,
+    "views_unique": 59,
     "top_referrers": [
       {
         "referrer": "github.com",
         "count": 34,
         "uniques": 12
+      },
+      {
+        "referrer": "reddit.com",
+        "count": 3,
+        "uniques": 2
       },
       {
         "referrer": "claude.ai",
@@ -73,12 +78,7 @@
       },
       {
         "referrer": "Google",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "referrer": "reddit.com",
-        "count": 2,
+        "count": 1,
         "uniques": 1
       }
     ],
@@ -86,8 +86,8 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 48,
-        "uniques": 24
+        "count": 47,
+        "uniques": 23
       },
       {
         "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
@@ -209,12 +209,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 319771,
-        "thirty_day": 54636
+        "total": 321931,
+        "thirty_day": 54816
       }
     ],
-    "total": 319771,
-    "thirty_day": 54636
+    "total": 321931,
+    "thirty_day": 54816
   },
   "dependents": {
     "repositories": 0,

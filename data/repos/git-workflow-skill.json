@@ -14,75 +14,70 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:34Z",
-  "pushed_at": "2026-08-08T13:25:27Z",
-  "updated_at": "2026-08-08T19:06:34Z",
+  "pushed_at": "2026-08-10T23:20:44Z",
+  "updated_at": "2026-08-10T23:22:00Z",
   "composer_name": null,
   "lifetime": {
     "stars": 39,
     "forks": 5,
     "watchers": 1,
     "network": 5,
-    "open_issues_plus_prs": 2,
-    "commits": 480,
-    "issues_open": 2,
+    "open_issues_plus_prs": 3,
+    "commits": 516,
+    "issues_open": 3,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 152,
+    "prs_merged": 161,
     "prs_closed_unmerged": 1,
-    "issues_total": 4,
+    "issues_total": 5,
     "releases": 41,
-    "release_downloads": 272,
-    "contributors": 4,
-    "external_contributors": 1,
+    "release_downloads": 275,
+    "contributors": 5,
+    "external_contributors": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 182,
-    "issues_opened": 1,
-    "prs_opened": 64,
-    "prs_merged": 64,
+    "commits": 218,
+    "issues_opened": 2,
+    "prs_opened": 71,
+    "prs_merged": 71,
     "releases": 8,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3518,
-    "clones_unique": 474,
-    "views_total": 860,
-    "views_unique": 348,
+    "clones_total": 3528,
+    "clones_unique": 483,
+    "views_total": 862,
+    "views_unique": 341,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 537,
-        "uniques": 239
+        "count": 544,
+        "uniques": 242
       },
       {
         "referrer": "Bing",
-        "count": 64,
-        "uniques": 12
+        "count": 63,
+        "uniques": 11
       },
       {
         "referrer": "github.com",
-        "count": 37,
-        "uniques": 15
+        "count": 38,
+        "uniques": 14
       },
       {
         "referrer": "search.brave.com",
-        "count": 12,
-        "uniques": 8
+        "count": 11,
+        "uniques": 7
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
         "count": 8,
         "uniques": 1
-      },
-      {
-        "referrer": "DuckDuckGo",
-        "count": 3,
-        "uniques": 2
       },
       {
         "referrer": "perplexity.ai",
@@ -95,7 +90,7 @@
         "uniques": 2
       },
       {
-        "referrer": "packagist.org",
+        "referrer": "DuckDuckGo",
         "count": 2,
         "uniques": 1
       },
@@ -103,32 +98,37 @@
         "referrer": "skills.sh",
         "count": 2,
         "uniques": 1
+      },
+      {
+        "referrer": "web.telegram.org",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/git-workflow-skill",
         "title": "Overview",
-        "count": 425,
-        "uniques": 322
-      },
-      {
-        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/SKILL.md",
-        "title": "/blob/main/skills/git-workflow/SKILL.md",
-        "count": 71,
-        "uniques": 42
+        "count": 420,
+        "uniques": 319
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow",
         "title": "/tree/main/skills/git-workflow",
-        "count": 69,
-        "uniques": 50
+        "count": 74,
+        "uniques": 53
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/SKILL.md",
+        "title": "/blob/main/skills/git-workflow/SKILL.md",
+        "count": 67,
+        "uniques": 42
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main",
         "title": "/tree/main",
-        "count": 17,
-        "uniques": 12
+        "count": 18,
+        "uniques": 13
       },
       {
         "path": "/netresearch/git-workflow-skill/blob/main/AGENTS.md",
@@ -137,26 +137,20 @@
         "uniques": 11
       },
       {
-        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/commit-conventions.md",
-        "title": "/blob/main/skills/git-workflow/references/commit-conventions.md",
-        "count": 12,
-        "uniques": 7
-      },
-      {
-        "path": "/netresearch/git-workflow-skill/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
-        "count": 11,
-        "uniques": 10
-      },
-      {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/references",
         "title": "/tree/main/skills/git-workflow/references",
-        "count": 11,
-        "uniques": 9
+        "count": 14,
+        "uniques": 11
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/scripts",
         "title": "/tree/main/skills/git-workflow/scripts",
+        "count": 13,
+        "uniques": 11
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/blob/main/docs/ARCHITECTURE.md",
+        "title": "/blob/main/docs/ARCHITECTURE.md",
         "count": 10,
         "uniques": 9
       },
@@ -165,6 +159,12 @@
         "title": "/tree/main/commands",
         "count": 10,
         "uniques": 8
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/commit-conventions.md",
+        "title": "/blob/main/skills/git-workflow/references/commit-conventions.md",
+        "count": 10,
+        "uniques": 7
       }
     ]
   },
@@ -177,7 +177,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 462,
+      "contributions": 494,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -189,6 +189,11 @@
       "login": "github-actions[bot]",
       "contributions": 4,
       "url": "https://github.com/apps/github-actions"
+    },
+    {
+      "login": "tripleawwy",
+      "contributions": 4,
+      "url": "https://github.com/tripleawwy"
     },
     {
       "login": "renovate[bot]",
@@ -203,6 +208,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/git-workflow-skill/network/dependents"
   },
-  "blast_radius": 169,
+  "blast_radius": 182,
   "archived": false
 }

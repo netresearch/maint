@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-08T21:31:58Z",
-  "pushed_at": "2026-08-07T15:09:42Z",
-  "updated_at": "2026-08-07T15:12:14Z",
+  "pushed_at": "2026-08-10T15:36:09Z",
+  "updated_at": "2026-08-10T15:35:59Z",
   "composer_name": "netresearch/nr-repurpose",
   "lifetime": {
     "stars": 1,
@@ -19,60 +19,54 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 251,
+    "commits": 255,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 64,
+    "prs_merged": 66,
     "prs_closed_unmerged": 6,
     "issues_total": 2,
-    "releases": 8,
+    "releases": 9,
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 452,
+    "packagist_downloads": 526,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 84,
+    "commits": 88,
     "issues_opened": 1,
-    "prs_opened": 39,
-    "prs_merged": 36,
-    "releases": 7,
-    "packagist_downloads": 452,
+    "prs_opened": 41,
+    "prs_merged": 38,
+    "releases": 8,
+    "packagist_downloads": 526,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1367,
-    "clones_unique": 121,
-    "views_total": 5,
-    "views_unique": 4,
+    "clones_total": 1352,
+    "clones_unique": 123,
+    "views_total": 3,
+    "views_unique": 3,
     "top_referrers": [
-      {
-        "referrer": "github.com",
-        "count": 3,
-        "uniques": 2
-      },
       {
         "referrer": "extensions.typo3.org",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-repurpose",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-nr-repurpose/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-repurpose/tree/v0.4.0",
@@ -83,15 +77,15 @@
     ]
   },
   "latest_release": {
-    "name": "v0.4.0",
-    "tag_name": "v0.4.0",
-    "published_at": "2026-08-07T05:42:17Z",
-    "url": "https://github.com/netresearch/t3x-nr-repurpose/releases/tag/v0.4.0"
+    "name": "v0.4.1",
+    "tag_name": "v0.4.1",
+    "published_at": "2026-08-10T15:42:56Z",
+    "url": "https://github.com/netresearch/t3x-nr-repurpose/releases/tag/v0.4.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 221,
+      "contributions": 225,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -107,9 +101,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-repurpose",
-    "total": 452,
-    "monthly": 452,
-    "daily": 8,
+    "total": 526,
+    "monthly": 526,
+    "daily": 61,
     "url": "https://packagist.org/packages/netresearch/nr-repurpose"
   },
   "ghcr": null,
@@ -118,6 +112,6 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-repurpose/network/dependents"
   },
-  "blast_radius": 66,
+  "blast_radius": 68,
   "archived": false
 }
