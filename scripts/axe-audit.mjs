@@ -138,9 +138,31 @@ async function main() {
   for (const { route } of sampled) {
     for (const scheme of SCHEMES) {
       const page = await browser.newPage();
+
+      // A page whose stylesheet 404s has no contrast failures at all, so a
+      // silent asset error turns this gate into a rubber stamp. Any request
+      // that does not succeed is therefore a failure in its own right.
+      const broken = [];
+      page.on('response', (response) => {
+        if (response.status() >= 400) broken.push(`${response.status()} ${response.url()}`);
+      });
       await page.emulateMediaFeatures([{ name: 'prefers-color-scheme', value: scheme }]);
       await page.setViewport({ width: 1280, height: 900 });
       await page.goto(`http://127.0.0.1:${port}${route}`, { waitUntil: 'networkidle0' });
+
+      if (broken.length) {
+        failures.push({
+          route,
+          scheme,
+          violation: {
+            id: 'asset-not-served',
+            impact: 'critical',
+            help: 'Every asset the page requests must be served — an unstyled page passes for the wrong reason',
+            helpUrl: 'https://github.com/netresearch/maint/blob/main/scripts/axe-audit.mjs',
+            nodes: broken.map((entry) => ({ target: [entry], failureSummary: '' })),
+          },
+        });
+      }
       await page.addScriptTag({ path: axePath });
 
       const results = await page.evaluate(
