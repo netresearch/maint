@@ -24,8 +24,8 @@
 
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
-import { existsSync, readdirSync, statSync } from 'node:fs';
-import { join, extname, relative } from 'node:path';
+import { readdirSync, statSync, readFileSync } from 'node:fs';
+import { join, extname, relative, sep } from 'node:path';
 import { createRequire } from 'node:module';
 import puppeteer from 'puppeteer';
 
@@ -53,56 +53,58 @@ const MIME = {
   '.txt': 'text/plain; charset=utf-8',
 };
 
-/** Every index.html below dist/, as the URL path a visitor would use. */
-function htmlRoutes(dir, base = dir) {
-  const routes = [];
+/**
+ * Every servable file below the output directory, as URL path → absolute file.
+ *
+ * The tree is indexed once and the request handler only looks paths up. Nothing
+ * is joined with, or stat'ed from, a request path: a URL cannot name a file the
+ * index does not already hold, so `..` has nothing to escape into.
+ */
+function indexFiles(dir, base = dir, into = new Map()) {
   for (const entry of readdirSync(dir)) {
     const full = join(dir, entry);
     if (statSync(full).isDirectory()) {
-      routes.push(...htmlRoutes(full, base));
-    } else if (entry === 'index.html') {
-      const path = `/${relative(base, dir)}`.replace(/\/$/, '');
-      routes.push(path === '/' || path === '/.' ? '/' : `${path}/`);
+      indexFiles(full, base, into);
+    } else {
+      const url = `/${relative(base, full).split(sep).join('/')}`;
+      into.set(url, full);
+      if (entry === 'index.html') into.set(url.replace(/index\.html$/, ''), full);
     }
   }
-  return routes.sort();
-}
-
-function serve(root) {
-  const server = createServer(async (req, res) => {
-    const url = new URL(req.url, 'http://localhost');
-    let file = join(root, decodeURIComponent(url.pathname));
-    if (existsSync(file) && statSync(file).isDirectory()) file = join(file, 'index.html');
-    if (!file.startsWith(root) || !existsSync(file)) {
-      res.writeHead(404).end('not found');
-      return;
-    }
-    res.writeHead(200, { 'content-type': MIME[extname(file)] ?? 'application/octet-stream' });
-    res.end(await readFile(file));
-  });
-  return new Promise((resolve) => {
-    server.listen(0, '127.0.0.1', () => resolve({ server, port: server.address().port }));
-  });
+  return into;
 }
 
 /**
- * Both colour schemes. This dashboard is dark-only today, so the two runs agree
- * — but the run is what proves that, and it starts failing the day a light
- * palette lands without its contrast being checked.
+ * The routes a visitor can open: every directory with an index.html, plus every
+ * other .html file. Named pages matter — a discovery that looks for index.html
+ * alone silently skips whole sections and still reports success.
  */
-const SCHEMES = ['light', 'dark'];
+function htmlRoutes(files) {
+  return [...files.keys()]
+    .filter((url) => url.endsWith('/') || (url.endsWith('.html') && !url.endsWith('/index.html')))
+    .filter((url) => {
+      // A meta-refresh stub carries no content and the browser leaves it at
+      // once; auditing it measures whatever it redirected to, a second time.
+      const html = readFileSync(files.get(url), 'utf-8');
+      return !/<meta[^>]+http-equiv=["']refresh["']/i.test(html);
+    })
+    .sort((a, b) => a.localeCompare(b));
+}
 
 /**
- * The route shape a page belongs to: every path segment that names a specific
- * repository or snapshot date collapses to '*'. `/repo/t3x-nr-llm/` and
- * `/repo/agent-rules-skill/` are the same template with different data.
+ * The route shape a page belongs to. Segments that name one repository, one
+ * date or one document collapse to '*': those pages are the same template with
+ * different data, and auditing all of them costs deploy time to re-find what
+ * the first one already found.
  */
 function routeShape(route) {
-  return route.replace(/(\/(?:repo|snapshot)\/)[^/]+\//g, '$1*/');
+  return route
+    .replace(/(\/(?:repo|snapshot|adr)\/)[^/]+(\/|$)/g, '$1*$2')
+    .replace(/\/[^/]+\.html$/, '/*.html');
 }
 
-/** One representative route per shape, plus what that left out. */
-function sample(routes) {
+/** One representative route per shape, and how many that left out. */
+function sampleRoutes(routes) {
   const groups = new Map();
   for (const route of routes) {
     const shape = routeShape(route);
@@ -116,10 +118,96 @@ function sample(routes) {
   }));
 }
 
+function serve(files) {
+  const server = createServer(async (req, res) => {
+    const file = files.get(new URL(req.url, 'http://localhost').pathname);
+    if (!file) {
+      res.writeHead(404).end('not found');
+      return;
+    }
+    res.writeHead(200, { 'content-type': MIME[extname(file)] ?? 'application/octet-stream' });
+    res.end(await readFile(file));
+  });
+  return new Promise((resolve_) => {
+    server.listen(0, '127.0.0.1', () => resolve_({ server, port: server.address().port }));
+  });
+}
+
+/**
+ * Both colour schemes. The dark palette is a separate set of colour pairs, so a
+ * light-only audit says nothing about it — and the pages ship dark mode.
+ */
+const SCHEMES = ['light', 'dark'];
+
+/** Prints one violation. Extracted so main() stays readable. */
+function report({ route, scheme, violation }) {
+  console.error(`\n✗ ${route} [${scheme}] — ${violation.id} (${violation.impact})`);
+  console.error(`  ${violation.help}`);
+  console.error(`  ${violation.helpUrl}`);
+  for (const node of violation.nodes.slice(0, 4)) {
+    console.error(`    ${node.target.join(' ')}`);
+    for (const line of (node.failureSummary ?? '').split('\n').filter(Boolean).slice(1)) {
+      console.error(`      ${line}`);
+    }
+  }
+  if (violation.nodes.length > 4) {
+    console.error(`    … and ${violation.nodes.length - 4} more element(s)`);
+  }
+}
+
+/** Audits one page and returns the failures found on it. */
+async function auditPage(browser, port, route, scheme) {
+  const page = await browser.newPage();
+
+  // A page whose stylesheet 404s has no contrast failures at all, so a silent
+  // asset error turns this gate into a rubber stamp. Any request that does not
+  // succeed is therefore a failure in its own right.
+  const broken = [];
+  page.on('response', (response) => {
+    if (response.status() >= 400) broken.push(`${response.status()} ${response.url()}`);
+  });
+
+  await page.emulateMediaFeatures([{ name: 'prefers-color-scheme', value: scheme }]);
+  await page.setViewport({ width: 1280, height: 900 });
+  await page.goto(`http://127.0.0.1:${port}${route}`, { waitUntil: 'networkidle0' });
+  await page.addScriptTag({ path: axePath });
+
+  const results = await page.evaluate(
+    async (tags) => await window.axe.run(document, { runOnly: { type: 'tag', values: tags } }),
+    TAGS,
+  );
+  await page.close();
+
+  const found = results.violations.map((violation) => ({ route, scheme, violation }));
+  if (broken.length) {
+    found.unshift({
+      route,
+      scheme,
+      violation: {
+        id: 'asset-not-served',
+        impact: 'critical',
+        help: 'Every asset the page requests must be served — an unstyled page passes for the wrong reason',
+        helpUrl: 'https://github.com/netresearch/maint/blob/main/scripts/axe-audit.mjs',
+        nodes: broken.map((entry) => ({ target: [entry], failureSummary: '' })),
+      },
+    });
+  }
+  return found;
+}
+
 async function main() {
-  const { server, port } = await serve(DIST);
-  const routes = htmlRoutes(DIST);
+  const files = indexFiles(DIST);
+  const routes = htmlRoutes(files);
   if (routes.length === 0) throw new Error(`no pages found in ${DIST} — run scripts/render_site.py first`);
+  const { server, port } = await serve(files);
+
+  // A gate that silently covers a subset reads as if it covered everything.
+  const sampled = sampleRoutes(routes);
+  for (const { shape, route, skipped } of sampled) {
+    if (skipped) {
+      console.log(`  ${shape} → auditing ${route} (${skipped} further page(s) of this shape not audited)`);
+    }
+  }
 
   const browser = await puppeteer.launch({
     args: ['--no-sandbox', '--disable-dev-shm-usage'],
@@ -128,72 +216,17 @@ async function main() {
   const failures = [];
   let checked = 0;
 
-  const sampled = sample(routes);
-  for (const { shape, route, skipped } of sampled) {
-    console.log(
-      `  ${shape} → auditing ${route}${skipped ? ` (${skipped} further page(s) of this shape not audited)` : ''}`,
-    );
-  }
-
   for (const { route } of sampled) {
     for (const scheme of SCHEMES) {
-      const page = await browser.newPage();
-
-      // A page whose stylesheet 404s has no contrast failures at all, so a
-      // silent asset error turns this gate into a rubber stamp. Any request
-      // that does not succeed is therefore a failure in its own right.
-      const broken = [];
-      page.on('response', (response) => {
-        if (response.status() >= 400) broken.push(`${response.status()} ${response.url()}`);
-      });
-      await page.emulateMediaFeatures([{ name: 'prefers-color-scheme', value: scheme }]);
-      await page.setViewport({ width: 1280, height: 900 });
-      await page.goto(`http://127.0.0.1:${port}${route}`, { waitUntil: 'networkidle0' });
-
-      if (broken.length) {
-        failures.push({
-          route,
-          scheme,
-          violation: {
-            id: 'asset-not-served',
-            impact: 'critical',
-            help: 'Every asset the page requests must be served — an unstyled page passes for the wrong reason',
-            helpUrl: 'https://github.com/netresearch/maint/blob/main/scripts/axe-audit.mjs',
-            nodes: broken.map((entry) => ({ target: [entry], failureSummary: '' })),
-          },
-        });
-      }
-      await page.addScriptTag({ path: axePath });
-
-      const results = await page.evaluate(
-        async (tags) => await window.axe.run(document, { runOnly: { type: 'tag', values: tags } }),
-        TAGS,
-      );
-
+      failures.push(...(await auditPage(browser, port, route, scheme)));
       checked += 1;
-      for (const violation of results.violations) {
-        failures.push({ route, scheme, violation });
-      }
-      await page.close();
     }
   }
 
   await browser.close();
   server.close();
 
-  for (const { route, scheme, violation } of failures) {
-    console.error(`\n✗ ${route} [${scheme}] — ${violation.id} (${violation.impact})`);
-    console.error(`  ${violation.help}`);
-    console.error(`  ${violation.helpUrl}`);
-    for (const node of violation.nodes.slice(0, 4)) {
-      console.error(`    ${node.target.join(' ')}`);
-      const summary = (node.failureSummary ?? '').split('\n').filter(Boolean).slice(1);
-      for (const line of summary) console.error(`      ${line}`);
-    }
-    if (violation.nodes.length > 4) {
-      console.error(`    … and ${violation.nodes.length - 4} more element(s)`);
-    }
-  }
+  for (const failure of failures) report(failure);
 
   if (failures.length) {
     console.error(

@@ -87,7 +87,7 @@ jobs:
       - name: Audit accessibility with axe
         run: |
           npm ci --ignore-scripts
-          npx puppeteer browsers install chrome
+          ./node_modules/.bin/puppeteer browsers install chrome
           node scripts/axe-audit.mjs build
 
       - name: Publish to gh-pages
