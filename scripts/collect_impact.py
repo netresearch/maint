@@ -469,7 +469,10 @@ def collect_repo(repo: dict, org_members: set[str], container_map: dict[str, lis
     ghcr = fetch_ghcr_for_repo(name, container_map.get(name, []))
     dependents = fetch_dependents(full)
 
-    blast_radius = (
+    # An indicative ordering signal, not a measurement: the weights are a
+    # judgement call. The dashboard renders the formula next to the number so it
+    # is never read as a reach or revenue figure.
+    estimated_downstream_reach = (
         contribs["external_contributors"] * 3
         + issue_pr["issues_open"] + issue_pr["issues_closed"]
         + issue_pr["prs_merged"]
@@ -525,7 +528,10 @@ def collect_repo(repo: dict, org_members: set[str], container_map: dict[str, lis
         "packagist": packagist,
         "ghcr": ghcr,
         "dependents": dependents,
-        "blast_radius": blast_radius,
+        "estimated_downstream_reach": estimated_downstream_reach,
+        # Deprecated alias for one release cycle; consumers should read
+        # estimated_downstream_reach.
+        "blast_radius": estimated_downstream_reach,
     }
 
 

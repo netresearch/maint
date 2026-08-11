@@ -1,0 +1,275 @@
+{% extends "base.html.j2" %}
+
+{% block content %}
+<section class="hero">
+  <h1>{{ t.hero.title }}</h1>
+  <p class="lead">{{ t.hero.lead }}</p>
+  <p class="cta-row">
+    <a class="btn btn-primary" href="{{ contact.hero }}" data-cta="business" data-cta-position="hero">{{ t.hero.cta_business }}</a>
+    <a class="btn" href="#downloads">{{ t.hero.cta_technical }}</a>
+  </p>
+</section>
+
+<section id="snapshot" aria-labelledby="snapshot-heading">
+  <h2 id="snapshot-heading">{{ t.snapshot.heading }}</h2>
+  <p class="meta">
+    {{ t.snapshot.as_of }}: <time datetime="{{ snapshot.generated_at }}">{{ generated_display }}</time>
+    &middot; {{ active_repos }} {{ t.snapshot.repos_active }}{% if archived_repos %} ({{ archived_repos }} {{ t.snapshot.repos_archived }}){% endif %}
+    &middot; {% if snapshot.traffic_available %}{{ t.snapshot.traffic_on }}{% else %}{{ t.snapshot.traffic_off }}{% endif %}
+  </p>
+
+  <div class="scope-toggle" role="group">
+    <button class="toggle active" data-scope="lifetime" type="button">{{ t.snapshot.scope_lifetime }}</button>
+    <button class="toggle" data-scope="recent_30d" type="button">{{ t.snapshot.scope_recent }}</button>
+  </div>
+  <p class="hint">{{ t.snapshot.scope_hint }}</p>
+
+  {#
+    Both scopes are in the HTML. The toggle only flips which one is visible, so
+    a reader without JavaScript sees every figure rather than an empty box.
+  #}
+  <dl class="kpis" data-scope-panel="lifetime">
+    {%- for key, value in kpis.lifetime %}
+    <div class="kpi">
+      <dt class="kpi-label">{{ t.kpi[key] }}</dt>
+      <dd class="kpi-value" data-figure="{{ key }}">{{ value | number(locale) }}</dd>
+    </div>
+    {%- endfor %}
+  </dl>
+
+  <dl class="kpis" data-scope-panel="recent_30d">
+    {%- for key, value in kpis.recent_30d %}
+    <div class="kpi">
+      <dt class="kpi-label">{{ t.kpi[key] }}</dt>
+      <dd class="kpi-value" data-figure="{{ key }}">{{ value | number(locale) }}</dd>
+    </div>
+    {%- endfor %}
+  </dl>
+</section>
+
+<section id="provenance" aria-labelledby="provenance-heading">
+  <h2 id="provenance-heading">{{ t.provenance.heading }}</h2>
+  <div class="prose-grid">
+    <div>
+      <h3>{{ t.provenance.sources_heading }}</h3>
+      <ul>{% for source in t.provenance.sources %}<li>{{ source }}</li>{% endfor %}</ul>
+
+      <h3>{{ t.provenance.coverage_heading }}</h3>
+      <p>{{ t.provenance.coverage }}</p>
+
+      <h3>{{ t.provenance.history_heading }}</h3>
+      <p>
+        {{ t.provenance.history_from }}
+        {%- if history_from %} <time datetime="{{ history_from }}">{{ history_from_display }}</time>.
+        {%- else %} —{% endif %}
+      </p>
+    </div>
+    <div>
+      <h3>{{ t.provenance.gaps_heading }}</h3>
+      <ul>{% for gap in t.provenance.gaps %}<li>{{ gap }}</li>{% endfor %}</ul>
+    </div>
+  </div>
+</section>
+
+<section id="method" aria-labelledby="method-heading">
+  <h2 id="method-heading">{{ t.method.heading }}</h2>
+  <p class="lead">{{ t.method.intro }}</p>
+  <div class="prose-grid">
+    <div>
+      <h3>{{ t.method.cumulative_heading }}</h3>
+      <p>{{ t.method.cumulative }}</p>
+    </div>
+    <div>
+      <h3>{{ t.method.not_measured_heading }}</h3>
+      <ul>{% for item in t.method.not_measured %}<li>{{ item }}</li>{% endfor %}</ul>
+    </div>
+  </div>
+</section>
+
+<section id="downstream-reach" aria-labelledby="reach-heading">
+  <h2 id="reach-heading">{{ t.reach.heading }}</h2>
+  <p class="lead">{{ t.reach.lead }}</p>
+  <h3 id="reach-formula-heading">{{ t.reach.formula_heading }}</h3>
+  <table class="formula" aria-labelledby="reach-formula-heading">
+    <tbody>
+      {%- for component in reach_components %}
+      <tr>
+        <td>{{ t.reach.components[component.key] }}</td>
+        <td class="num">&times; {{ component.weight }}</td>
+      </tr>
+      {%- endfor %}
+    </tbody>
+  </table>
+  <p class="warning">{{ t.reach.warning }}</p>
+</section>
+
+<section id="categories" aria-labelledby="categories-heading">
+  <h2 id="categories-heading">{{ t.categories.heading }}</h2>
+  <div class="cards">
+    {%- for group in category_groups %}
+    <div class="card">
+      <h3><span class="pill {{ group.pill }}">{{ group.label }}</span> &middot; {{ group.count }} {{ t.categories.repos }}</h3>
+      <dl>
+        {%- for stat in group.stats %}
+        <div class="stat"><dt>{{ t.kpi[stat.key] }}</dt><dd>{{ stat.value | number(locale) }}</dd></div>
+        {%- endfor %}
+      </dl>
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+
+<section id="growth" aria-labelledby="growth-heading">
+  <h2 id="growth-heading">{{ t.charts.heading }}</h2>
+  <p class="hint">{{ t.charts.note }}</p>
+
+  {%- if history_rows %}
+  <div class="chart-wrap"><canvas id="chart-cumulative" aria-hidden="true"></canvas></div>
+  <div class="chart-wrap"><canvas id="chart-activity" aria-hidden="true"></canvas></div>
+
+  {# The chart data as a table: the accessible representation, and the one that
+     survives without JavaScript. Charts are drawn from this same series. #}
+  <details class="chart-data" open>
+    <summary>{{ t.charts.table_toggle }}</summary>
+    <div class="table-wrap">
+      <table id="history-table">
+        <caption>{{ t.charts.cumulative_title }} &middot; {{ t.charts.activity_title }}</caption>
+        <thead>
+          <tr>
+            <th scope="col">{{ t.charts.date }}</th>
+            <th scope="col" class="num">{{ t.kpi.stars }}</th>
+            <th scope="col" class="num">{{ t.kpi.forks }}</th>
+            <th scope="col" class="num">{{ t.kpi.contributors }}</th>
+            <th scope="col" class="num">{{ t.kpi.commits_30d }}</th>
+            <th scope="col" class="num">{{ t.kpi.prs_merged_30d }}</th>
+            <th scope="col" class="num">{{ t.kpi.releases_30d }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {%- for row in history_rows %}
+          <tr>
+            <th scope="row"><time datetime="{{ row.date }}">{{ row.date }}</time></th>
+            <td class="num">{{ row.stars | number(locale) }}</td>
+            <td class="num">{{ row.forks | number(locale) }}</td>
+            <td class="num">{{ row.contributors | number(locale) }}</td>
+            <td class="num">{{ row.commits_30d | number(locale) }}</td>
+            <td class="num">{{ row.prs_merged_30d | number(locale) }}</td>
+            <td class="num">{{ row.releases_30d | number(locale) }}</td>
+          </tr>
+          {%- endfor %}
+        </tbody>
+      </table>
+    </div>
+  </details>
+  {%- else %}
+  <p class="notice">{{ t.charts.no_history }}</p>
+  {%- endif %}
+</section>
+
+<section id="repositories" aria-labelledby="repositories-heading">
+  <h2 id="repositories-heading">{{ t.table.heading }}</h2>
+  <p class="hint">{{ t.table.sort_hint }}</p>
+
+  <div class="filter-bar">
+    <input type="search" id="repo-filter" placeholder="{{ t.table.filter_placeholder }}" aria-label="{{ t.table.filter_label }}">
+    <span id="category-filters">
+      {%- for group in category_groups %}
+      <label><input type="checkbox" data-cat="{{ group.key }}" checked> {{ group.label }}</label>
+      {%- endfor %}
+    </span>
+  </div>
+
+  <div class="table-wrap">
+    <table id="repo-table">
+      <caption class="sr-only">{{ t.table.heading }}</caption>
+      <thead>
+        <tr>
+          <th scope="col" data-sort="name">{{ t.table.columns.name }}</th>
+          <th scope="col" data-sort="stars" class="num">{{ t.table.columns.stars }}</th>
+          <th scope="col" data-sort="forks" class="num">{{ t.table.columns.forks }}</th>
+          <th scope="col" data-sort="contributors" class="num">{{ t.table.columns.contributors }}</th>
+          <th scope="col" data-sort="external_contributors" class="num">{{ t.table.columns.external_contributors }}</th>
+          <th scope="col" data-sort="issues_total" class="num">{{ t.table.columns.issues_total }}</th>
+          <th scope="col" data-sort="prs_merged" class="num">{{ t.table.columns.prs_merged }}</th>
+          <th scope="col" data-sort="releases" class="num">{{ t.table.columns.releases }}</th>
+          <th scope="col" data-sort="commits_30d" class="num">{{ t.table.columns.commits_30d }}</th>
+          <th scope="col" data-sort="packagist_downloads" class="num">{{ t.table.columns.packagist_downloads }}</th>
+          <th scope="col" data-sort="ghcr_downloads" class="num">{{ t.table.columns.ghcr_downloads }}</th>
+          <th scope="col" data-sort="dependents_repos" class="num">{{ t.table.columns.dependents_repos }}</th>
+          <th scope="col" data-sort="clones_14d" class="num">{{ t.table.columns.clones_14d }}</th>
+          <th scope="col" data-sort="views_14d" class="num">{{ t.table.columns.views_14d }}</th>
+          <th scope="col" data-sort="reach" class="num">{{ t.table.columns.reach }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {%- for row in repo_rows %}
+        <tr data-name="{{ row.name }}" data-cat="{{ row.category }}"
+            data-stars="{{ row.stars }}" data-forks="{{ row.forks }}"
+            data-contributors="{{ row.contributors }}" data-external_contributors="{{ row.external_contributors }}"
+            data-issues_total="{{ row.issues_total }}" data-prs_merged="{{ row.prs_merged }}"
+            data-releases="{{ row.releases }}" data-commits_30d="{{ row.commits_30d }}"
+            data-packagist_downloads="{{ row.packagist_downloads }}" data-ghcr_downloads="{{ row.ghcr_downloads }}"
+            data-dependents_repos="{{ row.dependents_repos }}" data-clones_14d="{{ row.clones_14d or 0 }}"
+            data-views_14d="{{ row.views_14d or 0 }}" data-reach="{{ row.reach }}">
+          <th scope="row">
+            <a href="{{ row.detail_href }}">{{ row.name }}</a>
+            <span class="pill {{ row.pill }}">{{ row.pill_label }}</span>
+          </th>
+          <td class="num">{{ row.stars | number(locale) }}</td>
+          <td class="num">{{ row.forks | number(locale) }}</td>
+          <td class="num">{{ row.contributors | number(locale) }}</td>
+          <td class="num">{{ row.external_contributors | number(locale) }}</td>
+          <td class="num">{{ row.issues_total | number(locale) }}</td>
+          <td class="num">{{ row.prs_merged | number(locale) }}</td>
+          <td class="num">{{ row.releases | number(locale) }}</td>
+          <td class="num">{{ row.commits_30d | number(locale) }}</td>
+          <td class="num">{{ row.packagist_downloads | number(locale) }}</td>
+          <td class="num">{{ row.ghcr_downloads | number(locale) }}</td>
+          <td class="num">{{ row.dependents_repos | number(locale) }}</td>
+          <td class="num">{{ row.clones_14d | dash(locale) }}</td>
+          <td class="num">{{ row.views_14d | dash(locale) }}</td>
+          <td class="num">{{ row.reach | number(locale) }}</td>
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="downloads" aria-labelledby="downloads-heading">
+  <h2 id="downloads-heading">{{ t.downloads.heading }}</h2>
+  <p class="lead">{{ t.downloads.lead }}</p>
+  <ul class="link-list">
+    <li><a href="{{ base }}data/latest.json">{{ t.downloads.latest_json }}</a></li>
+    <li><a href="{{ base }}data/history.json">{{ t.downloads.history_json }}</a></li>
+    <li><a href="{{ base }}data/repositories.csv">{{ t.downloads.repos_csv }}</a></li>
+    <li><a href="{{ base }}data/data-dictionary.json">{{ t.downloads.dictionary }}</a></li>
+    <li><a href="https://creativecommons.org/licenses/by/4.0/">{{ t.downloads.license }}: CC BY 4.0</a></li>
+  </ul>
+</section>
+
+<section id="snapshots" aria-labelledby="snapshots-heading">
+  <h2 id="snapshots-heading">{{ t.snapshots.heading }}</h2>
+  <p class="lead">{{ t.snapshots.lead }}</p>
+  <ul class="link-list snapshot-list">
+    {%- for item in snapshot_links %}
+    <li><a href="{{ item.href }}">{{ item.date }}</a></li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section id="cite" aria-labelledby="cite-heading">
+  <h2 id="cite-heading">{{ t.cite.heading }}</h2>
+  <p class="lead">{{ t.cite.lead }}</p>
+  <blockquote id="citation-text" class="citation">{{ citation }}</blockquote>
+  <p>
+    <button type="button" class="btn" id="copy-citation" data-copied="{{ t.cite.copied }}">{{ t.cite.copy }}</button>
+    <a class="btn" href="{{ base }}CITATION.cff">{{ t.cite.cff }}</a>
+  </p>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ base }}assets/vendor/chart.umd.min.js"></script>
+<script src="{{ base }}assets/dashboard.js"></script>
+{% endblock %}

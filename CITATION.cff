@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: Netresearch Open Source Impact
+message: >-
+  If you use these figures, cite the dated snapshot you read rather than the
+  dashboard, which is overwritten every day.
+type: dataset
+abstract: >-
+  Daily measurements of activity across the public repositories of the
+  Netresearch DTT GmbH GitHub organisation: repositories, releases,
+  contributors, external contributors, issues, pull requests, commits, package
+  and container downloads, dependent repositories, and — where a token with the
+  required scope is available — repository traffic. Collected from the GitHub
+  REST API, the GitHub dependency graph, Packagist and the GitHub Container
+  Registry. Each run is archived at a permanent URL.
+authors:
+  - name: Netresearch DTT GmbH
+    website: 'https://www.netresearch.de/'
+    city: Leipzig
+    country: DE
+repository-code: 'https://github.com/netresearch/maint'
+url: 'https://netresearch.github.io/maint/'
+license: CC-BY-4.0
+keywords:
+  - open source
+  - software metrics
+  - TYPO3
+  - impact measurement
