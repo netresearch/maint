@@ -1,3 +1,10 @@
+/* This dashboard is dark-only, and the brand values were mixed for a light
+ * background. #2F99A4 reaches 3.9:1 on the tinted surfaces here and #FF4D00
+ * 4.1:1, both below the 4.5:1 AA asks of body text; white on a #2F99A4 fill is
+ * 3.37:1. The *-ink tokens are the same hues lifted to a passing luminance for
+ * text on dark, --accent-fill is the same hue darkened for fills that carry
+ * white text. --nr-teal and --nr-orange stay the brand values and are used
+ * where the threshold is 3:1: borders, chart series, icons. */
 :root {
   --nr-teal: #2F99A4;
   --nr-orange: #FF4D00;
@@ -6,10 +13,13 @@
   --bg-surface: #1a1d23;
   --bg-surface-2: #22262e;
   --fg: #e8eaed;
-  --fg-muted: #9aa0a6;
+  --fg-muted: #B4BAC0;
   --border: #2a2f38;
   --accent: var(--nr-teal);
   --accent-2: var(--nr-orange);
+  --accent-ink: #5CC0CB;
+  --accent-2-ink: #FF7A45;
+  --accent-fill: #1B6C74;
 }
 
 * { box-sizing: border-box; }
@@ -24,8 +34,15 @@ html, body {
   line-height: 1.5;
 }
 
-a { color: var(--accent); text-decoration: none; }
+a { color: var(--accent-ink); text-decoration: none; }
 a:hover { text-decoration: underline; }
+
+/* A link sitting inside running text must be distinguishable from that text
+ * without relying on colour. Contrast between the link and the surrounding
+ * copy is 2.8:1, under the 3:1 that would let colour carry it alone, so links
+ * in prose are underlined. Navigation, buttons and pills are not prose and
+ * keep their own affordance. */
+p a, dd a, figcaption a, .prose-grid li a { text-decoration: underline; }
 
 h1, h2, h3 {
   font-family: 'Raleway', 'Open Sans', sans-serif;
@@ -74,8 +91,8 @@ h1, h2, h3 {
 }
 
 .toggle.active {
-  background: var(--accent);
-  border-color: var(--accent);
+  background: var(--accent-fill);
+  border-color: var(--accent-fill);
   color: #fff;
 }
 
@@ -120,7 +137,7 @@ h1, h2, h3 {
   padding: 1rem;
 }
 
-.card h3 { color: var(--accent); }
+.card h3 { color: var(--accent-ink); }
 .card .stat { display: flex; justify-content: space-between; padding: .125rem 0; font-size: .9rem; }
 .card .stat span:first-child { color: var(--fg-muted); }
 
@@ -201,12 +218,16 @@ tbody tr:hover { background: rgba(47, 153, 164, 0.08); }
   letter-spacing: .04em;
 }
 
-.pill.typo3    { background: rgba(47, 153, 164, 0.18); color: var(--nr-teal); }
-.pill.skill    { background: rgba(255, 77, 0, 0.18);   color: var(--nr-orange); }
-.pill.go       { background: rgba(0, 173, 216, 0.18);  color: #00ADD8; }
-.pill.commerce { background: rgba(255, 193, 7, 0.18);  color: #FFC107; }
-.pill.ansible  { background: rgba(238, 0, 0, 0.18);    color: #EE0000; }
-.pill.tool     { background: rgba(154, 160, 166, 0.22); color: var(--fg-muted); }
+/* Opaque, not translucent. A translucent pill takes the colour of whatever is
+ * behind it, so it shifts on a hovered row and no tool can state its contrast
+ * without knowing the parent — these are the values the tint composited to over
+ * --bg-surface-2, so they look the same and are now decidable. */
+.pill.typo3    { background: #243B43; color: var(--accent-ink); }
+.pill.skill    { background: #4A2D26; color: var(--accent-2-ink); }
+.pill.go       { background: #1C3E4D; color: #4FC9EC; }
+.pill.commerce { background: #4A4227; color: #FFCE3A; }
+.pill.ansible  { background: #471F26; color: #FF6B6B; }
+.pill.tool     { background: #3C4148; color: var(--fg-muted); }
 
 .muted { color: var(--fg-muted); }
 
@@ -218,7 +239,7 @@ tbody tr:hover { background: rgba(47, 153, 164, 0.08); }
   border-radius: 8px;
 }
 
-#repo-detail h2 { color: var(--accent); }
+#repo-detail h2 { color: var(--accent-ink); }
 
 .detail-grid {
   display: grid;
@@ -277,7 +298,7 @@ tbody tr:hover { background: rgba(47, 153, 164, 0.08); }
   left: 1rem;
   top: 1rem;
   z-index: 100;
-  background: var(--accent);
+  background: var(--accent-fill);
   color: #fff;
   padding: .5rem 1rem;
   border-radius: 6px;
@@ -308,7 +329,7 @@ tbody tr:hover { background: rgba(47, 153, 164, 0.08); }
   display: inline-flex;
   align-items: center;
 }
-.site-nav a:hover { color: var(--accent); }
+.site-nav a:hover { color: var(--accent-ink); }
 
 main > section { margin: 2.5rem 0; scroll-margin-top: 1rem; }
 main > section > h2 { font-size: 1.4rem; }
@@ -331,20 +352,20 @@ main > section > h2 { font-size: 1.4rem; }
   font: inherit;
   cursor: pointer;
 }
-.btn:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+.btn:hover { border-color: var(--accent); color: var(--accent-ink); text-decoration: none; }
 .btn-primary {
-  background: var(--accent);
-  border-color: var(--accent);
+  background: var(--accent-fill);
+  border-color: var(--accent-fill);
   color: #fff;
 }
-.btn-primary:hover { background: #26808a; border-color: #26808a; color: #fff; }
+.btn-primary:hover { background: #14555C; border-color: #14555C; color: #fff; }
 
 .prose-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
 }
-.prose-grid h3 { font-size: 1rem; color: var(--accent); margin-top: 1.25rem; }
+.prose-grid h3 { font-size: 1rem; color: var(--accent-ink); margin-top: 1.25rem; }
 .prose-grid h3:first-child { margin-top: 0; }
 .prose-grid ul { margin: 0; padding-left: 1.1rem; }
 .prose-grid li { margin-bottom: .4rem; }
@@ -394,7 +415,7 @@ main > section > h2 { font-size: 1.4rem; }
 }
 
 .chart-data { margin-top: 1rem; }
-.chart-data summary { cursor: pointer; color: var(--accent); min-height: 44px; display: flex; align-items: center; }
+.chart-data summary { cursor: pointer; color: var(--accent-ink); min-height: 44px; display: flex; align-items: center; }
 
 /* Rows link out through their first cell; the row itself is not clickable, so
    the pointer cursor moves to the sortable headers. The base rule above set it

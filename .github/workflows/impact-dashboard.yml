@@ -80,6 +80,16 @@ jobs:
           OUTPUT_DIR: build
         run: python scripts/verify_site.py
 
+      # Contrast and anything else that needs resolved CSS is not decidable from
+      # markup, so verify_site.py cannot see it. axe found 213 contrast failures
+      # on a dashboard that gate passed. It audits one page per route shape and
+      # prints what it skipped.
+      - name: Audit accessibility with axe
+        run: |
+          npm ci --ignore-scripts
+          ./node_modules/.bin/puppeteer browsers install chrome
+          node scripts/axe-audit.mjs build
+
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453  # v4.1.0
         with:
