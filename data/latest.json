@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:15:22+00:00",
+  "generated_at": "2026-08-11T11:00:55+00:00",
   "org": "netresearch",
   "traffic_available": true,
   "categories": {
@@ -33,27 +33,27 @@
     "stars": 1214,
     "forks": 348,
     "watchers": 626,
-    "commits": 37225,
+    "commits": 37230,
     "issues_open": 203,
     "issues_closed": 1345,
     "issues": 1548,
-    "prs_open": 78,
-    "prs_merged": 10401,
+    "prs_open": 79,
+    "prs_merged": 10403,
     "releases": 2074,
     "release_downloads": 52091,
     "contributors": 825,
     "external_contributors": 406,
     "packagist_downloads": 7270110,
-    "ghcr_downloads": 419389,
-    "dependents_repos": 183,
+    "ghcr_downloads": 419446,
+    "dependents_repos": 230,
     "dependents_packages": 25,
-    "commits_30d": 5012,
+    "commits_30d": 5017,
     "issues_opened_30d": 144,
-    "prs_opened_30d": 1964,
-    "prs_merged_30d": 1854,
+    "prs_opened_30d": 1967,
+    "prs_merged_30d": 1856,
     "releases_30d": 300,
     "packagist_downloads_30d": 210639,
-    "ghcr_downloads_30d": 75862
+    "ghcr_downloads_30d": 75919
   },
   "repos": [
     {
@@ -2149,7 +2149,7 @@
         "external_contributors": 0,
         "packagist_downloads": 4073,
         "ghcr_downloads": 0,
-        "dependents_repos": 0,
+        "dependents_repos": 44,
         "dependents_packages": 0
       },
       "recent_30d": {
@@ -2297,12 +2297,12 @@
       },
       "ghcr": null,
       "dependents": {
-        "repositories": 0,
+        "repositories": 44,
         "packages": 0,
         "url": "https://github.com/netresearch/composer-agent-skill-plugin/network/dependents"
       },
-      "estimated_downstream_reach": 84,
-      "blast_radius": 84,
+      "estimated_downstream_reach": 172,
+      "blast_radius": 172,
       "archived": false
     },
     {
@@ -8322,7 +8322,11 @@
       ],
       "packagist": null,
       "ghcr": null,
-      "dependents": null,
+      "dependents": {
+        "repositories": 0,
+        "packages": 0,
+        "url": "https://github.com/netresearch/file-search-skill/network/dependents"
+      },
       "estimated_downstream_reach": 74,
       "blast_radius": 74,
       "archived": false
@@ -8519,7 +8523,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-12-13T11:57:34Z",
-      "pushed_at": "2026-08-11T10:10:36Z",
+      "pushed_at": "2026-08-11T11:17:08Z",
       "updated_at": "2026-08-11T04:38:33Z",
       "composer_name": null,
       "lifetime": {
@@ -8527,12 +8531,12 @@
         "forks": 5,
         "watchers": 1,
         "network": 5,
-        "open_issues_plus_prs": 4,
-        "commits": 518,
+        "open_issues_plus_prs": 3,
+        "commits": 520,
         "issues_open": 3,
         "issues_closed": 2,
-        "prs_open": 1,
-        "prs_merged": 162,
+        "prs_open": 0,
+        "prs_merged": 163,
         "prs_closed_unmerged": 1,
         "issues_total": 5,
         "releases": 41,
@@ -8545,10 +8549,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 220,
+        "commits": 222,
         "issues_opened": 2,
         "prs_opened": 73,
-        "prs_merged": 72,
+        "prs_merged": 73,
         "releases": 8,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -8682,7 +8686,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 496,
+          "contributions": 498,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -8708,9 +8712,13 @@
       ],
       "packagist": null,
       "ghcr": null,
-      "dependents": null,
-      "estimated_downstream_reach": 183,
-      "blast_radius": 183,
+      "dependents": {
+        "repositories": 0,
+        "packages": 0,
+        "url": "https://github.com/netresearch/git-workflow-skill/network/dependents"
+      },
+      "estimated_downstream_reach": 184,
+      "blast_radius": 184,
       "archived": false
     },
     {
@@ -8878,7 +8886,11 @@
       ],
       "packagist": null,
       "ghcr": null,
-      "dependents": null,
+      "dependents": {
+        "repositories": 0,
+        "packages": 0,
+        "url": "https://github.com/netresearch/github-project-skill/network/dependents"
+      },
       "estimated_downstream_reach": 156,
       "blast_radius": 156,
       "archived": false
@@ -8993,7 +9005,11 @@
       ],
       "packagist": null,
       "ghcr": null,
-      "dependents": null,
+      "dependents": {
+        "repositories": 0,
+        "packages": 0,
+        "url": "https://github.com/netresearch/github-release-skill/network/dependents"
+      },
       "estimated_downstream_reach": 78,
       "blast_radius": 78,
       "archived": false
@@ -9231,7 +9247,11 @@
       ],
       "packagist": null,
       "ghcr": null,
-      "dependents": null,
+      "dependents": {
+        "repositories": 0,
+        "packages": 0,
+        "url": "https://github.com/netresearch/go-cron/network/dependents"
+      },
       "estimated_downstream_reach": 486,
       "blast_radius": 486,
       "archived": false
@@ -9401,7 +9421,11 @@
       ],
       "packagist": null,
       "ghcr": null,
-      "dependents": null,
+      "dependents": {
+        "repositories": 0,
+        "packages": 0,
+        "url": "https://github.com/netresearch/go-development-skill/network/dependents"
+      },
       "estimated_downstream_reach": 59,
       "blast_radius": 59,
       "archived": false
@@ -10424,7 +10448,7 @@
         "contributors": 6,
         "external_contributors": 1,
         "packagist_downloads": 0,
-        "ghcr_downloads": 22545,
+        "ghcr_downloads": 22547,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
@@ -10435,7 +10459,7 @@
         "prs_merged": 34,
         "releases": 3,
         "packagist_downloads": 0,
-        "ghcr_downloads": 4097
+        "ghcr_downloads": 4099
       },
       "traffic_14d": {
         "clones_total": 790,
@@ -10561,12 +10585,12 @@
           {
             "package": "ldap-selfservice-password-changer",
             "url": "https://github.com/netresearch/ldap-selfservice-password-changer/pkgs/container/ldap-selfservice-password-changer",
-            "total": 22545,
-            "thirty_day": 4097
+            "total": 22547,
+            "thirty_day": 4099
           }
         ],
-        "total": 22545,
-        "thirty_day": 4097
+        "total": 22547,
+        "thirty_day": 4099
       },
       "dependents": {
         "repositories": 0,
@@ -12199,7 +12223,7 @@
         "contributors": 45,
         "external_contributors": 39,
         "packagist_downloads": 0,
-        "ghcr_downloads": 322549,
+        "ghcr_downloads": 322604,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
@@ -12210,7 +12234,7 @@
         "prs_merged": 40,
         "releases": 4,
         "packagist_downloads": 0,
-        "ghcr_downloads": 55434
+        "ghcr_downloads": 55489
       },
       "traffic_14d": {
         "clones_total": 3131,
@@ -12366,12 +12390,12 @@
           {
             "package": "ofelia",
             "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-            "total": 322549,
-            "thirty_day": 55434
+            "total": 322604,
+            "thirty_day": 55489
           }
         ],
-        "total": 322549,
-        "thirty_day": 55434
+        "total": 322604,
+        "thirty_day": 55489
       },
       "dependents": {
         "repositories": 0,
@@ -13731,7 +13755,11 @@
         "url": "https://packagist.org/packages/netresearch/sdk-api-universal-messenger"
       },
       "ghcr": null,
-      "dependents": null,
+      "dependents": {
+        "repositories": 0,
+        "packages": 0,
+        "url": "https://github.com/netresearch/sdk-api-universal-messenger/network/dependents"
+      },
       "estimated_downstream_reach": 32,
       "blast_radius": 32,
       "archived": false
@@ -13896,7 +13924,11 @@
         "url": "https://packagist.org/packages/netresearch/sdk-eu-vat"
       },
       "ghcr": null,
-      "dependents": null,
+      "dependents": {
+        "repositories": 0,
+        "packages": 0,
+        "url": "https://github.com/netresearch/sdk-eu-vat/network/dependents"
+      },
       "estimated_downstream_reach": 19,
       "blast_radius": 19,
       "archived": false
@@ -15504,20 +15536,20 @@
       "homepage": "https://netresearch.github.io/t3x-nr-browser-ai/",
       "default_branch": "main",
       "created_at": "2026-07-28T14:31:41Z",
-      "pushed_at": "2026-08-11T10:08:02Z",
-      "updated_at": "2026-08-11T09:23:07Z",
+      "pushed_at": "2026-08-11T11:16:37Z",
+      "updated_at": "2026-08-11T11:17:01Z",
       "composer_name": null,
       "lifetime": {
         "stars": 1,
         "forks": 0,
         "watchers": 0,
         "network": 0,
-        "open_issues_plus_prs": 1,
-        "commits": 137,
+        "open_issues_plus_prs": 0,
+        "commits": 140,
         "issues_open": 0,
         "issues_closed": 0,
-        "prs_open": 1,
-        "prs_merged": 36,
+        "prs_open": 0,
+        "prs_merged": 37,
         "prs_closed_unmerged": 2,
         "issues_total": 0,
         "releases": 5,
@@ -15530,10 +15562,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 137,
+        "commits": 140,
         "issues_opened": 0,
         "prs_opened": 39,
-        "prs_merged": 36,
+        "prs_merged": 37,
         "releases": 5,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -15637,7 +15669,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 137,
+          "contributions": 140,
           "url": "https://github.com/CybotTM"
         }
       ],
@@ -15648,8 +15680,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-browser-ai/network/dependents"
       },
-      "estimated_downstream_reach": 36,
-      "blast_radius": 36,
+      "estimated_downstream_reach": 37,
+      "blast_radius": 37,
       "archived": false
     },
     {
@@ -16153,7 +16185,7 @@
       "homepage": "https://netresearch.github.io/t3x-nr-llm/",
       "default_branch": "main",
       "created_at": "2025-12-22T23:35:44Z",
-      "pushed_at": "2026-08-11T09:48:54Z",
+      "pushed_at": "2026-08-11T11:11:27Z",
       "updated_at": "2026-08-11T09:30:01Z",
       "composer_name": "netresearch/nr-llm",
       "lifetime": {
@@ -16161,11 +16193,11 @@
         "forks": 2,
         "watchers": 1,
         "network": 2,
-        "open_issues_plus_prs": 27,
+        "open_issues_plus_prs": 30,
         "commits": 2257,
         "issues_open": 13,
         "issues_closed": 67,
-        "prs_open": 14,
+        "prs_open": 17,
         "prs_merged": 595,
         "prs_closed_unmerged": 32,
         "issues_total": 80,
@@ -16181,7 +16213,7 @@
       "recent_30d": {
         "commits": 891,
         "issues_opened": 68,
-        "prs_opened": 311,
+        "prs_opened": 314,
         "prs_merged": 279,
         "releases": 14,
         "packagist_downloads": 6826,
@@ -16525,7 +16557,7 @@
         "external_contributors": 1,
         "packagist_downloads": 6252,
         "ghcr_downloads": 0,
-        "dependents_repos": 0,
+        "dependents_repos": 3,
         "dependents_packages": 0
       },
       "recent_30d": {
@@ -16613,12 +16645,12 @@
       },
       "ghcr": null,
       "dependents": {
-        "repositories": 0,
+        "repositories": 3,
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-passkeys-be/network/dependents"
       },
-      "estimated_downstream_reach": 115,
-      "blast_radius": 115,
+      "estimated_downstream_reach": 121,
+      "blast_radius": 121,
       "archived": false
     },
     {
@@ -21441,7 +21473,11 @@
       ],
       "packagist": null,
       "ghcr": null,
-      "dependents": null,
+      "dependents": {
+        "repositories": 0,
+        "packages": 0,
+        "url": "https://github.com/netresearch/typo3-typoscript-ref-skill/network/dependents"
+      },
       "estimated_downstream_reach": 26,
       "blast_radius": 26,
       "archived": false
@@ -21607,7 +21643,11 @@
       ],
       "packagist": null,
       "ghcr": null,
-      "dependents": null,
+      "dependents": {
+        "repositories": 0,
+        "packages": 0,
+        "url": "https://github.com/netresearch/typo3-upgrade-effort-model-skill/network/dependents"
+      },
       "estimated_downstream_reach": 26,
       "blast_radius": 26,
       "archived": false
@@ -21746,7 +21786,11 @@
       ],
       "packagist": null,
       "ghcr": null,
-      "dependents": null,
+      "dependents": {
+        "repositories": 0,
+        "packages": 0,
+        "url": "https://github.com/netresearch/typo3-vite-skill/network/dependents"
+      },
       "estimated_downstream_reach": 21,
       "blast_radius": 21,
       "archived": false

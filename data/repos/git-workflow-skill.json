@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:34Z",
-  "pushed_at": "2026-08-11T10:10:36Z",
+  "pushed_at": "2026-08-11T11:17:08Z",
   "updated_at": "2026-08-11T04:38:33Z",
   "composer_name": null,
   "lifetime": {
@@ -22,12 +22,12 @@
     "forks": 5,
     "watchers": 1,
     "network": 5,
-    "open_issues_plus_prs": 4,
-    "commits": 518,
+    "open_issues_plus_prs": 3,
+    "commits": 520,
     "issues_open": 3,
     "issues_closed": 2,
-    "prs_open": 1,
-    "prs_merged": 162,
+    "prs_open": 0,
+    "prs_merged": 163,
     "prs_closed_unmerged": 1,
     "issues_total": 5,
     "releases": 41,
@@ -40,10 +40,10 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 220,
+    "commits": 222,
     "issues_opened": 2,
     "prs_opened": 73,
-    "prs_merged": 72,
+    "prs_merged": 73,
     "releases": 8,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
@@ -177,7 +177,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 496,
+      "contributions": 498,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -203,8 +203,12 @@
   ],
   "packagist": null,
   "ghcr": null,
-  "dependents": null,
-  "estimated_downstream_reach": 183,
-  "blast_radius": 183,
+  "dependents": {
+    "repositories": 0,
+    "packages": 0,
+    "url": "https://github.com/netresearch/git-workflow-skill/network/dependents"
+  },
+  "estimated_downstream_reach": 184,
+  "blast_radius": 184,
   "archived": false
 }
