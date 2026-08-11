@@ -1,0 +1,76 @@
+{
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Netresearch DTT GmbH",
+  "fields": {
+    "stars": {
+      "kind": "point-in-time",
+      "meaning": "GitHub stargazers at collection time."
+    },
+    "forks": {
+      "kind": "point-in-time",
+      "meaning": "GitHub forks at collection time."
+    },
+    "contributors": {
+      "kind": "cumulative",
+      "meaning": "Distinct accounts with a merged commit."
+    },
+    "external_contributors": {
+      "kind": "cumulative",
+      "meaning": "Contributors who are not members of the organisation."
+    },
+    "issues_open": {
+      "kind": "point-in-time",
+      "meaning": "Open issues, pull requests excluded."
+    },
+    "issues_closed": {
+      "kind": "cumulative",
+      "meaning": "Closed issues, pull requests excluded."
+    },
+    "prs_merged": {
+      "kind": "cumulative",
+      "meaning": "Merged pull requests."
+    },
+    "releases": {
+      "kind": "cumulative",
+      "meaning": "Published releases."
+    },
+    "release_downloads": {
+      "kind": "cumulative",
+      "meaning": "Downloads of release assets."
+    },
+    "commits": {
+      "kind": "cumulative",
+      "meaning": "Commits on the default branch."
+    },
+    "packagist_downloads": {
+      "kind": "cumulative",
+      "meaning": "Total installs reported by Packagist."
+    },
+    "ghcr_downloads": {
+      "kind": "cumulative",
+      "meaning": "Container pulls reported by GHCR; best effort."
+    },
+    "dependents_repos": {
+      "kind": "point-in-time",
+      "meaning": "Public repositories GitHub's dependency graph reports as depending on this project. A lower bound."
+    },
+    "traffic_14d": {
+      "kind": "rolling-14-day",
+      "meaning": "Views and clones. Absent when no token with repository scope was available; absence is not zero."
+    },
+    "recent_30d": {
+      "kind": "rolling-30-day",
+      "meaning": "Rolling window ending at generation time. Not a calendar month."
+    },
+    "estimated_downstream_reach": {
+      "kind": "derived-estimate",
+      "meaning": "external_contributors*3 + issues_open + issues_closed + prs_merged + forks*2 + dependents_repos*2.",
+      "caveat": "Weights are a judgement call, not a measurement. Use for ordering, not for decisions."
+    },
+    "blast_radius": {
+      "kind": "deprecated-alias",
+      "meaning": "Former name of estimated_downstream_reach. Kept for one release cycle; use the new field."
+    }
+  },
+  "generated_at": "2026-08-11T05:01:37+00:00"
+}

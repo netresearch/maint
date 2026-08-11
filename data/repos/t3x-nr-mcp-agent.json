@@ -21,25 +21,25 @@
   "homepage": "https://netresearch.github.io/t3x-nr-mcp-agent/",
   "default_branch": "main",
   "created_at": "2026-03-22T17:16:16Z",
-  "pushed_at": "2026-08-10T22:57:03Z",
-  "updated_at": "2026-08-10T15:35:18Z",
+  "pushed_at": "2026-08-11T05:23:17Z",
+  "updated_at": "2026-08-11T05:07:12Z",
   "composer_name": "netresearch/nr-mcp-agent",
   "lifetime": {
     "stars": 2,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 2,
-    "commits": 351,
+    "open_issues_plus_prs": 3,
+    "commits": 360,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 92,
+    "prs_open": 2,
+    "prs_merged": 95,
     "prs_closed_unmerged": 8,
     "issues_total": 1,
     "releases": 22,
     "release_downloads": 7,
-    "contributors": 4,
+    "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 530,
     "ghcr_downloads": 0,
@@ -47,10 +47,10 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 106,
+    "commits": 115,
     "issues_opened": 0,
-    "prs_opened": 53,
-    "prs_merged": 50,
+    "prs_opened": 57,
+    "prs_merged": 53,
     "releases": 10,
     "packagist_downloads": 530,
     "ghcr_downloads": 0
@@ -107,18 +107,23 @@
     },
     {
       "login": "CybotTM",
-      "contributions": 146,
+      "contributions": 151,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 27,
+      "contributions": 29,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "dependabot[bot]",
       "contributions": 2,
       "url": "https://github.com/apps/dependabot"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 2,
+      "url": "https://github.com/apps/github-actions"
     }
   ],
   "packagist": {
@@ -134,6 +139,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-mcp-agent/network/dependents"
   },
-  "blast_radius": 98,
+  "estimated_downstream_reach": 101,
+  "blast_radius": 101,
   "archived": false
 }

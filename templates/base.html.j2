@@ -1,0 +1,90 @@
+{#
+  Shared shell for every page the dashboard publishes.
+
+  Rule for this whole template set: the figures are rendered here, server-side.
+  JavaScript sorts, filters and draws charts — it never introduces a number the
+  HTML did not already contain.
+#}<!DOCTYPE html>
+<html lang="{{ t.html_lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_description }}">
+  <link rel="canonical" href="{{ canonical }}">
+  {%- for alt in alternates %}
+  <link rel="alternate" hreflang="{{ alt.hreflang }}" href="{{ alt.href }}">
+  {%- endfor %}
+  {%- if noindex %}
+  <meta name="robots" content="noindex, follow">
+  {%- endif %}
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Netresearch Open Source Impact">
+  <meta property="og:locale" content="{{ t.og_locale }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_description }}">
+  <meta property="og:url" content="{{ canonical }}">
+  <meta property="og:image" content="{{ site_url }}assets/og-impact-{{ t.lang }}.png">
+  <meta property="og:image:alt" content="{{ t.hero.title }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page_description }}">
+  <meta name="twitter:image" content="{{ site_url }}assets/og-impact-{{ t.lang }}.png">
+
+  <link rel="icon" type="image/svg+xml" href="{{ base }}assets/favicon.svg">
+  <link rel="stylesheet" href="{{ base }}assets/styles.css">
+  <link rel="sitemap" href="{{ site_url }}sitemap.xml">
+
+  <script type="application/ld+json">{{ json_ld | safe }}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">{{ t.nav.snapshot }}</a>
+
+  <header class="site-header">
+    <div class="container header-bar">
+      {#- Brand rule: the logo appears exactly once, here. -#}
+      <a class="brand" href="{{ home }}" aria-label="Netresearch">
+        <img src="{{ base }}assets/netresearch.svg" alt="Netresearch" width="180" height="40">
+      </a>
+      <nav class="site-nav" aria-label="{{ t.nav.label }}">
+        <a href="{{ home }}#snapshot">{{ t.nav.snapshot }}</a>
+        <a href="{{ home }}#provenance">{{ t.nav.provenance }}</a>
+        <a href="{{ home }}#method">{{ t.nav.method }}</a>
+        <a href="{{ home }}#repositories">{{ t.nav.repos }}</a>
+        <a href="{{ home }}#downloads">{{ t.nav.downloads }}</a>
+        <a href="{{ other_href }}" hreflang="{{ t.other_lang }}" lang="{{ t.other_lang }}">{{ t.other_label }}</a>
+      </nav>
+    </div>
+  </header>
+
+  <noscript>
+    <div class="container"><p class="notice">{{ t.noscript }}</p></div>
+  </noscript>
+
+  <main class="container" id="main">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        &copy; {{ current_year }}
+        <a href="https://www.netresearch.de/">{{ t.footer.company }}</a>
+        &middot;
+        <a href="{{ contact.footer }}" data-cta="business" data-cta-position="footer">{{ t.footer.contact }}</a>
+        &middot;
+        <a href="https://www.netresearch.de/impressum/" lang="de">{{ t.footer.imprint }}</a>
+        &middot;
+        <a href="https://www.netresearch.de/datenschutz/" lang="de">{{ t.footer.privacy }}</a>
+        &middot;
+        <a href="https://github.com/netresearch/maint">{{ t.footer.source }}</a>
+      </p>
+      <p>{{ t.footer.data_note }}</p>
+    </div>
+  </footer>
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>

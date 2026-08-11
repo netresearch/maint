@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T03:35:23+00:00",
+  "generated_at": "2026-08-11T05:01:37+00:00",
   "org": "netresearch",
   "traffic_available": true,
   "categories": {
@@ -33,27 +33,27 @@
     "stars": 1213,
     "forks": 348,
     "watchers": 626,
-    "commits": 37149,
-    "issues_open": 194,
+    "commits": 37173,
+    "issues_open": 202,
     "issues_closed": 1345,
-    "issues": 1539,
-    "prs_open": 66,
-    "prs_merged": 10380,
+    "issues": 1547,
+    "prs_open": 70,
+    "prs_merged": 10388,
     "releases": 2072,
-    "release_downloads": 52086,
-    "contributors": 824,
+    "release_downloads": 52090,
+    "contributors": 825,
     "external_contributors": 406,
     "packagist_downloads": 7265975,
-    "ghcr_downloads": 418769,
+    "ghcr_downloads": 418884,
     "dependents_repos": 230,
     "dependents_packages": 25,
-    "commits_30d": 4936,
-    "issues_opened_30d": 135,
-    "prs_opened_30d": 1930,
-    "prs_merged_30d": 1833,
+    "commits_30d": 4960,
+    "issues_opened_30d": 143,
+    "prs_opened_30d": 1942,
+    "prs_merged_30d": 1841,
     "releases_30d": 298,
     "packagist_downloads_30d": 206504,
-    "ghcr_downloads_30d": 75242
+    "ghcr_downloads_30d": 75357
   },
   "repos": [
     {
@@ -76,8 +76,8 @@
       "homepage": "https://github.com/netresearch/claude-code-marketplace",
       "default_branch": "main",
       "created_at": "2026-03-22T09:31:51Z",
-      "pushed_at": "2026-08-08T07:48:28Z",
-      "updated_at": "2026-08-08T07:48:33Z",
+      "pushed_at": "2026-08-11T04:38:13Z",
+      "updated_at": "2026-08-11T04:38:16Z",
       "composer_name": null,
       "lifetime": {
         "stars": 4,
@@ -85,11 +85,11 @@
         "watchers": 1,
         "network": 0,
         "open_issues_plus_prs": 1,
-        "commits": 138,
+        "commits": 141,
         "issues_open": 1,
         "issues_closed": 0,
         "prs_open": 0,
-        "prs_merged": 47,
+        "prs_merged": 48,
         "prs_closed_unmerged": 3,
         "issues_total": 1,
         "releases": 9,
@@ -102,10 +102,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 22,
+        "commits": 25,
         "issues_opened": 0,
-        "prs_opened": 11,
-        "prs_merged": 11,
+        "prs_opened": 12,
+        "prs_merged": 12,
         "releases": 2,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -214,7 +214,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 105,
+          "contributions": 108,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -250,7 +250,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/agent-harness-skill/network/dependents"
       },
-      "blast_radius": 54,
+      "estimated_downstream_reach": 55,
+      "blast_radius": 55,
       "archived": false
     },
     {
@@ -459,6 +460,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/agent-rules-skill/network/dependents"
       },
+      "estimated_downstream_reach": 84,
       "blast_radius": 84,
       "archived": false
     },
@@ -618,6 +620,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/ansible-certificates-from-vault/network/dependents"
       },
+      "estimated_downstream_reach": 15,
       "blast_radius": 15,
       "archived": false
     },
@@ -705,6 +708,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/ansible-collection-mautic/network/dependents"
       },
+      "estimated_downstream_reach": 3,
       "blast_radius": 3,
       "archived": false
     },
@@ -876,6 +880,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/ansible-role-gitlab-runner/network/dependents"
       },
+      "estimated_downstream_reach": 20,
       "blast_radius": 20,
       "archived": false
     },
@@ -958,6 +963,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/ansible-role-monitoring-client/network/dependents"
       },
+      "estimated_downstream_reach": 12,
       "blast_radius": 12,
       "archived": false
     },
@@ -1100,6 +1106,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/ansible-role-monitoring-server/network/dependents"
       },
+      "estimated_downstream_reach": 81,
       "blast_radius": 81,
       "archived": false
     },
@@ -1211,6 +1218,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/ansible_role_client_base/network/dependents"
       },
+      "estimated_downstream_reach": 134,
       "blast_radius": 134,
       "archived": false
     },
@@ -1312,6 +1320,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/ansible_role_docker_containers/network/dependents"
       },
+      "estimated_downstream_reach": 34,
       "blast_radius": 34,
       "archived": false
     },
@@ -1435,6 +1444,7 @@
         "packages": 3,
         "url": "https://github.com/netresearch/assetpicker/network/dependents"
       },
+      "estimated_downstream_reach": 123,
       "blast_radius": 123,
       "archived": false
     },
@@ -1549,6 +1559,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/automated-assessment-skill/network/dependents"
       },
+      "estimated_downstream_reach": 58,
       "blast_radius": 58,
       "archived": false
     },
@@ -1694,6 +1705,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/claude-coach-plugin/network/dependents"
       },
+      "estimated_downstream_reach": 35,
       "blast_radius": 35,
       "archived": true
     },
@@ -1917,6 +1929,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
       },
+      "estimated_downstream_reach": 109,
       "blast_radius": 109,
       "archived": false
     },
@@ -2111,6 +2124,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/cli-tools-skill/network/dependents"
       },
+      "estimated_downstream_reach": 61,
       "blast_radius": 61,
       "archived": false
     },
@@ -2303,6 +2317,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/composer-agent-skill-plugin/network/dependents"
       },
+      "estimated_downstream_reach": 172,
       "blast_radius": 172,
       "archived": false
     },
@@ -2507,6 +2522,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/composer-patches-plugin/network/dependents"
       },
+      "estimated_downstream_reach": 152,
       "blast_radius": 152,
       "archived": false
     },
@@ -2619,6 +2635,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/concourse-ci-skill/network/dependents"
       },
+      "estimated_downstream_reach": 40,
       "blast_radius": 40,
       "archived": false
     },
@@ -2761,6 +2778,7 @@
         "packages": 3,
         "url": "https://github.com/netresearch/config-fields-m2/network/dependents"
       },
+      "estimated_downstream_reach": 68,
       "blast_radius": 68,
       "archived": false
     },
@@ -2795,7 +2813,7 @@
         "prs_closed_unmerged": 0,
         "issues_total": 1,
         "releases": 21,
-        "release_downloads": 223,
+        "release_downloads": 224,
         "contributors": 3,
         "external_contributors": 0,
         "packagist_downloads": 0,
@@ -2962,6 +2980,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/context7-skill/network/dependents"
       },
+      "estimated_downstream_reach": 51,
       "blast_radius": 51,
       "archived": false
     },
@@ -3088,6 +3107,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/data-tools-skill/network/dependents"
       },
+      "estimated_downstream_reach": 34,
       "blast_radius": 34,
       "archived": false
     },
@@ -3187,6 +3207,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deploy-rst/network/dependents"
       },
+      "estimated_downstream_reach": 10,
       "blast_radius": 10,
       "archived": false
     },
@@ -3287,6 +3308,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-module-addressfactory-m1/network/dependents"
       },
+      "estimated_downstream_reach": 8,
       "blast_radius": 8,
       "archived": true
     },
@@ -3474,6 +3496,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-module-addressfactory-m2/network/dependents"
       },
+      "estimated_downstream_reach": 31,
       "blast_radius": 31,
       "archived": false
     },
@@ -3578,6 +3601,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-module-addressfactory-sw6/network/dependents"
       },
+      "estimated_downstream_reach": 21,
       "blast_radius": 21,
       "archived": false
     },
@@ -3740,6 +3764,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-module-autocomplete-m1/network/dependents"
       },
+      "estimated_downstream_reach": 17,
       "blast_radius": 17,
       "archived": true
     },
@@ -3912,6 +3937,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-module-autocomplete-m2/network/dependents"
       },
+      "estimated_downstream_reach": 13,
       "blast_radius": 13,
       "archived": false
     },
@@ -4056,6 +4082,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-module-autocomplete-sw6/network/dependents"
       },
+      "estimated_downstream_reach": 18,
       "blast_radius": 18,
       "archived": false
     },
@@ -4161,6 +4188,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-module-core/network/dependents"
       },
+      "estimated_downstream_reach": 22,
       "blast_radius": 22,
       "archived": false
     },
@@ -4269,6 +4297,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-module-internetmarke/network/dependents"
       },
+      "estimated_downstream_reach": 12,
       "blast_radius": 12,
       "archived": false
     },
@@ -4461,6 +4490,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-sdk-addressfactory/network/dependents"
       },
+      "estimated_downstream_reach": 34,
       "blast_radius": 34,
       "archived": false
     },
@@ -4576,6 +4606,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-sdk-api-internetmarke/network/dependents"
       },
+      "estimated_downstream_reach": 3,
       "blast_radius": 3,
       "archived": false
     },
@@ -4700,6 +4731,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-sdk-api-prodws/network/dependents"
       },
+      "estimated_downstream_reach": 14,
       "blast_radius": 14,
       "archived": false
     },
@@ -4806,6 +4838,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-sdk-autocomplete-authentication/network/dependents"
       },
+      "estimated_downstream_reach": 8,
       "blast_radius": 8,
       "archived": false
     },
@@ -4948,6 +4981,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-lib-shipping-mx/network/dependents"
       },
+      "estimated_downstream_reach": 28,
       "blast_radius": 28,
       "archived": true
     },
@@ -5063,6 +5097,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-module-carrier-ecom-us/network/dependents"
       },
+      "estimated_downstream_reach": 13,
       "blast_radius": 13,
       "archived": true
     },
@@ -5248,6 +5283,7 @@
         "packages": 2,
         "url": "https://github.com/netresearch/dhl-module-carrier-paket/network/dependents"
       },
+      "estimated_downstream_reach": 48,
       "blast_radius": 48,
       "archived": false
     },
@@ -5372,6 +5408,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-module-carrier-paket-returns/network/dependents"
       },
+      "estimated_downstream_reach": 17,
       "blast_radius": 17,
       "archived": false
     },
@@ -5468,6 +5505,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-module-carrier-update/network/dependents"
       },
+      "estimated_downstream_reach": 14,
       "blast_radius": 14,
       "archived": false
     },
@@ -5593,6 +5631,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-module-label-status-m2/network/dependents"
       },
+      "estimated_downstream_reach": 29,
       "blast_radius": 29,
       "archived": true
     },
@@ -5729,6 +5768,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-module-shipping-core/network/dependents"
       },
+      "estimated_downstream_reach": 19,
       "blast_radius": 19,
       "archived": false
     },
@@ -5918,6 +5958,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-module-shipping-m2/network/dependents"
       },
+      "estimated_downstream_reach": 136,
       "blast_radius": 136,
       "archived": true
     },
@@ -6061,6 +6102,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-module-ui/network/dependents"
       },
+      "estimated_downstream_reach": 24,
       "blast_radius": 24,
       "archived": true
     },
@@ -6166,6 +6208,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-module-unified-tracking/network/dependents"
       },
+      "estimated_downstream_reach": 11,
       "blast_radius": 11,
       "archived": false
     },
@@ -6313,6 +6356,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-module-versenden-m1/network/dependents"
       },
+      "estimated_downstream_reach": 37,
       "blast_radius": 37,
       "archived": false
     },
@@ -6433,6 +6477,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-online-retoure-m1/network/dependents"
       },
+      "estimated_downstream_reach": 14,
       "blast_radius": 14,
       "archived": true
     },
@@ -6612,6 +6657,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-sdk-api-bcs/network/dependents"
       },
+      "estimated_downstream_reach": 53,
       "blast_radius": 53,
       "archived": true
     },
@@ -6764,6 +6810,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-sdk-api-bcs-returns/network/dependents"
       },
+      "estimated_downstream_reach": 38,
       "blast_radius": 38,
       "archived": true
     },
@@ -6918,6 +6965,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-sdk-api-location-finder/network/dependents"
       },
+      "estimated_downstream_reach": 14,
       "blast_radius": 14,
       "archived": true
     },
@@ -7058,6 +7106,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-sdk-api-parcel-de/network/dependents"
       },
+      "estimated_downstream_reach": 12,
       "blast_radius": 12,
       "archived": false
     },
@@ -7168,6 +7217,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-sdk-api-parcel-de-returns/network/dependents"
       },
+      "estimated_downstream_reach": 10,
       "blast_radius": 10,
       "archived": false
     },
@@ -7286,6 +7336,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-sdk-api-parcel-management/network/dependents"
       },
+      "estimated_downstream_reach": 37,
       "blast_radius": 37,
       "archived": false
     },
@@ -7414,6 +7465,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-sdk-api-unified-location-finder/network/dependents"
       },
+      "estimated_downstream_reach": 20,
       "blast_radius": 20,
       "archived": false
     },
@@ -7611,6 +7663,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-sdk-api-unified-tracking/network/dependents"
       },
+      "estimated_downstream_reach": 19,
       "blast_radius": 19,
       "archived": false
     },
@@ -7787,6 +7840,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/dhl-shipping-m2/network/dependents"
       },
+      "estimated_downstream_reach": 92,
       "blast_radius": 92,
       "archived": false
     },
@@ -7828,7 +7882,7 @@
         "prs_closed_unmerged": 1,
         "issues_total": 2,
         "releases": 25,
-        "release_downloads": 74,
+        "release_downloads": 77,
         "contributors": 3,
         "external_contributors": 0,
         "packagist_downloads": 0,
@@ -7970,6 +8024,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/docker-development-skill/network/dependents"
       },
+      "estimated_downstream_reach": 53,
       "blast_radius": 53,
       "archived": false
     },
@@ -8141,6 +8196,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/enterprise-readiness-skill/network/dependents"
       },
+      "estimated_downstream_reach": 91,
       "blast_radius": 91,
       "archived": false
     },
@@ -8317,6 +8373,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/file-search-skill/network/dependents"
       },
+      "estimated_downstream_reach": 74,
       "blast_radius": 74,
       "archived": false
     },
@@ -8492,6 +8549,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/german-technical-writing-skill/network/dependents"
       },
+      "estimated_downstream_reach": 33,
       "blast_radius": 33,
       "archived": false
     },
@@ -8511,8 +8569,8 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-12-13T11:57:34Z",
-      "pushed_at": "2026-08-10T23:20:44Z",
-      "updated_at": "2026-08-10T23:22:00Z",
+      "pushed_at": "2026-08-11T04:38:31Z",
+      "updated_at": "2026-08-11T04:38:33Z",
       "composer_name": null,
       "lifetime": {
         "stars": 39,
@@ -8520,11 +8578,11 @@
         "watchers": 1,
         "network": 5,
         "open_issues_plus_prs": 3,
-        "commits": 516,
+        "commits": 518,
         "issues_open": 3,
         "issues_closed": 2,
         "prs_open": 0,
-        "prs_merged": 161,
+        "prs_merged": 162,
         "prs_closed_unmerged": 1,
         "issues_total": 5,
         "releases": 41,
@@ -8537,10 +8595,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 218,
+        "commits": 220,
         "issues_opened": 2,
-        "prs_opened": 71,
-        "prs_merged": 71,
+        "prs_opened": 72,
+        "prs_merged": 72,
         "releases": 8,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -8674,7 +8732,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 494,
+          "contributions": 496,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -8705,7 +8763,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/git-workflow-skill/network/dependents"
       },
-      "blast_radius": 182,
+      "estimated_downstream_reach": 183,
+      "blast_radius": 183,
       "archived": false
     },
     {
@@ -8878,6 +8937,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/github-project-skill/network/dependents"
       },
+      "estimated_downstream_reach": 156,
       "blast_radius": 156,
       "archived": false
     },
@@ -8996,6 +9056,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/github-release-skill/network/dependents"
       },
+      "estimated_downstream_reach": 78,
       "blast_radius": 78,
       "archived": false
     },
@@ -9242,6 +9303,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/go-cron/network/dependents"
       },
+      "estimated_downstream_reach": 486,
       "blast_radius": 486,
       "archived": false
     },
@@ -9415,6 +9477,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/go-development-skill/network/dependents"
       },
+      "estimated_downstream_reach": 59,
       "blast_radius": 59,
       "archived": false
     },
@@ -9558,6 +9621,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/jira-export/network/dependents"
       },
+      "estimated_downstream_reach": 40,
       "blast_radius": 40,
       "archived": false
     },
@@ -9802,6 +9866,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/jira-skill/network/dependents"
       },
+      "estimated_downstream_reach": 255,
       "blast_radius": 255,
       "archived": false
     },
@@ -9983,6 +10048,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/jira-to-openproject/network/dependents"
       },
+      "estimated_downstream_reach": 268,
       "blast_radius": 268,
       "archived": false
     },
@@ -10161,6 +10227,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/jujutsu-workflow-skill/network/dependents"
       },
+      "estimated_downstream_reach": 23,
       "blast_radius": 23,
       "archived": false
     },
@@ -10371,6 +10438,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/ldap-manager/network/dependents"
       },
+      "estimated_downstream_reach": 605,
       "blast_radius": 605,
       "archived": false
     },
@@ -10570,6 +10638,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/ldap-selfservice-password-changer/network/dependents"
       },
+      "estimated_downstream_reach": 620,
       "blast_radius": 620,
       "archived": false
     },
@@ -10674,6 +10743,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/magento2-patches/network/dependents"
       },
+      "estimated_downstream_reach": 3,
       "blast_radius": 3,
       "archived": false
     },
@@ -10833,6 +10903,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/markdown-to-pdf-skill/network/dependents"
       },
+      "estimated_downstream_reach": 16,
       "blast_radius": 16,
       "archived": false
     },
@@ -11038,6 +11109,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/matrix-skill/network/dependents"
       },
+      "estimated_downstream_reach": 74,
       "blast_radius": 74,
       "archived": false
     },
@@ -11152,6 +11224,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/module-admin-notification-feed/network/dependents"
       },
+      "estimated_downstream_reach": 10,
       "blast_radius": 10,
       "archived": false
     },
@@ -11250,6 +11323,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/module-interactive-batch-processing/network/dependents"
       },
+      "estimated_downstream_reach": 11,
       "blast_radius": 11,
       "archived": false
     },
@@ -11374,6 +11448,7 @@
         "packages": 3,
         "url": "https://github.com/netresearch/module-shipping-core/network/dependents"
       },
+      "estimated_downstream_reach": 55,
       "blast_radius": 55,
       "archived": false
     },
@@ -11477,6 +11552,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/module-shipping-dispatch/network/dependents"
       },
+      "estimated_downstream_reach": 9,
       "blast_radius": 9,
       "archived": true
     },
@@ -11613,6 +11689,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/module-shipping-inventory/network/dependents"
       },
+      "estimated_downstream_reach": 20,
       "blast_radius": 20,
       "archived": false
     },
@@ -11735,6 +11812,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/module-shipping-ui/network/dependents"
       },
+      "estimated_downstream_reach": 55,
       "blast_radius": 55,
       "archived": false
     },
@@ -11861,6 +11939,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/netresearch-branding-skill/network/dependents"
       },
+      "estimated_downstream_reach": 58,
       "blast_radius": 58,
       "archived": false
     },
@@ -11998,6 +12077,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/node-magento-eqp/network/dependents"
       },
+      "estimated_downstream_reach": 541,
       "blast_radius": 541,
       "archived": false
     },
@@ -12136,6 +12216,7 @@
         "packages": 3,
         "url": "https://github.com/netresearch/node-red-contrib-magento-eqp/network/dependents"
       },
+      "estimated_downstream_reach": 405,
       "blast_radius": 405,
       "archived": false
     },
@@ -12183,7 +12264,7 @@
         "contributors": 45,
         "external_contributors": 39,
         "packagist_downloads": 0,
-        "ghcr_downloads": 321931,
+        "ghcr_downloads": 322046,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
@@ -12194,7 +12275,7 @@
         "prs_merged": 40,
         "releases": 4,
         "packagist_downloads": 0,
-        "ghcr_downloads": 54816
+        "ghcr_downloads": 54931
       },
       "traffic_14d": {
         "clones_total": 3704,
@@ -12350,18 +12431,19 @@
           {
             "package": "ofelia",
             "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-            "total": 321931,
-            "thirty_day": 54816
+            "total": 322046,
+            "thirty_day": 54931
           }
         ],
-        "total": 321931,
-        "thirty_day": 54816
+        "total": 322046,
+        "thirty_day": 54931
       },
       "dependents": {
         "repositories": 0,
         "packages": 0,
         "url": "https://github.com/netresearch/ofelia/network/dependents"
       },
+      "estimated_downstream_reach": 853,
       "blast_radius": 853,
       "archived": false
     },
@@ -12472,6 +12554,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/oro-hide-unavailable-variants/network/dependents"
       },
+      "estimated_downstream_reach": 13,
       "blast_radius": 13,
       "archived": false
     },
@@ -12623,6 +12706,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/orocommerce-skill/network/dependents"
       },
+      "estimated_downstream_reach": 24,
       "blast_radius": 24,
       "archived": false
     },
@@ -12727,6 +12811,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/pagerangers-skill/network/dependents"
       },
+      "estimated_downstream_reach": 60,
       "blast_radius": 60,
       "archived": true
     },
@@ -12828,6 +12913,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/peer-qa-review-skill/network/dependents"
       },
+      "estimated_downstream_reach": 46,
       "blast_radius": 46,
       "archived": false
     },
@@ -13026,6 +13112,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/php-modernization-skill/network/dependents"
       },
+      "estimated_downstream_reach": 93,
       "blast_radius": 93,
       "archived": false
     },
@@ -13158,6 +13245,7 @@
         "packages": 3,
         "url": "https://github.com/netresearch/postdirekt-autocomplete-monorepo/network/dependents"
       },
+      "estimated_downstream_reach": 110,
       "blast_radius": 110,
       "archived": false
     },
@@ -13309,6 +13397,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/raybeam/network/dependents"
       },
+      "estimated_downstream_reach": 251,
       "blast_radius": 251,
       "archived": false
     },
@@ -13491,6 +13580,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/retro-skill/network/dependents"
       },
+      "estimated_downstream_reach": 59,
       "blast_radius": 59,
       "archived": false
     },
@@ -13598,6 +13688,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/sdk-api-central-station/network/dependents"
       },
+      "estimated_downstream_reach": 14,
       "blast_radius": 14,
       "archived": false
     },
@@ -13698,6 +13789,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/sdk-api-universal-messenger/network/dependents"
       },
+      "estimated_downstream_reach": 32,
       "blast_radius": 32,
       "archived": false
     },
@@ -13866,6 +13958,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/sdk-eu-vat/network/dependents"
       },
+      "estimated_downstream_reach": 19,
       "blast_radius": 19,
       "archived": false
     },
@@ -14069,6 +14162,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/security-audit-skill/network/dependents"
       },
+      "estimated_downstream_reach": 96,
       "blast_radius": 96,
       "archived": false
     },
@@ -14239,6 +14333,7 @@
         "packages": 5,
         "url": "https://github.com/netresearch/simple-ldap-go/network/dependents"
       },
+      "estimated_downstream_reach": 206,
       "blast_radius": 206,
       "archived": false
     },
@@ -14437,6 +14532,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/skill-repo-skill/network/dependents"
       },
+      "estimated_downstream_reach": 276,
       "blast_radius": 276,
       "archived": false
     },
@@ -14640,6 +14736,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-contexts/network/dependents"
       },
+      "estimated_downstream_reach": 192,
       "blast_radius": 192,
       "archived": false
     },
@@ -14770,6 +14867,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-contexts_geolocation/network/dependents"
       },
+      "estimated_downstream_reach": 65,
       "blast_radius": 65,
       "archived": false
     },
@@ -14875,6 +14973,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-contexts_wurfl/network/dependents"
       },
+      "estimated_downstream_reach": 48,
       "blast_radius": 48,
       "archived": false
     },
@@ -15084,6 +15183,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-cowriter/network/dependents"
       },
+      "estimated_downstream_reach": 157,
       "blast_radius": 157,
       "archived": false
     },
@@ -15184,6 +15284,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-dam_compat/network/dependents"
       },
+      "estimated_downstream_reach": 14,
       "blast_radius": 14,
       "archived": true
     },
@@ -15287,6 +15388,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-demio/network/dependents"
       },
+      "estimated_downstream_reach": 19,
       "blast_radius": 19,
       "archived": true
     },
@@ -15362,6 +15464,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-hubspot_import/network/dependents"
       },
+      "estimated_downstream_reach": 0,
       "blast_radius": 0,
       "archived": true
     },
@@ -15435,6 +15538,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-mydashboard/network/dependents"
       },
+      "estimated_downstream_reach": 0,
       "blast_radius": 0,
       "archived": true
     },
@@ -15465,20 +15569,20 @@
       "homepage": "https://netresearch.github.io/t3x-nr-browser-ai/",
       "default_branch": "main",
       "created_at": "2026-07-28T14:31:41Z",
-      "pushed_at": "2026-08-10T22:57:01Z",
-      "updated_at": "2026-08-07T14:34:13Z",
+      "pushed_at": "2026-08-11T05:24:05Z",
+      "updated_at": "2026-08-11T05:23:31Z",
       "composer_name": null,
       "lifetime": {
         "stars": 1,
         "forks": 0,
         "watchers": 0,
         "network": 0,
-        "open_issues_plus_prs": 1,
-        "commits": 106,
+        "open_issues_plus_prs": 2,
+        "commits": 112,
         "issues_open": 0,
         "issues_closed": 0,
-        "prs_open": 1,
-        "prs_merged": 28,
+        "prs_open": 2,
+        "prs_merged": 30,
         "prs_closed_unmerged": 2,
         "issues_total": 0,
         "releases": 3,
@@ -15491,10 +15595,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 106,
+        "commits": 112,
         "issues_opened": 0,
-        "prs_opened": 31,
-        "prs_merged": 28,
+        "prs_opened": 34,
+        "prs_merged": 30,
         "releases": 3,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -15598,7 +15702,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 106,
+          "contributions": 112,
           "url": "https://github.com/CybotTM"
         }
       ],
@@ -15609,7 +15713,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-browser-ai/network/dependents"
       },
-      "blast_radius": 28,
+      "estimated_downstream_reach": 30,
+      "blast_radius": 30,
       "archived": false
     },
     {
@@ -15704,6 +15809,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-bug-reporter/network/dependents"
       },
+      "estimated_downstream_reach": 7,
       "blast_radius": 7,
       "archived": false
     },
@@ -15790,6 +15896,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-extension-scanner-cli/network/dependents"
       },
+      "estimated_downstream_reach": 32,
       "blast_radius": 32,
       "archived": false
     },
@@ -15972,6 +16079,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-image-optimize/network/dependents"
       },
+      "estimated_downstream_reach": 152,
       "blast_radius": 152,
       "archived": false
     },
@@ -16091,6 +16199,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-image-sitemap/network/dependents"
       },
+      "estimated_downstream_reach": 40,
       "blast_radius": 40,
       "archived": false
     },
@@ -16121,22 +16230,22 @@
       "homepage": "https://netresearch.github.io/t3x-nr-llm/",
       "default_branch": "main",
       "created_at": "2025-12-22T23:35:44Z",
-      "pushed_at": "2026-08-10T23:15:32Z",
-      "updated_at": "2026-08-10T23:14:35Z",
+      "pushed_at": "2026-08-11T05:22:58Z",
+      "updated_at": "2026-08-11T04:54:50Z",
       "composer_name": "netresearch/nr-llm",
       "lifetime": {
         "stars": 4,
         "forks": 2,
         "watchers": 1,
         "network": 2,
-        "open_issues_plus_prs": 6,
-        "commits": 2240,
-        "issues_open": 4,
+        "open_issues_plus_prs": 16,
+        "commits": 2244,
+        "issues_open": 12,
         "issues_closed": 67,
-        "prs_open": 2,
-        "prs_merged": 591,
+        "prs_open": 4,
+        "prs_merged": 592,
         "prs_closed_unmerged": 31,
-        "issues_total": 71,
+        "issues_total": 79,
         "releases": 50,
         "release_downloads": 396,
         "contributors": 6,
@@ -16147,10 +16256,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 874,
-        "issues_opened": 59,
-        "prs_opened": 294,
-        "prs_merged": 275,
+        "commits": 878,
+        "issues_opened": 67,
+        "prs_opened": 297,
+        "prs_merged": 276,
         "releases": 14,
         "packagist_downloads": 6547,
         "ghcr_downloads": 0
@@ -16259,7 +16368,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 2125,
+          "contributions": 2129,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -16301,7 +16410,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-llm/network/dependents"
       },
-      "blast_radius": 680,
+      "estimated_downstream_reach": 689,
+      "blast_radius": 689,
       "archived": false
     },
     {
@@ -16327,25 +16437,25 @@
       "homepage": "https://netresearch.github.io/t3x-nr-mcp-agent/",
       "default_branch": "main",
       "created_at": "2026-03-22T17:16:16Z",
-      "pushed_at": "2026-08-10T22:57:03Z",
-      "updated_at": "2026-08-10T15:35:18Z",
+      "pushed_at": "2026-08-11T05:23:17Z",
+      "updated_at": "2026-08-11T05:07:12Z",
       "composer_name": "netresearch/nr-mcp-agent",
       "lifetime": {
         "stars": 2,
         "forks": 1,
         "watchers": 1,
         "network": 1,
-        "open_issues_plus_prs": 2,
-        "commits": 351,
+        "open_issues_plus_prs": 3,
+        "commits": 360,
         "issues_open": 1,
         "issues_closed": 0,
-        "prs_open": 1,
-        "prs_merged": 92,
+        "prs_open": 2,
+        "prs_merged": 95,
         "prs_closed_unmerged": 8,
         "issues_total": 1,
         "releases": 22,
         "release_downloads": 7,
-        "contributors": 4,
+        "contributors": 5,
         "external_contributors": 1,
         "packagist_downloads": 530,
         "ghcr_downloads": 0,
@@ -16353,10 +16463,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 106,
+        "commits": 115,
         "issues_opened": 0,
-        "prs_opened": 53,
-        "prs_merged": 50,
+        "prs_opened": 57,
+        "prs_merged": 53,
         "releases": 10,
         "packagist_downloads": 530,
         "ghcr_downloads": 0
@@ -16413,18 +16523,23 @@
         },
         {
           "login": "CybotTM",
-          "contributions": 146,
+          "contributions": 151,
           "url": "https://github.com/CybotTM"
         },
         {
           "login": "renovate[bot]",
-          "contributions": 27,
+          "contributions": 29,
           "url": "https://github.com/apps/renovate"
         },
         {
           "login": "dependabot[bot]",
           "contributions": 2,
           "url": "https://github.com/apps/dependabot"
+        },
+        {
+          "login": "github-actions[bot]",
+          "contributions": 2,
+          "url": "https://github.com/apps/github-actions"
         }
       ],
       "packagist": {
@@ -16440,7 +16555,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-mcp-agent/network/dependents"
       },
-      "blast_radius": 98,
+      "estimated_downstream_reach": 101,
+      "blast_radius": 101,
       "archived": false
     },
     {
@@ -16578,6 +16694,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-passkeys-be/network/dependents"
       },
+      "estimated_downstream_reach": 121,
       "blast_radius": 121,
       "archived": false
     },
@@ -16684,6 +16801,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-passkeys-fe/network/dependents"
       },
+      "estimated_downstream_reach": 50,
       "blast_radius": 50,
       "archived": false
     },
@@ -16801,6 +16919,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-repurpose/network/dependents"
       },
+      "estimated_downstream_reach": 68,
       "blast_radius": 68,
       "archived": false
     },
@@ -16925,6 +17044,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-saml-auth/network/dependents"
       },
+      "estimated_downstream_reach": 88,
       "blast_radius": 88,
       "archived": false
     },
@@ -17027,6 +17147,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-temporal-cache/network/dependents"
       },
+      "estimated_downstream_reach": 65,
       "blast_radius": 65,
       "archived": false
     },
@@ -17159,6 +17280,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-textdb/network/dependents"
       },
+      "estimated_downstream_reach": 102,
       "blast_radius": 102,
       "archived": false
     },
@@ -17331,6 +17453,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-vault/network/dependents"
       },
+      "estimated_downstream_reach": 286,
       "blast_radius": 286,
       "archived": false
     },
@@ -17440,6 +17563,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-wellknown/network/dependents"
       },
+      "estimated_downstream_reach": 10,
       "blast_radius": 10,
       "archived": false
     },
@@ -17531,6 +17655,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-xliff-streaming/network/dependents"
       },
+      "estimated_downstream_reach": 22,
       "blast_radius": 22,
       "archived": false
     },
@@ -17608,6 +17733,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr_cache/network/dependents"
       },
+      "estimated_downstream_reach": 3,
       "blast_radius": 3,
       "archived": true
     },
@@ -17674,6 +17800,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr_cachetest/network/dependents"
       },
+      "estimated_downstream_reach": 0,
       "blast_radius": 0,
       "archived": true
     },
@@ -17759,6 +17886,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr_cdn/network/dependents"
       },
+      "estimated_downstream_reach": 5,
       "blast_radius": 5,
       "archived": true
     },
@@ -17849,6 +17977,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr_dam_falmigration/network/dependents"
       },
+      "estimated_downstream_reach": 12,
       "blast_radius": 12,
       "archived": true
     },
@@ -17921,6 +18050,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr_lock/network/dependents"
       },
+      "estimated_downstream_reach": 1,
       "blast_radius": 1,
       "archived": true
     },
@@ -18012,6 +18142,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr_pagetree/network/dependents"
       },
+      "estimated_downstream_reach": 5,
       "blast_radius": 5,
       "archived": true
     },
@@ -18136,6 +18267,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr_perfanalysis/network/dependents"
       },
+      "estimated_downstream_reach": 31,
       "blast_radius": 31,
       "archived": true
     },
@@ -18202,6 +18334,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr_semantic_templates/network/dependents"
       },
+      "estimated_downstream_reach": 0,
       "blast_radius": 0,
       "archived": true
     },
@@ -18274,6 +18407,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr_session/network/dependents"
       },
+      "estimated_downstream_reach": 0,
       "blast_radius": 0,
       "archived": true
     },
@@ -18497,6 +18631,7 @@
         "packages": 3,
         "url": "https://github.com/netresearch/t3x-rte_ckeditor_image/network/dependents"
       },
+      "estimated_downstream_reach": 1154,
       "blast_radius": 1154,
       "archived": false
     },
@@ -18640,6 +18775,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-scheduler/network/dependents"
       },
+      "estimated_downstream_reach": 42,
       "blast_radius": 42,
       "archived": false
     },
@@ -18779,6 +18915,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-sync/network/dependents"
       },
+      "estimated_downstream_reach": 48,
       "blast_radius": 48,
       "archived": false
     },
@@ -18845,6 +18982,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-t3build/network/dependents"
       },
+      "estimated_downstream_reach": 0,
       "blast_radius": 0,
       "archived": true
     },
@@ -18911,6 +19049,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-templavoila_files/network/dependents"
       },
+      "estimated_downstream_reach": 0,
       "blast_radius": 0,
       "archived": true
     },
@@ -19015,6 +19154,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-universal-messenger/network/dependents"
       },
+      "estimated_downstream_reach": 95,
       "blast_radius": 95,
       "archived": false
     },
@@ -19140,6 +19280,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/terraform-provider-ad/network/dependents"
       },
+      "estimated_downstream_reach": 74,
       "blast_radius": 74,
       "archived": false
     },
@@ -19255,6 +19396,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/timalytics/network/dependents"
       },
+      "estimated_downstream_reach": 43,
       "blast_radius": 43,
       "archived": false
     },
@@ -19483,6 +19625,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/timetracker/network/dependents"
       },
+      "estimated_downstream_reach": 658,
       "blast_radius": 658,
       "archived": false
     },
@@ -19610,6 +19753,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/timetracker-ui/network/dependents"
       },
+      "estimated_downstream_reach": 522,
       "blast_radius": 522,
       "archived": true
     },
@@ -19739,6 +19883,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-a11y-skill/network/dependents"
       },
+      "estimated_downstream_reach": 19,
       "blast_radius": 19,
       "archived": false
     },
@@ -19897,6 +20042,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-ckeditor5-skill/network/dependents"
       },
+      "estimated_downstream_reach": 32,
       "blast_radius": 32,
       "archived": false
     },
@@ -20065,6 +20211,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
       },
+      "estimated_downstream_reach": 97,
       "blast_radius": 97,
       "archived": false
     },
@@ -20175,6 +20322,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-core-contributions-skill/network/dependents"
       },
+      "estimated_downstream_reach": 28,
       "blast_radius": 28,
       "archived": false
     },
@@ -20346,6 +20494,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-ddev-skill/network/dependents"
       },
+      "estimated_downstream_reach": 49,
       "blast_radius": 49,
       "archived": false
     },
@@ -20517,6 +20666,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-docs-skill/network/dependents"
       },
+      "estimated_downstream_reach": 65,
       "blast_radius": 65,
       "archived": false
     },
@@ -20690,6 +20840,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-extension-upgrade-skill/network/dependents"
       },
+      "estimated_downstream_reach": 46,
       "blast_radius": 46,
       "archived": false
     },
@@ -20790,6 +20941,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-frontend-patterns-skill/network/dependents"
       },
+      "estimated_downstream_reach": 12,
       "blast_radius": 12,
       "archived": true
     },
@@ -20954,6 +21106,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-project-upgrade-skill/network/dependents"
       },
+      "estimated_downstream_reach": 19,
       "blast_radius": 19,
       "archived": false
     },
@@ -21054,6 +21207,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-site-conformance-skill/network/dependents"
       },
+      "estimated_downstream_reach": 17,
       "blast_radius": 17,
       "archived": false
     },
@@ -21224,6 +21378,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
       },
+      "estimated_downstream_reach": 117,
       "blast_radius": 117,
       "archived": false
     },
@@ -21348,6 +21503,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-typoscript-ref-skill/network/dependents"
       },
+      "estimated_downstream_reach": 26,
       "blast_radius": 26,
       "archived": false
     },
@@ -21517,6 +21673,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-upgrade-effort-model-skill/network/dependents"
       },
+      "estimated_downstream_reach": 26,
       "blast_radius": 26,
       "archived": false
     },
@@ -21659,6 +21816,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-vite-skill/network/dependents"
       },
+      "estimated_downstream_reach": 21,
       "blast_radius": 21,
       "archived": false
     },
@@ -21788,6 +21946,7 @@
         "packages": 0,
         "url": "https://github.com/netresearch/udp-proxy/network/dependents"
       },
+      "estimated_downstream_reach": 14,
       "blast_radius": 14,
       "archived": true
     }
