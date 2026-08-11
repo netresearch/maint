@@ -16,6 +16,9 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from check_accessibility import check_accessibility  # noqa: E402
+
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "build"))
 MAX_SNAPSHOT_AGE_DAYS = 3
 
@@ -107,6 +110,10 @@ def main() -> int:
         if name.endswith("index.html") and "/repo/" not in f"/{name}":
             if not re.search(r'data-figure="[^"]+"[^>]*>\s*[\d.,]+', html):
                 errors.append(f"{name}: no rendered figure found")
+
+        # Accessibility and semantics decidable from the markup alone.
+        for problem in check_accessibility(html):
+            errors.append(f"{name}: {problem}")
 
         # Estimated reach must never appear without its caveat on the same page.
         if "downstream-reach" in html or "reach-heading" in html:
