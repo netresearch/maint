@@ -611,21 +611,6 @@ def write_outputs(base: Path, snapshot: dict, history: dict) -> None:
         (base / "data" / "repos" / f"{repo['name']}.json").write_text(json.dumps(repo, indent=2))
 
 
-def copy_dashboard_assets(base: Path) -> None:
-    src = Path(__file__).resolve().parent.parent / "dashboard"
-    if not src.exists():
-        return
-    import shutil
-    for entry in src.iterdir():
-        dst = base / entry.name
-        if entry.is_dir():
-            if dst.exists():
-                shutil.rmtree(dst)
-            shutil.copytree(entry, dst)
-        else:
-            shutil.copy2(entry, dst)
-
-
 def main() -> int:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -667,7 +652,10 @@ def main() -> int:
     history = append_history(history, snapshot["totals"])
 
     write_outputs(OUTPUT_DIR, snapshot, history)
-    copy_dashboard_assets(OUTPUT_DIR)
+    # The published tree has one owner: render_site.py. This used to copy
+    # everything under dashboard/ into the output, which was fine while that
+    # directory held only index.html and assets/ — and started publishing the
+    # Jinja templates and the translation files the moment it held those too.
 
     print(f"Wrote outputs to {OUTPUT_DIR}/", file=sys.stderr)
     print(json.dumps(snapshot["totals"], indent=2))

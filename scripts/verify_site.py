@@ -120,6 +120,13 @@ def main() -> int:
             if 'class="warning"' not in html:
                 errors.append(f"{name}: the reach estimate is shown without its caveat")
 
+    # Source files must never reach the published tree. The collector used to
+    # copy everything under dashboard/ into the output, so the day that
+    # directory gained templates and translation files, they shipped.
+    for forbidden in ("templates", "i18n"):
+        if (OUTPUT_DIR / forbidden).exists():
+            errors.append(f"{forbidden}/ was published — that is source, not site content")
+
     for required in ("sitemap.xml", "robots.txt", "CITATION.cff",
                      "data/repositories.csv", "data/data-dictionary.json",
                      "assets/vendor/chart.umd.min.js"):
