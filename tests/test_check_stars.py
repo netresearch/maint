@@ -1,17 +1,27 @@
 #!/usr/bin/env python3
 """Tests for scripts/check-stars.py dependents handling.
 
+The shared GitHub client's rate-limit policy is tested in test_github_api.py,
+where that code now lives.
+
 Runnable standalone (`python tests/test_check_stars.py`) or via pytest.
 """
 
 import importlib.util
 import os
+import sys
 from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
+# check-stars.py imports github_api by bare name, which works when it is run as
+# `python scripts/check-stars.py` (script dir on sys.path) but not when it is
+# loaded from here by file path. Put scripts/ on the path so both work.
+sys.path.insert(0, str(_SCRIPTS))
 
 # The module reads MATRIX_WEBHOOK_URL at import time; provide a dummy value.
 os.environ.setdefault("MATRIX_WEBHOOK_URL", "https://example.invalid/webhook")
 
-_MODULE_PATH = Path(__file__).resolve().parent.parent / "scripts" / "check-stars.py"
+_MODULE_PATH = _SCRIPTS / "check-stars.py"
 _spec = importlib.util.spec_from_file_location("check_stars", _MODULE_PATH)
 check_stars = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(check_stars)
@@ -116,125 +126,40 @@ def test_per_repo_autherror_is_skipped_not_fatal():
     check_stars._inaccessible.clear()
 
 
-class _FakeResponse:
-    """Minimal stand-in for requests.Response for the retry-policy tests."""
+def test_dependents_scrape_retries_a_transient_error():
+    """get_dependents scrapes github.com HTML, so it calls parse_retry_after directly.
 
-    def __init__(self, status_code=403, headers=None, text="", payload=None, reason="Forbidden"):
-        self.status_code = status_code
-        self.headers = headers or {}
-        self.text = text
-        self.reason = reason
-        self.links = {}
-        self._payload = payload
-
-    def json(self):
-        if self._payload is None:
-            raise ValueError("no json body")
-        return self._payload
-
-    def raise_for_status(self):
-        if self.status_code >= 400:
-            raise check_stars.requests.exceptions.HTTPError(f"{self.status_code} Client Error", response=self)
-
-
-def _drive_rate_limited_request(response):
-    """Run github_request against a server that always returns `response`.
-
-    Returns (raised_exception_or_None, list_of_sleep_durations). requests.get and
-    time.sleep are swapped out so the test measures the policy rather than living
-    through it, and both are restored plus the budget reset afterwards.
+    That made it the one caller left behind when the GitHub client moved into
+    github_api: the helper stayed in scope by accident until the import was
+    corrected, and the break is only reachable through a 429/502/503/504 from
+    github.com, which no other test provokes. Hence this one.
     """
+    class _Resp:
+        def __init__(self, status_code, text="", headers=None):
+            self.status_code = status_code
+            self.text = text
+            self.headers = headers or {}
+
+        def raise_for_status(self):
+            if self.status_code >= 400:
+                raise check_stars.requests.exceptions.HTTPError(f"{self.status_code}", response=self)
+
+    responses = [
+        _Resp(503, headers={"Retry-After": "7"}),
+        _Resp(200, text='<div id="dependents"><div class="Box-row">no repos</div></div>'),
+    ]
     slept = []
     original_get, original_sleep = check_stars.requests.get, check_stars.time.sleep
-    check_stars.requests.get = lambda *a, **k: response  # type: ignore[assignment]
+    check_stars.requests.get = lambda *a, **k: responses.pop(0)  # type: ignore[assignment]
     check_stars.time.sleep = slept.append  # type: ignore[assignment]
-    check_stars._rate_limit_slept = 0.0
-    raised = None
     try:
-        check_stars.github_request("https://api.github.com/orgs/netresearch/repos?type=all&per_page=100")
-    except Exception as e:  # noqa: BLE001 - the test asserts on which type came out
-        raised = e
+        result = check_stars.get_dependents("netresearch/maint")
     finally:
         check_stars.requests.get = original_get  # type: ignore[assignment]
         check_stars.time.sleep = original_sleep  # type: ignore[assignment]
-        check_stars._rate_limit_slept = 0.0
-    return raised, slept
 
-
-def test_rate_limit_wait_prefers_retry_after():
-    """Retry-After is GitHub telling us directly, so it outranks every guess."""
-    response = _FakeResponse(headers={"Retry-After": "45", "X-RateLimit-Remaining": "0",
-                                      "X-RateLimit-Reset": str(int(check_stars.time.time()) + 3600)})
-    wait, reason = check_stars.rate_limit_wait(response, attempt=0)
-    assert 45 <= wait <= 47, f"expected the 45s the server asked for (plus slack), got {wait}"
-    assert "Retry-After" in reason
-
-
-def test_rate_limit_wait_waits_for_the_primary_reset():
-    """A spent primary budget cannot be beaten by any shorter wait, so wait for the reset."""
-    response = _FakeResponse(headers={"X-RateLimit-Remaining": "0",
-                                      "X-RateLimit-Reset": str(int(check_stars.time.time()) + 120)})
-    wait, reason = check_stars.rate_limit_wait(response, attempt=0)
-    assert 118 <= wait <= 123, f"expected ~120s until the reset, got {wait}"
-    assert "resetting at" in reason
-
-
-def test_rate_limit_wait_floors_secondary_backoff_at_a_minute():
-    """A secondary limit sends no usable header; x-ratelimit-reset describes the
-    PRIMARY window and would over-wait, so back off from the documented floor."""
-    response = _FakeResponse(text="You have exceeded a secondary rate limit",
-                             headers={"X-RateLimit-Remaining": "4213",
-                                      "X-RateLimit-Reset": str(int(check_stars.time.time()) + 3600)})
-    waits = [check_stars.rate_limit_wait(response, attempt=n)[0] for n in range(3)]
-    assert waits == [60, 120, 240], f"expected a 60s floor doubling per attempt, got {waits}"
-
-
-def test_secondary_rate_limit_waits_minutes_and_stays_within_budget():
-    """Reproduces the 2026-08-09T21:40 failure: an unrelenting secondary 403.
-
-    The old policy slept 1+2+4 = 7 seconds and then died with a bare HTTPError.
-    The new one must wait in minutes, stop before the per-run budget is spent,
-    and say what happened.
-    """
-    response = _FakeResponse(text="You have exceeded a secondary rate limit. Please wait a few minutes")
-    raised, slept = _drive_rate_limited_request(response)
-
-    assert isinstance(raised, check_stars.RateLimitError), \
-        f"expected RateLimitError, got {type(raised).__name__}: {raised}"
-    assert slept[0] >= check_stars.SECONDARY_RATE_LIMIT_WAIT, \
-        f"first wait must clear the {check_stars.SECONDARY_RATE_LIMIT_WAIT}s floor, got {slept[0]}s"
-    total = sum(slept)
-    assert total > 7, f"the old policy's total was 7s; the new one waited only {total}s"
-    assert total <= check_stars.RATE_LIMIT_TOTAL_BUDGET, \
-        f"waited {total}s, over the {check_stars.RATE_LIMIT_TOTAL_BUDGET}s budget that bounds the job"
-
-
-def test_rate_limit_give_up_message_names_the_cause():
-    """The run log must explain itself without anyone opening this script."""
-    reset_at = int(check_stars.time.time()) + 900
-    response = _FakeResponse(headers={"X-RateLimit-Remaining": "0", "X-RateLimit-Limit": "5000",
-                                      "X-RateLimit-Reset": str(reset_at)})
-    raised, _ = _drive_rate_limited_request(response)
-
-    assert isinstance(raised, check_stars.RateLimitError), f"expected RateLimitError, got {raised!r}"
-    message = str(raised)
-    for expected in ("rate limit", "x-ratelimit-remaining=0/5000", "resets at", "budget"):
-        assert expected in message, f"give-up message must mention {expected!r}; got: {message}"
-    assert "403 Client Error: Forbidden" not in message, "the bare HTTPError text is what this replaces"
-
-
-def test_permission_403_is_still_an_autherror():
-    """Guard the split: only a rate-limit 403 gets the patient treatment.
-
-    A permission 403 must stay an AuthError so the per-repo fetchers keep
-    skipping that repo instead of sleeping through six minutes of backoff for
-    every one of the ~280 repos.
-    """
-    response = _FakeResponse(payload={"message": "Resource not accessible by personal access token"})
-    raised, slept = _drive_rate_limited_request(response)
-
-    assert isinstance(raised, check_stars.AuthError), f"expected AuthError, got {type(raised).__name__}"
-    assert slept == [], f"a permission 403 must not be retried at all, slept {slept}"
+    assert result == [], f"the second attempt parsed a valid page, so expected [], got {result!r}"
+    assert slept == [7.0], f"the retry must honour Retry-After: 7, slept {slept}"
 
 
 if __name__ == "__main__":
@@ -246,15 +171,5 @@ if __name__ == "__main__":
     print("OK: archived repo skips token-gated fetches")
     test_per_repo_autherror_is_skipped_not_fatal()
     print("OK: per-repo AuthError is skipped, not fatal")
-    test_rate_limit_wait_prefers_retry_after()
-    print("OK: rate-limit wait prefers Retry-After")
-    test_rate_limit_wait_waits_for_the_primary_reset()
-    print("OK: rate-limit wait honours the primary reset")
-    test_rate_limit_wait_floors_secondary_backoff_at_a_minute()
-    print("OK: secondary backoff starts at a 60s floor")
-    test_secondary_rate_limit_waits_minutes_and_stays_within_budget()
-    print("OK: secondary limit waits minutes, bounded by the budget")
-    test_rate_limit_give_up_message_names_the_cause()
-    print("OK: give-up message names the rate limit and its reset")
-    test_permission_403_is_still_an_autherror()
-    print("OK: permission 403 is still an AuthError")
+    test_dependents_scrape_retries_a_transient_error()
+    print("OK: dependents scrape retries a transient error")
