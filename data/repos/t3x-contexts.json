@@ -33,7 +33,7 @@
     "release_downloads": 35,
     "contributors": 12,
     "external_contributors": 7,
-    "packagist_downloads": 21760,
+    "packagist_downloads": 21918,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
@@ -44,23 +44,28 @@
     "prs_opened": 24,
     "prs_merged": 22,
     "releases": 1,
-    "packagist_downloads": 2683,
+    "packagist_downloads": 2841,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3021,
+    "clones_total": 3080,
     "clones_unique": 178,
-    "views_total": 24,
-    "views_unique": 11,
+    "views_total": 30,
+    "views_unique": 12,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 10,
-        "uniques": 3
+        "count": 9,
+        "uniques": 2
       },
       {
         "referrer": "Google",
-        "count": 6,
+        "count": 8,
+        "uniques": 2
+      },
+      {
+        "referrer": "typo3-demo.netresearch.de",
+        "count": 1,
         "uniques": 1
       }
     ],
@@ -68,8 +73,8 @@
       {
         "path": "/netresearch/t3x-contexts",
         "title": "Overview",
-        "count": 5,
-        "uniques": 4
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/t3x-contexts/issues/25",
@@ -120,8 +125,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-contexts/pull/51",
-        "title": "/pull/51",
+        "path": "/netresearch/t3x-contexts/blob/main/ext_emconf.php",
+        "title": "/blob/main/ext_emconf.php",
         "count": 1,
         "uniques": 1
       }
@@ -187,9 +192,9 @@
   ],
   "packagist": {
     "name": "netresearch/contexts",
-    "total": 21760,
-    "monthly": 2683,
-    "daily": 127,
+    "total": 21918,
+    "monthly": 2841,
+    "daily": 131,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,

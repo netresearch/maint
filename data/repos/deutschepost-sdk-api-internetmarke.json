@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 2,
     "external_contributors": 1,
-    "packagist_downloads": 10277,
+    "packagist_downloads": 10417,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,18 +43,23 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 2417,
+    "packagist_downloads": 2303,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 22,
-    "clones_unique": 14,
-    "views_total": 3,
-    "views_unique": 1,
+    "clones_total": 21,
+    "clones_unique": 13,
+    "views_total": 4,
+    "views_unique": 2,
     "top_referrers": [
       {
         "referrer": "claude.ai",
         "count": 3,
+        "uniques": 1
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 1,
         "uniques": 1
       }
     ],
@@ -62,8 +67,8 @@
       {
         "path": "/netresearch/deutschepost-sdk-api-internetmarke",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/deutschepost-sdk-api-internetmarke/tree/main",
@@ -99,9 +104,9 @@
   ],
   "packagist": {
     "name": "deutschepost/sdk-api-internetmarke",
-    "total": 10277,
-    "monthly": 2417,
-    "daily": 132,
+    "total": 10417,
+    "monthly": 2303,
+    "daily": 123,
     "url": "https://packagist.org/packages/deutschepost/sdk-api-internetmarke"
   },
   "ghcr": null,

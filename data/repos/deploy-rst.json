@@ -50,11 +50,16 @@
   "traffic_14d": {
     "clones_total": 38,
     "clones_unique": 21,
-    "views_total": 2,
-    "views_unique": 2,
+    "views_total": 3,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "pypi.org",
         "count": 1,
         "uniques": 1
       }
@@ -63,8 +68,8 @@
       {
         "path": "/netresearch/deploy-rst",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       }
     ]
   },

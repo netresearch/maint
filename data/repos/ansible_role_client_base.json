@@ -46,20 +46,74 @@
   },
   "traffic_14d": {
     "clones_total": 68,
-    "clones_unique": 31,
-    "views_total": 1,
-    "views_unique": 1,
+    "clones_unique": 29,
+    "views_total": 30,
+    "views_unique": 2,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
+        "count": 30,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/ansible_role_client_base",
         "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ansible_role_client_base/blob/main/Dockerfile",
+        "title": "/blob/main/Dockerfile",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_client_base/blob/main/ansible.cfg",
+        "title": "/blob/main/ansible.cfg",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_client_base/blob/main/defaults/main.yml",
+        "title": "/blob/main/defaults/main.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_client_base/blob/main/docker-compose.yml",
+        "title": "/blob/main/docker-compose.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_client_base/blob/main/example/site.yml",
+        "title": "/blob/main/example/site.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_client_base/blob/main/files/cert_trust_store_installer.sh",
+        "title": "/blob/main/files/cert_trust_store_installer.sh",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_client_base/blob/main/handlers/main.yml",
+        "title": "/blob/main/handlers/main.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_client_base/blob/main/meta/main.yml",
+        "title": "/blob/main/meta/main.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_client_base/blob/main/molecule/default/converge.yml",
+        "title": "/blob/main/molecule/default/converge.yml",
         "count": 1,
         "uniques": 1
       }
