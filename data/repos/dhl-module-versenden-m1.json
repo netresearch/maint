@@ -53,17 +53,23 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 14,
-    "clones_unique": 12,
-    "views_total": 12,
-    "views_unique": 12,
-    "top_referrers": [],
+    "clones_total": 13,
+    "clones_unique": 11,
+    "views_total": 14,
+    "views_unique": 13,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 2,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-module-versenden-m1/issues/3",
         "title": "/issues/3",
-        "count": 5,
-        "uniques": 5
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/dhl-module-versenden-m1/issues/4",
@@ -74,6 +80,12 @@
       {
         "path": "/netresearch/dhl-module-versenden-m1",
         "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/blob/main/doc/src/EndKundenDoku.rst",
+        "title": "/blob/main/doc/src/EndKundenDoku.rst",
         "count": 1,
         "uniques": 1
       },
@@ -86,6 +98,12 @@
       {
         "path": "/netresearch/dhl-module-versenden-m1/releases/tag/1.9.2",
         "title": "/releases/tag/1.9.2",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/releases/tag/2.1.0",
+        "title": "/releases/tag/2.1.0",
         "count": 1,
         "uniques": 1
       }
@@ -133,7 +151,7 @@
     "name": "dhl/module-versenden-m1",
     "total": 23,
     "monthly": 8,
-    "daily": 1,
+    "daily": 0,
     "url": "https://packagist.org/packages/dhl/module-versenden-m1"
   },
   "ghcr": null,
