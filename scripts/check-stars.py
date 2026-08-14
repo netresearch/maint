@@ -78,9 +78,22 @@ class RateLimitError(Exception):
     systemic rather than per-repo, so the per-repo fetchers must not catch it
     and carry on walking the remaining repos — every one of them would hit the
     same wall, and the run would end up reporting a few hundred bogus
-    "inaccessible" repos instead of the one real cause. It propagates to main()
-    and turns the run red with a message that names the limit and its reset.
+    "inaccessible" repos instead of the one real cause. It propagates out of
+    main() with a message that names the limit and its reset.
+
+    `deferred_to_next_run` marks the DESIGNED give-up: the primary hourly
+    budget is spent and the wait to its documented reset exceeds what is left
+    of this run's sleep budget. The schedule is the outer retry loop (see
+    RATE_LIMIT_TOTAL_BUDGET), the reset is at most an hour out, and no state
+    has been saved yet, so handing over to a successor is the intended
+    behaviour — run() turns it into a ::warning:: and exit 0. Every other
+    give-up (a secondary limit mid-processing, retries exhausted) stays False
+    and turns the run red.
     """
+
+    def __init__(self, message: str, *, deferred_to_next_run: bool = False):
+        super().__init__(message)
+        self.deferred_to_next_run = deferred_to_next_run
 
 
 def is_rate_limited(response: requests.Response) -> bool:
@@ -222,10 +235,16 @@ def github_request(url: str, accept: str = "application/vnd.github+json", max_re
                         # Sleeping a partial wait would just burn an attempt on a
                         # request that is certain to be refused, so stop here and
                         # let the next scheduled run try with a fresh budget.
+                        # Deferring is only safe for a PRIMARY limit (zeroed
+                        # budget header, same test describe_rate_limit uses):
+                        # its reset is documented and at most an hour out, so a
+                        # successor run is guaranteed fresh quota. A secondary
+                        # limit that outlasted 600s of backoff is abuse
+                        # detection with no promised end — that stays a failure.
                         raise RateLimitError(describe_rate_limit(
                             url, response, rate_limit_attempt,
                             f"the next wait of {wait:.0f}s exceeds the {budget_left:.0f}s left in the budget",
-                        ))
+                        ), deferred_to_next_run=response.headers.get("X-RateLimit-Remaining") == "0")
                     rate_limit_attempt += 1
                     spend_rate_limit_budget(wait)
                     # Flushed because stdout is block-buffered under Actions: an
@@ -702,18 +721,39 @@ def main():
             print(f"  - {name}: {reason}")
 
 
-if __name__ == "__main__":
+def run() -> int:
+    """Process exit code for main(), separating designed hand-overs from failures.
+
+    The deferred give-up (primary budget spent, wait to reset exceeds the
+    per-run sleep budget) is the script doing exactly what its comments
+    promise, so it must not produce a red run — a red run for a non-actionable,
+    self-healing condition trains people to ignore red runs. It exits 0 with a
+    ::warning:: carrying the same diagnostic text. Safe because the give-up
+    raises out of the repo loop BEFORE any notification is sent and before
+    save_state(), so the state file on disk is still the downloaded previous
+    state and re-uploading it is a no-op — nothing is advanced or lost.
+
+    Every other rate-limit give-up stays red: a secondary limit that outlasts
+    the budget mid-processing is abuse detection with no documented reset, and
+    exhausting all retries means waits that FIT the budget never cleared the
+    limit. A run of red ones means the token's hourly budget is genuinely too
+    small for ~280 repos at this cadence, and the cadence or the request count
+    has to give.
+    """
     try:
         main()
     except RateLimitError as e:
-        # Still red — a rate limit that outlasts the whole budget is worth
-        # noticing — but red for a stated reason. The schedule fires every 15
-        # minutes, so one occurrence is normally self-healing; a run of them
-        # means the token's hourly budget is genuinely too small for ~280 repos
-        # at this cadence, and the cadence or the request count has to give.
+        if e.deferred_to_next_run:
+            print(f"::warning::{e} Working as designed: the next scheduled run retries with a fresh budget.")
+            return 0
         print(f"::error::{e} The next scheduled run retries with a fresh budget.")
-        raise SystemExit(1)
+        return 1
     except AuthError as e:
         print(f"::error::{e}. Check that STAR_NOTIFICATIONS_PAT is set, unexpired, and grants "
               f"Metadata: read on the {ORG_NAME} org.")
-        raise SystemExit(1)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(run())
