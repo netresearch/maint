@@ -223,6 +223,75 @@ def test_rate_limit_give_up_message_names_the_cause():
     assert "403 Client Error: Forbidden" not in message, "the bare HTTPError text is what this replaces"
 
 
+def _run_with_main_raising(exc):
+    """Call run() with main() replaced by one that raises `exc`.
+
+    Returns (exit_code, captured_stdout).
+    """
+    import contextlib
+    import io
+
+    def _raise():
+        raise exc
+
+    original_main = check_stars.main
+    check_stars.main = _raise  # type: ignore[assignment]
+    out = io.StringIO()
+    try:
+        with contextlib.redirect_stdout(out):
+            code = check_stars.run()
+    finally:
+        check_stars.main = original_main  # type: ignore[assignment]
+    return code, out.getvalue()
+
+
+def test_primary_budget_give_up_is_deferred_and_exits_zero():
+    """Reproduces run 13078 (2026-08-13T21:28): primary budget spent, reset 1523s
+    away, further than the 600s left in the per-run budget.
+
+    The give-up is the DESIGNED hand-over to the next scheduled run, so it must
+    mark the error as deferred, never sleep a partial wait, and run() must turn
+    it into a ::warning:: with exit 0 instead of a red run.
+    """
+    reset_at = int(check_stars.time.time()) + 1523
+    response = _FakeResponse(headers={"X-RateLimit-Remaining": "0", "X-RateLimit-Limit": "5000",
+                                      "X-RateLimit-Reset": str(reset_at)})
+    raised, slept = _drive_rate_limited_request(response)
+
+    assert isinstance(raised, check_stars.RateLimitError), f"expected RateLimitError, got {raised!r}"
+    assert raised.deferred_to_next_run is True, "a primary budget give-up must defer to the next run"
+    assert slept == [], f"a wait that exceeds the budget must not be slept at all, slept {slept}"
+
+    code, out = _run_with_main_raising(raised)
+    assert code == 0, f"a deferred give-up must exit 0, got {code}"
+    assert "::warning::" in out, f"the deferred give-up must still annotate the run, got: {out}"
+    assert "::error::" not in out
+    assert str(raised) in out, "the warning must carry the full diagnostic text"
+
+
+def test_secondary_budget_give_up_still_fails():
+    """A secondary limit that outlasts the budget is abuse detection with no
+    documented reset — it must NOT be deferred, and run() must stay red."""
+    response = _FakeResponse(text="You have exceeded a secondary rate limit. Please wait a few minutes")
+    raised, _ = _drive_rate_limited_request(response)
+
+    assert isinstance(raised, check_stars.RateLimitError), f"expected RateLimitError, got {raised!r}"
+    assert raised.deferred_to_next_run is False, "a secondary-limit give-up must not defer"
+
+    code, out = _run_with_main_raising(raised)
+    assert code == 1, f"a secondary-limit give-up must exit 1, got {code}"
+    assert "::error::" in out
+
+    # The retries-exhausted give-up constructs RateLimitError without the flag,
+    # so the default must be "red" — guard it here.
+    assert check_stars.RateLimitError("x").deferred_to_next_run is False
+
+    # AuthError handling is unchanged: still red.
+    code, out = _run_with_main_raising(check_stars.AuthError("no token in the environment"))
+    assert code == 1, f"an AuthError must exit 1, got {code}"
+    assert "::error::" in out
+
+
 def test_permission_403_is_still_an_autherror():
     """Guard the split: only a rate-limit 403 gets the patient treatment.
 
@@ -256,5 +325,9 @@ if __name__ == "__main__":
     print("OK: secondary limit waits minutes, bounded by the budget")
     test_rate_limit_give_up_message_names_the_cause()
     print("OK: give-up message names the rate limit and its reset")
+    test_primary_budget_give_up_is_deferred_and_exits_zero()
+    print("OK: primary budget give-up warns and exits 0")
+    test_secondary_budget_give_up_still_fails()
+    print("OK: secondary budget give-up still fails red")
     test_permission_403_is_still_an_autherror()
     print("OK: permission 403 is still an AuthError")
