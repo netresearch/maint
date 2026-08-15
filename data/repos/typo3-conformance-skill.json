@@ -29,16 +29,16 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 358,
-    "issues_open": 1,
+    "issues_open": 2,
     "issues_closed": 3,
     "prs_open": 0,
     "prs_merged": 92,
     "prs_closed_unmerged": 5,
-    "issues_total": 4,
+    "issues_total": 5,
     "releases": 50,
-    "release_downloads": 155,
+    "release_downloads": 157,
     "contributors": 4,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -48,7 +48,7 @@
   },
   "recent_30d": {
     "commits": 35,
-    "issues_opened": 0,
+    "issues_opened": 1,
     "prs_opened": 14,
     "prs_merged": 16,
     "releases": 5,
@@ -56,32 +56,32 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1301,
-    "clones_unique": 233,
-    "views_total": 24,
-    "views_unique": 15,
+    "clones_total": 1453,
+    "clones_unique": 248,
+    "views_total": 32,
+    "views_unique": 18,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 10,
+        "uniques": 3
+      },
       {
         "referrer": "Google",
         "count": 7,
         "uniques": 5
       },
       {
-        "referrer": "github.com",
-        "count": 5,
-        "uniques": 3
-      },
-      {
         "referrer": "netresearch.github.io",
-        "count": 2,
-        "uniques": 1
+        "count": 3,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-conformance-skill",
         "title": "Overview",
-        "count": 14,
+        "count": 15,
         "uniques": 13
       },
       {
@@ -89,6 +89,12 @@
         "title": "/tree/main/skills/typo3-conformance",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/pulls",
+        "title": "/pulls",
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-conformance-skill/tree/main",
@@ -105,6 +111,24 @@
       {
         "path": "/netresearch/typo3-conformance-skill/blob/main/LICENSE-MIT",
         "title": "/blob/main/LICENSE-MIT",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/issues",
+        "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/pull/100",
+        "title": "/pull/100",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/releases/tag/v2.17.0",
+        "title": "/releases/tag/v2.17.0",
         "count": 1,
         "uniques": 1
       },
@@ -151,7 +175,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "estimated_downstream_reach": 99,
-  "blast_radius": 99,
+  "estimated_downstream_reach": 100,
+  "blast_radius": 100,
   "archived": false
 }

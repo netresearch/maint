@@ -20,10 +20,10 @@
   "default_branch": "main",
   "created_at": "2026-02-09T16:08:11Z",
   "pushed_at": "2026-08-07T15:01:19Z",
-  "updated_at": "2026-08-07T15:04:19Z",
+  "updated_at": "2026-08-14T20:40:50Z",
   "composer_name": "netresearch/nr-passkeys-be",
   "lifetime": {
-    "stars": 3,
+    "stars": 4,
     "forks": 0,
     "watchers": 1,
     "network": 0,
@@ -36,10 +36,10 @@
     "prs_closed_unmerged": 7,
     "issues_total": 4,
     "releases": 23,
-    "release_downloads": 53,
+    "release_downloads": 55,
     "contributors": 3,
     "external_contributors": 1,
-    "packagist_downloads": 6692,
+    "packagist_downloads": 6742,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -50,49 +50,37 @@
     "prs_opened": 38,
     "prs_merged": 35,
     "releases": 6,
-    "packagist_downloads": 3256,
+    "packagist_downloads": 3303,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4938,
-    "clones_unique": 178,
-    "views_total": 16,
-    "views_unique": 11,
+    "clones_total": 3779,
+    "clones_unique": 144,
+    "views_total": 13,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 5,
-        "uniques": 3
+        "count": 4,
+        "uniques": 2
       },
       {
         "referrer": "netresearch.github.io",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-passkeys-be",
         "title": "Overview",
-        "count": 8,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/issues",
-        "title": "/issues",
-        "count": 2,
-        "uniques": 2
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/tree/v0.12.1",
         "title": "/tree/v0.12.1",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Build/phpunit.xml",
-        "title": "/blob/main/Build/phpunit.xml",
-        "count": 1,
         "uniques": 1
       },
       {
@@ -104,6 +92,12 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be/forks",
         "title": "/forks",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/issues",
+        "title": "/issues",
         "count": 1,
         "uniques": 1
       },
@@ -140,9 +134,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 6692,
-    "monthly": 3256,
-    "daily": 105,
+    "total": 6742,
+    "monthly": 3303,
+    "daily": 50,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,

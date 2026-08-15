@@ -45,14 +45,14 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 69,
-    "clones_unique": 29,
-    "views_total": 9,
+    "clones_total": 48,
+    "clones_unique": 21,
+    "views_total": 14,
     "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 5,
+        "count": 10,
         "uniques": 1
       },
       {
@@ -71,6 +71,30 @@
       {
         "path": "/netresearch/ansible-role-monitoring-server/blob/master/meta/main.yml",
         "title": "/blob/master/meta/main.yml",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-monitoring-server/blob/master/files/grafana/setup.sh",
+        "title": "/blob/master/files/grafana/setup.sh",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-monitoring-server/blob/master/files/prometheus/prometheus.yml",
+        "title": "/blob/master/files/prometheus/prometheus.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-monitoring-server/blob/master/files/samples/notification-channel.json",
+        "title": "/blob/master/files/samples/notification-channel.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-monitoring-server/blob/master/files/samples/user.json",
+        "title": "/blob/master/files/samples/user.json",
         "count": 1,
         "uniques": 1
       },
@@ -95,18 +119,6 @@
       {
         "path": "/netresearch/ansible-role-monitoring-server/tree/master/files",
         "title": "/tree/master/files",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible-role-monitoring-server/tree/master/files/samples",
-        "title": "/tree/master/files/samples",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible-role-monitoring-server/tree/master/meta",
-        "title": "/tree/master/meta",
         "count": 1,
         "uniques": 1
       }
