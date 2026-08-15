@@ -40,6 +40,23 @@ SECONDARY_RATE_LIMIT_WAIT = 60
 RATE_LIMIT_TOTAL_BUDGET = 600
 _rate_limit_slept = 0.0
 
+# --- Chronic starvation ------------------------------------------------------
+# A deferred give-up (see RateLimitError) ends the run green, which is right for
+# an hour whose budget someone else drained. It is wrong for a token that is
+# permanently starved: every run would hand over to a successor that hands over
+# again, forever green, processing zero repos, with only a ::warning:: nobody
+# reads. So consecutive deferrals are counted across runs, and the streak turns
+# the run red once it can no longer be explained by a single bad hour.
+#
+# The number comes from the two cadences involved: the workflow runs every 15
+# minutes (4 runs/hour) and the primary budget resets hourly. Four deferrals in
+# a row span only 45 minutes and can therefore all sit inside ONE drained hour —
+# exactly the case that must stay green. The fifth is at least 60 minutes after
+# the first, so at least one full hourly reset has come and gone without giving
+# this token enough budget to finish a run: no longer a bad hour, a bad setup.
+DEFERRED_GIVEUP_STREAK_KEY = "deferred_giveup_streak"
+MAX_CONSECUTIVE_DEFERRALS = 5
+
 # In-memory cache for user details (login -> user info dict)
 _user_cache: dict[str, dict] = {}
 
@@ -528,11 +545,44 @@ def load_state() -> dict:
     return {"repos": {}, "last_run": None}
 
 
-def save_state(state: dict) -> None:
-    """Save current state to file."""
+def write_state(state: dict) -> None:
+    """Write the state file verbatim, without interpreting what is in it."""
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
-    state["last_run"] = datetime.utcnow().isoformat()
     STATE_FILE.write_text(json.dumps(state, indent=2))
+
+
+def save_state(state: dict) -> None:
+    """Save the state of a COMPLETED run.
+
+    Called from the tail of main() only, i.e. once every repo has been walked,
+    which is also the definition of a run that did not give up — so this is
+    where the deferral streak is cleared. Do not call it mid-loop: that would
+    both stamp a last_run for a run that never finished and forgive a streak
+    that is still going.
+    """
+    state["last_run"] = datetime.utcnow().isoformat()
+    state[DEFERRED_GIVEUP_STREAK_KEY] = 0
+    write_state(state)
+
+
+def bump_deferred_giveup_streak() -> int:
+    """Count this deferred give-up against the previous ones, and return the streak.
+
+    Deliberately re-reads the file instead of taking main()'s in-memory state:
+    by the time a give-up raises, that dict already holds fresh social data for
+    the repos walked before the limit hit, and writing it would advance their
+    seen-stars sets without the run having notified anything for the repos it
+    never reached. Round-tripping the file touches the counter and nothing else,
+    so the seen-stars data stays exactly as the previous run left it. For the
+    same reason this must not go through save_state(), which stamps last_run —
+    on a first-ever run that would suppress the first-run indexing and turn
+    every existing stargazer into a "new" notification on the next run.
+    """
+    state = load_state()
+    streak = state.get(DEFERRED_GIVEUP_STREAK_KEY, 0) + 1
+    state[DEFERRED_GIVEUP_STREAK_KEY] = streak
+    write_state(state)
+    return streak
 
 
 def notify_matrix(message: str) -> None:
@@ -731,7 +781,8 @@ def run() -> int:
     ::warning:: carrying the same diagnostic text. Safe because the give-up
     raises out of the repo loop BEFORE any notification is sent and before
     save_state(), so the state file on disk is still the downloaded previous
-    state and re-uploading it is a no-op — nothing is advanced or lost.
+    state — bar the deferral counter below, which is written on its own — and
+    re-uploading it advances no seen-stars data.
 
     Every other rate-limit give-up stays red: a secondary limit that outlasts
     the budget mid-processing is abuse detection with no documented reset, and
@@ -739,12 +790,27 @@ def run() -> int:
     limit. A run of red ones means the token's hourly budget is genuinely too
     small for ~280 repos at this cadence, and the cadence or the request count
     has to give.
+
+    A green hand-over is only sound while there is a successor that can do the
+    work, so deferrals are counted across runs and the MAX_CONSECUTIVE_DEFERRALS
+    one turns red anyway: at that point the hand-over has been going on longer
+    than a single hourly reset, and permanent quota starvation must not hide
+    behind an endless row of green runs that process nothing.
     """
     try:
         main()
     except RateLimitError as e:
         if e.deferred_to_next_run:
-            print(f"::warning::{e} Working as designed: the next scheduled run retries with a fresh budget.")
+            streak = bump_deferred_giveup_streak()
+            if streak >= MAX_CONSECUTIVE_DEFERRALS:
+                print(f"::error::{e} This is give-up {streak} in a row, spanning more than the hourly "
+                      f"primary-limit reset, so no run in over an hour has processed a single repo. "
+                      f"The token's budget is not momentarily drained, it is too small for this "
+                      f"cadence — reduce the schedule or the request count.")
+                return 1
+            print(f"::warning::{e} Working as designed: the next scheduled run retries with a fresh "
+                  f"budget (consecutive deferral {streak} of {MAX_CONSECUTIVE_DEFERRALS} before this "
+                  f"turns red).")
             return 0
         print(f"::error::{e} The next scheduled run retries with a fresh budget.")
         return 1
