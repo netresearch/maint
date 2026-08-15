@@ -4,8 +4,11 @@
 Runnable standalone (`python tests/test_check_stars.py`) or via pytest.
 """
 
+import contextlib
 import importlib.util
+import json
 import os
+import tempfile
 from pathlib import Path
 
 # The module reads MATRIX_WEBHOOK_URL at import time; provide a dummy value.
@@ -292,6 +295,107 @@ def test_secondary_budget_give_up_still_fails():
     assert "::error::" in out
 
 
+@contextlib.contextmanager
+def _temp_state(initial):
+    """Point the module's STATE_FILE at a throwaway file holding `initial`.
+
+    Yields the path so a test can read back what the code under test wrote.
+    """
+    original = check_stars.STATE_FILE
+    with tempfile.TemporaryDirectory() as tmp:
+        path = Path(tmp) / "state" / "stars-state.json"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(initial))
+        check_stars.STATE_FILE = path  # type: ignore[assignment]
+        try:
+            yield path
+        finally:
+            check_stars.STATE_FILE = original  # type: ignore[assignment]
+
+
+def _defer_once(seeded_state):
+    """Drive run() through one deferred give-up against `seeded_state`.
+
+    Returns (exit_code, stdout, state_as_written_back).
+    """
+    deferred = check_stars.RateLimitError(
+        "GitHub primary rate limit still in effect after 0 attempt(s)",
+        deferred_to_next_run=True,
+    )
+    with _temp_state(seeded_state) as path:
+        code, out = _run_with_main_raising(deferred)
+        return code, out, json.loads(path.read_text())
+
+
+def test_deferred_give_up_counts_up_without_touching_the_seen_stars():
+    """A hand-over must record that it happened and change nothing else.
+
+    The whole safety argument for exiting 0 is that the give-up raises before
+    save_state(), so the downloaded seen-stars data is re-uploaded untouched.
+    Counting the deferral writes to that same file, so this pins both halves:
+    the counter goes up, and the repos/last_run it shares the file with come
+    back byte-identical.
+    """
+    seeded = {
+        "repos": {"netresearch/foo": {"stars": ["alice"], "forks": [], "watchers": [], "dependents": []}},
+        "last_run": "2026-08-14T21:00:00",
+    }
+    code, out, stored = _defer_once(seeded)
+
+    assert code == 0, f"a deferred give-up below the threshold must still exit 0, got {code}"
+    assert "::warning::" in out and "::error::" not in out, f"expected a warning, got: {out}"
+    assert stored[check_stars.DEFERRED_GIVEUP_STREAK_KEY] == 1, \
+        f"first deferral must count as 1, got {stored.get(check_stars.DEFERRED_GIVEUP_STREAK_KEY)!r}"
+    assert stored["repos"] == seeded["repos"], "the give-up path must not advance the seen-stars data"
+    assert stored["last_run"] == seeded["last_run"], \
+        "the give-up path must not stamp last_run — that would suppress a pending first-run indexing"
+
+
+def test_streak_reaching_the_threshold_turns_the_run_red():
+    """Permanent starvation must stop hiding behind green runs.
+
+    One below the threshold is still the designed hand-over; the run that
+    reaches it has been deferring for longer than the hourly primary reset, so
+    it goes red with the streak named in the message.
+    """
+    below = {"repos": {}, "last_run": "2026-08-14T21:00:00",
+             check_stars.DEFERRED_GIVEUP_STREAK_KEY: check_stars.MAX_CONSECUTIVE_DEFERRALS - 2}
+    code, out, stored = _defer_once(below)
+    assert code == 0, f"deferral {check_stars.MAX_CONSECUTIVE_DEFERRALS - 1} must stay green, got {code}"
+    assert "::warning::" in out and "::error::" not in out
+    assert stored[check_stars.DEFERRED_GIVEUP_STREAK_KEY] == check_stars.MAX_CONSECUTIVE_DEFERRALS - 1
+
+    at_threshold = dict(below)
+    at_threshold[check_stars.DEFERRED_GIVEUP_STREAK_KEY] = check_stars.MAX_CONSECUTIVE_DEFERRALS - 1
+    code, out, stored = _defer_once(at_threshold)
+    assert code == 1, f"deferral {check_stars.MAX_CONSECUTIVE_DEFERRALS} must fail the run, got {code}"
+    assert "::error::" in out and "::warning::" not in out, f"expected an error annotation, got: {out}"
+    assert f"{check_stars.MAX_CONSECUTIVE_DEFERRALS} in a row" in out, \
+        f"the error must name the streak so the log says why it is red now; got: {out}"
+    assert stored[check_stars.DEFERRED_GIVEUP_STREAK_KEY] == check_stars.MAX_CONSECUTIVE_DEFERRALS, \
+        "the red run must still persist its count, or the streak freezes one below the threshold"
+
+
+def test_a_completed_run_resets_the_streak():
+    """save_state() is the tail of main(), so reaching it clears the streak.
+
+    Without the reset, five deferrals spread over a week of otherwise healthy
+    runs would eventually turn a run red for a limit that has long since lifted.
+    """
+    seeded = {"repos": {}, "last_run": None,
+              check_stars.DEFERRED_GIVEUP_STREAK_KEY: check_stars.MAX_CONSECUTIVE_DEFERRALS - 1}
+    with _temp_state(seeded) as path:
+        state = check_stars.load_state()
+        assert state[check_stars.DEFERRED_GIVEUP_STREAK_KEY] == check_stars.MAX_CONSECUTIVE_DEFERRALS - 1, \
+            "precondition: the streak must survive the load it is meant to be reset from"
+        check_stars.save_state(state)
+        stored = json.loads(path.read_text())
+
+    assert stored[check_stars.DEFERRED_GIVEUP_STREAK_KEY] == 0, \
+        f"a completed run must clear the streak, got {stored[check_stars.DEFERRED_GIVEUP_STREAK_KEY]!r}"
+    assert stored["last_run"], "save_state must still stamp the completion time"
+
+
 def test_permission_403_is_still_an_autherror():
     """Guard the split: only a rate-limit 403 gets the patient treatment.
 
@@ -329,5 +433,11 @@ if __name__ == "__main__":
     print("OK: primary budget give-up warns and exits 0")
     test_secondary_budget_give_up_still_fails()
     print("OK: secondary budget give-up still fails red")
+    test_deferred_give_up_counts_up_without_touching_the_seen_stars()
+    print("OK: deferred give-up counts up and leaves the seen stars alone")
+    test_streak_reaching_the_threshold_turns_the_run_red()
+    print("OK: the streak turns the run red at the threshold")
+    test_a_completed_run_resets_the_streak()
+    print("OK: a completed run resets the streak")
     test_permission_403_is_still_an_autherror()
     print("OK: permission 403 is still an AuthError")
