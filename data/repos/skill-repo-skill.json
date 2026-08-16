@@ -14,8 +14,8 @@
   "homepage": "https://netresearch.github.io/skill-repo-skill/",
   "default_branch": "main",
   "created_at": "2025-12-16T10:15:03Z",
-  "pushed_at": "2026-08-14T11:15:32Z",
-  "updated_at": "2026-08-14T11:13:35Z",
+  "pushed_at": "2026-08-15T13:36:11Z",
+  "updated_at": "2026-08-15T13:36:42Z",
   "composer_name": null,
   "lifetime": {
     "stars": 16,
@@ -23,11 +23,11 @@
     "watchers": 1,
     "network": 3,
     "open_issues_plus_prs": 10,
-    "commits": 579,
+    "commits": 584,
     "issues_open": 10,
     "issues_closed": 11,
     "prs_open": 0,
-    "prs_merged": 196,
+    "prs_merged": 198,
     "prs_closed_unmerged": 4,
     "issues_total": 21,
     "releases": 65,
@@ -42,37 +42,32 @@
   "recent_30d": {
     "commits": 113,
     "issues_opened": 6,
-    "prs_opened": 46,
-    "prs_merged": 46,
+    "prs_opened": 47,
+    "prs_merged": 47,
     "releases": 12,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7309,
-    "clones_unique": 321,
-    "views_total": 255,
-    "views_unique": 166,
+    "clones_total": 7703,
+    "clones_unique": 322,
+    "views_total": 258,
+    "views_unique": 161,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 211,
-        "uniques": 140
+        "uniques": 134
       },
       {
         "referrer": "search.brave.com",
-        "count": 18,
-        "uniques": 8
+        "count": 19,
+        "uniques": 9
       },
       {
         "referrer": "github.com",
         "count": 6,
         "uniques": 5
-      },
-      {
-        "referrer": "Bing",
-        "count": 1,
-        "uniques": 1
       },
       {
         "referrer": "kagi.com",
@@ -89,20 +84,20 @@
       {
         "path": "/netresearch/skill-repo-skill",
         "title": "Overview",
-        "count": 178,
-        "uniques": 156
+        "count": 172,
+        "uniques": 151
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo",
         "title": "/tree/main/skills/skill-repo",
-        "count": 17,
+        "count": 18,
         "uniques": 16
       },
       {
         "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
         "title": "/blob/main/skills/skill-repo/SKILL.md",
-        "count": 8,
-        "uniques": 8
+        "count": 10,
+        "uniques": 9
       },
       {
         "path": "/netresearch/skill-repo-skill/blob/main/AGENTS.md",
@@ -123,26 +118,26 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/skill-repo-skill/actions/runs/26956173970/workflow",
-        "title": "/actions/runs/26956173970/workflow",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/skill-repo-skill/blob/main/.claude-plugin/plugin.json",
         "title": "/blob/main/.claude-plugin/plugin.json",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
-        "path": "/netresearch/skill-repo-skill/blob/main/.pre-commit-hooks.yaml",
-        "title": "/blob/main/.pre-commit-hooks.yaml",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/evals/evals.json",
+        "title": "/blob/main/skills/skill-repo/evals/evals.json",
+        "count": 3,
+        "uniques": 3
       },
       {
-        "path": "/netresearch/skill-repo-skill/blob/main/Build/hooks/pre-commit",
-        "title": "/blob/main/Build/hooks/pre-commit",
+        "path": "/netresearch/skill-repo-skill/releases",
+        "title": "/releases",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/actions/runs/26956173970/workflow",
+        "title": "/actions/runs/26956173970/workflow",
         "count": 2,
         "uniques": 2
       }
@@ -157,17 +152,17 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 437,
+      "contributions": 440,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 67,
+      "contributions": 68,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 66,
+      "contributions": 67,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -193,7 +188,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/skill-repo-skill/network/dependents"
   },
-  "estimated_downstream_reach": 288,
-  "blast_radius": 288,
+  "estimated_downstream_reach": 290,
+  "blast_radius": 290,
   "archived": false
 }

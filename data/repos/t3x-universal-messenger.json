@@ -51,11 +51,16 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1280,
-    "clones_unique": 116,
-    "views_total": 5,
-    "views_unique": 2,
+    "clones_total": 1281,
+    "clones_unique": 117,
+    "views_total": 11,
+    "views_unique": 4,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 6,
+        "uniques": 2
+      },
       {
         "referrer": "packagist.org",
         "count": 2,
@@ -66,6 +71,12 @@
       {
         "path": "/netresearch/t3x-universal-messenger",
         "title": "Overview",
+        "count": 6,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-universal-messenger/blob/main/LICENSE.md",
+        "title": "/blob/main/LICENSE.md",
         "count": 1,
         "uniques": 1
       },

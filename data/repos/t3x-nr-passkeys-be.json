@@ -39,7 +39,7 @@
     "release_downloads": 55,
     "contributors": 3,
     "external_contributors": 1,
-    "packagist_downloads": 6742,
+    "packagist_downloads": 6751,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -54,15 +54,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3779,
-    "clones_unique": 144,
-    "views_total": 13,
-    "views_unique": 8,
+    "clones_total": 3774,
+    "clones_unique": 139,
+    "views_total": 15,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
         "count": 4,
         "uniques": 2
+      },
+      {
+        "referrer": "docs.typo3.org",
+        "count": 2,
+        "uniques": 1
       },
       {
         "referrer": "netresearch.github.io",
@@ -74,8 +79,8 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be",
         "title": "Overview",
-        "count": 7,
-        "uniques": 5
+        "count": 8,
+        "uniques": 6
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/tree/v0.12.1",
@@ -86,6 +91,12 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be/commits",
         "title": "/commits",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/edit/main/Documentation/Index.rst",
+        "title": "/edit/main/Documentation/Index.rst",
         "count": 1,
         "uniques": 1
       },
@@ -134,9 +145,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 6742,
+    "total": 6751,
     "monthly": 3303,
-    "daily": 50,
+    "daily": 9,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,

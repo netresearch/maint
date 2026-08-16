@@ -39,7 +39,7 @@
     "release_downloads": 47,
     "contributors": 13,
     "external_contributors": 9,
-    "packagist_downloads": 12855,
+    "packagist_downloads": 12857,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -50,37 +50,36 @@
     "prs_opened": 33,
     "prs_merged": 32,
     "releases": 8,
-    "packagist_downloads": 1153,
+    "packagist_downloads": 1154,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2859,
-    "clones_unique": 169,
-    "views_total": 35,
-    "views_unique": 14,
+    "clones_total": 2987,
+    "clones_unique": 180,
+    "views_total": 36,
+    "views_unique": 16,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 22,
-        "uniques": 2
+        "count": 23,
+        "uniques": 3
       },
       {
         "referrer": "extensions.typo3.org",
         "count": 7,
         "uniques": 7
+      },
+      {
+        "referrer": "jira.netresearch.de",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-cowriter",
         "title": "Overview",
-        "count": 9,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 7,
+        "count": 10,
         "uniques": 6
       },
       {
@@ -90,10 +89,22 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-cowriter/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 6,
+        "uniques": 6
+      },
+      {
         "path": "/netresearch/t3x-cowriter/issues",
         "title": "/issues",
         "count": 5,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/pull/134",
+        "title": "/pull/134",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-cowriter/agents",
@@ -122,12 +133,6 @@
       {
         "path": "/netresearch/t3x-cowriter/issues/9",
         "title": "/issues/9",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/pull/134",
-        "title": "/pull/134",
         "count": 1,
         "uniques": 1
       }
@@ -193,9 +198,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 12855,
-    "monthly": 1153,
-    "daily": 34,
+    "total": 12857,
+    "monthly": 1154,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,
