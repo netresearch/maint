@@ -620,11 +620,32 @@ def main():
             repo_state = {"stars": repo_state, "forks": [], "watchers": []}
         # Stars
         known_stars = set(repo_state.get("stars", []))
+        known_star_count = repo_state.get("star_count")
+        star_count_only = repo_state.get("star_count_only", False)
+        current_star_count = repo["stargazers_count"]
         stargazers = get_stargazers(repo_name) if social_readable else None
         if stargazers is not None:
             current_stars = {s["user"]["login"] for s in stargazers}
             if is_suspicious_empty(current_stars, known_stars, "stars", repo_name):
                 stars_to_save = list(known_stars)
+                star_count_to_save = known_star_count
+                star_count_only_to_save = star_count_only
+            elif star_count_only:
+                # The identity list is stale because previous runs only had the
+                # aggregate count. Report only a count delta, then resynchronise
+                # the names without replaying already-reported stars.
+                if known_star_count is not None:
+                    new_star_count = current_star_count - known_star_count
+                    if new_star_count > 0:
+                        if not is_first_run:
+                            star_word = "star" if new_star_count == 1 else "stars"
+                            msg = f"⭐ [{repo['name']}]({repo['url']}) gained {new_star_count} new {star_word} (stargazer identities unavailable for the previous snapshot) ([?](https://github.com/netresearch/maint))"
+                            pending_notifications.append(msg)
+                            print(f"Stars: +{new_star_count} -> {repo_name} (count only)")
+                        total_new["stars"] += new_star_count
+                stars_to_save = list(current_stars)
+                star_count_to_save = current_star_count
+                star_count_only_to_save = False
             else:
                 new_stars = current_stars - known_stars
                 for stargazer in stargazers:
@@ -637,8 +658,31 @@ def main():
                             print(f"Star: {user['login']} -> {repo_name}")
                         total_new["stars"] += 1
                 stars_to_save = list(current_stars)
+                star_count_to_save = current_star_count
+                star_count_only_to_save = False
+        elif social_readable and repo_name in _inaccessible:
+            # The stargazer identities are unavailable, but stargazers_count is
+            # still present in the repository metadata returned by get_org_repos().
+            # An old state without star_count is migrated as a baseline only, so
+            # deploying this fallback does not report historical stars as new.
+            stars_to_save = list(known_stars)
+            if known_star_count is None:
+                star_count_to_save = current_star_count
+            else:
+                new_star_count = current_star_count - known_star_count
+                if new_star_count > 0:
+                    if not is_first_run:
+                        star_word = "star" if new_star_count == 1 else "stars"
+                        msg = f"⭐ [{repo['name']}]({repo['url']}) gained {new_star_count} new {star_word} (stargazer identities unavailable to this token) ([?](https://github.com/netresearch/maint))"
+                        pending_notifications.append(msg)
+                        print(f"Stars: +{new_star_count} -> {repo_name} (count only)")
+                    total_new["stars"] += new_star_count
+                star_count_to_save = current_star_count
+            star_count_only_to_save = True
         else:
             stars_to_save = list(known_stars)
+            star_count_to_save = known_star_count
+            star_count_only_to_save = star_count_only
 
         # Forks
         known_forks = set(repo_state.get("forks", []))
@@ -710,6 +754,8 @@ def main():
             state["repos"] = {}
         state["repos"][repo_name] = {
             "stars": stars_to_save,
+            "star_count": star_count_to_save,
+            "star_count_only": star_count_only_to_save,
             "forks": forks_to_save,
             "watchers": watchers_to_save,
             "dependents": dependents_to_save,
