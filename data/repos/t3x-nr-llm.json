@@ -25,49 +25,49 @@
   "homepage": "https://netresearch.github.io/t3x-nr-llm/",
   "default_branch": "main",
   "created_at": "2025-12-22T23:35:44Z",
-  "pushed_at": "2026-08-14T21:58:00Z",
-  "updated_at": "2026-08-14T09:39:51Z",
+  "pushed_at": "2026-08-16T12:21:19Z",
+  "updated_at": "2026-08-16T11:47:53Z",
   "composer_name": "netresearch/nr-llm",
   "lifetime": {
     "stars": 4,
     "forks": 2,
     "watchers": 1,
     "network": 2,
-    "open_issues_plus_prs": 18,
-    "commits": 2390,
+    "open_issues_plus_prs": 19,
+    "commits": 2397,
     "issues_open": 17,
     "issues_closed": 91,
-    "prs_open": 1,
-    "prs_merged": 632,
+    "prs_open": 2,
+    "prs_merged": 635,
     "prs_closed_unmerged": 32,
     "issues_total": 108,
     "releases": 52,
     "release_downloads": 403,
     "contributors": 6,
     "external_contributors": 2,
-    "packagist_downloads": 15058,
+    "packagist_downloads": 15083,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 851,
-    "issues_opened": 84,
-    "prs_opened": 273,
-    "prs_merged": 262,
-    "releases": 12,
-    "packagist_downloads": 8712,
+    "commits": 809,
+    "issues_opened": 81,
+    "prs_opened": 265,
+    "prs_merged": 249,
+    "releases": 10,
+    "packagist_downloads": 8379,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 29576,
-    "clones_unique": 601,
+    "clones_total": 29275,
+    "clones_unique": 600,
     "views_total": 98,
-    "views_unique": 30,
+    "views_unique": 29,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 44,
+        "count": 45,
         "uniques": 6
       },
       {
@@ -110,7 +110,7 @@
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 32,
+        "count": 33,
         "uniques": 18
       },
       {
@@ -138,12 +138,6 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-nr-llm/blob/main/ext_localconf.php",
-        "title": "/blob/main/ext_localconf.php",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/t3x-nr-llm/issues/568",
         "title": "/issues/568",
         "count": 2,
@@ -166,6 +160,12 @@
         "title": "/releases/tag/v0.29.0",
         "count": 2,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/9e6a7d10082d4bfcd36aab83f3c1ad09cb2174f3/Classes/Service/LlmServiceManager.php",
+        "title": "/blob/9e6a7d10082d4bfcd36aab83f3c1ad09cb2174f3/Classes/Service/LlmServiceManager.php",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -178,7 +178,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 2275,
+      "contributions": 2282,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -209,9 +209,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 15058,
-    "monthly": 8712,
-    "daily": 3,
+    "total": 15083,
+    "monthly": 8379,
+    "daily": 22,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,
@@ -220,7 +220,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-llm/network/dependents"
   },
-  "estimated_downstream_reach": 758,
-  "blast_radius": 758,
+  "estimated_downstream_reach": 761,
+  "blast_radius": 761,
   "archived": false
 }

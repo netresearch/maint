@@ -20,37 +20,37 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 10,
+    "open_issues_plus_prs": 9,
     "commits": 1288,
-    "issues_open": 9,
-    "issues_closed": 11,
+    "issues_open": 8,
+    "issues_closed": 12,
     "prs_open": 1,
     "prs_merged": 277,
     "prs_closed_unmerged": 13,
     "issues_total": 20,
     "releases": 32,
-    "release_downloads": 257,
+    "release_downloads": 258,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 70192,
+    "packagist_downloads": 70538,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 369,
+    "commits": 358,
     "issues_opened": 13,
-    "prs_opened": 96,
-    "prs_merged": 93,
-    "releases": 12,
-    "packagist_downloads": 31823,
+    "prs_opened": 92,
+    "prs_merged": 88,
+    "releases": 10,
+    "packagist_downloads": 30006,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 9610,
-    "clones_unique": 315,
-    "views_total": 14,
-    "views_unique": 9,
+    "clones_total": 7590,
+    "clones_unique": 275,
+    "views_total": 15,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -79,6 +79,12 @@
       {
         "path": "/netresearch/t3x-nr-vault/blob/main/Classes/Command/VaultMigrateFieldCommand.php",
         "title": "/blob/main/Classes/Command/VaultMigrateFieldCommand.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
         "count": 1,
         "uniques": 1
       },
@@ -138,9 +144,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 70192,
-    "monthly": 31823,
-    "daily": 4,
+    "total": 70538,
+    "monthly": 30006,
+    "daily": 296,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,
