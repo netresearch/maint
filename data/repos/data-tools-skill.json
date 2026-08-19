@@ -12,25 +12,25 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:20Z",
-  "pushed_at": "2026-08-15T09:20:39Z",
-  "updated_at": "2026-08-15T09:20:42Z",
+  "pushed_at": "2026-08-18T05:34:18Z",
+  "updated_at": "2026-08-18T05:34:28Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 109,
+    "open_issues_plus_prs": 1,
+    "commits": 111,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 36,
+    "prs_open": 0,
+    "prs_merged": 37,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 16,
     "release_downloads": 44,
-    "contributors": 3,
+    "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -38,19 +38,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 29,
+    "commits": 31,
     "issues_opened": 0,
     "prs_opened": 14,
-    "prs_merged": 13,
+    "prs_merged": 14,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 937,
-    "clones_unique": 188,
-    "views_total": 15,
-    "views_unique": 3,
+    "clones_total": 829,
+    "clones_unique": 177,
+    "views_total": 20,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "DuckDuckGo",
@@ -61,14 +61,19 @@
         "referrer": "github.com",
         "count": 5,
         "uniques": 2
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/data-tools-skill",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/data-tools-skill/blob/main/skills/data-tools/SKILL.md",
@@ -89,6 +94,30 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/data-tools-skill/actions/runs/27610476854",
+        "title": "/actions/runs/27610476854",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/data-tools-skill/actions/runs/27610477857",
+        "title": "/actions/runs/27610477857",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/data-tools-skill/actions/runs/27610749733",
+        "title": "/actions/runs/27610749733",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/data-tools-skill/actions/workflows/harness-verify.yml",
+        "title": "/actions/workflows/harness-verify.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/data-tools-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
         "count": 1,
@@ -97,30 +126,6 @@
       {
         "path": "/netresearch/data-tools-skill/blob/main/composer.json",
         "title": "/blob/main/composer.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/data-tools-skill/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/data-tools-skill/blob/main/skills/data-tools/references/csv-processing.md",
-        "title": "/blob/main/skills/data-tools/references/csv-processing.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/data-tools-skill/tree/main",
-        "title": "/tree/main",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/data-tools-skill/tree/main/docs",
-        "title": "/tree/main/docs",
         "count": 1,
         "uniques": 1
       }
@@ -135,13 +140,18 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 106,
+      "contributions": 107,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
       "contributions": 2,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "aseemann",
+      "contributions": 1,
+      "url": "https://github.com/aseemann"
     },
     {
       "login": "github-actions[bot]",
@@ -156,7 +166,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/data-tools-skill/network/dependents"
   },
-  "estimated_downstream_reach": 37,
-  "blast_radius": 37,
+  "estimated_downstream_reach": 38,
+  "blast_radius": 38,
   "archived": false
 }

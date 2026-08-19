@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-06T00:27:24Z",
-  "pushed_at": "2026-08-08T07:55:10Z",
-  "updated_at": "2026-08-08T07:55:16Z",
+  "pushed_at": "2026-08-18T05:47:46Z",
+  "updated_at": "2026-08-18T05:47:52Z",
   "composer_name": null,
   "lifetime": {
     "stars": 9,
@@ -23,14 +23,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 162,
+    "commits": 164,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 45,
+    "prs_merged": 46,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
-    "releases": 31,
+    "releases": 32,
     "release_downloads": 101,
     "contributors": 4,
     "external_contributors": 0,
@@ -40,37 +40,37 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 16,
+    "commits": 18,
     "issues_opened": 0,
-    "prs_opened": 8,
-    "prs_merged": 8,
-    "releases": 2,
+    "prs_opened": 9,
+    "prs_merged": 9,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1188,
-    "clones_unique": 208,
-    "views_total": 60,
-    "views_unique": 32,
+    "clones_total": 1077,
+    "clones_unique": 196,
+    "views_total": 71,
+    "views_unique": 31,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 18,
-        "uniques": 13
+        "count": 37,
+        "uniques": 14
       },
       {
         "referrer": "github.com",
-        "count": 12,
-        "uniques": 4
-      },
-      {
-        "referrer": "statics.teams.cdn.office.net",
-        "count": 3,
-        "uniques": 1
+        "count": 5,
+        "uniques": 2
       },
       {
         "referrer": "netresearch.github.io",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "statics.teams.cdn.office.net",
         "count": 2,
         "uniques": 1
       }
@@ -79,8 +79,8 @@
       {
         "path": "/netresearch/typo3-extension-upgrade-skill",
         "title": "Overview",
-        "count": 24,
-        "uniques": 12
+        "count": 23,
+        "uniques": 11
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/references/upgrade-v13-to-v14.md",
@@ -95,14 +95,26 @@
         "uniques": 7
       },
       {
+        "path": "/netresearch/typo3-extension-upgrade-skill/commits/main",
+        "title": "/commits/main",
+        "count": 3,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/typo3-extension-upgrade-skill/tree/main",
         "title": "/tree/main",
-        "count": 4,
-        "uniques": 3
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/composer.json",
         "title": "/blob/main/composer.json",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/Build",
+        "title": "/tree/main/Build",
         "count": 2,
         "uniques": 1
       },
@@ -123,31 +135,19 @@
         "title": "/actions/workflows/agents/copilot-pull-request-reviewer",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/references/dual-compatibility.md",
-        "title": "/blob/main/skills/typo3-extension-upgrade/references/dual-compatibility.md",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v3.11.0",
-    "tag_name": "v3.11.0",
-    "published_at": "2026-08-08T07:58:46Z",
-    "url": "https://github.com/netresearch/typo3-extension-upgrade-skill/releases/tag/v3.11.0"
+    "name": "v3.11.1",
+    "tag_name": "v3.11.1",
+    "published_at": "2026-08-18T05:49:31Z",
+    "url": "https://github.com/netresearch/typo3-extension-upgrade-skill/releases/tag/v3.11.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 154,
+      "contributions": 156,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -173,7 +173,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-extension-upgrade-skill/network/dependents"
   },
-  "estimated_downstream_reach": 46,
-  "blast_radius": 46,
+  "estimated_downstream_reach": 47,
+  "blast_radius": 47,
   "archived": false
 }

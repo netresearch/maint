@@ -32,14 +32,14 @@
     "forks": 13,
     "watchers": 2,
     "network": 13,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 317,
-    "issues_open": 1,
+    "issues_open": 2,
     "issues_closed": 7,
     "prs_open": 0,
     "prs_merged": 64,
     "prs_closed_unmerged": 23,
-    "issues_total": 8,
+    "issues_total": 9,
     "releases": 3,
     "release_downloads": 0,
     "contributors": 9,
@@ -51,7 +51,7 @@
   },
   "recent_30d": {
     "commits": 18,
-    "issues_opened": 0,
+    "issues_opened": 1,
     "prs_opened": 10,
     "prs_merged": 9,
     "releases": 0,
@@ -59,20 +59,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 836,
-    "clones_unique": 381,
-    "views_total": 508,
-    "views_unique": 278,
+    "clones_total": 833,
+    "clones_unique": 389,
+    "views_total": 481,
+    "views_unique": 270,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 212,
-        "uniques": 151
+        "count": 187,
+        "uniques": 135
       },
       {
         "referrer": "github.com",
-        "count": 51,
-        "uniques": 39
+        "count": 54,
+        "uniques": 40
       },
       {
         "referrer": "chatgpt.com",
@@ -98,20 +98,25 @@
         "referrer": "gpt.aimonkey.plus",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "netresearch.github.io",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 307,
-        "uniques": 259
+        "count": 304,
+        "uniques": 253
       },
       {
         "path": "/netresearch/claude-code-marketplace/discussions",
         "title": "/discussions",
-        "count": 45,
-        "uniques": 3
+        "count": 46,
+        "uniques": 4
       },
       {
         "path": "/netresearch/claude-code-marketplace/issues",
@@ -122,25 +127,25 @@
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 15,
-        "uniques": 12
+        "count": 12,
+        "uniques": 9
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/site",
         "title": "/tree/main/site",
-        "count": 12,
-        "uniques": 10
+        "count": 10,
+        "uniques": 8
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
         "title": "/blob/main/.claude-plugin/marketplace.json",
-        "count": 11,
-        "uniques": 9
+        "count": 9,
+        "uniques": 7
       },
       {
-        "path": "/netresearch/claude-code-marketplace/tree/main/skills/php-modernization",
-        "title": "/tree/main/skills/php-modernization",
-        "count": 8,
+        "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 7,
         "uniques": 6
       },
       {
@@ -150,16 +155,16 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/claude-code-marketplace/tree/main/skills",
-        "title": "/tree/main/skills",
-        "count": 7,
+        "path": "/netresearch/claude-code-marketplace/tree/main/skills/php-modernization",
+        "title": "/tree/main/skills/php-modernization",
+        "count": 6,
         "uniques": 5
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main",
         "title": "/tree/main",
-        "count": 5,
-        "uniques": 5
+        "count": 4,
+        "uniques": 4
       }
     ]
   },
@@ -223,7 +228,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
   },
-  "estimated_downstream_reach": 110,
-  "blast_radius": 110,
+  "estimated_downstream_reach": 111,
+  "blast_radius": 111,
   "archived": false
 }

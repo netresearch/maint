@@ -25,59 +25,59 @@
   "homepage": "https://netresearch.github.io/t3x-nr-llm/",
   "default_branch": "main",
   "created_at": "2025-12-22T23:35:44Z",
-  "pushed_at": "2026-08-17T12:43:11Z",
-  "updated_at": "2026-08-17T12:44:16Z",
+  "pushed_at": "2026-08-18T21:47:25Z",
+  "updated_at": "2026-08-18T21:49:18Z",
   "composer_name": "netresearch/nr-llm",
   "lifetime": {
     "stars": 4,
     "forks": 2,
     "watchers": 1,
     "network": 2,
-    "open_issues_plus_prs": 18,
-    "commits": 2406,
-    "issues_open": 17,
-    "issues_closed": 91,
-    "prs_open": 1,
-    "prs_merged": 637,
+    "open_issues_plus_prs": 10,
+    "commits": 2443,
+    "issues_open": 8,
+    "issues_closed": 105,
+    "prs_open": 2,
+    "prs_merged": 652,
     "prs_closed_unmerged": 32,
-    "issues_total": 108,
-    "releases": 52,
+    "issues_total": 113,
+    "releases": 53,
     "release_downloads": 403,
     "contributors": 6,
     "external_contributors": 2,
-    "packagist_downloads": 15211,
+    "packagist_downloads": 16132,
     "ghcr_downloads": 0,
-    "dependents_repos": 4,
+    "dependents_repos": 5,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 740,
-    "issues_opened": 81,
-    "prs_opened": 241,
-    "prs_merged": 230,
-    "releases": 10,
-    "packagist_downloads": 8159,
+    "commits": 750,
+    "issues_opened": 86,
+    "prs_opened": 245,
+    "prs_merged": 227,
+    "releases": 11,
+    "packagist_downloads": 8723,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 29275,
-    "clones_unique": 600,
-    "views_total": 98,
-    "views_unique": 29,
+    "clones_total": 29283,
+    "clones_unique": 603,
+    "views_total": 84,
+    "views_unique": 24,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 45,
-        "uniques": 6
-      },
-      {
-        "referrer": "Google",
-        "count": 11,
-        "uniques": 4
+        "count": 44,
+        "uniques": 5
       },
       {
         "referrer": "extensions.typo3.org",
         "count": 9,
+        "uniques": 3
+      },
+      {
+        "referrer": "Google",
+        "count": 3,
         "uniques": 3
       },
       {
@@ -91,17 +91,7 @@
         "uniques": 1
       },
       {
-        "referrer": "docs.typo3.org",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "referrer": "jira.netresearch.de",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "search.brave.com",
         "count": 1,
         "uniques": 1
       }
@@ -110,8 +100,8 @@
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 33,
-        "uniques": 18
+        "count": 27,
+        "uniques": 13
       },
       {
         "path": "/netresearch/t3x-nr-llm/issues",
@@ -170,20 +160,20 @@
     ]
   },
   "latest_release": {
-    "name": "v0.29.1",
-    "tag_name": "v0.29.1",
-    "published_at": "2026-08-13T07:24:16Z",
-    "url": "https://github.com/netresearch/t3x-nr-llm/releases/tag/v0.29.1"
+    "name": "v0.30.0",
+    "tag_name": "v0.30.0",
+    "published_at": "2026-08-18T21:48:45Z",
+    "url": "https://github.com/netresearch/t3x-nr-llm/releases/tag/v0.30.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 2291,
+      "contributions": 2327,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 47,
+      "contributions": 48,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -209,18 +199,18 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 15211,
-    "monthly": 8159,
-    "daily": 113,
+    "total": 16132,
+    "monthly": 8723,
+    "daily": 786,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,
   "dependents": {
-    "repositories": 4,
+    "repositories": 5,
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-llm/network/dependents"
   },
-  "estimated_downstream_reach": 763,
-  "blast_radius": 763,
+  "estimated_downstream_reach": 785,
+  "blast_radius": 785,
   "archived": false
 }
