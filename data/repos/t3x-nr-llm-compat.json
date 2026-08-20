@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-08-18T16:10:14Z",
-  "pushed_at": "2026-08-18T22:29:31Z",
-  "updated_at": "2026-08-18T22:29:52Z",
+  "pushed_at": "2026-08-19T07:17:02Z",
+  "updated_at": "2026-08-19T07:17:50Z",
   "composer_name": "netresearch/nr-llm-compat",
   "lifetime": {
     "stars": 0,
@@ -19,29 +19,29 @@
     "watchers": 0,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 29,
+    "commits": 33,
     "issues_open": 1,
-    "issues_closed": 1,
+    "issues_closed": 2,
     "prs_open": 1,
-    "prs_merged": 11,
+    "prs_merged": 13,
     "prs_closed_unmerged": 2,
-    "issues_total": 2,
+    "issues_total": 3,
     "releases": 1,
     "release_downloads": 0,
     "contributors": 2,
     "external_contributors": 0,
-    "packagist_downloads": 0,
+    "packagist_downloads": 49,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 29,
-    "issues_opened": 2,
-    "prs_opened": 14,
-    "prs_merged": 11,
+    "commits": 33,
+    "issues_opened": 3,
+    "prs_opened": 16,
+    "prs_merged": 13,
     "releases": 1,
-    "packagist_downloads": 0,
+    "packagist_downloads": 49,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
@@ -61,7 +61,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 28,
+      "contributions": 32,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -70,14 +70,20 @@
       "url": "https://github.com/apps/renovate"
     }
   ],
-  "packagist": null,
+  "packagist": {
+    "name": "netresearch/nr-llm-compat",
+    "total": 49,
+    "monthly": 49,
+    "daily": 42,
+    "url": "https://packagist.org/packages/netresearch/nr-llm-compat"
+  },
   "ghcr": null,
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-llm-compat/network/dependents"
   },
-  "estimated_downstream_reach": 13,
-  "blast_radius": 13,
+  "estimated_downstream_reach": 16,
+  "blast_radius": 16,
   "archived": false
 }
