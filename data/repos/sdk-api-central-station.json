@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 811,
+    "packagist_downloads": 816,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,21 +43,33 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 74,
+    "packagist_downloads": 77,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 184,
+    "clones_total": 178,
     "clones_unique": 24,
-    "views_total": 6,
-    "views_unique": 4,
-    "top_referrers": [],
+    "views_total": 8,
+    "views_unique": 5,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/sdk-api-central-station",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/sdk-api-central-station/blob/main/doc/People.md",
+        "title": "/blob/main/doc/People.md",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/sdk-api-central-station/blob/main/README.md",
@@ -68,12 +80,6 @@
       {
         "path": "/netresearch/sdk-api-central-station/blob/main/doc/Endpoints.md",
         "title": "/blob/main/doc/Endpoints.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/sdk-api-central-station/blob/main/doc/People.md",
-        "title": "/blob/main/doc/People.md",
         "count": 1,
         "uniques": 1
       },
@@ -121,9 +127,9 @@
   ],
   "packagist": {
     "name": "netresearch/sdk-api-central-station",
-    "total": 811,
-    "monthly": 74,
-    "daily": 1,
+    "total": 816,
+    "monthly": 77,
+    "daily": 4,
     "url": "https://packagist.org/packages/netresearch/sdk-api-central-station"
   },
   "ghcr": null,

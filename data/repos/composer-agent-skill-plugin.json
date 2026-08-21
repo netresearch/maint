@@ -20,10 +20,10 @@
   "default_branch": "main",
   "created_at": "2025-11-25T08:00:19Z",
   "pushed_at": "2026-08-02T18:40:23Z",
-  "updated_at": "2026-08-02T18:40:34Z",
+  "updated_at": "2026-08-20T18:53:36Z",
   "composer_name": "netresearch/composer-agent-skill-plugin",
   "lifetime": {
-    "stars": 9,
+    "stars": 10,
     "forks": 0,
     "watchers": 1,
     "network": 0,
@@ -39,7 +39,7 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 4678,
+    "packagist_downloads": 4718,
     "ghcr_downloads": 0,
     "dependents_repos": 47,
     "dependents_packages": 0
@@ -50,42 +50,32 @@
     "prs_opened": 6,
     "prs_merged": 6,
     "releases": 0,
-    "packagist_downloads": 1776,
+    "packagist_downloads": 1800,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 52,
-    "clones_unique": 33,
-    "views_total": 37,
-    "views_unique": 17,
+    "clones_total": 46,
+    "clones_unique": 31,
+    "views_total": 42,
+    "views_unique": 23,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 5,
-        "uniques": 4
+        "count": 7,
+        "uniques": 6
       },
       {
         "referrer": "github.com",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "referrer": "avohq.io",
-        "count": 3,
-        "uniques": 1
-      },
-      {
-        "referrer": "esgza53kzn2t.sg.larksuite.com",
-        "count": 1,
-        "uniques": 1
+        "count": 6,
+        "uniques": 6
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 22,
-        "uniques": 14
+        "count": 26,
+        "uniques": 20
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/README.md",
@@ -112,6 +102,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/composer-agent-skill-plugin/blob/main/docs/adr/001-universal-discovery.md",
+        "title": "/blob/main/docs/adr/001-universal-discovery.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/examples/database-analyzer-skill/README.md",
         "title": "/blob/main/examples/database-analyzer-skill/README.md",
         "count": 1,
@@ -132,12 +128,6 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/src/Commands/CommandContextTrait.php",
         "title": "/blob/main/src/Commands/CommandContextTrait.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/src/Util/ComposerJsonDirectSkillsWriter.php",
-        "title": "/blob/main/src/Util/ComposerJsonDirectSkillsWriter.php",
         "count": 1,
         "uniques": 1
       }
@@ -178,9 +168,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 4678,
-    "monthly": 1776,
-    "daily": 82,
+    "total": 4718,
+    "monthly": 1800,
+    "daily": 35,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,

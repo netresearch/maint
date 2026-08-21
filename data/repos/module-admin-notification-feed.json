@@ -37,7 +37,7 @@
     "release_downloads": 0,
     "contributors": 2,
     "external_contributors": 2,
-    "packagist_downloads": 158229,
+    "packagist_downloads": 158385,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -48,21 +48,33 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 4986,
+    "packagist_downloads": 4895,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 18,
-    "clones_unique": 16,
-    "views_total": 2,
-    "views_unique": 2,
-    "top_referrers": [],
+    "clones_total": 17,
+    "clones_unique": 14,
+    "views_total": 3,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/module-admin-notification-feed/issues",
         "title": "/issues",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/module-admin-notification-feed",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -86,9 +98,9 @@
   ],
   "packagist": {
     "name": "netresearch/module-admin-notification-feed",
-    "total": 158229,
-    "monthly": 4986,
-    "daily": 191,
+    "total": 158385,
+    "monthly": 4895,
+    "daily": 137,
     "url": "https://packagist.org/packages/netresearch/module-admin-notification-feed"
   },
   "ghcr": null,

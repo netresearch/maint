@@ -51,17 +51,29 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 19,
+    "clones_total": 20,
     "clones_unique": 17,
     "views_total": 4,
     "views_unique": 4,
-    "top_referrers": [],
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/module-shipping-ui/issues/5",
         "title": "/issues/5",
-        "count": 4,
-        "uniques": 4
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/module-shipping-ui/issues/7",
+        "title": "/issues/7",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },

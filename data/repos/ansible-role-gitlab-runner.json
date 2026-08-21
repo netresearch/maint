@@ -39,24 +39,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 8,
+    "commits": 6,
     "issues_opened": 0,
-    "prs_opened": 6,
+    "prs_opened": 4,
     "prs_merged": 4,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 16,
-    "clones_unique": 11,
-    "views_total": 16,
-    "views_unique": 7,
+    "clones_total": 21,
+    "clones_unique": 14,
+    "views_total": 27,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 8,
-        "uniques": 3
+        "count": 19,
+        "uniques": 4
       },
       {
         "referrer": "Bing",
@@ -73,14 +73,26 @@
       {
         "path": "/netresearch/ansible-role-gitlab-runner",
         "title": "Overview",
-        "count": 6,
-        "uniques": 6
+        "count": 7,
+        "uniques": 7
       },
       {
         "path": "/netresearch/ansible-role-gitlab-runner/blob/main/tasks/registration.yml",
         "title": "/blob/main/tasks/registration.yml",
         "count": 4,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/tree/main",
+        "title": "/tree/main",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/tree/main/.ansible/roles",
+        "title": "/tree/main/.ansible/roles",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/ansible-role-gitlab-runner/tree/main/tasks",
@@ -107,8 +119,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/ansible-role-gitlab-runner/tree/main/.ansible/roles",
-        "title": "/tree/main/.ansible/roles",
+        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/vars/Debian.yml",
+        "title": "/blob/main/vars/Debian.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/vars/Ubuntu.yml",
+        "title": "/blob/main/vars/Ubuntu.yml",
         "count": 1,
         "uniques": 1
       }

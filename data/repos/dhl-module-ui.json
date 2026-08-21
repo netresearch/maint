@@ -45,11 +45,17 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6,
-    "clones_unique": 6,
-    "views_total": 10,
-    "views_unique": 10,
-    "top_referrers": [],
+    "clones_total": 9,
+    "clones_unique": 8,
+    "views_total": 11,
+    "views_unique": 11,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-module-ui/issues/6",
@@ -62,6 +68,12 @@
         "title": "/issues/9",
         "count": 5,
         "uniques": 5
+      },
+      {
+        "path": "/netresearch/dhl-module-ui/issues/3",
+        "title": "/issues/3",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },

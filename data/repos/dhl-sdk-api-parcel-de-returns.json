@@ -40,7 +40,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 2,
-    "packagist_downloads": 73030,
+    "packagist_downloads": 73228,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
@@ -51,21 +51,27 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5016,
+    "packagist_downloads": 4950,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 27,
-    "clones_unique": 23,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 31,
+    "clones_unique": 27,
+    "views_total": 2,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de-returns",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
@@ -94,9 +100,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-parcel-de-returns",
-    "total": 73030,
-    "monthly": 5016,
-    "daily": 202,
+    "total": 73228,
+    "monthly": 4950,
+    "daily": 174,
     "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de-returns"
   },
   "ghcr": null,
