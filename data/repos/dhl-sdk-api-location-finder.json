@@ -54,11 +54,17 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 8,
-    "clones_unique": 7,
-    "views_total": 6,
-    "views_unique": 6,
-    "top_referrers": [],
+    "clones_total": 17,
+    "clones_unique": 9,
+    "views_total": 8,
+    "views_unique": 8,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-location-finder/find/master",
@@ -69,6 +75,12 @@
       {
         "path": "/netresearch/dhl-sdk-api-location-finder",
         "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-location-finder/issues/1",
+        "title": "/issues/1",
         "count": 1,
         "uniques": 1
       }

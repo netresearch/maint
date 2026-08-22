@@ -36,19 +36,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 4,
+    "commits": 2,
     "issues_opened": 0,
-    "prs_opened": 2,
-    "prs_merged": 2,
+    "prs_opened": 1,
+    "prs_merged": 1,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 697
+    "ghcr_downloads": 619
   },
   "traffic_14d": {
-    "clones_total": 19,
-    "clones_unique": 14,
-    "views_total": 29,
-    "views_unique": 1,
+    "clones_total": 25,
+    "clones_unique": 18,
+    "views_total": 30,
+    "views_unique": 2,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -60,6 +60,12 @@
       {
         "path": "/netresearch/ansible_role_client_base",
         "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_client_base/actions/workflows/ghcr.yml",
+        "title": "/actions/workflows/ghcr.yml",
         "count": 1,
         "uniques": 1
       },
@@ -110,12 +116,6 @@
         "title": "/blob/main/meta/main.yml",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible_role_client_base/blob/main/molecule/default/converge.yml",
-        "title": "/blob/main/molecule/default/converge.yml",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -149,11 +149,11 @@
         "package": "ansible_role_client_base",
         "url": "https://github.com/netresearch/ansible_role_client_base/pkgs/container/ansible_role_client_base",
         "total": 2510,
-        "thirty_day": 697
+        "thirty_day": 619
       }
     ],
     "total": 2510,
-    "thirty_day": 697
+    "thirty_day": 619
   },
   "dependents": {
     "repositories": 0,

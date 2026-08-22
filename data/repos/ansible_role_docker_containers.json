@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-21T13:01:02Z",
-  "pushed_at": "2026-08-02T11:51:43Z",
-  "updated_at": "2026-08-02T11:51:57Z",
+  "pushed_at": "2026-08-21T22:01:54Z",
+  "updated_at": "2026-08-21T21:52:22Z",
   "composer_name": null,
   "lifetime": {
     "stars": 3,
@@ -23,14 +23,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 67,
+    "commits": 70,
     "issues_open": 1,
-    "issues_closed": 0,
+    "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 27,
+    "prs_merged": 28,
     "prs_closed_unmerged": 2,
-    "issues_total": 1,
-    "releases": 16,
+    "issues_total": 3,
+    "releases": 17,
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 2,
@@ -40,17 +40,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 6,
-    "issues_opened": 0,
-    "prs_opened": 4,
-    "prs_merged": 4,
-    "releases": 0,
+    "commits": 5,
+    "issues_opened": 2,
+    "prs_opened": 2,
+    "prs_merged": 2,
+    "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 87,
-    "clones_unique": 25,
+    "clones_total": 96,
+    "clones_unique": 26,
     "views_total": 1,
     "views_unique": 1,
     "top_referrers": [
@@ -70,10 +70,10 @@
     ]
   },
   "latest_release": {
-    "name": "v1.7.0",
-    "tag_name": "v1.7.0",
-    "published_at": "2026-06-30T06:36:02Z",
-    "url": "https://github.com/netresearch/ansible_role_docker_containers/releases/tag/v1.7.0"
+    "name": "v1.8.0",
+    "tag_name": "v1.8.0",
+    "published_at": "2026-08-21T22:02:11Z",
+    "url": "https://github.com/netresearch/ansible_role_docker_containers/releases/tag/v1.8.0"
   },
   "top_contributors": [
     {
@@ -87,14 +87,14 @@
       "url": "https://github.com/TheDevMinerTV"
     },
     {
+      "login": "tripleawwy",
+      "contributions": 11,
+      "url": "https://github.com/tripleawwy"
+    },
+    {
       "login": "renovate[bot]",
       "contributions": 8,
       "url": "https://github.com/apps/renovate"
-    },
-    {
-      "login": "tripleawwy",
-      "contributions": 8,
-      "url": "https://github.com/tripleawwy"
     },
     {
       "login": "dependabot[bot]",
@@ -109,7 +109,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/ansible_role_docker_containers/network/dependents"
   },
-  "estimated_downstream_reach": 34,
-  "blast_radius": 34,
+  "estimated_downstream_reach": 37,
+  "blast_radius": 37,
   "archived": false
 }

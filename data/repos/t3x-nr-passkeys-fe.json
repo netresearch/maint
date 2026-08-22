@@ -30,27 +30,52 @@
     "release_downloads": 19,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 1342,
+    "packagist_downloads": 1408,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 65,
+    "commits": 61,
     "issues_opened": 2,
-    "prs_opened": 28,
-    "prs_merged": 26,
-    "releases": 5,
-    "packagist_downloads": 1193,
+    "prs_opened": 26,
+    "prs_merged": 23,
+    "releases": 3,
+    "packagist_downloads": 1144,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 879,
-    "clones_unique": 82,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 870,
+    "clones_unique": 76,
+    "views_total": 3,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 3,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/issues",
+        "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/issues/11",
+        "title": "/issues/11",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v0.6.0",
@@ -77,9 +102,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-fe",
-    "total": 1342,
-    "monthly": 1193,
-    "daily": 106,
+    "total": 1408,
+    "monthly": 1144,
+    "daily": 56,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-fe"
   },
   "ghcr": null,
