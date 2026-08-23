@@ -22,8 +22,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-21T10:05:16Z",
-  "pushed_at": "2026-08-21T13:39:01Z",
-  "updated_at": "2026-08-21T13:39:32Z",
+  "pushed_at": "2026-08-22T15:00:54Z",
+  "updated_at": "2026-08-22T15:01:13Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
@@ -31,14 +31,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 0,
-    "commits": 227,
+    "commits": 229,
     "issues_open": 0,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 51,
+    "prs_merged": 52,
     "prs_closed_unmerged": 3,
     "issues_total": 0,
-    "releases": 34,
+    "releases": 35,
     "release_downloads": 93,
     "contributors": 2,
     "external_contributors": 0,
@@ -48,23 +48,23 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 16,
+    "commits": 18,
     "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 7,
-    "releases": 1,
+    "prs_opened": 8,
+    "prs_merged": 8,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 799,
-    "clones_unique": 172,
-    "views_total": 27,
+    "clones_total": 795,
+    "clones_unique": 174,
+    "views_total": 21,
     "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 21,
+        "count": 15,
         "uniques": 5
       },
       {
@@ -103,30 +103,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/.claude-plugin/plugin.json",
-        "title": "/blob/main/.claude-plugin/plugin.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/.pre-commit-config.yaml",
-        "title": "/blob/main/.pre-commit-config.yaml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/SECURITY-AUDIT.md",
-        "title": "/blob/main/SECURITY-AUDIT.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/scripts/verify-harness.sh",
-        "title": "/blob/main/scripts/verify-harness.sh",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/assets/templates/commands/install-v14",
         "title": "/blob/main/skills/typo3-ddev/assets/templates/commands/install-v14",
         "count": 1,
@@ -143,19 +119,37 @@
         "title": "/issues",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/tree/main",
+        "title": "/tree/main",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/tree/main/skills/typo3-ddev/assets/templates",
+        "title": "/tree/main/skills/typo3-ddev/assets/templates",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/tree/main/skills/typo3-ddev/assets/templates/commands",
+        "title": "/tree/main/skills/typo3-ddev/assets/templates/commands",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.22.0",
-    "tag_name": "v1.22.0",
-    "published_at": "2026-08-08T07:55:32Z",
-    "url": "https://github.com/netresearch/typo3-ddev-skill/releases/tag/v1.22.0"
+    "name": "v1.22.1",
+    "tag_name": "v1.22.1",
+    "published_at": "2026-08-22T15:01:27Z",
+    "url": "https://github.com/netresearch/typo3-ddev-skill/releases/tag/v1.22.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 224,
+      "contributions": 226,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -171,7 +165,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-ddev-skill/network/dependents"
   },
-  "estimated_downstream_reach": 51,
-  "blast_radius": 51,
+  "estimated_downstream_reach": 52,
+  "blast_radius": 52,
   "archived": false
 }

@@ -13,8 +13,8 @@
   "homepage": "http://forge.typo3.org/projects/extension-contexts",
   "default_branch": "main",
   "created_at": "2013-04-12T08:21:51Z",
-  "pushed_at": "2026-08-19T06:45:29Z",
-  "updated_at": "2026-08-19T06:27:05Z",
+  "pushed_at": "2026-08-22T09:27:57Z",
+  "updated_at": "2026-08-22T09:28:07Z",
   "composer_name": "netresearch/contexts-wurfl",
   "lifetime": {
     "stars": 1,
@@ -22,11 +22,11 @@
     "watchers": 10,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 208,
+    "commits": 210,
     "issues_open": 0,
     "issues_closed": 3,
     "prs_open": 1,
-    "prs_merged": 41,
+    "prs_merged": 42,
     "prs_closed_unmerged": 10,
     "issues_total": 3,
     "releases": 2,
@@ -39,19 +39,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 37,
+    "commits": 39,
     "issues_opened": 2,
-    "prs_opened": 19,
-    "prs_merged": 16,
+    "prs_opened": 20,
+    "prs_merged": 17,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 481,
-    "clones_unique": 25,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 350,
+    "clones_unique": 28,
+    "views_total": 3,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -63,6 +63,12 @@
       {
         "path": "/netresearch/t3x-contexts_wurfl/blob/main/ext_emconf.php",
         "title": "/blob/main/ext_emconf.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts_wurfl/blob/main/ext_localconf.php",
+        "title": "/blob/main/ext_localconf.php",
         "count": 1,
         "uniques": 1
       },
@@ -83,7 +89,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 118,
+      "contributions": 120,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -119,7 +125,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts_wurfl/network/dependents"
   },
-  "estimated_downstream_reach": 51,
-  "blast_radius": 51,
+  "estimated_downstream_reach": 52,
+  "blast_radius": 52,
   "archived": false
 }

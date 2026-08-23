@@ -36,30 +36,84 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 18,
+    "commits": 12,
     "issues_opened": 0,
-    "prs_opened": 9,
-    "prs_merged": 8,
+    "prs_opened": 7,
+    "prs_merged": 6,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 236,
-    "clones_unique": 45,
-    "views_total": 4,
-    "views_unique": 2,
-    "top_referrers": [],
+    "clones_total": 218,
+    "clones_unique": 37,
+    "views_total": 13,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 9,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/peer-qa-review-skill",
         "title": "Overview",
-        "count": 3,
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/peer-qa-review-skill/blob/main/.github/workflows/release.yml",
+        "title": "/blob/main/.github/workflows/release.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/peer-qa-review-skill/blob/main/skills/peer-qa-review/SKILL.md",
+        "title": "/blob/main/skills/peer-qa-review/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/peer-qa-review-skill/blob/main/skills/peer-qa-review/scripts/qa-gather.sh",
+        "title": "/blob/main/skills/peer-qa-review/scripts/qa-gather.sh",
+        "count": 1,
         "uniques": 1
       },
       {
         "path": "/netresearch/peer-qa-review-skill/issues/31",
         "title": "/issues/31",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/peer-qa-review-skill/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/peer-qa-review-skill/tree/main/.github/workflows",
+        "title": "/tree/main/.github/workflows",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/peer-qa-review-skill/tree/main/skills/peer-qa-review",
+        "title": "/tree/main/skills/peer-qa-review",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/peer-qa-review-skill/tree/main/skills/peer-qa-review/references",
+        "title": "/tree/main/skills/peer-qa-review/references",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/peer-qa-review-skill/tree/main/skills/peer-qa-review/scripts",
+        "title": "/tree/main/skills/peer-qa-review/scripts",
         "count": 1,
         "uniques": 1
       }
