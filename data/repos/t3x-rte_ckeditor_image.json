@@ -38,7 +38,7 @@
     "release_downloads": 177,
     "contributors": 49,
     "external_contributors": 42,
-    "packagist_downloads": 1092708,
+    "packagist_downloads": 1093142,
     "ghcr_downloads": 0,
     "dependents_repos": 46,
     "dependents_packages": 3
@@ -46,22 +46,22 @@
   "recent_30d": {
     "commits": 46,
     "issues_opened": 5,
-    "prs_opened": 27,
+    "prs_opened": 26,
     "prs_merged": 21,
     "releases": 1,
-    "packagist_downloads": 23813,
+    "packagist_downloads": 23955,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3645,
-    "clones_unique": 157,
-    "views_total": 204,
-    "views_unique": 73,
+    "clones_total": 3748,
+    "clones_unique": 168,
+    "views_total": 206,
+    "views_unique": 74,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 66,
-        "uniques": 10
+        "count": 67,
+        "uniques": 11
       },
       {
         "referrer": "extensions.typo3.org",
@@ -115,12 +115,6 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/CHANGELOG.md",
-        "title": "/blob/main/CHANGELOG.md",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues/160",
         "title": "/issues/160",
         "count": 4,
@@ -149,6 +143,12 @@
         "title": "/tree/main/Configuration",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/Resources/Private/Templates/Image/Standalone.html",
+        "title": "/blob/main/Resources/Private/Templates/Image/Standalone.html",
+        "count": 4,
+        "uniques": 1
       }
     ]
   },
@@ -212,9 +212,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1092708,
-    "monthly": 23813,
-    "daily": 335,
+    "total": 1093142,
+    "monthly": 23955,
+    "daily": 440,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,

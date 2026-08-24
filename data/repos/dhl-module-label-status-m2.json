@@ -41,16 +41,29 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 2,
+    "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 11,
-    "clones_unique": 10,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 9,
+    "clones_unique": 8,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/dhl-module-label-status-m2",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.1.0",
@@ -103,7 +116,7 @@
   "packagist": {
     "name": "dhl/module-label-status",
     "total": 22123,
-    "monthly": 2,
+    "monthly": 0,
     "daily": 0,
     "url": "https://packagist.org/packages/dhl/module-label-status"
   },
