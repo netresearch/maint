@@ -24,47 +24,54 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-09-29T09:01:16Z",
-  "pushed_at": "2026-08-24T20:12:18Z",
-  "updated_at": "2026-08-24T08:11:40Z",
+  "pushed_at": "2026-08-25T20:39:51Z",
+  "updated_at": "2026-08-25T08:36:31Z",
   "composer_name": "netresearch/nr-textdb",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 4,
     "network": 0,
-    "open_issues_plus_prs": 19,
-    "commits": 646,
+    "open_issues_plus_prs": 17,
+    "commits": 662,
     "issues_open": 16,
-    "issues_closed": 28,
-    "prs_open": 3,
-    "prs_merged": 72,
-    "prs_closed_unmerged": 24,
-    "issues_total": 44,
+    "issues_closed": 29,
+    "prs_open": 1,
+    "prs_merged": 76,
+    "prs_closed_unmerged": 25,
+    "issues_total": 45,
     "releases": 18,
     "release_downloads": 1,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 2022,
+    "packagist_downloads": 2023,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 72,
-    "issues_opened": 10,
-    "prs_opened": 33,
-    "prs_merged": 27,
+    "commits": 88,
+    "issues_opened": 11,
+    "prs_opened": 36,
+    "prs_merged": 31,
     "releases": 3,
-    "packagist_downloads": 1128,
+    "packagist_downloads": 1126,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1275,
-    "clones_unique": 137,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 1685,
+    "clones_unique": 147,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-textdb/discussions",
+        "title": "/discussions",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v2.0.12",
@@ -80,7 +87,7 @@
     },
     {
       "login": "magicsunday",
-      "contributions": 74,
+      "contributions": 90,
       "url": "https://github.com/magicsunday"
     },
     {
@@ -116,9 +123,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 2022,
-    "monthly": 1128,
-    "daily": 3,
+    "total": 2023,
+    "monthly": 1126,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,
@@ -127,7 +134,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-textdb/network/dependents"
   },
-  "estimated_downstream_reach": 124,
-  "blast_radius": 124,
+  "estimated_downstream_reach": 129,
+  "blast_radius": 129,
   "archived": false
 }

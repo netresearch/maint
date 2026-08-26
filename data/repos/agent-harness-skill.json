@@ -53,8 +53,8 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1308,
-    "clones_unique": 229,
+    "clones_total": 1276,
+    "clones_unique": 228,
     "views_total": 85,
     "views_unique": 55,
     "top_referrers": [
@@ -65,13 +65,18 @@
       },
       {
         "referrer": "github.com",
-        "count": 19,
-        "uniques": 10
+        "count": 18,
+        "uniques": 9
       },
       {
         "referrer": "netresearch.github.io",
         "count": 9,
         "uniques": 2
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "skills.sh",
@@ -83,8 +88,8 @@
       {
         "path": "/netresearch/agent-harness-skill",
         "title": "Overview",
-        "count": 45,
-        "uniques": 41
+        "count": 43,
+        "uniques": 39
       },
       {
         "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/SKILL.md",
@@ -97,6 +102,12 @@
         "title": "/tree/main/skills/agent-harness",
         "count": 7,
         "uniques": 6
+      },
+      {
+        "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/references/enforcement-mechanisms.md",
+        "title": "/blob/main/skills/agent-harness/references/enforcement-mechanisms.md",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/agent-harness-skill/discussions",
@@ -133,12 +144,6 @@
         "title": "/issues",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/agent-harness-skill/actions/workflows/harness-verify.yml",
-        "title": "/actions/workflows/harness-verify.yml",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },

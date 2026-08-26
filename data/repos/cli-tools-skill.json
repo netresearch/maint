@@ -55,39 +55,39 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1099,
+    "clones_total": 1103,
     "clones_unique": 197,
-    "views_total": 78,
-    "views_unique": 26,
+    "views_total": 72,
+    "views_unique": 28,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 24,
+        "uniques": 12
+      },
       {
         "referrer": "chatgpt.com",
         "count": 15,
         "uniques": 1
       },
       {
-        "referrer": "github.com",
-        "count": 14,
+        "referrer": "search.brave.com",
+        "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "Google",
-        "count": 11,
-        "uniques": 9
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/cli-tools-skill",
         "title": "Overview",
-        "count": 23,
-        "uniques": 20
+        "count": 25,
+        "uniques": 22
       },
       {
         "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/SKILL.md",
         "title": "/blob/main/skills/cli-tools/SKILL.md",
-        "count": 9,
-        "uniques": 6
+        "count": 10,
+        "uniques": 7
       },
       {
         "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools",
@@ -96,16 +96,16 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/references/preferred-tools.md",
-        "title": "/blob/main/skills/cli-tools/references/preferred-tools.md",
-        "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/scripts/install_tool.sh",
-        "title": "/blob/main/skills/cli-tools/scripts/install_tool.sh",
+        "path": "/netresearch/cli-tools-skill/tree/main",
+        "title": "/tree/main",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/references/preferred-tools.md",
+        "title": "/blob/main/skills/cli-tools/references/preferred-tools.md",
+        "count": 3,
+        "uniques": 1
       },
       {
         "path": "/netresearch/cli-tools-skill/releases/tag/v1.9.1",
@@ -114,14 +114,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/references/binary_to_tool_map.md",
-        "title": "/blob/main/skills/cli-tools/references/binary_to_tool_map.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/references/resolution-workflow.md",
-        "title": "/blob/main/skills/cli-tools/references/resolution-workflow.md",
+        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/scripts/install_tool.sh",
+        "title": "/blob/main/skills/cli-tools/scripts/install_tool.sh",
         "count": 2,
         "uniques": 2
       },
@@ -132,10 +126,16 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/cli-tools-skill/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/cli-tools-skill/community",
+        "title": "/community",
         "count": 2,
-        "uniques": 2
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/graphs/contributors",
+        "title": "/graphs/contributors",
+        "count": 2,
+        "uniques": 1
       }
     ]
   },

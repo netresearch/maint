@@ -53,7 +53,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 14,
+    "commits": 12,
     "issues_opened": 1,
     "prs_opened": 8,
     "prs_merged": 7,
@@ -62,15 +62,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 375,
-    "clones_unique": 117,
-    "views_total": 79,
-    "views_unique": 24,
+    "clones_total": 280,
+    "clones_unique": 41,
+    "views_total": 96,
+    "views_unique": 25,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 24,
         "uniques": 11
+      },
+      {
+        "referrer": "qwant.com",
+        "count": 3,
+        "uniques": 1
       },
       {
         "referrer": "github.com",
@@ -87,8 +92,8 @@
       {
         "path": "/netresearch/jira-to-openproject",
         "title": "Overview",
-        "count": 27,
-        "uniques": 19
+        "count": 29,
+        "uniques": 20
       },
       {
         "path": "/netresearch/jira-to-openproject/issues/260",
@@ -109,6 +114,24 @@
         "uniques": 4
       },
       {
+        "path": "/netresearch/jira-to-openproject/discussions",
+        "title": "/discussions",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/issues",
+        "title": "/issues",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/pulls",
+        "title": "/pulls",
+        "count": 3,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/jira-to-openproject/blob/main/.pre-commit-config.yaml",
         "title": "/blob/main/.pre-commit-config.yaml",
         "count": 2,
@@ -124,24 +147,6 @@
         "path": "/netresearch/jira-to-openproject/blob/main/Dockerfile",
         "title": "/blob/main/Dockerfile",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-to-openproject/discussions",
-        "title": "/discussions",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-to-openproject/blob/main/compose.yml",
-        "title": "/blob/main/compose.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-to-openproject/blob/main/docs/DEVELOPER_GUIDE.md",
-        "title": "/blob/main/docs/DEVELOPER_GUIDE.md",
-        "count": 1,
         "uniques": 1
       }
     ]
