@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:56:59Z",
-  "pushed_at": "2026-08-19T15:22:10Z",
-  "updated_at": "2026-08-19T15:36:40Z",
+  "pushed_at": "2026-08-26T17:47:09Z",
+  "updated_at": "2026-08-26T17:47:26Z",
   "composer_name": null,
   "lifetime": {
     "stars": 11,
@@ -23,16 +23,16 @@
     "watchers": 2,
     "network": 0,
     "open_issues_plus_prs": 3,
-    "commits": 194,
+    "commits": 202,
     "issues_open": 3,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 59,
+    "prs_merged": 63,
     "prs_closed_unmerged": 0,
     "issues_total": 4,
     "releases": 31,
     "release_downloads": 112,
-    "contributors": 2,
+    "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -40,24 +40,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 33,
+    "commits": 39,
     "issues_opened": 1,
-    "prs_opened": 15,
-    "prs_merged": 15,
+    "prs_opened": 19,
+    "prs_merged": 19,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 715,
-    "clones_unique": 190,
-    "views_total": 83,
-    "views_unique": 29,
+    "clones_total": 707,
+    "clones_unique": 191,
+    "views_total": 86,
+    "views_unique": 31,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 33,
-        "uniques": 19
+        "count": 35,
+        "uniques": 21
       },
       {
         "referrer": "github.com",
@@ -85,8 +85,14 @@
       {
         "path": "/netresearch/go-development-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 10,
-        "uniques": 8
+        "count": 11,
+        "uniques": 9
+      },
+      {
+        "path": "/netresearch/go-development-skill/tree/main",
+        "title": "/tree/main",
+        "count": 6,
+        "uniques": 4
       },
       {
         "path": "/netresearch/go-development-skill/blob/0ed1bb1a7ef08fcdcf334d5b897e3ca0f4f6baec/skills/go-development/references/testing.md",
@@ -101,22 +107,16 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/go-development-skill/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/mutation-testing.md",
+        "title": "/blob/main/skills/go-development/references/mutation-testing.md",
         "count": 5,
-        "uniques": 3
+        "uniques": 4
       },
       {
         "path": "/netresearch/go-development-skill/blob/0ed1bb1a7ef08fcdcf334d5b897e3ca0f4f6baec/skills/go-development/SKILL.md",
         "title": "/blob/0ed1bb1a7ef08fcdcf334d5b897e3ca0f4f6baec/skills/go-development/SKILL.md",
         "count": 5,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/mutation-testing.md",
-        "title": "/blob/main/skills/go-development/references/mutation-testing.md",
-        "count": 4,
-        "uniques": 3
       },
       {
         "path": "/netresearch/go-development-skill/tree/main/skills/go-development",
@@ -147,13 +147,18 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 193,
+      "contributions": 197,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 1,
+      "contributions": 3,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 2,
+      "url": "https://github.com/apps/github-actions"
     }
   ],
   "packagist": null,
@@ -163,7 +168,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/go-development-skill/network/dependents"
   },
-  "estimated_downstream_reach": 63,
-  "blast_radius": 63,
+  "estimated_downstream_reach": 67,
+  "blast_radius": 67,
   "archived": false
 }

@@ -27,23 +27,23 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-25T07:26:55Z",
-  "pushed_at": "2026-08-25T23:20:52Z",
-  "updated_at": "2026-08-25T23:23:48Z",
+  "pushed_at": "2026-08-26T09:15:28Z",
+  "updated_at": "2026-08-26T09:18:15Z",
   "composer_name": null,
   "lifetime": {
     "stars": 61,
     "forks": 8,
     "watchers": 3,
-    "network": 1699,
+    "network": 1698,
     "open_issues_plus_prs": 8,
-    "commits": 618,
+    "commits": 624,
     "issues_open": 8,
     "issues_closed": 189,
     "prs_open": 0,
-    "prs_merged": 189,
+    "prs_merged": 192,
     "prs_closed_unmerged": 8,
     "issues_total": 197,
-    "releases": 16,
+    "releases": 18,
     "release_downloads": 205,
     "contributors": 32,
     "external_contributors": 31,
@@ -53,34 +53,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 30,
+    "commits": 33,
     "issues_opened": 2,
-    "prs_opened": 12,
-    "prs_merged": 11,
-    "releases": 0,
+    "prs_opened": 15,
+    "prs_merged": 14,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 240,
-    "clones_unique": 104,
-    "views_total": 302,
-    "views_unique": 82,
+    "clones_total": 532,
+    "clones_unique": 142,
+    "views_total": 315,
+    "views_unique": 81,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 58,
-        "uniques": 16
+        "count": 56,
+        "uniques": 17
       },
       {
         "referrer": "Google",
-        "count": 24,
-        "uniques": 15
+        "count": 23,
+        "uniques": 16
       },
       {
         "referrer": "awesome-go.com",
-        "count": 5,
-        "uniques": 4
+        "count": 4,
+        "uniques": 3
       },
       {
         "referrer": "doubao.com",
@@ -102,14 +102,14 @@
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 110,
-        "uniques": 64
+        "count": 106,
+        "uniques": 61
       },
       {
         "path": "/netresearch/go-cron/issues",
         "title": "/issues",
-        "count": 30,
-        "uniques": 5
+        "count": 31,
+        "uniques": 6
       },
       {
         "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
@@ -118,33 +118,39 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/go-cron/pull/1",
-        "title": "/pull/1",
-        "count": 9,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/go-cron/discussions",
         "title": "/discussions",
         "count": 7,
         "uniques": 5
       },
       {
-        "path": "/netresearch/go-cron/pulls",
-        "title": "/pulls",
+        "path": "/netresearch/go-cron/tree/main",
+        "title": "/tree/main",
         "count": 6,
-        "uniques": 4
+        "uniques": 2
       },
       {
-        "path": "/netresearch/go-cron/blob/main/docs/DST_HANDLING.md",
-        "title": "/blob/main/docs/DST_HANDLING.md",
+        "path": "/netresearch/go-cron/pull/1",
+        "title": "/pull/1",
+        "count": 6,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/go-cron/pulls",
+        "title": "/pulls",
+        "count": 5,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/PERSISTENCE_GUIDE.md",
+        "title": "/blob/main/docs/PERSISTENCE_GUIDE.md",
         "count": 4,
         "uniques": 3
       },
       {
-        "path": "/netresearch/go-cron/blob/main/docs/adr/ADR-001-heap-scheduling.md",
-        "title": "/blob/main/docs/adr/ADR-001-heap-scheduling.md",
-        "count": 3,
+        "path": "/netresearch/go-cron/commits/main",
+        "title": "/commits/main",
+        "count": 4,
         "uniques": 3
       },
       {
@@ -152,25 +158,19 @@
         "title": "/blob/main/docs/adr/ADR-016-dst-normalization.md",
         "count": 3,
         "uniques": 3
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/spec.go",
-        "title": "/blob/main/spec.go",
-        "count": 3,
-        "uniques": 3
       }
     ]
   },
   "latest_release": {
-    "name": "v0.15.0",
-    "tag_name": "v0.15.0",
-    "published_at": "2026-06-02T16:09:43Z",
-    "url": "https://github.com/netresearch/go-cron/releases/tag/v0.15.0"
+    "name": "v0.16.0",
+    "tag_name": "v0.16.0",
+    "published_at": "2026-08-26T09:21:56Z",
+    "url": "https://github.com/netresearch/go-cron/releases/tag/v0.16.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 455,
+      "contributions": 461,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -226,7 +226,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/go-cron/network/dependents"
   },
-  "estimated_downstream_reach": 495,
-  "blast_radius": 495,
+  "estimated_downstream_reach": 498,
+  "blast_radius": 498,
   "archived": false
 }

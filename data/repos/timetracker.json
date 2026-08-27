@@ -49,7 +49,7 @@
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 40506,
+    "ghcr_downloads": 40536,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -60,23 +60,23 @@
     "prs_merged": 21,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 1462
+    "ghcr_downloads": 1369
   },
   "traffic_14d": {
-    "clones_total": 1671,
-    "clones_unique": 313,
-    "views_total": 129,
-    "views_unique": 36,
+    "clones_total": 1028,
+    "clones_unique": 314,
+    "views_total": 132,
+    "views_unique": 31,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 22,
-        "uniques": 6
+        "count": 21,
+        "uniques": 5
       },
       {
         "referrer": "github.com",
-        "count": 15,
-        "uniques": 7
+        "count": 12,
+        "uniques": 5
       },
       {
         "referrer": "reporank.net",
@@ -88,8 +88,14 @@
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 25,
-        "uniques": 16
+        "count": 23,
+        "uniques": 12
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/docs/adr/ADR-001-php-8-4-symfony-7-3-selection.md",
+        "title": "/blob/main/docs/adr/ADR-001-php-8-4-symfony-7-3-selection.md",
+        "count": 22,
+        "uniques": 1
       },
       {
         "path": "/netresearch/timetracker/tree/main/docs/adr",
@@ -104,34 +110,10 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/timetracker/blob/main/docs/adr/ADR-001-php-8-4-symfony-7-3-selection.md",
-        "title": "/blob/main/docs/adr/ADR-001-php-8-4-symfony-7-3-selection.md",
-        "count": 6,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/discussions",
-        "title": "/discussions",
-        "count": 5,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/timetracker/blob/main/docs/adr/README.md",
         "title": "/blob/main/docs/adr/README.md",
         "count": 5,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs/images/hero-split.png",
-        "title": "/blob/main/docs/images/hero-split.png",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/timetracker/issues",
-        "title": "/issues",
-        "count": 4,
-        "uniques": 3
       },
       {
         "path": "/netresearch/timetracker/issues/23",
@@ -140,10 +122,28 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/timetracker/pulls",
-        "title": "/pulls",
+        "path": "/netresearch/timetracker/blob/main/docs/adr/ADR-021-api-token-authentication.md",
+        "title": "/blob/main/docs/adr/ADR-021-api-token-authentication.md",
         "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/docs/images/hero-split.png",
+        "title": "/blob/main/docs/images/hero-split.png",
+        "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/timetracker/discussions",
+        "title": "/discussions",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
@@ -211,12 +211,12 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 40506,
-        "thirty_day": 1462
+        "total": 40536,
+        "thirty_day": 1369
       }
     ],
-    "total": 40506,
-    "thirty_day": 1462
+    "total": 40536,
+    "thirty_day": 1369
   },
   "dependents": {
     "repositories": 0,

@@ -42,78 +42,18 @@
     "prs_merged": 1,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 103
+    "ghcr_downloads": 6
   },
   "traffic_14d": {
-    "clones_total": 23,
-    "clones_unique": 12,
-    "views_total": 30,
-    "views_unique": 2,
-    "top_referrers": [
-      {
-        "referrer": "Google",
-        "count": 29,
-        "uniques": 1
-      }
-    ],
+    "clones_total": 21,
+    "clones_unique": 11,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [],
     "top_paths": [
-      {
-        "path": "/netresearch/ansible_role_client_base",
-        "title": "Overview",
-        "count": 1,
-        "uniques": 1
-      },
       {
         "path": "/netresearch/ansible_role_client_base/actions/workflows/ghcr.yml",
         "title": "/actions/workflows/ghcr.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible_role_client_base/blob/main/Dockerfile",
-        "title": "/blob/main/Dockerfile",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible_role_client_base/blob/main/ansible.cfg",
-        "title": "/blob/main/ansible.cfg",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible_role_client_base/blob/main/defaults/main.yml",
-        "title": "/blob/main/defaults/main.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible_role_client_base/blob/main/docker-compose.yml",
-        "title": "/blob/main/docker-compose.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible_role_client_base/blob/main/example/site.yml",
-        "title": "/blob/main/example/site.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible_role_client_base/blob/main/files/cert_trust_store_installer.sh",
-        "title": "/blob/main/files/cert_trust_store_installer.sh",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible_role_client_base/blob/main/handlers/main.yml",
-        "title": "/blob/main/handlers/main.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible_role_client_base/blob/main/meta/main.yml",
-        "title": "/blob/main/meta/main.yml",
         "count": 1,
         "uniques": 1
       }
@@ -149,11 +89,11 @@
         "package": "ansible_role_client_base",
         "url": "https://github.com/netresearch/ansible_role_client_base/pkgs/container/ansible_role_client_base",
         "total": 2510,
-        "thirty_day": 103
+        "thirty_day": 6
       }
     ],
     "total": 2510,
-    "thirty_day": 103
+    "thirty_day": 6
   },
   "dependents": {
     "repositories": 0,

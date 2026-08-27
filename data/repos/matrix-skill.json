@@ -27,20 +27,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-31T12:42:05Z",
-  "pushed_at": "2026-08-19T14:35:16Z",
-  "updated_at": "2026-08-22T18:37:04Z",
+  "pushed_at": "2026-08-26T16:53:26Z",
+  "updated_at": "2026-08-26T16:51:18Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
-    "commits": 369,
+    "open_issues_plus_prs": 2,
+    "commits": 373,
     "issues_open": 1,
     "issues_closed": 22,
-    "prs_open": 0,
-    "prs_merged": 95,
+    "prs_open": 1,
+    "prs_merged": 97,
     "prs_closed_unmerged": 0,
     "issues_total": 23,
     "releases": 55,
@@ -53,42 +53,37 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 108,
+    "commits": 112,
     "issues_opened": 21,
-    "prs_opened": 36,
-    "prs_merged": 36,
+    "prs_opened": 39,
+    "prs_merged": 38,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2666,
-    "clones_unique": 621,
-    "views_total": 65,
-    "views_unique": 40,
+    "clones_total": 2387,
+    "clones_unique": 630,
+    "views_total": 69,
+    "views_unique": 44,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 22,
-        "uniques": 17
+        "count": 24,
+        "uniques": 19
       },
       {
         "referrer": "github.com",
         "count": 16,
         "uniques": 4
-      },
-      {
-        "referrer": "kagi.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/matrix-skill",
         "title": "Overview",
-        "count": 26,
-        "uniques": 23
+        "count": 29,
+        "uniques": 26
       },
       {
         "path": "/netresearch/matrix-skill/discussions/categories/ideas",
@@ -115,6 +110,12 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
+        "title": "/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/SKILL.md",
         "title": "/blob/main/skills/matrix-communication/SKILL.md",
         "count": 2,
@@ -137,12 +138,6 @@
         "title": "/issues/43",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/matrix-skill/tree/main/skills/matrix-communication",
-        "title": "/tree/main/skills/matrix-communication",
-        "count": 2,
-        "uniques": 2
       }
     ]
   },
@@ -155,7 +150,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 315,
+      "contributions": 317,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -165,12 +160,12 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 4,
+      "contributions": 5,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 4,
+      "contributions": 5,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -191,7 +186,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/matrix-skill/network/dependents"
   },
-  "estimated_downstream_reach": 121,
-  "blast_radius": 121,
+  "estimated_downstream_reach": 123,
+  "blast_radius": 123,
   "archived": false
 }

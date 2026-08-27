@@ -39,7 +39,7 @@
     "release_downloads": 56,
     "contributors": 3,
     "external_contributors": 1,
-    "packagist_downloads": 7499,
+    "packagist_downloads": 7522,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -50,18 +50,18 @@
     "prs_opened": 32,
     "prs_merged": 29,
     "releases": 1,
-    "packagist_downloads": 3103,
+    "packagist_downloads": 3122,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 895,
-    "clones_unique": 82,
-    "views_total": 36,
-    "views_unique": 10,
+    "clones_total": 894,
+    "clones_unique": 83,
+    "views_total": 28,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 11,
+        "count": 9,
         "uniques": 3
       },
       {
@@ -79,8 +79,8 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be",
         "title": "Overview",
-        "count": 13,
-        "uniques": 8
+        "count": 9,
+        "uniques": 6
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/pull/93",
@@ -97,12 +97,6 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be/releases/tag/v0.12.1",
         "title": "/releases/tag/v0.12.1",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/tree/v0.12.1",
-        "title": "/tree/v0.12.1",
         "count": 2,
         "uniques": 1
       },
@@ -135,6 +129,12 @@
         "title": "/blob/main/.github/workflows/release.yml",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/SECURITY.md",
+        "title": "/blob/main/SECURITY.md",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -163,9 +163,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 7499,
-    "monthly": 3103,
-    "daily": 7,
+    "total": 7522,
+    "monthly": 3122,
+    "daily": 20,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,

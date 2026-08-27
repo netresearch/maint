@@ -13,24 +13,24 @@
   "homepage": "https://registry.terraform.io/providers/netresearch/ad/latest",
   "default_branch": "main",
   "created_at": "2024-08-14T10:21:14Z",
-  "pushed_at": "2026-08-25T23:46:32Z",
-  "updated_at": "2026-08-25T23:22:50Z",
+  "pushed_at": "2026-08-26T17:16:53Z",
+  "updated_at": "2026-08-26T20:28:20Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 1,
+    "stars": 2,
     "forks": 0,
     "watchers": 1,
     "network": 80,
     "open_issues_plus_prs": 1,
-    "commits": 197,
+    "commits": 203,
     "issues_open": 0,
     "issues_closed": 0,
     "prs_open": 1,
-    "prs_merged": 19,
+    "prs_merged": 22,
     "prs_closed_unmerged": 3,
     "issues_total": 0,
-    "releases": 3,
-    "release_downloads": 542,
+    "releases": 4,
+    "release_downloads": 569,
     "contributors": 22,
     "external_contributors": 19,
     "packagist_downloads": 0,
@@ -39,27 +39,40 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 9,
+    "commits": 15,
     "issues_opened": 0,
-    "prs_opened": 4,
-    "prs_merged": 4,
-    "releases": 0,
+    "prs_opened": 7,
+    "prs_merged": 7,
+    "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 35,
-    "clones_unique": 14,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 55,
+    "clones_unique": 18,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/terraform-provider-ad",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
-    "name": "v0.3.0",
-    "tag_name": "v0.3.0",
-    "published_at": "2025-01-30T13:24:17Z",
-    "url": "https://github.com/netresearch/terraform-provider-ad/releases/tag/v0.3.0"
+    "name": "v0.4.0",
+    "tag_name": "v0.4.0",
+    "published_at": "2026-08-26T07:52:36Z",
+    "url": "https://github.com/netresearch/terraform-provider-ad/releases/tag/v0.4.0"
   },
   "top_contributors": [
     {
@@ -69,7 +82,7 @@
     },
     {
       "login": "CybotTM",
-      "contributions": 24,
+      "contributions": 30,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -120,7 +133,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/terraform-provider-ad/network/dependents"
   },
-  "estimated_downstream_reach": 76,
-  "blast_radius": 76,
+  "estimated_downstream_reach": 79,
+  "blast_radius": 79,
   "archived": false
 }

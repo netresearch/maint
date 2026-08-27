@@ -22,8 +22,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-29T17:57:15Z",
-  "pushed_at": "2026-08-26T00:28:11Z",
-  "updated_at": "2026-08-13T14:11:19Z",
+  "pushed_at": "2026-08-26T16:45:17Z",
+  "updated_at": "2026-08-26T16:44:37Z",
   "composer_name": null,
   "lifetime": {
     "stars": 4,
@@ -31,11 +31,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 3,
-    "commits": 303,
+    "commits": 309,
     "issues_open": 2,
     "issues_closed": 0,
     "prs_open": 1,
-    "prs_merged": 90,
+    "prs_merged": 93,
     "prs_closed_unmerged": 2,
     "issues_total": 2,
     "releases": 45,
@@ -48,23 +48,23 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 28,
+    "commits": 32,
     "issues_opened": 0,
-    "prs_opened": 14,
-    "prs_merged": 13,
+    "prs_opened": 17,
+    "prs_merged": 16,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 716,
-    "clones_unique": 170,
-    "views_total": 32,
-    "views_unique": 12,
+    "clones_total": 717,
+    "clones_unique": 171,
+    "views_total": 31,
+    "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 22,
+        "count": 23,
         "uniques": 6
       },
       {
@@ -94,12 +94,6 @@
       {
         "path": "/netresearch/enterprise-readiness-skill/discussions",
         "title": "/discussions",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/enterprise-readiness-skill/tree/main/skills/enterprise-readiness/evals",
-        "title": "/tree/main/skills/enterprise-readiness/evals",
         "count": 2,
         "uniques": 2
       },
@@ -138,6 +132,12 @@
         "title": "/blob/main/skills/enterprise-readiness/evals/evals.json",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/blob/main/skills/enterprise-readiness/scripts/analyze-bus-factor.sh",
+        "title": "/blob/main/skills/enterprise-readiness/scripts/analyze-bus-factor.sh",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -150,17 +150,17 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 296,
+      "contributions": 300,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 4,
+      "contributions": 5,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 3,
+      "contributions": 4,
       "url": "https://github.com/apps/renovate"
     }
   ],
@@ -171,7 +171,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/enterprise-readiness-skill/network/dependents"
   },
-  "estimated_downstream_reach": 92,
-  "blast_radius": 92,
+  "estimated_downstream_reach": 95,
+  "blast_radius": 95,
   "archived": false
 }
