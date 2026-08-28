@@ -54,23 +54,28 @@
   },
   "recent_30d": {
     "commits": 8,
-    "issues_opened": 1,
-    "prs_opened": 6,
-    "prs_merged": 5,
+    "issues_opened": 0,
+    "prs_opened": 5,
+    "prs_merged": 4,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 263,
-    "clones_unique": 43,
-    "views_total": 100,
-    "views_unique": 23,
+    "clones_total": 292,
+    "clones_unique": 50,
+    "views_total": 91,
+    "views_unique": 24,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 23,
-        "uniques": 10
+        "count": 17,
+        "uniques": 12
+      },
+      {
+        "referrer": "github.com",
+        "count": 3,
+        "uniques": 2
       },
       {
         "referrer": "qwant.com",
@@ -81,30 +86,25 @@
         "referrer": "DuckDuckGo",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/jira-to-openproject",
         "title": "Overview",
-        "count": 29,
-        "uniques": 19
+        "count": 27,
+        "uniques": 21
       },
       {
         "path": "/netresearch/jira-to-openproject/issues/260",
         "title": "/issues/260",
-        "count": 16,
+        "count": 13,
         "uniques": 1
       },
       {
         "path": "/netresearch/jira-to-openproject/issues/302",
         "title": "/issues/302",
-        "count": 16,
+        "count": 13,
         "uniques": 1
       },
       {
@@ -126,28 +126,28 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/jira-to-openproject/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/jira-to-openproject/forks",
         "title": "/forks",
         "count": 3,
         "uniques": 1
       },
       {
-        "path": "/netresearch/jira-to-openproject/blob/main/.pre-commit-config.yaml",
-        "title": "/blob/main/.pre-commit-config.yaml",
+        "path": "/netresearch/jira-to-openproject/blob/main/docs/ARCHITECTURE.md",
+        "title": "/blob/main/docs/ARCHITECTURE.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/jira-to-openproject/blob/main/docs/configuration.md",
-        "title": "/blob/main/docs/configuration.md",
+        "path": "/netresearch/jira-to-openproject/tree/main",
+        "title": "/tree/main",
         "count": 2,
-        "uniques": 2
+        "uniques": 1
+      },
+      {
+        "path": "/DonWeb/jira-to-openproject/compare/main...DonWeb:jira-to-openproject:feat/native-sprints",
+        "title": "are/main...DonWeb:jira-to-openproject:feat/native-sprints",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },

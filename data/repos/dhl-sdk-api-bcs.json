@@ -42,7 +42,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 4,
-    "packagist_downloads": 329543,
+    "packagist_downloads": 329569,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -53,14 +53,14 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 629,
+    "packagist_downloads": 628,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 16,
-    "clones_unique": 15,
+    "clones_total": 17,
+    "clones_unique": 16,
     "views_total": 6,
-    "views_unique": 5,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -72,8 +72,14 @@
       {
         "path": "/netresearch/dhl-sdk-api-bcs",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs/pulls",
+        "title": "/pulls",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-sdk-api-bcs/blob/master/README.md",
@@ -84,12 +90,6 @@
       {
         "path": "/netresearch/dhl-sdk-api-bcs/issues",
         "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-sdk-api-bcs/pulls",
-        "title": "/pulls",
         "count": 1,
         "uniques": 1
       }
@@ -140,9 +140,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs",
-    "total": 329543,
-    "monthly": 629,
-    "daily": 57,
+    "total": 329569,
+    "monthly": 628,
+    "daily": 20,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs"
   },
   "ghcr": null,

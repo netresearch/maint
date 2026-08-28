@@ -25,7 +25,7 @@
   "homepage": "https://netresearch.github.io/t3x-nr-llm/",
   "default_branch": "main",
   "created_at": "2025-12-22T23:35:44Z",
-  "pushed_at": "2026-08-26T05:16:56Z",
+  "pushed_at": "2026-08-28T06:15:52Z",
   "updated_at": "2026-08-26T05:16:12Z",
   "composer_name": "netresearch/nr-llm",
   "lifetime": {
@@ -33,11 +33,11 @@
     "forks": 2,
     "watchers": 1,
     "network": 2,
-    "open_issues_plus_prs": 8,
+    "open_issues_plus_prs": 9,
     "commits": 2553,
     "issues_open": 4,
     "issues_closed": 128,
-    "prs_open": 4,
+    "prs_open": 5,
     "prs_merged": 695,
     "prs_closed_unmerged": 32,
     "issues_total": 132,
@@ -45,31 +45,26 @@
     "release_downloads": 403,
     "contributors": 6,
     "external_contributors": 2,
-    "packagist_downloads": 19486,
+    "packagist_downloads": 19548,
     "ghcr_downloads": 0,
     "dependents_repos": 5,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 719,
+    "commits": 694,
     "issues_opened": 103,
-    "prs_opened": 231,
-    "prs_merged": 215,
+    "prs_opened": 224,
+    "prs_merged": 207,
     "releases": 10,
-    "packagist_downloads": 10459,
+    "packagist_downloads": 10502,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 19157,
-    "clones_unique": 490,
-    "views_total": 45,
-    "views_unique": 20,
+    "clones_total": 18002,
+    "clones_unique": 471,
+    "views_total": 35,
+    "views_unique": 17,
     "top_referrers": [
-      {
-        "referrer": "extensions.typo3.org",
-        "count": 13,
-        "uniques": 5
-      },
       {
         "referrer": "github.com",
         "count": 8,
@@ -81,14 +76,14 @@
         "uniques": 1
       },
       {
-        "referrer": "vertebrae-cupcake-dime.ngrok-free.dev",
-        "count": 3,
-        "uniques": 1
+        "referrer": "extensions.typo3.org",
+        "count": 7,
+        "uniques": 4
       },
       {
         "referrer": "Google",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "netresearch.github.io",
@@ -105,26 +100,20 @@
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 17,
+        "count": 16,
         "uniques": 14
       },
       {
         "path": "/netresearch/t3x-nr-llm/issues",
         "title": "/issues",
-        "count": 6,
-        "uniques": 3
+        "count": 5,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-llm/blob/main/Documentation/Images/backend-dashboard.png",
         "title": "/blob/main/Documentation/Images/backend-dashboard.png",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/releases/tag/v0.29.0",
-        "title": "/releases/tag/v0.29.0",
         "count": 2,
-        "uniques": 1
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-llm/blob/main/.php-cs-fixer.dist.php",
@@ -151,14 +140,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-llm/blob/main/Documentation/Adr/Adr025PerUserBudgets.rst",
-        "title": "/blob/main/Documentation/Adr/Adr025PerUserBudgets.rst",
+        "path": "/netresearch/t3x-nr-llm/issues/634",
+        "title": "/issues/634",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-llm/commit/1bcf21f8017c13466e526f922e351adfdb8ed863",
-        "title": "/commit/1bcf21f8017c13466e526f922e351adfdb8ed863",
+        "path": "/netresearch/t3x-nr-llm/issues/652",
+        "title": "/issues/652",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/issues/787",
+        "title": "/issues/787",
         "count": 1,
         "uniques": 1
       }
@@ -204,9 +199,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 19486,
-    "monthly": 10459,
-    "daily": 9,
+    "total": 19548,
+    "monthly": 10502,
+    "daily": 46,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,

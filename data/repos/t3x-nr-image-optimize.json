@@ -25,19 +25,19 @@
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 8,
+    "open_issues_plus_prs": 7,
     "commits": 478,
     "issues_open": 4,
     "issues_closed": 11,
-    "prs_open": 4,
+    "prs_open": 3,
     "prs_merged": 145,
-    "prs_closed_unmerged": 12,
+    "prs_closed_unmerged": 13,
     "issues_total": 15,
     "releases": 22,
     "release_downloads": 8,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 2546,
+    "packagist_downloads": 2555,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -48,25 +48,89 @@
     "prs_opened": 30,
     "prs_merged": 26,
     "releases": 2,
-    "packagist_downloads": 971,
+    "packagist_downloads": 972,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2135,
-    "clones_unique": 184,
-    "views_total": 4,
-    "views_unique": 2,
-    "top_referrers": [],
+    "clones_total": 2440,
+    "clones_unique": 190,
+    "views_total": 20,
+    "views_unique": 4,
+    "top_referrers": [
+      {
+        "referrer": "jira.netresearch.de",
+        "count": 7,
+        "uniques": 1
+      },
+      {
+        "referrer": "Google",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-image-optimize",
         "title": "Overview",
-        "count": 3,
-        "uniques": 2
+        "count": 7,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/issues",
+        "title": "/issues",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-image-optimize/pulls",
         "title": "/pulls",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Classes/ViewHelpers/SourceSetViewHelper.php",
+        "title": "/blob/main/Classes/ViewHelpers/SourceSetViewHelper.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/commit/c460052",
+        "title": "/commit/c460052",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/pull/129",
+        "title": "/pull/129",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/pull/174",
+        "title": "/pull/174",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/pull/174/files/234b50b1b091f578fcff766c85aa17c09355d42d..d025150d0cf89443b7ab6bd7876a66a1e97da161",
+        "title": "/pull/174/files/234b50b1b091f578fcff766c85aa17c09355d42d..d025150d0cf89443b7ab6bd7876a66a1e97da161",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/tree/docs/performance-model-main",
+        "title": "/tree/docs/performance-model-main",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/tree/main/Classes",
+        "title": "/tree/main/Classes",
         "count": 1,
         "uniques": 1
       }
@@ -122,9 +186,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 2546,
-    "monthly": 971,
-    "daily": 16,
+    "total": 2555,
+    "monthly": 972,
+    "daily": 8,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,
