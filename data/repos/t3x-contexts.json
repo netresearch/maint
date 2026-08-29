@@ -13,8 +13,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2013-03-11T14:10:52Z",
-  "pushed_at": "2026-08-22T06:51:43Z",
-  "updated_at": "2026-08-22T06:51:49Z",
+  "pushed_at": "2026-08-29T03:05:06Z",
+  "updated_at": "2026-08-29T03:08:13Z",
   "composer_name": "netresearch/contexts",
   "lifetime": {
     "stars": 11,
@@ -22,11 +22,11 @@
     "watchers": 11,
     "network": 11,
     "open_issues_plus_prs": 1,
-    "commits": 546,
+    "commits": 548,
     "issues_open": 1,
     "issues_closed": 22,
     "prs_open": 0,
-    "prs_merged": 130,
+    "prs_merged": 131,
     "prs_closed_unmerged": 35,
     "issues_total": 23,
     "releases": 9,
@@ -39,17 +39,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 57,
+    "commits": 59,
     "issues_opened": 5,
-    "prs_opened": 29,
-    "prs_merged": 27,
+    "prs_opened": 30,
+    "prs_merged": 28,
     "releases": 2,
-    "packagist_downloads": 3603,
+    "packagist_downloads": 3539,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1407,
-    "clones_unique": 94,
+    "clones_total": 1391,
+    "clones_unique": 91,
     "views_total": 10,
     "views_unique": 10,
     "top_referrers": [
@@ -111,7 +111,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 67,
+      "contributions": 68,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -140,6 +140,11 @@
       "url": "https://github.com/apps/dependabot"
     },
     {
+      "login": "github-actions[bot]",
+      "contributions": 3,
+      "url": "https://github.com/apps/github-actions"
+    },
+    {
       "login": "bmack",
       "contributions": 3,
       "url": "https://github.com/bmack"
@@ -148,17 +153,12 @@
       "login": "just-tobi",
       "contributions": 3,
       "url": "https://github.com/just-tobi"
-    },
-    {
-      "login": "achimfritz",
-      "contributions": 2,
-      "url": "https://github.com/achimfritz"
     }
   ],
   "packagist": {
     "name": "netresearch/contexts",
     "total": 22821,
-    "monthly": 3603,
+    "monthly": 3539,
     "daily": 0,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
@@ -168,7 +168,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts/network/dependents"
   },
-  "estimated_downstream_reach": 204,
-  "blast_radius": 204,
+  "estimated_downstream_reach": 205,
+  "blast_radius": 205,
   "archived": false
 }

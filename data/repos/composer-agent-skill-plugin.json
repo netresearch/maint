@@ -39,7 +39,7 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 5145,
+    "packagist_downloads": 5237,
     "ghcr_downloads": 0,
     "dependents_repos": 47,
     "dependents_packages": 0
@@ -50,14 +50,14 @@
     "prs_opened": 4,
     "prs_merged": 4,
     "releases": 0,
-    "packagist_downloads": 2079,
+    "packagist_downloads": 2135,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 41,
-    "clones_unique": 27,
+    "clones_total": 43,
+    "clones_unique": 28,
     "views_total": 60,
-    "views_unique": 30,
+    "views_unique": 31,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -66,16 +66,21 @@
       },
       {
         "referrer": "github.com",
-        "count": 13,
-        "uniques": 9
+        "count": 12,
+        "uniques": 8
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 35,
-        "uniques": 27
+        "count": 36,
+        "uniques": 28
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/tree/main/src",
@@ -90,27 +95,21 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 3,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/src/Commands/CommandContextTrait.php",
         "title": "/blob/main/src/Commands/CommandContextTrait.php",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/tree/main/examples/database-analyzer-skill",
-        "title": "/tree/main/examples/database-analyzer-skill",
+        "path": "/netresearch/composer-agent-skill-plugin/blob/main/README.md",
+        "title": "/blob/main/README.md",
         "count": 2,
         "uniques": 1
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/LICENSE",
-        "title": "/blob/main/LICENSE",
-        "count": 1,
+        "path": "/netresearch/composer-agent-skill-plugin/tree/main/examples/database-analyzer-skill",
+        "title": "/tree/main/examples/database-analyzer-skill",
+        "count": 2,
         "uniques": 1
       },
       {
@@ -128,6 +127,12 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/examples/database-analyzer-skill/README.md",
         "title": "/blob/main/examples/database-analyzer-skill/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/blob/main/examples/database-analyzer-skill/SKILL.md",
+        "title": "/blob/main/examples/database-analyzer-skill/SKILL.md",
         "count": 1,
         "uniques": 1
       }
@@ -168,9 +173,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 5145,
-    "monthly": 2079,
-    "daily": 85,
+    "total": 5237,
+    "monthly": 2135,
+    "daily": 83,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,

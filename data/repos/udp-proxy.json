@@ -27,11 +27,11 @@
     "prs_closed_unmerged": 1,
     "issues_total": 1,
     "releases": 2,
-    "release_downloads": 142,
+    "release_downloads": 144,
     "contributors": 3,
     "external_contributors": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 1326,
+    "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -42,18 +42,18 @@
     "prs_merged": 0,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 2
+    "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6,
-    "clones_unique": 4,
-    "views_total": 45,
-    "views_unique": 25,
+    "clones_total": 7,
+    "clones_unique": 5,
+    "views_total": 55,
+    "views_unique": 29,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 32,
-        "uniques": 20
+        "count": 36,
+        "uniques": 23
       },
       {
         "referrer": "search.brave.com",
@@ -75,8 +75,8 @@
       {
         "path": "/netresearch/udp-proxy",
         "title": "Overview",
-        "count": 29,
-        "uniques": 24
+        "count": 31,
+        "uniques": 26
       },
       {
         "path": "/netresearch/udp-proxy/releases/tag/v1.0.1",
@@ -91,44 +91,44 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/udp-proxy/tree/main/internal/build",
+        "title": "/tree/main/internal/build",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/udp-proxy/blob/main/internal/build/build.go",
+        "title": "/blob/main/internal/build/build.go",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/udp-proxy/blob/main/main.go",
+        "title": "/blob/main/main.go",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/udp-proxy/tree/main",
+        "title": "/tree/main",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/udp-proxy/blob/main/go.mod",
+        "title": "/blob/main/go.mod",
+        "count": 2,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/udp-proxy/actions",
         "title": "/actions",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/udp-proxy/blob/main/internal/build/build.go",
-        "title": "/blob/main/internal/build/build.go",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/udp-proxy/blob/main/main.go",
-        "title": "/blob/main/main.go",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/udp-proxy/compare/v1.0.0...v1.0.1",
         "title": "/compare/v1.0.0...v1.0.1",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/udp-proxy/tree/main",
-        "title": "/tree/main",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/udp-proxy/tree/main/internal/build",
-        "title": "/tree/main/internal/build",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/udp-proxy/tree/v1.0.1",
-        "title": "/tree/v1.0.1",
         "count": 1,
         "uniques": 1
       }
@@ -158,18 +158,7 @@
     }
   ],
   "packagist": null,
-  "ghcr": {
-    "packages": [
-      {
-        "package": "udp-proxy",
-        "url": "https://github.com/netresearch/udp-proxy/pkgs/container/udp-proxy",
-        "total": 1326,
-        "thirty_day": 2
-      }
-    ],
-    "total": 1326,
-    "thirty_day": 2
-  },
+  "ghcr": null,
   "dependents": {
     "repositories": 0,
     "packages": 0,

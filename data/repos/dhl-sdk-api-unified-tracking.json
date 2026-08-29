@@ -42,7 +42,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 3,
-    "packagist_downloads": 346209,
+    "packagist_downloads": 346492,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -53,31 +53,67 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 6438,
+    "packagist_downloads": 6386,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 21,
     "clones_unique": 19,
-    "views_total": 6,
-    "views_unique": 5,
+    "views_total": 15,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 4,
-        "uniques": 4
+        "count": 12,
+        "uniques": 6
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-unified-tracking",
         "title": "Overview",
-        "count": 5,
-        "uniques": 5
+        "count": 8,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/blob/main/src/Service/ServiceFactory.php",
+        "title": "/blob/main/src/Service/ServiceFactory.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/blob/main/test/Service/ServiceFactoryTest.php",
+        "title": "/blob/main/test/Service/ServiceFactoryTest.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/blob/main/test/Service/TrackingServiceTest.php",
+        "title": "/blob/main/test/Service/TrackingServiceTest.php",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-sdk-api-unified-tracking/pulls",
         "title": "/pulls",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/tree/main/src/Service",
+        "title": "/tree/main/src/Service",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/tree/main/test",
+        "title": "/tree/main/test",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-unified-tracking/tree/main/test/Service",
+        "title": "/tree/main/test/Service",
         "count": 1,
         "uniques": 1
       }
@@ -128,9 +164,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-unified-tracking",
-    "total": 346209,
-    "monthly": 6438,
-    "daily": 316,
+    "total": 346492,
+    "monthly": 6386,
+    "daily": 275,
     "url": "https://packagist.org/packages/dhl/sdk-api-unified-tracking"
   },
   "ghcr": null,
