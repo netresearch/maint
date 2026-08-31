@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 3,
-    "packagist_downloads": 236039,
+    "packagist_downloads": 236098,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,16 +43,28 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 4549,
+    "packagist_downloads": 4573,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 62,
+    "clones_total": 64,
     "clones_unique": 44,
-    "views_total": 2,
-    "views_unique": 2,
-    "top_referrers": [],
+    "views_total": 4,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "customgento.atlassian.net",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/README.md",
         "title": "/blob/main/README.md",
@@ -97,9 +109,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-autocomplete-m2",
-    "total": 236039,
-    "monthly": 4549,
-    "daily": 14,
+    "total": 236098,
+    "monthly": 4573,
+    "daily": 52,
     "url": "https://packagist.org/packages/deutschepost/module-autocomplete-m2"
   },
   "ghcr": null,

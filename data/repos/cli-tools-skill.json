@@ -55,19 +55,24 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1136,
+    "clones_total": 2132,
     "clones_unique": 200,
-    "views_total": 70,
-    "views_unique": 26,
+    "views_total": 51,
+    "views_unique": 24,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 23,
-        "uniques": 11
+        "count": 20,
+        "uniques": 9
       },
       {
         "referrer": "chatgpt.com",
-        "count": 15,
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -80,20 +85,20 @@
       {
         "path": "/netresearch/cli-tools-skill",
         "title": "Overview",
-        "count": 24,
-        "uniques": 21
+        "count": 20,
+        "uniques": 18
       },
       {
         "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/SKILL.md",
         "title": "/blob/main/skills/cli-tools/SKILL.md",
-        "count": 10,
-        "uniques": 7
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools",
         "title": "/tree/main/skills/cli-tools",
-        "count": 6,
-        "uniques": 4
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/cli-tools-skill/tree/main",
@@ -104,20 +109,8 @@
       {
         "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/references/preferred-tools.md",
         "title": "/blob/main/skills/cli-tools/references/preferred-tools.md",
-        "count": 3,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/releases/tag/v1.9.1",
-        "title": "/releases/tag/v1.9.1",
-        "count": 3,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/scripts/install_tool.sh",
-        "title": "/blob/main/skills/cli-tools/scripts/install_tool.sh",
         "count": 2,
-        "uniques": 2
+        "uniques": 1
       },
       {
         "path": "/netresearch/cli-tools-skill/community",
@@ -132,9 +125,21 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/cli-tools-skill/releases/tag/v1.9.1",
+        "title": "/releases/tag/v1.9.1",
+        "count": 2,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/cli-tools-skill/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/blame/main/skills/cli-tools/SKILL.md",
+        "title": "/blame/main/skills/cli-tools/SKILL.md",
+        "count": 1,
         "uniques": 1
       }
     ]

@@ -22,20 +22,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T07:02:25Z",
-  "pushed_at": "2026-08-26T16:42:18Z",
-  "updated_at": "2026-08-26T16:40:48Z",
+  "pushed_at": "2026-08-30T08:18:51Z",
+  "updated_at": "2026-08-30T08:16:32Z",
   "composer_name": null,
   "lifetime": {
     "stars": 7,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 4,
-    "commits": 285,
+    "open_issues_plus_prs": 2,
+    "commits": 291,
     "issues_open": 2,
     "issues_closed": 5,
-    "prs_open": 2,
-    "prs_merged": 85,
+    "prs_open": 0,
+    "prs_merged": 88,
     "prs_closed_unmerged": 4,
     "issues_total": 7,
     "releases": 52,
@@ -48,17 +48,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 75,
+    "commits": 81,
     "issues_opened": 5,
-    "prs_opened": 34,
-    "prs_merged": 32,
+    "prs_opened": 35,
+    "prs_merged": 35,
     "releases": 9,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1972,
-    "clones_unique": 301,
+    "clones_total": 2058,
+    "clones_unique": 255,
     "views_total": 37,
     "views_unique": 17,
     "top_referrers": [
@@ -68,14 +68,14 @@
         "uniques": 8
       },
       {
+        "referrer": "github.com",
+        "count": 6,
+        "uniques": 4
+      },
+      {
         "referrer": "DuckDuckGo",
         "count": 4,
         "uniques": 2
-      },
-      {
-        "referrer": "github.com",
-        "count": 3,
-        "uniques": 3
       },
       {
         "referrer": "search.brave.com",
@@ -87,8 +87,8 @@
       {
         "path": "/netresearch/typo3-docs-skill",
         "title": "Overview",
-        "count": 17,
-        "uniques": 12
+        "count": 18,
+        "uniques": 13
       },
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/AGENTS.md",
@@ -103,14 +103,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-docs-skill/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/SKILL.md",
         "title": "/blob/main/skills/typo3-docs/SKILL.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/tree/main/skills/typo3-docs",
+        "title": "/tree/main/skills/typo3-docs",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/blob/main/docs/ARCHITECTURE.md",
+        "title": "/blob/main/docs/ARCHITECTURE.md",
         "count": 1,
         "uniques": 1
       },
@@ -137,12 +143,6 @@
         "title": "/blob/main/skills/typo3-docs/scripts/check-guides-xml-version-sync.sh",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/issues/75",
-        "title": "/issues/75",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -160,12 +160,12 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 2,
+      "contributions": 5,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 1,
+      "contributions": 4,
       "url": "https://github.com/apps/renovate"
     }
   ],
@@ -176,7 +176,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-docs-skill/network/dependents"
   },
-  "estimated_downstream_reach": 92,
-  "blast_radius": 92,
+  "estimated_downstream_reach": 95,
+  "blast_radius": 95,
   "archived": false
 }

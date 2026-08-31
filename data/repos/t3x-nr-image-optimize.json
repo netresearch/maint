@@ -17,46 +17,51 @@
   "homepage": "https://extensions.typo3.org/extension/nr_image_optimize",
   "default_branch": "main",
   "created_at": "2025-09-12T06:59:28Z",
-  "pushed_at": "2026-08-28T10:00:23Z",
-  "updated_at": "2026-08-26T11:02:16Z",
+  "pushed_at": "2026-08-30T18:38:56Z",
+  "updated_at": "2026-08-30T06:11:05Z",
   "composer_name": "netresearch/nr-image-optimize",
   "lifetime": {
     "stars": 2,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 8,
-    "commits": 478,
+    "open_issues_plus_prs": 6,
+    "commits": 480,
     "issues_open": 4,
     "issues_closed": 11,
-    "prs_open": 4,
-    "prs_merged": 145,
+    "prs_open": 2,
+    "prs_merged": 147,
     "prs_closed_unmerged": 13,
     "issues_total": 15,
     "releases": 22,
     "release_downloads": 8,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 2568,
+    "packagist_downloads": 2576,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 43,
+    "commits": 45,
     "issues_opened": 4,
     "prs_opened": 29,
-    "prs_merged": 24,
+    "prs_merged": 26,
     "releases": 2,
-    "packagist_downloads": 858,
+    "packagist_downloads": 862,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2456,
-    "clones_unique": 188,
-    "views_total": 20,
-    "views_unique": 4,
+    "clones_total": 2510,
+    "clones_unique": 194,
+    "views_total": 38,
+    "views_unique": 5,
     "top_referrers": [
+      {
+        "referrer": "packagist.org",
+        "count": 13,
+        "uniques": 1
+      },
       {
         "referrer": "jira.netresearch.de",
         "count": 7,
@@ -77,8 +82,26 @@
       {
         "path": "/netresearch/t3x-nr-image-optimize",
         "title": "Overview",
-        "count": 7,
-        "uniques": 4
+        "count": 8,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Documentation/Index.rst",
+        "title": "/blob/main/Documentation/Index.rst",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/pulls",
+        "title": "/pulls",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Documentation/CLAUDE.md",
+        "title": "/blob/main/Documentation/CLAUDE.md",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-image-optimize/issues",
@@ -87,8 +110,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-optimize/pulls",
-        "title": "/pulls",
+        "path": "/netresearch/t3x-nr-image-optimize/pull/173",
+        "title": "/pull/173",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/pull/174",
+        "title": "/pull/174",
         "count": 2,
         "uniques": 1
       },
@@ -99,38 +128,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-optimize/commit/c460052",
-        "title": "/commit/c460052",
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Documentation/AGENTS.md",
+        "title": "/blob/main/Documentation/AGENTS.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-optimize/pull/129",
-        "title": "/pull/129",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/pull/174",
-        "title": "/pull/174",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/pull/174/files/234b50b1b091f578fcff766c85aa17c09355d42d..d025150d0cf89443b7ab6bd7876a66a1e97da161",
-        "title": "/pull/174/files/234b50b1b091f578fcff766c85aa17c09355d42d..d025150d0cf89443b7ab6bd7876a66a1e97da161",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/tree/docs/performance-model-main",
-        "title": "/tree/docs/performance-model-main",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/tree/main/Classes",
-        "title": "/tree/main/Classes",
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/Documentation/Developer/Index.rst",
+        "title": "/blob/main/Documentation/Developer/Index.rst",
         "count": 1,
         "uniques": 1
       }
@@ -145,7 +150,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 273,
+      "contributions": 275,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -186,9 +191,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 2568,
-    "monthly": 858,
-    "daily": 5,
+    "total": 2576,
+    "monthly": 862,
+    "daily": 8,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,
@@ -197,7 +202,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-image-optimize/network/dependents"
   },
-  "estimated_downstream_reach": 168,
-  "blast_radius": 168,
+  "estimated_downstream_reach": 170,
+  "blast_radius": 170,
   "archived": false
 }

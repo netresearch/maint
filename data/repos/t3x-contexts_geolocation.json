@@ -53,12 +53,36 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 477,
-    "clones_unique": 44,
-    "views_total": 2,
-    "views_unique": 2,
-    "top_referrers": [],
+    "clones_total": 483,
+    "clones_unique": 47,
+    "views_total": 7,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 5,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-contexts_geolocation/blob/main/CLAUDE.md",
+        "title": "/blob/main/CLAUDE.md",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts_geolocation",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts_geolocation/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/t3x-contexts_geolocation/blob/main/CHANGELOG.md",
         "title": "/blob/main/CHANGELOG.md",
@@ -68,6 +92,12 @@
       {
         "path": "/netresearch/t3x-contexts_geolocation/blob/main/Configuration/AGENTS.md",
         "title": "/blob/main/Configuration/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts_geolocation/blob/main/README.md",
+        "title": "/blob/main/README.md",
         "count": 1,
         "uniques": 1
       }

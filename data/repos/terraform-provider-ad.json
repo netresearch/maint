@@ -21,13 +21,13 @@
     "forks": 0,
     "watchers": 1,
     "network": 80,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 0,
     "commits": 203,
     "issues_open": 0,
     "issues_closed": 0,
-    "prs_open": 1,
+    "prs_open": 0,
     "prs_merged": 22,
-    "prs_closed_unmerged": 3,
+    "prs_closed_unmerged": 4,
     "issues_total": 0,
     "releases": 4,
     "release_downloads": 569,
@@ -48,23 +48,41 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 143,
-    "clones_unique": 39,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 149,
+    "clones_unique": 45,
+    "views_total": 6,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
+        "count": 6,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/terraform-provider-ad",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/commit/7f33ec9d0f77ee81ec32b3912e9c8148d96c0103",
+        "title": "/commit/7f33ec9d0f77ee81ec32b3912e9c8148d96c0103",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/commits/main",
+        "title": "/commits/main",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/pulls",
+        "title": "/pulls",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },

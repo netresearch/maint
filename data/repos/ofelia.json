@@ -42,28 +42,28 @@
     "contributors": 45,
     "external_contributors": 39,
     "packagist_downloads": 0,
-    "ghcr_downloads": 361714,
+    "ghcr_downloads": 363775,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
     "commits": 89,
-    "issues_opened": 9,
+    "issues_opened": 8,
     "prs_opened": 35,
     "prs_merged": 29,
     "releases": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 59760
+    "ghcr_downloads": 59981
   },
   "traffic_14d": {
-    "clones_total": 884,
-    "clones_unique": 112,
-    "views_total": 306,
-    "views_unique": 54,
+    "clones_total": 856,
+    "clones_unique": 104,
+    "views_total": 272,
+    "views_unique": 52,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 81,
+        "count": 65,
         "uniques": 18
       },
       {
@@ -82,7 +82,12 @@
         "uniques": 1
       },
       {
-        "referrer": "reddit.com",
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "awesome-go.com",
         "count": 1,
         "uniques": 1
       }
@@ -91,13 +96,13 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 43,
+        "count": 44,
         "uniques": 20
       },
       {
         "path": "/netresearch/ofelia/issues",
         "title": "/issues",
-        "count": 21,
+        "count": 15,
         "uniques": 5
       },
       {
@@ -115,7 +120,7 @@
       {
         "path": "/netresearch/ofelia/blob/main/docs/jobs.md",
         "title": "/blob/main/docs/jobs.md",
-        "count": 11,
+        "count": 10,
         "uniques": 3
       },
       {
@@ -131,12 +136,6 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/ofelia/tree/main",
-        "title": "/tree/main",
-        "count": 4,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/ofelia/issues/357",
         "title": "/issues/357",
         "count": 4,
@@ -147,6 +146,12 @@
         "title": "/blob/main/docs/webhooks.md",
         "count": 4,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/ofelia/compare/v0.27.0...v0.27.1",
+        "title": "/compare/v0.27.0...v0.27.1",
+        "count": 3,
+        "uniques": 3
       }
     ]
   },
@@ -214,12 +219,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 361714,
-        "thirty_day": 59760
+        "total": 363775,
+        "thirty_day": 59981
       }
     ],
-    "total": 361714,
-    "thirty_day": 59760
+    "total": 363775,
+    "thirty_day": 59981
   },
   "dependents": {
     "repositories": 0,

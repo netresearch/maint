@@ -33,7 +33,7 @@
     "release_downloads": 36,
     "contributors": 13,
     "external_contributors": 7,
-    "packagist_downloads": 22854,
+    "packagist_downloads": 22860,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
@@ -44,12 +44,12 @@
     "prs_opened": 28,
     "prs_merged": 26,
     "releases": 1,
-    "packagist_downloads": 3544,
+    "packagist_downloads": 3277,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1391,
-    "clones_unique": 91,
+    "clones_total": 1385,
+    "clones_unique": 92,
     "views_total": 10,
     "views_unique": 10,
     "top_referrers": [
@@ -66,20 +66,26 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/t3x-contexts",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-contexts/issues/12",
+        "title": "/issues/12",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-contexts/issues/18",
         "title": "/issues/18",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-contexts/issues/25",
         "title": "/issues/25",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-contexts",
-        "title": "Overview",
         "count": 2,
         "uniques": 2
       },
@@ -90,8 +96,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-contexts/issues/12",
-        "title": "/issues/12",
+        "path": "/netresearch/t3x-contexts/releases",
+        "title": "/releases",
         "count": 1,
         "uniques": 1
       }
@@ -157,9 +163,9 @@
   ],
   "packagist": {
     "name": "netresearch/contexts",
-    "total": 22854,
-    "monthly": 3544,
-    "daily": 28,
+    "total": 22860,
+    "monthly": 3277,
+    "daily": 6,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,
