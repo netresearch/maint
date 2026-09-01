@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-10T11:16:02Z",
-  "pushed_at": "2026-08-30T21:03:46Z",
-  "updated_at": "2026-08-30T17:18:03Z",
+  "pushed_at": "2026-08-31T22:14:30Z",
+  "updated_at": "2026-08-31T19:55:12Z",
   "composer_name": null,
   "lifetime": {
     "stars": 3,
@@ -19,11 +19,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 221,
+    "commits": 222,
     "issues_open": 2,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 92,
+    "prs_merged": 93,
     "prs_closed_unmerged": 2,
     "issues_total": 4,
     "releases": 20,
@@ -36,28 +36,28 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 74,
+    "commits": 70,
     "issues_opened": 3,
-    "prs_opened": 31,
-    "prs_merged": 31,
+    "prs_opened": 30,
+    "prs_merged": 30,
     "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1419,
-    "clones_unique": 127,
-    "views_total": 11,
-    "views_unique": 7,
+    "clones_total": 1517,
+    "clones_unique": 132,
+    "views_total": 14,
+    "views_unique": 9,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 7,
+        "uniques": 5
+      },
       {
         "referrer": "github.com",
         "count": 6,
-        "uniques": 3
-      },
-      {
-        "referrer": "Google",
-        "count": 4,
         "uniques": 3
       }
     ],
@@ -65,8 +65,14 @@
       {
         "path": "/netresearch/github-release-skill",
         "title": "Overview",
-        "count": 5,
-        "uniques": 5
+        "count": 6,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/github-release-skill/releases",
+        "title": "/releases",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/github-release-skill/actions/workflows/labeler.yml",
@@ -93,12 +99,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/github-release-skill/releases",
-        "title": "/releases",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/github-release-skill/tree/main/skills/github-release",
         "title": "/tree/main/skills/github-release",
         "count": 1,
@@ -120,7 +120,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 8,
+      "contributions": 9,
       "url": "https://github.com/apps/renovate"
     }
   ],
@@ -131,7 +131,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-release-skill/network/dependents"
   },
-  "estimated_downstream_reach": 96,
-  "blast_radius": 96,
+  "estimated_downstream_reach": 97,
+  "blast_radius": 97,
   "archived": false
 }
