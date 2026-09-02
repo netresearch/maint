@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 3,
-    "packagist_downloads": 233550,
+    "packagist_downloads": 233688,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,15 +43,20 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5038,
+    "packagist_downloads": 4948,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 19,
-    "clones_unique": 17,
-    "views_total": 1,
-    "views_unique": 1,
+    "clones_total": 13,
+    "clones_unique": 11,
+    "views_total": 3,
+    "views_unique": 2,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 2,
+        "uniques": 1
+      },
       {
         "referrer": "Google",
         "count": 1,
@@ -62,6 +67,12 @@
       {
         "path": "/netresearch/deutschepost-module-internetmarke",
         "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/deutschepost-module-internetmarke/commit/2cda811a38ccc5b1fe21e774d16486404d6278c3",
+        "title": "/commit/2cda811a38ccc5b1fe21e774d16486404d6278c3",
         "count": 1,
         "uniques": 1
       }
@@ -92,9 +103,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-internetmarke",
-    "total": 233550,
-    "monthly": 5038,
-    "daily": 200,
+    "total": 233688,
+    "monthly": 4948,
+    "daily": 119,
     "url": "https://packagist.org/packages/deutschepost/module-internetmarke"
   },
   "ghcr": null,

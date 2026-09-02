@@ -18,10 +18,10 @@
   "default_branch": "main",
   "created_at": "2025-09-12T06:59:28Z",
   "pushed_at": "2026-08-31T20:42:53Z",
-  "updated_at": "2026-08-31T13:38:41Z",
+  "updated_at": "2026-09-01T11:36:48Z",
   "composer_name": "netresearch/nr-image-optimize",
   "lifetime": {
-    "stars": 2,
+    "stars": 3,
     "forks": 1,
     "watchers": 1,
     "network": 1,
@@ -37,25 +37,25 @@
     "release_downloads": 8,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 2601,
+    "packagist_downloads": 2613,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 46,
+    "commits": 42,
     "issues_opened": 4,
-    "prs_opened": 32,
-    "prs_merged": 27,
+    "prs_opened": 30,
+    "prs_merged": 25,
     "releases": 3,
-    "packagist_downloads": 870,
+    "packagist_downloads": 872,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2666,
-    "clones_unique": 192,
-    "views_total": 38,
-    "views_unique": 5,
+    "clones_total": 3404,
+    "clones_unique": 203,
+    "views_total": 41,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "packagist.org",
@@ -73,6 +73,11 @@
         "uniques": 1
       },
       {
+        "referrer": "extensions.typo3.org",
+        "count": 3,
+        "uniques": 1
+      },
+      {
         "referrer": "github.com",
         "count": 1,
         "uniques": 1
@@ -82,14 +87,20 @@
       {
         "path": "/netresearch/t3x-nr-image-optimize",
         "title": "Overview",
-        "count": 8,
-        "uniques": 5
+        "count": 9,
+        "uniques": 6
       },
       {
         "path": "/netresearch/t3x-nr-image-optimize/blob/main/Documentation/Index.rst",
         "title": "/blob/main/Documentation/Index.rst",
         "count": 4,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/issues",
+        "title": "/issues",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-image-optimize/pulls",
@@ -100,12 +111,6 @@
       {
         "path": "/netresearch/t3x-nr-image-optimize/blob/main/Documentation/CLAUDE.md",
         "title": "/blob/main/Documentation/CLAUDE.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/issues",
-        "title": "/issues",
         "count": 2,
         "uniques": 1
       },
@@ -191,9 +196,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 2601,
-    "monthly": 870,
-    "daily": 22,
+    "total": 2613,
+    "monthly": 872,
+    "daily": 11,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,

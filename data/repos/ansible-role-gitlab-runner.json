@@ -39,32 +39,32 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 2,
+    "commits": 0,
     "issues_opened": 0,
-    "prs_opened": 1,
-    "prs_merged": 1,
+    "prs_opened": 0,
+    "prs_merged": 0,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 24,
-    "clones_unique": 10,
-    "views_total": 22,
+    "clones_total": 25,
+    "clones_unique": 11,
+    "views_total": 17,
     "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 20,
-        "uniques": 5
+        "count": 14,
+        "uniques": 4
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/ansible-role-gitlab-runner",
         "title": "Overview",
-        "count": 7,
-        "uniques": 7
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/ansible-role-gitlab-runner/tree/main",
@@ -73,32 +73,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/ansible-role-gitlab-runner/tree/main/.ansible/roles",
-        "title": "/tree/main/.ansible/roles",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/.ansible/roles/netresearch.gitlab_runner",
-        "title": "/blob/main/.ansible/roles/netresearch.gitlab_runner",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/tasks/cleanup.yml",
-        "title": "/blob/main/tasks/cleanup.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/tasks/install.yml",
-        "title": "/blob/main/tasks/install.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/tasks/registration.yml",
-        "title": "/blob/main/tasks/registration.yml",
+        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/.gitignore",
+        "title": "/blob/main/.gitignore",
         "count": 1,
         "uniques": 1
       },
@@ -117,6 +93,30 @@
       {
         "path": "/netresearch/ansible-role-gitlab-runner/tree/main/.ansible",
         "title": "/tree/main/.ansible",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/tree/main/.ansible/roles",
+        "title": "/tree/main/.ansible/roles",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/tree/main/templates",
+        "title": "/tree/main/templates",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/tree/main/templates/etc",
+        "title": "/tree/main/templates/etc",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/tree/main/vars",
+        "title": "/tree/main/vars",
         "count": 1,
         "uniques": 1
       }
