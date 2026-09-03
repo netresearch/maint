@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-28T09:41:02Z",
-  "pushed_at": "2026-09-01T12:52:56Z",
+  "pushed_at": "2026-09-03T03:11:30Z",
   "updated_at": "2026-09-01T13:21:03Z",
   "composer_name": "netresearch/nr-vault",
   "lifetime": {
@@ -20,11 +20,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 5,
+    "open_issues_plus_prs": 6,
     "commits": 1346,
     "issues_open": 3,
     "issues_closed": 23,
-    "prs_open": 2,
+    "prs_open": 3,
     "prs_merged": 298,
     "prs_closed_unmerged": 13,
     "issues_total": 26,
@@ -32,25 +32,25 @@
     "release_downloads": 261,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 84515,
+    "packagist_downloads": 84929,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 155,
+    "commits": 93,
     "issues_opened": 16,
-    "prs_opened": 53,
-    "prs_merged": 51,
+    "prs_opened": 42,
+    "prs_merged": 38,
     "releases": 2,
-    "packagist_downloads": 33704,
+    "packagist_downloads": 32709,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7411,
-    "clones_unique": 222,
-    "views_total": 26,
-    "views_unique": 6,
+    "clones_total": 5388,
+    "clones_unique": 197,
+    "views_total": 24,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "docs.typo3.org",
@@ -61,19 +61,14 @@
         "referrer": "extensions.typo3.org",
         "count": 5,
         "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 2,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 12,
-        "uniques": 5
+        "count": 11,
+        "uniques": 4
       },
       {
         "path": "/netresearch/t3x-nr-vault/blob/main/AGENTS.md",
@@ -90,12 +85,6 @@
       {
         "path": "/netresearch/t3x-nr-vault/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/blob/main/SECURITY.md",
-        "title": "/blob/main/SECURITY.md",
         "count": 1,
         "uniques": 1
       },
@@ -126,6 +115,12 @@
       {
         "path": "/netresearch/t3x-nr-vault/graphs/code-frequency",
         "title": "/graphs/code-frequency",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/graphs/contributors",
+        "title": "/graphs/contributors",
         "count": 1,
         "uniques": 1
       }
@@ -161,9 +156,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 84515,
-    "monthly": 33704,
-    "daily": 94,
+    "total": 84929,
+    "monthly": 32709,
+    "daily": 351,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,
