@@ -5,78 +5,83 @@
   "description": "TYPO3 extension for automatic cache invalidation based on temporal content (starttime/endtime). Solves TYPO3 Forge Issue #14277 with flexible scoping and timing strategies.",
   "language": "PHP",
   "category": "typo3-extension",
-  "license": "NOASSERTION",
+  "license": "GPL-2.0",
   "topics": [
     "typo3-extension"
   ],
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-30T15:16:56Z",
-  "pushed_at": "2026-09-03T02:00:16Z",
-  "updated_at": "2026-09-03T02:01:21Z",
+  "pushed_at": "2026-09-03T23:00:43Z",
+  "updated_at": "2026-09-03T23:00:20Z",
   "composer_name": "netresearch/nr-temporal-cache",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 225,
+    "open_issues_plus_prs": 1,
+    "commits": 263,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 1,
-    "prs_merged": 68,
+    "prs_open": 0,
+    "prs_merged": 77,
     "prs_closed_unmerged": 12,
     "issues_total": 3,
-    "releases": 1,
-    "release_downloads": 0,
+    "releases": 3,
+    "release_downloads": 24,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 0,
+    "packagist_downloads": 3,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 40,
+    "commits": 73,
     "issues_opened": 1,
-    "prs_opened": 15,
-    "prs_merged": 12,
-    "releases": 0,
-    "packagist_downloads": 0,
+    "prs_opened": 21,
+    "prs_merged": 19,
+    "releases": 2,
+    "packagist_downloads": 3,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 401,
-    "clones_unique": 39,
-    "views_total": 15,
-    "views_unique": 1,
+    "clones_total": 734,
+    "clones_unique": 44,
+    "views_total": 16,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 15,
+        "count": 13,
         "uniques": 1
+      },
+      {
+        "referrer": "linkedin.com",
+        "count": 3,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-temporal-cache",
         "title": "Overview",
-        "count": 15,
-        "uniques": 1
+        "count": 16,
+        "uniques": 4
       }
     ]
   },
   "latest_release": {
-    "name": "v0.9.0-alpha1 - First Alpha Release",
-    "tag_name": "v0.9.0-alpha1",
-    "published_at": "2025-11-17T14:16:54Z",
-    "url": "https://github.com/netresearch/t3x-nr-temporal-cache/releases/tag/v0.9.0-alpha1"
+    "name": "v1.0.0",
+    "tag_name": "v1.0.0",
+    "published_at": "2026-09-03T23:05:09Z",
+    "url": "https://github.com/netresearch/t3x-nr-temporal-cache/releases/tag/v1.0.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 184,
+      "contributions": 222,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -90,14 +95,20 @@
       "url": "https://github.com/apps/github-actions"
     }
   ],
-  "packagist": null,
+  "packagist": {
+    "name": "netresearch/nr-temporal-cache",
+    "total": 3,
+    "monthly": 3,
+    "daily": 3,
+    "url": "https://packagist.org/packages/netresearch/nr-temporal-cache"
+  },
   "ghcr": null,
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-temporal-cache/network/dependents"
   },
-  "estimated_downstream_reach": 71,
-  "blast_radius": 71,
+  "estimated_downstream_reach": 80,
+  "blast_radius": 80,
   "archived": false
 }

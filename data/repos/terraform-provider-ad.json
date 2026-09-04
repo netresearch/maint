@@ -48,23 +48,29 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 123,
-    "clones_unique": 40,
-    "views_total": 7,
-    "views_unique": 4,
+    "clones_total": 121,
+    "clones_unique": 38,
+    "views_total": 10,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 6,
-        "uniques": 3
+        "count": 9,
+        "uniques": 4
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/terraform-provider-ad",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/blob/main/ad/resource_ad_gpo.go",
+        "title": "/blob/main/ad/resource_ad_gpo.go",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/terraform-provider-ad/commit/7f33ec9d0f77ee81ec32b3912e9c8148d96c0103",
@@ -87,6 +93,12 @@
       {
         "path": "/netresearch/terraform-provider-ad/pulls",
         "title": "/pulls",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/tree/main/ad",
+        "title": "/tree/main/ad",
         "count": 1,
         "uniques": 1
       }

@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 5,
-    "packagist_downloads": 260872,
+    "packagist_downloads": 261027,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 2
@@ -47,13 +47,13 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5138,
+    "packagist_downloads": 5066,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 50,
-    "clones_unique": 42,
-    "views_total": 19,
+    "clones_unique": 41,
+    "views_total": 23,
     "views_unique": 6,
     "top_referrers": [],
     "top_paths": [
@@ -66,8 +66,20 @@
       {
         "path": "/netresearch/dhl-module-carrier-paket/wiki/Documentation-German",
         "title": "/wiki/Documentation-German",
-        "count": 5,
+        "count": 6,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/wiki/Documentation-English",
+        "title": "/wiki/Documentation-English",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/issues/2",
+        "title": "/issues/2",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/dhl-module-carrier-paket/tags",
@@ -78,18 +90,6 @@
       {
         "path": "/netresearch/dhl-module-carrier-paket/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-carrier-paket/issues/2",
-        "title": "/issues/2",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-carrier-paket/issues/8",
-        "title": "/issues/8",
         "count": 1,
         "uniques": 1
       }
@@ -140,9 +140,9 @@
   ],
   "packagist": {
     "name": "dhl/module-carrier-paket",
-    "total": 260872,
-    "monthly": 5138,
-    "daily": 191,
+    "total": 261027,
+    "monthly": 5066,
+    "daily": 140,
     "url": "https://packagist.org/packages/dhl/module-carrier-paket"
   },
   "ghcr": null,

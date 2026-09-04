@@ -38,21 +38,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 31,
+    "commits": 25,
     "issues_opened": 2,
-    "prs_opened": 14,
-    "prs_merged": 13,
+    "prs_opened": 12,
+    "prs_merged": 11,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 608,
-    "clones_unique": 51,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 505,
+    "clones_unique": 43,
+    "views_total": 2,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-saml-auth/blob/main/packaging_exclude.php",
+        "title": "/blob/main/packaging_exclude.php",
+        "count": 2,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "10.0.10",

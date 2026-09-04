@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:13Z",
-  "pushed_at": "2026-08-28T20:35:54Z",
-  "updated_at": "2026-08-28T20:39:20Z",
+  "pushed_at": "2026-09-03T23:03:33Z",
+  "updated_at": "2026-09-03T23:01:56Z",
   "composer_name": null,
   "lifetime": {
     "stars": 35,
@@ -21,11 +21,11 @@
     "watchers": 1,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 201,
+    "commits": 205,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 74,
+    "prs_merged": 76,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 15,
@@ -38,24 +38,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 20,
+    "commits": 24,
     "issues_opened": 0,
-    "prs_opened": 10,
-    "prs_merged": 10,
+    "prs_opened": 12,
+    "prs_merged": 12,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1506,
-    "clones_unique": 288,
-    "views_total": 208,
-    "views_unique": 94,
+    "clones_total": 1514,
+    "clones_unique": 291,
+    "views_total": 213,
+    "views_unique": 95,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 119,
-        "uniques": 66
+        "count": 123,
+        "uniques": 65
       },
       {
         "referrer": "github.com",
@@ -102,26 +102,20 @@
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 118,
-        "uniques": 89
-      },
-      {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
-        "title": "/blob/main/skills/file-search/SKILL.md",
-        "count": 12,
-        "uniques": 11
+        "count": 119,
+        "uniques": 90
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 12,
-        "uniques": 10
+        "count": 14,
+        "uniques": 12
       },
       {
-        "path": "/netresearch/file-search-skill/issues",
-        "title": "/issues",
-        "count": 5,
-        "uniques": 3
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
+        "title": "/blob/main/skills/file-search/SKILL.md",
+        "count": 13,
+        "uniques": 12
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/search-strategies.md",
@@ -130,10 +124,22 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/file-search-skill/issues",
+        "title": "/issues",
+        "count": 4,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search/evals",
         "title": "/tree/main/skills/file-search/evals",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ripgrep-patterns.md",
+        "title": "/blob/main/skills/file-search/references/ripgrep-patterns.md",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/file-search-skill/pulls",
@@ -152,12 +158,6 @@
         "title": "/pull/71",
         "count": 3,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/evals/evals.json",
-        "title": "/blob/main/skills/file-search/evals/evals.json",
-        "count": 2,
-        "uniques": 2
       }
     ]
   },
@@ -175,12 +175,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 40,
+      "contributions": 42,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 39,
+      "contributions": 41,
       "url": "https://github.com/apps/github-actions"
     }
   ],
@@ -191,7 +191,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/file-search-skill/network/dependents"
   },
-  "estimated_downstream_reach": 81,
-  "blast_radius": 81,
+  "estimated_downstream_reach": 83,
+  "blast_radius": 83,
   "archived": false
 }
