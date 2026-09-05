@@ -12,20 +12,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-30T15:16:56Z",
-  "pushed_at": "2026-09-03T23:00:43Z",
-  "updated_at": "2026-09-03T23:00:20Z",
+  "pushed_at": "2026-09-04T22:59:42Z",
+  "updated_at": "2026-09-04T06:30:52Z",
   "composer_name": "netresearch/nr-temporal-cache",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
-    "commits": 263,
+    "open_issues_plus_prs": 2,
+    "commits": 266,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 0,
-    "prs_merged": 77,
+    "prs_open": 1,
+    "prs_merged": 78,
     "prs_closed_unmerged": 12,
     "issues_total": 3,
     "releases": 3,
@@ -38,37 +38,48 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 73,
+    "commits": 64,
     "issues_opened": 1,
-    "prs_opened": 21,
-    "prs_merged": 19,
+    "prs_opened": 17,
+    "prs_merged": 16,
     "releases": 2,
     "packagist_downloads": 3,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 734,
-    "clones_unique": 44,
-    "views_total": 16,
-    "views_unique": 4,
+    "clones_total": 3544,
+    "clones_unique": 120,
+    "views_total": 18,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 13,
+        "count": 12,
         "uniques": 1
       },
       {
         "referrer": "linkedin.com",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-temporal-cache",
         "title": "Overview",
-        "count": 16,
-        "uniques": 4
+        "count": 17,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/releases",
+        "title": "/releases",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -81,7 +92,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 222,
+      "contributions": 225,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -99,7 +110,7 @@
     "name": "netresearch/nr-temporal-cache",
     "total": 3,
     "monthly": 3,
-    "daily": 3,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-temporal-cache"
   },
   "ghcr": null,
@@ -108,7 +119,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-temporal-cache/network/dependents"
   },
-  "estimated_downstream_reach": 80,
-  "blast_radius": 80,
+  "estimated_downstream_reach": 81,
+  "blast_radius": 81,
   "archived": false
 }

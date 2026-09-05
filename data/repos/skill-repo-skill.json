@@ -42,22 +42,27 @@
   "recent_30d": {
     "commits": 173,
     "issues_opened": 18,
-    "prs_opened": 72,
-    "prs_merged": 69,
+    "prs_opened": 70,
+    "prs_merged": 67,
     "releases": 13,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7988,
+    "clones_total": 8978,
     "clones_unique": 298,
-    "views_total": 266,
-    "views_unique": 140,
+    "views_total": 263,
+    "views_unique": 136,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 221,
-        "uniques": 112
+        "uniques": 111
+      },
+      {
+        "referrer": "github.com",
+        "count": 9,
+        "uniques": 6
       },
       {
         "referrer": "search.brave.com",
@@ -65,40 +70,35 @@
         "uniques": 7
       },
       {
-        "referrer": "github.com",
-        "count": 8,
-        "uniques": 5
-      },
-      {
         "referrer": "perplexity.ai",
-        "count": 6,
-        "uniques": 4
+        "count": 5,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/skill-repo-skill",
         "title": "Overview",
-        "count": 158,
-        "uniques": 133
+        "count": 155,
+        "uniques": 130
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo",
         "title": "/tree/main/skills/skill-repo",
-        "count": 24,
-        "uniques": 19
+        "count": 23,
+        "uniques": 18
       },
       {
         "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
         "title": "/blob/main/skills/skill-repo/SKILL.md",
-        "count": 10,
-        "uniques": 10
+        "count": 9,
+        "uniques": 9
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/evals",
         "title": "/tree/main/skills/skill-repo/evals",
-        "count": 8,
-        "uniques": 6
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/scripts/validate-skill.sh",
@@ -107,16 +107,10 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/evals/evals.json",
-        "title": "/blob/main/skills/skill-repo/evals/evals.json",
-        "count": 6,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/templates",
         "title": "/tree/main/skills/skill-repo/templates",
-        "count": 5,
-        "uniques": 5
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/scripts",
@@ -125,14 +119,20 @@
         "uniques": 4
       },
       {
+        "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/evals/evals.json",
+        "title": "/blob/main/skills/skill-repo/evals/evals.json",
+        "count": 5,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/skill-repo-skill/tree/main/skills",
         "title": "/tree/main/skills",
         "count": 4,
         "uniques": 3
       },
       {
-        "path": "/netresearch/skill-repo-skill/releases",
-        "title": "/releases",
+        "path": "/netresearch/skill-repo-skill/tree/main/docs",
+        "title": "/tree/main/docs",
         "count": 3,
         "uniques": 3
       }

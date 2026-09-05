@@ -38,27 +38,64 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 2954,
+    "packagist_downloads": 2966,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 18,
+    "commits": 10,
     "issues_opened": 1,
-    "prs_opened": 10,
-    "prs_merged": 8,
+    "prs_opened": 5,
+    "prs_merged": 5,
     "releases": 0,
     "packagist_downloads": 1074,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 375,
-    "clones_unique": 41,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 417,
+    "clones_unique": 38,
+    "views_total": 7,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap",
+        "title": "Overview",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap/actions",
+        "title": "/actions",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap/issues",
+        "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap/issues/8",
+        "title": "/issues/8",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap/pulls",
+        "title": "/pulls",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "13.0.6",
@@ -95,9 +132,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-sitemap",
-    "total": 2954,
+    "total": 2966,
     "monthly": 1074,
-    "daily": 48,
+    "daily": 11,
     "url": "https://packagist.org/packages/netresearch/nr-image-sitemap"
   },
   "ghcr": null,

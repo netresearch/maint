@@ -57,35 +57,28 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 185,
-    "clones_unique": 43,
-    "views_total": 16,
+    "clones_total": 198,
+    "clones_unique": 45,
+    "views_total": 10,
     "views_unique": 6,
     "top_referrers": [
       {
+        "referrer": "chatgpt.com",
+        "count": 5,
+        "uniques": 1
+      },
+      {
         "referrer": "Google",
-        "count": 4,
-        "uniques": 4
+        "count": 3,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/assetpicker",
         "title": "Overview",
-        "count": 9,
+        "count": 5,
         "uniques": 5
-      },
-      {
-        "path": "/netresearch/assetpicker/tree/main/app",
-        "title": "/tree/main/app",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/assetpicker/actions",
-        "title": "/actions",
-        "count": 1,
-        "uniques": 1
       },
       {
         "path": "/netresearch/assetpicker/actions/runs/31952987592",
@@ -94,20 +87,26 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/assetpicker/blob/main/app/index.html",
-        "title": "/blob/main/app/index.html",
+        "path": "/netresearch/assetpicker/blob/main/src/php/AssetPicker/Proxy.php",
+        "title": "/blob/main/src/php/AssetPicker/Proxy.php",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/assetpicker/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/assetpicker/tree/main/app",
+        "title": "/tree/main/app",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/assetpicker/tree/main/app/tests",
-        "title": "/tree/main/app/tests",
+        "path": "/netresearch/assetpicker/tree/main/app/src",
+        "title": "/tree/main/app/src",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/assetpicker/tree/main/src/php/AssetPicker",
+        "title": "/tree/main/src/php/AssetPicker",
         "count": 1,
         "uniques": 1
       }

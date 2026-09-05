@@ -62,20 +62,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 639,
-    "clones_unique": 216,
-    "views_total": 210,
-    "views_unique": 63,
+    "clones_total": 660,
+    "clones_unique": 227,
+    "views_total": 216,
+    "views_unique": 60,
     "top_referrers": [
       {
-        "referrer": "github.com",
-        "count": 18,
-        "uniques": 11
+        "referrer": "Google",
+        "count": 22,
+        "uniques": 16
       },
       {
-        "referrer": "Google",
-        "count": 16,
-        "uniques": 14
+        "referrer": "github.com",
+        "count": 17,
+        "uniques": 10
       },
       {
         "referrer": "awesome-go.com",
@@ -91,20 +91,25 @@
         "referrer": "teams.public.onecdn.static.microsoft",
         "count": 2,
         "uniques": 1
+      },
+      {
+        "referrer": "upstash.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 70,
-        "uniques": 45
+        "count": 72,
+        "uniques": 43
       },
       {
         "path": "/netresearch/go-cron/issues",
         "title": "/issues",
-        "count": 12,
-        "uniques": 4
+        "count": 13,
+        "uniques": 5
       },
       {
         "path": "/netresearch/go-cron/discussions",
@@ -113,8 +118,20 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/go-cron/blob/main/docs/PERSISTENCE_GUIDE.md",
+        "title": "/blob/main/docs/PERSISTENCE_GUIDE.md",
+        "count": 4,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/go-cron/blob/main/realtime_test.go",
         "title": "/blob/main/realtime_test.go",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/tree/main",
+        "title": "/tree/main",
         "count": 4,
         "uniques": 2
       },
@@ -125,22 +142,10 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/go-cron/pulls",
-        "title": "/pulls",
-        "count": 3,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/go-cron/releases",
         "title": "/releases",
         "count": 3,
         "uniques": 3
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/docs/PERSISTENCE_GUIDE.md",
-        "title": "/blob/main/docs/PERSISTENCE_GUIDE.md",
-        "count": 3,
-        "uniques": 2
       },
       {
         "path": "/netresearch/go-cron/releases/tag/v0.16.0",

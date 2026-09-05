@@ -16,8 +16,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2024-04-24T13:18:29Z",
-  "pushed_at": "2026-09-03T17:38:16Z",
-  "updated_at": "2026-09-03T13:39:02Z",
+  "pushed_at": "2026-09-05T01:01:39Z",
+  "updated_at": "2026-09-04T21:29:27Z",
   "composer_name": "netresearch/universal-messenger",
   "lifetime": {
     "stars": 6,
@@ -25,41 +25,46 @@
     "watchers": 3,
     "network": 0,
     "open_issues_plus_prs": 23,
-    "commits": 254,
+    "commits": 276,
     "issues_open": 23,
-    "issues_closed": 39,
+    "issues_closed": 41,
     "prs_open": 0,
-    "prs_merged": 84,
+    "prs_merged": 87,
     "prs_closed_unmerged": 15,
-    "issues_total": 62,
-    "releases": 11,
-    "release_downloads": 1,
+    "issues_total": 64,
+    "releases": 12,
+    "release_downloads": 11,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 44,
+    "packagist_downloads": 45,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 63,
-    "issues_opened": 29,
-    "prs_opened": 27,
+    "commits": 77,
+    "issues_opened": 31,
+    "prs_opened": 25,
     "prs_merged": 25,
-    "releases": 3,
-    "packagist_downloads": 4,
+    "releases": 4,
+    "packagist_downloads": 5,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 807,
-    "clones_unique": 88,
-    "views_total": 10,
-    "views_unique": 9,
+    "clones_total": 2667,
+    "clones_unique": 143,
+    "views_total": 11,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 3,
         "uniques": 2
+      },
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "packagist.org",
@@ -79,19 +84,25 @@
         "title": "/blob/main/AGENTS.md",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-universal-messenger/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v3.0.4",
-    "tag_name": "v3.0.4",
-    "published_at": "2026-09-03T13:41:34Z",
-    "url": "https://github.com/netresearch/t3x-universal-messenger/releases/tag/v3.0.4"
+    "name": "v3.0.5",
+    "tag_name": "v3.0.5",
+    "published_at": "2026-09-05T01:03:32Z",
+    "url": "https://github.com/netresearch/t3x-universal-messenger/releases/tag/v3.0.5"
   },
   "top_contributors": [
     {
       "login": "magicsunday",
-      "contributions": 162,
+      "contributions": 184,
       "url": "https://github.com/magicsunday"
     },
     {
@@ -117,9 +128,9 @@
   ],
   "packagist": {
     "name": "netresearch/universal-messenger",
-    "total": 44,
-    "monthly": 4,
-    "daily": 2,
+    "total": 45,
+    "monthly": 5,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/universal-messenger"
   },
   "ghcr": null,
@@ -128,7 +139,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-universal-messenger/network/dependents"
   },
-  "estimated_downstream_reach": 146,
-  "blast_radius": 146,
+  "estimated_downstream_reach": 151,
+  "blast_radius": 151,
   "archived": false
 }
