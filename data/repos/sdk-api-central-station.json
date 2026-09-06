@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 857,
+    "packagist_downloads": 859,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,25 +43,25 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 88,
+    "packagist_downloads": 89,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 157,
-    "clones_unique": 20,
+    "clones_total": 158,
+    "clones_unique": 19,
     "views_total": 5,
-    "views_unique": 5,
-    "top_referrers": [],
+    "views_unique": 4,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
-        "path": "/netresearch/sdk-api-central-station/issues/25",
-        "title": "/issues/25",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/sdk-api-central-station/actions/runs/19594515685",
-        "title": "/actions/runs/19594515685",
+        "path": "/netresearch/sdk-api-central-station",
+        "title": "Overview",
         "count": 1,
         "uniques": 1
       },
@@ -74,6 +74,18 @@
       {
         "path": "/netresearch/sdk-api-central-station/blob/main/doc/People/Protocols.md",
         "title": "/blob/main/doc/People/Protocols.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-central-station/issues/25",
+        "title": "/issues/25",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-central-station/releases/tag/2.0.7",
+        "title": "/releases/tag/2.0.7",
         "count": 1,
         "uniques": 1
       }
@@ -109,9 +121,9 @@
   ],
   "packagist": {
     "name": "netresearch/sdk-api-central-station",
-    "total": 857,
-    "monthly": 88,
-    "daily": 0,
+    "total": 859,
+    "monthly": 89,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/sdk-api-central-station"
   },
   "ghcr": null,

@@ -20,8 +20,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-29T21:10:49Z",
-  "pushed_at": "2026-09-04T00:37:21Z",
-  "updated_at": "2026-09-04T00:36:43Z",
+  "pushed_at": "2026-09-05T13:18:18Z",
+  "updated_at": "2026-09-05T13:17:36Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -29,11 +29,11 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 171,
+    "commits": 173,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 57,
+    "prs_merged": 58,
     "prs_closed_unmerged": 1,
     "issues_total": 2,
     "releases": 27,
@@ -46,24 +46,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 24,
+    "commits": 26,
     "issues_opened": 0,
-    "prs_opened": 12,
-    "prs_merged": 12,
+    "prs_opened": 13,
+    "prs_merged": 13,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2160,
-    "clones_unique": 187,
-    "views_total": 52,
-    "views_unique": 21,
+    "clones_total": 2373,
+    "clones_unique": 190,
+    "views_total": 46,
+    "views_unique": 16,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 25,
-        "uniques": 12
+        "count": 24,
+        "uniques": 9
       },
       {
         "referrer": "skills.sh",
@@ -71,14 +71,9 @@
         "uniques": 1
       },
       {
-        "referrer": "chatgpt.com",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "search.brave.com",
@@ -90,14 +85,14 @@
       {
         "path": "/netresearch/cli-tools-skill",
         "title": "Overview",
-        "count": 17,
-        "uniques": 17
+        "count": 15,
+        "uniques": 14
       },
       {
         "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/SKILL.md",
         "title": "/blob/main/skills/cli-tools/SKILL.md",
-        "count": 7,
-        "uniques": 6
+        "count": 8,
+        "uniques": 7
       },
       {
         "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools",
@@ -106,32 +101,20 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/cli-tools-skill/tree/main",
-        "title": "/tree/main",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools/references",
-        "title": "/tree/main/skills/cli-tools/references",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/references/preferred-tools.md",
-        "title": "/blob/main/skills/cli-tools/references/preferred-tools.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/scripts/install_tool.sh",
-        "title": "/blob/main/skills/cli-tools/scripts/install_tool.sh",
+        "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/references/binary_to_tool_map.md",
+        "title": "/blob/main/skills/cli-tools/references/binary_to_tool_map.md",
         "count": 2,
         "uniques": 2
       },
       {
         "path": "/netresearch/cli-tools-skill/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools/references",
+        "title": "/tree/main/skills/cli-tools/references",
         "count": 2,
         "uniques": 1
       },
@@ -144,6 +127,18 @@
       {
         "path": "/netresearch/cli-tools-skill/blame/main/skills/cli-tools/SKILL.md",
         "title": "/blame/main/skills/cli-tools/SKILL.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/blob/main/.claude-plugin/plugin.json",
+        "title": "/blob/main/.claude-plugin/plugin.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/cli-tools-skill/blob/main/.pre-commit-config.yaml",
+        "title": "/blob/main/.pre-commit-config.yaml",
         "count": 1,
         "uniques": 1
       }
@@ -163,12 +158,12 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 11,
+      "contributions": 12,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 10,
+      "contributions": 11,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -194,7 +189,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/cli-tools-skill/network/dependents"
   },
-  "estimated_downstream_reach": 66,
-  "blast_radius": 66,
+  "estimated_downstream_reach": 67,
+  "blast_radius": 67,
   "archived": false
 }
