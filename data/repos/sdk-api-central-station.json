@@ -43,14 +43,14 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 86,
+    "packagist_downloads": 85,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 157,
+    "clones_total": 159,
     "clones_unique": 19,
-    "views_total": 7,
-    "views_unique": 6,
+    "views_total": 6,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -66,6 +66,12 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/sdk-api-central-station/actions/workflows/ci.yml",
+        "title": "/actions/workflows/ci.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/sdk-api-central-station/blob/main/doc/Endpoints.md",
         "title": "/blob/main/doc/Endpoints.md",
         "count": 1,
@@ -74,18 +80,6 @@
       {
         "path": "/netresearch/sdk-api-central-station/blob/main/doc/People/Addresses.md",
         "title": "/blob/main/doc/People/Addresses.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/sdk-api-central-station/blob/main/doc/People/Protocols.md",
-        "title": "/blob/main/doc/People/Protocols.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/sdk-api-central-station/issues/25",
-        "title": "/issues/25",
         "count": 1,
         "uniques": 1
       },
@@ -128,7 +122,7 @@
   "packagist": {
     "name": "netresearch/sdk-api-central-station",
     "total": 859,
-    "monthly": 86,
+    "monthly": 85,
     "daily": 0,
     "url": "https://packagist.org/packages/netresearch/sdk-api-central-station"
   },

@@ -12,24 +12,24 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-23T21:54:50Z",
-  "pushed_at": "2026-09-07T22:59:36Z",
-  "updated_at": "2026-09-05T13:54:48Z",
+  "pushed_at": "2026-09-08T22:36:15Z",
+  "updated_at": "2026-09-09T02:59:33Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 59,
+    "stars": 60,
     "forks": 8,
     "watchers": 1,
     "network": 8,
-    "open_issues_plus_prs": 2,
-    "commits": 138,
+    "open_issues_plus_prs": 1,
+    "commits": 141,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 45,
+    "prs_open": 0,
+    "prs_merged": 46,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 22,
-    "release_downloads": 244,
+    "release_downloads": 245,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -38,34 +38,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 18,
+    "commits": 21,
     "issues_opened": 0,
     "prs_opened": 10,
-    "prs_merged": 9,
+    "prs_merged": 10,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2018,
-    "clones_unique": 430,
-    "views_total": 736,
-    "views_unique": 444,
+    "clones_total": 2174,
+    "clones_unique": 448,
+    "views_total": 767,
+    "views_unique": 468,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 545,
-        "uniques": 362
-      },
-      {
-        "referrer": "github.com",
-        "count": 32,
-        "uniques": 16
+        "count": 561,
+        "uniques": 363
       },
       {
         "referrer": "search.brave.com",
-        "count": 21,
-        "uniques": 18
+        "count": 34,
+        "uniques": 21
+      },
+      {
+        "referrer": "github.com",
+        "count": 33,
+        "uniques": 17
       },
       {
         "referrer": "Baidu",
@@ -74,8 +74,8 @@
       },
       {
         "referrer": "Bing",
-        "count": 3,
-        "uniques": 2
+        "count": 4,
+        "uniques": 3
       },
       {
         "referrer": "Yahoo",
@@ -88,11 +88,6 @@
         "uniques": 2
       },
       {
-        "referrer": "context7.com",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "referrer": "yandex.ru",
         "count": 2,
         "uniques": 2
@@ -101,54 +96,53 @@
         "referrer": "blog.logrocket.com",
         "count": 2,
         "uniques": 1
+      },
+      {
+        "referrer": "context7.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/context7-skill",
         "title": "Overview",
-        "count": 572,
-        "uniques": 431
+        "count": 596,
+        "uniques": 440
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7",
         "title": "/tree/main/skills/context7",
-        "count": 36,
-        "uniques": 31
+        "count": 38,
+        "uniques": 32
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/SKILL.md",
         "title": "/blob/main/skills/context7/SKILL.md",
-        "count": 33,
-        "uniques": 27
+        "count": 31,
+        "uniques": 26
       },
       {
         "path": "/netresearch/context7-skill/tree/main",
         "title": "/tree/main",
-        "count": 13,
-        "uniques": 6
+        "count": 16,
+        "uniques": 9
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7/scripts",
         "title": "/tree/main/skills/context7/scripts",
-        "count": 9,
-        "uniques": 8
-      },
-      {
-        "path": "/netresearch/context7-skill/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
-        "count": 8,
-        "uniques": 7
+        "count": 11,
+        "uniques": 10
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/scripts/context7.sh",
         "title": "/blob/main/skills/context7/scripts/context7.sh",
-        "count": 7,
-        "uniques": 6
+        "count": 8,
+        "uniques": 7
       },
       {
-        "path": "/netresearch/context7-skill/releases/tag/v1.7.1",
-        "title": "/releases/tag/v1.7.1",
+        "path": "/netresearch/context7-skill/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
         "count": 7,
         "uniques": 6
       },
@@ -163,6 +157,12 @@
         "title": "/blob/main/README.md",
         "count": 6,
         "uniques": 6
+      },
+      {
+        "path": "/netresearch/context7-skill/issues",
+        "title": "/issues",
+        "count": 6,
+        "uniques": 5
       }
     ]
   },
@@ -175,7 +175,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 116,
+      "contributions": 119,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -196,7 +196,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/context7-skill/network/dependents"
   },
-  "estimated_downstream_reach": 62,
-  "blast_radius": 62,
+  "estimated_downstream_reach": 63,
+  "blast_radius": 63,
   "archived": false
 }

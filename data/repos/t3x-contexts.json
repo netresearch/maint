@@ -13,62 +13,56 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2013-03-11T14:10:52Z",
-  "pushed_at": "2026-09-07T22:34:26Z",
-  "updated_at": "2026-09-07T22:31:56Z",
+  "pushed_at": "2026-09-08T03:55:33Z",
+  "updated_at": "2026-09-08T03:55:38Z",
   "composer_name": "netresearch/contexts",
   "lifetime": {
     "stars": 11,
     "forks": 11,
     "watchers": 11,
     "network": 11,
-    "open_issues_plus_prs": 2,
-    "commits": 551,
-    "issues_open": 2,
-    "issues_closed": 22,
+    "open_issues_plus_prs": 1,
+    "commits": 553,
+    "issues_open": 1,
+    "issues_closed": 23,
     "prs_open": 0,
-    "prs_merged": 132,
+    "prs_merged": 133,
     "prs_closed_unmerged": 37,
     "issues_total": 24,
     "releases": 9,
     "release_downloads": 36,
     "contributors": 13,
     "external_contributors": 7,
-    "packagist_downloads": 23161,
+    "packagist_downloads": 23166,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 21,
+    "commits": 23,
     "issues_opened": 5,
-    "prs_opened": 11,
-    "prs_merged": 9,
+    "prs_opened": 12,
+    "prs_merged": 10,
     "releases": 1,
-    "packagist_downloads": 1708,
+    "packagist_downloads": 1559,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 313,
-    "clones_unique": 38,
-    "views_total": 4,
-    "views_unique": 4,
-    "top_referrers": [
-      {
-        "referrer": "search.brave.com",
-        "count": 1,
-        "uniques": 1
-      }
-    ],
+    "clones_total": 583,
+    "clones_unique": 46,
+    "views_total": 3,
+    "views_unique": 3,
+    "top_referrers": [],
     "top_paths": [
-      {
-        "path": "/netresearch/t3x-contexts/issues/12",
-        "title": "/issues/12",
-        "count": 2,
-        "uniques": 2
-      },
       {
         "path": "/netresearch/t3x-contexts",
         "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts/issues/12",
+        "title": "/issues/12",
         "count": 1,
         "uniques": 1
       },
@@ -94,7 +88,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 68,
+      "contributions": 69,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -124,7 +118,7 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 3,
+      "contributions": 4,
       "url": "https://github.com/apps/github-actions"
     },
     {
@@ -140,9 +134,9 @@
   ],
   "packagist": {
     "name": "netresearch/contexts",
-    "total": 23161,
-    "monthly": 1708,
-    "daily": 135,
+    "total": 23166,
+    "monthly": 1559,
+    "daily": 4,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,
@@ -151,7 +145,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts/network/dependents"
   },
-  "estimated_downstream_reach": 207,
-  "blast_radius": 207,
+  "estimated_downstream_reach": 208,
+  "blast_radius": 208,
   "archived": false
 }

@@ -36,7 +36,7 @@
     "contributors": 8,
     "external_contributors": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 28562,
+    "ghcr_downloads": 28564,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -47,23 +47,28 @@
     "prs_merged": 28,
     "releases": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 3087
+    "ghcr_downloads": 3085
   },
   "traffic_14d": {
-    "clones_total": 1569,
-    "clones_unique": 124,
-    "views_total": 128,
+    "clones_total": 1337,
+    "clones_unique": 120,
+    "views_total": 115,
     "views_unique": 44,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 46,
-        "uniques": 27
+        "count": 44,
+        "uniques": 25
       },
       {
         "referrer": "chatgpt.com",
         "count": 17,
         "uniques": 5
+      },
+      {
+        "referrer": "ecosia.org",
+        "count": 5,
+        "uniques": 1
       },
       {
         "referrer": "github.com",
@@ -75,20 +80,8 @@
       {
         "path": "/netresearch/ldap-manager",
         "title": "Overview",
-        "count": 56,
+        "count": 51,
         "uniques": 41
-      },
-      {
-        "path": "/netresearch/ldap-manager/blob/main/docs/user-guide/configuration.md",
-        "title": "/blob/main/docs/user-guide/configuration.md",
-        "count": 6,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/ldap-manager/blob/main/docs/user-guide/installation.md",
-        "title": "/blob/main/docs/user-guide/installation.md",
-        "count": 6,
-        "uniques": 4
       },
       {
         "path": "/netresearch/ldap-manager/tree/main",
@@ -97,28 +90,34 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/ldap-manager/blob/main/compose.yml",
-        "title": "/blob/main/compose.yml",
+        "path": "/netresearch/ldap-manager/blob/main/docs/user-guide/configuration.md",
+        "title": "/blob/main/docs/user-guide/configuration.md",
         "count": 5,
         "uniques": 3
       },
       {
-        "path": "/netresearch/ldap-manager/blob/main/docs/user-guide/implementation-examples.md",
-        "title": "/blob/main/docs/user-guide/implementation-examples.md",
-        "count": 4,
-        "uniques": 2
+        "path": "/netresearch/ldap-manager/blob/main/docs/user-guide/installation.md",
+        "title": "/blob/main/docs/user-guide/installation.md",
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/ldap-manager/blob/main/docs/assets/ldap_manager_users.png",
         "title": "/blob/main/docs/assets/ldap_manager_users.png",
-        "count": 3,
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/ldap-manager/blob/main/compose.yml",
+        "title": "/blob/main/compose.yml",
+        "count": 4,
         "uniques": 3
       },
       {
-        "path": "/netresearch/ldap-manager/blob/main/docs/KNOWLEDGE_BASE.md",
-        "title": "/blob/main/docs/KNOWLEDGE_BASE.md",
+        "path": "/netresearch/ldap-manager/blob/main/Dockerfile",
+        "title": "/blob/main/Dockerfile",
         "count": 3,
-        "uniques": 2
+        "uniques": 3
       },
       {
         "path": "/netresearch/ldap-manager/blob/main/docs/operations/troubleshooting.md",
@@ -127,9 +126,15 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/ldap-manager/tree/main/docs",
-        "title": "/tree/main/docs",
+        "path": "/netresearch/ldap-manager/blob/main/docs/user-guide/api.md",
+        "title": "/blob/main/docs/user-guide/api.md",
         "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ldap-manager/tree/main/scripts",
+        "title": "/tree/main/scripts",
+        "count": 2,
         "uniques": 2
       }
     ]
@@ -188,12 +193,12 @@
       {
         "package": "ldap-manager",
         "url": "https://github.com/netresearch/ldap-manager/pkgs/container/ldap-manager",
-        "total": 28562,
-        "thirty_day": 3087
+        "total": 28564,
+        "thirty_day": 3085
       }
     ],
-    "total": 28562,
-    "thirty_day": 3087
+    "total": 28564,
+    "thirty_day": 3085
   },
   "dependents": {
     "repositories": 0,
