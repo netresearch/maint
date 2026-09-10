@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:20Z",
-  "pushed_at": "2026-09-09T00:52:12Z",
+  "pushed_at": "2026-09-09T09:31:57Z",
   "updated_at": "2026-09-09T00:52:19Z",
   "composer_name": null,
   "lifetime": {
@@ -22,16 +22,16 @@
     "forks": 2,
     "watchers": 1,
     "network": 2,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 4,
     "commits": 337,
-    "issues_open": 2,
+    "issues_open": 3,
     "issues_closed": 0,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 108,
     "prs_closed_unmerged": 4,
-    "issues_total": 2,
+    "issues_total": 3,
     "releases": 42,
-    "release_downloads": 155,
+    "release_downloads": 156,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -41,28 +41,28 @@
   },
   "recent_30d": {
     "commits": 51,
-    "issues_opened": 0,
-    "prs_opened": 22,
+    "issues_opened": 1,
+    "prs_opened": 23,
     "prs_merged": 22,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4361,
-    "clones_unique": 340,
-    "views_total": 343,
-    "views_unique": 184,
+    "clones_total": 4458,
+    "clones_unique": 354,
+    "views_total": 346,
+    "views_unique": 188,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 242,
-        "uniques": 150
+        "count": 252,
+        "uniques": 155
       },
       {
         "referrer": "github.com",
-        "count": 13,
-        "uniques": 9
+        "count": 11,
+        "uniques": 7
       },
       {
         "referrer": "Bing",
@@ -84,38 +84,44 @@
       {
         "path": "/netresearch/php-modernization-skill",
         "title": "Overview",
-        "count": 210,
-        "uniques": 168
-      },
-      {
-        "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/SKILL.md",
-        "title": "/blob/main/skills/php-modernization/SKILL.md",
-        "count": 22,
-        "uniques": 19
+        "count": 220,
+        "uniques": 173
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization",
         "title": "/tree/main/skills/php-modernization",
         "count": 20,
-        "uniques": 18
+        "uniques": 19
+      },
+      {
+        "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/SKILL.md",
+        "title": "/blob/main/skills/php-modernization/SKILL.md",
+        "count": 20,
+        "uniques": 17
       },
       {
         "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/references/php-8.5.md",
         "title": "/blob/main/skills/php-modernization/references/php-8.5.md",
-        "count": 8,
+        "count": 7,
         "uniques": 2
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main",
         "title": "/tree/main",
-        "count": 7,
-        "uniques": 6
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/php-modernization-skill/blob/main/docs/ARCHITECTURE.md",
         "title": "/blob/main/docs/ARCHITECTURE.md",
         "count": 5,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/php-modernization-skill/pulls",
+        "title": "/pulls",
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/references/php8-features.md",
@@ -134,12 +140,6 @@
         "title": "/tree/main/.claude-plugin",
         "count": 4,
         "uniques": 4
-      },
-      {
-        "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/references/phpstan-compliance.md",
-        "title": "/blob/main/skills/php-modernization/references/phpstan-compliance.md",
-        "count": 3,
-        "uniques": 3
       }
     ]
   },
@@ -178,7 +178,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/php-modernization-skill/network/dependents"
   },
-  "estimated_downstream_reach": 114,
-  "blast_radius": 114,
+  "estimated_downstream_reach": 115,
+  "blast_radius": 115,
   "archived": false
 }

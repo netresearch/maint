@@ -18,22 +18,22 @@
   "homepage": "https://github.com/netresearch/retro-skill",
   "default_branch": "main",
   "created_at": "2026-05-12T13:08:08Z",
-  "pushed_at": "2026-09-08T22:57:03Z",
-  "updated_at": "2026-09-08T22:57:07Z",
+  "pushed_at": "2026-09-09T08:38:19Z",
+  "updated_at": "2026-09-09T08:39:05Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 1,
-    "commits": 218,
-    "issues_open": 1,
+    "open_issues_plus_prs": 4,
+    "commits": 221,
+    "issues_open": 2,
     "issues_closed": 5,
-    "prs_open": 0,
-    "prs_merged": 84,
+    "prs_open": 2,
+    "prs_merged": 85,
     "prs_closed_unmerged": 2,
-    "issues_total": 6,
+    "issues_total": 7,
     "releases": 22,
     "release_downloads": 17,
     "contributors": 1,
@@ -44,24 +44,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 70,
-    "issues_opened": 5,
-    "prs_opened": 28,
+    "commits": 71,
+    "issues_opened": 6,
+    "prs_opened": 29,
     "prs_merged": 27,
     "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1781,
-    "clones_unique": 189,
+    "clones_total": 1788,
+    "clones_unique": 186,
     "views_total": 266,
-    "views_unique": 128,
+    "views_unique": 129,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 149,
-        "uniques": 73
+        "count": 147,
+        "uniques": 76
       },
       {
         "referrer": "github.com",
@@ -70,13 +70,13 @@
       },
       {
         "referrer": "chatgpt.com",
-        "count": 15,
-        "uniques": 10
+        "count": 16,
+        "uniques": 11
       },
       {
         "referrer": "Bing",
-        "count": 6,
-        "uniques": 4
+        "count": 8,
+        "uniques": 5
       },
       {
         "referrer": "doc.supplyon.de",
@@ -94,17 +94,12 @@
         "uniques": 1
       },
       {
-        "referrer": "yandex.ru",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "referrer": "ecosia.org",
         "count": 1,
         "uniques": 1
       },
       {
-        "referrer": "perplexity.ai",
+        "referrer": "netresearch.github.io",
         "count": 1,
         "uniques": 1
       }
@@ -113,32 +108,38 @@
       {
         "path": "/netresearch/retro-skill",
         "title": "Overview",
-        "count": 170,
-        "uniques": 112
-      },
-      {
-        "path": "/netresearch/retro-skill/tree/main/skills/retro",
-        "title": "/tree/main/skills/retro",
-        "count": 20,
-        "uniques": 15
+        "count": 177,
+        "uniques": 115
       },
       {
         "path": "/netresearch/retro-skill/blob/main/skills/retro/SKILL.md",
         "title": "/blob/main/skills/retro/SKILL.md",
-        "count": 19,
-        "uniques": 14
+        "count": 17,
+        "uniques": 13
+      },
+      {
+        "path": "/netresearch/retro-skill/tree/main/skills/retro",
+        "title": "/tree/main/skills/retro",
+        "count": 15,
+        "uniques": 13
       },
       {
         "path": "/netresearch/retro-skill/blob/main/docs/specs/retro-skill.md",
         "title": "/blob/main/docs/specs/retro-skill.md",
-        "count": 10,
-        "uniques": 8
+        "count": 11,
+        "uniques": 9
+      },
+      {
+        "path": "/netresearch/retro-skill/tree/main",
+        "title": "/tree/main",
+        "count": 5,
+        "uniques": 4
       },
       {
         "path": "/netresearch/retro-skill/issues",
         "title": "/issues",
-        "count": 6,
-        "uniques": 4
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/retro-skill/tree/main/skills/retro/references",
@@ -147,20 +148,14 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/retro-skill/tree/main",
-        "title": "/tree/main",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/retro-skill/tree/main/skills/retro/scripts",
-        "title": "/tree/main/skills/retro/scripts",
-        "count": 4,
+        "path": "/netresearch/retro-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 3,
         "uniques": 3
       },
       {
-        "path": "/netresearch/retro-skill/blob/main/README.md",
-        "title": "/blob/main/README.md",
+        "path": "/netresearch/retro-skill/tree/main/skills/retro/evals",
+        "title": "/tree/main/skills/retro/evals",
         "count": 3,
         "uniques": 3
       },
@@ -181,7 +176,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 218,
+      "contributions": 221,
       "url": "https://github.com/CybotTM"
     }
   ],
@@ -192,7 +187,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/retro-skill/network/dependents"
   },
-  "estimated_downstream_reach": 92,
-  "blast_radius": 92,
+  "estimated_downstream_reach": 94,
+  "blast_radius": 94,
   "archived": false
 }

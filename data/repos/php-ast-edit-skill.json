@@ -17,24 +17,24 @@
   "homepage": "https://netresearch.github.io/claude-code-marketplace/en/skills/php-structured-edit/",
   "default_branch": "main",
   "created_at": "2026-08-18T21:04:19Z",
-  "pushed_at": "2026-09-09T00:57:38Z",
-  "updated_at": "2026-09-09T00:55:07Z",
+  "pushed_at": "2026-09-09T22:17:41Z",
+  "updated_at": "2026-09-09T22:17:47Z",
   "composer_name": "netresearch/php-ast-edit-skill",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 4,
-    "commits": 145,
-    "issues_open": 3,
+    "open_issues_plus_prs": 5,
+    "commits": 188,
+    "issues_open": 5,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 40,
+    "prs_open": 0,
+    "prs_merged": 51,
     "prs_closed_unmerged": 0,
-    "issues_total": 3,
+    "issues_total": 5,
     "releases": 8,
-    "release_downloads": 32,
+    "release_downloads": 33,
     "contributors": 2,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -43,38 +43,27 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 145,
-    "issues_opened": 3,
-    "prs_opened": 41,
-    "prs_merged": 40,
+    "commits": 188,
+    "issues_opened": 5,
+    "prs_opened": 51,
+    "prs_merged": 51,
     "releases": 8,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6328,
-    "clones_unique": 249,
-    "views_total": 10,
-    "views_unique": 4,
+    "clones_total": 6482,
+    "clones_unique": 265,
+    "views_total": 9,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 4,
-        "uniques": 2
-      },
-      {
-        "referrer": "linkedin.com",
-        "count": 1,
+        "count": 3,
         "uniques": 1
       }
     ],
     "top_paths": [
-      {
-        "path": "/netresearch/php-ast-edit-skill",
-        "title": "Overview",
-        "count": 3,
-        "uniques": 3
-      },
       {
         "path": "/netresearch/php-ast-edit-skill/pull/33",
         "title": "/pull/33",
@@ -85,6 +74,18 @@
         "path": "/netresearch/php-ast-edit-skill/pull/34",
         "title": "/pull/34",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/php-ast-edit-skill",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/php-ast-edit-skill/blob/main/benchmarks/symbol-intent/results/2026-09-07-haiku/REPORT.md",
+        "title": "/blob/main/benchmarks/symbol-intent/results/2026-09-07-haiku/REPORT.md",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -116,7 +117,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 142,
+      "contributions": 185,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -132,7 +133,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/php-ast-edit-skill/network/dependents"
   },
-  "estimated_downstream_reach": 43,
-  "blast_radius": 43,
+  "estimated_downstream_reach": 56,
+  "blast_radius": 56,
   "archived": false
 }

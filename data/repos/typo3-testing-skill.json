@@ -21,25 +21,25 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T08:31:58Z",
-  "pushed_at": "2026-09-09T00:46:31Z",
-  "updated_at": "2026-09-09T00:46:35Z",
+  "pushed_at": "2026-09-10T03:30:49Z",
+  "updated_at": "2026-09-10T03:30:22Z",
   "composer_name": null,
   "lifetime": {
     "stars": 4,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 0,
-    "commits": 470,
-    "issues_open": 0,
+    "open_issues_plus_prs": 1,
+    "commits": 482,
+    "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 138,
+    "prs_merged": 144,
     "prs_closed_unmerged": 6,
-    "issues_total": 3,
+    "issues_total": 4,
     "releases": 57,
-    "release_downloads": 180,
-    "contributors": 3,
+    "release_downloads": 182,
+    "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -47,19 +47,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 63,
-    "issues_opened": 1,
-    "prs_opened": 25,
-    "prs_merged": 24,
+    "commits": 73,
+    "issues_opened": 2,
+    "prs_opened": 30,
+    "prs_merged": 29,
     "releases": 8,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3299,
-    "clones_unique": 224,
-    "views_total": 39,
-    "views_unique": 16,
+    "clones_total": 3439,
+    "clones_unique": 236,
+    "views_total": 37,
+    "views_unique": 14,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -81,8 +81,8 @@
       {
         "path": "/netresearch/typo3-testing-skill",
         "title": "Overview",
-        "count": 18,
-        "uniques": 15
+        "count": 16,
+        "uniques": 13
       },
       {
         "path": "/netresearch/typo3-testing-skill/tree/main",
@@ -153,14 +153,19 @@
       "url": "https://github.com/CybotTM"
     },
     {
+      "login": "github-actions[bot]",
+      "contributions": 8,
+      "url": "https://github.com/apps/github-actions"
+    },
+    {
+      "login": "renovate[bot]",
+      "contributions": 6,
+      "url": "https://github.com/apps/renovate"
+    },
+    {
       "login": "aseemann",
       "contributions": 4,
       "url": "https://github.com/aseemann"
-    },
-    {
-      "login": "github-actions[bot]",
-      "contributions": 2,
-      "url": "https://github.com/apps/github-actions"
     }
   ],
   "packagist": null,
@@ -170,7 +175,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
   },
-  "estimated_downstream_reach": 141,
-  "blast_radius": 141,
+  "estimated_downstream_reach": 148,
+  "blast_radius": 148,
   "archived": false
 }

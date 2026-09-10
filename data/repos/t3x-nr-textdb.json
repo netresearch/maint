@@ -44,7 +44,7 @@
     "release_downloads": 1,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 2204,
+    "packagist_downloads": 2222,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
@@ -52,23 +52,35 @@
   "recent_30d": {
     "commits": 36,
     "issues_opened": 11,
-    "prs_opened": 25,
+    "prs_opened": 24,
     "prs_merged": 22,
     "releases": 1,
-    "packagist_downloads": 988,
+    "packagist_downloads": 850,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 948,
-    "clones_unique": 114,
-    "views_total": 3,
-    "views_unique": 2,
-    "top_referrers": [],
+    "clones_total": 442,
+    "clones_unique": 59,
+    "views_total": 4,
+    "views_unique": 4,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-textdb",
         "title": "Overview",
         "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/main/CONTRIBUTING.md",
+        "title": "/blob/main/CONTRIBUTING.md",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -129,9 +141,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 2204,
-    "monthly": 988,
-    "daily": 5,
+    "total": 2222,
+    "monthly": 850,
+    "daily": 15,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,

@@ -48,12 +48,31 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 13,
+    "clones_total": 14,
     "clones_unique": 9,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "views_total": 3,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 3,
+        "uniques": 2
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/magento2-patches",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/magento2-patches/tree/main/patches",
+        "title": "/tree/main/patches",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": null,
   "top_contributors": [

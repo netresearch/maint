@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-06T00:27:24Z",
-  "pushed_at": "2026-09-08T22:32:29Z",
+  "pushed_at": "2026-09-09T08:45:00Z",
   "updated_at": "2026-09-08T22:32:33Z",
   "composer_name": null,
   "lifetime": {
@@ -22,11 +22,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 230,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 72,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
@@ -42,63 +42,82 @@
   "recent_30d": {
     "commits": 68,
     "issues_opened": 0,
-    "prs_opened": 27,
+    "prs_opened": 28,
     "prs_merged": 27,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4226,
-    "clones_unique": 319,
-    "views_total": 85,
-    "views_unique": 31,
+    "clones_total": 4288,
+    "clones_unique": 326,
+    "views_total": 97,
+    "views_unique": 35,
     "top_referrers": [
       {
         "referrer": "teams.public.onecdn.static.microsoft",
-        "count": 31,
+        "count": 38,
         "uniques": 3
       },
       {
         "referrer": "Google",
-        "count": 21,
-        "uniques": 13
+        "count": 26,
+        "uniques": 17
       },
       {
         "referrer": "github.com",
         "count": 7,
         "uniques": 4
-      },
-      {
-        "referrer": "chatgpt.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main",
-        "title": "/tree/main",
-        "count": 16,
-        "uniques": 10
-      },
-      {
         "path": "/netresearch/typo3-extension-upgrade-skill",
         "title": "Overview",
-        "count": 14,
-        "uniques": 13
+        "count": 16,
+        "uniques": 14
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main",
+        "title": "/tree/main",
+        "count": 15,
+        "uniques": 9
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/references/upgrade-v13-to-v14.md",
         "title": "/blob/main/skills/typo3-extension-upgrade/references/upgrade-v13-to-v14.md",
-        "count": 9,
-        "uniques": 9
+        "count": 12,
+        "uniques": 12
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/scripts/scan-deprecations.sh",
+        "title": "/blob/main/skills/typo3-extension-upgrade/scripts/scan-deprecations.sh",
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade",
         "title": "/tree/main/skills/typo3-extension-upgrade",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade/references",
+        "title": "/tree/main/skills/typo3-extension-upgrade/references",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/agents",
+        "title": "/tree/main/agents",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/agents/upgrade-planner.md",
+        "title": "/blob/main/agents/upgrade-planner.md",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/SKILL.md",
@@ -109,30 +128,6 @@
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/agents/upgrade-planner.md",
-        "title": "/blob/main/agents/upgrade-planner.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/references/api-traps.md",
-        "title": "/blob/main/skills/typo3-extension-upgrade/references/api-traps.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/agents",
-        "title": "/tree/main/agents",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills",
-        "title": "/tree/main/skills",
         "count": 2,
         "uniques": 2
       }

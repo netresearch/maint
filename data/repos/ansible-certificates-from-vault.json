@@ -52,11 +52,16 @@
   "traffic_14d": {
     "clones_total": 1,
     "clones_unique": 1,
-    "views_total": 3,
-    "views_unique": 3,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "Google",
         "count": 1,
         "uniques": 1
       }
@@ -65,8 +70,8 @@
       {
         "path": "/netresearch/ansible-certificates-from-vault",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/ansible-certificates-from-vault/blob/master/tasks/main.yml",
