@@ -12,24 +12,24 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:13Z",
-  "pushed_at": "2026-09-08T22:35:27Z",
-  "updated_at": "2026-09-08T22:36:40Z",
+  "pushed_at": "2026-09-10T23:47:10Z",
+  "updated_at": "2026-09-10T23:46:45Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 36,
+    "stars": 37,
     "forks": 3,
     "watchers": 1,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 210,
+    "commits": 214,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 78,
+    "prs_merged": 80,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 15,
-    "release_downloads": 140,
+    "release_downloads": 145,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -38,24 +38,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 23,
+    "commits": 27,
     "issues_opened": 0,
-    "prs_opened": 11,
-    "prs_merged": 11,
+    "prs_opened": 13,
+    "prs_merged": 13,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1957,
-    "clones_unique": 295,
-    "views_total": 207,
-    "views_unique": 90,
+    "clones_total": 1978,
+    "clones_unique": 292,
+    "views_total": 194,
+    "views_unique": 96,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 105,
-        "uniques": 55
+        "count": 110,
+        "uniques": 59
+      },
+      {
+        "referrer": "skills.sh",
+        "count": 8,
+        "uniques": 2
       },
       {
         "referrer": "Bing",
@@ -78,12 +83,12 @@
         "uniques": 2
       },
       {
-        "referrer": "skills.sh",
-        "count": 3,
-        "uniques": 1
+        "referrer": "ecosia.org",
+        "count": 2,
+        "uniques": 2
       },
       {
-        "referrer": "ecosia.org",
+        "referrer": "teams.public.onecdn.static.microsoft",
         "count": 1,
         "uniques": 1
       }
@@ -92,8 +97,8 @@
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 109,
-        "uniques": 85
+        "count": 113,
+        "uniques": 90
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
@@ -108,12 +113,6 @@
         "uniques": 10
       },
       {
-        "path": "/netresearch/file-search-skill/pulls",
-        "title": "/pulls",
-        "count": 5,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ripgrep-patterns.md",
         "title": "/blob/main/skills/file-search/references/ripgrep-patterns.md",
         "count": 4,
@@ -122,12 +121,6 @@
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/fd-guide.md",
         "title": "/blob/main/skills/file-search/references/fd-guide.md",
-        "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/file-search-skill/issues",
-        "title": "/issues",
         "count": 4,
         "uniques": 2
       },
@@ -148,6 +141,18 @@
         "title": "/tree/main/skills/file-search/evals",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/HEAD/skills/file-search/references/ripgrep-patterns.md",
+        "title": "/blob/HEAD/skills/file-search/references/ripgrep-patterns.md",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/file-search-skill/pulls",
+        "title": "/pulls",
+        "count": 3,
+        "uniques": 2
       }
     ]
   },
@@ -160,17 +165,17 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 125,
+      "contributions": 127,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 43,
+      "contributions": 44,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 42,
+      "contributions": 43,
       "url": "https://github.com/apps/github-actions"
     }
   ],
@@ -181,7 +186,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/file-search-skill/network/dependents"
   },
-  "estimated_downstream_reach": 85,
-  "blast_radius": 85,
+  "estimated_downstream_reach": 87,
+  "blast_radius": 87,
   "archived": false
 }

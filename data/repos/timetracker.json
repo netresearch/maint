@@ -28,45 +28,45 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-09-03T11:48:19Z",
-  "updated_at": "2026-09-03T11:49:41Z",
+  "pushed_at": "2026-09-10T12:56:33Z",
+  "updated_at": "2026-09-10T12:58:00Z",
   "composer_name": "netresearch/timetracker",
   "lifetime": {
     "stars": 24,
     "forks": 27,
     "watchers": 6,
     "network": 27,
-    "open_issues_plus_prs": 5,
-    "commits": 2685,
-    "issues_open": 2,
+    "open_issues_plus_prs": 7,
+    "commits": 2689,
+    "issues_open": 4,
     "issues_closed": 63,
     "prs_open": 3,
-    "prs_merged": 533,
-    "prs_closed_unmerged": 84,
-    "issues_total": 65,
+    "prs_merged": 535,
+    "prs_closed_unmerged": 85,
+    "issues_total": 67,
     "releases": 33,
     "release_downloads": 0,
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 40966,
+    "ghcr_downloads": 41072,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 22,
-    "issues_opened": 0,
-    "prs_opened": 14,
-    "prs_merged": 9,
+    "commits": 26,
+    "issues_opened": 2,
+    "prs_opened": 17,
+    "prs_merged": 11,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 1096
+    "ghcr_downloads": 1170
   },
   "traffic_14d": {
-    "clones_total": 473,
+    "clones_total": 474,
     "clones_unique": 161,
-    "views_total": 82,
-    "views_unique": 40,
+    "views_total": 71,
+    "views_unique": 39,
     "top_referrers": [
       {
         "referrer": "chatgpt.com",
@@ -86,16 +86,16 @@
     ],
     "top_paths": [
       {
-        "path": "/netresearch/timetracker/blob/main/docs/adr/ADR-001-php-8-4-symfony-7-3-selection.md",
-        "title": "/blob/main/docs/adr/ADR-001-php-8-4-symfony-7-3-selection.md",
-        "count": 16,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 12,
+        "count": 11,
         "uniques": 9
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/docs/adr/ADR-001-php-8-4-symfony-7-3-selection.md",
+        "title": "/blob/main/docs/adr/ADR-001-php-8-4-symfony-7-3-selection.md",
+        "count": 7,
+        "uniques": 1
       },
       {
         "path": "/netresearch/timetracker/issues",
@@ -104,33 +104,21 @@
         "uniques": 6
       },
       {
+        "path": "/netresearch/timetracker/discussions",
+        "title": "/discussions",
+        "count": 4,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/timetracker/pulls",
         "title": "/pulls",
         "count": 3,
         "uniques": 3
       },
       {
-        "path": "/netresearch/timetracker/discussions",
-        "title": "/discussions",
-        "count": 3,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/timetracker/tree/main",
         "title": "/tree/main",
         "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs/images/month.png",
-        "title": "/blob/main/docs/images/month.png",
-        "count": 2,
         "uniques": 2
       },
       {
@@ -144,6 +132,18 @@
         "title": "/blob/main/tests/Mcp/WorklogSyncToolsTest.php",
         "count": 2,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/cecd587d/tests/Controller/InterpretationControllerTest.php",
+        "title": "/blob/cecd587d/tests/Controller/InterpretationControllerTest.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/.env",
+        "title": "/blob/main/.env",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -156,7 +156,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 2286,
+      "contributions": 2288,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -166,7 +166,7 @@
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 70,
+      "contributions": 71,
       "url": "https://github.com/apps/dependabot"
     },
     {
@@ -176,7 +176,7 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 60,
+      "contributions": 61,
       "url": "https://github.com/apps/github-actions"
     },
     {
@@ -211,19 +211,19 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 40966,
-        "thirty_day": 1096
+        "total": 41072,
+        "thirty_day": 1170
       }
     ],
-    "total": 40966,
-    "thirty_day": 1096
+    "total": 41072,
+    "thirty_day": 1170
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "estimated_downstream_reach": 667,
-  "blast_radius": 667,
+  "estimated_downstream_reach": 671,
+  "blast_radius": 671,
   "archived": false
 }
