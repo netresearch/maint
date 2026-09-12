@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T13:14:49Z",
-  "pushed_at": "2026-09-10T13:34:15Z",
-  "updated_at": "2026-09-10T13:23:16Z",
+  "pushed_at": "2026-09-11T20:18:10Z",
+  "updated_at": "2026-09-11T20:17:03Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
@@ -23,14 +23,14 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 3,
-    "commits": 531,
+    "commits": 539,
     "issues_open": 2,
     "issues_closed": 2,
     "prs_open": 1,
-    "prs_merged": 176,
+    "prs_merged": 180,
     "prs_closed_unmerged": 2,
     "issues_total": 4,
-    "releases": 54,
+    "releases": 55,
     "release_downloads": 108,
     "contributors": 3,
     "external_contributors": 0,
@@ -40,24 +40,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 59,
+    "commits": 65,
     "issues_opened": 1,
-    "prs_opened": 25,
-    "prs_merged": 24,
+    "prs_opened": 28,
+    "prs_merged": 27,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3588,
-    "clones_unique": 276,
-    "views_total": 131,
-    "views_unique": 60,
+    "clones_total": 3971,
+    "clones_unique": 278,
+    "views_total": 135,
+    "views_unique": 67,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 91,
-        "uniques": 33
+        "count": 87,
+        "uniques": 35
       },
       {
         "referrer": "github.com",
@@ -65,17 +65,27 @@
         "uniques": 2
       },
       {
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "count": 5,
+        "uniques": 3
+      },
+      {
         "referrer": "perplexity.ai",
         "count": 4,
         "uniques": 1
       },
       {
-        "referrer": "search.brave.com",
-        "count": 2,
-        "uniques": 2
+        "referrer": "chatgpt.com",
+        "count": 1,
+        "uniques": 1
       },
       {
-        "referrer": "chatgpt.com",
+        "referrer": "euc-powerpoint.officeapps.live.com",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "search.brave.com",
         "count": 1,
         "uniques": 1
       },
@@ -89,32 +99,32 @@
       {
         "path": "/netresearch/github-project-skill",
         "title": "Overview",
-        "count": 60,
-        "uniques": 55
+        "count": 68,
+        "uniques": 62
       },
       {
         "path": "/netresearch/github-project-skill/tree/main/skills/github-project",
         "title": "/tree/main/skills/github-project",
-        "count": 14,
-        "uniques": 11
-      },
-      {
-        "path": "/netresearch/github-project-skill/tree/main/skills/github-project/scripts",
-        "title": "/tree/main/skills/github-project/scripts",
-        "count": 6,
-        "uniques": 5
+        "count": 15,
+        "uniques": 12
       },
       {
         "path": "/netresearch/github-project-skill/blob/main/skills/github-project/SKILL.md",
         "title": "/blob/main/skills/github-project/SKILL.md",
-        "count": 6,
+        "count": 7,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/github-project-skill/tree/main/skills/github-project/scripts",
+        "title": "/tree/main/skills/github-project/scripts",
+        "count": 4,
         "uniques": 4
       },
       {
         "path": "/netresearch/github-project-skill/blob/main/skills/github-project/scripts/init-branch-protection.sh",
         "title": "/blob/main/skills/github-project/scripts/init-branch-protection.sh",
-        "count": 4,
-        "uniques": 4
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/github-project-skill/tree/main/docs/exec-plans",
@@ -129,9 +139,9 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/github-project-skill/tree/main/skills/github-project/references",
-        "title": "/tree/main/skills/github-project/references",
-        "count": 3,
+        "path": "/netresearch/github-project-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 2,
         "uniques": 2
       },
       {
@@ -149,15 +159,15 @@
     ]
   },
   "latest_release": {
-    "name": "v2.17.2",
-    "tag_name": "v2.17.2",
-    "published_at": "2026-09-05T09:54:09Z",
-    "url": "https://github.com/netresearch/github-project-skill/releases/tag/v2.17.2"
+    "name": "v2.17.3",
+    "tag_name": "v2.17.3",
+    "published_at": "2026-09-11T12:34:04Z",
+    "url": "https://github.com/netresearch/github-project-skill/releases/tag/v2.17.3"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 514,
+      "contributions": 522,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -178,7 +188,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-project-skill/network/dependents"
   },
-  "estimated_downstream_reach": 184,
-  "blast_radius": 184,
+  "estimated_downstream_reach": 188,
+  "blast_radius": 188,
   "archived": false
 }

@@ -14,24 +14,24 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:20Z",
-  "pushed_at": "2026-09-10T23:50:34Z",
-  "updated_at": "2026-09-10T23:49:38Z",
+  "pushed_at": "2026-09-11T18:56:55Z",
+  "updated_at": "2026-09-11T18:56:06Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 44,
+    "stars": 45,
     "forks": 2,
     "watchers": 1,
     "network": 2,
-    "open_issues_plus_prs": 4,
-    "commits": 345,
-    "issues_open": 3,
-    "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 111,
+    "open_issues_plus_prs": 2,
+    "commits": 355,
+    "issues_open": 2,
+    "issues_closed": 1,
+    "prs_open": 0,
+    "prs_merged": 115,
     "prs_closed_unmerged": 4,
     "issues_total": 3,
-    "releases": 42,
-    "release_downloads": 156,
+    "releases": 43,
+    "release_downloads": 160,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,34 +40,39 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 59,
+    "commits": 69,
     "issues_opened": 1,
-    "prs_opened": 26,
-    "prs_merged": 25,
-    "releases": 4,
+    "prs_opened": 29,
+    "prs_merged": 29,
+    "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4445,
-    "clones_unique": 369,
-    "views_total": 361,
+    "clones_total": 4983,
+    "clones_unique": 390,
+    "views_total": 390,
     "views_unique": 184,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 264,
-        "uniques": 153
+        "count": 278,
+        "uniques": 150
+      },
+      {
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "count": 16,
+        "uniques": 2
       },
       {
         "referrer": "DuckDuckGo",
-        "count": 10,
+        "count": 12,
         "uniques": 2
       },
       {
         "referrer": "github.com",
-        "count": 9,
-        "uniques": 6
+        "count": 10,
+        "uniques": 7
       },
       {
         "referrer": "Bing",
@@ -76,40 +81,40 @@
       },
       {
         "referrer": "chatgpt.com",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/php-modernization-skill",
         "title": "Overview",
-        "count": 219,
-        "uniques": 168
+        "count": 231,
+        "uniques": 169
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization",
         "title": "/tree/main/skills/php-modernization",
-        "count": 22,
-        "uniques": 21
+        "count": 26,
+        "uniques": 24
       },
       {
         "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/SKILL.md",
         "title": "/blob/main/skills/php-modernization/SKILL.md",
-        "count": 21,
-        "uniques": 18
-      },
-      {
-        "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/references/php-8.5.md",
-        "title": "/blob/main/skills/php-modernization/references/php-8.5.md",
-        "count": 8,
-        "uniques": 3
+        "count": 20,
+        "uniques": 19
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main",
         "title": "/tree/main",
-        "count": 6,
-        "uniques": 6
+        "count": 8,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/references/php-8.5.md",
+        "title": "/blob/main/skills/php-modernization/references/php-8.5.md",
+        "count": 7,
+        "uniques": 3
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/references",
@@ -118,10 +123,10 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/php-modernization-skill/pulls",
-        "title": "/pulls",
-        "count": 6,
-        "uniques": 3
+        "path": "/netresearch/php-modernization-skill/tree/main/scripts",
+        "title": "/tree/main/scripts",
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/php-modernization-skill/blob/main/docs/ARCHITECTURE.md",
@@ -130,39 +135,39 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/references/php8-features.md",
-        "title": "/blob/main/skills/php-modernization/references/php8-features.md",
-        "count": 4,
-        "uniques": 4
+        "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/templates",
+        "title": "/tree/main/skills/php-modernization/templates",
+        "count": 5,
+        "uniques": 3
       },
       {
-        "path": "/netresearch/php-modernization-skill/issues",
-        "title": "/issues",
-        "count": 4,
-        "uniques": 4
+        "path": "/netresearch/php-modernization-skill/pulls",
+        "title": "/pulls",
+        "count": 5,
+        "uniques": 2
       }
     ]
   },
   "latest_release": {
-    "name": "v1.23.0",
-    "tag_name": "v1.23.0",
-    "published_at": "2026-09-05T10:03:43Z",
-    "url": "https://github.com/netresearch/php-modernization-skill/releases/tag/v1.23.0"
+    "name": "v1.23.1",
+    "tag_name": "v1.23.1",
+    "published_at": "2026-09-11T12:40:42Z",
+    "url": "https://github.com/netresearch/php-modernization-skill/releases/tag/v1.23.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 310,
+      "contributions": 318,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 16,
+      "contributions": 17,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 15,
+      "contributions": 16,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -178,7 +183,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/php-modernization-skill/network/dependents"
   },
-  "estimated_downstream_reach": 118,
-  "blast_radius": 118,
+  "estimated_downstream_reach": 122,
+  "blast_radius": 122,
   "archived": false
 }

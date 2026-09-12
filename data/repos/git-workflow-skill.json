@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:34Z",
-  "pushed_at": "2026-09-10T23:24:06Z",
-  "updated_at": "2026-09-10T23:23:06Z",
+  "pushed_at": "2026-09-12T01:19:33Z",
+  "updated_at": "2026-09-12T01:19:36Z",
   "composer_name": null,
   "lifetime": {
     "stars": 48,
@@ -23,15 +23,15 @@
     "watchers": 1,
     "network": 7,
     "open_issues_plus_prs": 3,
-    "commits": 785,
+    "commits": 803,
     "issues_open": 3,
     "issues_closed": 19,
     "prs_open": 0,
-    "prs_merged": 264,
+    "prs_merged": 270,
     "prs_closed_unmerged": 1,
     "issues_total": 22,
-    "releases": 54,
-    "release_downloads": 318,
+    "releases": 55,
+    "release_downloads": 325,
     "contributors": 6,
     "external_contributors": 2,
     "packagist_downloads": 0,
@@ -40,7 +40,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 265,
+    "commits": 266,
     "issues_opened": 17,
     "prs_opened": 101,
     "prs_merged": 101,
@@ -49,20 +49,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5964,
-    "clones_unique": 481,
-    "views_total": 518,
-    "views_unique": 259,
+    "clones_total": 6363,
+    "clones_unique": 507,
+    "views_total": 491,
+    "views_unique": 257,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 322,
-        "uniques": 182
+        "count": 315,
+        "uniques": 178
       },
       {
         "referrer": "github.com",
-        "count": 17,
-        "uniques": 11
+        "count": 22,
+        "uniques": 13
       },
       {
         "referrer": "Bing",
@@ -70,14 +70,14 @@
         "uniques": 8
       },
       {
-        "referrer": "search.brave.com",
-        "count": 12,
-        "uniques": 6
-      },
-      {
         "referrer": "chatgpt.com",
         "count": 11,
         "uniques": 7
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 11,
+        "uniques": 5
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
@@ -86,7 +86,7 @@
       },
       {
         "referrer": "claude.ai",
-        "count": 4,
+        "count": 5,
         "uniques": 1
       },
       {
@@ -98,54 +98,53 @@
         "referrer": "DuckDuckGo",
         "count": 3,
         "uniques": 2
+      },
+      {
+        "referrer": "packagist.org",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/git-workflow-skill",
         "title": "Overview",
-        "count": 307,
-        "uniques": 241
+        "count": 301,
+        "uniques": 233
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow",
         "title": "/tree/main/skills/git-workflow",
-        "count": 47,
-        "uniques": 36
+        "count": 45,
+        "uniques": 32
       },
       {
         "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/SKILL.md",
         "title": "/blob/main/skills/git-workflow/SKILL.md",
-        "count": 35,
-        "uniques": 28
+        "count": 34,
+        "uniques": 25
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main",
         "title": "/tree/main",
-        "count": 12,
-        "uniques": 8
+        "count": 9,
+        "uniques": 7
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/references",
         "title": "/tree/main/skills/git-workflow/references",
-        "count": 10,
-        "uniques": 10
-      },
-      {
-        "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/scripts",
-        "title": "/tree/main/skills/git-workflow/scripts",
-        "count": 7,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/references/commit-conventions.md",
-        "title": "/blob/main/skills/git-workflow/references/commit-conventions.md",
-        "count": 7,
-        "uniques": 5
+        "count": 8,
+        "uniques": 8
       },
       {
         "path": "/netresearch/git-workflow-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
+        "count": 6,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/tree/main/skills",
+        "title": "/tree/main/skills",
         "count": 5,
         "uniques": 5
       },
@@ -160,20 +159,31 @@
         "title": "/issues",
         "count": 5,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/scripts",
+        "title": "/tree/main/skills/git-workflow/scripts",
+        "count": 5,
+        "uniques": 4
       }
     ]
   },
   "latest_release": {
-    "name": "v1.31.2",
-    "tag_name": "v1.31.2",
-    "published_at": "2026-09-03T18:27:16Z",
-    "url": "https://github.com/netresearch/git-workflow-skill/releases/tag/v1.31.2"
+    "name": "v1.32.0",
+    "tag_name": "v1.32.0",
+    "published_at": "2026-09-11T12:33:15Z",
+    "url": "https://github.com/netresearch/git-workflow-skill/releases/tag/v1.32.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 732,
+      "contributions": 748,
       "url": "https://github.com/CybotTM"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 17,
+      "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "aseemann",
@@ -181,13 +191,8 @@
       "url": "https://github.com/aseemann"
     },
     {
-      "login": "github-actions[bot]",
-      "contributions": 16,
-      "url": "https://github.com/apps/github-actions"
-    },
-    {
       "login": "renovate[bot]",
-      "contributions": 15,
+      "contributions": 16,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -208,7 +213,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/git-workflow-skill/network/dependents"
   },
-  "estimated_downstream_reach": 306,
-  "blast_radius": 306,
+  "estimated_downstream_reach": 312,
+  "blast_radius": 312,
   "archived": false
 }

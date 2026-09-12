@@ -3,7 +3,7 @@
   "full_name": "netresearch/php-ast-edit-skill",
   "url": "https://github.com/netresearch/php-ast-edit-skill",
   "description": "PHP CLI and agent skill for structured PHP edits: named selectors, typed operations, SHA-256 guards and batched transactions.",
-  "language": "PHP",
+  "language": "Python",
   "category": "skill",
   "license": "NOASSERTION",
   "topics": [
@@ -17,24 +17,24 @@
   "homepage": "https://netresearch.github.io/claude-code-marketplace/en/skills/php-structured-edit/",
   "default_branch": "main",
   "created_at": "2026-08-18T21:04:19Z",
-  "pushed_at": "2026-09-11T01:22:58Z",
-  "updated_at": "2026-09-11T01:22:28Z",
-  "composer_name": "netresearch/php-ast-edit-skill",
+  "pushed_at": "2026-09-11T19:38:07Z",
+  "updated_at": "2026-09-11T19:38:10Z",
+  "composer_name": null,
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 261,
+    "commits": 299,
     "issues_open": 1,
     "issues_closed": 4,
     "prs_open": 0,
-    "prs_merged": 70,
+    "prs_merged": 79,
     "prs_closed_unmerged": 0,
     "issues_total": 5,
-    "releases": 9,
-    "release_downloads": 42,
+    "releases": 10,
+    "release_downloads": 44,
     "contributors": 2,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -43,27 +43,33 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 261,
+    "commits": 299,
     "issues_opened": 5,
-    "prs_opened": 70,
-    "prs_merged": 70,
-    "releases": 9,
+    "prs_opened": 79,
+    "prs_merged": 79,
+    "releases": 10,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 8266,
-    "clones_unique": 291,
-    "views_total": 9,
-    "views_unique": 3,
+    "clones_total": 11679,
+    "clones_unique": 337,
+    "views_total": 10,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 3,
-        "uniques": 1
+        "count": 4,
+        "uniques": 2
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/php-ast-edit-skill",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/php-ast-edit-skill/pull/33",
         "title": "/pull/33",
@@ -74,12 +80,6 @@
         "path": "/netresearch/php-ast-edit-skill/pull/34",
         "title": "/pull/34",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/php-ast-edit-skill",
-        "title": "Overview",
-        "count": 1,
         "uniques": 1
       },
       {
@@ -109,15 +109,15 @@
     ]
   },
   "latest_release": {
-    "name": "v0.8.0",
-    "tag_name": "v0.8.0",
-    "published_at": "2026-09-11T01:23:54Z",
-    "url": "https://github.com/netresearch/php-ast-edit-skill/releases/tag/v0.8.0"
+    "name": "v0.8.1",
+    "tag_name": "v0.8.1",
+    "published_at": "2026-09-11T12:39:54Z",
+    "url": "https://github.com/netresearch/php-ast-edit-skill/releases/tag/v0.8.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 258,
+      "contributions": 296,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -133,7 +133,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/php-ast-edit-skill/network/dependents"
   },
-  "estimated_downstream_reach": 75,
-  "blast_radius": 75,
+  "estimated_downstream_reach": 84,
+  "blast_radius": 84,
   "archived": false
 }

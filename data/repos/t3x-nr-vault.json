@@ -32,25 +32,25 @@
     "release_downloads": 271,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 90888,
+    "packagist_downloads": 90893,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 77,
+    "commits": 75,
     "issues_opened": 14,
     "prs_opened": 36,
     "prs_merged": 30,
     "releases": 1,
-    "packagist_downloads": 23562,
+    "packagist_downloads": 21065,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3247,
-    "clones_unique": 159,
-    "views_total": 22,
-    "views_unique": 7,
+    "clones_total": 4030,
+    "clones_unique": 182,
+    "views_total": 24,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "docs.typo3.org",
@@ -81,6 +81,12 @@
         "uniques": 4
       },
       {
+        "path": "/netresearch/t3x-nr-vault/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-nr-vault/commit/6365ccc5dad99bae44fdda3a65933c99b86a409e",
         "title": "/commit/6365ccc5dad99bae44fdda3a65933c99b86a409e",
         "count": 2,
@@ -107,12 +113,6 @@
       {
         "path": "/netresearch/t3x-nr-vault/blob/main/docs/security.md",
         "title": "/blob/main/docs/security.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/blob/main/ext_conf_template.txt",
-        "title": "/blob/main/ext_conf_template.txt",
         "count": 1,
         "uniques": 1
       },
@@ -166,9 +166,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 90888,
-    "monthly": 23562,
-    "daily": 365,
+    "total": 90893,
+    "monthly": 21065,
+    "daily": 4,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,

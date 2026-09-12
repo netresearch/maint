@@ -13,24 +13,24 @@
   "homepage": "https://registry.terraform.io/providers/netresearch/ad/latest",
   "default_branch": "main",
   "created_at": "2024-08-14T10:21:14Z",
-  "pushed_at": "2026-08-26T17:16:53Z",
-  "updated_at": "2026-08-26T20:28:20Z",
+  "pushed_at": "2026-09-11T22:16:16Z",
+  "updated_at": "2026-09-11T22:16:19Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 2,
+    "stars": 3,
     "forks": 0,
     "watchers": 1,
     "network": 80,
     "open_issues_plus_prs": 0,
-    "commits": 203,
+    "commits": 223,
     "issues_open": 0,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 22,
+    "prs_merged": 29,
     "prs_closed_unmerged": 4,
     "issues_total": 0,
-    "releases": 4,
-    "release_downloads": 623,
+    "releases": 5,
+    "release_downloads": 646,
     "contributors": 22,
     "external_contributors": 19,
     "packagist_downloads": 0,
@@ -39,17 +39,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 13,
+    "commits": 33,
     "issues_opened": 0,
-    "prs_opened": 6,
-    "prs_merged": 5,
-    "releases": 1,
+    "prs_opened": 13,
+    "prs_merged": 12,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 21,
-    "clones_unique": 13,
+    "clones_total": 16,
+    "clones_unique": 12,
     "views_total": 9,
     "views_unique": 4,
     "top_referrers": [
@@ -111,21 +111,21 @@
     ]
   },
   "latest_release": {
-    "name": "v0.4.0",
-    "tag_name": "v0.4.0",
-    "published_at": "2026-08-26T07:52:36Z",
-    "url": "https://github.com/netresearch/terraform-provider-ad/releases/tag/v0.4.0"
+    "name": "v0.4.1",
+    "tag_name": "v0.4.1",
+    "published_at": "2026-09-11T20:31:00Z",
+    "url": "https://github.com/netresearch/terraform-provider-ad/releases/tag/v0.4.1"
   },
   "top_contributors": [
+    {
+      "login": "CybotTM",
+      "contributions": 50,
+      "url": "https://github.com/CybotTM"
+    },
     {
       "login": "koikonom",
       "contributions": 37,
       "url": "https://github.com/koikonom"
-    },
-    {
-      "login": "CybotTM",
-      "contributions": 30,
-      "url": "https://github.com/CybotTM"
     },
     {
       "login": "jpatigny",
@@ -175,7 +175,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/terraform-provider-ad/network/dependents"
   },
-  "estimated_downstream_reach": 79,
-  "blast_radius": 79,
+  "estimated_downstream_reach": 86,
+  "blast_radius": 86,
   "archived": false
 }

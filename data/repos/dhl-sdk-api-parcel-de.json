@@ -39,7 +39,7 @@
     "release_downloads": 0,
     "contributors": 1,
     "external_contributors": 1,
-    "packagist_downloads": 103174,
+    "packagist_downloads": 103523,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -50,14 +50,14 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 9275,
+    "packagist_downloads": 9215,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 140,
-    "clones_unique": 129,
-    "views_total": 31,
-    "views_unique": 14,
+    "clones_total": 198,
+    "clones_unique": 164,
+    "views_total": 43,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -68,26 +68,37 @@
         "referrer": "github.com",
         "count": 4,
         "uniques": 1
+      },
+      {
+        "referrer": "jira.netresearch.de",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de",
         "title": "Overview",
-        "count": 16,
-        "uniques": 10
+        "count": 19,
+        "uniques": 12
       },
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de/releases/tag/1.5.0",
         "title": "/releases/tag/1.5.0",
-        "count": 4,
-        "uniques": 1
+        "count": 6,
+        "uniques": 2
       },
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de/pulls",
         "title": "/pulls",
+        "count": 5,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de/releases",
+        "title": "/releases",
         "count": 3,
-        "uniques": 2
+        "uniques": 3
       },
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de/issues/10",
@@ -96,26 +107,32 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-sdk-api-parcel-de/releases",
-        "title": "/releases",
+        "path": "/netresearch/dhl-sdk-api-parcel-de/issues",
+        "title": "/issues",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/dhl-sdk-api-parcel-de/issues",
-        "title": "/issues",
+        "path": "/netresearch/dhl-sdk-api-parcel-de/commit/42fab88eb2792a1e00d781cc20c968aa078d0208",
+        "title": "/commit/42fab88eb2792a1e00d781cc20c968aa078d0208",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de/commit/db8ec943a2c32e5d85bd8f474dc5833731594553",
+        "title": "/commit/db8ec943a2c32e5d85bd8f474dc5833731594553",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de/commits/main",
+        "title": "/commits/main",
         "count": 1,
         "uniques": 1
       },
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de/tree/main/src",
         "title": "/tree/main/src",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-sdk-api-parcel-de/tree/main/src/Service",
-        "title": "/tree/main/src/Service",
         "count": 1,
         "uniques": 1
       }
@@ -136,9 +153,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-parcel-de",
-    "total": 103174,
-    "monthly": 9275,
-    "daily": 370,
+    "total": 103523,
+    "monthly": 9215,
+    "daily": 311,
     "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de"
   },
   "ghcr": null,
