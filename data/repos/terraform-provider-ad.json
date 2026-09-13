@@ -13,8 +13,8 @@
   "homepage": "https://registry.terraform.io/providers/netresearch/ad/latest",
   "default_branch": "main",
   "created_at": "2024-08-14T10:21:14Z",
-  "pushed_at": "2026-09-11T22:16:16Z",
-  "updated_at": "2026-09-11T22:16:19Z",
+  "pushed_at": "2026-09-12T23:45:14Z",
+  "updated_at": "2026-09-12T23:45:17Z",
   "composer_name": null,
   "lifetime": {
     "stars": 3,
@@ -22,15 +22,15 @@
     "watchers": 1,
     "network": 80,
     "open_issues_plus_prs": 0,
-    "commits": 223,
+    "commits": 258,
     "issues_open": 0,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 29,
+    "prs_merged": 38,
     "prs_closed_unmerged": 4,
     "issues_total": 0,
-    "releases": 5,
-    "release_downloads": 646,
+    "releases": 9,
+    "release_downloads": 763,
     "contributors": 22,
     "external_contributors": 19,
     "packagist_downloads": 0,
@@ -39,24 +39,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 33,
+    "commits": 68,
     "issues_opened": 0,
-    "prs_opened": 13,
-    "prs_merged": 12,
-    "releases": 2,
+    "prs_opened": 22,
+    "prs_merged": 21,
+    "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 16,
-    "clones_unique": 12,
-    "views_total": 9,
+    "clones_total": 377,
+    "clones_unique": 74,
+    "views_total": 13,
     "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 7,
-        "uniques": 2
+        "count": 3,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -65,6 +65,18 @@
         "title": "Overview",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/pull/28",
+        "title": "/pull/28",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/pull/28/commits",
+        "title": "/pull/28/commits",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/terraform-provider-ad/blob/main/CHANGELOG.md",
@@ -79,26 +91,26 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/terraform-provider-ad/commit/7f33ec9d0f77ee81ec32b3912e9c8148d96c0103",
-        "title": "/commit/7f33ec9d0f77ee81ec32b3912e9c8148d96c0103",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/terraform-provider-ad/commits/main",
-        "title": "/commits/main",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/terraform-provider-ad/issues",
         "title": "/issues",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/terraform-provider-ad/pulls",
-        "title": "/pulls",
+        "path": "/netresearch/terraform-provider-ad/pull/27",
+        "title": "/pull/27",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/pull/28/changes",
+        "title": "/pull/28/changes",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/pull/28/checks",
+        "title": "/pull/28/checks",
         "count": 1,
         "uniques": 1
       },
@@ -111,15 +123,15 @@
     ]
   },
   "latest_release": {
-    "name": "v0.4.1",
-    "tag_name": "v0.4.1",
-    "published_at": "2026-09-11T20:31:00Z",
-    "url": "https://github.com/netresearch/terraform-provider-ad/releases/tag/v0.4.1"
+    "name": "v0.5.3",
+    "tag_name": "v0.5.3",
+    "published_at": "2026-09-12T21:00:22Z",
+    "url": "https://github.com/netresearch/terraform-provider-ad/releases/tag/v0.5.3"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 50,
+      "contributions": 85,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -175,7 +187,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/terraform-provider-ad/network/dependents"
   },
-  "estimated_downstream_reach": 86,
-  "blast_radius": 86,
+  "estimated_downstream_reach": 95,
+  "blast_radius": 95,
   "archived": false
 }

@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-06T00:27:24Z",
-  "pushed_at": "2026-09-11T18:42:34Z",
-  "updated_at": "2026-09-11T18:41:46Z",
+  "pushed_at": "2026-09-12T18:14:50Z",
+  "updated_at": "2026-09-12T18:14:26Z",
   "composer_name": null,
   "lifetime": {
     "stars": 9,
@@ -23,15 +23,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 3,
-    "commits": 248,
+    "commits": 250,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 2,
-    "prs_merged": 79,
+    "prs_merged": 80,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
     "releases": 37,
-    "release_downloads": 115,
+    "release_downloads": 119,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,19 +40,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 86,
+    "commits": 88,
     "issues_opened": 0,
-    "prs_opened": 36,
-    "prs_merged": 34,
+    "prs_opened": 37,
+    "prs_merged": 35,
     "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4814,
-    "clones_unique": 340,
-    "views_total": 104,
-    "views_unique": 43,
+    "clones_total": 4588,
+    "clones_unique": 357,
+    "views_total": 103,
+    "views_unique": 42,
     "top_referrers": [
       {
         "referrer": "teams.public.onecdn.static.microsoft",
@@ -61,13 +61,13 @@
       },
       {
         "referrer": "Google",
-        "count": 24,
-        "uniques": 15
+        "count": 27,
+        "uniques": 16
       },
       {
         "referrer": "github.com",
-        "count": 14,
-        "uniques": 11
+        "count": 11,
+        "uniques": 10
       }
     ],
     "top_paths": [
@@ -90,6 +90,12 @@
         "uniques": 8
       },
       {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/agents",
+        "title": "/tree/main/agents",
+        "count": 5,
+        "uniques": 4
+      },
+      {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/scripts/scan-deprecations.sh",
         "title": "/blob/main/skills/typo3-extension-upgrade/scripts/scan-deprecations.sh",
         "count": 5,
@@ -102,32 +108,26 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade",
-        "title": "/tree/main/skills/typo3-extension-upgrade",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade/references",
         "title": "/tree/main/skills/typo3-extension-upgrade/references",
         "count": 4,
         "uniques": 4
       },
       {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/agents",
-        "title": "/tree/main/agents",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/SKILL.md",
-        "title": "/blob/main/skills/typo3-extension-upgrade/SKILL.md",
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade",
+        "title": "/tree/main/skills/typo3-extension-upgrade",
         "count": 3,
         "uniques": 3
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/SKILL.md",
+        "title": "/blob/main/skills/typo3-extension-upgrade/SKILL.md",
         "count": 2,
         "uniques": 2
       }
@@ -152,12 +152,12 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 10,
+      "contributions": 11,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 9,
+      "contributions": 10,
       "url": "https://github.com/apps/renovate"
     }
   ],
@@ -168,7 +168,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-extension-upgrade-skill/network/dependents"
   },
-  "estimated_downstream_reach": 80,
-  "blast_radius": 80,
+  "estimated_downstream_reach": 81,
+  "blast_radius": 81,
   "archived": false
 }

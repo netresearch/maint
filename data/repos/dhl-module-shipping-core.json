@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 3,
-    "packagist_downloads": 326839,
+    "packagist_downloads": 326889,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,26 +43,68 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 5920,
+    "packagist_downloads": 5787,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 135,
-    "clones_unique": 130,
-    "views_total": 6,
-    "views_unique": 3,
+    "clones_total": 148,
+    "clones_unique": 141,
+    "views_total": 31,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 4,
-        "uniques": 1
+        "count": 29,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
+        "path": "/netresearch/dhl-module-shipping-core/tree/main",
+        "title": "/tree/main",
+        "count": 5,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/tree/main/Model",
+        "title": "/tree/main/Model",
+        "count": 5,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/dhl-module-shipping-core",
         "title": "Overview",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/tree/main/Model/Config",
+        "title": "/tree/main/Model/Config",
         "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/tree/main/Model/Pipeline/Rate",
+        "title": "/tree/main/Model/Pipeline/Rate",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/tree/main/Model/Pipeline/Rate/ResponseProcessor",
+        "title": "/tree/main/Model/Pipeline/Rate/ResponseProcessor",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/tree/main/view",
+        "title": "/tree/main/view",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-shipping-core/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -74,12 +116,6 @@
       {
         "path": "/netresearch/dhl-module-shipping-core/issues/8",
         "title": "/issues/8",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-shipping-core/releases",
-        "title": "/releases",
         "count": 1,
         "uniques": 1
       }
@@ -120,9 +156,9 @@
   ],
   "packagist": {
     "name": "dhl/module-shipping-core",
-    "total": 326839,
-    "monthly": 5920,
-    "daily": 184,
+    "total": 326889,
+    "monthly": 5787,
+    "daily": 46,
     "url": "https://packagist.org/packages/dhl/module-shipping-core"
   },
   "ghcr": null,

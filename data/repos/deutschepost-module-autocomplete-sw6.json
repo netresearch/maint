@@ -52,20 +52,26 @@
   },
   "traffic_14d": {
     "clones_total": 38,
-    "clones_unique": 32,
-    "views_total": 5,
-    "views_unique": 5,
-    "top_referrers": [],
+    "clones_unique": 33,
+    "views_total": 7,
+    "views_unique": 4,
+    "top_referrers": [
+      {
+        "referrer": "packagist.org",
+        "count": 4,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
-        "path": "/netresearch/deutschepost-module-autocomplete-sw6/actions",
-        "title": "/actions",
-        "count": 1,
+        "path": "/netresearch/deutschepost-module-autocomplete-sw6/releases",
+        "title": "/releases",
+        "count": 3,
         "uniques": 1
       },
       {
-        "path": "/netresearch/deutschepost-module-autocomplete-sw6/actions/runs/26383036700",
-        "title": "/actions/runs/26383036700",
+        "path": "/netresearch/deutschepost-module-autocomplete-sw6",
+        "title": "Overview",
         "count": 1,
         "uniques": 1
       },

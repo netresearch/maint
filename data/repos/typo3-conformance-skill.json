@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T10:14:23Z",
-  "pushed_at": "2026-09-11T18:56:44Z",
-  "updated_at": "2026-09-11T18:56:46Z",
+  "pushed_at": "2026-09-12T18:11:45Z",
+  "updated_at": "2026-09-12T18:11:47Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 416,
+    "commits": 418,
     "issues_open": 2,
     "issues_closed": 5,
     "prs_open": 0,
-    "prs_merged": 118,
+    "prs_merged": 119,
     "prs_closed_unmerged": 6,
     "issues_total": 7,
     "releases": 55,
@@ -47,83 +47,41 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 62,
+    "commits": 60,
     "issues_opened": 3,
-    "prs_opened": 29,
-    "prs_merged": 28,
-    "releases": 6,
+    "prs_opened": 28,
+    "prs_merged": 27,
+    "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4076,
+    "clones_total": 3721,
     "clones_unique": 269,
-    "views_total": 17,
-    "views_unique": 9,
+    "views_total": 6,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 9,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "github.com",
-        "count": 4,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-conformance-skill",
         "title": "Overview",
-        "count": 7,
-        "uniques": 7
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/SKILL.md",
-        "title": "/blob/main/skills/typo3-conformance/SKILL.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance",
-        "title": "/tree/main/skills/typo3-conformance",
-        "count": 2,
-        "uniques": 2
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/typo3-conformance-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/references/backend-module-v13.md",
-        "title": "/blob/main/skills/typo3-conformance/references/backend-module-v13.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/references/coding-guidelines.md",
-        "title": "/blob/main/skills/typo3-conformance/references/coding-guidelines.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/references/v13-deprecations.md",
-        "title": "/blob/main/skills/typo3-conformance/references/v13-deprecations.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/scripts/check-file-structure.sh",
-        "title": "/blob/main/skills/typo3-conformance/scripts/check-file-structure.sh",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance/references",
-        "title": "/tree/main/skills/typo3-conformance/references",
         "count": 1,
         "uniques": 1
       }
@@ -143,12 +101,12 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 14,
+      "contributions": 15,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 13,
+      "contributions": 14,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -164,7 +122,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "estimated_downstream_reach": 125,
-  "blast_radius": 125,
+  "estimated_downstream_reach": 126,
+  "blast_radius": 126,
   "archived": false
 }
