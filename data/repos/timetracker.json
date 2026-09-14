@@ -49,24 +49,24 @@
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 41136,
+    "ghcr_downloads": 41161,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 23,
+    "commits": 12,
     "issues_opened": 2,
-    "prs_opened": 14,
-    "prs_merged": 10,
+    "prs_opened": 12,
+    "prs_merged": 8,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 1054
+    "ghcr_downloads": 983
   },
   "traffic_14d": {
-    "clones_total": 540,
-    "clones_unique": 180,
-    "views_total": 60,
-    "views_unique": 37,
+    "clones_total": 541,
+    "clones_unique": 183,
+    "views_total": 61,
+    "views_unique": 39,
     "top_referrers": [
       {
         "referrer": "chatgpt.com",
@@ -88,8 +88,8 @@
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 9,
-        "uniques": 7
+        "count": 11,
+        "uniques": 8
       },
       {
         "path": "/netresearch/timetracker/issues",
@@ -116,12 +116,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/timetracker/blob/main/docs/adr/ADR-001-php-8-4-symfony-7-3-selection.md",
-        "title": "/blob/main/docs/adr/ADR-001-php-8-4-symfony-7-3-selection.md",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/timetracker/blob/main/tests/Command/EncryptJiraTokensCommandTest.php",
         "title": "/blob/main/tests/Command/EncryptJiraTokensCommandTest.php",
         "count": 2,
@@ -142,6 +136,12 @@
       {
         "path": "/netresearch/timetracker/blob/main/.env",
         "title": "/blob/main/.env",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/.github/workflows/ci.yml",
+        "title": "/blob/main/.github/workflows/ci.yml",
         "count": 1,
         "uniques": 1
       }
@@ -211,12 +211,12 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 41136,
-        "thirty_day": 1054
+        "total": 41161,
+        "thirty_day": 983
       }
     ],
-    "total": 41136,
-    "thirty_day": 1054
+    "total": 41161,
+    "thirty_day": 983
   },
   "dependents": {
     "repositories": 0,

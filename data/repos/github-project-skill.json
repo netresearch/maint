@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T13:14:49Z",
-  "pushed_at": "2026-09-12T14:34:44Z",
-  "updated_at": "2026-09-12T14:27:36Z",
+  "pushed_at": "2026-09-14T01:04:22Z",
+  "updated_at": "2026-09-13T21:46:28Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
@@ -23,11 +23,11 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 3,
-    "commits": 541,
+    "commits": 543,
     "issues_open": 2,
     "issues_closed": 2,
     "prs_open": 1,
-    "prs_merged": 181,
+    "prs_merged": 182,
     "prs_closed_unmerged": 2,
     "issues_total": 4,
     "releases": 56,
@@ -40,34 +40,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 67,
+    "commits": 69,
     "issues_opened": 1,
-    "prs_opened": 29,
-    "prs_merged": 28,
+    "prs_opened": 30,
+    "prs_merged": 29,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3932,
-    "clones_unique": 281,
-    "views_total": 138,
-    "views_unique": 69,
+    "clones_total": 3991,
+    "clones_unique": 300,
+    "views_total": 123,
+    "views_unique": 66,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 86,
-        "uniques": 35
+        "count": 67,
+        "uniques": 31
+      },
+      {
+        "referrer": "github.com",
+        "count": 9,
+        "uniques": 2
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
         "count": 7,
         "uniques": 3
-      },
-      {
-        "referrer": "github.com",
-        "count": 5,
-        "uniques": 1
       },
       {
         "referrer": "perplexity.ai",
@@ -100,13 +100,13 @@
         "path": "/netresearch/github-project-skill",
         "title": "Overview",
         "count": 69,
-        "uniques": 64
+        "uniques": 61
       },
       {
         "path": "/netresearch/github-project-skill/tree/main/skills/github-project",
         "title": "/tree/main/skills/github-project",
-        "count": 15,
-        "uniques": 12
+        "count": 13,
+        "uniques": 10
       },
       {
         "path": "/netresearch/github-project-skill/blob/main/skills/github-project/SKILL.md",
@@ -115,46 +115,46 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/github-project-skill/tree/main/skills/github-project/scripts",
-        "title": "/tree/main/skills/github-project/scripts",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/github-project-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/github-project-skill/blob/main/docs/ARCHITECTURE.md",
         "title": "/blob/main/docs/ARCHITECTURE.md",
         "count": 3,
         "uniques": 3
       },
       {
-        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/scripts/init-branch-protection.sh",
-        "title": "/blob/main/skills/github-project/scripts/init-branch-protection.sh",
+        "path": "/netresearch/github-project-skill/tree/main/skills/github-project/scripts",
+        "title": "/tree/main/skills/github-project/scripts",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/github-project-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/scripts/init-branch-protection.sh",
+        "title": "/blob/main/skills/github-project/scripts/init-branch-protection.sh",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/github-project-skill/tree/main/docs/exec-plans",
         "title": "/tree/main/docs/exec-plans",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/github-project-skill/tree/main/skills",
-        "title": "/tree/main/skills",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/github-project-skill/blob/main/scripts/verify-harness.sh",
-        "title": "/blob/main/scripts/verify-harness.sh",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/github-project-skill/blob/main/LICENSE-CC-BY-SA-4.0",
+        "title": "/blob/main/LICENSE-CC-BY-SA-4.0",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-project-skill/blob/main/plugin.json",
+        "title": "/blob/main/plugin.json",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -172,7 +172,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 12,
+      "contributions": 14,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -188,7 +188,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-project-skill/network/dependents"
   },
-  "estimated_downstream_reach": 189,
-  "blast_radius": 189,
+  "estimated_downstream_reach": 190,
+  "blast_radius": 190,
   "archived": false
 }

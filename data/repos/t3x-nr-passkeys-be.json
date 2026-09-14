@@ -39,7 +39,7 @@
     "release_downloads": 56,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 8207,
+    "packagist_downloads": 8212,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -50,19 +50,19 @@
     "prs_opened": 22,
     "prs_merged": 17,
     "releases": 0,
-    "packagist_downloads": 1466,
+    "packagist_downloads": 1462,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4376,
-    "clones_unique": 190,
-    "views_total": 25,
-    "views_unique": 8,
+    "clones_total": 3489,
+    "clones_unique": 176,
+    "views_total": 27,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 5,
-        "uniques": 3
+        "count": 7,
+        "uniques": 4
       },
       {
         "referrer": "packagist.org",
@@ -89,14 +89,20 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be",
         "title": "Overview",
-        "count": 10,
-        "uniques": 6
+        "count": 11,
+        "uniques": 7
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/issues",
         "title": "/issues",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/issues/142",
+        "title": "/issues/142",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/62424491a8564416b3b5aab85010d056754d806f/Resources/Public/JavaScript/PasskeyManagement.js",
@@ -131,12 +137,6 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/ext_localconf.php",
         "title": "/blob/main/ext_localconf.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/issues/142",
-        "title": "/issues/142",
         "count": 1,
         "uniques": 1
       },
@@ -183,9 +183,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 8207,
-    "monthly": 1466,
-    "daily": 6,
+    "total": 8212,
+    "monthly": 1462,
+    "daily": 5,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,
