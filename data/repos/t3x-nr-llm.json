@@ -45,7 +45,7 @@
     "release_downloads": 403,
     "contributors": 6,
     "external_contributors": 2,
-    "packagist_downloads": 22080,
+    "packagist_downloads": 22212,
     "ghcr_downloads": 0,
     "dependents_repos": 5,
     "dependents_packages": 0
@@ -56,14 +56,14 @@
     "prs_opened": 105,
     "prs_merged": 105,
     "releases": 6,
-    "packagist_downloads": 7022,
+    "packagist_downloads": 7154,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 13552,
+    "clones_total": 13324,
     "clones_unique": 572,
-    "views_total": 37,
-    "views_unique": 19,
+    "views_total": 39,
+    "views_unique": 21,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -72,8 +72,8 @@
       },
       {
         "referrer": "Google",
-        "count": 4,
-        "uniques": 2
+        "count": 5,
+        "uniques": 3
       },
       {
         "referrer": "github.com",
@@ -123,8 +123,20 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-llm/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-llm/blob/main/Build/Scripts/runTests.sh",
         "title": "/blob/main/Build/Scripts/runTests.sh",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm/blob/main/Documentation/Adr/Adr025PerUserBudgets.rst",
+        "title": "/blob/main/Documentation/Adr/Adr025PerUserBudgets.rst",
         "count": 1,
         "uniques": 1
       },
@@ -137,18 +149,6 @@
       {
         "path": "/netresearch/t3x-nr-llm/blob/main/SECURITY_AUDIT.md",
         "title": "/blob/main/SECURITY_AUDIT.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/issues",
-        "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm/pull/150",
-        "title": "/pull/150",
         "count": 1,
         "uniques": 1
       }
@@ -194,9 +194,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 22080,
-    "monthly": 7022,
-    "daily": 116,
+    "total": 22212,
+    "monthly": 7154,
+    "daily": 159,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,
