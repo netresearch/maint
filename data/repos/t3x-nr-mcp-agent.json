@@ -41,7 +41,7 @@
     "release_downloads": 9,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 1465,
+    "packagist_downloads": 1482,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -52,27 +52,37 @@
     "prs_opened": 25,
     "prs_merged": 25,
     "releases": 6,
-    "packagist_downloads": 496,
+    "packagist_downloads": 509,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 777,
-    "clones_unique": 103,
-    "views_total": 6,
-    "views_unique": 6,
+    "clones_total": 720,
+    "clones_unique": 87,
+    "views_total": 10,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "github.com",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-mcp-agent",
         "title": "Overview",
-        "count": 4,
-        "uniques": 4
+        "count": 8,
+        "uniques": 7
       },
       {
         "path": "/netresearch/t3x-nr-mcp-agent/pull/13",
@@ -123,9 +133,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-mcp-agent",
-    "total": 1465,
-    "monthly": 496,
-    "daily": 0,
+    "total": 1482,
+    "monthly": 509,
+    "daily": 15,
     "url": "https://packagist.org/packages/netresearch/nr-mcp-agent"
   },
   "ghcr": null,

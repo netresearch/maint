@@ -30,7 +30,7 @@
     "prs_closed_unmerged": 4,
     "issues_total": 0,
     "releases": 9,
-    "release_downloads": 763,
+    "release_downloads": 766,
     "contributors": 22,
     "external_contributors": 19,
     "packagist_downloads": 0,
@@ -48,23 +48,35 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 944,
-    "clones_unique": 150,
-    "views_total": 14,
-    "views_unique": 4,
+    "clones_total": 951,
+    "clones_unique": 148,
+    "views_total": 32,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 3,
-        "uniques": 1
+        "count": 21,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/terraform-provider-ad",
         "title": "Overview",
-        "count": 2,
+        "count": 11,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/issues",
+        "title": "/issues",
+        "count": 3,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/actions",
+        "title": "/actions",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/terraform-provider-ad/pull/27",
@@ -85,6 +97,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/terraform-provider-ad/pulls",
+        "title": "/pulls",
+        "count": 2,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/terraform-provider-ad/blob/main/CHANGELOG.md",
         "title": "/blob/main/CHANGELOG.md",
         "count": 1,
@@ -97,26 +115,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/terraform-provider-ad/issues",
-        "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/terraform-provider-ad/pull/28/changes",
         "title": "/pull/28/changes",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/terraform-provider-ad/pull/28/checks",
-        "title": "/pull/28/checks",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/terraform-provider-ad/tree/main/ad",
-        "title": "/tree/main/ad",
         "count": 1,
         "uniques": 1
       }

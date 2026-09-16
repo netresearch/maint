@@ -16,7 +16,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-03-02T10:00:54Z",
-  "pushed_at": "2026-09-14T15:43:17Z",
+  "pushed_at": "2026-09-16T00:16:29Z",
   "updated_at": "2026-09-13T21:25:25Z",
   "composer_name": null,
   "lifetime": {
@@ -24,11 +24,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 3,
     "commits": 125,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 1,
+    "prs_open": 2,
     "prs_merged": 34,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
@@ -44,19 +44,31 @@
   "recent_30d": {
     "commits": 19,
     "issues_opened": 1,
-    "prs_opened": 10,
+    "prs_opened": 11,
     "prs_merged": 9,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1611,
-    "clones_unique": 190,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 1687,
+    "clones_unique": 192,
+    "views_total": 3,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "github-com.btglss.net",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/typo3-typoscript-ref-skill",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/typo3-typoscript-ref-skill/issues",
         "title": "/issues",
