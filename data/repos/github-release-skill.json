@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-10T11:16:02Z",
-  "pushed_at": "2026-09-16T01:13:47Z",
-  "updated_at": "2026-09-15T17:00:04Z",
+  "pushed_at": "2026-09-16T18:12:40Z",
+  "updated_at": "2026-09-16T18:12:38Z",
   "composer_name": null,
   "lifetime": {
     "stars": 3,
@@ -19,15 +19,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 274,
+    "commits": 283,
     "issues_open": 1,
     "issues_closed": 8,
     "prs_open": 0,
-    "prs_merged": 114,
+    "prs_merged": 118,
     "prs_closed_unmerged": 2,
     "issues_total": 9,
-    "releases": 25,
-    "release_downloads": 36,
+    "releases": 26,
+    "release_downloads": 42,
     "contributors": 2,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -36,43 +36,37 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 76,
+    "commits": 85,
     "issues_opened": 8,
-    "prs_opened": 33,
-    "prs_merged": 33,
-    "releases": 6,
+    "prs_opened": 37,
+    "prs_merged": 37,
+    "releases": 7,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3390,
-    "clones_unique": 232,
-    "views_total": 13,
+    "clones_total": 3473,
+    "clones_unique": 252,
+    "views_total": 10,
     "views_unique": 7,
     "top_referrers": [
-      {
-        "referrer": "Google",
-        "count": 7,
-        "uniques": 3
-      },
       {
         "referrer": "github.com",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "referrer": "Google",
+        "count": 3,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/github-release-skill",
         "title": "Overview",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/github-release-skill/blob/main/LICENSE-MIT",
-        "title": "/blob/main/LICENSE-MIT",
-        "count": 2,
-        "uniques": 2
+        "count": 5,
+        "uniques": 4
       },
       {
         "path": "/netresearch/github-release-skill/releases",
@@ -81,8 +75,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/github-release-skill/blob/main/skills/github-release/SKILL.md",
-        "title": "/blob/main/skills/github-release/SKILL.md",
+        "path": "/netresearch/github-release-skill/blob/main/LICENSE-MIT",
+        "title": "/blob/main/LICENSE-MIT",
         "count": 1,
         "uniques": 1
       },
@@ -97,31 +91,19 @@
         "title": "/releases/tag/v0.11.0",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/github-release-skill/tree/main",
-        "title": "/tree/main",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/github-release-skill/tree/main/skills/github-release",
-        "title": "/tree/main/skills/github-release",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v0.12.3",
-    "tag_name": "v0.12.3",
-    "published_at": "2026-09-11T21:20:47Z",
-    "url": "https://github.com/netresearch/github-release-skill/releases/tag/v0.12.3"
+    "name": "v1.0.0",
+    "tag_name": "v1.0.0",
+    "published_at": "2026-09-16T06:31:05Z",
+    "url": "https://github.com/netresearch/github-release-skill/releases/tag/v1.0.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 260,
+      "contributions": 269,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -137,7 +119,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-release-skill/network/dependents"
   },
-  "estimated_downstream_reach": 123,
-  "blast_radius": 123,
+  "estimated_downstream_reach": 127,
+  "blast_radius": 127,
   "archived": false
 }

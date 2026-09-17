@@ -38,7 +38,7 @@
     "release_downloads": 182,
     "contributors": 49,
     "external_contributors": 42,
-    "packagist_downloads": 1114301,
+    "packagist_downloads": 1115267,
     "ghcr_downloads": 0,
     "dependents_repos": 46,
     "dependents_packages": 3
@@ -49,19 +49,19 @@
     "prs_opened": 14,
     "prs_merged": 11,
     "releases": 0,
-    "packagist_downloads": 25755,
+    "packagist_downloads": 25578,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1342,
-    "clones_unique": 155,
-    "views_total": 90,
-    "views_unique": 32,
+    "clones_total": 1408,
+    "clones_unique": 161,
+    "views_total": 104,
+    "views_unique": 37,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 20,
-        "uniques": 4
+        "count": 24,
+        "uniques": 5
       },
       {
         "referrer": "packagist.org",
@@ -77,14 +77,19 @@
         "referrer": "github.com",
         "count": 4,
         "uniques": 3
+      },
+      {
+        "referrer": "docs.typo3.org",
+        "count": 3,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-rte_ckeditor_image",
         "title": "Overview",
-        "count": 26,
-        "uniques": 11
+        "count": 31,
+        "uniques": 13
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/releases",
@@ -129,16 +134,16 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/issues/75",
-        "title": "/issues/75",
+        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/v13.0.1/Classes/Database/RteImagesDbHook.php",
-        "title": "/blob/v13.0.1/Classes/Database/RteImagesDbHook.php",
+        "path": "/netresearch/t3x-rte_ckeditor_image/issues/75",
+        "title": "/issues/75",
         "count": 2,
-        "uniques": 1
+        "uniques": 2
       }
     ]
   },
@@ -202,9 +207,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1114301,
-    "monthly": 25755,
-    "daily": 893,
+    "total": 1115267,
+    "monthly": 25578,
+    "daily": 889,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,

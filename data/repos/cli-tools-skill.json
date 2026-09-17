@@ -20,8 +20,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-29T21:10:49Z",
-  "pushed_at": "2026-09-12T17:06:28Z",
-  "updated_at": "2026-09-12T17:06:04Z",
+  "pushed_at": "2026-09-16T17:15:37Z",
+  "updated_at": "2026-09-16T17:15:08Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -29,11 +29,11 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 186,
+    "commits": 190,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 64,
+    "prs_merged": 66,
     "prs_closed_unmerged": 1,
     "issues_total": 2,
     "releases": 28,
@@ -46,29 +46,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 29,
+    "commits": 33,
     "issues_opened": 0,
-    "prs_opened": 14,
-    "prs_merged": 14,
+    "prs_opened": 16,
+    "prs_merged": 16,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3978,
-    "clones_unique": 218,
+    "clones_total": 3993,
+    "clones_unique": 221,
     "views_total": 27,
-    "views_unique": 17,
+    "views_unique": 18,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 12,
-        "uniques": 7
+        "count": 9,
+        "uniques": 6
       },
       {
         "referrer": "github.com",
         "count": 5,
         "uniques": 4
+      },
+      {
+        "referrer": "skills.sh",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -81,25 +86,19 @@
       {
         "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/SKILL.md",
         "title": "/blob/main/skills/cli-tools/SKILL.md",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools",
-        "title": "/tree/main/skills/cli-tools",
-        "count": 3,
-        "uniques": 2
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/cli-tools-skill/blob/main/skills/cli-tools/references/binary_to_tool_map.md",
         "title": "/blob/main/skills/cli-tools/references/binary_to_tool_map.md",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
-        "path": "/netresearch/cli-tools-skill/tree/main/scripts",
-        "title": "/tree/main/scripts",
-        "count": 1,
+        "path": "/netresearch/cli-tools-skill/tree/main/skills/cli-tools",
+        "title": "/tree/main/skills/cli-tools",
+        "count": 2,
         "uniques": 1
       },
       {
@@ -124,12 +123,12 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 15,
+      "contributions": 17,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 14,
+      "contributions": 16,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -155,7 +154,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/cli-tools-skill/network/dependents"
   },
-  "estimated_downstream_reach": 73,
-  "blast_radius": 73,
+  "estimated_downstream_reach": 75,
+  "blast_radius": 75,
   "archived": false
 }
