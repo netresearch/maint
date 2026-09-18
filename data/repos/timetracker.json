@@ -28,45 +28,45 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-09-16T22:11:29Z",
-  "updated_at": "2026-09-16T21:59:12Z",
+  "pushed_at": "2026-09-17T22:12:57Z",
+  "updated_at": "2026-09-17T21:04:09Z",
   "composer_name": "netresearch/timetracker",
   "lifetime": {
     "stars": 24,
     "forks": 27,
     "watchers": 6,
     "network": 27,
-    "open_issues_plus_prs": 6,
-    "commits": 2795,
+    "open_issues_plus_prs": 9,
+    "commits": 2816,
     "issues_open": 5,
-    "issues_closed": 63,
-    "prs_open": 1,
-    "prs_merged": 552,
+    "issues_closed": 65,
+    "prs_open": 4,
+    "prs_merged": 559,
     "prs_closed_unmerged": 87,
-    "issues_total": 68,
+    "issues_total": 70,
     "releases": 33,
     "release_downloads": 0,
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 42803,
+    "ghcr_downloads": 43279,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 118,
-    "issues_opened": 3,
-    "prs_opened": 27,
-    "prs_merged": 23,
+    "commits": 137,
+    "issues_opened": 5,
+    "prs_opened": 37,
+    "prs_merged": 29,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 2519
+    "ghcr_downloads": 2977
   },
   "traffic_14d": {
-    "clones_total": 1814,
-    "clones_unique": 178,
-    "views_total": 53,
-    "views_unique": 27,
+    "clones_total": 2442,
+    "clones_unique": 228,
+    "views_total": 51,
+    "views_unique": 26,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -80,28 +80,22 @@
       },
       {
         "referrer": "chatgpt.com",
-        "count": 3,
-        "uniques": 3
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 14,
-        "uniques": 11
+        "count": 13,
+        "uniques": 10
       },
       {
         "path": "/netresearch/timetracker/discussions",
         "title": "/discussions",
         "count": 6,
         "uniques": 3
-      },
-      {
-        "path": "/netresearch/timetracker/issues",
-        "title": "/issues",
-        "count": 2,
-        "uniques": 2
       },
       {
         "path": "/netresearch/timetracker/issues/624",
@@ -144,6 +138,12 @@
         "title": "/blob/main/.github/workflows/ci.yml",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -156,7 +156,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 2388,
+      "contributions": 2403,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -166,18 +166,18 @@
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 74,
+      "contributions": 77,
       "url": "https://github.com/apps/dependabot"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 67,
+      "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "tivvie",
       "contributions": 66,
       "url": "https://github.com/tivvie"
-    },
-    {
-      "login": "github-actions[bot]",
-      "contributions": 64,
-      "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "just-tobi",
@@ -211,19 +211,19 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 42803,
-        "thirty_day": 2519
+        "total": 43279,
+        "thirty_day": 2977
       }
     ],
-    "total": 42803,
-    "thirty_day": 2519
+    "total": 43279,
+    "thirty_day": 2977
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "estimated_downstream_reach": 689,
-  "blast_radius": 689,
+  "estimated_downstream_reach": 698,
+  "blast_radius": 698,
   "archived": false
 }

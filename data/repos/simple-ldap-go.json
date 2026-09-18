@@ -12,45 +12,45 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-28T08:06:06Z",
-  "pushed_at": "2026-09-11T19:02:26Z",
-  "updated_at": "2026-09-11T19:02:30Z",
+  "pushed_at": "2026-09-17T21:32:28Z",
+  "updated_at": "2026-09-17T21:02:54Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 2,
-    "commits": 625,
-    "issues_open": 1,
+    "open_issues_plus_prs": 3,
+    "commits": 664,
+    "issues_open": 2,
     "issues_closed": 13,
     "prs_open": 1,
-    "prs_merged": 205,
+    "prs_merged": 216,
     "prs_closed_unmerged": 9,
-    "issues_total": 14,
-    "releases": 26,
-    "release_downloads": 19,
-    "contributors": 6,
-    "external_contributors": 1,
+    "issues_total": 15,
+    "releases": 27,
+    "release_downloads": 25,
+    "contributors": 7,
+    "external_contributors": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 5,
     "dependents_packages": 5
   },
   "recent_30d": {
-    "commits": 48,
-    "issues_opened": 5,
-    "prs_opened": 20,
-    "prs_merged": 18,
-    "releases": 3,
+    "commits": 83,
+    "issues_opened": 6,
+    "prs_opened": 30,
+    "prs_merged": 28,
+    "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 257,
-    "clones_unique": 86,
-    "views_total": 21,
-    "views_unique": 13,
+    "clones_total": 256,
+    "clones_unique": 89,
+    "views_total": 20,
+    "views_unique": 14,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -69,12 +69,12 @@
         "path": "/netresearch/simple-ldap-go/blob/main/sam_account_type.go",
         "title": "/blob/main/sam_account_type.go",
         "count": 4,
-        "uniques": 3
+        "uniques": 4
       },
       {
         "path": "/netresearch/simple-ldap-go/pull/227",
         "title": "/pull/227",
-        "count": 4,
+        "count": 3,
         "uniques": 1
       },
       {
@@ -98,15 +98,15 @@
     ]
   },
   "latest_release": {
-    "name": "v1.16.0",
-    "tag_name": "v1.16.0",
-    "published_at": "2026-08-26T09:17:54Z",
-    "url": "https://github.com/netresearch/simple-ldap-go/releases/tag/v1.16.0"
+    "name": "v1.17.0",
+    "tag_name": "v1.17.0",
+    "published_at": "2026-09-17T21:18:49Z",
+    "url": "https://github.com/netresearch/simple-ldap-go/releases/tag/v1.17.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 400,
+      "contributions": 438,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -133,6 +133,11 @@
       "login": "Copilot",
       "contributions": 2,
       "url": "https://github.com/apps/copilot-swe-agent"
+    },
+    {
+      "login": "MarcoUgolini-RM",
+      "contributions": 1,
+      "url": "https://github.com/MarcoUgolini-RM"
     }
   ],
   "packagist": null,
@@ -142,7 +147,7 @@
     "packages": 5,
     "url": "https://github.com/netresearch/simple-ldap-go/network/dependents"
   },
-  "estimated_downstream_reach": 234,
-  "blast_radius": 234,
+  "estimated_downstream_reach": 249,
+  "blast_radius": 249,
   "archived": false
 }

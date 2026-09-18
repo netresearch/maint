@@ -30,7 +30,7 @@
     "prs_closed_unmerged": 4,
     "issues_total": 0,
     "releases": 9,
-    "release_downloads": 775,
+    "release_downloads": 778,
     "contributors": 22,
     "external_contributors": 19,
     "packagist_downloads": 0,
@@ -39,10 +39,10 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 68,
+    "commits": 64,
     "issues_opened": 0,
-    "prs_opened": 22,
-    "prs_merged": 21,
+    "prs_opened": 21,
+    "prs_merged": 20,
     "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
@@ -55,7 +55,7 @@
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 21,
+        "count": 19,
         "uniques": 2
       }
     ],
@@ -65,6 +65,12 @@
         "title": "Overview",
         "count": 11,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/releases",
+        "title": "/releases",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/terraform-provider-ad/actions",
@@ -105,12 +111,6 @@
       {
         "path": "/netresearch/terraform-provider-ad/blob/main/CHANGELOG.md",
         "title": "/blob/main/CHANGELOG.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/terraform-provider-ad/blob/main/ad/resource_ad_gpo.go",
-        "title": "/blob/main/ad/resource_ad_gpo.go",
         "count": 1,
         "uniques": 1
       },
