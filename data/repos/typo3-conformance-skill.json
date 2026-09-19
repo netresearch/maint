@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T10:14:23Z",
-  "pushed_at": "2026-09-17T20:05:29Z",
-  "updated_at": "2026-09-17T20:05:31Z",
+  "pushed_at": "2026-09-18T23:43:33Z",
+  "updated_at": "2026-09-18T23:43:35Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 431,
+    "commits": 433,
     "issues_open": 2,
     "issues_closed": 5,
     "prs_open": 0,
-    "prs_merged": 125,
+    "prs_merged": 126,
     "prs_closed_unmerged": 6,
     "issues_total": 7,
     "releases": 56,
@@ -47,18 +47,18 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 62,
+    "commits": 64,
     "issues_opened": 1,
-    "prs_opened": 30,
-    "prs_merged": 29,
+    "prs_opened": 31,
+    "prs_merged": 30,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3723,
-    "clones_unique": 287,
-    "views_total": 10,
+    "clones_total": 3372,
+    "clones_unique": 285,
+    "views_total": 11,
     "views_unique": 10,
     "top_referrers": [
       {
@@ -77,11 +77,17 @@
         "path": "/netresearch/typo3-conformance-skill",
         "title": "Overview",
         "count": 7,
-        "uniques": 7
+        "uniques": 6
       },
       {
         "path": "/netresearch/typo3-conformance-skill/blob/main/LICENSE-MIT",
         "title": "/blob/main/LICENSE-MIT",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/issues",
+        "title": "/issues",
         "count": 1,
         "uniques": 1
       },
@@ -113,12 +119,12 @@
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 18,
+      "contributions": 19,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 17,
+      "contributions": 18,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -134,7 +140,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "estimated_downstream_reach": 132,
-  "blast_radius": 132,
+  "estimated_downstream_reach": 133,
+  "blast_radius": 133,
   "archived": false
 }

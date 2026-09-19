@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-08-18T16:10:14Z",
-  "pushed_at": "2026-09-17T09:34:41Z",
-  "updated_at": "2026-09-17T09:34:25Z",
+  "pushed_at": "2026-09-18T11:23:33Z",
+  "updated_at": "2026-09-18T11:23:38Z",
   "composer_name": "netresearch/nr-llm-compat",
   "lifetime": {
     "stars": 0,
@@ -19,38 +19,51 @@
     "watchers": 0,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 61,
+    "commits": 63,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 1,
-    "prs_merged": 26,
+    "prs_merged": 27,
     "prs_closed_unmerged": 2,
     "issues_total": 3,
     "releases": 6,
     "release_downloads": 0,
     "contributors": 2,
     "external_contributors": 0,
-    "packagist_downloads": 496,
+    "packagist_downloads": 508,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 29,
-    "issues_opened": 1,
-    "prs_opened": 15,
-    "prs_merged": 15,
+    "commits": 30,
+    "issues_opened": 0,
+    "prs_opened": 14,
+    "prs_merged": 14,
     "releases": 5,
-    "packagist_downloads": 447,
+    "packagist_downloads": 331,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1432,
-    "clones_unique": 73,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 1107,
+    "clones_unique": 88,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-llm-compat",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v0.1.5",
@@ -61,7 +74,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 58,
+      "contributions": 60,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -72,9 +85,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm-compat",
-    "total": 496,
-    "monthly": 447,
-    "daily": 19,
+    "total": 508,
+    "monthly": 331,
+    "daily": 10,
     "url": "https://packagist.org/packages/netresearch/nr-llm-compat"
   },
   "ghcr": null,
@@ -83,7 +96,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-llm-compat/network/dependents"
   },
-  "estimated_downstream_reach": 29,
-  "blast_radius": 29,
+  "estimated_downstream_reach": 30,
+  "blast_radius": 30,
   "archived": false
 }

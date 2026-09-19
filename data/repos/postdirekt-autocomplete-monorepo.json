@@ -16,8 +16,8 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2020-04-03T12:23:14Z",
-  "pushed_at": "2026-09-17T22:51:29Z",
-  "updated_at": "2026-09-17T13:09:53Z",
+  "pushed_at": "2026-09-19T00:26:22Z",
+  "updated_at": "2026-09-19T00:26:13Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
@@ -25,11 +25,11 @@
     "watchers": 6,
     "network": 1,
     "open_issues_plus_prs": 12,
-    "commits": 154,
+    "commits": 155,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 11,
-    "prs_merged": 111,
+    "prs_merged": 112,
     "prs_closed_unmerged": 60,
     "issues_total": 2,
     "releases": 2,
@@ -42,24 +42,30 @@
     "dependents_packages": 3
   },
   "recent_30d": {
-    "commits": 14,
+    "commits": 15,
     "issues_opened": 0,
-    "prs_opened": 15,
-    "prs_merged": 14,
+    "prs_opened": 16,
+    "prs_merged": 15,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 853,
-    "clones_unique": 93,
-    "views_total": 3,
-    "views_unique": 3,
+    "clones_total": 833,
+    "clones_unique": 92,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [],
     "top_paths": [
       {
         "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/README.md",
         "title": "/blob/master/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-library/README.md",
+        "title": "/blob/master/packages/autocomplete-library/README.md",
         "count": 1,
         "uniques": 1
       },
@@ -86,7 +92,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 87,
+      "contributions": 88,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -127,7 +133,7 @@
     "packages": 3,
     "url": "https://github.com/netresearch/postdirekt-autocomplete-monorepo/network/dependents"
   },
-  "estimated_downstream_reach": 126,
-  "blast_radius": 126,
+  "estimated_downstream_reach": 127,
+  "blast_radius": 127,
   "archived": false
 }

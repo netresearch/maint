@@ -14,23 +14,23 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T13:14:49Z",
-  "pushed_at": "2026-09-17T16:33:29Z",
-  "updated_at": "2026-09-17T16:31:53Z",
+  "pushed_at": "2026-09-18T20:53:11Z",
+  "updated_at": "2026-09-18T20:53:14Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
     "forks": 2,
     "watchers": 1,
     "network": 2,
-    "open_issues_plus_prs": 3,
-    "commits": 568,
+    "open_issues_plus_prs": 2,
+    "commits": 587,
     "issues_open": 2,
     "issues_closed": 3,
-    "prs_open": 1,
-    "prs_merged": 190,
+    "prs_open": 0,
+    "prs_merged": 196,
     "prs_closed_unmerged": 2,
     "issues_total": 5,
-    "releases": 57,
+    "releases": 58,
     "release_downloads": 108,
     "contributors": 3,
     "external_contributors": 0,
@@ -40,34 +40,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 94,
+    "commits": 111,
     "issues_opened": 2,
-    "prs_opened": 38,
-    "prs_merged": 37,
-    "releases": 6,
+    "prs_opened": 42,
+    "prs_merged": 42,
+    "releases": 7,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4404,
-    "clones_unique": 377,
-    "views_total": 155,
-    "views_unique": 73,
+    "clones_total": 4239,
+    "clones_unique": 397,
+    "views_total": 169,
+    "views_unique": 78,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 66,
-        "uniques": 33
+        "count": 69,
+        "uniques": 36
+      },
+      {
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "count": 13,
+        "uniques": 6
       },
       {
         "referrer": "github.com",
         "count": 9,
         "uniques": 2
-      },
-      {
-        "referrer": "teams.public.onecdn.static.microsoft",
-        "count": 8,
-        "uniques": 4
       },
       {
         "referrer": "perplexity.ai",
@@ -76,8 +76,8 @@
       },
       {
         "referrer": "euc-powerpoint.officeapps.live.com",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "euc.present.officeapps.live.com",
@@ -94,20 +94,20 @@
       {
         "path": "/netresearch/github-project-skill",
         "title": "Overview",
-        "count": 81,
-        "uniques": 65
+        "count": 93,
+        "uniques": 70
+      },
+      {
+        "path": "/netresearch/github-project-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 18,
+        "uniques": 9
       },
       {
         "path": "/netresearch/github-project-skill/tree/main/skills/github-project",
         "title": "/tree/main/skills/github-project",
         "count": 17,
         "uniques": 12
-      },
-      {
-        "path": "/netresearch/github-project-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 16,
-        "uniques": 8
       },
       {
         "path": "/netresearch/github-project-skill/blob/main/skills/github-project/SKILL.md",
@@ -154,20 +154,20 @@
     ]
   },
   "latest_release": {
-    "name": "v2.19.0",
-    "tag_name": "v2.19.0",
-    "published_at": "2026-09-16T06:30:07Z",
-    "url": "https://github.com/netresearch/github-project-skill/releases/tag/v2.19.0"
+    "name": "v2.19.1",
+    "tag_name": "v2.19.1",
+    "published_at": "2026-09-18T20:17:23Z",
+    "url": "https://github.com/netresearch/github-project-skill/releases/tag/v2.19.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 549,
+      "contributions": 567,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 14,
+      "contributions": 15,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -183,7 +183,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-project-skill/network/dependents"
   },
-  "estimated_downstream_reach": 199,
-  "blast_radius": 199,
+  "estimated_downstream_reach": 205,
+  "blast_radius": 205,
   "archived": false
 }

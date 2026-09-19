@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T08:31:58Z",
-  "pushed_at": "2026-09-17T16:23:36Z",
-  "updated_at": "2026-09-17T16:23:38Z",
+  "pushed_at": "2026-09-18T20:54:12Z",
+  "updated_at": "2026-09-18T20:53:22Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
@@ -30,14 +30,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 534,
+    "commits": 545,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 167,
+    "prs_merged": 172,
     "prs_closed_unmerged": 6,
     "issues_total": 4,
-    "releases": 62,
+    "releases": 63,
     "release_downloads": 206,
     "contributors": 4,
     "external_contributors": 0,
@@ -47,24 +47,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 108,
+    "commits": 119,
     "issues_opened": 2,
-    "prs_opened": 45,
-    "prs_merged": 44,
-    "releases": 9,
+    "prs_opened": 50,
+    "prs_merged": 49,
+    "releases": 10,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5119,
-    "clones_unique": 348,
-    "views_total": 44,
-    "views_unique": 17,
+    "clones_total": 5319,
+    "clones_unique": 385,
+    "views_total": 54,
+    "views_unique": 20,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 16,
-        "uniques": 11
+        "count": 17,
+        "uniques": 12
       },
       {
         "referrer": "github.com",
@@ -76,8 +76,20 @@
       {
         "path": "/netresearch/typo3-testing-skill",
         "title": "Overview",
-        "count": 19,
-        "uniques": 16
+        "count": 20,
+        "uniques": 17
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/tree/main",
+        "title": "/tree/main",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/tree/main/skills/typo3-testing",
+        "title": "/tree/main/skills/typo3-testing",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-testing-skill/blob/main/skills/typo3-testing/SKILL.md",
@@ -86,8 +98,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/typo3-testing-skill/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/typo3-testing-skill/tree/main/skills/typo3-testing/scripts",
+        "title": "/tree/main/skills/typo3-testing/scripts",
         "count": 2,
         "uniques": 2
       },
@@ -98,15 +110,15 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-testing-skill/tree/main/skills/typo3-testing",
-        "title": "/tree/main/skills/typo3-testing",
+        "path": "/netresearch/typo3-testing-skill/tree/main/skills/typo3-testing/references",
+        "title": "/tree/main/skills/typo3-testing/references",
         "count": 2,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-testing-skill/tree/main/skills/typo3-testing/references",
-        "title": "/tree/main/skills/typo3-testing/references",
-        "count": 2,
+        "path": "/netresearch/typo3-testing-skill/blob/main/SKILL.md",
+        "title": "/blob/main/SKILL.md",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -120,41 +132,29 @@
         "title": "/blob/main/agents/test-generator.md",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/blob/main/evals/evals.json",
-        "title": "/blob/main/evals/evals.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/blob/main/scripts/verify-harness.sh",
-        "title": "/blob/main/scripts/verify-harness.sh",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v5.21.2",
-    "tag_name": "v5.21.2",
-    "published_at": "2026-09-17T12:29:25Z",
-    "url": "https://github.com/netresearch/typo3-testing-skill/releases/tag/v5.21.2"
+    "name": "v5.21.3",
+    "tag_name": "v5.21.3",
+    "published_at": "2026-09-18T20:25:53Z",
+    "url": "https://github.com/netresearch/typo3-testing-skill/releases/tag/v5.21.3"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 495,
+      "contributions": 504,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 18,
+      "contributions": 19,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 16,
+      "contributions": 17,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -170,7 +170,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
   },
-  "estimated_downstream_reach": 171,
-  "blast_radius": 171,
+  "estimated_downstream_reach": 176,
+  "blast_radius": 176,
   "archived": false
 }

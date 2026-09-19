@@ -24,42 +24,42 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-09-29T09:01:16Z",
-  "pushed_at": "2026-09-10T13:38:34Z",
-  "updated_at": "2026-09-10T13:41:36Z",
+  "pushed_at": "2026-09-18T12:05:21Z",
+  "updated_at": "2026-09-18T12:05:23Z",
   "composer_name": "netresearch/nr-textdb",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 4,
     "network": 0,
-    "open_issues_plus_prs": 17,
-    "commits": 669,
+    "open_issues_plus_prs": 16,
+    "commits": 671,
     "issues_open": 16,
     "issues_closed": 29,
-    "prs_open": 1,
-    "prs_merged": 80,
-    "prs_closed_unmerged": 26,
+    "prs_open": 0,
+    "prs_merged": 81,
+    "prs_closed_unmerged": 27,
     "issues_total": 45,
     "releases": 18,
     "release_downloads": 1,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 2348,
+    "packagist_downloads": 2362,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 32,
-    "issues_opened": 11,
+    "commits": 33,
+    "issues_opened": 10,
     "prs_opened": 17,
     "prs_merged": 15,
     "releases": 0,
-    "packagist_downloads": 533,
+    "packagist_downloads": 419,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 384,
+    "clones_total": 344,
     "clones_unique": 58,
     "views_total": 4,
     "views_unique": 4,
@@ -74,8 +74,14 @@
       {
         "path": "/netresearch/t3x-nr-textdb",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-textdb/blob/main/CONTRIBUTING.md",
@@ -100,7 +106,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 526,
+      "contributions": 528,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -141,9 +147,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 2348,
-    "monthly": 533,
-    "daily": 20,
+    "total": 2362,
+    "monthly": 419,
+    "daily": 12,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,
@@ -152,7 +158,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-textdb/network/dependents"
   },
-  "estimated_downstream_reach": 133,
-  "blast_radius": 133,
+  "estimated_downstream_reach": 134,
+  "blast_radius": 134,
   "archived": false
 }

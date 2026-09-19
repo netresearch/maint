@@ -27,8 +27,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-31T12:42:05Z",
-  "pushed_at": "2026-09-17T16:19:59Z",
-  "updated_at": "2026-09-17T16:19:19Z",
+  "pushed_at": "2026-09-19T00:47:39Z",
+  "updated_at": "2026-09-19T00:47:19Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
@@ -36,14 +36,14 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 447,
+    "commits": 451,
     "issues_open": 1,
     "issues_closed": 22,
     "prs_open": 0,
-    "prs_merged": 128,
+    "prs_merged": 130,
     "prs_closed_unmerged": 0,
     "issues_total": 23,
-    "releases": 60,
+    "releases": 61,
     "release_downloads": 173,
     "contributors": 6,
     "external_contributors": 1,
@@ -53,24 +53,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 81,
-    "issues_opened": 1,
-    "prs_opened": 34,
-    "prs_merged": 34,
-    "releases": 5,
+    "commits": 82,
+    "issues_opened": 0,
+    "prs_opened": 35,
+    "prs_merged": 35,
+    "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2400,
-    "clones_unique": 627,
-    "views_total": 71,
-    "views_unique": 33,
+    "clones_total": 2185,
+    "clones_unique": 615,
+    "views_total": 68,
+    "views_unique": 32,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 53,
-        "uniques": 20
+        "count": 50,
+        "uniques": 19
       },
       {
         "referrer": "github.com",
@@ -87,8 +87,8 @@
       {
         "path": "/netresearch/matrix-skill",
         "title": "Overview",
-        "count": 38,
-        "uniques": 25
+        "count": 40,
+        "uniques": 26
       },
       {
         "path": "/netresearch/matrix-skill/tree/main/skills",
@@ -97,20 +97,8 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/matrix-skill/tree/main",
-        "title": "/tree/main",
-        "count": 3,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/matrix-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
-        "title": "/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
         "count": 2,
         "uniques": 2
       },
@@ -127,9 +115,9 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/matrix-skill/actions/runs/32263619437",
-        "title": "/actions/runs/32263619437",
-        "count": 1,
+        "path": "/netresearch/matrix-skill/tree/main",
+        "title": "/tree/main",
+        "count": 2,
         "uniques": 1
       },
       {
@@ -143,29 +131,41 @@
         "title": "/blob/main/skills/matrix-administration/SKILL.md",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
+        "title": "/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-announcement",
+        "title": "/blob/main/skills/matrix-announcement",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v3.1.6",
-    "tag_name": "v3.1.6",
-    "published_at": "2026-09-16T06:38:02Z",
-    "url": "https://github.com/netresearch/matrix-skill/releases/tag/v3.1.6"
+    "name": "v3.1.7",
+    "tag_name": "v3.1.7",
+    "published_at": "2026-09-18T20:21:10Z",
+    "url": "https://github.com/netresearch/matrix-skill/releases/tag/v3.1.7"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 365,
+      "contributions": 367,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 18,
+      "contributions": 19,
       "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 18,
+      "contributions": 19,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -191,7 +191,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/matrix-skill/network/dependents"
   },
-  "estimated_downstream_reach": 154,
-  "blast_radius": 154,
+  "estimated_downstream_reach": 156,
+  "blast_radius": 156,
   "archived": false
 }

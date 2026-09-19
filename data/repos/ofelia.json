@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2022-05-30T12:58:03Z",
-  "pushed_at": "2026-09-18T03:28:38Z",
-  "updated_at": "2026-09-16T16:18:44Z",
+  "pushed_at": "2026-09-18T21:58:02Z",
+  "updated_at": "2026-09-18T21:57:32Z",
   "composer_name": null,
   "lifetime": {
     "stars": 65,
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 207,
     "open_issues_plus_prs": 27,
-    "commits": 1819,
+    "commits": 1821,
     "issues_open": 25,
     "issues_closed": 180,
     "prs_open": 2,
-    "prs_merged": 571,
+    "prs_merged": 572,
     "prs_closed_unmerged": 65,
     "issues_total": 205,
     "releases": 55,
@@ -42,29 +42,29 @@
     "contributors": 46,
     "external_contributors": 40,
     "packagist_downloads": 0,
-    "ghcr_downloads": 401513,
+    "ghcr_downloads": 403403,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 152,
+    "commits": 154,
     "issues_opened": 8,
     "prs_opened": 43,
-    "prs_merged": 39,
+    "prs_merged": 40,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 61712
+    "ghcr_downloads": 61669
   },
   "traffic_14d": {
-    "clones_total": 3050,
-    "clones_unique": 298,
-    "views_total": 123,
-    "views_unique": 40,
+    "clones_total": 1998,
+    "clones_unique": 231,
+    "views_total": 129,
+    "views_unique": 39,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 18,
-        "uniques": 9
+        "count": 17,
+        "uniques": 8
       },
       {
         "referrer": "Google",
@@ -97,7 +97,7 @@
         "path": "/netresearch/ofelia",
         "title": "Overview",
         "count": 35,
-        "uniques": 20
+        "uniques": 19
       },
       {
         "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
@@ -148,8 +148,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/tree/main/web",
-        "title": "/tree/main/web",
+        "path": "/netresearch/ofelia/blob/main/Dockerfile",
+        "title": "/blob/main/Dockerfile",
         "count": 2,
         "uniques": 2
       }
@@ -184,7 +184,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 30,
+      "contributions": 32,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -219,19 +219,19 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 401513,
-        "thirty_day": 61712
+        "total": 403403,
+        "thirty_day": 61669
       }
     ],
-    "total": 401513,
-    "thirty_day": 61712
+    "total": 403403,
+    "thirty_day": 61669
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/ofelia/network/dependents"
   },
-  "estimated_downstream_reach": 910,
-  "blast_radius": 910,
+  "estimated_downstream_reach": 911,
+  "blast_radius": 911,
   "archived": false
 }
