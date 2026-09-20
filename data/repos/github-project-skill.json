@@ -14,20 +14,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T13:14:49Z",
-  "pushed_at": "2026-09-18T20:53:11Z",
-  "updated_at": "2026-09-18T20:53:14Z",
+  "pushed_at": "2026-09-19T17:52:59Z",
+  "updated_at": "2026-09-19T17:52:09Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
     "forks": 2,
     "watchers": 1,
     "network": 2,
-    "open_issues_plus_prs": 2,
-    "commits": 587,
-    "issues_open": 2,
-    "issues_closed": 3,
+    "open_issues_plus_prs": 1,
+    "commits": 594,
+    "issues_open": 1,
+    "issues_closed": 4,
     "prs_open": 0,
-    "prs_merged": 196,
+    "prs_merged": 199,
     "prs_closed_unmerged": 2,
     "issues_total": 5,
     "releases": 58,
@@ -40,24 +40,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 111,
+    "commits": 118,
     "issues_opened": 2,
-    "prs_opened": 42,
-    "prs_merged": 42,
+    "prs_opened": 45,
+    "prs_merged": 45,
     "releases": 7,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4239,
-    "clones_unique": 397,
-    "views_total": 169,
-    "views_unique": 78,
+    "clones_total": 4629,
+    "clones_unique": 431,
+    "views_total": 166,
+    "views_unique": 77,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 69,
-        "uniques": 36
+        "count": 67,
+        "uniques": 35
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
@@ -78,6 +78,11 @@
         "referrer": "euc-powerpoint.officeapps.live.com",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "euc.present.officeapps.live.com",
@@ -106,14 +111,20 @@
       {
         "path": "/netresearch/github-project-skill/tree/main/skills/github-project",
         "title": "/tree/main/skills/github-project",
-        "count": 17,
-        "uniques": 12
+        "count": 15,
+        "uniques": 11
       },
       {
         "path": "/netresearch/github-project-skill/blob/main/skills/github-project/SKILL.md",
         "title": "/blob/main/skills/github-project/SKILL.md",
-        "count": 11,
-        "uniques": 7
+        "count": 9,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/github-project-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/github-project-skill/blob/main/docs/ARCHITECTURE.md",
@@ -144,12 +155,6 @@
         "title": "/tree/main/.claude-plugin",
         "count": 2,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/github-project-skill/tree/main/Build/hooks",
-        "title": "/tree/main/Build/hooks",
-        "count": 2,
-        "uniques": 1
       }
     ]
   },
@@ -162,17 +167,17 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 567,
+      "contributions": 570,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 15,
+      "contributions": 17,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 5,
+      "contributions": 7,
       "url": "https://github.com/apps/github-actions"
     }
   ],
@@ -183,7 +188,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-project-skill/network/dependents"
   },
-  "estimated_downstream_reach": 205,
-  "blast_radius": 205,
+  "estimated_downstream_reach": 208,
+  "blast_radius": 208,
   "archived": false
 }

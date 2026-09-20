@@ -38,11 +38,11 @@
     "prs_closed_unmerged": 65,
     "issues_total": 205,
     "releases": 55,
-    "release_downloads": 2487,
+    "release_downloads": 2489,
     "contributors": 46,
     "external_contributors": 40,
     "packagist_downloads": 0,
-    "ghcr_downloads": 403403,
+    "ghcr_downloads": 405518,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -53,13 +53,13 @@
     "prs_merged": 40,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 61669
+    "ghcr_downloads": 61311
   },
   "traffic_14d": {
-    "clones_total": 1998,
-    "clones_unique": 231,
-    "views_total": 129,
-    "views_unique": 39,
+    "clones_total": 2019,
+    "clones_unique": 224,
+    "views_total": 139,
+    "views_unique": 41,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -68,18 +68,13 @@
       },
       {
         "referrer": "Google",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "reddit.com",
-        "count": 2,
+        "count": 3,
         "uniques": 2
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 2,
-        "uniques": 1
       },
       {
         "referrer": "awesome-go.com",
@@ -90,20 +85,25 @@
         "referrer": "doubao.com",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "scheduler.ch-hosting.de",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 35,
-        "uniques": 19
+        "count": 39,
+        "uniques": 21
       },
       {
         "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
         "title": "/blob/main/docs/CONFIGURATION.md",
-        "count": 7,
-        "uniques": 6
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/ofelia/releases",
@@ -112,15 +112,15 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/ofelia/releases/tag/v1.0.0",
-        "title": "/releases/tag/v1.0.0",
-        "count": 5,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/ofelia/blob/main/docs/images/dashboard-light-dark.png",
         "title": "/blob/main/docs/images/dashboard-light-dark.png",
-        "count": 3,
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/ofelia/releases/tag/v1.0.0",
+        "title": "/releases/tag/v1.0.0",
+        "count": 4,
         "uniques": 3
       },
       {
@@ -219,12 +219,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 403403,
-        "thirty_day": 61669
+        "total": 405518,
+        "thirty_day": 61311
       }
     ],
-    "total": 403403,
-    "thirty_day": 61669
+    "total": 405518,
+    "thirty_day": 61311
   },
   "dependents": {
     "repositories": 0,

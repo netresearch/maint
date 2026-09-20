@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 2,
-    "packagist_downloads": 250245,
+    "packagist_downloads": 250288,
     "ghcr_downloads": 0,
     "dependents_repos": 18,
     "dependents_packages": 3
@@ -47,16 +47,23 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 6545,
+    "packagist_downloads": 6376,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 284,
-    "clones_unique": 263,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 288,
+    "clones_unique": 265,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/module-shipping-core/blob/main/LICENSE.md",
+        "title": "/blob/main/LICENSE.md",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "5.0.0",
@@ -83,9 +90,9 @@
   ],
   "packagist": {
     "name": "netresearch/module-shipping-core",
-    "total": 250245,
-    "monthly": 6545,
-    "daily": 184,
+    "total": 250288,
+    "monthly": 6376,
+    "daily": 41,
     "url": "https://packagist.org/packages/netresearch/module-shipping-core"
   },
   "ghcr": null,

@@ -32,34 +32,34 @@
     "release_downloads": 271,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 93616,
+    "packagist_downloads": 93629,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 163,
+    "commits": 161,
     "issues_opened": 0,
-    "prs_opened": 50,
-    "prs_merged": 46,
+    "prs_opened": 49,
+    "prs_merged": 45,
     "releases": 2,
-    "packagist_downloads": 15863,
+    "packagist_downloads": 12785,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 14077,
-    "clones_unique": 414,
-    "views_total": 12,
-    "views_unique": 9,
+    "clones_total": 14179,
+    "clones_unique": 424,
+    "views_total": 11,
+    "views_unique": 10,
     "top_referrers": [
-      {
-        "referrer": "extensions.typo3.org",
-        "count": 3,
-        "uniques": 1
-      },
       {
         "referrer": "Google",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -72,8 +72,14 @@
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 7,
+        "count": 5,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-vault/commit/6365ccc5dad99bae44fdda3a65933c99b86a409e",
@@ -84,12 +90,6 @@
       {
         "path": "/netresearch/t3x-nr-vault/blob/main/docs/architecture.md",
         "title": "/blob/main/docs/architecture.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/blob/main/ext_conf_template.txt",
-        "title": "/blob/main/ext_conf_template.txt",
         "count": 1,
         "uniques": 1
       },
@@ -131,9 +131,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 93616,
-    "monthly": 15863,
-    "daily": 450,
+    "total": 93629,
+    "monthly": 12785,
+    "daily": 57,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,
