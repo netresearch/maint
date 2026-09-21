@@ -38,27 +38,39 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 3135,
+    "packagist_downloads": 3137,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 13,
+    "commits": 11,
     "issues_opened": 0,
-    "prs_opened": 6,
-    "prs_merged": 6,
+    "prs_opened": 5,
+    "prs_merged": 5,
     "releases": 1,
-    "packagist_downloads": 315,
+    "packagist_downloads": 316,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 569,
-    "clones_unique": 53,
-    "views_total": 9,
-    "views_unique": 9,
-    "top_referrers": [],
+    "clones_total": 579,
+    "clones_unique": 59,
+    "views_total": 16,
+    "views_unique": 10,
+    "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/t3x-nr-image-sitemap/issues",
         "title": "/issues",
@@ -66,8 +78,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-image-sitemap",
-        "title": "Overview",
+        "path": "/netresearch/t3x-nr-image-sitemap/blob/main/Classes/Seo/ImagesXmlSitemapDataProvider.php",
+        "title": "/blob/main/Classes/Seo/ImagesXmlSitemapDataProvider.php",
         "count": 1,
         "uniques": 1
       },
@@ -104,6 +116,12 @@
       {
         "path": "/netresearch/t3x-nr-image-sitemap/tree/main",
         "title": "/tree/main",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap/tree/main/Classes",
+        "title": "/tree/main/Classes",
         "count": 1,
         "uniques": 1
       }
@@ -144,9 +162,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-sitemap",
-    "total": 3135,
-    "monthly": 315,
-    "daily": 4,
+    "total": 3137,
+    "monthly": 316,
+    "daily": 3,
     "url": "https://packagist.org/packages/netresearch/nr-image-sitemap"
   },
   "ghcr": null,

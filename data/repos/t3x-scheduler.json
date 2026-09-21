@@ -32,26 +32,31 @@
     "release_downloads": 1,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 3819,
+    "packagist_downloads": 3820,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 8,
+    "commits": 4,
     "issues_opened": 0,
-    "prs_opened": 3,
-    "prs_merged": 3,
+    "prs_opened": 2,
+    "prs_merged": 2,
     "releases": 0,
-    "packagist_downloads": 521,
+    "packagist_downloads": 496,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 123,
-    "clones_unique": 26,
-    "views_total": 3,
-    "views_unique": 3,
+    "clones_total": 125,
+    "clones_unique": 28,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "referrer": "github.com",
         "count": 1,
@@ -62,6 +67,12 @@
       {
         "path": "/netresearch/t3x-scheduler",
         "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-scheduler/blob/main/README.md",
+        "title": "/blob/main/README.md",
         "count": 1,
         "uniques": 1
       },
@@ -109,9 +120,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-scheduler",
-    "total": 3819,
-    "monthly": 521,
-    "daily": 2,
+    "total": 3820,
+    "monthly": 496,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/nr-scheduler"
   },
   "ghcr": null,

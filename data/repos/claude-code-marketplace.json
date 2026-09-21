@@ -24,8 +24,8 @@
   "homepage": "https://netresearch.github.io/claude-code-marketplace/",
   "default_branch": "main",
   "created_at": "2025-10-18T07:59:00Z",
-  "pushed_at": "2026-09-18T21:06:23Z",
-  "updated_at": "2026-09-18T21:06:26Z",
+  "pushed_at": "2026-09-20T08:50:35Z",
+  "updated_at": "2026-09-20T08:50:37Z",
   "composer_name": null,
   "lifetime": {
     "stars": 60,
@@ -33,11 +33,11 @@
     "watchers": 2,
     "network": 13,
     "open_issues_plus_prs": 1,
-    "commits": 357,
+    "commits": 359,
     "issues_open": 1,
     "issues_closed": 11,
     "prs_open": 0,
-    "prs_merged": 80,
+    "prs_merged": 81,
     "prs_closed_unmerged": 24,
     "issues_total": 12,
     "releases": 3,
@@ -50,29 +50,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 30,
+    "commits": 32,
     "issues_opened": 2,
-    "prs_opened": 13,
-    "prs_merged": 12,
+    "prs_opened": 14,
+    "prs_merged": 13,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1306,
-    "clones_unique": 450,
-    "views_total": 460,
-    "views_unique": 276,
+    "clones_total": 1236,
+    "clones_unique": 457,
+    "views_total": 459,
+    "views_unique": 277,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 155,
-        "uniques": 97
+        "count": 148,
+        "uniques": 99
       },
       {
         "referrer": "github.com",
-        "count": 91,
-        "uniques": 73
+        "count": 92,
+        "uniques": 74
       },
       {
         "referrer": "chatgpt.com",
@@ -99,20 +99,26 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 323,
-        "uniques": 254
+        "count": 321,
+        "uniques": 252
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
         "title": "/blob/main/.claude-plugin/marketplace.json",
-        "count": 17,
+        "count": 14,
         "uniques": 8
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 16,
+        "count": 13,
         "uniques": 9
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 11,
+        "uniques": 10
       },
       {
         "path": "/netresearch/claude-code-marketplace/issues/106",
@@ -121,22 +127,16 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
+        "path": "/netresearch/claude-code-marketplace/discussions",
+        "title": "/discussions",
         "count": 10,
-        "uniques": 9
+        "uniques": 7
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 8,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/discussions",
-        "title": "/discussions",
-        "count": 8,
-        "uniques": 6
+        "count": 9,
+        "uniques": 7
       },
       {
         "path": "/netresearch/claude-code-marketplace/issues",
@@ -151,10 +151,10 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/claude-code-marketplace/tree/main/site",
-        "title": "/tree/main/site",
+        "path": "/netresearch/claude-code-marketplace/blob/main/CLAUDE.md",
+        "title": "/blob/main/CLAUDE.md",
         "count": 4,
-        "uniques": 4
+        "uniques": 3
       }
     ]
   },
@@ -167,7 +167,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 263,
+      "contributions": 265,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -218,7 +218,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
   },
-  "estimated_downstream_reach": 130,
-  "blast_radius": 130,
+  "estimated_downstream_reach": 131,
+  "blast_radius": 131,
   "archived": false
 }
