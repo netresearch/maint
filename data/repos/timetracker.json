@@ -28,8 +28,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-09-20T17:09:44Z",
-  "updated_at": "2026-09-20T17:09:48Z",
+  "pushed_at": "2026-09-21T14:06:07Z",
+  "updated_at": "2026-09-21T14:07:27Z",
   "composer_name": "netresearch/timetracker",
   "lifetime": {
     "stars": 24,
@@ -37,36 +37,36 @@
     "watchers": 6,
     "network": 27,
     "open_issues_plus_prs": 4,
-    "commits": 2911,
+    "commits": 2941,
     "issues_open": 2,
-    "issues_closed": 69,
+    "issues_closed": 71,
     "prs_open": 2,
-    "prs_merged": 586,
+    "prs_merged": 597,
     "prs_closed_unmerged": 88,
-    "issues_total": 71,
+    "issues_total": 73,
     "releases": 34,
-    "release_downloads": 4,
+    "release_downloads": 11,
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 45380,
+    "ghcr_downloads": 46239,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 230,
-    "issues_opened": 6,
-    "prs_opened": 59,
-    "prs_merged": 55,
+    "commits": 260,
+    "issues_opened": 8,
+    "prs_opened": 70,
+    "prs_merged": 66,
     "releases": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 4954
+    "ghcr_downloads": 5795
   },
   "traffic_14d": {
-    "clones_total": 5072,
-    "clones_unique": 413,
-    "views_total": 75,
-    "views_unique": 35,
+    "clones_total": 5621,
+    "clones_unique": 440,
+    "views_total": 68,
+    "views_unique": 36,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -88,14 +88,14 @@
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 21,
+        "count": 22,
         "uniques": 16
       },
       {
         "path": "/netresearch/timetracker/discussions",
         "title": "/discussions",
         "count": 7,
-        "uniques": 3
+        "uniques": 4
       },
       {
         "path": "/netresearch/timetracker/issues/624",
@@ -122,26 +122,26 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/timetracker/blob/main/tests/Command/EncryptJiraTokensCommandTest.php",
-        "title": "/blob/main/tests/Command/EncryptJiraTokensCommandTest.php",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/tests/Mcp/WorklogSyncToolsTest.php",
-        "title": "/blob/main/tests/Mcp/WorklogSyncToolsTest.php",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/cecd587d/tests/Controller/InterpretationControllerTest.php",
-        "title": "/blob/cecd587d/tests/Controller/InterpretationControllerTest.php",
+        "path": "/netresearch/timetracker/attestations",
+        "title": "/attestations",
         "count": 1,
         "uniques": 1
       },
       {
         "path": "/netresearch/timetracker/blob/main/Dockerfile",
         "title": "/blob/main/Dockerfile",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/docker/README.md",
+        "title": "/blob/main/docker/README.md",
         "count": 1,
         "uniques": 1
       }
@@ -156,7 +156,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 2494,
+      "contributions": 2524,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -211,19 +211,19 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 45380,
-        "thirty_day": 4954
+        "total": 46239,
+        "thirty_day": 5795
       }
     ],
-    "total": 45380,
-    "thirty_day": 4954
+    "total": 46239,
+    "thirty_day": 5795
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "estimated_downstream_reach": 726,
-  "blast_radius": 726,
+  "estimated_downstream_reach": 739,
+  "blast_radius": 739,
   "archived": false
 }
