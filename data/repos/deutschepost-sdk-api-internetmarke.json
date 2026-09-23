@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 2,
     "external_contributors": 1,
-    "packagist_downloads": 14474,
+    "packagist_downloads": 14631,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,37 +43,31 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 3274,
+    "packagist_downloads": 3328,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 243,
-    "clones_unique": 225,
-    "views_total": 6,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 225,
+    "clones_unique": 208,
+    "views_total": 3,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/deutschepost-sdk-api-internetmarke/blob/main/src/Model/ShoppingCartPositionBuilder.php",
         "title": "/blob/main/src/Model/ShoppingCartPositionBuilder.php",
-        "count": 3,
+        "count": 2,
         "uniques": 1
       },
       {
         "path": "/netresearch/deutschepost-sdk-api-internetmarke",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-sdk-api-internetmarke/tree/main/src",
-        "title": "/tree/main/src",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-sdk-api-internetmarke/tree/main/src/Model",
-        "title": "/tree/main/src/Model",
         "count": 1,
         "uniques": 1
       }
@@ -99,9 +93,9 @@
   ],
   "packagist": {
     "name": "deutschepost/sdk-api-internetmarke",
-    "total": 14474,
-    "monthly": 3274,
-    "daily": 128,
+    "total": 14631,
+    "monthly": 3328,
+    "daily": 138,
     "url": "https://packagist.org/packages/deutschepost/sdk-api-internetmarke"
   },
   "ghcr": null,
