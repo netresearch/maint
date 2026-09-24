@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T08:31:58Z",
-  "pushed_at": "2026-09-22T22:28:58Z",
-  "updated_at": "2026-09-22T22:29:01Z",
+  "pushed_at": "2026-09-23T18:40:33Z",
+  "updated_at": "2026-09-23T18:40:36Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
@@ -30,16 +30,16 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 559,
+    "commits": 569,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 178,
+    "prs_merged": 182,
     "prs_closed_unmerged": 6,
     "issues_total": 4,
-    "releases": 64,
+    "releases": 65,
     "release_downloads": 206,
-    "contributors": 4,
+    "contributors": 5,
     "external_contributors": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -47,24 +47,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 125,
+    "commits": 135,
     "issues_opened": 1,
-    "prs_opened": 52,
-    "prs_merged": 52,
-    "releases": 10,
+    "prs_opened": 56,
+    "prs_merged": 56,
+    "releases": 11,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5972,
-    "clones_unique": 429,
-    "views_total": 51,
-    "views_unique": 21,
+    "clones_total": 5921,
+    "clones_unique": 436,
+    "views_total": 52,
+    "views_unique": 22,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 12,
-        "uniques": 10
+        "count": 13,
+        "uniques": 11
       },
       {
         "referrer": "github.com",
@@ -76,8 +76,8 @@
       {
         "path": "/netresearch/typo3-testing-skill",
         "title": "Overview",
-        "count": 18,
-        "uniques": 16
+        "count": 19,
+        "uniques": 17
       },
       {
         "path": "/netresearch/typo3-testing-skill/tree/main",
@@ -136,15 +136,15 @@
     ]
   },
   "latest_release": {
-    "name": "v5.21.4",
-    "tag_name": "v5.21.4",
-    "published_at": "2026-09-20T11:37:42Z",
-    "url": "https://github.com/netresearch/typo3-testing-skill/releases/tag/v5.21.4"
+    "name": "v5.22.0",
+    "tag_name": "v5.22.0",
+    "published_at": "2026-09-23T18:18:39Z",
+    "url": "https://github.com/netresearch/typo3-testing-skill/releases/tag/v5.22.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 512,
+      "contributions": 520,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -154,13 +154,18 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 20,
+      "contributions": 21,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "aseemann",
       "contributions": 4,
       "url": "https://github.com/aseemann"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": null,
@@ -170,7 +175,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
   },
-  "estimated_downstream_reach": 182,
-  "blast_radius": 182,
+  "estimated_downstream_reach": 186,
+  "blast_radius": 186,
   "archived": false
 }

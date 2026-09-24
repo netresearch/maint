@@ -12,20 +12,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-30T15:16:56Z",
-  "pushed_at": "2026-09-23T03:22:09Z",
-  "updated_at": "2026-09-23T03:22:11Z",
+  "pushed_at": "2026-09-23T18:56:25Z",
+  "updated_at": "2026-09-23T18:56:29Z",
   "composer_name": "netresearch/nr-temporal-cache",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 275,
-    "issues_open": 2,
-    "issues_closed": 2,
-    "prs_open": 1,
-    "prs_merged": 82,
+    "open_issues_plus_prs": 1,
+    "commits": 284,
+    "issues_open": 1,
+    "issues_closed": 3,
+    "prs_open": 0,
+    "prs_merged": 85,
     "prs_closed_unmerged": 12,
     "issues_total": 4,
     "releases": 3,
@@ -38,19 +38,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 65,
+    "commits": 74,
     "issues_opened": 1,
-    "prs_opened": 17,
-    "prs_merged": 16,
+    "prs_opened": 19,
+    "prs_merged": 19,
     "releases": 2,
     "packagist_downloads": 3,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 448,
-    "clones_unique": 46,
-    "views_total": 7,
-    "views_unique": 7,
+    "clones_total": 621,
+    "clones_unique": 58,
+    "views_total": 8,
+    "views_unique": 8,
     "top_referrers": [],
     "top_paths": [
       {
@@ -62,6 +62,12 @@
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/PERFORMANCE_ANALYSIS.md",
+        "title": "/blob/main/PERFORMANCE_ANALYSIS.md",
         "count": 1,
         "uniques": 1
       },
@@ -100,7 +106,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 234,
+      "contributions": 243,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -127,7 +133,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-temporal-cache/network/dependents"
   },
-  "estimated_downstream_reach": 86,
-  "blast_radius": 86,
+  "estimated_downstream_reach": 89,
+  "blast_radius": 89,
   "archived": false
 }

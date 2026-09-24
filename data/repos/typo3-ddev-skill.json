@@ -22,8 +22,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-21T10:05:16Z",
-  "pushed_at": "2026-09-22T22:27:32Z",
-  "updated_at": "2026-09-22T22:27:35Z",
+  "pushed_at": "2026-09-23T23:25:25Z",
+  "updated_at": "2026-09-23T23:25:28Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
@@ -31,16 +31,16 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 279,
+    "commits": 281,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 76,
+    "prs_merged": 77,
     "prs_closed_unmerged": 3,
     "issues_total": 1,
     "releases": 39,
     "release_downloads": 99,
-    "contributors": 3,
+    "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -48,23 +48,23 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 50,
+    "commits": 52,
     "issues_opened": 1,
-    "prs_opened": 24,
-    "prs_merged": 24,
+    "prs_opened": 25,
+    "prs_merged": 25,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2891,
-    "clones_unique": 202,
-    "views_total": 24,
-    "views_unique": 18,
+    "clones_total": 2880,
+    "clones_unique": 196,
+    "views_total": 19,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 10,
+        "count": 6,
         "uniques": 6
       },
       {
@@ -81,38 +81,20 @@
         "uniques": 13
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/SKILL.md",
-        "title": "/blob/main/skills/typo3-ddev/SKILL.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/typo3-ddev-skill/blob/main/LICENSE-MIT",
         "title": "/blob/main/LICENSE-MIT",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/SKILL.md",
-        "title": "/blob/main/SKILL.md",
+        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/SKILL.md",
+        "title": "/blob/main/skills/typo3-ddev/SKILL.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/assets/templates/Makefile.template",
-        "title": "/blob/main/skills/typo3-ddev/assets/templates/Makefile.template",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/checkpoints.yaml",
-        "title": "/blob/main/skills/typo3-ddev/checkpoints.yaml",
+        "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/references/advanced-options.md",
+        "title": "/blob/main/skills/typo3-ddev/references/advanced-options.md",
         "count": 1,
         "uniques": 1
       },
@@ -123,14 +105,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/issues",
-        "title": "/issues",
+        "path": "/netresearch/typo3-ddev-skill/releases/tag/v1.22.4",
+        "title": "/releases/tag/v1.22.4",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/releases/tag/v1.22.4",
-        "title": "/releases/tag/v1.22.4",
+        "path": "/netresearch/typo3-ddev-skill/tree/main/skills/typo3-ddev",
+        "title": "/tree/main/skills/typo3-ddev",
         "count": 1,
         "uniques": 1
       }
@@ -155,8 +137,13 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 13,
+      "contributions": 14,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": null,
@@ -166,7 +153,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-ddev-skill/network/dependents"
   },
-  "estimated_downstream_reach": 77,
-  "blast_radius": 77,
+  "estimated_downstream_reach": 78,
+  "blast_radius": 78,
   "archived": false
 }

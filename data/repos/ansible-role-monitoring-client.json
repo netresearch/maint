@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2019-08-19T11:09:41Z",
-  "pushed_at": "2026-09-07T17:39:16Z",
-  "updated_at": "2026-08-02T11:48:23Z",
+  "pushed_at": "2026-09-23T20:45:01Z",
+  "updated_at": "2026-09-23T20:45:04Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
@@ -19,11 +19,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 2,
-    "commits": 10,
+    "commits": 14,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 1,
-    "prs_merged": 6,
+    "prs_merged": 8,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 0,
@@ -36,10 +36,10 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 4,
     "issues_opened": 0,
-    "prs_opened": 0,
-    "prs_merged": 0,
+    "prs_opened": 2,
+    "prs_merged": 2,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
@@ -62,14 +62,14 @@
   "latest_release": null,
   "top_contributors": [
     {
+      "login": "CybotTM",
+      "contributions": 8,
+      "url": "https://github.com/CybotTM"
+    },
+    {
       "login": "renovate[bot]",
       "contributions": 5,
       "url": "https://github.com/apps/renovate"
-    },
-    {
-      "login": "CybotTM",
-      "contributions": 4,
-      "url": "https://github.com/CybotTM"
     },
     {
       "login": "TheDevMinerTV",
@@ -84,7 +84,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/ansible-role-monitoring-client/network/dependents"
   },
-  "estimated_downstream_reach": 12,
-  "blast_radius": 12,
+  "estimated_downstream_reach": 14,
+  "blast_radius": 14,
   "archived": false
 }

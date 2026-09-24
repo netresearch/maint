@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-01-10T12:01:19Z",
-  "pushed_at": "2026-09-23T01:46:47Z",
-  "updated_at": "2026-09-23T01:46:50Z",
+  "pushed_at": "2026-09-23T23:03:57Z",
+  "updated_at": "2026-09-23T23:04:00Z",
   "composer_name": "netresearch/nr-scheduler",
   "lifetime": {
     "stars": 1,
@@ -21,55 +21,44 @@
     "watchers": 2,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 137,
+    "commits": 141,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 47,
+    "prs_merged": 49,
     "prs_closed_unmerged": 7,
     "issues_total": 2,
     "releases": 6,
     "release_downloads": 1,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 3896,
+    "packagist_downloads": 3939,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 5,
+    "commits": 9,
     "issues_opened": 0,
-    "prs_opened": 2,
-    "prs_merged": 2,
+    "prs_opened": 4,
+    "prs_merged": 4,
     "releases": 0,
-    "packagist_downloads": 530,
+    "packagist_downloads": 571,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 125,
-    "clones_unique": 29,
-    "views_total": 5,
-    "views_unique": 5,
+    "clones_total": 157,
+    "clones_unique": 40,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
-      {
-        "path": "/netresearch/t3x-scheduler",
-        "title": "Overview",
-        "count": 1,
-        "uniques": 1
-      },
       {
         "path": "/netresearch/t3x-scheduler/blob/0698c33f280bbe54ced06d20fa52d200f47ccac8/Build/FunctionalTests.xml",
         "title": "/blob/0698c33f280bbe54ced06d20fa52d200f47ccac8/Build/FunctionalTests.xml",
@@ -105,7 +94,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 86,
+      "contributions": 90,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -126,9 +115,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-scheduler",
-    "total": 3896,
-    "monthly": 530,
-    "daily": 49,
+    "total": 3939,
+    "monthly": 571,
+    "daily": 70,
     "url": "https://packagist.org/packages/netresearch/nr-scheduler"
   },
   "ghcr": null,
@@ -137,7 +126,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-scheduler/network/dependents"
   },
-  "estimated_downstream_reach": 49,
-  "blast_radius": 49,
+  "estimated_downstream_reach": 51,
+  "blast_radius": 51,
   "archived": false
 }
