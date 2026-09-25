@@ -45,17 +45,23 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1123,
-    "clones_unique": 119,
-    "views_total": 8,
-    "views_unique": 4,
-    "top_referrers": [],
+    "clones_total": 1209,
+    "clones_unique": 141,
+    "views_total": 9,
+    "views_unique": 5,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-upgrade-effort-model-skill",
         "title": "Overview",
-        "count": 6,
-        "uniques": 4
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/typo3-upgrade-effort-model-skill/blob/main/skills/typo3-upgrade-effort-model/references/extension-classification.md",

@@ -16,8 +16,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-13T13:42:10Z",
-  "pushed_at": "2026-09-23T06:14:09Z",
-  "updated_at": "2026-09-23T06:14:12Z",
+  "pushed_at": "2026-09-25T03:39:41Z",
+  "updated_at": "2026-09-25T03:39:43Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
@@ -25,16 +25,16 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 502,
+    "commits": 504,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 266,
+    "prs_merged": 267,
     "prs_closed_unmerged": 17,
     "issues_total": 2,
     "releases": 13,
     "release_downloads": 118,
-    "contributors": 5,
+    "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 5390,
@@ -42,32 +42,32 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 37,
+    "commits": 32,
     "issues_opened": 0,
     "prs_opened": 16,
     "prs_merged": 15,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 177
+    "ghcr_downloads": 158
   },
   "traffic_14d": {
-    "clones_total": 797,
-    "clones_unique": 110,
-    "views_total": 10,
-    "views_unique": 9,
+    "clones_total": 1027,
+    "clones_unique": 139,
+    "views_total": 11,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/raybeam",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/raybeam/blob/main/docs/security.md",
@@ -98,12 +98,6 @@
         "title": "/blob/main/docs/architecture.md",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/raybeam/tree/main/.github",
-        "title": "/tree/main/.github",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -116,7 +110,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 256,
+      "contributions": 257,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -138,6 +132,11 @@
       "login": "dependabot[bot]",
       "contributions": 1,
       "url": "https://github.com/apps/dependabot"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": null,
@@ -147,18 +146,18 @@
         "package": "raybeam",
         "url": "https://github.com/netresearch/raybeam/pkgs/container/raybeam",
         "total": 5390,
-        "thirty_day": 177
+        "thirty_day": 158
       }
     ],
     "total": 5390,
-    "thirty_day": 177
+    "thirty_day": 158
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/raybeam/network/dependents"
   },
-  "estimated_downstream_reach": 273,
-  "blast_radius": 273,
+  "estimated_downstream_reach": 274,
+  "blast_radius": 274,
   "archived": false
 }

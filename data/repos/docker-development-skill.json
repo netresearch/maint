@@ -19,8 +19,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-29T17:18:27Z",
-  "pushed_at": "2026-09-23T18:10:12Z",
-  "updated_at": "2026-09-23T17:58:12Z",
+  "pushed_at": "2026-09-24T05:14:31Z",
+  "updated_at": "2026-09-24T05:14:33Z",
   "composer_name": null,
   "lifetime": {
     "stars": 22,
@@ -28,16 +28,16 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 2,
-    "commits": 263,
+    "commits": 265,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 1,
-    "prs_merged": 94,
+    "prs_merged": 95,
     "prs_closed_unmerged": 1,
     "issues_total": 2,
     "releases": 34,
     "release_downloads": 92,
-    "contributors": 4,
+    "contributors": 5,
     "external_contributors": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
@@ -45,7 +45,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 83,
+    "commits": 82,
     "issues_opened": 0,
     "prs_opened": 36,
     "prs_merged": 35,
@@ -54,15 +54,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3164,
-    "clones_unique": 387,
-    "views_total": 201,
-    "views_unique": 77,
+    "clones_total": 3218,
+    "clones_unique": 381,
+    "views_total": 190,
+    "views_unique": 71,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 82,
-        "uniques": 50
+        "count": 69,
+        "uniques": 42
       },
       {
         "referrer": "chatgpt.com",
@@ -84,8 +84,8 @@
       {
         "path": "/netresearch/docker-development-skill",
         "title": "Overview",
-        "count": 91,
-        "uniques": 70
+        "count": 86,
+        "uniques": 65
       },
       {
         "path": "/netresearch/docker-development-skill/tree/main/skills",
@@ -106,18 +106,6 @@
         "uniques": 7
       },
       {
-        "path": "/netresearch/docker-development-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 8,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/references/dind-testing-patterns.md",
-        "title": "/blob/main/skills/docker-development/references/dind-testing-patterns.md",
-        "count": 6,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/docker-development-skill/tree/main",
         "title": "/tree/main",
         "count": 5,
@@ -134,6 +122,18 @@
         "title": "/tree/main/skills/docker-development/references",
         "count": 5,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/references/dind-testing-patterns.md",
+        "title": "/blob/main/skills/docker-development/references/dind-testing-patterns.md",
+        "count": 5,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/docker-development-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/checkpoints.yaml",
@@ -156,19 +156,24 @@
       "url": "https://github.com/CybotTM"
     },
     {
+      "login": "renovate[bot]",
+      "contributions": 19,
+      "url": "https://github.com/apps/renovate"
+    },
+    {
       "login": "github-actions[bot]",
       "contributions": 18,
       "url": "https://github.com/apps/github-actions"
     },
     {
-      "login": "renovate[bot]",
-      "contributions": 18,
-      "url": "https://github.com/apps/renovate"
-    },
-    {
       "login": "aseemann",
       "contributions": 3,
       "url": "https://github.com/aseemann"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": null,
@@ -178,7 +183,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/docker-development-skill/network/dependents"
   },
-  "estimated_downstream_reach": 98,
-  "blast_radius": 98,
+  "estimated_downstream_reach": 99,
+  "blast_radius": 99,
   "archived": false
 }

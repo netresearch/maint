@@ -21,45 +21,45 @@
   "homepage": "https://netresearch.github.io/t3x-nr-mcp-agent/",
   "default_branch": "main",
   "created_at": "2026-03-22T17:16:16Z",
-  "pushed_at": "2026-09-24T00:22:46Z",
-  "updated_at": "2026-09-24T00:22:51Z",
+  "pushed_at": "2026-09-24T08:59:39Z",
+  "updated_at": "2026-09-24T08:59:26Z",
   "composer_name": "netresearch/nr-mcp-agent",
   "lifetime": {
     "stars": 2,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 6,
-    "commits": 532,
+    "open_issues_plus_prs": 3,
+    "commits": 566,
     "issues_open": 3,
     "issues_closed": 7,
-    "prs_open": 3,
-    "prs_merged": 153,
+    "prs_open": 0,
+    "prs_merged": 158,
     "prs_closed_unmerged": 8,
     "issues_total": 10,
-    "releases": 35,
+    "releases": 36,
     "release_downloads": 9,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 1603,
+    "packagist_downloads": 1658,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 93,
+    "commits": 127,
     "issues_opened": 1,
-    "prs_opened": 30,
-    "prs_merged": 27,
-    "releases": 4,
-    "packagist_downloads": 301,
+    "prs_opened": 32,
+    "prs_merged": 32,
+    "releases": 5,
+    "packagist_downloads": 356,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2146,
-    "clones_unique": 166,
-    "views_total": 36,
-    "views_unique": 11,
+    "clones_total": 4009,
+    "clones_unique": 255,
+    "views_total": 37,
+    "views_unique": 12,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -121,6 +121,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-mcp-agent/issues/147",
+        "title": "/issues/147",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-mcp-agent/pull/13",
         "title": "/pull/13",
         "count": 1,
@@ -131,25 +137,19 @@
         "title": "/releases/tag/v0.1.0",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-mcp-agent/releases/tag/v0.12.2",
-        "title": "/releases/tag/v0.12.2",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v0.14.0",
-    "tag_name": "v0.14.0",
-    "published_at": "2026-09-23T23:16:16Z",
-    "url": "https://github.com/netresearch/t3x-nr-mcp-agent/releases/tag/v0.14.0"
+    "name": "v0.15.0",
+    "tag_name": "v0.15.0",
+    "published_at": "2026-09-24T09:00:48Z",
+    "url": "https://github.com/netresearch/t3x-nr-mcp-agent/releases/tag/v0.15.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 309,
+      "contributions": 343,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -175,9 +175,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-mcp-agent",
-    "total": 1603,
-    "monthly": 301,
-    "daily": 18,
+    "total": 1658,
+    "monthly": 356,
+    "daily": 60,
     "url": "https://packagist.org/packages/netresearch/nr-mcp-agent"
   },
   "ghcr": null,
@@ -186,7 +186,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-mcp-agent/network/dependents"
   },
-  "estimated_downstream_reach": 166,
-  "blast_radius": 166,
+  "estimated_downstream_reach": 171,
+  "blast_radius": 171,
   "archived": false
 }

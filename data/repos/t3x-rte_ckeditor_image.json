@@ -38,7 +38,7 @@
     "release_downloads": 182,
     "contributors": 49,
     "external_contributors": 42,
-    "packagist_downloads": 1120951,
+    "packagist_downloads": 1122001,
     "ghcr_downloads": 0,
     "dependents_repos": 46,
     "dependents_packages": 3
@@ -49,18 +49,18 @@
     "prs_opened": 10,
     "prs_merged": 8,
     "releases": 0,
-    "packagist_downloads": 25405,
+    "packagist_downloads": 25333,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1556,
-    "clones_unique": 209,
-    "views_total": 78,
-    "views_unique": 40,
+    "clones_total": 2432,
+    "clones_unique": 245,
+    "views_total": 81,
+    "views_unique": 43,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 14,
+        "count": 13,
         "uniques": 4
       },
       {
@@ -69,14 +69,14 @@
         "uniques": 5
       },
       {
+        "referrer": "github.com",
+        "count": 3,
+        "uniques": 2
+      },
+      {
         "referrer": "docs.typo3.org",
         "count": 3,
         "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
       },
       {
         "referrer": "packagist.org",
@@ -93,8 +93,8 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image",
         "title": "Overview",
-        "count": 26,
-        "uniques": 14
+        "count": 27,
+        "uniques": 15
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/releases",
@@ -111,6 +111,12 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/CHANGELOG.md",
+        "title": "/blob/main/CHANGELOG.md",
         "count": 2,
         "uniques": 2
       },
@@ -141,12 +147,6 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/actions/runs/20404249130",
         "title": "/actions/runs/20404249130",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/4922bb90b9d7f904c6672eda27671922f7bea026/.ddev/config.redis.php.example",
-        "title": "/blob/4922bb90b9d7f904c6672eda27671922f7bea026/.ddev/config.redis.php.example",
         "count": 1,
         "uniques": 1
       }
@@ -212,9 +212,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1120951,
-    "monthly": 25405,
-    "daily": 1041,
+    "total": 1122001,
+    "monthly": 25333,
+    "daily": 970,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,

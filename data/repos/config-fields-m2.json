@@ -35,7 +35,7 @@
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 4,
-    "packagist_downloads": 383830,
+    "packagist_downloads": 384212,
     "ghcr_downloads": 0,
     "dependents_repos": 20,
     "dependents_packages": 3
@@ -46,16 +46,29 @@
     "prs_opened": 2,
     "prs_merged": 2,
     "releases": 0,
-    "packagist_downloads": 7783,
+    "packagist_downloads": 7740,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 294,
+    "clones_total": 285,
     "clones_unique": 213,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [
+      {
+        "referrer": "directory.mage-os.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/config-fields-m2",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.4.1",
@@ -107,9 +120,9 @@
   ],
   "packagist": {
     "name": "netresearch/config-fields-m2",
-    "total": 383830,
-    "monthly": 7783,
-    "daily": 381,
+    "total": 384212,
+    "monthly": 7740,
+    "daily": 338,
     "url": "https://packagist.org/packages/netresearch/config-fields-m2"
   },
   "ghcr": null,

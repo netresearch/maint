@@ -30,7 +30,7 @@
     "release_downloads": 0,
     "contributors": 1,
     "external_contributors": 0,
-    "packagist_downloads": 100,
+    "packagist_downloads": 101,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -41,31 +41,84 @@
     "prs_opened": 5,
     "prs_merged": 3,
     "releases": 0,
-    "packagist_downloads": 70,
+    "packagist_downloads": 69,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 303,
-    "clones_unique": 35,
-    "views_total": 4,
-    "views_unique": 3,
+    "clones_total": 1105,
+    "clones_unique": 81,
+    "views_total": 19,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
         "count": 3,
         "uniques": 2
+      },
+      {
+        "referrer": "jira.zcdi.dataport.de",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-wellknown",
         "title": "Overview",
-        "count": 3,
-        "uniques": 2
+        "count": 6,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-wellknown/blob/main/docs/superpowers/plans/2026-07-24-nr-wellknown-implementation.md",
+        "title": "/blob/main/docs/superpowers/plans/2026-07-24-nr-wellknown-implementation.md",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-wellknown/blob/ab121f3d480c17db564edebd2054fd0aa65c0f18/Build/FunctionalTests.xml",
         "title": "/blob/ab121f3d480c17db564edebd2054fd0aa65c0f18/Build/FunctionalTests.xml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-wellknown/blob/main/README.rst",
+        "title": "/blob/main/README.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-wellknown/blob/main/docs/superpowers/specs/2026-07-24-static-wellknown-typo3-design.md",
+        "title": "/blob/main/docs/superpowers/specs/2026-07-24-static-wellknown-typo3-design.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-wellknown/pulls",
+        "title": "/pulls",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-wellknown/tree/main/Build",
+        "title": "/tree/main/Build",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-wellknown/tree/main/Build/Scripts",
+        "title": "/tree/main/Build/Scripts",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-wellknown/tree/main/Configuration",
+        "title": "/tree/main/Configuration",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-wellknown/tree/main/docs",
+        "title": "/tree/main/docs",
         "count": 1,
         "uniques": 1
       }
@@ -81,9 +134,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-wellknown",
-    "total": 100,
-    "monthly": 70,
-    "daily": 4,
+    "total": 101,
+    "monthly": 69,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/nr-wellknown"
   },
   "ghcr": null,
