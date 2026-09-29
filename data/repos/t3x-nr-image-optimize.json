@@ -17,8 +17,8 @@
   "homepage": "https://extensions.typo3.org/extension/nr_image_optimize",
   "default_branch": "main",
   "created_at": "2025-09-12T06:59:28Z",
-  "pushed_at": "2026-09-26T22:05:30Z",
-  "updated_at": "2026-09-26T22:05:33Z",
+  "pushed_at": "2026-09-29T01:34:15Z",
+  "updated_at": "2026-09-29T01:34:19Z",
   "composer_name": "netresearch/nr-image-optimize",
   "lifetime": {
     "stars": 3,
@@ -26,29 +26,29 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 4,
-    "commits": 569,
+    "commits": 571,
     "issues_open": 4,
     "issues_closed": 11,
     "prs_open": 0,
-    "prs_merged": 178,
+    "prs_merged": 179,
     "prs_closed_unmerged": 14,
     "issues_total": 15,
     "releases": 26,
     "release_downloads": 8,
-    "contributors": 8,
+    "contributors": 9,
     "external_contributors": 2,
-    "packagist_downloads": 2845,
+    "packagist_downloads": 2854,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 90,
+    "commits": 91,
     "issues_opened": 0,
-    "prs_opened": 30,
-    "prs_merged": 33,
+    "prs_opened": 31,
+    "prs_merged": 34,
     "releases": 4,
-    "packagist_downloads": 278,
+    "packagist_downloads": 279,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
@@ -96,7 +96,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 30,
+      "contributions": 31,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -118,13 +118,18 @@
       "login": "renovate-bot",
       "contributions": 1,
       "url": "https://github.com/renovate-bot"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 2845,
-    "monthly": 278,
-    "daily": 4,
+    "total": 2854,
+    "monthly": 279,
+    "daily": 9,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,
@@ -133,7 +138,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-image-optimize/network/dependents"
   },
-  "estimated_downstream_reach": 201,
-  "blast_radius": 201,
+  "estimated_downstream_reach": 202,
+  "blast_radius": 202,
   "archived": false
 }
