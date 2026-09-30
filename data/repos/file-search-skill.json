@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:13Z",
-  "pushed_at": "2026-09-27T15:36:17Z",
+  "pushed_at": "2026-09-29T20:51:05Z",
   "updated_at": "2026-09-27T15:36:20Z",
   "composer_name": null,
   "lifetime": {
@@ -20,16 +20,16 @@
     "forks": 4,
     "watchers": 1,
     "network": 4,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 246,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 96,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 17,
-    "release_downloads": 161,
+    "release_downloads": 162,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,45 +40,55 @@
   "recent_30d": {
     "commits": 45,
     "issues_opened": 0,
-    "prs_opened": 22,
+    "prs_opened": 23,
     "prs_merged": 22,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2838,
-    "clones_unique": 328,
-    "views_total": 235,
-    "views_unique": 94,
+    "clones_total": 2477,
+    "clones_unique": 310,
+    "views_total": 220,
+    "views_unique": 93,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 104,
-        "uniques": 61
-      },
-      {
-        "referrer": "chatgpt.com",
-        "count": 17,
-        "uniques": 5
+        "count": 86,
+        "uniques": 63
       },
       {
         "referrer": "github.com",
         "count": 5,
-        "uniques": 5
+        "uniques": 2
       },
       {
-        "referrer": "skills.sh",
-        "count": 5,
+        "referrer": "chatgpt.com",
+        "count": 4,
         "uniques": 3
       },
       {
         "referrer": "search.brave.com",
-        "count": 4,
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "skills.sh",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "kagi.com",
+        "count": 2,
         "uniques": 1
       },
       {
-        "referrer": "DuckDuckGo",
+        "referrer": "Baidu",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "Bing",
         "count": 1,
         "uniques": 1
       }
@@ -87,43 +97,49 @@
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 100,
+        "count": 105,
         "uniques": 81
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 25,
-        "uniques": 17
+        "count": 24,
+        "uniques": 15
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
         "title": "/blob/main/skills/file-search/SKILL.md",
-        "count": 19,
-        "uniques": 14
-      },
-      {
-        "path": "/netresearch/file-search-skill/tree/main",
-        "title": "/tree/main",
-        "count": 12,
-        "uniques": 7
+        "count": 17,
+        "uniques": 12
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
         "title": "/tree/main/skills/file-search/references",
-        "count": 10,
-        "uniques": 7
+        "count": 8,
+        "uniques": 5
       },
       {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
-        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
-        "count": 7,
-        "uniques": 5
+        "path": "/netresearch/file-search-skill/tree/main",
+        "title": "/tree/main",
+        "count": 8,
+        "uniques": 4
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 5,
+        "count": 7,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/main/hooks/hooks.json",
+        "title": "/blob/main/hooks/hooks.json",
+        "count": 6,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/fd-guide.md",
+        "title": "/blob/main/skills/file-search/references/fd-guide.md",
+        "count": 4,
         "uniques": 3
       },
       {
@@ -135,12 +151,6 @@
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/search-strategies.md",
         "title": "/blob/main/skills/file-search/references/search-strategies.md",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/file-search-skill/tree/main/hooks",
-        "title": "/tree/main/hooks",
         "count": 4,
         "uniques": 3
       }

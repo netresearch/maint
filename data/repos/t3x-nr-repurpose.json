@@ -5,55 +5,55 @@
   "description": "Turn a webpage or PDF into a podcast, a diagram, an Instagram story, documents and ready-to-use texts - by Netresearch",
   "language": "PHP",
   "category": "typo3-extension",
-  "license": null,
+  "license": "GPL-2.0",
   "topics": [],
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-08T21:31:58Z",
-  "pushed_at": "2026-09-29T02:22:54Z",
-  "updated_at": "2026-09-27T17:27:08Z",
+  "pushed_at": "2026-09-29T22:42:46Z",
+  "updated_at": "2026-09-29T22:41:52Z",
   "composer_name": "netresearch/nr-repurpose",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 19,
-    "commits": 393,
+    "open_issues_plus_prs": 5,
+    "commits": 691,
     "issues_open": 3,
     "issues_closed": 8,
-    "prs_open": 16,
-    "prs_merged": 118,
+    "prs_open": 2,
+    "prs_merged": 137,
     "prs_closed_unmerged": 7,
     "issues_total": 11,
     "releases": 26,
-    "release_downloads": 21,
+    "release_downloads": 22,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 1806,
+    "packagist_downloads": 1813,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 93,
+    "commits": 391,
     "issues_opened": 2,
-    "prs_opened": 49,
-    "prs_merged": 33,
+    "prs_opened": 54,
+    "prs_merged": 52,
     "releases": 11,
-    "packagist_downloads": 473,
+    "packagist_downloads": 474,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1666,
-    "clones_unique": 148,
-    "views_total": 5,
-    "views_unique": 5,
+    "clones_total": 7913,
+    "clones_unique": 500,
+    "views_total": 7,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 1,
-        "uniques": 1
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "github.com",
@@ -65,8 +65,8 @@
       {
         "path": "/netresearch/t3x-nr-repurpose",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/t3x-nr-repurpose/blob/2aed3854c04814e24e47ab9ebbb987e9d97904d9/Documentation/Installation/Index.rst",
@@ -97,7 +97,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 357,
+      "contributions": 655,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -113,9 +113,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-repurpose",
-    "total": 1806,
-    "monthly": 473,
-    "daily": 17,
+    "total": 1813,
+    "monthly": 474,
+    "daily": 8,
     "url": "https://packagist.org/packages/netresearch/nr-repurpose"
   },
   "ghcr": null,
@@ -124,7 +124,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-repurpose/network/dependents"
   },
-  "estimated_downstream_reach": 129,
-  "blast_radius": 129,
+  "estimated_downstream_reach": 148,
+  "blast_radius": 148,
   "archived": false
 }

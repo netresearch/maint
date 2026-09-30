@@ -19,68 +19,53 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-09T16:08:11Z",
-  "pushed_at": "2026-09-28T23:57:46Z",
-  "updated_at": "2026-09-23T18:55:57Z",
+  "pushed_at": "2026-09-29T23:04:04Z",
+  "updated_at": "2026-09-29T23:00:18Z",
   "composer_name": "netresearch/nr-passkeys-be",
   "lifetime": {
     "stars": 6,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 5,
-    "commits": 567,
+    "open_issues_plus_prs": 3,
+    "commits": 592,
     "issues_open": 1,
     "issues_closed": 8,
-    "prs_open": 4,
-    "prs_merged": 135,
+    "prs_open": 2,
+    "prs_merged": 139,
     "prs_closed_unmerged": 10,
     "issues_total": 9,
-    "releases": 24,
-    "release_downloads": 56,
+    "releases": 25,
+    "release_downloads": 57,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 11396,
+    "packagist_downloads": 13501,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 65,
+    "commits": 90,
     "issues_opened": 1,
-    "prs_opened": 26,
-    "prs_merged": 22,
-    "releases": 1,
-    "packagist_downloads": 3804,
+    "prs_opened": 27,
+    "prs_merged": 23,
+    "releases": 2,
+    "packagist_downloads": 5863,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5619,
-    "clones_unique": 273,
-    "views_total": 56,
-    "views_unique": 21,
+    "clones_total": 6122,
+    "clones_unique": 305,
+    "views_total": 43,
+    "views_unique": 20,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 11,
-        "uniques": 8
-      },
-      {
-        "referrer": "packagist.org",
-        "count": 4,
-        "uniques": 1
-      },
-      {
-        "referrer": "DuckDuckGo",
-        "count": 3,
-        "uniques": 1
+        "count": 7,
+        "uniques": 7
       },
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "github.com",
         "count": 1,
         "uniques": 1
       }
@@ -89,24 +74,18 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be",
         "title": "Overview",
-        "count": 16,
-        "uniques": 12
+        "count": 11,
+        "uniques": 10
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/ext_localconf.php",
         "title": "/blob/main/ext_localconf.php",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/issues",
         "title": "/issues",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/issues/142",
-        "title": "/issues/142",
         "count": 2,
         "uniques": 2
       },
@@ -129,35 +108,41 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/62424491a8564416b3b5aab85010d056754d806f/Resources/Public/JavaScript/PasskeyManagement.js",
-        "title": "/blob/62424491a8564416b3b5aab85010d056754d806f/Resources/Public/JavaScript/PasskeyManagement.js",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/HEAD/LICENSE",
-        "title": "/blob/HEAD/LICENSE",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/.ddev/config.yaml",
         "title": "/blob/main/.ddev/config.yaml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/CLAUDE.md",
+        "title": "/blob/main/CLAUDE.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Classes/Authentication/PasskeyAuthenticationService.php",
+        "title": "/blob/main/Classes/Authentication/PasskeyAuthenticationService.php",
         "count": 1,
         "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.0.0",
-    "tag_name": "v1.0.0",
-    "published_at": "2026-09-20T16:08:19Z",
-    "url": "https://github.com/netresearch/t3x-nr-passkeys-be/releases/tag/v1.0.0"
+    "name": "v1.0.1",
+    "tag_name": "v1.0.1",
+    "published_at": "2026-09-29T23:12:14Z",
+    "url": "https://github.com/netresearch/t3x-nr-passkeys-be/releases/tag/v1.0.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 549,
+      "contributions": 574,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -183,9 +168,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 11396,
-    "monthly": 3804,
-    "daily": 519,
+    "total": 13501,
+    "monthly": 5863,
+    "daily": 1979,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,
@@ -194,7 +179,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-passkeys-be/network/dependents"
   },
-  "estimated_downstream_reach": 153,
-  "blast_radius": 153,
+  "estimated_downstream_reach": 157,
+  "blast_radius": 157,
   "archived": false
 }

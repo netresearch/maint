@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-27T11:57:45Z",
-  "pushed_at": "2026-09-23T09:24:29Z",
-  "updated_at": "2026-09-23T09:24:33Z",
+  "pushed_at": "2026-09-29T17:14:56Z",
+  "updated_at": "2026-09-29T17:14:59Z",
   "composer_name": "netresearch/nr-saml-auth",
   "lifetime": {
     "stars": 1,
@@ -21,11 +21,11 @@
     "watchers": 4,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 158,
+    "commits": 160,
     "issues_open": 2,
     "issues_closed": 32,
     "prs_open": 0,
-    "prs_merged": 61,
+    "prs_merged": 62,
     "prs_closed_unmerged": 11,
     "issues_total": 34,
     "releases": 10,
@@ -38,19 +38,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 13,
+    "commits": 15,
     "issues_opened": 1,
-    "prs_opened": 6,
-    "prs_merged": 6,
+    "prs_opened": 7,
+    "prs_merged": 7,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 906,
-    "clones_unique": 92,
-    "views_total": 3,
-    "views_unique": 3,
+    "clones_total": 787,
+    "clones_unique": 91,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [],
     "top_paths": [
       {
@@ -62,6 +62,12 @@
       {
         "path": "/netresearch/t3x-nr-saml-auth/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-saml-auth/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
         "count": 1,
         "uniques": 1
       }
@@ -76,7 +82,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 97,
+      "contributions": 99,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -113,7 +119,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-saml-auth/network/dependents"
   },
-  "estimated_downstream_reach": 101,
-  "blast_radius": 101,
+  "estimated_downstream_reach": 102,
+  "blast_radius": 102,
   "archived": false
 }

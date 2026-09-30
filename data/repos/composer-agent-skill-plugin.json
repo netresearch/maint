@@ -24,9 +24,9 @@
   "composer_name": "netresearch/composer-agent-skill-plugin",
   "lifetime": {
     "stars": 11,
-    "forks": 0,
+    "forks": 1,
     "watchers": 1,
-    "network": 0,
+    "network": 1,
     "open_issues_plus_prs": 1,
     "commits": 236,
     "issues_open": 1,
@@ -39,7 +39,7 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 20403,
+    "packagist_downloads": 20618,
     "ghcr_downloads": 0,
     "dependents_repos": 47,
     "dependents_packages": 0
@@ -50,19 +50,19 @@
     "prs_opened": 2,
     "prs_merged": 2,
     "releases": 0,
-    "packagist_downloads": 14999,
+    "packagist_downloads": 14886,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 269,
-    "clones_unique": 73,
+    "clones_total": 181,
+    "clones_unique": 62,
     "views_total": 64,
-    "views_unique": 25,
+    "views_unique": 22,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 9,
-        "uniques": 9
+        "uniques": 8
       },
       {
         "referrer": "github.com",
@@ -80,7 +80,7 @@
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
         "count": 25,
-        "uniques": 20
+        "uniques": 17
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/discussions",
@@ -113,12 +113,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/composer-agent-skill-plugin/tree/main/src/Discovery",
         "title": "/tree/main/src/Discovery",
         "count": 2,
@@ -134,6 +128,12 @@
         "path": "/netresearch/composer-agent-skill-plugin/blob/main/examples/database-analyzer-skill/SKILL.md",
         "title": "/blob/main/examples/database-analyzer-skill/SKILL.md",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/blob/main/.markdownlint.json",
+        "title": "/blob/main/.markdownlint.json",
+        "count": 1,
         "uniques": 1
       }
     ]
@@ -173,9 +173,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 20403,
-    "monthly": 14999,
-    "daily": 47,
+    "total": 20618,
+    "monthly": 14886,
+    "daily": 202,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,
@@ -184,7 +184,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/composer-agent-skill-plugin/network/dependents"
   },
-  "estimated_downstream_reach": 180,
-  "blast_radius": 180,
+  "estimated_downstream_reach": 182,
+  "blast_radius": 182,
   "archived": false
 }

@@ -44,7 +44,7 @@
     "prs_closed_unmerged": 9,
     "issues_total": 198,
     "releases": 19,
-    "release_downloads": 209,
+    "release_downloads": 210,
     "contributors": 32,
     "external_contributors": 31,
     "packagist_downloads": 0,
@@ -62,20 +62,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1604,
-    "clones_unique": 329,
-    "views_total": 216,
-    "views_unique": 91,
+    "clones_total": 1547,
+    "clones_unique": 342,
+    "views_total": 195,
+    "views_unique": 88,
     "top_referrers": [
       {
-        "referrer": "github.com",
-        "count": 21,
-        "uniques": 15
+        "referrer": "Google",
+        "count": 22,
+        "uniques": 18
       },
       {
-        "referrer": "Google",
-        "count": 18,
-        "uniques": 16
+        "referrer": "github.com",
+        "count": 15,
+        "uniques": 12
       },
       {
         "referrer": "awesome-go.com",
@@ -83,9 +83,9 @@
         "uniques": 3
       },
       {
-        "referrer": "DuckDuckGo",
-        "count": 1,
-        "uniques": 1
+        "referrer": "support.sailpoint.com",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "chatgpt.com",
@@ -93,17 +93,12 @@
         "uniques": 1
       },
       {
-        "referrer": "doubao.com",
+        "referrer": "pkg.go.dev",
         "count": 1,
         "uniques": 1
       },
       {
         "referrer": "sailpoint.service-now.com",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "support.sailpoint.com",
         "count": 1,
         "uniques": 1
       }
@@ -112,37 +107,19 @@
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 91,
-        "uniques": 54
-      },
-      {
-        "path": "/netresearch/go-cron/issues",
-        "title": "/issues",
-        "count": 6,
-        "uniques": 5
+        "count": 81,
+        "uniques": 50
       },
       {
         "path": "/netresearch/go-cron/blob/main/docs/DST_HANDLING.md",
         "title": "/blob/main/docs/DST_HANDLING.md",
-        "count": 5,
-        "uniques": 5
+        "count": 9,
+        "uniques": 8
       },
       {
         "path": "/netresearch/go-cron/discussions",
         "title": "/discussions",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/go-cron/pulls",
-        "title": "/pulls",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/go-cron/releases",
-        "title": "/releases",
-        "count": 5,
+        "count": 6,
         "uniques": 4
       },
       {
@@ -152,10 +129,22 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/go-cron/commits/main",
-        "title": "/commits/main",
+        "path": "/netresearch/go-cron/issues",
+        "title": "/issues",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/README.md",
+        "title": "/blob/main/README.md",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/DISTRIBUTED_LOCKING_GUIDE.md",
+        "title": "/blob/main/docs/DISTRIBUTED_LOCKING_GUIDE.md",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/go-cron/pull/259",
@@ -164,8 +153,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/go-cron/blob/main/CHANGELOG.md",
-        "title": "/blob/main/CHANGELOG.md",
+        "path": "/netresearch/go-cron/blob/main/cron.go",
+        "title": "/blob/main/cron.go",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/PERSISTENCE_GUIDE.md",
+        "title": "/blob/main/docs/PERSISTENCE_GUIDE.md",
         "count": 2,
         "uniques": 2
       }

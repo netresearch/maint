@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 2,
-    "packagist_downloads": 252325,
+    "packagist_downloads": 252578,
     "ghcr_downloads": 0,
     "dependents_repos": 18,
     "dependents_packages": 3
@@ -47,19 +47,84 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 6774,
+    "packagist_downloads": 6771,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 198,
-    "clones_unique": 185,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 199,
+    "clones_unique": 177,
+    "views_total": 20,
+    "views_unique": 7,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/module-shipping-core/releases/tag/5.0.1",
+        "title": "/releases/tag/5.0.1",
+        "count": 8,
+        "uniques": 5
+      },
       {
         "path": "/netresearch/module-shipping-core/blob/main/LICENSE.md",
         "title": "/blob/main/LICENSE.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/module-shipping-core",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/blob/main/CHANGELOG.md",
+        "title": "/blob/main/CHANGELOG.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/commit/4c0c69685e934b95e199c693c5b1a70c51c2d5d4",
+        "title": "/commit/4c0c69685e934b95e199c693c5b1a70c51c2d5d4",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/commit/911de42b2d0671393969433f25c922dc149b0dd5",
+        "title": "/commit/911de42b2d0671393969433f25c922dc149b0dd5",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/commits/5.0.1",
+        "title": "/commits/5.0.1",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/compare/1f97e405689412b31049e2d739fbe06e6d51756d...4c0c69685e934b95e199c693c5b1a70c51c2d5d4",
+        "title": "/compare/1f97e405689412b31049e2d739fbe06e6d51756d...4c0c69685e934b95e199c693c5b1a70c51c2d5d4",
         "count": 1,
         "uniques": 1
       }
@@ -90,9 +155,9 @@
   ],
   "packagist": {
     "name": "netresearch/module-shipping-core",
-    "total": 252325,
-    "monthly": 6774,
-    "daily": 269,
+    "total": 252578,
+    "monthly": 6771,
+    "daily": 224,
     "url": "https://packagist.org/packages/netresearch/module-shipping-core"
   },
   "ghcr": null,

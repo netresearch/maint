@@ -13,20 +13,20 @@
   "homepage": "http://forge.typo3.org/projects/extension-contexts",
   "default_branch": "main",
   "created_at": "2013-04-12T08:21:51Z",
-  "pushed_at": "2026-09-23T19:20:41Z",
-  "updated_at": "2026-09-23T18:55:46Z",
+  "pushed_at": "2026-09-29T23:35:41Z",
+  "updated_at": "2026-09-29T15:32:00Z",
   "composer_name": "netresearch/contexts-wurfl",
   "lifetime": {
     "stars": 1,
     "forks": 2,
     "watchers": 10,
     "network": 2,
-    "open_issues_plus_prs": 7,
-    "commits": 229,
+    "open_issues_plus_prs": 8,
+    "commits": 231,
     "issues_open": 1,
     "issues_closed": 3,
-    "prs_open": 6,
-    "prs_merged": 49,
+    "prs_open": 7,
+    "prs_merged": 50,
     "prs_closed_unmerged": 11,
     "issues_total": 4,
     "releases": 2,
@@ -39,30 +39,54 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 19,
+    "commits": 21,
     "issues_opened": 1,
-    "prs_opened": 13,
-    "prs_merged": 7,
+    "prs_opened": 15,
+    "prs_merged": 8,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2186,
-    "clones_unique": 150,
-    "views_total": 2,
-    "views_unique": 2,
-    "top_referrers": [],
+    "clones_total": 1888,
+    "clones_unique": 131,
+    "views_total": 10,
+    "views_unique": 9,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-contexts_wurfl/blob/main/.php-cs-fixer.cache",
+        "title": "/blob/main/.php-cs-fixer.cache",
+        "count": 4,
+        "uniques": 4
+      },
       {
         "path": "/netresearch/t3x-contexts_wurfl",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-contexts_wurfl/blob/main/ext_emconf.php",
+        "title": "/blob/main/ext_emconf.php",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-contexts_wurfl/blob/main/README.md",
         "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts_wurfl/tree/v0.4.3",
+        "title": "/tree/v0.4.3",
         "count": 1,
         "uniques": 1
       }
@@ -77,7 +101,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 137,
+      "contributions": 139,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -113,7 +137,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts_wurfl/network/dependents"
   },
-  "estimated_downstream_reach": 60,
-  "blast_radius": 60,
+  "estimated_downstream_reach": 61,
+  "blast_radius": 61,
   "archived": false
 }

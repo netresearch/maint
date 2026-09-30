@@ -27,7 +27,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-31T12:42:05Z",
-  "pushed_at": "2026-09-27T16:54:05Z",
+  "pushed_at": "2026-09-29T21:57:17Z",
   "updated_at": "2026-09-27T16:54:07Z",
   "composer_name": null,
   "lifetime": {
@@ -35,11 +35,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 474,
     "issues_open": 1,
     "issues_closed": 22,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 140,
     "prs_closed_unmerged": 0,
     "issues_total": 23,
@@ -53,47 +53,48 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 84,
+    "commits": 82,
     "issues_opened": 0,
-    "prs_opened": 36,
+    "prs_opened": 37,
     "prs_merged": 36,
     "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1928,
-    "clones_unique": 556,
-    "views_total": 51,
-    "views_unique": 33,
+    "clones_total": 1820,
+    "clones_unique": 577,
+    "views_total": 44,
+    "views_unique": 29,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 20,
-        "uniques": 13
-      },
-      {
-        "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
+        "count": 16,
+        "uniques": 14
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/matrix-skill",
         "title": "Overview",
-        "count": 32,
-        "uniques": 24
-      },
-      {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication",
-        "title": "/blob/main/skills/matrix-communication",
-        "count": 2,
-        "uniques": 2
+        "count": 25,
+        "uniques": 19
       },
       {
         "path": "/netresearch/matrix-skill/blob/main/CLAUDE.md",
         "title": "/blob/main/CLAUDE.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/HEAD/skills/matrix-announcement/references/anti-patterns.md",
+        "title": "/blob/HEAD/skills/matrix-announcement/references/anti-patterns.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
         "count": 1,
         "uniques": 1
       },
@@ -104,20 +105,14 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/matrix-skill/blob/main/plugin.json",
+        "title": "/blob/main/plugin.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
         "title": "/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-announcement",
-        "title": "/blob/main/skills/matrix-announcement",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/api-reference.md",
-        "title": "/blob/main/skills/matrix-communication/references/api-reference.md",
         "count": 1,
         "uniques": 1
       },
@@ -128,14 +123,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/matrix-skill/discussions/categories/ideas",
-        "title": "/discussions/categories/ideas",
+        "path": "/netresearch/matrix-skill/discussions",
+        "title": "/discussions",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/matrix-skill/pull/112/commits",
-        "title": "/pull/112/commits",
+        "path": "/netresearch/matrix-skill/issues",
+        "title": "/issues",
         "count": 1,
         "uniques": 1
       }

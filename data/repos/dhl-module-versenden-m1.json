@@ -53,11 +53,17 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 18,
-    "clones_unique": 16,
-    "views_total": 5,
-    "views_unique": 4,
-    "top_referrers": [],
+    "clones_total": 13,
+    "clones_unique": 12,
+    "views_total": 12,
+    "views_unique": 6,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-module-versenden-m1/blob/master/LICENSE.md",
@@ -68,7 +74,13 @@
       {
         "path": "/netresearch/dhl-module-versenden-m1",
         "title": "Overview",
-        "count": 1,
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/pulls",
+        "title": "/pulls",
+        "count": 2,
         "uniques": 1
       },
       {
@@ -78,8 +90,32 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-module-versenden-m1/pulls",
-        "title": "/pulls",
+        "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/EndUserDoc.rst",
+        "title": "/blob/master/doc/src/EndUserDoc.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/issues",
+        "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/issues/3",
+        "title": "/issues/3",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/tree/main",
+        "title": "/tree/main",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-versenden-m1/tree/master",
+        "title": "/tree/master",
         "count": 1,
         "uniques": 1
       }

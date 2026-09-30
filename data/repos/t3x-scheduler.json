@@ -29,10 +29,10 @@
     "prs_closed_unmerged": 7,
     "issues_total": 2,
     "releases": 6,
-    "release_downloads": 1,
+    "release_downloads": 2,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 4226,
+    "packagist_downloads": 4244,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,14 +43,14 @@
     "prs_opened": 4,
     "prs_merged": 4,
     "releases": 0,
-    "packagist_downloads": 811,
+    "packagist_downloads": 808,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 642,
-    "clones_unique": 69,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 669,
+    "clones_unique": 78,
+    "views_total": 6,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -59,6 +59,12 @@
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-scheduler/pulls",
+        "title": "/pulls",
+        "count": 4,
+        "uniques": 4
+      },
       {
         "path": "/netresearch/t3x-scheduler/blob/0698c33f280bbe54ced06d20fa52d200f47ccac8/Build/FunctionalTests.xml",
         "title": "/blob/0698c33f280bbe54ced06d20fa52d200f47ccac8/Build/FunctionalTests.xml",
@@ -103,9 +109,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-scheduler",
-    "total": 4226,
-    "monthly": 811,
-    "daily": 45,
+    "total": 4244,
+    "monthly": 808,
+    "daily": 19,
     "url": "https://packagist.org/packages/netresearch/nr-scheduler"
   },
   "ghcr": null,

@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 5,
-    "packagist_downloads": 266229,
+    "packagist_downloads": 266472,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 2
@@ -47,37 +47,61 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 5972,
+    "packagist_downloads": 5978,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 228,
-    "clones_unique": 212,
-    "views_total": 3,
-    "views_unique": 3,
+    "clones_total": 223,
+    "clones_unique": 200,
+    "views_total": 17,
+    "views_unique": 9,
     "top_referrers": [
       {
-        "referrer": "jira.netresearch.de",
-        "count": 1,
-        "uniques": 1
+        "referrer": "Google",
+        "count": 3,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
-        "path": "/netresearch/dhl-module-carrier-paket/blob/main/KNOWNISSUES.md",
-        "title": "/blob/main/KNOWNISSUES.md",
+        "path": "/netresearch/dhl-module-carrier-paket",
+        "title": "Overview",
+        "count": 7,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/blob/main/LICENSE.md",
+        "title": "/blob/main/LICENSE.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/releases",
+        "title": "/releases",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/blob/main/CHANGELOG.md",
+        "title": "/blob/main/CHANGELOG.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/branches",
+        "title": "/branches",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket/issues",
+        "title": "/issues",
         "count": 1,
         "uniques": 1
       },
       {
         "path": "/netresearch/dhl-module-carrier-paket/issues/17",
         "title": "/issues/17",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-carrier-paket/releases/tag/3.6.3",
-        "title": "/releases/tag/3.6.3",
         "count": 1,
         "uniques": 1
       }
@@ -128,9 +152,9 @@
   ],
   "packagist": {
     "name": "dhl/module-carrier-paket",
-    "total": 266229,
-    "monthly": 5972,
-    "daily": 245,
+    "total": 266472,
+    "monthly": 5978,
+    "daily": 217,
     "url": "https://packagist.org/packages/dhl/module-carrier-paket"
   },
   "ghcr": null,

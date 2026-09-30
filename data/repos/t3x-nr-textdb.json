@@ -24,45 +24,45 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-09-29T09:01:16Z",
-  "pushed_at": "2026-09-29T01:19:54Z",
-  "updated_at": "2026-09-23T22:05:49Z",
+  "pushed_at": "2026-09-29T21:31:16Z",
+  "updated_at": "2026-09-29T20:49:48Z",
   "composer_name": "netresearch/nr-textdb",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 4,
     "network": 0,
-    "open_issues_plus_prs": 21,
-    "commits": 679,
-    "issues_open": 17,
-    "issues_closed": 29,
-    "prs_open": 4,
-    "prs_merged": 84,
+    "open_issues_plus_prs": 17,
+    "commits": 706,
+    "issues_open": 16,
+    "issues_closed": 30,
+    "prs_open": 1,
+    "prs_merged": 92,
     "prs_closed_unmerged": 27,
     "issues_total": 46,
-    "releases": 18,
-    "release_downloads": 1,
+    "releases": 20,
+    "release_downloads": 2,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 2624,
+    "packagist_downloads": 2636,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 17,
+    "commits": 44,
     "issues_opened": 1,
-    "prs_opened": 13,
-    "prs_merged": 8,
-    "releases": 0,
-    "packagist_downloads": 545,
+    "prs_opened": 18,
+    "prs_merged": 16,
+    "releases": 2,
+    "packagist_downloads": 548,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 901,
-    "clones_unique": 123,
-    "views_total": 5,
-    "views_unique": 5,
+    "clones_total": 1637,
+    "clones_unique": 182,
+    "views_total": 10,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -74,8 +74,14 @@
       {
         "path": "/netresearch/t3x-nr-textdb",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/pulls",
+        "title": "/pulls",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-textdb/blob/HEAD/CONTRIBUTING.md",
@@ -86,6 +92,18 @@
       {
         "path": "/netresearch/t3x-nr-textdb/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/graphs/commit-activity",
+        "title": "/graphs/commit-activity",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/issues/35",
+        "title": "/issues/35",
         "count": 1,
         "uniques": 1
       },
@@ -104,15 +122,15 @@
     ]
   },
   "latest_release": {
-    "name": "v2.0.12",
-    "tag_name": "v2.0.12",
-    "published_at": "2026-08-18T13:45:31Z",
-    "url": "https://github.com/netresearch/t3x-nr-textdb/releases/tag/v2.0.12"
+    "name": "v4.0.1",
+    "tag_name": "v4.0.1",
+    "published_at": "2026-09-29T21:54:56Z",
+    "url": "https://github.com/netresearch/t3x-nr-textdb/releases/tag/v4.0.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 536,
+      "contributions": 563,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -153,9 +171,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 2624,
-    "monthly": 545,
-    "daily": 18,
+    "total": 2636,
+    "monthly": 548,
+    "daily": 12,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,
@@ -164,7 +182,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-textdb/network/dependents"
   },
-  "estimated_downstream_reach": 138,
-  "blast_radius": 138,
+  "estimated_downstream_reach": 146,
+  "blast_radius": 146,
   "archived": false
 }
