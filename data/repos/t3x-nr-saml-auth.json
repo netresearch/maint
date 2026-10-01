@@ -12,20 +12,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-27T11:57:45Z",
-  "pushed_at": "2026-09-29T17:14:56Z",
-  "updated_at": "2026-09-29T17:14:59Z",
+  "pushed_at": "2026-09-30T23:03:37Z",
+  "updated_at": "2026-09-30T23:03:42Z",
   "composer_name": "netresearch/nr-saml-auth",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 4,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 160,
+    "open_issues_plus_prs": 3,
+    "commits": 179,
     "issues_open": 2,
     "issues_closed": 32,
-    "prs_open": 0,
-    "prs_merged": 62,
+    "prs_open": 1,
+    "prs_merged": 63,
     "prs_closed_unmerged": 11,
     "issues_total": 34,
     "releases": 10,
@@ -38,27 +38,21 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 15,
+    "commits": 34,
     "issues_opened": 1,
-    "prs_opened": 7,
-    "prs_merged": 7,
+    "prs_opened": 9,
+    "prs_merged": 8,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 787,
-    "clones_unique": 91,
+    "clones_total": 887,
+    "clones_unique": 95,
     "views_total": 4,
     "views_unique": 4,
     "top_referrers": [],
     "top_paths": [
-      {
-        "path": "/netresearch/t3x-nr-saml-auth/issues/37",
-        "title": "/issues/37",
-        "count": 2,
-        "uniques": 2
-      },
       {
         "path": "/netresearch/t3x-nr-saml-auth/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
@@ -66,8 +60,20 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-saml-auth/blob/main/CONTRIBUTING.md",
+        "title": "/blob/main/CONTRIBUTING.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-saml-auth/blob/main/ext_conf_template.txt",
         "title": "/blob/main/ext_conf_template.txt",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-saml-auth/issues/37",
+        "title": "/issues/37",
         "count": 1,
         "uniques": 1
       }
@@ -82,7 +88,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 99,
+      "contributions": 118,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -119,7 +125,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-saml-auth/network/dependents"
   },
-  "estimated_downstream_reach": 102,
-  "blast_radius": 102,
+  "estimated_downstream_reach": 103,
+  "blast_radius": 103,
   "archived": false
 }

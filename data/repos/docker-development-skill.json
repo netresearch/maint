@@ -19,20 +19,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-29T17:18:27Z",
-  "pushed_at": "2026-09-29T20:44:07Z",
-  "updated_at": "2026-09-27T17:39:02Z",
+  "pushed_at": "2026-09-30T21:28:07Z",
+  "updated_at": "2026-09-30T21:28:11Z",
   "composer_name": null,
   "lifetime": {
     "stars": 23,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 3,
-    "commits": 271,
+    "open_issues_plus_prs": 2,
+    "commits": 287,
     "issues_open": 1,
     "issues_closed": 1,
-    "prs_open": 2,
-    "prs_merged": 98,
+    "prs_open": 1,
+    "prs_merged": 100,
     "prs_closed_unmerged": 1,
     "issues_total": 2,
     "releases": 34,
@@ -45,29 +45,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 73,
+    "commits": 89,
     "issues_opened": 0,
-    "prs_opened": 33,
-    "prs_merged": 31,
+    "prs_opened": 34,
+    "prs_merged": 33,
     "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2578,
-    "clones_unique": 307,
-    "views_total": 156,
-    "views_unique": 86,
+    "clones_total": 2614,
+    "clones_unique": 284,
+    "views_total": 173,
+    "views_unique": 82,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 65,
-        "uniques": 58
-      },
-      {
-        "referrer": "chatgpt.com",
-        "count": 4,
-        "uniques": 3
+        "count": 61,
+        "uniques": 56
       },
       {
         "referrer": "github.com",
@@ -78,14 +73,31 @@
         "referrer": "search.brave.com",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "referrer": "chatgpt.com",
+        "count": 3,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/docker-development-skill",
         "title": "Overview",
-        "count": 89,
-        "uniques": 78
+        "count": 84,
+        "uniques": 73
+      },
+      {
+        "path": "/netresearch/docker-development-skill/tree/main/skills",
+        "title": "/tree/main/skills",
+        "count": 14,
+        "uniques": 12
+      },
+      {
+        "path": "/netresearch/docker-development-skill/tree/main/skills/docker-development",
+        "title": "/tree/main/skills/docker-development",
+        "count": 14,
+        "uniques": 11
       },
       {
         "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/SKILL.md",
@@ -94,28 +106,28 @@
         "uniques": 11
       },
       {
-        "path": "/netresearch/docker-development-skill/tree/main/skills",
-        "title": "/tree/main/skills",
-        "count": 11,
-        "uniques": 10
-      },
-      {
-        "path": "/netresearch/docker-development-skill/tree/main/skills/docker-development",
-        "title": "/tree/main/skills/docker-development",
-        "count": 10,
-        "uniques": 9
+        "path": "/netresearch/docker-development-skill/tree/main/skills/docker-development/references",
+        "title": "/tree/main/skills/docker-development/references",
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/docker-development-skill/tree/main",
         "title": "/tree/main",
-        "count": 4,
+        "count": 5,
         "uniques": 4
       },
       {
-        "path": "/netresearch/docker-development-skill/tree/main/skills/docker-development/references",
-        "title": "/tree/main/skills/docker-development/references",
-        "count": 4,
-        "uniques": 4
+        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/references/multi-stage-caching.md",
+        "title": "/blob/main/skills/docker-development/references/multi-stage-caching.md",
+        "count": 5,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/docker-development-skill/tree/main/Build",
+        "title": "/tree/main/Build",
+        "count": 5,
+        "uniques": 2
       },
       {
         "path": "/netresearch/docker-development-skill/tree/main/skills/docker-via-wsl",
@@ -124,20 +136,8 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/references/multi-stage-caching.md",
-        "title": "/blob/main/skills/docker-development/references/multi-stage-caching.md",
-        "count": 3,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/checkpoints.yaml",
         "title": "/blob/main/skills/docker-development/checkpoints.yaml",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/docker-development-skill/blob/main/skills/docker-via-wsl/SKILL.md",
-        "title": "/blob/main/skills/docker-via-wsl/SKILL.md",
         "count": 2,
         "uniques": 2
       }
@@ -152,7 +152,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 224,
+      "contributions": 240,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -183,7 +183,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/docker-development-skill/network/dependents"
   },
-  "estimated_downstream_reach": 102,
-  "blast_radius": 102,
+  "estimated_downstream_reach": 104,
+  "blast_radius": 104,
   "archived": false
 }

@@ -28,50 +28,50 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-09-29T20:47:23Z",
-  "updated_at": "2026-09-29T20:47:27Z",
+  "pushed_at": "2026-09-30T20:51:38Z",
+  "updated_at": "2026-09-30T20:51:43Z",
   "composer_name": "netresearch/timetracker",
   "lifetime": {
     "stars": 25,
     "forks": 27,
     "watchers": 6,
     "network": 27,
-    "open_issues_plus_prs": 3,
-    "commits": 2965,
+    "open_issues_plus_prs": 2,
+    "commits": 3003,
     "issues_open": 2,
     "issues_closed": 74,
-    "prs_open": 1,
-    "prs_merged": 605,
+    "prs_open": 0,
+    "prs_merged": 611,
     "prs_closed_unmerged": 90,
     "issues_total": 76,
     "releases": 35,
-    "release_downloads": 40,
+    "release_downloads": 42,
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 47062,
+    "ghcr_downloads": 47514,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 282,
+    "commits": 320,
     "issues_opened": 11,
-    "prs_opened": 77,
-    "prs_merged": 73,
+    "prs_opened": 82,
+    "prs_merged": 79,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 6365
+    "ghcr_downloads": 6799
   },
   "traffic_14d": {
-    "clones_total": 6151,
-    "clones_unique": 481,
-    "views_total": 103,
-    "views_unique": 50,
+    "clones_total": 5877,
+    "clones_unique": 466,
+    "views_total": 109,
+    "views_unique": 49,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 12,
-        "uniques": 8
+        "count": 11,
+        "uniques": 9
       },
       {
         "referrer": "Google",
@@ -83,13 +83,13 @@
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 22,
-        "uniques": 14
+        "count": 26,
+        "uniques": 16
       },
       {
         "path": "/netresearch/timetracker/discussions",
         "title": "/discussions",
-        "count": 5,
+        "count": 6,
         "uniques": 3
       },
       {
@@ -99,16 +99,16 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/timetracker/releases",
-        "title": "/releases",
-        "count": 4,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/timetracker/pulls",
         "title": "/pulls",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/timetracker/releases",
+        "title": "/releases",
+        "count": 3,
+        "uniques": 1
       },
       {
         "path": "/netresearch/timetracker/blob/main/docs/configuration.md",
@@ -135,8 +135,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/timetracker/issues/687",
-        "title": "/issues/687",
+        "path": "/netresearch/timetracker/blob/main/docs/user-guide.md",
+        "title": "/blob/main/docs/user-guide.md",
         "count": 2,
         "uniques": 1
       }
@@ -151,7 +151,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 2544,
+      "contributions": 2580,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -161,12 +161,12 @@
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 81,
+      "contributions": 82,
       "url": "https://github.com/apps/dependabot"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 71,
+      "contributions": 72,
       "url": "https://github.com/apps/github-actions"
     },
     {
@@ -206,19 +206,19 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 47062,
-        "thirty_day": 6365
+        "total": 47514,
+        "thirty_day": 6799
       }
     ],
-    "total": 47062,
-    "thirty_day": 6365
+    "total": 47514,
+    "thirty_day": 6799
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "estimated_downstream_reach": 750,
-  "blast_radius": 750,
+  "estimated_downstream_reach": 756,
+  "blast_radius": 756,
   "archived": false
 }
