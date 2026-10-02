@@ -39,7 +39,7 @@
     "release_downloads": 0,
     "contributors": 1,
     "external_contributors": 1,
-    "packagist_downloads": 109531,
+    "packagist_downloads": 109869,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -50,19 +50,24 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 9741,
+    "packagist_downloads": 9650,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 192,
-    "clones_unique": 169,
-    "views_total": 16,
-    "views_unique": 11,
+    "clones_total": 167,
+    "clones_unique": 140,
+    "views_total": 17,
+    "views_unique": 12,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "packagist.org",
@@ -75,7 +80,7 @@
         "path": "/netresearch/dhl-sdk-api-parcel-de",
         "title": "Overview",
         "count": 11,
-        "uniques": 9
+        "uniques": 10
       },
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de/blob/main/CHANGELOG.md",
@@ -86,6 +91,12 @@
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de/blob/main/src/RequestBuilder/ShipmentOrderRequestBuilder.php",
         "title": "/blob/main/src/RequestBuilder/ShipmentOrderRequestBuilder.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de/issues",
+        "title": "/issues",
         "count": 1,
         "uniques": 1
       },
@@ -124,9 +135,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-parcel-de",
-    "total": 109531,
-    "monthly": 9741,
-    "daily": 279,
+    "total": 109869,
+    "monthly": 9650,
+    "daily": 306,
     "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de"
   },
   "ghcr": null,

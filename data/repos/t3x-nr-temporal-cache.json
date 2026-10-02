@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-30T15:16:56Z",
-  "pushed_at": "2026-09-30T23:45:02Z",
-  "updated_at": "2026-09-30T23:45:07Z",
+  "pushed_at": "2026-10-01T07:48:36Z",
+  "updated_at": "2026-10-01T07:48:39Z",
   "composer_name": "netresearch/nr-temporal-cache",
   "lifetime": {
     "stars": 1,
@@ -21,15 +21,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 319,
+    "commits": 321,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 90,
+    "prs_merged": 91,
     "prs_closed_unmerged": 12,
     "issues_total": 4,
-    "releases": 3,
-    "release_downloads": 25,
+    "releases": 4,
+    "release_downloads": 36,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 5,
@@ -38,19 +38,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 109,
+    "commits": 111,
     "issues_opened": 1,
-    "prs_opened": 24,
-    "prs_merged": 24,
-    "releases": 2,
+    "prs_opened": 25,
+    "prs_merged": 25,
+    "releases": 3,
     "packagist_downloads": 5,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2452,
-    "clones_unique": 181,
-    "views_total": 20,
-    "views_unique": 13,
+    "clones_total": 2890,
+    "clones_unique": 192,
+    "views_total": 22,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -62,12 +62,30 @@
       {
         "path": "/netresearch/t3x-nr-temporal-cache",
         "title": "Overview",
-        "count": 6,
-        "uniques": 6
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/COVERAGE_ANALYSIS.md",
+        "title": "/blob/main/COVERAGE_ANALYSIS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Documentation/CommandLine/Index.rst",
+        "title": "/blob/main/Documentation/CommandLine/Index.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Documentation/Phases/Index.rst",
+        "title": "/blob/main/Documentation/Phases/Index.rst",
         "count": 1,
         "uniques": 1
       },
@@ -100,37 +118,19 @@
         "title": "/pull/85",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/pull/87",
-        "title": "/pull/87",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/pull/89",
-        "title": "/pull/89",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/pull/90",
-        "title": "/pull/90",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.0.0",
-    "tag_name": "v1.0.0",
-    "published_at": "2026-09-03T23:05:09Z",
-    "url": "https://github.com/netresearch/t3x-nr-temporal-cache/releases/tag/v1.0.0"
+    "name": "v1.0.1",
+    "tag_name": "v1.0.1",
+    "published_at": "2026-10-01T05:30:43Z",
+    "url": "https://github.com/netresearch/t3x-nr-temporal-cache/releases/tag/v1.0.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 278,
+      "contributions": 280,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -148,7 +148,7 @@
     "name": "netresearch/nr-temporal-cache",
     "total": 5,
     "monthly": 5,
-    "daily": 1,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-temporal-cache"
   },
   "ghcr": null,
@@ -157,7 +157,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-temporal-cache/network/dependents"
   },
-  "estimated_downstream_reach": 94,
-  "blast_radius": 94,
+  "estimated_downstream_reach": 95,
+  "blast_radius": 95,
   "archived": false
 }

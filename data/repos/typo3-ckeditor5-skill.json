@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:30Z",
-  "pushed_at": "2026-10-01T03:22:59Z",
-  "updated_at": "2026-10-01T03:23:04Z",
+  "pushed_at": "2026-10-01T22:26:07Z",
+  "updated_at": "2026-10-01T22:26:10Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
@@ -23,11 +23,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 188,
+    "commits": 190,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 59,
+    "prs_merged": 60,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 25,
@@ -40,26 +40,49 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 60,
+    "commits": 62,
     "issues_opened": 0,
-    "prs_opened": 21,
-    "prs_merged": 21,
+    "prs_opened": 22,
+    "prs_merged": 22,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1560,
-    "clones_unique": 136,
-    "views_total": 10,
-    "views_unique": 7,
-    "top_referrers": [],
+    "clones_total": 1645,
+    "clones_unique": 148,
+    "views_total": 17,
+    "views_unique": 10,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-ckeditor5-skill",
         "title": "Overview",
-        "count": 6,
-        "uniques": 5
+        "count": 8,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/skills/typo3-ckeditor5/SKILL.md",
+        "title": "/blob/main/skills/typo3-ckeditor5/SKILL.md",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-ckeditor5-skill/tree/main/skills/typo3-ckeditor5",
+        "title": "/tree/main/skills/typo3-ckeditor5",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/typo3-ckeditor5-skill/blob/main/plugin.json",
@@ -68,14 +91,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/skills/typo3-ckeditor5/SKILL.md",
-        "title": "/blob/main/skills/typo3-ckeditor5/SKILL.md",
+        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/skills/typo3-ckeditor5/references/ckeditor5-architecture.md",
+        "title": "/blob/main/skills/typo3-ckeditor5/references/ckeditor5-architecture.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/skills/typo3-ckeditor5/references/ckeditor5-architecture.md",
-        "title": "/blob/main/skills/typo3-ckeditor5/references/ckeditor5-architecture.md",
+        "path": "/netresearch/typo3-ckeditor5-skill/blob/main/skills/typo3-ckeditor5/references/migration-guide.md",
+        "title": "/blob/main/skills/typo3-ckeditor5/references/migration-guide.md",
         "count": 1,
         "uniques": 1
       },
@@ -101,7 +124,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 19,
+      "contributions": 20,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -111,7 +134,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 4,
+      "contributions": 5,
       "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
@@ -122,7 +145,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-ckeditor5-skill/network/dependents"
   },
-  "estimated_downstream_reach": 60,
-  "blast_radius": 60,
+  "estimated_downstream_reach": 61,
+  "blast_radius": 61,
   "archived": false
 }

@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-23T21:54:50Z",
-  "pushed_at": "2026-09-30T15:28:12Z",
-  "updated_at": "2026-09-30T15:28:16Z",
+  "pushed_at": "2026-10-01T22:34:19Z",
+  "updated_at": "2026-10-01T22:34:21Z",
   "composer_name": null,
   "lifetime": {
     "stars": 75,
@@ -21,15 +21,15 @@
     "watchers": 1,
     "network": 8,
     "open_issues_plus_prs": 1,
-    "commits": 181,
+    "commits": 185,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 63,
+    "prs_merged": 65,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 23,
-    "release_downloads": 369,
+    "release_downloads": 372,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -38,28 +38,28 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 49,
+    "commits": 53,
     "issues_opened": 0,
-    "prs_opened": 21,
-    "prs_merged": 21,
+    "prs_opened": 23,
+    "prs_merged": 23,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2313,
-    "clones_unique": 521,
-    "views_total": 742,
-    "views_unique": 404,
+    "clones_total": 2374,
+    "clones_unique": 531,
+    "views_total": 728,
+    "views_unique": 396,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 360,
-        "uniques": 295
+        "count": 351,
+        "uniques": 291
       },
       {
         "referrer": "search.brave.com",
-        "count": 27,
+        "count": 26,
         "uniques": 14
       },
       {
@@ -69,8 +69,8 @@
       },
       {
         "referrer": "Bing",
-        "count": 6,
-        "uniques": 5
+        "count": 7,
+        "uniques": 6
       },
       {
         "referrer": "yandex.ru",
@@ -83,6 +83,11 @@
         "uniques": 1
       },
       {
+        "referrer": "claudemarketplaces.com",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "referrer": "coccoc.com",
         "count": 1,
         "uniques": 1
@@ -91,37 +96,32 @@
         "referrer": "ecosia.org",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "yandex.kz",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/context7-skill",
         "title": "Overview",
-        "count": 541,
-        "uniques": 380
+        "count": 535,
+        "uniques": 379
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7",
         "title": "/tree/main/skills/context7",
-        "count": 52,
-        "uniques": 36
+        "count": 50,
+        "uniques": 35
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/SKILL.md",
         "title": "/blob/main/skills/context7/SKILL.md",
-        "count": 44,
-        "uniques": 35
+        "count": 42,
+        "uniques": 32
       },
       {
         "path": "/netresearch/context7-skill/tree/main/skills/context7/scripts",
         "title": "/tree/main/skills/context7/scripts",
-        "count": 22,
-        "uniques": 15
+        "count": 21,
+        "uniques": 14
       },
       {
         "path": "/netresearch/context7-skill/blob/main/skills/context7/scripts/context7.sh",
@@ -132,14 +132,14 @@
       {
         "path": "/netresearch/context7-skill/releases/tag/v1.7.2",
         "title": "/releases/tag/v1.7.2",
-        "count": 10,
-        "uniques": 6
+        "count": 11,
+        "uniques": 7
       },
       {
         "path": "/netresearch/context7-skill/tree/main/docs",
         "title": "/tree/main/docs",
-        "count": 6,
-        "uniques": 5
+        "count": 7,
+        "uniques": 6
       },
       {
         "path": "/netresearch/context7-skill/blob/main/README.md",
@@ -148,15 +148,15 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/context7-skill/releases",
-        "title": "/releases",
-        "count": 5,
+        "path": "/netresearch/context7-skill/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
+        "count": 4,
         "uniques": 4
       },
       {
-        "path": "/netresearch/context7-skill/tree/main",
-        "title": "/tree/main",
-        "count": 5,
+        "path": "/netresearch/context7-skill/tree/main/skills",
+        "title": "/tree/main/skills",
+        "count": 4,
         "uniques": 4
       }
     ]
@@ -170,12 +170,12 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 133,
+      "contributions": 135,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 25,
+      "contributions": 26,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -185,7 +185,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 4,
+      "contributions": 5,
       "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
@@ -196,7 +196,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/context7-skill/network/dependents"
   },
-  "estimated_downstream_reach": 80,
-  "blast_radius": 80,
+  "estimated_downstream_reach": 82,
+  "blast_radius": 82,
   "archived": false
 }

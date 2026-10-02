@@ -3,31 +3,31 @@
   "full_name": "netresearch/typo3-project-upgrade-skill",
   "url": "https://github.com/netresearch/typo3-project-upgrade-skill",
   "description": "Claude Code skill for upgrading deployed TYPO3 project instances across major LTS versions",
-  "language": null,
+  "language": "Shell",
   "category": "skill",
   "license": "NOASSERTION",
   "topics": [],
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-03-15T01:15:05Z",
-  "pushed_at": "2026-10-01T04:01:54Z",
-  "updated_at": "2026-09-27T22:41:59Z",
+  "pushed_at": "2026-10-01T04:28:38Z",
+  "updated_at": "2026-10-01T04:28:41Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 111,
+    "open_issues_plus_prs": 1,
+    "commits": 130,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 2,
-    "prs_merged": 44,
+    "prs_open": 0,
+    "prs_merged": 46,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 10,
-    "release_downloads": 25,
+    "release_downloads": 63,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -36,24 +36,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 36,
+    "commits": 55,
     "issues_opened": 0,
     "prs_opened": 19,
-    "prs_merged": 17,
+    "prs_merged": 19,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1851,
-    "clones_unique": 204,
-    "views_total": 40,
-    "views_unique": 12,
+    "clones_total": 1899,
+    "clones_unique": 207,
+    "views_total": 37,
+    "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 9,
-        "uniques": 7
+        "count": 8,
+        "uniques": 6
       },
       {
         "referrer": "app.clickup.com",
@@ -70,20 +70,20 @@
       {
         "path": "/netresearch/typo3-project-upgrade-skill",
         "title": "Overview",
-        "count": 24,
-        "uniques": 11
+        "count": 23,
+        "uniques": 10
       },
       {
         "path": "/netresearch/typo3-project-upgrade-skill/tree/main/skills/typo3-project-upgrade",
         "title": "/tree/main/skills/typo3-project-upgrade",
-        "count": 4,
-        "uniques": 4
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-project-upgrade-skill/blob/main/skills/typo3-project-upgrade/SKILL.md",
         "title": "/blob/main/skills/typo3-project-upgrade/SKILL.md",
-        "count": 4,
-        "uniques": 3
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-project-upgrade-skill/tree/main/skills/typo3-project-upgrade/evals",
@@ -132,12 +132,12 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 77,
+      "contributions": 94,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 22,
+      "contributions": 23,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -147,7 +147,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 3,
+      "contributions": 4,
       "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
@@ -158,7 +158,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-project-upgrade-skill/network/dependents"
   },
-  "estimated_downstream_reach": 45,
-  "blast_radius": 45,
+  "estimated_downstream_reach": 47,
+  "blast_radius": 47,
   "archived": false
 }

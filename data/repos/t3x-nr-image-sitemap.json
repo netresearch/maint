@@ -18,8 +18,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2024-09-03T11:26:07Z",
-  "pushed_at": "2026-09-30T17:50:14Z",
-  "updated_at": "2026-09-30T17:50:20Z",
+  "pushed_at": "2026-10-01T07:43:44Z",
+  "updated_at": "2026-10-01T07:43:48Z",
   "composer_name": "netresearch/nr-image-sitemap",
   "lifetime": {
     "stars": 2,
@@ -27,36 +27,36 @@
     "watchers": 2,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 151,
+    "commits": 155,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 46,
+    "prs_merged": 48,
     "prs_closed_unmerged": 9,
     "issues_total": 4,
     "releases": 6,
     "release_downloads": 1,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 3431,
+    "packagist_downloads": 3447,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 28,
+    "commits": 32,
     "issues_opened": 0,
-    "prs_opened": 8,
-    "prs_merged": 8,
+    "prs_opened": 10,
+    "prs_merged": 10,
     "releases": 1,
     "packagist_downloads": 549,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 921,
-    "clones_unique": 103,
-    "views_total": 12,
-    "views_unique": 6,
+    "clones_total": 1318,
+    "clones_unique": 125,
+    "views_total": 9,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -78,18 +78,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-sitemap/graphs/commit-activity",
-        "title": "/graphs/commit-activity",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/issues",
-        "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-image-sitemap/labels",
         "title": "/labels",
         "count": 1,
@@ -98,12 +86,6 @@
       {
         "path": "/netresearch/t3x-nr-image-sitemap/releases/tag/10.1.5",
         "title": "/releases/tag/10.1.5",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/tree/main",
-        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       },
@@ -124,6 +106,18 @@
         "title": "/tree/main/Classes/Domain/Model",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap/tree/main/Classes/Domain/Repository",
+        "title": "/tree/main/Classes/Domain/Repository",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap/tree/main/Classes/Seo",
+        "title": "/tree/main/Classes/Seo",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -136,7 +130,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 107,
+      "contributions": 111,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -162,9 +156,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-sitemap",
-    "total": 3431,
+    "total": 3447,
     "monthly": 549,
-    "daily": 32,
+    "daily": 14,
     "url": "https://packagist.org/packages/netresearch/nr-image-sitemap"
   },
   "ghcr": null,
@@ -173,7 +167,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-image-sitemap/network/dependents"
   },
-  "estimated_downstream_reach": 53,
-  "blast_radius": 53,
+  "estimated_downstream_reach": 55,
+  "blast_radius": 55,
   "archived": false
 }
