@@ -60,17 +60,29 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3189,
+    "clones_total": 3183,
     "clones_unique": 208,
-    "views_total": 3,
-    "views_unique": 3,
-    "top_referrers": [],
+    "views_total": 12,
+    "views_unique": 4,
+    "top_referrers": [
+      {
+        "referrer": "typo3-demo.netresearch.de",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-browser-ai/tree/main/Classes",
+        "title": "/tree/main/Classes",
+        "count": 3,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/t3x-nr-browser-ai",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-browser-ai/issues/62",
@@ -81,6 +93,36 @@
       {
         "path": "/netresearch/t3x-nr-browser-ai/pull/41/commits",
         "title": "/pull/41/commits",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-browser-ai/tree/main",
+        "title": "/tree/main",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-browser-ai/tree/main/Classes/Controller",
+        "title": "/tree/main/Classes/Controller",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-browser-ai/tree/main/Classes/Service",
+        "title": "/tree/main/Classes/Service",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-browser-ai/tree/main/Resources",
+        "title": "/tree/main/Resources",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-browser-ai/tree/main/Resources/Public",
+        "title": "/tree/main/Resources/Public",
         "count": 1,
         "uniques": 1
       }

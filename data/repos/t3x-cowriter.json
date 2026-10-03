@@ -39,7 +39,7 @@
     "release_downloads": 62,
     "contributors": 13,
     "external_contributors": 9,
-    "packagist_downloads": 13901,
+    "packagist_downloads": 13913,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -50,19 +50,19 @@
     "prs_opened": 36,
     "prs_merged": 34,
     "releases": 10,
-    "packagist_downloads": 597,
+    "packagist_downloads": 554,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 9692,
-    "clones_unique": 494,
-    "views_total": 43,
-    "views_unique": 21,
+    "clones_total": 9255,
+    "clones_unique": 483,
+    "views_total": 40,
+    "views_unique": 17,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 18,
-        "uniques": 15
+        "count": 14,
+        "uniques": 10
       },
       {
         "referrer": "github.com",
@@ -74,8 +74,8 @@
       {
         "path": "/netresearch/t3x-cowriter",
         "title": "Overview",
-        "count": 22,
-        "uniques": 18
+        "count": 18,
+        "uniques": 13
       },
       {
         "path": "/netresearch/t3x-cowriter/issues",
@@ -86,8 +86,14 @@
       {
         "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
         "title": "/blob/main/Documentation/Images/CowriterHero.png",
-        "count": 4,
-        "uniques": 3
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Configuration/Index.rst",
+        "title": "/blob/main/Documentation/Configuration/Index.rst",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-cowriter/pulls",
@@ -96,26 +102,14 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/t3x-cowriter/tree/main/Documentation",
+        "title": "/tree/main/Documentation",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-cowriter/blob/main/CODE_OF_CONDUCT.md",
         "title": "/blob/main/CODE_OF_CONDUCT.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/blob/main/Configuration/ContentSecurityPolicies.php",
-        "title": "/blob/main/Configuration/ContentSecurityPolicies.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/blob/main/Configuration/page.tsconfig",
-        "title": "/blob/main/Configuration/page.tsconfig",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
         "count": 1,
         "uniques": 1
       },
@@ -128,6 +122,12 @@
       {
         "path": "/netresearch/t3x-cowriter/issues/17",
         "title": "/issues/17",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/releases",
+        "title": "/releases",
         "count": 1,
         "uniques": 1
       }
@@ -193,9 +193,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 13901,
-    "monthly": 597,
-    "daily": 16,
+    "total": 13913,
+    "monthly": 554,
+    "daily": 10,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,

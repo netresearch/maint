@@ -37,30 +37,48 @@
     "release_downloads": 9,
     "contributors": 9,
     "external_contributors": 2,
-    "packagist_downloads": 2882,
+    "packagist_downloads": 2888,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 96,
+    "commits": 65,
     "issues_opened": 0,
-    "prs_opened": 30,
-    "prs_merged": 33,
+    "prs_opened": 27,
+    "prs_merged": 26,
     "releases": 3,
-    "packagist_downloads": 247,
+    "packagist_downloads": 249,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4405,
-    "clones_unique": 380,
-    "views_total": 2,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 4670,
+    "clones_unique": 392,
+    "views_total": 4,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-image-optimize",
         "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/commit/b7d2c7d7d1f782616171a38f69327eeccde8ad14",
+        "title": "/commit/b7d2c7d7d1f782616171a38f69327eeccde8ad14",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/issues/131",
+        "title": "/issues/131",
         "count": 1,
         "uniques": 1
       },
@@ -127,9 +145,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 2882,
-    "monthly": 247,
-    "daily": 5,
+    "total": 2888,
+    "monthly": 249,
+    "daily": 6,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,

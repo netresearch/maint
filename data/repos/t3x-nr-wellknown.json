@@ -30,7 +30,7 @@
     "release_downloads": 0,
     "contributors": 1,
     "external_contributors": 0,
-    "packagist_downloads": 113,
+    "packagist_downloads": 114,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -45,15 +45,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1585,
-    "clones_unique": 113,
+    "clones_total": 1774,
+    "clones_unique": 143,
     "views_total": 20,
-    "views_unique": 6,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 4,
+        "count": 3,
         "uniques": 3
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "jira.zcdi.dataport.de",
@@ -66,7 +71,7 @@
         "path": "/netresearch/t3x-nr-wellknown",
         "title": "Overview",
         "count": 7,
-        "uniques": 5
+        "uniques": 6
       },
       {
         "path": "/netresearch/t3x-nr-wellknown/blob/main/docs/superpowers/plans/2026-07-24-nr-wellknown-implementation.md",
@@ -134,7 +139,7 @@
   ],
   "packagist": {
     "name": "netresearch/nr-wellknown",
-    "total": 113,
+    "total": 114,
     "monthly": 67,
     "daily": 2,
     "url": "https://packagist.org/packages/netresearch/nr-wellknown"

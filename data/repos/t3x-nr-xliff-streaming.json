@@ -54,11 +54,16 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1900,
-    "clones_unique": 160,
-    "views_total": 16,
-    "views_unique": 12,
+    "clones_total": 2240,
+    "clones_unique": 172,
+    "views_total": 22,
+    "views_unique": 13,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "referrer": "search.brave.com",
         "count": 1,
@@ -69,20 +74,26 @@
       {
         "path": "/netresearch/t3x-nr-xliff-streaming",
         "title": "Overview",
-        "count": 6,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/t3x-nr-xliff-streaming/pulls",
-        "title": "/pulls",
-        "count": 3,
-        "uniques": 3
+        "count": 8,
+        "uniques": 5
       },
       {
         "path": "/netresearch/t3x-nr-xliff-streaming/blob/main/.php-cs-fixer.php",
         "title": "/blob/main/.php-cs-fixer.php",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-xliff-streaming/pulls",
+        "title": "/pulls",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-xliff-streaming/actions",
+        "title": "/actions",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-xliff-streaming/blob/main/ext_conf_template.txt",
@@ -111,6 +122,12 @@
       {
         "path": "/netresearch/t3x-nr-xliff-streaming/pull/44",
         "title": "/pull/44",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-xliff-streaming/tree/main/Documentation",
+        "title": "/tree/main/Documentation",
         "count": 1,
         "uniques": 1
       }

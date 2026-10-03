@@ -38,19 +38,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 111,
+    "commits": 96,
     "issues_opened": 1,
-    "prs_opened": 25,
-    "prs_merged": 25,
+    "prs_opened": 23,
+    "prs_merged": 24,
     "releases": 3,
-    "packagist_downloads": 5,
+    "packagist_downloads": 2,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2890,
-    "clones_unique": 192,
-    "views_total": 22,
-    "views_unique": 15,
+    "clones_total": 3092,
+    "clones_unique": 211,
+    "views_total": 24,
+    "views_unique": 17,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -72,8 +72,20 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/CHANGELOG.md",
+        "title": "/blob/main/CHANGELOG.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/COVERAGE_ANALYSIS.md",
         "title": "/blob/main/COVERAGE_ANALYSIS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Documentation/Backend/Index.rst",
+        "title": "/blob/main/Documentation/Backend/Index.rst",
         "count": 1,
         "uniques": 1
       },
@@ -106,18 +118,6 @@
         "title": "/commit/290545416e56c615a380a4ea21e1f15f6362661f",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/issues",
-        "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/pull/85",
-        "title": "/pull/85",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -147,7 +147,7 @@
   "packagist": {
     "name": "netresearch/nr-temporal-cache",
     "total": 5,
-    "monthly": 5,
+    "monthly": 2,
     "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-temporal-cache"
   },

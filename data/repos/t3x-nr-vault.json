@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-28T09:41:02Z",
-  "pushed_at": "2026-10-01T07:50:21Z",
+  "pushed_at": "2026-10-02T05:33:20Z",
   "updated_at": "2026-10-01T07:44:17Z",
   "composer_name": "netresearch/nr-vault",
   "lifetime": {
@@ -26,13 +26,13 @@
     "issues_closed": 26,
     "prs_open": 1,
     "prs_merged": 357,
-    "prs_closed_unmerged": 19,
+    "prs_closed_unmerged": 20,
     "issues_total": 28,
     "releases": 36,
     "release_downloads": 274,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 115860,
+    "packagist_downloads": 115871,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -40,17 +40,17 @@
   "recent_30d": {
     "commits": 256,
     "issues_opened": 2,
-    "prs_opened": 64,
+    "prs_opened": 65,
     "prs_merged": 59,
     "releases": 4,
-    "packagist_downloads": 31033,
+    "packagist_downloads": 28594,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 11164,
-    "clones_unique": 478,
-    "views_total": 61,
-    "views_unique": 39,
+    "clones_total": 9869,
+    "clones_unique": 471,
+    "views_total": 60,
+    "views_unique": 38,
     "top_referrers": [
       {
         "referrer": "linkedin.com",
@@ -98,12 +98,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-vault/blob/main/docs/architecture.md",
-        "title": "/blob/main/docs/architecture.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/t3x-nr-vault/blob/main/ext_conf_template.txt",
         "title": "/blob/main/ext_conf_template.txt",
         "count": 2,
@@ -136,6 +130,12 @@
       {
         "path": "/netresearch/t3x-nr-vault/blob/cc6ce1f0c77c9f2f9030f368387fcdea4858a862/CODE_OF_CONDUCT.md",
         "title": "/blob/cc6ce1f0c77c9f2f9030f368387fcdea4858a862/CODE_OF_CONDUCT.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/blob/main/.ddev/AGENTS.md",
+        "title": "/blob/main/.ddev/AGENTS.md",
         "count": 1,
         "uniques": 1
       }
@@ -176,9 +176,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 115860,
-    "monthly": 31033,
-    "daily": 189,
+    "total": 115871,
+    "monthly": 28594,
+    "daily": 9,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,
