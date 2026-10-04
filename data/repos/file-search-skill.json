@@ -38,29 +38,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 67,
+    "commits": 63,
     "issues_opened": 0,
-    "prs_opened": 25,
-    "prs_merged": 25,
+    "prs_opened": 23,
+    "prs_merged": 23,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3074,
-    "clones_unique": 346,
-    "views_total": 183,
-    "views_unique": 84,
+    "clones_total": 3293,
+    "clones_unique": 362,
+    "views_total": 172,
+    "views_unique": 78,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 60,
-        "uniques": 52
+        "count": 55,
+        "uniques": 48
       },
       {
         "referrer": "github.com",
-        "count": 7,
-        "uniques": 4
+        "count": 6,
+        "uniques": 3
       },
       {
         "referrer": "chatgpt.com",
@@ -69,11 +69,6 @@
       },
       {
         "referrer": "search.brave.com",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "referrer": "skills.sh",
         "count": 2,
         "uniques": 2
       },
@@ -96,20 +91,25 @@
         "referrer": "Yahoo",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "skills.sh",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 92,
-        "uniques": 71
+        "count": 86,
+        "uniques": 66
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 20,
-        "uniques": 14
+        "count": 19,
+        "uniques": 13
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
@@ -126,18 +126,12 @@
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
         "title": "/tree/main/skills/file-search/references",
-        "count": 6,
-        "uniques": 4
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ripgrep-patterns.md",
         "title": "/blob/main/skills/file-search/references/ripgrep-patterns.md",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/search-strategies.md",
-        "title": "/blob/main/skills/file-search/references/search-strategies.md",
         "count": 4,
         "uniques": 3
       },
@@ -154,10 +148,16 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/rga-guide.md",
-        "title": "/blob/main/skills/file-search/references/rga-guide.md",
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/search-strategies.md",
+        "title": "/blob/main/skills/file-search/references/search-strategies.md",
         "count": 3,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "count": 3,
+        "uniques": 1
       }
     ]
   },

@@ -49,48 +49,54 @@
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 47715,
+    "ghcr_downloads": 47745,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 324,
+    "commits": 322,
     "issues_opened": 11,
-    "prs_opened": 86,
-    "prs_merged": 81,
+    "prs_opened": 85,
+    "prs_merged": 80,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 6888
+    "ghcr_downloads": 6899
   },
   "traffic_14d": {
-    "clones_total": 5136,
-    "clones_unique": 429,
-    "views_total": 119,
-    "views_unique": 51,
+    "clones_total": 3861,
+    "clones_unique": 368,
+    "views_total": 110,
+    "views_unique": 50,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 12,
-        "uniques": 10
+        "count": 11,
+        "uniques": 9
       },
       {
         "referrer": "Google",
-        "count": 6,
-        "uniques": 6
+        "count": 5,
+        "uniques": 5
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 24,
-        "uniques": 15
+        "count": 23,
+        "uniques": 14
       },
       {
         "path": "/netresearch/timetracker/discussions",
         "title": "/discussions",
         "count": 6,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/timetracker/issues",
+        "title": "/issues",
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/timetracker/blob/main/.env",
@@ -123,20 +129,14 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/timetracker/issues",
-        "title": "/issues",
-        "count": 3,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/timetracker/releases",
         "title": "/releases",
         "count": 3,
         "uniques": 1
       },
       {
-        "path": "/netresearch/timetracker/blob/main/docs/performance.md",
-        "title": "/blob/main/docs/performance.md",
+        "path": "/netresearch/timetracker/blob/main/CONTRIBUTING.md",
+        "title": "/blob/main/CONTRIBUTING.md",
         "count": 2,
         "uniques": 2
       }
@@ -206,12 +206,12 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 47715,
-        "thirty_day": 6888
+        "total": 47745,
+        "thirty_day": 6899
       }
     ],
-    "total": 47715,
-    "thirty_day": 6888
+    "total": 47745,
+    "thirty_day": 6899
   },
   "dependents": {
     "repositories": 0,

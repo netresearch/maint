@@ -44,7 +44,7 @@
     "prs_closed_unmerged": 9,
     "issues_total": 198,
     "releases": 19,
-    "release_downloads": 211,
+    "release_downloads": 212,
     "contributors": 32,
     "external_contributors": 31,
     "packagist_downloads": 0,
@@ -62,20 +62,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1649,
-    "clones_unique": 381,
-    "views_total": 206,
-    "views_unique": 89,
+    "clones_total": 1653,
+    "clones_unique": 387,
+    "views_total": 221,
+    "views_unique": 90,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 33,
+        "count": 36,
         "uniques": 26
       },
       {
         "referrer": "github.com",
-        "count": 12,
-        "uniques": 11
+        "count": 9,
+        "uniques": 8
+      },
+      {
+        "referrer": "awesome-go.com",
+        "count": 3,
+        "uniques": 2
       },
       {
         "referrer": "chatgpt.com",
@@ -83,14 +88,14 @@
         "uniques": 2
       },
       {
-        "referrer": "awesome-go.com",
+        "referrer": "support.sailpoint.com",
         "count": 2,
         "uniques": 2
       },
       {
-        "referrer": "support.sailpoint.com",
+        "referrer": "DuckDuckGo",
         "count": 2,
-        "uniques": 2
+        "uniques": 1
       },
       {
         "referrer": "pkg.go.dev",
@@ -108,7 +113,7 @@
         "path": "/netresearch/go-cron",
         "title": "Overview",
         "count": 79,
-        "uniques": 48
+        "uniques": 47
       },
       {
         "path": "/netresearch/go-cron/blob/main/docs/DST_HANDLING.md",
@@ -117,14 +122,14 @@
         "uniques": 7
       },
       {
-        "path": "/netresearch/go-cron/blob/main/docs/PERSISTENCE_GUIDE.md",
-        "title": "/blob/main/docs/PERSISTENCE_GUIDE.md",
-        "count": 5,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/go-cron/issues",
         "title": "/issues",
+        "count": 8,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/PERSISTENCE_GUIDE.md",
+        "title": "/blob/main/docs/PERSISTENCE_GUIDE.md",
         "count": 5,
         "uniques": 4
       },
@@ -141,10 +146,16 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/go-cron/releases",
-        "title": "/releases",
+        "path": "/netresearch/go-cron/tree/main",
+        "title": "/tree/main",
         "count": 4,
-        "uniques": 3
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/go-cron/issues/205",
+        "title": "/issues/205",
+        "count": 4,
+        "uniques": 2
       },
       {
         "path": "/netresearch/go-cron/blob/main/README.md",
@@ -153,16 +164,10 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/go-cron/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/go-cron/pulls",
+        "title": "/pulls",
         "count": 3,
         "uniques": 3
-      },
-      {
-        "path": "/netresearch/go-cron/pull/259",
-        "title": "/pull/259",
-        "count": 3,
-        "uniques": 1
       }
     ]
   },

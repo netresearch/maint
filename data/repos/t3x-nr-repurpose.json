@@ -30,29 +30,29 @@
     "release_downloads": 23,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 1872,
+    "packagist_downloads": 1903,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 417,
-    "issues_opened": 2,
-    "prs_opened": 57,
-    "prs_merged": 57,
-    "releases": 12,
-    "packagist_downloads": 463,
+    "commits": 407,
+    "issues_opened": 1,
+    "prs_opened": 53,
+    "prs_merged": 52,
+    "releases": 10,
+    "packagist_downloads": 483,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 15303,
-    "clones_unique": 763,
-    "views_total": 32,
+    "clones_total": 15206,
+    "clones_unique": 760,
+    "views_total": 33,
     "views_unique": 12,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 5,
+        "count": 6,
         "uniques": 5
       },
       {
@@ -77,6 +77,12 @@
         "title": "Overview",
         "count": 9,
         "uniques": 9
+      },
+      {
+        "path": "/netresearch/t3x-nr-repurpose/blob/main/Classes/Persistence/JobProcessingRepository.php",
+        "title": "/blob/main/Classes/Persistence/JobProcessingRepository.php",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-repurpose/blob/main/Documentation/Includes.rst.txt",
@@ -121,12 +127,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-repurpose/blob/main/Classes/Persistence/JobProcessingRepository.php",
-        "title": "/blob/main/Classes/Persistence/JobProcessingRepository.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-repurpose/blob/main/Classes/Service/ConfiguredCompletionService.php",
         "title": "/blob/main/Classes/Service/ConfiguredCompletionService.php",
         "count": 1,
@@ -159,9 +159,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-repurpose",
-    "total": 1872,
-    "monthly": 463,
-    "daily": 7,
+    "total": 1903,
+    "monthly": 483,
+    "daily": 25,
     "url": "https://packagist.org/packages/netresearch/nr-repurpose"
   },
   "ghcr": null,
