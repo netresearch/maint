@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-10T11:16:02Z",
-  "pushed_at": "2026-10-01T08:48:48Z",
-  "updated_at": "2026-10-01T08:48:51Z",
+  "pushed_at": "2026-10-04T21:05:53Z",
+  "updated_at": "2026-10-04T21:05:28Z",
   "composer_name": null,
   "lifetime": {
     "stars": 3,
@@ -19,11 +19,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 4,
-    "commits": 447,
+    "commits": 448,
     "issues_open": 4,
     "issues_closed": 9,
     "prs_open": 0,
-    "prs_merged": 168,
+    "prs_merged": 169,
     "prs_closed_unmerged": 2,
     "issues_total": 13,
     "releases": 34,
@@ -36,27 +36,27 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 219,
-    "issues_opened": 8,
-    "prs_opened": 73,
-    "prs_merged": 73,
+    "commits": 214,
+    "issues_opened": 6,
+    "prs_opened": 71,
+    "prs_merged": 72,
     "releases": 13,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6619,
-    "clones_unique": 547,
-    "views_total": 39,
+    "clones_total": 6568,
+    "clones_unique": 539,
+    "views_total": 34,
     "views_unique": 18,
     "top_referrers": [
       {
-        "referrer": "github.com",
+        "referrer": "Google",
         "count": 4,
         "uniques": 4
       },
       {
-        "referrer": "Google",
+        "referrer": "github.com",
         "count": 3,
         "uniques": 3
       }
@@ -65,32 +65,20 @@
       {
         "path": "/netresearch/github-release-skill",
         "title": "Overview",
-        "count": 15,
+        "count": 14,
         "uniques": 10
       },
       {
         "path": "/netresearch/github-release-skill/releases",
         "title": "/releases",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/github-release-skill/pull/115",
         "title": "/pull/115",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/github-release-skill/tree/main",
-        "title": "/tree/main",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/github-release-skill/blob/main/skills/github-release/evals/evals.json",
-        "title": "/blob/main/skills/github-release/evals/evals.json",
-        "count": 1,
-        "uniques": 1
       },
       {
         "path": "/netresearch/github-release-skill/issues",
@@ -121,6 +109,18 @@
         "title": "/pull/103",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-release-skill/pull/107",
+        "title": "/pull/107",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-release-skill/pull/111",
+        "title": "/pull/111",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -138,7 +138,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 24,
+      "contributions": 25,
       "url": "https://github.com/apps/renovate"
     }
   ],
@@ -149,7 +149,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-release-skill/network/dependents"
   },
-  "estimated_downstream_reach": 181,
-  "blast_radius": 181,
+  "estimated_downstream_reach": 182,
+  "blast_radius": 182,
   "archived": false
 }

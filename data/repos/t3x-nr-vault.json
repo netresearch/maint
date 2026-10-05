@@ -32,25 +32,25 @@
     "release_downloads": 274,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 116200,
+    "packagist_downloads": 116331,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 256,
+    "commits": 250,
     "issues_opened": 2,
-    "prs_opened": 64,
-    "prs_merged": 59,
-    "releases": 4,
-    "packagist_downloads": 27402,
+    "prs_opened": 62,
+    "prs_merged": 56,
+    "releases": 3,
+    "packagist_downloads": 27126,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 9141,
+    "clones_total": 9131,
     "clones_unique": 463,
-    "views_total": 59,
-    "views_unique": 37,
+    "views_total": 57,
+    "views_unique": 35,
     "top_referrers": [
       {
         "referrer": "linkedin.com",
@@ -98,12 +98,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-vault/pull/342",
-        "title": "/pull/342",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/t3x-nr-vault/blame/main/CLAUDE.md",
         "title": "/blame/main/CLAUDE.md",
         "count": 1,
@@ -136,6 +130,12 @@
       {
         "path": "/netresearch/t3x-nr-vault/blob/main/GEMINI.md",
         "title": "/blob/main/GEMINI.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-vault/blob/main/codecov.yml",
+        "title": "/blob/main/codecov.yml",
         "count": 1,
         "uniques": 1
       }
@@ -176,9 +176,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 116200,
-    "monthly": 27402,
-    "daily": 267,
+    "total": 116331,
+    "monthly": 27126,
+    "daily": 118,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,
