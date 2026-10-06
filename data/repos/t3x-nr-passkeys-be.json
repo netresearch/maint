@@ -39,7 +39,7 @@
     "release_downloads": 57,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 14607,
+    "packagist_downloads": 14673,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -47,22 +47,22 @@
   "recent_30d": {
     "commits": 88,
     "issues_opened": 1,
-    "prs_opened": 25,
-    "prs_merged": 21,
+    "prs_opened": 24,
+    "prs_merged": 20,
     "releases": 2,
-    "packagist_downloads": 6745,
+    "packagist_downloads": 6766,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7391,
-    "clones_unique": 373,
-    "views_total": 65,
-    "views_unique": 27,
+    "clones_total": 5728,
+    "clones_unique": 335,
+    "views_total": 60,
+    "views_unique": 25,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 13,
-        "uniques": 11
+        "count": 11,
+        "uniques": 9
       },
       {
         "referrer": "Google",
@@ -79,20 +79,20 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be",
         "title": "Overview",
-        "count": 20,
-        "uniques": 17
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/ext_localconf.php",
-        "title": "/blob/main/ext_localconf.php",
-        "count": 4,
-        "uniques": 3
+        "count": 21,
+        "uniques": 16
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/issues",
         "title": "/issues",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/ext_localconf.php",
+        "title": "/blob/main/ext_localconf.php",
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Classes/Controller/AdminController.php",
@@ -119,20 +119,20 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/30026253346",
-        "title": "/actions/runs/30026253346",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/actions/runs/30026253346/job/89271359769",
-        "title": "/actions/runs/30026253346/job/89271359769",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/3e4512d5242abea40d2dcbaea6aaf4541a67fde3/Classes/Controller/ManagementController.php",
         "title": "/blob/3e4512d5242abea40d2dcbaea6aaf4541a67fde3/Classes/Controller/ManagementController.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/.ddev/config.yaml",
+        "title": "/blob/main/.ddev/config.yaml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Classes/Controller/LoginController.php",
+        "title": "/blob/main/Classes/Controller/LoginController.php",
         "count": 1,
         "uniques": 1
       }
@@ -173,8 +173,8 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 14607,
-    "monthly": 6745,
+    "total": 14673,
+    "monthly": 6766,
     "daily": 64,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },

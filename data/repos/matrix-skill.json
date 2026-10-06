@@ -35,14 +35,14 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 494,
-    "issues_open": 1,
+    "issues_open": 2,
     "issues_closed": 22,
     "prs_open": 0,
     "prs_merged": 142,
     "prs_closed_unmerged": 0,
-    "issues_total": 23,
+    "issues_total": 24,
     "releases": 62,
     "release_downloads": 177,
     "contributors": 7,
@@ -53,18 +53,18 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 87,
-    "issues_opened": 0,
-    "prs_opened": 32,
-    "prs_merged": 32,
+    "commits": 85,
+    "issues_opened": 1,
+    "prs_opened": 31,
+    "prs_merged": 31,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1752,
-    "clones_unique": 581,
-    "views_total": 45,
+    "clones_total": 1714,
+    "clones_unique": 572,
+    "views_total": 46,
     "views_unique": 28,
     "top_referrers": [
       {
@@ -96,6 +96,12 @@
         "title": "/blob/main/CLAUDE.md",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/matrix-skill/discussions",
+        "title": "/discussions",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/matrix-skill/blob/HEAD/skills/matrix-announcement/references/anti-patterns.md",
@@ -130,12 +136,6 @@
       {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/scripts/_lib/daemon_client.py",
         "title": "/blob/main/skills/matrix-communication/scripts/_lib/daemon_client.py",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/matrix-skill/commit/28d42ac05e3df902481510548a1424493cb365a0",
-        "title": "/commit/28d42ac05e3df902481510548a1424493cb365a0",
         "count": 1,
         "uniques": 1
       }
@@ -191,7 +191,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/matrix-skill/network/dependents"
   },
-  "estimated_downstream_reach": 168,
-  "blast_radius": 168,
+  "estimated_downstream_reach": 169,
+  "blast_radius": 169,
   "archived": false
 }
