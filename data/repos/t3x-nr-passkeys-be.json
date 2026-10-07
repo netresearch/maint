@@ -19,8 +19,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-09T16:08:11Z",
-  "pushed_at": "2026-10-03T13:35:20Z",
-  "updated_at": "2026-10-01T08:39:42Z",
+  "pushed_at": "2026-10-06T22:17:14Z",
+  "updated_at": "2026-10-06T22:16:02Z",
   "composer_name": "netresearch/nr-passkeys-be",
   "lifetime": {
     "stars": 6,
@@ -28,41 +28,41 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 3,
-    "commits": 613,
+    "commits": 616,
     "issues_open": 1,
     "issues_closed": 8,
     "prs_open": 2,
-    "prs_merged": 141,
+    "prs_merged": 142,
     "prs_closed_unmerged": 10,
     "issues_total": 9,
     "releases": 25,
     "release_downloads": 57,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 14673,
+    "packagist_downloads": 14784,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 88,
+    "commits": 91,
     "issues_opened": 1,
-    "prs_opened": 24,
-    "prs_merged": 20,
+    "prs_opened": 25,
+    "prs_merged": 21,
     "releases": 2,
-    "packagist_downloads": 6766,
+    "packagist_downloads": 6809,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5728,
+    "clones_total": 5702,
     "clones_unique": 335,
-    "views_total": 60,
-    "views_unique": 25,
+    "views_total": 42,
+    "views_unique": 21,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 11,
-        "uniques": 9
+        "count": 7,
+        "uniques": 5
       },
       {
         "referrer": "Google",
@@ -79,8 +79,8 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be",
         "title": "Overview",
-        "count": 21,
-        "uniques": 16
+        "count": 16,
+        "uniques": 12
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/issues",
@@ -89,20 +89,8 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/ext_localconf.php",
-        "title": "/blob/main/ext_localconf.php",
-        "count": 3,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Classes/Controller/AdminController.php",
         "title": "/blob/main/Classes/Controller/AdminController.php",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/ext_tables.sql",
-        "title": "/blob/main/ext_tables.sql",
         "count": 2,
         "uniques": 2
       },
@@ -119,20 +107,32 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/3e4512d5242abea40d2dcbaea6aaf4541a67fde3/Classes/Controller/ManagementController.php",
-        "title": "/blob/3e4512d5242abea40d2dcbaea6aaf4541a67fde3/Classes/Controller/ManagementController.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/.ddev/config.yaml",
-        "title": "/blob/main/.ddev/config.yaml",
-        "count": 1,
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/ext_localconf.php",
+        "title": "/blob/main/ext_localconf.php",
+        "count": 2,
         "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Classes/Controller/LoginController.php",
         "title": "/blob/main/Classes/Controller/LoginController.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/docs/adr/0002-no-rpid-aware-enforcement.md",
+        "title": "/blob/main/docs/adr/0002-no-rpid-aware-enforcement.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/ext_tables.sql",
+        "title": "/blob/main/ext_tables.sql",
         "count": 1,
         "uniques": 1
       }
@@ -147,7 +147,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 595,
+      "contributions": 598,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -173,9 +173,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 14673,
-    "monthly": 6766,
-    "daily": 64,
+    "total": 14784,
+    "monthly": 6809,
+    "daily": 95,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,
@@ -184,7 +184,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-passkeys-be/network/dependents"
   },
-  "estimated_downstream_reach": 159,
-  "blast_radius": 159,
+  "estimated_downstream_reach": 160,
+  "blast_radius": 160,
   "archived": false
 }

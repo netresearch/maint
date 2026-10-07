@@ -48,13 +48,18 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 223,
-    "clones_unique": 72,
-    "views_total": 15,
+    "clones_total": 195,
+    "clones_unique": 65,
+    "views_total": 25,
     "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "github.com",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "referrer": "teams.public.onecdn.static.microsoft",
         "count": 1,
         "uniques": 1
       }
@@ -63,13 +68,25 @@
       {
         "path": "/netresearch/terraform-provider-ad",
         "title": "Overview",
-        "count": 7,
+        "count": 8,
         "uniques": 7
       },
       {
         "path": "/netresearch/terraform-provider-ad/commit/57a22eeb8eea3c5bc93c82cb990b50e3b034ccd2",
         "title": "/commit/57a22eeb8eea3c5bc93c82cb990b50e3b034ccd2",
-        "count": 1,
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/pull/39",
+        "title": "/pull/39",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/pull/39/changes",
+        "title": "/pull/39/changes",
+        "count": 2,
         "uniques": 1
       },
       {
@@ -103,14 +120,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/terraform-provider-ad/pull/40",
-        "title": "/pull/40",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/terraform-provider-ad/pull/42",
-        "title": "/pull/42",
+        "path": "/netresearch/terraform-provider-ad/pull/39/checks",
+        "title": "/pull/39/checks",
         "count": 1,
         "uniques": 1
       }

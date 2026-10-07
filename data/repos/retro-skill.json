@@ -18,8 +18,8 @@
   "homepage": "https://github.com/netresearch/retro-skill",
   "default_branch": "main",
   "created_at": "2026-05-12T13:08:08Z",
-  "pushed_at": "2026-10-05T11:58:18Z",
-  "updated_at": "2026-10-05T11:58:22Z",
+  "pushed_at": "2026-10-07T00:47:14Z",
+  "updated_at": "2026-10-07T00:46:35Z",
   "composer_name": null,
   "lifetime": {
     "stars": 9,
@@ -27,11 +27,11 @@
     "watchers": 1,
     "network": 4,
     "open_issues_plus_prs": 2,
-    "commits": 478,
+    "commits": 480,
     "issues_open": 1,
     "issues_closed": 14,
     "prs_open": 1,
-    "prs_merged": 151,
+    "prs_merged": 152,
     "prs_closed_unmerged": 4,
     "issues_total": 15,
     "releases": 34,
@@ -44,39 +44,39 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 263,
+    "commits": 265,
     "issues_opened": 10,
-    "prs_opened": 71,
-    "prs_merged": 68,
+    "prs_opened": 72,
+    "prs_merged": 69,
     "releases": 12,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6674,
-    "clones_unique": 747,
-    "views_total": 518,
-    "views_unique": 302,
+    "clones_total": 7325,
+    "clones_unique": 783,
+    "views_total": 600,
+    "views_unique": 378,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 291,
-        "uniques": 229
+        "count": 368,
+        "uniques": 292
       },
       {
         "referrer": "github.com",
-        "count": 20,
+        "count": 22,
         "uniques": 10
       },
       {
-        "referrer": "Bing",
-        "count": 9,
-        "uniques": 8
+        "referrer": "search.brave.com",
+        "count": 11,
+        "uniques": 6
       },
       {
-        "referrer": "search.brave.com",
-        "count": 9,
-        "uniques": 4
+        "referrer": "Bing",
+        "count": 10,
+        "uniques": 10
       },
       {
         "referrer": "DuckDuckGo",
@@ -113,20 +113,20 @@
       {
         "path": "/netresearch/retro-skill",
         "title": "Overview",
-        "count": 327,
-        "uniques": 257
+        "count": 416,
+        "uniques": 321
       },
       {
         "path": "/netresearch/retro-skill/blob/main/docs/specs/retro-skill.md",
         "title": "/blob/main/docs/specs/retro-skill.md",
-        "count": 50,
-        "uniques": 44
+        "count": 52,
+        "uniques": 46
       },
       {
         "path": "/netresearch/retro-skill/blob/main/skills/retro/SKILL.md",
         "title": "/blob/main/skills/retro/SKILL.md",
-        "count": 32,
-        "uniques": 25
+        "count": 34,
+        "uniques": 27
       },
       {
         "path": "/netresearch/retro-skill/tree/main/skills/retro",
@@ -137,24 +137,18 @@
       {
         "path": "/netresearch/retro-skill/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 10,
+        "count": 11,
         "uniques": 10
       },
       {
         "path": "/netresearch/retro-skill/tree/main",
         "title": "/tree/main",
-        "count": 6,
-        "uniques": 5
+        "count": 7,
+        "uniques": 6
       },
       {
         "path": "/netresearch/retro-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/retro-skill/tree/main/skills",
-        "title": "/tree/main/skills",
         "count": 4,
         "uniques": 4
       },
@@ -165,10 +159,16 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/retro-skill/commits",
-        "title": "/commits",
-        "count": 4,
-        "uniques": 1
+        "path": "/netresearch/retro-skill/pulls",
+        "title": "/pulls",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/retro-skill/tree/main/hooks",
+        "title": "/tree/main/hooks",
+        "count": 3,
+        "uniques": 3
       }
     ]
   },
@@ -186,12 +186,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 12,
+      "contributions": 13,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
-      "contributions": 8,
+      "contributions": 9,
       "url": "https://github.com/apps/github-actions"
     },
     {
@@ -212,7 +212,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/retro-skill/network/dependents"
   },
-  "estimated_downstream_reach": 180,
-  "blast_radius": 180,
+  "estimated_downstream_reach": 181,
+  "blast_radius": 181,
   "archived": false
 }

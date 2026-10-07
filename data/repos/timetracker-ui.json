@@ -49,10 +49,17 @@
   "traffic_14d": {
     "clones_total": 9,
     "clones_unique": 8,
-    "views_total": 0,
-    "views_unique": 0,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/timetracker-ui/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v3.0.0 \u2014 timetracker v5 backend support",

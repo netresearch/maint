@@ -48,17 +48,23 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7,
-    "clones_unique": 6,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 6,
+    "clones_unique": 5,
+    "views_total": 2,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr_perfanalysis",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       }
     ]
   },

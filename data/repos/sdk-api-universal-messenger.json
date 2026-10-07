@@ -37,7 +37,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 0,
-    "packagist_downloads": 5098,
+    "packagist_downloads": 5194,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -48,16 +48,28 @@
     "prs_opened": 3,
     "prs_merged": 3,
     "releases": 1,
-    "packagist_downloads": 1364,
+    "packagist_downloads": 1391,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 122,
-    "clones_unique": 20,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 127,
+    "clones_unique": 22,
+    "views_total": 3,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/sdk-api-universal-messenger",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/sdk-api-universal-messenger/blob/main/CHANGELOG.md",
         "title": "/blob/main/CHANGELOG.md",
@@ -91,9 +103,9 @@
   ],
   "packagist": {
     "name": "netresearch/sdk-api-universal-messenger",
-    "total": 5098,
-    "monthly": 1364,
-    "daily": 20,
+    "total": 5194,
+    "monthly": 1391,
+    "daily": 96,
     "url": "https://packagist.org/packages/netresearch/sdk-api-universal-messenger"
   },
   "ghcr": null,

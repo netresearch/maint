@@ -42,7 +42,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 4,
-    "packagist_downloads": 330278,
+    "packagist_downloads": 330311,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -53,21 +53,27 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 636,
+    "packagist_downloads": 640,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 16,
     "clones_unique": 7,
-    "views_total": 15,
-    "views_unique": 12,
-    "top_referrers": [],
+    "views_total": 16,
+    "views_unique": 13,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-bcs",
         "title": "Overview",
-        "count": 5,
-        "uniques": 4
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/dhl-sdk-api-bcs/blob/master/LICENSE.md",
@@ -146,9 +152,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs",
-    "total": 330278,
-    "monthly": 636,
-    "daily": 23,
+    "total": 330311,
+    "monthly": 640,
+    "daily": 28,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs"
   },
   "ghcr": null,
