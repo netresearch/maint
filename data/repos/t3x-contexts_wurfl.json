@@ -2,7 +2,7 @@
   "name": "t3x-contexts_wurfl",
   "full_name": "netresearch/t3x-contexts_wurfl",
   "url": "https://github.com/netresearch/t3x-contexts_wurfl",
-  "description": "Detect mobile devices and adjust your TYPO3 output",
+  "description": "Contexts: Device Detection for TYPO3 - Device detection context types (device type, OS, browser) for the contexts extension, using Matomo DeviceDetector for user-agent parsing.",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "AGPL-3.0",
@@ -10,24 +10,24 @@
     "multi-channel",
     "typo3-extension"
   ],
-  "homepage": "http://forge.typo3.org/projects/extension-contexts",
+  "homepage": "https://github.com/netresearch/t3x-contexts_wurfl",
   "default_branch": "main",
   "created_at": "2013-04-12T08:21:51Z",
-  "pushed_at": "2026-10-01T05:01:39Z",
-  "updated_at": "2026-10-01T04:59:45Z",
+  "pushed_at": "2026-10-07T13:14:16Z",
+  "updated_at": "2026-10-07T11:40:48Z",
   "composer_name": "netresearch/contexts-wurfl",
   "lifetime": {
     "stars": 1,
     "forks": 2,
     "watchers": 10,
     "network": 2,
-    "open_issues_plus_prs": 7,
-    "commits": 247,
+    "open_issues_plus_prs": 2,
+    "commits": 253,
     "issues_open": 1,
     "issues_closed": 3,
-    "prs_open": 6,
-    "prs_merged": 52,
-    "prs_closed_unmerged": 11,
+    "prs_open": 1,
+    "prs_merged": 54,
+    "prs_closed_unmerged": 17,
     "issues_total": 4,
     "releases": 2,
     "release_downloads": 0,
@@ -39,17 +39,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 37,
+    "commits": 41,
     "issues_opened": 1,
-    "prs_opened": 16,
-    "prs_merged": 10,
+    "prs_opened": 17,
+    "prs_merged": 11,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2818,
-    "clones_unique": 200,
+    "clones_total": 2562,
+    "clones_unique": 193,
     "views_total": 13,
     "views_unique": 12,
     "top_referrers": [
@@ -119,7 +119,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 155,
+      "contributions": 161,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -155,7 +155,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts_wurfl/network/dependents"
   },
-  "estimated_downstream_reach": 63,
-  "blast_radius": 63,
+  "estimated_downstream_reach": 65,
+  "blast_radius": 65,
   "archived": false
 }

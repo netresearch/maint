@@ -2,7 +2,7 @@
   "name": "t3x-nr-bug-reporter",
   "full_name": "netresearch/t3x-nr-bug-reporter",
   "url": "https://github.com/netresearch/t3x-nr-bug-reporter",
-  "description": "TYPO3 backend bug reporter: attribute an error to its originating Composer package and open a prefilled issue on that package's upstream GitHub tracker.",
+  "description": "Bug Reporter for TYPO3 - Attribute an error to its originating Composer package and open a prefilled issue on that package's upstream GitHub tracker, from the error page or the backend toolbar.",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "GPL-2.0",
@@ -10,58 +10,58 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-02T13:28:58Z",
-  "pushed_at": "2026-10-07T03:43:43Z",
-  "updated_at": "2026-10-07T03:42:45Z",
+  "pushed_at": "2026-10-07T11:40:58Z",
+  "updated_at": "2026-10-07T11:41:02Z",
   "composer_name": "netresearch/nr-bug-reporter",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 63,
+    "open_issues_plus_prs": 1,
+    "commits": 67,
     "issues_open": 1,
     "issues_closed": 1,
-    "prs_open": 1,
-    "prs_merged": 19,
+    "prs_open": 0,
+    "prs_merged": 21,
     "prs_closed_unmerged": 0,
     "issues_total": 2,
-    "releases": 1,
-    "release_downloads": 0,
+    "releases": 2,
+    "release_downloads": 2,
     "contributors": 2,
     "external_contributors": 0,
-    "packagist_downloads": 1,
+    "packagist_downloads": 2,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 30,
+    "commits": 34,
     "issues_opened": 0,
-    "prs_opened": 9,
-    "prs_merged": 8,
-    "releases": 1,
-    "packagist_downloads": 1,
+    "prs_opened": 10,
+    "prs_merged": 10,
+    "releases": 2,
+    "packagist_downloads": 2,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 904,
-    "clones_unique": 129,
+    "clones_total": 873,
+    "clones_unique": 120,
     "views_total": 0,
     "views_unique": 0,
     "top_referrers": [],
     "top_paths": []
   },
   "latest_release": {
-    "name": "v0.1.0",
-    "tag_name": "v0.1.0",
-    "published_at": "2026-10-01T05:30:13Z",
-    "url": "https://github.com/netresearch/t3x-nr-bug-reporter/releases/tag/v0.1.0"
+    "name": "v0.1.1",
+    "tag_name": "v0.1.1",
+    "published_at": "2026-10-07T03:53:21Z",
+    "url": "https://github.com/netresearch/t3x-nr-bug-reporter/releases/tag/v0.1.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 58,
+      "contributions": 62,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -72,9 +72,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-bug-reporter",
-    "total": 1,
-    "monthly": 1,
-    "daily": 0,
+    "total": 2,
+    "monthly": 2,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/nr-bug-reporter"
   },
   "ghcr": null,
@@ -83,7 +83,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-bug-reporter/network/dependents"
   },
-  "estimated_downstream_reach": 23,
-  "blast_radius": 23,
+  "estimated_downstream_reach": 25,
+  "blast_radius": 25,
   "archived": false
 }

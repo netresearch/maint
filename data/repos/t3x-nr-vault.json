@@ -2,7 +2,7 @@
   "name": "t3x-nr-vault",
   "full_name": "netresearch/t3x-nr-vault",
   "url": "https://github.com/netresearch/t3x-nr-vault",
-  "description": "Secure secrets management for TYPO3 with envelope encryption, access control, and audit logging",
+  "description": "Secrets Vault for TYPO3 - Central, secure storage for API keys, credentials and other secrets with envelope encryption, access control, audit logging and a secure HTTP client.",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "GPL-2.0",
@@ -12,49 +12,49 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-28T09:41:02Z",
-  "pushed_at": "2026-10-05T11:21:56Z",
-  "updated_at": "2026-10-01T07:44:17Z",
+  "pushed_at": "2026-10-07T13:41:44Z",
+  "updated_at": "2026-10-07T12:41:43Z",
   "composer_name": "netresearch/nr-vault",
   "lifetime": {
     "stars": 5,
     "forks": 0,
     "watchers": 2,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 1602,
+    "open_issues_plus_prs": 2,
+    "commits": 1605,
     "issues_open": 2,
     "issues_closed": 26,
-    "prs_open": 1,
-    "prs_merged": 357,
-    "prs_closed_unmerged": 20,
+    "prs_open": 0,
+    "prs_merged": 358,
+    "prs_closed_unmerged": 21,
     "issues_total": 28,
     "releases": 36,
     "release_downloads": 274,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 118377,
+    "packagist_downloads": 120697,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 250,
+    "commits": 251,
     "issues_opened": 2,
-    "prs_opened": 62,
-    "prs_merged": 56,
+    "prs_opened": 63,
+    "prs_merged": 57,
     "releases": 3,
-    "packagist_downloads": 28599,
+    "packagist_downloads": 30505,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 9257,
-    "clones_unique": 474,
-    "views_total": 50,
-    "views_unique": 24,
+    "clones_total": 8842,
+    "clones_unique": 460,
+    "views_total": 48,
+    "views_unique": 22,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 4,
+        "count": 5,
         "uniques": 3
       },
       {
@@ -63,12 +63,12 @@
         "uniques": 2
       },
       {
-        "referrer": "linkedin.com",
-        "count": 2,
+        "referrer": "com.linkedin.android",
+        "count": 1,
         "uniques": 1
       },
       {
-        "referrer": "com.linkedin.android",
+        "referrer": "linkedin.com",
         "count": 1,
         "uniques": 1
       }
@@ -77,8 +77,8 @@
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 17,
-        "uniques": 13
+        "count": 15,
+        "uniques": 11
       },
       {
         "path": "/netresearch/t3x-nr-vault/commits/main",
@@ -145,7 +145,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1405,
+      "contributions": 1408,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -171,9 +171,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 118377,
-    "monthly": 28599,
-    "daily": 1724,
+    "total": 120697,
+    "monthly": 30505,
+    "daily": 2503,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,
@@ -182,7 +182,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-vault/network/dependents"
   },
-  "estimated_downstream_reach": 385,
-  "blast_radius": 385,
+  "estimated_downstream_reach": 386,
+  "blast_radius": 386,
   "archived": false
 }

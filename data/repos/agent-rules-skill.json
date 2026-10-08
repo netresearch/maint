@@ -20,8 +20,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T19:35:16Z",
-  "pushed_at": "2026-10-07T00:42:39Z",
-  "updated_at": "2026-10-07T00:42:30Z",
+  "pushed_at": "2026-10-07T20:55:07Z",
+  "updated_at": "2026-10-07T20:55:11Z",
   "composer_name": null,
   "lifetime": {
     "stars": 87,
@@ -29,13 +29,13 @@
     "watchers": 2,
     "network": 8,
     "open_issues_plus_prs": 1,
-    "commits": 493,
+    "commits": 499,
     "issues_open": 1,
-    "issues_closed": 15,
+    "issues_closed": 16,
     "prs_open": 0,
-    "prs_merged": 124,
+    "prs_merged": 127,
     "prs_closed_unmerged": 3,
-    "issues_total": 16,
+    "issues_total": 17,
     "releases": 61,
     "release_downloads": 516,
     "contributors": 6,
@@ -46,34 +46,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 100,
-    "issues_opened": 0,
-    "prs_opened": 30,
-    "prs_merged": 30,
+    "commits": 105,
+    "issues_opened": 1,
+    "prs_opened": 32,
+    "prs_merged": 33,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2404,
-    "clones_unique": 465,
-    "views_total": 449,
-    "views_unique": 217,
+    "clones_total": 2698,
+    "clones_unique": 449,
+    "views_total": 415,
+    "views_unique": 216,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 147,
-        "uniques": 127
+        "count": 144,
+        "uniques": 125
       },
       {
         "referrer": "github.com",
-        "count": 20,
-        "uniques": 12
+        "count": 18,
+        "uniques": 11
       },
       {
         "referrer": "t.co",
-        "count": 14,
-        "uniques": 14
+        "count": 15,
+        "uniques": 15
       },
       {
         "referrer": "Bing",
@@ -91,6 +91,11 @@
         "uniques": 1
       },
       {
+        "referrer": "coccoc.com",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "referrer": "com.linkedin.android",
         "count": 1,
         "uniques": 1
@@ -101,7 +106,7 @@
         "uniques": 1
       },
       {
-        "referrer": "search.brave.com",
+        "referrer": "packagist.org",
         "count": 1,
         "uniques": 1
       }
@@ -110,44 +115,38 @@
       {
         "path": "/netresearch/agent-rules-skill",
         "title": "Overview",
-        "count": 250,
-        "uniques": 195
+        "count": 247,
+        "uniques": 194
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
         "title": "/tree/main/skills/agent-rules",
-        "count": 35,
-        "uniques": 27
+        "count": 32,
+        "uniques": 24
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md",
         "title": "/blob/main/skills/agent-rules/SKILL.md",
-        "count": 21,
-        "uniques": 19
+        "count": 19,
+        "uniques": 18
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/AGENTS.md",
         "title": "/blob/main/skills/agent-rules/AGENTS.md",
-        "count": 9,
-        "uniques": 7
+        "count": 7,
+        "uniques": 6
       },
       {
         "path": "/netresearch/agent-rules-skill/issues",
         "title": "/issues",
-        "count": 8,
-        "uniques": 4
+        "count": 7,
+        "uniques": 3
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
         "count": 6,
         "uniques": 5
-      },
-      {
-        "path": "/netresearch/agent-rules-skill/discussions",
-        "title": "/discussions",
-        "count": 6,
-        "uniques": 4
       },
       {
         "path": "/netresearch/agent-rules-skill/actions",
@@ -160,6 +159,12 @@
         "title": "/pulls",
         "count": 5,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/agent-rules-skill/discussions",
+        "title": "/discussions",
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/references/ai-tool-compatibility.md",
@@ -178,12 +183,12 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 432,
+      "contributions": 436,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 28,
+      "contributions": 29,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -193,7 +198,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 6,
+      "contributions": 7,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -214,7 +219,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/agent-rules-skill/network/dependents"
   },
-  "estimated_downstream_reach": 156,
-  "blast_radius": 156,
+  "estimated_downstream_reach": 160,
+  "blast_radius": 160,
   "archived": false
 }

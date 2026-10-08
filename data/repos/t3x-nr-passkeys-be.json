@@ -2,7 +2,7 @@
   "name": "t3x-nr-passkeys-be",
   "full_name": "netresearch/t3x-nr-passkeys-be",
   "url": "https://github.com/netresearch/t3x-nr-passkeys-be",
-  "description": "TYPO3 extension for passwordless backend authentication via WebAuthn/FIDO2 Passkeys",
+  "description": "Passkeys Backend Authentication for TYPO3 - Passwordless backend login with Passkeys (WebAuthn/FIDO2): one-click sign-in with Touch ID, Face ID, YubiKey or Windows Hello.",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "GPL-2.0",
@@ -19,50 +19,50 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-09T16:08:11Z",
-  "pushed_at": "2026-10-06T22:17:14Z",
-  "updated_at": "2026-10-06T22:16:02Z",
+  "pushed_at": "2026-10-07T18:46:12Z",
+  "updated_at": "2026-10-07T18:46:17Z",
   "composer_name": "netresearch/nr-passkeys-be",
   "lifetime": {
     "stars": 6,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 616,
+    "open_issues_plus_prs": 1,
+    "commits": 630,
     "issues_open": 1,
     "issues_closed": 8,
-    "prs_open": 2,
-    "prs_merged": 142,
+    "prs_open": 0,
+    "prs_merged": 146,
     "prs_closed_unmerged": 10,
     "issues_total": 9,
     "releases": 25,
     "release_downloads": 57,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 14784,
+    "packagist_downloads": 15464,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 91,
+    "commits": 105,
     "issues_opened": 1,
-    "prs_opened": 25,
-    "prs_merged": 21,
+    "prs_opened": 27,
+    "prs_merged": 25,
     "releases": 2,
-    "packagist_downloads": 6809,
+    "packagist_downloads": 7467,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5702,
-    "clones_unique": 335,
-    "views_total": 42,
-    "views_unique": 21,
+    "clones_total": 5942,
+    "clones_unique": 333,
+    "views_total": 39,
+    "views_unique": 18,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 7,
-        "uniques": 5
+        "count": 6,
+        "uniques": 4
       },
       {
         "referrer": "Google",
@@ -79,18 +79,18 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be",
         "title": "Overview",
-        "count": 16,
-        "uniques": 12
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/issues",
-        "title": "/issues",
-        "count": 3,
-        "uniques": 3
+        "count": 15,
+        "uniques": 11
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Classes/Controller/AdminController.php",
         "title": "/blob/main/Classes/Controller/AdminController.php",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/issues",
+        "title": "/issues",
         "count": 2,
         "uniques": 2
       },
@@ -147,7 +147,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 598,
+      "contributions": 610,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -161,21 +161,21 @@
       "url": "https://github.com/apps/dependabot"
     },
     {
+      "login": "renovate[bot]",
+      "contributions": 3,
+      "url": "https://github.com/apps/renovate"
+    },
+    {
       "login": "github-actions[bot]",
       "contributions": 1,
       "url": "https://github.com/apps/github-actions"
-    },
-    {
-      "login": "renovate[bot]",
-      "contributions": 1,
-      "url": "https://github.com/apps/renovate"
     }
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 14784,
-    "monthly": 6809,
-    "daily": 95,
+    "total": 15464,
+    "monthly": 7467,
+    "daily": 591,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,
@@ -184,7 +184,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-passkeys-be/network/dependents"
   },
-  "estimated_downstream_reach": 160,
-  "blast_radius": 160,
+  "estimated_downstream_reach": 164,
+  "blast_radius": 164,
   "archived": false
 }

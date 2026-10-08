@@ -2,7 +2,7 @@
   "name": "t3x-nr-xliff-streaming",
   "full_name": "netresearch/t3x-nr-xliff-streaming",
   "url": "https://github.com/netresearch/t3x-nr-xliff-streaming",
-  "description": "High-performance streaming XLIFF parser for TYPO3 supporting large translation files (10MB+) with constant memory footprint",
+  "description": "XLIFF Streaming Parser for TYPO3 - Reads XLIFF 1.0, 1.2 and 2.0 with XMLReader one translation unit at a time instead of building a SimpleXML tree of the whole document.",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "GPL-2.0",
@@ -19,21 +19,21 @@
   "homepage": "https://docs.typo3.org/p/netresearch/nr-xliff-streaming/main/en-us/",
   "default_branch": "main",
   "created_at": "2025-11-12T23:39:36Z",
-  "pushed_at": "2026-10-01T03:03:31Z",
-  "updated_at": "2026-10-01T01:26:24Z",
+  "pushed_at": "2026-10-07T18:51:06Z",
+  "updated_at": "2026-10-07T18:51:10Z",
   "composer_name": "netresearch/nr-xliff-streaming",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 123,
+    "open_issues_plus_prs": 2,
+    "commits": 138,
     "issues_open": 2,
     "issues_closed": 3,
-    "prs_open": 1,
-    "prs_merged": 37,
-    "prs_closed_unmerged": 10,
+    "prs_open": 0,
+    "prs_merged": 40,
+    "prs_closed_unmerged": 11,
     "issues_total": 5,
     "releases": 0,
     "release_downloads": 0,
@@ -45,18 +45,18 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 52,
+    "commits": 65,
     "issues_opened": 3,
-    "prs_opened": 12,
-    "prs_merged": 11,
+    "prs_opened": 14,
+    "prs_merged": 13,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2127,
-    "clones_unique": 165,
-    "views_total": 19,
+    "clones_total": 1985,
+    "clones_unique": 154,
+    "views_total": 18,
     "views_unique": 11,
     "top_referrers": [
       {
@@ -84,12 +84,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-xliff-streaming/discussions",
-        "title": "/discussions",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-xliff-streaming/actions",
         "title": "/actions",
         "count": 1,
@@ -104,6 +98,12 @@
       {
         "path": "/netresearch/t3x-nr-xliff-streaming/blob/main/ext_conf_template.txt",
         "title": "/blob/main/ext_conf_template.txt",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-xliff-streaming/discussions",
+        "title": "/discussions",
         "count": 1,
         "uniques": 1
       },
@@ -137,7 +137,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 118,
+      "contributions": 133,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -158,7 +158,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-xliff-streaming/network/dependents"
   },
-  "estimated_downstream_reach": 42,
-  "blast_radius": 42,
+  "estimated_downstream_reach": 45,
+  "blast_radius": 45,
   "archived": false
 }

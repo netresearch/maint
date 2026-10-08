@@ -2,7 +2,7 @@
   "name": "t3x-nr-mcp-agent",
   "full_name": "netresearch/t3x-nr-mcp-agent",
   "url": "https://github.com/netresearch/t3x-nr-mcp-agent",
-  "description": "AI chat assistant for the TYPO3 backend \u2014 MCP-powered tool calling on top of nr-llm",
+  "description": "AI Chat for TYPO3 - AI chat assistant for the TYPO3 backend, using nr-llm and an MCP server for tool calling.",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "GPL-2.0",
@@ -21,52 +21,46 @@
   "homepage": "https://netresearch.github.io/t3x-nr-mcp-agent/",
   "default_branch": "main",
   "created_at": "2026-03-22T17:16:16Z",
-  "pushed_at": "2026-10-07T03:44:13Z",
-  "updated_at": "2026-10-07T03:42:57Z",
+  "pushed_at": "2026-10-07T21:58:55Z",
+  "updated_at": "2026-10-07T21:57:57Z",
   "composer_name": "netresearch/nr-mcp-agent",
   "lifetime": {
     "stars": 2,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 5,
-    "commits": 642,
+    "open_issues_plus_prs": 4,
+    "commits": 648,
     "issues_open": 4,
     "issues_closed": 7,
-    "prs_open": 1,
-    "prs_merged": 172,
+    "prs_open": 0,
+    "prs_merged": 175,
     "prs_closed_unmerged": 8,
     "issues_total": 11,
-    "releases": 39,
+    "releases": 40,
     "release_downloads": 10,
     "contributors": 6,
     "external_contributors": 1,
-    "packagist_downloads": 1919,
+    "packagist_downloads": 1951,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 189,
+    "commits": 193,
     "issues_opened": 1,
-    "prs_opened": 40,
-    "prs_merged": 39,
-    "releases": 7,
-    "packagist_downloads": 471,
+    "prs_opened": 41,
+    "prs_merged": 41,
+    "releases": 8,
+    "packagist_downloads": 498,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6649,
-    "clones_unique": 454,
-    "views_total": 4,
+    "clones_total": 6431,
+    "clones_unique": 448,
+    "views_total": 2,
     "views_unique": 2,
-    "top_referrers": [
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
-      }
-    ],
+    "top_referrers": [],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-mcp-agent",
@@ -79,31 +73,19 @@
         "title": "/issues/147",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-mcp-agent/tree/main/Classes",
-        "title": "/tree/main/Classes",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-mcp-agent/tree/main/Classes/Controller",
-        "title": "/tree/main/Classes/Controller",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v0.15.3",
-    "tag_name": "v0.15.3",
-    "published_at": "2026-09-29T22:30:31Z",
-    "url": "https://github.com/netresearch/t3x-nr-mcp-agent/releases/tag/v0.15.3"
+    "name": "v0.15.4",
+    "tag_name": "v0.15.4",
+    "published_at": "2026-10-07T22:00:47Z",
+    "url": "https://github.com/netresearch/t3x-nr-mcp-agent/releases/tag/v0.15.4"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 417,
+      "contributions": 422,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -113,7 +95,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 38,
+      "contributions": 39,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -134,9 +116,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-mcp-agent",
-    "total": 1919,
-    "monthly": 471,
-    "daily": 3,
+    "total": 1951,
+    "monthly": 498,
+    "daily": 27,
     "url": "https://packagist.org/packages/netresearch/nr-mcp-agent"
   },
   "ghcr": null,
@@ -145,7 +127,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-mcp-agent/network/dependents"
   },
-  "estimated_downstream_reach": 186,
-  "blast_radius": 186,
+  "estimated_downstream_reach": 189,
+  "blast_radius": 189,
   "archived": false
 }

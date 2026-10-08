@@ -2,7 +2,7 @@
   "name": "t3x-nr-textdb",
   "full_name": "netresearch/t3x-nr-textdb",
   "url": "https://github.com/netresearch/t3x-nr-textdb",
-  "description": "Database-backed translation system for TYPO3 frontend system strings (form labels, buttons, messages). Edit translations in backend, import/export XLIFF, manage 10+ languages with zero deployment friction.",
+  "description": "TextDB for TYPO3 - Database-backed translations for frontend strings: editors translate in the backend, ViewHelpers create missing entries, XLIFF import and export.",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "GPL-3.0",
@@ -24,8 +24,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-09-29T09:01:16Z",
-  "pushed_at": "2026-10-01T07:48:51Z",
-  "updated_at": "2026-10-01T07:48:54Z",
+  "pushed_at": "2026-10-07T18:45:22Z",
+  "updated_at": "2026-10-07T18:45:25Z",
   "composer_name": "netresearch/nr-textdb",
   "lifetime": {
     "stars": 1,
@@ -33,36 +33,36 @@
     "watchers": 4,
     "network": 0,
     "open_issues_plus_prs": 17,
-    "commits": 724,
+    "commits": 738,
     "issues_open": 16,
     "issues_closed": 30,
     "prs_open": 1,
-    "prs_merged": 94,
+    "prs_merged": 97,
     "prs_closed_unmerged": 27,
     "issues_total": 46,
-    "releases": 20,
-    "release_downloads": 4,
+    "releases": 21,
+    "release_downloads": 6,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 2756,
+    "packagist_downloads": 2791,
     "ghcr_downloads": 0,
-    "dependents_repos": 0,
+    "dependents_repos": 1,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 57,
+    "commits": 71,
     "issues_opened": 1,
-    "prs_opened": 17,
-    "prs_merged": 15,
-    "releases": 2,
-    "packagist_downloads": 558,
+    "prs_opened": 20,
+    "prs_merged": 18,
+    "releases": 3,
+    "packagist_downloads": 587,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5547,
-    "clones_unique": 591,
-    "views_total": 10,
-    "views_unique": 10,
+    "clones_total": 5422,
+    "clones_unique": 583,
+    "views_total": 9,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -90,12 +90,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/blob/HEAD/CONTRIBUTING.md",
-        "title": "/blob/HEAD/CONTRIBUTING.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-textdb/blob/main/CONTRIBUTING.md",
         "title": "/blob/main/CONTRIBUTING.md",
         "count": 1,
@@ -110,15 +104,15 @@
     ]
   },
   "latest_release": {
-    "name": "v4.0.1",
-    "tag_name": "v4.0.1",
-    "published_at": "2026-09-29T21:54:56Z",
-    "url": "https://github.com/netresearch/t3x-nr-textdb/releases/tag/v4.0.1"
+    "name": "v4.0.2",
+    "tag_name": "v4.0.2",
+    "published_at": "2026-10-07T14:33:33Z",
+    "url": "https://github.com/netresearch/t3x-nr-textdb/releases/tag/v4.0.2"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 581,
+      "contributions": 595,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -159,18 +153,18 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 2756,
-    "monthly": 558,
-    "daily": 4,
+    "total": 2791,
+    "monthly": 587,
+    "daily": 31,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,
   "dependents": {
-    "repositories": 0,
+    "repositories": 1,
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-textdb/network/dependents"
   },
-  "estimated_downstream_reach": 146,
-  "blast_radius": 146,
+  "estimated_downstream_reach": 151,
+  "blast_radius": 151,
   "archived": false
 }

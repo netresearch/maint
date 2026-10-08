@@ -2,7 +2,7 @@
   "name": "t3x-nr-saml-auth",
   "full_name": "netresearch/t3x-nr-saml-auth",
   "url": "https://github.com/netresearch/t3x-nr-saml-auth",
-  "description": "Saml SSO Authentication TYPO3 Extension",
+  "description": "SAML Frontend Authentication for TYPO3 - Single sign-on (SSO) for frontend users via SAML.",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "GPL-2.0",
@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-27T11:57:45Z",
-  "pushed_at": "2026-10-06T16:32:19Z",
-  "updated_at": "2026-10-06T16:28:27Z",
+  "pushed_at": "2026-10-07T14:33:51Z",
+  "updated_at": "2026-10-07T14:33:54Z",
   "composer_name": "netresearch/nr-saml-auth",
   "lifetime": {
     "stars": 1,
@@ -21,11 +21,11 @@
     "watchers": 4,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 208,
+    "commits": 211,
     "issues_open": 2,
     "issues_closed": 33,
     "prs_open": 0,
-    "prs_merged": 69,
+    "prs_merged": 70,
     "prs_closed_unmerged": 11,
     "issues_total": 35,
     "releases": 11,
@@ -38,19 +38,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 61,
+    "commits": 64,
     "issues_opened": 2,
-    "prs_opened": 13,
-    "prs_merged": 13,
+    "prs_opened": 14,
+    "prs_merged": 14,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1676,
-    "clones_unique": 141,
-    "views_total": 4,
-    "views_unique": 4,
+    "clones_total": 2179,
+    "clones_unique": 171,
+    "views_total": 6,
+    "views_unique": 5,
     "top_referrers": [],
     "top_paths": [
       {
@@ -58,6 +58,12 @@
         "title": "/issues/37",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-saml-auth",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-saml-auth/blob/main/CONTRIBUTING.md",
@@ -68,6 +74,12 @@
       {
         "path": "/netresearch/t3x-nr-saml-auth/blob/main/ext_conf_template.txt",
         "title": "/blob/main/ext_conf_template.txt",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-saml-auth/releases/tag/10.0.11",
+        "title": "/releases/tag/10.0.11",
         "count": 1,
         "uniques": 1
       }
@@ -82,7 +94,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 147,
+      "contributions": 150,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -119,7 +131,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-saml-auth/network/dependents"
   },
-  "estimated_downstream_reach": 110,
-  "blast_radius": 110,
+  "estimated_downstream_reach": 111,
+  "blast_radius": 111,
   "archived": false
 }

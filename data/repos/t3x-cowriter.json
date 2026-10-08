@@ -2,7 +2,7 @@
   "name": "t3x-cowriter",
   "full_name": "netresearch/t3x-cowriter",
   "url": "https://github.com/netresearch/t3x-cowriter",
-  "description": "TYPO3 extension for AI-powered content creation in CKEditor - by Netresearch",
+  "description": "AI Cowriter for TYPO3 - AI assistant in CKEditor that helps editors write page content.",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "GPL-3.0",
@@ -19,74 +19,63 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-01-14T19:41:07Z",
-  "pushed_at": "2026-10-07T03:42:02Z",
-  "updated_at": "2026-10-06T16:55:06Z",
+  "pushed_at": "2026-10-07T18:47:00Z",
+  "updated_at": "2026-10-07T18:47:04Z",
   "composer_name": "netresearch/t3-cowriter",
   "lifetime": {
     "stars": 10,
     "forks": 1,
     "watchers": 5,
     "network": 1,
-    "open_issues_plus_prs": 5,
-    "commits": 616,
+    "open_issues_plus_prs": 3,
+    "commits": 641,
     "issues_open": 3,
     "issues_closed": 18,
-    "prs_open": 2,
-    "prs_merged": 164,
+    "prs_open": 0,
+    "prs_merged": 170,
     "prs_closed_unmerged": 20,
     "issues_total": 21,
-    "releases": 38,
-    "release_downloads": 62,
+    "releases": 40,
+    "release_downloads": 65,
     "contributors": 13,
     "external_contributors": 9,
-    "packagist_downloads": 13967,
+    "packagist_downloads": 14012,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 99,
+    "commits": 124,
     "issues_opened": 1,
-    "prs_opened": 33,
-    "prs_merged": 32,
-    "releases": 9,
-    "packagist_downloads": 552,
+    "prs_opened": 37,
+    "prs_merged": 38,
+    "releases": 11,
+    "packagist_downloads": 589,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 9066,
-    "clones_unique": 493,
-    "views_total": 33,
-    "views_unique": 17,
+    "clones_total": 8977,
+    "clones_unique": 492,
+    "views_total": 30,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
         "count": 12,
-        "uniques": 10
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
+        "uniques": 9
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-cowriter",
         "title": "Overview",
-        "count": 17,
-        "uniques": 14
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
-        "title": "/blob/main/Documentation/Images/CowriterHero.png",
-        "count": 3,
-        "uniques": 2
+        "count": 16,
+        "uniques": 13
       },
       {
         "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Configuration/Index.rst",
         "title": "/blob/main/Documentation/Configuration/Index.rst",
-        "count": 2,
+        "count": 3,
         "uniques": 2
       },
       {
@@ -96,14 +85,14 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-cowriter/tree/main/Documentation",
-        "title": "/tree/main/Documentation",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/t3x-cowriter/blob/main/CHANGELOG.md",
         "title": "/blob/main/CHANGELOG.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
+        "title": "/blob/main/Documentation/Images/CowriterHero.png",
         "count": 1,
         "uniques": 1
       },
@@ -126,6 +115,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-cowriter/tree/main/Documentation",
+        "title": "/tree/main/Documentation",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-cowriter/tree/main/Documentation/Configuration",
         "title": "/tree/main/Documentation/Configuration",
         "count": 1,
@@ -134,20 +129,20 @@
     ]
   },
   "latest_release": {
-    "name": "v3.10.2",
-    "tag_name": "v3.10.2",
-    "published_at": "2026-09-29T22:38:27Z",
-    "url": "https://github.com/netresearch/t3x-cowriter/releases/tag/v3.10.2"
+    "name": "v3.11.0",
+    "tag_name": "v3.11.0",
+    "published_at": "2026-10-07T18:01:41Z",
+    "url": "https://github.com/netresearch/t3x-cowriter/releases/tag/v3.11.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 451,
+      "contributions": 475,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 61,
+      "contributions": 62,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -193,9 +188,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 13967,
-    "monthly": 552,
-    "daily": 5,
+    "total": 14012,
+    "monthly": 589,
+    "daily": 39,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,
@@ -204,7 +199,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-cowriter/network/dependents"
   },
-  "estimated_downstream_reach": 214,
-  "blast_radius": 214,
+  "estimated_downstream_reach": 220,
+  "blast_radius": 220,
   "archived": false
 }

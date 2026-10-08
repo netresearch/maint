@@ -2,7 +2,7 @@
   "name": "t3x-nr-temporal-cache",
   "full_name": "netresearch/t3x-nr-temporal-cache",
   "url": "https://github.com/netresearch/t3x-nr-temporal-cache",
-  "description": "TYPO3 extension for automatic cache invalidation based on temporal content (starttime/endtime). Solves TYPO3 Forge Issue #14277 with flexible scoping and timing strategies.",
+  "description": "Temporal Cache Management for TYPO3 - Automatic cache invalidation for time-based content (starttime/endtime). The default global scoping expires all page caches on every transition; read the Performance chapter before deployment.",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "GPL-2.0",
@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-30T15:16:56Z",
-  "pushed_at": "2026-10-07T00:18:11Z",
-  "updated_at": "2026-10-07T00:18:14Z",
+  "pushed_at": "2026-10-07T14:39:51Z",
+  "updated_at": "2026-10-07T14:39:55Z",
   "composer_name": "netresearch/nr-temporal-cache",
   "lifetime": {
     "stars": 1,
@@ -21,11 +21,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 329,
+    "commits": 332,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 94,
+    "prs_merged": 95,
     "prs_closed_unmerged": 12,
     "issues_total": 4,
     "releases": 5,
@@ -38,32 +38,55 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 61,
+    "commits": 64,
     "issues_opened": 1,
-    "prs_opened": 15,
-    "prs_merged": 15,
+    "prs_opened": 16,
+    "prs_merged": 16,
     "releases": 2,
     "packagist_downloads": 3,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2971,
-    "clones_unique": 211,
-    "views_total": 22,
-    "views_unique": 18,
+    "clones_total": 3431,
+    "clones_unique": 235,
+    "views_total": 41,
+    "views_unique": 19,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 2,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-temporal-cache",
         "title": "Overview",
-        "count": 5,
-        "uniques": 5
+        "count": 7,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/tree/main/Classes",
+        "title": "/tree/main/Classes",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/tree/main/Configuration",
+        "title": "/tree/main/Configuration",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/CHANGELOG.md",
@@ -78,44 +101,26 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Classes/Controller/Backend/TemporalCacheController.php",
+        "title": "/blob/main/Classes/Controller/Backend/TemporalCacheController.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Classes/Service/HarmonizationService.php",
+        "title": "/blob/main/Classes/Service/HarmonizationService.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Configuration/JavaScriptModules.php",
+        "title": "/blob/main/Configuration/JavaScriptModules.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/DDEV_SETUP.md",
         "title": "/blob/main/DDEV_SETUP.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Documentation/Backend/Index.rst",
-        "title": "/blob/main/Documentation/Backend/Index.rst",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Documentation/CommandLine/Index.rst",
-        "title": "/blob/main/Documentation/CommandLine/Index.rst",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Documentation/Phases/Index.rst",
-        "title": "/blob/main/Documentation/Phases/Index.rst",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/PERFORMANCE_ANALYSIS.md",
-        "title": "/blob/main/PERFORMANCE_ANALYSIS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/TEST_EVIDENCE_REPORT.md",
-        "title": "/blob/main/TEST_EVIDENCE_REPORT.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/TEST_PYRAMID_SUMMARY.md",
-        "title": "/blob/main/TEST_PYRAMID_SUMMARY.md",
         "count": 1,
         "uniques": 1
       }
@@ -130,7 +135,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 288,
+      "contributions": 291,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -157,7 +162,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-temporal-cache/network/dependents"
   },
-  "estimated_downstream_reach": 98,
-  "blast_radius": 98,
+  "estimated_downstream_reach": 99,
+  "blast_radius": 99,
   "archived": false
 }

@@ -2,7 +2,7 @@
   "name": "t3x-contexts_geolocation",
   "full_name": "netresearch/t3x-contexts_geolocation",
   "url": "https://github.com/netresearch/t3x-contexts_geolocation",
-  "description": "Geolocation context types for TYPO3 - by Netresearch",
+  "description": "Contexts: Geolocation for TYPO3 - Geolocation context types (continent, country, distance) for the contexts extension, using MaxMind GeoIP2 for IP-based location detection.",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "AGPL-3.0",
@@ -18,8 +18,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2013-04-26T09:53:17Z",
-  "pushed_at": "2026-10-01T04:59:32Z",
-  "updated_at": "2026-10-01T04:59:35Z",
+  "pushed_at": "2026-10-07T11:40:30Z",
+  "updated_at": "2026-10-07T11:40:33Z",
   "composer_name": "netresearch/contexts-geolocation",
   "lifetime": {
     "stars": 2,
@@ -27,11 +27,11 @@
     "watchers": 10,
     "network": 7,
     "open_issues_plus_prs": 1,
-    "commits": 274,
+    "commits": 289,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 51,
+    "prs_merged": 54,
     "prs_closed_unmerged": 14,
     "issues_total": 4,
     "releases": 5,
@@ -44,17 +44,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 46,
+    "commits": 59,
     "issues_opened": 0,
-    "prs_opened": 16,
-    "prs_merged": 12,
+    "prs_opened": 17,
+    "prs_merged": 14,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1947,
-    "clones_unique": 159,
+    "clones_total": 1723,
+    "clones_unique": 143,
     "views_total": 2,
     "views_unique": 2,
     "top_referrers": [
@@ -88,7 +88,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 179,
+      "contributions": 194,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -144,7 +144,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts_geolocation/network/dependents"
   },
-  "estimated_downstream_reach": 81,
-  "blast_radius": 81,
+  "estimated_downstream_reach": 84,
+  "blast_radius": 84,
   "archived": false
 }

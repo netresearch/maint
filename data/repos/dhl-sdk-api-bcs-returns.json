@@ -38,7 +38,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 247632,
+    "packagist_downloads": 247673,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,14 +49,14 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 1068,
+    "packagist_downloads": 1002,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 14,
     "clones_unique": 10,
-    "views_total": 25,
-    "views_unique": 12,
+    "views_total": 28,
+    "views_unique": 13,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -80,8 +80,14 @@
       {
         "path": "/netresearch/dhl-sdk-api-bcs-returns/issues",
         "title": "/issues",
-        "count": 3,
-        "uniques": 3
+        "count": 5,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs-returns/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/dhl-sdk-api-bcs-returns/issues/16",
@@ -98,12 +104,6 @@
       {
         "path": "/netresearch/dhl-sdk-api-bcs-returns/blob/main/LICENSE.md",
         "title": "/blob/main/LICENSE.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-sdk-api-bcs-returns/blob/main/README.md",
-        "title": "/blob/main/README.md",
         "count": 1,
         "uniques": 1
       },
@@ -167,9 +167,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs-returns",
-    "total": 247632,
-    "monthly": 1068,
-    "daily": 48,
+    "total": 247673,
+    "monthly": 1002,
+    "daily": 36,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs-returns"
   },
   "ghcr": null,

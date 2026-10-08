@@ -2,7 +2,7 @@
   "name": "t3x-sync",
   "full_name": "netresearch/t3x-sync",
   "url": "https://github.com/netresearch/t3x-sync",
-  "description": "A module for synchronizing content from a production system (usually some kind of backend instance) to a single or multiple target systems (usually live or stand-by instances).",
+  "description": "Content Synchronization for TYPO3 - Backend module that synchronizes content from a production system to one or more target systems.",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "GPL-3.0",
@@ -18,8 +18,8 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2020-03-12T14:54:31Z",
-  "pushed_at": "2026-10-06T17:00:11Z",
-  "updated_at": "2026-10-06T17:00:20Z",
+  "pushed_at": "2026-10-07T12:02:31Z",
+  "updated_at": "2026-10-07T12:02:35Z",
   "composer_name": "netresearch/nr-sync",
   "lifetime": {
     "stars": 4,
@@ -27,11 +27,11 @@
     "watchers": 5,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 248,
+    "commits": 250,
     "issues_open": 1,
     "issues_closed": 6,
     "prs_open": 0,
-    "prs_merged": 49,
+    "prs_merged": 50,
     "prs_closed_unmerged": 11,
     "issues_total": 7,
     "releases": 8,
@@ -44,20 +44,25 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 57,
+    "commits": 55,
     "issues_opened": 0,
     "prs_opened": 10,
-    "prs_merged": 11,
+    "prs_merged": 10,
     "releases": 1,
     "packagist_downloads": 1,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1233,
-    "clones_unique": 130,
-    "views_total": 7,
-    "views_unique": 7,
+    "clones_total": 1672,
+    "clones_unique": 168,
+    "views_total": 8,
+    "views_unique": 8,
     "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "referrer": "github.com",
         "count": 1,
@@ -74,6 +79,12 @@
       {
         "path": "/netresearch/t3x-sync/blob/390bf2b1f7ded322247a3340d5fd58e81565e50a/Classes/Controller/FalSyncModuleController.php",
         "title": "/blob/390bf2b1f7ded322247a3340d5fd58e81565e50a/Classes/Controller/FalSyncModuleController.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-sync/blob/master/README.md",
+        "title": "/blob/master/README.md",
         "count": 1,
         "uniques": 1
       },
@@ -112,7 +123,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 122,
+      "contributions": 124,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -164,7 +175,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-sync/network/dependents"
   },
-  "estimated_downstream_reach": 62,
-  "blast_radius": 62,
+  "estimated_downstream_reach": 63,
+  "blast_radius": 63,
   "archived": false
 }

@@ -2,7 +2,7 @@
   "name": "t3x-contexts",
   "full_name": "netresearch/t3x-contexts",
   "url": "https://github.com/netresearch/t3x-contexts",
-  "description": "Contexts for TYPO3 \u2013 can be used to modify page behaviour in the frontend based on several conditions",
+  "description": "Multi-channel Contexts for TYPO3 - Show, hide or change pages and content in the frontend depending on configurable conditions (contexts).",
   "language": "PHP",
   "category": "typo3-extension",
   "license": "AGPL-3.0",
@@ -13,8 +13,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2013-03-11T14:10:52Z",
-  "pushed_at": "2026-09-30T16:56:09Z",
-  "updated_at": "2026-09-30T16:56:14Z",
+  "pushed_at": "2026-10-07T11:40:16Z",
+  "updated_at": "2026-10-07T11:40:20Z",
   "composer_name": "netresearch/contexts",
   "lifetime": {
     "stars": 11,
@@ -22,36 +22,36 @@
     "watchers": 10,
     "network": 11,
     "open_issues_plus_prs": 1,
-    "commits": 585,
+    "commits": 599,
     "issues_open": 1,
     "issues_closed": 23,
     "prs_open": 0,
-    "prs_merged": 142,
+    "prs_merged": 148,
     "prs_closed_unmerged": 37,
     "issues_total": 24,
-    "releases": 9,
+    "releases": 11,
     "release_downloads": 40,
     "contributors": 13,
     "external_contributors": 7,
-    "packagist_downloads": 26690,
+    "packagist_downloads": 27392,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 37,
-    "issues_opened": 1,
-    "prs_opened": 12,
-    "prs_merged": 11,
-    "releases": 0,
-    "packagist_downloads": 3529,
+    "commits": 46,
+    "issues_opened": 0,
+    "prs_opened": 16,
+    "prs_merged": 16,
+    "releases": 2,
+    "packagist_downloads": 4226,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1721,
-    "clones_unique": 186,
-    "views_total": 15,
-    "views_unique": 8,
+    "clones_total": 1499,
+    "clones_unique": 169,
+    "views_total": 14,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -61,12 +61,6 @@
     ],
     "top_paths": [
       {
-        "path": "/netresearch/t3x-contexts/blob/main/CHANGELOG.md",
-        "title": "/blob/main/CHANGELOG.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/t3x-contexts/tree/main/Configuration",
         "title": "/tree/main/Configuration",
         "count": 2,
@@ -75,6 +69,12 @@
       {
         "path": "/netresearch/t3x-contexts",
         "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts/blob/main/CHANGELOG.md",
+        "title": "/blob/main/CHANGELOG.md",
         "count": 1,
         "uniques": 1
       },
@@ -123,15 +123,15 @@
     ]
   },
   "latest_release": {
-    "name": "v5.0.2",
-    "tag_name": "v5.0.2",
-    "published_at": "2026-08-21T22:55:31Z",
-    "url": "https://github.com/netresearch/t3x-contexts/releases/tag/v5.0.2"
+    "name": "v5.0.3",
+    "tag_name": "v5.0.3",
+    "published_at": "2026-10-07T04:49:48Z",
+    "url": "https://github.com/netresearch/t3x-contexts/releases/tag/v5.0.3"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 229,
+      "contributions": 243,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -182,9 +182,9 @@
   ],
   "packagist": {
     "name": "netresearch/contexts",
-    "total": 26690,
-    "monthly": 3529,
-    "daily": 3,
+    "total": 27392,
+    "monthly": 4226,
+    "daily": 600,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,
@@ -193,7 +193,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts/network/dependents"
   },
-  "estimated_downstream_reach": 217,
-  "blast_radius": 217,
+  "estimated_downstream_reach": 223,
+  "blast_radius": 223,
   "archived": false
 }
