@@ -32,14 +32,14 @@
   "composer_name": null,
   "lifetime": {
     "stars": 65,
-    "forks": 7,
+    "forks": 8,
     "watchers": 3,
-    "network": 1705,
-    "open_issues_plus_prs": 9,
+    "network": 1706,
+    "open_issues_plus_prs": 12,
     "commits": 650,
     "issues_open": 9,
     "issues_closed": 189,
-    "prs_open": 0,
+    "prs_open": 3,
     "prs_merged": 203,
     "prs_closed_unmerged": 9,
     "issues_total": 198,
@@ -55,26 +55,26 @@
   "recent_30d": {
     "commits": 26,
     "issues_opened": 1,
-    "prs_opened": 12,
+    "prs_opened": 15,
     "prs_merged": 11,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1077,
-    "clones_unique": 309,
-    "views_total": 234,
-    "views_unique": 84,
+    "clones_total": 1053,
+    "clones_unique": 305,
+    "views_total": 232,
+    "views_unique": 86,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 42,
-        "uniques": 26
+        "count": 44,
+        "uniques": 28
       },
       {
         "referrer": "github.com",
-        "count": 9,
+        "count": 8,
         "uniques": 7
       },
       {
@@ -83,13 +83,13 @@
         "uniques": 3
       },
       {
-        "referrer": "chatgpt.com",
+        "referrer": "support.sailpoint.com",
         "count": 3,
-        "uniques": 2
+        "uniques": 3
       },
       {
-        "referrer": "support.sailpoint.com",
-        "count": 2,
+        "referrer": "chatgpt.com",
+        "count": 3,
         "uniques": 2
       },
       {
@@ -107,7 +107,7 @@
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 75,
+        "count": 69,
         "uniques": 43
       },
       {
@@ -129,6 +129,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/go-cron/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 6,
+        "uniques": 4
+      },
+      {
         "path": "/netresearch/go-cron/blob/main/docs/MIGRATION.md",
         "title": "/blob/main/docs/MIGRATION.md",
         "count": 5,
@@ -139,12 +145,6 @@
         "title": "/blob/main/docs/PERSISTENCE_GUIDE.md",
         "count": 5,
         "uniques": 4
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 5,
-        "uniques": 3
       },
       {
         "path": "/netresearch/go-cron/issues",
@@ -231,7 +231,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/go-cron/network/dependents"
   },
-  "estimated_downstream_reach": 508,
-  "blast_radius": 508,
+  "estimated_downstream_reach": 510,
+  "blast_radius": 510,
   "archived": false
 }

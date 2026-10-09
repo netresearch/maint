@@ -20,10 +20,10 @@
   "default_branch": "main",
   "created_at": "2026-06-22T22:47:47Z",
   "pushed_at": "2026-09-30T22:17:16Z",
-  "updated_at": "2026-10-07T02:32:37Z",
+  "updated_at": "2026-10-09T03:30:30Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 15,
+    "stars": 16,
     "forks": 0,
     "watchers": 1,
     "network": 0,
@@ -36,7 +36,7 @@
     "prs_closed_unmerged": 0,
     "issues_total": 3,
     "releases": 8,
-    "release_downloads": 17,
+    "release_downloads": 18,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -45,24 +45,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 32,
+    "commits": 29,
     "issues_opened": 1,
-    "prs_opened": 9,
-    "prs_merged": 10,
+    "prs_opened": 8,
+    "prs_merged": 8,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 750,
-    "clones_unique": 181,
-    "views_total": 155,
-    "views_unique": 48,
+    "clones_total": 654,
+    "clones_unique": 164,
+    "views_total": 161,
+    "views_unique": 44,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 22,
-        "uniques": 21
+        "count": 21,
+        "uniques": 20
       },
       {
         "referrer": "search.brave.com",
@@ -70,12 +70,12 @@
         "uniques": 1
       },
       {
-        "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
+        "referrer": "slavakurilyak.com",
+        "count": 3,
+        "uniques": 3
       },
       {
-        "referrer": "slavakurilyak.com",
+        "referrer": "github.com",
         "count": 2,
         "uniques": 2
       }
@@ -84,19 +84,25 @@
       {
         "path": "/netresearch/jujutsu-workflow-skill",
         "title": "Overview",
-        "count": 49,
-        "uniques": 36
-      },
-      {
-        "path": "/netresearch/jujutsu-workflow-skill/discussions",
-        "title": "/discussions",
-        "count": 14,
-        "uniques": 1
+        "count": 42,
+        "uniques": 31
       },
       {
         "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow",
         "title": "/tree/main/skills/jujutsu-workflow",
+        "count": 14,
+        "uniques": 11
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/discussions",
+        "title": "/discussions",
         "count": 13,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/SKILL.md",
+        "title": "/blob/main/skills/jujutsu-workflow/SKILL.md",
+        "count": 11,
         "uniques": 10
       },
       {
@@ -106,40 +112,34 @@
         "uniques": 7
       },
       {
-        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/SKILL.md",
-        "title": "/blob/main/skills/jujutsu-workflow/SKILL.md",
-        "count": 10,
-        "uniques": 9
-      },
-      {
         "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow/references",
         "title": "/tree/main/skills/jujutsu-workflow/references",
-        "count": 4,
-        "uniques": 4
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/jujutsu-workflow-skill/tree/main",
         "title": "/tree/main",
-        "count": 4,
-        "uniques": 3
+        "count": 5,
+        "uniques": 4
       },
       {
         "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/parallel-agents.md",
         "title": "/blob/main/skills/jujutsu-workflow/references/parallel-agents.md",
-        "count": 3,
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow/scripts",
+        "title": "/tree/main/skills/jujutsu-workflow/scripts",
+        "count": 4,
         "uniques": 3
       },
       {
-        "path": "/netresearch/jujutsu-workflow-skill/issues",
-        "title": "/issues",
+        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/agent-safety.md",
+        "title": "/blob/main/skills/jujutsu-workflow/references/agent-safety.md",
         "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/jujutsu-workflow-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 2,
-        "uniques": 2
+        "uniques": 3
       }
     ]
   },

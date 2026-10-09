@@ -32,7 +32,7 @@
     "release_downloads": 274,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 120697,
+    "packagist_downloads": 123776,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -40,17 +40,17 @@
   "recent_30d": {
     "commits": 251,
     "issues_opened": 2,
-    "prs_opened": 63,
-    "prs_merged": 57,
+    "prs_opened": 62,
+    "prs_merged": 56,
     "releases": 3,
-    "packagist_downloads": 30505,
+    "packagist_downloads": 33316,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 8842,
-    "clones_unique": 460,
-    "views_total": 48,
-    "views_unique": 22,
+    "clones_total": 8029,
+    "clones_unique": 438,
+    "views_total": 41,
+    "views_unique": 18,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -61,24 +61,14 @@
         "referrer": "Google",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "referrer": "com.linkedin.android",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "linkedin.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-vault",
         "title": "Overview",
-        "count": 15,
-        "uniques": 11
+        "count": 12,
+        "uniques": 8
       },
       {
         "path": "/netresearch/t3x-nr-vault/commits/main",
@@ -93,8 +83,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-vault/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
+        "path": "/netresearch/t3x-nr-vault/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
         "count": 2,
         "uniques": 2
       },
@@ -117,6 +107,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-vault/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-vault/blob/main/GEMINI.md",
         "title": "/blob/main/GEMINI.md",
         "count": 1,
@@ -125,12 +121,6 @@
       {
         "path": "/netresearch/t3x-nr-vault/blob/main/codecov.yml",
         "title": "/blob/main/codecov.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-vault/blob/main/docs/architecture.md",
-        "title": "/blob/main/docs/architecture.md",
         "count": 1,
         "uniques": 1
       }
@@ -171,9 +161,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-vault",
-    "total": 120697,
-    "monthly": 30505,
-    "daily": 2503,
+    "total": 123776,
+    "monthly": 33316,
+    "daily": 2887,
     "url": "https://packagist.org/packages/netresearch/nr-vault"
   },
   "ghcr": null,

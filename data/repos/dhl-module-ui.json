@@ -45,11 +45,16 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 9,
-    "clones_unique": 6,
-    "views_total": 1,
-    "views_unique": 1,
+    "clones_total": 11,
+    "clones_unique": 7,
+    "views_total": 3,
+    "views_unique": 2,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "referrer": "github.com",
         "count": 1,
@@ -60,6 +65,12 @@
       {
         "path": "/netresearch/dhl-module-ui",
         "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-module-ui/releases",
+        "title": "/releases",
         "count": 1,
         "uniques": 1
       }

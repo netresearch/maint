@@ -47,18 +47,18 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3431,
-    "clones_unique": 235,
-    "views_total": 41,
-    "views_unique": 19,
+    "clones_total": 3098,
+    "clones_unique": 222,
+    "views_total": 36,
+    "views_unique": 15,
     "top_referrers": [
       {
-        "referrer": "Google",
+        "referrer": "extensions.typo3.org",
         "count": 3,
-        "uniques": 3
+        "uniques": 2
       },
       {
-        "referrer": "extensions.typo3.org",
+        "referrer": "Google",
         "count": 2,
         "uniques": 2
       }
@@ -67,13 +67,19 @@
       {
         "path": "/netresearch/t3x-nr-temporal-cache",
         "title": "Overview",
-        "count": 7,
-        "uniques": 7
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/t3x-nr-temporal-cache/tree/main/Classes",
         "title": "/tree/main/Classes",
         "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Classes/Service/HarmonizationService.php",
+        "title": "/blob/main/Classes/Service/HarmonizationService.php",
+        "count": 2,
         "uniques": 1
       },
       {
@@ -103,12 +109,6 @@
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Classes/Controller/Backend/TemporalCacheController.php",
         "title": "/blob/main/Classes/Controller/Backend/TemporalCacheController.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Classes/Service/HarmonizationService.php",
-        "title": "/blob/main/Classes/Service/HarmonizationService.php",
         "count": 1,
         "uniques": 1
       },
@@ -153,7 +153,7 @@
     "name": "netresearch/nr-temporal-cache",
     "total": 6,
     "monthly": 3,
-    "daily": 1,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-temporal-cache"
   },
   "ghcr": null,

@@ -30,10 +30,10 @@
     "prs_closed_unmerged": 37,
     "issues_total": 24,
     "releases": 11,
-    "release_downloads": 40,
+    "release_downloads": 41,
     "contributors": 13,
     "external_contributors": 7,
-    "packagist_downloads": 27392,
+    "packagist_downloads": 27436,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
@@ -41,15 +41,15 @@
   "recent_30d": {
     "commits": 46,
     "issues_opened": 0,
-    "prs_opened": 16,
-    "prs_merged": 16,
+    "prs_opened": 15,
+    "prs_merged": 15,
     "releases": 2,
-    "packagist_downloads": 4226,
+    "packagist_downloads": 4107,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1499,
-    "clones_unique": 169,
+    "clones_total": 2358,
+    "clones_unique": 215,
     "views_total": 14,
     "views_unique": 7,
     "top_referrers": [
@@ -60,6 +60,12 @@
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-contexts/releases",
+        "title": "/releases",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/t3x-contexts/tree/main/Configuration",
         "title": "/tree/main/Configuration",
@@ -111,12 +117,6 @@
       {
         "path": "/netresearch/t3x-contexts/issues/193",
         "title": "/issues/193",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-contexts/pull/201",
-        "title": "/pull/201",
         "count": 1,
         "uniques": 1
       }
@@ -182,9 +182,9 @@
   ],
   "packagist": {
     "name": "netresearch/contexts",
-    "total": 27392,
-    "monthly": 4226,
-    "daily": 600,
+    "total": 27436,
+    "monthly": 4107,
+    "daily": 38,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,

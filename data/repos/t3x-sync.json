@@ -18,8 +18,8 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2020-03-12T14:54:31Z",
-  "pushed_at": "2026-10-07T12:02:31Z",
-  "updated_at": "2026-10-07T12:02:35Z",
+  "pushed_at": "2026-10-08T05:32:23Z",
+  "updated_at": "2026-10-08T05:32:26Z",
   "composer_name": "netresearch/nr-sync",
   "lifetime": {
     "stars": 4,
@@ -27,11 +27,11 @@
     "watchers": 5,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 250,
+    "commits": 253,
     "issues_open": 1,
     "issues_closed": 6,
     "prs_open": 0,
-    "prs_merged": 50,
+    "prs_merged": 51,
     "prs_closed_unmerged": 11,
     "issues_total": 7,
     "releases": 8,
@@ -44,24 +44,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 55,
+    "commits": 58,
     "issues_opened": 0,
-    "prs_opened": 10,
-    "prs_merged": 10,
+    "prs_opened": 11,
+    "prs_merged": 11,
     "releases": 1,
     "packagist_downloads": 1,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1672,
-    "clones_unique": 168,
+    "clones_total": 1637,
+    "clones_unique": 173,
     "views_total": 8,
     "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "github.com",
@@ -71,6 +71,12 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/t3x-sync/blob/master/README.md",
+        "title": "/blob/master/README.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-sync/commit/2b426aad321e36e5638d650e9fe0c961f1d8636e",
         "title": "/commit/2b426aad321e36e5638d650e9fe0c961f1d8636e",
         "count": 2,
@@ -79,18 +85,6 @@
       {
         "path": "/netresearch/t3x-sync/blob/390bf2b1f7ded322247a3340d5fd58e81565e50a/Classes/Controller/FalSyncModuleController.php",
         "title": "/blob/390bf2b1f7ded322247a3340d5fd58e81565e50a/Classes/Controller/FalSyncModuleController.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-sync/blob/master/README.md",
-        "title": "/blob/master/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-sync/blob/master/ext_conf_template.txt",
-        "title": "/blob/master/ext_conf_template.txt",
         "count": 1,
         "uniques": 1
       },
@@ -123,7 +117,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 124,
+      "contributions": 127,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -166,7 +160,7 @@
     "name": "netresearch/nr-sync",
     "total": 31,
     "monthly": 1,
-    "daily": 1,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-sync"
   },
   "ghcr": null,
@@ -175,7 +169,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-sync/network/dependents"
   },
-  "estimated_downstream_reach": 63,
-  "blast_radius": 63,
+  "estimated_downstream_reach": 64,
+  "blast_radius": 64,
   "archived": false
 }

@@ -38,7 +38,7 @@
     "release_downloads": 3,
     "contributors": 5,
     "external_contributors": 1,
-    "packagist_downloads": 3546,
+    "packagist_downloads": 3590,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,16 +49,28 @@
     "prs_opened": 12,
     "prs_merged": 12,
     "releases": 2,
-    "packagist_downloads": 548,
+    "packagist_downloads": 583,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1585,
-    "clones_unique": 137,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 1657,
+    "clones_unique": 161,
+    "views_total": 2,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap/blob/main/README.rst",
+        "title": "/blob/main/README.rst",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/t3x-nr-image-sitemap/releases/tag/12.0.2",
         "title": "/releases/tag/12.0.2",
@@ -102,9 +114,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-sitemap",
-    "total": 3546,
-    "monthly": 548,
-    "daily": 35,
+    "total": 3590,
+    "monthly": 583,
+    "daily": 38,
     "url": "https://packagist.org/packages/netresearch/nr-image-sitemap"
   },
   "ghcr": null,

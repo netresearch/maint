@@ -20,24 +20,24 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-07T10:15:13Z",
-  "pushed_at": "2026-10-07T23:16:58Z",
-  "updated_at": "2026-10-07T23:17:00Z",
+  "pushed_at": "2026-10-08T16:30:30Z",
+  "updated_at": "2026-10-08T16:30:17Z",
   "composer_name": null,
   "lifetime": {
     "stars": 87,
     "forks": 25,
     "watchers": 1,
     "network": 25,
-    "open_issues_plus_prs": 3,
-    "commits": 894,
+    "open_issues_plus_prs": 2,
+    "commits": 926,
     "issues_open": 2,
     "issues_closed": 33,
-    "prs_open": 1,
-    "prs_merged": 237,
+    "prs_open": 0,
+    "prs_merged": 242,
     "prs_closed_unmerged": 8,
     "issues_total": 35,
-    "releases": 75,
-    "release_downloads": 681,
+    "releases": 76,
+    "release_downloads": 686,
     "contributors": 20,
     "external_contributors": 12,
     "packagist_downloads": 0,
@@ -46,53 +46,53 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 197,
+    "commits": 227,
     "issues_opened": 4,
-    "prs_opened": 55,
-    "prs_merged": 56,
-    "releases": 10,
+    "prs_opened": 59,
+    "prs_merged": 60,
+    "releases": 11,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5026,
-    "clones_unique": 667,
-    "views_total": 906,
-    "views_unique": 308,
+    "clones_total": 5196,
+    "clones_unique": 703,
+    "views_total": 878,
+    "views_unique": 305,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 167,
-        "uniques": 141
+        "count": 175,
+        "uniques": 150
       },
       {
         "referrer": "Bing",
-        "count": 34,
-        "uniques": 25
+        "count": 32,
+        "uniques": 23
       },
       {
         "referrer": "github.com",
-        "count": 29,
-        "uniques": 18
+        "count": 27,
+        "uniques": 16
       },
       {
         "referrer": "Yahoo",
-        "count": 6,
+        "count": 5,
         "uniques": 1
       },
       {
         "referrer": "DuckDuckGo",
-        "count": 5,
-        "uniques": 4
-      },
-      {
-        "referrer": "packagist.org",
         "count": 4,
-        "uniques": 2
+        "uniques": 3
       },
       {
         "referrer": "search.brave.com",
         "count": 4,
+        "uniques": 2
+      },
+      {
+        "referrer": "packagist.org",
+        "count": 3,
         "uniques": 2
       },
       {
@@ -115,8 +115,8 @@
       {
         "path": "/netresearch/jira-skill",
         "title": "Overview",
-        "count": 301,
-        "uniques": 237
+        "count": 307,
+        "uniques": 244
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills",
@@ -127,14 +127,14 @@
       {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-communication/SKILL.md",
         "title": "/blob/main/skills/jira-communication/SKILL.md",
-        "count": 52,
-        "uniques": 39
+        "count": 41,
+        "uniques": 34
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills/jira-communication",
         "title": "/tree/main/skills/jira-communication",
-        "count": 44,
-        "uniques": 32
+        "count": 41,
+        "uniques": 30
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills/jira-syntax",
@@ -145,26 +145,26 @@
       {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-syntax/SKILL.md",
         "title": "/blob/main/skills/jira-syntax/SKILL.md",
-        "count": 27,
-        "uniques": 16
+        "count": 29,
+        "uniques": 18
       },
       {
         "path": "/netresearch/jira-skill/tree/main",
         "title": "/tree/main",
-        "count": 22,
+        "count": 21,
         "uniques": 8
       },
       {
         "path": "/netresearch/jira-skill/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 21,
-        "uniques": 10
+        "count": 20,
+        "uniques": 9
       },
       {
         "path": "/netresearch/jira-skill/blob/main/scripts/detect_jira_issues.py",
         "title": "/blob/main/scripts/detect_jira_issues.py",
         "count": 16,
-        "uniques": 4
+        "uniques": 5
       },
       {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-syntax/CLAUDE.md",
@@ -175,15 +175,15 @@
     ]
   },
   "latest_release": {
-    "name": "v3.33.0",
-    "tag_name": "v3.33.0",
-    "published_at": "2026-10-07T07:14:21Z",
-    "url": "https://github.com/netresearch/jira-skill/releases/tag/v3.33.0"
+    "name": "v3.34.0",
+    "tag_name": "v3.34.0",
+    "published_at": "2026-10-08T16:31:04Z",
+    "url": "https://github.com/netresearch/jira-skill/releases/tag/v3.34.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 591,
+      "contributions": 614,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -202,19 +202,24 @@
       "url": "https://github.com/apps/github-actions"
     },
     {
+      "login": "just-tobi",
+      "contributions": 21,
+      "url": "https://github.com/just-tobi"
+    },
+    {
       "login": "magicsunday",
       "contributions": 17,
       "url": "https://github.com/magicsunday"
     },
     {
-      "login": "just-tobi",
-      "contributions": 16,
-      "url": "https://github.com/just-tobi"
-    },
-    {
       "login": "netresearch-project-bot[bot]",
       "contributions": 8,
       "url": "https://github.com/apps/netresearch-project-bot"
+    },
+    {
+      "login": "aseemann",
+      "contributions": 7,
+      "url": "https://github.com/aseemann"
     },
     {
       "login": "claude",
@@ -225,11 +230,6 @@
       "login": "tripleawwy",
       "contributions": 6,
       "url": "https://github.com/tripleawwy"
-    },
-    {
-      "login": "aseemann",
-      "contributions": 3,
-      "url": "https://github.com/aseemann"
     }
   ],
   "packagist": null,
@@ -239,7 +239,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jira-skill/network/dependents"
   },
-  "estimated_downstream_reach": 358,
-  "blast_radius": 358,
+  "estimated_downstream_reach": 363,
+  "blast_radius": 363,
   "archived": false
 }
