@@ -30,7 +30,7 @@
     "prs_closed_unmerged": 4,
     "issues_total": 0,
     "releases": 10,
-    "release_downloads": 834,
+    "release_downloads": 864,
     "contributors": 22,
     "external_contributors": 19,
     "packagist_downloads": 0,
@@ -48,28 +48,28 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 36,
-    "clones_unique": 20,
-    "views_total": 23,
-    "views_unique": 10,
+    "clones_total": 33,
+    "clones_unique": 17,
+    "views_total": 19,
+    "views_unique": 7,
     "top_referrers": [
+      {
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "count": 3,
+        "uniques": 3
+      },
       {
         "referrer": "github.com",
         "count": 3,
         "uniques": 1
-      },
-      {
-        "referrer": "teams.public.onecdn.static.microsoft",
-        "count": 2,
-        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/terraform-provider-ad",
         "title": "Overview",
-        "count": 8,
-        "uniques": 6
+        "count": 9,
+        "uniques": 7
       },
       {
         "path": "/netresearch/terraform-provider-ad/commit/57a22eeb8eea3c5bc93c82cb990b50e3b034ccd2",
@@ -90,24 +90,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/terraform-provider-ad/pull/33",
-        "title": "/pull/33",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/terraform-provider-ad/pull/35",
-        "title": "/pull/35",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/terraform-provider-ad/pull/38",
-        "title": "/pull/38",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/terraform-provider-ad/pull/39/checks",
         "title": "/pull/39/checks",
         "count": 1,
@@ -120,8 +102,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/terraform-provider-ad/pull/40",
-        "title": "/pull/40",
+        "path": "/netresearch/terraform-provider-ad/releases",
+        "title": "/releases",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/security",
+        "title": "/security",
         "count": 1,
         "uniques": 1
       }

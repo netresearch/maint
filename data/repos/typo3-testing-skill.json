@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T08:31:58Z",
-  "pushed_at": "2026-10-08T14:45:31Z",
-  "updated_at": "2026-10-08T14:45:33Z",
+  "pushed_at": "2026-10-10T01:43:04Z",
+  "updated_at": "2026-10-10T01:43:06Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
@@ -30,15 +30,15 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 687,
+    "commits": 689,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 208,
+    "prs_merged": 209,
     "prs_closed_unmerged": 6,
     "issues_total": 4,
     "releases": 68,
-    "release_downloads": 208,
+    "release_downloads": 209,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -47,18 +47,18 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 217,
-    "issues_opened": 1,
-    "prs_opened": 70,
-    "prs_merged": 71,
+    "commits": 207,
+    "issues_opened": 0,
+    "prs_opened": 67,
+    "prs_merged": 67,
     "releases": 11,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7691,
-    "clones_unique": 444,
-    "views_total": 55,
+    "clones_total": 8289,
+    "clones_unique": 457,
+    "views_total": 53,
     "views_unique": 20,
     "top_referrers": [
       {
@@ -68,8 +68,13 @@
       },
       {
         "referrer": "github.com",
-        "count": 5,
-        "uniques": 3
+        "count": 6,
+        "uniques": 4
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
@@ -80,19 +85,14 @@
         "referrer": "chatgpt.com",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-testing-skill",
         "title": "Overview",
-        "count": 18,
-        "uniques": 15
+        "count": 20,
+        "uniques": 17
       },
       {
         "path": "/netresearch/typo3-testing-skill/pull/197",
@@ -107,16 +107,16 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/typo3-testing-skill/pulls",
-        "title": "/pulls",
-        "count": 3,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/typo3-testing-skill/issues",
         "title": "/issues",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/pulls",
+        "title": "/pulls",
+        "count": 2,
+        "uniques": 1
       },
       {
         "path": "/netresearch/typo3-testing-skill/actions/runs/36571335601",
@@ -137,14 +137,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-testing-skill/pull/147",
-        "title": "/pull/147",
+        "path": "/netresearch/typo3-testing-skill/pull/197/checks",
+        "title": "/pull/197/checks",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-testing-skill/pull/163",
-        "title": "/pull/163",
+        "path": "/netresearch/typo3-testing-skill/pull/197/commits/105cb03626e2439c69adebb10d1c8bdb4ad34921",
+        "title": "/pull/197/commits/105cb03626e2439c69adebb10d1c8bdb4ad34921",
         "count": 1,
         "uniques": 1
       }
@@ -164,7 +164,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 28,
+      "contributions": 29,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -174,7 +174,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 8,
+      "contributions": 9,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -195,7 +195,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
   },
-  "estimated_downstream_reach": 217,
-  "blast_radius": 217,
+  "estimated_downstream_reach": 218,
+  "blast_radius": 218,
   "archived": false
 }

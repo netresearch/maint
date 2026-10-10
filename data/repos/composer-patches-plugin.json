@@ -34,7 +34,7 @@
     "release_downloads": 0,
     "contributors": 16,
     "external_contributors": 12,
-    "packagist_downloads": 279111,
+    "packagist_downloads": 279223,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -45,19 +45,19 @@
     "prs_opened": 3,
     "prs_merged": 3,
     "releases": 1,
-    "packagist_downloads": 3454,
+    "packagist_downloads": 3405,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 45,
-    "clones_unique": 25,
-    "views_total": 19,
-    "views_unique": 16,
+    "clones_total": 279,
+    "clones_unique": 68,
+    "views_total": 22,
+    "views_unique": 18,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "github.com",
@@ -75,13 +75,13 @@
         "path": "/netresearch/composer-patches-plugin",
         "title": "Overview",
         "count": 9,
-        "uniques": 6
+        "uniques": 7
       },
       {
         "path": "/netresearch/composer-patches-plugin/pulls",
         "title": "/pulls",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/composer-patches-plugin/blob/master/copilot-instructions.md",
@@ -108,8 +108,20 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/composer-patches-plugin/compare/1.3.3...1.3.4",
+        "title": "/compare/1.3.3...1.3.4",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/composer-patches-plugin/pulse",
         "title": "/pulse",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-patches-plugin/releases/tag/1.3.4",
+        "title": "/releases/tag/1.3.4",
         "count": 1,
         "uniques": 1
       }
@@ -175,9 +187,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-patches-plugin",
-    "total": 279111,
-    "monthly": 3454,
-    "daily": 134,
+    "total": 279223,
+    "monthly": 3405,
+    "daily": 97,
     "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
   },
   "ghcr": null,

@@ -13,8 +13,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2013-03-11T14:10:52Z",
-  "pushed_at": "2026-10-07T11:40:16Z",
-  "updated_at": "2026-10-07T11:40:20Z",
+  "pushed_at": "2026-10-09T23:34:21Z",
+  "updated_at": "2026-10-09T23:34:24Z",
   "composer_name": "netresearch/contexts",
   "lifetime": {
     "stars": 11,
@@ -22,18 +22,18 @@
     "watchers": 10,
     "network": 11,
     "open_issues_plus_prs": 1,
-    "commits": 599,
+    "commits": 601,
     "issues_open": 1,
     "issues_closed": 23,
     "prs_open": 0,
-    "prs_merged": 148,
+    "prs_merged": 149,
     "prs_closed_unmerged": 37,
     "issues_total": 24,
     "releases": 11,
     "release_downloads": 41,
-    "contributors": 13,
+    "contributors": 14,
     "external_contributors": 7,
-    "packagist_downloads": 27436,
+    "packagist_downloads": 27538,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
@@ -41,42 +41,24 @@
   "recent_30d": {
     "commits": 46,
     "issues_opened": 0,
-    "prs_opened": 15,
-    "prs_merged": 15,
+    "prs_opened": 16,
+    "prs_merged": 16,
     "releases": 2,
-    "packagist_downloads": 4107,
+    "packagist_downloads": 3885,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2358,
-    "clones_unique": 215,
-    "views_total": 14,
-    "views_unique": 7,
-    "top_referrers": [
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
-      }
-    ],
+    "clones_total": 2400,
+    "clones_unique": 219,
+    "views_total": 5,
+    "views_unique": 5,
+    "top_referrers": [],
     "top_paths": [
       {
         "path": "/netresearch/t3x-contexts/releases",
         "title": "/releases",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-contexts/tree/main/Configuration",
-        "title": "/tree/main/Configuration",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-contexts",
-        "title": "Overview",
-        "count": 1,
-        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-contexts/blob/main/CHANGELOG.md",
@@ -91,32 +73,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-contexts/blob/main/Configuration/AGENTS.md",
-        "title": "/blob/main/Configuration/AGENTS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-contexts/blob/main/Configuration/CLAUDE.md",
-        "title": "/blob/main/Configuration/CLAUDE.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-contexts/blob/main/Configuration/Sets/Contexts/settings.definitions.yaml",
-        "title": "/blob/main/Configuration/Sets/Contexts/settings.definitions.yaml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-contexts/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-contexts/issues/193",
-        "title": "/issues/193",
         "count": 1,
         "uniques": 1
       }
@@ -136,7 +94,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 70,
+      "contributions": 71,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -182,9 +140,9 @@
   ],
   "packagist": {
     "name": "netresearch/contexts",
-    "total": 27436,
-    "monthly": 4107,
-    "daily": 38,
+    "total": 27538,
+    "monthly": 3885,
+    "daily": 92,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,
@@ -193,7 +151,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts/network/dependents"
   },
-  "estimated_downstream_reach": 223,
-  "blast_radius": 223,
+  "estimated_downstream_reach": 224,
+  "blast_radius": 224,
   "archived": false
 }

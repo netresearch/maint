@@ -18,8 +18,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2013-04-26T09:53:17Z",
-  "pushed_at": "2026-10-07T11:40:30Z",
-  "updated_at": "2026-10-07T11:40:33Z",
+  "pushed_at": "2026-10-09T10:07:18Z",
+  "updated_at": "2026-10-09T10:07:22Z",
   "composer_name": "netresearch/contexts-geolocation",
   "lifetime": {
     "stars": 2,
@@ -27,11 +27,11 @@
     "watchers": 10,
     "network": 7,
     "open_issues_plus_prs": 1,
-    "commits": 289,
+    "commits": 291,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 54,
+    "prs_merged": 55,
     "prs_closed_unmerged": 14,
     "issues_total": 4,
     "releases": 5,
@@ -44,17 +44,17 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 59,
+    "commits": 61,
     "issues_opened": 0,
-    "prs_opened": 17,
-    "prs_merged": 14,
+    "prs_opened": 14,
+    "prs_merged": 15,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1744,
-    "clones_unique": 157,
+    "clones_total": 1752,
+    "clones_unique": 154,
     "views_total": 2,
     "views_unique": 2,
     "top_referrers": [
@@ -102,14 +102,14 @@
       "url": "https://github.com/apps/dependabot"
     },
     {
+      "login": "renovate[bot]",
+      "contributions": 4,
+      "url": "https://github.com/apps/renovate"
+    },
+    {
       "login": "github-actions[bot]",
       "contributions": 3,
       "url": "https://github.com/apps/github-actions"
-    },
-    {
-      "login": "renovate[bot]",
-      "contributions": 3,
-      "url": "https://github.com/apps/renovate"
     },
     {
       "login": "Grony",
@@ -122,6 +122,11 @@
       "url": "https://github.com/apps/copilot-swe-agent"
     },
     {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 2,
+      "url": "https://github.com/apps/netresearch-project-bot"
+    },
+    {
       "login": "Gitsko",
       "contributions": 1,
       "url": "https://github.com/Gitsko"
@@ -130,11 +135,6 @@
       "login": "mbrodala",
       "contributions": 1,
       "url": "https://github.com/mbrodala"
-    },
-    {
-      "login": "just-tobi",
-      "contributions": 1,
-      "url": "https://github.com/just-tobi"
     }
   ],
   "packagist": null,
@@ -144,7 +144,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts_geolocation/network/dependents"
   },
-  "estimated_downstream_reach": 84,
-  "blast_radius": 84,
+  "estimated_downstream_reach": 85,
+  "blast_radius": 85,
   "archived": false
 }
