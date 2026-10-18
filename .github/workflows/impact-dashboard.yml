@@ -4,18 +4,47 @@ on:
   schedule:
     - cron: '0 3 * * *'  # Daily at 03:00 UTC
   workflow_dispatch:
+  # A dependency bump to this file (Python, an action) is otherwise first
+  # exercised by the nightly run after it merged. The tests workflow does not
+  # install these packages, so it cannot catch a version without wheels.
+  pull_request:
+    paths:
+      - .github/workflows/impact-dashboard.yml
 
 permissions:
-  contents: write   # Required to push to gh-pages
-  packages: read    # For GHCR container package enumeration (best effort)
+  contents: read
 
-concurrency:
-  group: impact-dashboard
-  cancel-in-progress: false
+env:
+  # Pinned and binary-only: an unpinned install resolves to whatever was
+  # published this morning, and a source distribution runs its own setup
+  # script during installation.
+  DASHBOARD_DEPS: requests==2.34.2 PyYAML==6.0.3 Jinja2==3.1.6
 
 jobs:
-  build:
+  install-check:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
+    steps:
+      # Keep python-version identical to the build job below.
+      - name: Setup Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: '3.14'
+
+      - name: Install dependencies
+        run: |
+          # shellcheck disable=SC2086  # one argument per package is intended
+          pip install --only-binary :all: $DASHBOARD_DEPS
+
+  build:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # Required to push to gh-pages
+      packages: read    # For GHCR container package enumeration (best effort)
+    concurrency:
+      group: impact-dashboard
+      cancel-in-progress: false
     steps:
       - name: Checkout main
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
@@ -46,18 +75,17 @@ jobs:
             cp -r "$dir" "$target"
           done
 
+      # 3.14, not 3.15: PyYAML 6.0.3 publishes no cp315 wheel, and the
+      # binary-only install refuses its source distribution.
       - name: Setup Python
         uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
         with:
-          python-version: '3.15'
+          python-version: '3.14'
 
       - name: Install dependencies
-        # Pinned and binary-only: an unpinned install resolves to whatever was
-        # published this morning, and a source distribution runs its own setup
-        # script during installation.
-        run: >-
-          pip install --only-binary :all:
-          requests==2.34.2 PyYAML==6.0.3 Jinja2==3.1.6
+        run: |
+          # shellcheck disable=SC2086  # one argument per package is intended
+          pip install --only-binary :all: $DASHBOARD_DEPS
 
       - name: Collect impact metrics
         env:
