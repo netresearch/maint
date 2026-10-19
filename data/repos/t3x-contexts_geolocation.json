@@ -18,20 +18,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2013-04-26T09:53:17Z",
-  "pushed_at": "2026-10-09T10:07:18Z",
-  "updated_at": "2026-10-09T10:07:22Z",
+  "pushed_at": "2026-10-19T00:09:49Z",
+  "updated_at": "2026-10-12T17:35:16Z",
   "composer_name": "netresearch/contexts-geolocation",
   "lifetime": {
     "stars": 2,
     "forks": 7,
     "watchers": 10,
     "network": 7,
-    "open_issues_plus_prs": 1,
-    "commits": 291,
+    "open_issues_plus_prs": 2,
+    "commits": 293,
     "issues_open": 1,
     "issues_closed": 3,
-    "prs_open": 0,
-    "prs_merged": 55,
+    "prs_open": 1,
+    "prs_merged": 56,
     "prs_closed_unmerged": 14,
     "issues_total": 4,
     "releases": 5,
@@ -44,36 +44,30 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 61,
+    "commits": 57,
     "issues_opened": 0,
-    "prs_opened": 14,
-    "prs_merged": 15,
+    "prs_opened": 13,
+    "prs_merged": 13,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1752,
-    "clones_unique": 154,
+    "clones_total": 1151,
+    "clones_unique": 117,
     "views_total": 2,
     "views_unique": 2,
-    "top_referrers": [
-      {
-        "referrer": "Google",
-        "count": 1,
-        "uniques": 1
-      }
-    ],
+    "top_referrers": [],
     "top_paths": [
       {
-        "path": "/netresearch/t3x-contexts_geolocation/blob/main/.semgrepignore",
-        "title": "/blob/main/.semgrepignore",
+        "path": "/netresearch/t3x-contexts_geolocation/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-contexts_geolocation/blob/main/README.md",
-        "title": "/blob/main/README.md",
+        "path": "/netresearch/t3x-contexts_geolocation/commits/master/doc",
+        "title": "/commits/master/doc",
         "count": 1,
         "uniques": 1
       }
@@ -103,13 +97,18 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 4,
+      "contributions": 5,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
       "contributions": 3,
       "url": "https://github.com/apps/github-actions"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 3,
+      "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
       "login": "Grony",
@@ -120,11 +119,6 @@
       "login": "Copilot",
       "contributions": 2,
       "url": "https://github.com/apps/copilot-swe-agent"
-    },
-    {
-      "login": "netresearch-project-bot[bot]",
-      "contributions": 2,
-      "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
       "login": "Gitsko",
@@ -144,7 +138,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts_geolocation/network/dependents"
   },
-  "estimated_downstream_reach": 85,
-  "blast_radius": 85,
+  "estimated_downstream_reach": 86,
+  "blast_radius": 86,
   "archived": false
 }

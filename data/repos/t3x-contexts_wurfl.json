@@ -13,20 +13,20 @@
   "homepage": "https://github.com/netresearch/t3x-contexts_wurfl",
   "default_branch": "main",
   "created_at": "2013-04-12T08:21:51Z",
-  "pushed_at": "2026-10-09T23:37:06Z",
-  "updated_at": "2026-10-09T23:37:09Z",
+  "pushed_at": "2026-10-18T23:54:28Z",
+  "updated_at": "2026-10-11T17:51:16Z",
   "composer_name": "netresearch/contexts-wurfl",
   "lifetime": {
     "stars": 1,
     "forks": 2,
     "watchers": 10,
     "network": 2,
-    "open_issues_plus_prs": 2,
-    "commits": 255,
+    "open_issues_plus_prs": 3,
+    "commits": 257,
     "issues_open": 1,
     "issues_closed": 3,
-    "prs_open": 1,
-    "prs_merged": 55,
+    "prs_open": 2,
+    "prs_merged": 56,
     "prs_closed_unmerged": 17,
     "issues_total": 4,
     "releases": 2,
@@ -39,33 +39,21 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 43,
+    "commits": 41,
     "issues_opened": 0,
-    "prs_opened": 16,
-    "prs_merged": 12,
+    "prs_opened": 13,
+    "prs_merged": 11,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2173,
-    "clones_unique": 194,
-    "views_total": 11,
-    "views_unique": 11,
+    "clones_total": 1140,
+    "clones_unique": 112,
+    "views_total": 2,
+    "views_unique": 2,
     "top_referrers": [],
     "top_paths": [
-      {
-        "path": "/netresearch/t3x-contexts_wurfl/blob/main/.php-cs-fixer.cache",
-        "title": "/blob/main/.php-cs-fixer.cache",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/t3x-contexts_wurfl",
-        "title": "Overview",
-        "count": 1,
-        "uniques": 1
-      },
       {
         "path": "/netresearch/t3x-contexts_wurfl/blob/main/Classes/AGENTS.md",
         "title": "/blob/main/Classes/AGENTS.md",
@@ -75,30 +63,6 @@
       {
         "path": "/netresearch/t3x-contexts_wurfl/blob/main/Documentation/AGENTS.md",
         "title": "/blob/main/Documentation/AGENTS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-contexts_wurfl/blob/main/Documentation/Configuration/Index.rst",
-        "title": "/blob/main/Documentation/Configuration/Index.rst",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-contexts_wurfl/blob/main/Documentation/Installation/Index.rst",
-        "title": "/blob/main/Documentation/Installation/Index.rst",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-contexts_wurfl/blob/main/ext_emconf.php",
-        "title": "/blob/main/ext_emconf.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-contexts_wurfl/tree/v0.4.3",
-        "title": "/tree/v0.4.3",
         "count": 1,
         "uniques": 1
       }
@@ -133,18 +97,18 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 2,
+      "contributions": 3,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 2,
+      "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
       "login": "pwodaniilea",
       "contributions": 1,
       "url": "https://github.com/pwodaniilea"
-    },
-    {
-      "login": "netresearch-project-bot[bot]",
-      "contributions": 1,
-      "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": null,
@@ -154,7 +118,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts_wurfl/network/dependents"
   },
-  "estimated_downstream_reach": 66,
-  "blast_radius": 66,
+  "estimated_downstream_reach": 67,
+  "blast_radius": 67,
   "archived": false
 }

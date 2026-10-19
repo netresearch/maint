@@ -19,20 +19,20 @@
   "homepage": "https://docs.typo3.org/p/netresearch/nr-xliff-streaming/main/en-us/",
   "default_branch": "main",
   "created_at": "2025-11-12T23:39:36Z",
-  "pushed_at": "2026-10-09T23:27:56Z",
-  "updated_at": "2026-10-09T23:27:59Z",
+  "pushed_at": "2026-10-19T00:30:34Z",
+  "updated_at": "2026-10-11T04:50:27Z",
   "composer_name": "netresearch/nr-xliff-streaming",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 140,
+    "open_issues_plus_prs": 3,
+    "commits": 142,
     "issues_open": 2,
     "issues_closed": 3,
-    "prs_open": 0,
-    "prs_merged": 41,
+    "prs_open": 1,
+    "prs_merged": 42,
     "prs_closed_unmerged": 11,
     "issues_total": 5,
     "releases": 0,
@@ -45,89 +45,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 67,
+    "commits": 65,
     "issues_opened": 2,
     "prs_opened": 14,
-    "prs_merged": 14,
+    "prs_merged": 13,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2425,
-    "clones_unique": 187,
-    "views_total": 15,
-    "views_unique": 8,
-    "top_referrers": [
-      {
-        "referrer": "Google",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 1,
-        "uniques": 1
-      }
-    ],
+    "clones_total": 1413,
+    "clones_unique": 127,
+    "views_total": 1,
+    "views_unique": 1,
+    "top_referrers": [],
     "top_paths": [
-      {
-        "path": "/netresearch/t3x-nr-xliff-streaming",
-        "title": "Overview",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-nr-xliff-streaming/actions",
-        "title": "/actions",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-xliff-streaming/blob/main/.php-cs-fixer.php",
-        "title": "/blob/main/.php-cs-fixer.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-xliff-streaming/blob/main/ext_conf_template.txt",
-        "title": "/blob/main/ext_conf_template.txt",
-        "count": 1,
-        "uniques": 1
-      },
       {
         "path": "/netresearch/t3x-nr-xliff-streaming/discussions",
         "title": "/discussions",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-xliff-streaming/issues",
-        "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-xliff-streaming/pull/44",
-        "title": "/pull/44",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-xliff-streaming/pulls",
-        "title": "/pulls",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-xliff-streaming/tree/main/Documentation",
-        "title": "/tree/main/Documentation",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-xliff-streaming/tree/main/Documentation/Performance",
-        "title": "/tree/main/Documentation/Performance",
         "count": 1,
         "uniques": 1
       }
@@ -152,12 +87,12 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 1,
+      "contributions": 2,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 1,
+      "contributions": 2,
       "url": "https://github.com/apps/renovate"
     }
   ],
@@ -168,7 +103,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-xliff-streaming/network/dependents"
   },
-  "estimated_downstream_reach": 46,
-  "blast_radius": 46,
+  "estimated_downstream_reach": 47,
+  "blast_radius": 47,
   "archived": false
 }

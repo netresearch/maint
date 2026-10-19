@@ -10,47 +10,54 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-08-18T16:10:14Z",
-  "pushed_at": "2026-10-08T20:57:41Z",
-  "updated_at": "2026-10-08T20:57:31Z",
+  "pushed_at": "2026-10-19T00:05:27Z",
+  "updated_at": "2026-10-13T15:53:53Z",
   "composer_name": "netresearch/nr-llm-compat",
   "lifetime": {
     "stars": 0,
     "forks": 0,
     "watchers": 0,
     "network": 0,
-    "open_issues_plus_prs": 1,
-    "commits": 139,
+    "open_issues_plus_prs": 2,
+    "commits": 141,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 0,
-    "prs_merged": 49,
+    "prs_open": 1,
+    "prs_merged": 50,
     "prs_closed_unmerged": 3,
     "issues_total": 3,
     "releases": 12,
     "release_downloads": 1,
     "contributors": 2,
     "external_contributors": 0,
-    "packagist_downloads": 939,
+    "packagist_downloads": 1004,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 85,
+    "commits": 78,
     "issues_opened": 0,
-    "prs_opened": 26,
-    "prs_merged": 26,
-    "releases": 7,
-    "packagist_downloads": 535,
+    "prs_opened": 24,
+    "prs_merged": 23,
+    "releases": 6,
+    "packagist_downloads": 495,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2941,
-    "clones_unique": 227,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 1587,
+    "clones_unique": 125,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-llm-compat",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v0.4.0",
@@ -61,20 +68,20 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 136,
+      "contributions": 137,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 3,
+      "contributions": 4,
       "url": "https://github.com/apps/renovate"
     }
   ],
   "packagist": {
     "name": "netresearch/nr-llm-compat",
-    "total": 939,
-    "monthly": 535,
-    "daily": 4,
+    "total": 1004,
+    "monthly": 495,
+    "daily": 14,
     "url": "https://packagist.org/packages/netresearch/nr-llm-compat"
   },
   "ghcr": null,
@@ -83,7 +90,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-llm-compat/network/dependents"
   },
-  "estimated_downstream_reach": 52,
-  "blast_radius": 52,
+  "estimated_downstream_reach": 53,
+  "blast_radius": 53,
   "archived": false
 }

@@ -42,18 +42,23 @@
     "prs_merged": 0,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 17
+    "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5,
-    "clones_unique": 5,
-    "views_total": 16,
-    "views_unique": 12,
+    "clones_total": 11,
+    "clones_unique": 9,
+    "views_total": 15,
+    "views_unique": 13,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 11,
-        "uniques": 11
+        "count": 9,
+        "uniques": 9
+      },
+      {
+        "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -64,32 +69,20 @@
         "uniques": 10
       },
       {
+        "path": "/netresearch/udp-proxy/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/udp-proxy/releases",
         "title": "/releases",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/udp-proxy/blob/main/Dockerfile",
-        "title": "/blob/main/Dockerfile",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/udp-proxy/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/udp-proxy/commits/main",
-        "title": "/commits/main",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/udp-proxy/tree/main/internal/build",
-        "title": "/tree/main/internal/build",
+        "path": "/netresearch/udp-proxy/tree/main",
+        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       }
@@ -125,11 +118,11 @@
         "package": "udp-proxy",
         "url": "https://github.com/netresearch/udp-proxy/pkgs/container/udp-proxy",
         "total": 1348,
-        "thirty_day": 17
+        "thirty_day": 0
       }
     ],
     "total": 1348,
-    "thirty_day": 17
+    "thirty_day": 0
   },
   "dependents": {
     "repositories": 0,

@@ -28,117 +28,117 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-10-08T14:21:15Z",
-  "updated_at": "2026-10-08T14:21:18Z",
+  "pushed_at": "2026-10-18T19:23:30Z",
+  "updated_at": "2026-10-18T19:20:53Z",
   "composer_name": "netresearch/timetracker",
   "lifetime": {
-    "stars": 26,
+    "stars": 27,
     "forks": 27,
     "watchers": 6,
     "network": 27,
-    "open_issues_plus_prs": 6,
-    "commits": 3012,
+    "open_issues_plus_prs": 13,
+    "commits": 3060,
     "issues_open": 2,
     "issues_closed": 74,
-    "prs_open": 4,
-    "prs_merged": 615,
-    "prs_closed_unmerged": 92,
+    "prs_open": 11,
+    "prs_merged": 639,
+    "prs_closed_unmerged": 101,
     "issues_total": 76,
     "releases": 35,
-    "release_downloads": 44,
+    "release_downloads": 47,
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 48232,
+    "ghcr_downloads": 50806,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 326,
-    "issues_opened": 11,
-    "prs_opened": 91,
-    "prs_merged": 82,
+    "commits": 190,
+    "issues_opened": 6,
+    "prs_opened": 85,
+    "prs_merged": 65,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 7174
+    "ghcr_downloads": 6051
   },
   "traffic_14d": {
-    "clones_total": 1518,
-    "clones_unique": 222,
-    "views_total": 83,
-    "views_unique": 41,
+    "clones_total": 3002,
+    "clones_unique": 350,
+    "views_total": 31,
+    "views_unique": 26,
     "top_referrers": [
       {
-        "referrer": "github.com",
-        "count": 7,
-        "uniques": 6
+        "referrer": "Google",
+        "count": 3,
+        "uniques": 3
       },
       {
-        "referrer": "Google",
-        "count": 6,
-        "uniques": 6
+        "referrer": "github.com",
+        "count": 3,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 17,
-        "uniques": 11
-      },
-      {
-        "path": "/netresearch/timetracker/discussions",
-        "title": "/discussions",
-        "count": 7,
-        "uniques": 3
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/timetracker/pulls",
         "title": "/pulls",
-        "count": 4,
-        "uniques": 3
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/docs/PROJECT_INDEX.md",
+        "title": "/blob/main/docs/PROJECT_INDEX.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/timetracker/blob/main/docs/security.md",
+        "title": "/blob/main/docs/security.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/timetracker/discussions",
+        "title": "/discussions",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/timetracker/issues",
         "title": "/issues",
-        "count": 4,
+        "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/timetracker/issues/771",
-        "title": "/issues/771",
-        "count": 4,
+        "path": "/netresearch/timetracker/issues/9",
+        "title": "/issues/9",
+        "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/timetracker/blob/main/.env",
-        "title": "/blob/main/.env",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/timetracker/actions/workflows/agents/copilot-pull-request-reviewer",
+        "title": "/actions/workflows/agents/copilot-pull-request-reviewer",
+        "count": 1,
+        "uniques": 1
       },
       {
-        "path": "/netresearch/timetracker/blob/main/CONTRIBUTING.md",
-        "title": "/blob/main/CONTRIBUTING.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs/performance.md",
-        "title": "/blob/main/docs/performance.md",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/timetracker/blob/main/.sonarcloud.properties",
+        "title": "/blob/main/.sonarcloud.properties",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/timetracker/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs/images/hero-split.png",
-        "title": "/blob/main/docs/images/hero-split.png",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -155,19 +155,19 @@
       "url": "https://github.com/CybotTM"
     },
     {
+      "login": "github-actions[bot]",
+      "contributions": 98,
+      "url": "https://github.com/apps/github-actions"
+    },
+    {
       "login": "cweiske",
       "contributions": 91,
       "url": "https://github.com/cweiske"
     },
     {
       "login": "dependabot[bot]",
-      "contributions": 84,
+      "contributions": 87,
       "url": "https://github.com/apps/dependabot"
-    },
-    {
-      "login": "github-actions[bot]",
-      "contributions": 74,
-      "url": "https://github.com/apps/github-actions"
     },
     {
       "login": "tivvie",
@@ -175,14 +175,14 @@
       "url": "https://github.com/tivvie"
     },
     {
+      "login": "renovate[bot]",
+      "contributions": 36,
+      "url": "https://github.com/apps/renovate"
+    },
+    {
       "login": "just-tobi",
       "contributions": 29,
       "url": "https://github.com/just-tobi"
-    },
-    {
-      "login": "renovate[bot]",
-      "contributions": 15,
-      "url": "https://github.com/apps/renovate"
     },
     {
       "login": "bergo",
@@ -206,19 +206,19 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 48232,
-        "thirty_day": 7174
+        "total": 50806,
+        "thirty_day": 6051
       }
     ],
-    "total": 48232,
-    "thirty_day": 7174
+    "total": 50806,
+    "thirty_day": 6051
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "estimated_downstream_reach": 760,
-  "blast_radius": 760,
+  "estimated_downstream_reach": 784,
+  "blast_radius": 784,
   "archived": false
 }

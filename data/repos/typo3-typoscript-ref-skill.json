@@ -16,20 +16,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-03-02T10:00:54Z",
-  "pushed_at": "2026-10-10T01:48:04Z",
-  "updated_at": "2026-10-04T21:00:26Z",
+  "pushed_at": "2026-10-18T22:07:50Z",
+  "updated_at": "2026-10-18T22:07:52Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 175,
+    "open_issues_plus_prs": 1,
+    "commits": 183,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 50,
+    "prs_open": 0,
+    "prs_merged": 54,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
     "releases": 13,
@@ -42,27 +42,22 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 56,
+    "commits": 51,
     "issues_opened": 0,
-    "prs_opened": 19,
-    "prs_merged": 19,
-    "releases": 2,
+    "prs_opened": 17,
+    "prs_merged": 17,
+    "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2980,
-    "clones_unique": 176,
-    "views_total": 7,
-    "views_unique": 6,
+    "clones_total": 3737,
+    "clones_unique": 159,
+    "views_total": 5,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "github-com.btglss.net",
         "count": 1,
         "uniques": 1
       }
@@ -71,26 +66,8 @@
       {
         "path": "/netresearch/typo3-typoscript-ref-skill",
         "title": "Overview",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/typo3-typoscript-ref-skill/blob/main/LICENSE-MIT",
-        "title": "/blob/main/LICENSE-MIT",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-typoscript-ref-skill/discussions",
-        "title": "/discussions",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-typoscript-ref-skill/issues/33",
-        "title": "/issues/33",
-        "count": 1,
-        "uniques": 1
+        "count": 5,
+        "uniques": 5
       }
     ]
   },
@@ -113,12 +90,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 16,
+      "contributions": 22,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 7,
+      "contributions": 9,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -134,7 +111,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-typoscript-ref-skill/network/dependents"
   },
-  "estimated_downstream_reach": 54,
-  "blast_radius": 54,
+  "estimated_downstream_reach": 58,
+  "blast_radius": 58,
   "archived": false
 }

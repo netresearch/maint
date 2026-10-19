@@ -10,63 +10,53 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-08T21:31:58Z",
-  "pushed_at": "2026-10-08T21:41:31Z",
-  "updated_at": "2026-10-08T21:41:18Z",
+  "pushed_at": "2026-10-19T00:08:21Z",
+  "updated_at": "2026-10-17T17:07:32Z",
   "composer_name": "netresearch/nr-repurpose",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
-    "commits": 770,
+    "open_issues_plus_prs": 2,
+    "commits": 778,
     "issues_open": 1,
     "issues_closed": 11,
-    "prs_open": 0,
-    "prs_merged": 157,
+    "prs_open": 1,
+    "prs_merged": 161,
     "prs_closed_unmerged": 8,
     "issues_total": 12,
     "releases": 34,
-    "release_downloads": 27,
-    "contributors": 3,
+    "release_downloads": 30,
+    "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 2004,
+    "packagist_downloads": 2069,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 454,
+    "commits": 447,
     "issues_opened": 2,
-    "prs_opened": 66,
-    "prs_merged": 65,
-    "releases": 17,
-    "packagist_downloads": 547,
+    "prs_opened": 64,
+    "prs_merged": 62,
+    "releases": 15,
+    "packagist_downloads": 506,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 16995,
-    "clones_unique": 826,
-    "views_total": 31,
-    "views_unique": 8,
+    "clones_total": 3321,
+    "clones_unique": 279,
+    "views_total": 4,
+    "views_unique": 3,
     "top_referrers": [
       {
-        "referrer": "extensions.typo3.org",
-        "count": 6,
-        "uniques": 4
-      },
-      {
-        "referrer": "Google",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "com.linkedin.android",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "referrer": "github.com",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "extensions.typo3.org",
         "count": 1,
         "uniques": 1
       }
@@ -75,61 +65,13 @@
       {
         "path": "/netresearch/t3x-nr-repurpose",
         "title": "Overview",
-        "count": 8,
-        "uniques": 8
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-repurpose/blob/main/Classes/Persistence/JobProcessingRepository.php",
         "title": "/blob/main/Classes/Persistence/JobProcessingRepository.php",
-        "count": 4,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-repurpose/blob/main/Documentation/Includes.rst.txt",
-        "title": "/blob/main/Documentation/Includes.rst.txt",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-repurpose/blob/main/Classes/Command/GenerateCommand.php",
-        "title": "/blob/main/Classes/Command/GenerateCommand.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-repurpose/blob/main/Classes/Controller/JobController.php",
-        "title": "/blob/main/Classes/Controller/JobController.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-repurpose/blob/main/Classes/Domain/Model/Job.php",
-        "title": "/blob/main/Classes/Domain/Model/Job.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-repurpose/blob/main/Classes/Domain/ValueObject/JobSnapshot.php",
-        "title": "/blob/main/Classes/Domain/ValueObject/JobSnapshot.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-repurpose/blob/main/Classes/Service/ConfiguredCompletionService.php",
-        "title": "/blob/main/Classes/Service/ConfiguredCompletionService.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-repurpose/blob/main/Classes/Service/GenerationOrchestrator.php",
-        "title": "/blob/main/Classes/Service/GenerationOrchestrator.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-repurpose/blob/main/Classes/Service/GenerationOrchestratorInterface.php",
-        "title": "/blob/main/Classes/Service/GenerationOrchestratorInterface.php",
-        "count": 1,
         "uniques": 1
       }
     ]
@@ -148,20 +90,25 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 20,
+      "contributions": 24,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "github-actions[bot]",
       "contributions": 16,
       "url": "https://github.com/apps/github-actions"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 4,
+      "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": {
     "name": "netresearch/nr-repurpose",
-    "total": 2004,
-    "monthly": 547,
-    "daily": 4,
+    "total": 2069,
+    "monthly": 506,
+    "daily": 14,
     "url": "https://packagist.org/packages/netresearch/nr-repurpose"
   },
   "ghcr": null,
@@ -170,7 +117,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-repurpose/network/dependents"
   },
-  "estimated_downstream_reach": 169,
-  "blast_radius": 169,
+  "estimated_downstream_reach": 173,
+  "blast_radius": 173,
   "archived": false
 }

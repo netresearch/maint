@@ -19,68 +19,74 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-01-14T19:41:07Z",
-  "pushed_at": "2026-10-09T06:08:34Z",
-  "updated_at": "2026-10-09T06:08:37Z",
+  "pushed_at": "2026-10-19T00:02:35Z",
+  "updated_at": "2026-10-11T04:49:54Z",
   "composer_name": "netresearch/t3-cowriter",
   "lifetime": {
     "stars": 10,
     "forks": 1,
     "watchers": 5,
     "network": 1,
-    "open_issues_plus_prs": 3,
-    "commits": 646,
+    "open_issues_plus_prs": 4,
+    "commits": 648,
     "issues_open": 3,
     "issues_closed": 18,
-    "prs_open": 0,
-    "prs_merged": 172,
+    "prs_open": 1,
+    "prs_merged": 173,
     "prs_closed_unmerged": 20,
     "issues_total": 21,
     "releases": 41,
-    "release_downloads": 67,
+    "release_downloads": 68,
     "contributors": 14,
     "external_contributors": 9,
-    "packagist_downloads": 14074,
+    "packagist_downloads": 14170,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 129,
+    "commits": 122,
     "issues_opened": 1,
-    "prs_opened": 39,
-    "prs_merged": 40,
-    "releases": 12,
-    "packagist_downloads": 637,
+    "prs_opened": 37,
+    "prs_merged": 37,
+    "releases": 11,
+    "packagist_downloads": 608,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 9766,
-    "clones_unique": 513,
-    "views_total": 28,
-    "views_unique": 14,
+    "clones_total": 2714,
+    "clones_unique": 218,
+    "views_total": 21,
+    "views_unique": 17,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
-        "count": 10,
-        "uniques": 7
+        "count": 6,
+        "uniques": 5
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-cowriter",
         "title": "Overview",
-        "count": 13,
-        "uniques": 11
+        "count": 6,
+        "uniques": 5
       },
       {
-        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Configuration/Index.rst",
-        "title": "/blob/main/Documentation/Configuration/Index.rst",
+        "path": "/netresearch/t3x-cowriter/blob/main/README.md",
+        "title": "/blob/main/README.md",
         "count": 3,
-        "uniques": 2
+        "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-cowriter/pulls",
-        "title": "/pulls",
+        "path": "/netresearch/t3x-cowriter/issues",
+        "title": "/issues",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
         "count": 2,
         "uniques": 2
       },
@@ -91,38 +97,32 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Images/CowriterHero.png",
-        "title": "/blob/main/Documentation/Images/CowriterHero.png",
+        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Configuration/Index.rst",
+        "title": "/blob/main/Documentation/Configuration/Index.rst",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-cowriter/blob/main/README.md",
-        "title": "/blob/main/README.md",
+        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Index.rst",
+        "title": "/blob/main/Documentation/Index.rst",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-cowriter/discussions",
-        "title": "/discussions",
+        "path": "/netresearch/t3x-cowriter/commit/c0ecb9bdc29a867fa67098e5c98fb6db6a322291",
+        "title": "/commit/c0ecb9bdc29a867fa67098e5c98fb6db6a322291",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-cowriter/issues",
-        "title": "/issues",
+        "path": "/netresearch/t3x-cowriter/issues/1",
+        "title": "/issues/1",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-cowriter/releases",
-        "title": "/releases",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/tree/main/Documentation",
-        "title": "/tree/main/Documentation",
+        "path": "/netresearch/t3x-cowriter/issues/35",
+        "title": "/issues/35",
         "count": 1,
         "uniques": 1
       }
@@ -142,7 +142,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 63,
+      "contributions": 64,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -188,9 +188,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 14074,
-    "monthly": 637,
-    "daily": 7,
+    "total": 14170,
+    "monthly": 608,
+    "daily": 13,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,
@@ -199,7 +199,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-cowriter/network/dependents"
   },
-  "estimated_downstream_reach": 222,
-  "blast_radius": 222,
+  "estimated_downstream_reach": 223,
+  "blast_radius": 223,
   "archived": false
 }

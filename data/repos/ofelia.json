@@ -21,58 +21,53 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2022-05-30T12:58:03Z",
-  "pushed_at": "2026-10-10T02:18:07Z",
-  "updated_at": "2026-10-09T22:39:46Z",
+  "pushed_at": "2026-10-18T23:37:56Z",
+  "updated_at": "2026-10-18T22:59:29Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 67,
+    "stars": 69,
     "forks": 7,
     "watchers": 1,
     "network": 212,
-    "open_issues_plus_prs": 33,
-    "commits": 1869,
+    "open_issues_plus_prs": 28,
+    "commits": 1888,
     "issues_open": 25,
-    "issues_closed": 181,
-    "prs_open": 8,
-    "prs_merged": 589,
-    "prs_closed_unmerged": 67,
-    "issues_total": 206,
+    "issues_closed": 182,
+    "prs_open": 3,
+    "prs_merged": 596,
+    "prs_closed_unmerged": 70,
+    "issues_total": 207,
     "releases": 56,
-    "release_downloads": 2553,
+    "release_downloads": 2554,
     "contributors": 47,
     "external_contributors": 40,
     "packagist_downloads": 0,
-    "ghcr_downloads": 481966,
+    "ghcr_downloads": 543025,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 78,
-    "issues_opened": 1,
-    "prs_opened": 44,
-    "prs_merged": 33,
+    "commits": 67,
+    "issues_opened": 2,
+    "prs_opened": 30,
+    "prs_merged": 24,
     "releases": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 95609
+    "ghcr_downloads": 138106
   },
   "traffic_14d": {
-    "clones_total": 2152,
-    "clones_unique": 261,
-    "views_total": 204,
-    "views_unique": 55,
+    "clones_total": 1829,
+    "clones_unique": 263,
+    "views_total": 125,
+    "views_unique": 56,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 9,
-        "uniques": 7
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "Google",
-        "count": 4,
-        "uniques": 3
-      },
-      {
-        "referrer": "awesome-go.com",
         "count": 1,
         "uniques": 1
       }
@@ -81,26 +76,14 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 52,
-        "uniques": 27
+        "count": 29,
+        "uniques": 18
       },
       {
-        "path": "/netresearch/ofelia/releases",
-        "title": "/releases",
+        "path": "/netresearch/ofelia/blob/main/docs/DEVELOPMENT.md",
+        "title": "/blob/main/docs/DEVELOPMENT.md",
         "count": 5,
         "uniques": 5
-      },
-      {
-        "path": "/netresearch/ofelia/releases/tag/v1.0.1",
-        "title": "/releases/tag/v1.0.1",
-        "count": 5,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/ofelia/issues",
-        "title": "/issues",
-        "count": 5,
-        "uniques": 2
       },
       {
         "path": "/netresearch/ofelia/blob/main/CHANGELOG.md",
@@ -109,34 +92,46 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/DEVELOPMENT.md",
-        "title": "/blob/main/docs/DEVELOPMENT.md",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/ofelia/commit/9abfc254a96265292b98373deb54a79ebc6b8c1d",
-        "title": "/commit/9abfc254a96265292b98373deb54a79ebc6b8c1d",
+        "path": "/netresearch/ofelia/issues",
+        "title": "/issues",
         "count": 4,
         "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/images/dashboard-light-dark.png",
-        "title": "/blob/main/docs/images/dashboard-light-dark.png",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/ofelia/actions",
+        "title": "/actions",
+        "count": 2,
+        "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/commit/dc353ff4f47d9bc71902df583e49f799959d8ba8",
-        "title": "/commit/dc353ff4f47d9bc71902df583e49f799959d8ba8",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/ofelia/blob/main/.envrc",
+        "title": "/blob/main/.envrc",
+        "count": 2,
+        "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/tags",
-        "title": "/tags",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/ofelia/blob/main/PROJECT_INDEX.md",
+        "title": "/blob/main/PROJECT_INDEX.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/blob/main/docs/SECURITY.md",
+        "title": "/blob/main/docs/SECURITY.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/blob/main/docs/TROUBLESHOOTING.md",
+        "title": "/blob/main/docs/TROUBLESHOOTING.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/commit/06c8b3f4b2426f15c299fab206090f20d7ec81e7",
+        "title": "/commit/06c8b3f4b2426f15c299fab206090f20d7ec81e7",
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
@@ -149,7 +144,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1502,
+      "contributions": 1513,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -163,14 +158,14 @@
       "url": "https://github.com/mcuadros"
     },
     {
+      "login": "renovate[bot]",
+      "contributions": 49,
+      "url": "https://github.com/apps/renovate"
+    },
+    {
       "login": "dependabot[bot]",
       "contributions": 44,
       "url": "https://github.com/apps/dependabot"
-    },
-    {
-      "login": "renovate[bot]",
-      "contributions": 41,
-      "url": "https://github.com/apps/renovate"
     },
     {
       "login": "nekrich",
@@ -204,19 +199,19 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 481966,
-        "thirty_day": 95609
+        "total": 543025,
+        "thirty_day": 138106
       }
     ],
-    "total": 481966,
-    "thirty_day": 95609
+    "total": 543025,
+    "thirty_day": 138106
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/ofelia/network/dependents"
   },
-  "estimated_downstream_reach": 929,
-  "blast_radius": 929,
+  "estimated_downstream_reach": 937,
+  "blast_radius": 937,
   "archived": false
 }

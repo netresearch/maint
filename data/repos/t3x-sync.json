@@ -18,25 +18,25 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2020-03-12T14:54:31Z",
-  "pushed_at": "2026-10-09T06:46:01Z",
-  "updated_at": "2026-10-08T05:32:26Z",
+  "pushed_at": "2026-10-11T05:33:35Z",
+  "updated_at": "2026-10-11T05:33:38Z",
   "composer_name": "netresearch/nr-sync",
   "lifetime": {
     "stars": 4,
     "forks": 0,
     "watchers": 5,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 253,
+    "open_issues_plus_prs": 1,
+    "commits": 255,
     "issues_open": 1,
     "issues_closed": 6,
-    "prs_open": 1,
-    "prs_merged": 51,
+    "prs_open": 0,
+    "prs_merged": 52,
     "prs_closed_unmerged": 11,
     "issues_total": 7,
     "releases": 8,
     "release_downloads": 1,
-    "contributors": 8,
+    "contributors": 9,
     "external_contributors": 2,
     "packagist_downloads": 31,
     "ghcr_downloads": 0,
@@ -46,17 +46,17 @@
   "recent_30d": {
     "commits": 58,
     "issues_opened": 0,
-    "prs_opened": 12,
+    "prs_opened": 11,
     "prs_merged": 11,
     "releases": 1,
     "packagist_downloads": 1,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1795,
-    "clones_unique": 187,
-    "views_total": 6,
-    "views_unique": 6,
+    "clones_total": 1092,
+    "clones_unique": 137,
+    "views_total": 5,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -68,24 +68,18 @@
       {
         "path": "/netresearch/t3x-sync/blob/master/README.md",
         "title": "/blob/master/README.md",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-sync/commit/2b426aad321e36e5638d650e9fe0c961f1d8636e",
-        "title": "/commit/2b426aad321e36e5638d650e9fe0c961f1d8636e",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-sync/commit/0d1e678ae2848684ddbeb264f58762f6a3d4cf82",
-        "title": "/commit/0d1e678ae2848684ddbeb264f58762f6a3d4cf82",
+        "path": "/netresearch/t3x-sync",
+        "title": "Overview",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-sync/pulls",
-        "title": "/pulls",
+        "path": "/netresearch/t3x-sync/commit/2b426aad321e36e5638d650e9fe0c961f1d8636e",
+        "title": "/commit/2b426aad321e36e5638d650e9fe0c961f1d8636e",
         "count": 1,
         "uniques": 1
       }
@@ -115,7 +109,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 16,
+      "contributions": 17,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -137,6 +131,11 @@
       "login": "github-actions[bot]",
       "contributions": 2,
       "url": "https://github.com/apps/github-actions"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 1,
+      "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": {
@@ -152,7 +151,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-sync/network/dependents"
   },
-  "estimated_downstream_reach": 64,
-  "blast_radius": 64,
+  "estimated_downstream_reach": 65,
+  "blast_radius": 65,
   "archived": false
 }

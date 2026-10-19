@@ -30,14 +30,14 @@
     "forks": 5,
     "watchers": 7,
     "network": 5,
-    "open_issues_plus_prs": 8,
+    "open_issues_plus_prs": 9,
     "commits": 58,
-    "issues_open": 8,
+    "issues_open": 9,
     "issues_closed": 61,
     "prs_open": 0,
     "prs_merged": 2,
     "prs_closed_unmerged": 2,
-    "issues_total": 69,
+    "issues_total": 70,
     "releases": 22,
     "release_downloads": 40,
     "contributors": 3,
@@ -49,7 +49,7 @@
   },
   "recent_30d": {
     "commits": 0,
-    "issues_opened": 1,
+    "issues_opened": 2,
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
@@ -57,20 +57,25 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 42,
-    "clones_unique": 37,
-    "views_total": 132,
-    "views_unique": 31,
+    "clones_total": 45,
+    "clones_unique": 38,
+    "views_total": 66,
+    "views_unique": 30,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 30,
-        "uniques": 11
+        "count": 8,
+        "uniques": 7
       },
       {
         "referrer": "Google",
-        "count": 10,
-        "uniques": 9
+        "count": 7,
+        "uniques": 7
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "dhl.support.netresearch.de",
@@ -80,40 +85,52 @@
     ],
     "top_paths": [
       {
-        "path": "/netresearch/dhl-shipping-m2/issues/85",
-        "title": "/issues/85",
-        "count": 67,
-        "uniques": 13
-      },
-      {
         "path": "/netresearch/dhl-shipping-m2",
         "title": "Overview",
-        "count": 29,
-        "uniques": 17
+        "count": 18,
+        "uniques": 13
       },
       {
         "path": "/netresearch/dhl-shipping-m2/issues",
         "title": "/issues",
-        "count": 17,
-        "uniques": 4
+        "count": 12,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/dhl-shipping-m2/issues/86",
+        "title": "/issues/86",
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/dhl-shipping-m2/blob/main/CHANGELOG.md",
         "title": "/blob/main/CHANGELOG.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/dhl-shipping-m2/issues/54",
+        "title": "/issues/54",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/dhl-shipping-m2/releases",
+        "title": "/releases",
         "count": 3,
         "uniques": 3
       },
       {
-        "path": "/netresearch/dhl-shipping-m2/blob/main/composer.json",
-        "title": "/blob/main/composer.json",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/dhl-shipping-m2/issues/48",
+        "title": "/issues/48",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/dhl-shipping-m2/releases/tag/2.17.0",
         "title": "/releases/tag/2.17.0",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/dhl-shipping-m2/wiki/Documentation-German",
@@ -122,21 +139,9 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/dhl-shipping-m2/tags",
-        "title": "/tags",
+        "path": "/netresearch/dhl-shipping-m2/issues/85",
+        "title": "/issues/85",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-shipping-m2/issues/11",
-        "title": "/issues/11",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-shipping-m2/issues/23",
-        "title": "/issues/23",
-        "count": 1,
         "uniques": 1
       }
     ]
@@ -171,7 +176,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/dhl-shipping-m2/network/dependents"
   },
-  "estimated_downstream_reach": 93,
-  "blast_radius": 93,
+  "estimated_downstream_reach": 94,
+  "blast_radius": 94,
   "archived": false
 }

@@ -16,92 +16,62 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-13T13:42:10Z",
-  "pushed_at": "2026-10-07T08:28:54Z",
-  "updated_at": "2026-10-07T07:32:28Z",
+  "pushed_at": "2026-10-19T00:28:00Z",
+  "updated_at": "2026-10-18T21:27:36Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 1,
-    "commits": 506,
+    "open_issues_plus_prs": 3,
+    "commits": 512,
     "issues_open": 1,
     "issues_closed": 1,
-    "prs_open": 0,
-    "prs_merged": 268,
-    "prs_closed_unmerged": 17,
+    "prs_open": 2,
+    "prs_merged": 270,
+    "prs_closed_unmerged": 18,
     "issues_total": 2,
     "releases": 13,
     "release_downloads": 118,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 5466,
+    "ghcr_downloads": 5542,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 28,
+    "commits": 30,
     "issues_opened": 0,
-    "prs_opened": 11,
+    "prs_opened": 14,
     "prs_merged": 11,
     "releases": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 161
+    "ghcr_downloads": 200
   },
   "traffic_14d": {
-    "clones_total": 294,
-    "clones_unique": 83,
-    "views_total": 10,
-    "views_unique": 10,
-    "top_referrers": [
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
-      }
-    ],
+    "clones_total": 354,
+    "clones_unique": 59,
+    "views_total": 5,
+    "views_unique": 5,
+    "top_referrers": [],
     "top_paths": [
       {
-        "path": "/netresearch/raybeam",
-        "title": "Overview",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/raybeam/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
+        "path": "/netresearch/raybeam/blob/main/docs/deployment.md",
+        "title": "/blob/main/docs/deployment.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/raybeam/actions/runs/24657060210/workflow",
-        "title": "/actions/runs/24657060210/workflow",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/raybeam/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/raybeam/blob/main/docs/api.md",
-        "title": "/blob/main/docs/api.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/raybeam/blob/main/docs/development.md",
-        "title": "/blob/main/docs/development.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/raybeam/pulls",
         "title": "/pulls",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/raybeam",
+        "title": "Overview",
         "count": 1,
         "uniques": 1
       }
@@ -116,12 +86,12 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 257,
+      "contributions": 259,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "CybotTM",
-      "contributions": 185,
+      "contributions": 189,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -151,19 +121,19 @@
       {
         "package": "raybeam",
         "url": "https://github.com/netresearch/raybeam/pkgs/container/raybeam",
-        "total": 5466,
-        "thirty_day": 161
+        "total": 5542,
+        "thirty_day": 200
       }
     ],
-    "total": 5466,
-    "thirty_day": 161
+    "total": 5542,
+    "thirty_day": 200
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/raybeam/network/dependents"
   },
-  "estimated_downstream_reach": 275,
-  "blast_radius": 275,
+  "estimated_downstream_reach": 277,
+  "blast_radius": 277,
   "archived": false
 }
