@@ -22,8 +22,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-21T10:05:16Z",
-  "pushed_at": "2026-10-15T17:56:26Z",
-  "updated_at": "2026-10-15T17:56:29Z",
+  "pushed_at": "2026-10-19T13:05:47Z",
+  "updated_at": "2026-10-19T13:05:50Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
@@ -31,11 +31,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 324,
+    "commits": 326,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 87,
+    "prs_merged": 88,
     "prs_closed_unmerged": 3,
     "issues_total": 1,
     "releases": 39,
@@ -50,17 +50,17 @@
   "recent_30d": {
     "commits": 51,
     "issues_opened": 0,
-    "prs_opened": 14,
-    "prs_merged": 14,
+    "prs_opened": 15,
+    "prs_merged": 15,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5215,
-    "clones_unique": 175,
-    "views_total": 26,
-    "views_unique": 18,
+    "clones_total": 4800,
+    "clones_unique": 170,
+    "views_total": 27,
+    "views_unique": 19,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -111,6 +111,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/typo3-ddev-skill/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
+        "title": "/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-ddev-skill/actions/workflows/lint.yml",
         "title": "/actions/workflows/lint.yml",
         "count": 1,
@@ -127,12 +133,6 @@
         "title": "/blob/HEAD/docs/SECURITY-ASSURANCE.md",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/c748afa26193dc5a04974aec4de1634be24a6b9b/docs/ARCHITECTURE.md",
-        "title": "/blob/c748afa26193dc5a04974aec4de1634be24a6b9b/docs/ARCHITECTURE.md",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -145,7 +145,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 279,
+      "contributions": 281,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -171,7 +171,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-ddev-skill/network/dependents"
   },
-  "estimated_downstream_reach": 90,
-  "blast_radius": 90,
+  "estimated_downstream_reach": 91,
+  "blast_radius": 91,
   "archived": false
 }

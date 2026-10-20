@@ -19,8 +19,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-22T22:47:47Z",
-  "pushed_at": "2026-10-18T12:10:54Z",
-  "updated_at": "2026-10-18T12:10:34Z",
+  "pushed_at": "2026-10-19T14:14:36Z",
+  "updated_at": "2026-10-19T14:14:40Z",
   "composer_name": null,
   "lifetime": {
     "stars": 19,
@@ -28,15 +28,15 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 3,
-    "commits": 104,
+    "commits": 106,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 2,
-    "prs_merged": 38,
+    "prs_merged": 39,
     "prs_closed_unmerged": 0,
     "issues_total": 3,
     "releases": 9,
-    "release_downloads": 31,
+    "release_downloads": 33,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -45,19 +45,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 26,
+    "commits": 28,
     "issues_opened": 0,
-    "prs_opened": 8,
-    "prs_merged": 6,
+    "prs_opened": 9,
+    "prs_merged": 7,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 232,
-    "clones_unique": 92,
-    "views_total": 106,
-    "views_unique": 32,
+    "clones_total": 502,
+    "clones_unique": 121,
+    "views_total": 97,
+    "views_unique": 31,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -79,20 +79,8 @@
       {
         "path": "/netresearch/jujutsu-workflow-skill",
         "title": "Overview",
-        "count": 30,
+        "count": 29,
         "uniques": 16
-      },
-      {
-        "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow",
-        "title": "/tree/main/skills/jujutsu-workflow",
-        "count": 6,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/git-interop.md",
-        "title": "/blob/main/skills/jujutsu-workflow/references/git-interop.md",
-        "count": 6,
-        "uniques": 4
       },
       {
         "path": "/netresearch/jujutsu-workflow-skill/issues/32",
@@ -101,14 +89,20 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow/scripts",
-        "title": "/tree/main/skills/jujutsu-workflow/scripts",
+        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/git-interop.md",
+        "title": "/blob/main/skills/jujutsu-workflow/references/git-interop.md",
         "count": 5,
         "uniques": 3
       },
       {
         "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/parallel-agents.md",
         "title": "/blob/main/skills/jujutsu-workflow/references/parallel-agents.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow",
+        "title": "/tree/main/skills/jujutsu-workflow",
         "count": 4,
         "uniques": 4
       },
@@ -125,14 +119,20 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/jujutsu-workflow-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow/scripts",
+        "title": "/tree/main/skills/jujutsu-workflow/scripts",
+        "count": 4,
+        "uniques": 2
       },
       {
         "path": "/netresearch/jujutsu-workflow-skill/discussions",
         "title": "/discussions",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/issues",
+        "title": "/issues",
         "count": 3,
         "uniques": 3
       }
@@ -147,7 +147,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 100,
+      "contributions": 102,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -173,7 +173,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jujutsu-workflow-skill/network/dependents"
   },
-  "estimated_downstream_reach": 43,
-  "blast_radius": 43,
+  "estimated_downstream_reach": 44,
+  "blast_radius": 44,
   "archived": false
 }
