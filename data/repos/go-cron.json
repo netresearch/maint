@@ -44,7 +44,7 @@
     "prs_closed_unmerged": 9,
     "issues_total": 198,
     "releases": 19,
-    "release_downloads": 214,
+    "release_downloads": 215,
     "contributors": 34,
     "external_contributors": 31,
     "packagist_downloads": 0,
@@ -62,15 +62,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 680,
-    "clones_unique": 201,
-    "views_total": 155,
-    "views_unique": 67,
+    "clones_total": 701,
+    "clones_unique": 202,
+    "views_total": 131,
+    "views_unique": 65,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 26,
-        "uniques": 21
+        "count": 23,
+        "uniques": 20
       },
       {
         "referrer": "github.com",
@@ -83,12 +83,12 @@
         "uniques": 3
       },
       {
-        "referrer": "awesome-go.com",
-        "count": 2,
-        "uniques": 2
+        "referrer": "aocr.org",
+        "count": 1,
+        "uniques": 1
       },
       {
-        "referrer": "aocr.org",
+        "referrer": "awesome-go.com",
         "count": 1,
         "uniques": 1
       },
@@ -107,7 +107,7 @@
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 52,
+        "count": 48,
         "uniques": 33
       },
       {
@@ -115,12 +115,6 @@
         "title": "/issues",
         "count": 6,
         "uniques": 4
-      },
-      {
-        "path": "/netresearch/go-cron/releases",
-        "title": "/releases",
-        "count": 6,
-        "uniques": 3
       },
       {
         "path": "/netresearch/go-cron/blob/main/README.md",
@@ -131,18 +125,6 @@
       {
         "path": "/netresearch/go-cron/pulls",
         "title": "/pulls",
-        "count": 5,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/go-cron/releases/tag/v0.16.1",
-        "title": "/releases/tag/v0.16.1",
-        "count": 5,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-cron/discussions",
-        "title": "/discussions",
         "count": 4,
         "uniques": 3
       },
@@ -153,14 +135,32 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/go-cron/tags",
-        "title": "/tags",
+        "path": "/netresearch/go-cron/discussions",
+        "title": "/discussions",
         "count": 3,
-        "uniques": 1
+        "uniques": 3
       },
       {
-        "path": "/netresearch/go-cron/blob/main/CHANGELOG.md",
-        "title": "/blob/main/CHANGELOG.md",
+        "path": "/netresearch/go-cron/releases",
+        "title": "/releases",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/DST_HANDLING.md",
+        "title": "/blob/main/docs/DST_HANDLING.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/adr/ADR-022-drain-and-upsert.md",
+        "title": "/blob/main/docs/adr/ADR-022-drain-and-upsert.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/commit/d3ce65695fb2272c792161e076c22c94ba6161cc",
+        "title": "/commit/d3ce65695fb2272c792161e076c22c94ba6161cc",
         "count": 2,
         "uniques": 2
       }

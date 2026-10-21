@@ -27,20 +27,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-04-03T08:29:24Z",
-  "pushed_at": "2026-10-19T12:53:06Z",
-  "updated_at": "2026-10-19T12:52:22Z",
+  "pushed_at": "2026-10-20T11:40:41Z",
+  "updated_at": "2026-10-20T11:40:45Z",
   "composer_name": null,
   "lifetime": {
     "stars": 4,
     "forks": 4,
     "watchers": 1,
     "network": 4,
-    "open_issues_plus_prs": 6,
-    "commits": 1374,
+    "open_issues_plus_prs": 5,
+    "commits": 1376,
     "issues_open": 5,
     "issues_closed": 5,
-    "prs_open": 1,
-    "prs_merged": 264,
+    "prs_open": 0,
+    "prs_merged": 265,
     "prs_closed_unmerged": 46,
     "issues_total": 10,
     "releases": 0,
@@ -53,27 +53,32 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 21,
+    "commits": 23,
     "issues_opened": 0,
     "prs_opened": 8,
-    "prs_merged": 8,
+    "prs_merged": 9,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 498,
-    "clones_unique": 60,
+    "clones_total": 837,
+    "clones_unique": 95,
     "views_total": 35,
-    "views_unique": 13,
+    "views_unique": 14,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 4,
-        "uniques": 4
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "ecosia.org",
         "count": 1,
         "uniques": 1
       }
@@ -82,20 +87,20 @@
       {
         "path": "/netresearch/jira-to-openproject",
         "title": "Overview",
-        "count": 11,
-        "uniques": 8
-      },
-      {
-        "path": "/netresearch/jira-to-openproject/issues/260",
-        "title": "/issues/260",
-        "count": 6,
-        "uniques": 1
+        "count": 12,
+        "uniques": 9
       },
       {
         "path": "/netresearch/jira-to-openproject/pulls",
         "title": "/pulls",
         "count": 5,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/jira-to-openproject/issues/260",
+        "title": "/issues/260",
+        "count": 5,
+        "uniques": 1
       },
       {
         "path": "/netresearch/jira-to-openproject/issues/302",
@@ -133,12 +138,12 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1241,
+      "contributions": 1242,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 70,
+      "contributions": 71,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -159,7 +164,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jira-to-openproject/network/dependents"
   },
-  "estimated_downstream_reach": 282,
-  "blast_radius": 282,
+  "estimated_downstream_reach": 283,
+  "blast_radius": 283,
   "archived": false
 }

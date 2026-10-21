@@ -19,9 +19,9 @@
     "typo3-extension"
   ],
   "homepage": "",
-  "default_branch": "fix/resolve-review-findings",
+  "default_branch": "main",
   "created_at": "2025-10-18T08:31:58Z",
-  "pushed_at": "2026-10-17T16:52:19Z",
+  "pushed_at": "2026-10-21T01:23:56Z",
   "updated_at": "2026-10-14T19:06:32Z",
   "composer_name": null,
   "lifetime": {
@@ -29,42 +29,42 @@
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 2,
-    "commits": 171,
+    "open_issues_plus_prs": 3,
+    "commits": 693,
     "issues_open": 1,
     "issues_closed": 3,
-    "prs_open": 1,
+    "prs_open": 2,
     "prs_merged": 211,
     "prs_closed_unmerged": 6,
     "issues_total": 4,
     "releases": 68,
-    "release_downloads": 266,
-    "contributors": 1,
-    "external_contributors": 0,
+    "release_downloads": 267,
+    "contributors": 6,
+    "external_contributors": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 140,
     "issues_opened": 0,
-    "prs_opened": 40,
-    "prs_merged": 39,
-    "releases": 5,
+    "prs_opened": 37,
+    "prs_merged": 35,
+    "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 8289,
-    "clones_unique": 293,
-    "views_total": 15,
-    "views_unique": 12,
+    "clones_total": 8223,
+    "clones_unique": 291,
+    "views_total": 17,
+    "views_unique": 13,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "github.com",
@@ -82,18 +82,24 @@
         "path": "/netresearch/typo3-testing-skill",
         "title": "Overview",
         "count": 10,
-        "uniques": 10
+        "uniques": 9
       },
       {
         "path": "/netresearch/typo3-testing-skill/pulls",
         "title": "/pulls",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/typo3-testing-skill/pull/197",
         "title": "/pull/197",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/blob/main/skills/typo3-testing/references/quality-tools.md",
+        "title": "/blob/main/skills/typo3-testing/references/quality-tools.md",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -113,8 +119,33 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 170,
+      "contributions": 623,
       "url": "https://github.com/CybotTM"
+    },
+    {
+      "login": "renovate[bot]",
+      "contributions": 31,
+      "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "github-actions[bot]",
+      "contributions": 22,
+      "url": "https://github.com/apps/github-actions"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 11,
+      "url": "https://github.com/apps/netresearch-project-bot"
+    },
+    {
+      "login": "aseemann",
+      "contributions": 4,
+      "url": "https://github.com/aseemann"
+    },
+    {
+      "login": "ChristianOsswald",
+      "contributions": 1,
+      "url": "https://github.com/ChristianOsswald"
     }
   ],
   "packagist": null,
@@ -124,7 +155,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
   },
-  "estimated_downstream_reach": 217,
-  "blast_radius": 217,
+  "estimated_downstream_reach": 220,
+  "blast_radius": 220,
   "archived": false
 }
