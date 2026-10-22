@@ -21,7 +21,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2022-05-30T12:58:03Z",
-  "pushed_at": "2026-10-19T14:25:11Z",
+  "pushed_at": "2026-10-22T02:44:25Z",
   "updated_at": "2026-10-19T14:25:14Z",
   "composer_name": null,
   "lifetime": {
@@ -29,37 +29,37 @@
     "forks": 7,
     "watchers": 1,
     "network": 212,
-    "open_issues_plus_prs": 27,
+    "open_issues_plus_prs": 28,
     "commits": 1892,
     "issues_open": 25,
     "issues_closed": 182,
-    "prs_open": 2,
+    "prs_open": 3,
     "prs_merged": 598,
-    "prs_closed_unmerged": 71,
+    "prs_closed_unmerged": 70,
     "issues_total": 207,
     "releases": 56,
     "release_downloads": 2554,
     "contributors": 47,
     "external_contributors": 40,
     "packagist_downloads": 0,
-    "ghcr_downloads": 557171,
+    "ghcr_downloads": 564040,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 69,
+    "commits": 63,
     "issues_opened": 2,
-    "prs_opened": 31,
-    "prs_merged": 25,
+    "prs_opened": 30,
+    "prs_merged": 24,
     "releases": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 148083
+    "ghcr_downloads": 152464
   },
   "traffic_14d": {
-    "clones_total": 2968,
-    "clones_unique": 314,
-    "views_total": 127,
-    "views_unique": 58,
+    "clones_total": 2914,
+    "clones_unique": 328,
+    "views_total": 110,
+    "views_unique": 56,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -76,7 +76,7 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 36,
+        "count": 35,
         "uniques": 21
       },
       {
@@ -98,12 +98,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/blob/main/.envrc",
-        "title": "/blob/main/.envrc",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/ofelia/blob/main/PROJECT_INDEX.md",
         "title": "/blob/main/PROJECT_INDEX.md",
         "count": 2,
@@ -122,14 +116,20 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/TROUBLESHOOTING.md",
-        "title": "/blob/main/docs/TROUBLESHOOTING.md",
+        "path": "/netresearch/ofelia/blob/main/docs/images/dashboard-light-dark.png",
+        "title": "/blob/main/docs/images/dashboard-light-dark.png",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/images/dashboard-light-dark.png",
-        "title": "/blob/main/docs/images/dashboard-light-dark.png",
+        "path": "/netresearch/ofelia/releases",
+        "title": "/releases",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/security",
+        "title": "/security",
         "count": 2,
         "uniques": 2
       }
@@ -199,12 +199,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 557171,
-        "thirty_day": 148083
+        "total": 564040,
+        "thirty_day": 152464
       }
     ],
-    "total": 557171,
-    "thirty_day": 148083
+    "total": 564040,
+    "thirty_day": 152464
   },
   "dependents": {
     "repositories": 0,

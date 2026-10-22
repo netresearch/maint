@@ -13,24 +13,24 @@
   "homepage": "https://registry.terraform.io/providers/netresearch/ad/latest",
   "default_branch": "main",
   "created_at": "2024-08-14T10:21:14Z",
-  "pushed_at": "2026-10-20T11:40:33Z",
-  "updated_at": "2026-10-20T11:40:37Z",
+  "pushed_at": "2026-10-22T02:35:45Z",
+  "updated_at": "2026-10-21T12:35:54Z",
   "composer_name": null,
   "lifetime": {
     "stars": 4,
     "forks": 0,
     "watchers": 1,
     "network": 81,
-    "open_issues_plus_prs": 1,
-    "commits": 286,
+    "open_issues_plus_prs": 2,
+    "commits": 288,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 0,
-    "prs_merged": 51,
+    "prs_open": 1,
+    "prs_merged": 52,
     "prs_closed_unmerged": 4,
     "issues_total": 1,
     "releases": 10,
-    "release_downloads": 955,
+    "release_downloads": 967,
     "contributors": 23,
     "external_contributors": 19,
     "packagist_downloads": 0,
@@ -39,24 +39,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 28,
+    "commits": 27,
     "issues_opened": 1,
-    "prs_opened": 13,
+    "prs_opened": 14,
     "prs_merged": 13,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 390,
-    "clones_unique": 110,
-    "views_total": 5,
-    "views_unique": 5,
+    "clones_total": 395,
+    "clones_unique": 111,
+    "views_total": 13,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "teams.public.onecdn.static.microsoft",
-        "count": 4,
-        "uniques": 4
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -69,6 +74,42 @@
       {
         "path": "/netresearch/terraform-provider-ad/issues",
         "title": "/issues",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/blob/main/docs/data-sources/gpo.md",
+        "title": "/blob/main/docs/data-sources/gpo.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/blob/main/docs/data-sources/ou.md",
+        "title": "/blob/main/docs/data-sources/ou.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/blob/main/docs/data-sources/user.md",
+        "title": "/blob/main/docs/data-sources/user.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/commit/efb36285796a4f43d0dfc291d3a4e7728fd86b67",
+        "title": "/commit/efb36285796a4f43d0dfc291d3a4e7728fd86b67",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/issues/50",
+        "title": "/issues/50",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/pulls",
+        "title": "/pulls",
         "count": 1,
         "uniques": 1
       }
@@ -83,7 +124,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 98,
+      "contributions": 100,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -139,7 +180,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/terraform-provider-ad/network/dependents"
   },
-  "estimated_downstream_reach": 109,
-  "blast_radius": 109,
+  "estimated_downstream_reach": 110,
+  "blast_radius": 110,
   "archived": false
 }

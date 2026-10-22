@@ -19,8 +19,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2024-05-27T15:26:15Z",
-  "pushed_at": "2026-09-09T14:14:56Z",
-  "updated_at": "2026-09-09T14:29:34Z",
+  "pushed_at": "2026-10-21T13:13:58Z",
+  "updated_at": "2026-10-21T13:14:22Z",
   "composer_name": "dhl/sdk-api-parcel-de",
   "lifetime": {
     "stars": 3,
@@ -28,34 +28,34 @@
     "watchers": 5,
     "network": 1,
     "open_issues_plus_prs": 2,
-    "commits": 17,
+    "commits": 24,
     "issues_open": 2,
     "issues_closed": 4,
     "prs_open": 0,
     "prs_merged": 1,
     "prs_closed_unmerged": 3,
     "issues_total": 6,
-    "releases": 6,
+    "releases": 7,
     "release_downloads": 0,
-    "contributors": 1,
+    "contributors": 2,
     "external_contributors": 1,
-    "packagist_downloads": 115488,
+    "packagist_downloads": 115878,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 9,
     "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
-    "releases": 0,
-    "packagist_downloads": 9092,
+    "releases": 1,
+    "packagist_downloads": 9031,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 121,
-    "clones_unique": 101,
+    "clones_total": 118,
+    "clones_unique": 98,
     "views_total": 4,
     "views_unique": 4,
     "top_referrers": [],
@@ -67,31 +67,36 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/dhl-sdk-api-parcel-de/issues",
-        "title": "/issues",
+        "path": "/netresearch/dhl-sdk-api-parcel-de/pulls",
+        "title": "/pulls",
         "count": 1,
         "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "1.5.0",
-    "tag_name": "1.5.0",
-    "published_at": "2026-09-09T20:42:44Z",
-    "url": "https://github.com/netresearch/dhl-sdk-api-parcel-de/releases/tag/1.5.0"
+    "name": "1.6.0",
+    "tag_name": "1.6.0",
+    "published_at": "2026-10-21T13:14:20Z",
+    "url": "https://github.com/netresearch/dhl-sdk-api-parcel-de/releases/tag/1.6.0"
   },
   "top_contributors": [
     {
       "login": "Sebastian80",
-      "contributions": 17,
+      "contributions": 20,
       "url": "https://github.com/Sebastian80"
+    },
+    {
+      "login": "powli",
+      "contributions": 4,
+      "url": "https://github.com/powli"
     }
   ],
   "packagist": {
     "name": "dhl/sdk-api-parcel-de",
-    "total": 115488,
-    "monthly": 9092,
-    "daily": 418,
+    "total": 115878,
+    "monthly": 9031,
+    "daily": 350,
     "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de"
   },
   "ghcr": null,

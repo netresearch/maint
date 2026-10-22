@@ -16,8 +16,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-13T13:42:10Z",
-  "pushed_at": "2026-10-19T00:59:34Z",
-  "updated_at": "2026-10-19T00:59:04Z",
+  "pushed_at": "2026-10-22T00:57:05Z",
+  "updated_at": "2026-10-22T00:57:07Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
@@ -25,12 +25,12 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 514,
+    "commits": 516,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 271,
-    "prs_closed_unmerged": 19,
+    "prs_merged": 272,
+    "prs_closed_unmerged": 18,
     "issues_total": 2,
     "releases": 13,
     "release_downloads": 118,
@@ -42,19 +42,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 31,
+    "commits": 25,
     "issues_opened": 0,
-    "prs_opened": 14,
-    "prs_merged": 12,
+    "prs_opened": 10,
+    "prs_merged": 10,
     "releases": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 163
+    "ghcr_downloads": 159
   },
   "traffic_14d": {
     "clones_total": 725,
-    "clones_unique": 105,
-    "views_total": 5,
-    "views_unique": 5,
+    "clones_unique": 104,
+    "views_total": 7,
+    "views_unique": 7,
     "top_referrers": [],
     "top_paths": [
       {
@@ -66,6 +66,18 @@
       {
         "path": "/netresearch/raybeam",
         "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/raybeam/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/raybeam/blob/main/docs/README.md",
+        "title": "/blob/main/docs/README.md",
         "count": 1,
         "uniques": 1
       },
@@ -92,7 +104,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 260,
+      "contributions": 261,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -112,7 +124,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 2,
+      "contributions": 3,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -128,18 +140,18 @@
         "package": "raybeam",
         "url": "https://github.com/netresearch/raybeam/pkgs/container/raybeam",
         "total": 5542,
-        "thirty_day": 163
+        "thirty_day": 159
       }
     ],
     "total": 5542,
-    "thirty_day": 163
+    "thirty_day": 159
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/raybeam/network/dependents"
   },
-  "estimated_downstream_reach": 278,
-  "blast_radius": 278,
+  "estimated_downstream_reach": 279,
+  "blast_radius": 279,
   "archived": false
 }
