@@ -10,8 +10,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-08T21:31:58Z",
-  "pushed_at": "2026-10-21T16:33:58Z",
-  "updated_at": "2026-10-21T16:34:01Z",
+  "pushed_at": "2026-10-23T00:05:42Z",
+  "updated_at": "2026-10-23T00:05:44Z",
   "composer_name": "netresearch/nr-repurpose",
   "lifetime": {
     "stars": 1,
@@ -19,36 +19,36 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 791,
+    "commits": 793,
     "issues_open": 1,
     "issues_closed": 11,
     "prs_open": 0,
-    "prs_merged": 164,
+    "prs_merged": 165,
     "prs_closed_unmerged": 8,
     "issues_total": 12,
     "releases": 35,
     "release_downloads": 31,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 2162,
+    "packagist_downloads": 2170,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 460,
+    "commits": 456,
     "issues_opened": 2,
-    "prs_opened": 65,
-    "prs_merged": 65,
+    "prs_opened": 64,
+    "prs_merged": 66,
     "releases": 16,
-    "packagist_downloads": 582,
+    "packagist_downloads": 587,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3332,
-    "clones_unique": 291,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 1886,
+    "clones_unique": 200,
+    "views_total": 3,
+    "views_unique": 3,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -62,6 +62,12 @@
         "title": "Overview",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-repurpose/pull/164",
+        "title": "/pull/164",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -79,7 +85,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 24,
+      "contributions": 26,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -95,9 +101,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-repurpose",
-    "total": 2162,
-    "monthly": 582,
-    "daily": 39,
+    "total": 2170,
+    "monthly": 587,
+    "daily": 7,
     "url": "https://packagist.org/packages/netresearch/nr-repurpose"
   },
   "ghcr": null,
@@ -106,7 +112,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-repurpose/network/dependents"
   },
-  "estimated_downstream_reach": 176,
-  "blast_radius": 176,
+  "estimated_downstream_reach": 177,
+  "blast_radius": 177,
   "archived": false
 }

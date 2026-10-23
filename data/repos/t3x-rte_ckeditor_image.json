@@ -18,55 +18,55 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2017-05-12T13:29:43Z",
-  "pushed_at": "2026-10-22T03:38:23Z",
-  "updated_at": "2026-10-22T03:18:02Z",
+  "pushed_at": "2026-10-22T22:18:04Z",
+  "updated_at": "2026-10-22T22:18:07Z",
   "composer_name": "netresearch/rte-ckeditor-image",
   "lifetime": {
     "stars": 61,
     "forks": 69,
     "watchers": 8,
     "network": 69,
-    "open_issues_plus_prs": 4,
-    "commits": 1975,
+    "open_issues_plus_prs": 3,
+    "commits": 1979,
     "issues_open": 2,
     "issues_closed": 286,
-    "prs_open": 2,
-    "prs_merged": 559,
+    "prs_open": 1,
+    "prs_merged": 561,
     "prs_closed_unmerged": 66,
     "issues_total": 288,
     "releases": 68,
-    "release_downloads": 191,
+    "release_downloads": 192,
     "contributors": 52,
     "external_contributors": 44,
-    "packagist_downloads": 1147075,
+    "packagist_downloads": 1148630,
     "ghcr_downloads": 0,
     "dependents_repos": 46,
     "dependents_packages": 3
   },
   "recent_30d": {
-    "commits": 81,
+    "commits": 79,
     "issues_opened": 3,
-    "prs_opened": 25,
-    "prs_merged": 24,
+    "prs_opened": 24,
+    "prs_merged": 26,
     "releases": 1,
-    "packagist_downloads": 27333,
+    "packagist_downloads": 27755,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5543,
-    "clones_unique": 309,
-    "views_total": 85,
-    "views_unique": 59,
+    "clones_total": 3825,
+    "clones_unique": 305,
+    "views_total": 89,
+    "views_unique": 64,
     "top_referrers": [
       {
-        "referrer": "Google",
-        "count": 6,
-        "uniques": 6
+        "referrer": "extensions.typo3.org",
+        "count": 5,
+        "uniques": 2
       },
       {
-        "referrer": "extensions.typo3.org",
+        "referrer": "Google",
         "count": 4,
-        "uniques": 2
+        "uniques": 4
       },
       {
         "referrer": "DuckDuckGo",
@@ -88,13 +88,13 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image",
         "title": "Overview",
-        "count": 15,
-        "uniques": 12
+        "count": 14,
+        "uniques": 11
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues",
         "title": "/issues",
-        "count": 11,
+        "count": 12,
         "uniques": 8
       },
       {
@@ -110,16 +110,10 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/releases",
-        "title": "/releases",
+        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
         "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/Documentation/Index.md",
-        "title": "/blob/main/Documentation/Index.md",
-        "count": 3,
-        "uniques": 3
+        "uniques": 4
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/branches",
@@ -144,6 +138,12 @@
         "title": "/blob/main/claudedocs/SECURITY.md",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-rte_ckeditor_image/commits/main",
+        "title": "/commits/main",
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
@@ -156,12 +156,12 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1391,
+      "contributions": 1393,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 187,
+      "contributions": 188,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -207,9 +207,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1147075,
-    "monthly": 27333,
-    "daily": 1318,
+    "total": 1148630,
+    "monthly": 27755,
+    "daily": 1401,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,
@@ -218,7 +218,7 @@
     "packages": 3,
     "url": "https://github.com/netresearch/t3x-rte_ckeditor_image/network/dependents"
   },
-  "estimated_downstream_reach": 1209,
-  "blast_radius": 1209,
+  "estimated_downstream_reach": 1211,
+  "blast_radius": 1211,
   "archived": false
 }

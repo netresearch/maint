@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-30T15:16:56Z",
-  "pushed_at": "2026-10-21T17:07:00Z",
-  "updated_at": "2026-10-21T17:07:02Z",
+  "pushed_at": "2026-10-22T20:03:22Z",
+  "updated_at": "2026-10-22T20:03:24Z",
   "composer_name": "netresearch/nr-temporal-cache",
   "lifetime": {
     "stars": 1,
@@ -21,11 +21,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 347,
+    "commits": 349,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 99,
+    "prs_merged": 100,
     "prs_closed_unmerged": 12,
     "issues_total": 4,
     "releases": 5,
@@ -38,26 +38,20 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 75,
+    "commits": 69,
     "issues_opened": 1,
-    "prs_opened": 18,
-    "prs_merged": 18,
+    "prs_opened": 17,
+    "prs_merged": 19,
     "releases": 2,
     "packagist_downloads": 3,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1237,
-    "clones_unique": 107,
-    "views_total": 8,
-    "views_unique": 8,
-    "top_referrers": [
-      {
-        "referrer": "extensions.typo3.org",
-        "count": 1,
-        "uniques": 1
-      }
-    ],
+    "clones_total": 941,
+    "clones_unique": 87,
+    "views_total": 7,
+    "views_unique": 7,
+    "top_referrers": [],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-temporal-cache",
@@ -80,12 +74,6 @@
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/COVERAGE_ANALYSIS.md",
         "title": "/blob/main/COVERAGE_ANALYSIS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Classes/Service/HarmonizationService.php",
-        "title": "/blob/main/Classes/Service/HarmonizationService.php",
         "count": 1,
         "uniques": 1
       },
@@ -117,7 +105,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 40,
+      "contributions": 41,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -127,7 +115,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 2,
+      "contributions": 3,
       "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
@@ -144,7 +132,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-temporal-cache/network/dependents"
   },
-  "estimated_downstream_reach": 103,
-  "blast_radius": 103,
+  "estimated_downstream_reach": 104,
+  "blast_radius": 104,
   "archived": false
 }
