@@ -44,7 +44,7 @@ const browser = await puppeteer.launch({
 try {
   const page = await browser.newPage();
   await page.setViewport({width: 1200, height: 630, deviceScaleFactor: 1});
-  await page.setContent(await readFile(source, 'utf8'), {waitUntil: 'networkidle0'});
+  await page.setContent(await readFile(source, 'utf8'));
   const state = await page.evaluate(async () => {
     await Promise.all([document.fonts.load('600 64px Raleway'), document.fonts.load('400 26px "Open Sans"')]);
     await document.fonts.ready;

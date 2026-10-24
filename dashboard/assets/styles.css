@@ -15,7 +15,9 @@
   --fg:#E8EDEF; --fg-muted:#CDD3D7; --border:#2A3238; --border-strong:#6B7680;
   --accent-ink:#7FD6E0; --accent-2-ink:#FFB394; --accent-fill:#15585E; --focus:#7FD6E0;
 } }
+:root[data-theme="light"] { color-scheme: light; }
 :root[data-theme="dark"] {
+  color-scheme: dark;
 
   --bg:#14181B; --bg-surface:#1E2429; --bg-surface-2:#252D33;
   --fg:#E8EDEF; --fg-muted:#CDD3D7; --border:#2A3238; --border-strong:#6B7680;
