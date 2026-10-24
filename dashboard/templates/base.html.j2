@@ -9,6 +9,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    try { var theme = localStorage.getItem('nr-theme'); if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme; } catch (_) {}
+  </script>
 
   <title>{{ page_title }}</title>
   <meta name="description" content="{{ page_description }}">
@@ -45,16 +49,26 @@
   <header class="site-header">
     <div class="container header-bar">
       {#- Brand rule: the logo appears exactly once, here. -#}
-      <a class="brand" href="{{ home }}" aria-label="Netresearch">
-        <img src="{{ base }}assets/netresearch.svg" alt="Netresearch" width="180" height="40">
+      <a class="brand" href="https://www.netresearch.de/" aria-label="Netresearch DTT GmbH">
+        <img src="{{ base }}assets/netresearch.svg" alt="Netresearch DTT GmbH" width="48" height="48">
       </a>
-      <nav class="site-nav" aria-label="{{ t.nav.label }}">
+      <div class="header-actions">
+        <a href="{{ other_href }}" hreflang="{{ t.other_lang }}" lang="{{ t.other_lang }}">{{ t.other_label }}</a>
+        <select class="btn" id="theme-toggle" data-theme-control aria-label="{{ 'Farbschema' if t.lang == 'de' else 'Colour scheme' }}">
+          <option value="system">System</option>
+          <option value="light">{{ 'Hell' if t.lang == 'de' else 'Light' }}</option>
+          <option value="dark">{{ 'Dunkel' if t.lang == 'de' else 'Dark' }}</option>
+        </select>
+        <button class="btn nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">{{ 'Menü' if t.lang == 'de' else 'Menu' }}</button>
+      </div>
+      <nav class="site-nav" id="site-nav" aria-label="{{ t.nav.label }}">
+        <a href="https://netresearch.github.io/{{ 'de/' if t.lang == 'de' else '' }}">{{ 'Portfolio' if t.lang == 'de' else 'Portfolio' }}</a>
+        <a href="https://netresearch.github.io/modularer-ki-stack-page/{{ 'en/' if t.lang == 'en' else '' }}">{{ 'KI-Stack' if t.lang == 'de' else 'AI stack' }}</a>
         <a href="{{ home }}#snapshot">{{ t.nav.snapshot }}</a>
         <a href="{{ home }}#provenance">{{ t.nav.provenance }}</a>
         <a href="{{ home }}#method">{{ t.nav.method }}</a>
         <a href="{{ home }}#repositories">{{ t.nav.repos }}</a>
         <a href="{{ home }}#downloads">{{ t.nav.downloads }}</a>
-        <a href="{{ other_href }}" hreflang="{{ t.other_lang }}" lang="{{ t.other_lang }}">{{ t.other_label }}</a>
       </nav>
     </div>
   </header>
@@ -86,5 +100,6 @@
   </footer>
 
   {% block scripts %}{% endblock %}
+  <script src="{{ base }}assets/navigation.js" defer></script>
 </body>
 </html>

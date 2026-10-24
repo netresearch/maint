@@ -25,6 +25,7 @@ from urllib.parse import quote
 
 import requests
 import yaml
+from snapshot_archive import write_snapshot
 
 GITHUB_API = "https://api.github.com"
 GITHUB_WEB = "https://github.com"
@@ -604,7 +605,7 @@ def write_outputs(base: Path, snapshot: dict, history: dict) -> None:
     (base / "data" / "repos").mkdir(parents=True, exist_ok=True)
 
     (base / "data" / "latest.json").write_text(json.dumps(snapshot, indent=2))
-    (base / "data" / "snapshots" / f"{TODAY}.json").write_text(json.dumps(snapshot, indent=2))
+    write_snapshot(base / "data", snapshot)
     (base / "data" / "history.json").write_text(json.dumps(history, indent=2))
 
     for repo in snapshot["repos"]:

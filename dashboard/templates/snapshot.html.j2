@@ -45,7 +45,7 @@
   <h2 id="cite-heading">{{ t.cite.heading }}</h2>
   <blockquote id="citation-text" class="citation">{{ citation }}</blockquote>
   <p>
-    <button type="button" class="btn" id="copy-citation" data-copied="{{ t.cite.copied }}">{{ t.cite.copy }}</button>
+    <button type="button" class="btn" id="copy-citation" data-copied="{{ t.cite.copied }}">{{ t.cite['copy'] }}</button>
     <a class="btn" href="{{ base }}data/snapshots/{{ snapshot_date }}.json">{{ t.downloads.latest_json }}</a>
   </p>
 </section>
