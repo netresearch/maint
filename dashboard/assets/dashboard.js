@@ -104,13 +104,16 @@
       rows.map((row) => Number(row.cells[index].textContent.replace(/\D/g, '') || 0));
     const labels = rows.map((row) => row.cells[0].textContent.trim());
 
+    const style = getComputedStyle(document.documentElement);
+    const chartText = style.getPropertyValue('--fg').trim();
+    const chartGrid = style.getPropertyValue('--border').trim();
     const axes = {
       responsive: true,
       maintainAspectRatio: false,
-      plugins: { legend: { labels: { color: '#e8eaed' } } },
+      plugins: { legend: { labels: { color: chartText, font: { size: 14 } } } },
       scales: {
-        x: { ticks: { color: '#9aa0a6' }, grid: { color: '#2a2f38' } },
-        y: { ticks: { color: '#9aa0a6' }, grid: { color: '#2a2f38' }, beginAtZero: true },
+        x: { ticks: { color: chartText, font: { size: 14 } }, grid: { color: chartGrid } },
+        y: { ticks: { color: chartText, font: { size: 14 } }, grid: { color: chartGrid }, beginAtZero: true },
       },
     };
 
@@ -123,7 +126,7 @@
           datasets: [
             { label: historyTable.rows[0].cells[1].textContent, data: column(1), borderColor: '#2F99A4', tension: 0.2 },
             { label: historyTable.rows[0].cells[2].textContent, data: column(2), borderColor: '#FF4D00', tension: 0.2 },
-            { label: historyTable.rows[0].cells[3].textContent, data: column(3), borderColor: '#9aa0a6', tension: 0.2 },
+            { label: historyTable.rows[0].cells[3].textContent, data: column(3), borderColor: chartText, themeColor: 'foreground', tension: 0.2 },
           ],
         },
         options: axes,
@@ -139,7 +142,7 @@
           datasets: [
             { label: historyTable.rows[0].cells[4].textContent, data: column(4), backgroundColor: '#2F99A4' },
             { label: historyTable.rows[0].cells[5].textContent, data: column(5), backgroundColor: '#FF4D00' },
-            { label: historyTable.rows[0].cells[6].textContent, data: column(6), backgroundColor: '#9aa0a6' },
+            { label: historyTable.rows[0].cells[6].textContent, data: column(6), backgroundColor: chartText, themeColor: 'foreground' },
           ],
         },
         options: axes,

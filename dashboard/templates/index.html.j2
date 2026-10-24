@@ -94,7 +94,7 @@
     <tbody>
       {%- for component in reach_components %}
       <tr>
-        <td>{{ t.reach.components[component.key] }}</td>
+        <th scope="row">{{ t.reach.components[component.key] }}</th>
         <td class="num">&times; {{ component.weight }}</td>
       </tr>
       {%- endfor %}
@@ -131,7 +131,7 @@
      survives without JavaScript. Charts are drawn from this same series. #}
   <details class="chart-data" open>
     <summary>{{ t.charts.table_toggle }}</summary>
-    <div class="table-wrap">
+    <div class="table-wrap" tabindex="0" role="region" aria-label="{{ t.charts.table_toggle }}">
       <table id="history-table">
         <caption>{{ t.charts.cumulative_title }} &middot; {{ t.charts.activity_title }}</caption>
         <thead>
@@ -179,7 +179,7 @@
     </span>
   </div>
 
-  <div class="table-wrap">
+  <div class="table-wrap" tabindex="0" role="region" aria-labelledby="repositories-heading">
     <table id="repo-table">
       <caption class="sr-only">{{ t.table.heading }}</caption>
       <thead>
@@ -263,7 +263,7 @@
   <p class="lead">{{ t.cite.lead }}</p>
   <blockquote id="citation-text" class="citation">{{ citation }}</blockquote>
   <p>
-    <button type="button" class="btn" id="copy-citation" data-copied="{{ t.cite.copied }}">{{ t.cite.copy }}</button>
+    <button type="button" class="btn" id="copy-citation" data-copied="{{ t.cite.copied }}">{{ t.cite['copy'] }}</button>
     <a class="btn" href="{{ base }}CITATION.cff">{{ t.cite.cff }}</a>
   </p>
 </section>

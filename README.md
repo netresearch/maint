@@ -177,7 +177,13 @@ JavaScript is left with sorting, filtering, the charts and the copy-citation
 button. It never introduces a figure the HTML does not already contain, and the
 chart series is published as a table beside each chart.
 
-Snapshot pages are written once. The workflow seeds the build directory with the
+Archived figures and collection timestamps are never regenerated. Legacy action
+labels and metadata can be corrected without changing those figures; where an
+old daily JSON was overwritten, the preserved HTML is the citable original.
+New collection runs also receive a content-hash
+archive ID, so two runs on the same day have different permanent HTML and JSON
+URLs. Historical daily URLs keep their first snapshot. Copied citations and
+Dataset metadata point to the exact archived run. The workflow seeds the build directory with the
 previously published snapshot pages so the renderer skips them: a cited snapshot
 URL has to keep showing the figures it showed when it was cited.
 
@@ -207,12 +213,16 @@ Runs `pytest tests/` on every pull request and on every push to `main`.
 Locally:
 
 ```bash
-python3 -m venv .venv && . .venv/bin/activate
+python3.14 -m venv .venv && . .venv/bin/activate
 pip install --only-binary :all: --require-hashes -r requirements/tests.txt
 pytest tests/ -v
 ```
 
-`beautifulsoup4` is a hard requirement even for tests that never scrape:
+`beautifulsoup4`, `jinja2` and `pyyaml` are hard test dependencies. The latter two
+exercise the actual renderer and immutable citation output.
+Tests use Python 3.14, matching the dashboard runtime. PyYAML 6.0.3 has no
+Python 3.15 wheel, which the binary-only installation requires.
+`beautifulsoup4` is required even for tests that never scrape:
 `tests/test_check_stars.py` imports `scripts/check-stars.py` at module scope, so
 without it pytest fails during collection.
 
@@ -220,7 +230,7 @@ To change a pinned version, regenerate the file rather than editing a hash by
 hand:
 
 ```bash
-printf 'pytest\nrequests\nbeautifulsoup4\n' | uv pip compile --generate-hashes \
+printf 'pytest\nrequests\nbeautifulsoup4\njinja2\npyyaml\n' | uv pip compile --generate-hashes \
   --python-version 3.14 --output-file requirements/tests.txt -
 ```
 

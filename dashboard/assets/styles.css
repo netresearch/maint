@@ -1,28 +1,28 @@
-/* This dashboard is dark-only, and the brand values were mixed for a light
- * background. #2F99A4 reaches 3.9:1 on the tinted surfaces here and #FF4D00
- * 4.1:1, both below the 4.5:1 AA asks of body text; white on a #2F99A4 fill is
- * 3.37:1. The *-ink tokens are the same hues lifted to a passing luminance for
- * text on dark, --accent-fill is the same hue darkened for fills that carry
- * white text. --accent-ink is the brand system's own dark-theme link colour
- * (see the netresearch-branding reference), not a value invented here. --nr-teal and --nr-orange stay the brand values and are used
- * where the threshold is 3:1: borders, chart series, icons. */
+/* Netresearch branding 3.1.0: separate light/dark tokens and AAA text roles. */
 :root {
-  --nr-teal: #2F99A4;
-  --nr-orange: #FF4D00;
-  --nr-gray: #585961;
-  --bg: #0f1115;
-  --bg-surface: #1a1d23;
-  --bg-surface-2: #22262e;
-  --fg: #e8eaed;
-  --fg-muted: #B4BAC0;
-  --border: #2a2f38;
-  --accent: var(--nr-teal);
-  --accent-2: var(--nr-orange);
-  --accent-ink: #5FC6D2;
-  --accent-2-ink: #FF7A45;
-  --accent-fill: #1B6C74;
-}
 
+  --nr-primary:#2F99A4; --nr-accent:#FF4D00; --nr-text:#585961;
+  --nr-teal:var(--nr-primary); --nr-orange:var(--nr-accent); --nr-gray:var(--nr-text);
+  --bg:#FFFFFF; --bg-surface:#FFFFFF; --bg-surface-2:#F5F5F5;
+  --fg:#4D4F57; --fg-muted:#4D4F57; --border:#CCCDCC; --border-strong:#8A8B93;
+  --accent:var(--nr-primary); --accent-2:var(--nr-accent);
+  --accent-ink:#0A5057; --accent-2-ink:#9A2E00; --accent-fill:#15585E;
+  --focus:#15585E;
+}
+@media(prefers-color-scheme:dark) { :root:not([data-theme="light"]) {
+
+  --bg:#14181B; --bg-surface:#1E2429; --bg-surface-2:#252D33;
+  --fg:#E8EDEF; --fg-muted:#CDD3D7; --border:#2A3238; --border-strong:#6B7680;
+  --accent-ink:#7FD6E0; --accent-2-ink:#FFB394; --accent-fill:#15585E; --focus:#7FD6E0;
+} }
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg:#14181B; --bg-surface:#1E2429; --bg-surface-2:#252D33;
+  --fg:#E8EDEF; --fg-muted:#CDD3D7; --border:#2A3238; --border-strong:#6B7680;
+  --accent-ink:#7FD6E0; --accent-2-ink:#FFB394; --accent-fill:#15585E; --focus:#7FD6E0;
+}
 * { box-sizing: border-box; }
 
 html, body {
@@ -31,7 +31,7 @@ html, body {
   background: var(--bg);
   color: var(--fg);
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -58,20 +58,20 @@ h1, h2, h3 {
 }
 
 .site-header {
-  background: linear-gradient(135deg, #0f1115, #1a1d23);
+  background: var(--bg);
   border-bottom: 1px solid var(--border);
-  padding: 1.5rem 0;
+  padding: .5rem 0;
 }
 
 .site-header h1 { font-size: 1.75rem; }
 .site-header .subtitle { color: var(--fg-muted); margin: .25rem 0 0; }
-.site-header .meta { color: var(--fg-muted); font-size: .85rem; margin-top: .75rem; }
+.site-header .meta { color: var(--fg-muted); font-size: .875rem; margin-top: .75rem; }
 
 .site-footer {
   border-top: 1px solid var(--border);
   padding: 1rem 0;
   color: var(--fg-muted);
-  font-size: .85rem;
+  font-size: .875rem;
   margin-top: 3rem;
 }
 
@@ -86,7 +86,7 @@ h1, h2, h3 {
   color: var(--fg);
   border: 1px solid var(--border);
   padding: .5rem 1rem;
-  border-radius: 6px;
+  border-radius: 10px;
   cursor: pointer;
   font: inherit;
 }
@@ -99,7 +99,7 @@ h1, h2, h3 {
 
 .kpis {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr));
   gap: .75rem;
   margin-bottom: 2rem;
 }
@@ -107,13 +107,13 @@ h1, h2, h3 {
 .kpi {
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 16px;
   padding: 1rem;
 }
 
 .kpi .kpi-label {
   color: var(--fg-muted);
-  font-size: .75rem;
+  font-size: .875rem;
   text-transform: uppercase;
   letter-spacing: .05em;
 }
@@ -127,14 +127,14 @@ h1, h2, h3 {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
   gap: 1rem;
 }
 
 .card {
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 16px;
   padding: 1rem;
 }
 
@@ -143,11 +143,11 @@ h1, h2, h3 {
 .card .stat span:first-child { color: var(--fg-muted); }
 
 .chart-section { margin: 2rem 0; }
-.chart-note { color: var(--fg-muted); font-size: .85rem; }
+.chart-note { color: var(--fg-muted); font-size: .875rem; }
 .chart-wrap {
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 16px;
   padding: 1rem;
   margin-bottom: 1rem;
   height: 320px;
@@ -168,7 +168,7 @@ h1, h2, h3 {
   color: var(--fg);
   border: 1px solid var(--border);
   padding: .5rem .75rem;
-  border-radius: 6px;
+  border-radius: 10px;
   font: inherit;
 }
 
@@ -178,7 +178,7 @@ h1, h2, h3 {
   overflow-x: auto;
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 16px;
 }
 
 table {
@@ -214,7 +214,7 @@ tbody tr:hover { background: rgba(47, 153, 164, 0.08); }
   border-radius: 999px;
   background: var(--bg-surface-2);
   color: var(--fg-muted);
-  font-size: .7rem;
+  font-size: .875rem;
   text-transform: uppercase;
   letter-spacing: .04em;
 }
@@ -223,12 +223,12 @@ tbody tr:hover { background: rgba(47, 153, 164, 0.08); }
  * behind it, so it shifts on a hovered row and no tool can state its contrast
  * without knowing the parent — these are the values the tint composited to over
  * --bg-surface-2, so they look the same and are now decidable. */
-.pill.typo3    { background: #243B43; color: var(--accent-ink); }
-.pill.skill    { background: #4A2D26; color: var(--accent-2-ink); }
-.pill.go       { background: #1C3E4D; color: #4FC9EC; }
-.pill.commerce { background: #4A4227; color: #FFCE3A; }
-.pill.ansible  { background: #471F26; color: #FF6B6B; }
-.pill.tool     { background: #3C4148; color: var(--fg-muted); }
+.pill.typo3 { background:var(--bg-surface-2); color:var(--fg); }
+.pill.skill { background:var(--bg-surface-2); color:var(--fg); }
+.pill.go { background:var(--bg-surface-2); color:var(--fg); }
+.pill.commerce { background:var(--bg-surface-2); color:var(--fg); }
+.pill.ansible { background:var(--bg-surface-2); color:var(--fg); }
+.pill.tool { background:var(--bg-surface-2); color:var(--fg); }
 
 .muted { color: var(--fg-muted); }
 
@@ -237,7 +237,7 @@ tbody tr:hover { background: rgba(47, 153, 164, 0.08); }
   padding: 1.25rem;
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 16px;
 }
 
 #repo-detail h2 { color: var(--accent-ink); }
@@ -249,10 +249,10 @@ tbody tr:hover { background: rgba(47, 153, 164, 0.08); }
   margin-top: 1rem;
 }
 
-.detail-grid .card h4 { margin: 0 0 .5rem; color: var(--accent-2); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
+.detail-grid .card h4 { margin: 0 0 .5rem; color: var(--accent-2-ink); font-size: .875rem; text-transform: uppercase; letter-spacing: .05em; }
 
 .referrer-list { margin: 0; padding-left: 1rem; }
-.referrer-list li { font-size: .85rem; }
+.referrer-list li { font-size: .875rem; }
 
 /* ── Local brand fonts ──────────────────────────────────────────────────────
    Raleway and Open Sans were named in the font stacks but never loaded, so the
@@ -302,7 +302,7 @@ tbody tr:hover { background: rgba(47, 153, 164, 0.08); }
   background: var(--accent-fill);
   color: #fff;
   padding: .5rem 1rem;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 .header-bar {
@@ -337,7 +337,7 @@ main > section > h2 { font-size: 1.4rem; }
 
 .hero h1 { font-size: 2rem; }
 .lead { font-size: 1.05rem; color: var(--fg); max-width: 70ch; }
-.hint, .meta { color: var(--fg-muted); font-size: .85rem; }
+.hint, .meta { color: var(--fg-muted); font-size: .875rem; }
 
 .cta-row { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.25rem; }
 
@@ -347,7 +347,7 @@ main > section > h2 { font-size: 1.4rem; }
   min-height: 44px;
   padding: 0 1.1rem;
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 10px;
   background: var(--bg-surface);
   color: var(--fg);
   font: inherit;
@@ -363,7 +363,7 @@ main > section > h2 { font-size: 1.4rem; }
 
 .prose-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
   gap: 1.5rem;
 }
 .prose-grid h3 { font-size: 1rem; color: var(--accent-ink); margin-top: 1.25rem; }
@@ -373,7 +373,9 @@ main > section > h2 { font-size: 1.4rem; }
 
 /* An estimate must never be read as a measurement. */
 .warning {
-  border-left: 3px solid var(--accent-2);
+  border: 1px solid var(--border);
+  border-radius:16px;
+  padding:1rem;
   padding-left: .9rem;
   color: var(--fg);
   max-width: 70ch;
@@ -382,19 +384,21 @@ main > section > h2 { font-size: 1.4rem; }
 .notice {
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-left: 3px solid var(--accent);
-  border-radius: 6px;
+
+  border-radius: 10px;
   padding: .75rem 1rem;
 }
 
-.formula { width: auto; margin-top: .5rem; }
+.formula { width: 100%; table-layout:fixed; margin-top: .5rem; }
 .formula td { border-bottom: 1px solid var(--border); }
+.formula th, .formula td { white-space:normal; }
+.formula th { width:80%; position:static; background:transparent; }
 
 .kpis dt, .kpis dd { margin: 0; }
 .card dl { margin: 0; }
 .card .stat dt, .card .stat dd { margin: 0; }
 
-.breadcrumb { color: var(--fg-muted); font-size: .85rem; margin-bottom: 1rem; }
+.breadcrumb { color: var(--fg-muted); font-size: .875rem; margin-bottom: 1rem; }
 
 .link-list { list-style: none; padding: 0; margin: 1rem 0 0; }
 .link-list li { padding: .35rem 0; border-bottom: 1px solid var(--border); }
@@ -407,11 +411,11 @@ main > section > h2 { font-size: 1.4rem; }
 .citation {
   background: var(--bg-surface);
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 10px;
   padding: 1rem;
   margin: 1rem 0;
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: .85rem;
+  font-size: .875rem;
   max-width: 80ch;
 }
 
@@ -427,4 +431,43 @@ th[data-sort][aria-sort="ascending"]::after { content: " ▴"; }
 
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
+}
+
+body { overflow-wrap:anywhere; }
+main *, .header-bar > *, .grid > * { min-width:0; }
+button, input, select { min-height:48px; border-color:var(--border-strong); font-family:'Open Sans',sans-serif; }
+button { font-family:Raleway,sans-serif; }
+.table-wrap { max-width:100%; }
+.table-wrap:focus-visible, :focus-visible { outline:3px solid var(--focus); outline-offset:3px; }
+.brand img { height:48px; width:48px; }
+.header-bar { gap:12px; }
+.header-actions { display:flex; align-items:center; gap:12px; margin-left:auto; }
+.header-actions>a { display:inline-flex; align-items:center; min-height:48px; }
+.header-actions #theme-toggle { display:none; }
+.js .header-actions #theme-toggle { display:inline-flex; }
+.site-nav { width:100%; gap:16px; }
+.site-nav a { min-height:48px; }
+.nav-toggle { display:none; }
+.hero { background:linear-gradient(125deg,#15585E,#0A5057,#06383D); color:white; --fg:white; --fg-muted:white; --accent-ink:white; --bg-surface:#0A5057; --bg-surface-2:#0A5057; --border-strong:white; --focus:white; padding:32px; border-radius:24px; }
+.hero h1,.hero p { color:white; }
+.hero .btn { border-color:white; }
+.hero .btn:hover { color:white; background:#06383D; }
+.site-footer { background:#303239; color:white; --fg-muted:white; --accent-ink:#A4E5EC; --focus:white; padding:32px 0; }
+.site-footer p { color:white; }
+.scope-toggle { flex-wrap:wrap; }
+.toggle.active { background:#15585E; color:white; }
+.warning,.notice { background:var(--bg-surface); }
+@media(max-width:760px) {
+ .container { padding:16px; }
+ .header-actions { gap:8px; flex-wrap:wrap; }
+ .header-actions .btn { padding:0 10px; font-size:14px; }
+ .js .nav-toggle { display:inline-flex; }
+ .site-nav { flex-direction:column; gap:0; }
+ .js .site-nav { display:none; }
+ .js .site-nav.is-open { display:flex; }
+ .site-nav a { padding:0 8px; }
+ .hero { padding:24px 16px; }
+ .hero h1 { font-size:1.75rem; }
+ .cta-row { flex-direction:column; align-items:stretch; }
+ .btn { justify-content:center; white-space:normal; }
 }
