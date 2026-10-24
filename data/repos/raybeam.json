@@ -16,8 +16,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-13T13:42:10Z",
-  "pushed_at": "2026-10-22T00:57:05Z",
-  "updated_at": "2026-10-22T00:57:07Z",
+  "pushed_at": "2026-10-23T08:05:43Z",
+  "updated_at": "2026-10-23T07:05:30Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
@@ -25,36 +25,36 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 516,
+    "commits": 518,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 272,
+    "prs_merged": 273,
     "prs_closed_unmerged": 18,
     "issues_total": 2,
-    "releases": 13,
-    "release_downloads": 118,
+    "releases": 14,
+    "release_downloads": 120,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 5542,
+    "ghcr_downloads": 5561,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 14,
+    "commits": 16,
     "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 8,
-    "releases": 0,
+    "prs_opened": 8,
+    "prs_merged": 7,
+    "releases": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 152
+    "ghcr_downloads": 171
   },
   "traffic_14d": {
-    "clones_total": 646,
-    "clones_unique": 93,
-    "views_total": 7,
-    "views_unique": 7,
+    "clones_total": 715,
+    "clones_unique": 97,
+    "views_total": 6,
+    "views_unique": 6,
     "top_referrers": [],
     "top_paths": [
       {
@@ -62,12 +62,6 @@
         "title": "/blob/main/docs/deployment.md",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/raybeam",
-        "title": "Overview",
-        "count": 1,
-        "uniques": 1
       },
       {
         "path": "/netresearch/raybeam/blob/main/AGENTS.md",
@@ -96,10 +90,10 @@
     ]
   },
   "latest_release": {
-    "name": "v1.3.0",
-    "tag_name": "v1.3.0",
-    "published_at": "2026-09-22T17:47:02Z",
-    "url": "https://github.com/netresearch/raybeam/releases/tag/v1.3.0"
+    "name": "v1.3.1",
+    "tag_name": "v1.3.1",
+    "published_at": "2026-10-23T08:18:08Z",
+    "url": "https://github.com/netresearch/raybeam/releases/tag/v1.3.1"
   },
   "top_contributors": [
     {
@@ -109,7 +103,7 @@
     },
     {
       "login": "CybotTM",
-      "contributions": 189,
+      "contributions": 191,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -139,19 +133,19 @@
       {
         "package": "raybeam",
         "url": "https://github.com/netresearch/raybeam/pkgs/container/raybeam",
-        "total": 5542,
-        "thirty_day": 152
+        "total": 5561,
+        "thirty_day": 171
       }
     ],
-    "total": 5542,
-    "thirty_day": 152
+    "total": 5561,
+    "thirty_day": 171
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/raybeam/network/dependents"
   },
-  "estimated_downstream_reach": 279,
-  "blast_radius": 279,
+  "estimated_downstream_reach": 280,
+  "blast_radius": 280,
   "archived": false
 }

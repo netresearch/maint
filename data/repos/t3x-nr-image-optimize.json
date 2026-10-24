@@ -17,27 +17,27 @@
   "homepage": "https://extensions.typo3.org/extension/nr_image_optimize",
   "default_branch": "main",
   "created_at": "2025-09-12T06:59:28Z",
-  "pushed_at": "2026-10-22T17:41:54Z",
-  "updated_at": "2026-10-21T16:24:36Z",
+  "pushed_at": "2026-10-23T06:43:20Z",
+  "updated_at": "2026-10-23T06:43:22Z",
   "composer_name": "netresearch/nr-image-optimize",
   "lifetime": {
     "stars": 4,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 5,
-    "commits": 627,
+    "open_issues_plus_prs": 4,
+    "commits": 629,
     "issues_open": 4,
     "issues_closed": 11,
-    "prs_open": 1,
-    "prs_merged": 199,
+    "prs_open": 0,
+    "prs_merged": 200,
     "prs_closed_unmerged": 14,
     "issues_total": 15,
     "releases": 28,
     "release_downloads": 9,
     "contributors": 9,
     "external_contributors": 2,
-    "packagist_downloads": 3086,
+    "packagist_downloads": 3099,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -45,34 +45,22 @@
   "recent_30d": {
     "commits": 84,
     "issues_opened": 0,
-    "prs_opened": 30,
-    "prs_merged": 31,
+    "prs_opened": 29,
+    "prs_merged": 30,
     "releases": 4,
-    "packagist_downloads": 272,
+    "packagist_downloads": 277,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1865,
-    "clones_unique": 162,
-    "views_total": 4,
-    "views_unique": 2,
+    "clones_total": 1697,
+    "clones_unique": 157,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
     "top_paths": [
       {
-        "path": "/netresearch/t3x-nr-image-optimize/releases",
-        "title": "/releases",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-image-optimize/pull/214",
         "title": "/pull/214",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/security/advisories/GHSA-gxr8-7xj5-cvw5",
-        "title": "/security/advisories/GHSA-gxr8-7xj5-cvw5",
         "count": 1,
         "uniques": 1
       }
@@ -102,7 +90,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 37,
+      "contributions": 38,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -117,7 +105,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 7,
+      "contributions": 8,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -133,9 +121,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 3086,
-    "monthly": 272,
-    "daily": 19,
+    "total": 3099,
+    "monthly": 277,
+    "daily": 15,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,
@@ -144,7 +132,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-image-optimize/network/dependents"
   },
-  "estimated_downstream_reach": 222,
-  "blast_radius": 222,
+  "estimated_downstream_reach": 223,
+  "blast_radius": 223,
   "archived": false
 }

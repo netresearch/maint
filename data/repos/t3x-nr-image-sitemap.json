@@ -18,43 +18,43 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2024-09-03T11:26:07Z",
-  "pushed_at": "2026-10-22T18:12:56Z",
-  "updated_at": "2026-10-21T16:17:26Z",
+  "pushed_at": "2026-10-23T06:19:17Z",
+  "updated_at": "2026-10-23T06:19:18Z",
   "composer_name": "netresearch/nr-image-sitemap",
   "lifetime": {
     "stars": 2,
     "forks": 0,
     "watchers": 2,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 183,
+    "open_issues_plus_prs": 1,
+    "commits": 185,
     "issues_open": 1,
     "issues_closed": 3,
-    "prs_open": 1,
-    "prs_merged": 55,
+    "prs_open": 0,
+    "prs_merged": 56,
     "prs_closed_unmerged": 9,
     "issues_total": 4,
     "releases": 7,
     "release_downloads": 3,
     "contributors": 6,
     "external_contributors": 1,
-    "packagist_downloads": 3759,
+    "packagist_downloads": 3832,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 46,
+    "commits": 48,
     "issues_opened": 0,
     "prs_opened": 12,
     "prs_merged": 12,
     "releases": 1,
-    "packagist_downloads": 596,
+    "packagist_downloads": 601,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 834,
-    "clones_unique": 88,
+    "clones_total": 894,
+    "clones_unique": 99,
     "views_total": 0,
     "views_unique": 0,
     "top_referrers": [],
@@ -74,13 +74,18 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 19,
+      "contributions": 20,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "Gitsko",
       "contributions": 4,
       "url": "https://github.com/Gitsko"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 3,
+      "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
       "login": "magicsunday",
@@ -91,18 +96,13 @@
       "login": "github-actions[bot]",
       "contributions": 2,
       "url": "https://github.com/apps/github-actions"
-    },
-    {
-      "login": "netresearch-project-bot[bot]",
-      "contributions": 2,
-      "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": {
     "name": "netresearch/nr-image-sitemap",
-    "total": 3759,
-    "monthly": 596,
-    "daily": 7,
+    "total": 3832,
+    "monthly": 601,
+    "daily": 64,
     "url": "https://packagist.org/packages/netresearch/nr-image-sitemap"
   },
   "ghcr": null,
@@ -111,7 +111,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-image-sitemap/network/dependents"
   },
-  "estimated_downstream_reach": 62,
-  "blast_radius": 62,
+  "estimated_downstream_reach": 63,
+  "blast_radius": 63,
   "archived": false
 }
