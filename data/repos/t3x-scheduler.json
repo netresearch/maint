@@ -32,7 +32,7 @@
     "release_downloads": 3,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 5307,
+    "packagist_downloads": 5319,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,16 +43,22 @@
     "prs_opened": 8,
     "prs_merged": 8,
     "releases": 0,
-    "packagist_downloads": 1312,
+    "packagist_downloads": 1324,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 844,
     "clones_unique": 70,
-    "views_total": 4,
-    "views_unique": 4,
+    "views_total": 5,
+    "views_unique": 5,
     "top_referrers": [],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-scheduler/graphs/commit-activity",
+        "title": "/graphs/commit-activity",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/t3x-scheduler/pulse",
         "title": "/pulse",
@@ -62,12 +68,6 @@
       {
         "path": "/netresearch/t3x-scheduler/actions",
         "title": "/actions",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-scheduler/graphs/commit-activity",
-        "title": "/graphs/commit-activity",
         "count": 1,
         "uniques": 1
       }
@@ -108,9 +108,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-scheduler",
-    "total": 5307,
-    "monthly": 1312,
-    "daily": 68,
+    "total": 5319,
+    "monthly": 1324,
+    "daily": 35,
     "url": "https://packagist.org/packages/netresearch/nr-scheduler"
   },
   "ghcr": null,

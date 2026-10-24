@@ -36,10 +36,10 @@
     "prs_closed_unmerged": 20,
     "issues_total": 21,
     "releases": 42,
-    "release_downloads": 69,
+    "release_downloads": 70,
     "contributors": 14,
     "external_contributors": 9,
-    "packagist_downloads": 14389,
+    "packagist_downloads": 14392,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,29 +49,17 @@
     "issues_opened": 1,
     "prs_opened": 35,
     "prs_merged": 36,
-    "releases": 11,
-    "packagist_downloads": 722,
+    "releases": 10,
+    "packagist_downloads": 725,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1211,
-    "clones_unique": 136,
-    "views_total": 17,
-    "views_unique": 13,
-    "top_referrers": [
-      {
-        "referrer": "extensions.typo3.org",
-        "count": 4,
-        "uniques": 3
-      }
-    ],
+    "clones_total": 1160,
+    "clones_unique": 141,
+    "views_total": 13,
+    "views_unique": 10,
+    "top_referrers": [],
     "top_paths": [
-      {
-        "path": "/netresearch/t3x-cowriter",
-        "title": "Overview",
-        "count": 5,
-        "uniques": 4
-      },
       {
         "path": "/netresearch/t3x-cowriter/issues",
         "title": "/issues",
@@ -91,20 +79,20 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Index.rst",
-        "title": "/blob/main/Documentation/Index.rst",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/commit/c0ecb9bdc29a867fa67098e5c98fb6db6a322291",
-        "title": "/commit/c0ecb9bdc29a867fa67098e5c98fb6db6a322291",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-cowriter/graphs/commit-activity",
         "title": "/graphs/commit-activity",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-cowriter",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/blob/main/Documentation/Index.rst",
+        "title": "/blob/main/Documentation/Index.rst",
         "count": 1,
         "uniques": 1
       },
@@ -182,9 +170,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 14389,
-    "monthly": 722,
-    "daily": 74,
+    "total": 14392,
+    "monthly": 725,
+    "daily": 51,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,

@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    try { var theme = localStorage.getItem('nr-theme'); if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme; } catch (_) {}
+  </script>
 
   <title>t3x-nr-llm-compat — impact detail — Netresearch Open Source Impact</title>
   <meta name="description" content="LLM Compatibility Layer for TYPO3 - Routes the LLM provider calls of third-party AI extensions through nr-llm at runtime, so its provider management, budgets and telemetry apply without modifying them.">
@@ -24,22 +28,32 @@
   <link rel="stylesheet" href="../../assets/styles.css">
   <link rel="sitemap" href="https://netresearch.github.io/maint/sitemap.xml">
 
-  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://netresearch.github.io/maint/#organization", "name": "Netresearch DTT GmbH", "url": "https://www.netresearch.de/"}, {"@type": "Dataset", "@id": "https://netresearch.github.io/maint/#dataset", "name": "Netresearch Open Source Impact", "description": "Measured activity across the Netresearch open-source organisation: repositories, releases, contributors, downloads and dependent projects, with the method, the known gaps and the raw data behind every figure.", "url": "https://netresearch.github.io/maint/repo/t3x-nr-llm-compat/", "inLanguage": "en", "dateModified": "2026-10-24T03:16:06+00:00", "creator": {"@id": "https://netresearch.github.io/maint/#organization"}, "publisher": {"@id": "https://netresearch.github.io/maint/#organization"}, "license": "https://creativecommons.org/licenses/by/4.0/", "measurementTechnique": "GitHub REST API — repositories, issues, pull requests, releases, contributors, commits GitHub dependency graph — dependent repositories and packages Packagist — download counts for published PHP packages GitHub Container Registry — container pull counts", "isAccessibleForFree": true, "distribution": [{"@type": "DataDownload", "name": "Current snapshot (JSON)", "encodingFormat": "application/json", "contentUrl": "https://netresearch.github.io/maint/data/latest.json"}, {"@type": "DataDownload", "name": "Repository table (CSV)", "encodingFormat": "text/csv", "contentUrl": "https://netresearch.github.io/maint/data/repositories.csv"}, {"@type": "DataDownload", "name": "Daily history (JSON)", "encodingFormat": "application/json", "contentUrl": "https://netresearch.github.io/maint/data/history.json"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Netresearch Open Source Impact", "item": "https://netresearch.github.io/maint/repo/t3x-nr-llm-compat/"}]}]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://netresearch.github.io/maint/#organization", "name": "Netresearch DTT GmbH", "url": "https://www.netresearch.de/"}, {"@type": "Dataset", "@id": "https://netresearch.github.io/maint/snapshot/2026-10-24-21ee60d3347a/#dataset", "name": "Netresearch Open Source Impact", "description": "Measured activity across the Netresearch open-source organisation: repositories, releases, contributors, downloads and dependent projects, with the method, the known gaps and the raw data behind every figure.", "url": "https://netresearch.github.io/maint/snapshot/2026-10-24-21ee60d3347a/", "inLanguage": "en", "dateModified": "2026-10-24T18:42:21+00:00", "creator": {"@id": "https://netresearch.github.io/maint/#organization"}, "publisher": {"@id": "https://netresearch.github.io/maint/#organization"}, "license": "https://creativecommons.org/licenses/by/4.0/", "measurementTechnique": "GitHub REST API — repositories, issues, pull requests, releases, contributors, commits GitHub dependency graph — dependent repositories and packages Packagist — download counts for published PHP packages GitHub Container Registry — container pull counts", "isAccessibleForFree": true, "distribution": [{"@type": "DataDownload", "name": "Current snapshot (JSON)", "encodingFormat": "application/json", "contentUrl": "https://netresearch.github.io/maint/data/snapshots/2026-10-24-21ee60d3347a.json"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Netresearch Open Source Impact", "item": "https://netresearch.github.io/maint/repo/t3x-nr-llm-compat/"}]}]}</script>
 </head>
 <body>
   <a class="skip-link" href="#main">Snapshot</a>
 
   <header class="site-header">
-    <div class="container header-bar"><a class="brand" href="../../" aria-label="Netresearch">
-        <img src="../../assets/netresearch.svg" alt="Netresearch" width="180" height="40">
+    <div class="container header-bar"><a class="brand" href="https://www.netresearch.de/" aria-label="Netresearch DTT GmbH">
+        <img src="../../assets/netresearch.svg" alt="Netresearch DTT GmbH" width="48" height="48">
       </a>
-      <nav class="site-nav" aria-label="Dashboard navigation">
+      <div class="header-actions">
+        <a href="https://netresearch.github.io/maint/de/repo/t3x-nr-llm-compat/" hreflang="de" lang="de">Deutsch</a>
+        <select class="btn" id="theme-toggle" data-theme-control aria-label="Colour scheme">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+        <button class="btn nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu</button>
+      </div>
+      <nav class="site-nav" id="site-nav" aria-label="Dashboard navigation">
+        <a href="https://netresearch.github.io/">Portfolio</a>
+        <a href="https://netresearch.github.io/modularer-ki-stack-page/en/">AI stack</a>
         <a href="../../#snapshot">Snapshot</a>
         <a href="../../#provenance">Data and provenance</a>
         <a href="../../#method">Methodology</a>
         <a href="../../#repositories">Repositories</a>
         <a href="../../#downloads">Downloads</a>
-        <a href="https://netresearch.github.io/maint/de/repo/t3x-nr-llm-compat/" hreflang="de" lang="de">Deutsch</a>
       </nav>
     </div>
   </header>
@@ -57,7 +71,7 @@
   <h1>t3x-nr-llm-compat <span class="pill typo3">TYPO3</span></h1>
   <p class="lead">LLM Compatibility Layer for TYPO3 - Routes the LLM provider calls of third-party AI extensions through nr-llm at runtime, so its provider management, budgets and telemetry apply without modifying them.</p>
   <p class="meta">
-    Data as of: <time datetime="2026-10-24T03:16:06+00:00">24 October 2026, 03:16 UTC</time>
+    Data as of: <time datetime="2026-10-24T18:42:21+00:00">24 October 2026, 18:42 UTC</time>
   </p>
   <p class="cta-row">
     <a class="btn" href="https://github.com/netresearch/t3x-nr-llm-compat">Repository</a>    <a class="btn btn-primary" href="https://www.netresearch.de/kontakt/?utm_source=github-pages&amp;utm_medium=referral&amp;utm_campaign=impact-dashboard&amp;utm_content=repo" data-cta="business" data-cta-position="repo">Use this open-source capability in your project</a>
@@ -89,7 +103,7 @@
       <dd class="kpi-value" data-figure="commits">158</dd>
     </div>    <div class="kpi">
       <dt class="kpi-label">Packagist downloads</dt>
-      <dd class="kpi-value" data-figure="packagist_downloads">1,178</dd>
+      <dd class="kpi-value" data-figure="packagist_downloads">1,188</dd>
     </div>    <div class="kpi">
       <dt class="kpi-label">Container pulls</dt>
       <dd class="kpi-value" data-figure="ghcr_downloads">0</dd>
@@ -115,10 +129,10 @@
       <dd class="kpi-value" data-figure="prs_merged_30d">22</dd>
     </div>    <div class="kpi">
       <dt class="kpi-label">Releases</dt>
-      <dd class="kpi-value" data-figure="releases_30d">6</dd>
+      <dd class="kpi-value" data-figure="releases_30d">5</dd>
     </div>    <div class="kpi">
       <dt class="kpi-label">Packagist downloads</dt>
-      <dd class="kpi-value" data-figure="packagist_downloads_30d">579</dd>
+      <dd class="kpi-value" data-figure="packagist_downloads_30d">589</dd>
     </div>    <div class="kpi">
       <dt class="kpi-label">Container pulls</dt>
       <dd class="kpi-value" data-figure="ghcr_downloads_30d">0</dd>
@@ -149,9 +163,9 @@
     </div>    <div class="card">
       <h3>Packagist</h3>
       <dl>
-        <div class="stat"><dt>Total downloads</dt><dd>1,178</dd></div>
-        <div class="stat"><dt>Monthly</dt><dd>579</dd></div>
-        <div class="stat"><dt>Daily</dt><dd>64</dd></div>
+        <div class="stat"><dt>Total downloads</dt><dd>1,188</dd></div>
+        <div class="stat"><dt>Monthly</dt><dd>589</dd></div>
+        <div class="stat"><dt>Daily</dt><dd>37</dd></div>
       </dl>
       <p><a href="https://packagist.org/packages/netresearch/nr-llm-compat">netresearch/nr-llm-compat</a></p>
     </div>    <div class="card">
@@ -165,7 +179,7 @@
     <div class="card">
       <h3>Traffic (last 14 days)</h3>      <dl>
         <div class="stat"><dt>Views (total / unique)</dt><dd>1 / 1</dd></div>
-        <div class="stat"><dt>Clones (total / unique)</dt><dd>1,364 / 116</dd></div>
+        <div class="stat"><dt>Clones (total / unique)</dt><dd>1,420 / 114</dd></div>
       </dl>    </div>
   </div>
 </section>
@@ -191,5 +205,6 @@
     </div>
   </footer>
 
+  <script src="../../assets/navigation.js" defer></script>
 </body>
 </html>
