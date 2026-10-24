@@ -27,15 +27,19 @@ Output: OUTPUT_DIR/
 from __future__ import annotations
 
 import csv
+import html
 import json
 import os
+import re
 import shutil
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlencode
 
 import yaml
 from jinja2 import Environment, FileSystemLoader
+from snapshot_archive import archive_key, write_snapshot
 
 ROOT = Path(__file__).resolve().parent.parent
 DASHBOARD = ROOT / "dashboard"
@@ -255,6 +259,8 @@ def citation_text(t: dict, url: str, generated_at: str) -> str:
 
 
 def json_ld_for(t: dict, snapshot: dict, canonical: str) -> str:
+    date = archive_key(snapshot)
+    archive = f"{SITE_URL}{'de/' if t['lang'] == 'de' else ''}snapshot/{date}/"
     organisation = {
         SCHEMA_TYPE: "Organization",
         "@id": f"{SITE_URL}#organization",
@@ -263,10 +269,10 @@ def json_ld_for(t: dict, snapshot: dict, canonical: str) -> str:
     }
     dataset = {
         SCHEMA_TYPE: "Dataset",
-        "@id": f"{SITE_URL}#dataset",
+        "@id": f"{archive}#dataset",
         "name": t["hero"]["title"],
         "description": t["meta"]["description"],
-        "url": canonical,
+        "url": archive,
         "inLanguage": t["html_lang"],
         "dateModified": snapshot["generated_at"],
         "creator": {"@id": f"{SITE_URL}#organization"},
@@ -279,19 +285,7 @@ def json_ld_for(t: dict, snapshot: dict, canonical: str) -> str:
                 SCHEMA_TYPE: "DataDownload",
                 "name": t["downloads"]["latest_json"],
                 "encodingFormat": "application/json",
-                "contentUrl": f"{SITE_URL}data/latest.json",
-            },
-            {
-                SCHEMA_TYPE: "DataDownload",
-                "name": t["downloads"]["repos_csv"],
-                "encodingFormat": "text/csv",
-                "contentUrl": f"{SITE_URL}data/repositories.csv",
-            },
-            {
-                SCHEMA_TYPE: "DataDownload",
-                "name": t["downloads"]["history_json"],
-                "encodingFormat": "application/json",
-                "contentUrl": f"{SITE_URL}data/history.json",
+                "contentUrl": f"{SITE_URL}data/snapshots/{date}.json",
             },
         ],
     }
@@ -310,6 +304,62 @@ def json_ld_for(t: dict, snapshot: dict, canonical: str) -> str:
 def write(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
+
+
+def migrate_legacy_snapshot_html(markup: str, t: dict) -> str:
+    """Repair metadata/actions while preserving the archived figures verbatim.
+
+    Old daily JSON could be overwritten by the former collector. Its archived
+    HTML is the surviving immutable record, so do not claim a mutable JSON/CSV
+    download represents those historical figures.
+    """
+    def metadata(match: re.Match) -> str:
+        payload = json.loads(match.group(2))
+        nodes = payload.get("@graph", [payload]) if isinstance(payload, dict) else payload
+        changed = False
+        for node in nodes:
+            if node.get("@type") != "Dataset":
+                continue
+            downloads = node.get("distribution", [])
+            if isinstance(downloads, dict):
+                downloads = [downloads]
+            if not any(item.get("contentUrl", "").endswith(("/data/latest.json", "/data/repositories.csv", "/data/history.json")) for item in downloads):
+                continue
+            url = node["url"].split("#", 1)[0]
+            node["@id"] = f"{url}#dataset"
+            node["distribution"] = [{
+                "@type": "DataDownload", "name": t["hero"]["title"],
+                "encodingFormat": "text/html", "contentUrl": url,
+            }]
+            changed = True
+        if not changed:
+            return match.group(0)
+        body = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
+        return match.group(1) + body + match.group(3)
+
+    markup = re.sub(r'(<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>)(.*?)(</script>)', metadata, markup, flags=re.S)
+    class CanonicalParser(HTMLParser):
+        value = None
+
+        def handle_starttag(self, tag, attributes):
+            attrs = dict(attributes)
+            if tag == "link" and attrs.get("rel") == "canonical":
+                self.value = attrs.get("href")
+
+    canonical = CanonicalParser()
+    canonical.feed(markup)
+    if canonical.value:
+        label = "HTML-Archiv" if t["lang"] == "de" else "HTML archive"
+        markup = re.sub(
+            r'<a\b([^>]*?)href=["\'][^"\']*data/snapshots/\d{4}-\d{2}-\d{2}\.json["\']([^>]*)>.*?</a>',
+            lambda match: f'<a{match.group(1)}href="{html.escape(canonical.value, quote=True)}"{match.group(2)} download>{label}</a>',
+            markup, flags=re.S,
+        )
+    return re.sub(
+        r'(<button\b(?=[^>]*\bid=["\']copy-citation["\'])[^>]*>).*?(</button>)',
+        lambda match: match.group(1) + html.escape(t["cite"]["copy"]) + match.group(2),
+        markup, flags=re.S,
+    )
 
 
 def write_csv(rows: list[dict], path: Path) -> None:
@@ -361,6 +411,10 @@ DICTIONARY = {
 def main() -> None:
     data_dir = OUTPUT_DIR / "data"
     snapshot = json.loads((data_dir / "latest.json").read_text(encoding="utf-8"))
+    # The citation must resolve even when the renderer is run independently.
+    current_archive = write_snapshot(data_dir, snapshot)
+    for archived_file in list((data_dir / "snapshots").glob("*.json")):
+        write_snapshot(data_dir, json.loads(archived_file.read_text(encoding="utf-8")))
     history_path = data_dir / "history.json"
     history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else {"daily": []}
 
@@ -446,7 +500,7 @@ def main() -> None:
                     {"date": date, "href": f"snapshot/{date}/"}
                     for date in snapshot_dates[:SNAPSHOT_LINKS]
                 ],
-                citation=citation_text(t, home_url, snapshot["generated_at"]),
+                citation=citation_text(t, f"{home_url}snapshot/{current_archive}/", snapshot["generated_at"]),
             ),
         )
 
@@ -507,6 +561,10 @@ def main() -> None:
             if target.exists():
                 # Written once. Regenerating would break the promise that a cited
                 # snapshot URL still shows the figures it showed when cited.
+                original = target.read_text(encoding="utf-8")
+                migrated = migrate_legacy_snapshot_html(original, t)
+                if migrated != original:
+                    write(target, migrated)
                 continue
             archived_snapshot = json.loads(
                 (data_dir / "snapshots" / f"{date}.json").read_text(encoding="utf-8")

@@ -37,7 +37,7 @@ const DIST = process.argv[2] ?? 'build';
 // WCAG 2.1 AA, which is what the pages claim. 'best-practice' is deliberately
 // not included: it flags stylistic preferences, and a gate that fails on those
 // gets disabled instead of fixed.
-const TAGS = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'];
+const TAGS = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'];
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -176,9 +176,33 @@ async function auditPage(browser, port, route, scheme) {
     async (tags) => await window.axe.run(document, { runOnly: { type: 'tag', values: tags } }),
     TAGS,
   );
-  await page.close();
-
   const found = results.violations.map((violation) => ({ route, scheme, violation }));
+  const enhanced = await page.evaluate(async () => window.axe.run(document, {
+    runOnly: { type: 'rule', values: ['color-contrast-enhanced'] },
+  }));
+  found.push(...enhanced.violations.map((violation) => ({ route, scheme, violation })));
+  const issues = [];
+  for (const width of [390, 320]) {
+    await page.setViewport({ width, height: 844 });
+    await page.evaluate(() => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))));
+    const state = await page.evaluate(() => ({
+      scroll: document.documentElement.scrollWidth,
+      body: getComputedStyle(document.body).fontFamily,
+      heading: getComputedStyle(document.querySelector('h1')).fontFamily,
+    }));
+    if (state.scroll > width + 1) issues.push(`${width}px: document grows to ${state.scroll}px`);
+    if (!state.body.includes('Open Sans') || !state.heading.includes('Raleway')) issues.push('Brand fonts not applied');
+  }
+  if (issues.length) found.push({ route, scheme, violation: {
+    id: 'responsive-brand-regression', impact: 'serious',
+    help: 'Localise table scrolling and keep the document inside the viewport',
+    helpUrl: 'https://www.w3.org/WAI/WCAG22/Understanding/reflow.html',
+    nodes: issues.map((target) => ({ target: [target], failureSummary: '' })),
+  } });
+  if (results.incomplete.length || enhanced.incomplete.length) {
+    console.log(`  ${route} [${scheme}]: ${results.incomplete.length + enhanced.incomplete.length} rule(s) need manual review`);
+  }
+  await page.close();
   if (broken.length) {
     found.unshift({
       route,
@@ -236,7 +260,7 @@ async function main() {
   }
 
   console.log(
-    `axe: no WCAG 2.1 AA violations in ${checked} page renders (${sampled.length} route shapes × ${SCHEMES.length} colour schemes, sampled from ${routes.length} pages)`,
+    `axe: no automated WCAG 2.2 AA / enhanced-contrast violations or responsive brand regressions in ${checked} page renders (${sampled.length} route shapes × ${SCHEMES.length} colour schemes, sampled from ${routes.length} pages); incomplete checks require manual review`,
   );
 }
 
