@@ -50,6 +50,7 @@ LANGS = ("en", "de")
 
 UTC_SUFFIX = "+00:00"
 SCHEMA_TYPE = "@type"
+SCHEMA_GRAPH = "@graph"
 INDEX_HTML = "index.html"
 TWO_UP = "../../"
 
@@ -296,7 +297,7 @@ def json_ld_for(t: dict, snapshot: dict, canonical: str) -> str:
         ],
     }
     graph = [organisation, dataset, breadcrumb]
-    payload = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)
+    payload = json.dumps({"@context": "https://schema.org", SCHEMA_GRAPH: graph}, ensure_ascii=False)
     # A literal "<" would let a value close the script element early.
     return payload.replace("<", "\\u003c")
 
@@ -345,7 +346,7 @@ class SnapshotActions(HTMLParser):
 
 def migrate_dataset_metadata(body: str, t: dict) -> str:
     payload = json.loads(body)
-    nodes = payload.get("@graph", [payload]) if isinstance(payload, dict) else payload
+    nodes = payload.get(SCHEMA_GRAPH, [payload]) if isinstance(payload, dict) else payload
     changed = False
     for node in nodes:
         if node.get(SCHEMA_TYPE) != "Dataset":
@@ -419,7 +420,7 @@ def preserved_snapshot_date(markup: str, t: dict) -> datetime | None:
         if tag != "script":
             continue
         payload = json.loads(markup[body_start:body_end])
-        nodes = payload.get("@graph", [payload]) if isinstance(payload, dict) else payload
+        nodes = payload.get(SCHEMA_GRAPH, [payload]) if isinstance(payload, dict) else payload
         for node in nodes:
             collected = html_archive_date(node, parser.canonical)
             if collected:
