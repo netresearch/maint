@@ -2,6 +2,7 @@
 import importlib.util
 import json
 from pathlib import Path
+from xml.etree import ElementTree
 
 import pytest
 from bs4 import BeautifulSoup
@@ -127,3 +128,96 @@ def test_collector_preserves_daily_archive_before_rendering(rendered):
     second_key = renderer.write_snapshot(data, second)
     assert daily.read_bytes() == first_bytes
     assert json.loads((data / f"snapshots/{second_key}.json").read_text()) == second
+
+
+@pytest.mark.parametrize("prefix", ["", "de/"])
+def test_modern_daily_alias_keeps_json_download_on_rerender(rendered, prefix):
+    root, renderer = rendered
+    alias = root / prefix / "snapshot/2026-10-24/index.html"
+    original = alias.read_bytes()
+    renderer.main()
+    assert alias.read_bytes() == original
+    soup = BeautifulSoup(alias.read_text(), "html.parser")
+    assert soup.select_one('a[href$="data/snapshots/2026-10-24.json"]')
+
+
+@pytest.mark.parametrize("locale,prefix", [("en", ""), ("de", "de/")])
+def test_copy_action_is_repaired_without_rewriting_modern_download(rendered, locale, prefix):
+    root, renderer = rendered
+    soup = BeautifulSoup((root / prefix / "snapshot/2026-10-24/index.html").read_text(), "html.parser")
+    metadata = str(soup.select_one('script[type="application/ld+json"]'))
+    soup.select_one("#copy-citation").string = "<built-in method copy of dict object>"
+    translations = renderer.load_translations()[locale]
+    migrated = BeautifulSoup(renderer.migrate_legacy_snapshot_html(str(soup), translations), "html.parser")
+    assert str(migrated.select_one('script[type="application/ld+json"]')) == metadata
+    assert migrated.select_one("#copy-citation").get_text() == translations["cite"]["copy"]
+    assert migrated.select_one('a[href$="data/snapshots/2026-10-24.json"]')
+
+
+def test_discovery_counts_exact_runs_once_and_keeps_aliases_resolvable(rendered, monkeypatch):
+    root, renderer = rendered
+    monkeypatch.setattr(renderer, "SNAPSHOT_LINKS", 3)
+    data = root / "data"
+    first = json.loads((data / "latest.json").read_text())
+    second = {**first, "generated_at": "2026-10-24T15:00:00Z", "totals": {"stars": 2}}
+    earlier = {**first, "generated_at": "2026-10-23T15:00:00Z", "totals": {"stars": 3}}
+    keys = {renderer.archive_key(item) for item in (first, second, earlier)}
+    renderer.write_snapshot(data, earlier)
+    (data / "latest.json").write_text(json.dumps(second))
+    renderer.main()
+    for prefix in ("", "de/"):
+        soup = BeautifulSoup((root / prefix / "index.html").read_text(), "html.parser")
+        links = [link["href"] for link in soup.select(".snapshot-list a")]
+        assert set(links) == {f"snapshot/{key}/" for key in keys}
+        assert len(links) == len(keys)
+        assert links[0] == f"snapshot/{renderer.archive_key(second)}/"
+        for key in (*keys, "2026-10-24", "2026-10-23"):
+            assert (root / prefix / f"snapshot/{key}/index.html").is_file()
+    sitemap = ElementTree.fromstring((root / "sitemap.xml").read_text())
+    locations = [node.text for node in sitemap.findall(".//{*}loc") if "/snapshot/" in node.text]
+    assert set(locations) == {f"{renderer.SITE_URL}{prefix}snapshot/{key}/" for prefix in ("", "de/") for key in keys}
+    assert len(locations) == len(keys) * 2
+
+
+def test_unique_legacy_html_run_survives_json_alias_deduplication(rendered):
+    root, renderer = rendered
+    data = root / "data"
+    earlier = json.loads((data / "latest.json").read_text())
+    earlier_key = renderer.archive_key(earlier)
+    figures = {}
+    for prefix in ("", "de/"):
+        page = root / prefix / "snapshot/2026-10-24/index.html"
+        soup = BeautifulSoup(page.read_text(), "html.parser")
+        script = soup.select_one('script[type="application/ld+json"]')
+        payload = json.loads(script.string)
+        dataset = next(node for node in payload["@graph"] if node["@type"] == "Dataset")
+        dataset["url"] = f"{renderer.SITE_URL}{prefix}snapshot/2026-10-24/"
+        dataset["distribution"] = [{"@type": "DataDownload", "contentUrl": f"{renderer.SITE_URL}data/latest.json"}]
+        script.string = json.dumps(payload)
+        figures[prefix] = [str(node) for node in soup.select("[data-figure]")]
+        page.write_text(str(soup))
+        (root / prefix / f"snapshot/{earlier_key}/index.html").unlink()
+    (data / f"snapshots/{earlier_key}.json").unlink()
+    # Simulate the historical collector overwriting the daily JSON while the
+    # daily HTML still contains the only surviving record of the earlier run.
+    later = {**earlier, "generated_at": "2026-10-24T15:00:00Z", "totals": {"stars": 99}}
+    (data / "latest.json").write_text(json.dumps(later))
+    (data / "snapshots/2026-10-24.json").write_text(json.dumps(later))
+    renderer.main()
+    later_key = renderer.archive_key(later)
+    migrated_pages = {prefix: (root / prefix / "snapshot/2026-10-24/index.html").read_bytes() for prefix in ("", "de/")}
+    renderer.main()
+    for prefix in ("", "de/"):
+        assert (root / prefix / "snapshot/2026-10-24/index.html").read_bytes() == migrated_pages[prefix]
+        home = BeautifulSoup((root / prefix / "index.html").read_text(), "html.parser")
+        assert {link["href"] for link in home.select(".snapshot-list a")} == {f"snapshot/{later_key}/", "snapshot/2026-10-24/"}
+        alias = BeautifulSoup((root / prefix / "snapshot/2026-10-24/index.html").read_text(), "html.parser")
+        assert [str(node) for node in alias.select("[data-figure]")] == figures[prefix]
+        graph = json.loads(alias.select_one('script[type="application/ld+json"]').string)["@graph"]
+        dataset = next(node for node in graph if node["@type"] == "Dataset")
+        assert dataset["dateModified"] == earlier["generated_at"]
+        assert dataset["distribution"][0]["encodingFormat"] == "text/html"
+    sitemap = (root / "sitemap.xml").read_text()
+    for prefix in ("", "de/"):
+        assert f"{renderer.SITE_URL}{prefix}snapshot/2026-10-24/" in sitemap
+        assert f"{renderer.SITE_URL}{prefix}snapshot/{later_key}/" in sitemap

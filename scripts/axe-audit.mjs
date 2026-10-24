@@ -155,6 +155,18 @@ function report({ route, scheme, violation }) {
   }
 }
 
+/** Incomplete nodes are undecided and need an identifiable manual check. */
+function reportIncomplete(route, scheme, result) {
+  for (const node of result.nodes) {
+    console.log(JSON.stringify({
+      status: 'manual-review-required', route, scheme, rule: result.id,
+      target: node.target, failureSummary: node.failureSummary ?? null,
+      messages: [...(node.any ?? []), ...(node.all ?? []), ...(node.none ?? [])]
+        .map((check) => check.message).filter(Boolean),
+    }));
+  }
+}
+
 /** A viewport change and its measurements are one sequential browser step. */
 async function responsiveIssues(page, width) {
   const issues = [];
@@ -207,8 +219,8 @@ async function auditPage(browser, port, route, scheme) {
     helpUrl: 'https://www.w3.org/WAI/WCAG22/Understanding/reflow.html',
     nodes: issues.map((target) => ({ target: [target], failureSummary: '' })),
   } });
-  if (results.incomplete.length || enhanced.incomplete.length) {
-    console.log(`  ${route} [${scheme}]: ${results.incomplete.length + enhanced.incomplete.length} rule(s) need manual review`);
+  for (const result of [...results.incomplete, ...enhanced.incomplete]) {
+    reportIncomplete(route, scheme, result);
   }
   await page.close();
   if (broken.length) {

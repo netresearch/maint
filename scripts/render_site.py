@@ -376,13 +376,16 @@ def migrate_legacy_snapshot_html(markup: str, t: dict) -> str:
     """
     parser = SnapshotActions(markup)
     parser.feed(markup)
-    replacements = []
+    replacements = [
+        (body_start, body_end, migrate_dataset_metadata(markup[body_start:body_end], t))
+        for tag, _, body_start, body_end, _, _ in parser.elements
+        if tag == "script"
+    ]
+    legacy_metadata = any(markup[start:end] != replacement for start, end, replacement in replacements)
     for tag, start, body_start, body_end, end, attrs in parser.elements:
-        if tag == "script":
-            replacements.append((body_start, body_end, migrate_dataset_metadata(markup[body_start:body_end], t)))
-        elif tag == "button":
+        if tag == "button":
             replacements.append((body_start, body_end, html.escape(t["cite"]["copy"])))
-        elif parser.canonical:
+        elif tag == "a" and parser.canonical and legacy_metadata:
             attrs.update(href=parser.canonical, download=None)
             attributes = "".join(
                 f' {key}="{html.escape(value, quote=True)}"' if value is not None else f" {key}"
@@ -394,6 +397,48 @@ def migrate_legacy_snapshot_html(markup: str, t: dict) -> str:
     for start, end, replacement in sorted(replacements, reverse=True):
         markup = markup[:start] + replacement + markup[end:]
     return markup
+
+
+def html_archive_date(node: dict, canonical: str) -> datetime | None:
+    """An HTML distribution can be the only surviving record of an old run."""
+    if node.get(SCHEMA_TYPE) != "Dataset":
+        return None
+    downloads = node.get("distribution", [])
+    if isinstance(downloads, dict):
+        downloads = [downloads]
+    if any(item.get("encodingFormat") == "text/html" and item.get("contentUrl") == canonical for item in downloads):
+        return datetime.fromisoformat(node["dateModified"].replace("Z", UTC_SUFFIX))
+    return None
+
+
+def preserved_snapshot_date(markup: str, t: dict) -> datetime | None:
+    markup = migrate_legacy_snapshot_html(markup, t)
+    parser = SnapshotActions(markup)
+    parser.feed(markup)
+    for tag, _, body_start, body_end, _, _ in parser.elements:
+        if tag != "script":
+            continue
+        payload = json.loads(markup[body_start:body_end])
+        nodes = payload.get("@graph", [payload]) if isinstance(payload, dict) else payload
+        for node in nodes:
+            collected = html_archive_date(node, parser.canonical)
+            if collected:
+                return collected
+    return None
+
+
+def snapshot_discovery(prefix: str, snapshot_dates: list[str], run_dates: dict, t: dict) -> list[str]:
+    dates = dict(run_dates)
+    for alias in snapshot_dates:
+        if alias in dates:
+            continue
+        page = OUTPUT_DIR / prefix / "snapshot" / alias / INDEX_HTML
+        if not page.exists():
+            continue
+        collected = preserved_snapshot_date(page.read_text(encoding="utf-8"), t)
+        if collected:
+            dates[alias] = collected
+    return sorted(dates, key=lambda key: (dates[key], key), reverse=True)
 
 
 def write_csv(rows: list[dict], path: Path) -> None:
@@ -447,8 +492,12 @@ def main() -> None:
     snapshot = json.loads((data_dir / "latest.json").read_text(encoding="utf-8"))
     # The citation must resolve even when the renderer is run independently.
     current_archive = write_snapshot(data_dir, snapshot)
-    for archived_file in (data_dir / "snapshots").glob("*.json"):
-        write_snapshot(data_dir, json.loads(archived_file.read_text(encoding="utf-8")))
+    run_dates = {}
+    # Freeze the input names before write_snapshot creates keyed copies.
+    for archived_file in sorted((data_dir / "snapshots").glob("*.json")):
+        archived_snapshot = json.loads(archived_file.read_text(encoding="utf-8"))
+        key = write_snapshot(data_dir, archived_snapshot)
+        run_dates[key] = datetime.fromisoformat(archived_snapshot["generated_at"].replace("Z", UTC_SUFFIX))
     history_path = data_dir / "history.json"
     history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else {"daily": []}
 
@@ -470,6 +519,7 @@ def main() -> None:
     active = active_repos(snapshot)
     history_rows = build_history_rows(history)
     category_groups_cache = {}
+    snapshot_discovery_cache = {}
 
     snapshot_dates = sorted(
         (p.stem for p in (data_dir / "snapshots").glob("*.json")), reverse=True
@@ -480,6 +530,10 @@ def main() -> None:
         locale = t["locale"]
         prefix = "" if lang == "en" else "de/"
         home_url = f"{SITE_URL}{prefix}"
+        # JSON aliases can be deduplicated, but an old HTML alias may preserve
+        # earlier figures that the overwritten daily JSON no longer contains.
+        snapshot_runs = snapshot_discovery(prefix, snapshot_dates, run_dates, t)
+        snapshot_discovery_cache[lang] = snapshot_runs
 
         alternates = [
             {"hreflang": "en", "href": SITE_URL},
@@ -532,7 +586,7 @@ def main() -> None:
                 repo_rows=repo_rows,
                 snapshot_links=[
                     {"date": date, "href": f"snapshot/{date}/"}
-                    for date in snapshot_dates[:SNAPSHOT_LINKS]
+                    for date in snapshot_runs[:SNAPSHOT_LINKS]
                 ],
                 citation=citation_text(t, f"{home_url}snapshot/{current_archive}/", snapshot["generated_at"]),
             ),
@@ -659,9 +713,9 @@ def main() -> None:
     for repo in active:
         urls.append(f"{SITE_URL}repo/{repo['name']}/")
         urls.append(f"{SITE_URL}de/repo/{repo['name']}/")
-    for date in snapshot_dates[:SNAPSHOT_LINKS]:
-        urls.append(f"{SITE_URL}snapshot/{date}/")
-        urls.append(f"{SITE_URL}de/snapshot/{date}/")
+    for lang, snapshot_runs in snapshot_discovery_cache.items():
+        prefix = "" if lang == "en" else "de/"
+        urls.extend(f"{SITE_URL}{prefix}snapshot/{date}/" for date in snapshot_runs[:SNAPSHOT_LINKS])
 
     lastmod = snapshot["generated_at"][:10]
     entries = "\n".join(

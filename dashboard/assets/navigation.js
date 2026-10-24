@@ -6,7 +6,9 @@
   try {
     const stored = localStorage.getItem('nr-theme');
     if (['system', 'light', 'dark'].includes(stored)) preference = stored;
-  } catch (_) {}
+  } catch (_) {
+    // Storage can be blocked; the system preference remains usable in memory.
+  }
   const applyTheme = () => {
     let effective = preference;
     if (preference === 'system') effective = system.matches ? 'dark' : 'light';
@@ -16,7 +18,9 @@
   };
   theme?.addEventListener('change', () => {
     preference = theme.value;
-    try { localStorage.setItem('nr-theme', preference); } catch (_) {}
+    try { localStorage.setItem('nr-theme', preference); } catch (_) {
+      // The selected mode still works in memory when persistence is blocked.
+    }
     applyTheme();
   });
   const updateCharts = () => {
