@@ -79,14 +79,51 @@ def test_legacy_metadata_migration_preserves_figures_and_collection_date(rendere
     original_date = dataset["dateModified"]
     script.string = json.dumps(payload)
     soup.select_one("#copy-citation").string = "<built-in method copy of dict object>"
-    figures = [node.get_text() for node in soup.select("[data-figure]")]
+    figures = [str(node) for node in soup.select("[data-figure]")]
+    assert figures
     migrated = BeautifulSoup(renderer.migrate_legacy_snapshot_html(str(soup), renderer.load_translations()["en"]), "html.parser")
     actual = next(node for node in json.loads(migrated.select_one('script[type="application/ld+json"]').string)["@graph"] if node["@type"] == "Dataset")
     assert actual["dateModified"] == original_date
     assert actual["distribution"] == [{"@type": "DataDownload", "name": renderer.load_translations()["en"]["hero"]["title"], "encodingFormat": "text/html", "contentUrl": legacy_url}]
-    assert [node.get_text() for node in migrated.select("[data-figure]")] == figures
+    assert [str(node) for node in migrated.select("[data-figure]")] == figures
     assert migrated.select_one("#copy-citation").get_text() == renderer.load_translations()["en"]["cite"]["copy"]
     assert not any(link.get("href", "").endswith("data/snapshots/2026-10-24.json") for link in migrated.select("a"))
     download = migrated.select_one("a[download]")
     assert download["href"] == legacy_url
     assert download.get_text() == "HTML archive"
+
+
+@pytest.mark.parametrize("locale", ["en", "de"])
+def test_legacy_actions_are_selective_and_idempotent(rendered, locale):
+    _, renderer = rendered
+    translations = renderer.load_translations()[locale]
+    metadata = {"@type": "Dataset", "url": "https://example.org/archive/?a=1&b=2", "dateModified": "2020-01-01", "distribution": {"contentUrl": "https://example.org/data/repositories.csv"}}
+    markup = '<link href="https://example.org/archive/?a=1&amp;b=2" rel="canonical">\n'
+    markup += '<script data-extra="value"\n type="application/ld+json">' + json.dumps(metadata) + '</script>\n'
+    unchanged = '<script type="application/json">{"keep": "<script>"}</script><p data-figure="stars">42 &amp; 17</p>'
+    markup += unchanged
+    markup += '<a class="btn" href="../../data/snapshots/2020-01-01.json">JSON</a>'
+    markup += '<a href="../../data/snapshots/2020-01-01-abcdef123456.json">Hashed JSON</a>'
+    markup += '<button data-copied="OK" id="copy-citation">broken</button>'
+    migrated = renderer.migrate_legacy_snapshot_html(markup, translations)
+    assert unchanged in migrated
+    assert '<a href="../../data/snapshots/2020-01-01-abcdef123456.json">Hashed JSON</a>' in migrated
+    soup = BeautifulSoup(migrated, "html.parser")
+    assert soup.select_one('a[download]')["href"] == "https://example.org/archive/?a=1&b=2"
+    assert soup.select_one('a[download]')["class"] == ["btn"]
+    assert soup.select_one('#copy-citation').get_text() == translations["cite"]["copy"]
+    assert renderer.migrate_legacy_snapshot_html(migrated, translations) == migrated
+
+
+def test_collector_preserves_daily_archive_before_rendering(rendered):
+    root, renderer = rendered
+    data = root / "data"
+    first = json.loads((data / "latest.json").read_text())
+    daily = data / "snapshots/2026-10-24.json"
+    first_bytes = daily.read_bytes()
+    # The collector writes before the renderer: preservation must hold at that
+    # boundary, without a later scan of historical JSON restoring the first run.
+    second = {**first, "generated_at": "2026-10-24T15:00:00Z", "totals": {"stars": 2}}
+    second_key = renderer.write_snapshot(data, second)
+    assert daily.read_bytes() == first_bytes
+    assert json.loads((data / f"snapshots/{second_key}.json").read_text()) == second

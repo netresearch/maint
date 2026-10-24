@@ -306,6 +306,67 @@ def write(path: Path, content: str) -> None:
     path.write_text(content, encoding="utf-8")
 
 
+class SnapshotActions(HTMLParser):
+    """Locate legacy actions without serialising the rest of an archive again."""
+
+    def __init__(self, markup: str):
+        super().__init__(convert_charrefs=False)
+        self.markup = markup
+        self.line_offsets = [0] + [index + 1 for index, char in enumerate(markup) if char == "\n"]
+        self.canonical = None
+        self.open_elements = {}
+        self.elements = []
+
+    def source_offset(self) -> int:
+        line, column = self.getpos()
+        return self.line_offsets[line - 1] + column
+
+    def handle_starttag(self, tag, attributes):
+        attrs = dict(attributes)
+        if tag == "link" and attrs.get("rel") == "canonical":
+            self.canonical = attrs.get("href")
+        targets = {
+            "script": attrs.get("type") == "application/ld+json",
+            "button": attrs.get("id") == "copy-citation",
+            "a": re.search(r"data/snapshots/\d{4}-\d{2}-\d{2}\.json$", attrs.get("href") or ""),
+        }
+        if targets.get(tag):
+            start = self.source_offset()
+            self.open_elements[tag] = (start, start + len(self.get_starttag_text()), attrs)
+
+    def handle_endtag(self, tag):
+        opened = self.open_elements.pop(tag, None)
+        if opened:
+            start, body_start, attrs = opened
+            body_end = self.source_offset()
+            end = self.markup.index(">", body_end) + 1
+            self.elements.append((tag, start, body_start, body_end, end, attrs))
+
+
+def migrate_dataset_metadata(body: str, t: dict) -> str:
+    payload = json.loads(body)
+    nodes = payload.get("@graph", [payload]) if isinstance(payload, dict) else payload
+    changed = False
+    for node in nodes:
+        if node.get(SCHEMA_TYPE) != "Dataset":
+            continue
+        downloads = node.get("distribution", [])
+        if isinstance(downloads, dict):
+            downloads = [downloads]
+        if not any(item.get("contentUrl", "").endswith(("/data/latest.json", "/data/repositories.csv", "/data/history.json")) for item in downloads):
+            continue
+        url = node["url"].split("#", 1)[0]
+        node["@id"] = f"{url}#dataset"
+        node["distribution"] = [{
+            SCHEMA_TYPE: "DataDownload", "name": t["hero"]["title"],
+            "encodingFormat": "text/html", "contentUrl": url,
+        }]
+        changed = True
+    if not changed:
+        return body
+    return json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
+
+
 def migrate_legacy_snapshot_html(markup: str, t: dict) -> str:
     """Repair metadata/actions while preserving the archived figures verbatim.
 
@@ -313,53 +374,26 @@ def migrate_legacy_snapshot_html(markup: str, t: dict) -> str:
     HTML is the surviving immutable record, so do not claim a mutable JSON/CSV
     download represents those historical figures.
     """
-    def metadata(match: re.Match) -> str:
-        payload = json.loads(match.group(2))
-        nodes = payload.get("@graph", [payload]) if isinstance(payload, dict) else payload
-        changed = False
-        for node in nodes:
-            if node.get("@type") != "Dataset":
-                continue
-            downloads = node.get("distribution", [])
-            if isinstance(downloads, dict):
-                downloads = [downloads]
-            if not any(item.get("contentUrl", "").endswith(("/data/latest.json", "/data/repositories.csv", "/data/history.json")) for item in downloads):
-                continue
-            url = node["url"].split("#", 1)[0]
-            node["@id"] = f"{url}#dataset"
-            node["distribution"] = [{
-                "@type": "DataDownload", "name": t["hero"]["title"],
-                "encodingFormat": "text/html", "contentUrl": url,
-            }]
-            changed = True
-        if not changed:
-            return match.group(0)
-        body = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c")
-        return match.group(1) + body + match.group(3)
-
-    markup = re.sub(r'(<script\b[^>]*type=["\']application/ld\+json["\'][^>]*>)(.*?)(</script>)', metadata, markup, flags=re.S)
-    class CanonicalParser(HTMLParser):
-        value = None
-
-        def handle_starttag(self, tag, attributes):
-            attrs = dict(attributes)
-            if tag == "link" and attrs.get("rel") == "canonical":
-                self.value = attrs.get("href")
-
-    canonical = CanonicalParser()
-    canonical.feed(markup)
-    if canonical.value:
-        label = "HTML-Archiv" if t["lang"] == "de" else "HTML archive"
-        markup = re.sub(
-            r'<a\b([^>]*?)href=["\'][^"\']*data/snapshots/\d{4}-\d{2}-\d{2}\.json["\']([^>]*)>.*?</a>',
-            lambda match: f'<a{match.group(1)}href="{html.escape(canonical.value, quote=True)}"{match.group(2)} download>{label}</a>',
-            markup, flags=re.S,
-        )
-    return re.sub(
-        r'(<button\b(?=[^>]*\bid=["\']copy-citation["\'])[^>]*>).*?(</button>)',
-        lambda match: match.group(1) + html.escape(t["cite"]["copy"]) + match.group(2),
-        markup, flags=re.S,
-    )
+    parser = SnapshotActions(markup)
+    parser.feed(markup)
+    replacements = []
+    for tag, start, body_start, body_end, end, attrs in parser.elements:
+        if tag == "script":
+            replacements.append((body_start, body_end, migrate_dataset_metadata(markup[body_start:body_end], t)))
+        elif tag == "button":
+            replacements.append((body_start, body_end, html.escape(t["cite"]["copy"])))
+        elif parser.canonical:
+            attrs.update(href=parser.canonical, download=None)
+            attributes = "".join(
+                f' {key}="{html.escape(value, quote=True)}"' if value is not None else f" {key}"
+                for key, value in attrs.items()
+            )
+            label = "HTML-Archiv" if t["lang"] == "de" else "HTML archive"
+            replacements.append((start, end, f"<a{attributes}>{label}</a>"))
+    # Replace from the end so earlier source offsets remain valid.
+    for start, end, replacement in sorted(replacements, reverse=True):
+        markup = markup[:start] + replacement + markup[end:]
+    return markup
 
 
 def write_csv(rows: list[dict], path: Path) -> None:
@@ -413,7 +447,7 @@ def main() -> None:
     snapshot = json.loads((data_dir / "latest.json").read_text(encoding="utf-8"))
     # The citation must resolve even when the renderer is run independently.
     current_archive = write_snapshot(data_dir, snapshot)
-    for archived_file in list((data_dir / "snapshots").glob("*.json")):
+    for archived_file in (data_dir / "snapshots").glob("*.json"):
         write_snapshot(data_dir, json.loads(archived_file.read_text(encoding="utf-8")))
     history_path = data_dir / "history.json"
     history = json.loads(history_path.read_text(encoding="utf-8")) if history_path.exists() else {"daily": []}

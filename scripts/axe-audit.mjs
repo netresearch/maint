@@ -155,6 +155,21 @@ function report({ route, scheme, violation }) {
   }
 }
 
+/** A viewport change and its measurements are one sequential browser step. */
+async function responsiveIssues(page, width) {
+  const issues = [];
+  await page.setViewport({ width, height: 844 });
+  await page.evaluate(() => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))));
+  const state = await page.evaluate(() => ({
+    scroll: document.documentElement.scrollWidth,
+    body: getComputedStyle(document.body).fontFamily,
+    heading: getComputedStyle(document.querySelector('h1')).fontFamily,
+  }));
+  if (state.scroll > width + 1) issues.push(`${width}px: document grows to ${state.scroll}px`);
+  if (!state.body.includes('Open Sans') || !state.heading.includes('Raleway')) issues.push('Brand fonts not applied');
+  return issues;
+}
+
 /** Audits one page and returns the failures found on it. */
 async function auditPage(browser, port, route, scheme) {
   const page = await browser.newPage();
@@ -181,18 +196,11 @@ async function auditPage(browser, port, route, scheme) {
     runOnly: { type: 'rule', values: ['color-contrast-enhanced'] },
   }));
   found.push(...enhanced.violations.map((violation) => ({ route, scheme, violation })));
-  const issues = [];
-  for (const width of [390, 320]) {
-    await page.setViewport({ width, height: 844 });
-    await page.evaluate(() => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))));
-    const state = await page.evaluate(() => ({
-      scroll: document.documentElement.scrollWidth,
-      body: getComputedStyle(document.body).fontFamily,
-      heading: getComputedStyle(document.querySelector('h1')).fontFamily,
-    }));
-    if (state.scroll > width + 1) issues.push(`${width}px: document grows to ${state.scroll}px`);
-    if (!state.body.includes('Open Sans') || !state.heading.includes('Raleway')) issues.push('Brand fonts not applied');
-  }
+  // The same tab is resized, so these two steps must not run concurrently.
+  const issues = [
+    ...(await responsiveIssues(page, 390)),
+    ...(await responsiveIssues(page, 320)),
+  ];
   if (issues.length) found.push({ route, scheme, violation: {
     id: 'responsive-brand-regression', impact: 'serious',
     help: 'Localise table scrolling and keep the document inside the viewport',

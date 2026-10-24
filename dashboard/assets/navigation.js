@@ -1,14 +1,23 @@
 (() => {
   const root = document.documentElement;
-  const theme = document.querySelector('#theme-toggle');
+  const theme = document.querySelector('[data-theme-control]');
   const system = matchMedia('(prefers-color-scheme: dark)');
-  const isDark = () => root.dataset.theme ? root.dataset.theme === 'dark' : system.matches;
-  const sync = () => theme?.setAttribute('aria-pressed', String(isDark()));
-  theme?.addEventListener('click', () => {
-    root.dataset.theme = isDark() ? 'light' : 'dark';
-    try { localStorage.setItem('nr-theme', root.dataset.theme); } catch (_) {}
-    sync();
+  let preference = 'system';
+  try {
+    const stored = localStorage.getItem('nr-theme');
+    if (['system', 'light', 'dark'].includes(stored)) preference = stored;
+  } catch (_) {}
+  const applyTheme = () => {
+    let effective = preference;
+    if (preference === 'system') effective = system.matches ? 'dark' : 'light';
+    root.dataset.theme = effective;
+    if (theme) theme.value = preference;
     document.dispatchEvent(new Event('nr-theme-change'));
+  };
+  theme?.addEventListener('change', () => {
+    preference = theme.value;
+    try { localStorage.setItem('nr-theme', preference); } catch (_) {}
+    applyTheme();
   });
   const updateCharts = () => {
     const style = getComputedStyle(root);
@@ -32,8 +41,8 @@
     });
   };
   document.addEventListener('nr-theme-change', updateCharts);
-  system.addEventListener('change', () => { sync(); updateCharts(); });
-  sync();
+  system.addEventListener('change', applyTheme);
+  applyTheme();
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('#site-nav');
   root.classList.add('js');

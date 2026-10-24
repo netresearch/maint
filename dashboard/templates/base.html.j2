@@ -54,7 +54,11 @@
       </a>
       <div class="header-actions">
         <a href="{{ other_href }}" hreflang="{{ t.other_lang }}" lang="{{ t.other_lang }}">{{ t.other_label }}</a>
-        <button class="btn" type="button" id="theme-toggle" aria-label="{{ 'Dunkelmodus' if t.lang == 'de' else 'Dark mode' }}" aria-pressed="false">{{ 'Dunkelmodus' if t.lang == 'de' else 'Dark mode' }}</button>
+        <select class="btn" id="theme-toggle" data-theme-control aria-label="{{ 'Farbschema' if t.lang == 'de' else 'Colour scheme' }}">
+          <option value="system">System</option>
+          <option value="light">{{ 'Hell' if t.lang == 'de' else 'Light' }}</option>
+          <option value="dark">{{ 'Dunkel' if t.lang == 'de' else 'Dark' }}</option>
+        </select>
         <button class="btn nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">{{ 'Menü' if t.lang == 'de' else 'Menu' }}</button>
       </div>
       <nav class="site-nav" id="site-nav" aria-label="{{ t.nav.label }}">
