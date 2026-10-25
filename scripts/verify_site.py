@@ -18,9 +18,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from check_accessibility import check_accessibility  # noqa: E402
+from check_contact_links import check_contact_links  # noqa: E402
 
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "build"))
 MAX_SNAPSHOT_AGE_DAYS = 3
+SITE_URL = os.environ.get("SITE_URL", "https://netresearch.github.io/maint/")
 
 errors: list[str] = []
 warnings: list[str] = []
@@ -77,7 +79,7 @@ def main() -> int:
 
         if name == "404.html":
             for marker in ('name="robots" content="noindex, follow"', 'class="nr-error-page"', 'lang="de"', 'data-nr-shell',
-                           'href="https://netresearch.github.io/maint/"', 'href="https://netresearch.github.io/maint/de/"'):
+                           f'href="{SITE_URL}"', f'href="{SITE_URL}de/"'):
                 if marker not in html:
                     errors.append(f"{name}: missing error-page recovery contract: {marker}")
             if 'rel="canonical"' in html or 'rel="alternate"' in html or 'http-equiv="refresh"' in html.lower():
@@ -102,13 +104,9 @@ def main() -> int:
                 if "@type" not in node:
                     errors.append(f"{name}: JSON-LD node without @type")
 
-        contact_links = re.findall(r'href="([^"]*netresearch\.de/(?:kontakt|en/contact)/[^"]*)"', html)
-        if not contact_links:
-            errors.append(f"{name}: no business CTA to the contact form")
-        for href in contact_links:
-            for param in ("utm_source", "utm_medium", "utm_campaign", "utm_content"):
-                if f"{param}=" not in href:
-                    errors.append(f"{name}: contact link without {param}")
+        lang = "de" if re.search(r'<html\b[^>]*\blang="de"', html) else "en"
+        for problem in check_contact_links(html, lang):
+            errors.append(f"{name}: {problem}")
 
         logos = re.findall(r'<img[^>]+assets/site-shell/netresearch-symbol-only\.svg[^>]*>', html)
         if len(logos) != 1:

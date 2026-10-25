@@ -36,7 +36,7 @@ import sys
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlsplit
 
 import yaml
 from jinja2 import Environment, FileSystemLoader
@@ -50,6 +50,7 @@ from site_shell import render_header, render_page_navigation
 DASHBOARD = ROOT / "dashboard"
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "build"))
 SITE_URL = os.environ.get("SITE_URL", "https://netresearch.github.io/maint/")
+COMPANY_URL = "https://www.netresearch.de/"
 
 LANGS = ("en", "de")
 
@@ -522,7 +523,7 @@ def migrate_snapshot_shell(markup: str, header: str, base: str, bootstrap: str, 
             footer = match[0]
             for old, new in (("kontakt/", "en/contact/"), ("impressum/", "en/imprint/"), ("datenschutz/", "en/privacy-policy/")):
                 pattern = r'<a\b[^>]*href="https://www\.netresearch\.de/' + re.escape(old) + r'[^"\n]*"[^>]*>'
-                footer = re.sub(pattern, lambda link: link[0].replace("https://www.netresearch.de/" + old, "https://www.netresearch.de/" + new).replace('lang="de"', 'lang="en"'), footer)
+                footer = re.sub(pattern, lambda link, old=old, new=new: link[0].replace(COMPANY_URL + old, COMPANY_URL + new).replace('lang="de"', 'lang="en"'), footer)
             return footer
         markup = re.sub(r'<footer\b[^>]*>[\s\S]*?</footer>', localize_footer, markup)
     return markup
@@ -768,12 +769,13 @@ def main() -> None:
                 write(target, migrated)
 
     error_url = f"{SITE_URL}404.html"
+    error_assets = f"{urlsplit(SITE_URL).path.rstrip('/')}/assets"
     write(OUTPUT_DIR / "404.html", env.get_template("not_found.html.j2").render(
-        site_title="Open Source Impact", asset_base="/maint/assets",
+        site_title="Open Source Impact", asset_base=error_assets,
         home_en=SITE_URL, home_de=f"{SITE_URL}de/",
         contact=contact_url("error-footer", "en"), shell_bootstrap=bootstrap,
         global_header=render_header({
-            "lang": "en", "assetBase": "/maint/assets/site-shell",
+            "lang": "en", "assetBase": f"{error_assets}/site-shell",
             "languageUrls": {"de": f"{error_url}#deutsch", "en": f"{error_url}#english"},
             "contactHref": contact_url("error-header", "en"),
         }),

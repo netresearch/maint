@@ -35,7 +35,7 @@ const axePath = require.resolve('axe-core/axe.min.js');
 
 const DIST = process.argv[2] ?? 'build';
 // Serve the real project prefix, including absolute assets on the error page.
-const BASE_PATH = '/maint';
+const BASE_PATH = new URL(process.env.SITE_URL ?? 'https://netresearch.github.io/maint/').pathname.replace(/\/$/, '');
 
 // WCAG 2.1 AA, which is what the pages claim. 'best-practice' is deliberately
 // not included: it flags stylistic preferences, and a gate that fails on those
