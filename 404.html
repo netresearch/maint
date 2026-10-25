@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="robots" content="noindex, follow">
+  <title>Page not found · Seite nicht gefunden | Open Source Impact</title>
+  <meta name="description" content="This address does not exist. Diese Adresse wurde nicht gefunden.">
+  <script>/* Inline this file early in <head>; it intentionally has no DOM-control hooks. */
+(() => {
+  if (window.nrSiteTheme) return;
+  const valid = value => ['system', 'light', 'dark'].includes(value);
+  const media = window.matchMedia('(prefers-color-scheme: dark)');
+  function readPreference() {
+    try {
+      const canonical = localStorage.getItem('nr-theme');
+      if (canonical !== null) return valid(canonical) ? canonical : 'system';
+      for (const key of ['theme', 'nr-color-theme', 'nrllm-theme']) {
+        const legacy = localStorage.getItem(key);
+        if (valid(legacy)) return legacy;
+      }
+    } catch {
+      // Storage may be blocked; the current preference remains in page memory.
+    }
+    return 'system';
+  }
+  let preference = readPreference();
+  let effective;
+  function apply() {
+    effective = preference;
+    if (preference === 'system') effective = media.matches ? 'dark' : 'light';
+    document.documentElement.dataset.theme = effective;
+    document.documentElement.dataset.themePreference = preference;
+    document.documentElement.classList.toggle('dark', effective === 'dark');
+    document.documentElement.style.colorScheme = effective;
+    window.dispatchEvent(new CustomEvent('nr-theme-change', { detail: { preference, effective } }));
+  }
+  window.nrSiteTheme = {
+    get preference() { return preference; },
+    get effective() { return effective; },
+    setPreference(value) {
+      if (!valid(value)) return;
+      preference = value;
+      try { localStorage.setItem('nr-theme', value); } catch {
+        // Keep this explicit choice in memory when persistence is unavailable.
+      }
+      apply();
+    },
+  };
+  media.addEventListener('change', () => { if (preference === 'system') apply(); });
+  window.addEventListener('storage', event => {
+    if (event.key === 'nr-theme' || event.key === null) { preference = readPreference(); apply(); }
+  });
+  apply();
+})();
+</script>
+  <link rel="icon" type="image/svg+xml" href="/maint/assets/favicon.svg">
+  <link rel="stylesheet" href="/maint/assets/styles.css">
+  <link rel="stylesheet" href="/maint/assets/site-shell/site-shell.css">
+  <style>
+    .nr-error-main { box-sizing: border-box; width: 100%; max-width: 52rem; min-height: 60vh; margin: 0 auto; padding: 3rem 1.5rem; }
+    .nr-error-main h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.2; }
+    .nr-error-main h2 { margin-top: 2rem; font-size: clamp(1.5rem, 4vw, 2rem); }
+    .nr-error-main p { margin: 1rem 0; }
+    .nr-error-main a { display: inline-flex; align-items: center; min-height: 48px; padding: 0 1rem; border: 1px solid currentColor; border-radius: 10px; }
+    .nr-error-page .site-footer { padding: 2rem 1.5rem; }
+    .nr-error-page .site-footer nav { display: flex; flex-wrap: wrap; gap: 0 1.5rem; }
+    .nr-error-page .site-footer a { display: inline-flex; align-items: center; min-height: 48px; }
+  </style>
+</head>
+<body class="nr-error-page">
+  <a class="skip-link" href="#main">Skip to content / <span lang="de">Zum Inhalt</span></a>
+  <header class="nr-shell" data-nr-shell>
+  <div class="nr-shell-inner">
+    <a class="nr-shell-logo" href="https://www.netresearch.de/" aria-label="Netresearch DTT GmbH">
+      <img src="/maint/assets/site-shell/netresearch-symbol-only.svg" width="44" height="44" alt="Netresearch DTT GmbH">
+    </a>
+    <nav class="nr-shell-desktop" aria-label="Global navigation"><a class="nr-shell-link" href="https://netresearch.github.io/" aria-current="false">Open Source</a><a class="nr-shell-link" href="https://netresearch.github.io/projects/" aria-current="false">Projects</a><a class="nr-shell-link" href="https://netresearch.github.io/modularer-ki-stack-page/en/" aria-current="false">AI stack</a><a class="nr-shell-link" href="https://netresearch.github.io/claude-code-marketplace/en/" aria-current="false">Skills</a><a class="nr-shell-link" href="https://netresearch.github.io/maint/" aria-current="false">Impact</a></nav>
+    <div class="nr-shell-actions">
+      <nav class="nr-shell-locales" aria-label="Language">
+        <a href="https://netresearch.github.io/maint/404.html#deutsch" lang="de" hreflang="de" aria-label="DE – Deutsch" aria-current="false">DE</a>
+        <a href="https://netresearch.github.io/maint/404.html#english" lang="en" hreflang="en" aria-label="EN – English" aria-current="page">EN</a>
+      </nav>
+      <details class="nr-shell-theme" data-nr-theme-picker hidden>
+        <summary class="nr-shell-icon-button" aria-label="Appearance" title="Appearance" data-nr-theme-trigger>
+          <svg class="nr-shell-icon nr-shell-theme-icon" data-theme-icon="system" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 21h8m-4-5v5"/></svg>
+          <svg class="nr-shell-icon nr-shell-theme-icon" data-theme-icon="light" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+          <svg class="nr-shell-icon nr-shell-theme-icon" data-theme-icon="dark" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.3A8.5 8.5 0 0 1 8.7 4 8.5 8.5 0 1 0 20 15.3Z"/></svg>
+        </summary>
+        <fieldset class="nr-shell-theme-panel nr-shell-popover">
+          <legend>Appearance</legend>
+          <label class="nr-shell-theme-option"><input type="radio" name="nr-shell-theme" value="system" data-nr-theme-option checked><svg class="nr-shell-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 21h8m-4-5v5"/></svg><span>System</span><svg class="nr-shell-icon nr-shell-check" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></label>
+          <label class="nr-shell-theme-option"><input type="radio" name="nr-shell-theme" value="light" data-nr-theme-option><svg class="nr-shell-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><span>Light</span><svg class="nr-shell-icon nr-shell-check" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></label>
+          <label class="nr-shell-theme-option"><input type="radio" name="nr-shell-theme" value="dark" data-nr-theme-option><svg class="nr-shell-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.3A8.5 8.5 0 0 1 8.7 4 8.5 8.5 0 1 0 20 15.3Z"/></svg><span>Dark</span><svg class="nr-shell-icon nr-shell-check" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></label>
+        </fieldset>
+      </details>
+      <a class="nr-shell-contact" href="https://www.netresearch.de/en/contact/?utm_source=github-pages&amp;utm_medium=referral&amp;utm_campaign=impact-dashboard&amp;utm_content=error-header">Contact</a>
+      <details class="nr-shell-mobile" data-nr-mobile-menu>
+        <summary class="nr-shell-icon-button" aria-label="Navigation" title="Navigation"><svg class="nr-shell-icon nr-shell-menu-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><svg class="nr-shell-icon nr-shell-menu-close" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></summary>
+        <nav class="nr-shell-menu-panel nr-shell-popover" aria-label="Global navigation"><a class="nr-shell-link" href="https://netresearch.github.io/" aria-current="false">Open Source</a><a class="nr-shell-link" href="https://netresearch.github.io/projects/" aria-current="false">Projects</a><a class="nr-shell-link" href="https://netresearch.github.io/modularer-ki-stack-page/en/" aria-current="false">AI stack</a><a class="nr-shell-link" href="https://netresearch.github.io/claude-code-marketplace/en/" aria-current="false">Skills</a><a class="nr-shell-link" href="https://netresearch.github.io/maint/" aria-current="false">Impact</a><a class="nr-shell-menu-contact" href="https://www.netresearch.de/en/contact/?utm_source=github-pages&amp;utm_medium=referral&amp;utm_campaign=impact-dashboard&amp;utm_content=error-header">Contact</a></nav>
+      </details>
+    </div>
+  </div>
+</header>
+
+  <main class="nr-error-main" id="main">
+    <section id="english" aria-labelledby="not-found-en">
+      <h1 id="not-found-en">Page not found</h1>
+      <p>This address does not exist. Continue to Open Source Impact.</p>
+      <a href="https://netresearch.github.io/maint/" lang="en">Open the English page</a>
+    </section>
+    <section id="deutsch" lang="de" aria-labelledby="not-found-de">
+      <h2 id="not-found-de">Seite nicht gefunden</h2>
+      <p>Diese Adresse wurde nicht gefunden. Hier geht es zur Projektseite.</p>
+      <a href="https://netresearch.github.io/maint/de/">Deutsche Seite öffnen</a>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <a href="https://www.netresearch.de/">Netresearch DTT GmbH</a>
+    <nav aria-label="Footer navigation">
+      <a href="https://www.netresearch.de/en/contact/?utm_source=github-pages&amp;utm_medium=referral&amp;utm_campaign=impact-dashboard&amp;utm_content=error-footer">Contact</a>
+      <a href="https://www.netresearch.de/en/imprint/">Imprint</a>
+      <a href="https://www.netresearch.de/en/privacy-policy/">Privacy policy</a>
+    </nav>
+  </footer>
+  <script src="/maint/assets/site-shell/site-shell.js" defer></script>
+</body>
+</html>
