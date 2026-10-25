@@ -1,15 +1,22 @@
 {% extends "base.html.j2" %}
 
+{% block main_class %}nr-hero-page{% endblock %}
+
 {% block content %}
-<section class="hero">
-  <h1>{{ t.hero.title }}</h1>
-  <p class="lead">{{ t.hero.lead }}</p>
-  <p class="cta-row">
-    <a class="btn btn-primary" href="{{ contact.hero }}" data-cta="business" data-cta-position="hero">{{ t.hero.cta_business }}</a>
-    <a class="btn" href="#downloads">{{ t.hero.cta_technical }}</a>
-  </p>
+<section class="nr-hero" data-nr-hero data-nr-hero-variant="dashboard">
+  <div class="nr-hero-inner">
+    <div class="nr-hero-content">
+      <h1 class="nr-hero-title">{{ t.hero.title }}</h1>
+      <p class="nr-hero-lead">{{ t.hero.lead }}</p>
+      <div class="nr-hero-actions">
+        <a class="btn btn-primary" href="{{ contact.hero }}" data-cta="business" data-cta-position="hero">{{ t.hero.cta_business }}</a>
+        <a class="btn" href="#downloads">{{ t.hero.cta_technical }}</a>
+      </div>
+    </div>
+  </div>
 </section>
 
+<div class="container">
 <section id="snapshot" aria-labelledby="snapshot-heading">
   <h2 id="snapshot-heading">{{ t.snapshot.heading }}</h2>
   <p class="meta">
@@ -267,6 +274,7 @@
     <a class="btn" href="{{ base }}CITATION.cff">{{ t.cite.cff }}</a>
   </p>
 </section>
+</div>
 {% endblock %}
 
 {% block scripts %}

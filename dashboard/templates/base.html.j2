@@ -51,7 +51,7 @@
     <div class="container"><p class="notice">{{ t.noscript }}</p></div>
   </noscript>
 
-  <main class="container" id="main">
+  <main class="{% block main_class %}container{% endblock %}" id="main">
     {% block content %}{% endblock %}
   </main>
 
