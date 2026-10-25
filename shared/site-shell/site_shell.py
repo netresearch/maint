@@ -21,11 +21,11 @@ def render_header(config):
         raise ValueError('Expected lang de or en')
     if config.get('active') is not None and config['active'] not in DESTINATIONS['en']:
         raise ValueError('Unknown active navigation item')
-    text = json.loads((DIRECTORY / 'site-shell.copy.json').read_text())[lang]
+    text = json.loads((DIRECTORY / 'site-shell.copy.json').read_text(encoding='utf-8'))[lang]
     urls = config.get('languageUrls', {})
     values = {**text, 'assetBase': safe_url(config.get('assetBase')).removesuffix('/'), 'deUrl': safe_url(urls.get('de')), 'enUrl': safe_url(urls.get('en')), 'contactHref': safe_url(config.get('contactHref')), 'deCurrent': 'page' if lang == 'de' else 'false', 'enCurrent': 'page' if lang == 'en' else 'false'}
     links = ''.join(f'<a class="nr-shell-link" href="{html.escape(href, quote=True)}" aria-current="{"page" if key == config.get("active") else "false"}">{html.escape(text[key], quote=True)}</a>' for key, href in DESTINATIONS[lang].items())
-    source = (DIRECTORY / 'site-shell.html').read_text()
+    source = (DIRECTORY / 'site-shell.html').read_text(encoding='utf-8')
     return re.sub(r'{{(\w+)}}', lambda match: links if match[1] == 'globalLinks' else html.escape(str(values.get(match[1], '')), quote=True), source)
 
 def render_page_navigation(config):
@@ -41,8 +41,8 @@ def render_page_navigation(config):
     title = html.escape(config['title'], quote=True)
     title_markup = f'<a class="nr-pagebar-title" href="{html.escape(safe_url(config["titleHref"]), quote=True)}">{title}</a>' if config.get('titleHref') else f'<span class="nr-pagebar-title">{title}</span>'
     tools = f'<div class="nr-pagebar-tools">{config["toolsHtml"]}</div>' if config.get('toolsHtml') else ''
-    text = json.loads((DIRECTORY / 'site-shell.copy.json').read_text())[lang]
+    text = json.loads((DIRECTORY / 'site-shell.copy.json').read_text(encoding='utf-8'))[lang]
     values = {'title': config['title'], 'page': text['page'], 'duplicateTitle': str(config['title'] == text['page']).lower(), 'hasLinks': str(bool(config['links'])).lower()}
     raw = {'pageLinks': links, 'titleMarkup': title_markup, 'toolsMarkup': tools}
-    source = (DIRECTORY / 'page-navigation.html').read_text()
+    source = (DIRECTORY / 'page-navigation.html').read_text(encoding='utf-8')
     return re.sub(r'{{(\w+)}}', lambda match: raw[match[1]] if match[1] in raw else html.escape(str(values.get(match[1], '')), quote=True), source)

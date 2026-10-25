@@ -19,7 +19,8 @@
   let preference = readPreference();
   let effective;
   function apply() {
-    effective = preference === 'system' ? (media.matches ? 'dark' : 'light') : preference;
+    effective = preference;
+    if (preference === 'system') effective = media.matches ? 'dark' : 'light';
     document.documentElement.dataset.theme = effective;
     document.documentElement.dataset.themePreference = preference;
     document.documentElement.classList.toggle('dark', effective === 'dark');

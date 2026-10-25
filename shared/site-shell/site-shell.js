@@ -1,4 +1,13 @@
 (() => {
+  function syncTheme(picker, theme) {
+    picker.dataset.preference = theme.preference;
+    for (const radio of picker.querySelectorAll('input[name="nr-shell-theme"]')) radio.checked = radio.value === theme.preference;
+    const label = picker.querySelector('input:checked').closest('label').querySelector('span').textContent;
+    const summary = picker.querySelector('summary');
+    const name = picker.querySelector('legend').textContent + ': ' + label;
+    summary.setAttribute('aria-label', name);
+    summary.title = name;
+  }
   for (const shell of document.querySelectorAll('[data-nr-shell]')) {
     if (shell.dataset.ready) continue;
     const picker = shell.querySelector('[data-nr-theme-picker]');
@@ -10,15 +19,6 @@
       details.open = false;
       if (returnFocus) details.querySelector('summary').focus();
     };
-    function syncTheme() {
-      picker.dataset.preference = theme.preference;
-      for (const radio of picker.querySelectorAll('input[name="nr-shell-theme"]')) radio.checked = radio.value === theme.preference;
-      const label = picker.querySelector('input:checked').closest('label').querySelector('span').textContent;
-      const summary = picker.querySelector('summary');
-      const name = picker.querySelector('legend').textContent + ': ' + label;
-      summary.setAttribute('aria-label', name);
-      summary.title = name;
-    }
     for (const details of disclosures) {
       details.addEventListener('toggle', () => {
         if (details.open) for (const other of disclosures) if (other !== details) close(other);
@@ -46,8 +46,8 @@
       for (const radio of picker.querySelectorAll('input[name="nr-shell-theme"]')) {
         radio.addEventListener('change', () => { if (radio.checked) theme.setPreference(radio.value); });
       }
-      window.addEventListener('nr-theme-change', syncTheme);
-      syncTheme();
+      window.addEventListener('nr-theme-change', () => syncTheme(picker, theme));
+      syncTheme(picker, theme);
       picker.hidden = false;
     }
     shell.dataset.ready = 'true';

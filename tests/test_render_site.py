@@ -1,12 +1,41 @@
 """Published citation paths must remain useful after the next daily run."""
 import importlib.util
 import json
+import os
 import re
+import subprocess
+import sys
 from pathlib import Path
 from xml.etree import ElementTree
 
 import pytest
 from bs4 import BeautifulSoup
+
+
+def test_shared_renderers_produce_identical_bytes_in_ascii_locale():
+    program = """
+import json, sys
+sys.path.insert(0, sys.argv[1])
+from site_shell import render_header, render_page_navigation
+output = []
+for lang in ('de', 'en'):
+    output.append(render_header({'lang': lang, 'assetBase': '/assets/site-shell',
+        'languageUrls': {'de': '/de/', 'en': '/'}, 'active': 'impact',
+        'contactHref': 'https://www.netresearch.de/kontakt/'}))
+    output.append(render_page_navigation({'lang': lang, 'title': 'Open Source Impact',
+        'links': [{'href': '#main', 'label': 'Start'}]}))
+json.dump(output, sys.stdout, ensure_ascii=False)
+"""
+    shell = Path(__file__).resolve().parents[1] / "shared/site-shell"
+    command = [sys.executable, "-c", program, str(shell)]
+    normal_env = {**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8"}
+    ascii_env = {**normal_env, "LC_ALL": "C", "PYTHONUTF8": "0", "PYTHONCOERCECLOCALE": "0"}
+    normal = subprocess.run(command, env=normal_env, capture_output=True)
+    ascii_locale = subprocess.run(command, env=ascii_env, capture_output=True)
+    assert normal.returncode == 0, normal.stderr.decode("utf-8", errors="replace")
+    assert ascii_locale.returncode == 0, ascii_locale.stderr.decode("utf-8", errors="replace")
+    assert normal.stdout == ascii_locale.stdout
+    assert len(json.loads(normal.stdout)) == 4
 
 
 @pytest.fixture
