@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="robots" content="noindex, follow">
+  <title>Page not found · Seite nicht gefunden | {{ site_title }}</title>
+  <meta name="description" content="This address does not exist. Diese Adresse wurde nicht gefunden.">
+  <script>{{ shell_bootstrap | safe }}</script>
+  <link rel="icon" type="image/svg+xml" href="{{ asset_base }}/favicon.svg">
+  <link rel="stylesheet" href="{{ asset_base }}/styles.css">
+  <link rel="stylesheet" href="{{ asset_base }}/site-shell/site-shell.css">
+  <style>
+    .nr-error-main { box-sizing: border-box; width: 100%; max-width: 52rem; min-height: 60vh; margin: 0 auto; padding: 3rem 1.5rem; }
+    .nr-error-main h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.2; }
+    .nr-error-main h2 { margin-top: 2rem; font-size: clamp(1.5rem, 4vw, 2rem); }
+    .nr-error-main p { margin: 1rem 0; }
+    .nr-error-main a { display: inline-flex; align-items: center; min-height: 48px; padding: 0 1rem; border: 1px solid currentColor; border-radius: 10px; }
+    .nr-error-page .site-footer { padding: 2rem 1.5rem; }
+    .nr-error-page .site-footer nav { display: flex; flex-wrap: wrap; gap: 0 1.5rem; }
+    .nr-error-page .site-footer a { display: inline-flex; align-items: center; min-height: 48px; }
+  </style>
+</head>
+<body class="nr-error-page">
+  <a class="skip-link" href="#main">Skip to content / <span lang="de">Zum Inhalt</span></a>
+  {{ global_header | safe }}
+  <main class="nr-error-main" id="main">
+    <section id="english" aria-labelledby="not-found-en">
+      <h1 id="not-found-en">Page not found</h1>
+      <p>This address does not exist. Continue to {{ site_title }}.</p>
+      <a href="{{ home_en }}" lang="en">Open the English page</a>
+    </section>
+    <section id="deutsch" lang="de" aria-labelledby="not-found-de">
+      <h2 id="not-found-de">Seite nicht gefunden</h2>
+      <p>Diese Adresse wurde nicht gefunden. Hier geht es zur Projektseite.</p>
+      <a href="{{ home_de }}">Deutsche Seite öffnen</a>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <a href="https://www.netresearch.de/">Netresearch DTT GmbH</a>
+    <nav aria-label="Footer navigation">
+      <a href="{{ contact }}">Contact</a>
+      <a href="https://www.netresearch.de/en/imprint/">Imprint</a>
+      <a href="https://www.netresearch.de/en/privacy-policy/">Privacy policy</a>
+    </nav>
+  </footer>
+  <script src="{{ asset_base }}/site-shell/site-shell.js" defer></script>
+</body>
+</html>

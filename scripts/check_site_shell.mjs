@@ -40,7 +40,7 @@ async function noScriptChecks(page, issues) {
   if (!(await page.$eval('[data-nr-theme-picker]', (picker) => getComputedStyle(picker).display === 'none'))) issues.push('NoJS exposes a nonfunctional appearance picker');
   await page.focus('[data-nr-mobile-menu] > summary');
   await page.keyboard.press('Enter');
-  if (!(await page.$eval('[data-nr-mobile-menu]', (menu) => menu.open && menu.querySelectorAll('nav a').length === 5))) issues.push('NoJS native menu did not expose all global destinations');
+  if (!(await page.$eval('[data-nr-mobile-menu]', (menu) => menu.open && menu.querySelectorAll('nav a').length === 6))) issues.push('NoJS native menu did not expose all global destinations');
   const localeBounds = await page.$$eval('.nr-shell-locales a', (links) => links.map((link) => ({ width: link.getBoundingClientRect().width, height: link.getBoundingClientRect().height })));
   if (localeBounds.some((rect) => rect.width < 48 || rect.height < 48)) issues.push('NoJS locale target is smaller than 48px');
   if ((await page.$eval('html', (root) => root.scrollWidth)) > 320) issues.push('NoJS header causes horizontal document overflow');
@@ -108,7 +108,8 @@ async function initialChecks(page, scheme, viewport, issues) {
 }
 
 async function keyboardChecks(page, issues) {
-  await page.click('[data-nr-theme-picker] > summary');
+  await page.focus('[data-nr-theme-picker] > summary');
+  await page.keyboard.press('Enter');
   await page.focus('input[name="nr-shell-theme"][value="system"]');
   await page.keyboard.press('ArrowRight');
   if ((await state(page)).preference !== 'light') issues.push('Radio ArrowRight did not select Light');
@@ -142,8 +143,35 @@ async function preferenceChecks(page, scheme, first, issues, onThemeChange) {
   await page.reload({ waitUntil: 'networkidle0' });
 }
 
+async function checkGlobalDestinations(page, issues) {
+  const state = await page.evaluate(() => ({
+    lang: document.documentElement.lang.split('-')[0],
+    menus: [...document.querySelectorAll('[data-nr-shell] nav')]
+      .filter((nav) => !nav.classList.contains('nr-shell-locales'))
+      .map((nav) => [...nav.querySelectorAll('.nr-shell-link')].map((link) => link.href)),
+  }));
+  const expected = state.lang === 'de' ? [
+    'https://netresearch.github.io/de/',
+    'https://netresearch.github.io/de/projekte/',
+    'https://netresearch.github.io/modularer-ki-stack-page/',
+    'https://netresearch.github.io/claude-code-marketplace/de/',
+    'https://netresearch.github.io/maint/de/',
+  ] : [
+    'https://netresearch.github.io/',
+    'https://netresearch.github.io/projects/',
+    'https://netresearch.github.io/modularer-ki-stack-page/en/',
+    'https://netresearch.github.io/claude-code-marketplace/en/',
+    'https://netresearch.github.io/maint/',
+  ];
+  if (!['de', 'en'].includes(state.lang) || state.menus.length !== 2
+      || state.menus.some((links) => links.join() !== expected.join())) {
+    issues.push('Desktop and mobile global navigation must expose all five destinations in the page language');
+  }
+}
+
 export async function checkSiteShell(page, scheme, onThemeChange) {
   const issues = [];
+  await checkGlobalDestinations(page, issues);
   const viewport = page.viewport();
   const first = await initialChecks(page, scheme, viewport, issues);
   await keyboardChecks(page, issues);
