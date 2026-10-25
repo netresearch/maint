@@ -133,16 +133,21 @@
     <div class="container"><p class="notice">JavaScript is switched off. Every figure, the full repository table and all downloads are available without it — only sorting, filtering and the charts need it. The chart data is published as a table and as a download.</p></div>
   </noscript>
 
-  <main class="container" id="main">
-<section class="hero">
-  <h1>Netresearch Open Source Impact</h1>
-  <p class="lead">Transparent, reproducible and refreshed every day. Every figure on this page is rendered from a published snapshot, and every snapshot stays available at a permanent URL.</p>
-  <p class="cta-row">
-    <a class="btn btn-primary" href="https://www.netresearch.de/en/contact/?utm_source=github-pages&amp;utm_medium=referral&amp;utm_campaign=impact-dashboard&amp;utm_content=hero" data-cta="business" data-cta-position="hero">Use this open-source capability in your project</a>
-    <a class="btn" href="#downloads">Download the data</a>
-  </p>
+  <main class="nr-hero-page" id="main">
+<section class="nr-hero" data-nr-hero data-nr-hero-variant="dashboard">
+  <div class="nr-hero-inner">
+    <div class="nr-hero-content">
+      <h1 class="nr-hero-title">Netresearch Open Source Impact</h1>
+      <p class="nr-hero-lead">Transparent, reproducible and refreshed every day. Every figure on this page is rendered from a published snapshot, and every snapshot stays available at a permanent URL.</p>
+      <div class="nr-hero-actions">
+        <a class="btn btn-primary" href="https://www.netresearch.de/en/contact/?utm_source=github-pages&amp;utm_medium=referral&amp;utm_campaign=impact-dashboard&amp;utm_content=hero" data-cta="business" data-cta-position="hero">Use this open-source capability in your project</a>
+        <a class="btn" href="#downloads">Download the data</a>
+      </div>
+    </div>
+  </div>
 </section>
 
+<div class="container">
 <section id="snapshot" aria-labelledby="snapshot-heading">
   <h2 id="snapshot-heading">Snapshot</h2>
   <p class="meta">
@@ -4279,6 +4284,7 @@
     <a class="btn" href="CITATION.cff">Citation metadata (CITATION.cff)</a>
   </p>
 </section>
+</div>
   </main>
 
   <footer class="site-footer">
