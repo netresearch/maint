@@ -114,6 +114,28 @@ def test_header_migration_also_covers_html_without_surviving_json(rendered):
 
 
 @pytest.mark.parametrize("locale,prefix", [("en", ""), ("de", "de/")])
+def test_archived_footer_links_follow_language_without_changing_main(rendered, locale, prefix):
+    root, renderer = rendered
+    target = root / prefix / "snapshot/2026-10-24/index.html"
+    legacy = target.read_text().replace("https://www.netresearch.de/en/contact/", "https://www.netresearch.de/kontakt/")
+    legacy = legacy.replace("https://www.netresearch.de/en/imprint/", "https://www.netresearch.de/impressum/")
+    legacy = legacy.replace("https://www.netresearch.de/en/privacy-policy/", "https://www.netresearch.de/datenschutz/")
+    legacy = legacy.replace('lang="en">Imprint', 'lang="de">Imprint').replace('lang="en">Privacy', 'lang="de">Privacy')
+    target.write_text(legacy)
+    renderer.main()
+    migrated = target.read_text()
+    assert re.search(r'<main\b[\s\S]*?</main>', migrated).group() == re.search(r'<main\b[\s\S]*?</main>', legacy).group()
+    footer = BeautifulSoup(migrated, "html.parser").footer
+    expected = ("en/contact/", "en/imprint/", "en/privacy-policy/") if locale == "en" else ("kontakt/", "impressum/", "datenschutz/")
+    for suffix in expected:
+        assert footer.select_one(f'a[href^="https://www.netresearch.de/{suffix}"]')
+    for link in footer.select("a[lang]"):
+        assert link["lang"] == locale
+    renderer.main()
+    assert target.read_text() == migrated
+
+
+@pytest.mark.parametrize("locale,prefix", [("en", ""), ("de", "de/")])
 def test_copy_button_has_translated_action(rendered, locale, prefix):
     root, renderer = rendered
     soup = BeautifulSoup((root / prefix / "index.html").read_text(), "html.parser")

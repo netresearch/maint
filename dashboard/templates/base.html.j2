@@ -63,9 +63,9 @@
         &middot;
         <a href="{{ contact.footer }}" data-cta="business" data-cta-position="footer">{{ t.footer.contact }}</a>
         &middot;
-        <a href="https://www.netresearch.de/impressum/" lang="de">{{ t.footer.imprint }}</a>
+        <a href="https://www.netresearch.de/{{ 'en/imprint/' if t.lang == 'en' else 'impressum/' }}" lang="{{ t.lang }}">{{ t.footer.imprint }}</a>
         &middot;
-        <a href="https://www.netresearch.de/datenschutz/" lang="de">{{ t.footer.privacy }}</a>
+        <a href="https://www.netresearch.de/{{ 'en/privacy-policy/' if t.lang == 'en' else 'datenschutz/' }}" lang="{{ t.lang }}">{{ t.footer.privacy }}</a>
         &middot;
         <a href="https://github.com/netresearch/maint">{{ t.footer.source }}</a>
       </p>

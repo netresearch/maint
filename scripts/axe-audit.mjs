@@ -34,6 +34,8 @@ const require = createRequire(import.meta.url);
 const axePath = require.resolve('axe-core/axe.min.js');
 
 const DIST = process.argv[2] ?? 'build';
+// Serve the real project prefix, including absolute assets on the error page.
+const BASE_PATH = '/maint';
 
 // WCAG 2.1 AA, which is what the pages claim. 'best-practice' is deliberately
 // not included: it flags stylistic preferences, and a gate that fails on those
@@ -121,7 +123,8 @@ function sampleRoutes(routes) {
 
 function serve(files) {
   const server = createServer(async (req, res) => {
-    const file = files.get(new URL(req.url, 'http://localhost').pathname);
+    const pathname = new URL(req.url, 'http://localhost').pathname;
+    const file = pathname.startsWith(`${BASE_PATH}/`) ? files.get(pathname.slice(BASE_PATH.length)) : undefined;
     if (!file) {
       res.writeHead(404).end('not found');
       return;
@@ -229,7 +232,7 @@ async function auditPage(browser, port, route, scheme) {
 
   await page.emulateMediaFeatures([{ name: 'prefers-color-scheme', value: scheme }]);
   await page.setViewport({ width: 1280, height: 900 });
-  await page.goto(`http://127.0.0.1:${port}${route}`, { waitUntil: 'networkidle0' });
+  await page.goto(`http://127.0.0.1:${port}${BASE_PATH}${route}`, { waitUntil: 'networkidle0' });
   await page.addScriptTag({ path: axePath });
 
   const results = await page.evaluate(

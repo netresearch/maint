@@ -96,11 +96,11 @@ REACH_WEIGHTS = [
 # reachable at their URLs; only the list is trimmed.
 SNAPSHOT_LINKS = 30
 
-CONTACT_BASE = "https://www.netresearch.de/kontakt/"
+CONTACT_BASE = {"de": "https://www.netresearch.de/kontakt/", "en": "https://www.netresearch.de/en/contact/"}
 
 
-def contact_url(position: str) -> str:
-    return CONTACT_BASE + "?" + urlencode({
+def contact_url(position: str, lang: str) -> str:
+    return CONTACT_BASE[lang] + "?" + urlencode({
         "utm_source": "github-pages",
         "utm_medium": "referral",
         "utm_campaign": "impact-dashboard",
@@ -493,7 +493,7 @@ DICTIONARY = {
 }
 
 
-def migrate_snapshot_shell(markup: str, header: str, base: str, bootstrap: str) -> str:
+def migrate_snapshot_shell(markup: str, header: str, base: str, bootstrap: str, lang: str) -> str:
     """Replace only historical site chrome; archived content remains verbatim."""
     marker = r"<!-- site-shell:start -->[\s\S]*?<!-- site-shell:end -->"
     if re.search(marker, markup):
@@ -517,6 +517,14 @@ def migrate_snapshot_shell(markup: str, header: str, base: str, bootstrap: str) 
     script = f'{base}assets/site-shell/site-shell.js'
     if f'src="{script}"' not in markup:
         markup = markup.replace("</body>", f'<script src="{script}" defer></script>\n</body>', 1)
+    if lang == "en":
+        def localize_footer(match):
+            footer = match[0]
+            for old, new in (("kontakt/", "en/contact/"), ("impressum/", "en/imprint/"), ("datenschutz/", "en/privacy-policy/")):
+                pattern = r'<a\b[^>]*href="https://www\.netresearch\.de/' + re.escape(old) + r'[^"\n]*"[^>]*>'
+                footer = re.sub(pattern, lambda link: link[0].replace("https://www.netresearch.de/" + old, "https://www.netresearch.de/" + new).replace('lang="de"', 'lang="en"'), footer)
+            return footer
+        markup = re.sub(r'<footer\b[^>]*>[\s\S]*?</footer>', localize_footer, markup)
     return markup
 
 
@@ -555,7 +563,7 @@ def main() -> None:
             global_header=render_header({
                 "lang": t["lang"], "assetBase": f"{base}assets/site-shell",
                 "languageUrls": language_urls, "active": "impact",
-                "contactHref": contact_url("header"),
+                "contactHref": contact_url("header", t["lang"]),
             }), page_navigation=render_page_navigation({
                 "lang": t["lang"], "title": "Open Source Impact", "titleHref": home,
                 "links": [{"href": f"{home}#{anchor}", "label": t["nav"][label]} for anchor, label in
@@ -604,9 +612,9 @@ def main() -> None:
             "active_repos": len(active),
             "archived_repos": len(archived),
             "contact": {
-                "hero": contact_url("hero"),
-                "footer": contact_url("footer"),
-                "repo": contact_url("repo"),
+                "hero": contact_url("hero", lang),
+                "footer": contact_url("footer", lang),
+                "repo": contact_url("repo", lang),
             },
         }
 
@@ -755,9 +763,21 @@ def main() -> None:
             counterpart = OUTPUT_DIR / other_prefix / "snapshot" / key / INDEX_HTML
             other = f"{SITE_URL}{other_prefix}snapshot/{key}/" if counterpart.is_file() else f"{SITE_URL}{other_prefix}"
             original = target.read_text(encoding="utf-8")
-            migrated = migrate_snapshot_shell(original, header_html(translations[lang], base, TWO_UP, current, other), base, bootstrap_markup)
+            migrated = migrate_snapshot_shell(original, header_html(translations[lang], base, TWO_UP, current, other), base, bootstrap_markup, lang)
             if migrated != original:
                 write(target, migrated)
+
+    error_url = f"{SITE_URL}404.html"
+    write(OUTPUT_DIR / "404.html", env.get_template("not_found.html.j2").render(
+        site_title="Open Source Impact", asset_base="/maint/assets",
+        home_en=SITE_URL, home_de=f"{SITE_URL}de/",
+        contact=contact_url("error-footer", "en"), shell_bootstrap=bootstrap,
+        global_header=render_header({
+            "lang": "en", "assetBase": "/maint/assets/site-shell",
+            "languageUrls": {"de": f"{error_url}#deutsch", "en": f"{error_url}#english"},
+            "contactHref": contact_url("error-header", "en"),
+        }),
+    ))
 
     # ── Data products ────────────────────────────────────────────────────────
     write_csv(build_repo_rows(snapshot, "en"), data_dir / "repositories.csv")
