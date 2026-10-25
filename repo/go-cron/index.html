@@ -4,9 +4,56 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <script>
-    try { var theme = localStorage.getItem('nr-theme'); if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme; } catch (_) {}
-  </script>
+  <!-- site-shell:bootstrap -->
+<script>/* Inline this file early in <head>; it intentionally has no DOM-control hooks. */
+(() => {
+  if (window.nrSiteTheme) return;
+  const valid = value => ['system', 'light', 'dark'].includes(value);
+  const media = window.matchMedia('(prefers-color-scheme: dark)');
+  function readPreference() {
+    try {
+      const canonical = localStorage.getItem('nr-theme');
+      if (canonical !== null) return valid(canonical) ? canonical : 'system';
+      for (const key of ['theme', 'nr-color-theme', 'nrllm-theme']) {
+        const legacy = localStorage.getItem(key);
+        if (valid(legacy)) return legacy;
+      }
+    } catch {
+      // Storage may be blocked; the current preference remains in page memory.
+    }
+    return 'system';
+  }
+  let preference = readPreference();
+  let effective;
+  function apply() {
+    effective = preference;
+    if (preference === 'system') effective = media.matches ? 'dark' : 'light';
+    document.documentElement.dataset.theme = effective;
+    document.documentElement.dataset.themePreference = preference;
+    document.documentElement.classList.toggle('dark', effective === 'dark');
+    document.documentElement.style.colorScheme = effective;
+    window.dispatchEvent(new CustomEvent('nr-theme-change', { detail: { preference, effective } }));
+  }
+  window.nrSiteTheme = {
+    get preference() { return preference; },
+    get effective() { return effective; },
+    setPreference(value) {
+      if (!valid(value)) return;
+      preference = value;
+      try { localStorage.setItem('nr-theme', value); } catch {
+        // Keep this explicit choice in memory when persistence is unavailable.
+      }
+      apply();
+    },
+  };
+  media.addEventListener('change', () => { if (preference === 'system') apply(); });
+  window.addEventListener('storage', event => {
+    if (event.key === 'nr-theme' || event.key === null) { preference = readPreference(); apply(); }
+  });
+  apply();
+})();
+</script>
+<!-- site-shell:bootstrap-end -->
 
   <title>go-cron — impact detail — Netresearch Open Source Impact</title>
   <meta name="description" content="Go cron job scheduler — drop-in replacement for robfig/cron with runtime updates, resilience middleware, and active maintenance">
@@ -26,6 +73,7 @@
 
   <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
   <link rel="stylesheet" href="../../assets/styles.css">
+  <link rel="stylesheet" href="../../assets/site-shell/site-shell.css">
   <link rel="sitemap" href="https://netresearch.github.io/maint/sitemap.xml">
 
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://netresearch.github.io/maint/#organization", "name": "Netresearch DTT GmbH", "url": "https://www.netresearch.de/"}, {"@type": "Dataset", "@id": "https://netresearch.github.io/maint/snapshot/2026-10-24-21ee60d3347a/#dataset", "name": "Netresearch Open Source Impact", "description": "Measured activity across the Netresearch open-source organisation: repositories, releases, contributors, downloads and dependent projects, with the method, the known gaps and the raw data behind every figure.", "url": "https://netresearch.github.io/maint/snapshot/2026-10-24-21ee60d3347a/", "inLanguage": "en", "dateModified": "2026-10-24T18:42:21+00:00", "creator": {"@id": "https://netresearch.github.io/maint/#organization"}, "publisher": {"@id": "https://netresearch.github.io/maint/#organization"}, "license": "https://creativecommons.org/licenses/by/4.0/", "measurementTechnique": "GitHub REST API — repositories, issues, pull requests, releases, contributors, commits GitHub dependency graph — dependent repositories and packages Packagist — download counts for published PHP packages GitHub Container Registry — container pull counts", "isAccessibleForFree": true, "distribution": [{"@type": "DataDownload", "name": "Current snapshot (JSON)", "encodingFormat": "application/json", "contentUrl": "https://netresearch.github.io/maint/data/snapshots/2026-10-24-21ee60d3347a.json"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Netresearch Open Source Impact", "item": "https://netresearch.github.io/maint/repo/go-cron/"}]}]}</script>
@@ -33,30 +81,53 @@
 <body>
   <a class="skip-link" href="#main">Snapshot</a>
 
-  <header class="site-header">
-    <div class="container header-bar"><a class="brand" href="https://www.netresearch.de/" aria-label="Netresearch DTT GmbH">
-        <img src="../../assets/netresearch.svg" alt="Netresearch DTT GmbH" width="48" height="48">
-      </a>
-      <div class="header-actions">
-        <a href="https://netresearch.github.io/maint/de/repo/go-cron/" hreflang="de" lang="de">Deutsch</a>
-        <select class="btn" id="theme-toggle" data-theme-control aria-label="Colour scheme">
-          <option value="system">System</option>
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-        </select>
-        <button class="btn nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">Menu</button>
-      </div>
-      <nav class="site-nav" id="site-nav" aria-label="Dashboard navigation">
-        <a href="https://netresearch.github.io/">Portfolio</a>
-        <a href="https://netresearch.github.io/modularer-ki-stack-page/en/">AI stack</a>
-        <a href="../../#snapshot">Snapshot</a>
-        <a href="../../#provenance">Data and provenance</a>
-        <a href="../../#method">Methodology</a>
-        <a href="../../#repositories">Repositories</a>
-        <a href="../../#downloads">Downloads</a>
+  <!-- site-shell:start -->
+<header class="nr-shell" data-nr-shell>
+  <div class="nr-shell-inner">
+    <a class="nr-shell-logo" href="https://www.netresearch.de/" aria-label="Netresearch DTT GmbH">
+      <img src="../../assets/site-shell/netresearch-symbol-only.svg" width="44" height="44" alt="Netresearch DTT GmbH">
+    </a>
+    <nav class="nr-shell-desktop" aria-label="Global navigation"><a class="nr-shell-link" href="https://netresearch.github.io/" aria-current="false">Open Source</a><a class="nr-shell-link" href="https://netresearch.github.io/projects/" aria-current="false">Projects</a><a class="nr-shell-link" href="https://netresearch.github.io/modularer-ki-stack-page/en/" aria-current="false">AI stack</a><a class="nr-shell-link" href="https://netresearch.github.io/maint/" aria-current="page">Impact</a></nav>
+    <div class="nr-shell-actions">
+      <nav class="nr-shell-locales" aria-label="Language">
+        <a href="https://netresearch.github.io/maint/de/repo/go-cron/" lang="de" hreflang="de" aria-label="DE – Deutsch" aria-current="false">DE</a>
+        <a href="https://netresearch.github.io/maint/repo/go-cron/" lang="en" hreflang="en" aria-label="EN – English" aria-current="page">EN</a>
       </nav>
+      <details class="nr-shell-theme" data-nr-theme-picker hidden>
+        <summary class="nr-shell-icon-button" aria-label="Appearance" title="Appearance" data-nr-theme-trigger>
+          <svg class="nr-shell-icon nr-shell-theme-icon" data-theme-icon="system" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 21h8m-4-5v5"/></svg>
+          <svg class="nr-shell-icon nr-shell-theme-icon" data-theme-icon="light" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+          <svg class="nr-shell-icon nr-shell-theme-icon" data-theme-icon="dark" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.3A8.5 8.5 0 0 1 8.7 4 8.5 8.5 0 1 0 20 15.3Z"/></svg>
+        </summary>
+        <fieldset class="nr-shell-theme-panel nr-shell-popover">
+          <legend>Appearance</legend>
+          <label class="nr-shell-theme-option"><input type="radio" name="nr-shell-theme" value="system" data-nr-theme-option checked><svg class="nr-shell-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 21h8m-4-5v5"/></svg><span>System</span><svg class="nr-shell-icon nr-shell-check" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></label>
+          <label class="nr-shell-theme-option"><input type="radio" name="nr-shell-theme" value="light" data-nr-theme-option><svg class="nr-shell-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><span>Light</span><svg class="nr-shell-icon nr-shell-check" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></label>
+          <label class="nr-shell-theme-option"><input type="radio" name="nr-shell-theme" value="dark" data-nr-theme-option><svg class="nr-shell-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 15.3A8.5 8.5 0 0 1 8.7 4 8.5 8.5 0 1 0 20 15.3Z"/></svg><span>Dark</span><svg class="nr-shell-icon nr-shell-check" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg></label>
+        </fieldset>
+      </details>
+      <a class="nr-shell-contact" href="https://www.netresearch.de/kontakt/?utm_source=github-pages&amp;utm_medium=referral&amp;utm_campaign=impact-dashboard&amp;utm_content=header">Contact</a>
+      <details class="nr-shell-mobile" data-nr-mobile-menu>
+        <summary class="nr-shell-icon-button" aria-label="Navigation" title="Navigation"><svg class="nr-shell-icon nr-shell-menu-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><svg class="nr-shell-icon nr-shell-menu-close" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></summary>
+        <nav class="nr-shell-menu-panel nr-shell-popover" aria-label="Global navigation"><a class="nr-shell-link" href="https://netresearch.github.io/" aria-current="false">Open Source</a><a class="nr-shell-link" href="https://netresearch.github.io/projects/" aria-current="false">Projects</a><a class="nr-shell-link" href="https://netresearch.github.io/modularer-ki-stack-page/en/" aria-current="false">AI stack</a><a class="nr-shell-link" href="https://netresearch.github.io/maint/" aria-current="page">Impact</a><a class="nr-shell-menu-contact" href="https://www.netresearch.de/kontakt/?utm_source=github-pages&amp;utm_medium=referral&amp;utm_campaign=impact-dashboard&amp;utm_content=header">Contact</a></nav>
+      </details>
     </div>
-  </header>
+  </div>
+</header>
+
+<nav class="nr-pagebar" data-nr-page-navigation data-nr-has-links="true" aria-label="Open Source Impact – On this page">
+  <div class="nr-pagebar-inner">
+    <div class="nr-pagebar-heading" data-nr-duplicate-title="false"><a class="nr-pagebar-title" href="../../">Open Source Impact</a></div>
+    <div class="nr-pagebar-desktop"><a class="nr-pagebar-link" href="../../#snapshot">Snapshot</a><a class="nr-pagebar-link" href="../../#provenance">Data and provenance</a><a class="nr-pagebar-link" href="../../#method">Methodology</a><a class="nr-pagebar-link" href="../../#repositories">Repositories</a><a class="nr-pagebar-link" href="../../#downloads">Downloads</a></div>
+    <details class="nr-pagebar-mobile" data-nr-page-menu>
+      <summary class="nr-pagebar-summary">On this page<svg class="nr-pagebar-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg></summary>
+      <div class="nr-pagebar-menu"><a class="nr-pagebar-link" href="../../#snapshot">Snapshot</a><a class="nr-pagebar-link" href="../../#provenance">Data and provenance</a><a class="nr-pagebar-link" href="../../#method">Methodology</a><a class="nr-pagebar-link" href="../../#repositories">Repositories</a><a class="nr-pagebar-link" href="../../#downloads">Downloads</a></div>
+    </details>
+    
+  </div>
+</nav>
+
+<!-- site-shell:end -->
 
   <noscript>
     <div class="container"><p class="notice">JavaScript is switched off. Every figure, the full repository table and all downloads are available without it — only sorting, filtering and the charts need it. The chart data is published as a table and as a download.</p></div>
@@ -222,6 +293,7 @@
     </div>
   </footer>
 
+  <script src="../../assets/site-shell/site-shell.js" defer></script>
   <script src="../../assets/navigation.js" defer></script>
 </body>
 </html>
