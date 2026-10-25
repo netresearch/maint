@@ -252,3 +252,16 @@ receive the same header without regenerating their main content or citation data
 
 The browser gate exercises radio-keyboard selection, persistence, legacy and
 System reset, blocked storage, native NoJS navigation and short viewports.
+
+To publish UI changes using the existing measured snapshot, skip only collection:
+
+```bash
+gh workflow run impact-dashboard.yml --repo netresearch/maint --ref main -f collect_metrics=false
+```
+
+This manual mode seeds the data and historical pages from `gh-pages`, then runs
+the same renderer, verification, accessibility gate and publication. It retains
+the original collection timestamps and archived figures; it does not retrieve
+fresh metrics. Without seeded `data/latest.json`, rendering fails and nothing
+is published. The daily schedule and manual dispatches that omit the input keep
+collecting metrics (`collect_metrics` defaults to `true`).
