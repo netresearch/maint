@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 3 * * *'  # Daily at 03:00 UTC
   workflow_dispatch:
+    inputs:
+      collect_metrics:
+        description: Collect fresh metrics before rendering
+        type: boolean
+        default: true
   # A dependency bump to this file (Python, an action) is otherwise first
   # exercised by the nightly run after it merged. The tests workflow does not
   # install these packages, so it cannot catch a version without wheels.
@@ -88,6 +93,7 @@ jobs:
           pip install --only-binary :all: $DASHBOARD_DEPS
 
       - name: Collect impact metrics
+        if: github.event_name != 'workflow_dispatch' || inputs.collect_metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           IMPACT_DASHBOARD_PAT: ${{ secrets.IMPACT_DASHBOARD_PAT }}
@@ -125,6 +131,6 @@ jobs:
           publish_dir: ./build
           publish_branch: gh-pages
           keep_files: true
-          commit_message: 'chore(dashboard): update impact metrics'
+          commit_message: 'chore(dashboard): publish verified impact site'
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'

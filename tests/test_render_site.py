@@ -1,11 +1,41 @@
 """Published citation paths must remain useful after the next daily run."""
 import importlib.util
 import json
+import os
+import re
+import subprocess
+import sys
 from pathlib import Path
 from xml.etree import ElementTree
 
 import pytest
 from bs4 import BeautifulSoup
+
+
+def test_shared_renderers_produce_identical_bytes_in_ascii_locale():
+    program = """
+import json, sys
+sys.path.insert(0, sys.argv[1])
+from site_shell import render_header, render_page_navigation
+output = []
+for lang in ('de', 'en'):
+    output.append(render_header({'lang': lang, 'assetBase': '/assets/site-shell',
+        'languageUrls': {'de': '/de/', 'en': '/'}, 'active': 'impact',
+        'contactHref': 'https://www.netresearch.de/kontakt/'}))
+    output.append(render_page_navigation({'lang': lang, 'title': 'Open Source Impact',
+        'links': [{'href': '#main', 'label': 'Start'}]}))
+json.dump(output, sys.stdout, ensure_ascii=False)
+"""
+    shell = Path(__file__).resolve().parents[1] / "shared/site-shell"
+    command = [sys.executable, "-c", program, str(shell)]
+    normal_env = {**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8"}
+    ascii_env = {**normal_env, "LC_ALL": "C", "PYTHONUTF8": "0", "PYTHONCOERCECLOCALE": "0"}
+    normal = subprocess.run(command, env=normal_env, capture_output=True)
+    ascii_locale = subprocess.run(command, env=ascii_env, capture_output=True)
+    assert normal.returncode == 0, normal.stderr.decode("utf-8", errors="replace")
+    assert ascii_locale.returncode == 0, ascii_locale.stderr.decode("utf-8", errors="replace")
+    assert normal.stdout == ascii_locale.stdout
+    assert len(json.loads(normal.stdout)) == 4
 
 
 @pytest.fixture
@@ -22,6 +52,65 @@ def rendered(tmp_path, monkeypatch):
     (data / "latest.json").write_text(json.dumps(snapshot))
     renderer.main()
     return tmp_path, renderer
+
+
+def test_every_page_has_the_shared_header_and_local_navigation(rendered):
+    root, _ = rendered
+    for page in root.rglob("index.html"):
+        soup = BeautifulSoup(page.read_text(), "html.parser")
+        header = soup.select_one("header[data-nr-shell]")
+        assert header is not None, page
+        assert len(header.select("img")) == 1
+        assert "assets/site-shell/" in header.select_one("img")["src"]
+        assert header.select_one("details[data-nr-mobile-menu]")
+        assert {radio["value"] for radio in header.select('input[name="nr-shell-theme"]')} == {"system", "light", "dark"}
+        assert soup.select_one("[data-nr-page-navigation]")
+        lang = soup.html["lang"]
+        assert header.select_one(f'a[hreflang="{lang}"]')
+        assert header.select_one(f'a[hreflang="{"de" if lang == "en" else "en"}"]')
+    for name in ("site-shell.css", "site-shell.js", "netresearch-symbol-only.svg"):
+        assert (root / "assets/site-shell" / name).read_bytes() == (Path(__file__).resolve().parents[1] / "shared/site-shell" / name).read_bytes()
+
+
+@pytest.mark.parametrize("prefix", ["", "de/"])
+def test_historical_header_migrates_without_touching_archived_content(rendered, prefix):
+    root, renderer = rendered
+    target = root / prefix / "snapshot/2026-10-24/index.html"
+    original = target.read_text()
+    old_header = '<header class="site-header"><a href="https://www.netresearch.de/"><img src="../../assets/netresearch.svg" alt="Netresearch"></a><nav>Old header</nav></header>'
+    legacy, replaced = re.subn(r'<!-- site-shell:start -->[\s\S]*?<!-- site-shell:end -->', old_header, original, count=1)
+    if not replaced:
+        legacy = re.sub(r'<header\b[\s\S]*?</header>', old_header, original, count=1)
+    target.write_text(legacy)
+    before = BeautifulSoup(legacy, "html.parser")
+    renderer.main()
+    migrated = target.read_text()
+    after = BeautifulSoup(migrated, "html.parser")
+    assert after.select_one("header[data-nr-shell]")
+    assert "Old header" not in migrated
+    assert str(after.main) == str(before.main)
+    assert re.search(r'<main\b[\s\S]*?</main>', migrated).group() == re.search(r'<main\b[\s\S]*?</main>', legacy).group()
+    assert [str(node) for node in after.select('script[type="application/ld+json"]')] == [str(node) for node in before.select('script[type="application/ld+json"]')]
+    assert after.select_one('link[rel="canonical"]') == before.select_one('link[rel="canonical"]')
+    renderer.main()
+    assert target.read_text() == migrated
+
+
+def test_header_migration_also_covers_html_without_surviving_json(rendered):
+    root, renderer = rendered
+    original = (root / "snapshot/2026-10-24/index.html").read_text()
+    legacy = re.sub(r'<!-- site-shell:start -->[\s\S]*?<!-- site-shell:end -->', '<header class="site-header">Legacy chrome</header>', original)
+    target = root / "snapshot/2020-01-01/index.html"
+    target.parent.mkdir()
+    target.write_text(legacy)
+    renderer.main()
+    migrated = target.read_text()
+    assert 'data-nr-shell' in migrated
+    assert 'Legacy chrome' not in migrated
+    assert re.search(r'<main\b[\s\S]*?</main>', migrated).group() == re.search(r'<main\b[\s\S]*?</main>', legacy).group()
+    # A surviving single-language archive cannot create a translation from lost JSON.
+    soup = BeautifulSoup(migrated, "html.parser")
+    assert soup.select_one('header a[hreflang="de"]')["href"] == f"{renderer.SITE_URL}de/"
 
 
 @pytest.mark.parametrize("locale,prefix", [("en", ""), ("de", "de/")])
