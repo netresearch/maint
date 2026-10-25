@@ -102,7 +102,7 @@ def main() -> int:
                 if f"{param}=" not in href:
                     errors.append(f"{name}: contact link without {param}")
 
-        logos = re.findall(r"<img[^>]+netresearch\.svg[^>]*>", html)
+        logos = re.findall(r'<img[^>]+assets/site-shell/netresearch-symbol-only\.svg[^>]*>', html)
         if len(logos) != 1:
             errors.append(f"{name}: the logo appears {len(logos)} times, expected exactly once")
 
@@ -132,6 +132,11 @@ def main() -> int:
                      "assets/vendor/chart.umd.min.js"):
         if not (OUTPUT_DIR / required).exists():
             errors.append(f"missing {required}")
+    for name in ("site-shell.css", "site-shell.js", "netresearch-symbol-only.svg"):
+        shipped = OUTPUT_DIR / "assets/site-shell" / name
+        source = Path(__file__).resolve().parents[1] / "shared/site-shell" / name
+        if not shipped.is_file() or shipped.read_bytes() != source.read_bytes():
+            errors.append(f"shared header asset differs from source: {name}")
 
     # No third-party runtime requests: everything the page loads is served here.
     for page in pages:

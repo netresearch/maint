@@ -28,6 +28,7 @@ import { readdirSync, statSync, readFileSync } from 'node:fs';
 import { join, extname, relative, sep } from 'node:path';
 import { createRequire } from 'node:module';
 import puppeteer from 'puppeteer';
+import { checkSiteShell } from './check_site_shell.mjs';
 
 const require = createRequire(import.meta.url);
 const axePath = require.resolve('axe-core/axe.min.js');
@@ -139,6 +140,38 @@ function serve(files) {
  */
 const SCHEMES = ['light', 'dark'];
 
+async function localAnchorIssues(page) {
+  if (!(await page.$('#method'))) return [];
+  const summary = await page.$('.nr-pagebar details > summary');
+  if (summary) await summary.click();
+  await page.click('[data-nr-page-menu] a[href$="#method"]');
+  const visible = await page.evaluate(() => {
+    const heading = document.querySelector('#method h2');
+    const rect = heading.getBoundingClientRect();
+    const hit = document.elementFromPoint(rect.left + Math.min(50, rect.width / 2), rect.top + rect.height / 2);
+    return rect.top >= document.querySelector('[data-nr-shell]').getBoundingClientRect().bottom && heading.contains(hit);
+  });
+  return visible ? [] : ['Local Methodology link places its heading behind the sticky header'];
+}
+
+async function chartPaletteIssues(page) {
+  return page.evaluate(() => {
+    const color = getComputedStyle(document.documentElement).getPropertyValue('--fg').trim();
+    const charts = [...document.querySelectorAll('canvas')].map((canvas) => window.Chart?.getChart(canvas)).filter(Boolean);
+    return charts.flatMap((chart) => {
+      const failures = [];
+      if (chart.options.plugins.legend.labels.color !== color) failures.push('Chart legend did not follow the shared theme event');
+      for (const axis of Object.values(chart.options.scales)) {
+        if (axis.ticks.color !== color) failures.push('Chart axis did not follow the shared theme event');
+      }
+      for (const dataset of chart.data.datasets) {
+        if (dataset.themeColor === 'foreground' && dataset.backgroundColor !== color) failures.push('Chart foreground did not follow the shared theme event');
+      }
+      return failures;
+    });
+  });
+}
+
 /** Prints one violation. Extracted so main() stays readable. */
 function report({ route, scheme, violation }) {
   console.error(`\n✗ ${route} [${scheme}] — ${violation.id} (${violation.impact})`);
@@ -212,6 +245,8 @@ async function auditPage(browser, port, route, scheme) {
   const issues = [
     ...(await responsiveIssues(page, 390)),
     ...(await responsiveIssues(page, 320)),
+    ...(await checkSiteShell(page, scheme, chartPaletteIssues)),
+    ...(await localAnchorIssues(page)),
   ];
   if (issues.length) found.push({ route, scheme, violation: {
     id: 'responsive-brand-regression', impact: 'serious',

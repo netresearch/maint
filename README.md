@@ -178,7 +178,7 @@ button. It never introduces a figure the HTML does not already contain, and the
 chart series is published as a table beside each chart.
 
 Archived figures and collection timestamps are never regenerated. Legacy action
-labels and metadata can be corrected without changing those figures; where an
+labels, metadata and site navigation can be corrected without changing those figures; where an
 old daily JSON was overwritten, the preserved HTML is the citable original.
 New collection runs also receive a content-hash
 archive ID, so two runs on the same day have different permanent HTML and JSON
@@ -240,3 +240,15 @@ printf 'pytest\nrequests\nbeautifulsoup4\njinja2\npyyaml\n' | uv pip compile --g
 2. Add scripts to `scripts/` if needed
 3. Document in this README
 4. For detailed setup guides, add to `docs/`
+
+## Shared navigation
+
+`shared/site-shell/` vendors the common Netresearch header source. The renderer
+uses its Python interface and publishes matching CSS, JavaScript and the
+authentic symbol under `assets/site-shell/`. The early inline bootstrap applies
+System, Light or Dark before styles load. `navigation.js` only updates chart
+colours when the shared `nr-theme-change` event fires. Historical snapshot pages
+receive the same header without regenerating their main content or citation data.
+
+The browser gate exercises radio-keyboard selection, persistence, legacy and
+System reset, blocked storage, native NoJS navigation and short viewports.

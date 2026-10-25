@@ -32,6 +32,7 @@ import json
 import os
 import re
 import shutil
+import sys
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -42,6 +43,10 @@ from jinja2 import Environment, FileSystemLoader
 from snapshot_archive import archive_key, write_snapshot
 
 ROOT = Path(__file__).resolve().parent.parent
+SHELL_SOURCE = ROOT / "shared" / "site-shell"
+sys.path.insert(0, str(SHELL_SOURCE))
+from site_shell import render_header, render_page_navigation
+
 DASHBOARD = ROOT / "dashboard"
 OUTPUT_DIR = Path(os.environ.get("OUTPUT_DIR", "build"))
 SITE_URL = os.environ.get("SITE_URL", "https://netresearch.github.io/maint/")
@@ -488,6 +493,33 @@ DICTIONARY = {
 }
 
 
+def migrate_snapshot_shell(markup: str, header: str, base: str, bootstrap: str) -> str:
+    """Replace only historical site chrome; archived content remains verbatim."""
+    marker = r"<!-- site-shell:start -->[\s\S]*?<!-- site-shell:end -->"
+    if re.search(marker, markup):
+        markup = re.sub(marker, lambda _: header, markup, count=1)
+    else:
+        markup, count = re.subn(r'<header class="site-header">[\s\S]*?</header>', lambda _: header, markup, count=1)
+        if count != 1:
+            raise ValueError("Archived snapshot has no recognised site header")
+    bootstrap_marker = r"<!-- site-shell:bootstrap -->[\s\S]*?<!-- site-shell:bootstrap-end -->"
+    if re.search(bootstrap_marker, markup):
+        markup = re.sub(bootstrap_marker, lambda _: bootstrap, markup, count=1)
+    else:
+        # This is the initializer emitted by the previous base template only.
+        markup = re.sub(r"<script>\s*try \{ var theme = localStorage.getItem\('nr-theme'\);[\s\S]*?</script>", "", markup, count=1)
+        markup, heads = re.subn(r"<head(?:\s[^>]*)?>", lambda match: match[0] + "\n" + bootstrap, markup, count=1, flags=re.I)
+        if heads != 1:
+            raise ValueError("Archived snapshot has no document head for the shared bootstrap")
+    stylesheet = f'{base}assets/site-shell/site-shell.css'
+    if f'href="{stylesheet}"' not in markup:
+        markup = markup.replace("</head>", f'<link rel="stylesheet" href="{stylesheet}">\n</head>', 1)
+    script = f'{base}assets/site-shell/site-shell.js'
+    if f'src="{script}"' not in markup:
+        markup = markup.replace("</body>", f'<script src="{script}" defer></script>\n</body>', 1)
+    return markup
+
+
 def main() -> None:
     data_dir = OUTPUT_DIR / "data"
     snapshot = json.loads((data_dir / "latest.json").read_text(encoding="utf-8"))
@@ -513,6 +545,26 @@ def main() -> None:
     )
     env.filters["number"] = number
     env.filters["dash"] = dash
+    bootstrap = (SHELL_SOURCE / "theme-bootstrap.js").read_text(encoding="utf-8")
+    bootstrap_markup = f"<!-- site-shell:bootstrap -->\n<script>{bootstrap}</script>\n<!-- site-shell:bootstrap-end -->"
+    env.globals["shell_bootstrap_markup"] = bootstrap_markup
+
+    def header_html(t, base, home, canonical, other_href):
+        language_urls = {t["lang"]: canonical, t["other_lang"]: other_href}
+        return env.get_template("site_header.html.j2").render(
+            global_header=render_header({
+                "lang": t["lang"], "assetBase": f"{base}assets/site-shell",
+                "languageUrls": language_urls, "active": "impact",
+                "contactHref": contact_url("header"),
+            }), page_navigation=render_page_navigation({
+                "lang": t["lang"], "title": "Open Source Impact", "titleHref": home,
+                "links": [{"href": f"{home}#{anchor}", "label": t["nav"][label]} for anchor, label in
+                          [("snapshot", "snapshot"), ("provenance", "provenance"), ("method", "method"),
+                           ("repositories", "repos"), ("downloads", "downloads")]],
+            }), t=t, home=home,
+        )
+
+    env.globals["header_html"] = header_html
 
     totals = snapshot.get("totals", {})
     repos = snapshot.get("repos", [])
@@ -691,6 +743,22 @@ def main() -> None:
                 ),
             )
 
+    # Existing archive HTML is deliberately not regenerated from today's data.
+    # Migrate its shell separately, including aliases with no surviving JSON.
+    for lang in LANGS:
+        prefix = "" if lang == "en" else "de/"
+        base = TWO_UP if lang == "en" else TWO_UP + "../"
+        for target in (OUTPUT_DIR / prefix / "snapshot").glob("*/index.html"):
+            key = target.parent.name
+            current = f"{SITE_URL}{prefix}snapshot/{key}/"
+            other_prefix = "de/" if lang == "en" else ""
+            counterpart = OUTPUT_DIR / other_prefix / "snapshot" / key / INDEX_HTML
+            other = f"{SITE_URL}{other_prefix}snapshot/{key}/" if counterpart.is_file() else f"{SITE_URL}{other_prefix}"
+            original = target.read_text(encoding="utf-8")
+            migrated = migrate_snapshot_shell(original, header_html(translations[lang], base, TWO_UP, current, other), base, bootstrap_markup)
+            if migrated != original:
+                write(target, migrated)
+
     # ── Data products ────────────────────────────────────────────────────────
     write_csv(build_repo_rows(snapshot, "en"), data_dir / "repositories.csv")
     write(
@@ -704,6 +772,9 @@ def main() -> None:
     if assets_dst.exists():
         shutil.rmtree(assets_dst)
     shutil.copytree(assets_src, assets_dst)
+    (assets_dst / "site-shell").mkdir()
+    for name in ("site-shell.css", "site-shell.js", "netresearch-symbol-only.svg"):
+        shutil.copyfile(SHELL_SOURCE / name, assets_dst / "site-shell" / name)
 
     citation_cff = ROOT / "CITATION.cff"
     if citation_cff.exists():
