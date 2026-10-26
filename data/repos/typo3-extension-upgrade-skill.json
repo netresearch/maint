@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-06T00:27:24Z",
-  "pushed_at": "2026-10-24T20:32:38Z",
-  "updated_at": "2026-10-24T08:44:34Z",
+  "pushed_at": "2026-10-25T21:37:00Z",
+  "updated_at": "2026-10-25T21:37:02Z",
   "composer_name": null,
   "lifetime": {
     "stars": 11,
@@ -23,11 +23,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 2,
-    "commits": 361,
+    "commits": 363,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 1,
-    "prs_merged": 123,
+    "prs_merged": 124,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
     "releases": 42,
@@ -40,37 +40,32 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 51,
+    "commits": 53,
     "issues_opened": 0,
-    "prs_opened": 19,
-    "prs_merged": 18,
+    "prs_opened": 20,
+    "prs_merged": 19,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3459,
-    "clones_unique": 194,
-    "views_total": 39,
-    "views_unique": 22,
+    "clones_total": 3552,
+    "clones_unique": 207,
+    "views_total": 40,
+    "views_unique": 24,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 15,
         "uniques": 9
-      },
-      {
-        "referrer": "ecosia.org",
-        "count": 2,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-extension-upgrade-skill",
         "title": "Overview",
-        "count": 15,
-        "uniques": 11
+        "count": 14,
+        "uniques": 10
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/references/upgrade-v13-to-v14.md",
@@ -109,20 +104,20 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/typo3-extension-upgrade-skill/actions",
+        "title": "/actions",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/agents/upgrade-planner.md",
         "title": "/blob/main/agents/upgrade-planner.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/references/verification.md",
-        "title": "/blob/main/skills/typo3-extension-upgrade/references/verification.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/tests/test_scripts.py",
-        "title": "/blob/main/tests/test_scripts.py",
         "count": 1,
         "uniques": 1
       }
@@ -142,7 +137,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 26,
+      "contributions": 27,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -157,7 +152,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 10,
+      "contributions": 11,
       "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
@@ -168,7 +163,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-extension-upgrade-skill/network/dependents"
   },
-  "estimated_downstream_reach": 126,
-  "blast_radius": 126,
+  "estimated_downstream_reach": 127,
+  "blast_radius": 127,
   "archived": false
 }

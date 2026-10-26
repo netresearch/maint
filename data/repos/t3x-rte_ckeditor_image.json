@@ -38,25 +38,25 @@
     "release_downloads": 192,
     "contributors": 52,
     "external_contributors": 44,
-    "packagist_downloads": 1149824,
+    "packagist_downloads": 1150311,
     "ghcr_downloads": 0,
     "dependents_repos": 46,
     "dependents_packages": 3
   },
   "recent_30d": {
     "commits": 72,
-    "issues_opened": 3,
-    "prs_opened": 23,
-    "prs_merged": 23,
+    "issues_opened": 2,
+    "prs_opened": 21,
+    "prs_merged": 22,
     "releases": 1,
-    "packagist_downloads": 27890,
+    "packagist_downloads": 26915,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4109,
-    "clones_unique": 361,
-    "views_total": 80,
-    "views_unique": 57,
+    "clones_total": 4061,
+    "clones_unique": 335,
+    "views_total": 81,
+    "views_unique": 58,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -81,15 +81,15 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/t3x-rte_ckeditor_image",
+        "title": "Overview",
+        "count": 11,
+        "uniques": 8
+      },
+      {
         "path": "/netresearch/t3x-rte_ckeditor_image/issues",
         "title": "/issues",
         "count": 11,
-        "uniques": 7
-      },
-      {
-        "path": "/netresearch/t3x-rte_ckeditor_image",
-        "title": "Overview",
-        "count": 10,
         "uniques": 7
       },
       {
@@ -117,16 +117,10 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/Contributors.md",
-        "title": "/blob/main/Contributors.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/claudedocs/SECURITY.md",
-        "title": "/blob/main/claudedocs/SECURITY.md",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/t3x-rte_ckeditor_image/tree/main/Classes",
+        "title": "/tree/main/Classes",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/commits/main",
@@ -137,6 +131,12 @@
       {
         "path": "/netresearch/t3x-rte_ckeditor_image/tags",
         "title": "/tags",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-rte_ckeditor_image/tree/TYPO3_10",
+        "title": "/tree/TYPO3_10",
         "count": 2,
         "uniques": 2
       }
@@ -202,9 +202,9 @@
   ],
   "packagist": {
     "name": "netresearch/rte-ckeditor-image",
-    "total": 1149824,
-    "monthly": 27890,
-    "daily": 520,
+    "total": 1150311,
+    "monthly": 26915,
+    "daily": 371,
     "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
   },
   "ghcr": null,

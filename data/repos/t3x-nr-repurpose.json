@@ -30,26 +30,31 @@
     "release_downloads": 31,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 2253,
+    "packagist_downloads": 2317,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 449,
+    "commits": 430,
     "issues_opened": 1,
-    "prs_opened": 61,
-    "prs_merged": 61,
-    "releases": 14,
-    "packagist_downloads": 600,
+    "prs_opened": 57,
+    "prs_merged": 58,
+    "releases": 13,
+    "packagist_downloads": 594,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1282,
-    "clones_unique": 133,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 1330,
+    "clones_unique": 134,
+    "views_total": 33,
+    "views_unique": 33,
     "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 31,
+        "uniques": 31
+      },
       {
         "referrer": "github.com",
         "count": 1,
@@ -58,14 +63,62 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/t3x-nr-repurpose/blob/146d18aa/Documentation/Architecture/Index.rst",
+        "title": "/blob/146d18aa/Documentation/Architecture/Index.rst",
+        "count": 7,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/t3x-nr-repurpose/blob/146d18aa/Documentation/Introduction/Index.rst",
+        "title": "/blob/146d18aa/Documentation/Introduction/Index.rst",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-repurpose/blob/146d18aa/CHANGELOG.md",
+        "title": "/blob/146d18aa/CHANGELOG.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-nr-repurpose/blob/146d18aa/Classes/AGENTS.md",
+        "title": "/blob/146d18aa/Classes/AGENTS.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-nr-repurpose/blob/146d18aa/README.md",
+        "title": "/blob/146d18aa/README.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-nr-repurpose/blob/146d18aa/composer.json",
+        "title": "/blob/146d18aa/composer.json",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-nr-repurpose/blob/146d18aa/Documentation/Changelog.rst",
+        "title": "/blob/146d18aa/Documentation/Changelog.rst",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-repurpose/blob/146d18aa/Documentation/Index.rst",
+        "title": "/blob/146d18aa/Documentation/Index.rst",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-nr-repurpose",
         "title": "Overview",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-repurpose/pull/164",
-        "title": "/pull/164",
+        "path": "/netresearch/t3x-nr-repurpose/blob/146d18aa/.github/workflows/docs.yml",
+        "title": "/blob/146d18aa/.github/workflows/docs.yml",
         "count": 1,
         "uniques": 1
       }
@@ -101,9 +154,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-repurpose",
-    "total": 2253,
-    "monthly": 600,
-    "daily": 37,
+    "total": 2317,
+    "monthly": 594,
+    "daily": 52,
     "url": "https://packagist.org/packages/netresearch/nr-repurpose"
   },
   "ghcr": null,

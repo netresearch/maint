@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T10:14:23Z",
-  "pushed_at": "2026-10-24T21:08:02Z",
-  "updated_at": "2026-10-24T09:17:13Z",
+  "pushed_at": "2026-10-25T20:45:15Z",
+  "updated_at": "2026-10-25T20:45:17Z",
   "composer_name": null,
   "lifetime": {
     "stars": 6,
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 554,
+    "commits": 556,
     "issues_open": 1,
     "issues_closed": 6,
     "prs_open": 1,
-    "prs_merged": 163,
+    "prs_merged": 164,
     "prs_closed_unmerged": 6,
     "issues_total": 7,
     "releases": 62,
@@ -47,32 +47,79 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 104,
+    "commits": 106,
     "issues_opened": 0,
-    "prs_opened": 32,
-    "prs_merged": 31,
+    "prs_opened": 31,
+    "prs_merged": 30,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5001,
-    "clones_unique": 272,
-    "views_total": 5,
-    "views_unique": 5,
+    "clones_total": 5091,
+    "clones_unique": 283,
+    "views_total": 26,
+    "views_unique": 7,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "netresearch.github.io",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-conformance-skill",
         "title": "Overview",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/outputStyles/conformance-report.md",
+        "title": "/blob/main/outputStyles/conformance-report.md",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/tree/main/commands",
+        "title": "/tree/main/commands",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance/scripts",
+        "title": "/tree/main/skills/typo3-conformance/scripts",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/.claude-plugin/plugin.json",
+        "title": "/blob/main/.claude-plugin/plugin.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/LICENSE-CC-BY-SA-4.0",
+        "title": "/blob/main/LICENSE-CC-BY-SA-4.0",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/commands/check.md",
+        "title": "/blob/main/commands/check.md",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/typo3-conformance-skill/blob/main/docs/ARCHITECTURE.md",
@@ -81,14 +128,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/outputStyles/conformance-report.md",
-        "title": "/blob/main/outputStyles/conformance-report.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/pull/160",
-        "title": "/pull/160",
+        "path": "/netresearch/typo3-conformance-skill/blob/main/docs/SECURITY-ASSURANCE.md",
+        "title": "/blob/main/docs/SECURITY-ASSURANCE.md",
         "count": 1,
         "uniques": 1
       }
@@ -108,7 +149,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 31,
+      "contributions": 32,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -118,7 +159,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 11,
+      "contributions": 12,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -134,7 +175,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "estimated_downstream_reach": 170,
-  "blast_radius": 170,
+  "estimated_downstream_reach": 171,
+  "blast_radius": 171,
   "archived": false
 }

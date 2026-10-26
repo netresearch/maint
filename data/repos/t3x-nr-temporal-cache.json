@@ -47,17 +47,35 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 938,
-    "clones_unique": 88,
+    "clones_total": 925,
+    "clones_unique": 84,
     "views_total": 7,
     "views_unique": 7,
-    "top_referrers": [],
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-temporal-cache",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/HEAD/README.md",
+        "title": "/blob/HEAD/README.md",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/COVERAGE_ANALYSIS.md",
@@ -68,18 +86,6 @@
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/DDEV_SETUP.md",
         "title": "/blob/main/DDEV_SETUP.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/TEST_EVIDENCE_REPORT.md",
-        "title": "/blob/main/TEST_EVIDENCE_REPORT.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/ext_conf_template.txt",
-        "title": "/blob/main/ext_conf_template.txt",
         "count": 1,
         "uniques": 1
       }

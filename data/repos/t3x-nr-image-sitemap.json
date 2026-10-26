@@ -38,7 +38,7 @@
     "release_downloads": 3,
     "contributors": 6,
     "external_contributors": 1,
-    "packagist_downloads": 3848,
+    "packagist_downloads": 3915,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,16 +49,23 @@
     "prs_opened": 12,
     "prs_merged": 12,
     "releases": 1,
-    "packagist_downloads": 617,
+    "packagist_downloads": 614,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 842,
-    "clones_unique": 94,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 835,
+    "clones_unique": 93,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap/actions/runs/36387041545/job/108815036764",
+        "title": "/actions/runs/36387041545/job/108815036764",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "14.0.2",
@@ -100,9 +107,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-sitemap",
-    "total": 3848,
-    "monthly": 617,
-    "daily": 37,
+    "total": 3915,
+    "monthly": 614,
+    "daily": 54,
     "url": "https://packagist.org/packages/netresearch/nr-image-sitemap"
   },
   "ghcr": null,

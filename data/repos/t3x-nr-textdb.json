@@ -44,7 +44,7 @@
     "release_downloads": 6,
     "contributors": 9,
     "external_contributors": 2,
-    "packagist_downloads": 3173,
+    "packagist_downloads": 3242,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
@@ -55,16 +55,64 @@
     "prs_opened": 21,
     "prs_merged": 20,
     "releases": 3,
-    "packagist_downloads": 707,
+    "packagist_downloads": 704,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 800,
-    "clones_unique": 128,
-    "views_total": 7,
-    "views_unique": 7,
-    "top_referrers": [],
+    "clones_total": 803,
+    "clones_unique": 127,
+    "views_total": 37,
+    "views_unique": 37,
+    "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 32,
+        "uniques": 32
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/1eb0fab2/README.md",
+        "title": "/blob/1eb0fab2/README.md",
+        "count": 8,
+        "uniques": 8
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/1eb0fab2/Documentation/Introduction/Index.rst",
+        "title": "/blob/1eb0fab2/Documentation/Introduction/Index.rst",
+        "count": 5,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/1eb0fab2/.github/copilot-instructions.md",
+        "title": "/blob/1eb0fab2/.github/copilot-instructions.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/1eb0fab2/CHANGELOG.md",
+        "title": "/blob/1eb0fab2/CHANGELOG.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/1eb0fab2/ext_emconf.php",
+        "title": "/blob/1eb0fab2/ext_emconf.php",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/1eb0fab2/CONTRIBUTING.md",
+        "title": "/blob/1eb0fab2/CONTRIBUTING.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/blob/1eb0fab2/Documentation/Index.rst",
+        "title": "/blob/1eb0fab2/Documentation/Index.rst",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/t3x-nr-textdb/graphs/commit-activity",
         "title": "/graphs/commit-activity",
@@ -72,32 +120,14 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/blob/HEAD/docs/SECURITY-ASSURANCE.md",
-        "title": "/blob/HEAD/docs/SECURITY-ASSURANCE.md",
+        "path": "/netresearch/t3x-nr-textdb/blob/1eb0fab2/AGENTS.md",
+        "title": "/blob/1eb0fab2/AGENTS.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb/blob/main/ext_conf_template.txt",
-        "title": "/blob/main/ext_conf_template.txt",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb/blob/main/ext_localconf.php",
-        "title": "/blob/main/ext_localconf.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb/pulls",
-        "title": "/pulls",
+        "path": "/netresearch/t3x-nr-textdb/blob/1eb0fab2/Build/UnitTests.xml",
+        "title": "/blob/1eb0fab2/Build/UnitTests.xml",
         "count": 1,
         "uniques": 1
       }
@@ -158,9 +188,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 3173,
-    "monthly": 707,
-    "daily": 43,
+    "total": 3242,
+    "monthly": 704,
+    "daily": 57,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,

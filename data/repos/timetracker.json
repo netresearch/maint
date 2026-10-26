@@ -49,7 +49,7 @@
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 53090,
+    "ghcr_downloads": 53120,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -60,14 +60,19 @@
     "prs_merged": 56,
     "releases": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 6387
+    "ghcr_downloads": 6362
   },
   "traffic_14d": {
-    "clones_total": 5912,
-    "clones_unique": 599,
-    "views_total": 32,
-    "views_unique": 30,
+    "clones_total": 5873,
+    "clones_unique": 595,
+    "views_total": 106,
+    "views_unique": 103,
     "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 67,
+        "uniques": 67
+      },
       {
         "referrer": "github.com",
         "count": 2,
@@ -81,64 +86,64 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/timetracker/blob/cecd587d/README.md",
+        "title": "/blob/cecd587d/README.md",
+        "count": 8,
+        "uniques": 8
+      },
+      {
         "path": "/netresearch/timetracker",
         "title": "Overview",
         "count": 7,
         "uniques": 7
       },
       {
-        "path": "/netresearch/timetracker/blob/main/docs/DEPLOYMENT_GUIDE.md",
-        "title": "/blob/main/docs/DEPLOYMENT_GUIDE.md",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/timetracker/blob/cecd587d/composer.json",
+        "title": "/blob/cecd587d/composer.json",
+        "count": 7,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/timetracker/blob/cecd587d/Dockerfile",
+        "title": "/blob/cecd587d/Dockerfile",
+        "count": 5,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/timetracker/blob/cecd587d/src/AGENTS.md",
+        "title": "/blob/cecd587d/src/AGENTS.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/timetracker/blob/cecd587d/src/Controller/Interpretation/InterpretationAction.php",
+        "title": "/blob/cecd587d/src/Controller/Interpretation/InterpretationAction.php",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/timetracker/blob/cecd587d/src/Service/JiraIntegrationService.php",
+        "title": "/blob/cecd587d/src/Service/JiraIntegrationService.php",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/timetracker/blob/cecd587d/src/Service/LdapClientService.php",
+        "title": "/blob/cecd587d/src/Service/LdapClientService.php",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/timetracker/blob/main/docs/PROJECT_INDEX.md",
         "title": "/blob/main/docs/PROJECT_INDEX.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/timetracker/blob/cecd587d/src/Command/TtSyncSubticketsCommand.php",
+        "title": "/blob/cecd587d/src/Command/TtSyncSubticketsCommand.php",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs/monitoring.md",
-        "title": "/blob/main/docs/monitoring.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs/performance.md",
-        "title": "/blob/main/docs/performance.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs/security.md",
-        "title": "/blob/main/docs/security.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/timetracker/discussions",
-        "title": "/discussions",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/timetracker/issues",
-        "title": "/issues",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/timetracker/blob/HEAD/docs/adr/ADR-016-solidjs-frontend-rewrite.md",
-        "title": "/blob/HEAD/docs/adr/ADR-016-solidjs-frontend-rewrite.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/.sonarcloud.properties",
-        "title": "/blob/main/.sonarcloud.properties",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -206,12 +211,12 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 53090,
-        "thirty_day": 6387
+        "total": 53120,
+        "thirty_day": 6362
       }
     ],
-    "total": 53090,
-    "thirty_day": 6387
+    "total": 53120,
+    "thirty_day": 6362
   },
   "dependents": {
     "repositories": 0,
