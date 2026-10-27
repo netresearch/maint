@@ -12,8 +12,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2020-04-08T13:54:57Z",
-  "pushed_at": "2026-07-15T12:48:13Z",
-  "updated_at": "2026-07-15T12:48:16Z",
+  "pushed_at": "2026-10-26T09:57:15Z",
+  "updated_at": "2026-10-26T09:57:19Z",
   "composer_name": "deutschepost/module-autocomplete-m2",
   "lifetime": {
     "stars": 4,
@@ -21,7 +21,7 @@
     "watchers": 8,
     "network": 0,
     "open_issues_plus_prs": 0,
-    "commits": 45,
+    "commits": 46,
     "issues_open": 0,
     "issues_closed": 2,
     "prs_open": 0,
@@ -30,27 +30,27 @@
     "issues_total": 2,
     "releases": 16,
     "release_downloads": 0,
-    "contributors": 4,
-    "external_contributors": 3,
-    "packagist_downloads": 245269,
+    "contributors": 5,
+    "external_contributors": 4,
+    "packagist_downloads": 245437,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 1,
     "issues_opened": 0,
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 4487,
+    "packagist_downloads": 4560,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 74,
-    "clones_unique": 65,
-    "views_total": 13,
-    "views_unique": 13,
+    "clones_total": 72,
+    "clones_unique": 64,
+    "views_total": 15,
+    "views_unique": 15,
     "top_referrers": [],
     "top_paths": [
       {
@@ -78,6 +78,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/composer.json",
         "title": "/blob/main/composer.json",
         "count": 1,
@@ -96,20 +102,14 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/pulls",
+        "title": "/pulls",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/deutschepost-module-autocomplete-m2/tree/main/Model",
         "title": "/tree/main/Model",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-module-autocomplete-m2/tree/main/Model/Util",
-        "title": "/tree/main/Model/Util",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-module-autocomplete-m2/tree/main/etc",
-        "title": "/tree/main/etc",
         "count": 1,
         "uniques": 1
       }
@@ -141,13 +141,18 @@
       "login": "powli",
       "contributions": 5,
       "url": "https://github.com/powli"
+    },
+    {
+      "login": "tobstomar",
+      "contributions": 1,
+      "url": "https://github.com/tobstomar"
     }
   ],
   "packagist": {
     "name": "deutschepost/module-autocomplete-m2",
-    "total": 245269,
-    "monthly": 4487,
-    "daily": 84,
+    "total": 245437,
+    "monthly": 4560,
+    "daily": 171,
     "url": "https://packagist.org/packages/deutschepost/module-autocomplete-m2"
   },
   "ghcr": null,
@@ -156,7 +161,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/deutschepost-module-autocomplete-m2/network/dependents"
   },
-  "estimated_downstream_reach": 13,
-  "blast_radius": 13,
+  "estimated_downstream_reach": 16,
+  "blast_radius": 16,
   "archived": false
 }

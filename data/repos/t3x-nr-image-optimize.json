@@ -37,36 +37,42 @@
     "release_downloads": 9,
     "contributors": 9,
     "external_contributors": 2,
-    "packagist_downloads": 3112,
+    "packagist_downloads": 3137,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 62,
+    "commits": 60,
     "issues_opened": 0,
-    "prs_opened": 23,
-    "prs_merged": 23,
+    "prs_opened": 22,
+    "prs_merged": 22,
     "releases": 2,
-    "packagist_downloads": 272,
+    "packagist_downloads": 293,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1615,
-    "clones_unique": 149,
-    "views_total": 2,
-    "views_unique": 2,
+    "clones_total": 1371,
+    "clones_unique": 137,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [],
     "top_paths": [
       {
-        "path": "/netresearch/t3x-nr-image-optimize/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
+        "path": "/netresearch/t3x-nr-image-optimize/pull/214",
+        "title": "/pull/214",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize",
+        "title": "Overview",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-optimize/pull/214",
-        "title": "/pull/214",
+        "path": "/netresearch/t3x-nr-image-optimize/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
         "count": 1,
         "uniques": 1
       }
@@ -85,11 +91,6 @@
       "url": "https://github.com/CybotTM"
     },
     {
-      "login": "aseemann",
-      "contributions": 98,
-      "url": "https://github.com/aseemann"
-    },
-    {
       "login": "magicsunday",
       "contributions": 43,
       "url": "https://github.com/magicsunday"
@@ -98,6 +99,11 @@
       "login": "renovate[bot]",
       "contributions": 38,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "aseemann",
+      "contributions": 22,
+      "url": "https://github.com/aseemann"
     },
     {
       "login": "Gitsko",
@@ -127,9 +133,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 3112,
-    "monthly": 272,
-    "daily": 8,
+    "total": 3137,
+    "monthly": 293,
+    "daily": 26,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,
