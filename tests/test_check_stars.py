@@ -26,13 +26,13 @@ def test_empty_repo_returns_no_dependents_without_scraping():
         raise AssertionError("get_dependents scraped an empty repo instead of short-circuiting")
 
     # Fail loudly if any HTTP call is attempted for an empty repo, restoring
-    # the real requests.get afterwards so other tests are unaffected.
-    original_get = check_stars.requests.get
-    check_stars.requests.get = _fail  # type: ignore[assignment]
+    # the real HTML transport afterwards so other tests are unaffected.
+    original_get = check_stars._html_session.get
+    check_stars._html_session.get = _fail  # type: ignore[assignment]
     try:
         result = check_stars.get_dependents("netresearch/dind", repo_is_empty=True)
     finally:
-        check_stars.requests.get = original_get  # type: ignore[assignment]
+        check_stars._html_session.get = original_get  # type: ignore[assignment]
     assert result == [], f"expected [] for empty repo, got {result!r}"
 
 
@@ -143,13 +143,13 @@ class _FakeResponse:
 def _drive_rate_limited_request(response):
     """Run github_request against a server that always returns `response`.
 
-    Returns (raised_exception_or_None, list_of_sleep_durations). requests.get and
+    Returns (raised_exception_or_None, list_of_sleep_durations). API requests and
     time.sleep are swapped out so the test measures the policy rather than living
     through it, and both are restored plus the budget reset afterwards.
     """
     slept = []
-    original_get, original_sleep = check_stars.requests.get, check_stars.time.sleep
-    check_stars.requests.get = lambda *a, **k: response  # type: ignore[assignment]
+    original_get, original_sleep = check_stars._api_session.get, check_stars.time.sleep
+    check_stars._api_session.get = lambda *a, **k: response  # type: ignore[assignment]
     check_stars.time.sleep = slept.append  # type: ignore[assignment]
     check_stars._rate_limit_slept = 0.0
     raised = None
@@ -158,7 +158,7 @@ def _drive_rate_limited_request(response):
     except Exception as e:  # noqa: BLE001 - the test asserts on which type came out
         raised = e
     finally:
-        check_stars.requests.get = original_get  # type: ignore[assignment]
+        check_stars._api_session.get = original_get  # type: ignore[assignment]
         check_stars.time.sleep = original_sleep  # type: ignore[assignment]
         check_stars._rate_limit_slept = 0.0
     return raised, slept
