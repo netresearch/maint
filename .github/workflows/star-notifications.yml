@@ -26,7 +26,9 @@ jobs:
           python-version: '3.15'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        # Hash-pinned and wheels-only, as in tests.yml.
+        run: |
+          pip install --only-binary :all: --require-hashes -r requirements/star-notifications.txt
 
       - name: Download previous state
         uses: dawidd6/action-download-artifact@eab87c9830c39eff17e5a6eadb20bfb4bc880477 # v27

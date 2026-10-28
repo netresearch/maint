@@ -16,6 +16,14 @@ Monitors all public repositories in the netresearch organization for new stars, 
 
 **Notifications sent to:** Matrix room via Hookshot webhook
 
+**Dependencies:** `requirements/star-notifications.txt`, hash-pinned and installed
+wheels-only. Regenerate it rather than editing a hash by hand:
+
+```bash
+printf 'requests\nbeautifulsoup4\n' | uv pip compile --generate-hashes \
+  --python-version 3.15 --output-file requirements/star-notifications.txt -
+```
+
 #### Secrets Required
 
 | Secret | Description |
