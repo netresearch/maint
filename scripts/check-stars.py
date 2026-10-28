@@ -18,6 +18,11 @@ STATE_FILE = Path("state/stars-state.json")
 MAX_NOTIFICATIONS = 20
 FEED_URL = "https://github.com/netresearch/maint/actions/workflows/star-notifications.yml"
 
+# Reuse connections throughout a scan. Keep authenticated API traffic separate
+# from public HTML requests; API credentials remain per-request headers.
+_api_session = requests.Session()
+_html_session = requests.Session()
+
 # --- Rate-limit backoff ------------------------------------------------------
 # A rate limit needs a completely different amount of patience from a flaky
 # gateway, so it gets its own attempt count and its own wait schedule. The old
@@ -234,7 +239,7 @@ def github_request(url: str, accept: str = "application/vnd.github+json", max_re
         rate_limit_attempt = 0
         while True:
             try:
-                response = requests.get(url, headers=headers, timeout=30)
+                response = _api_session.get(url, headers=headers, timeout=30)
 
                 # Rate limits first: a 403 that is_rate_limited() recognises is
                 # transient and must not fall through to the AuthError branch.
@@ -493,7 +498,7 @@ def get_dependents(repo_full_name: str, repo_is_empty: bool = False, max_retries
 
     for attempt in range(max_retries):
         try:
-            response = requests.get(url, headers=headers, timeout=30)
+            response = _html_session.get(url, headers=headers, timeout=30)
             if response.status_code in (429, 502, 503, 504):
                 # Same defensive parse as the API path: an HTTP-date here used to
                 # crash the scrape with a ValueError instead of retrying. This is
