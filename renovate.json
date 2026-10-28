@@ -3,7 +3,7 @@
   "extends": [
     "github>netresearch/renovate-config"
   ],
-  "pip_requirements": {
+  "pip-compile": {
     "managerFilePatterns": [
       "/^requirements/[^/]+\\.txt$/"
     ]
