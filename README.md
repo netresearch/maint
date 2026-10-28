@@ -16,6 +16,14 @@ Monitors all public repositories in the netresearch organization for new stars, 
 
 **Notifications sent to:** Matrix room via Hookshot webhook
 
+**Dependencies:** `requirements/star-notifications.txt`, hash-pinned and installed
+wheels-only. Regenerate it rather than editing a hash by hand:
+
+```bash
+uv pip compile --generate-hashes --python-version=3.15 \
+  --output-file=requirements/star-notifications.txt requirements/star-notifications.in
+```
+
 #### Secrets Required
 
 | Secret | Description |
@@ -230,9 +238,14 @@ To change a pinned version, regenerate the file rather than editing a hash by
 hand:
 
 ```bash
-printf 'pytest\nrequests\nbeautifulsoup4\njinja2\npyyaml\n' | uv pip compile --generate-hashes \
-  --python-version 3.14 --output-file requirements/tests.txt -
+uv pip compile --generate-hashes --python-version=3.14 \
+  --output-file=requirements/tests.txt requirements/tests.in
 ```
+
+Renovate keeps both lock files current through its `pip-compile` manager, which
+re-runs the command from the file header. That manager accepts only the
+`--option=value` form and needs the `.in` file as input, so keep the header in
+that shape.
 
 ## Adding New Automation Tasks
 
