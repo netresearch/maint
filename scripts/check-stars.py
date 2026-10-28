@@ -450,8 +450,8 @@ def get_watchers(repo_full_name: str) -> list[dict] | None:
 def _parse_dependents(soup: BeautifulSoup) -> list[dict]:
     """Extract dependent repos from a parsed #dependents page.
 
-    Each Box-row links to a repository; enrich it with star/fork counts via the
-    API, falling back to zeros when that lookup fails.
+    Read identities first. Metadata is only needed when main() prepares an
+    actual new-dependent notification, after comparing with the saved state.
     """
     dependents = []
     for item in soup.select('.Box-row'):
@@ -467,14 +467,21 @@ def _parse_dependents(soup: BeautifulSoup) -> list[dict]:
             "stars": 0,
             "forks": 0,
         }
-        try:
-            repo_info = github_request(f"{GITHUB_API}/repos/{dep_full_name}")
-            entry["stars"] = repo_info.get("stargazers_count", 0)
-            entry["forks"] = repo_info.get("forks_count", 0)
-        except (requests.exceptions.RequestException, KeyError, ValueError) as e:
-            print(f"Warning: Could not get info for dependent {dep_full_name}: {e}")
         dependents.append(entry)
     return dependents
+
+
+def enrich_dependent(dependent: dict) -> dict:
+    """Add the counts used in a new-dependent notification, retaining fallback."""
+    entry = dict(dependent)
+    full_name = entry["full_name"]
+    try:
+        repo_info = github_request(f"{GITHUB_API}/repos/{full_name}")
+        entry["stars"] = repo_info.get("stargazers_count", 0)
+        entry["forks"] = repo_info.get("forks_count", 0)
+    except (requests.exceptions.RequestException, KeyError, ValueError) as e:
+        print(f"Warning: Could not get info for dependent {full_name}: {e}")
+    return entry
 
 
 def get_dependents(repo_full_name: str, repo_is_empty: bool = False, max_retries: int = 3) -> list[dict] | None:
@@ -746,6 +753,7 @@ def main():
                     if dependent["full_name"] in new_dependents:
                         # Only notify if not first run AND dependents were already being tracked for this repo
                         if not is_first_run and had_dependents_tracking:
+                            dependent = enrich_dependent(dependent)
                             msg = f"📦 [{repo['name']}]({repo['url']}) new dependent: [{dependent['full_name']}]({dependent['url']}) ({dependent['stars']} ⭐, {dependent['forks']} 🍴) ([?](https://github.com/netresearch/maint))"
                             pending_notifications.append(msg)
                             print(f"Dependent: {dependent['full_name']} -> {repo_name}")
