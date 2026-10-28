@@ -14,7 +14,7 @@
   "homepage": "https://netresearch.github.io/skill-repo-skill/",
   "default_branch": "main",
   "created_at": "2025-12-16T10:15:03Z",
-  "pushed_at": "2026-10-26T22:51:38Z",
+  "pushed_at": "2026-10-28T02:09:30Z",
   "updated_at": "2026-10-26T22:51:39Z",
   "composer_name": null,
   "lifetime": {
@@ -22,11 +22,11 @@
     "forks": 4,
     "watchers": 1,
     "network": 4,
-    "open_issues_plus_prs": 3,
+    "open_issues_plus_prs": 4,
     "commits": 1039,
     "issues_open": 2,
     "issues_closed": 40,
-    "prs_open": 1,
+    "prs_open": 2,
     "prs_merged": 369,
     "prs_closed_unmerged": 7,
     "issues_total": 42,
@@ -40,32 +40,37 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 171,
+    "commits": 165,
     "issues_opened": 2,
-    "prs_opened": 59,
-    "prs_merged": 58,
-    "releases": 7,
+    "prs_opened": 57,
+    "prs_merged": 55,
+    "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 17062,
-    "clones_unique": 511,
-    "views_total": 131,
-    "views_unique": 90,
+    "clones_total": 17227,
+    "clones_unique": 534,
+    "views_total": 140,
+    "views_unique": 94,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 77,
+        "count": 81,
         "uniques": 70
       },
       {
         "referrer": "github.com",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "search.brave.com",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "aocr.org",
         "count": 1,
         "uniques": 1
       },
@@ -79,30 +84,24 @@
       {
         "path": "/netresearch/skill-repo-skill",
         "title": "Overview",
-        "count": 78,
-        "uniques": 71
+        "count": 86,
+        "uniques": 75
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo",
         "title": "/tree/main/skills/skill-repo",
-        "count": 10,
-        "uniques": 10
+        "count": 11,
+        "uniques": 11
       },
       {
         "path": "/netresearch/skill-repo-skill/releases",
         "title": "/releases",
-        "count": 9,
-        "uniques": 8
+        "count": 7,
+        "uniques": 6
       },
       {
         "path": "/netresearch/skill-repo-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
-        "title": "/blob/main/skills/skill-repo/SKILL.md",
         "count": 3,
         "uniques": 3
       },
@@ -125,16 +124,22 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/skill-repo-skill/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
+        "title": "/blob/main/skills/skill-repo/SKILL.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/skill-repo-skill/blob/main/LICENSE-CC-BY-SA-4.0",
-        "title": "/blob/main/LICENSE-CC-BY-SA-4.0",
+        "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/scripts/check-version-parity.sh",
+        "title": "/blob/main/skills/skill-repo/scripts/check-version-parity.sh",
         "count": 2,
-        "uniques": 1
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/tree/main",
+        "title": "/tree/main",
+        "count": 2,
+        "uniques": 2
       }
     ]
   },

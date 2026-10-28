@@ -47,14 +47,19 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 997,
-    "clones_unique": 164,
-    "views_total": 12,
-    "views_unique": 11,
+    "clones_total": 995,
+    "clones_unique": 166,
+    "views_total": 16,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 4,
+        "uniques": 3
+      },
+      {
+        "referrer": "aocr.org",
+        "count": 3,
         "uniques": 3
       }
     ],
@@ -90,8 +95,32 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/simple-ldap-go/commits/main",
-        "title": "/commits/main",
+        "path": "/netresearch/simple-ldap-go/blob/main/sam_account_type_test.go",
+        "title": "/blob/main/sam_account_type_test.go",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/blob/main/utils.go",
+        "title": "/blob/main/utils.go",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/tree/v1.4.0/examples/authentication",
+        "title": "/tree/v1.4.0/examples/authentication",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/tree/v1.4.0/examples/basic-usage",
+        "title": "/tree/v1.4.0/examples/basic-usage",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/tree/v1.4.0/examples/user-management",
+        "title": "/tree/v1.4.0/examples/user-management",
         "count": 1,
         "uniques": 1
       }

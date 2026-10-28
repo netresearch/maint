@@ -33,7 +33,7 @@
     "release_downloads": 49,
     "contributors": 14,
     "external_contributors": 7,
-    "packagist_downloads": 28504,
+    "packagist_downloads": 28540,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
@@ -44,21 +44,33 @@
     "prs_opened": 18,
     "prs_merged": 18,
     "releases": 2,
-    "packagist_downloads": 2910,
+    "packagist_downloads": 2880,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1484,
-    "clones_unique": 133,
+    "clones_total": 1531,
+    "clones_unique": 135,
     "views_total": 4,
     "views_unique": 4,
-    "top_referrers": [],
+    "top_referrers": [
+      {
+        "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-contexts",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/t3x-contexts/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-contexts/blob/main/fractor.php",
@@ -134,9 +146,9 @@
   ],
   "packagist": {
     "name": "netresearch/contexts",
-    "total": 28504,
-    "monthly": 2910,
-    "daily": 59,
+    "total": 28540,
+    "monthly": 2880,
+    "daily": 32,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,

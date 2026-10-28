@@ -39,25 +39,25 @@
     "release_downloads": 59,
     "contributors": 6,
     "external_contributors": 1,
-    "packagist_downloads": 18955,
+    "packagist_downloads": 19174,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 96,
+    "commits": 93,
     "issues_opened": 0,
-    "prs_opened": 22,
+    "prs_opened": 21,
     "prs_merged": 24,
     "releases": 1,
-    "packagist_downloads": 8130,
+    "packagist_downloads": 7992,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2478,
-    "clones_unique": 164,
-    "views_total": 42,
-    "views_unique": 7,
+    "clones_total": 2332,
+    "clones_unique": 151,
+    "views_total": 43,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -108,6 +108,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/cea15b138a113039816abebebec777f1781c3f/Classes/Service/ExtensionConfigurationService.php",
+        "title": "/blob/cea15b138a113039816abebebec777f1781c3f/Classes/Service/ExtensionConfigurationService.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/.bestpractices.json",
         "title": "/blob/main/.bestpractices.json",
         "count": 1,
@@ -122,12 +128,6 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/.ddev/commands/web/install-v14",
         "title": "/blob/main/.ddev/commands/web/install-v14",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/.ddev/config.yaml",
-        "title": "/blob/main/.ddev/config.yaml",
         "count": 1,
         "uniques": 1
       }
@@ -173,9 +173,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 18955,
-    "monthly": 8130,
-    "daily": 128,
+    "total": 19174,
+    "monthly": 7992,
+    "daily": 191,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,
