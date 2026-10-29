@@ -22,7 +22,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-21T10:05:16Z",
-  "pushed_at": "2026-10-26T23:02:42Z",
+  "pushed_at": "2026-10-28T22:22:07Z",
   "updated_at": "2026-10-25T21:06:24Z",
   "composer_name": null,
   "lifetime": {
@@ -48,27 +48,38 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 54,
+    "commits": 52,
     "issues_opened": 0,
-    "prs_opened": 16,
+    "prs_opened": 15,
     "prs_merged": 15,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3463,
-    "clones_unique": 187,
-    "views_total": 7,
-    "views_unique": 7,
+    "clones_total": 3358,
+    "clones_unique": 190,
+    "views_total": 10,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "aocr.org",
         "count": 1,
         "uniques": 1
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/typo3-ddev-skill",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/typo3-ddev-skill/issues",
         "title": "/issues",
@@ -76,20 +87,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/typo3-ddev-skill",
-        "title": "Overview",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/typo3-ddev-skill/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
         "title": "/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/c748afa26193dc5a04974aec4de1634be24a6b9b/SECURITY-AUDIT.md",
-        "title": "/blob/c748afa26193dc5a04974aec4de1634be24a6b9b/SECURITY-AUDIT.md",
         "count": 1,
         "uniques": 1
       },
@@ -100,8 +99,26 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/typo3-ddev-skill/blob/main/LICENSE-MIT",
+        "title": "/blob/main/LICENSE-MIT",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/references/0002-mariadb-default-with-database-alternatives.md",
         "title": "/blob/main/skills/typo3-ddev/references/0002-mariadb-default-with-database-alternatives.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/pull/33/files/2689bddb9c2360c6d2a505fb1e83275a9358732c",
+        "title": "/pull/33/files/2689bddb9c2360c6d2a505fb1e83275a9358732c",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/releases/tag/v1.22.6",
+        "title": "/releases/tag/v1.22.6",
         "count": 1,
         "uniques": 1
       }

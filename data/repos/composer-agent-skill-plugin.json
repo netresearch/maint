@@ -39,9 +39,9 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 25811,
+    "packagist_downloads": 25881,
     "ghcr_downloads": 0,
-    "dependents_repos": 47,
+    "dependents_repos": 48,
     "dependents_packages": 0
   },
   "recent_30d": {
@@ -50,41 +50,59 @@
     "prs_opened": 2,
     "prs_merged": 2,
     "releases": 0,
-    "packagist_downloads": 5426,
+    "packagist_downloads": 5496,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 293,
-    "clones_unique": 81,
-    "views_total": 8,
-    "views_unique": 8,
+    "clones_total": 294,
+    "clones_unique": 83,
+    "views_total": 14,
+    "views_unique": 14,
     "top_referrers": [
       {
+        "referrer": "aocr.org",
+        "count": 4,
+        "uniques": 4
+      },
+      {
         "referrer": "Google",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "referrer": "aocr.org",
-        "count": 1,
-        "uniques": 1
+        "count": 3,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 7,
-        "uniques": 7
+        "count": 10,
+        "uniques": 10
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/discussions",
         "title": "/discussions",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/pull/43",
+        "title": "/pull/43",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/pull/50/files/4068112a90e8a27aa7f71b94e15f6090b34aec7a",
+        "title": "/pull/50/files/4068112a90e8a27aa7f71b94e15f6090b34aec7a",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/tree/main/tests",
+        "title": "/tree/main/tests",
         "count": 1,
         "uniques": 1
       }
@@ -125,18 +143,18 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 25811,
-    "monthly": 5426,
-    "daily": 47,
+    "total": 25881,
+    "monthly": 5496,
+    "daily": 82,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,
   "dependents": {
-    "repositories": 47,
+    "repositories": 48,
     "packages": 0,
     "url": "https://github.com/netresearch/composer-agent-skill-plugin/network/dependents"
   },
-  "estimated_downstream_reach": 184,
-  "blast_radius": 184,
+  "estimated_downstream_reach": 186,
+  "blast_radius": 186,
   "archived": false
 }

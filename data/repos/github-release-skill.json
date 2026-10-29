@@ -10,7 +10,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-10T11:16:02Z",
-  "pushed_at": "2026-10-26T22:39:14Z",
+  "pushed_at": "2026-10-28T23:31:37Z",
   "updated_at": "2026-10-25T23:03:29Z",
   "composer_name": null,
   "lifetime": {
@@ -45,11 +45,16 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4005,
-    "clones_unique": 335,
-    "views_total": 8,
-    "views_unique": 5,
+    "clones_total": 3818,
+    "clones_unique": 336,
+    "views_total": 15,
+    "views_unique": 12,
     "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 8,
+        "uniques": 8
+      },
       {
         "referrer": "Google",
         "count": 4,
@@ -65,8 +70,8 @@
       {
         "path": "/netresearch/github-release-skill/releases",
         "title": "/releases",
-        "count": 5,
-        "uniques": 3
+        "count": 4,
+        "uniques": 2
       },
       {
         "path": "/netresearch/github-release-skill",
@@ -81,8 +86,44 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/github-release-skill/tags",
-        "title": "/tags",
+        "path": "/netresearch/github-release-skill/blob/main/commands/release-prepare.md",
+        "title": "/blob/main/commands/release-prepare.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-release-skill/blob/main/commands/release-status.md",
+        "title": "/blob/main/commands/release-status.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-release-skill/blob/main/commands/release.md",
+        "title": "/blob/main/commands/release.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-release-skill/blob/main/skills/github-release/references/immutable-releases.md",
+        "title": "/blob/main/skills/github-release/references/immutable-releases.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-release-skill/blob/main/skills/github-release/references/recovery-procedures.md",
+        "title": "/blob/main/skills/github-release/references/recovery-procedures.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-release-skill/blob/main/skills/github-release/references/release-process.md",
+        "title": "/blob/main/skills/github-release/references/release-process.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-release-skill/blob/main/skills/github-release/references/supply-chain-security.md",
+        "title": "/blob/main/skills/github-release/references/supply-chain-security.md",
         "count": 1,
         "uniques": 1
       }

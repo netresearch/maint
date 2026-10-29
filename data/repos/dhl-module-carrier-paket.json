@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 7,
     "external_contributors": 5,
-    "packagist_downloads": 272183,
+    "packagist_downloads": 272408,
     "ghcr_downloads": 0,
     "dependents_repos": 6,
     "dependents_packages": 2
@@ -47,15 +47,20 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 5961,
+    "packagist_downloads": 5945,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 84,
-    "clones_unique": 57,
-    "views_total": 7,
-    "views_unique": 6,
+    "clones_total": 78,
+    "clones_unique": 51,
+    "views_total": 17,
+    "views_unique": 10,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "referrer": "github.com",
         "count": 2,
@@ -64,21 +69,27 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/dhl-module-carrier-paket/issues",
+        "title": "/issues",
+        "count": 5,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/dhl-module-carrier-paket/blob/main/CHANGELOG.md",
         "title": "/blob/main/CHANGELOG.md",
-        "count": 2,
-        "uniques": 2
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/dhl-module-carrier-paket",
+        "title": "Overview",
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/dhl-module-carrier-paket/wiki/Documentation-English",
         "title": "/wiki/Documentation-English",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/dhl-module-carrier-paket",
-        "title": "Overview",
-        "count": 1,
         "uniques": 1
       },
       {
@@ -140,9 +151,9 @@
   ],
   "packagist": {
     "name": "dhl/module-carrier-paket",
-    "total": 272183,
-    "monthly": 5961,
-    "daily": 186,
+    "total": 272408,
+    "monthly": 5945,
+    "daily": 203,
     "url": "https://packagist.org/packages/dhl/module-carrier-paket"
   },
   "ghcr": null,

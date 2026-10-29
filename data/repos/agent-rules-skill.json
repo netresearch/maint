@@ -20,7 +20,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T19:35:16Z",
-  "pushed_at": "2026-10-27T02:04:18Z",
+  "pushed_at": "2026-10-28T22:50:16Z",
   "updated_at": "2026-10-26T01:45:55Z",
   "composer_name": null,
   "lifetime": {
@@ -46,7 +46,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 79,
+    "commits": 76,
     "issues_opened": 1,
     "prs_opened": 21,
     "prs_merged": 21,
@@ -55,18 +55,23 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2241,
-    "clones_unique": 411,
-    "views_total": 127,
-    "views_unique": 74,
+    "clones_total": 2384,
+    "clones_unique": 415,
+    "views_total": 137,
+    "views_unique": 82,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 41,
-        "uniques": 40
+        "count": 39,
+        "uniques": 38
       },
       {
         "referrer": "github.com",
+        "count": 8,
+        "uniques": 8
+      },
+      {
+        "referrer": "aocr.org",
         "count": 6,
         "uniques": 6
       },
@@ -76,7 +81,7 @@
         "uniques": 2
       },
       {
-        "referrer": "aocr.org",
+        "referrer": "search.brave.com",
         "count": 1,
         "uniques": 1
       }
@@ -85,20 +90,26 @@
       {
         "path": "/netresearch/agent-rules-skill",
         "title": "Overview",
-        "count": 65,
-        "uniques": 60
+        "count": 67,
+        "uniques": 63
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
         "title": "/tree/main/skills/agent-rules",
-        "count": 11,
-        "uniques": 9
+        "count": 9,
+        "uniques": 7
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md",
         "title": "/blob/main/skills/agent-rules/SKILL.md",
-        "count": 7,
+        "count": 6,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/agent-rules-skill/tree/main",
+        "title": "/tree/main",
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules/scripts",
@@ -113,12 +124,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/agent-rules-skill/tree/main",
-        "title": "/tree/main",
-        "count": 4,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/agent-rules-skill/tree/main/scripts",
         "title": "/tree/main/scripts",
         "count": 3,
@@ -127,18 +132,18 @@
       {
         "path": "/netresearch/agent-rules-skill/discussions",
         "title": "/discussions",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/agent-rules-skill/issues",
+        "title": "/issues",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/agent-rules-skill/pulls",
-        "title": "/pulls",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules/evals",
-        "title": "/tree/main/skills/agent-rules/evals",
+        "path": "/netresearch/agent-rules-skill/tree/main/docs",
+        "title": "/tree/main/docs",
         "count": 2,
         "uniques": 2
       }

@@ -14,20 +14,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T13:14:49Z",
-  "pushed_at": "2026-10-27T02:16:11Z",
-  "updated_at": "2026-10-25T22:12:49Z",
+  "pushed_at": "2026-10-28T22:03:56Z",
+  "updated_at": "2026-10-28T13:09:56Z",
   "composer_name": null,
   "lifetime": {
     "stars": 10,
     "forks": 3,
     "watchers": 1,
     "network": 3,
-    "open_issues_plus_prs": 2,
-    "commits": 785,
+    "open_issues_plus_prs": 3,
+    "commits": 788,
     "issues_open": 1,
     "issues_closed": 4,
-    "prs_open": 1,
-    "prs_merged": 260,
+    "prs_open": 2,
+    "prs_merged": 261,
     "prs_closed_unmerged": 2,
     "issues_total": 5,
     "releases": 66,
@@ -40,24 +40,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 128,
+    "commits": 127,
     "issues_opened": 0,
-    "prs_opened": 40,
-    "prs_merged": 40,
+    "prs_opened": 42,
+    "prs_merged": 41,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6997,
-    "clones_unique": 473,
-    "views_total": 46,
-    "views_unique": 37,
+    "clones_total": 6637,
+    "clones_unique": 466,
+    "views_total": 62,
+    "views_unique": 52,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 23,
-        "uniques": 19
+        "count": 29,
+        "uniques": 24
+      },
+      {
+        "referrer": "aocr.org",
+        "count": 7,
+        "uniques": 7
       },
       {
         "referrer": "github.com",
@@ -74,8 +79,14 @@
       {
         "path": "/netresearch/github-project-skill",
         "title": "Overview",
-        "count": 26,
-        "uniques": 22
+        "count": 33,
+        "uniques": 28
+      },
+      {
+        "path": "/netresearch/github-project-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/github-project-skill/blob/HEAD/skills/github-project/references/actions-upgrade-guide.md",
@@ -84,20 +95,26 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/github-project-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/github-project-skill/tree/main/skills/github-project",
-        "title": "/tree/main/skills/github-project",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/github-project-skill/blob/8d84037abcf0a6703b2696330d20125b21552ffd/skills/github-project/SKILL.md",
+        "title": "/blob/8d84037abcf0a6703b2696330d20125b21552ffd/skills/github-project/SKILL.md",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/github-project-skill/blob/e4a6a02f7eb4c0f3676fa52167571571ef28a2d4/skills/github-project/assets/auto-merge.yml.template",
         "title": "/blob/e4a6a02f7eb4c0f3676fa52167571571ef28a2d4/skills/github-project/assets/auto-merge.yml.template",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-project-skill/blob/ebe96011987df53f3163ba46c894bc65cc9b528d/skills/github-project/assets/auto-merge-queue.yml.template",
+        "title": "/blob/ebe96011987df53f3163ba46c894bc65cc9b528d/skills/github-project/assets/auto-merge-queue.yml.template",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-project-skill/blob/f5344342a5b8ece5efc31aa656a7b070ad30c997/skills/github-project/references/security-config.md",
+        "title": "/blob/f5344342a5b8ece5efc31aa656a7b070ad30c997/skills/github-project/references/security-config.md",
         "count": 1,
         "uniques": 1
       },
@@ -108,26 +125,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/references/ci-runner-capacity.md",
-        "title": "/blob/main/skills/github-project/references/ci-runner-capacity.md",
+        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/SKILL.md",
+        "title": "/blob/main/skills/github-project/SKILL.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/references/no-editorializing.md",
-        "title": "/blob/main/skills/github-project/references/no-editorializing.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/references/org-security-settings.md",
-        "title": "/blob/main/skills/github-project/references/org-security-settings.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/references/pages-and-collector-workflows.md",
-        "title": "/blob/main/skills/github-project/references/pages-and-collector-workflows.md",
+        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/references/auto-merge-guide.md",
+        "title": "/blob/main/skills/github-project/references/auto-merge-guide.md",
         "count": 1,
         "uniques": 1
       }
@@ -142,7 +147,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 727,
+      "contributions": 730,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -168,7 +173,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-project-skill/network/dependents"
   },
-  "estimated_downstream_reach": 271,
-  "blast_radius": 271,
+  "estimated_downstream_reach": 272,
+  "blast_radius": 272,
   "archived": false
 }

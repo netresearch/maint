@@ -27,55 +27,60 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-25T07:26:55Z",
-  "pushed_at": "2026-10-25T23:42:43Z",
-  "updated_at": "2026-10-25T23:42:45Z",
+  "pushed_at": "2026-10-28T18:12:05Z",
+  "updated_at": "2026-10-28T18:11:32Z",
   "composer_name": null,
   "lifetime": {
     "stars": 66,
     "forks": 9,
     "watchers": 3,
     "network": 1710,
-    "open_issues_plus_prs": 13,
-    "commits": 702,
+    "open_issues_plus_prs": 10,
+    "commits": 721,
     "issues_open": 9,
     "issues_closed": 191,
-    "prs_open": 4,
-    "prs_merged": 218,
+    "prs_open": 1,
+    "prs_merged": 224,
     "prs_closed_unmerged": 9,
     "issues_total": 200,
-    "releases": 21,
+    "releases": 22,
     "release_downloads": 226,
-    "contributors": 34,
-    "external_contributors": 31,
+    "contributors": 36,
+    "external_contributors": 33,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 54,
+    "commits": 73,
     "issues_opened": 2,
-    "prs_opened": 20,
-    "prs_merged": 16,
-    "releases": 2,
+    "prs_opened": 23,
+    "prs_merged": 22,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2178,
-    "clones_unique": 331,
-    "views_total": 170,
-    "views_unique": 58,
+    "clones_total": 2210,
+    "clones_unique": 341,
+    "views_total": 185,
+    "views_unique": 65,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 24,
-        "uniques": 14
+        "uniques": 15
       },
       {
         "referrer": "github.com",
         "count": 8,
         "uniques": 7
+      },
+      {
+        "referrer": "aocr.org",
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "support.sailpoint.com",
@@ -91,31 +96,26 @@
         "referrer": "pkg.go.dev",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "thunes.atlassian.net",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 52,
-        "uniques": 31
+        "count": 54,
+        "uniques": 33
+      },
+      {
+        "path": "/netresearch/go-cron/issues",
+        "title": "/issues",
+        "count": 10,
+        "uniques": 4
       },
       {
         "path": "/netresearch/go-cron/pulls",
         "title": "/pulls",
         "count": 10,
         "uniques": 4
-      },
-      {
-        "path": "/netresearch/go-cron/issues",
-        "title": "/issues",
-        "count": 9,
-        "uniques": 3
       },
       {
         "path": "/netresearch/go-cron/discussions/431",
@@ -148,29 +148,29 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/go-cron/issues/299",
+        "title": "/issues/299",
+        "count": 3,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/go-cron/tree/main/docs/adr",
         "title": "/tree/main/docs/adr",
         "count": 3,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 2,
-        "uniques": 2
       }
     ]
   },
   "latest_release": {
-    "name": "v0.17.0",
-    "tag_name": "v0.17.0",
-    "published_at": "2026-10-25T14:30:39Z",
-    "url": "https://github.com/netresearch/go-cron/releases/tag/v0.17.0"
+    "name": "v0.18.0",
+    "tag_name": "v0.18.0",
+    "published_at": "2026-10-28T18:15:20Z",
+    "url": "https://github.com/netresearch/go-cron/releases/tag/v0.18.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 535,
+      "contributions": 550,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -209,14 +209,14 @@
       "url": "https://github.com/tdterry"
     },
     {
+      "login": "riki137",
+      "contributions": 3,
+      "url": "https://github.com/riki137"
+    },
+    {
       "login": "cloudfly",
       "contributions": 3,
       "url": "https://github.com/cloudfly"
-    },
-    {
-      "login": "renovate[bot]",
-      "contributions": 2,
-      "url": "https://github.com/apps/renovate"
     }
   ],
   "packagist": null,
@@ -226,7 +226,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/go-cron/network/dependents"
   },
-  "estimated_downstream_reach": 529,
-  "blast_radius": 529,
+  "estimated_downstream_reach": 541,
+  "blast_radius": 541,
   "archived": false
 }

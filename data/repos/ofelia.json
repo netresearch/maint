@@ -38,7 +38,7 @@
     "prs_closed_unmerged": 71,
     "issues_total": 208,
     "releases": 57,
-    "release_downloads": 2640,
+    "release_downloads": 2641,
     "contributors": 47,
     "external_contributors": 40,
     "packagist_downloads": 0,
@@ -53,23 +53,23 @@
     "prs_merged": 44,
     "releases": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 180572
+    "ghcr_downloads": 178589
   },
   "traffic_14d": {
-    "clones_total": 5521,
-    "clones_unique": 475,
-    "views_total": 106,
-    "views_unique": 76,
+    "clones_total": 5494,
+    "clones_unique": 490,
+    "views_total": 140,
+    "views_unique": 103,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 32,
-        "uniques": 32
+        "count": 59,
+        "uniques": 59
       },
       {
         "referrer": "github.com",
-        "count": 3,
-        "uniques": 3
+        "count": 5,
+        "uniques": 4
       },
       {
         "referrer": "netresearch.github.io",
@@ -86,8 +86,8 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 30,
-        "uniques": 16
+        "count": 27,
+        "uniques": 14
       },
       {
         "path": "/netresearch/ofelia/blob/v0.21.0/config/validator.go",
@@ -108,20 +108,26 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/ofelia/blob/main/PROJECT_INDEX.md",
-        "title": "/blob/main/PROJECT_INDEX.md",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/ofelia/blob/main/docs/jobs.md",
+        "title": "/blob/main/docs/jobs.md",
+        "count": 4,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ofelia/releases",
+        "title": "/releases",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/ofelia/blob/main/docs/SECURITY.md",
         "title": "/blob/main/docs/SECURITY.md",
-        "count": 2,
+        "count": 3,
         "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/images/dashboard-light-dark.png",
-        "title": "/blob/main/docs/images/dashboard-light-dark.png",
+        "path": "/netresearch/ofelia/blob/main/PROJECT_INDEX.md",
+        "title": "/blob/main/PROJECT_INDEX.md",
         "count": 2,
         "uniques": 2
       },
@@ -134,12 +140,6 @@
       {
         "path": "/netresearch/ofelia/forks",
         "title": "/forks",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/ofelia/releases",
-        "title": "/releases",
         "count": 2,
         "uniques": 2
       }
@@ -210,11 +210,11 @@
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
         "total": 604557,
-        "thirty_day": 180572
+        "thirty_day": 178589
       }
     ],
     "total": 604557,
-    "thirty_day": 180572
+    "thirty_day": 178589
   },
   "dependents": {
     "repositories": 0,

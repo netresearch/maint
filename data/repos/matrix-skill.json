@@ -27,7 +27,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-31T12:42:05Z",
-  "pushed_at": "2026-10-27T11:36:25Z",
+  "pushed_at": "2026-10-29T00:48:16Z",
   "updated_at": "2026-10-27T10:05:53Z",
   "composer_name": null,
   "lifetime": {
@@ -62,23 +62,39 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1944,
-    "clones_unique": 588,
-    "views_total": 37,
-    "views_unique": 22,
+    "clones_total": 2136,
+    "clones_unique": 613,
+    "views_total": 42,
+    "views_unique": 27,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 11,
-        "uniques": 11
+        "count": 9,
+        "uniques": 9
+      },
+      {
+        "referrer": "aocr.org",
+        "count": 5,
+        "uniques": 5
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/matrix-skill",
         "title": "Overview",
-        "count": 15,
-        "uniques": 12
+        "count": 16,
+        "uniques": 13
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/main/docs/ARCHITECTURE.md",
+        "title": "/blob/main/docs/ARCHITECTURE.md",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
@@ -105,14 +121,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/matrix-skill/blob/main/README.md",
-        "title": "/blob/main/README.md",
+        "path": "/netresearch/matrix-skill/blob/ad44452d60854cb857db2e4bc71b33e2714a2312/skills/matrix-administration/references/safety-guide.md",
+        "title": "/blob/ad44452d60854cb857db2e4bc71b33e2714a2312/skills/matrix-administration/references/safety-guide.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/matrix-skill/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
+        "path": "/netresearch/matrix-skill/blob/ad44452d60854cb857db2e4bc71b33e2714a2312/skills/matrix-announcement/references/text-templates.md",
+        "title": "/blob/ad44452d60854cb857db2e4bc71b33e2714a2312/skills/matrix-announcement/references/text-templates.md",
         "count": 1,
         "uniques": 1
       },
@@ -123,14 +139,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication",
-        "title": "/blob/main/skills/matrix-communication",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/matrix-skill/commit/f32488b23cec429de556545c9ca4c6af5dab87af",
-        "title": "/commit/f32488b23cec429de556545c9ca4c6af5dab87af",
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-announcement/SKILL.md",
+        "title": "/blob/main/skills/matrix-announcement/SKILL.md",
         "count": 1,
         "uniques": 1
       }

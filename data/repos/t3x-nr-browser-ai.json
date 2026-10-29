@@ -51,7 +51,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 81,
+    "commits": 79,
     "issues_opened": 0,
     "prs_opened": 27,
     "prs_merged": 27,
@@ -60,14 +60,19 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3683,
-    "clones_unique": 186,
-    "views_total": 5,
+    "clones_total": 3572,
+    "clones_unique": 191,
+    "views_total": 9,
     "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "github.com",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -78,14 +83,26 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/t3x-nr-browser-ai",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/t3x-nr-browser-ai/pull/103",
         "title": "/pull/103",
         "count": 2,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-browser-ai",
-        "title": "Overview",
+        "path": "/netresearch/t3x-nr-browser-ai/actions/workflows/check-template-drift.yml",
+        "title": "/actions/workflows/check-template-drift.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-browser-ai/blob/main/.github/workflows/check-template-drift.yml",
+        "title": "/blob/main/.github/workflows/check-template-drift.yml",
         "count": 1,
         "uniques": 1
       },
@@ -96,8 +113,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-browser-ai/releases",
-        "title": "/releases",
+        "path": "/netresearch/t3x-nr-browser-ai/tree/main/Tests",
+        "title": "/tree/main/Tests",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-browser-ai/tree/main/demo",
+        "title": "/tree/main/demo",
         "count": 1,
         "uniques": 1
       }

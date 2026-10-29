@@ -16,7 +16,7 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2020-04-03T12:23:14Z",
-  "pushed_at": "2026-10-27T00:49:12Z",
+  "pushed_at": "2026-10-28T03:43:00Z",
   "updated_at": "2026-10-26T09:57:18Z",
   "composer_name": null,
   "lifetime": {
@@ -24,11 +24,11 @@
     "forks": 1,
     "watchers": 6,
     "network": 1,
-    "open_issues_plus_prs": 7,
+    "open_issues_plus_prs": 8,
     "commits": 182,
     "issues_open": 1,
     "issues_closed": 1,
-    "prs_open": 6,
+    "prs_open": 7,
     "prs_merged": 138,
     "prs_closed_unmerged": 66,
     "issues_total": 2,
@@ -44,24 +44,30 @@
   "recent_30d": {
     "commits": 20,
     "issues_opened": 0,
-    "prs_opened": 19,
+    "prs_opened": 20,
     "prs_merged": 19,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1142,
-    "clones_unique": 194,
-    "views_total": 27,
-    "views_unique": 24,
-    "top_referrers": [],
+    "clones_total": 975,
+    "clones_unique": 177,
+    "views_total": 28,
+    "views_unique": 25,
+    "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/postdirekt-autocomplete-monorepo",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-sdk/src/api/search-subjects.ts",

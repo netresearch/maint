@@ -19,50 +19,50 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-22T22:47:47Z",
-  "pushed_at": "2026-10-23T07:10:06Z",
-  "updated_at": "2026-10-24T12:10:49Z",
+  "pushed_at": "2026-10-29T00:20:00Z",
+  "updated_at": "2026-10-29T00:19:26Z",
   "composer_name": null,
   "lifetime": {
     "stars": 20,
-    "forks": 1,
+    "forks": 3,
     "watchers": 1,
-    "network": 1,
-    "open_issues_plus_prs": 3,
-    "commits": 111,
+    "network": 3,
+    "open_issues_plus_prs": 1,
+    "commits": 125,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 2,
-    "prs_merged": 41,
+    "prs_open": 0,
+    "prs_merged": 44,
     "prs_closed_unmerged": 1,
     "issues_total": 3,
-    "releases": 9,
-    "release_downloads": 36,
-    "contributors": 4,
-    "external_contributors": 0,
+    "releases": 10,
+    "release_downloads": 95,
+    "contributors": 5,
+    "external_contributors": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 27,
+    "commits": 41,
     "issues_opened": 0,
-    "prs_opened": 9,
-    "prs_merged": 6,
-    "releases": 1,
+    "prs_opened": 10,
+    "prs_merged": 9,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1081,
-    "clones_unique": 188,
-    "views_total": 86,
-    "views_unique": 31,
+    "clones_total": 1089,
+    "clones_unique": 191,
+    "views_total": 85,
+    "views_unique": 34,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 13,
-        "uniques": 11
+        "count": 15,
+        "uniques": 13
       },
       {
         "referrer": "github.com",
@@ -75,13 +75,7 @@
         "path": "/netresearch/jujutsu-workflow-skill",
         "title": "Overview",
         "count": 37,
-        "uniques": 19
-      },
-      {
-        "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow",
-        "title": "/tree/main/skills/jujutsu-workflow",
-        "count": 5,
-        "uniques": 5
+        "uniques": 21
       },
       {
         "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/SKILL.md",
@@ -98,6 +92,12 @@
       {
         "path": "/netresearch/jujutsu-workflow-skill/issues/32",
         "title": "/issues/32",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow",
+        "title": "/tree/main/skills/jujutsu-workflow",
         "count": 4,
         "uniques": 4
       },
@@ -126,24 +126,29 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/jujutsu-workflow-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
+        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/git-interop.md",
+        "title": "/blob/main/skills/jujutsu-workflow/references/git-interop.md",
         "count": 2,
         "uniques": 2
       }
     ]
   },
   "latest_release": {
-    "name": "v1.0.1",
-    "tag_name": "v1.0.1",
-    "published_at": "2026-10-18T12:14:17Z",
-    "url": "https://github.com/netresearch/jujutsu-workflow-skill/releases/tag/v1.0.1"
+    "name": "v1.1.0",
+    "tag_name": "v1.1.0",
+    "published_at": "2026-10-29T00:20:45Z",
+    "url": "https://github.com/netresearch/jujutsu-workflow-skill/releases/tag/v1.1.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 107,
+      "contributions": 118,
       "url": "https://github.com/CybotTM"
+    },
+    {
+      "login": "nertzy",
+      "contributions": 3,
+      "url": "https://github.com/nertzy"
     },
     {
       "login": "github-actions[bot]",
@@ -168,7 +173,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jujutsu-workflow-skill/network/dependents"
   },
-  "estimated_downstream_reach": 46,
-  "blast_radius": 46,
+  "estimated_downstream_reach": 56,
+  "blast_radius": 56,
   "archived": false
 }
