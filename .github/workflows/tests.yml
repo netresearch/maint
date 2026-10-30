@@ -37,8 +37,8 @@ jobs:
       - name: Run tests
         run: pytest tests/ -v
 
-  # star-notifications.yml installs its own lock on Python 3.15 every 15
-  # minutes. Installing it here makes a lock that no longer resolves under
+  # star-notifications.yml installs its own lock on Python 3.15 once a
+  # day. Installing it here makes a lock that no longer resolves under
   # --require-hashes fail the pull request instead of the schedule.
   star-notifications-deps:
     runs-on: ubuntu-latest

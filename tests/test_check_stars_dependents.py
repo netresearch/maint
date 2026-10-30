@@ -28,7 +28,8 @@ def scan(monkeypatch, tmp_path):
         monkeypatch.setattr(check_stars, "get_org_repos", lambda: [repo])
         for fetcher in ("get_stargazers", "get_forks", "get_watchers"):
             monkeypatch.setattr(check_stars, fetcher, lambda *_: [])
-        monkeypatch.setattr(check_stars, "notify_matrix", messages.append)
+        monkeypatch.setattr(check_stars, "notify_matrix",
+                            lambda text, html_body: messages.append((text, html_body)))
         monkeypatch.setattr(check_stars, "_inaccessible", {})
 
         def metadata(url, **kwargs):
@@ -61,11 +62,13 @@ def test_unchanged_dependents_need_no_metadata_requests(scan):
 def test_only_new_dependent_is_enriched_with_the_same_message(scan):
     messages, lookups, state = scan(["consumer/old", "consumer/new"], ["consumer/old"])
     assert lookups == ["https://api.github.com/repos/consumer/new"]
-    assert messages == [
+    assert len(messages) == 1
+    text, html_body = messages[0]
+    assert text.splitlines()[1] == (
         "📦 [example](https://github.com/netresearch/example) new dependent: "
-        "[consumer/new](https://github.com/consumer/new) (7 ⭐, 2 🍴) "
-        "([?](https://github.com/netresearch/maint))"
-    ]
+        "[consumer/new](https://github.com/consumer/new) (7 ⭐, 2 🍴)")
+    assert "📦 1 dependent" in text.splitlines()[0]
+    assert '<a href="https://github.com/consumer/new">consumer/new</a> (7 ⭐, 2 🍴)' in html_body
     assert set(state["repos"]["netresearch/example"]["dependents"]) == {
         "consumer/old", "consumer/new"}
 
@@ -82,7 +85,7 @@ def test_silent_baselines_do_not_fetch_unused_metadata(scan, first_run, tracking
 def test_metadata_http_failure_keeps_the_existing_zero_count_message(scan):
     messages, lookups, state = scan(["consumer/new"], metadata_error=requests.HTTPError("offline"))
     assert lookups == ["https://api.github.com/repos/consumer/new"]
-    assert "(0 ⭐, 0 🍴)" in messages[0]
+    assert "(0 ⭐, 0 🍴)" in messages[0][0]
     assert state["repos"]["netresearch/example"]["dependents"] == ["consumer/new"]
 
 
@@ -106,12 +109,14 @@ def test_removal_is_saved_without_enriching_the_remaining_dependent(scan):
     assert state["repos"]["netresearch/example"]["dependents"] == ["consumer/keep"]
 
 
-def test_notification_cap_and_reconciled_state_are_unchanged(scan):
-    names = [f"consumer/new-{number}" for number in range(check_stars.MAX_NOTIFICATIONS + 3)]
+def test_digest_cap_and_reconciled_state_are_unchanged(scan):
+    names = [f"consumer/new-{number}" for number in range(check_stars.MAX_DIGEST_LINES + 3)]
     messages, lookups, state = scan(names)
-    assert len(messages) == check_stars.MAX_NOTIFICATIONS + 1
-    assert messages[-1] == (
-        f"📊 +3 more events. [See full log]({check_stars.FEED_URL}) "
-        "([?](https://github.com/netresearch/maint))")
+    assert len(messages) == 1, "all events of a run must go out as one digest"
+    text, _ = messages[0]
+    lines = text.splitlines()
+    assert f"📦 {len(names)} dependents" in lines[0], "the summary counts every event, not only the shown ones"
+    assert len(lines) == 1 + check_stars.MAX_DIGEST_LINES + 1
+    assert lines[-1] == f"+3 more, see the [run log]({check_stars.FEED_URL})"
     assert set(state["repos"]["netresearch/example"]["dependents"]) == set(names)
     assert len(lookups) == len(names)
