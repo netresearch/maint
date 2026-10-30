@@ -38,7 +38,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 3,
-    "packagist_downloads": 248320,
+    "packagist_downloads": 248346,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,15 +49,21 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 929,
+    "packagist_downloads": 920,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 19,
-    "clones_unique": 16,
-    "views_total": 11,
-    "views_unique": 10,
-    "top_referrers": [],
+    "clones_total": 18,
+    "clones_unique": 15,
+    "views_total": 13,
+    "views_unique": 12,
+    "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 2,
+        "uniques": 2
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-bcs-returns/issues",
@@ -68,12 +74,18 @@
       {
         "path": "/netresearch/dhl-sdk-api-bcs-returns",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/dhl-sdk-api-bcs-returns/blob/main/README.md",
         "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-bcs-returns/pull/12/files/fe88e9bd8ad029c2052bd22d7fd07323c8d3637c",
+        "title": "/pull/12/files/fe88e9bd8ad029c2052bd22d7fd07323c8d3637c",
         "count": 1,
         "uniques": 1
       }
@@ -119,9 +131,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-bcs-returns",
-    "total": 248320,
-    "monthly": 929,
-    "daily": 33,
+    "total": 248346,
+    "monthly": 920,
+    "daily": 22,
     "url": "https://packagist.org/packages/dhl/sdk-api-bcs-returns"
   },
   "ghcr": null,

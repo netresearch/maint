@@ -33,26 +33,31 @@
     "release_downloads": 49,
     "contributors": 14,
     "external_contributors": 7,
-    "packagist_downloads": 28611,
+    "packagist_downloads": 28772,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 58,
+    "commits": 49,
     "issues_opened": 0,
-    "prs_opened": 18,
-    "prs_merged": 18,
+    "prs_opened": 16,
+    "prs_merged": 17,
     "releases": 2,
-    "packagist_downloads": 2692,
+    "packagist_downloads": 2401,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1545,
-    "clones_unique": 133,
-    "views_total": 5,
-    "views_unique": 5,
+    "clones_total": 1552,
+    "clones_unique": 132,
+    "views_total": 8,
+    "views_unique": 8,
     "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 3,
+        "uniques": 3
+      },
       {
         "referrer": "DuckDuckGo",
         "count": 1,
@@ -87,6 +92,24 @@
       {
         "path": "/netresearch/t3x-contexts/issues/12",
         "title": "/issues/12",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts/pull/147/files/edb87a41d00f1be0524254611e233ce658119ab3",
+        "title": "/pull/147/files/edb87a41d00f1be0524254611e233ce658119ab3",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts/pull/166/files/55efcf80818d447def8478db080e8d4c7071353a",
+        "title": "/pull/166/files/55efcf80818d447def8478db080e8d4c7071353a",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts/pull/167",
+        "title": "/pull/167",
         "count": 1,
         "uniques": 1
       }
@@ -152,9 +175,9 @@
   ],
   "packagist": {
     "name": "netresearch/contexts",
-    "total": 28611,
-    "monthly": 2692,
-    "daily": 70,
+    "total": 28772,
+    "monthly": 2401,
+    "daily": 144,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,

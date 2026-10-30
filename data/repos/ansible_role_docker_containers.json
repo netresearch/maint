@@ -49,15 +49,69 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 200,
-    "clones_unique": 61,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_total": 188,
+    "clones_unique": 58,
+    "views_total": 11,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/ansible_role_docker_containers/blob/main/tasks/container.yml",
+        "title": "/blob/main/tasks/container.yml",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_docker_containers/blob/main/action_plugins/netresearch_docker_container.py",
+        "title": "/blob/main/action_plugins/netresearch_docker_container.py",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_docker_containers/blob/main/defaults/main.yml",
+        "title": "/blob/main/defaults/main.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_docker_containers/blob/main/tasks/main.yml",
+        "title": "/blob/main/tasks/main.yml",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/ansible_role_docker_containers/commit/f920f9749085a78af5884ebfb41659fc7a6bf8ab",
         "title": "/commit/f920f9749085a78af5884ebfb41659fc7a6bf8ab",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_docker_containers/pull/16/files",
+        "title": "/pull/16/files",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_docker_containers/tree/main",
+        "title": "/tree/main",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_docker_containers/tree/main/defaults",
+        "title": "/tree/main/defaults",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible_role_docker_containers/tree/main/tasks",
+        "title": "/tree/main/tasks",
         "count": 1,
         "uniques": 1
       }

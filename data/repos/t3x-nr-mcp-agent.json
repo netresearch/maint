@@ -21,8 +21,8 @@
   "homepage": "https://netresearch.github.io/t3x-nr-mcp-agent/",
   "default_branch": "main",
   "created_at": "2026-03-22T17:16:16Z",
-  "pushed_at": "2026-10-28T02:15:57Z",
-  "updated_at": "2026-10-27T19:55:35Z",
+  "pushed_at": "2026-10-30T02:54:19Z",
+  "updated_at": "2026-10-30T02:53:57Z",
   "composer_name": "netresearch/nr-mcp-agent",
   "lifetime": {
     "stars": 2,
@@ -30,37 +30,42 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 7,
-    "commits": 980,
+    "commits": 994,
     "issues_open": 4,
     "issues_closed": 10,
     "prs_open": 3,
-    "prs_merged": 255,
+    "prs_merged": 257,
     "prs_closed_unmerged": 8,
     "issues_total": 14,
-    "releases": 62,
-    "release_downloads": 382,
+    "releases": 63,
+    "release_downloads": 727,
     "contributors": 6,
     "external_contributors": 1,
-    "packagist_downloads": 2456,
+    "packagist_downloads": 2528,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 388,
+    "commits": 374,
     "issues_opened": 3,
-    "prs_opened": 93,
-    "prs_merged": 93,
+    "prs_opened": 92,
+    "prs_merged": 89,
     "releases": 24,
-    "packagist_downloads": 642,
+    "packagist_downloads": 714,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 17208,
-    "clones_unique": 632,
-    "views_total": 8,
-    "views_unique": 6,
+    "clones_total": 17385,
+    "clones_unique": 650,
+    "views_total": 21,
+    "views_unique": 19,
     "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 13,
+        "uniques": 13
+      },
       {
         "referrer": "Google",
         "count": 1,
@@ -92,29 +97,59 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-mcp-agent/pull/272",
-        "title": "/pull/272",
+        "path": "/netresearch/t3x-nr-mcp-agent/pull/101/files",
+        "title": "/pull/101/files",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-mcp-agent/pulls",
-        "title": "/pulls",
+        "path": "/netresearch/t3x-nr-mcp-agent/pull/108",
+        "title": "/pull/108",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-mcp-agent/pull/118",
+        "title": "/pull/118",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-mcp-agent/pull/130",
+        "title": "/pull/130",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-mcp-agent/pull/142",
+        "title": "/pull/142",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-mcp-agent/pull/16",
+        "title": "/pull/16",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-mcp-agent/pull/272",
+        "title": "/pull/272",
         "count": 1,
         "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v0.25.0",
-    "tag_name": "v0.25.0",
-    "published_at": "2026-10-27T19:57:14Z",
-    "url": "https://github.com/netresearch/t3x-nr-mcp-agent/releases/tag/v0.25.0"
+    "name": "v0.26.0",
+    "tag_name": "v0.26.0",
+    "published_at": "2026-10-30T02:55:54Z",
+    "url": "https://github.com/netresearch/t3x-nr-mcp-agent/releases/tag/v0.26.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 738,
+      "contributions": 752,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -145,9 +180,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-mcp-agent",
-    "total": 2456,
-    "monthly": 642,
-    "daily": 70,
+    "total": 2528,
+    "monthly": 714,
+    "daily": 80,
     "url": "https://packagist.org/packages/netresearch/nr-mcp-agent"
   },
   "ghcr": null,
@@ -156,7 +191,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-mcp-agent/network/dependents"
   },
-  "estimated_downstream_reach": 272,
-  "blast_radius": 272,
+  "estimated_downstream_reach": 274,
+  "blast_radius": 274,
   "archived": false
 }

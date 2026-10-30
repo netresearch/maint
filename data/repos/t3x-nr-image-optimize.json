@@ -37,32 +37,38 @@
     "release_downloads": 9,
     "contributors": 9,
     "external_contributors": 2,
-    "packagist_downloads": 3164,
+    "packagist_downloads": 3171,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 58,
+    "commits": 50,
     "issues_opened": 0,
-    "prs_opened": 23,
-    "prs_merged": 22,
+    "prs_opened": 21,
+    "prs_merged": 20,
     "releases": 2,
-    "packagist_downloads": 299,
+    "packagist_downloads": 295,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1235,
-    "clones_unique": 133,
-    "views_total": 6,
-    "views_unique": 6,
-    "top_referrers": [],
+    "clones_total": 1314,
+    "clones_unique": 132,
+    "views_total": 10,
+    "views_unique": 9,
+    "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 2,
+        "uniques": 2
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-image-optimize/pull/214",
         "title": "/pull/214",
-        "count": 3,
-        "uniques": 3
+        "count": 5,
+        "uniques": 4
       },
       {
         "path": "/netresearch/t3x-nr-image-optimize",
@@ -79,6 +85,18 @@
       {
         "path": "/netresearch/t3x-nr-image-optimize/blob/main/CHANGELOG.md",
         "title": "/blob/main/CHANGELOG.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/pull/112/files",
+        "title": "/pull/112/files",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/pull/180",
+        "title": "/pull/180",
         "count": 1,
         "uniques": 1
       }
@@ -139,9 +157,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 3164,
-    "monthly": 299,
-    "daily": 11,
+    "total": 3171,
+    "monthly": 295,
+    "daily": 7,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,

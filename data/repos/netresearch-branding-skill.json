@@ -20,8 +20,8 @@
   "homepage": "https://netresearch.github.io/netresearch-branding-skill/",
   "default_branch": "main",
   "created_at": "2025-10-18T10:33:28Z",
-  "pushed_at": "2026-10-28T22:34:00Z",
-  "updated_at": "2026-10-25T20:49:52Z",
+  "pushed_at": "2026-10-30T02:11:03Z",
+  "updated_at": "2026-10-30T02:11:05Z",
   "composer_name": null,
   "lifetime": {
     "stars": 4,
@@ -29,11 +29,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 4,
-    "commits": 483,
+    "commits": 487,
     "issues_open": 3,
     "issues_closed": 3,
     "prs_open": 1,
-    "prs_merged": 132,
+    "prs_merged": 134,
     "prs_closed_unmerged": 4,
     "issues_total": 6,
     "releases": 40,
@@ -46,8 +46,8 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 183,
-    "issues_opened": 0,
+    "commits": 184,
+    "issues_opened": 5,
     "prs_opened": 44,
     "prs_merged": 42,
     "releases": 3,
@@ -55,14 +55,19 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6789,
-    "clones_unique": 441,
-    "views_total": 24,
-    "views_unique": 13,
+    "clones_total": 6420,
+    "clones_unique": 430,
+    "views_total": 26,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 4,
+        "uniques": 2
+      },
+      {
+        "referrer": "aocr.org",
+        "count": 2,
         "uniques": 2
       },
       {
@@ -130,6 +135,12 @@
         "title": "/discussions",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/netresearch-branding-skill/pull/28/files/500247f523345277bdd4e5b4f1283327eb8560c9",
+        "title": "/pull/28/files/500247f523345277bdd4e5b4f1283327eb8560c9",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -147,12 +158,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 46,
+      "contributions": 48,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 25,
+      "contributions": 27,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -173,7 +184,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/netresearch-branding-skill/network/dependents"
   },
-  "estimated_downstream_reach": 143,
-  "blast_radius": 143,
+  "estimated_downstream_reach": 145,
+  "blast_radius": 145,
   "archived": false
 }

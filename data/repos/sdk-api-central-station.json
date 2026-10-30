@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 1040,
+    "packagist_downloads": 1041,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,15 +43,20 @@
     "prs_opened": 2,
     "prs_merged": 2,
     "releases": 0,
-    "packagist_downloads": 130,
+    "packagist_downloads": 129,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 241,
-    "clones_unique": 47,
-    "views_total": 7,
-    "views_unique": 6,
+    "clones_total": 243,
+    "clones_unique": 48,
+    "views_total": 9,
+    "views_unique": 8,
     "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "referrer": "Google",
         "count": 2,
@@ -88,6 +93,18 @@
         "title": "/blob/main/doc/People/Tags.md",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-central-station/pull/34/files",
+        "title": "/pull/34/files",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-central-station/pull/35",
+        "title": "/pull/35",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -121,9 +138,9 @@
   ],
   "packagist": {
     "name": "netresearch/sdk-api-central-station",
-    "total": 1040,
-    "monthly": 130,
-    "daily": 4,
+    "total": 1041,
+    "monthly": 129,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/sdk-api-central-station"
   },
   "ghcr": null,

@@ -13,8 +13,8 @@
   "homepage": "https://github.com/netresearch/t3x-contexts_wurfl",
   "default_branch": "main",
   "created_at": "2013-04-12T08:21:51Z",
-  "pushed_at": "2026-10-21T16:29:39Z",
-  "updated_at": "2026-10-21T16:29:41Z",
+  "pushed_at": "2026-10-29T17:58:30Z",
+  "updated_at": "2026-10-29T17:58:32Z",
   "composer_name": "netresearch/contexts-wurfl",
   "lifetime": {
     "stars": 1,
@@ -22,11 +22,11 @@
     "watchers": 10,
     "network": 2,
     "open_issues_plus_prs": 2,
-    "commits": 268,
+    "commits": 272,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 1,
-    "prs_merged": 58,
+    "prs_merged": 60,
     "prs_closed_unmerged": 17,
     "issues_total": 4,
     "releases": 2,
@@ -39,20 +39,25 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 39,
+    "commits": 32,
     "issues_opened": 0,
     "prs_opened": 10,
-    "prs_merged": 9,
+    "prs_merged": 10,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 499,
-    "clones_unique": 71,
-    "views_total": 1,
-    "views_unique": 1,
+    "clones_total": 501,
+    "clones_unique": 73,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 3,
+        "uniques": 3
+      },
       {
         "referrer": "Google",
         "count": 1,
@@ -63,6 +68,24 @@
       {
         "path": "/netresearch/t3x-contexts_wurfl",
         "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts_wurfl/pull/35",
+        "title": "/pull/35",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts_wurfl/pull/39",
+        "title": "/pull/39",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts_wurfl/pull/41",
+        "title": "/pull/41",
         "count": 1,
         "uniques": 1
       }
@@ -77,7 +100,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 172,
+      "contributions": 174,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -91,14 +114,14 @@
       "url": "https://github.com/apps/dependabot"
     },
     {
+      "login": "renovate[bot]",
+      "contributions": 5,
+      "url": "https://github.com/apps/renovate"
+    },
+    {
       "login": "github-actions[bot]",
       "contributions": 3,
       "url": "https://github.com/apps/github-actions"
-    },
-    {
-      "login": "renovate[bot]",
-      "contributions": 3,
-      "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
@@ -118,7 +141,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts_wurfl/network/dependents"
   },
-  "estimated_downstream_reach": 69,
-  "blast_radius": 69,
+  "estimated_downstream_reach": 71,
+  "blast_radius": 71,
   "archived": false
 }

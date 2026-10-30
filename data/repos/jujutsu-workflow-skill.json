@@ -36,7 +36,7 @@
     "prs_closed_unmerged": 1,
     "issues_total": 3,
     "releases": 10,
-    "release_downloads": 95,
+    "release_downloads": 135,
     "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -45,24 +45,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 41,
+    "commits": 34,
     "issues_opened": 0,
-    "prs_opened": 10,
+    "prs_opened": 9,
     "prs_merged": 9,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1089,
-    "clones_unique": 191,
+    "clones_total": 1287,
+    "clones_unique": 203,
     "views_total": 85,
-    "views_unique": 34,
+    "views_unique": 37,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 15,
-        "uniques": 13
+        "uniques": 14
+      },
+      {
+        "referrer": "aocr.org",
+        "count": 4,
+        "uniques": 4
       },
       {
         "referrer": "github.com",
@@ -74,36 +79,30 @@
       {
         "path": "/netresearch/jujutsu-workflow-skill",
         "title": "Overview",
-        "count": 37,
-        "uniques": 21
+        "count": 31,
+        "uniques": 22
       },
       {
-        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/SKILL.md",
-        "title": "/blob/main/skills/jujutsu-workflow/SKILL.md",
-        "count": 5,
+        "path": "/netresearch/jujutsu-workflow-skill/pull/41",
+        "title": "/pull/41",
+        "count": 10,
         "uniques": 4
       },
       {
         "path": "/netresearch/jujutsu-workflow-skill/pull/40",
         "title": "/pull/40",
         "count": 5,
-        "uniques": 2
+        "uniques": 3
       },
       {
-        "path": "/netresearch/jujutsu-workflow-skill/issues/32",
-        "title": "/issues/32",
-        "count": 4,
-        "uniques": 4
+        "path": "/netresearch/jujutsu-workflow-skill/pull/41/changes",
+        "title": "/pull/41/changes",
+        "count": 5,
+        "uniques": 1
       },
       {
-        "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow",
-        "title": "/tree/main/skills/jujutsu-workflow",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/jujutsu-workflow-skill/pull/41",
-        "title": "/pull/41",
+        "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/SKILL.md",
+        "title": "/blob/main/skills/jujutsu-workflow/SKILL.md",
         "count": 4,
         "uniques": 3
       },
@@ -111,13 +110,13 @@
         "path": "/netresearch/jujutsu-workflow-skill/pulls",
         "title": "/pulls",
         "count": 4,
-        "uniques": 2
+        "uniques": 3
       },
       {
-        "path": "/netresearch/jujutsu-workflow-skill/discussions",
-        "title": "/discussions",
+        "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow",
+        "title": "/tree/main/skills/jujutsu-workflow",
         "count": 3,
-        "uniques": 2
+        "uniques": 3
       },
       {
         "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow/scripts",
@@ -128,6 +127,12 @@
       {
         "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/references/git-interop.md",
         "title": "/blob/main/skills/jujutsu-workflow/references/git-interop.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/jujutsu-workflow-skill/discussions",
+        "title": "/discussions",
         "count": 2,
         "uniques": 2
       }

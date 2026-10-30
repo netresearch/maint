@@ -47,12 +47,24 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 29,
-    "clones_unique": 13,
-    "views_total": 2,
-    "views_unique": 2,
-    "top_referrers": [],
+    "clones_total": 32,
+    "clones_unique": 14,
+    "views_total": 5,
+    "views_unique": 5,
+    "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 2,
+        "uniques": 2
+      }
+    ],
     "top_paths": [
+      {
+        "path": "/netresearch/timetracker-ui",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/timetracker-ui/blob/main/Dockerfile",
         "title": "/blob/main/Dockerfile",
@@ -62,6 +74,18 @@
       {
         "path": "/netresearch/timetracker-ui/blob/main/LICENSE",
         "title": "/blob/main/LICENSE",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker-ui/pull/745",
+        "title": "/pull/745",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker-ui/pull/748/files",
+        "title": "/pull/748/files",
         "count": 1,
         "uniques": 1
       }

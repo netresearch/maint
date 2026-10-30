@@ -20,8 +20,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T19:35:16Z",
-  "pushed_at": "2026-10-28T22:50:16Z",
-  "updated_at": "2026-10-26T01:45:55Z",
+  "pushed_at": "2026-10-30T02:46:36Z",
+  "updated_at": "2026-10-30T02:46:38Z",
   "composer_name": null,
   "lifetime": {
     "stars": 88,
@@ -29,11 +29,11 @@
     "watchers": 1,
     "network": 10,
     "open_issues_plus_prs": 2,
-    "commits": 516,
+    "commits": 518,
     "issues_open": 1,
     "issues_closed": 16,
     "prs_open": 1,
-    "prs_merged": 135,
+    "prs_merged": 136,
     "prs_closed_unmerged": 3,
     "issues_total": 17,
     "releases": 62,
@@ -46,7 +46,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 76,
+    "commits": 74,
     "issues_opened": 1,
     "prs_opened": 21,
     "prs_merged": 21,
@@ -55,33 +55,38 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2384,
-    "clones_unique": 415,
-    "views_total": 137,
-    "views_unique": 82,
+    "clones_total": 2348,
+    "clones_unique": 403,
+    "views_total": 161,
+    "views_unique": 102,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 39,
-        "uniques": 38
-      },
-      {
-        "referrer": "github.com",
-        "count": 8,
-        "uniques": 8
+        "count": 41,
+        "uniques": 40
       },
       {
         "referrer": "aocr.org",
-        "count": 6,
-        "uniques": 6
+        "count": 17,
+        "uniques": 17
       },
       {
-        "referrer": "DuckDuckGo",
-        "count": 2,
-        "uniques": 2
+        "referrer": "github.com",
+        "count": 10,
+        "uniques": 9
       },
       {
         "referrer": "search.brave.com",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "DuckDuckGo",
         "count": 1,
         "uniques": 1
       }
@@ -90,20 +95,20 @@
       {
         "path": "/netresearch/agent-rules-skill",
         "title": "Overview",
-        "count": 67,
-        "uniques": 63
+        "count": 82,
+        "uniques": 77
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
         "title": "/tree/main/skills/agent-rules",
-        "count": 9,
-        "uniques": 7
+        "count": 11,
+        "uniques": 9
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md",
         "title": "/blob/main/skills/agent-rules/SKILL.md",
-        "count": 6,
-        "uniques": 4
+        "count": 8,
+        "uniques": 6
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main",
@@ -163,7 +168,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 34,
+      "contributions": 35,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -173,7 +178,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 10,
+      "contributions": 11,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -194,7 +199,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/agent-rules-skill/network/dependents"
   },
-  "estimated_downstream_reach": 172,
-  "blast_radius": 172,
+  "estimated_downstream_reach": 173,
+  "blast_radius": 173,
   "archived": false
 }

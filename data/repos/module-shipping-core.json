@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 2,
-    "packagist_downloads": 259344,
+    "packagist_downloads": 259599,
     "ghcr_downloads": 0,
     "dependents_repos": 18,
     "dependents_packages": 3
@@ -47,22 +47,28 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 6775,
+    "packagist_downloads": 6779,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 22,
+    "clones_total": 23,
     "clones_unique": 21,
-    "views_total": 4,
-    "views_unique": 4,
+    "views_total": 5,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/module-shipping-core/releases",
+        "title": "/releases",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/module-shipping-core",
         "title": "Overview",
@@ -78,12 +84,6 @@
       {
         "path": "/netresearch/module-shipping-core/blob/main/src/Api/Data/ShippingSettings/ShippingOption/Selection/SelectionInterface.php",
         "title": "/blob/main/src/Api/Data/ShippingSettings/ShippingOption/Selection/SelectionInterface.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/module-shipping-core/releases",
-        "title": "/releases",
         "count": 1,
         "uniques": 1
       }
@@ -114,9 +114,9 @@
   ],
   "packagist": {
     "name": "netresearch/module-shipping-core",
-    "total": 259344,
-    "monthly": 6775,
-    "daily": 270,
+    "total": 259599,
+    "monthly": 6779,
+    "daily": 234,
     "url": "https://packagist.org/packages/netresearch/module-shipping-core"
   },
   "ghcr": null,

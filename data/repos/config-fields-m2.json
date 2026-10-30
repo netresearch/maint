@@ -35,7 +35,7 @@
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 4,
-    "packagist_downloads": 393736,
+    "packagist_downloads": 394043,
     "ghcr_downloads": 0,
     "dependents_repos": 20,
     "dependents_packages": 3
@@ -46,15 +46,20 @@
     "prs_opened": 1,
     "prs_merged": 1,
     "releases": 0,
-    "packagist_downloads": 8418,
+    "packagist_downloads": 8402,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 183,
-    "clones_unique": 32,
-    "views_total": 3,
-    "views_unique": 2,
+    "clones_unique": 31,
+    "views_total": 5,
+    "views_unique": 4,
     "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "referrer": "Google",
         "count": 1,
@@ -71,6 +76,18 @@
       {
         "path": "/netresearch/config-fields-m2/blob/develop/composer.json",
         "title": "/blob/develop/composer.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/config-fields-m2/pull/10",
+        "title": "/pull/10",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/config-fields-m2/pull/11/files",
+        "title": "/pull/11/files",
         "count": 1,
         "uniques": 1
       }
@@ -126,9 +143,9 @@
   ],
   "packagist": {
     "name": "netresearch/config-fields-m2",
-    "total": 393736,
-    "monthly": 8418,
-    "daily": 301,
+    "total": 394043,
+    "monthly": 8402,
+    "daily": 280,
     "url": "https://packagist.org/packages/netresearch/config-fields-m2"
   },
   "ghcr": null,

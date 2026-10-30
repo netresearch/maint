@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:34Z",
-  "pushed_at": "2026-10-29T01:42:24Z",
-  "updated_at": "2026-10-28T13:01:12Z",
+  "pushed_at": "2026-10-30T01:27:47Z",
+  "updated_at": "2026-10-30T01:27:48Z",
   "composer_name": null,
   "lifetime": {
     "stars": 59,
@@ -23,11 +23,11 @@
     "watchers": 1,
     "network": 14,
     "open_issues_plus_prs": 5,
-    "commits": 1173,
+    "commits": 1177,
     "issues_open": 4,
     "issues_closed": 26,
     "prs_open": 1,
-    "prs_merged": 394,
+    "prs_merged": 396,
     "prs_closed_unmerged": 1,
     "issues_total": 30,
     "releases": 70,
@@ -40,34 +40,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 169,
+    "commits": 172,
     "issues_opened": 3,
-    "prs_opened": 51,
-    "prs_merged": 51,
+    "prs_opened": 52,
+    "prs_merged": 52,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7477,
-    "clones_unique": 584,
-    "views_total": 297,
-    "views_unique": 123,
+    "clones_total": 7860,
+    "clones_unique": 580,
+    "views_total": 316,
+    "views_unique": 141,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 100,
-        "uniques": 74
-      },
-      {
-        "referrer": "github.com",
-        "count": 10,
-        "uniques": 6
+        "count": 103,
+        "uniques": 79
       },
       {
         "referrer": "aocr.org",
-        "count": 5,
-        "uniques": 5
+        "count": 11,
+        "uniques": 11
+      },
+      {
+        "referrer": "github.com",
+        "count": 11,
+        "uniques": 6
       },
       {
         "referrer": "search.brave.com",
@@ -76,6 +76,11 @@
       },
       {
         "referrer": "Bing",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "referrer": "ecosia.org",
         "count": 1,
         "uniques": 1
       }
@@ -84,8 +89,8 @@
       {
         "path": "/netresearch/git-workflow-skill",
         "title": "Overview",
-        "count": 128,
-        "uniques": 95
+        "count": 141,
+        "uniques": 106
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow",
@@ -106,16 +111,16 @@
         "uniques": 8
       },
       {
-        "path": "/netresearch/git-workflow-skill/blob/main/.github/workflows/codeql.yml",
-        "title": "/blob/main/.github/workflows/codeql.yml",
-        "count": 8,
-        "uniques": 5
-      },
-      {
         "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/references",
         "title": "/tree/main/skills/git-workflow/references",
         "count": 6,
         "uniques": 5
+      },
+      {
+        "path": "/netresearch/git-workflow-skill/blob/main/.github/workflows/codeql.yml",
+        "title": "/blob/main/.github/workflows/codeql.yml",
+        "count": 6,
+        "uniques": 4
       },
       {
         "path": "/netresearch/git-workflow-skill/tree/main/scripts",
@@ -130,15 +135,15 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/evals",
-        "title": "/tree/main/skills/git-workflow/evals",
+        "path": "/netresearch/git-workflow-skill/releases/tag/v1.38.0",
+        "title": "/releases/tag/v1.38.0",
         "count": 5,
         "uniques": 4
       },
       {
-        "path": "/netresearch/git-workflow-skill/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
-        "count": 4,
+        "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/evals",
+        "title": "/tree/main/skills/git-workflow/evals",
+        "count": 5,
         "uniques": 4
       }
     ]
@@ -152,12 +157,12 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1054,
+      "contributions": 1056,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 43,
+      "contributions": 44,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -167,7 +172,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 18,
+      "contributions": 19,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -193,7 +198,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/git-workflow-skill/network/dependents"
   },
-  "estimated_downstream_reach": 458,
-  "blast_radius": 458,
+  "estimated_downstream_reach": 460,
+  "blast_radius": 460,
   "archived": false
 }
