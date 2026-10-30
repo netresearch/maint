@@ -10,7 +10,7 @@ Organization maintenance and automation tasks for the Netresearch GitHub organiz
 
 Monitors all public repositories in the netresearch organization for new stars, forks, watchers, and dependents, and sends notifications to Matrix.
 
-**Schedule:** Every 15 minutes
+**Schedule:** Daily at 06:00 UTC
 
 **Manual trigger:** Yes (via Actions tab → "Run workflow")
 
@@ -29,18 +29,21 @@ uv pip compile --generate-hashes --python-version=3.15 \
 | Secret | Description |
 |--------|-------------|
 | `MATRIX_WEBHOOK_URL` | Matrix Hookshot webhook URL |
+| `STAR_NOTIFICATIONS_PAT` | Token for the stargazers, subscribers and forks endpoints, which GitHub restricts to a repository's admins and collaborators since 2026-06-30. Without read access the digest can only report how many stars a repository gained, not who starred it |
 
 #### How It Works
 
 1. Fetches all public repos in the org
 2. Gets current stargazers, forks, watchers, and dependents for each repo
 3. Compares with previously known data (stored as artifact)
-4. Sends Matrix notification for each new star, fork, watcher, or dependent
+4. Sends one Matrix digest covering every new star, fork, watcher, or dependent since the previous run
 5. Updates state for next run
 
-The first run indexes existing data without sending notifications to avoid spam.
+The first run indexes existing data without sending notifications to avoid spam. A day without new events sends nothing. If the digest cannot be delivered, the run fails without saving the new state, so the next run reports the same events again.
 
-#### Notification Types
+The digest's first line stays visible and counts the new stars, forks and dependents since the previous completed run, naming that start time; the individual events follow in a collapsed `<details>` block, at most 50 lines with a link to the run's log for the rest. Clients without `<details>` support show the block expanded.
+
+#### Event Types
 
 - **⭐ Stars:** When someone stars a repository
 - **🍴 Forks:** When someone forks a repository

@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Check for new GitHub stars, forks, watchers, and dependents on netresearch org repos and notify Matrix."""
 
+import html
 import json
 import os
+import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -15,7 +17,11 @@ ORG_NAME = os.environ.get("ORG_NAME", "netresearch")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 MATRIX_WEBHOOK_URL = os.environ["MATRIX_WEBHOOK_URL"]
 STATE_FILE = Path("state/stars-state.json")
-MAX_NOTIFICATIONS = 20
+# Event lines inside the collapsed part of the daily digest. The summary line
+# always carries the full counts; past this many lines the details end in a
+# "+N more" pointer to the run log instead of growing the Matrix event.
+MAX_DIGEST_LINES = 50
+HELP_URL = "https://github.com/netresearch/maint"
 FEED_URL = "https://github.com/netresearch/maint/actions/workflows/star-notifications.yml"
 
 # Reuse connections throughout a scan. Keep authenticated API traffic separate
@@ -37,9 +43,10 @@ RATE_LIMIT_MAX_RETRIES = 6
 SECONDARY_RATE_LIMIT_WAIT = 60
 # Total seconds this process may spend asleep waiting out rate limits, across
 # every request it makes. THE SCHEDULE IS THE OUTER RETRY LOOP: the workflow
-# fires every 15 minutes, so a run that cannot get through in 10 minutes should
-# hand over to its successor rather than occupy a runner and overlap the next
-# one. This also bounds the job far below the 6-hour Actions timeout no matter
+# fires once a day, so a run that cannot get through in 10 minutes hands over to
+# the next day's run. Nothing is lost by that — new stars are found by comparing
+# against the saved state, so the next run reports them, one day late. This
+# also bounds the job far below the 6-hour Actions timeout no matter
 # how many of the ~280 org repos are still unwalked when the limit hits — a
 # per-request budget would not, since one run makes several hundred requests.
 RATE_LIMIT_TOTAL_BUDGET = 600
@@ -53,14 +60,13 @@ _rate_limit_slept = 0.0
 # reads. So consecutive deferrals are counted across runs, and the streak turns
 # the run red once it can no longer be explained by a single bad hour.
 #
-# The number comes from the two cadences involved: the workflow runs every 15
-# minutes (4 runs/hour) and the primary budget resets hourly. Four deferrals in
-# a row span only 45 minutes and can therefore all sit inside ONE drained hour —
-# exactly the case that must stay green. The fifth is at least 60 minutes after
-# the first, so at least one full hourly reset has come and gone without giving
-# this token enough budget to finish a run: no longer a bad hour, a bad setup.
+# The number comes from the two cadences involved: the workflow runs once a day
+# and the primary budget resets hourly. One deferral can be a single hour that
+# someone else drained — the case that must stay green. The second in a row is
+# a day later, so many hourly resets have come and gone without giving this
+# token enough budget to finish a run: no longer a bad hour, a bad setup.
 DEFERRED_GIVEUP_STREAK_KEY = "deferred_giveup_streak"
-MAX_CONSECUTIVE_DEFERRALS = 5
+MAX_CONSECUTIVE_DEFERRALS = 2
 
 # In-memory cache for user details (login -> user info dict)
 _user_cache: dict[str, dict] = {}
@@ -80,6 +86,14 @@ def note_inaccessible(repo_full_name: str, endpoint: str, detail: str) -> None:
     if repo_full_name not in _inaccessible:
         _inaccessible[repo_full_name] = f"{endpoint}: {detail}"
         print(f"Skipping {repo_full_name} ({endpoint}): {detail}")
+
+
+class DigestNotSentError(Exception):
+    """The Matrix digest could not be delivered.
+
+    Raised by main() after the scan, so the seen-stars data is NOT saved and the
+    next run detects the same events again and sends them in its own digest.
+    """
 
 
 class AuthError(Exception):
@@ -597,11 +611,81 @@ def bump_deferred_giveup_streak() -> int:
     return streak
 
 
-def notify_matrix(message: str) -> None:
-    """Send notification to Matrix via webhook."""
-    payload = {"text": message}
+def clear_deferred_giveup_streak() -> None:
+    """Clear the streak without saving the scan, for a run that walked every repo
+    but could not deliver its digest. Re-reads the file for the reasons given in
+    bump_deferred_giveup_streak()."""
+    state = load_state()
+    state[DEFERRED_GIVEUP_STREAK_KEY] = 0
+    write_state(state)
+
+
+def notify_matrix(text: str, html_body: str) -> None:
+    """Send one message to Matrix via the Hookshot webhook.
+
+    Hookshot's generic webhook posts `html` as the formatted body and `text` as
+    the plain-text body that clients without HTML support show instead.
+    """
+    payload = {"text": text, "html": html_body}
     response = requests.post(MATRIX_WEBHOOK_URL, json=payload)
     response.raise_for_status()
+
+
+_MARKDOWN_LINK = re.compile(r"\[([^\]\n]+)\]\((https://[^)\s]+)\)")
+
+
+def markdown_links_to_html(line: str) -> str:
+    """Render an event line, whose only markup is [text](url) links, as HTML."""
+    return _MARKDOWN_LINK.sub(r'<a href="\2">\1</a>', html.escape(line, quote=True))
+
+
+def plural(count: int, singular: str, plural_form: str | None = None) -> str:
+    return f"{count} {singular if count == 1 else plural_form or singular + 's'}"
+
+
+def run_log_url() -> str:
+    """Link to this run's log, where the events beyond the digest cap are printed;
+    the workflow's run list when not running in Actions."""
+    server, repository, run_id = (os.environ.get(name) for name in
+                                  ("GITHUB_SERVER_URL", "GITHUB_REPOSITORY", "GITHUB_RUN_ID"))
+    if server and repository and run_id:
+        return f"{server}/{repository}/actions/runs/{run_id}"
+    return FEED_URL
+
+
+def digest_window(last_run: str | None) -> str:
+    """Label the period a digest covers: everything since the previous completed
+    run, which after a deferred or failed run is longer than a day."""
+    if not last_run:
+        return datetime.now(timezone.utc).date().isoformat()
+    return f"since {datetime.fromisoformat(last_run):%Y-%m-%d %H:%M} UTC"
+
+
+def build_digest(events: list[dict], window: str) -> tuple[str, str]:
+    """Compose the daily digest as (plain text, HTML).
+
+    The first line names the new stars, forks and dependents within `window`
+    and stays visible; the event lines follow, collapsed in a <details> block.
+    Watchers appear only as event lines. Each event is a dict with `kind`
+    (star, fork, watcher, dependent), `count` and `line`.
+    """
+    totals = {kind: sum(e["count"] for e in events if e["kind"] == kind)
+              for kind in ("star", "fork", "dependent")}
+    summary = (
+        f"📊 {ORG_NAME} {window}: ⭐ {plural(totals['star'], 'star')} · "
+        f"🍴 {plural(totals['fork'], 'fork')} · "
+        f"📦 {plural(totals['dependent'], 'dependent')}"
+    )
+    lines = [e["line"] for e in events[:MAX_DIGEST_LINES]]
+    if len(events) > MAX_DIGEST_LINES:
+        lines.append(f"+{len(events) - MAX_DIGEST_LINES} more, see the [run log]({run_log_url()})")
+    text = "\n".join([f"{summary} ([?]({HELP_URL}))", *lines])
+    body = "<br>".join(markdown_links_to_html(line) for line in lines)
+    html_message = (
+        f'<details><summary>{html.escape(summary)} (<a href="{HELP_URL}">?</a>)</summary>'
+        f"{body}</details>"
+    )
+    return text, html_message
 
 
 def main():
@@ -609,11 +693,11 @@ def main():
         raise AuthError("no token in the environment")
     state = load_state()
     repos = get_org_repos()
-    is_first_run = not state.get("last_run")
+    previous_run = state.get("last_run")
+    is_first_run = not previous_run
 
     total_new = {"stars": 0, "forks": 0, "watchers": 0, "dependents": 0}
-    notifications_sent = 0
-    pending_notifications = []
+    events = []
 
     for repo in repos:
         repo_name = repo["full_name"]
@@ -651,8 +735,8 @@ def main():
                     if new_star_count > 0:
                         if not is_first_run:
                             star_word = "star" if new_star_count == 1 else "stars"
-                            msg = f"⭐ [{repo['name']}]({repo['url']}) gained {new_star_count} new {star_word} (stargazer identities unavailable for the previous snapshot) ([?](https://github.com/netresearch/maint))"
-                            pending_notifications.append(msg)
+                            msg = f"⭐ [{repo['name']}]({repo['url']}) gained {new_star_count} new {star_word} (stargazer identities unavailable for the previous snapshot)"
+                            events.append({"kind": "star", "count": new_star_count, "line": msg})
                             print(f"Stars: +{new_star_count} -> {repo_name} (count only)")
                         total_new["stars"] += new_star_count
                 stars_to_save = list(current_stars)
@@ -665,8 +749,8 @@ def main():
                     if user["login"] in new_stars:
                         if not is_first_run:
                             user_info = format_user_info(user["login"], user["html_url"])
-                            msg = f"⭐ [{repo['name']}]({repo['url']}) starred by {user_info} ([?](https://github.com/netresearch/maint))"
-                            pending_notifications.append(msg)
+                            msg = f"⭐ [{repo['name']}]({repo['url']}) starred by {user_info}"
+                            events.append({"kind": "star", "count": 1, "line": msg})
                             print(f"Star: {user['login']} -> {repo_name}")
                         total_new["stars"] += 1
                 stars_to_save = list(current_stars)
@@ -685,8 +769,8 @@ def main():
                 if new_star_count > 0:
                     if not is_first_run:
                         star_word = "star" if new_star_count == 1 else "stars"
-                        msg = f"⭐ [{repo['name']}]({repo['url']}) gained {new_star_count} new {star_word} (stargazer identities unavailable to this token) ([?](https://github.com/netresearch/maint))"
-                        pending_notifications.append(msg)
+                        msg = f"⭐ [{repo['name']}]({repo['url']}) gained {new_star_count} new {star_word} (stargazer identities unavailable to this token)"
+                        events.append({"kind": "star", "count": new_star_count, "line": msg})
                         print(f"Stars: +{new_star_count} -> {repo_name} (count only)")
                     total_new["stars"] += new_star_count
                 star_count_to_save = current_star_count
@@ -711,8 +795,8 @@ def main():
                         if not is_first_run:
                             user_info = format_user_info(owner["login"], owner["html_url"])
                             fork_url = fork.get("html_url", f"https://github.com/{fork['full_name']}")
-                            msg = f"🍴 [{repo['name']}]({repo['url']}) forked by {user_info} → [{fork['full_name']}]({fork_url}) ([?](https://github.com/netresearch/maint))"
-                            pending_notifications.append(msg)
+                            msg = f"🍴 [{repo['name']}]({repo['url']}) forked by {user_info} → [{fork['full_name']}]({fork_url})"
+                            events.append({"kind": "fork", "count": 1, "line": msg})
                             print(f"Fork: {owner['login']} -> {repo_name}")
                         total_new["forks"] += 1
                 forks_to_save = list(current_forks)
@@ -732,8 +816,8 @@ def main():
                     if watcher["login"] in new_watchers:
                         if not is_first_run:
                             user_info = format_user_info(watcher["login"], watcher["html_url"])
-                            msg = f"👀 [{repo['name']}]({repo['url']}) watched by {user_info} ([?](https://github.com/netresearch/maint))"
-                            pending_notifications.append(msg)
+                            msg = f"👀 [{repo['name']}]({repo['url']}) watched by {user_info}"
+                            events.append({"kind": "watcher", "count": 1, "line": msg})
                             print(f"Watch: {watcher['login']} -> {repo_name}")
                         total_new["watchers"] += 1
                 watchers_to_save = list(current_watchers)
@@ -754,8 +838,8 @@ def main():
                         # Only notify if not first run AND dependents were already being tracked for this repo
                         if not is_first_run and had_dependents_tracking:
                             dependent = enrich_dependent(dependent)
-                            msg = f"📦 [{repo['name']}]({repo['url']}) new dependent: [{dependent['full_name']}]({dependent['url']}) ({dependent['stars']} ⭐, {dependent['forks']} 🍴) ([?](https://github.com/netresearch/maint))"
-                            pending_notifications.append(msg)
+                            msg = f"📦 [{repo['name']}]({repo['url']}) new dependent: [{dependent['full_name']}]({dependent['url']}) ({dependent['stars']} ⭐, {dependent['forks']} 🍴)"
+                            events.append({"kind": "dependent", "count": 1, "line": msg})
                             print(f"Dependent: {dependent['full_name']} -> {repo_name}")
                         total_new["dependents"] += 1
                 dependents_to_save = list(current_dependents)
@@ -774,34 +858,24 @@ def main():
             "dependents": dependents_to_save,
         }
 
-    # Send notifications (limited) - errors must not prevent state saving
-    notification_errors = 0
-    for msg in pending_notifications[:MAX_NOTIFICATIONS]:
+    # One digest per run, and none on a day without events.
+    digest_sent = False
+    send_error = None
+    if events:
+        text, html_body = build_digest(events, digest_window(previous_run))
         try:
-            notify_matrix(msg)
-            notifications_sent += 1
+            notify_matrix(text, html_body)
+            digest_sent = True
         except requests.exceptions.RequestException as e:
-            notification_errors += 1
-            print(f"Failed to send Matrix notification. Error: {type(e).__name__}")
-            # After first failure, skip remaining notifications (webhook likely down)
-            if notification_errors == 1:
-                print("Matrix webhook appears unreachable, skipping remaining notifications")
-                break
+            send_error = type(e).__name__
+            print(f"Failed to send the Matrix digest. Error: {send_error}")
 
-    # If there are more, send a summary
-    remaining = len(pending_notifications) - MAX_NOTIFICATIONS
-    if remaining > 0 and notification_errors == 0:
-        summary = f"📊 +{remaining} more events. [See full log]({FEED_URL}) ([?](https://github.com/netresearch/maint))"
-        try:
-            notify_matrix(summary)
-        except requests.exceptions.RequestException as e:
-            notification_errors += 1
-            print(f"Failed to send Matrix summary. Error: {type(e).__name__}")
-        print(f"Truncated: {remaining} additional notifications not sent")
-
-    # Always save state, even if notifications failed - prevents re-detecting
-    # the same changes on the next run
-    save_state(state)
+    # The whole day is one message, so an undelivered digest must not advance
+    # the seen-stars data: the next run detects the same events and sends them.
+    if send_error:
+        clear_deferred_giveup_streak()
+    else:
+        save_state(state)
 
     if is_first_run:
         totals = sum(
@@ -811,9 +885,7 @@ def main():
         print(f"Initial run - indexed {totals} existing entries")
     else:
         print(f"Found: {total_new['stars']} star(s), {total_new['forks']} fork(s), {total_new['watchers']} watcher(s), {total_new['dependents']} dependent(s)")
-        print(f"Sent: {notifications_sent} notification(s)")
-        if notification_errors > 0:
-            print(f"Warning: {notification_errors} notification(s) failed to send")
+        print(f"Digest: {'sent' if digest_sent else 'not sent'} ({len(events)} event line(s))")
 
     # Report — but do not fail on — repos whose social endpoints the token could
     # not read. A ::warning:: keeps it visible in the Actions UI (so a token that
@@ -828,6 +900,10 @@ def main():
         )
         for name, reason in sorted(_inaccessible.items()):
             print(f"  - {name}: {reason}")
+
+    if send_error:
+        raise DigestNotSentError(f"The Matrix digest with {len(events)} event line(s) was not "
+                                 f"delivered ({send_error}).")
 
 
 def run() -> int:
@@ -862,9 +938,8 @@ def run() -> int:
         if e.deferred_to_next_run:
             streak = bump_deferred_giveup_streak()
             if streak >= MAX_CONSECUTIVE_DEFERRALS:
-                print(f"::error::{e} This is give-up {streak} in a row, spanning more than the hourly "
-                      f"primary-limit reset, so no run in over an hour has processed a single repo. "
-                      f"The token's budget is not momentarily drained, it is too small for this "
+                print(f"::error::{e} This is give-up {streak} in a row, with no completed run in "
+                      f"between. The token's budget is not momentarily drained, it is too small for this "
                       f"cadence — reduce the schedule or the request count.")
                 return 1
             print(f"::warning::{e} Working as designed: the next scheduled run retries with a fresh "
@@ -872,6 +947,10 @@ def run() -> int:
                   f"turns red).")
             return 0
         print(f"::error::{e} The next scheduled run retries with a fresh budget.")
+        return 1
+    except DigestNotSentError as e:
+        print(f"::error::{e} The seen-stars data was not saved, so the next run sends these "
+              f"events again.")
         return 1
     except AuthError as e:
         print(f"::error::{e}. Check that STAR_NOTIFICATIONS_PAT is set, unexpired, and grants "
