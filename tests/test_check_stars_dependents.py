@@ -145,9 +145,9 @@ def test_run_log_falls_back_to_the_workflow_runs_outside_actions(monkeypatch):
 
 
 def test_undelivered_digest_keeps_the_events_for_the_next_run(scan):
+    webhook_down = requests.ConnectionError("webhook down")
     with pytest.raises(check_stars.DigestNotSentError, match="1 event line"):
-        scan(["consumer/old", "consumer/new"], ["consumer/old"],
-             send_error=requests.ConnectionError("webhook down"))
+        scan(["consumer/old", "consumer/new"], ["consumer/old"], send_error=webhook_down)
     state = scan.state
     assert state["repos"]["netresearch/example"]["dependents"] == ["consumer/old"], \
         "the undelivered dependent must still be new to the next run"
