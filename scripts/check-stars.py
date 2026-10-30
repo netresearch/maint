@@ -88,6 +88,14 @@ def note_inaccessible(repo_full_name: str, endpoint: str, detail: str) -> None:
         print(f"Skipping {repo_full_name} ({endpoint}): {detail}")
 
 
+class DigestNotSentError(Exception):
+    """The Matrix digest could not be delivered.
+
+    Raised by main() after the scan, so the seen-stars data is NOT saved and the
+    next run detects the same events again and sends them in its own digest.
+    """
+
+
 class AuthError(Exception):
     """The token may not read an endpoint.
 
@@ -603,6 +611,15 @@ def bump_deferred_giveup_streak() -> int:
     return streak
 
 
+def clear_deferred_giveup_streak() -> None:
+    """Clear the streak without saving the scan, for a run that walked every repo
+    but could not deliver its digest. Re-reads the file for the reasons given in
+    bump_deferred_giveup_streak()."""
+    state = load_state()
+    state[DEFERRED_GIVEUP_STREAK_KEY] = 0
+    write_state(state)
+
+
 def notify_matrix(text: str, html_body: str) -> None:
     """Send one message to Matrix via the Hookshot webhook.
 
@@ -626,24 +643,42 @@ def plural(count: int, singular: str, plural_form: str | None = None) -> str:
     return f"{count} {singular if count == 1 else plural_form or singular + 's'}"
 
 
-def build_digest(events: list[dict], day: str) -> tuple[str, str]:
+def run_log_url() -> str:
+    """Link to this run's log, where the events beyond the digest cap are printed;
+    the workflow's run list when not running in Actions."""
+    server, repository, run_id = (os.environ.get(name) for name in
+                                  ("GITHUB_SERVER_URL", "GITHUB_REPOSITORY", "GITHUB_RUN_ID"))
+    if server and repository and run_id:
+        return f"{server}/{repository}/actions/runs/{run_id}"
+    return FEED_URL
+
+
+def digest_window(last_run: str | None) -> str:
+    """Label the period a digest covers: everything since the previous completed
+    run, which after a deferred or failed run is longer than a day."""
+    if not last_run:
+        return datetime.now(timezone.utc).date().isoformat()
+    return f"since {datetime.fromisoformat(last_run):%Y-%m-%d %H:%M} UTC"
+
+
+def build_digest(events: list[dict], window: str) -> tuple[str, str]:
     """Compose the daily digest as (plain text, HTML).
 
-    The first line names the day's new stars, forks and dependents and stays
-    visible; the event lines follow, collapsed in a <details> block. Watchers
-    appear only as event lines. Each event is a dict with `kind` (star, fork,
-    watcher, dependent), `count` and `line`.
+    The first line names the new stars, forks and dependents within `window`
+    and stays visible; the event lines follow, collapsed in a <details> block.
+    Watchers appear only as event lines. Each event is a dict with `kind`
+    (star, fork, watcher, dependent), `count` and `line`.
     """
     totals = {kind: sum(e["count"] for e in events if e["kind"] == kind)
               for kind in ("star", "fork", "dependent")}
     summary = (
-        f"📊 {ORG_NAME} {day}: ⭐ {plural(totals['star'], 'star')} · "
+        f"📊 {ORG_NAME} {window}: ⭐ {plural(totals['star'], 'star')} · "
         f"🍴 {plural(totals['fork'], 'fork')} · "
         f"📦 {plural(totals['dependent'], 'dependent')}"
     )
     lines = [e["line"] for e in events[:MAX_DIGEST_LINES]]
     if len(events) > MAX_DIGEST_LINES:
-        lines.append(f"+{len(events) - MAX_DIGEST_LINES} more, see the [run log]({FEED_URL})")
+        lines.append(f"+{len(events) - MAX_DIGEST_LINES} more, see the [run log]({run_log_url()})")
     text = "\n".join([f"{summary} ([?]({HELP_URL}))", *lines])
     body = "<br>".join(markdown_links_to_html(line) for line in lines)
     html_message = (
@@ -658,7 +693,8 @@ def main():
         raise AuthError("no token in the environment")
     state = load_state()
     repos = get_org_repos()
-    is_first_run = not state.get("last_run")
+    previous_run = state.get("last_run")
+    is_first_run = not previous_run
 
     total_new = {"stars": 0, "forks": 0, "watchers": 0, "dependents": 0}
     events = []
@@ -822,20 +858,24 @@ def main():
             "dependents": dependents_to_save,
         }
 
-    # One digest per run, and none on a day without events. A failed send must
-    # not prevent state saving.
+    # One digest per run, and none on a day without events.
     digest_sent = False
+    send_error = None
     if events:
-        text, html_body = build_digest(events, datetime.now(timezone.utc).date().isoformat())
+        text, html_body = build_digest(events, digest_window(previous_run))
         try:
             notify_matrix(text, html_body)
             digest_sent = True
         except requests.exceptions.RequestException as e:
-            print(f"Failed to send the Matrix digest. Error: {type(e).__name__}")
+            send_error = type(e).__name__
+            print(f"Failed to send the Matrix digest. Error: {send_error}")
 
-    # Always save state, even if notifications failed - prevents re-detecting
-    # the same changes on the next run
-    save_state(state)
+    # The whole day is one message, so an undelivered digest must not advance
+    # the seen-stars data: the next run detects the same events and sends them.
+    if send_error:
+        clear_deferred_giveup_streak()
+    else:
+        save_state(state)
 
     if is_first_run:
         totals = sum(
@@ -860,6 +900,10 @@ def main():
         )
         for name, reason in sorted(_inaccessible.items()):
             print(f"  - {name}: {reason}")
+
+    if send_error:
+        raise DigestNotSentError(f"The Matrix digest with {len(events)} event line(s) was not "
+                                 f"delivered ({send_error}).")
 
 
 def run() -> int:
@@ -894,9 +938,8 @@ def run() -> int:
         if e.deferred_to_next_run:
             streak = bump_deferred_giveup_streak()
             if streak >= MAX_CONSECUTIVE_DEFERRALS:
-                print(f"::error::{e} This is give-up {streak} in a row, spanning more than the hourly "
-                      f"primary-limit reset, so no run in over a day has processed a single repo. "
-                      f"The token's budget is not momentarily drained, it is too small for this "
+                print(f"::error::{e} This is give-up {streak} in a row, with no completed run in "
+                      f"between. The token's budget is not momentarily drained, it is too small for this "
                       f"cadence — reduce the schedule or the request count.")
                 return 1
             print(f"::warning::{e} Working as designed: the next scheduled run retries with a fresh "
@@ -904,6 +947,10 @@ def run() -> int:
                   f"turns red).")
             return 0
         print(f"::error::{e} The next scheduled run retries with a fresh budget.")
+        return 1
+    except DigestNotSentError as e:
+        print(f"::error::{e} The seen-stars data was not saved, so the next run sends these "
+              f"events again.")
         return 1
     except AuthError as e:
         print(f"::error::{e}. Check that STAR_NOTIFICATIONS_PAT is set, unexpired, and grants "

@@ -297,6 +297,12 @@ def test_secondary_budget_give_up_still_fails():
     assert code == 1, f"an AuthError must exit 1, got {code}"
     assert "::error::" in out
 
+    # An undelivered digest is red too: its events wait for the next run.
+    with _temp_state({}):
+        code, out = _run_with_main_raising(check_stars.DigestNotSentError("not delivered"))
+    assert code == 1, f"an undelivered digest must exit 1, got {code}"
+    assert "::error::not delivered" in out
+
 
 @contextlib.contextmanager
 def _temp_state(initial):

@@ -39,9 +39,9 @@ uv pip compile --generate-hashes --python-version=3.15 \
 4. Sends one Matrix digest covering every new star, fork, watcher, or dependent since the previous run
 5. Updates state for next run
 
-The first run indexes existing data without sending notifications to avoid spam. A day without new events sends nothing.
+The first run indexes existing data without sending notifications to avoid spam. A day without new events sends nothing. If the digest cannot be delivered, the run fails without saving the new state, so the next run reports the same events again.
 
-The digest's first line stays visible and counts the day's new stars, forks and dependents; the individual events follow in a collapsed `<details>` block, at most 50 lines with a pointer to the run log for the rest. Clients without `<details>` support show the block expanded.
+The digest's first line stays visible and counts the new stars, forks and dependents since the previous completed run, naming that start time; the individual events follow in a collapsed `<details>` block, at most 50 lines with a link to the run's log for the rest. Clients without `<details>` support show the block expanded.
 
 #### Event Types
 
