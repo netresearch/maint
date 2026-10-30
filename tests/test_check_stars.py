@@ -265,7 +265,8 @@ def test_primary_budget_give_up_is_deferred_and_exits_zero():
     assert raised.deferred_to_next_run is True, "a primary budget give-up must defer to the next run"
     assert slept == [], f"a wait that exceeds the budget must not be slept at all, slept {slept}"
 
-    code, out = _run_with_main_raising(raised)
+    with _temp_state({}):
+        code, out = _run_with_main_raising(raised)
     assert code == 0, f"a deferred give-up must exit 0, got {code}"
     assert "::warning::" in out, f"the deferred give-up must still annotate the run, got: {out}"
     assert "::error::" not in out
@@ -281,7 +282,8 @@ def test_secondary_budget_give_up_still_fails():
     assert isinstance(raised, check_stars.RateLimitError), f"expected RateLimitError, got {raised!r}"
     assert raised.deferred_to_next_run is False, "a secondary-limit give-up must not defer"
 
-    code, out = _run_with_main_raising(raised)
+    with _temp_state({}):
+        code, out = _run_with_main_raising(raised)
     assert code == 1, f"a secondary-limit give-up must exit 1, got {code}"
     assert "::error::" in out
 
@@ -290,7 +292,8 @@ def test_secondary_budget_give_up_still_fails():
     assert check_stars.RateLimitError("x").deferred_to_next_run is False
 
     # AuthError handling is unchanged: still red.
-    code, out = _run_with_main_raising(check_stars.AuthError("no token in the environment"))
+    with _temp_state({}):
+        code, out = _run_with_main_raising(check_stars.AuthError("no token in the environment"))
     assert code == 1, f"an AuthError must exit 1, got {code}"
     assert "::error::" in out
 
