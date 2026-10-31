@@ -52,17 +52,23 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 12,
-    "clones_unique": 12,
+    "clones_total": 15,
+    "clones_unique": 15,
     "views_total": 5,
-    "views_unique": 4,
-    "top_referrers": [],
+    "views_unique": 5,
+    "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/deutschepost-module-autocomplete-m1",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/deutschepost-module-autocomplete-m1/blob/master/LICENSE.md",
@@ -73,12 +79,6 @@
       {
         "path": "/netresearch/deutschepost-module-autocomplete-m1/blob/master/modman",
         "title": "/blob/master/modman",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/deutschepost-module-autocomplete-m1/pulls",
-        "title": "/pulls",
         "count": 1,
         "uniques": 1
       }

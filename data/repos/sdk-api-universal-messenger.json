@@ -17,7 +17,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2024-04-22T10:07:41Z",
-  "pushed_at": "2026-10-22T21:21:19Z",
+  "pushed_at": "2026-10-30T21:14:55Z",
   "updated_at": "2026-10-22T21:21:22Z",
   "composer_name": "netresearch/sdk-api-universal-messenger",
   "lifetime": {
@@ -25,11 +25,11 @@
     "forks": 0,
     "watchers": 2,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 95,
     "issues_open": 1,
     "issues_closed": 8,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 33,
     "prs_closed_unmerged": 9,
     "issues_total": 9,
@@ -37,7 +37,7 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 5920,
+    "packagist_downloads": 5943,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -45,28 +45,76 @@
   "recent_30d": {
     "commits": 13,
     "issues_opened": 0,
-    "prs_opened": 6,
+    "prs_opened": 7,
     "prs_merged": 6,
     "releases": 0,
-    "packagist_downloads": 893,
+    "packagist_downloads": 868,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 432,
-    "clones_unique": 77,
-    "views_total": 1,
-    "views_unique": 1,
+    "clones_total": 433,
+    "clones_unique": 75,
+    "views_total": 10,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 1,
-        "uniques": 1
+        "count": 10,
+        "uniques": 10
       }
     ],
     "top_paths": [
       {
+        "path": "/netresearch/sdk-api-universal-messenger/pull/34/files",
+        "title": "/pull/34/files",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/sdk-api-universal-messenger",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-universal-messenger/issues/33",
+        "title": "/issues/33",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-universal-messenger/pull/32",
+        "title": "/pull/32",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-universal-messenger/pull/34",
+        "title": "/pull/34",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-universal-messenger/pull/34/files/be1bd8a2e6d6d46a2fa9f5686f42bc58a9ef8223",
+        "title": "/pull/34/files/be1bd8a2e6d6d46a2fa9f5686f42bc58a9ef8223",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/sdk-api-universal-messenger/pull/37",
         "title": "/pull/37",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-universal-messenger/pull/39",
+        "title": "/pull/39",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/sdk-api-universal-messenger/pull/39/files",
+        "title": "/pull/39/files",
         "count": 1,
         "uniques": 1
       }
@@ -102,9 +150,9 @@
   ],
   "packagist": {
     "name": "netresearch/sdk-api-universal-messenger",
-    "total": 5920,
-    "monthly": 893,
-    "daily": 0,
+    "total": 5943,
+    "monthly": 868,
+    "daily": 20,
     "url": "https://packagist.org/packages/netresearch/sdk-api-universal-messenger"
   },
   "ghcr": null,

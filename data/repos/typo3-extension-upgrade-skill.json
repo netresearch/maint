@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-06T00:27:24Z",
-  "pushed_at": "2026-10-30T02:34:30Z",
+  "pushed_at": "2026-10-30T20:52:04Z",
   "updated_at": "2026-10-30T02:34:32Z",
   "composer_name": null,
   "lifetime": {
@@ -22,11 +22,11 @@
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 3,
     "commits": 365,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 1,
+    "prs_open": 2,
     "prs_merged": 125,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
@@ -40,59 +40,41 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 51,
+    "commits": 33,
     "issues_opened": 0,
-    "prs_opened": 19,
+    "prs_opened": 18,
     "prs_merged": 18,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3277,
-    "clones_unique": 228,
-    "views_total": 47,
-    "views_unique": 33,
+    "clones_total": 3242,
+    "clones_unique": 224,
+    "views_total": 45,
+    "views_unique": 39,
     "top_referrers": [
       {
-        "referrer": "Google",
-        "count": 8,
-        "uniques": 6
+        "referrer": "aocr.org",
+        "count": 12,
+        "uniques": 12
       },
       {
-        "referrer": "aocr.org",
-        "count": 5,
-        "uniques": 5
+        "referrer": "Google",
+        "count": 7,
+        "uniques": 6
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-extension-upgrade-skill",
         "title": "Overview",
-        "count": 9,
-        "uniques": 7
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills",
-        "title": "/tree/main/skills",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills/typo3-extension-upgrade",
-        "title": "/tree/main/skills/typo3-extension-upgrade",
-        "count": 4,
-        "uniques": 3
+        "count": 11,
+        "uniques": 10
       },
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/skills/typo3-extension-upgrade/references/upgrade-v13-to-v14.md",
         "title": "/blob/main/skills/typo3-extension-upgrade/references/upgrade-v13-to-v14.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main",
-        "title": "/tree/main",
         "count": 3,
         "uniques": 3
       },
@@ -115,6 +97,12 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/typo3-extension-upgrade-skill/tree/main/skills",
+        "title": "/tree/main/skills",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/typo3-extension-upgrade-skill/actions",
         "title": "/actions",
         "count": 1,
@@ -123,6 +111,18 @@
       {
         "path": "/netresearch/typo3-extension-upgrade-skill/actions/workflows/agents/copilot-pull-request-reviewer",
         "title": "/actions/workflows/agents/copilot-pull-request-reviewer",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/f6172ce4226a5f8e730fe864b5441f13f758f862/skills/typo3-extension-upgrade/checkpoints.yaml",
+        "title": "/blob/f6172ce4226a5f8e730fe864b5441f13f758f862/skills/typo3-extension-upgrade/checkpoints.yaml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-extension-upgrade-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
         "count": 1,
         "uniques": 1
       }

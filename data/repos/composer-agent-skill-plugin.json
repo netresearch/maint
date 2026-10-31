@@ -19,8 +19,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-25T08:00:19Z",
-  "pushed_at": "2026-10-29T17:44:56Z",
-  "updated_at": "2026-10-29T17:44:59Z",
+  "pushed_at": "2026-10-30T22:45:33Z",
+  "updated_at": "2026-10-30T22:45:37Z",
   "composer_name": "netresearch/composer-agent-skill-plugin",
   "lifetime": {
     "stars": 11,
@@ -28,41 +28,41 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 243,
+    "commits": 245,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 86,
+    "prs_merged": 87,
     "prs_closed_unmerged": 14,
     "issues_total": 3,
     "releases": 9,
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 25952,
+    "packagist_downloads": 26168,
     "ghcr_downloads": 0,
     "dependents_repos": 48,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 7,
+    "commits": 9,
     "issues_opened": 0,
-    "prs_opened": 3,
-    "prs_merged": 3,
+    "prs_opened": 4,
+    "prs_merged": 4,
     "releases": 0,
-    "packagist_downloads": 5336,
+    "packagist_downloads": 4812,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 289,
-    "clones_unique": 80,
-    "views_total": 25,
-    "views_unique": 25,
+    "clones_total": 366,
+    "clones_unique": 91,
+    "views_total": 37,
+    "views_unique": 37,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 16,
-        "uniques": 16
+        "count": 27,
+        "uniques": 27
       },
       {
         "referrer": "Google",
@@ -79,8 +79,8 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 10,
-        "uniques": 10
+        "count": 17,
+        "uniques": 17
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/pull/43",
@@ -91,6 +91,12 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin/discussions",
         "title": "/discussions",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/issues",
+        "title": "/issues",
         "count": 1,
         "uniques": 1
       },
@@ -119,20 +125,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/pull/69/files",
-        "title": "/pull/69/files",
+        "path": "/netresearch/composer-agent-skill-plugin/pull/54/files",
+        "title": "/pull/54/files",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/pull/76/files/04ea35d493f590d4edc028413c752c1d7816a9c7",
-        "title": "/pull/76/files/04ea35d493f590d4edc028413c752c1d7816a9c7",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/pull/78/files/b2d1b17afa30e1bd5d816b15de91d817d4e87b7b",
-        "title": "/pull/78/files/b2d1b17afa30e1bd5d816b15de91d817d4e87b7b",
+        "path": "/netresearch/composer-agent-skill-plugin/pull/54/files/e5560e6d56c48a69642be8377afeb6c7e6b842bb",
+        "title": "/pull/54/files/e5560e6d56c48a69642be8377afeb6c7e6b842bb",
         "count": 1,
         "uniques": 1
       }
@@ -152,7 +152,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 56,
+      "contributions": 58,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -173,9 +173,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 25952,
-    "monthly": 5336,
-    "daily": 63,
+    "total": 26168,
+    "monthly": 4812,
+    "daily": 165,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,
@@ -184,7 +184,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/composer-agent-skill-plugin/network/dependents"
   },
-  "estimated_downstream_reach": 187,
-  "blast_radius": 187,
+  "estimated_downstream_reach": 188,
+  "blast_radius": 188,
   "archived": false
 }

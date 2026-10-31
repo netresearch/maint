@@ -16,7 +16,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-03-02T10:00:54Z",
-  "pushed_at": "2026-10-30T02:07:46Z",
+  "pushed_at": "2026-10-30T21:44:33Z",
   "updated_at": "2026-10-30T02:07:48Z",
   "composer_name": null,
   "lifetime": {
@@ -24,11 +24,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 3,
     "commits": 199,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 1,
+    "prs_open": 2,
     "prs_merged": 61,
     "prs_closed_unmerged": 2,
     "issues_total": 1,
@@ -42,7 +42,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 47,
+    "commits": 26,
     "issues_opened": 0,
     "prs_opened": 16,
     "prs_merged": 14,
@@ -51,19 +51,24 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2776,
-    "clones_unique": 178,
-    "views_total": 6,
-    "views_unique": 5,
+    "clones_total": 2829,
+    "clones_unique": 181,
+    "views_total": 19,
+    "views_unique": 17,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 3,
-        "uniques": 3
+        "count": 13,
+        "uniques": 13
       },
       {
         "referrer": "Google",
-        "count": 1,
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "github.com",
+        "count": 2,
         "uniques": 1
       }
     ],
@@ -71,8 +76,20 @@
       {
         "path": "/netresearch/typo3-typoscript-ref-skill",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 6,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/typo3-typoscript-ref-skill/pull/23/files",
+        "title": "/pull/23/files",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-typoscript-ref-skill/pull/22",
+        "title": "/pull/22",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-typoscript-ref-skill/blob/main/AGENTS.md",
@@ -93,14 +110,26 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-typoscript-ref-skill/pull/27",
-        "title": "/pull/27",
+        "path": "/netresearch/typo3-typoscript-ref-skill/pull/18/files",
+        "title": "/pull/18/files",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-typoscript-ref-skill/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/typo3-typoscript-ref-skill/pull/25",
+        "title": "/pull/25",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-typoscript-ref-skill/pull/25/files",
+        "title": "/pull/25/files",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-typoscript-ref-skill/pull/27",
+        "title": "/pull/27",
         "count": 1,
         "uniques": 1
       }

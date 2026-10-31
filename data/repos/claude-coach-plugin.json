@@ -55,28 +55,39 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 72,
-    "clones_unique": 39,
-    "views_total": 24,
-    "views_unique": 16,
+    "clones_total": 70,
+    "clones_unique": 40,
+    "views_total": 31,
+    "views_unique": 23,
     "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 8,
+        "uniques": 8
+      },
       {
         "referrer": "Google",
         "count": 8,
         "uniques": 5
       },
       {
-        "referrer": "aocr.org",
-        "count": 3,
-        "uniques": 3
+        "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
       },
       {
-        "referrer": "Bing",
+        "referrer": "github.com",
         "count": 1,
         "uniques": 1
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/claude-coach-plugin",
+        "title": "Overview",
+        "count": 11,
+        "uniques": 10
+      },
       {
         "path": "/netresearch/claude-coach-plugin/blob/main/skills/coach/SKILL.md",
         "title": "/blob/main/skills/coach/SKILL.md",
@@ -84,10 +95,10 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/claude-coach-plugin",
-        "title": "Overview",
-        "count": 9,
-        "uniques": 8
+        "path": "/netresearch/claude-coach-plugin/releases",
+        "title": "/releases",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/claude-coach-plugin/blob/3f6acfb79364324e6140993a2b1e1d5e07c908dc/.github/workflows/release.yml",
@@ -102,6 +113,24 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/claude-coach-plugin/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/claude-coach-plugin/pull/30/files",
+        "title": "/pull/30/files",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/claude-coach-plugin/pull/32/files",
+        "title": "/pull/32/files",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/claude-coach-plugin/pull/33",
         "title": "/pull/33",
         "count": 1,
@@ -110,12 +139,6 @@
       {
         "path": "/netresearch/claude-coach-plugin/tree/main/.claude-plugin",
         "title": "/tree/main/.claude-plugin",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/claude-coach-plugin/tree/main/.github",
-        "title": "/tree/main/.github",
         "count": 1,
         "uniques": 1
       }

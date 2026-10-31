@@ -22,7 +22,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T07:02:25Z",
-  "pushed_at": "2026-10-30T02:24:53Z",
+  "pushed_at": "2026-10-30T22:32:18Z",
   "updated_at": "2026-10-30T02:24:55Z",
   "composer_name": null,
   "lifetime": {
@@ -30,11 +30,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 3,
+    "open_issues_plus_prs": 4,
     "commits": 498,
     "issues_open": 2,
     "issues_closed": 9,
-    "prs_open": 1,
+    "prs_open": 2,
     "prs_merged": 163,
     "prs_closed_unmerged": 4,
     "issues_total": 11,
@@ -48,7 +48,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 64,
+    "commits": 42,
     "issues_opened": 1,
     "prs_opened": 18,
     "prs_merged": 17,
@@ -57,40 +57,63 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4256,
-    "clones_unique": 269,
-    "views_total": 29,
-    "views_unique": 22,
+    "clones_total": 4168,
+    "clones_unique": 265,
+    "views_total": 63,
+    "views_unique": 42,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 5,
-        "uniques": 5
+        "count": 22,
+        "uniques": 22
       },
       {
         "referrer": "Google",
-        "count": 3,
-        "uniques": 3
+        "count": 6,
+        "uniques": 6
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-docs-skill",
         "title": "Overview",
-        "count": 7,
-        "uniques": 7
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/releases/tag/v2.20.6",
-        "title": "/releases/tag/v2.20.6",
-        "count": 2,
-        "uniques": 2
+        "count": 19,
+        "uniques": 13
       },
       {
         "path": "/netresearch/typo3-docs-skill/tree/main/skills/typo3-docs",
         "title": "/tree/main/skills/typo3-docs",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/blob/main/docs/SECURITY-ASSURANCE.md",
+        "title": "/blob/main/docs/SECURITY-ASSURANCE.md",
         "count": 2,
-        "uniques": 1
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/pull/65",
+        "title": "/pull/65",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/pull/65/files",
+        "title": "/pull/65/files",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/pull/76/files/a84428ce386db8a5372a572a2c9c62712ec53b03",
+        "title": "/pull/76/files/a84428ce386db8a5372a572a2c9c62712ec53b03",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/AGENTS.md",
@@ -111,26 +134,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-docs-skill/blob/main/docs/SECURITY-ASSURANCE.md",
-        "title": "/blob/main/docs/SECURITY-ASSURANCE.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/references/file-structure.md",
-        "title": "/blob/main/skills/typo3-docs/references/file-structure.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/references/render-guides-development.md",
-        "title": "/blob/main/skills/typo3-docs/references/render-guides-development.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/discussions/categories/general",
-        "title": "/discussions/categories/general",
+        "path": "/netresearch/typo3-docs-skill/blob/main/docs/ARCHITECTURE.md",
+        "title": "/blob/main/docs/ARCHITECTURE.md",
         "count": 1,
         "uniques": 1
       }

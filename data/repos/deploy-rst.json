@@ -48,17 +48,23 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 25,
-    "clones_unique": 22,
-    "views_total": 2,
-    "views_unique": 2,
-    "top_referrers": [],
+    "clones_total": 26,
+    "clones_unique": 23,
+    "views_total": 3,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/deploy-rst",
         "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/deploy-rst/blob/main/README.rst",

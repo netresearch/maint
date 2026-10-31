@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:25Z",
-  "pushed_at": "2026-10-30T01:38:41Z",
+  "pushed_at": "2026-10-30T21:28:39Z",
   "updated_at": "2026-10-30T01:38:43Z",
   "composer_name": null,
   "lifetime": {
@@ -22,16 +22,16 @@
     "forks": 5,
     "watchers": 1,
     "network": 5,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 3,
     "commits": 471,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 1,
+    "prs_open": 2,
     "prs_merged": 157,
     "prs_closed_unmerged": 5,
     "issues_total": 3,
     "releases": 41,
-    "release_downloads": 437,
+    "release_downloads": 438,
     "contributors": 6,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,39 +40,39 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 76,
+    "commits": 63,
     "issues_opened": 0,
-    "prs_opened": 29,
+    "prs_opened": 28,
     "prs_merged": 29,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5880,
-    "clones_unique": 769,
-    "views_total": 431,
-    "views_unique": 228,
+    "clones_total": 5832,
+    "clones_unique": 792,
+    "views_total": 495,
+    "views_unique": 269,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 230,
-        "uniques": 123
+        "count": 242,
+        "uniques": 135
       },
       {
         "referrer": "search.brave.com",
-        "count": 21,
-        "uniques": 9
+        "count": 24,
+        "uniques": 11
       },
       {
         "referrer": "aocr.org",
-        "count": 6,
-        "uniques": 6
+        "count": 22,
+        "uniques": 22
       },
       {
         "referrer": "github.com",
-        "count": 6,
-        "uniques": 6
+        "count": 9,
+        "uniques": 9
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
@@ -104,26 +104,32 @@
       {
         "path": "/netresearch/security-audit-skill",
         "title": "Overview",
-        "count": 313,
-        "uniques": 183
+        "count": 347,
+        "uniques": 209
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
         "title": "/blob/main/skills/security-audit/SKILL.md",
-        "count": 25,
-        "uniques": 23
+        "count": 27,
+        "uniques": 24
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
         "title": "/tree/main/skills/security-audit",
-        "count": 12,
-        "uniques": 10
+        "count": 16,
+        "uniques": 14
       },
       {
         "path": "/netresearch/security-audit-skill/issues",
         "title": "/issues",
-        "count": 6,
-        "uniques": 6
+        "count": 7,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/references/typo3-security.md",
+        "title": "/blob/main/skills/security-audit/references/typo3-security.md",
+        "count": 5,
+        "uniques": 3
       },
       {
         "path": "/netresearch/security-audit-skill/releases/tag/v2.11.9",
@@ -132,10 +138,16 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/references/typo3-security.md",
-        "title": "/blob/main/skills/security-audit/references/typo3-security.md",
+        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/references",
+        "title": "/tree/main/skills/security-audit/references",
         "count": 4,
-        "uniques": 2
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/scripts",
+        "title": "/tree/main/skills/security-audit/scripts",
+        "count": 4,
+        "uniques": 3
       },
       {
         "path": "/netresearch/security-audit-skill/releases/tag/v2.11.8",
@@ -146,18 +158,6 @@
       {
         "path": "/netresearch/security-audit-skill/tree/main/Build",
         "title": "/tree/main/Build",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/security-audit-skill/tree/main/Build/Scripts",
-        "title": "/tree/main/Build/Scripts",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/references",
-        "title": "/tree/main/skills/security-audit/references",
         "count": 3,
         "uniques": 2
       }

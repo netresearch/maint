@@ -10,20 +10,20 @@
   "homepage": "https://github.com/netresearch/markdown-to-pdf-skill",
   "default_branch": "main",
   "created_at": "2026-04-29T10:04:58Z",
-  "pushed_at": "2026-10-28T23:23:05Z",
-  "updated_at": "2026-10-25T22:00:40Z",
+  "pushed_at": "2026-10-30T21:02:10Z",
+  "updated_at": "2026-10-30T05:34:51Z",
   "composer_name": null,
   "lifetime": {
     "stars": 3,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 148,
+    "open_issues_plus_prs": 3,
+    "commits": 150,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 1,
-    "prs_merged": 60,
+    "prs_open": 2,
+    "prs_merged": 61,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 9,
@@ -36,27 +36,32 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 55,
+    "commits": 47,
     "issues_opened": 0,
-    "prs_opened": 22,
-    "prs_merged": 22,
+    "prs_opened": 24,
+    "prs_merged": 23,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2653,
-    "clones_unique": 227,
-    "views_total": 44,
-    "views_unique": 28,
+    "clones_total": 2699,
+    "clones_unique": 226,
+    "views_total": 67,
+    "views_unique": 44,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 23,
-        "uniques": 19
+        "count": 29,
+        "uniques": 24
       },
       {
         "referrer": "aocr.org",
+        "count": 11,
+        "uniques": 11
+      },
+      {
+        "referrer": "yandex.ru",
         "count": 1,
         "uniques": 1
       }
@@ -65,14 +70,14 @@
       {
         "path": "/netresearch/markdown-to-pdf-skill",
         "title": "Overview",
-        "count": 18,
-        "uniques": 14
+        "count": 24,
+        "uniques": 20
       },
       {
         "path": "/netresearch/markdown-to-pdf-skill/blob/main/skills/markdown-to-pdf/SKILL.md",
         "title": "/blob/main/skills/markdown-to-pdf/SKILL.md",
-        "count": 15,
-        "uniques": 14
+        "count": 20,
+        "uniques": 18
       },
       {
         "path": "/netresearch/markdown-to-pdf-skill/blob/main/skills/markdown-to-pdf/scripts/convert.py",
@@ -81,8 +86,26 @@
         "uniques": 4
       },
       {
+        "path": "/netresearch/markdown-to-pdf-skill/tree/main",
+        "title": "/tree/main",
+        "count": 3,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/markdown-to-pdf-skill/tree/main/skills/markdown-to-pdf",
         "title": "/tree/main/skills/markdown-to-pdf",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/pull/13/files/16b5631dfa0590e9761938a4778cadf091df3aa0",
+        "title": "/pull/13/files/16b5631dfa0590e9761938a4778cadf091df3aa0",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/markdown-to-pdf-skill/releases/tag/v2.0.0",
+        "title": "/releases/tag/v2.0.0",
         "count": 2,
         "uniques": 2
       },
@@ -99,14 +122,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/markdown-to-pdf-skill/releases/tag/v2.0.0",
-        "title": "/releases/tag/v2.0.0",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/markdown-to-pdf-skill/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/markdown-to-pdf-skill/pull/10",
+        "title": "/pull/10",
         "count": 1,
         "uniques": 1
       }
@@ -126,12 +143,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 50,
+      "contributions": 51,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 11,
+      "contributions": 12,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -147,7 +164,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/markdown-to-pdf-skill/network/dependents"
   },
-  "estimated_downstream_reach": 61,
-  "blast_radius": 61,
+  "estimated_downstream_reach": 62,
+  "blast_radius": 62,
   "archived": false
 }

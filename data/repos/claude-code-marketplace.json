@@ -25,13 +25,13 @@
   "default_branch": "main",
   "created_at": "2025-10-18T07:59:00Z",
   "pushed_at": "2026-10-28T10:01:08Z",
-  "updated_at": "2026-10-28T22:06:42Z",
+  "updated_at": "2026-10-30T16:30:18Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 85,
-    "forks": 23,
+    "stars": 86,
+    "forks": 24,
     "watchers": 2,
-    "network": 23,
+    "network": 24,
     "open_issues_plus_prs": 1,
     "commits": 420,
     "issues_open": 1,
@@ -50,44 +50,49 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 54,
+    "commits": 38,
     "issues_opened": 1,
-    "prs_opened": 18,
-    "prs_merged": 17,
+    "prs_opened": 16,
+    "prs_merged": 14,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2350,
-    "clones_unique": 785,
-    "views_total": 402,
-    "views_unique": 264,
+    "clones_total": 2428,
+    "clones_unique": 820,
+    "views_total": 422,
+    "views_unique": 286,
     "top_referrers": [
       {
         "referrer": "t.co",
-        "count": 122,
-        "uniques": 108
+        "count": 125,
+        "uniques": 110
       },
       {
         "referrer": "Google",
-        "count": 44,
-        "uniques": 43
+        "count": 46,
+        "uniques": 44
       },
       {
         "referrer": "github.com",
-        "count": 43,
-        "uniques": 37
+        "count": 42,
+        "uniques": 36
       },
       {
         "referrer": "aocr.org",
-        "count": 8,
-        "uniques": 8
+        "count": 27,
+        "uniques": 27
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
-        "count": 2,
+        "count": 3,
         "uniques": 1
+      },
+      {
+        "referrer": "netresearch.github.io",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "DuckDuckGo",
@@ -105,12 +110,7 @@
         "uniques": 1
       },
       {
-        "referrer": "netresearch.github.io",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "x.com",
+        "referrer": "sabemos.ai",
         "count": 1,
         "uniques": 1
       }
@@ -119,20 +119,14 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 295,
-        "uniques": 243
+        "count": 306,
+        "uniques": 249
       },
       {
         "path": "/netresearch/claude-code-marketplace/discussions",
         "title": "/discussions",
-        "count": 14,
+        "count": 13,
         "uniques": 4
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
-        "count": 9,
-        "uniques": 8
       },
       {
         "path": "/netresearch/claude-code-marketplace/pulls",
@@ -141,16 +135,16 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/claude-code-marketplace/tree/main/skills/php-modernization",
-        "title": "/tree/main/skills/php-modernization",
+        "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
         "count": 6,
-        "uniques": 5
+        "uniques": 6
       },
       {
-        "path": "/netresearch/claude-code-marketplace/blob/main/CLAUDE.md",
-        "title": "/blob/main/CLAUDE.md",
+        "path": "/netresearch/claude-code-marketplace/tree/main/skills/php-modernization",
+        "title": "/tree/main/skills/php-modernization",
         "count": 5,
-        "uniques": 3
+        "uniques": 4
       },
       {
         "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
@@ -163,6 +157,12 @@
         "title": "/issues",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/blob/main/CLAUDE.md",
+        "title": "/blob/main/CLAUDE.md",
+        "count": 4,
+        "uniques": 2
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/docs",
@@ -238,7 +238,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
   },
-  "estimated_downstream_reach": 172,
-  "blast_radius": 172,
+  "estimated_downstream_reach": 174,
+  "blast_radius": 174,
   "archived": false
 }

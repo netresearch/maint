@@ -50,14 +50,26 @@
   },
   "traffic_14d": {
     "clones_total": 109,
-    "clones_unique": 45,
-    "views_total": 1,
-    "views_unique": 1,
-    "top_referrers": [],
+    "clones_unique": 46,
+    "views_total": 3,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 2,
+        "uniques": 2
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/oro-hide-unavailable-variants",
         "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/oro-hide-unavailable-variants/pull/10",
+        "title": "/pull/10",
         "count": 1,
         "uniques": 1
       }

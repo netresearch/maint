@@ -19,20 +19,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-30T19:41:25Z",
-  "pushed_at": "2026-10-28T21:52:34Z",
-  "updated_at": "2026-10-28T09:32:49Z",
+  "pushed_at": "2026-10-30T22:09:22Z",
+  "updated_at": "2026-10-30T05:56:40Z",
   "composer_name": null,
   "lifetime": {
     "stars": 2,
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 4,
-    "commits": 405,
+    "open_issues_plus_prs": 5,
+    "commits": 407,
     "issues_open": 3,
     "issues_closed": 8,
-    "prs_open": 1,
-    "prs_merged": 127,
+    "prs_open": 2,
+    "prs_merged": 128,
     "prs_closed_unmerged": 1,
     "issues_total": 11,
     "releases": 38,
@@ -45,24 +45,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 83,
+    "commits": 67,
     "issues_opened": 0,
-    "prs_opened": 22,
+    "prs_opened": 24,
     "prs_merged": 22,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3032,
-    "clones_unique": 259,
-    "views_total": 25,
-    "views_unique": 22,
+    "clones_total": 2966,
+    "clones_unique": 262,
+    "views_total": 49,
+    "views_unique": 46,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 10,
-        "uniques": 10
+        "count": 34,
+        "uniques": 34
       },
       {
         "referrer": "github.com",
@@ -76,6 +76,12 @@
         "title": "Overview",
         "count": 7,
         "uniques": 6
+      },
+      {
+        "path": "/netresearch/automated-assessment-skill/pull/72",
+        "title": "/pull/72",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/automated-assessment-skill/discussions",
@@ -96,40 +102,34 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/automated-assessment-skill/pull/73",
-        "title": "/pull/73",
+        "path": "/netresearch/automated-assessment-skill/issues/69",
+        "title": "/issues/69",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/automated-assessment-skill/actions",
-        "title": "/actions",
-        "count": 1,
-        "uniques": 1
+        "path": "/netresearch/automated-assessment-skill/issues/83",
+        "title": "/issues/83",
+        "count": 2,
+        "uniques": 2
       },
       {
-        "path": "/netresearch/automated-assessment-skill/blob/main/docs/SECURITY-ASSURANCE.md",
-        "title": "/blob/main/docs/SECURITY-ASSURANCE.md",
-        "count": 1,
-        "uniques": 1
+        "path": "/netresearch/automated-assessment-skill/pull/60/files/c925b9e418f26fac4212944e28c9e7a6dea5b9a2",
+        "title": "/pull/60/files/c925b9e418f26fac4212944e28c9e7a6dea5b9a2",
+        "count": 2,
+        "uniques": 2
       },
       {
-        "path": "/netresearch/automated-assessment-skill/blob/v2.9.0/skills/automated-assessment/references/learning-derived-checkpoints.md",
-        "title": "/blob/v2.9.0/skills/automated-assessment/references/learning-derived-checkpoints.md",
-        "count": 1,
-        "uniques": 1
+        "path": "/netresearch/automated-assessment-skill/pull/61",
+        "title": "/pull/61",
+        "count": 2,
+        "uniques": 2
       },
       {
-        "path": "/netresearch/automated-assessment-skill/issues",
-        "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/automated-assessment-skill/pull/35",
-        "title": "/pull/35",
-        "count": 1,
-        "uniques": 1
+        "path": "/netresearch/automated-assessment-skill/pull/68",
+        "title": "/pull/68",
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
@@ -147,7 +147,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 32,
+      "contributions": 33,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -157,7 +157,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 5,
+      "contributions": 6,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -173,7 +173,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/automated-assessment-skill/network/dependents"
   },
-  "estimated_downstream_reach": 138,
-  "blast_radius": 138,
+  "estimated_downstream_reach": 139,
+  "blast_radius": 139,
   "archived": false
 }

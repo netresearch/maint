@@ -52,12 +52,61 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 67,
-    "clones_unique": 27,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 110,
+    "clones_unique": 51,
+    "views_total": 9,
+    "views_unique": 3,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 2,
+        "uniques": 2
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/formal-model-checking-skill",
+        "title": "Overview",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/formal-model-checking-skill/blob/main/skills/formal-model-checking/evals/evals.json",
+        "title": "/blob/main/skills/formal-model-checking/evals/evals.json",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/formal-model-checking-skill/tree/main",
+        "title": "/tree/main",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/formal-model-checking-skill/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/formal-model-checking-skill/tree/main/skills/formal-model-checking",
+        "title": "/tree/main/skills/formal-model-checking",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/formal-model-checking-skill/tree/main/skills/formal-model-checking/evals",
+        "title": "/tree/main/skills/formal-model-checking/evals",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/formal-model-checking-skill/tree/main/skills/formal-model-checking/evals/fixtures/formal-model-checking",
+        "title": "/tree/main/skills/formal-model-checking/evals/fixtures/formal-model-checking",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": null,
   "top_contributors": [

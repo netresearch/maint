@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2014-01-21T20:27:08Z",
-  "pushed_at": "2026-10-22T21:21:11Z",
+  "pushed_at": "2026-10-30T21:17:19Z",
   "updated_at": "2026-10-22T21:21:14Z",
   "composer_name": "netresearch/composer-patches-plugin",
   "lifetime": {
@@ -22,11 +22,11 @@
     "forks": 22,
     "watchers": 12,
     "network": 22,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 117,
     "issues_open": 1,
     "issues_closed": 30,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 47,
     "prs_closed_unmerged": 9,
     "issues_total": 31,
@@ -34,7 +34,7 @@
     "release_downloads": 0,
     "contributors": 16,
     "external_contributors": 12,
-    "packagist_downloads": 281654,
+    "packagist_downloads": 281787,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -42,22 +42,27 @@
   "recent_30d": {
     "commits": 8,
     "issues_opened": 0,
-    "prs_opened": 5,
+    "prs_opened": 6,
     "prs_merged": 5,
     "releases": 1,
-    "packagist_downloads": 3523,
+    "packagist_downloads": 3470,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 222,
-    "clones_unique": 77,
-    "views_total": 16,
-    "views_unique": 16,
+    "clones_total": 235,
+    "clones_unique": 79,
+    "views_total": 18,
+    "views_unique": 18,
     "top_referrers": [
       {
+        "referrer": "aocr.org",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -86,8 +91,20 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/composer-patches-plugin/blob/master/copilot-instructions.md",
+        "title": "/blob/master/copilot-instructions.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/composer-patches-plugin/issues/24",
         "title": "/issues/24",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-patches-plugin/issues/41",
+        "title": "/issues/41",
         "count": 1,
         "uniques": 1
       },
@@ -159,9 +176,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-patches-plugin",
-    "total": 281654,
-    "monthly": 3523,
-    "daily": 113,
+    "total": 281787,
+    "monthly": 3470,
+    "daily": 124,
     "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
   },
   "ghcr": null,

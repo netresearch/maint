@@ -39,7 +39,7 @@
     "release_downloads": 0,
     "contributors": 2,
     "external_contributors": 1,
-    "packagist_downloads": 117999,
+    "packagist_downloads": 118242,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -50,21 +50,27 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 1,
-    "packagist_downloads": 8484,
+    "packagist_downloads": 8380,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 125,
-    "clones_unique": 90,
-    "views_total": 7,
-    "views_unique": 6,
-    "top_referrers": [],
+    "clones_total": 127,
+    "clones_unique": 93,
+    "views_total": 8,
+    "views_unique": 7,
+    "top_referrers": [
+      {
+        "referrer": "aocr.org",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de",
         "title": "Overview",
-        "count": 5,
-        "uniques": 4
+        "count": 6,
+        "uniques": 5
       },
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de/pulls",
@@ -100,9 +106,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-parcel-de",
-    "total": 117999,
-    "monthly": 8484,
-    "daily": 313,
+    "total": 118242,
+    "monthly": 8380,
+    "daily": 216,
     "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de"
   },
   "ghcr": null,
