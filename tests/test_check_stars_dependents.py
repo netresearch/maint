@@ -11,10 +11,11 @@ from test_check_stars import check_stars
 @pytest.fixture
 def scan(monkeypatch, tmp_path):
     def run(names, known=(), *, first_run=False, tracking=True, metadata_error=None,
-            valid_page=True, send_error=None):
+            valid_page=True, send_error=None, scope=check_stars.DEPENDENTS_SCOPE):
         saved_repo = {"stars": [], "forks": [], "watchers": []}
         if tracking:
             saved_repo["dependents"] = list(known)
+            saved_repo["dependents_scope"] = scope
         state_file = tmp_path / "state.json"
         initial = {"repos": {"netresearch/example": saved_repo},
                    "last_run": None if first_run else "2026-10-27T00:00:00"}
@@ -88,6 +89,22 @@ def test_silent_baselines_do_not_fetch_unused_metadata(scan, first_run, tracking
     assert lookups == []
     assert messages == []
     assert state["repos"]["netresearch/example"]["dependents"] == ["consumer/existing"]
+
+
+def test_dependents_read_with_an_older_scope_are_a_silent_baseline(scan):
+    messages, lookups, state = scan(["consumer/old", "consumer/missed"], ["consumer/old"], scope=None)
+    assert lookups == []
+    assert messages == [], "dependents the old scrape could not see are not new"
+    saved = state["repos"]["netresearch/example"]
+    assert set(saved["dependents"]) == {"consumer/old", "consumer/missed"}
+    assert saved["dependents_scope"] == check_stars.DEPENDENTS_SCOPE
+
+
+def test_failed_scrape_keeps_the_older_scope(scan):
+    _, _, state = scan([], ["consumer/old"], valid_page=False, scope=None)
+    saved = state["repos"]["netresearch/example"]
+    assert saved["dependents"] == ["consumer/old"]
+    assert saved["dependents_scope"] is None, "no baseline was taken with the current scope"
 
 
 def test_metadata_http_failure_keeps_the_existing_zero_count_message(scan):

@@ -408,19 +408,30 @@ def fetch_ghcr_for_repo(repo: str, pkg_names: list[str]) -> dict | None:
     }
 
 
-# Matches: <a ... dependent_type=REPOSITORY"> ... </svg> 1,234 Repositories
+# Matches: <a ... dependent_type=REPOSITORY[&amp;package_id=…]"> ... </svg> 1,234 Repositories
 _DEPENDENTS_REPO_RE = re.compile(
-    r'dependent_type=REPOSITORY"[^>]*>.*?</svg>\s*([\d,]+)\s*Repositories',
+    r'dependent_type=REPOSITORY[^"]*"[^>]*>.*?</svg>\s*([\d,]+)\s*Repositories',
     re.DOTALL,
 )
 _DEPENDENTS_PKG_RE = re.compile(
-    r'dependent_type=PACKAGE"[^>]*>.*?</svg>\s*([\d,]+)\s*Packages',
+    r'dependent_type=PACKAGE[^"]*"[^>]*>.*?</svg>\s*([\d,]+)\s*Packages',
     re.DOTALL,
 )
 
 
+# One entry per package in the page's package selector (relative href).
+_DEPENDENTS_PACKAGE_RE = re.compile(r'href="(/[^"?]+/network/dependents\?package_id=[^"&]+)"')
+
+
 def fetch_dependents(full_name: str) -> dict | None:
-    """Scrape /network/dependents for the "Used by" counts (repositories + packages)."""
+    """Scrape /network/dependents for the "Used by" counts (repositories + packages).
+
+    GitHub lists one package per module path or manifest and opens the page on
+    one of them, not necessarily the one in use (netresearch/go-cron opens on
+    its former path github.com/netresearch/cron with 0 dependents). With more
+    than one package the counts of all are added up, so a repo depending on
+    two of them counts twice.
+    """
     url = f"{GITHUB_WEB}/{full_name}/network/dependents"
     html = scrape_html(url)
     if html is None:
@@ -429,9 +440,16 @@ def fetch_dependents(full_name: str) -> dict | None:
     def _to_int(m: re.Match | None) -> int:
         return int(m.group(1).replace(",", "")) if m else 0
 
+    pages = [html]
+    packages = sorted(set(_DEPENDENTS_PACKAGE_RE.findall(html)))
+    if len(packages) > 1:
+        pages = [scrape_html(f"{GITHUB_WEB}{href}") for href in packages]
+        if None in pages:
+            return None
+
     return {
-        "repositories": _to_int(_DEPENDENTS_REPO_RE.search(html)),
-        "packages": _to_int(_DEPENDENTS_PKG_RE.search(html)),
+        "repositories": sum(_to_int(_DEPENDENTS_REPO_RE.search(page)) for page in pages),
+        "packages": sum(_to_int(_DEPENDENTS_PKG_RE.search(page)) for page in pages),
         "url": url,
     }
 
