@@ -8,6 +8,7 @@ import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -498,27 +499,40 @@ def enrich_dependent(dependent: dict) -> dict:
     return entry
 
 
-def get_dependents(repo_full_name: str, repo_is_empty: bool = False, max_retries: int = 3) -> list[dict] | None:
-    """Get dependents (repositories that depend on this repo) by scraping the network/dependents page.
+# GitHub serves 30 dependents per page. A repo past this many pages is not
+# read at all rather than read in part: a partial list would drop the unread
+# dependents from the state and announce them as new once they reappear.
+MAX_DEPENDENTS_PAGES = 100
 
-    Returns:
-        list[dict]: List of dependent repos if successful
-        None: If fetch failed (to distinguish from "no dependents exist")
-    """
-    # An empty repo has no dependency graph, so /network/dependents renders the
-    # "This repository is empty" page with no #dependents container. Treat it as
-    # zero dependents rather than a scrape failure (avoids a false "page structure
-    # may have changed" warning on every run).
-    if repo_is_empty:
-        return []
+# Version of what get_dependents() reads. Bumped when it starts to see
+# dependents it missed before, so the first run with the wider scrape records
+# them silently instead of announcing long-standing dependents as new.
+# 2: every package of the repo, every page (1 read the first page of the
+# package GitHub happens to open the page on).
+DEPENDENTS_SCOPE = 2
 
-    url = f"https://github.com/{repo_full_name}/network/dependents"
+# github.com answered a 1-second request pace with 429 (Retry-After: 120)
+# after 40 pages in 59 seconds (measured 2026-10-31). Reading every package
+# and page means ~340 pages per run, so keep under that: one page per 2 s.
+# That pace still drew two 429s over 137 pages; the retry in
+# _fetch_dependents_page waits them out.
+DEPENDENTS_PAGE_INTERVAL = 2.0
+_last_dependents_request = float("-inf")
+
+
+def _fetch_dependents_page(url: str, repo_full_name: str, max_retries: int) -> BeautifulSoup | None:
+    """Fetch one /network/dependents page; None if it failed or is unrecognised."""
     headers = {
         "User-Agent": "Mozilla/5.0 (compatible; NetresearchBot/1.0)",
     }
 
+    global _last_dependents_request
     for attempt in range(max_retries):
         try:
+            wait = _last_dependents_request + DEPENDENTS_PAGE_INTERVAL - time.monotonic()
+            if wait > 0:
+                time.sleep(wait)
+            _last_dependents_request = time.monotonic()
             response = _html_session.get(url, headers=headers, timeout=30)
             if response.status_code in (429, 502, 503, 504):
                 # Same defensive parse as the API path: an HTTP-date here used to
@@ -535,12 +549,10 @@ def get_dependents(repo_full_name: str, repo_is_empty: bool = False, max_retries
 
             # Verify we got a valid dependents page by checking for expected elements
             # The page should have either dependents or a "No dependents" message
-            dependents_box = soup.select_one('#dependents')
-            if not dependents_box:
+            if not soup.select_one('#dependents'):
                 print(f"Warning: Could not find #dependents container for {repo_full_name} - page structure may have changed")
                 return None  # Page structure changed, don't wipe state
-
-            return _parse_dependents(soup)  # may be empty if truly no dependents
+            return soup
         except requests.exceptions.RequestException as e:
             if attempt < max_retries - 1:
                 wait_time = 2 ** attempt
@@ -551,6 +563,71 @@ def get_dependents(repo_full_name: str, repo_is_empty: bool = False, max_retries
                 return None  # Fetch failed, don't wipe state
 
     return None  # All retries exhausted
+
+
+def get_dependents(repo_full_name: str, repo_is_empty: bool = False, max_retries: int = 3) -> list[dict] | None:
+    """Get dependents (repositories that depend on this repo) by scraping the network/dependents page.
+
+    Reads every package GitHub lists for the repo and every page of each.
+    GitHub opens the page on one package only, and not necessarily the one in
+    use: netresearch/go-cron opens on its former module path
+    github.com/netresearch/cron with 0 dependents, while
+    github.com/netresearch/go-cron has the actual ones.
+
+    Returns:
+        list[dict]: List of dependent repos if successful
+        None: If any page failed (to distinguish from "no dependents exist")
+    """
+    # An empty repo has no dependency graph, so /network/dependents renders the
+    # "This repository is empty" page with no #dependents container. Treat it as
+    # zero dependents rather than a scrape failure (avoids a false "page structure
+    # may have changed" warning on every run).
+    if repo_is_empty:
+        return []
+
+    url = f"https://github.com/{repo_full_name}/network/dependents"
+    soup = _fetch_dependents_page(url, repo_full_name, max_retries)
+    if soup is None:
+        return None
+
+    other_packages = [
+        urljoin(url, item["href"])
+        for item in soup.select(".select-menu-list a.select-menu-item[href*='package_id=']")
+        if item.get("aria-checked") != "true"
+    ]
+    found: dict[str, dict] = {}
+    for package_url in [None, *other_packages]:
+        package = _read_package(soup, package_url, repo_full_name, max_retries)
+        if package is None:
+            return None  # an incomplete list would wipe the unread part
+        for dependent in package:
+            found.setdefault(dependent["full_name"], dependent)
+    return list(found.values())
+
+
+def _read_package(default_page: BeautifulSoup, package_url: str | None,
+                  repo_full_name: str, max_retries: int) -> list[dict] | None:
+    """Every dependent of one package, following "Next"; None if any page failed.
+
+    package_url None is the package default_page was opened on.
+    """
+    page = default_page if package_url is None else None
+    next_url = package_url
+    dependents: list[dict] = []
+    for _ in range(MAX_DEPENDENTS_PAGES):
+        if page is None:
+            page = _fetch_dependents_page(next_url, repo_full_name, max_retries)
+            if page is None:
+                return None
+        dependents.extend(_parse_dependents(page))
+        next_link = next((a for a in page.select(".paginate-container a[href]")
+                          if a.get_text(strip=True) == "Next"), None)
+        if next_link is None:
+            return dependents
+        next_url = urljoin("https://github.com/", next_link["href"])
+        page = None
+    print(f"Warning: {repo_full_name} has more than {MAX_DEPENDENTS_PAGES} pages of dependents in one package - not read")
+    return None
 
 
 def is_suspicious_empty(current: set, known: set, entity_type: str, repo_name: str) -> bool:
@@ -709,8 +786,10 @@ def main():
         # NON-archived repo, so systemic auth failures are still caught loudly.
         social_readable = not repo.get("archived", False)
         repo_state = state.get("repos", {}).get(repo_name, {})
-        # Track if this repo had dependents tracking before any state migrations
-        had_dependents_tracking = isinstance(repo_state, dict) and "dependents" in repo_state
+        # Track if this repo had dependents tracking before any state migrations,
+        # read with the current scope (see DEPENDENTS_SCOPE)
+        had_dependents_tracking = (isinstance(repo_state, dict) and "dependents" in repo_state
+                                   and repo_state.get("dependents_scope") == DEPENDENTS_SCOPE)
         # Handle old state format (list of stargazers) -> convert to new format
         if isinstance(repo_state, list):
             repo_state = {"stars": repo_state, "forks": [], "watchers": []}
@@ -826,6 +905,7 @@ def main():
 
         # Dependents (repositories using this repo)
         known_dependents = set(repo_state.get("dependents", []))
+        dependents_scope_to_save = repo_state.get("dependents_scope")
         dependents = get_dependents(repo_name, repo_is_empty=repo.get("is_empty", False))
         if dependents is not None:
             current_dependents = {d["full_name"] for d in dependents}
@@ -843,6 +923,7 @@ def main():
                             print(f"Dependent: {dependent['full_name']} -> {repo_name}")
                         total_new["dependents"] += 1
                 dependents_to_save = list(current_dependents)
+                dependents_scope_to_save = DEPENDENTS_SCOPE
         else:
             dependents_to_save = list(known_dependents)
 
@@ -856,6 +937,7 @@ def main():
             "forks": forks_to_save,
             "watchers": watchers_to_save,
             "dependents": dependents_to_save,
+            "dependents_scope": dependents_scope_to_save,
         }
 
     # One digest per run, and none on a day without events.

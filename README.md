@@ -39,7 +39,7 @@ uv pip compile --generate-hashes --python-version=3.15 \
 4. Sends one Matrix digest covering every new star, fork, watcher, or dependent since the previous run
 5. Updates state for next run
 
-The first run indexes existing data without sending notifications to avoid spam. A day without new events sends nothing. If the digest cannot be delivered, the run fails without saving the new state, so the next run reports the same events again.
+The first run indexes existing data without sending notifications to avoid spam. Dependents are read from every package GitHub lists on a repo's `/network/dependents` page and from every page of each, since GitHub opens that page on one package only, not necessarily the one in use. A package with more than 100 pages (`MAX_DEPENDENTS_PAGES`, 3,000 dependents) is not read in part: that repo's dependents read is dropped, its saved dependents stay as they are and nothing is reported for it. When the scraper starts to read more than before (`DEPENDENTS_SCOPE` in `check-stars.py`), its first run takes a new silent baseline of every repo's dependents, so dependents that really are new on that day are not announced either. GitHub's "N Repositories" header can be higher than the number of repositories it lists; only listed ones can be reported. A day without new events sends nothing. If the digest cannot be delivered, the run fails without saving the new state, so the next run reports the same events again.
 
 The digest's first line stays visible and counts the new stars, forks and dependents since the previous completed run, naming that start time; the individual events follow in a collapsed `<details>` block, at most 50 lines with a link to the run's log for the rest. Clients without `<details>` support show the block expanded.
 
@@ -122,7 +122,7 @@ Aggregate totals and 90 days of daily snapshots feed the time-series charts.
 Two metrics rely on HTML scraping of `github.com` — they work today but may break if GitHub changes the DOM:
 
 - **GHCR pulls** — `github.com/<org>/<repo>/pkgs/container/<pkg>` exposes the exact count in a `title` attribute and the 30-day bars as `data-merge-count`. Package name is discovered via `GET /orgs/<org>/packages` (requires `read:packages`) or falls back to assuming `package == repo` name.
-- **Dependents** — `github.com/<org>/<repo>/network/dependents` shows `"N Repositories"` / `"N Packages"` under toggles filtered by `dependent_type`.
+- **Dependents** — `github.com/<org>/<repo>/network/dependents` shows `"N Repositories"` / `"N Packages"` under toggles filtered by `dependent_type`. A repo with several packages (one per module path or manifest) gets one such page per package, selected by `package_id`; the largest count among them is reported, a lower bound. Adding them up would count a repo once per package it uses, and every reusable workflow is a package of its own (`netresearch/.github` lists 65). If any of a repo's package pages cannot be read, the repo keeps the previous run's counts instead of dropping to 0.
 
 Not collected:
 
