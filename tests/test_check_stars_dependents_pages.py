@@ -1,5 +1,7 @@
 """get_dependents() reads every package and every page of /network/dependents."""
 
+from itertools import pairwise
+
 import pytest
 import requests
 from test_check_stars import check_stars
@@ -29,8 +31,10 @@ def site(monkeypatch):
     pages = {}
     requested = []
 
+    clock = [1000.0]
+
     def get(url, **_kwargs):
-        requested.append(url)
+        requested.append((url, clock[0]))
         response = requests.Response()
         response.status_code = 200 if url in pages else 500
         response._content = pages.get(url, "").encode()
@@ -39,7 +43,6 @@ def site(monkeypatch):
 
     monkeypatch.setattr(check_stars._html_session, "get", get)
     monkeypatch.setattr(check_stars, "_last_dependents_request", float("-inf"))
-    clock = [1000.0]
     monkeypatch.setattr(check_stars.time, "monotonic", lambda: clock[0])
     monkeypatch.setattr(check_stars.time, "sleep", lambda seconds: clock.__setitem__(0, clock[0] + seconds))
     return pages, requested, clock
@@ -73,11 +76,12 @@ def test_a_repo_past_the_page_cap_is_not_read_in_part(site, monkeypatch):
 
 
 def test_pages_are_requested_at_most_one_per_interval(site):
-    pages, _, clock = site
+    pages, requested, _ = site
     pages[BASE] = page(["consumer/a"], next_after="X")
     pages[f"{BASE}?dependents_after=X&package_id={OLD}"] = page(["consumer/b"])
     pages[f"{BASE}?package_id={NEW}"] = page([], selected=NEW)
-    start = clock[0]
     check_stars.get_dependents("netresearch/example")
-    assert clock[0] - start == 2 * check_stars.DEPENDENTS_PAGE_INTERVAL, \
-        "three pages, so two waits between them"
+    times = [when for _, when in requested]
+    assert len(times) == 3
+    assert all(later - earlier >= check_stars.DEPENDENTS_PAGE_INTERVAL
+               for earlier, later in pairwise(times)), "every request waits for the previous one"

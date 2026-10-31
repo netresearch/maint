@@ -108,6 +108,16 @@ def test_failed_scrape_keeps_the_older_scope(scan):
     assert saved["dependents_scope"] is None, "no baseline was taken with the current scope"
 
 
+def test_suspicious_empty_read_keeps_the_older_scope(scan):
+    # A valid page with no rows where dependents were known is distrusted, so
+    # it is no baseline either: the next run baselines again, silently.
+    messages, _, state = scan([], ["consumer/old"], scope=None)
+    assert messages == []
+    saved = state["repos"]["netresearch/example"]
+    assert saved["dependents"] == ["consumer/old"]
+    assert saved["dependents_scope"] is None
+
+
 def test_metadata_http_failure_keeps_the_existing_zero_count_message(scan):
     messages, lookups, state = scan(["consumer/new"], metadata_error=requests.HTTPError("offline"))
     assert lookups == ["https://api.github.com/repos/consumer/new"]

@@ -16,7 +16,8 @@ BASE = "https://github.com/netresearch/example/network/dependents"
 def counts(package, repositories, packages, *, query=True):
     suffix = f"&amp;package_id={package}" if query else ""
     menu = "".join(f'<a href="/netresearch/example/network/dependents?package_id={p}" '
-                   f'class="select-menu-item">{p}</a>' for p in ("P1", "P2"))
+                   f'class="select-menu-item" aria-checked="{str(p == package).lower()}">{p}</a>'
+                   for p in ("P1", "P2"))
     return (f"{menu}"
             f'<a class="btn-link" href="?dependent_type=REPOSITORY{suffix}"><svg></svg> {repositories} Repositories</a>'
             f'<a class="btn-link" href="?dependent_type=PACKAGE{suffix}"><svg></svg> {packages} Packages</a>')
@@ -26,16 +27,22 @@ def test_the_largest_package_count_is_reported(monkeypatch):
     # GitHub opened the page on P1; the dependents sit under P2.
     pages = {
         BASE: counts("P1", 3, 90, query=False),
-        f"{BASE}?package_id=P1": counts("P1", 3, 90),
         f"{BASE}?package_id=P2": counts("P2", "1,063", 82),
     }
-    monkeypatch.setattr(collect_impact, "scrape_html", pages.get)
+    requested = []
+
+    def scrape(url):
+        requested.append(url)
+        return pages.get(url)
+
+    monkeypatch.setattr(collect_impact, "scrape_html", scrape)
     result = collect_impact.fetch_dependents("netresearch/example")
     assert (result["repositories"], result["packages"]) == (1063, 90)
+    assert requested == [BASE, f"{BASE}?package_id=P2"], "P1 is not fetched a second time"
 
 
 def test_a_failed_package_page_reports_no_count(monkeypatch):
-    pages = {BASE: counts("P1", 5, 0, query=False), f"{BASE}?package_id=P1": counts("P1", 5, 0)}
+    pages = {BASE: counts("P1", 5, 0, query=False)}
     monkeypatch.setattr(collect_impact, "scrape_html", pages.get)
     assert collect_impact.fetch_dependents("netresearch/example") is None
 

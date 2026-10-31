@@ -440,7 +440,9 @@ _DEPENDENTS_PKG_RE = re.compile(
 )
 
 
-# One entry per package in the page's package selector (relative href).
+# One entry per package in the page's package selector (relative href); the
+# package the page was opened on is the entry marked aria-checked="true".
+_ANCHOR_RE = re.compile(r"<a\b[^>]*>")
 _DEPENDENTS_PACKAGE_RE = re.compile(r'href="(/[^"?]+/network/dependents\?package_id=[^"&]+)"')
 
 
@@ -462,12 +464,14 @@ def fetch_dependents(full_name: str) -> dict | None:
     def _to_int(m: re.Match | None) -> int:
         return int(m.group(1).replace(",", "")) if m else 0
 
-    pages = [html]
-    packages = sorted(set(_DEPENDENTS_PACKAGE_RE.findall(html)))
-    if len(packages) > 1:
-        pages = [scrape_html(f"{GITHUB_WEB}{href}") for href in packages]
-        if None in pages:
-            return None
+    other_packages = sorted({
+        match.group(1)
+        for tag in _ANCHOR_RE.findall(html)
+        if 'aria-checked="true"' not in tag and (match := _DEPENDENTS_PACKAGE_RE.search(tag))
+    })
+    pages = [html, *(scrape_html(f"{GITHUB_WEB}{href}") for href in other_packages)]
+    if None in pages:
+        return None
 
     return {
         "repositories": max(_to_int(_DEPENDENTS_REPO_RE.search(page)) for page in pages),
