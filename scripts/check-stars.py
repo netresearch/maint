@@ -511,6 +511,14 @@ MAX_DEPENDENTS_PAGES = 100
 # package GitHub happens to open the page on).
 DEPENDENTS_SCOPE = 2
 
+# github.com answered a 1-second request pace with 429 (Retry-After: 120)
+# after 40 pages in 59 seconds (measured 2026-10-31). Reading every package
+# and page means ~340 pages per run, so keep under that: one page per 2 s.
+# That pace still drew two 429s over 137 pages; the retry in
+# _fetch_dependents_page waits them out.
+DEPENDENTS_PAGE_INTERVAL = 2.0
+_last_dependents_request = float("-inf")
+
 
 def _fetch_dependents_page(url: str, repo_full_name: str, max_retries: int) -> BeautifulSoup | None:
     """Fetch one /network/dependents page; None if it failed or is unrecognised."""
@@ -518,8 +526,13 @@ def _fetch_dependents_page(url: str, repo_full_name: str, max_retries: int) -> B
         "User-Agent": "Mozilla/5.0 (compatible; NetresearchBot/1.0)",
     }
 
+    global _last_dependents_request
     for attempt in range(max_retries):
         try:
+            wait = _last_dependents_request + DEPENDENTS_PAGE_INTERVAL - time.monotonic()
+            if wait > 0:
+                time.sleep(wait)
+            _last_dependents_request = time.monotonic()
             response = _html_session.get(url, headers=headers, timeout=30)
             if response.status_code in (429, 502, 503, 504):
                 # Same defensive parse as the API path: an HTTP-date here used to

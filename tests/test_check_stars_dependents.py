@@ -52,6 +52,7 @@ def scan(monkeypatch, tmp_path):
         response.status_code = 200
         response._content = document.encode()
         monkeypatch.setattr(check_stars._html_session, "get", lambda *_a, **_k: response)
+        monkeypatch.setattr(check_stars, "DEPENDENTS_PAGE_INTERVAL", 0)
         try:
             check_stars.main()
         finally:

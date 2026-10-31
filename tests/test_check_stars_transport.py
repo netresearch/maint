@@ -25,6 +25,7 @@ def transport(monkeypatch):
         return response
 
     monkeypatch.setattr(requests.Session, "send", send)
+    monkeypatch.setattr(check_stars, "DEPENDENTS_PAGE_INTERVAL", 0)
     monkeypatch.setattr(check_stars, "GITHUB_TOKEN", "synthetic-test-token")
     return calls
 

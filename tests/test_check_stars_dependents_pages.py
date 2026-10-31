@@ -38,12 +38,15 @@ def site(monkeypatch):
         return response
 
     monkeypatch.setattr(check_stars._html_session, "get", get)
-    monkeypatch.setattr(check_stars.time, "sleep", lambda _s: None)
-    return pages, requested
+    monkeypatch.setattr(check_stars, "_last_dependents_request", float("-inf"))
+    clock = [1000.0]
+    monkeypatch.setattr(check_stars.time, "monotonic", lambda: clock[0])
+    monkeypatch.setattr(check_stars.time, "sleep", lambda seconds: clock.__setitem__(0, clock[0] + seconds))
+    return pages, requested, clock
 
 
 def test_every_package_and_page_is_read(site):
-    pages, requested = site
+    pages, requested, _ = site
     # GitHub opens on the old module path, which has no dependents.
     pages[BASE] = page([])
     pages[f"{BASE}?package_id={NEW}"] = page(["consumer/a", "consumer/b"], selected=NEW, next_after="X")
@@ -54,7 +57,7 @@ def test_every_package_and_page_is_read(site):
 
 
 def test_one_failed_page_fails_the_whole_read(site):
-    pages, _ = site
+    pages, _, _ = site
     pages[BASE] = page(["consumer/a"], next_after="X")
     pages[f"{BASE}?package_id={NEW}"] = page(["consumer/b"], selected=NEW)
     # The second page of the opened package is missing.
@@ -62,8 +65,19 @@ def test_one_failed_page_fails_the_whole_read(site):
 
 
 def test_a_repo_past_the_page_cap_is_not_read_in_part(site, monkeypatch):
-    pages, _ = site
+    pages, _, _ = site
     monkeypatch.setattr(check_stars, "MAX_DEPENDENTS_PAGES", 2)
     pages[BASE] = page(["consumer/a"], next_after="X")
     pages[f"{BASE}?dependents_after=X&package_id={OLD}"] = page(["consumer/b"], next_after="Y")
     assert check_stars.get_dependents("netresearch/example") is None
+
+
+def test_pages_are_requested_at_most_one_per_interval(site):
+    pages, _, clock = site
+    pages[BASE] = page(["consumer/a"], next_after="X")
+    pages[f"{BASE}?dependents_after=X&package_id={OLD}"] = page(["consumer/b"])
+    pages[f"{BASE}?package_id={NEW}"] = page([], selected=NEW)
+    start = clock[0]
+    check_stars.get_dependents("netresearch/example")
+    assert clock[0] - start == 2 * check_stars.DEPENDENTS_PAGE_INTERVAL, \
+        "three pages, so two waits between them"

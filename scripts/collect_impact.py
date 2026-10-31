@@ -313,16 +313,37 @@ def fetch_composer_name(full_name: str, default_branch: str) -> str | None:
 # ---- HTML scrapers (no public API) ---------------------------------------
 
 
+# github.com answered a 1-second request pace with 429 (Retry-After: 120)
+# after 40 pages in 59 seconds (measured 2026-10-31); a repo with many
+# packages needs one dependents page each, so keep under that.
+SCRAPE_INTERVAL = 2.0
+SCRAPE_MAX_RETRIES = 3
+_last_scrape = float("-inf")
+
+
 def scrape_html(url: str) -> str | None:
-    try:
-        r = requests.get(url, headers=SCRAPE_HEADERS, timeout=30, allow_redirects=True)
-        if r.status_code == 404:
+    global _last_scrape
+    for attempt in range(SCRAPE_MAX_RETRIES):
+        wait = _last_scrape + SCRAPE_INTERVAL - time.monotonic()
+        if wait > 0:
+            time.sleep(wait)
+        _last_scrape = time.monotonic()
+        try:
+            r = requests.get(url, headers=SCRAPE_HEADERS, timeout=30, allow_redirects=True)
+            if r.status_code == 404:
+                return None
+            if r.status_code == 429 and attempt < SCRAPE_MAX_RETRIES - 1:
+                retry_after = r.headers.get("Retry-After", "")
+                delay = int(retry_after) if retry_after.isdigit() else 60
+                print(f"  429 for {url}, waiting {delay}s", file=sys.stderr)
+                time.sleep(delay)
+                continue
+            r.raise_for_status()
+            return r.text
+        except requests.RequestException as e:
+            print(f"  scrape failed {url}: {type(e).__name__}", file=sys.stderr)
             return None
-        r.raise_for_status()
-        return r.text
-    except requests.RequestException as e:
-        print(f"  scrape failed {url}: {type(e).__name__}", file=sys.stderr)
-        return None
+    return None
 
 
 def list_org_containers() -> dict[str, list[str]]:
@@ -429,8 +450,9 @@ def fetch_dependents(full_name: str) -> dict | None:
     GitHub lists one package per module path or manifest and opens the page on
     one of them, not necessarily the one in use (netresearch/go-cron opens on
     its former path github.com/netresearch/cron with 0 dependents). With more
-    than one package the counts of all are added up, so a repo depending on
-    two of them counts twice.
+    than one package the largest count is reported: a lower bound. Adding them
+    up would count a repo once per package it uses, and every reusable
+    workflow is a package of its own (netresearch/.github lists 65).
     """
     url = f"{GITHUB_WEB}/{full_name}/network/dependents"
     html = scrape_html(url)
@@ -448,8 +470,8 @@ def fetch_dependents(full_name: str) -> dict | None:
             return None
 
     return {
-        "repositories": sum(_to_int(_DEPENDENTS_REPO_RE.search(page)) for page in pages),
-        "packages": sum(_to_int(_DEPENDENTS_PKG_RE.search(page)) for page in pages),
+        "repositories": max(_to_int(_DEPENDENTS_REPO_RE.search(page)) for page in pages),
+        "packages": max(_to_int(_DEPENDENTS_PKG_RE.search(page)) for page in pages),
         "url": url,
     }
 
