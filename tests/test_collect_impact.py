@@ -1,5 +1,6 @@
 """fetch_dependents() reports the largest count among the packages GitHub lists."""
 
+import json
 import os
 import sys
 from pathlib import Path
@@ -45,6 +46,16 @@ def test_a_failed_package_page_reports_no_count(monkeypatch):
     pages = {BASE: counts("P1", 5, 0, query=False)}
     monkeypatch.setattr(collect_impact, "scrape_html", pages.get)
     assert collect_impact.fetch_dependents("netresearch/example") is None
+
+
+def test_unreadable_dependents_keep_the_previous_counts(monkeypatch, tmp_path):
+    previous = {"repositories": 63, "packages": 82, "url": BASE}
+    repos = tmp_path / "data" / "repos"
+    repos.mkdir(parents=True)
+    (repos / "example.json").write_text(json.dumps({"dependents": previous}))
+    monkeypatch.setattr(collect_impact, "OUTPUT_DIR", tmp_path)
+    assert collect_impact.previous_dependents("example") == previous
+    assert collect_impact.previous_dependents("unknown") is None
 
 
 def test_scrape_waits_as_long_as_a_429_asks(monkeypatch):

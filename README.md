@@ -122,7 +122,7 @@ Aggregate totals and 90 days of daily snapshots feed the time-series charts.
 Two metrics rely on HTML scraping of `github.com` — they work today but may break if GitHub changes the DOM:
 
 - **GHCR pulls** — `github.com/<org>/<repo>/pkgs/container/<pkg>` exposes the exact count in a `title` attribute and the 30-day bars as `data-merge-count`. Package name is discovered via `GET /orgs/<org>/packages` (requires `read:packages`) or falls back to assuming `package == repo` name.
-- **Dependents** — `github.com/<org>/<repo>/network/dependents` shows `"N Repositories"` / `"N Packages"` under toggles filtered by `dependent_type`. A repo with several packages (one per module path or manifest) gets one such page per package, selected by `package_id`; the largest count among them is reported, a lower bound. Adding them up would count a repo once per package it uses, and every reusable workflow is a package of its own (`netresearch/.github` lists 65).
+- **Dependents** — `github.com/<org>/<repo>/network/dependents` shows `"N Repositories"` / `"N Packages"` under toggles filtered by `dependent_type`. A repo with several packages (one per module path or manifest) gets one such page per package, selected by `package_id`; the largest count among them is reported, a lower bound. Adding them up would count a repo once per package it uses, and every reusable workflow is a package of its own (`netresearch/.github` lists 65). If any of a repo's package pages cannot be read, the repo keeps the previous run's counts instead of dropping to 0.
 
 Not collected:
 

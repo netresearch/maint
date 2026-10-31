@@ -83,5 +83,5 @@ def test_pages_are_requested_at_most_one_per_interval(site):
     check_stars.get_dependents("netresearch/example")
     times = [when for _, when in requested]
     assert len(times) == 3
-    assert all(later - earlier >= check_stars.DEPENDENTS_PAGE_INTERVAL
+    assert all(later - earlier >= 2.0
                for earlier, later in pairwise(times)), "every request waits for the previous one"

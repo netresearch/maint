@@ -483,6 +483,22 @@ def fetch_dependents(full_name: str) -> dict | None:
 # ---- aggregation ----------------------------------------------------------
 
 
+def previous_dependents(name: str) -> dict | None:
+    """The dependents counts of the previous run, seeded from gh-pages.
+
+    A repo with many packages needs one page each, and any one failing fails
+    the read; publishing 0 for that day would be a drop that never happened.
+    """
+    path = OUTPUT_DIR / "data" / "repos" / f"{name}.json"
+    try:
+        dependents = json.loads(path.read_text()).get("dependents")
+    except (OSError, json.JSONDecodeError):
+        return None
+    if dependents:
+        print(f"  dependents unreadable, keeping the previous counts for {name}", file=sys.stderr)
+    return dependents or None
+
+
 def collect_repo(repo: dict, org_members: set[str], container_map: dict[str, list[str]]) -> dict:
     full = repo["full_name"]
     name = repo["name"]
@@ -512,7 +528,7 @@ def collect_repo(repo: dict, org_members: set[str], container_map: dict[str, lis
             packagist = fetch_packagist(composer)
 
     ghcr = fetch_ghcr_for_repo(name, container_map.get(name, []))
-    dependents = fetch_dependents(full)
+    dependents = fetch_dependents(full) or previous_dependents(name)
 
     # An indicative ordering signal, not a measurement: the weights are a
     # judgement call. The dashboard renders the formula next to the number so it
