@@ -597,25 +597,37 @@ def get_dependents(repo_full_name: str, repo_is_empty: bool = False, max_retries
     ]
     found: dict[str, dict] = {}
     for package_url in [None, *other_packages]:
-        page = soup if package_url is None else None
-        next_url = package_url
-        for _ in range(MAX_DEPENDENTS_PAGES):
-            if page is None:
-                page = _fetch_dependents_page(next_url, repo_full_name, max_retries)
-                if page is None:
-                    return None  # an incomplete list would wipe the unread part
-            for dependent in _parse_dependents(page):
-                found.setdefault(dependent["full_name"], dependent)
-            next_link = next((a for a in page.select(".paginate-container a[href]")
-                              if a.get_text(strip=True) == "Next"), None)
-            if next_link is None:
-                break
-            next_url = urljoin(url, next_link["href"])
-            page = None
-        else:
-            print(f"Warning: {repo_full_name} has more than {MAX_DEPENDENTS_PAGES} pages of dependents in one package - not read")
-            return None
+        package = _read_package(soup, package_url, repo_full_name, max_retries)
+        if package is None:
+            return None  # an incomplete list would wipe the unread part
+        for dependent in package:
+            found.setdefault(dependent["full_name"], dependent)
     return list(found.values())
+
+
+def _read_package(default_page: BeautifulSoup, package_url: str | None,
+                  repo_full_name: str, max_retries: int) -> list[dict] | None:
+    """Every dependent of one package, following "Next"; None if any page failed.
+
+    package_url None is the package default_page was opened on.
+    """
+    page = default_page if package_url is None else None
+    next_url = package_url
+    dependents: list[dict] = []
+    for _ in range(MAX_DEPENDENTS_PAGES):
+        if page is None:
+            page = _fetch_dependents_page(next_url, repo_full_name, max_retries)
+            if page is None:
+                return None
+        dependents.extend(_parse_dependents(page))
+        next_link = next((a for a in page.select(".paginate-container a[href]")
+                          if a.get_text(strip=True) == "Next"), None)
+        if next_link is None:
+            return dependents
+        next_url = urljoin("https://github.com/", next_link["href"])
+        page = None
+    print(f"Warning: {repo_full_name} has more than {MAX_DEPENDENTS_PAGES} pages of dependents in one package - not read")
+    return None
 
 
 def is_suspicious_empty(current: set, known: set, entity_type: str, repo_name: str) -> bool:
