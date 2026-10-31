@@ -34,10 +34,10 @@
     "release_downloads": 0,
     "contributors": 16,
     "external_contributors": 12,
-    "packagist_downloads": 281787,
+    "packagist_downloads": 281799,
     "ghcr_downloads": 0,
-    "dependents_repos": 0,
-    "dependents_packages": 0
+    "dependents_repos": 48,
+    "dependents_packages": 8
   },
   "recent_30d": {
     "commits": 8,
@@ -45,14 +45,14 @@
     "prs_opened": 6,
     "prs_merged": 5,
     "releases": 1,
-    "packagist_downloads": 3470,
+    "packagist_downloads": 3482,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 235,
-    "clones_unique": 79,
+    "clones_total": 263,
+    "clones_unique": 81,
     "views_total": 18,
-    "views_unique": 18,
+    "views_unique": 17,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -69,13 +69,13 @@
       {
         "path": "/netresearch/composer-patches-plugin/pulls",
         "title": "/pulls",
-        "count": 7,
-        "uniques": 7
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/composer-patches-plugin",
         "title": "Overview",
-        "count": 4,
+        "count": 5,
         "uniques": 4
       },
       {
@@ -176,18 +176,18 @@
   ],
   "packagist": {
     "name": "netresearch/composer-patches-plugin",
-    "total": 281787,
-    "monthly": 3470,
-    "daily": 124,
+    "total": 281799,
+    "monthly": 3482,
+    "daily": 81,
     "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
   },
   "ghcr": null,
   "dependents": {
-    "repositories": 0,
-    "packages": 0,
+    "repositories": 48,
+    "packages": 8,
     "url": "https://github.com/netresearch/composer-patches-plugin/network/dependents"
   },
-  "estimated_downstream_reach": 158,
-  "blast_radius": 158,
+  "estimated_downstream_reach": 254,
+  "blast_radius": 254,
   "archived": false
 }

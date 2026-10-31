@@ -37,7 +37,7 @@
     "prs_closed_unmerged": 8,
     "issues_total": 35,
     "releases": 81,
-    "release_downloads": 1411,
+    "release_downloads": 1412,
     "contributors": 21,
     "external_contributors": 13,
     "packagist_downloads": 0,
@@ -55,30 +55,30 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7121,
-    "clones_unique": 763,
-    "views_total": 690,
-    "views_unique": 340,
+    "clones_total": 7593,
+    "clones_unique": 783,
+    "views_total": 726,
+    "views_unique": 366,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 128,
-        "uniques": 108
+        "count": 136,
+        "uniques": 115
       },
       {
         "referrer": "aocr.org",
-        "count": 107,
-        "uniques": 107
+        "count": 120,
+        "uniques": 120
       },
       {
         "referrer": "github.com",
-        "count": 15,
-        "uniques": 10
+        "count": 17,
+        "uniques": 11
       },
       {
         "referrer": "Bing",
-        "count": 11,
-        "uniques": 11
+        "count": 13,
+        "uniques": 12
       },
       {
         "referrer": "search.brave.com",
@@ -99,20 +99,31 @@
         "referrer": "github.trellisware.com",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "kagi.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/jira-skill",
         "title": "Overview",
-        "count": 198,
-        "uniques": 165
+        "count": 204,
+        "uniques": 171
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 34,
-        "uniques": 32
+        "count": 36,
+        "uniques": 34
+      },
+      {
+        "path": "/netresearch/jira-skill/tree/main/skills/jira-communication",
+        "title": "/tree/main/skills/jira-communication",
+        "count": 24,
+        "uniques": 21
       },
       {
         "path": "/netresearch/jira-skill/tree/main",
@@ -121,28 +132,28 @@
         "uniques": 12
       },
       {
-        "path": "/netresearch/jira-skill/tree/main/skills/jira-communication",
-        "title": "/tree/main/skills/jira-communication",
-        "count": 20,
-        "uniques": 17
-      },
-      {
         "path": "/netresearch/jira-skill/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 20,
-        "uniques": 10
+        "count": 19,
+        "uniques": 9
       },
       {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-communication/SKILL.md",
         "title": "/blob/main/skills/jira-communication/SKILL.md",
-        "count": 15,
-        "uniques": 12
+        "count": 18,
+        "uniques": 14
+      },
+      {
+        "path": "/netresearch/jira-skill/pull/311",
+        "title": "/pull/311",
+        "count": 16,
+        "uniques": 2
       },
       {
         "path": "/netresearch/jira-skill/blob/main/scripts/detect_jira_issues.py",
         "title": "/blob/main/scripts/detect_jira_issues.py",
-        "count": 15,
-        "uniques": 6
+        "count": 14,
+        "uniques": 5
       },
       {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-syntax/SKILL.md",
@@ -151,16 +162,10 @@
         "uniques": 7
       },
       {
-        "path": "/netresearch/jira-skill/pull/311",
-        "title": "/pull/311",
-        "count": 13,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/jira-skill/tree/main/skills/jira-syntax",
-        "title": "/tree/main/skills/jira-syntax",
+        "path": "/netresearch/jira-skill/blob/main/scripts/verify-harness.sh",
+        "title": "/blob/main/scripts/verify-harness.sh",
         "count": 12,
-        "uniques": 9
+        "uniques": 5
       }
     ]
   },

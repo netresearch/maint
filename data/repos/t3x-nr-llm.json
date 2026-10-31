@@ -25,55 +25,55 @@
   "homepage": "https://netresearch.github.io/t3x-nr-llm/",
   "default_branch": "main",
   "created_at": "2025-12-22T23:35:44Z",
-  "pushed_at": "2026-10-31T00:53:29Z",
-  "updated_at": "2026-10-30T20:13:49Z",
+  "pushed_at": "2026-10-31T12:57:41Z",
+  "updated_at": "2026-10-31T12:57:05Z",
   "composer_name": "netresearch/nr-llm",
   "lifetime": {
     "stars": 6,
     "forks": 2,
     "watchers": 2,
     "network": 2,
-    "open_issues_plus_prs": 7,
-    "commits": 3877,
+    "open_issues_plus_prs": 6,
+    "commits": 3885,
     "issues_open": 2,
     "issues_closed": 153,
-    "prs_open": 5,
-    "prs_merged": 1002,
-    "prs_closed_unmerged": 41,
+    "prs_open": 4,
+    "prs_merged": 1005,
+    "prs_closed_unmerged": 42,
     "issues_total": 155,
-    "releases": 90,
+    "releases": 91,
     "release_downloads": 1618,
     "contributors": 7,
     "external_contributors": 2,
-    "packagist_downloads": 59990,
+    "packagist_downloads": 60375,
     "ghcr_downloads": 0,
     "dependents_repos": 5,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 893,
+    "commits": 901,
     "issues_opened": 4,
-    "prs_opened": 217,
-    "prs_merged": 207,
-    "releases": 20,
-    "packagist_downloads": 21016,
+    "prs_opened": 220,
+    "prs_merged": 210,
+    "releases": 21,
+    "packagist_downloads": 21401,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 41002,
-    "clones_unique": 1164,
-    "views_total": 467,
-    "views_unique": 453,
+    "clones_total": 42293,
+    "clones_unique": 1203,
+    "views_total": 527,
+    "views_unique": 511,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 436,
-        "uniques": 425
+        "count": 490,
+        "uniques": 479
       },
       {
         "referrer": "Google",
-        "count": 5,
-        "uniques": 5
+        "count": 9,
+        "uniques": 8
       },
       {
         "referrer": "linkedin.com",
@@ -100,8 +100,8 @@
       {
         "path": "/netresearch/t3x-nr-llm",
         "title": "Overview",
-        "count": 13,
-        "uniques": 12
+        "count": 17,
+        "uniques": 14
       },
       {
         "path": "/netresearch/t3x-nr-llm/blob/38408a9c/Documentation/Introduction/Index.rst",
@@ -134,6 +134,12 @@
         "uniques": 4
       },
       {
+        "path": "/netresearch/t3x-nr-llm/issues/652",
+        "title": "/issues/652",
+        "count": 4,
+        "uniques": 4
+      },
+      {
         "path": "/netresearch/t3x-nr-llm/blob/38408a9c/CHANGELOG.md",
         "title": "/blob/38408a9c/CHANGELOG.md",
         "count": 3,
@@ -146,12 +152,6 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-nr-llm/issues/652",
-        "title": "/issues/652",
-        "count": 3,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/t3x-nr-llm/issues/719",
         "title": "/issues/719",
         "count": 3,
@@ -160,15 +160,15 @@
     ]
   },
   "latest_release": {
-    "name": "v0.41.17",
-    "tag_name": "v0.41.17",
-    "published_at": "2026-10-30T20:15:49Z",
-    "url": "https://github.com/netresearch/t3x-nr-llm/releases/tag/v0.41.17"
+    "name": "v0.41.18",
+    "tag_name": "v0.41.18",
+    "published_at": "2026-10-31T12:59:20Z",
+    "url": "https://github.com/netresearch/t3x-nr-llm/releases/tag/v0.41.18"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 3702,
+      "contributions": 3710,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -204,9 +204,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm",
-    "total": 59990,
-    "monthly": 21016,
-    "daily": 1883,
+    "total": 60375,
+    "monthly": 21401,
+    "daily": 1374,
     "url": "https://packagist.org/packages/netresearch/nr-llm"
   },
   "ghcr": null,
@@ -215,7 +215,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-llm/network/dependents"
   },
-  "estimated_downstream_reach": 1177,
-  "blast_radius": 1177,
+  "estimated_downstream_reach": 1180,
+  "blast_radius": 1180,
   "archived": false
 }

@@ -55,20 +55,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 70,
+    "clones_total": 74,
     "clones_unique": 40,
-    "views_total": 31,
-    "views_unique": 23,
+    "views_total": 34,
+    "views_unique": 25,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 9,
+        "uniques": 6
+      },
       {
         "referrer": "aocr.org",
         "count": 8,
         "uniques": 8
-      },
-      {
-        "referrer": "Google",
-        "count": 8,
-        "uniques": 5
       },
       {
         "referrer": "Bing",
@@ -91,8 +91,8 @@
       {
         "path": "/netresearch/claude-coach-plugin/blob/main/skills/coach/SKILL.md",
         "title": "/blob/main/skills/coach/SKILL.md",
-        "count": 10,
-        "uniques": 5
+        "count": 11,
+        "uniques": 6
       },
       {
         "path": "/netresearch/claude-coach-plugin/releases",
@@ -119,6 +119,18 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/claude-coach-plugin/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/claude-coach-plugin/issues",
+        "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/claude-coach-plugin/pull/30/files",
         "title": "/pull/30/files",
         "count": 1,
@@ -127,18 +139,6 @@
       {
         "path": "/netresearch/claude-coach-plugin/pull/32/files",
         "title": "/pull/32/files",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/claude-coach-plugin/pull/33",
-        "title": "/pull/33",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/claude-coach-plugin/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
         "count": 1,
         "uniques": 1
       }

@@ -44,7 +44,7 @@
     "external_contributors": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
-    "dependents_repos": 0,
+    "dependents_repos": 1,
     "dependents_packages": 3
   },
   "recent_30d": {
@@ -57,15 +57,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 372,
-    "clones_unique": 118,
-    "views_total": 7,
-    "views_unique": 7,
+    "clones_total": 366,
+    "clones_unique": 104,
+    "views_total": 9,
+    "views_unique": 9,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 2,
-        "uniques": 2
+        "count": 4,
+        "uniques": 4
       }
     ],
     "top_paths": [
@@ -76,20 +76,26 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/assetpicker/issues",
+        "title": "/issues",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/assetpicker/pulls",
         "title": "/pulls",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/assetpicker/issues",
-        "title": "/issues",
+        "path": "/netresearch/assetpicker/pull/119/files/8e71f369b15bfccf7f070e6158a9b1076fd67f7c",
+        "title": "/pull/119/files/8e71f369b15bfccf7f070e6158a9b1076fd67f7c",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/assetpicker/pull/119/files/8e71f369b15bfccf7f070e6158a9b1076fd67f7c",
-        "title": "/pull/119/files/8e71f369b15bfccf7f070e6158a9b1076fd67f7c",
+        "path": "/netresearch/assetpicker/pull/94",
+        "title": "/pull/94",
         "count": 1,
         "uniques": 1
       }
@@ -131,11 +137,11 @@
   "packagist": null,
   "ghcr": null,
   "dependents": {
-    "repositories": 0,
+    "repositories": 1,
     "packages": 3,
     "url": "https://github.com/netresearch/assetpicker/network/dependents"
   },
-  "estimated_downstream_reach": 142,
-  "blast_radius": 142,
+  "estimated_downstream_reach": 144,
+  "blast_radius": 144,
   "archived": false
 }

@@ -13,7 +13,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2013-03-11T14:10:52Z",
-  "pushed_at": "2026-10-31T01:10:30Z",
+  "pushed_at": "2026-10-31T13:00:19Z",
   "updated_at": "2026-10-22T23:07:17Z",
   "composer_name": "netresearch/contexts",
   "lifetime": {
@@ -21,11 +21,11 @@
     "forks": 11,
     "watchers": 10,
     "network": 11,
-    "open_issues_plus_prs": 3,
+    "open_issues_plus_prs": 4,
     "commits": 630,
     "issues_open": 1,
     "issues_closed": 23,
-    "prs_open": 2,
+    "prs_open": 3,
     "prs_merged": 158,
     "prs_closed_unmerged": 37,
     "issues_total": 24,
@@ -33,7 +33,7 @@
     "release_downloads": 49,
     "contributors": 14,
     "external_contributors": 7,
-    "packagist_downloads": 28875,
+    "packagist_downloads": 28909,
     "ghcr_downloads": 0,
     "dependents_repos": 4,
     "dependents_packages": 0
@@ -41,22 +41,22 @@
   "recent_30d": {
     "commits": 45,
     "issues_opened": 0,
-    "prs_opened": 18,
+    "prs_opened": 19,
     "prs_merged": 16,
     "releases": 2,
-    "packagist_downloads": 2288,
+    "packagist_downloads": 2322,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1554,
+    "clones_total": 1608,
     "clones_unique": 133,
-    "views_total": 29,
-    "views_unique": 29,
+    "views_total": 31,
+    "views_unique": 31,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 22,
-        "uniques": 22
+        "count": 24,
+        "uniques": 24
       },
       {
         "referrer": "DuckDuckGo",
@@ -66,6 +66,12 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/t3x-contexts/pull/151",
+        "title": "/pull/151",
+        "count": 3,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/t3x-contexts",
         "title": "Overview",
         "count": 2,
@@ -74,12 +80,6 @@
       {
         "path": "/netresearch/t3x-contexts/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-contexts/pull/151",
-        "title": "/pull/151",
         "count": 2,
         "uniques": 2
       },
@@ -187,9 +187,9 @@
   ],
   "packagist": {
     "name": "netresearch/contexts",
-    "total": 28875,
-    "monthly": 2288,
-    "daily": 95,
+    "total": 28909,
+    "monthly": 2322,
+    "daily": 89,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,

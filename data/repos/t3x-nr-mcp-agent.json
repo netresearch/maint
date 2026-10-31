@@ -41,7 +41,7 @@
     "release_downloads": 1219,
     "contributors": 6,
     "external_contributors": 1,
-    "packagist_downloads": 2643,
+    "packagist_downloads": 2702,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -52,37 +52,43 @@
     "prs_opened": 101,
     "prs_merged": 98,
     "releases": 29,
-    "packagist_downloads": 778,
+    "packagist_downloads": 837,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 17506,
-    "clones_unique": 668,
-    "views_total": 94,
-    "views_unique": 83,
+    "clones_total": 20076,
+    "clones_unique": 682,
+    "views_total": 102,
+    "views_unique": 91,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 75,
-        "uniques": 75
-      },
-      {
-        "referrer": "Google",
-        "count": 2,
-        "uniques": 2
+        "count": 85,
+        "uniques": 85
       },
       {
         "referrer": "github.com",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-mcp-agent",
         "title": "Overview",
-        "count": 10,
-        "uniques": 6
+        "count": 8,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-mcp-agent/issues/134",
+        "title": "/issues/134",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-mcp-agent/pull/127",
@@ -93,12 +99,6 @@
       {
         "path": "/netresearch/t3x-nr-mcp-agent/issues",
         "title": "/issues",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-mcp-agent/issues/134",
-        "title": "/issues/134",
         "count": 2,
         "uniques": 2
       },
@@ -180,9 +180,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-mcp-agent",
-    "total": 2643,
-    "monthly": 778,
-    "daily": 99,
+    "total": 2702,
+    "monthly": 837,
+    "daily": 111,
     "url": "https://packagist.org/packages/netresearch/nr-mcp-agent"
   },
   "ghcr": null,

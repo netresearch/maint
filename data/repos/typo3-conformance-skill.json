@@ -56,33 +56,38 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4563,
-    "clones_unique": 295,
-    "views_total": 69,
-    "views_unique": 50,
+    "clones_total": 4554,
+    "clones_unique": 302,
+    "views_total": 84,
+    "views_unique": 59,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 34,
-        "uniques": 34
+        "count": 40,
+        "uniques": 40
       },
       {
         "referrer": "netresearch.github.io",
-        "count": 3,
-        "uniques": 2
+        "count": 4,
+        "uniques": 3
       },
       {
         "referrer": "Google",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-conformance-skill",
         "title": "Overview",
-        "count": 8,
-        "uniques": 7
+        "count": 11,
+        "uniques": 10
       },
       {
         "path": "/netresearch/typo3-conformance-skill/blob/main/docs/ARCHITECTURE.md",
@@ -93,6 +98,18 @@
       {
         "path": "/netresearch/typo3-conformance-skill/blob/main/outputStyles/conformance-report.md",
         "title": "/blob/main/outputStyles/conformance-report.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/references/v13-deprecations.md",
+        "title": "/blob/main/skills/typo3-conformance/references/v13-deprecations.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/scripts/check-architecture.sh",
+        "title": "/blob/main/skills/typo3-conformance/scripts/check-architecture.sh",
         "count": 2,
         "uniques": 2
       },
@@ -109,6 +126,12 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance",
+        "title": "/tree/main/skills/typo3-conformance",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/typo3-conformance-skill/tree/main/commands",
         "title": "/tree/main/commands",
         "count": 2,
@@ -118,24 +141,6 @@
         "path": "/netresearch/typo3-conformance-skill/tree/main/skills/typo3-conformance/scripts",
         "title": "/tree/main/skills/typo3-conformance/scripts",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/.claude-plugin/plugin.json",
-        "title": "/blob/main/.claude-plugin/plugin.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/LICENSE-CC-BY-SA-4.0",
-        "title": "/blob/main/LICENSE-CC-BY-SA-4.0",
-        "count": 1,
         "uniques": 1
       }
     ]

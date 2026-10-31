@@ -18,7 +18,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2024-09-03T11:26:07Z",
-  "pushed_at": "2026-10-30T19:13:13Z",
+  "pushed_at": "2026-10-31T13:05:23Z",
   "updated_at": "2026-10-23T06:19:18Z",
   "composer_name": "netresearch/nr-image-sitemap",
   "lifetime": {
@@ -26,11 +26,11 @@
     "forks": 0,
     "watchers": 2,
     "network": 0,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 3,
     "commits": 185,
     "issues_open": 1,
     "issues_closed": 3,
-    "prs_open": 1,
+    "prs_open": 2,
     "prs_merged": 56,
     "prs_closed_unmerged": 9,
     "issues_total": 4,
@@ -38,7 +38,7 @@
     "release_downloads": 3,
     "contributors": 6,
     "external_contributors": 1,
-    "packagist_downloads": 4221,
+    "packagist_downloads": 4279,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -46,25 +46,36 @@
   "recent_30d": {
     "commits": 31,
     "issues_opened": 0,
-    "prs_opened": 11,
+    "prs_opened": 12,
     "prs_merged": 10,
     "releases": 1,
-    "packagist_downloads": 775,
+    "packagist_downloads": 833,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 755,
-    "clones_unique": 81,
-    "views_total": 21,
-    "views_unique": 21,
+    "clones_total": 812,
+    "clones_unique": 82,
+    "views_total": 32,
+    "views_unique": 23,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 18,
-        "uniques": 18
+        "count": 19,
+        "uniques": 19
+      },
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap/releases/tag/14.0.2",
+        "title": "/releases/tag/14.0.2",
+        "count": 4,
+        "uniques": 1
+      },
       {
         "path": "/netresearch/t3x-nr-image-sitemap/pull/26/files/c3bcebec3e93ff75e1c030aa1ca4f60878f22c21",
         "title": "/pull/26/files/c3bcebec3e93ff75e1c030aa1ca4f60878f22c21",
@@ -84,6 +95,12 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/t3x-nr-image-sitemap/releases",
+        "title": "/releases",
+        "count": 2,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-image-sitemap",
         "title": "Overview",
         "count": 1,
@@ -96,32 +113,20 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-image-sitemap/commit/a02d31da96280e5848dae9735f53250f5bf9c89c",
+        "title": "/commit/a02d31da96280e5848dae9735f53250f5bf9c89c",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-image-sitemap/compare",
         "title": "/compare",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-sitemap/pull/17/files",
-        "title": "/pull/17/files",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/pull/19/files",
-        "title": "/pull/19/files",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/pull/24/files",
-        "title": "/pull/24/files",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/pull/30",
-        "title": "/pull/30",
+        "path": "/netresearch/t3x-nr-image-sitemap/compare/14.0.0...14.0.2",
+        "title": "/compare/14.0.0...14.0.2",
         "count": 1,
         "uniques": 1
       }
@@ -167,9 +172,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-sitemap",
-    "total": 4221,
-    "monthly": 775,
-    "daily": 94,
+    "total": 4279,
+    "monthly": 833,
+    "daily": 108,
     "url": "https://packagist.org/packages/netresearch/nr-image-sitemap"
   },
   "ghcr": null,

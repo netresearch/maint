@@ -38,8 +38,8 @@
     "external_contributors": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
-    "dependents_repos": 0,
-    "dependents_packages": 0
+    "dependents_repos": 1,
+    "dependents_packages": 5
   },
   "recent_30d": {
     "commits": 6,
@@ -51,15 +51,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 358,
-    "clones_unique": 93,
-    "views_total": 14,
-    "views_unique": 14,
+    "clones_total": 339,
+    "clones_unique": 76,
+    "views_total": 22,
+    "views_unique": 22,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 12,
-        "uniques": 12
+        "count": 17,
+        "uniques": 17
       },
       {
         "referrer": "github.com",
@@ -71,8 +71,8 @@
       {
         "path": "/netresearch/node-magento-eqp/pull/461",
         "title": "/pull/461",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/node-magento-eqp/pull/609",
@@ -83,6 +83,24 @@
       {
         "path": "/netresearch/node-magento-eqp",
         "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/node-magento-eqp/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/node-magento-eqp/blob/main/SECURITY.md",
+        "title": "/blob/main/SECURITY.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/node-magento-eqp/blob/main/yarn.lock",
+        "title": "/blob/main/yarn.lock",
         "count": 1,
         "uniques": 1
       },
@@ -105,26 +123,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/node-magento-eqp/pull/602/files/a9647e1c6e4a782b20cdd94e852051d8b68ba469",
-        "title": "/pull/602/files/a9647e1c6e4a782b20cdd94e852051d8b68ba469",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/node-magento-eqp/pull/604",
-        "title": "/pull/604",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/node-magento-eqp/pull/605",
-        "title": "/pull/605",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/node-magento-eqp/pull/606",
-        "title": "/pull/606",
+        "path": "/netresearch/node-magento-eqp/pull/599/files",
+        "title": "/pull/599/files",
         "count": 1,
         "uniques": 1
       }
@@ -181,11 +181,11 @@
   "packagist": null,
   "ghcr": null,
   "dependents": {
-    "repositories": 0,
-    "packages": 0,
+    "repositories": 1,
+    "packages": 5,
     "url": "https://github.com/netresearch/node-magento-eqp/network/dependents"
   },
-  "estimated_downstream_reach": 544,
-  "blast_radius": 544,
+  "estimated_downstream_reach": 546,
+  "blast_radius": 546,
   "archived": false
 }

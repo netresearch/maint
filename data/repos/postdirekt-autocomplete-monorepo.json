@@ -38,8 +38,8 @@
     "external_contributors": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
-    "dependents_repos": 1,
-    "dependents_packages": 3
+    "dependents_repos": 2,
+    "dependents_packages": 4
   },
   "recent_30d": {
     "commits": 22,
@@ -51,35 +51,23 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 973,
-    "clones_unique": 158,
-    "views_total": 34,
-    "views_unique": 31,
+    "clones_total": 941,
+    "clones_unique": 146,
+    "views_total": 14,
+    "views_unique": 14,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 9,
-        "uniques": 9
+        "count": 10,
+        "uniques": 10
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/postdirekt-autocomplete-monorepo",
         "title": "Overview",
-        "count": 6,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-sdk/src/api/search-subjects.ts",
-        "title": "/blob/master/packages/autocomplete-sdk/src/api/search-subjects.ts",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/postdirekt-autocomplete-monorepo/tree/master/packages/autocomplete-sdk/src",
-        "title": "/tree/master/packages/autocomplete-sdk/src",
-        "count": 2,
-        "uniques": 2
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-library/src/api/address-data.ts",
@@ -88,38 +76,50 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-sdk/README.md",
-        "title": "/blob/master/packages/autocomplete-sdk/README.md",
+        "path": "/netresearch/postdirekt-autocomplete-monorepo/pull/139/files",
+        "title": "/pull/139/files",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-sdk/src/api/request-builder-interface.ts",
-        "title": "/blob/master/packages/autocomplete-sdk/src/api/request-builder-interface.ts",
+        "path": "/netresearch/postdirekt-autocomplete-monorepo/pull/143/files",
+        "title": "/pull/143/files",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-sdk/src/model/adapter-interface.ts",
-        "title": "/blob/master/packages/autocomplete-sdk/src/model/adapter-interface.ts",
+        "path": "/netresearch/postdirekt-autocomplete-monorepo/pull/148/files",
+        "title": "/pull/148/files",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-sdk/src/model/adapter/fetch-adapter.ts",
-        "title": "/blob/master/packages/autocomplete-sdk/src/model/adapter/fetch-adapter.ts",
+        "path": "/netresearch/postdirekt-autocomplete-monorepo/pull/150",
+        "title": "/pull/150",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-sdk/src/model/defaults.ts",
-        "title": "/blob/master/packages/autocomplete-sdk/src/model/defaults.ts",
+        "path": "/netresearch/postdirekt-autocomplete-monorepo/pull/153",
+        "title": "/pull/153",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-sdk/src/model/request/request.ts",
-        "title": "/blob/master/packages/autocomplete-sdk/src/model/request/request.ts",
+        "path": "/netresearch/postdirekt-autocomplete-monorepo/pull/161",
+        "title": "/pull/161",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/postdirekt-autocomplete-monorepo/pull/164",
+        "title": "/pull/164",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/postdirekt-autocomplete-monorepo/tree/master/packages/autocomplete-sdk/src",
+        "title": "/tree/master/packages/autocomplete-sdk/src",
         "count": 1,
         "uniques": 1
       }
@@ -176,11 +176,11 @@
   "packagist": null,
   "ghcr": null,
   "dependents": {
-    "repositories": 1,
-    "packages": 3,
+    "repositories": 2,
+    "packages": 4,
     "url": "https://github.com/netresearch/postdirekt-autocomplete-monorepo/network/dependents"
   },
-  "estimated_downstream_reach": 158,
-  "blast_radius": 158,
+  "estimated_downstream_reach": 160,
+  "blast_radius": 160,
   "archived": false
 }
