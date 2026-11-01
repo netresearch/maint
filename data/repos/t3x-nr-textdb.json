@@ -24,38 +24,38 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-09-29T09:01:16Z",
-  "pushed_at": "2026-10-31T13:10:49Z",
-  "updated_at": "2026-10-31T10:18:39Z",
+  "pushed_at": "2026-10-31T22:02:58Z",
+  "updated_at": "2026-10-31T22:02:59Z",
   "composer_name": "netresearch/nr-textdb",
   "lifetime": {
     "stars": 1,
     "forks": 0,
     "watchers": 4,
     "network": 0,
-    "open_issues_plus_prs": 4,
-    "commits": 832,
+    "open_issues_plus_prs": 1,
+    "commits": 845,
     "issues_open": 1,
     "issues_closed": 45,
-    "prs_open": 3,
-    "prs_merged": 143,
-    "prs_closed_unmerged": 27,
+    "prs_open": 0,
+    "prs_merged": 150,
+    "prs_closed_unmerged": 28,
     "issues_total": 46,
-    "releases": 21,
-    "release_downloads": 6,
+    "releases": 23,
+    "release_downloads": 86,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 3634,
+    "packagist_downloads": 3725,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 109,
+    "commits": 121,
     "issues_opened": 0,
-    "prs_opened": 52,
-    "prs_merged": 50,
-    "releases": 1,
-    "packagist_downloads": 943,
+    "prs_opened": 56,
+    "prs_merged": 56,
+    "releases": 3,
+    "packagist_downloads": 1024,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
@@ -134,15 +134,15 @@
     ]
   },
   "latest_release": {
-    "name": "v4.0.2",
-    "tag_name": "v4.0.2",
-    "published_at": "2026-10-07T14:33:33Z",
-    "url": "https://github.com/netresearch/t3x-nr-textdb/releases/tag/v4.0.2"
+    "name": "v4.1.0",
+    "tag_name": "v4.1.0",
+    "published_at": "2026-10-31T14:43:04Z",
+    "url": "https://github.com/netresearch/t3x-nr-textdb/releases/tag/v4.1.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 683,
+      "contributions": 694,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -152,13 +152,18 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 30,
+      "contributions": 31,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "Copilot",
       "contributions": 9,
       "url": "https://github.com/apps/copilot-swe-agent"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 4,
+      "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
       "login": "Gitsko",
@@ -171,11 +176,6 @@
       "url": "https://github.com/apps/github-actions"
     },
     {
-      "login": "netresearch-project-bot[bot]",
-      "contributions": 3,
-      "url": "https://github.com/apps/netresearch-project-bot"
-    },
-    {
       "login": "just-tobi",
       "contributions": 1,
       "url": "https://github.com/just-tobi"
@@ -183,9 +183,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 3634,
-    "monthly": 943,
-    "daily": 115,
+    "total": 3725,
+    "monthly": 1024,
+    "daily": 131,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,
@@ -194,7 +194,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-textdb/network/dependents"
   },
-  "estimated_downstream_reach": 197,
-  "blast_radius": 197,
+  "estimated_downstream_reach": 204,
+  "blast_radius": 204,
   "archived": false
 }
