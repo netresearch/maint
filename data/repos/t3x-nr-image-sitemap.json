@@ -38,7 +38,7 @@
     "release_downloads": 33,
     "contributors": 6,
     "external_contributors": 1,
-    "packagist_downloads": 4364,
+    "packagist_downloads": 4446,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,14 +49,14 @@
     "prs_opened": 11,
     "prs_merged": 10,
     "releases": 2,
-    "packagist_downloads": 909,
+    "packagist_downloads": 958,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 812,
-    "clones_unique": 82,
-    "views_total": 32,
-    "views_unique": 23,
+    "clones_total": 1105,
+    "clones_unique": 101,
+    "views_total": 33,
+    "views_unique": 24,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -66,6 +66,11 @@
       {
         "referrer": "Google",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
         "uniques": 1
       }
     ],
@@ -113,6 +118,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-image-sitemap/blob/main/README.rst",
+        "title": "/blob/main/README.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-image-sitemap/commit/a02d31da96280e5848dae9735f53250f5bf9c89c",
         "title": "/commit/a02d31da96280e5848dae9735f53250f5bf9c89c",
         "count": 1,
@@ -121,12 +132,6 @@
       {
         "path": "/netresearch/t3x-nr-image-sitemap/compare",
         "title": "/compare",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/compare/14.0.0...14.0.2",
-        "title": "/compare/14.0.0...14.0.2",
         "count": 1,
         "uniques": 1
       }
@@ -172,9 +177,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-sitemap",
-    "total": 4364,
-    "monthly": 909,
-    "daily": 125,
+    "total": 4446,
+    "monthly": 958,
+    "daily": 76,
     "url": "https://packagist.org/packages/netresearch/nr-image-sitemap"
   },
   "ghcr": null,

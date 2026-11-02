@@ -27,45 +27,45 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-25T07:26:55Z",
-  "pushed_at": "2026-11-01T01:01:30Z",
-  "updated_at": "2026-11-01T01:01:35Z",
+  "pushed_at": "2026-11-01T23:42:58Z",
+  "updated_at": "2026-11-01T23:42:59Z",
   "composer_name": null,
   "lifetime": {
     "stars": 67,
     "forks": 9,
     "watchers": 3,
-    "network": 1709,
+    "network": 1708,
     "open_issues_plus_prs": 12,
-    "commits": 767,
+    "commits": 771,
     "issues_open": 10,
-    "issues_closed": 202,
+    "issues_closed": 204,
     "prs_open": 2,
-    "prs_merged": 237,
+    "prs_merged": 239,
     "prs_closed_unmerged": 9,
-    "issues_total": 212,
+    "issues_total": 214,
     "releases": 22,
     "release_downloads": 229,
     "contributors": 36,
     "external_contributors": 33,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
-    "dependents_repos": 63,
+    "dependents_repos": 64,
     "dependents_packages": 82
   },
   "recent_30d": {
-    "commits": 119,
-    "issues_opened": 14,
-    "prs_opened": 37,
-    "prs_merged": 35,
+    "commits": 123,
+    "issues_opened": 16,
+    "prs_opened": 39,
+    "prs_merged": 37,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4116,
-    "clones_unique": 436,
-    "views_total": 306,
-    "views_unique": 130,
+    "clones_total": 4291,
+    "clones_unique": 476,
+    "views_total": 327,
+    "views_unique": 136,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -74,8 +74,8 @@
       },
       {
         "referrer": "Google",
-        "count": 32,
-        "uniques": 13
+        "count": 37,
+        "uniques": 14
       },
       {
         "referrer": "github.com",
@@ -112,20 +112,32 @@
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 67,
+        "count": 70,
         "uniques": 37
       },
       {
         "path": "/netresearch/go-cron/pulls",
         "title": "/pulls",
-        "count": 14,
-        "uniques": 3
+        "count": 15,
+        "uniques": 4
       },
       {
         "path": "/netresearch/go-cron/issues",
         "title": "/issues",
-        "count": 8,
-        "uniques": 3
+        "count": 9,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/OPERATIONS.md",
+        "title": "/blob/main/docs/OPERATIONS.md",
+        "count": 6,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/go-cron/issues/349",
+        "title": "/issues/349",
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/go-cron/releases",
@@ -146,28 +158,16 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/go-cron/blob/main/docs/OPERATIONS.md",
-        "title": "/blob/main/docs/OPERATIONS.md",
+        "path": "/netresearch/go-cron/blob/main/docs/API_REFERENCE.md",
+        "title": "/blob/main/docs/API_REFERENCE.md",
         "count": 5,
-        "uniques": 1
+        "uniques": 2
       },
       {
-        "path": "/netresearch/go-cron/discussions/431",
-        "title": "/discussions/431",
+        "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
+        "title": "/blob/main/docs/COOKBOOK.md",
         "count": 5,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-cron/issues/427",
-        "title": "/issues/427",
-        "count": 5,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/go-cron/pull/436",
-        "title": "/pull/436",
-        "count": 5,
-        "uniques": 1
+        "uniques": 2
       }
     ]
   },
@@ -180,7 +180,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 595,
+      "contributions": 599,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -232,11 +232,11 @@
   "packagist": null,
   "ghcr": null,
   "dependents": {
-    "repositories": 63,
+    "repositories": 64,
     "packages": 82,
     "url": "https://github.com/netresearch/go-cron/network/dependents"
   },
-  "estimated_downstream_reach": 692,
-  "blast_radius": 692,
+  "estimated_downstream_reach": 698,
+  "blast_radius": 698,
   "archived": false
 }
