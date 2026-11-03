@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T03:12:07+00:00",
+  "generated_at": "2026-11-03T03:11:20+00:00",
   "org": "netresearch",
   "traffic_available": true,
   "categories": {
@@ -30,30 +30,30 @@
   },
   "totals": {
     "repos": 157,
-    "stars": 1519,
+    "stars": 1522,
     "forks": 422,
     "watchers": 600,
-    "commits": 54036,
-    "issues_open": 226,
-    "issues_closed": 1795,
-    "issues": 2021,
-    "prs_open": 159,
-    "prs_merged": 15926,
-    "releases": 2769,
-    "release_downloads": 62394,
+    "commits": 54157,
+    "issues_open": 222,
+    "issues_closed": 1800,
+    "issues": 2022,
+    "prs_open": 156,
+    "prs_merged": 15962,
+    "releases": 2783,
+    "release_downloads": 64802,
     "contributors": 955,
-    "external_contributors": 419,
-    "packagist_downloads": 7945341,
-    "ghcr_downloads": 757230,
-    "dependents_repos": 370,
-    "dependents_packages": 121,
-    "commits_30d": 6040,
-    "issues_opened_30d": 61,
-    "prs_opened_30d": 2147,
-    "prs_merged_30d": 1982,
-    "releases_30d": 213,
-    "packagist_downloads_30d": 261367,
-    "ghcr_downloads_30d": 201592
+    "external_contributors": 429,
+    "packagist_downloads": 7957560,
+    "ghcr_downloads": 764742,
+    "dependents_repos": 371,
+    "dependents_packages": 122,
+    "commits_30d": 6154,
+    "issues_opened_30d": 62,
+    "prs_opened_30d": 2178,
+    "prs_merged_30d": 2015,
+    "releases_30d": 227,
+    "packagist_downloads_30d": 271392,
+    "ghcr_downloads_30d": 201007
   },
   "repos": [
     {
@@ -95,7 +95,7 @@
         "releases": 16,
         "release_downloads": 56,
         "contributors": 7,
-        "external_contributors": 1,
+        "external_contributors": 2,
         "packagist_downloads": 0,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
@@ -111,10 +111,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 3539,
-        "clones_unique": 309,
-        "views_total": 129,
-        "views_unique": 99,
+        "clones_total": 3468,
+        "clones_unique": 300,
+        "views_total": 140,
+        "views_unique": 101,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -141,14 +141,14 @@
           {
             "path": "/netresearch/agent-harness-skill",
             "title": "Overview",
-            "count": 52,
-            "uniques": 48
+            "count": 53,
+            "uniques": 49
           },
           {
             "path": "/netresearch/agent-harness-skill/tree/main/skills/agent-harness",
             "title": "/tree/main/skills/agent-harness",
-            "count": 7,
-            "uniques": 5
+            "count": 8,
+            "uniques": 6
           },
           {
             "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/SKILL.md",
@@ -187,14 +187,14 @@
             "uniques": 2
           },
           {
-            "path": "/netresearch/agent-harness-skill/pull/18/files",
-            "title": "/pull/18/files",
+            "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/references/adr/003-skill-delegation-model.md",
+            "title": "/blob/main/skills/agent-harness/references/adr/003-skill-delegation-model.md",
             "count": 2,
             "uniques": 2
           },
           {
-            "path": "/netresearch/agent-harness-skill/pull/18/files/cbce1b3d3903613a27f9566150f8a999dc761673",
-            "title": "/pull/18/files/cbce1b3d3903613a27f9566150f8a999dc761673",
+            "path": "/netresearch/agent-harness-skill/pull/18/files",
+            "title": "/pull/18/files",
             "count": 2,
             "uniques": 2
           }
@@ -250,8 +250,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/agent-harness-skill/network/dependents"
       },
-      "estimated_downstream_reach": 114,
-      "blast_radius": 114,
+      "estimated_downstream_reach": 117,
+      "blast_radius": 117,
       "archived": false
     },
     {
@@ -311,14 +311,14 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2499,
-        "clones_unique": 406,
-        "views_total": 237,
-        "views_unique": 160,
+        "clones_total": 2504,
+        "clones_unique": 407,
+        "views_total": 242,
+        "views_unique": 159,
         "top_referrers": [
           {
             "referrer": "Google",
-            "count": 67,
+            "count": 69,
             "uniques": 58
           },
           {
@@ -338,7 +338,7 @@
           },
           {
             "referrer": "perplexity.ai",
-            "count": 2,
+            "count": 3,
             "uniques": 1
           },
           {
@@ -351,8 +351,8 @@
           {
             "path": "/netresearch/agent-rules-skill",
             "title": "Overview",
-            "count": 115,
-            "uniques": 99
+            "count": 119,
+            "uniques": 98
           },
           {
             "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
@@ -511,8 +511,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 4,
-        "clones_unique": 4,
+        "clones_total": 6,
+        "clones_unique": 5,
         "views_total": 8,
         "views_unique": 7,
         "top_referrers": [
@@ -716,8 +716,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 93,
-        "clones_unique": 41,
+        "clones_total": 92,
+        "clones_unique": 40,
         "views_total": 10,
         "views_unique": 10,
         "top_referrers": [
@@ -857,8 +857,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 79,
-        "clones_unique": 33,
+        "clones_total": 78,
+        "clones_unique": 32,
         "views_total": 1,
         "views_unique": 1,
         "top_referrers": [],
@@ -947,8 +947,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 173,
-        "clones_unique": 46,
+        "clones_total": 184,
+        "clones_unique": 51,
         "views_total": 2,
         "views_unique": 2,
         "top_referrers": [
@@ -1054,10 +1054,10 @@
         "ghcr_downloads": 30
       },
       "traffic_14d": {
-        "clones_total": 170,
-        "clones_unique": 67,
-        "views_total": 4,
-        "views_unique": 4,
+        "clones_total": 171,
+        "clones_unique": 68,
+        "views_total": 5,
+        "views_unique": 5,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -1071,6 +1071,12 @@
             "title": "Overview",
             "count": 2,
             "uniques": 2
+          },
+          {
+            "path": "/netresearch/ansible_role_client_base/actions/workflows/ghcr.yml",
+            "title": "/actions/workflows/ghcr.yml",
+            "count": 1,
+            "uniques": 1
           },
           {
             "path": "/netresearch/ansible_role_client_base/pull/124/files",
@@ -1182,8 +1188,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 208,
-        "clones_unique": 64,
+        "clones_total": 221,
+        "clones_unique": 63,
         "views_total": 16,
         "views_unique": 8,
         "top_referrers": [
@@ -1359,8 +1365,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 384,
-        "clones_unique": 106,
+        "clones_total": 360,
+        "clones_unique": 96,
         "views_total": 10,
         "views_unique": 10,
         "top_referrers": [
@@ -1503,10 +1509,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 3007,
-        "clones_unique": 283,
-        "views_total": 50,
-        "views_unique": 47,
+        "clones_total": 2986,
+        "clones_unique": 276,
+        "views_total": 49,
+        "views_unique": 46,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -1683,7 +1689,7 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 68,
+        "clones_total": 69,
         "clones_unique": 35,
         "views_total": 39,
         "views_unique": 31,
@@ -1833,10 +1839,10 @@
       "default_branch": "main",
       "created_at": "2025-10-18T07:59:00Z",
       "pushed_at": "2026-10-28T10:01:08Z",
-      "updated_at": "2026-10-30T16:30:18Z",
+      "updated_at": "2026-11-02T22:43:43Z",
       "composer_name": null,
       "lifetime": {
-        "stars": 86,
+        "stars": 87,
         "forks": 25,
         "watchers": 2,
         "network": 25,
@@ -1867,25 +1873,25 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2239,
-        "clones_unique": 809,
-        "views_total": 469,
-        "views_unique": 314,
+        "clones_total": 2165,
+        "clones_unique": 811,
+        "views_total": 468,
+        "views_unique": 317,
         "top_referrers": [
           {
             "referrer": "t.co",
-            "count": 133,
-            "uniques": 116
+            "count": 135,
+            "uniques": 118
           },
           {
             "referrer": "Google",
-            "count": 62,
-            "uniques": 56
+            "count": 65,
+            "uniques": 58
           },
           {
             "referrer": "github.com",
-            "count": 44,
-            "uniques": 37
+            "count": 43,
+            "uniques": 35
           },
           {
             "referrer": "aocr.org",
@@ -1903,6 +1909,11 @@
             "uniques": 2
           },
           {
+            "referrer": "search.brave.com",
+            "count": 2,
+            "uniques": 2
+          },
+          {
             "referrer": "DuckDuckGo",
             "count": 1,
             "uniques": 1
@@ -1916,24 +1927,19 @@
             "referrer": "buildwithclaude.com",
             "count": 1,
             "uniques": 1
-          },
-          {
-            "referrer": "sabemos.ai",
-            "count": 1,
-            "uniques": 1
           }
         ],
         "top_paths": [
           {
             "path": "/netresearch/claude-code-marketplace",
             "title": "Overview",
-            "count": 336,
-            "uniques": 272
+            "count": 342,
+            "uniques": 277
           },
           {
             "path": "/netresearch/claude-code-marketplace/discussions",
             "title": "/discussions",
-            "count": 13,
+            "count": 12,
             "uniques": 6
           },
           {
@@ -1945,14 +1951,8 @@
           {
             "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
             "title": "/tree/main/.claude-plugin",
-            "count": 6,
-            "uniques": 6
-          },
-          {
-            "path": "/netresearch/claude-code-marketplace/tree/main/docs",
-            "title": "/tree/main/docs",
-            "count": 6,
-            "uniques": 4
+            "count": 5,
+            "uniques": 5
           },
           {
             "path": "/netresearch/claude-code-marketplace/tree/main/skills/php-modernization",
@@ -1961,10 +1961,10 @@
             "uniques": 4
           },
           {
-            "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
-            "title": "/blob/main/AGENTS.md",
-            "count": 4,
-            "uniques": 4
+            "path": "/netresearch/claude-code-marketplace/tree/main/docs",
+            "title": "/tree/main/docs",
+            "count": 5,
+            "uniques": 3
           },
           {
             "path": "/netresearch/claude-code-marketplace/blob/main/SYNC-SETUP.md",
@@ -1982,6 +1982,12 @@
             "path": "/netresearch/claude-code-marketplace/fork",
             "title": "/fork",
             "count": 4,
+            "uniques": 3
+          },
+          {
+            "path": "/netresearch/claude-code-marketplace/blob/main/AGENTS.md",
+            "title": "/blob/main/AGENTS.md",
+            "count": 3,
             "uniques": 3
           }
         ]
@@ -2107,8 +2113,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 67,
-        "clones_unique": 38,
+        "clones_total": 58,
+        "clones_unique": 30,
         "views_total": 35,
         "views_unique": 34,
         "top_referrers": [
@@ -2271,7 +2277,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 0,
-        "packagist_downloads": 26208,
+        "packagist_downloads": 26302,
         "ghcr_downloads": 0,
         "dependents_repos": 48,
         "dependents_packages": 0
@@ -2282,12 +2288,12 @@
         "prs_opened": 4,
         "prs_merged": 4,
         "releases": 0,
-        "packagist_downloads": 4844,
+        "packagist_downloads": 4935,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 450,
-        "clones_unique": 95,
+        "clones_total": 472,
+        "clones_unique": 102,
         "views_total": 55,
         "views_unique": 53,
         "top_referrers": [
@@ -2298,17 +2304,17 @@
           },
           {
             "referrer": "Google",
-            "count": 4,
-            "uniques": 4
-          },
-          {
-            "referrer": "github.com",
-            "count": 3,
-            "uniques": 3
+            "count": 5,
+            "uniques": 5
           },
           {
             "referrer": "netresearch.github.io",
             "count": 3,
+            "uniques": 2
+          },
+          {
+            "referrer": "github.com",
+            "count": 2,
             "uniques": 2
           }
         ],
@@ -2410,9 +2416,9 @@
       ],
       "packagist": {
         "name": "netresearch/composer-agent-skill-plugin",
-        "total": 26208,
-        "monthly": 4844,
-        "daily": 29,
+        "total": 26302,
+        "monthly": 4935,
+        "daily": 88,
         "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
       },
       "ghcr": null,
@@ -2461,7 +2467,7 @@
         "release_downloads": 0,
         "contributors": 16,
         "external_contributors": 12,
-        "packagist_downloads": 282163,
+        "packagist_downloads": 282306,
         "ghcr_downloads": 0,
         "dependents_repos": 48,
         "dependents_packages": 8
@@ -2472,12 +2478,12 @@
         "prs_opened": 6,
         "prs_merged": 5,
         "releases": 1,
-        "packagist_downloads": 3650,
+        "packagist_downloads": 3767,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 278,
-        "clones_unique": 86,
+        "clones_total": 280,
+        "clones_unique": 89,
         "views_total": 19,
         "views_unique": 18,
         "top_referrers": [
@@ -2497,8 +2503,8 @@
           {
             "path": "/netresearch/composer-patches-plugin/pulls",
             "title": "/pulls",
-            "count": 4,
-            "uniques": 4
+            "count": 3,
+            "uniques": 3
           },
           {
             "path": "/netresearch/composer-patches-plugin/blob/master/README.md",
@@ -2543,8 +2549,8 @@
             "uniques": 1
           },
           {
-            "path": "/netresearch/composer-patches-plugin/tree/master/src/Netresearch/Composer/Patches",
-            "title": "/tree/master/src/Netresearch/Composer/Patches",
+            "path": "/netresearch/composer-patches-plugin/releases/tag/1.3.1",
+            "title": "/releases/tag/1.3.1",
             "count": 1,
             "uniques": 1
           }
@@ -2610,9 +2616,9 @@
       ],
       "packagist": {
         "name": "netresearch/composer-patches-plugin",
-        "total": 282163,
-        "monthly": 3650,
-        "daily": 231,
+        "total": 282306,
+        "monthly": 3767,
+        "daily": 132,
         "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
       },
       "ghcr": null,
@@ -2658,7 +2664,7 @@
         "releases": 29,
         "release_downloads": 116,
         "contributors": 5,
-        "external_contributors": 0,
+        "external_contributors": 1,
         "packagist_downloads": 0,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
@@ -2674,10 +2680,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2194,
-        "clones_unique": 209,
-        "views_total": 51,
-        "views_unique": 31,
+        "clones_total": 2408,
+        "clones_unique": 212,
+        "views_total": 49,
+        "views_unique": 29,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -2686,8 +2692,8 @@
           },
           {
             "referrer": "Google",
-            "count": 6,
-            "uniques": 5
+            "count": 5,
+            "uniques": 4
           },
           {
             "referrer": "github.com",
@@ -2699,8 +2705,8 @@
           {
             "path": "/netresearch/concourse-ci-skill",
             "title": "Overview",
-            "count": 11,
-            "uniques": 10
+            "count": 9,
+            "uniques": 8
           },
           {
             "path": "/netresearch/concourse-ci-skill/tree/main/skills/concourse-ci",
@@ -2798,8 +2804,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/concourse-ci-skill/network/dependents"
       },
-      "estimated_downstream_reach": 103,
-      "blast_radius": 103,
+      "estimated_downstream_reach": 106,
+      "blast_radius": 106,
       "archived": false
     },
     {
@@ -2839,7 +2845,7 @@
         "release_downloads": 0,
         "contributors": 8,
         "external_contributors": 4,
-        "packagist_downloads": 394400,
+        "packagist_downloads": 394659,
         "ghcr_downloads": 0,
         "dependents_repos": 20,
         "dependents_packages": 3
@@ -2850,11 +2856,11 @@
         "prs_opened": 1,
         "prs_merged": 1,
         "releases": 0,
-        "packagist_downloads": 7970,
+        "packagist_downloads": 8140,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 207,
+        "clones_total": 205,
         "clones_unique": 47,
         "views_total": 7,
         "views_unique": 6,
@@ -2953,9 +2959,9 @@
       ],
       "packagist": {
         "name": "netresearch/config-fields-m2",
-        "total": 394400,
-        "monthly": 7970,
-        "daily": 90,
+        "total": 394659,
+        "monthly": 8140,
+        "daily": 243,
         "url": "https://packagist.org/packages/netresearch/config-fields-m2"
       },
       "ghcr": null,
@@ -3017,15 +3023,15 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 3383,
+        "clones_total": 3523,
         "clones_unique": 695,
-        "views_total": 528,
-        "views_unique": 349,
+        "views_total": 565,
+        "views_unique": 372,
         "top_referrers": [
           {
             "referrer": "Google",
-            "count": 302,
-            "uniques": 250
+            "count": 326,
+            "uniques": 267
           },
           {
             "referrer": "aocr.org",
@@ -3034,23 +3040,18 @@
           },
           {
             "referrer": "teams.public.onecdn.static.microsoft",
-            "count": 20,
+            "count": 21,
             "uniques": 19
           },
           {
             "referrer": "github.com",
-            "count": 16,
-            "uniques": 11
+            "count": 18,
+            "uniques": 12
           },
           {
             "referrer": "search.brave.com",
-            "count": 13,
-            "uniques": 13
-          },
-          {
-            "referrer": "Yahoo",
-            "count": 2,
-            "uniques": 1
+            "count": 17,
+            "uniques": 17
           },
           {
             "referrer": "Bing",
@@ -3071,26 +3072,31 @@
             "referrer": "ya.ru",
             "count": 1,
             "uniques": 1
+          },
+          {
+            "referrer": "yandex.ru",
+            "count": 1,
+            "uniques": 1
           }
         ],
         "top_paths": [
           {
             "path": "/netresearch/context7-skill",
             "title": "Overview",
-            "count": 415,
-            "uniques": 329
+            "count": 448,
+            "uniques": 348
+          },
+          {
+            "path": "/netresearch/context7-skill/tree/main/skills/context7",
+            "title": "/tree/main/skills/context7",
+            "count": 24,
+            "uniques": 21
           },
           {
             "path": "/netresearch/context7-skill/blob/main/skills/context7/SKILL.md",
             "title": "/blob/main/skills/context7/SKILL.md",
             "count": 22,
-            "uniques": 19
-          },
-          {
-            "path": "/netresearch/context7-skill/tree/main/skills/context7",
-            "title": "/tree/main/skills/context7",
-            "count": 21,
-            "uniques": 19
+            "uniques": 20
           },
           {
             "path": "/netresearch/context7-skill/blob/main/skills/context7/scripts/context7.sh",
@@ -3129,8 +3135,8 @@
             "uniques": 3
           },
           {
-            "path": "/netresearch/context7-skill/tree/main/.claude-plugin",
-            "title": "/tree/main/.claude-plugin",
+            "path": "/netresearch/context7-skill/tree/main",
+            "title": "/tree/main",
             "count": 3,
             "uniques": 2
           }
@@ -3224,10 +3230,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 3154,
-        "clones_unique": 330,
-        "views_total": 59,
-        "views_unique": 41,
+        "clones_total": 3088,
+        "clones_unique": 315,
+        "views_total": 58,
+        "views_unique": 40,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -3236,8 +3242,8 @@
           },
           {
             "referrer": "Google",
-            "count": 4,
-            "uniques": 4
+            "count": 3,
+            "uniques": 3
           },
           {
             "referrer": "github.com",
@@ -3249,8 +3255,8 @@
           {
             "path": "/netresearch/data-tools-skill",
             "title": "Overview",
-            "count": 12,
-            "uniques": 12
+            "count": 11,
+            "uniques": 11
           },
           {
             "path": "/netresearch/data-tools-skill/blob/main/skills/data-tools/SKILL.md",
@@ -3496,8 +3502,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 16,
-        "clones_unique": 12,
+        "clones_total": 14,
+        "clones_unique": 10,
         "views_total": 1,
         "views_unique": 1,
         "top_referrers": [],
@@ -3589,7 +3595,7 @@
         "release_downloads": 0,
         "contributors": 8,
         "external_contributors": 7,
-        "packagist_downloads": 245642,
+        "packagist_downloads": 245819,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -3600,12 +3606,12 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 4318,
+        "packagist_downloads": 4436,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 69,
-        "clones_unique": 50,
+        "clones_total": 71,
+        "clones_unique": 51,
         "views_total": 1,
         "views_unique": 1,
         "top_referrers": [],
@@ -3668,9 +3674,9 @@
       ],
       "packagist": {
         "name": "deutschepost/module-addressfactory-m2",
-        "total": 245642,
-        "monthly": 4318,
-        "daily": 80,
+        "total": 245819,
+        "monthly": 4436,
+        "daily": 162,
         "url": "https://packagist.org/packages/deutschepost/module-addressfactory-m2"
       },
       "ghcr": null,
@@ -3730,8 +3736,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 46,
-        "clones_unique": 24,
+        "clones_total": 44,
+        "clones_unique": 23,
         "views_total": 4,
         "views_unique": 4,
         "top_referrers": [],
@@ -3743,8 +3749,8 @@
             "uniques": 2
           },
           {
-            "path": "/netresearch/deutschepost-module-addressfactory-sw6/blob/master/LICENSE.md",
-            "title": "/blob/master/LICENSE.md",
+            "path": "/netresearch/deutschepost-module-addressfactory-sw6",
+            "title": "Overview",
             "count": 1,
             "uniques": 1
           },
@@ -3861,8 +3867,8 @@
       "traffic_14d": {
         "clones_total": 18,
         "clones_unique": 15,
-        "views_total": 5,
-        "views_unique": 5,
+        "views_total": 4,
+        "views_unique": 4,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -3876,12 +3882,6 @@
             "title": "Overview",
             "count": 3,
             "uniques": 3
-          },
-          {
-            "path": "/netresearch/deutschepost-module-autocomplete-m1/blob/master/LICENSE.md",
-            "title": "/blob/master/LICENSE.md",
-            "count": 1,
-            "uniques": 1
           },
           {
             "path": "/netresearch/deutschepost-module-autocomplete-m1/blob/master/modman",
@@ -3990,7 +3990,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 4,
-        "packagist_downloads": 246208,
+        "packagist_downloads": 246389,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -4001,27 +4001,27 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 4349,
+        "packagist_downloads": 4471,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 78,
+        "clones_total": 79,
         "clones_unique": 61,
-        "views_total": 5,
-        "views_unique": 5,
+        "views_total": 4,
+        "views_unique": 4,
         "top_referrers": [],
         "top_paths": [
-          {
-            "path": "/netresearch/deutschepost-module-autocomplete-m2",
-            "title": "Overview",
-            "count": 2,
-            "uniques": 2
-          },
           {
             "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/README.md",
             "title": "/blob/main/README.md",
             "count": 2,
             "uniques": 2
+          },
+          {
+            "path": "/netresearch/deutschepost-module-autocomplete-m2",
+            "title": "Overview",
+            "count": 1,
+            "uniques": 1
           },
           {
             "path": "/netresearch/deutschepost-module-autocomplete-m2/pulls",
@@ -4066,9 +4066,9 @@
       ],
       "packagist": {
         "name": "deutschepost/module-autocomplete-m2",
-        "total": 246208,
-        "monthly": 4349,
-        "daily": 80,
+        "total": 246389,
+        "monthly": 4471,
+        "daily": 165,
         "url": "https://packagist.org/packages/deutschepost/module-autocomplete-m2"
       },
       "ghcr": null,
@@ -4134,10 +4134,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 75,
-        "clones_unique": 51,
-        "views_total": 17,
-        "views_unique": 17,
+        "clones_total": 73,
+        "clones_unique": 49,
+        "views_total": 16,
+        "views_unique": 16,
         "top_referrers": [
           {
             "referrer": "Google",
@@ -4159,8 +4159,8 @@
           {
             "path": "/netresearch/deutschepost-module-autocomplete-sw6",
             "title": "Overview",
-            "count": 8,
-            "uniques": 8
+            "count": 7,
+            "uniques": 7
           },
           {
             "path": "/netresearch/deutschepost-module-autocomplete-sw6/actions/runs/27619465640",
@@ -4312,7 +4312,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 4,
-        "packagist_downloads": 248380,
+        "packagist_downloads": 248559,
         "ghcr_downloads": 0,
         "dependents_repos": 4,
         "dependents_packages": 0
@@ -4323,23 +4323,16 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 4355,
+        "packagist_downloads": 4475,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 31,
-        "clones_unique": 26,
-        "views_total": 1,
-        "views_unique": 1,
+        "clones_total": 33,
+        "clones_unique": 27,
+        "views_total": 0,
+        "views_unique": 0,
         "top_referrers": [],
-        "top_paths": [
-          {
-            "path": "/netresearch/deutschepost-module-core",
-            "title": "Overview",
-            "count": 1,
-            "uniques": 1
-          }
-        ]
+        "top_paths": []
       },
       "latest_release": {
         "name": "1.5.0",
@@ -4376,9 +4369,9 @@
       ],
       "packagist": {
         "name": "deutschepost/module-core",
-        "total": 248380,
-        "monthly": 4355,
-        "daily": 80,
+        "total": 248559,
+        "monthly": 4475,
+        "daily": 163,
         "url": "https://packagist.org/packages/deutschepost/module-core"
       },
       "ghcr": null,
@@ -4425,7 +4418,7 @@
         "release_downloads": 0,
         "contributors": 3,
         "external_contributors": 3,
-        "packagist_downloads": 245435,
+        "packagist_downloads": 245649,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -4436,14 +4429,14 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 5399,
+        "packagist_downloads": 5535,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
         "clones_total": 37,
         "clones_unique": 30,
-        "views_total": 1,
-        "views_unique": 1,
+        "views_total": 2,
+        "views_unique": 2,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -4452,6 +4445,12 @@
           }
         ],
         "top_paths": [
+          {
+            "path": "/netresearch/deutschepost-module-internetmarke",
+            "title": "Overview",
+            "count": 1,
+            "uniques": 1
+          },
           {
             "path": "/netresearch/deutschepost-module-internetmarke/releases",
             "title": "/releases",
@@ -4485,9 +4484,9 @@
       ],
       "packagist": {
         "name": "deutschepost/module-internetmarke",
-        "total": 245435,
-        "monthly": 5399,
-        "daily": 87,
+        "total": 245649,
+        "monthly": 5535,
+        "daily": 191,
         "url": "https://packagist.org/packages/deutschepost/module-internetmarke"
       },
       "ghcr": null,
@@ -4539,7 +4538,7 @@
         "release_downloads": 0,
         "contributors": 8,
         "external_contributors": 5,
-        "packagist_downloads": 436552,
+        "packagist_downloads": 437039,
         "ghcr_downloads": 0,
         "dependents_repos": 6,
         "dependents_packages": 0
@@ -4550,12 +4549,12 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 10480,
+        "packagist_downloads": 10898,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
         "clones_total": 62,
-        "clones_unique": 52,
+        "clones_unique": 51,
         "views_total": 11,
         "views_unique": 10,
         "top_referrers": [
@@ -4636,9 +4635,9 @@
       ],
       "packagist": {
         "name": "deutschepost/sdk-api-addressfactory",
-        "total": 436552,
-        "monthly": 10480,
-        "daily": 90,
+        "total": 437039,
+        "monthly": 10898,
+        "daily": 432,
         "url": "https://packagist.org/packages/deutschepost/sdk-api-addressfactory"
       },
       "ghcr": null,
@@ -4685,7 +4684,7 @@
         "release_downloads": 0,
         "contributors": 2,
         "external_contributors": 1,
-        "packagist_downloads": 18782,
+        "packagist_downloads": 18901,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -4696,32 +4695,27 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 3009,
+        "packagist_downloads": 3083,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 49,
-        "clones_unique": 43,
-        "views_total": 5,
-        "views_unique": 5,
+        "clones_total": 53,
+        "clones_unique": 46,
+        "views_total": 4,
+        "views_unique": 4,
         "top_referrers": [
           {
             "referrer": "aocr.org",
             "count": 4,
             "uniques": 4
-          },
-          {
-            "referrer": "Google",
-            "count": 1,
-            "uniques": 1
           }
         ],
         "top_paths": [
           {
             "path": "/netresearch/deutschepost-sdk-api-internetmarke",
             "title": "Overview",
-            "count": 5,
-            "uniques": 5
+            "count": 4,
+            "uniques": 4
           }
         ]
       },
@@ -4745,9 +4739,9 @@
       ],
       "packagist": {
         "name": "deutschepost/sdk-api-internetmarke",
-        "total": 18782,
-        "monthly": 3009,
-        "daily": 51,
+        "total": 18901,
+        "monthly": 3083,
+        "daily": 110,
         "url": "https://packagist.org/packages/deutschepost/sdk-api-internetmarke"
       },
       "ghcr": null,
@@ -4799,7 +4793,7 @@
         "release_downloads": 0,
         "contributors": 4,
         "external_contributors": 2,
-        "packagist_downloads": 243960,
+        "packagist_downloads": 244169,
         "ghcr_downloads": 0,
         "dependents_repos": 3,
         "dependents_packages": 0
@@ -4810,11 +4804,11 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 5387,
+        "packagist_downloads": 5518,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 35,
+        "clones_total": 36,
         "clones_unique": 28,
         "views_total": 1,
         "views_unique": 1,
@@ -4864,9 +4858,9 @@
       ],
       "packagist": {
         "name": "deutschepost/sdk-api-prodws",
-        "total": 243960,
-        "monthly": 5387,
-        "daily": 85,
+        "total": 244169,
+        "monthly": 5518,
+        "daily": 189,
         "url": "https://packagist.org/packages/deutschepost/sdk-api-prodws"
       },
       "ghcr": null,
@@ -4919,7 +4913,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 3,
-        "packagist_downloads": 279633,
+        "packagist_downloads": 279835,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -4930,14 +4924,14 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 4827,
+        "packagist_downloads": 4970,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
         "clones_total": 49,
         "clones_unique": 36,
-        "views_total": 9,
-        "views_unique": 9,
+        "views_total": 8,
+        "views_unique": 8,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -4954,8 +4948,8 @@
           {
             "path": "/netresearch/deutschepost-sdk-autocomplete-authentication",
             "title": "Overview",
-            "count": 8,
-            "uniques": 8
+            "count": 7,
+            "uniques": 7
           },
           {
             "path": "/netresearch/deutschepost-sdk-autocomplete-authentication/blob/main/README.md",
@@ -5000,9 +4994,9 @@
       ],
       "packagist": {
         "name": "deutschepost/sdk-api-autocomplete-authentication",
-        "total": 279633,
-        "monthly": 4827,
-        "daily": 86,
+        "total": 279835,
+        "monthly": 4970,
+        "daily": 183,
         "url": "https://packagist.org/packages/deutschepost/sdk-api-autocomplete-authentication"
       },
       "ghcr": null,
@@ -5062,8 +5056,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 20,
-        "clones_unique": 15,
+        "clones_total": 19,
+        "clones_unique": 14,
         "views_total": 1,
         "views_unique": 1,
         "top_referrers": [],
@@ -5193,8 +5187,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 12,
-        "clones_unique": 9,
+        "clones_total": 11,
+        "clones_unique": 8,
         "views_total": 1,
         "views_unique": 1,
         "top_referrers": [
@@ -5306,7 +5300,7 @@
         "release_downloads": 0,
         "contributors": 7,
         "external_contributors": 5,
-        "packagist_downloads": 272904,
+        "packagist_downloads": 273116,
         "ghcr_downloads": 0,
         "dependents_repos": 6,
         "dependents_packages": 2
@@ -5317,12 +5311,12 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 1,
-        "packagist_downloads": 5671,
+        "packagist_downloads": 5799,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 94,
-        "clones_unique": 64,
+        "clones_total": 97,
+        "clones_unique": 66,
         "views_total": 30,
         "views_unique": 22,
         "top_referrers": [
@@ -5450,9 +5444,9 @@
       ],
       "packagist": {
         "name": "dhl/module-carrier-paket",
-        "total": 272904,
-        "monthly": 5671,
-        "daily": 90,
+        "total": 273116,
+        "monthly": 5799,
+        "daily": 192,
         "url": "https://packagist.org/packages/dhl/module-carrier-paket"
       },
       "ghcr": null,
@@ -5499,7 +5493,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 3,
-        "packagist_downloads": 287431,
+        "packagist_downloads": 287646,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -5510,7 +5504,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6041,
+        "packagist_downloads": 6176,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -5563,9 +5557,9 @@
       ],
       "packagist": {
         "name": "dhl/module-carrier-paket-returns",
-        "total": 287431,
-        "monthly": 6041,
-        "daily": 89,
+        "total": 287646,
+        "monthly": 6176,
+        "daily": 195,
         "url": "https://packagist.org/packages/dhl/module-carrier-paket-returns"
       },
       "ghcr": null,
@@ -5618,7 +5612,7 @@
         "release_downloads": 0,
         "contributors": 2,
         "external_contributors": 2,
-        "packagist_downloads": 2833,
+        "packagist_downloads": 2835,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -5629,7 +5623,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 134,
+        "packagist_downloads": 133,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -5685,9 +5679,9 @@
       ],
       "packagist": {
         "name": "dhl/module-carrier-update",
-        "total": 2833,
-        "monthly": 134,
-        "daily": 4,
+        "total": 2835,
+        "monthly": 133,
+        "daily": 2,
         "url": "https://packagist.org/packages/dhl/module-carrier-update"
       },
       "ghcr": null,
@@ -5747,8 +5741,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 18,
-        "clones_unique": 13,
+        "clones_total": 17,
+        "clones_unique": 12,
         "views_total": 2,
         "views_unique": 2,
         "top_referrers": [
@@ -5866,7 +5860,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 3,
-        "packagist_downloads": 337761,
+        "packagist_downloads": 337976,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -5877,7 +5871,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6239,
+        "packagist_downloads": 6368,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -5930,9 +5924,9 @@
       ],
       "packagist": {
         "name": "dhl/module-shipping-core",
-        "total": 337761,
-        "monthly": 6239,
-        "daily": 91,
+        "total": 337976,
+        "monthly": 6368,
+        "daily": 194,
         "url": "https://packagist.org/packages/dhl/module-shipping-core"
       },
       "ghcr": null,
@@ -5992,8 +5986,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 18,
-        "clones_unique": 15,
+        "clones_total": 17,
+        "clones_unique": 14,
         "views_total": 27,
         "views_unique": 17,
         "top_referrers": [
@@ -6016,6 +6010,12 @@
             "uniques": 1
           },
           {
+            "path": "/netresearch/dhl-module-shipping-m2/releases",
+            "title": "/releases",
+            "count": 3,
+            "uniques": 3
+          },
+          {
             "path": "/netresearch/dhl-module-shipping-m2/blob/master/README.md",
             "title": "/blob/master/README.md",
             "count": 2,
@@ -6024,12 +6024,6 @@
           {
             "path": "/netresearch/dhl-module-shipping-m2/issues/20",
             "title": "/issues/20",
-            "count": 2,
-            "uniques": 2
-          },
-          {
-            "path": "/netresearch/dhl-module-shipping-m2/releases",
-            "title": "/releases",
             "count": 2,
             "uniques": 2
           },
@@ -6187,8 +6181,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 65,
-        "clones_unique": 34,
+        "clones_total": 64,
+        "clones_unique": 33,
         "views_total": 6,
         "views_unique": 6,
         "top_referrers": [
@@ -6330,7 +6324,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 3,
-        "packagist_downloads": 313971,
+        "packagist_downloads": 314180,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -6341,7 +6335,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 5689,
+        "packagist_downloads": 5814,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -6394,9 +6388,9 @@
       ],
       "packagist": {
         "name": "dhl/module-unified-tracking",
-        "total": 313971,
-        "monthly": 5689,
-        "daily": 89,
+        "total": 314180,
+        "monthly": 5814,
+        "daily": 189,
         "url": "https://packagist.org/packages/dhl/module-unified-tracking"
       },
       "ghcr": null,
@@ -6464,10 +6458,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 27,
-        "clones_unique": 20,
-        "views_total": 21,
-        "views_unique": 16,
+        "clones_total": 25,
+        "clones_unique": 18,
+        "views_total": 24,
+        "views_unique": 18,
         "top_referrers": [
           {
             "referrer": "Google",
@@ -6495,6 +6489,12 @@
           {
             "path": "/netresearch/dhl-module-versenden-m1",
             "title": "Overview",
+            "count": 4,
+            "uniques": 3
+          },
+          {
+            "path": "/netresearch/dhl-module-versenden-m1/releases",
+            "title": "/releases",
             "count": 3,
             "uniques": 3
           },
@@ -6517,14 +6517,8 @@
             "uniques": 2
           },
           {
-            "path": "/netresearch/dhl-module-versenden-m1/releases",
-            "title": "/releases",
-            "count": 2,
-            "uniques": 2
-          },
-          {
-            "path": "/netresearch/dhl-module-versenden-m1/activity",
-            "title": "/activity",
+            "path": "/netresearch/dhl-module-versenden-m1/blob/master/.gitignore",
+            "title": "/blob/master/.gitignore",
             "count": 1,
             "uniques": 1
           },
@@ -6535,14 +6529,14 @@
             "uniques": 1
           },
           {
-            "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/EndUserDoc.rst",
-            "title": "/blob/master/doc/src/EndUserDoc.rst",
+            "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/EndKundenDoku.rst",
+            "title": "/blob/master/doc/src/EndKundenDoku.rst",
             "count": 1,
             "uniques": 1
           },
           {
-            "path": "/netresearch/dhl-module-versenden-m1/issues/new",
-            "title": "/issues/new",
+            "path": "/netresearch/dhl-module-versenden-m1/blob/master/doc/src/EndUserDoc.rst",
+            "title": "/blob/master/doc/src/EndUserDoc.rst",
             "count": 1,
             "uniques": 1
           }
@@ -6662,8 +6656,8 @@
       "traffic_14d": {
         "clones_total": 25,
         "clones_unique": 18,
-        "views_total": 6,
-        "views_unique": 6,
+        "views_total": 7,
+        "views_unique": 7,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -6675,8 +6669,8 @@
           {
             "path": "/netresearch/dhl-online-retoure-m1",
             "title": "Overview",
-            "count": 2,
-            "uniques": 2
+            "count": 3,
+            "uniques": 3
           },
           {
             "path": "/netresearch/dhl-online-retoure-m1/issues",
@@ -6792,7 +6786,7 @@
         "release_downloads": 0,
         "contributors": 7,
         "external_contributors": 4,
-        "packagist_downloads": 330797,
+        "packagist_downloads": 330820,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -6803,14 +6797,14 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 546,
+        "packagist_downloads": 569,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
         "clones_total": 27,
         "clones_unique": 23,
-        "views_total": 13,
-        "views_unique": 12,
+        "views_total": 14,
+        "views_unique": 13,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -6822,12 +6816,18 @@
           {
             "path": "/netresearch/dhl-sdk-api-bcs",
             "title": "Overview",
-            "count": 7,
-            "uniques": 7
+            "count": 6,
+            "uniques": 6
           },
           {
             "path": "/netresearch/dhl-sdk-api-bcs/blob/master/CHANGELOG.md",
             "title": "/blob/master/CHANGELOG.md",
+            "count": 2,
+            "uniques": 2
+          },
+          {
+            "path": "/netresearch/dhl-sdk-api-bcs/blob/master/LICENSE.md",
+            "title": "/blob/master/LICENSE.md",
             "count": 1,
             "uniques": 1
           },
@@ -6908,9 +6908,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-bcs",
-        "total": 330797,
-        "monthly": 546,
-        "daily": 4,
+        "total": 330820,
+        "monthly": 569,
+        "daily": 21,
         "url": "https://packagist.org/packages/dhl/sdk-api-bcs"
       },
       "ghcr": null,
@@ -6963,7 +6963,7 @@
         "release_downloads": 0,
         "contributors": 6,
         "external_contributors": 3,
-        "packagist_downloads": 248374,
+        "packagist_downloads": 248409,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -6974,13 +6974,13 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 857,
+        "packagist_downloads": 886,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 24,
-        "clones_unique": 18,
-        "views_total": 12,
+        "clones_total": 23,
+        "clones_unique": 17,
+        "views_total": 13,
         "views_unique": 11,
         "top_referrers": [
           {
@@ -6991,14 +6991,14 @@
         ],
         "top_paths": [
           {
-            "path": "/netresearch/dhl-sdk-api-bcs-returns",
-            "title": "Overview",
-            "count": 4,
-            "uniques": 4
-          },
-          {
             "path": "/netresearch/dhl-sdk-api-bcs-returns/issues",
             "title": "/issues",
+            "count": 5,
+            "uniques": 5
+          },
+          {
+            "path": "/netresearch/dhl-sdk-api-bcs-returns",
+            "title": "Overview",
             "count": 4,
             "uniques": 4
           },
@@ -7068,9 +7068,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-bcs-returns",
-        "total": 248374,
-        "monthly": 857,
-        "daily": 5,
+        "total": 248409,
+        "monthly": 886,
+        "daily": 30,
         "url": "https://packagist.org/packages/dhl/sdk-api-bcs-returns"
       },
       "ghcr": null,
@@ -7139,8 +7139,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 17,
-        "clones_unique": 12,
+        "clones_total": 16,
+        "clones_unique": 11,
         "views_total": 5,
         "views_unique": 5,
         "top_referrers": [
@@ -7273,7 +7273,7 @@
         "release_downloads": 0,
         "contributors": 2,
         "external_contributors": 1,
-        "packagist_downloads": 118451,
+        "packagist_downloads": 118853,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -7284,14 +7284,14 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 1,
-        "packagist_downloads": 8227,
+        "packagist_downloads": 8532,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 143,
-        "clones_unique": 106,
-        "views_total": 10,
-        "views_unique": 9,
+        "clones_total": 145,
+        "clones_unique": 107,
+        "views_total": 11,
+        "views_unique": 10,
         "top_referrers": [
           {
             "referrer": "Google",
@@ -7312,14 +7312,14 @@
             "uniques": 6
           },
           {
-            "path": "/netresearch/dhl-sdk-api-parcel-de/issues",
-            "title": "/issues",
-            "count": 1,
-            "uniques": 1
-          },
-          {
             "path": "/netresearch/dhl-sdk-api-parcel-de/pulls",
             "title": "/pulls",
+            "count": 2,
+            "uniques": 2
+          },
+          {
+            "path": "/netresearch/dhl-sdk-api-parcel-de/issues",
+            "title": "/issues",
             "count": 1,
             "uniques": 1
           },
@@ -7351,9 +7351,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-parcel-de",
-        "total": 118451,
-        "monthly": 8227,
-        "daily": 108,
+        "total": 118853,
+        "monthly": 8532,
+        "daily": 357,
         "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de"
       },
       "ghcr": null,
@@ -7408,7 +7408,7 @@
         "release_downloads": 0,
         "contributors": 3,
         "external_contributors": 2,
-        "packagist_downloads": 90317,
+        "packagist_downloads": 90591,
         "ghcr_downloads": 0,
         "dependents_repos": 1,
         "dependents_packages": 0
@@ -7419,14 +7419,14 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 7049,
+        "packagist_downloads": 7243,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 62,
+        "clones_total": 65,
         "clones_unique": 53,
-        "views_total": 8,
-        "views_unique": 8,
+        "views_total": 9,
+        "views_unique": 9,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -7444,6 +7444,12 @@
           {
             "path": "/netresearch/dhl-sdk-api-parcel-de-returns/issues",
             "title": "/issues",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "path": "/netresearch/dhl-sdk-api-parcel-de-returns/pulls",
+            "title": "/pulls",
             "count": 1,
             "uniques": 1
           }
@@ -7474,9 +7480,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-parcel-de-returns",
-        "total": 90317,
-        "monthly": 7049,
-        "daily": 90,
+        "total": 90591,
+        "monthly": 7243,
+        "daily": 245,
         "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de-returns"
       },
       "ghcr": null,
@@ -7531,7 +7537,7 @@
         "release_downloads": 0,
         "contributors": 6,
         "external_contributors": 3,
-        "packagist_downloads": 375025,
+        "packagist_downloads": 375251,
         "ghcr_downloads": 0,
         "dependents_repos": 9,
         "dependents_packages": 0
@@ -7542,12 +7548,12 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6162,
+        "packagist_downloads": 6304,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 34,
-        "clones_unique": 29,
+        "clones_total": 36,
+        "clones_unique": 30,
         "views_total": 4,
         "views_unique": 4,
         "top_referrers": [
@@ -7612,9 +7618,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-parcel-management",
-        "total": 375025,
-        "monthly": 6162,
-        "daily": 88,
+        "total": 375251,
+        "monthly": 6304,
+        "daily": 204,
         "url": "https://packagist.org/packages/dhl/sdk-api-parcel-management"
       },
       "ghcr": null,
@@ -7670,7 +7676,7 @@
         "release_downloads": 0,
         "contributors": 4,
         "external_contributors": 2,
-        "packagist_downloads": 343405,
+        "packagist_downloads": 343649,
         "ghcr_downloads": 0,
         "dependents_repos": 4,
         "dependents_packages": 0
@@ -7681,11 +7687,11 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6404,
+        "packagist_downloads": 6556,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 32,
+        "clones_total": 33,
         "clones_unique": 27,
         "views_total": 6,
         "views_unique": 6,
@@ -7741,9 +7747,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-unified-location-finder",
-        "total": 343405,
-        "monthly": 6404,
-        "daily": 89,
+        "total": 343649,
+        "monthly": 6556,
+        "daily": 219,
         "url": "https://packagist.org/packages/dhl/sdk-api-unified-location-finder"
       },
       "ghcr": null,
@@ -7800,7 +7806,7 @@
         "release_downloads": 0,
         "contributors": 7,
         "external_contributors": 3,
-        "packagist_downloads": 361624,
+        "packagist_downloads": 361891,
         "ghcr_downloads": 0,
         "dependents_repos": 3,
         "dependents_packages": 0
@@ -7811,21 +7817,21 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6809,
+        "packagist_downloads": 6991,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 40,
-        "clones_unique": 35,
-        "views_total": 4,
-        "views_unique": 4,
+        "clones_total": 38,
+        "clones_unique": 33,
+        "views_total": 3,
+        "views_unique": 3,
         "top_referrers": [],
         "top_paths": [
           {
             "path": "/netresearch/dhl-sdk-api-unified-tracking",
             "title": "Overview",
-            "count": 4,
-            "uniques": 4
+            "count": 3,
+            "uniques": 3
           }
         ]
       },
@@ -7874,9 +7880,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-unified-tracking",
-        "total": 361624,
-        "monthly": 6809,
-        "daily": 92,
+        "total": 361891,
+        "monthly": 6991,
+        "daily": 239,
         "url": "https://packagist.org/packages/dhl/sdk-api-unified-tracking"
       },
       "ghcr": null,
@@ -7948,10 +7954,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 59,
+        "clones_total": 60,
         "clones_unique": 47,
-        "views_total": 62,
-        "views_unique": 40,
+        "views_total": 61,
+        "views_unique": 39,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -8030,8 +8036,8 @@
             "uniques": 2
           },
           {
-            "path": "/netresearch/dhl-shipping-m2/releases",
-            "title": "/releases",
+            "path": "/netresearch/dhl-shipping-m2/wiki/Documentation-German",
+            "title": "/wiki/Documentation-German",
             "count": 2,
             "uniques": 2
           }
@@ -8127,10 +8133,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 3960,
-        "clones_unique": 385,
+        "clones_total": 3528,
+        "clones_unique": 367,
         "views_total": 92,
-        "views_unique": 70,
+        "views_unique": 68,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -8144,7 +8150,7 @@
           },
           {
             "referrer": "github.com",
-            "count": 5,
+            "count": 6,
             "uniques": 4
           },
           {
@@ -8157,7 +8163,7 @@
           {
             "path": "/netresearch/docker-development-skill",
             "title": "Overview",
-            "count": 29,
+            "count": 30,
             "uniques": 28
           },
           {
@@ -8314,10 +8320,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 5015,
-        "clones_unique": 377,
+        "clones_total": 4607,
+        "clones_unique": 338,
         "views_total": 57,
-        "views_unique": 50,
+        "views_unique": 49,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -8326,7 +8332,7 @@
           },
           {
             "referrer": "github.com",
-            "count": 4,
+            "count": 5,
             "uniques": 3
           },
           {
@@ -8339,7 +8345,7 @@
           {
             "path": "/netresearch/enterprise-readiness-skill",
             "title": "Overview",
-            "count": 24,
+            "count": 25,
             "uniques": 17
           },
           {
@@ -8379,12 +8385,6 @@
             "uniques": 1
           },
           {
-            "path": "/netresearch/enterprise-readiness-skill/blob/main/docs/SECURITY-ASSURANCE.md",
-            "title": "/blob/main/docs/SECURITY-ASSURANCE.md",
-            "count": 1,
-            "uniques": 1
-          },
-          {
             "path": "/netresearch/enterprise-readiness-skill/blob/main/skills/enterprise-readiness/references/mandatory-requirements.md",
             "title": "/blob/main/skills/enterprise-readiness/references/mandatory-requirements.md",
             "count": 1,
@@ -8393,6 +8393,12 @@
           {
             "path": "/netresearch/enterprise-readiness-skill/blob/main/skills/enterprise-readiness/references/openssf-badge-gold.md",
             "title": "/blob/main/skills/enterprise-readiness/references/openssf-badge-gold.md",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "path": "/netresearch/enterprise-readiness-skill/blob/main/skills/enterprise-readiness/references/openssf-badge-silver.md",
+            "title": "/blob/main/skills/enterprise-readiness/references/openssf-badge-silver.md",
             "count": 1,
             "uniques": 1
           }
@@ -8491,15 +8497,15 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 3421,
-        "clones_unique": 381,
-        "views_total": 193,
-        "views_unique": 99,
+        "clones_total": 3483,
+        "clones_unique": 393,
+        "views_total": 196,
+        "views_unique": 102,
         "top_referrers": [
           {
             "referrer": "Google",
-            "count": 59,
-            "uniques": 50
+            "count": 61,
+            "uniques": 52
           },
           {
             "referrer": "aocr.org",
@@ -8526,8 +8532,8 @@
           {
             "path": "/netresearch/file-search-skill",
             "title": "Overview",
-            "count": 80,
-            "uniques": 65
+            "count": 82,
+            "uniques": 67
           },
           {
             "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
@@ -8554,6 +8560,12 @@
             "uniques": 4
           },
           {
+            "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/rga-guide.md",
+            "title": "/blob/main/skills/file-search/references/rga-guide.md",
+            "count": 4,
+            "uniques": 4
+          },
+          {
             "path": "/netresearch/file-search-skill/issues",
             "title": "/issues",
             "count": 4,
@@ -8576,12 +8588,6 @@
             "title": "/tree/main/skills/file-search/references",
             "count": 4,
             "uniques": 2
-          },
-          {
-            "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/rga-guide.md",
-            "title": "/blob/main/skills/file-search/references/rga-guide.md",
-            "count": 3,
-            "uniques": 3
           }
         ]
       },
@@ -8816,15 +8822,15 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2117,
-        "clones_unique": 245,
-        "views_total": 64,
-        "views_unique": 42,
+        "clones_total": 2111,
+        "clones_unique": 247,
+        "views_total": 69,
+        "views_unique": 46,
         "top_referrers": [
           {
             "referrer": "Google",
-            "count": 25,
-            "uniques": 19
+            "count": 30,
+            "uniques": 23
           },
           {
             "referrer": "aocr.org",
@@ -8841,8 +8847,8 @@
           {
             "path": "/netresearch/german-technical-writing-skill",
             "title": "Overview",
-            "count": 31,
-            "uniques": 26
+            "count": 35,
+            "uniques": 29
           },
           {
             "path": "/netresearch/german-technical-writing-skill/blob/main/AGENTS.md",
@@ -8893,8 +8899,8 @@
             "uniques": 1
           },
           {
-            "path": "/netresearch/german-technical-writing-skill/blob/main/skills/german-technical-writing/evals/evals.json",
-            "title": "/blob/main/skills/german-technical-writing/evals/evals.json",
+            "path": "/netresearch/german-technical-writing-skill/blob/main/README.md",
+            "title": "/blob/main/README.md",
             "count": 1,
             "uniques": 1
           }
@@ -8965,50 +8971,50 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-12-13T11:57:34Z",
-      "pushed_at": "2026-10-30T20:42:27Z",
-      "updated_at": "2026-10-30T01:27:48Z",
+      "pushed_at": "2026-11-02T16:20:13Z",
+      "updated_at": "2026-11-02T16:20:17Z",
       "composer_name": null,
       "lifetime": {
         "stars": 59,
         "forks": 14,
         "watchers": 1,
         "network": 14,
-        "open_issues_plus_prs": 6,
-        "commits": 1177,
-        "issues_open": 4,
-        "issues_closed": 26,
+        "open_issues_plus_prs": 5,
+        "commits": 1185,
+        "issues_open": 3,
+        "issues_closed": 27,
         "prs_open": 2,
-        "prs_merged": 396,
+        "prs_merged": 397,
         "prs_closed_unmerged": 1,
         "issues_total": 30,
         "releases": 70,
         "release_downloads": 463,
         "contributors": 7,
-        "external_contributors": 2,
+        "external_contributors": 3,
         "packagist_downloads": 0,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 142,
+        "commits": 150,
         "issues_opened": 2,
-        "prs_opened": 46,
-        "prs_merged": 45,
+        "prs_opened": 47,
+        "prs_merged": 46,
         "releases": 5,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 7845,
-        "clones_unique": 603,
-        "views_total": 412,
-        "views_unique": 193,
+        "clones_total": 7907,
+        "clones_unique": 608,
+        "views_total": 417,
+        "views_unique": 198,
         "top_referrers": [
           {
             "referrer": "Google",
-            "count": 109,
-            "uniques": 75
+            "count": 117,
+            "uniques": 79
           },
           {
             "referrer": "aocr.org",
@@ -9045,20 +9051,20 @@
           {
             "path": "/netresearch/git-workflow-skill",
             "title": "Overview",
-            "count": 153,
-            "uniques": 111
-          },
-          {
-            "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow",
-            "title": "/tree/main/skills/git-workflow",
-            "count": 24,
-            "uniques": 16
+            "count": 160,
+            "uniques": 116
           },
           {
             "path": "/netresearch/git-workflow-skill/blob/main/skills/git-workflow/SKILL.md",
             "title": "/blob/main/skills/git-workflow/SKILL.md",
-            "count": 23,
-            "uniques": 18
+            "count": 22,
+            "uniques": 17
+          },
+          {
+            "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow",
+            "title": "/tree/main/skills/git-workflow",
+            "count": 22,
+            "uniques": 15
           },
           {
             "path": "/netresearch/git-workflow-skill/tree/main",
@@ -9075,14 +9081,8 @@
           {
             "path": "/netresearch/git-workflow-skill/blob/main/docs/ARCHITECTURE.md",
             "title": "/blob/main/docs/ARCHITECTURE.md",
-            "count": 6,
-            "uniques": 6
-          },
-          {
-            "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/scripts",
-            "title": "/tree/main/skills/git-workflow/scripts",
-            "count": 6,
-            "uniques": 6
+            "count": 7,
+            "uniques": 7
           },
           {
             "path": "/netresearch/git-workflow-skill/tree/main/skills/git-workflow/references",
@@ -9101,6 +9101,12 @@
             "title": "/blob/main/skills/git-workflow/references/commit-conventions.md",
             "count": 6,
             "uniques": 3
+          },
+          {
+            "path": "/netresearch/git-workflow-skill/tree/main/scripts",
+            "title": "/tree/main/scripts",
+            "count": 5,
+            "uniques": 5
           }
         ]
       },
@@ -9113,7 +9119,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 1056,
+          "contributions": 1064,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -9154,8 +9160,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/git-workflow-skill/network/dependents"
       },
-      "estimated_downstream_reach": 460,
-      "blast_radius": 460,
+      "estimated_downstream_reach": 464,
+      "blast_radius": 464,
       "archived": false
     },
     {
@@ -9209,10 +9215,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 7938,
-        "clones_unique": 548,
+        "clones_total": 7441,
+        "clones_unique": 529,
         "views_total": 135,
-        "views_unique": 124,
+        "views_unique": 123,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -9234,8 +9240,8 @@
           {
             "path": "/netresearch/github-project-skill",
             "title": "Overview",
-            "count": 50,
-            "uniques": 44
+            "count": 49,
+            "uniques": 43
           },
           {
             "path": "/netresearch/github-project-skill/blob/main/AGENTS.md",
@@ -9379,10 +9385,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 4458,
-        "clones_unique": 372,
-        "views_total": 53,
-        "views_unique": 53,
+        "clones_total": 4150,
+        "clones_unique": 340,
+        "views_total": 55,
+        "views_unique": 55,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -9391,8 +9397,8 @@
           },
           {
             "referrer": "Google",
-            "count": 2,
-            "uniques": 2
+            "count": 3,
+            "uniques": 3
           },
           {
             "referrer": "github.com",
@@ -9444,20 +9450,20 @@
             "uniques": 2
           },
           {
+            "path": "/netresearch/github-release-skill/releases",
+            "title": "/releases",
+            "count": 2,
+            "uniques": 2
+          },
+          {
             "path": "/netresearch/github-release-skill/actions/runs/31190164348",
             "title": "/actions/runs/31190164348",
             "count": 1,
             "uniques": 1
           },
           {
-            "path": "/netresearch/github-release-skill/blob/main/commands/release-prepare.md",
-            "title": "/blob/main/commands/release-prepare.md",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "path": "/netresearch/github-release-skill/blob/main/commands/release-status.md",
-            "title": "/blob/main/commands/release-status.md",
+            "path": "/netresearch/github-release-skill/blob/HEAD/docs/SECURITY-ASSURANCE.md",
+            "title": "/blob/HEAD/docs/SECURITY-ASSURANCE.md",
             "count": 1,
             "uniques": 1
           }
@@ -9526,44 +9532,44 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-11-25T07:26:55Z",
-      "pushed_at": "2026-11-01T23:42:58Z",
-      "updated_at": "2026-11-01T23:42:59Z",
+      "pushed_at": "2026-11-02T07:44:04Z",
+      "updated_at": "2026-11-02T07:43:22Z",
       "composer_name": null,
       "lifetime": {
         "stars": 67,
         "forks": 9,
         "watchers": 3,
-        "network": 1708,
+        "network": 1707,
         "open_issues_plus_prs": 12,
-        "commits": 771,
+        "commits": 774,
         "issues_open": 10,
         "issues_closed": 204,
         "prs_open": 2,
-        "prs_merged": 239,
+        "prs_merged": 240,
         "prs_closed_unmerged": 9,
         "issues_total": 214,
-        "releases": 22,
+        "releases": 23,
         "release_downloads": 229,
         "contributors": 36,
         "external_contributors": 33,
         "packagist_downloads": 0,
         "ghcr_downloads": 0,
-        "dependents_repos": 64,
-        "dependents_packages": 82
+        "dependents_repos": 65,
+        "dependents_packages": 83
       },
       "recent_30d": {
-        "commits": 123,
+        "commits": 126,
         "issues_opened": 16,
-        "prs_opened": 39,
-        "prs_merged": 37,
-        "releases": 3,
+        "prs_opened": 40,
+        "prs_merged": 38,
+        "releases": 4,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 4291,
-        "clones_unique": 476,
-        "views_total": 327,
+        "clones_total": 4677,
+        "clones_unique": 503,
+        "views_total": 386,
         "views_unique": 136,
         "top_referrers": [
           {
@@ -9573,13 +9579,13 @@
           },
           {
             "referrer": "Google",
-            "count": 37,
+            "count": 38,
             "uniques": 14
           },
           {
             "referrer": "github.com",
-            "count": 13,
-            "uniques": 10
+            "count": 20,
+            "uniques": 11
           },
           {
             "referrer": "support.sailpoint.com",
@@ -9611,20 +9617,38 @@
           {
             "path": "/netresearch/go-cron",
             "title": "Overview",
-            "count": 70,
-            "uniques": 37
+            "count": 73,
+            "uniques": 36
           },
           {
             "path": "/netresearch/go-cron/pulls",
             "title": "/pulls",
-            "count": 15,
+            "count": 26,
             "uniques": 4
           },
           {
             "path": "/netresearch/go-cron/issues",
             "title": "/issues",
-            "count": 9,
+            "count": 17,
             "uniques": 4
+          },
+          {
+            "path": "/netresearch/go-cron/issues/205",
+            "title": "/issues/205",
+            "count": 12,
+            "uniques": 1
+          },
+          {
+            "path": "/netresearch/go-cron/issues/299",
+            "title": "/issues/299",
+            "count": 7,
+            "uniques": 4
+          },
+          {
+            "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
+            "title": "/blob/main/docs/COOKBOOK.md",
+            "count": 6,
+            "uniques": 3
           },
           {
             "path": "/netresearch/go-cron/blob/main/docs/OPERATIONS.md",
@@ -9649,37 +9673,19 @@
             "title": "/blob/main/README.md",
             "count": 5,
             "uniques": 4
-          },
-          {
-            "path": "/netresearch/go-cron/pull/426",
-            "title": "/pull/426",
-            "count": 5,
-            "uniques": 4
-          },
-          {
-            "path": "/netresearch/go-cron/blob/main/docs/API_REFERENCE.md",
-            "title": "/blob/main/docs/API_REFERENCE.md",
-            "count": 5,
-            "uniques": 2
-          },
-          {
-            "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
-            "title": "/blob/main/docs/COOKBOOK.md",
-            "count": 5,
-            "uniques": 2
           }
         ]
       },
       "latest_release": {
-        "name": "v0.18.0",
-        "tag_name": "v0.18.0",
-        "published_at": "2026-10-28T18:15:20Z",
-        "url": "https://github.com/netresearch/go-cron/releases/tag/v0.18.0"
+        "name": "v0.19.0",
+        "tag_name": "v0.19.0",
+        "published_at": "2026-11-02T07:47:25Z",
+        "url": "https://github.com/netresearch/go-cron/releases/tag/v0.19.0"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 599,
+          "contributions": 602,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -9731,12 +9737,12 @@
       "packagist": null,
       "ghcr": null,
       "dependents": {
-        "repositories": 64,
-        "packages": 82,
+        "repositories": 65,
+        "packages": 83,
         "url": "https://github.com/netresearch/go-cron/network/dependents"
       },
-      "estimated_downstream_reach": 698,
-      "blast_radius": 698,
+      "estimated_downstream_reach": 701,
+      "blast_radius": 701,
       "archived": false
     },
     {
@@ -9755,24 +9761,24 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-12-13T11:56:59Z",
-      "pushed_at": "2026-10-30T21:04:25Z",
-      "updated_at": "2026-10-30T05:24:57Z",
+      "pushed_at": "2026-11-02T18:46:48Z",
+      "updated_at": "2026-11-02T18:46:23Z",
       "composer_name": null,
       "lifetime": {
         "stars": 13,
         "forks": 2,
         "watchers": 2,
         "network": 2,
-        "open_issues_plus_prs": 3,
-        "commits": 342,
+        "open_issues_plus_prs": 1,
+        "commits": 348,
         "issues_open": 1,
         "issues_closed": 4,
-        "prs_open": 2,
-        "prs_merged": 119,
+        "prs_open": 0,
+        "prs_merged": 122,
         "prs_closed_unmerged": 0,
         "issues_total": 5,
-        "releases": 41,
-        "release_downloads": 171,
+        "releases": 42,
+        "release_downloads": 370,
         "contributors": 4,
         "external_contributors": 0,
         "packagist_downloads": 0,
@@ -9781,24 +9787,24 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 36,
+        "commits": 42,
         "issues_opened": 0,
-        "prs_opened": 19,
-        "prs_merged": 17,
-        "releases": 2,
+        "prs_opened": 20,
+        "prs_merged": 20,
+        "releases": 3,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2541,
-        "clones_unique": 293,
+        "clones_total": 2522,
+        "clones_unique": 290,
         "views_total": 143,
         "views_unique": 59,
         "top_referrers": [
           {
             "referrer": "Google",
-            "count": 33,
-            "uniques": 23
+            "count": 34,
+            "uniques": 24
           },
           {
             "referrer": "aocr.org",
@@ -9815,8 +9821,8 @@
           {
             "path": "/netresearch/go-development-skill",
             "title": "Overview",
-            "count": 39,
-            "uniques": 29
+            "count": 40,
+            "uniques": 30
           },
           {
             "path": "/netresearch/go-development-skill/tree/main/skills/go-development",
@@ -9875,20 +9881,20 @@
         ]
       },
       "latest_release": {
-        "name": "v1.16.3",
-        "tag_name": "v1.16.3",
-        "published_at": "2026-10-28T12:58:32Z",
-        "url": "https://github.com/netresearch/go-development-skill/releases/tag/v1.16.3"
+        "name": "v1.16.4",
+        "tag_name": "v1.16.4",
+        "published_at": "2026-11-02T18:48:14Z",
+        "url": "https://github.com/netresearch/go-development-skill/releases/tag/v1.16.4"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 287,
+          "contributions": 290,
           "url": "https://github.com/CybotTM"
         },
         {
           "login": "renovate[bot]",
-          "contributions": 28,
+          "contributions": 30,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -9898,7 +9904,7 @@
         },
         {
           "login": "netresearch-project-bot[bot]",
-          "contributions": 11,
+          "contributions": 12,
           "url": "https://github.com/apps/netresearch-project-bot"
         }
       ],
@@ -9909,8 +9915,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/go-development-skill/network/dependents"
       },
-      "estimated_downstream_reach": 128,
-      "blast_radius": 128,
+      "estimated_downstream_reach": 131,
+      "blast_radius": 131,
       "archived": false
     },
     {
@@ -9964,7 +9970,7 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 124,
+        "clones_total": 123,
         "clones_unique": 44,
         "views_total": 8,
         "views_unique": 8,
@@ -10060,50 +10066,50 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-11-07T10:15:13Z",
-      "pushed_at": "2026-10-30T20:45:10Z",
-      "updated_at": "2026-10-30T04:58:24Z",
+      "pushed_at": "2026-11-02T15:27:32Z",
+      "updated_at": "2026-11-02T15:27:34Z",
       "composer_name": null,
       "lifetime": {
         "stars": 90,
         "forks": 26,
         "watchers": 1,
         "network": 26,
-        "open_issues_plus_prs": 3,
-        "commits": 993,
-        "issues_open": 2,
-        "issues_closed": 33,
+        "open_issues_plus_prs": 2,
+        "commits": 997,
+        "issues_open": 1,
+        "issues_closed": 34,
         "prs_open": 1,
-        "prs_merged": 268,
+        "prs_merged": 269,
         "prs_closed_unmerged": 8,
         "issues_total": 35,
         "releases": 81,
         "release_downloads": 1412,
         "contributors": 21,
-        "external_contributors": 13,
+        "external_contributors": 14,
         "packagist_downloads": 0,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 120,
+        "commits": 124,
         "issues_opened": 0,
-        "prs_opened": 38,
-        "prs_merged": 39,
+        "prs_opened": 39,
+        "prs_merged": 40,
         "releases": 8,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 7692,
-        "clones_unique": 810,
-        "views_total": 755,
-        "views_unique": 371,
+        "clones_total": 7688,
+        "clones_unique": 813,
+        "views_total": 761,
+        "views_unique": 375,
         "top_referrers": [
           {
             "referrer": "Google",
-            "count": 141,
-            "uniques": 118
+            "count": 143,
+            "uniques": 120
           },
           {
             "referrer": "aocr.org",
@@ -10112,8 +10118,8 @@
           },
           {
             "referrer": "github.com",
-            "count": 16,
-            "uniques": 10
+            "count": 17,
+            "uniques": 11
           },
           {
             "referrer": "Bing",
@@ -10155,8 +10161,8 @@
           {
             "path": "/netresearch/jira-skill",
             "title": "Overview",
-            "count": 210,
-            "uniques": 174
+            "count": 212,
+            "uniques": 178
           },
           {
             "path": "/netresearch/jira-skill/tree/main/skills",
@@ -10167,7 +10173,7 @@
           {
             "path": "/netresearch/jira-skill/tree/main",
             "title": "/tree/main",
-            "count": 26,
+            "count": 27,
             "uniques": 14
           },
           {
@@ -10177,16 +10183,16 @@
             "uniques": 22
           },
           {
+            "path": "/netresearch/jira-skill/blob/main/skills/jira-communication/SKILL.md",
+            "title": "/blob/main/skills/jira-communication/SKILL.md",
+            "count": 20,
+            "uniques": 14
+          },
+          {
             "path": "/netresearch/jira-skill/tree/main/scripts",
             "title": "/tree/main/scripts",
             "count": 20,
             "uniques": 10
-          },
-          {
-            "path": "/netresearch/jira-skill/blob/main/skills/jira-communication/SKILL.md",
-            "title": "/blob/main/skills/jira-communication/SKILL.md",
-            "count": 19,
-            "uniques": 15
           },
           {
             "path": "/netresearch/jira-skill/pull/311",
@@ -10201,16 +10207,16 @@
             "uniques": 6
           },
           {
+            "path": "/netresearch/jira-skill/tree/main/skills/jira-syntax",
+            "title": "/tree/main/skills/jira-syntax",
+            "count": 14,
+            "uniques": 12
+          },
+          {
             "path": "/netresearch/jira-skill/blob/main/skills/jira-syntax/SKILL.md",
             "title": "/blob/main/skills/jira-syntax/SKILL.md",
             "count": 14,
             "uniques": 8
-          },
-          {
-            "path": "/netresearch/jira-skill/tree/main/skills/jira-syntax",
-            "title": "/tree/main/skills/jira-syntax",
-            "count": 13,
-            "uniques": 11
           }
         ]
       },
@@ -10223,7 +10229,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 669,
+          "contributions": 673,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -10279,8 +10285,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/jira-skill/network/dependents"
       },
-      "estimated_downstream_reach": 394,
-      "blast_radius": 394,
+      "estimated_downstream_reach": 398,
+      "blast_radius": 398,
       "archived": false
     },
     {
@@ -10347,10 +10353,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1298,
-        "clones_unique": 143,
+        "clones_total": 1092,
+        "clones_unique": 138,
         "views_total": 80,
-        "views_unique": 54,
+        "views_unique": 55,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -10377,7 +10383,7 @@
           {
             "path": "/netresearch/jira-to-openproject",
             "title": "Overview",
-            "count": 12,
+            "count": 11,
             "uniques": 9
           },
           {
@@ -10526,10 +10532,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1468,
-        "clones_unique": 223,
-        "views_total": 107,
-        "views_unique": 70,
+        "clones_total": 1202,
+        "clones_unique": 201,
+        "views_total": 108,
+        "views_unique": 71,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -10687,7 +10693,7 @@
         "contributors": 9,
         "external_contributors": 3,
         "packagist_downloads": 0,
-        "ghcr_downloads": 35804,
+        "ghcr_downloads": 35829,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
@@ -10698,13 +10704,13 @@
         "prs_merged": 18,
         "releases": 1,
         "packagist_downloads": 0,
-        "ghcr_downloads": 4685
+        "ghcr_downloads": 3935
       },
       "traffic_14d": {
-        "clones_total": 1586,
-        "clones_unique": 229,
-        "views_total": 179,
-        "views_unique": 98,
+        "clones_total": 1375,
+        "clones_unique": 227,
+        "views_total": 173,
+        "views_unique": 97,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -10717,17 +10723,17 @@
             "uniques": 18
           },
           {
-            "referrer": "search.brave.com",
-            "count": 2,
-            "uniques": 1
-          },
-          {
             "referrer": "Bing",
             "count": 1,
             "uniques": 1
           },
           {
             "referrer": "github.com",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "referrer": "search.brave.com",
             "count": 1,
             "uniques": 1
           },
@@ -10742,7 +10748,7 @@
             "path": "/netresearch/ldap-manager",
             "title": "Overview",
             "count": 61,
-            "uniques": 36
+            "uniques": 37
           },
           {
             "path": "/netresearch/ldap-manager/releases/tag/v1.8.0",
@@ -10859,12 +10865,12 @@
           {
             "package": "ldap-manager",
             "url": "https://github.com/netresearch/ldap-manager/pkgs/container/ldap-manager",
-            "total": 35804,
-            "thirty_day": 4685
+            "total": 35829,
+            "thirty_day": 3935
           }
         ],
-        "total": 35804,
-        "thirty_day": 4685
+        "total": 35829,
+        "thirty_day": 3935
       },
       "dependents": {
         "repositories": 0,
@@ -10922,7 +10928,7 @@
         "contributors": 9,
         "external_contributors": 3,
         "packagist_downloads": 0,
-        "ghcr_downloads": 29975,
+        "ghcr_downloads": 29985,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
@@ -10933,13 +10939,13 @@
         "prs_merged": 15,
         "releases": 1,
         "packagist_downloads": 0,
-        "ghcr_downloads": 3786
+        "ghcr_downloads": 3325
       },
       "traffic_14d": {
-        "clones_total": 1410,
-        "clones_unique": 167,
-        "views_total": 177,
-        "views_unique": 106,
+        "clones_total": 1046,
+        "clones_unique": 149,
+        "views_total": 174,
+        "views_unique": 105,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -10948,8 +10954,8 @@
           },
           {
             "referrer": "github.com",
-            "count": 16,
-            "uniques": 15
+            "count": 17,
+            "uniques": 16
           },
           {
             "referrer": "Google",
@@ -10977,8 +10983,8 @@
           {
             "path": "/netresearch/ldap-selfservice-password-changer/blob/main/README.md",
             "title": "/blob/main/README.md",
-            "count": 5,
-            "uniques": 5
+            "count": 4,
+            "uniques": 4
           },
           {
             "path": "/netresearch/ldap-selfservice-password-changer/blob/main/AGENTS.md",
@@ -11005,6 +11011,12 @@
             "uniques": 3
           },
           {
+            "path": "/netresearch/ldap-selfservice-password-changer/releases/tag/v1.7.1",
+            "title": "/releases/tag/v1.7.1",
+            "count": 3,
+            "uniques": 3
+          },
+          {
             "path": "/netresearch/ldap-selfservice-password-changer/issues",
             "title": "/issues",
             "count": 3,
@@ -11019,12 +11031,6 @@
           {
             "path": "/netresearch/ldap-selfservice-password-changer/blob/main/PROJECT-INDEX.md",
             "title": "/blob/main/PROJECT-INDEX.md",
-            "count": 2,
-            "uniques": 2
-          },
-          {
-            "path": "/netresearch/ldap-selfservice-password-changer/blob/main/docs/development-guide.md",
-            "title": "/blob/main/docs/development-guide.md",
             "count": 2,
             "uniques": 2
           }
@@ -11089,12 +11095,12 @@
           {
             "package": "ldap-selfservice-password-changer",
             "url": "https://github.com/netresearch/ldap-selfservice-password-changer/pkgs/container/ldap-selfservice-password-changer",
-            "total": 29975,
-            "thirty_day": 3786
+            "total": 29985,
+            "thirty_day": 3325
           }
         ],
-        "total": 29975,
-        "thirty_day": 3786
+        "total": 29985,
+        "thirty_day": 3325
       },
       "dependents": {
         "repositories": 0,
@@ -11155,8 +11161,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 134,
-        "clones_unique": 50,
+        "clones_total": 153,
+        "clones_unique": 54,
         "views_total": 1,
         "views_unique": 1,
         "top_referrers": [],
@@ -11227,7 +11233,7 @@
         "prs_closed_unmerged": 0,
         "issues_total": 1,
         "releases": 9,
-        "release_downloads": 11,
+        "release_downloads": 12,
         "contributors": 4,
         "external_contributors": 0,
         "packagist_downloads": 0,
@@ -11245,15 +11251,15 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2832,
-        "clones_unique": 243,
-        "views_total": 75,
-        "views_unique": 52,
+        "clones_total": 2876,
+        "clones_unique": 245,
+        "views_total": 74,
+        "views_unique": 51,
         "top_referrers": [
           {
             "referrer": "Google",
-            "count": 32,
-            "uniques": 27
+            "count": 31,
+            "uniques": 26
           },
           {
             "referrer": "aocr.org",
@@ -11275,8 +11281,8 @@
           {
             "path": "/netresearch/markdown-to-pdf-skill",
             "title": "Overview",
-            "count": 32,
-            "uniques": 28
+            "count": 31,
+            "uniques": 27
           },
           {
             "path": "/netresearch/markdown-to-pdf-skill/blob/main/skills/markdown-to-pdf/SKILL.md",
@@ -11402,24 +11408,24 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-01-31T12:42:05Z",
-      "pushed_at": "2026-10-30T22:30:04Z",
-      "updated_at": "2026-10-30T04:34:40Z",
+      "pushed_at": "2026-11-02T15:28:46Z",
+      "updated_at": "2026-11-02T15:28:49Z",
       "composer_name": null,
       "lifetime": {
         "stars": 5,
         "forks": 0,
         "watchers": 1,
         "network": 0,
-        "open_issues_plus_prs": 4,
-        "commits": 549,
-        "issues_open": 2,
-        "issues_closed": 22,
+        "open_issues_plus_prs": 3,
+        "commits": 559,
+        "issues_open": 1,
+        "issues_closed": 23,
         "prs_open": 2,
-        "prs_merged": 165,
+        "prs_merged": 167,
         "prs_closed_unmerged": 0,
         "issues_total": 24,
         "releases": 64,
-        "release_downloads": 212,
+        "release_downloads": 578,
         "contributors": 6,
         "external_contributors": 1,
         "packagist_downloads": 0,
@@ -11428,19 +11434,19 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 55,
+        "commits": 65,
         "issues_opened": 1,
-        "prs_opened": 25,
-        "prs_merged": 23,
+        "prs_opened": 27,
+        "prs_merged": 25,
         "releases": 2,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2329,
-        "clones_unique": 608,
-        "views_total": 84,
-        "views_unique": 81,
+        "clones_total": 2306,
+        "clones_unique": 593,
+        "views_total": 85,
+        "views_unique": 82,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -11462,8 +11468,8 @@
           {
             "path": "/netresearch/matrix-skill",
             "title": "Overview",
-            "count": 16,
-            "uniques": 14
+            "count": 17,
+            "uniques": 15
           },
           {
             "path": "/netresearch/matrix-skill/issues/43",
@@ -11530,7 +11536,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 431,
+          "contributions": 441,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -11566,8 +11572,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/matrix-skill/network/dependents"
       },
-      "estimated_downstream_reach": 192,
-      "blast_radius": 192,
+      "estimated_downstream_reach": 194,
+      "blast_radius": 194,
       "archived": false
     },
     {
@@ -11609,7 +11615,7 @@
         "release_downloads": 0,
         "contributors": 2,
         "external_contributors": 2,
-        "packagist_downloads": 171740,
+        "packagist_downloads": 171945,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -11620,7 +11626,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 5306,
+        "packagist_downloads": 5433,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -11651,9 +11657,9 @@
       ],
       "packagist": {
         "name": "netresearch/module-admin-notification-feed",
-        "total": 171740,
-        "monthly": 5306,
-        "daily": 84,
+        "total": 171945,
+        "monthly": 5433,
+        "daily": 194,
         "url": "https://packagist.org/packages/netresearch/module-admin-notification-feed"
       },
       "ghcr": null,
@@ -11703,7 +11709,7 @@
         "release_downloads": 0,
         "contributors": 3,
         "external_contributors": 3,
-        "packagist_downloads": 204248,
+        "packagist_downloads": 204456,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -11714,12 +11720,12 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 5408,
+        "packagist_downloads": 5538,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 24,
-        "clones_unique": 22,
+        "clones_total": 22,
+        "clones_unique": 20,
         "views_total": 1,
         "views_unique": 1,
         "top_referrers": [],
@@ -11757,9 +11763,9 @@
       ],
       "packagist": {
         "name": "netresearch/module-interactive-batch-processing",
-        "total": 204248,
-        "monthly": 5408,
-        "daily": 87,
+        "total": 204456,
+        "monthly": 5538,
+        "daily": 195,
         "url": "https://packagist.org/packages/netresearch/module-interactive-batch-processing"
       },
       "ghcr": null,
@@ -11810,7 +11816,7 @@
         "release_downloads": 0,
         "contributors": 3,
         "external_contributors": 2,
-        "packagist_downloads": 259934,
+        "packagist_downloads": 260158,
         "ghcr_downloads": 0,
         "dependents_repos": 18,
         "dependents_packages": 3
@@ -11821,12 +11827,12 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6454,
+        "packagist_downloads": 6592,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 37,
-        "clones_unique": 34,
+        "clones_total": 39,
+        "clones_unique": 35,
         "views_total": 4,
         "views_unique": 4,
         "top_referrers": [
@@ -11882,9 +11888,9 @@
       ],
       "packagist": {
         "name": "netresearch/module-shipping-core",
-        "total": 259934,
-        "monthly": 6454,
-        "daily": 91,
+        "total": 260158,
+        "monthly": 6592,
+        "daily": 201,
         "url": "https://packagist.org/packages/netresearch/module-shipping-core"
       },
       "ghcr": null,
@@ -11949,8 +11955,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 9,
-        "clones_unique": 9,
+        "clones_total": 7,
+        "clones_unique": 7,
         "views_total": 1,
         "views_unique": 1,
         "top_referrers": [],
@@ -12059,7 +12065,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 35,
+        "packagist_downloads": 33,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -12101,7 +12107,7 @@
       "packagist": {
         "name": "netresearch/module-shipping-inventory",
         "total": 732,
-        "monthly": 35,
+        "monthly": 33,
         "daily": 0,
         "url": "https://packagist.org/packages/netresearch/module-shipping-inventory"
       },
@@ -12280,19 +12286,19 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 159,
+        "commits": 157,
         "issues_opened": 5,
-        "prs_opened": 42,
-        "prs_merged": 37,
+        "prs_opened": 41,
+        "prs_merged": 36,
         "releases": 3,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 6192,
-        "clones_unique": 426,
-        "views_total": 29,
-        "views_unique": 23,
+        "clones_total": 5650,
+        "clones_unique": 396,
+        "views_total": 31,
+        "views_unique": 24,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -12319,7 +12325,7 @@
           {
             "path": "/netresearch/netresearch-branding-skill",
             "title": "Overview",
-            "count": 7,
+            "count": 8,
             "uniques": 5
           },
           {
@@ -12333,6 +12339,12 @@
             "title": "/issues",
             "count": 2,
             "uniques": 2
+          },
+          {
+            "path": "/netresearch/netresearch-branding-skill/blob/main/README.md",
+            "title": "/blob/main/README.md",
+            "count": 1,
+            "uniques": 1
           },
           {
             "path": "/netresearch/netresearch-branding-skill/blob/main/skills/netresearch-branding/refe",
@@ -12367,12 +12379,6 @@
           {
             "path": "/netresearch/netresearch-branding-skill/pull/32",
             "title": "/pull/32",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "path": "/netresearch/netresearch-branding-skill/pull/33",
-            "title": "/pull/33",
             "count": 1,
             "uniques": 1
           }
@@ -12475,8 +12481,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 337,
-        "clones_unique": 76,
+        "clones_total": 318,
+        "clones_unique": 73,
         "views_total": 22,
         "views_unique": 22,
         "top_referrers": [
@@ -12666,7 +12672,7 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 286,
+        "clones_total": 276,
         "clones_unique": 51,
         "views_total": 6,
         "views_unique": 6,
@@ -12798,45 +12804,45 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2022-05-30T12:58:03Z",
-      "pushed_at": "2026-11-01T04:46:45Z",
-      "updated_at": "2026-11-01T04:46:46Z",
+      "pushed_at": "2026-11-02T18:57:30Z",
+      "updated_at": "2026-11-02T18:56:59Z",
       "composer_name": null,
       "lifetime": {
         "stars": 70,
         "forks": 7,
         "watchers": 1,
         "network": 211,
-        "open_issues_plus_prs": 27,
-        "commits": 2005,
+        "open_issues_plus_prs": 26,
+        "commits": 2011,
         "issues_open": 25,
         "issues_closed": 183,
-        "prs_open": 2,
-        "prs_merged": 628,
-        "prs_closed_unmerged": 71,
+        "prs_open": 1,
+        "prs_merged": 630,
+        "prs_closed_unmerged": 72,
         "issues_total": 208,
-        "releases": 57,
-        "release_downloads": 2642,
+        "releases": 58,
+        "release_downloads": 3845,
         "contributors": 47,
         "external_contributors": 40,
         "packagist_downloads": 0,
-        "ghcr_downloads": 627850,
+        "ghcr_downloads": 635039,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 160,
+        "commits": 166,
         "issues_opened": 3,
-        "prs_opened": 51,
-        "prs_merged": 48,
-        "releases": 1,
+        "prs_opened": 52,
+        "prs_merged": 50,
+        "releases": 2,
         "packagist_downloads": 0,
-        "ghcr_downloads": 186554
+        "ghcr_downloads": 186960
       },
       "traffic_14d": {
-        "clones_total": 5848,
-        "clones_unique": 525,
-        "views_total": 471,
-        "views_unique": 429,
+        "clones_total": 4897,
+        "clones_unique": 512,
+        "views_total": 488,
+        "views_unique": 430,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -12845,8 +12851,8 @@
           },
           {
             "referrer": "github.com",
-            "count": 10,
-            "uniques": 7
+            "count": 11,
+            "uniques": 8
           },
           {
             "referrer": "reddit.com",
@@ -12873,8 +12879,8 @@
           {
             "path": "/netresearch/ofelia",
             "title": "Overview",
-            "count": 47,
-            "uniques": 34
+            "count": 50,
+            "uniques": 36
           },
           {
             "path": "/netresearch/ofelia/blob/v0.21.0/config/validator.go",
@@ -12933,15 +12939,15 @@
         ]
       },
       "latest_release": {
-        "name": "v1.0.2",
-        "tag_name": "v1.0.2",
-        "published_at": "2026-10-23T08:28:30Z",
-        "url": "https://github.com/netresearch/ofelia/releases/tag/v1.0.2"
+        "name": "v1.1.0",
+        "tag_name": "v1.1.0",
+        "published_at": "2026-11-02T19:06:18Z",
+        "url": "https://github.com/netresearch/ofelia/releases/tag/v1.1.0"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 1622,
+          "contributions": 1628,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -12996,20 +13002,20 @@
           {
             "package": "ofelia",
             "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-            "total": 627850,
-            "thirty_day": 186554
+            "total": 635039,
+            "thirty_day": 186960
           }
         ],
-        "total": 627850,
-        "thirty_day": 186554
+        "total": 635039,
+        "thirty_day": 186960
       },
       "dependents": {
         "repositories": 0,
         "packages": 0,
         "url": "https://github.com/netresearch/ofelia/network/dependents"
       },
-      "estimated_downstream_reach": 970,
-      "blast_radius": 970,
+      "estimated_downstream_reach": 972,
+      "blast_radius": 972,
       "archived": false
     },
     {
@@ -13063,8 +13069,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 113,
-        "clones_unique": 46,
+        "clones_total": 110,
+        "clones_unique": 45,
         "views_total": 4,
         "views_unique": 4,
         "top_referrers": [
@@ -13182,8 +13188,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1109,
-        "clones_unique": 175,
+        "clones_total": 1043,
+        "clones_unique": 163,
         "views_total": 25,
         "views_unique": 21,
         "top_referrers": [
@@ -13374,8 +13380,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 72,
-        "clones_unique": 27,
+        "clones_total": 70,
+        "clones_unique": 24,
         "views_total": 4,
         "views_unique": 4,
         "top_referrers": [
@@ -13501,9 +13507,9 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1700,
-        "clones_unique": 176,
-        "views_total": 34,
+        "clones_total": 1558,
+        "clones_unique": 166,
+        "views_total": 35,
         "views_unique": 32,
         "top_referrers": [
           {
@@ -13513,7 +13519,7 @@
           },
           {
             "referrer": "github.com",
-            "count": 2,
+            "count": 3,
             "uniques": 1
           }
         ],
@@ -13521,7 +13527,7 @@
           {
             "path": "/netresearch/peer-qa-review-skill",
             "title": "Overview",
-            "count": 5,
+            "count": 6,
             "uniques": 3
           },
           {
@@ -13678,9 +13684,9 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 5430,
-        "clones_unique": 160,
-        "views_total": 28,
+        "clones_total": 5416,
+        "clones_unique": 155,
+        "views_total": 29,
         "views_unique": 28,
         "top_referrers": [
           {
@@ -13693,7 +13699,7 @@
           {
             "path": "/netresearch/php-ast-edit-skill",
             "title": "Overview",
-            "count": 3,
+            "count": 4,
             "uniques": 3
           },
           {
@@ -13798,10 +13804,10 @@
       "default_branch": "main",
       "created_at": "2025-12-13T11:57:20Z",
       "pushed_at": "2026-10-30T21:16:52Z",
-      "updated_at": "2026-10-30T17:25:12Z",
+      "updated_at": "2026-11-02T07:06:49Z",
       "composer_name": null,
       "lifetime": {
-        "stars": 57,
+        "stars": 58,
         "forks": 4,
         "watchers": 1,
         "network": 4,
@@ -13814,9 +13820,9 @@
         "prs_closed_unmerged": 3,
         "issues_total": 3,
         "releases": 49,
-        "release_downloads": 200,
+        "release_downloads": 201,
         "contributors": 5,
-        "external_contributors": 0,
+        "external_contributors": 1,
         "packagist_downloads": 0,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
@@ -13832,15 +13838,15 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 4913,
-        "clones_unique": 455,
-        "views_total": 801,
-        "views_unique": 362,
+        "clones_total": 4954,
+        "clones_unique": 460,
+        "views_total": 826,
+        "views_unique": 371,
         "top_referrers": [
           {
             "referrer": "Google",
-            "count": 289,
-            "uniques": 213
+            "count": 304,
+            "uniques": 221
           },
           {
             "referrer": "aocr.org",
@@ -13892,26 +13898,26 @@
           {
             "path": "/netresearch/php-modernization-skill",
             "title": "Overview",
-            "count": 378,
-            "uniques": 263
+            "count": 392,
+            "uniques": 268
           },
           {
             "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/SKILL.md",
             "title": "/blob/main/skills/php-modernization/SKILL.md",
-            "count": 67,
-            "uniques": 45
+            "count": 71,
+            "uniques": 49
           },
           {
             "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization",
             "title": "/tree/main/skills/php-modernization",
-            "count": 51,
-            "uniques": 35
+            "count": 55,
+            "uniques": 39
           },
           {
             "path": "/netresearch/php-modernization-skill/tree/main",
             "title": "/tree/main",
-            "count": 27,
-            "uniques": 16
+            "count": 28,
+            "uniques": 17
           },
           {
             "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization/references",
@@ -13991,8 +13997,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/php-modernization-skill/network/dependents"
       },
-      "estimated_downstream_reach": 175,
-      "blast_radius": 175,
+      "estimated_downstream_reach": 178,
+      "blast_radius": 178,
       "archived": false
     },
     {
@@ -14039,7 +14045,7 @@
         "dependents_packages": 4
       },
       "recent_30d": {
-        "commits": 22,
+        "commits": 21,
         "issues_opened": 0,
         "prs_opened": 23,
         "prs_merged": 21,
@@ -14048,10 +14054,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 984,
-        "clones_unique": 154,
-        "views_total": 14,
-        "views_unique": 14,
+        "clones_total": 753,
+        "clones_unique": 124,
+        "views_total": 12,
+        "views_unique": 12,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -14063,8 +14069,8 @@
           {
             "path": "/netresearch/postdirekt-autocomplete-monorepo",
             "title": "Overview",
-            "count": 5,
-            "uniques": 5
+            "count": 4,
+            "uniques": 4
           },
           {
             "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-library/src/api/address-data.ts",
@@ -14111,12 +14117,6 @@
           {
             "path": "/netresearch/postdirekt-autocomplete-monorepo/pull/164",
             "title": "/pull/164",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "path": "/netresearch/postdirekt-autocomplete-monorepo/tree/master/packages/autocomplete-sdk/src",
-            "title": "/tree/master/packages/autocomplete-sdk/src",
             "count": 1,
             "uniques": 1
           }
@@ -14231,11 +14231,11 @@
         "prs_merged": 7,
         "releases": 1,
         "packagist_downloads": 0,
-        "ghcr_downloads": 238
+        "ghcr_downloads": 200
       },
       "traffic_14d": {
-        "clones_total": 824,
-        "clones_unique": 135,
+        "clones_total": 615,
+        "clones_unique": 122,
         "views_total": 32,
         "views_unique": 32,
         "top_referrers": [
@@ -14277,6 +14277,12 @@
             "uniques": 2
           },
           {
+            "path": "/netresearch/raybeam/actions/runs/24263730976",
+            "title": "/actions/runs/24263730976",
+            "count": 1,
+            "uniques": 1
+          },
+          {
             "path": "/netresearch/raybeam/blob/main/docs/README.md",
             "title": "/blob/main/docs/README.md",
             "count": 1,
@@ -14285,12 +14291,6 @@
           {
             "path": "/netresearch/raybeam/blob/main/docs/api.md",
             "title": "/blob/main/docs/api.md",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "path": "/netresearch/raybeam/blob/main/docs/development.md",
-            "title": "/blob/main/docs/development.md",
             "count": 1,
             "uniques": 1
           },
@@ -14353,11 +14353,11 @@
             "package": "raybeam",
             "url": "https://github.com/netresearch/raybeam/pkgs/container/raybeam",
             "total": 5666,
-            "thirty_day": 238
+            "thirty_day": 200
           }
         ],
         "total": 5666,
-        "thirty_day": 238
+        "thirty_day": 200
       },
       "dependents": {
         "repositories": 0,
@@ -14389,10 +14389,10 @@
       "default_branch": "main",
       "created_at": "2026-05-12T13:08:08Z",
       "pushed_at": "2026-11-01T07:49:45Z",
-      "updated_at": "2026-11-01T07:49:47Z",
+      "updated_at": "2026-11-02T16:20:23Z",
       "composer_name": null,
       "lifetime": {
-        "stars": 23,
+        "stars": 24,
         "forks": 6,
         "watchers": 1,
         "network": 6,
@@ -14423,15 +14423,15 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 8004,
-        "clones_unique": 630,
-        "views_total": 617,
-        "views_unique": 365,
+        "clones_total": 7027,
+        "clones_unique": 604,
+        "views_total": 643,
+        "views_unique": 387,
         "top_referrers": [
           {
             "referrer": "Google",
-            "count": 270,
-            "uniques": 191
+            "count": 275,
+            "uniques": 208
           },
           {
             "referrer": "aocr.org",
@@ -14440,7 +14440,7 @@
           },
           {
             "referrer": "Bing",
-            "count": 9,
+            "count": 10,
             "uniques": 8
           },
           {
@@ -14459,6 +14459,11 @@
             "uniques": 4
           },
           {
+            "referrer": "reddit.com",
+            "count": 3,
+            "uniques": 3
+          },
+          {
             "referrer": "teams.public.onecdn.static.microsoft",
             "count": 3,
             "uniques": 3
@@ -14472,49 +14477,50 @@
             "referrer": "hs-jira.higgstar.com",
             "count": 1,
             "uniques": 1
-          },
-          {
-            "referrer": "reddit.com",
-            "count": 1,
-            "uniques": 1
           }
         ],
         "top_paths": [
           {
             "path": "/netresearch/retro-skill",
             "title": "Overview",
-            "count": 354,
-            "uniques": 256
+            "count": 376,
+            "uniques": 281
           },
           {
             "path": "/netresearch/retro-skill/blob/main/skills/retro/SKILL.md",
             "title": "/blob/main/skills/retro/SKILL.md",
-            "count": 53,
-            "uniques": 25
+            "count": 50,
+            "uniques": 27
           },
           {
             "path": "/netresearch/retro-skill/tree/main/skills/retro",
             "title": "/tree/main/skills/retro",
-            "count": 25,
-            "uniques": 19
+            "count": 26,
+            "uniques": 20
           },
           {
             "path": "/netresearch/retro-skill/blob/main/docs/specs/retro-skill.md",
             "title": "/blob/main/docs/specs/retro-skill.md",
-            "count": 14,
-            "uniques": 12
-          },
-          {
-            "path": "/netresearch/retro-skill/pulls",
-            "title": "/pulls",
-            "count": 12,
-            "uniques": 4
+            "count": 16,
+            "uniques": 14
           },
           {
             "path": "/netresearch/retro-skill/issues",
             "title": "/issues",
-            "count": 11,
+            "count": 12,
             "uniques": 6
+          },
+          {
+            "path": "/netresearch/retro-skill/pulls",
+            "title": "/pulls",
+            "count": 11,
+            "uniques": 4
+          },
+          {
+            "path": "/netresearch/retro-skill/tree/main",
+            "title": "/tree/main",
+            "count": 10,
+            "uniques": 10
           },
           {
             "path": "/netresearch/retro-skill/commits",
@@ -14525,14 +14531,8 @@
           {
             "path": "/netresearch/retro-skill/blob/main/README.md",
             "title": "/blob/main/README.md",
-            "count": 9,
-            "uniques": 8
-          },
-          {
-            "path": "/netresearch/retro-skill/tree/main",
-            "title": "/tree/main",
             "count": 8,
-            "uniques": 8
+            "uniques": 7
           },
           {
             "path": "/netresearch/retro-skill/issues/19",
@@ -14635,7 +14635,7 @@
         "release_downloads": 0,
         "contributors": 4,
         "external_contributors": 0,
-        "packagist_downloads": 1045,
+        "packagist_downloads": 1046,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -14646,12 +14646,12 @@
         "prs_opened": 2,
         "prs_merged": 2,
         "releases": 0,
-        "packagist_downloads": 130,
+        "packagist_downloads": 127,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 251,
-        "clones_unique": 47,
+        "clones_total": 244,
+        "clones_unique": 44,
         "views_total": 13,
         "views_unique": 12,
         "top_referrers": [
@@ -14759,8 +14759,8 @@
       ],
       "packagist": {
         "name": "netresearch/sdk-api-central-station",
-        "total": 1045,
-        "monthly": 130,
+        "total": 1046,
+        "monthly": 127,
         "daily": 2,
         "url": "https://packagist.org/packages/netresearch/sdk-api-central-station"
       },
@@ -14813,7 +14813,7 @@
         "release_downloads": 0,
         "contributors": 4,
         "external_contributors": 0,
-        "packagist_downloads": 6037,
+        "packagist_downloads": 6060,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -14824,12 +14824,12 @@
         "prs_opened": 7,
         "prs_merged": 6,
         "releases": 0,
-        "packagist_downloads": 962,
+        "packagist_downloads": 985,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 460,
-        "clones_unique": 76,
+        "clones_total": 459,
+        "clones_unique": 78,
         "views_total": 12,
         "views_unique": 12,
         "top_referrers": [
@@ -14926,9 +14926,9 @@
       ],
       "packagist": {
         "name": "netresearch/sdk-api-universal-messenger",
-        "total": 6037,
-        "monthly": 962,
-        "daily": 81,
+        "total": 6060,
+        "monthly": 985,
+        "daily": 21,
         "url": "https://packagist.org/packages/netresearch/sdk-api-universal-messenger"
       },
       "ghcr": null,
@@ -14997,8 +14997,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 516,
-        "clones_unique": 90,
+        "clones_total": 528,
+        "clones_unique": 92,
         "views_total": 12,
         "views_unique": 12,
         "top_referrers": [
@@ -15145,7 +15145,7 @@
         "releases": 41,
         "release_downloads": 439,
         "contributors": 6,
-        "external_contributors": 0,
+        "external_contributors": 1,
         "packagist_downloads": 0,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
@@ -15161,25 +15161,25 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 5864,
-        "clones_unique": 832,
-        "views_total": 581,
-        "views_unique": 312,
+        "clones_total": 5872,
+        "clones_unique": 829,
+        "views_total": 602,
+        "views_unique": 322,
         "top_referrers": [
           {
             "referrer": "Google",
-            "count": 261,
-            "uniques": 151
+            "count": 267,
+            "uniques": 156
+          },
+          {
+            "referrer": "search.brave.com",
+            "count": 32,
+            "uniques": 18
           },
           {
             "referrer": "aocr.org",
             "count": 29,
             "uniques": 29
-          },
-          {
-            "referrer": "search.brave.com",
-            "count": 26,
-            "uniques": 13
           },
           {
             "referrer": "github.com",
@@ -15221,26 +15221,26 @@
           {
             "path": "/netresearch/security-audit-skill",
             "title": "Overview",
-            "count": 398,
-            "uniques": 248
+            "count": 410,
+            "uniques": 261
           },
           {
             "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
             "title": "/blob/main/skills/security-audit/SKILL.md",
-            "count": 31,
-            "uniques": 27
+            "count": 34,
+            "uniques": 30
           },
           {
             "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
             "title": "/tree/main/skills/security-audit",
-            "count": 21,
-            "uniques": 16
+            "count": 22,
+            "uniques": 17
           },
           {
             "path": "/netresearch/security-audit-skill/issues",
             "title": "/issues",
-            "count": 9,
-            "uniques": 9
+            "count": 8,
+            "uniques": 8
           },
           {
             "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/references/typo3-security.md",
@@ -15325,8 +15325,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/security-audit-skill/network/dependents"
       },
-      "estimated_downstream_reach": 170,
-      "blast_radius": 170,
+      "estimated_downstream_reach": 173,
+      "blast_radius": 173,
       "archived": false
     },
     {
@@ -15378,10 +15378,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1079,
-        "clones_unique": 158,
+        "clones_total": 659,
+        "clones_unique": 133,
         "views_total": 66,
-        "views_unique": 62,
+        "views_unique": 61,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -15404,7 +15404,7 @@
           {
             "path": "/netresearch/simple-ldap-go/blob/main/sam_account_type.go",
             "title": "/blob/main/sam_account_type.go",
-            "count": 3,
+            "count": 4,
             "uniques": 3
           },
           {
@@ -15551,7 +15551,7 @@
         "releases": 89,
         "release_downloads": 593,
         "contributors": 7,
-        "external_contributors": 0,
+        "external_contributors": 1,
         "packagist_downloads": 0,
         "ghcr_downloads": 0,
         "dependents_repos": 47,
@@ -15567,10 +15567,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 19228,
-        "clones_unique": 591,
-        "views_total": 319,
-        "views_unique": 254,
+        "clones_total": 17562,
+        "clones_unique": 551,
+        "views_total": 321,
+        "views_unique": 252,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -15580,7 +15580,7 @@
           {
             "referrer": "Google",
             "count": 101,
-            "uniques": 88
+            "uniques": 86
           },
           {
             "referrer": "search.brave.com",
@@ -15603,13 +15603,13 @@
             "path": "/netresearch/skill-repo-skill",
             "title": "Overview",
             "count": 119,
-            "uniques": 104
+            "uniques": 102
           },
           {
             "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo",
             "title": "/tree/main/skills/skill-repo",
-            "count": 16,
-            "uniques": 16
+            "count": 17,
+            "uniques": 17
           },
           {
             "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
@@ -15620,14 +15620,8 @@
           {
             "path": "/netresearch/skill-repo-skill/releases",
             "title": "/releases",
-            "count": 7,
-            "uniques": 7
-          },
-          {
-            "path": "/netresearch/skill-repo-skill/tree/main",
-            "title": "/tree/main",
-            "count": 4,
-            "uniques": 4
+            "count": 8,
+            "uniques": 8
           },
           {
             "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/scripts",
@@ -15638,6 +15632,12 @@
           {
             "path": "/netresearch/skill-repo-skill/issues/157",
             "title": "/issues/157",
+            "count": 3,
+            "uniques": 3
+          },
+          {
+            "path": "/netresearch/skill-repo-skill/tree/main",
+            "title": "/tree/main",
             "count": 3,
             "uniques": 3
           },
@@ -15711,8 +15711,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/skill-repo-skill/network/dependents"
       },
-      "estimated_downstream_reach": 518,
-      "blast_radius": 518,
+      "estimated_downstream_reach": 521,
+      "blast_radius": 521,
       "archived": false
     },
     {
@@ -15750,7 +15750,7 @@
         "release_downloads": 120,
         "contributors": 14,
         "external_contributors": 7,
-        "packagist_downloads": 29267,
+        "packagist_downloads": 29410,
         "ghcr_downloads": 0,
         "dependents_repos": 4,
         "dependents_packages": 0
@@ -15761,14 +15761,14 @@
         "prs_opened": 20,
         "prs_merged": 18,
         "releases": 3,
-        "packagist_downloads": 2641,
+        "packagist_downloads": 2780,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1802,
-        "clones_unique": 148,
-        "views_total": 32,
-        "views_unique": 32,
+        "clones_total": 1545,
+        "clones_unique": 141,
+        "views_total": 33,
+        "views_unique": 33,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -15819,6 +15819,12 @@
             "uniques": 2
           },
           {
+            "path": "/netresearch/t3x-contexts/blob/main/CHANGELOG.md",
+            "title": "/blob/main/CHANGELOG.md",
+            "count": 1,
+            "uniques": 1
+          },
+          {
             "path": "/netresearch/t3x-contexts/blob/main/ChangeLog",
             "title": "/blob/main/ChangeLog",
             "count": 1,
@@ -15833,12 +15839,6 @@
           {
             "path": "/netresearch/t3x-contexts/blob/main/fractor.php",
             "title": "/blob/main/fractor.php",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "path": "/netresearch/t3x-contexts/issues/12",
-            "title": "/issues/12",
             "count": 1,
             "uniques": 1
           }
@@ -15904,9 +15904,9 @@
       ],
       "packagist": {
         "name": "netresearch/contexts",
-        "total": 29267,
-        "monthly": 2641,
-        "daily": 72,
+        "total": 29410,
+        "monthly": 2780,
+        "daily": 148,
         "url": "https://packagist.org/packages/netresearch/contexts"
       },
       "ghcr": null,
@@ -15974,10 +15974,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1042,
-        "clones_unique": 116,
-        "views_total": 20,
-        "views_unique": 20,
+        "clones_total": 972,
+        "clones_unique": 110,
+        "views_total": 19,
+        "views_unique": 19,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -16022,12 +16022,6 @@
             "uniques": 1
           },
           {
-            "path": "/netresearch/t3x-contexts_geolocation/blob/main/docs/SECURITY-ASSURANCE.md",
-            "title": "/blob/main/docs/SECURITY-ASSURANCE.md",
-            "count": 1,
-            "uniques": 1
-          },
-          {
             "path": "/netresearch/t3x-contexts_geolocation/pull/32",
             "title": "/pull/32",
             "count": 1,
@@ -16048,6 +16042,12 @@
           {
             "path": "/netresearch/t3x-contexts_geolocation/pull/39",
             "title": "/pull/39",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "path": "/netresearch/t3x-contexts_geolocation/pull/40",
+            "title": "/pull/40",
             "count": 1,
             "uniques": 1
           }
@@ -16172,10 +16172,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 864,
+        "clones_total": 777,
         "clones_unique": 89,
-        "views_total": 10,
-        "views_unique": 10,
+        "views_total": 11,
+        "views_unique": 11,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -16186,14 +16186,19 @@
             "referrer": "Google",
             "count": 1,
             "uniques": 1
+          },
+          {
+            "referrer": "github.com",
+            "count": 1,
+            "uniques": 1
           }
         ],
         "top_paths": [
           {
             "path": "/netresearch/t3x-contexts_wurfl",
             "title": "Overview",
-            "count": 2,
-            "uniques": 2
+            "count": 3,
+            "uniques": 3
           },
           {
             "path": "/netresearch/t3x-contexts_wurfl/issues/43",
@@ -16320,8 +16325,8 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2023-01-14T19:41:07Z",
-      "pushed_at": "2026-11-01T21:09:52Z",
-      "updated_at": "2026-11-01T21:04:00Z",
+      "pushed_at": "2026-11-02T15:42:28Z",
+      "updated_at": "2026-11-02T15:41:49Z",
       "composer_name": "netresearch/t3-cowriter",
       "lifetime": {
         "stars": 10,
@@ -16329,34 +16334,34 @@
         "watchers": 5,
         "network": 1,
         "open_issues_plus_prs": 2,
-        "commits": 786,
+        "commits": 793,
         "issues_open": 1,
         "issues_closed": 20,
         "prs_open": 1,
-        "prs_merged": 209,
+        "prs_merged": 211,
         "prs_closed_unmerged": 20,
         "issues_total": 21,
-        "releases": 55,
-        "release_downloads": 540,
+        "releases": 56,
+        "release_downloads": 550,
         "contributors": 14,
         "external_contributors": 9,
-        "packagist_downloads": 15022,
+        "packagist_downloads": 15118,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 172,
+        "commits": 179,
         "issues_opened": 0,
-        "prs_opened": 46,
-        "prs_merged": 46,
-        "releases": 17,
-        "packagist_downloads": 1077,
+        "prs_opened": 48,
+        "prs_merged": 48,
+        "releases": 18,
+        "packagist_downloads": 1166,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 7399,
-        "clones_unique": 400,
+        "clones_total": 8297,
+        "clones_unique": 430,
         "views_total": 82,
         "views_unique": 78,
         "top_referrers": [
@@ -16440,15 +16445,15 @@
         ]
       },
       "latest_release": {
-        "name": "v3.23.0",
-        "tag_name": "v3.23.0",
-        "published_at": "2026-11-01T21:11:11Z",
-        "url": "https://github.com/netresearch/t3x-cowriter/releases/tag/v3.23.0"
+        "name": "v3.24.0",
+        "tag_name": "v3.24.0",
+        "published_at": "2026-11-02T15:44:06Z",
+        "url": "https://github.com/netresearch/t3x-cowriter/releases/tag/v3.24.0"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 612,
+          "contributions": 619,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -16499,9 +16504,9 @@
       ],
       "packagist": {
         "name": "netresearch/t3-cowriter",
-        "total": 15022,
-        "monthly": 1077,
-        "daily": 76,
+        "total": 15118,
+        "monthly": 1166,
+        "daily": 100,
         "url": "https://packagist.org/packages/netresearch/t3-cowriter"
       },
       "ghcr": null,
@@ -16510,8 +16515,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-cowriter/network/dependents"
       },
-      "estimated_downstream_reach": 259,
-      "blast_radius": 259,
+      "estimated_downstream_reach": 261,
+      "blast_radius": 261,
       "archived": false
     },
     {
@@ -16564,8 +16569,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 3,
-        "clones_unique": 3,
+        "clones_total": 2,
+        "clones_unique": 2,
         "views_total": 5,
         "views_unique": 5,
         "top_referrers": [
@@ -16675,8 +16680,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 20,
-        "clones_unique": 18,
+        "clones_total": 21,
+        "clones_unique": 19,
         "views_total": 0,
         "views_unique": 0,
         "top_referrers": [],
@@ -16777,8 +16782,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 5,
-        "clones_unique": 5,
+        "clones_total": 4,
+        "clones_unique": 4,
         "views_total": 1,
         "views_unique": 1,
         "top_referrers": [
@@ -16910,24 +16915,24 @@
       "homepage": "https://netresearch.github.io/t3x-nr-browser-ai/",
       "default_branch": "main",
       "created_at": "2026-07-28T14:31:41Z",
-      "pushed_at": "2026-11-01T16:53:22Z",
-      "updated_at": "2026-11-01T16:53:24Z",
+      "pushed_at": "2026-11-02T23:45:47Z",
+      "updated_at": "2026-11-02T23:45:49Z",
       "composer_name": null,
       "lifetime": {
         "stars": 1,
         "forks": 0,
         "watchers": 0,
         "network": 0,
-        "open_issues_plus_prs": 3,
-        "commits": 310,
+        "open_issues_plus_prs": 2,
+        "commits": 312,
         "issues_open": 1,
         "issues_closed": 5,
-        "prs_open": 2,
-        "prs_merged": 102,
+        "prs_open": 1,
+        "prs_merged": 103,
         "prs_closed_unmerged": 5,
         "issues_total": 6,
         "releases": 8,
-        "release_downloads": 84,
+        "release_downloads": 86,
         "contributors": 5,
         "external_contributors": 0,
         "packagist_downloads": 0,
@@ -16936,19 +16941,19 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 79,
+        "commits": 81,
         "issues_opened": 0,
         "prs_opened": 31,
-        "prs_merged": 30,
+        "prs_merged": 31,
         "releases": 1,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 4119,
-        "clones_unique": 206,
-        "views_total": 52,
-        "views_unique": 43,
+        "clones_total": 4053,
+        "clones_unique": 219,
+        "views_total": 53,
+        "views_unique": 44,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -16957,8 +16962,8 @@
           },
           {
             "referrer": "github.com",
-            "count": 3,
-            "uniques": 2
+            "count": 4,
+            "uniques": 3
           },
           {
             "referrer": "Google",
@@ -16980,8 +16985,8 @@
           {
             "path": "/netresearch/t3x-nr-browser-ai",
             "title": "Overview",
-            "count": 5,
-            "uniques": 5
+            "count": 6,
+            "uniques": 6
           },
           {
             "path": "/netresearch/t3x-nr-browser-ai/issues/43",
@@ -17053,7 +17058,7 @@
         },
         {
           "login": "renovate[bot]",
-          "contributions": 33,
+          "contributions": 35,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -17079,8 +17084,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-browser-ai/network/dependents"
       },
-      "estimated_downstream_reach": 108,
-      "blast_radius": 108,
+      "estimated_downstream_reach": 109,
+      "blast_radius": 109,
       "archived": false
     },
     {
@@ -17130,8 +17135,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 613,
-        "clones_unique": 91,
+        "clones_total": 618,
+        "clones_unique": 92,
         "views_total": 4,
         "views_unique": 4,
         "top_referrers": [
@@ -17239,8 +17244,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 927,
-        "clones_unique": 88,
+        "clones_total": 849,
+        "clones_unique": 80,
         "views_total": 21,
         "views_unique": 21,
         "top_referrers": [
@@ -17361,43 +17366,43 @@
       "homepage": "https://extensions.typo3.org/extension/nr_image_optimize",
       "default_branch": "main",
       "created_at": "2025-09-12T06:59:28Z",
-      "pushed_at": "2026-11-01T01:51:40Z",
-      "updated_at": "2026-11-01T01:50:40Z",
+      "pushed_at": "2026-11-02T15:42:37Z",
+      "updated_at": "2026-11-02T15:42:39Z",
       "composer_name": "netresearch/nr-image-optimize",
       "lifetime": {
         "stars": 4,
         "forks": 1,
         "watchers": 1,
         "network": 1,
-        "open_issues_plus_prs": 5,
-        "commits": 632,
-        "issues_open": 4,
-        "issues_closed": 12,
+        "open_issues_plus_prs": 4,
+        "commits": 640,
+        "issues_open": 3,
+        "issues_closed": 13,
         "prs_open": 1,
-        "prs_merged": 202,
+        "prs_merged": 203,
         "prs_closed_unmerged": 15,
         "issues_total": 16,
         "releases": 28,
         "release_downloads": 9,
         "contributors": 9,
-        "external_contributors": 2,
-        "packagist_downloads": 3194,
+        "external_contributors": 3,
+        "packagist_downloads": 3213,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 44,
+        "commits": 52,
         "issues_opened": 1,
-        "prs_opened": 21,
-        "prs_merged": 19,
+        "prs_opened": 22,
+        "prs_merged": 20,
         "releases": 2,
-        "packagist_downloads": 303,
+        "packagist_downloads": 318,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1403,
-        "clones_unique": 126,
+        "clones_total": 1529,
+        "clones_unique": 118,
         "views_total": 50,
         "views_unique": 43,
         "top_referrers": [
@@ -17484,7 +17489,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 351,
+          "contributions": 359,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -17530,9 +17535,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-image-optimize",
-        "total": 3194,
-        "monthly": 303,
-        "daily": 7,
+        "total": 3213,
+        "monthly": 318,
+        "daily": 20,
         "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
       },
       "ghcr": null,
@@ -17541,8 +17546,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-image-optimize/network/dependents"
       },
-      "estimated_downstream_reach": 226,
-      "blast_radius": 226,
+      "estimated_downstream_reach": 230,
+      "blast_radius": 230,
       "archived": false
     },
     {
@@ -17585,7 +17590,7 @@
         "release_downloads": 33,
         "contributors": 6,
         "external_contributors": 1,
-        "packagist_downloads": 4446,
+        "packagist_downloads": 4544,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -17596,14 +17601,14 @@
         "prs_opened": 11,
         "prs_merged": 10,
         "releases": 2,
-        "packagist_downloads": 958,
+        "packagist_downloads": 1051,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1105,
-        "clones_unique": 101,
-        "views_total": 33,
-        "views_unique": 24,
+        "clones_total": 1037,
+        "clones_unique": 95,
+        "views_total": 34,
+        "views_unique": 25,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -17611,13 +17616,13 @@
             "uniques": 19
           },
           {
-            "referrer": "Google",
+            "referrer": "extensions.typo3.org",
             "count": 2,
-            "uniques": 1
+            "uniques": 2
           },
           {
-            "referrer": "extensions.typo3.org",
-            "count": 1,
+            "referrer": "Google",
+            "count": 2,
             "uniques": 1
           }
         ],
@@ -17627,6 +17632,12 @@
             "title": "/releases/tag/14.0.2",
             "count": 4,
             "uniques": 1
+          },
+          {
+            "path": "/netresearch/t3x-nr-image-sitemap/blob/main/README.rst",
+            "title": "/blob/main/README.rst",
+            "count": 2,
+            "uniques": 2
           },
           {
             "path": "/netresearch/t3x-nr-image-sitemap/pull/26/files/c3bcebec3e93ff75e1c030aa1ca4f60878f22c21",
@@ -17661,12 +17672,6 @@
           {
             "path": "/netresearch/t3x-nr-image-sitemap/actions/runs/36387041545/job/108815036764",
             "title": "/actions/runs/36387041545/job/108815036764",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "path": "/netresearch/t3x-nr-image-sitemap/blob/main/README.rst",
-            "title": "/blob/main/README.rst",
             "count": 1,
             "uniques": 1
           },
@@ -17724,9 +17729,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-image-sitemap",
-        "total": 4446,
-        "monthly": 958,
-        "daily": 76,
+        "total": 4544,
+        "monthly": 1051,
+        "daily": 107,
         "url": "https://packagist.org/packages/netresearch/nr-image-sitemap"
       },
       "ghcr": null,
@@ -17766,8 +17771,8 @@
       "homepage": "https://netresearch.github.io/t3x-nr-llm/",
       "default_branch": "main",
       "created_at": "2025-12-22T23:35:44Z",
-      "pushed_at": "2026-11-02T03:41:05Z",
-      "updated_at": "2026-11-02T03:30:32Z",
+      "pushed_at": "2026-11-03T03:16:06Z",
+      "updated_at": "2026-11-03T02:41:06Z",
       "composer_name": "netresearch/nr-llm",
       "lifetime": {
         "stars": 6,
@@ -17775,34 +17780,34 @@
         "watchers": 2,
         "network": 2,
         "open_issues_plus_prs": 7,
-        "commits": 3970,
+        "commits": 4005,
         "issues_open": 2,
-        "issues_closed": 153,
+        "issues_closed": 154,
         "prs_open": 5,
-        "prs_merged": 1028,
+        "prs_merged": 1039,
         "prs_closed_unmerged": 43,
-        "issues_total": 155,
-        "releases": 94,
-        "release_downloads": 1658,
+        "issues_total": 156,
+        "releases": 99,
+        "release_downloads": 1727,
         "contributors": 7,
         "external_contributors": 2,
-        "packagist_downloads": 63676,
+        "packagist_downloads": 65338,
         "ghcr_downloads": 0,
         "dependents_repos": 5,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 986,
-        "issues_opened": 4,
-        "prs_opened": 245,
-        "prs_merged": 233,
-        "releases": 24,
-        "packagist_downloads": 24632,
+        "commits": 1017,
+        "issues_opened": 5,
+        "prs_opened": 254,
+        "prs_merged": 242,
+        "releases": 29,
+        "packagist_downloads": 26282,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 43626,
-        "clones_unique": 1240,
+        "clones_total": 43751,
+        "clones_unique": 1243,
         "views_total": 530,
         "views_unique": 511,
         "top_referrers": [
@@ -17901,20 +17906,20 @@
         ]
       },
       "latest_release": {
-        "name": "v0.43.1",
-        "tag_name": "v0.43.1",
-        "published_at": "2026-11-01T23:40:32Z",
-        "url": "https://github.com/netresearch/t3x-nr-llm/releases/tag/v0.43.1"
+        "name": "v0.43.6",
+        "tag_name": "v0.43.6",
+        "published_at": "2026-11-03T00:41:03Z",
+        "url": "https://github.com/netresearch/t3x-nr-llm/releases/tag/v0.43.6"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 3791,
+          "contributions": 3824,
           "url": "https://github.com/CybotTM"
         },
         {
           "login": "renovate[bot]",
-          "contributions": 107,
+          "contributions": 109,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -17945,9 +17950,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-llm",
-        "total": 63676,
-        "monthly": 24632,
-        "daily": 2337,
+        "total": 65338,
+        "monthly": 26282,
+        "daily": 1552,
         "url": "https://packagist.org/packages/netresearch/nr-llm"
       },
       "ghcr": null,
@@ -17956,8 +17961,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-llm/network/dependents"
       },
-      "estimated_downstream_reach": 1203,
-      "blast_radius": 1203,
+      "estimated_downstream_reach": 1215,
+      "blast_radius": 1215,
       "archived": false
     },
     {
@@ -17992,7 +17997,7 @@
         "release_downloads": 152,
         "contributors": 2,
         "external_contributors": 0,
-        "packagist_downloads": 1775,
+        "packagist_downloads": 1870,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -18003,12 +18008,12 @@
         "prs_opened": 20,
         "prs_merged": 17,
         "releases": 5,
-        "packagist_downloads": 931,
+        "packagist_downloads": 1022,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1535,
-        "clones_unique": 118,
+        "clones_total": 1763,
+        "clones_unique": 124,
         "views_total": 7,
         "views_unique": 7,
         "top_referrers": [
@@ -18082,9 +18087,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-llm-compat",
-        "total": 1775,
-        "monthly": 931,
-        "daily": 74,
+        "total": 1870,
+        "monthly": 1022,
+        "daily": 103,
         "url": "https://packagist.org/packages/netresearch/nr-llm-compat"
       },
       "ghcr": null,
@@ -18120,8 +18125,8 @@
       "homepage": "https://netresearch.github.io/t3x-nr-mcp-agent/",
       "default_branch": "main",
       "created_at": "2026-03-22T17:16:16Z",
-      "pushed_at": "2026-11-01T23:22:12Z",
-      "updated_at": "2026-11-01T23:21:42Z",
+      "pushed_at": "2026-11-02T21:54:38Z",
+      "updated_at": "2026-11-02T21:54:04Z",
       "composer_name": "netresearch/nr-mcp-agent",
       "lifetime": {
         "stars": 2,
@@ -18129,34 +18134,34 @@
         "watchers": 1,
         "network": 0,
         "open_issues_plus_prs": 6,
-        "commits": 1069,
+        "commits": 1088,
         "issues_open": 4,
         "issues_closed": 10,
         "prs_open": 2,
-        "prs_merged": 279,
+        "prs_merged": 285,
         "prs_closed_unmerged": 8,
         "issues_total": 14,
-        "releases": 72,
-        "release_downloads": 1259,
+        "releases": 75,
+        "release_downloads": 1793,
         "contributors": 6,
         "external_contributors": 1,
-        "packagist_downloads": 2868,
+        "packagist_downloads": 2966,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 435,
+        "commits": 454,
         "issues_opened": 3,
-        "prs_opened": 110,
-        "prs_merged": 108,
-        "releases": 33,
-        "packagist_downloads": 964,
+        "prs_opened": 116,
+        "prs_merged": 114,
+        "releases": 36,
+        "packagist_downloads": 1058,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 20790,
-        "clones_unique": 724,
+        "clones_total": 21752,
+        "clones_unique": 731,
         "views_total": 102,
         "views_unique": 91,
         "top_referrers": [
@@ -18240,15 +18245,15 @@
         ]
       },
       "latest_release": {
-        "name": "v0.30.0",
-        "tag_name": "v0.30.0",
-        "published_at": "2026-11-01T23:23:27Z",
-        "url": "https://github.com/netresearch/t3x-nr-mcp-agent/releases/tag/v0.30.0"
+        "name": "v0.30.3",
+        "tag_name": "v0.30.3",
+        "published_at": "2026-11-02T21:56:21Z",
+        "url": "https://github.com/netresearch/t3x-nr-mcp-agent/releases/tag/v0.30.3"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 824,
+          "contributions": 843,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -18279,9 +18284,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-mcp-agent",
-        "total": 2868,
-        "monthly": 964,
-        "daily": 75,
+        "total": 2966,
+        "monthly": 1058,
+        "daily": 106,
         "url": "https://packagist.org/packages/netresearch/nr-mcp-agent"
       },
       "ghcr": null,
@@ -18290,8 +18295,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-mcp-agent/network/dependents"
       },
-      "estimated_downstream_reach": 296,
-      "blast_radius": 296,
+      "estimated_downstream_reach": 302,
+      "blast_radius": 302,
       "archived": false
     },
     {
@@ -18335,7 +18340,7 @@
         "release_downloads": 229,
         "contributors": 6,
         "external_contributors": 1,
-        "packagist_downloads": 20316,
+        "packagist_downloads": 20544,
         "ghcr_downloads": 0,
         "dependents_repos": 3,
         "dependents_packages": 0
@@ -18346,13 +18351,13 @@
         "prs_opened": 22,
         "prs_merged": 24,
         "releases": 2,
-        "packagist_downloads": 5782,
+        "packagist_downloads": 5946,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 3014,
-        "clones_unique": 172,
-        "views_total": 84,
+        "clones_total": 2565,
+        "clones_unique": 167,
+        "views_total": 86,
         "views_unique": 54,
         "top_referrers": [
           {
@@ -18362,7 +18367,7 @@
           },
           {
             "referrer": "extensions.typo3.org",
-            "count": 2,
+            "count": 3,
             "uniques": 1
           },
           {
@@ -18385,6 +18390,12 @@
             "uniques": 3
           },
           {
+            "path": "/netresearch/t3x-nr-passkeys-be/tree/main",
+            "title": "/tree/main",
+            "count": 3,
+            "uniques": 2
+          },
+          {
             "path": "/netresearch/t3x-nr-passkeys-be/pull/110/files",
             "title": "/pull/110/files",
             "count": 2,
@@ -18403,12 +18414,6 @@
             "uniques": 2
           },
           {
-            "path": "/netresearch/t3x-nr-passkeys-be/tree/main",
-            "title": "/tree/main",
-            "count": 2,
-            "uniques": 2
-          },
-          {
             "path": "/netresearch/t3x-nr-passkeys-be/tree/main/Classes",
             "title": "/tree/main/Classes",
             "count": 2,
@@ -18421,14 +18426,14 @@
             "uniques": 1
           },
           {
-            "path": "/netresearch/t3x-nr-passkeys-be/blob/cea15b138a113039816abebebec777f1781c3f/Classes/Service/ExtensionConfigurationService.php",
-            "title": "/blob/cea15b138a113039816abebebec777f1781c3f/Classes/Service/ExtensionConfigurationService.php",
-            "count": 1,
+            "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Resources/Public/JavaScript/PasskeyLogin.js",
+            "title": "/blob/main/Resources/Public/JavaScript/PasskeyLogin.js",
+            "count": 2,
             "uniques": 1
           },
           {
-            "path": "/netresearch/t3x-nr-passkeys-be/blob/main/AGENTS.md",
-            "title": "/blob/main/AGENTS.md",
+            "path": "/netresearch/t3x-nr-passkeys-be/blob/cea15b138a113039816abebebec777f1781c3f/Classes/Service/ExtensionConfigurationService.php",
+            "title": "/blob/cea15b138a113039816abebebec777f1781c3f/Classes/Service/ExtensionConfigurationService.php",
             "count": 1,
             "uniques": 1
           }
@@ -18474,9 +18479,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-passkeys-be",
-        "total": 20316,
-        "monthly": 5782,
-        "daily": 119,
+        "total": 20544,
+        "monthly": 5946,
+        "daily": 214,
         "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
       },
       "ghcr": null,
@@ -18521,7 +18526,7 @@
         "release_downloads": 206,
         "contributors": 4,
         "external_contributors": 0,
-        "packagist_downloads": 5111,
+        "packagist_downloads": 5261,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -18532,14 +18537,14 @@
         "prs_opened": 16,
         "prs_merged": 16,
         "releases": 1,
-        "packagist_downloads": 2568,
+        "packagist_downloads": 2700,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2164,
-        "clones_unique": 168,
-        "views_total": 23,
-        "views_unique": 23,
+        "clones_total": 1541,
+        "clones_unique": 154,
+        "views_total": 22,
+        "views_unique": 22,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -18560,12 +18565,6 @@
             "uniques": 3
           },
           {
-            "path": "/netresearch/t3x-nr-passkeys-fe",
-            "title": "Overview",
-            "count": 2,
-            "uniques": 2
-          },
-          {
             "path": "/netresearch/t3x-nr-passkeys-fe/pull/28/files",
             "title": "/pull/28/files",
             "count": 2,
@@ -18576,6 +18575,12 @@
             "title": "/pull/54/files",
             "count": 2,
             "uniques": 2
+          },
+          {
+            "path": "/netresearch/t3x-nr-passkeys-fe",
+            "title": "Overview",
+            "count": 1,
+            "uniques": 1
           },
           {
             "path": "/netresearch/t3x-nr-passkeys-fe/issues/4",
@@ -18645,9 +18650,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-passkeys-fe",
-        "total": 5111,
-        "monthly": 2568,
-        "daily": 109,
+        "total": 5261,
+        "monthly": 2700,
+        "daily": 146,
         "url": "https://packagist.org/packages/netresearch/nr-passkeys-fe"
       },
       "ghcr": null,
@@ -18672,8 +18677,8 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-06-08T21:31:58Z",
-      "pushed_at": "2026-11-02T02:09:06Z",
-      "updated_at": "2026-11-02T02:09:08Z",
+      "pushed_at": "2026-11-02T22:49:09Z",
+      "updated_at": "2026-11-02T22:48:24Z",
       "composer_name": "netresearch/nr-repurpose",
       "lifetime": {
         "stars": 1,
@@ -18681,36 +18686,36 @@
         "watchers": 1,
         "network": 0,
         "open_issues_plus_prs": 2,
-        "commits": 832,
+        "commits": 843,
         "issues_open": 1,
         "issues_closed": 11,
         "prs_open": 1,
-        "prs_merged": 179,
+        "prs_merged": 183,
         "prs_closed_unmerged": 8,
         "issues_total": 12,
-        "releases": 40,
-        "release_downloads": 434,
+        "releases": 42,
+        "release_downloads": 454,
         "contributors": 4,
         "external_contributors": 0,
-        "packagist_downloads": 2843,
+        "packagist_downloads": 2940,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 113,
+        "commits": 124,
         "issues_opened": 1,
-        "prs_opened": 38,
-        "prs_merged": 37,
-        "releases": 13,
-        "packagist_downloads": 940,
+        "prs_opened": 42,
+        "prs_merged": 41,
+        "releases": 15,
+        "packagist_downloads": 1033,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1158,
-        "clones_unique": 102,
-        "views_total": 69,
-        "views_unique": 69,
+        "clones_total": 3013,
+        "clones_unique": 165,
+        "views_total": 71,
+        "views_unique": 71,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -18782,15 +18787,15 @@
         ]
       },
       "latest_release": {
-        "name": "v0.13.0",
-        "tag_name": "v0.13.0",
-        "published_at": "2026-11-01T23:43:01Z",
-        "url": "https://github.com/netresearch/t3x-nr-repurpose/releases/tag/v0.13.0"
+        "name": "v0.14.0",
+        "tag_name": "v0.14.0",
+        "published_at": "2026-11-02T22:50:43Z",
+        "url": "https://github.com/netresearch/t3x-nr-repurpose/releases/tag/v0.14.0"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 784,
+          "contributions": 795,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -18811,9 +18816,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-repurpose",
-        "total": 2843,
-        "monthly": 940,
-        "daily": 80,
+        "total": 2940,
+        "monthly": 1033,
+        "daily": 101,
         "url": "https://packagist.org/packages/netresearch/nr-repurpose"
       },
       "ghcr": null,
@@ -18822,8 +18827,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-repurpose/network/dependents"
       },
-      "estimated_downstream_reach": 191,
-      "blast_radius": 191,
+      "estimated_downstream_reach": 195,
+      "blast_radius": 195,
       "archived": false
     },
     {
@@ -18875,8 +18880,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1573,
-        "clones_unique": 124,
+        "clones_total": 1120,
+        "clones_unique": 103,
         "views_total": 18,
         "views_unique": 18,
         "top_referrers": [
@@ -19053,8 +19058,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1501,
-        "clones_unique": 109,
+        "clones_total": 1679,
+        "clones_unique": 125,
         "views_total": 24,
         "views_unique": 24,
         "top_referrers": [
@@ -19164,7 +19169,7 @@
         "name": "netresearch/nr-temporal-cache",
         "total": 8,
         "monthly": 3,
-        "daily": 1,
+        "daily": 0,
         "url": "https://packagist.org/packages/netresearch/nr-temporal-cache"
       },
       "ghcr": null,
@@ -19223,7 +19228,7 @@
         "release_downloads": 86,
         "contributors": 8,
         "external_contributors": 2,
-        "packagist_downloads": 3802,
+        "packagist_downloads": 3897,
         "ghcr_downloads": 0,
         "dependents_repos": 1,
         "dependents_packages": 0
@@ -19234,14 +19239,14 @@
         "prs_opened": 57,
         "prs_merged": 57,
         "releases": 3,
-        "packagist_downloads": 1068,
+        "packagist_downloads": 1157,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 6962,
-        "clones_unique": 348,
-        "views_total": 76,
-        "views_unique": 76,
+        "clones_total": 7374,
+        "clones_unique": 422,
+        "views_total": 75,
+        "views_unique": 75,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -19362,9 +19367,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-textdb",
-        "total": 3802,
-        "monthly": 1068,
-        "daily": 75,
+        "total": 3897,
+        "monthly": 1157,
+        "daily": 105,
         "url": "https://packagist.org/packages/netresearch/nr-textdb"
       },
       "ghcr": null,
@@ -19411,7 +19416,7 @@
         "release_downloads": 646,
         "contributors": 5,
         "external_contributors": 0,
-        "packagist_downloads": 168781,
+        "packagist_downloads": 171220,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -19422,14 +19427,14 @@
         "prs_opened": 81,
         "prs_merged": 77,
         "releases": 1,
-        "packagist_downloads": 52582,
+        "packagist_downloads": 54930,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 17956,
-        "clones_unique": 636,
-        "views_total": 128,
-        "views_unique": 125,
+        "clones_total": 17225,
+        "clones_unique": 619,
+        "views_total": 130,
+        "views_unique": 127,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -19483,6 +19488,12 @@
             "uniques": 3
           },
           {
+            "path": "/netresearch/t3x-nr-vault/blob/main/ext_conf_template.txt",
+            "title": "/blob/main/ext_conf_template.txt",
+            "count": 3,
+            "uniques": 3
+          },
+          {
             "path": "/netresearch/t3x-nr-vault/issues",
             "title": "/issues",
             "count": 3,
@@ -19491,12 +19502,6 @@
           {
             "path": "/netresearch/t3x-nr-vault/blob/main/CHANGELOG.md",
             "title": "/blob/main/CHANGELOG.md",
-            "count": 2,
-            "uniques": 2
-          },
-          {
-            "path": "/netresearch/t3x-nr-vault/blob/main/ext_conf_template.txt",
-            "title": "/blob/main/ext_conf_template.txt",
             "count": 2,
             "uniques": 2
           },
@@ -19555,9 +19560,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-vault",
-        "total": 168781,
-        "monthly": 52582,
-        "daily": 4017,
+        "total": 171220,
+        "monthly": 54930,
+        "daily": 2598,
         "url": "https://packagist.org/packages/netresearch/nr-vault"
       },
       "ghcr": null,
@@ -19602,7 +19607,7 @@
         "release_downloads": 0,
         "contributors": 3,
         "external_contributors": 0,
-        "packagist_downloads": 150,
+        "packagist_downloads": 153,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -19613,14 +19618,14 @@
         "prs_opened": 11,
         "prs_merged": 11,
         "releases": 0,
-        "packagist_downloads": 37,
+        "packagist_downloads": 38,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1135,
-        "clones_unique": 99,
-        "views_total": 11,
-        "views_unique": 11,
+        "clones_total": 1105,
+        "clones_unique": 94,
+        "views_total": 13,
+        "views_unique": 12,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -19628,12 +19633,12 @@
             "uniques": 9
           },
           {
-            "referrer": "Google",
-            "count": 1,
-            "uniques": 1
+            "referrer": "github.com",
+            "count": 3,
+            "uniques": 2
           },
           {
-            "referrer": "github.com",
+            "referrer": "Google",
             "count": 1,
             "uniques": 1
           }
@@ -19642,8 +19647,8 @@
           {
             "path": "/netresearch/t3x-nr-wellknown",
             "title": "Overview",
-            "count": 2,
-            "uniques": 2
+            "count": 4,
+            "uniques": 3
           },
           {
             "path": "/netresearch/t3x-nr-wellknown/pull/4/files/053bf5b33e0688563c2e9134374d5adcfc7a50f1",
@@ -19715,8 +19720,8 @@
       ],
       "packagist": {
         "name": "netresearch/nr-wellknown",
-        "total": 150,
-        "monthly": 37,
+        "total": 153,
+        "monthly": 38,
         "daily": 3,
         "url": "https://packagist.org/packages/netresearch/nr-wellknown"
       },
@@ -19786,8 +19791,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 707,
-        "clones_unique": 69,
+        "clones_total": 937,
+        "clones_unique": 84,
         "views_total": 14,
         "views_unique": 14,
         "top_referrers": [
@@ -20024,8 +20029,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 5,
-        "clones_unique": 4,
+        "clones_total": 4,
+        "clones_unique": 3,
         "views_total": 1,
         "views_unique": 1,
         "top_referrers": [],
@@ -20194,8 +20199,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 7,
-        "clones_unique": 5,
+        "clones_total": 6,
+        "clones_unique": 4,
         "views_total": 3,
         "views_unique": 3,
         "top_referrers": [
@@ -20377,8 +20382,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 4,
-        "clones_unique": 4,
+        "clones_total": 3,
+        "clones_unique": 3,
         "views_total": 0,
         "views_unique": 0,
         "top_referrers": [],
@@ -20465,8 +20470,8 @@
       "traffic_14d": {
         "clones_total": 9,
         "clones_unique": 8,
-        "views_total": 2,
-        "views_unique": 2,
+        "views_total": 1,
+        "views_unique": 1,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -20478,8 +20483,8 @@
           {
             "path": "/netresearch/t3x-nr_perfanalysis",
             "title": "Overview",
-            "count": 2,
-            "uniques": 2
+            "count": 1,
+            "uniques": 1
           }
         ]
       },
@@ -20579,8 +20584,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 5,
-        "clones_unique": 4,
+        "clones_total": 6,
+        "clones_unique": 5,
         "views_total": 2,
         "views_unique": 2,
         "top_referrers": [],
@@ -20659,8 +20664,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 5,
-        "clones_unique": 4,
+        "clones_total": 4,
+        "clones_unique": 3,
         "views_total": 1,
         "views_unique": 1,
         "top_referrers": [],
@@ -20732,7 +20737,7 @@
         "release_downloads": 292,
         "contributors": 51,
         "external_contributors": 44,
-        "packagist_downloads": 1159043,
+        "packagist_downloads": 1160683,
         "ghcr_downloads": 0,
         "dependents_repos": 47,
         "dependents_packages": 3
@@ -20743,14 +20748,14 @@
         "prs_opened": 31,
         "prs_merged": 32,
         "releases": 1,
-        "packagist_downloads": 28706,
+        "packagist_downloads": 30036,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 5549,
-        "clones_unique": 440,
+        "clones_total": 5157,
+        "clones_unique": 446,
         "views_total": 261,
-        "views_unique": 217,
+        "views_unique": 218,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -20782,7 +20787,7 @@
           {
             "path": "/netresearch/t3x-rte_ckeditor_image",
             "title": "Overview",
-            "count": 23,
+            "count": 22,
             "uniques": 12
           },
           {
@@ -20794,12 +20799,6 @@
           {
             "path": "/netresearch/t3x-rte_ckeditor_image/releases",
             "title": "/releases",
-            "count": 5,
-            "uniques": 5
-          },
-          {
-            "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/claudedocs/INDEX.md",
-            "title": "/blob/main/claudedocs/INDEX.md",
             "count": 4,
             "uniques": 4
           },
@@ -20813,6 +20812,12 @@
             "path": "/netresearch/t3x-rte_ckeditor_image/pulls",
             "title": "/pulls",
             "count": 4,
+            "uniques": 3
+          },
+          {
+            "path": "/netresearch/t3x-rte_ckeditor_image/blob/main/claudedocs/INDEX.md",
+            "title": "/blob/main/claudedocs/INDEX.md",
+            "count": 3,
             "uniques": 3
           },
           {
@@ -20901,9 +20906,9 @@
       ],
       "packagist": {
         "name": "netresearch/rte-ckeditor-image",
-        "total": 1159043,
-        "monthly": 28706,
-        "daily": 728,
+        "total": 1160683,
+        "monthly": 30036,
+        "daily": 1545,
         "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
       },
       "ghcr": null,
@@ -20950,7 +20955,7 @@
         "release_downloads": 34,
         "contributors": 5,
         "external_contributors": 0,
-        "packagist_downloads": 5981,
+        "packagist_downloads": 6088,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -20961,12 +20966,12 @@
         "prs_opened": 11,
         "prs_merged": 10,
         "releases": 1,
-        "packagist_downloads": 1457,
+        "packagist_downloads": 1558,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1081,
-        "clones_unique": 105,
+        "clones_total": 1211,
+        "clones_unique": 111,
         "views_total": 12,
         "views_unique": 12,
         "top_referrers": [
@@ -21074,9 +21079,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-scheduler",
-        "total": 5981,
-        "monthly": 1457,
-        "daily": 98,
+        "total": 6088,
+        "monthly": 1558,
+        "daily": 116,
         "url": "https://packagist.org/packages/netresearch/nr-scheduler"
       },
       "ghcr": null,
@@ -21144,10 +21149,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 703,
-        "clones_unique": 79,
-        "views_total": 12,
-        "views_unique": 12,
+        "clones_total": 826,
+        "clones_unique": 91,
+        "views_total": 11,
+        "views_unique": 11,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -21176,8 +21181,8 @@
           {
             "path": "/netresearch/t3x-sync/commit/0d1e678ae2848684ddbeb264f58762f6a3d4cf82",
             "title": "/commit/0d1e678ae2848684ddbeb264f58762f6a3d4cf82",
-            "count": 2,
-            "uniques": 2
+            "count": 1,
+            "uniques": 1
           },
           {
             "path": "/netresearch/t3x-sync/commits/master",
@@ -21323,8 +21328,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 10,
-        "clones_unique": 7,
+        "clones_total": 12,
+        "clones_unique": 9,
         "views_total": 0,
         "views_unique": 0,
         "top_referrers": [],
@@ -21390,8 +21395,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 5,
-        "clones_unique": 5,
+        "clones_total": 6,
+        "clones_unique": 6,
         "views_total": 0,
         "views_unique": 0,
         "top_referrers": [],
@@ -21463,10 +21468,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1109,
-        "clones_unique": 116,
-        "views_total": 72,
-        "views_unique": 72,
+        "clones_total": 1321,
+        "clones_unique": 118,
+        "views_total": 73,
+        "views_unique": 73,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -21486,6 +21491,12 @@
             "title": "/pull/78",
             "count": 3,
             "uniques": 3
+          },
+          {
+            "path": "/netresearch/t3x-universal-messenger/blob/main/ext_conf_template.txt",
+            "title": "/blob/main/ext_conf_template.txt",
+            "count": 2,
+            "uniques": 2
           },
           {
             "path": "/netresearch/t3x-universal-messenger/issues/49",
@@ -21526,12 +21537,6 @@
           {
             "path": "/netresearch/t3x-universal-messenger/pull/91",
             "title": "/pull/91",
-            "count": 2,
-            "uniques": 2
-          },
-          {
-            "path": "/netresearch/t3x-universal-messenger/pull/93",
-            "title": "/pull/93",
             "count": 2,
             "uniques": 2
           }
@@ -21624,7 +21629,7 @@
         "prs_closed_unmerged": 4,
         "issues_total": 4,
         "releases": 12,
-        "release_downloads": 1022,
+        "release_downloads": 1025,
         "contributors": 23,
         "external_contributors": 19,
         "packagist_downloads": 0,
@@ -21642,10 +21647,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 478,
-        "clones_unique": 103,
-        "views_total": 13,
-        "views_unique": 6,
+        "clones_total": 474,
+        "clones_unique": 99,
+        "views_total": 12,
+        "views_unique": 5,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -21662,8 +21667,8 @@
           {
             "path": "/netresearch/terraform-provider-ad/issues",
             "title": "/issues",
-            "count": 3,
-            "uniques": 2
+            "count": 2,
+            "uniques": 1
           },
           {
             "path": "/netresearch/terraform-provider-ad",
@@ -21840,8 +21845,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 83,
-        "clones_unique": 40,
+        "clones_total": 80,
+        "clones_unique": 38,
         "views_total": 1,
         "views_unique": 1,
         "top_referrers": [],
@@ -21943,45 +21948,45 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2016-05-12T13:47:03Z",
-      "pushed_at": "2026-11-02T01:52:54Z",
-      "updated_at": "2026-11-02T01:48:37Z",
+      "pushed_at": "2026-11-03T02:39:58Z",
+      "updated_at": "2026-11-02T22:04:25Z",
       "composer_name": "netresearch/timetracker",
       "lifetime": {
         "stars": 28,
         "forks": 27,
         "watchers": 6,
         "network": 27,
-        "open_issues_plus_prs": 13,
-        "commits": 3139,
+        "open_issues_plus_prs": 14,
+        "commits": 3141,
         "issues_open": 3,
         "issues_closed": 74,
-        "prs_open": 10,
-        "prs_merged": 674,
-        "prs_closed_unmerged": 120,
+        "prs_open": 11,
+        "prs_merged": 675,
+        "prs_closed_unmerged": 121,
         "issues_total": 77,
         "releases": 37,
         "release_downloads": 72,
         "contributors": 10,
         "external_contributors": 5,
         "packagist_downloads": 0,
-        "ghcr_downloads": 54017,
+        "ghcr_downloads": 54305,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 132,
+        "commits": 134,
         "issues_opened": 1,
-        "prs_opened": 99,
-        "prs_merged": 61,
+        "prs_opened": 102,
+        "prs_merged": 62,
         "releases": 2,
         "packagist_downloads": 0,
-        "ghcr_downloads": 6288
+        "ghcr_downloads": 6546
       },
       "traffic_14d": {
-        "clones_total": 4745,
-        "clones_unique": 533,
-        "views_total": 345,
-        "views_unique": 316,
+        "clones_total": 4569,
+        "clones_unique": 512,
+        "views_total": 350,
+        "views_unique": 317,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -21990,7 +21995,7 @@
           },
           {
             "referrer": "github.com",
-            "count": 10,
+            "count": 11,
             "uniques": 9
           },
           {
@@ -22003,8 +22008,8 @@
           {
             "path": "/netresearch/timetracker",
             "title": "Overview",
-            "count": 18,
-            "uniques": 17
+            "count": 20,
+            "uniques": 18
           },
           {
             "path": "/netresearch/timetracker/blob/cecd587d/README.md",
@@ -22091,7 +22096,7 @@
         },
         {
           "login": "renovate[bot]",
-          "contributions": 75,
+          "contributions": 77,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -22126,20 +22131,20 @@
           {
             "package": "timetracker",
             "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-            "total": 54017,
-            "thirty_day": 6288
+            "total": 54305,
+            "thirty_day": 6546
           }
         ],
-        "total": 54017,
-        "thirty_day": 6288
+        "total": 54305,
+        "thirty_day": 6546
       },
       "dependents": {
         "repositories": 0,
         "packages": 0,
         "url": "https://github.com/netresearch/timetracker/network/dependents"
       },
-      "estimated_downstream_reach": 820,
-      "blast_radius": 820,
+      "estimated_downstream_reach": 821,
+      "blast_radius": 821,
       "archived": false
     },
     {
@@ -22191,8 +22196,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 148,
-        "clones_unique": 41,
+        "clones_total": 147,
+        "clones_unique": 40,
         "views_total": 12,
         "views_unique": 12,
         "top_referrers": [
@@ -22227,8 +22232,8 @@
             "uniques": 2
           },
           {
-            "path": "/netresearch/timetracker-ui/blob/main/Dockerfile",
-            "title": "/blob/main/Dockerfile",
+            "path": "/netresearch/timetracker-ui/blob/main/.editorconfig",
+            "title": "/blob/main/.editorconfig",
             "count": 1,
             "uniques": 1
           },
@@ -22358,8 +22363,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2508,
-        "clones_unique": 184,
+        "clones_total": 2461,
+        "clones_unique": 174,
         "views_total": 12,
         "views_unique": 8,
         "top_referrers": [
@@ -22508,10 +22513,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2580,
-        "clones_unique": 212,
-        "views_total": 9,
-        "views_unique": 9,
+        "clones_total": 2582,
+        "clones_unique": 208,
+        "views_total": 10,
+        "views_unique": 10,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -22528,8 +22533,8 @@
           {
             "path": "/netresearch/typo3-ckeditor5-skill",
             "title": "Overview",
-            "count": 7,
-            "uniques": 7
+            "count": 8,
+            "uniques": 8
           },
           {
             "path": "/netresearch/typo3-ckeditor5-skill/blob/main/AGENTS.md",
@@ -22631,7 +22636,7 @@
         "releases": 62,
         "release_downloads": 195,
         "contributors": 5,
-        "external_contributors": 0,
+        "external_contributors": 1,
         "packagist_downloads": 0,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
@@ -22647,10 +22652,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 4556,
-        "clones_unique": 303,
-        "views_total": 84,
-        "views_unique": 59,
+        "clones_total": 4111,
+        "clones_unique": 272,
+        "views_total": 85,
+        "views_unique": 60,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -22658,13 +22663,13 @@
             "uniques": 41
           },
           {
-            "referrer": "netresearch.github.io",
+            "referrer": "Google",
             "count": 4,
-            "uniques": 3
+            "uniques": 4
           },
           {
-            "referrer": "Google",
-            "count": 3,
+            "referrer": "netresearch.github.io",
+            "count": 4,
             "uniques": 3
           },
           {
@@ -22683,8 +22688,8 @@
           {
             "path": "/netresearch/typo3-conformance-skill/blob/main/docs/ARCHITECTURE.md",
             "title": "/blob/main/docs/ARCHITECTURE.md",
-            "count": 2,
-            "uniques": 2
+            "count": 3,
+            "uniques": 3
           },
           {
             "path": "/netresearch/typo3-conformance-skill/blob/main/outputStyles/conformance-report.md",
@@ -22776,8 +22781,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
       },
-      "estimated_downstream_reach": 172,
-      "blast_radius": 172,
+      "estimated_downstream_reach": 175,
+      "blast_radius": 175,
       "archived": false
     },
     {
@@ -22837,10 +22842,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 3651,
-        "clones_unique": 271,
-        "views_total": 13,
-        "views_unique": 13,
+        "clones_total": 3604,
+        "clones_unique": 255,
+        "views_total": 12,
+        "views_unique": 12,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -22862,24 +22867,12 @@
           {
             "path": "/netresearch/typo3-core-contributions-skill",
             "title": "Overview",
-            "count": 6,
-            "uniques": 6
+            "count": 7,
+            "uniques": 7
           },
           {
             "path": "/netresearch/typo3-core-contributions-skill/blob/main/README.md",
             "title": "/blob/main/README.md",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "path": "/netresearch/typo3-core-contributions-skill/blob/main/skills/typo3-core-contributions/references/security-proof-harness.md",
-            "title": "/blob/main/skills/typo3-core-contributions/references/security-proof-harness.md",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "path": "/netresearch/typo3-core-contributions-skill/blob/main/skills/typo3-core-contributions/references/security-report.md",
-            "title": "/blob/main/skills/typo3-core-contributions/references/security-report.md",
             "count": 1,
             "uniques": 1
           },
@@ -23007,8 +23000,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 3400,
-        "clones_unique": 199,
+        "clones_total": 3399,
+        "clones_unique": 198,
         "views_total": 47,
         "views_unique": 45,
         "top_referrers": [
@@ -23054,12 +23047,6 @@
             "uniques": 2
           },
           {
-            "path": "/netresearch/typo3-ddev-skill/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
-            "title": "/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
-            "count": 1,
-            "uniques": 1
-          },
-          {
             "path": "/netresearch/typo3-ddev-skill/blob/main/LICENSE-CC-BY-SA-4.0",
             "title": "/blob/main/LICENSE-CC-BY-SA-4.0",
             "count": 1,
@@ -23086,6 +23073,12 @@
           {
             "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/references/documentation-rendering.md",
             "title": "/blob/main/skills/typo3-ddev/references/documentation-rendering.md",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "path": "/netresearch/typo3-ddev-skill/blob/main/skills/typo3-ddev/references/index-page-generation.md",
+            "title": "/blob/main/skills/typo3-ddev/references/index-page-generation.md",
             "count": 1,
             "uniques": 1
           }
@@ -23189,8 +23182,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 4140,
-        "clones_unique": 262,
+        "clones_total": 4136,
+        "clones_unique": 257,
         "views_total": 68,
         "views_unique": 46,
         "top_referrers": [
@@ -23368,8 +23361,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 3233,
-        "clones_unique": 229,
+        "clones_total": 3232,
+        "clones_unique": 227,
         "views_total": 52,
         "views_unique": 40,
         "top_referrers": [
@@ -23548,8 +23541,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 21,
-        "clones_unique": 13,
+        "clones_total": 17,
+        "clones_unique": 9,
         "views_total": 6,
         "views_unique": 6,
         "top_referrers": [
@@ -23679,10 +23672,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2441,
-        "clones_unique": 201,
-        "views_total": 26,
-        "views_unique": 16,
+        "clones_total": 2401,
+        "clones_unique": 188,
+        "views_total": 27,
+        "views_unique": 17,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -23704,8 +23697,8 @@
           {
             "path": "/netresearch/typo3-project-upgrade-skill",
             "title": "Overview",
-            "count": 8,
-            "uniques": 6
+            "count": 9,
+            "uniques": 7
           },
           {
             "path": "/netresearch/typo3-project-upgrade-skill/pull/22/files",
@@ -23859,10 +23852,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1121,
-        "clones_unique": 162,
-        "views_total": 11,
-        "views_unique": 11,
+        "clones_total": 1110,
+        "clones_unique": 157,
+        "views_total": 12,
+        "views_unique": 12,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -23884,8 +23877,8 @@
           {
             "path": "/netresearch/typo3-site-conformance-skill",
             "title": "Overview",
-            "count": 2,
-            "uniques": 2
+            "count": 3,
+            "uniques": 3
           },
           {
             "path": "/netresearch/typo3-site-conformance-skill/releases",
@@ -24013,7 +24006,7 @@
         "releases": 69,
         "release_downloads": 270,
         "contributors": 6,
-        "external_contributors": 1,
+        "external_contributors": 2,
         "packagist_downloads": 0,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
@@ -24029,9 +24022,9 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 5685,
-        "clones_unique": 291,
-        "views_total": 47,
+        "clones_total": 5421,
+        "clones_unique": 290,
+        "views_total": 46,
         "views_unique": 41,
         "top_referrers": [
           {
@@ -24059,8 +24052,8 @@
           {
             "path": "/netresearch/typo3-testing-skill",
             "title": "Overview",
-            "count": 10,
-            "uniques": 9
+            "count": 9,
+            "uniques": 8
           },
           {
             "path": "/netresearch/typo3-testing-skill/issues",
@@ -24163,8 +24156,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
       },
-      "estimated_downstream_reach": 235,
-      "blast_radius": 235,
+      "estimated_downstream_reach": 238,
+      "blast_radius": 238,
       "archived": false
     },
     {
@@ -24220,8 +24213,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2967,
-        "clones_unique": 190,
+        "clones_total": 2925,
+        "clones_unique": 182,
         "views_total": 22,
         "views_unique": 19,
         "top_referrers": [
@@ -24395,8 +24388,8 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 2234,
-        "clones_unique": 194,
+        "clones_total": 2203,
+        "clones_unique": 190,
         "views_total": 16,
         "views_unique": 16,
         "top_referrers": [
@@ -24565,10 +24558,10 @@
         "ghcr_downloads": 0
       },
       "traffic_14d": {
-        "clones_total": 1711,
-        "clones_unique": 185,
-        "views_total": 11,
-        "views_unique": 11,
+        "clones_total": 1652,
+        "clones_unique": 172,
+        "views_total": 10,
+        "views_unique": 10,
         "top_referrers": [
           {
             "referrer": "aocr.org",
@@ -24587,12 +24580,6 @@
             "title": "Overview",
             "count": 4,
             "uniques": 4
-          },
-          {
-            "path": "/netresearch/typo3-vite-skill/discussions",
-            "title": "/discussions",
-            "count": 1,
-            "uniques": 1
           },
           {
             "path": "/netresearch/typo3-vite-skill/pull/11/files",
@@ -24723,10 +24710,10 @@
         "ghcr_downloads": 11
       },
       "traffic_14d": {
-        "clones_total": 10,
-        "clones_unique": 7,
-        "views_total": 22,
-        "views_unique": 17,
+        "clones_total": 11,
+        "clones_unique": 8,
+        "views_total": 21,
+        "views_unique": 16,
         "top_referrers": [
           {
             "referrer": "Google",
@@ -24748,8 +24735,8 @@
           {
             "path": "/netresearch/udp-proxy",
             "title": "Overview",
-            "count": 20,
-            "uniques": 15
+            "count": 19,
+            "uniques": 14
           },
           {
             "path": "/netresearch/udp-proxy/blob/main/README.md",
