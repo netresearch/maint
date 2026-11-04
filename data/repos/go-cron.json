@@ -27,8 +27,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-25T07:26:55Z",
-  "pushed_at": "2026-11-02T07:44:04Z",
-  "updated_at": "2026-11-02T07:43:22Z",
+  "pushed_at": "2026-11-03T23:54:58Z",
+  "updated_at": "2026-11-03T23:55:03Z",
   "composer_name": null,
   "lifetime": {
     "stars": 67,
@@ -36,13 +36,13 @@
     "watchers": 3,
     "network": 1707,
     "open_issues_plus_prs": 12,
-    "commits": 774,
+    "commits": 778,
     "issues_open": 10,
-    "issues_closed": 204,
+    "issues_closed": 206,
     "prs_open": 2,
-    "prs_merged": 240,
+    "prs_merged": 241,
     "prs_closed_unmerged": 9,
-    "issues_total": 214,
+    "issues_total": 216,
     "releases": 23,
     "release_downloads": 229,
     "contributors": 36,
@@ -53,19 +53,19 @@
     "dependents_packages": 83
   },
   "recent_30d": {
-    "commits": 126,
-    "issues_opened": 16,
-    "prs_opened": 40,
-    "prs_merged": 38,
+    "commits": 130,
+    "issues_opened": 18,
+    "prs_opened": 41,
+    "prs_merged": 39,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4677,
-    "clones_unique": 503,
-    "views_total": 386,
-    "views_unique": 136,
+    "clones_total": 4830,
+    "clones_unique": 559,
+    "views_total": 429,
+    "views_unique": 140,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -74,18 +74,18 @@
       },
       {
         "referrer": "Google",
-        "count": 38,
-        "uniques": 14
+        "count": 36,
+        "uniques": 13
       },
       {
         "referrer": "github.com",
-        "count": 20,
-        "uniques": 11
+        "count": 21,
+        "uniques": 12
       },
       {
         "referrer": "support.sailpoint.com",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "Bing",
@@ -106,32 +106,43 @@
         "referrer": "pkg.go.dev",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "yuanbao.tencent.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 73,
-        "uniques": 36
+        "count": 78,
+        "uniques": 38
       },
       {
         "path": "/netresearch/go-cron/pulls",
         "title": "/pulls",
-        "count": 26,
+        "count": 34,
         "uniques": 4
       },
       {
         "path": "/netresearch/go-cron/issues",
         "title": "/issues",
-        "count": 17,
+        "count": 22,
         "uniques": 4
       },
       {
         "path": "/netresearch/go-cron/issues/205",
         "title": "/issues/205",
-        "count": 12,
+        "count": 15,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
+        "title": "/blob/main/docs/COOKBOOK.md",
+        "count": 7,
+        "uniques": 4
       },
       {
         "path": "/netresearch/go-cron/issues/299",
@@ -140,10 +151,16 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
-        "title": "/blob/main/docs/COOKBOOK.md",
+        "path": "/netresearch/go-cron/issues/349",
+        "title": "/issues/349",
         "count": 6,
-        "uniques": 3
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/go-cron/releases",
+        "title": "/releases",
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/go-cron/blob/main/docs/OPERATIONS.md",
@@ -152,20 +169,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/go-cron/issues/349",
-        "title": "/issues/349",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/go-cron/releases",
-        "title": "/releases",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/README.md",
-        "title": "/blob/main/README.md",
+        "path": "/netresearch/go-cron/pull/426",
+        "title": "/pull/426",
         "count": 5,
         "uniques": 4
       }
@@ -180,7 +185,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 602,
+      "contributions": 606,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -236,7 +241,7 @@
     "packages": 83,
     "url": "https://github.com/netresearch/go-cron/network/dependents"
   },
-  "estimated_downstream_reach": 701,
-  "blast_radius": 701,
+  "estimated_downstream_reach": 704,
+  "blast_radius": 704,
   "archived": false
 }

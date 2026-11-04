@@ -34,7 +34,7 @@
     "release_downloads": 0,
     "contributors": 16,
     "external_contributors": 12,
-    "packagist_downloads": 282306,
+    "packagist_downloads": 282530,
     "ghcr_downloads": 0,
     "dependents_repos": 48,
     "dependents_packages": 8
@@ -45,14 +45,14 @@
     "prs_opened": 6,
     "prs_merged": 5,
     "releases": 1,
-    "packagist_downloads": 3767,
+    "packagist_downloads": 3852,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 280,
+    "clones_total": 283,
     "clones_unique": 89,
-    "views_total": 19,
-    "views_unique": 18,
+    "views_total": 18,
+    "views_unique": 17,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -86,12 +86,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/composer-patches-plugin/actions",
-        "title": "/actions",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/composer-patches-plugin/issues/19",
         "title": "/issues/19",
         "count": 1,
@@ -118,6 +112,12 @@
       {
         "path": "/netresearch/composer-patches-plugin/releases/tag/1.3.1",
         "title": "/releases/tag/1.3.1",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-patches-plugin/tree/master/src/Netresearch/Composer/Patches",
+        "title": "/tree/master/src/Netresearch/Composer/Patches",
         "count": 1,
         "uniques": 1
       }
@@ -183,9 +183,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-patches-plugin",
-    "total": 282306,
-    "monthly": 3767,
-    "daily": 132,
+    "total": 282530,
+    "monthly": 3852,
+    "daily": 208,
     "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
   },
   "ghcr": null,

@@ -30,7 +30,7 @@
     "release_downloads": 206,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 5261,
+    "packagist_downloads": 5408,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -41,14 +41,14 @@
     "prs_opened": 16,
     "prs_merged": 16,
     "releases": 1,
-    "packagist_downloads": 2700,
+    "packagist_downloads": 2808,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1541,
-    "clones_unique": 154,
-    "views_total": 22,
-    "views_unique": 22,
+    "clones_total": 1087,
+    "clones_unique": 111,
+    "views_total": 33,
+    "views_unique": 32,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -62,6 +62,12 @@
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe",
+        "title": "Overview",
+        "count": 12,
+        "uniques": 11
+      },
       {
         "path": "/netresearch/t3x-nr-passkeys-fe/pull/46",
         "title": "/pull/46",
@@ -79,12 +85,6 @@
         "title": "/pull/54/files",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-fe",
-        "title": "Overview",
-        "count": 1,
-        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-fe/issues/4",
@@ -154,9 +154,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-fe",
-    "total": 5261,
-    "monthly": 2700,
-    "daily": 146,
+    "total": 5408,
+    "monthly": 2808,
+    "daily": 143,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-fe"
   },
   "ghcr": null,

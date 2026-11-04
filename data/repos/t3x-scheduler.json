@@ -32,7 +32,7 @@
     "release_downloads": 34,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 6088,
+    "packagist_downloads": 6160,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,19 +43,24 @@
     "prs_opened": 11,
     "prs_merged": 10,
     "releases": 1,
-    "packagist_downloads": 1558,
+    "packagist_downloads": 1608,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1211,
-    "clones_unique": 111,
-    "views_total": 12,
-    "views_unique": 12,
+    "clones_total": 1165,
+    "clones_unique": 116,
+    "views_total": 14,
+    "views_unique": 14,
     "top_referrers": [
       {
         "referrer": "aocr.org",
         "count": 8,
         "uniques": 8
+      },
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -74,6 +79,18 @@
       {
         "path": "/netresearch/t3x-scheduler/actions",
         "title": "/actions",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-scheduler/blob/main/CHANGELOG.md",
+        "title": "/blob/main/CHANGELOG.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-scheduler/blob/main/README.md",
+        "title": "/blob/main/README.md",
         "count": 1,
         "uniques": 1
       },
@@ -104,18 +121,6 @@
       {
         "path": "/netresearch/t3x-scheduler/pull/49",
         "title": "/pull/49",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-scheduler/pull/49/files/f6f98abd7a3c69dca2d2e4321da94d87731d3051",
-        "title": "/pull/49/files/f6f98abd7a3c69dca2d2e4321da94d87731d3051",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-scheduler/pull/53",
-        "title": "/pull/53",
         "count": 1,
         "uniques": 1
       }
@@ -156,9 +161,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-scheduler",
-    "total": 6088,
-    "monthly": 1558,
-    "daily": 116,
+    "total": 6160,
+    "monthly": 1608,
+    "daily": 79,
     "url": "https://packagist.org/packages/netresearch/nr-scheduler"
   },
   "ghcr": null,
