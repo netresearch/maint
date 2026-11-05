@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 2,
     "external_contributors": 1,
-    "packagist_downloads": 19127,
+    "packagist_downloads": 19312,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,27 +43,62 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 3116,
+    "packagist_downloads": 3187,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 55,
-    "clones_unique": 47,
-    "views_total": 4,
-    "views_unique": 4,
+    "clones_total": 61,
+    "clones_unique": 50,
+    "views_total": 14,
+    "views_unique": 5,
     "top_referrers": [
       {
         "referrer": "aocr.org",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "referrer": "Google",
+        "count": 3,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/deutschepost-sdk-api-internetmarke",
         "title": "Overview",
-        "count": 4,
-        "uniques": 4
+        "count": 7,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-api-internetmarke/tree/main/test",
+        "title": "/tree/main/test",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-api-internetmarke/tree/main/test/Model",
+        "title": "/tree/main/test/Model",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-api-internetmarke/tree/main/test/Service",
+        "title": "/tree/main/test/Service",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-api-internetmarke/tree/main/test/TestCase",
+        "title": "/tree/main/test/TestCase",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/deutschepost-sdk-api-internetmarke/tree/main/test/TestCase/Service",
+        "title": "/tree/main/test/TestCase/Service",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -87,9 +122,9 @@
   ],
   "packagist": {
     "name": "deutschepost/sdk-api-internetmarke",
-    "total": 19127,
-    "monthly": 3116,
-    "daily": 200,
+    "total": 19312,
+    "monthly": 3187,
+    "daily": 167,
     "url": "https://packagist.org/packages/deutschepost/sdk-api-internetmarke"
   },
   "ghcr": null,

@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T08:31:58Z",
-  "pushed_at": "2026-11-02T02:18:10Z",
-  "updated_at": "2026-11-02T02:18:11Z",
+  "pushed_at": "2026-11-05T00:07:11Z",
+  "updated_at": "2026-11-05T00:07:12Z",
   "composer_name": null,
   "lifetime": {
     "stars": 5,
@@ -30,14 +30,14 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 2,
-    "commits": 731,
+    "commits": 738,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 1,
-    "prs_merged": 226,
+    "prs_merged": 229,
     "prs_closed_unmerged": 6,
     "issues_total": 4,
-    "releases": 69,
+    "releases": 70,
     "release_downloads": 271,
     "contributors": 6,
     "external_contributors": 2,
@@ -47,19 +47,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 83,
+    "commits": 90,
     "issues_opened": 0,
-    "prs_opened": 29,
-    "prs_merged": 29,
-    "releases": 2,
+    "prs_opened": 32,
+    "prs_merged": 32,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5532,
-    "clones_unique": 291,
-    "views_total": 43,
-    "views_unique": 39,
+    "clones_total": 5203,
+    "clones_unique": 305,
+    "views_total": 47,
+    "views_unique": 42,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -68,8 +68,8 @@
       },
       {
         "referrer": "github.com",
-        "count": 5,
-        "uniques": 4
+        "count": 6,
+        "uniques": 5
       },
       {
         "referrer": "Google",
@@ -86,8 +86,8 @@
       {
         "path": "/netresearch/typo3-testing-skill",
         "title": "Overview",
-        "count": 7,
-        "uniques": 7
+        "count": 8,
+        "uniques": 8
       },
       {
         "path": "/netresearch/typo3-testing-skill/issues",
@@ -99,6 +99,12 @@
         "path": "/netresearch/typo3-testing-skill/blob/main/skills/typo3-testing/references/ci-debugging.md",
         "title": "/blob/main/skills/typo3-testing/references/ci-debugging.md",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/blob/main/LICENSE-GPL-2.0",
+        "title": "/blob/main/LICENSE-GPL-2.0",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -120,6 +126,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/typo3-testing-skill/blob/main/skills/typo3-testing/references/crypto-testing.md",
+        "title": "/blob/main/skills/typo3-testing/references/crypto-testing.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-testing-skill/discussions",
         "title": "/discussions",
         "count": 1,
@@ -130,36 +142,24 @@
         "title": "/pull/100/files",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/pull/107/files",
-        "title": "/pull/107/files",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/pull/107/files/7f656cf26683ce24fc11d01a959faaa8fc3191a9",
-        "title": "/pull/107/files/7f656cf26683ce24fc11d01a959faaa8fc3191a9",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v5.24.0",
-    "tag_name": "v5.24.0",
-    "published_at": "2026-10-23T12:04:58Z",
-    "url": "https://github.com/netresearch/typo3-testing-skill/releases/tag/v5.24.0"
+    "name": "v5.24.1",
+    "tag_name": "v5.24.1",
+    "published_at": "2026-11-04T13:17:38Z",
+    "url": "https://github.com/netresearch/typo3-testing-skill/releases/tag/v5.24.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 649,
+      "contributions": 654,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 37,
+      "contributions": 38,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -169,7 +169,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 17,
+      "contributions": 18,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -190,7 +190,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
   },
-  "estimated_downstream_reach": 238,
-  "blast_radius": 238,
+  "estimated_downstream_reach": 241,
+  "blast_radius": 241,
   "archived": false
 }

@@ -52,27 +52,32 @@
   "traffic_14d": {
     "clones_total": 8,
     "clones_unique": 7,
-    "views_total": 8,
-    "views_unique": 7,
+    "views_total": 10,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "aocr.org",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/ansible-certificates-from-vault",
         "title": "Overview",
-        "count": 4,
-        "uniques": 4
+        "count": 5,
+        "uniques": 5
       },
       {
         "path": "/netresearch/ansible-certificates-from-vault/discussions",
         "title": "/discussions",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/ansible-certificates-from-vault/blob/master/tasks/main.yml",
