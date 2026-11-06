@@ -30,30 +30,35 @@
     "release_downloads": 454,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 3079,
+    "packagist_downloads": 3237,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 124,
+    "commits": 91,
     "issues_opened": 1,
-    "prs_opened": 42,
-    "prs_merged": 41,
-    "releases": 15,
-    "packagist_downloads": 1161,
+    "prs_opened": 40,
+    "prs_merged": 39,
+    "releases": 13,
+    "packagist_downloads": 1284,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3753,
-    "clones_unique": 249,
-    "views_total": 71,
-    "views_unique": 71,
+    "clones_total": 3642,
+    "clones_unique": 252,
+    "views_total": 72,
+    "views_unique": 72,
     "top_referrers": [
       {
         "referrer": "aocr.org",
         "count": 68,
         "uniques": 68
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -68,6 +73,12 @@
         "title": "/blob/146d18aa/Documentation/Introduction/Index.rst",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-repurpose",
+        "title": "Overview",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-repurpose/blob/146d18aa/CHANGELOG.md",
@@ -98,12 +109,6 @@
         "title": "/pull/33/files",
         "count": 3,
         "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-nr-repurpose",
-        "title": "Overview",
-        "count": 2,
-        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-repurpose/blob/146d18aa/Documentation/Changelog.rst",
@@ -149,9 +154,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-repurpose",
-    "total": 3079,
-    "monthly": 1161,
-    "daily": 86,
+    "total": 3237,
+    "monthly": 1284,
+    "daily": 151,
     "url": "https://packagist.org/packages/netresearch/nr-repurpose"
   },
   "ghcr": null,

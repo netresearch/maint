@@ -21,45 +21,45 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2022-05-30T12:58:03Z",
-  "pushed_at": "2026-11-05T02:37:53Z",
-  "updated_at": "2026-11-05T02:37:54Z",
+  "pushed_at": "2026-11-05T18:59:59Z",
+  "updated_at": "2026-11-05T19:00:01Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 70,
-    "forks": 7,
+    "stars": 71,
+    "forks": 8,
     "watchers": 1,
-    "network": 211,
-    "open_issues_plus_prs": 25,
-    "commits": 2017,
+    "network": 212,
+    "open_issues_plus_prs": 26,
+    "commits": 2019,
     "issues_open": 25,
     "issues_closed": 184,
-    "prs_open": 0,
-    "prs_merged": 632,
+    "prs_open": 1,
+    "prs_merged": 633,
     "prs_closed_unmerged": 73,
     "issues_total": 209,
     "releases": 58,
-    "release_downloads": 3864,
+    "release_downloads": 3869,
     "contributors": 47,
     "external_contributors": 40,
     "packagist_downloads": 0,
-    "ghcr_downloads": 649158,
+    "ghcr_downloads": 656321,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 172,
+    "commits": 174,
     "issues_opened": 4,
-    "prs_opened": 54,
-    "prs_merged": 52,
+    "prs_opened": 55,
+    "prs_merged": 53,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 187974
+    "ghcr_downloads": 188447
   },
   "traffic_14d": {
-    "clones_total": 5345,
-    "clones_unique": 740,
-    "views_total": 500,
-    "views_unique": 440,
+    "clones_total": 5484,
+    "clones_unique": 828,
+    "views_total": 532,
+    "views_unique": 453,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -68,8 +68,8 @@
       },
       {
         "referrer": "github.com",
-        "count": 11,
-        "uniques": 7
+        "count": 13,
+        "uniques": 8
       },
       {
         "referrer": "com.ime.android",
@@ -97,6 +97,11 @@
         "uniques": 1
       },
       {
+        "referrer": "newreleases.io",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "referrer": "scheduler-caixotesaltitao.ec2.prod.pt-services.aws.eos-ws.com",
         "count": 1,
         "uniques": 1
@@ -106,8 +111,8 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 57,
-        "uniques": 42
+        "count": 62,
+        "uniques": 45
       },
       {
         "path": "/netresearch/ofelia/blob/v0.21.0/config/validator.go",
@@ -126,6 +131,18 @@
         "title": "/pull/626",
         "count": 6,
         "uniques": 6
+      },
+      {
+        "path": "/netresearch/ofelia/blob/main/docs/jobs.md",
+        "title": "/blob/main/docs/jobs.md",
+        "count": 6,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/ofelia/issues",
+        "title": "/issues",
+        "count": 6,
+        "uniques": 3
       },
       {
         "path": "/netresearch/ofelia/blob/v0.21.0/config/command_validator.go",
@@ -150,18 +167,6 @@
         "title": "/issues/628",
         "count": 5,
         "uniques": 5
-      },
-      {
-        "path": "/netresearch/ofelia/issues/667",
-        "title": "/issues/667",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/ofelia/blob/main/docs/SECURITY.md",
-        "title": "/blob/main/docs/SECURITY.md",
-        "count": 5,
-        "uniques": 3
       }
     ]
   },
@@ -189,7 +194,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 55,
+      "contributions": 56,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -219,7 +224,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 9,
+      "contributions": 10,
       "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
@@ -229,19 +234,19 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 649158,
-        "thirty_day": 187974
+        "total": 656321,
+        "thirty_day": 188447
       }
     ],
-    "total": 649158,
-    "thirty_day": 187974
+    "total": 656321,
+    "thirty_day": 188447
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/ofelia/network/dependents"
   },
-  "estimated_downstream_reach": 975,
-  "blast_radius": 975,
+  "estimated_downstream_reach": 978,
+  "blast_radius": 978,
   "archived": false
 }

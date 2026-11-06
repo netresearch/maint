@@ -12,20 +12,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-23T10:28:16Z",
-  "pushed_at": "2026-11-04T12:56:36Z",
-  "updated_at": "2026-11-04T12:51:48Z",
+  "pushed_at": "2026-11-05T20:19:03Z",
+  "updated_at": "2026-11-05T20:19:05Z",
   "composer_name": null,
   "lifetime": {
     "stars": 4,
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 4,
-    "commits": 272,
+    "open_issues_plus_prs": 3,
+    "commits": 274,
     "issues_open": 2,
     "issues_closed": 0,
-    "prs_open": 2,
-    "prs_merged": 100,
+    "prs_open": 1,
+    "prs_merged": 101,
     "prs_closed_unmerged": 1,
     "issues_total": 2,
     "releases": 30,
@@ -38,19 +38,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 42,
+    "commits": 38,
     "issues_opened": 0,
     "prs_opened": 21,
-    "prs_merged": 20,
+    "prs_merged": 21,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2305,
-    "clones_unique": 202,
-    "views_total": 49,
-    "views_unique": 29,
+    "clones_total": 2264,
+    "clones_unique": 204,
+    "views_total": 63,
+    "views_unique": 41,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -72,8 +72,8 @@
       {
         "path": "/netresearch/concourse-ci-skill",
         "title": "Overview",
-        "count": 9,
-        "uniques": 8
+        "count": 13,
+        "uniques": 12
       },
       {
         "path": "/netresearch/concourse-ci-skill/tree/main/skills/concourse-ci",
@@ -82,16 +82,34 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/concourse-ci-skill/tree/main/skills/concourse-ci/references",
-        "title": "/tree/main/skills/concourse-ci/references",
+        "path": "/netresearch/concourse-ci-skill/issues",
+        "title": "/issues",
         "count": 3,
-        "uniques": 1
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/concourse-ci-skill/releases",
+        "title": "/releases",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/concourse-ci-skill/releases/tag/v1.11.7",
+        "title": "/releases/tag/v1.11.7",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/SKILL.md",
         "title": "/blob/main/skills/concourse-ci/SKILL.md",
-        "count": 2,
+        "count": 3,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/concourse-ci-skill/tree/main/skills/concourse-ci/references",
+        "title": "/tree/main/skills/concourse-ci/references",
+        "count": 3,
+        "uniques": 1
       },
       {
         "path": "/netresearch/concourse-ci-skill/pull/35/files",
@@ -110,24 +128,6 @@
         "title": "/tree/main/Build",
         "count": 2,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/checkpoints.yaml",
-        "title": "/blob/main/skills/concourse-ci/checkpoints.yaml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/references/best-practices.md",
-        "title": "/blob/main/skills/concourse-ci/references/best-practices.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/concourse-ci-skill/blob/main/skills/concourse-ci/references/pipeline-syntax.md",
-        "title": "/blob/main/skills/concourse-ci/references/pipeline-syntax.md",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -145,7 +145,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 31,
+      "contributions": 33,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -171,7 +171,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/concourse-ci-skill/network/dependents"
   },
-  "estimated_downstream_reach": 107,
-  "blast_radius": 107,
+  "estimated_downstream_reach": 108,
+  "blast_radius": 108,
   "archived": false
 }

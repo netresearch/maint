@@ -38,19 +38,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 37,
+    "commits": 29,
     "issues_opened": 0,
-    "prs_opened": 14,
-    "prs_merged": 13,
-    "releases": 3,
-    "packagist_downloads": 3,
+    "prs_opened": 11,
+    "prs_merged": 11,
+    "releases": 2,
+    "packagist_downloads": 2,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1480,
-    "clones_unique": 137,
-    "views_total": 26,
-    "views_unique": 26,
+    "clones_total": 1272,
+    "clones_unique": 129,
+    "views_total": 28,
+    "views_unique": 28,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -73,6 +73,12 @@
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/benchmark_results.txt",
+        "title": "/blob/main/benchmark_results.txt",
         "count": 2,
         "uniques": 2
       },
@@ -117,12 +123,6 @@
         "title": "/blob/main/TEST_PYRAMID_SUMMARY.md",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/ext_conf_template.txt",
-        "title": "/blob/main/ext_conf_template.txt",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -157,7 +157,7 @@
   "packagist": {
     "name": "netresearch/nr-temporal-cache",
     "total": 8,
-    "monthly": 3,
+    "monthly": 2,
     "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-temporal-cache"
   },
