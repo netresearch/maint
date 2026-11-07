@@ -24,8 +24,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-09-29T09:01:16Z",
-  "pushed_at": "2026-11-05T12:08:43Z",
-  "updated_at": "2026-11-05T12:07:57Z",
+  "pushed_at": "2026-11-06T18:39:05Z",
+  "updated_at": "2026-11-06T18:39:08Z",
   "composer_name": "netresearch/nr-textdb",
   "lifetime": {
     "stars": 1,
@@ -33,41 +33,41 @@
     "watchers": 4,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 859,
+    "commits": 861,
     "issues_open": 1,
     "issues_closed": 45,
     "prs_open": 0,
-    "prs_merged": 155,
+    "prs_merged": 156,
     "prs_closed_unmerged": 28,
     "issues_total": 46,
     "releases": 24,
     "release_downloads": 96,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 4218,
+    "packagist_downloads": 4378,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 135,
+    "commits": 123,
     "issues_opened": 0,
-    "prs_opened": 61,
-    "prs_merged": 61,
-    "releases": 4,
-    "packagist_downloads": 1428,
+    "prs_opened": 59,
+    "prs_merged": 59,
+    "releases": 3,
+    "packagist_downloads": 1543,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7137,
-    "clones_unique": 414,
-    "views_total": 80,
-    "views_unique": 80,
+    "clones_total": 7578,
+    "clones_unique": 424,
+    "views_total": 99,
+    "views_unique": 99,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 68,
-        "uniques": 68
+        "count": 86,
+        "uniques": 86
       }
     ],
     "top_paths": [
@@ -76,6 +76,18 @@
         "title": "/blob/1eb0fab2/README.md",
         "count": 8,
         "uniques": 8
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/issues/93",
+        "title": "/issues/93",
+        "count": 8,
+        "uniques": 8
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/issues/31",
+        "title": "/issues/31",
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/t3x-nr-textdb/blob/1eb0fab2/Documentation/Introduction/Index.rst",
@@ -102,12 +114,6 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/issues/93",
-        "title": "/issues/93",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/t3x-nr-textdb",
         "title": "Overview",
         "count": 2,
@@ -124,12 +130,6 @@
         "title": "/blob/1eb0fab2/Documentation/Index.rst",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb/blob/main/CHANGELOG.md",
-        "title": "/blob/main/CHANGELOG.md",
-        "count": 2,
-        "uniques": 2
       }
     ]
   },
@@ -142,7 +142,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 708,
+      "contributions": 710,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -183,9 +183,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 4218,
-    "monthly": 1428,
-    "daily": 158,
+    "total": 4378,
+    "monthly": 1543,
+    "daily": 146,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,
@@ -194,7 +194,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-textdb/network/dependents"
   },
-  "estimated_downstream_reach": 209,
-  "blast_radius": 209,
+  "estimated_downstream_reach": 210,
+  "blast_radius": 210,
   "archived": false
 }

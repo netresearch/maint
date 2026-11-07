@@ -19,7 +19,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-01-14T19:41:07Z",
-  "pushed_at": "2026-11-06T01:09:14Z",
+  "pushed_at": "2026-11-06T17:19:26Z",
   "updated_at": "2026-11-05T15:14:21Z",
   "composer_name": "netresearch/t3-cowriter",
   "lifetime": {
@@ -27,47 +27,47 @@
     "forks": 1,
     "watchers": 5,
     "network": 1,
-    "open_issues_plus_prs": 2,
+    "open_issues_plus_prs": 3,
     "commits": 841,
     "issues_open": 1,
     "issues_closed": 20,
-    "prs_open": 1,
+    "prs_open": 2,
     "prs_merged": 225,
     "prs_closed_unmerged": 20,
     "issues_total": 21,
     "releases": 61,
-    "release_downloads": 600,
+    "release_downloads": 601,
     "contributors": 14,
     "external_contributors": 9,
-    "packagist_downloads": 15429,
+    "packagist_downloads": 15588,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 211,
+    "commits": 200,
     "issues_opened": 0,
-    "prs_opened": 61,
-    "prs_merged": 61,
-    "releases": 23,
-    "packagist_downloads": 1417,
+    "prs_opened": 57,
+    "prs_merged": 55,
+    "releases": 21,
+    "packagist_downloads": 1522,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 9151,
-    "clones_unique": 436,
-    "views_total": 84,
-    "views_unique": 80,
+    "clones_total": 10808,
+    "clones_unique": 454,
+    "views_total": 96,
+    "views_unique": 92,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 68,
-        "uniques": 68
+        "count": 78,
+        "uniques": 78
       },
       {
         "referrer": "extensions.typo3.org",
-        "count": 6,
-        "uniques": 6
+        "count": 7,
+        "uniques": 7
       },
       {
         "referrer": "github.com",
@@ -85,8 +85,8 @@
       {
         "path": "/netresearch/t3x-cowriter",
         "title": "Overview",
-        "count": 9,
-        "uniques": 9
+        "count": 11,
+        "uniques": 11
       },
       {
         "path": "/netresearch/t3x-cowriter/blob/80e867d7/Classes/AGENTS.md",
@@ -119,6 +119,12 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/t3x-cowriter/pull/115",
+        "title": "/pull/115",
+        "count": 3,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/t3x-cowriter/blob/80e867d7/CHANGELOG.md",
         "title": "/blob/80e867d7/CHANGELOG.md",
         "count": 2,
@@ -127,12 +133,6 @@
       {
         "path": "/netresearch/t3x-cowriter/blob/80e867d7/docs/ARCHITECTURE.md",
         "title": "/blob/80e867d7/docs/ARCHITECTURE.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/blob/80e867d7/ext_emconf.php",
-        "title": "/blob/80e867d7/ext_emconf.php",
         "count": 2,
         "uniques": 2
       }
@@ -198,9 +198,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 15429,
-    "monthly": 1417,
-    "daily": 160,
+    "total": 15588,
+    "monthly": 1522,
+    "daily": 140,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,

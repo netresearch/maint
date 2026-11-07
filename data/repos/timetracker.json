@@ -28,50 +28,50 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-11-05T22:15:02Z",
-  "updated_at": "2026-11-05T01:52:49Z",
+  "pushed_at": "2026-11-06T19:23:18Z",
+  "updated_at": "2026-11-06T13:14:06Z",
   "composer_name": "netresearch/timetracker",
   "lifetime": {
     "stars": 28,
     "forks": 27,
     "watchers": 6,
     "network": 27,
-    "open_issues_plus_prs": 18,
-    "commits": 3152,
+    "open_issues_plus_prs": 17,
+    "commits": 3162,
     "issues_open": 5,
     "issues_closed": 75,
-    "prs_open": 13,
-    "prs_merged": 679,
-    "prs_closed_unmerged": 126,
+    "prs_open": 12,
+    "prs_merged": 684,
+    "prs_closed_unmerged": 127,
     "issues_total": 80,
     "releases": 37,
     "release_downloads": 72,
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 54989,
+    "ghcr_downloads": 58059,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 145,
+    "commits": 155,
     "issues_opened": 4,
-    "prs_opened": 113,
-    "prs_merged": 66,
+    "prs_opened": 118,
+    "prs_merged": 71,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 7099
+    "ghcr_downloads": 9905
   },
   "traffic_14d": {
-    "clones_total": 2743,
-    "clones_unique": 290,
-    "views_total": 365,
-    "views_unique": 326,
+    "clones_total": 2906,
+    "clones_unique": 276,
+    "views_total": 696,
+    "views_unique": 665,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 270,
-        "uniques": 267
+        "count": 598,
+        "uniques": 575
       },
       {
         "referrer": "github.com",
@@ -93,8 +93,32 @@
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 24,
-        "uniques": 19
+        "count": 28,
+        "uniques": 23
+      },
+      {
+        "path": "/netresearch/timetracker/issues/588",
+        "title": "/issues/588",
+        "count": 12,
+        "uniques": 12
+      },
+      {
+        "path": "/netresearch/timetracker/issues",
+        "title": "/issues",
+        "count": 12,
+        "uniques": 11
+      },
+      {
+        "path": "/netresearch/timetracker/issues/453",
+        "title": "/issues/453",
+        "count": 9,
+        "uniques": 9
+      },
+      {
+        "path": "/netresearch/timetracker/issues/572",
+        "title": "/issues/572",
+        "count": 9,
+        "uniques": 9
       },
       {
         "path": "/netresearch/timetracker/blob/cecd587d/README.md",
@@ -121,34 +145,10 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/timetracker/blob/main/docs/performance.md",
-        "title": "/blob/main/docs/performance.md",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/timetracker/pull/619",
-        "title": "/pull/619",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/timetracker/issues/850",
-        "title": "/issues/850",
-        "count": 4,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/cecd587d/src/AGENTS.md",
-        "title": "/blob/cecd587d/src/AGENTS.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/timetracker/blob/cecd587d/src/Controller/Interpretation/InterpretationAction.php",
-        "title": "/blob/cecd587d/src/Controller/Interpretation/InterpretationAction.php",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/timetracker/issues/585",
+        "title": "/issues/585",
+        "count": 5,
+        "uniques": 5
       }
     ]
   },
@@ -170,6 +170,11 @@
       "url": "https://github.com/apps/github-actions"
     },
     {
+      "login": "renovate[bot]",
+      "contributions": 91,
+      "url": "https://github.com/apps/renovate"
+    },
+    {
       "login": "cweiske",
       "contributions": 91,
       "url": "https://github.com/cweiske"
@@ -178,11 +183,6 @@
       "login": "dependabot[bot]",
       "contributions": 88,
       "url": "https://github.com/apps/dependabot"
-    },
-    {
-      "login": "renovate[bot]",
-      "contributions": 81,
-      "url": "https://github.com/apps/renovate"
     },
     {
       "login": "tivvie",
@@ -216,19 +216,19 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 54989,
-        "thirty_day": 7099
+        "total": 58059,
+        "thirty_day": 9905
       }
     ],
-    "total": 54989,
-    "thirty_day": 7099
+    "total": 58059,
+    "thirty_day": 9905
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "estimated_downstream_reach": 828,
-  "blast_radius": 828,
+  "estimated_downstream_reach": 833,
+  "blast_radius": 833,
   "archived": false
 }

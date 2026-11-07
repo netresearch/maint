@@ -16,22 +16,22 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2024-04-24T13:18:29Z",
-  "pushed_at": "2026-11-05T12:11:04Z",
-  "updated_at": "2026-11-05T12:10:27Z",
+  "pushed_at": "2026-11-06T18:44:09Z",
+  "updated_at": "2026-11-06T18:44:11Z",
   "composer_name": "netresearch/universal-messenger",
   "lifetime": {
     "stars": 6,
     "forks": 0,
     "watchers": 3,
     "network": 0,
-    "open_issues_plus_prs": 21,
-    "commits": 407,
-    "issues_open": 21,
+    "open_issues_plus_prs": 22,
+    "commits": 409,
+    "issues_open": 22,
     "issues_closed": 47,
     "prs_open": 0,
-    "prs_merged": 120,
+    "prs_merged": 121,
     "prs_closed_unmerged": 16,
-    "issues_total": 68,
+    "issues_total": 69,
     "releases": 13,
     "release_downloads": 12,
     "contributors": 6,
@@ -43,23 +43,28 @@
   },
   "recent_30d": {
     "commits": 45,
-    "issues_opened": 0,
-    "prs_opened": 15,
-    "prs_merged": 15,
+    "issues_opened": 1,
+    "prs_opened": 14,
+    "prs_merged": 14,
     "releases": 1,
     "packagist_downloads": 2,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 781,
-    "clones_unique": 94,
-    "views_total": 73,
-    "views_unique": 73,
+    "clones_total": 957,
+    "clones_unique": 108,
+    "views_total": 84,
+    "views_unique": 79,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 69,
-        "uniques": 69
+        "count": 72,
+        "uniques": 72
+      },
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "Google",
@@ -71,14 +76,20 @@
       {
         "path": "/netresearch/t3x-universal-messenger",
         "title": "Overview",
-        "count": 9,
-        "uniques": 9
+        "count": 11,
+        "uniques": 11
       },
       {
         "path": "/netresearch/t3x-universal-messenger/pull/78",
         "title": "/pull/78",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-universal-messenger/activity",
+        "title": "/activity",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-universal-messenger/blob/main/ext_conf_template.txt",
@@ -121,12 +132,6 @@
         "title": "/pull/118",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-universal-messenger/pull/91",
-        "title": "/pull/91",
-        "count": 2,
-        "uniques": 2
       }
     ]
   },
@@ -144,7 +149,7 @@
     },
     {
       "login": "CybotTM",
-      "contributions": 147,
+      "contributions": 149,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -172,7 +177,7 @@
     "name": "netresearch/universal-messenger",
     "total": 49,
     "monthly": 2,
-    "daily": 2,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/universal-messenger"
   },
   "ghcr": null,
@@ -181,7 +186,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-universal-messenger/network/dependents"
   },
-  "estimated_downstream_reach": 188,
-  "blast_radius": 188,
+  "estimated_downstream_reach": 190,
+  "blast_radius": 190,
   "archived": false
 }

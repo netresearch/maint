@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 7,
-    "packagist_downloads": 246521,
+    "packagist_downloads": 246662,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,16 +43,29 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 4648,
+    "packagist_downloads": 4696,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 68,
-    "clones_unique": 50,
-    "views_total": 0,
-    "views_unique": 0,
-    "top_referrers": [],
-    "top_paths": []
+    "clones_total": 67,
+    "clones_unique": 49,
+    "views_total": 2,
+    "views_unique": 2,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
+    "top_paths": [
+      {
+        "path": "/netresearch/deutschepost-module-addressfactory-m2",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
+      }
+    ]
   },
   "latest_release": {
     "name": "1.7.0",
@@ -104,9 +117,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-addressfactory-m2",
-    "total": 246521,
-    "monthly": 4648,
-    "daily": 174,
+    "total": 246662,
+    "monthly": 4696,
+    "daily": 130,
     "url": "https://packagist.org/packages/deutschepost/module-addressfactory-m2"
   },
   "ghcr": null,
