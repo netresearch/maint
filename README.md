@@ -102,11 +102,12 @@ The config combines two mechanisms:
 **After a merge:** a merge to `main` does not redeploy the dashboard; the build
 runs only on the schedule and on a manual dispatch. Run
 `gh workflow run impact-dashboard.yml --repo netresearch/maint --ref main` or
-wait for the next daily run at 03:00 UTC, then check the live page: GitHub Pages
-builds the `gh-pages` branch after the workflow has pushed, so a green run alone
-does not show the page changed. Publication uses `keep_files: true`, so a file
-removed from the source stays on `gh-pages` until it is deleted from that branch
-as well.
+wait for the next daily run at 03:00 UTC. Check the live page only after that
+run and the `pages-build-deployment` run it triggers on `gh-pages` have both
+finished. Publication uses `keep_files: true`, so a page the build no longer
+produces, such as `repo/<name>/` and `de/repo/<name>/` of a repository the
+dashboard no longer lists, stays on `gh-pages` until it is deleted from that
+branch as well.
 
 #### What gets collected
 
