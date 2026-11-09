@@ -20,8 +20,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-27T12:47:18Z",
-  "pushed_at": "2026-11-07T15:52:48Z",
-  "updated_at": "2026-11-07T15:52:50Z",
+  "pushed_at": "2026-11-09T00:38:29Z",
+  "updated_at": "2026-11-09T00:38:30Z",
   "composer_name": null,
   "lifetime": {
     "stars": 1,
@@ -29,15 +29,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 3,
-    "commits": 356,
+    "commits": 364,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 2,
-    "prs_merged": 107,
+    "prs_merged": 110,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
-    "releases": 39,
-    "release_downloads": 307,
+    "releases": 40,
+    "release_downloads": 314,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -46,19 +46,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 57,
+    "commits": 63,
     "issues_opened": 0,
-    "prs_opened": 23,
-    "prs_merged": 21,
-    "releases": 2,
+    "prs_opened": 26,
+    "prs_merged": 24,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3081,
-    "clones_unique": 244,
-    "views_total": 28,
-    "views_unique": 27,
+    "clones_total": 2984,
+    "clones_unique": 251,
+    "views_total": 30,
+    "views_unique": 29,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -96,6 +96,18 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/typo3-core-contributions-skill/blob/HEAD/skills/typo3-core-contributions/references/commit-message-format.md",
+        "title": "/blob/HEAD/skills/typo3-core-contributions/references/commit-message-format.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-core-contributions-skill/blob/HEAD/skills/typo3-core-contributions/references/modern-typo3-patterns.md",
+        "title": "/blob/HEAD/skills/typo3-core-contributions/references/modern-typo3-patterns.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-core-contributions-skill/blob/main/README.md",
         "title": "/blob/main/README.md",
         "count": 1,
@@ -124,36 +136,24 @@
         "title": "/pull/104",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-core-contributions-skill/pull/108",
-        "title": "/pull/108",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-core-contributions-skill/pull/109",
-        "title": "/pull/109",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.19.0",
-    "tag_name": "v1.19.0",
-    "published_at": "2026-11-04T13:16:45Z",
-    "url": "https://github.com/netresearch/typo3-core-contributions-skill/releases/tag/v1.19.0"
+    "name": "v1.19.1",
+    "tag_name": "v1.19.1",
+    "published_at": "2026-11-08T14:36:06Z",
+    "url": "https://github.com/netresearch/typo3-core-contributions-skill/releases/tag/v1.19.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 302,
+      "contributions": 308,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 34,
+      "contributions": 36,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -174,7 +174,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-core-contributions-skill/network/dependents"
   },
-  "estimated_downstream_reach": 108,
-  "blast_radius": 108,
+  "estimated_downstream_reach": 111,
+  "blast_radius": 111,
   "archived": false
 }
