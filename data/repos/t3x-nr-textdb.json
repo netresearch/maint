@@ -24,7 +24,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-09-29T09:01:16Z",
-  "pushed_at": "2026-11-06T18:39:05Z",
+  "pushed_at": "2026-11-09T20:28:07Z",
   "updated_at": "2026-11-06T18:39:08Z",
   "composer_name": "netresearch/nr-textdb",
   "lifetime": {
@@ -32,11 +32,11 @@
     "forks": 0,
     "watchers": 4,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 861,
     "issues_open": 1,
     "issues_closed": 45,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 156,
     "prs_closed_unmerged": 28,
     "issues_total": 46,
@@ -44,25 +44,25 @@
     "release_downloads": 96,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 4429,
+    "packagist_downloads": 4467,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 119,
+    "commits": 117,
     "issues_opened": 0,
-    "prs_opened": 57,
+    "prs_opened": 58,
     "prs_merged": 57,
     "releases": 3,
-    "packagist_downloads": 1561,
+    "packagist_downloads": 1583,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7623,
-    "clones_unique": 423,
-    "views_total": 77,
-    "views_unique": 77,
+    "clones_total": 7636,
+    "clones_unique": 424,
+    "views_total": 76,
+    "views_unique": 76,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -82,12 +82,6 @@
         "title": "/issues/31",
         "count": 6,
         "uniques": 6
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb",
-        "title": "Overview",
-        "count": 2,
-        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-textdb/blob/main/CHANGELOG.md",
@@ -128,6 +122,12 @@
       {
         "path": "/netresearch/t3x-nr-textdb/pull/110/files",
         "title": "/pull/110/files",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/pull/131",
+        "title": "/pull/131",
         "count": 2,
         "uniques": 2
       }
@@ -183,9 +183,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 4429,
-    "monthly": 1561,
-    "daily": 22,
+    "total": 4467,
+    "monthly": 1583,
+    "daily": 38,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,

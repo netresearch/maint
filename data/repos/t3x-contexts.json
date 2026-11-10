@@ -13,8 +13,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2013-03-11T14:10:52Z",
-  "pushed_at": "2026-11-08T00:53:49Z",
-  "updated_at": "2026-11-08T00:53:12Z",
+  "pushed_at": "2026-11-10T03:27:33Z",
+  "updated_at": "2026-11-10T03:27:35Z",
   "composer_name": "netresearch/contexts",
   "lifetime": {
     "stars": 11,
@@ -22,36 +22,36 @@
     "watchers": 10,
     "network": 11,
     "open_issues_plus_prs": 2,
-    "commits": 641,
+    "commits": 649,
     "issues_open": 1,
     "issues_closed": 23,
     "prs_open": 1,
-    "prs_merged": 162,
+    "prs_merged": 166,
     "prs_closed_unmerged": 38,
     "issues_total": 24,
-    "releases": 13,
-    "release_downloads": 134,
+    "releases": 14,
+    "release_downloads": 151,
     "contributors": 14,
     "external_contributors": 7,
-    "packagist_downloads": 30138,
+    "packagist_downloads": 30312,
     "ghcr_downloads": 0,
     "dependents_repos": 5,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 40,
+    "commits": 44,
     "issues_opened": 0,
-    "prs_opened": 15,
-    "prs_merged": 13,
-    "releases": 2,
-    "packagist_downloads": 2575,
+    "prs_opened": 19,
+    "prs_merged": 17,
+    "releases": 3,
+    "packagist_downloads": 2694,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 974,
-    "clones_unique": 117,
-    "views_total": 39,
-    "views_unique": 39,
+    "clones_total": 1166,
+    "clones_unique": 126,
+    "views_total": 38,
+    "views_unique": 38,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -76,12 +76,6 @@
         "title": "/pull/151",
         "count": 3,
         "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-contexts/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 2,
-        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-contexts/blob/main/ext_localconf.php",
@@ -124,24 +118,30 @@
         "title": "/blob/main/ChangeLog",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-contexts/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v5.1.0",
-    "tag_name": "v5.1.0",
-    "published_at": "2026-11-08T00:54:51Z",
-    "url": "https://github.com/netresearch/t3x-contexts/releases/tag/v5.1.0"
+    "name": "v5.1.1",
+    "tag_name": "v5.1.1",
+    "published_at": "2026-11-09T07:42:43Z",
+    "url": "https://github.com/netresearch/t3x-contexts/releases/tag/v5.1.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 271,
+      "contributions": 275,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 78,
+      "contributions": 82,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -187,9 +187,9 @@
   ],
   "packagist": {
     "name": "netresearch/contexts",
-    "total": 30138,
-    "monthly": 2575,
-    "daily": 98,
+    "total": 30312,
+    "monthly": 2694,
+    "daily": 155,
     "url": "https://packagist.org/packages/netresearch/contexts"
   },
   "ghcr": null,
@@ -198,7 +198,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-contexts/network/dependents"
   },
-  "estimated_downstream_reach": 239,
-  "blast_radius": 239,
+  "estimated_downstream_reach": 243,
+  "blast_radius": 243,
   "archived": false
 }

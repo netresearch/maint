@@ -19,7 +19,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-01-14T19:41:07Z",
-  "pushed_at": "2026-11-08T13:47:10Z",
+  "pushed_at": "2026-11-09T17:55:30Z",
   "updated_at": "2026-11-08T00:58:02Z",
   "composer_name": "netresearch/t3-cowriter",
   "lifetime": {
@@ -27,11 +27,11 @@
     "forks": 1,
     "watchers": 5,
     "network": 1,
-    "open_issues_plus_prs": 3,
+    "open_issues_plus_prs": 4,
     "commits": 851,
     "issues_open": 1,
     "issues_closed": 20,
-    "prs_open": 2,
+    "prs_open": 3,
     "prs_merged": 227,
     "prs_closed_unmerged": 20,
     "issues_total": 21,
@@ -39,25 +39,25 @@
     "release_downloads": 612,
     "contributors": 14,
     "external_contributors": 9,
-    "packagist_downloads": 15634,
+    "packagist_downloads": 15667,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 205,
+    "commits": 203,
     "issues_opened": 0,
-    "prs_opened": 57,
+    "prs_opened": 58,
     "prs_merged": 55,
     "releases": 21,
-    "packagist_downloads": 1536,
+    "packagist_downloads": 1551,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 11204,
-    "clones_unique": 473,
-    "views_total": 68,
-    "views_unique": 64,
+    "clones_total": 11440,
+    "clones_unique": 471,
+    "views_total": 69,
+    "views_unique": 65,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -73,14 +73,19 @@
         "referrer": "github.com",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "netresearch.github.io",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-cowriter",
         "title": "Overview",
-        "count": 12,
-        "uniques": 12
+        "count": 13,
+        "uniques": 13
       },
       {
         "path": "/netresearch/t3x-cowriter/blob/main/CHANGELOG.md",
@@ -119,8 +124,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-cowriter/blob/main/docs/SECURITY-ASSURANCE.md",
-        "title": "/blob/main/docs/SECURITY-ASSURANCE.md",
+        "path": "/netresearch/t3x-cowriter/blob/main/README.md",
+        "title": "/blob/main/README.md",
         "count": 1,
         "uniques": 1
       },
@@ -198,9 +203,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 15634,
-    "monthly": 1536,
-    "daily": 20,
+    "total": 15667,
+    "monthly": 1551,
+    "daily": 32,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,

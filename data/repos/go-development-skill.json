@@ -14,8 +14,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:56:59Z",
-  "pushed_at": "2026-11-09T01:22:32Z",
-  "updated_at": "2026-11-09T01:22:34Z",
+  "pushed_at": "2026-11-09T19:45:52Z",
+  "updated_at": "2026-11-09T19:45:55Z",
   "composer_name": null,
   "lifetime": {
     "stars": 13,
@@ -23,11 +23,11 @@
     "watchers": 2,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 357,
+    "commits": 359,
     "issues_open": 1,
     "issues_closed": 4,
     "prs_open": 0,
-    "prs_merged": 126,
+    "prs_merged": 127,
     "prs_closed_unmerged": 0,
     "issues_total": 5,
     "releases": 43,
@@ -40,19 +40,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 47,
+    "commits": 49,
     "issues_opened": 0,
     "prs_opened": 22,
-    "prs_merged": 22,
+    "prs_merged": 23,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1531,
-    "clones_unique": 217,
-    "views_total": 145,
-    "views_unique": 68,
+    "clones_total": 1758,
+    "clones_unique": 245,
+    "views_total": 159,
+    "views_unique": 80,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -79,8 +79,8 @@
       {
         "path": "/netresearch/go-development-skill",
         "title": "Overview",
-        "count": 41,
-        "uniques": 30
+        "count": 44,
+        "uniques": 33
       },
       {
         "path": "/netresearch/go-development-skill/tree/main/skills/go-development",
@@ -93,6 +93,12 @@
         "title": "/blob/main/AGENTS.md",
         "count": 8,
         "uniques": 7
+      },
+      {
+        "path": "/netresearch/go-development-skill/issues",
+        "title": "/issues",
+        "count": 7,
+        "uniques": 6
       },
       {
         "path": "/netresearch/go-development-skill/blob/main/skills/go-development/SKILL.md",
@@ -125,16 +131,10 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/go-development-skill/issues",
-        "title": "/issues",
+        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/contracts-and-invariants.md",
+        "title": "/blob/main/skills/go-development/references/contracts-and-invariants.md",
         "count": 4,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/logging.md",
-        "title": "/blob/main/skills/go-development/references/logging.md",
-        "count": 3,
-        "uniques": 2
+        "uniques": 4
       }
     ]
   },
@@ -152,7 +152,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 33,
+      "contributions": 34,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -162,7 +162,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 13,
+      "contributions": 14,
       "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
@@ -173,7 +173,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/go-development-skill/network/dependents"
   },
-  "estimated_downstream_reach": 135,
-  "blast_radius": 135,
+  "estimated_downstream_reach": 136,
+  "blast_radius": 136,
   "archived": false
 }
