@@ -40,7 +40,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 2,
-    "packagist_downloads": 92198,
+    "packagist_downloads": 92475,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
@@ -51,33 +51,44 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 7236,
+    "packagist_downloads": 7181,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 55,
-    "clones_unique": 46,
-    "views_total": 13,
-    "views_unique": 13,
+    "clones_total": 59,
+    "clones_unique": 49,
+    "views_total": 15,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "aocr.org",
         "count": 10,
         "uniques": 10
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de-returns",
         "title": "Overview",
-        "count": 7,
-        "uniques": 7
+        "count": 8,
+        "uniques": 8
       },
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de-returns/blob/main/README.md",
         "title": "/blob/main/README.md",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/dhl-sdk-api-parcel-de-returns/blob/main/.gitignore",
+        "title": "/blob/main/.gitignore",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/dhl-sdk-api-parcel-de-returns/blob/main/composer.json",
@@ -130,9 +141,9 @@
   ],
   "packagist": {
     "name": "dhl/sdk-api-parcel-de-returns",
-    "total": 92198,
-    "monthly": 7236,
-    "daily": 221,
+    "total": 92475,
+    "monthly": 7181,
+    "daily": 245,
     "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de-returns"
   },
   "ghcr": null,

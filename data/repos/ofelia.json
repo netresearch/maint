@@ -42,7 +42,7 @@
     "contributors": 47,
     "external_contributors": 40,
     "packagist_downloads": 0,
-    "ghcr_downloads": 684411,
+    "ghcr_downloads": 691311,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -53,18 +53,18 @@
     "prs_merged": 51,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 189476
+    "ghcr_downloads": 189565
   },
   "traffic_14d": {
-    "clones_total": 3116,
-    "clones_unique": 660,
-    "views_total": 741,
-    "views_unique": 600,
+    "clones_total": 2432,
+    "clones_unique": 571,
+    "views_total": 722,
+    "views_unique": 577,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 525,
-        "uniques": 531
+        "count": 493,
+        "uniques": 504
       },
       {
         "referrer": "github.com",
@@ -87,17 +87,22 @@
         "uniques": 1
       },
       {
+        "referrer": "statistiques-ng-preprod.ate.e2.rie.gouv.fr",
+        "count": 2,
+        "uniques": 1
+      },
+      {
         "referrer": "awesome-go.com",
         "count": 1,
         "uniques": 1
       },
       {
-        "referrer": "newreleases.io",
+        "referrer": "netresearch.github.io",
         "count": 1,
         "uniques": 1
       },
       {
-        "referrer": "scheduler-caixotesaltitao.ec2.prod.pt-services.aws.eos-ws.com",
+        "referrer": "newreleases.io",
         "count": 1,
         "uniques": 1
       }
@@ -107,37 +112,25 @@
         "path": "/netresearch/ofelia",
         "title": "Overview",
         "count": 72,
-        "uniques": 45
+        "uniques": 47
       },
       {
         "path": "/netresearch/ofelia/issues",
         "title": "/issues",
-        "count": 30,
-        "uniques": 22
+        "count": 34,
+        "uniques": 23
       },
       {
-        "path": "/netresearch/ofelia/blob/v0.21.0/config/validator.go",
-        "title": "/blob/v0.21.0/config/validator.go",
-        "count": 15,
-        "uniques": 15
-      },
-      {
-        "path": "/netresearch/ofelia/blob/v0.21.0/config/sanitizer.go",
-        "title": "/blob/v0.21.0/config/sanitizer.go",
+        "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
+        "title": "/blob/main/docs/CONFIGURATION.md",
         "count": 11,
-        "uniques": 11
+        "uniques": 9
       },
       {
         "path": "/netresearch/ofelia/issues/667",
         "title": "/issues/667",
         "count": 9,
         "uniques": 9
-      },
-      {
-        "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
-        "title": "/blob/main/docs/CONFIGURATION.md",
-        "count": 9,
-        "uniques": 8
       },
       {
         "path": "/netresearch/ofelia/issues/269",
@@ -162,6 +155,18 @@
         "title": "/issues/523",
         "count": 7,
         "uniques": 7
+      },
+      {
+        "path": "/netresearch/ofelia/issues/620",
+        "title": "/issues/620",
+        "count": 7,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/ofelia/issues/653",
+        "title": "/issues/653",
+        "count": 6,
+        "uniques": 6
       }
     ]
   },
@@ -229,12 +234,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 684411,
-        "thirty_day": 189476
+        "total": 691311,
+        "thirty_day": 189565
       }
     ],
-    "total": 684411,
-    "thirty_day": 189476
+    "total": 691311,
+    "thirty_day": 189565
   },
   "dependents": {
     "repositories": 0,
