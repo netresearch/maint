@@ -27,20 +27,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-25T07:26:55Z",
-  "pushed_at": "2026-11-10T12:11:30Z",
-  "updated_at": "2026-11-10T12:11:42Z",
+  "pushed_at": "2026-11-11T06:42:16Z",
+  "updated_at": "2026-11-11T07:42:20Z",
   "composer_name": null,
   "lifetime": {
     "stars": 66,
     "forks": 9,
     "watchers": 3,
     "network": 1707,
-    "open_issues_plus_prs": 13,
-    "commits": 837,
+    "open_issues_plus_prs": 12,
+    "commits": 839,
     "issues_open": 10,
     "issues_closed": 206,
-    "prs_open": 3,
-    "prs_merged": 248,
+    "prs_open": 2,
+    "prs_merged": 249,
     "prs_closed_unmerged": 11,
     "issues_total": 216,
     "releases": 23,
@@ -49,48 +49,43 @@
     "external_contributors": 34,
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
-    "dependents_repos": 69,
-    "dependents_packages": 85
+    "dependents_repos": 70,
+    "dependents_packages": 88
   },
   "recent_30d": {
-    "commits": 187,
+    "commits": 189,
     "issues_opened": 18,
     "prs_opened": 46,
-    "prs_merged": 45,
+    "prs_merged": 46,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4123,
+    "clones_total": 4210,
     "clones_unique": 619,
-    "views_total": 643,
+    "views_total": 690,
     "views_unique": 298,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 200,
-        "uniques": 200
+        "count": 197,
+        "uniques": 197
       },
       {
         "referrer": "Google",
-        "count": 35,
+        "count": 37,
         "uniques": 18
       },
       {
         "referrer": "github.com",
-        "count": 20,
-        "uniques": 13
+        "count": 23,
+        "uniques": 15
       },
       {
         "referrer": "Bing",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "referrer": "awesome-go.com",
-        "count": 1,
-        "uniques": 1
       },
       {
         "referrer": "devstack.vwgroup.com",
@@ -117,25 +112,25 @@
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 78,
-        "uniques": 49
+        "count": 80,
+        "uniques": 46
       },
       {
         "path": "/netresearch/go-cron/pulls",
         "title": "/pulls",
-        "count": 54,
+        "count": 67,
         "uniques": 3
       },
       {
         "path": "/netresearch/go-cron/pull/478",
         "title": "/pull/478",
-        "count": 31,
+        "count": 36,
         "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/issues",
         "title": "/issues",
-        "count": 22,
+        "count": 25,
         "uniques": 7
       },
       {
@@ -145,10 +140,22 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/go-cron/pull/479",
+        "title": "/pull/479",
+        "count": 12,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/go-cron/pull/480",
         "title": "/pull/480",
-        "count": 10,
+        "count": 11,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
+        "title": "/blob/main/docs/COOKBOOK.md",
+        "count": 10,
+        "uniques": 6
       },
       {
         "path": "/netresearch/go-cron/issues/349",
@@ -161,18 +168,6 @@
         "title": "/issues/277",
         "count": 8,
         "uniques": 8
-      },
-      {
-        "path": "/netresearch/go-cron/releases",
-        "title": "/releases",
-        "count": 7,
-        "uniques": 7
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
-        "title": "/blob/main/docs/COOKBOOK.md",
-        "count": 7,
-        "uniques": 4
       }
     ]
   },
@@ -185,7 +180,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 625,
+      "contributions": 626,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -195,7 +190,7 @@
     },
     {
       "login": "norman-abramovitz",
-      "contributions": 40,
+      "contributions": 41,
       "url": "https://github.com/norman-abramovitz"
     },
     {
@@ -237,11 +232,11 @@
   "packagist": null,
   "ghcr": null,
   "dependents": {
-    "repositories": 69,
-    "packages": 85,
+    "repositories": 70,
+    "packages": 88,
     "url": "https://github.com/netresearch/go-cron/network/dependents"
   },
-  "estimated_downstream_reach": 722,
-  "blast_radius": 722,
+  "estimated_downstream_reach": 725,
+  "blast_radius": 725,
   "archived": false
 }

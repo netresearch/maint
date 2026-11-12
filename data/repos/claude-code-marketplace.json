@@ -59,35 +59,30 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1582,
-    "clones_unique": 699,
-    "views_total": 431,
-    "views_unique": 264,
+    "clones_total": 1548,
+    "clones_unique": 690,
+    "views_total": 413,
+    "views_unique": 257,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 85,
+        "count": 87,
         "uniques": 77
       },
       {
         "referrer": "github.com",
-        "count": 62,
-        "uniques": 48
+        "count": 66,
+        "uniques": 51
       },
       {
         "referrer": "aocr.org",
-        "count": 45,
-        "uniques": 45
+        "count": 44,
+        "uniques": 44
       },
       {
         "referrer": "t.co",
-        "count": 35,
-        "uniques": 31
-      },
-      {
-        "referrer": "netresearch.github.io",
-        "count": 3,
-        "uniques": 3
+        "count": 23,
+        "uniques": 20
       },
       {
         "referrer": "search.brave.com",
@@ -95,14 +90,9 @@
         "uniques": 3
       },
       {
-        "referrer": "teams.public.onecdn.static.microsoft",
+        "referrer": "netresearch.github.io",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "referrer": "DuckDuckGo",
-        "count": 1,
-        "uniques": 1
+        "uniques": 2
       },
       {
         "referrer": "buildwithclaude.com",
@@ -110,7 +100,17 @@
         "uniques": 1
       },
       {
+        "referrer": "lm.facebook.com",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "referrer": "packagist.org",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "sabemos.ai",
         "count": 1,
         "uniques": 1
       }
@@ -119,8 +119,14 @@
       {
         "path": "/netresearch/claude-code-marketplace",
         "title": "Overview",
-        "count": 266,
-        "uniques": 215
+        "count": 252,
+        "uniques": 200
+      },
+      {
+        "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
+        "count": 11,
+        "uniques": 7
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main",
@@ -135,28 +141,16 @@
         "uniques": 8
       },
       {
-        "path": "/netresearch/claude-code-marketplace/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
-        "count": 10,
-        "uniques": 6
+        "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
+        "title": "/blob/main/.claude-plugin/marketplace.json",
+        "count": 9,
+        "uniques": 5
       },
       {
         "path": "/netresearch/claude-code-marketplace/discussions",
         "title": "/discussions",
-        "count": 9,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/pulls",
-        "title": "/pulls",
-        "count": 8,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/claude-code-marketplace/blob/main/.claude-plugin/marketplace.json",
-        "title": "/blob/main/.claude-plugin/marketplace.json",
-        "count": 8,
-        "uniques": 4
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/claude-code-marketplace/tree/main/.agents/plugins",
@@ -165,14 +159,20 @@
         "uniques": 4
       },
       {
+        "path": "/netresearch/claude-code-marketplace/pulls",
+        "title": "/pulls",
+        "count": 5,
+        "uniques": 5
+      },
+      {
         "path": "/netresearch/claude-code-marketplace/tree/main/docs",
         "title": "/tree/main/docs",
         "count": 4,
         "uniques": 2
       },
       {
-        "path": "/netresearch/claude-code-marketplace/actions",
-        "title": "/actions",
+        "path": "/netresearch/claude-code-marketplace/tree/main/skills/php-modernization",
+        "title": "/tree/main/skills/php-modernization",
         "count": 3,
         "uniques": 3
       }

@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:13Z",
-  "pushed_at": "2026-11-09T17:56:49Z",
+  "pushed_at": "2026-11-12T03:24:42Z",
   "updated_at": "2026-11-09T17:56:52Z",
   "composer_name": null,
   "lifetime": {
@@ -20,12 +20,12 @@
     "forks": 5,
     "watchers": 1,
     "network": 5,
-    "open_issues_plus_prs": 1,
-    "commits": 312,
+    "open_issues_plus_prs": 2,
+    "commits": 314,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 116,
+    "prs_merged": 117,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
     "releases": 19,
@@ -38,37 +38,42 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 32,
+    "commits": 34,
     "issues_opened": 0,
-    "prs_opened": 14,
-    "prs_merged": 14,
+    "prs_opened": 15,
+    "prs_merged": 15,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3149,
-    "clones_unique": 401,
-    "views_total": 260,
-    "views_unique": 123,
+    "clones_total": 3111,
+    "clones_unique": 415,
+    "views_total": 249,
+    "views_unique": 122,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 101,
-        "uniques": 68
+        "count": 98,
+        "uniques": 66
       },
       {
         "referrer": "aocr.org",
-        "count": 29,
-        "uniques": 29
+        "count": 28,
+        "uniques": 28
       },
       {
         "referrer": "github.com",
-        "count": 4,
-        "uniques": 4
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "Bing",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "DuckDuckGo",
         "count": 1,
         "uniques": 1
       },
@@ -87,20 +92,14 @@
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 128,
-        "uniques": 89
+        "count": 125,
+        "uniques": 88
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 18,
-        "uniques": 11
-      },
-      {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
-        "title": "/blob/main/skills/file-search/SKILL.md",
-        "count": 10,
-        "uniques": 8
+        "count": 16,
+        "uniques": 9
       },
       {
         "path": "/netresearch/file-search-skill/tree/main",
@@ -109,15 +108,15 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
-        "title": "/tree/main/skills/file-search/references",
-        "count": 7,
-        "uniques": 5
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
+        "title": "/blob/main/skills/file-search/SKILL.md",
+        "count": 8,
+        "uniques": 6
       },
       {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/fd-guide.md",
-        "title": "/blob/main/skills/file-search/references/fd-guide.md",
-        "count": 4,
+        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
+        "title": "/tree/main/skills/file-search/references",
+        "count": 5,
         "uniques": 4
       },
       {
@@ -143,6 +142,12 @@
         "title": "/tree/main/.claude-plugin",
         "count": 4,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "count": 3,
+        "uniques": 2
       }
     ]
   },
@@ -160,7 +165,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 70,
+      "contributions": 72,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -181,7 +186,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/file-search-skill/network/dependents"
   },
-  "estimated_downstream_reach": 127,
-  "blast_radius": 127,
+  "estimated_downstream_reach": 128,
+  "blast_radius": 128,
   "archived": false
 }

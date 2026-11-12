@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:56:59Z",
-  "pushed_at": "2026-11-09T19:45:52Z",
+  "pushed_at": "2026-11-12T02:33:08Z",
   "updated_at": "2026-11-09T19:45:55Z",
   "composer_name": null,
   "lifetime": {
@@ -23,11 +23,11 @@
     "watchers": 2,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 359,
+    "commits": 361,
     "issues_open": 1,
     "issues_closed": 4,
     "prs_open": 0,
-    "prs_merged": 127,
+    "prs_merged": 128,
     "prs_closed_unmerged": 0,
     "issues_total": 5,
     "releases": 43,
@@ -40,37 +40,37 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 49,
+    "commits": 51,
     "issues_opened": 0,
-    "prs_opened": 22,
-    "prs_merged": 23,
+    "prs_opened": 23,
+    "prs_merged": 24,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1779,
-    "clones_unique": 248,
-    "views_total": 161,
-    "views_unique": 81,
+    "clones_total": 1907,
+    "clones_unique": 288,
+    "views_total": 135,
+    "views_unique": 73,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 36,
-        "uniques": 27
+        "count": 30,
+        "uniques": 22
       },
       {
         "referrer": "aocr.org",
-        "count": 24,
-        "uniques": 24
-      },
-      {
-        "referrer": "github.com",
-        "count": 3,
-        "uniques": 3
+        "count": 23,
+        "uniques": 23
       },
       {
         "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
         "count": 1,
         "uniques": 1
       }
@@ -79,26 +79,20 @@
       {
         "path": "/netresearch/go-development-skill",
         "title": "Overview",
-        "count": 44,
-        "uniques": 33
+        "count": 35,
+        "uniques": 25
       },
       {
         "path": "/netresearch/go-development-skill/tree/main/skills/go-development",
         "title": "/tree/main/skills/go-development",
-        "count": 12,
-        "uniques": 9
-      },
-      {
-        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/SKILL.md",
-        "title": "/blob/main/skills/go-development/SKILL.md",
-        "count": 8,
-        "uniques": 6
+        "count": 11,
+        "uniques": 8
       },
       {
         "path": "/netresearch/go-development-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 7,
-        "uniques": 6
+        "count": 8,
+        "uniques": 7
       },
       {
         "path": "/netresearch/go-development-skill/issues",
@@ -107,27 +101,15 @@
         "uniques": 6
       },
       {
-        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/mutation-testing.md",
-        "title": "/blob/main/skills/go-development/references/mutation-testing.md",
+        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/SKILL.md",
+        "title": "/blob/main/skills/go-development/SKILL.md",
         "count": 7,
         "uniques": 5
       },
       {
         "path": "/netresearch/go-development-skill/tree/main",
         "title": "/tree/main",
-        "count": 6,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/architecture.md",
-        "title": "/blob/main/skills/go-development/references/architecture.md",
         "count": 5,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/api-design.md",
-        "title": "/blob/main/skills/go-development/references/api-design.md",
-        "count": 4,
         "uniques": 4
       },
       {
@@ -135,6 +117,24 @@
         "title": "/blob/main/skills/go-development/references/contracts-and-invariants.md",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/architecture.md",
+        "title": "/blob/main/skills/go-development/references/architecture.md",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/mutation-testing.md",
+        "title": "/blob/main/skills/go-development/references/mutation-testing.md",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/api-design.md",
+        "title": "/blob/main/skills/go-development/references/api-design.md",
+        "count": 3,
+        "uniques": 3
       }
     ]
   },
@@ -152,7 +152,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 34,
+      "contributions": 36,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -173,7 +173,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/go-development-skill/network/dependents"
   },
-  "estimated_downstream_reach": 136,
-  "blast_radius": 136,
+  "estimated_downstream_reach": 137,
+  "blast_radius": 137,
   "archived": false
 }

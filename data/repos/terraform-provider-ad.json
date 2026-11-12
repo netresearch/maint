@@ -30,7 +30,7 @@
     "prs_closed_unmerged": 4,
     "issues_total": 4,
     "releases": 12,
-    "release_downloads": 1054,
+    "release_downloads": 1063,
     "contributors": 23,
     "external_contributors": 19,
     "packagist_downloads": 0,
@@ -39,24 +39,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 31,
+    "commits": 29,
     "issues_opened": 3,
     "prs_opened": 11,
-    "prs_merged": 14,
+    "prs_merged": 12,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 76,
-    "clones_unique": 32,
-    "views_total": 9,
-    "views_unique": 9,
+    "clones_total": 81,
+    "clones_unique": 34,
+    "views_total": 19,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "aocr.org",
         "count": 6,
         "uniques": 6
+      },
+      {
+        "referrer": "github.com",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -65,6 +70,42 @@
         "title": "/pull/15",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad",
+        "title": "Overview",
+        "count": 3,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/blob/main/examples/provider/provider.tf",
+        "title": "/blob/main/examples/provider/provider.tf",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/commit/29b32a8d27a086f01aac932a24b5562ac80942ca",
+        "title": "/commit/29b32a8d27a086f01aac932a24b5562ac80942ca",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/commits",
+        "title": "/commits",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/commits/main",
+        "title": "/commits/main",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/terraform-provider-ad/compare/main...hashicorp:terraform-provider-ad:main",
+        "title": "/compare/main...hashicorp:terraform-provider-ad:main",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/terraform-provider-ad/issues/65",
@@ -81,24 +122,6 @@
       {
         "path": "/netresearch/terraform-provider-ad/pull/16",
         "title": "/pull/16",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/terraform-provider-ad/pull/16/files/0ca5222f521fc6148d534202613961028a9bafb2",
-        "title": "/pull/16/files/0ca5222f521fc6148d534202613961028a9bafb2",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/terraform-provider-ad/pull/61",
-        "title": "/pull/61",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/terraform-provider-ad/pull/67",
-        "title": "/pull/67",
         "count": 1,
         "uniques": 1
       }

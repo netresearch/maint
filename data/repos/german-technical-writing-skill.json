@@ -21,8 +21,8 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-24T16:10:31Z",
-  "pushed_at": "2026-11-09T20:45:20Z",
-  "updated_at": "2026-11-09T20:45:23Z",
+  "pushed_at": "2026-11-12T02:27:50Z",
+  "updated_at": "2026-11-12T02:27:52Z",
   "composer_name": null,
   "lifetime": {
     "stars": 8,
@@ -30,15 +30,15 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 196,
+    "commits": 198,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 0,
-    "prs_merged": 82,
+    "prs_merged": 83,
     "prs_closed_unmerged": 1,
     "issues_total": 2,
     "releases": 17,
-    "release_downloads": 155,
+    "release_downloads": 156,
     "contributors": 6,
     "external_contributors": 2,
     "packagist_downloads": 0,
@@ -47,34 +47,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 41,
+    "commits": 43,
     "issues_opened": 0,
-    "prs_opened": 19,
-    "prs_merged": 19,
+    "prs_opened": 20,
+    "prs_merged": 20,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1623,
-    "clones_unique": 250,
-    "views_total": 113,
-    "views_unique": 75,
+    "clones_total": 1737,
+    "clones_unique": 300,
+    "views_total": 103,
+    "views_unique": 74,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 41,
+        "count": 40,
         "uniques": 31
       },
       {
         "referrer": "aocr.org",
         "count": 9,
         "uniques": 9
-      },
-      {
-        "referrer": "github.com",
-        "count": 4,
-        "uniques": 3
       },
       {
         "referrer": "perplexity.ai",
@@ -85,6 +80,11 @@
         "referrer": "search.brave.com",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "github.com",
+        "count": 2,
+        "uniques": 1
       },
       {
         "referrer": "Bing",
@@ -101,24 +101,18 @@
       {
         "path": "/netresearch/german-technical-writing-skill",
         "title": "Overview",
-        "count": 58,
-        "uniques": 49
+        "count": 55,
+        "uniques": 46
       },
       {
         "path": "/netresearch/german-technical-writing-skill/tree/main/skills/german-technical-writing/references",
         "title": "/tree/main/skills/german-technical-writing/references",
-        "count": 6,
-        "uniques": 3
+        "count": 5,
+        "uniques": 2
       },
       {
         "path": "/netresearch/german-technical-writing-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 5,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/german-technical-writing-skill/tree/main/skills/german-technical-writing",
-        "title": "/tree/main/skills/german-technical-writing",
         "count": 4,
         "uniques": 3
       },
@@ -127,12 +121,6 @@
         "title": "/blob/main/skills/german-technical-writing/references/anti-patterns.md",
         "count": 4,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/german-technical-writing-skill/blob/main/skills/german-technical-writing/SKILL.md",
-        "title": "/blob/main/skills/german-technical-writing/SKILL.md",
-        "count": 3,
-        "uniques": 3
       },
       {
         "path": "/netresearch/german-technical-writing-skill/tree/main",
@@ -147,14 +135,26 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/german-technical-writing-skill/blob/main/skills/german-technical-writing/SKILL.md",
+        "title": "/blob/main/skills/german-technical-writing/SKILL.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/german-technical-writing-skill/blob/main/skills/german-technical-writing/references/cognitive-accessibility.md",
         "title": "/blob/main/skills/german-technical-writing/references/cognitive-accessibility.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/german-technical-writing-skill/blob/main/skills/german-technical-writing/references/examples.md",
-        "title": "/blob/main/skills/german-technical-writing/references/examples.md",
+        "path": "/netresearch/german-technical-writing-skill/pull/10/files/389a77d530ae6b0f1600cce8f3cbb8816ab97e18",
+        "title": "/pull/10/files/389a77d530ae6b0f1600cce8f3cbb8816ab97e18",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/german-technical-writing-skill/pull/17/files/b895347879f99a16cb655b75589b7cfd28dfbfb1",
+        "title": "/pull/17/files/b895347879f99a16cb655b75589b7cfd28dfbfb1",
         "count": 2,
         "uniques": 2
       }
@@ -174,7 +174,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 36,
+      "contributions": 38,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -205,7 +205,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/german-technical-writing-skill/network/dependents"
   },
-  "estimated_downstream_reach": 92,
-  "blast_radius": 92,
+  "estimated_downstream_reach": 93,
+  "blast_radius": 93,
   "archived": false
 }
