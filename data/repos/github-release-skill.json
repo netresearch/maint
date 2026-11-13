@@ -10,7 +10,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-10T11:16:02Z",
-  "pushed_at": "2026-11-12T00:14:31Z",
+  "pushed_at": "2026-11-12T20:07:49Z",
   "updated_at": "2026-11-12T01:11:38Z",
   "composer_name": null,
   "lifetime": {
@@ -19,15 +19,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 1,
-    "commits": 548,
+    "commits": 555,
     "issues_open": 1,
     "issues_closed": 13,
     "prs_open": 0,
-    "prs_merged": 209,
+    "prs_merged": 212,
     "prs_closed_unmerged": 2,
     "issues_total": 14,
-    "releases": 38,
-    "release_downloads": 357,
+    "releases": 39,
+    "release_downloads": 363,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -36,24 +36,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 95,
+    "commits": 102,
     "issues_opened": 1,
-    "prs_opened": 37,
-    "prs_merged": 37,
-    "releases": 4,
+    "prs_opened": 39,
+    "prs_merged": 39,
+    "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3766,
-    "clones_unique": 378,
-    "views_total": 92,
-    "views_unique": 87,
+    "clones_total": 3910,
+    "clones_unique": 393,
+    "views_total": 90,
+    "views_unique": 84,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 59,
-        "uniques": 59
+        "count": 55,
+        "uniques": 55
       },
       {
         "referrer": "github.com",
@@ -62,22 +62,22 @@
       },
       {
         "referrer": "Google",
-        "count": 5,
-        "uniques": 5
+        "count": 6,
+        "uniques": 6
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/github-release-skill",
         "title": "Overview",
-        "count": 13,
-        "uniques": 11
+        "count": 14,
+        "uniques": 12
       },
       {
         "path": "/netresearch/github-release-skill/releases",
         "title": "/releases",
-        "count": 8,
-        "uniques": 8
+        "count": 9,
+        "uniques": 9
       },
       {
         "path": "/netresearch/github-release-skill/commit/0a5db18b435355390318c17fea6c4a08045f8b84",
@@ -110,12 +110,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/github-release-skill/pull/58/files/8048182b7883d58ee3013eb3d0b06514030d5064",
-        "title": "/pull/58/files/8048182b7883d58ee3013eb3d0b06514030d5064",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/github-release-skill/pull/60/files",
         "title": "/pull/60/files",
         "count": 2,
@@ -126,29 +120,35 @@
         "title": "/pull/61",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/github-release-skill/pull/78",
+        "title": "/pull/78",
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
   "latest_release": {
-    "name": "v1.5.1",
-    "tag_name": "v1.5.1",
-    "published_at": "2026-11-08T14:29:17Z",
-    "url": "https://github.com/netresearch/github-release-skill/releases/tag/v1.5.1"
+    "name": "v1.6.0",
+    "tag_name": "v1.6.0",
+    "published_at": "2026-11-12T20:07:36Z",
+    "url": "https://github.com/netresearch/github-release-skill/releases/tag/v1.6.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 498,
+      "contributions": 503,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 42,
+      "contributions": 43,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 8,
+      "contributions": 9,
       "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
@@ -159,7 +159,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-release-skill/network/dependents"
   },
-  "estimated_downstream_reach": 223,
-  "blast_radius": 223,
+  "estimated_downstream_reach": 226,
+  "blast_radius": 226,
   "archived": false
 }

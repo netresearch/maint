@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T13:14:49Z",
-  "pushed_at": "2026-11-11T22:58:52Z",
+  "pushed_at": "2026-11-12T20:05:17Z",
   "updated_at": "2026-11-11T23:58:54Z",
   "composer_name": null,
   "lifetime": {
@@ -23,15 +23,15 @@
     "watchers": 1,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 829,
+    "commits": 831,
     "issues_open": 1,
     "issues_closed": 4,
     "prs_open": 0,
-    "prs_merged": 277,
+    "prs_merged": 278,
     "prs_closed_unmerged": 2,
     "issues_total": 5,
-    "releases": 68,
-    "release_downloads": 849,
+    "releases": 69,
+    "release_downloads": 860,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,36 +40,41 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 133,
+    "commits": 135,
     "issues_opened": 0,
     "prs_opened": 49,
     "prs_merged": 49,
-    "releases": 7,
+    "releases": 8,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3803,
-    "clones_unique": 407,
+    "clones_total": 3791,
+    "clones_unique": 413,
     "views_total": 168,
-    "views_unique": 153,
+    "views_unique": 150,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 89,
-        "uniques": 89
+        "count": 83,
+        "uniques": 83
       },
       {
         "referrer": "Google",
         "count": 29,
-        "uniques": 27
+        "uniques": 26
+      },
+      {
+        "referrer": "ecosia.org",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/github-project-skill",
         "title": "Overview",
-        "count": 43,
+        "count": 44,
         "uniques": 42
       },
       {
@@ -77,6 +82,12 @@
         "title": "/blob/main/skills/github-project/references/reusable-workflow-security.md",
         "count": 5,
         "uniques": 5
+      },
+      {
+        "path": "/netresearch/github-project-skill/tree/main/skills/github-project",
+        "title": "/tree/main/skills/github-project",
+        "count": 5,
+        "uniques": 4
       },
       {
         "path": "/netresearch/github-project-skill/issues",
@@ -97,10 +108,10 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/github-project-skill/tree/main/skills/github-project",
-        "title": "/tree/main/skills/github-project",
+        "path": "/netresearch/github-project-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
         "count": 3,
-        "uniques": 3
+        "uniques": 2
       },
       {
         "path": "/netresearch/github-project-skill/blob/main/docs/ARCHITECTURE.md",
@@ -119,25 +130,19 @@
         "title": "/blob/main/skills/github-project/SKILL.md",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/references/actionlint-guide.md",
-        "title": "/blob/main/skills/github-project/references/actionlint-guide.md",
-        "count": 2,
-        "uniques": 2
       }
     ]
   },
   "latest_release": {
-    "name": "v2.22.1",
-    "tag_name": "v2.22.1",
-    "published_at": "2026-11-08T14:21:50Z",
-    "url": "https://github.com/netresearch/github-project-skill/releases/tag/v2.22.1"
+    "name": "v2.22.2",
+    "tag_name": "v2.22.2",
+    "published_at": "2026-11-12T20:06:02Z",
+    "url": "https://github.com/netresearch/github-project-skill/releases/tag/v2.22.2"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 760,
+      "contributions": 762,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -163,7 +168,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-project-skill/network/dependents"
   },
-  "estimated_downstream_reach": 288,
-  "blast_radius": 288,
+  "estimated_downstream_reach": 289,
+  "blast_radius": 289,
   "archived": false
 }

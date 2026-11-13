@@ -10,58 +10,58 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-08-18T16:10:14Z",
-  "pushed_at": "2026-11-12T00:22:41Z",
-  "updated_at": "2026-11-11T19:47:11Z",
+  "pushed_at": "2026-11-12T20:19:52Z",
+  "updated_at": "2026-11-12T11:50:34Z",
   "composer_name": "netresearch/nr-llm-compat",
   "lifetime": {
     "stars": 0,
     "forks": 0,
     "watchers": 0,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 177,
+    "open_issues_plus_prs": 1,
+    "commits": 185,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 1,
-    "prs_merged": 64,
+    "prs_open": 0,
+    "prs_merged": 68,
     "prs_closed_unmerged": 6,
     "issues_total": 3,
-    "releases": 16,
-    "release_downloads": 162,
+    "releases": 17,
+    "release_downloads": 172,
     "contributors": 2,
     "external_contributors": 0,
-    "packagist_downloads": 2497,
+    "packagist_downloads": 2541,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 37,
+    "commits": 44,
     "issues_opened": 0,
-    "prs_opened": 18,
-    "prs_merged": 15,
-    "releases": 4,
-    "packagist_downloads": 1515,
+    "prs_opened": 21,
+    "prs_merged": 18,
+    "releases": 5,
+    "packagist_downloads": 1559,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1336,
-    "clones_unique": 103,
-    "views_total": 9,
-    "views_unique": 9,
+    "clones_total": 1582,
+    "clones_unique": 110,
+    "views_total": 8,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 7,
-        "uniques": 7
+        "count": 6,
+        "uniques": 6
       },
       {
-        "referrer": "extensions.typo3.org",
+        "referrer": "github.com",
         "count": 1,
         "uniques": 1
       },
       {
-        "referrer": "github.com",
+        "referrer": "packagist.org",
         "count": 1,
         "uniques": 1
       }
@@ -70,8 +70,14 @@
       {
         "path": "/netresearch/t3x-nr-llm-compat",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm-compat/issues",
+        "title": "/issues",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-llm-compat/pull/21",
@@ -82,12 +88,6 @@
       {
         "path": "/netresearch/t3x-nr-llm-compat/pull/23",
         "title": "/pull/23",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-llm-compat/pull/24",
-        "title": "/pull/24",
         "count": 1,
         "uniques": 1
       },
@@ -112,15 +112,15 @@
     ]
   },
   "latest_release": {
-    "name": "v0.5.0",
-    "tag_name": "v0.5.0",
-    "published_at": "2026-11-07T11:41:42Z",
-    "url": "https://github.com/netresearch/t3x-nr-llm-compat/releases/tag/v0.5.0"
+    "name": "v0.5.1",
+    "tag_name": "v0.5.1",
+    "published_at": "2026-11-12T20:21:21Z",
+    "url": "https://github.com/netresearch/t3x-nr-llm-compat/releases/tag/v0.5.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 169,
+      "contributions": 177,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -131,9 +131,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm-compat",
-    "total": 2497,
-    "monthly": 1515,
-    "daily": 57,
+    "total": 2541,
+    "monthly": 1559,
+    "daily": 40,
     "url": "https://packagist.org/packages/netresearch/nr-llm-compat"
   },
   "ghcr": null,
@@ -142,7 +142,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-llm-compat/network/dependents"
   },
-  "estimated_downstream_reach": 67,
-  "blast_radius": 67,
+  "estimated_downstream_reach": 71,
+  "blast_radius": 71,
   "archived": false
 }

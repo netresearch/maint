@@ -32,7 +32,7 @@
     "release_downloads": 0,
     "contributors": 5,
     "external_contributors": 4,
-    "packagist_downloads": 247948,
+    "packagist_downloads": 248132,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,15 +43,20 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 4819,
+    "packagist_downloads": 4662,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 38,
-    "clones_unique": 32,
-    "views_total": 3,
-    "views_unique": 3,
+    "clones_total": 36,
+    "clones_unique": 30,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [
+      {
+        "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
+      },
       {
         "referrer": "Google",
         "count": 1,
@@ -60,16 +65,16 @@
     ],
     "top_paths": [
       {
-        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/README.md",
-        "title": "/blob/main/README.md",
+        "path": "/netresearch/deutschepost-module-autocomplete-m2",
+        "title": "Overview",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/deutschepost-module-autocomplete-m2",
-        "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "path": "/netresearch/deutschepost-module-autocomplete-m2/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
@@ -108,9 +113,9 @@
   ],
   "packagist": {
     "name": "deutschepost/module-autocomplete-m2",
-    "total": 247948,
-    "monthly": 4819,
-    "daily": 148,
+    "total": 248132,
+    "monthly": 4662,
+    "daily": 169,
     "url": "https://packagist.org/packages/deutschepost/module-autocomplete-m2"
   },
   "ghcr": null,

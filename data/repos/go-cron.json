@@ -27,7 +27,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-25T07:26:55Z",
-  "pushed_at": "2026-11-11T06:42:16Z",
+  "pushed_at": "2026-11-13T01:41:10Z",
   "updated_at": "2026-11-11T07:42:20Z",
   "composer_name": null,
   "lifetime": {
@@ -35,12 +35,12 @@
     "forks": 9,
     "watchers": 3,
     "network": 1707,
-    "open_issues_plus_prs": 12,
-    "commits": 839,
+    "open_issues_plus_prs": 11,
+    "commits": 845,
     "issues_open": 10,
     "issues_closed": 206,
-    "prs_open": 2,
-    "prs_merged": 249,
+    "prs_open": 1,
+    "prs_merged": 251,
     "prs_closed_unmerged": 11,
     "issues_total": 216,
     "releases": 23,
@@ -50,37 +50,42 @@
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 70,
-    "dependents_packages": 88
+    "dependents_packages": 91
   },
   "recent_30d": {
-    "commits": 189,
+    "commits": 195,
     "issues_opened": 18,
-    "prs_opened": 46,
-    "prs_merged": 46,
+    "prs_opened": 47,
+    "prs_merged": 48,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4210,
-    "clones_unique": 619,
-    "views_total": 690,
-    "views_unique": 298,
+    "clones_total": 3965,
+    "clones_unique": 634,
+    "views_total": 720,
+    "views_unique": 283,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 197,
-        "uniques": 197
+        "count": 184,
+        "uniques": 184
       },
       {
         "referrer": "Google",
-        "count": 37,
-        "uniques": 18
+        "count": 38,
+        "uniques": 21
       },
       {
         "referrer": "github.com",
-        "count": 23,
-        "uniques": 15
+        "count": 20,
+        "uniques": 13
+      },
+      {
+        "referrer": "teams.public.onecdn.static.microsoft",
+        "count": 3,
+        "uniques": 2
       },
       {
         "referrer": "Bing",
@@ -88,7 +93,7 @@
         "uniques": 2
       },
       {
-        "referrer": "devstack.vwgroup.com",
+        "referrer": "ecosia.org",
         "count": 1,
         "uniques": 1
       },
@@ -110,22 +115,28 @@
     ],
     "top_paths": [
       {
-        "path": "/netresearch/go-cron",
-        "title": "Overview",
-        "count": 80,
-        "uniques": 46
-      },
-      {
         "path": "/netresearch/go-cron/pulls",
         "title": "/pulls",
-        "count": 67,
+        "count": 82,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-cron",
+        "title": "Overview",
+        "count": 79,
+        "uniques": 45
       },
       {
         "path": "/netresearch/go-cron/pull/478",
         "title": "/pull/478",
-        "count": 36,
+        "count": 37,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/go-cron/pull/480",
+        "title": "/pull/480",
+        "count": 30,
+        "uniques": 3
       },
       {
         "path": "/netresearch/go-cron/issues",
@@ -136,38 +147,32 @@
       {
         "path": "/netresearch/go-cron/issues/205",
         "title": "/issues/205",
-        "count": 21,
+        "count": 19,
         "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/pull/479",
         "title": "/pull/479",
-        "count": 12,
+        "count": 13,
         "uniques": 2
       },
       {
-        "path": "/netresearch/go-cron/pull/480",
-        "title": "/pull/480",
+        "path": "/netresearch/go-cron/pull/487",
+        "title": "/pull/487",
         "count": 11,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
-        "title": "/blob/main/docs/COOKBOOK.md",
-        "count": 10,
-        "uniques": 6
+        "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/issues/349",
         "title": "/issues/349",
-        "count": 9,
-        "uniques": 9
+        "count": 10,
+        "uniques": 10
       },
       {
-        "path": "/netresearch/go-cron/issues/277",
-        "title": "/issues/277",
-        "count": 8,
-        "uniques": 8
+        "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
+        "title": "/blob/main/docs/COOKBOOK.md",
+        "count": 9,
+        "uniques": 6
       }
     ]
   },
@@ -180,7 +185,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 626,
+      "contributions": 627,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -190,7 +195,7 @@
     },
     {
       "login": "norman-abramovitz",
-      "contributions": 41,
+      "contributions": 44,
       "url": "https://github.com/norman-abramovitz"
     },
     {
@@ -209,14 +214,14 @@
       "url": "https://github.com/lukescott"
     },
     {
-      "login": "cloudfly",
+      "login": "soltysh",
       "contributions": 3,
-      "url": "https://github.com/cloudfly"
+      "url": "https://github.com/soltysh"
     },
     {
-      "login": "riki137",
+      "login": "tilinna",
       "contributions": 3,
-      "url": "https://github.com/riki137"
+      "url": "https://github.com/tilinna"
     },
     {
       "login": "tdterry",
@@ -224,19 +229,19 @@
       "url": "https://github.com/tdterry"
     },
     {
-      "login": "tilinna",
+      "login": "netresearch-project-bot[bot]",
       "contributions": 3,
-      "url": "https://github.com/tilinna"
+      "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": null,
   "ghcr": null,
   "dependents": {
     "repositories": 70,
-    "packages": 88,
+    "packages": 91,
     "url": "https://github.com/netresearch/go-cron/network/dependents"
   },
-  "estimated_downstream_reach": 725,
-  "blast_radius": 725,
+  "estimated_downstream_reach": 727,
+  "blast_radius": 727,
   "archived": false
 }

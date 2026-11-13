@@ -20,7 +20,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T19:35:16Z",
-  "pushed_at": "2026-11-12T00:09:46Z",
+  "pushed_at": "2026-11-12T19:17:11Z",
   "updated_at": "2026-11-12T01:09:48Z",
   "composer_name": null,
   "lifetime": {
@@ -29,15 +29,15 @@
     "watchers": 1,
     "network": 11,
     "open_issues_plus_prs": 1,
-    "commits": 537,
+    "commits": 539,
     "issues_open": 1,
     "issues_closed": 16,
     "prs_open": 0,
-    "prs_merged": 145,
+    "prs_merged": 146,
     "prs_closed_unmerged": 3,
     "issues_total": 17,
-    "releases": 62,
-    "release_downloads": 644,
+    "releases": 63,
+    "release_downloads": 876,
     "contributors": 6,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -46,39 +46,34 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 38,
+    "commits": 40,
     "issues_opened": 0,
-    "prs_opened": 17,
-    "prs_merged": 18,
-    "releases": 1,
+    "prs_opened": 18,
+    "prs_merged": 19,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2082,
-    "clones_unique": 365,
-    "views_total": 404,
-    "views_unique": 245,
+    "clones_total": 2151,
+    "clones_unique": 387,
+    "views_total": 409,
+    "views_unique": 236,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 116,
-        "uniques": 86
+        "count": 120,
+        "uniques": 90
       },
       {
         "referrer": "aocr.org",
-        "count": 74,
-        "uniques": 74
+        "count": 63,
+        "uniques": 63
       },
       {
         "referrer": "github.com",
-        "count": 16,
-        "uniques": 10
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 3,
-        "uniques": 3
+        "count": 14,
+        "uniques": 9
       },
       {
         "referrer": "perplexity.ai",
@@ -99,32 +94,37 @@
         "referrer": "com.slack",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "search.brave.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/agent-rules-skill",
         "title": "Overview",
-        "count": 207,
-        "uniques": 150
+        "count": 206,
+        "uniques": 145
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
         "title": "/tree/main/skills/agent-rules",
-        "count": 23,
-        "uniques": 17
+        "count": 24,
+        "uniques": 18
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md",
         "title": "/blob/main/skills/agent-rules/SKILL.md",
-        "count": 14,
-        "uniques": 10
+        "count": 15,
+        "uniques": 11
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 8,
-        "uniques": 6
+        "count": 9,
+        "uniques": 7
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main",
@@ -157,23 +157,23 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/references/examples/fastapi-app/AGENTS.md",
-        "title": "/blob/main/skills/agent-rules/references/examples/fastapi-app/AGENTS.md",
+        "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/assets/scoped/python-modern.md",
+        "title": "/blob/main/skills/agent-rules/assets/scoped/python-modern.md",
         "count": 3,
         "uniques": 3
       }
     ]
   },
   "latest_release": {
-    "name": "v3.16.5",
-    "tag_name": "v3.16.5",
-    "published_at": "2026-10-23T11:21:30Z",
-    "url": "https://github.com/netresearch/agent-rules-skill/releases/tag/v3.16.5"
+    "name": "v3.17.0",
+    "tag_name": "v3.17.0",
+    "published_at": "2026-11-12T19:18:28Z",
+    "url": "https://github.com/netresearch/agent-rules-skill/releases/tag/v3.17.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 456,
+      "contributions": 458,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -209,7 +209,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/agent-rules-skill/network/dependents"
   },
-  "estimated_downstream_reach": 184,
-  "blast_radius": 184,
+  "estimated_downstream_reach": 185,
+  "blast_radius": 185,
   "archived": false
 }
