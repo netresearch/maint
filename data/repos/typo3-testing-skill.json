@@ -21,7 +21,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T08:31:58Z",
-  "pushed_at": "2026-11-13T00:08:41Z",
+  "pushed_at": "2026-11-14T00:34:06Z",
   "updated_at": "2026-11-12T06:17:07Z",
   "composer_name": null,
   "lifetime": {
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 765,
+    "commits": 767,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 241,
+    "prs_merged": 242,
     "prs_closed_unmerged": 7,
     "issues_total": 4,
     "releases": 72,
@@ -47,32 +47,37 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 76,
+    "commits": 74,
     "issues_opened": 0,
-    "prs_opened": 33,
-    "prs_merged": 32,
+    "prs_opened": 32,
+    "prs_merged": 31,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4135,
-    "clones_unique": 280,
-    "views_total": 55,
-    "views_unique": 47,
+    "clones_total": 4579,
+    "clones_unique": 299,
+    "views_total": 45,
+    "views_unique": 34,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 28,
-        "uniques": 28
+        "count": 14,
+        "uniques": 14
       },
       {
         "referrer": "github.com",
-        "count": 8,
-        "uniques": 7
+        "count": 7,
+        "uniques": 6
       },
       {
         "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "netresearch.github.io",
         "count": 1,
         "uniques": 1
       }
@@ -81,8 +86,8 @@
       {
         "path": "/netresearch/typo3-testing-skill",
         "title": "Overview",
-        "count": 12,
-        "uniques": 11
+        "count": 13,
+        "uniques": 12
       },
       {
         "path": "/netresearch/typo3-testing-skill/issues",
@@ -133,8 +138,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-testing-skill/blob/main/skills/typo3-testing/references/architecture-testing.md",
-        "title": "/blob/main/skills/typo3-testing/references/architecture-testing.md",
+        "path": "/netresearch/typo3-testing-skill/blob/main/scripts/verify-harness.sh",
+        "title": "/blob/main/scripts/verify-harness.sh",
         "count": 1,
         "uniques": 1
       }
@@ -154,12 +159,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 46,
+      "contributions": 47,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 25,
+      "contributions": 26,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -185,7 +190,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
   },
-  "estimated_downstream_reach": 253,
-  "blast_radius": 253,
+  "estimated_downstream_reach": 254,
+  "blast_radius": 254,
   "archived": false
 }

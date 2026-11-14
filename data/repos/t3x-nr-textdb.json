@@ -44,7 +44,7 @@
     "release_downloads": 96,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 4609,
+    "packagist_downloads": 4642,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
@@ -55,31 +55,42 @@
     "prs_opened": 61,
     "prs_merged": 60,
     "releases": 3,
-    "packagist_downloads": 1708,
+    "packagist_downloads": 1730,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7882,
-    "clones_unique": 419,
-    "views_total": 72,
-    "views_unique": 72,
+    "clones_total": 7997,
+    "clones_unique": 425,
+    "views_total": 51,
+    "views_unique": 51,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 53,
-        "uniques": 53
+        "count": 25,
+        "uniques": 25
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-textdb/issues/93",
         "title": "/issues/93",
-        "count": 8,
-        "uniques": 8
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/t3x-nr-textdb/issues/31",
         "title": "/issues/31",
+        "count": 5,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/pull/226",
+        "title": "/pull/226",
         "count": 5,
         "uniques": 5
       },
@@ -102,34 +113,28 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/issues/100",
-        "title": "/issues/100",
+        "path": "/netresearch/t3x-nr-textdb/pull/230",
+        "title": "/pull/230",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/issues/17",
-        "title": "/issues/17",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/t3x-nr-textdb",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/pull/108/files",
-        "title": "/pull/108/files",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/t3x-nr-textdb/blob/main/CONTRIBUTING.md",
+        "title": "/blob/main/CONTRIBUTING.md",
+        "count": 1,
+        "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/pull/110/files",
-        "title": "/pull/110/files",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb/pull/131",
-        "title": "/pull/131",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/t3x-nr-textdb/blob/main/LICENSE",
+        "title": "/blob/main/LICENSE",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -183,9 +188,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 4609,
-    "monthly": 1708,
-    "daily": 50,
+    "total": 4642,
+    "monthly": 1730,
+    "daily": 36,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,

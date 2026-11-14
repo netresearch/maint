@@ -32,7 +32,7 @@
     "release_downloads": 34,
     "contributors": 5,
     "external_contributors": 0,
-    "packagist_downloads": 6893,
+    "packagist_downloads": 6923,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,32 +43,37 @@
     "prs_opened": 12,
     "prs_merged": 11,
     "releases": 1,
-    "packagist_downloads": 1938,
+    "packagist_downloads": 1957,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1194,
-    "clones_unique": 91,
-    "views_total": 11,
-    "views_unique": 11,
+    "clones_total": 1317,
+    "clones_unique": 98,
+    "views_total": 6,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 9,
-        "uniques": 9
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "extensions.typo3.org",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "netresearch.github.io",
         "count": 1,
         "uniques": 1
       }
     ],
     "top_paths": [
       {
-        "path": "/netresearch/t3x-scheduler/pull/41",
-        "title": "/pull/41",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/t3x-scheduler",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-scheduler/blob/main/CHANGELOG.md",
@@ -97,30 +102,6 @@
       {
         "path": "/netresearch/t3x-scheduler/pull/43",
         "title": "/pull/43",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-scheduler/pull/45",
-        "title": "/pull/45",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-scheduler/pull/49",
-        "title": "/pull/49",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-scheduler/pull/49/files/f6f98abd7a3c69dca2d2e4321da94d87731d3051",
-        "title": "/pull/49/files/f6f98abd7a3c69dca2d2e4321da94d87731d3051",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-scheduler/pull/53",
-        "title": "/pull/53",
         "count": 1,
         "uniques": 1
       }
@@ -161,9 +142,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-scheduler",
-    "total": 6893,
-    "monthly": 1938,
-    "daily": 65,
+    "total": 6923,
+    "monthly": 1957,
+    "daily": 34,
     "url": "https://packagist.org/packages/netresearch/nr-scheduler"
   },
   "ghcr": null,

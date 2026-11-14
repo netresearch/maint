@@ -49,16 +49,23 @@
     "prs_opened": 0,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 33,
+    "packagist_downloads": 32,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 20,
-    "clones_unique": 13,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 19,
+    "clones_unique": 12,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/module-shipping-inventory",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "1.4.0",
@@ -91,8 +98,8 @@
   "packagist": {
     "name": "netresearch/module-shipping-inventory",
     "total": 745,
-    "monthly": 33,
-    "daily": 3,
+    "monthly": 32,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/module-shipping-inventory"
   },
   "ghcr": null,

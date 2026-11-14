@@ -19,7 +19,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-01-14T19:41:07Z",
-  "pushed_at": "2026-11-12T20:32:48Z",
+  "pushed_at": "2026-11-13T22:54:39Z",
   "updated_at": "2026-11-12T11:40:28Z",
   "composer_name": "netresearch/t3-cowriter",
   "lifetime": {
@@ -28,51 +28,46 @@
     "watchers": 5,
     "network": 1,
     "open_issues_plus_prs": 4,
-    "commits": 878,
+    "commits": 886,
     "issues_open": 1,
     "issues_closed": 20,
     "prs_open": 3,
-    "prs_merged": 236,
+    "prs_merged": 240,
     "prs_closed_unmerged": 20,
     "issues_total": 21,
-    "releases": 64,
-    "release_downloads": 634,
+    "releases": 66,
+    "release_downloads": 654,
     "contributors": 14,
     "external_contributors": 9,
-    "packagist_downloads": 15847,
+    "packagist_downloads": 15870,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 230,
+    "commits": 238,
     "issues_opened": 0,
-    "prs_opened": 66,
-    "prs_merged": 63,
-    "releases": 23,
-    "packagist_downloads": 1715,
+    "prs_opened": 70,
+    "prs_merged": 67,
+    "releases": 25,
+    "packagist_downloads": 1729,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 11264,
-    "clones_unique": 464,
-    "views_total": 66,
-    "views_unique": 65,
+    "clones_total": 9511,
+    "clones_unique": 456,
+    "views_total": 46,
+    "views_unique": 45,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 36,
-        "uniques": 36
+        "count": 12,
+        "uniques": 12
       },
       {
         "referrer": "extensions.typo3.org",
-        "count": 6,
-        "uniques": 6
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
+        "count": 7,
+        "uniques": 7
       },
       {
         "referrer": "netresearch.github.io",
@@ -89,18 +84,12 @@
       {
         "path": "/netresearch/t3x-cowriter",
         "title": "Overview",
-        "count": 12,
-        "uniques": 12
+        "count": 14,
+        "uniques": 14
       },
       {
         "path": "/netresearch/t3x-cowriter/blob/main/CHANGELOG.md",
         "title": "/blob/main/CHANGELOG.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-cowriter/pull/115",
-        "title": "/pull/115",
         "count": 3,
         "uniques": 3
       },
@@ -111,8 +100,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-cowriter/issues/148",
-        "title": "/issues/148",
+        "path": "/netresearch/t3x-cowriter/pull/115",
+        "title": "/pull/115",
         "count": 2,
         "uniques": 2
       },
@@ -145,19 +134,25 @@
         "title": "/commit/2bb32c833b4480d36f04a61c8233657c70b82873",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-cowriter/commit/e2bae29519d349a39008316156b23bed34979652",
+        "title": "/commit/e2bae29519d349a39008316156b23bed34979652",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v3.28.1",
-    "tag_name": "v3.28.1",
-    "published_at": "2026-11-12T20:34:03Z",
-    "url": "https://github.com/netresearch/t3x-cowriter/releases/tag/v3.28.1"
+    "name": "v3.28.3",
+    "tag_name": "v3.28.3",
+    "published_at": "2026-11-13T23:00:20Z",
+    "url": "https://github.com/netresearch/t3x-cowriter/releases/tag/v3.28.3"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 702,
+      "contributions": 710,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -208,9 +203,9 @@
   ],
   "packagist": {
     "name": "netresearch/t3-cowriter",
-    "total": 15847,
-    "monthly": 1715,
-    "daily": 43,
+    "total": 15870,
+    "monthly": 1729,
+    "daily": 26,
     "url": "https://packagist.org/packages/netresearch/t3-cowriter"
   },
   "ghcr": null,
@@ -219,7 +214,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-cowriter/network/dependents"
   },
-  "estimated_downstream_reach": 286,
-  "blast_radius": 286,
+  "estimated_downstream_reach": 290,
+  "blast_radius": 290,
   "archived": false
 }

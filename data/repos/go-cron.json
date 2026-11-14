@@ -50,7 +50,7 @@
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 70,
-    "dependents_packages": 91
+    "dependents_packages": 92
   },
   "recent_30d": {
     "commits": 195,
@@ -62,24 +62,24 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3965,
-    "clones_unique": 634,
-    "views_total": 720,
-    "views_unique": 283,
+    "clones_total": 3775,
+    "clones_unique": 607,
+    "views_total": 736,
+    "views_unique": 250,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 184,
-        "uniques": 184
+        "count": 142,
+        "uniques": 142
       },
       {
         "referrer": "Google",
-        "count": 38,
-        "uniques": 21
+        "count": 40,
+        "uniques": 23
       },
       {
         "referrer": "github.com",
-        "count": 20,
+        "count": 21,
         "uniques": 13
       },
       {
@@ -89,6 +89,11 @@
       },
       {
         "referrer": "Bing",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "referrer": "awesome-go.com",
         "count": 2,
         "uniques": 2
       },
@@ -117,37 +122,43 @@
       {
         "path": "/netresearch/go-cron/pulls",
         "title": "/pulls",
-        "count": 82,
+        "count": 96,
         "uniques": 3
       },
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 79,
-        "uniques": 45
-      },
-      {
-        "path": "/netresearch/go-cron/pull/478",
-        "title": "/pull/478",
-        "count": 37,
-        "uniques": 1
+        "count": 88,
+        "uniques": 47
       },
       {
         "path": "/netresearch/go-cron/pull/480",
         "title": "/pull/480",
-        "count": 30,
+        "count": 38,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-cron/pull/478",
+        "title": "/pull/478",
+        "count": 38,
+        "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/issues",
         "title": "/issues",
-        "count": 25,
+        "count": 26,
         "uniques": 7
+      },
+      {
+        "path": "/netresearch/go-cron/pull/487",
+        "title": "/pull/487",
+        "count": 22,
+        "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/issues/205",
         "title": "/issues/205",
-        "count": 19,
+        "count": 18,
         "uniques": 1
       },
       {
@@ -155,12 +166,6 @@
         "title": "/pull/479",
         "count": 13,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/go-cron/pull/487",
-        "title": "/pull/487",
-        "count": 11,
-        "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/issues/349",
@@ -171,7 +176,7 @@
       {
         "path": "/netresearch/go-cron/blob/main/docs/COOKBOOK.md",
         "title": "/blob/main/docs/COOKBOOK.md",
-        "count": 9,
+        "count": 8,
         "uniques": 6
       }
     ]
@@ -238,7 +243,7 @@
   "ghcr": null,
   "dependents": {
     "repositories": 70,
-    "packages": 91,
+    "packages": 92,
     "url": "https://github.com/netresearch/go-cron/network/dependents"
   },
   "estimated_downstream_reach": 727,

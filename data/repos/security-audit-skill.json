@@ -31,7 +31,7 @@
     "prs_closed_unmerged": 5,
     "issues_total": 3,
     "releases": 43,
-    "release_downloads": 651,
+    "release_downloads": 653,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -49,35 +49,40 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4932,
-    "clones_unique": 847,
-    "views_total": 590,
-    "views_unique": 319,
+    "clones_total": 5363,
+    "clones_unique": 850,
+    "views_total": 563,
+    "views_unique": 302,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 191,
-        "uniques": 138
-      },
-      {
-        "referrer": "aocr.org",
-        "count": 41,
-        "uniques": 41
+        "count": 205,
+        "uniques": 144
       },
       {
         "referrer": "search.brave.com",
-        "count": 40,
-        "uniques": 21
+        "count": 35,
+        "uniques": 18
+      },
+      {
+        "referrer": "aocr.org",
+        "count": 25,
+        "uniques": 25
       },
       {
         "referrer": "github.com",
-        "count": 21,
-        "uniques": 15
+        "count": 19,
+        "uniques": 13
       },
       {
         "referrer": "Bing",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "claude.ai",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "packagist.org",
@@ -99,44 +104,38 @@
       {
         "path": "/netresearch/security-audit-skill",
         "title": "Overview",
-        "count": 327,
-        "uniques": 242
+        "count": 321,
+        "uniques": 236
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
         "title": "/blob/main/skills/security-audit/SKILL.md",
-        "count": 38,
-        "uniques": 34
+        "count": 39,
+        "uniques": 33
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
         "title": "/tree/main/skills/security-audit",
-        "count": 31,
-        "uniques": 21
+        "count": 27,
+        "uniques": 17
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/references/typo3-security.md",
         "title": "/blob/main/skills/security-audit/references/typo3-security.md",
-        "count": 16,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/security-audit-skill/issues",
-        "title": "/issues",
-        "count": 12,
-        "uniques": 10
+        "count": 15,
+        "uniques": 1
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main",
         "title": "/tree/main",
-        "count": 9,
-        "uniques": 9
+        "count": 12,
+        "uniques": 11
       },
       {
-        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/scripts",
-        "title": "/tree/main/skills/security-audit/scripts",
-        "count": 6,
-        "uniques": 4
+        "path": "/netresearch/security-audit-skill/issues",
+        "title": "/issues",
+        "count": 11,
+        "uniques": 9
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/AGENTS.md",
@@ -151,10 +150,16 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/references",
-        "title": "/tree/main/skills/security-audit/references",
+        "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/checkpoints.yaml",
+        "title": "/blob/main/skills/security-audit/checkpoints.yaml",
         "count": 5,
-        "uniques": 5
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/security-audit-skill/pulls",
+        "title": "/pulls",
+        "count": 5,
+        "uniques": 4
       }
     ]
   },

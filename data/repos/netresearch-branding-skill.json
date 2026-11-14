@@ -20,7 +20,7 @@
   "homepage": "https://netresearch.github.io/netresearch-branding-skill/",
   "default_branch": "main",
   "created_at": "2025-10-18T10:33:28Z",
-  "pushed_at": "2026-11-12T20:06:31Z",
+  "pushed_at": "2026-11-13T19:56:34Z",
   "updated_at": "2026-11-09T20:20:18Z",
   "composer_name": null,
   "lifetime": {
@@ -28,12 +28,12 @@
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 3,
-    "commits": 524,
+    "open_issues_plus_prs": 2,
+    "commits": 528,
     "issues_open": 1,
     "issues_closed": 5,
-    "prs_open": 2,
-    "prs_merged": 149,
+    "prs_open": 1,
+    "prs_merged": 151,
     "prs_closed_unmerged": 4,
     "issues_total": 6,
     "releases": 43,
@@ -46,24 +46,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 178,
+    "commits": 180,
     "issues_opened": 5,
     "prs_opened": 47,
-    "prs_merged": 46,
+    "prs_merged": 45,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3174,
-    "clones_unique": 337,
-    "views_total": 56,
-    "views_unique": 29,
+    "clones_total": 3283,
+    "clones_unique": 344,
+    "views_total": 68,
+    "views_unique": 36,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 15,
-        "uniques": 15
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "referrer": "github.com",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "packagist.org",
@@ -90,8 +95,8 @@
       {
         "path": "/netresearch/netresearch-branding-skill",
         "title": "Overview",
-        "count": 9,
-        "uniques": 7
+        "count": 14,
+        "uniques": 12
       },
       {
         "path": "/netresearch/netresearch-branding-skill/blob/main/README.md",
@@ -112,40 +117,40 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/netresearch-branding-skill/compare/v3.0.0...v3.1.0",
+        "title": "/compare/v3.0.0...v3.1.0",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/netresearch-branding-skill/releases/tag/v3.2.1",
+        "title": "/releases/tag/v3.2.1",
+        "count": 4,
+        "uniques": 4
+      },
+      {
         "path": "/netresearch/netresearch-branding-skill/tree/main",
         "title": "/tree/main",
         "count": 4,
         "uniques": 2
       },
       {
-        "path": "/netresearch/netresearch-branding-skill/blob/main/.claude-plugin/plugin.json",
-        "title": "/blob/main/.claude-plugin/plugin.json",
-        "count": 2,
-        "uniques": 1
+        "path": "/netresearch/netresearch-branding-skill/issues",
+        "title": "/issues",
+        "count": 3,
+        "uniques": 3
       },
       {
-        "path": "/netresearch/netresearch-branding-skill/tree/main/skills/netresearch-branding/assets/logos",
-        "title": "/tree/main/skills/netresearch-branding/assets/logos",
-        "count": 2,
-        "uniques": 1
+        "path": "/netresearch/netresearch-branding-skill/issues/created_by/128):",
+        "title": "/issues/created_by/128):",
+        "count": 3,
+        "uniques": 3
       },
       {
-        "path": "/netresearch/netresearch-branding-skill/blob/6741fc9e91059c60d0107b286dafae9b5391ff38/skills/netresearch-branding/references/logo-svg.md",
-        "title": "/blob/6741fc9e91059c60d0107b286dafae9b5391ff38/skills/netresearch-branding/references/logo-svg.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/netresearch-branding-skill/blob/6741fc9e91059c60d0107b286dafae9b5391ff38/skills/netresearch-branding/references/typo3-docs-branding.md",
-        "title": "/blob/6741fc9e91059c60d0107b286dafae9b5391ff38/skills/netresearch-branding/references/typo3-docs-branding.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/netresearch-branding-skill/blob/HEAD/skills/netresearch-branding/references/README-branding.md",
-        "title": "/blob/HEAD/skills/netresearch-branding/references/README-branding.md",
-        "count": 1,
-        "uniques": 1
+        "path": "/netresearch/netresearch-branding-skill/issues/created_by/128);",
+        "title": "/issues/created_by/128);",
+        "count": 3,
+        "uniques": 3
       }
     ]
   },
@@ -163,12 +168,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 58,
+      "contributions": 60,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 30,
+      "contributions": 32,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -189,7 +194,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/netresearch-branding-skill/network/dependents"
   },
-  "estimated_downstream_reach": 160,
-  "blast_radius": 160,
+  "estimated_downstream_reach": 162,
+  "blast_radius": 162,
   "archived": false
 }

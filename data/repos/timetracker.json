@@ -28,7 +28,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-11-12T20:07:18Z",
+  "pushed_at": "2026-11-14T03:50:00Z",
   "updated_at": "2026-11-11T09:25:41Z",
   "composer_name": "netresearch/timetracker",
   "lifetime": {
@@ -45,11 +45,11 @@
     "prs_closed_unmerged": 133,
     "issues_total": 81,
     "releases": 37,
-    "release_downloads": 73,
+    "release_downloads": 74,
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 59286,
+    "ghcr_downloads": 59374,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
@@ -60,28 +60,28 @@
     "prs_merged": 56,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 9689
+    "ghcr_downloads": 9427
   },
   "traffic_14d": {
-    "clones_total": 3683,
-    "clones_unique": 294,
-    "views_total": 578,
-    "views_unique": 553,
+    "clones_total": 3488,
+    "clones_unique": 291,
+    "views_total": 419,
+    "views_unique": 400,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 493,
-        "uniques": 481
+        "count": 338,
+        "uniques": 334
       },
       {
         "referrer": "github.com",
-        "count": 8,
-        "uniques": 7
+        "count": 6,
+        "uniques": 5
       },
       {
         "referrer": "Google",
-        "count": 4,
-        "uniques": 4
+        "count": 5,
+        "uniques": 5
       },
       {
         "referrer": "Bing",
@@ -93,14 +93,14 @@
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 25,
-        "uniques": 19
+        "count": 24,
+        "uniques": 18
       },
       {
         "path": "/netresearch/timetracker/issues/588",
         "title": "/issues/588",
-        "count": 12,
-        "uniques": 12
+        "count": 11,
+        "uniques": 11
       },
       {
         "path": "/netresearch/timetracker/issues",
@@ -127,18 +127,6 @@
         "uniques": 7
       },
       {
-        "path": "/netresearch/timetracker/issues/585",
-        "title": "/issues/585",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/timetracker/pull/619",
-        "title": "/pull/619",
-        "count": 5,
-        "uniques": 5
-      },
-      {
         "path": "/netresearch/timetracker/tree/docs/adr-021-api-token-auth",
         "title": "/tree/docs/adr-021-api-token-auth",
         "count": 5,
@@ -147,6 +135,18 @@
       {
         "path": "/netresearch/timetracker/blob/main/docs/performance.md",
         "title": "/blob/main/docs/performance.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/timetracker/issues/585",
+        "title": "/issues/585",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/timetracker/pull/510/files/0bae8613e77bc8579be493a5b2655550174d5909",
+        "title": "/pull/510/files/0bae8613e77bc8579be493a5b2655550174d5909",
         "count": 4,
         "uniques": 4
       }
@@ -216,12 +216,12 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 59286,
-        "thirty_day": 9689
+        "total": 59374,
+        "thirty_day": 9427
       }
     ],
-    "total": 59286,
-    "thirty_day": 9689
+    "total": 59374,
+    "thirty_day": 9427
   },
   "dependents": {
     "repositories": 0,

@@ -10,7 +10,7 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2019-08-16T10:51:27Z",
-  "pushed_at": "2026-11-08T16:49:41Z",
+  "pushed_at": "2026-11-14T02:25:45Z",
   "updated_at": "2026-11-08T16:49:25Z",
   "composer_name": null,
   "lifetime": {
@@ -19,11 +19,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 106,
+    "commits": 107,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 87,
+    "prs_merged": 88,
     "prs_closed_unmerged": 3,
     "issues_total": 1,
     "releases": 0,
@@ -38,24 +38,30 @@
   "recent_30d": {
     "commits": 6,
     "issues_opened": 0,
-    "prs_opened": 5,
-    "prs_merged": 5,
+    "prs_opened": 6,
+    "prs_merged": 6,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 134,
-    "clones_unique": 38,
+    "clones_unique": 40,
     "views_total": 2,
     "views_unique": 2,
     "top_referrers": [],
     "top_paths": [
       {
+        "path": "/netresearch/ansible-role-monitoring-server",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/ansible-role-monitoring-server/blob/master/README.md",
         "title": "/blob/master/README.md",
-        "count": 2,
-        "uniques": 2
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -63,7 +69,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 80,
+      "contributions": 81,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -89,7 +95,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/ansible-role-monitoring-server/network/dependents"
   },
-  "estimated_downstream_reach": 93,
-  "blast_radius": 93,
+  "estimated_downstream_reach": 94,
+  "blast_radius": 94,
   "archived": false
 }
