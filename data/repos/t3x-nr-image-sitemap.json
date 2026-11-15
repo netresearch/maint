@@ -35,10 +35,10 @@
     "prs_closed_unmerged": 10,
     "issues_total": 4,
     "releases": 8,
-    "release_downloads": 33,
+    "release_downloads": 35,
     "contributors": 6,
     "external_contributors": 1,
-    "packagist_downloads": 5244,
+    "packagist_downloads": 5364,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -49,29 +49,24 @@
     "prs_opened": 12,
     "prs_merged": 11,
     "releases": 1,
-    "packagist_downloads": 1599,
+    "packagist_downloads": 1719,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1325,
-    "clones_unique": 114,
-    "views_total": 23,
-    "views_unique": 13,
+    "clones_total": 1297,
+    "clones_unique": 124,
+    "views_total": 12,
+    "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 4,
-        "uniques": 4
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "extensions.typo3.org",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "referrer": "Google",
-        "count": 2,
-        "uniques": 1
       },
       {
         "referrer": "outlook.live.com",
@@ -80,12 +75,6 @@
       }
     ],
     "top_paths": [
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/releases/tag/14.0.2",
-        "title": "/releases/tag/14.0.2",
-        "count": 4,
-        "uniques": 1
-      },
       {
         "path": "/netresearch/t3x-nr-image-sitemap/blob/main/README.rst",
         "title": "/blob/main/README.rst",
@@ -105,20 +94,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-sitemap/releases",
-        "title": "/releases",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-nr-image-sitemap/blob/main/CHANGELOG.md",
         "title": "/blob/main/CHANGELOG.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-sitemap/commit/a02d31da96280e5848dae9735f53250f5bf9c89c",
-        "title": "/commit/a02d31da96280e5848dae9735f53250f5bf9c89c",
         "count": 1,
         "uniques": 1
       },
@@ -129,14 +106,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-sitemap/compare/14.0.0...14.0.2",
-        "title": "/compare/14.0.0...14.0.2",
+        "path": "/netresearch/t3x-nr-image-sitemap/forks",
+        "title": "/forks",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-image-sitemap/forks",
-        "title": "/forks",
+        "path": "/netresearch/t3x-nr-image-sitemap/pull/72",
+        "title": "/pull/72",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-sitemap/tree/main",
+        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       }
@@ -182,9 +165,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-sitemap",
-    "total": 5244,
-    "monthly": 1599,
-    "daily": 33,
+    "total": 5364,
+    "monthly": 1719,
+    "daily": 119,
     "url": "https://packagist.org/packages/netresearch/nr-image-sitemap"
   },
   "ghcr": null,

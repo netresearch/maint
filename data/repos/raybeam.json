@@ -16,7 +16,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-13T13:42:10Z",
-  "pushed_at": "2026-11-13T04:52:41Z",
+  "pushed_at": "2026-11-14T09:45:47Z",
   "updated_at": "2026-11-08T18:26:57Z",
   "composer_name": null,
   "lifetime": {
@@ -24,12 +24,12 @@
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 3,
-    "commits": 524,
+    "open_issues_plus_prs": 2,
+    "commits": 528,
     "issues_open": 1,
     "issues_closed": 1,
-    "prs_open": 2,
-    "prs_merged": 276,
+    "prs_open": 1,
+    "prs_merged": 278,
     "prs_closed_unmerged": 18,
     "issues_total": 2,
     "releases": 14,
@@ -37,29 +37,29 @@
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 5709,
+    "ghcr_downloads": 5749,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 18,
+    "commits": 22,
     "issues_opened": 0,
     "prs_opened": 8,
-    "prs_merged": 8,
+    "prs_merged": 10,
     "releases": 1,
     "packagist_downloads": 0,
-    "ghcr_downloads": 205
+    "ghcr_downloads": 245
   },
   "traffic_14d": {
-    "clones_total": 267,
-    "clones_unique": 57,
-    "views_total": 16,
-    "views_unique": 16,
+    "clones_total": 345,
+    "clones_unique": 63,
+    "views_total": 13,
+    "views_unique": 13,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 10,
-        "uniques": 10
+        "count": 7,
+        "uniques": 7
       }
     ],
     "top_paths": [
@@ -112,14 +112,14 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/raybeam/pull/254/files/c5a6da4a84b59c55bfee86c1862724a61a5f8914",
-        "title": "/pull/254/files/c5a6da4a84b59c55bfee86c1862724a61a5f8914",
+        "path": "/netresearch/raybeam/tree/main",
+        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/raybeam/pull/261",
-        "title": "/pull/261",
+        "path": "/netresearch/raybeam/tree/sync/dependabot-trim",
+        "title": "/tree/sync/dependabot-trim",
         "count": 1,
         "uniques": 1
       }
@@ -134,7 +134,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 264,
+      "contributions": 266,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -154,7 +154,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 6,
+      "contributions": 8,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -169,19 +169,19 @@
       {
         "package": "raybeam",
         "url": "https://github.com/netresearch/raybeam/pkgs/container/raybeam",
-        "total": 5709,
-        "thirty_day": 205
+        "total": 5749,
+        "thirty_day": 245
       }
     ],
-    "total": 5709,
-    "thirty_day": 205
+    "total": 5749,
+    "thirty_day": 245
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/raybeam/network/dependents"
   },
-  "estimated_downstream_reach": 283,
-  "blast_radius": 283,
+  "estimated_downstream_reach": 285,
+  "blast_radius": 285,
   "archived": false
 }

@@ -44,7 +44,7 @@
     "prs_closed_unmerged": 0,
     "issues_total": 24,
     "releases": 68,
-    "release_downloads": 985,
+    "release_downloads": 988,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -53,42 +53,47 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 93,
+    "commits": 91,
     "issues_opened": 0,
-    "prs_opened": 36,
-    "prs_merged": 35,
+    "prs_opened": 35,
+    "prs_merged": 34,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3031,
-    "clones_unique": 704,
-    "views_total": 100,
-    "views_unique": 75,
+    "clones_total": 2984,
+    "clones_unique": 709,
+    "views_total": 99,
+    "views_unique": 72,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 43,
-        "uniques": 43
+        "count": 35,
+        "uniques": 35
       },
       {
         "referrer": "Google",
-        "count": 21,
-        "uniques": 12
+        "count": 26,
+        "uniques": 15
       },
       {
         "referrer": "github.com",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/matrix-skill",
         "title": "Overview",
-        "count": 15,
-        "uniques": 12
+        "count": 14,
+        "uniques": 11
       },
       {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
@@ -103,6 +108,12 @@
         "uniques": 5
       },
       {
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/hookshot-integration.md",
+        "title": "/blob/main/skills/matrix-communication/references/hookshot-integration.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
         "path": "/netresearch/matrix-skill/pull/49",
         "title": "/pull/49",
         "count": 4,
@@ -113,6 +124,12 @@
         "title": "/pulls",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/messaging-guide.md",
+        "title": "/blob/main/skills/matrix-communication/references/messaging-guide.md",
+        "count": 4,
+        "uniques": 2
       },
       {
         "path": "/netresearch/matrix-skill/tree/main/skills/matrix-administration",
@@ -131,18 +148,6 @@
         "title": "/tree/feat/retro-nio-e2ee-trust",
         "count": 3,
         "uniques": 3
-      },
-      {
-        "path": "/netresearch/matrix-skill/commit/9d5826ab688ca4b55017f0d8da53a10f192f07e4",
-        "title": "/commit/9d5826ab688ca4b55017f0d8da53a10f192f07e4",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/matrix-skill/tree/main/skills/matrix-announcement",
-        "title": "/tree/main/skills/matrix-announcement",
-        "count": 3,
-        "uniques": 1
       }
     ]
   },

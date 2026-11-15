@@ -54,23 +54,34 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 18,
+    "clones_total": 16,
     "clones_unique": 12,
-    "views_total": 5,
-    "views_unique": 5,
+    "views_total": 8,
+    "views_unique": 7,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "referrer": "aocr.org",
         "count": 2,
         "uniques": 2
       },
       {
-        "referrer": "Google",
-        "count": 1,
+        "referrer": "hrworks-production-documents.s3-eu-west-1.amazonaws.com",
+        "count": 2,
         "uniques": 1
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/dhl-sdk-api-location-finder",
+        "title": "Overview",
+        "count": 3,
+        "uniques": 2
+      },
       {
         "path": "/netresearch/dhl-sdk-api-location-finder/issues/1",
         "title": "/issues/1",

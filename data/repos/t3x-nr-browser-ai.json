@@ -25,7 +25,7 @@
   "homepage": "https://netresearch.github.io/t3x-nr-browser-ai/",
   "default_branch": "main",
   "created_at": "2026-07-28T14:31:41Z",
-  "pushed_at": "2026-11-12T08:30:47Z",
+  "pushed_at": "2026-11-14T05:59:01Z",
   "updated_at": "2026-11-12T09:30:50Z",
   "composer_name": null,
   "lifetime": {
@@ -34,15 +34,15 @@
     "watchers": 0,
     "network": 0,
     "open_issues_plus_prs": 3,
-    "commits": 330,
+    "commits": 346,
     "issues_open": 1,
     "issues_closed": 5,
     "prs_open": 2,
-    "prs_merged": 112,
+    "prs_merged": 115,
     "prs_closed_unmerged": 5,
     "issues_total": 6,
-    "releases": 8,
-    "release_downloads": 86,
+    "releases": 9,
+    "release_downloads": 98,
     "contributors": 5,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -51,59 +51,47 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 79,
+    "commits": 93,
     "issues_opened": 0,
-    "prs_opened": 33,
-    "prs_merged": 31,
-    "releases": 1,
+    "prs_opened": 35,
+    "prs_merged": 33,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3732,
-    "clones_unique": 192,
-    "views_total": 10,
-    "views_unique": 9,
+    "clones_total": 3708,
+    "clones_unique": 207,
+    "views_total": 6,
+    "views_unique": 5,
     "top_referrers": [
-      {
-        "referrer": "aocr.org",
-        "count": 6,
-        "uniques": 6
-      },
       {
         "referrer": "github.com",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "referrer": "aocr.org",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/t3x-nr-browser-ai",
         "title": "Overview",
-        "count": 4,
-        "uniques": 4
+        "count": 3,
+        "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-nr-browser-ai/pull/54",
-        "title": "/pull/54",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/t3x-nr-browser-ai/blob/982d8ac086e623df2a6ff053d7f8deaef6145185/docs/decisions/0001-vitest-3-dev-audit-exception.md",
+        "title": "/blob/982d8ac086e623df2a6ff053d7f8deaef6145185/docs/decisions/0001-vitest-3-dev-audit-exception.md",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-browser-ai/commits/main",
         "title": "/commits/main",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-browser-ai/pull/22",
-        "title": "/pull/22",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-browser-ai/pull/55",
-        "title": "/pull/55",
         "count": 1,
         "uniques": 1
       },
@@ -116,15 +104,15 @@
     ]
   },
   "latest_release": {
-    "name": "v0.8.0",
-    "tag_name": "v0.8.0",
-    "published_at": "2026-10-31T14:19:16Z",
-    "url": "https://github.com/netresearch/t3x-nr-browser-ai/releases/tag/v0.8.0"
+    "name": "v0.9.0",
+    "tag_name": "v0.9.0",
+    "published_at": "2026-11-14T06:00:11Z",
+    "url": "https://github.com/netresearch/t3x-nr-browser-ai/releases/tag/v0.9.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 251,
+      "contributions": 267,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -155,7 +143,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-browser-ai/network/dependents"
   },
-  "estimated_downstream_reach": 118,
-  "blast_radius": 118,
+  "estimated_downstream_reach": 121,
+  "blast_radius": 121,
   "archived": false
 }

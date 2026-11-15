@@ -36,10 +36,10 @@
     "prs_closed_unmerged": 10,
     "issues_total": 9,
     "releases": 27,
-    "release_downloads": 238,
+    "release_downloads": 240,
     "contributors": 6,
     "external_contributors": 1,
-    "packagist_downloads": 22901,
+    "packagist_downloads": 23028,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
@@ -47,22 +47,22 @@
   "recent_30d": {
     "commits": 55,
     "issues_opened": 0,
-    "prs_opened": 25,
+    "prs_opened": 24,
     "prs_merged": 24,
     "releases": 2,
-    "packagist_downloads": 6153,
+    "packagist_downloads": 6195,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3390,
-    "clones_unique": 190,
-    "views_total": 83,
-    "views_unique": 71,
+    "clones_total": 3344,
+    "clones_unique": 202,
+    "views_total": 82,
+    "views_unique": 70,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 64,
-        "uniques": 64
+        "count": 60,
+        "uniques": 60
       },
       {
         "referrer": "extensions.typo3.org",
@@ -91,6 +91,12 @@
         "path": "/netresearch/t3x-nr-passkeys-be/tree/main",
         "title": "/tree/main",
         "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/docs/adr/0002-no-rpid-aware-enforcement.md",
+        "title": "/blob/main/docs/adr/0002-no-rpid-aware-enforcement.md",
+        "count": 3,
         "uniques": 3
       },
       {
@@ -132,12 +138,6 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-be/pull/78",
         "title": "/pull/78",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/releases",
-        "title": "/releases",
         "count": 2,
         "uniques": 2
       }
@@ -183,9 +183,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 22901,
-    "monthly": 6153,
-    "daily": 117,
+    "total": 23028,
+    "monthly": 6195,
+    "daily": 125,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,

@@ -41,10 +41,10 @@
     "prs_closed_unmerged": 28,
     "issues_total": 46,
     "releases": 24,
-    "release_downloads": 96,
+    "release_downloads": 98,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 4642,
+    "packagist_downloads": 4762,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
@@ -55,19 +55,19 @@
     "prs_opened": 61,
     "prs_merged": 60,
     "releases": 3,
-    "packagist_downloads": 1730,
+    "packagist_downloads": 1845,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 7997,
-    "clones_unique": 425,
-    "views_total": 51,
-    "views_unique": 51,
+    "clones_total": 3007,
+    "clones_unique": 348,
+    "views_total": 44,
+    "views_unique": 44,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 25,
-        "uniques": 25
+        "count": 18,
+        "uniques": 18
       },
       {
         "referrer": "github.com",
@@ -76,12 +76,6 @@
       }
     ],
     "top_paths": [
-      {
-        "path": "/netresearch/t3x-nr-textdb/issues/93",
-        "title": "/issues/93",
-        "count": 6,
-        "uniques": 6
-      },
       {
         "path": "/netresearch/t3x-nr-textdb/issues/31",
         "title": "/issues/31",
@@ -93,6 +87,12 @@
         "title": "/pull/226",
         "count": 5,
         "uniques": 5
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/issues/93",
+        "title": "/issues/93",
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/t3x-nr-textdb/blob/main/CHANGELOG.md",
@@ -188,9 +188,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 4642,
-    "monthly": 1730,
-    "daily": 36,
+    "total": 4762,
+    "monthly": 1845,
+    "daily": 120,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,
