@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-23T10:28:16Z",
-  "pushed_at": "2026-11-12T19:32:27Z",
+  "pushed_at": "2026-11-16T00:43:55Z",
   "updated_at": "2026-11-12T12:01:09Z",
   "composer_name": null,
   "lifetime": {
@@ -20,12 +20,12 @@
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 1,
-    "commits": 296,
+    "open_issues_plus_prs": 2,
+    "commits": 300,
     "issues_open": 1,
     "issues_closed": 1,
-    "prs_open": 0,
-    "prs_merged": 109,
+    "prs_open": 1,
+    "prs_merged": 111,
     "prs_closed_unmerged": 1,
     "issues_total": 2,
     "releases": 31,
@@ -38,19 +38,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 51,
+    "commits": 55,
     "issues_opened": 0,
-    "prs_opened": 22,
-    "prs_merged": 22,
+    "prs_opened": 25,
+    "prs_merged": 24,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2457,
-    "clones_unique": 301,
-    "views_total": 43,
-    "views_unique": 32,
+    "clones_total": 2470,
+    "clones_unique": 307,
+    "views_total": 41,
+    "views_unique": 30,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -59,16 +59,16 @@
       },
       {
         "referrer": "Google",
-        "count": 5,
-        "uniques": 2
-      },
-      {
-        "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
+        "count": 4,
+        "uniques": 1
       },
       {
         "referrer": "DuckDuckGo",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "github.com",
         "count": 1,
         "uniques": 1
       }
@@ -77,8 +77,8 @@
       {
         "path": "/netresearch/concourse-ci-skill",
         "title": "Overview",
-        "count": 15,
-        "uniques": 10
+        "count": 13,
+        "uniques": 8
       },
       {
         "path": "/netresearch/concourse-ci-skill/releases/tag/v1.11.7",
@@ -150,7 +150,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 38,
+      "contributions": 40,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -160,7 +160,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 15,
+      "contributions": 17,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -176,7 +176,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/concourse-ci-skill/network/dependents"
   },
-  "estimated_downstream_reach": 116,
-  "blast_radius": 116,
+  "estimated_downstream_reach": 118,
+  "blast_radius": 118,
   "archived": false
 }

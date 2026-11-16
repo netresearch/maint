@@ -39,7 +39,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 0,
-    "packagist_downloads": 28661,
+    "packagist_downloads": 29100,
     "ghcr_downloads": 0,
     "dependents_repos": 48,
     "dependents_packages": 0
@@ -50,49 +50,37 @@
     "prs_opened": 5,
     "prs_merged": 5,
     "releases": 0,
-    "packagist_downloads": 5705,
+    "packagist_downloads": 6141,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 216,
-    "clones_unique": 78,
-    "views_total": 64,
-    "views_unique": 52,
+    "clones_unique": 81,
+    "views_total": 51,
+    "views_unique": 41,
     "top_referrers": [
       {
         "referrer": "aocr.org",
-        "count": 31,
-        "uniques": 31
+        "count": 22,
+        "uniques": 22
       },
       {
         "referrer": "Google",
-        "count": 8,
-        "uniques": 8
+        "count": 7,
+        "uniques": 7
       },
       {
         "referrer": "github.com",
-        "count": 7,
-        "uniques": 5
+        "count": 6,
+        "uniques": 4
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 26,
-        "uniques": 19
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/discussions",
-        "title": "/discussions",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/issues",
-        "title": "/issues",
-        "count": 3,
-        "uniques": 3
+        "count": 23,
+        "uniques": 16
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/tree/main/src",
@@ -101,20 +89,14 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/HEAD/CHANGELOG.md",
-        "title": "/blob/HEAD/CHANGELOG.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/composer-agent-skill-plugin/commit/16bbe2ecb46982257a6afede98c1a2e211e0beff",
         "title": "/commit/16bbe2ecb46982257a6afede98c1a2e211e0beff",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/issues/42",
-        "title": "/issues/42",
+        "path": "/netresearch/composer-agent-skill-plugin/issues",
+        "title": "/issues",
         "count": 2,
         "uniques": 2
       },
@@ -133,6 +115,24 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin/actions/workflows/ci.yml",
         "title": "/actions/workflows/ci.yml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/blob/main/LICENSE",
+        "title": "/blob/main/LICENSE",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/blob/main/docs/IMPLEMENTATION-DIRECT-SKILLS.md",
+        "title": "/blob/main/docs/IMPLEMENTATION-DIRECT-SKILLS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/commit/38de97fc9be4429df49fad1ca0dc69535d531b69",
+        "title": "/commit/38de97fc9be4429df49fad1ca0dc69535d531b69",
         "count": 1,
         "uniques": 1
       }
@@ -178,9 +178,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 28661,
-    "monthly": 5705,
-    "daily": 98,
+    "total": 29100,
+    "monthly": 6141,
+    "daily": 406,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,

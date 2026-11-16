@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:25Z",
-  "pushed_at": "2026-11-12T01:59:14Z",
+  "pushed_at": "2026-11-16T00:46:11Z",
   "updated_at": "2026-11-12T11:56:26Z",
   "composer_name": null,
   "lifetime": {
@@ -22,16 +22,16 @@
     "forks": 5,
     "watchers": 1,
     "network": 5,
-    "open_issues_plus_prs": 2,
-    "commits": 489,
+    "open_issues_plus_prs": 3,
+    "commits": 493,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 1,
-    "prs_merged": 166,
+    "prs_open": 2,
+    "prs_merged": 168,
     "prs_closed_unmerged": 5,
     "issues_total": 3,
     "releases": 43,
-    "release_downloads": 659,
+    "release_downloads": 660,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -40,29 +40,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 51,
+    "commits": 55,
     "issues_opened": 0,
-    "prs_opened": 24,
-    "prs_merged": 23,
+    "prs_opened": 27,
+    "prs_merged": 25,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5210,
-    "clones_unique": 875,
-    "views_total": 554,
-    "views_unique": 302,
+    "clones_total": 5234,
+    "clones_unique": 858,
+    "views_total": 528,
+    "views_unique": 281,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 209,
-        "uniques": 146
+        "count": 203,
+        "uniques": 141
       },
       {
         "referrer": "search.brave.com",
-        "count": 33,
-        "uniques": 19
+        "count": 31,
+        "uniques": 18
       },
       {
         "referrer": "aocr.org",
@@ -75,12 +75,12 @@
         "uniques": 9
       },
       {
-        "referrer": "Baidu",
-        "count": 1,
-        "uniques": 1
+        "referrer": "Bing",
+        "count": 2,
+        "uniques": 2
       },
       {
-        "referrer": "Bing",
+        "referrer": "Baidu",
         "count": 1,
         "uniques": 1
       },
@@ -109,20 +109,20 @@
       {
         "path": "/netresearch/security-audit-skill",
         "title": "Overview",
-        "count": 318,
-        "uniques": 235
+        "count": 304,
+        "uniques": 222
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
         "title": "/blob/main/skills/security-audit/SKILL.md",
-        "count": 41,
-        "uniques": 35
+        "count": 40,
+        "uniques": 34
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
         "title": "/tree/main/skills/security-audit",
-        "count": 31,
-        "uniques": 20
+        "count": 27,
+        "uniques": 19
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/references/typo3-security.md",
@@ -139,14 +139,8 @@
       {
         "path": "/netresearch/security-audit-skill/issues",
         "title": "/issues",
-        "count": 10,
-        "uniques": 8
-      },
-      {
-        "path": "/netresearch/security-audit-skill/tree/main/scripts",
-        "title": "/tree/main/scripts",
-        "count": 5,
-        "uniques": 5
+        "count": 9,
+        "uniques": 7
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/AGENTS.md",
@@ -157,6 +151,12 @@
       {
         "path": "/netresearch/security-audit-skill/blob/main/docs/ARCHITECTURE.md",
         "title": "/blob/main/docs/ARCHITECTURE.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/security-audit-skill/tree/main/scripts",
+        "title": "/tree/main/scripts",
         "count": 4,
         "uniques": 4
       },
@@ -182,7 +182,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 45,
+      "contributions": 47,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -192,7 +192,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 15,
+      "contributions": 17,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -213,7 +213,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/security-audit-skill/network/dependents"
   },
-  "estimated_downstream_reach": 182,
-  "blast_radius": 182,
+  "estimated_downstream_reach": 184,
+  "blast_radius": 184,
   "archived": false
 }

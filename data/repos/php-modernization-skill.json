@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:20Z",
-  "pushed_at": "2026-11-14T13:35:51Z",
+  "pushed_at": "2026-11-15T23:48:28Z",
   "updated_at": "2026-11-15T00:08:27Z",
   "composer_name": null,
   "lifetime": {
@@ -22,16 +22,16 @@
     "forks": 4,
     "watchers": 1,
     "network": 4,
-    "open_issues_plus_prs": 4,
-    "commits": 514,
+    "open_issues_plus_prs": 2,
+    "commits": 569,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 3,
-    "prs_merged": 176,
+    "prs_open": 1,
+    "prs_merged": 183,
     "prs_closed_unmerged": 3,
     "issues_total": 3,
-    "releases": 51,
-    "release_downloads": 458,
+    "releases": 52,
+    "release_downloads": 466,
     "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -40,29 +40,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 57,
+    "commits": 110,
     "issues_opened": 0,
-    "prs_opened": 26,
-    "prs_merged": 24,
-    "releases": 3,
+    "prs_opened": 31,
+    "prs_merged": 30,
+    "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4445,
-    "clones_unique": 450,
-    "views_total": 567,
-    "views_unique": 278,
+    "clones_total": 4806,
+    "clones_unique": 469,
+    "views_total": 593,
+    "views_unique": 286,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 256,
-        "uniques": 182
+        "count": 259,
+        "uniques": 185
       },
       {
         "referrer": "github.com",
-        "count": 10,
-        "uniques": 6
+        "count": 11,
+        "uniques": 7
       },
       {
         "referrer": "search.brave.com",
@@ -85,11 +85,6 @@
         "uniques": 2
       },
       {
-        "referrer": "Bing",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "referrer": "Yahoo",
         "count": 1,
         "uniques": 1
@@ -109,20 +104,32 @@
       {
         "path": "/netresearch/php-modernization-skill",
         "title": "Overview",
-        "count": 346,
-        "uniques": 232
+        "count": 355,
+        "uniques": 233
       },
       {
         "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/SKILL.md",
         "title": "/blob/main/skills/php-modernization/SKILL.md",
-        "count": 40,
-        "uniques": 36
+        "count": 44,
+        "uniques": 39
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main/skills/php-modernization",
         "title": "/tree/main/skills/php-modernization",
-        "count": 29,
-        "uniques": 24
+        "count": 33,
+        "uniques": 28
+      },
+      {
+        "path": "/netresearch/php-modernization-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 13,
+        "uniques": 7
+      },
+      {
+        "path": "/netresearch/php-modernization-skill/tree/main",
+        "title": "/tree/main",
+        "count": 12,
+        "uniques": 11
       },
       {
         "path": "/netresearch/php-modernization-skill/blob/main/skills/php-modernization/references/php-8.4.md",
@@ -131,58 +138,46 @@
         "uniques": 10
       },
       {
-        "path": "/netresearch/php-modernization-skill/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 11,
-        "uniques": 5
-      },
-      {
         "path": "/netresearch/php-modernization-skill/issues",
         "title": "/issues",
         "count": 11,
         "uniques": 4
       },
       {
-        "path": "/netresearch/php-modernization-skill/tree/main",
-        "title": "/tree/main",
-        "count": 10,
-        "uniques": 10
-      },
-      {
         "path": "/netresearch/php-modernization-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 6,
-        "uniques": 6
-      },
-      {
-        "path": "/netresearch/php-modernization-skill/tree/main/fixtures",
-        "title": "/tree/main/fixtures",
-        "count": 5,
-        "uniques": 5
+        "count": 7,
+        "uniques": 7
       },
       {
         "path": "/netresearch/php-modernization-skill/tree/main/skills",
         "title": "/tree/main/skills",
+        "count": 6,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/php-modernization-skill/tree/main/docs",
+        "title": "/tree/main/docs",
         "count": 5,
         "uniques": 5
       }
     ]
   },
   "latest_release": {
-    "name": "v1.24.2",
-    "tag_name": "v1.24.2",
-    "published_at": "2026-11-12T20:24:34Z",
-    "url": "https://github.com/netresearch/php-modernization-skill/releases/tag/v1.24.2"
+    "name": "v1.24.3",
+    "tag_name": "v1.24.3",
+    "published_at": "2026-11-15T22:54:41Z",
+    "url": "https://github.com/netresearch/php-modernization-skill/releases/tag/v1.24.3"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 428,
+      "contributions": 479,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 44,
+      "contributions": 46,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -192,7 +187,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 13,
+      "contributions": 15,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -208,7 +203,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/php-modernization-skill/network/dependents"
   },
-  "estimated_downstream_reach": 190,
-  "blast_radius": 190,
+  "estimated_downstream_reach": 197,
+  "blast_radius": 197,
   "archived": false
 }
