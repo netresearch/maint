@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T03:13:30+00:00",
+  "generated_at": "2026-11-17T03:11:17+00:00",
   "org": "netresearch",
   "traffic_available": true,
   "categories": {
@@ -30,30 +30,30 @@
   },
   "totals": {
     "repos": 157,
-    "stars": 1563,
-    "forks": 423,
+    "stars": 1564,
+    "forks": 424,
     "watchers": 600,
-    "commits": 57088,
+    "commits": 57427,
     "issues_open": 207,
-    "issues_closed": 1848,
-    "issues": 2055,
-    "prs_open": 157,
-    "prs_merged": 16940,
-    "releases": 2941,
-    "release_downloads": 72923,
-    "contributors": 960,
+    "issues_closed": 1857,
+    "issues": 2064,
+    "prs_open": 140,
+    "prs_merged": 17032,
+    "releases": 2948,
+    "release_downloads": 73389,
+    "contributors": 961,
     "external_contributors": 431,
-    "packagist_downloads": 8088213,
-    "ghcr_downloads": 867288,
+    "packagist_downloads": 8100925,
+    "ghcr_downloads": 876188,
     "dependents_repos": 378,
     "dependents_packages": 131,
-    "commits_30d": 7206,
-    "issues_opened_30d": 84,
-    "prs_opened_30d": 2441,
-    "prs_merged_30d": 2419,
-    "releases_30d": 334,
-    "packagist_downloads_30d": 293512,
-    "ghcr_downloads_30d": 211437
+    "commits_30d": 7520,
+    "issues_opened_30d": 93,
+    "prs_opened_30d": 2524,
+    "prs_merged_30d": 2500,
+    "releases_30d": 341,
+    "packagist_downloads_30d": 297990,
+    "ghcr_downloads_30d": 211645
   },
   "repos": [
     {
@@ -271,7 +271,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-10-18T19:35:16Z",
-      "pushed_at": "2026-11-16T02:16:33Z",
+      "pushed_at": "2026-11-16T16:19:03Z",
       "updated_at": "2026-11-15T22:28:11Z",
       "composer_name": null,
       "lifetime": {
@@ -280,15 +280,15 @@
         "watchers": 1,
         "network": 11,
         "open_issues_plus_prs": 2,
-        "commits": 543,
+        "commits": 545,
         "issues_open": 1,
         "issues_closed": 16,
         "prs_open": 1,
-        "prs_merged": 148,
+        "prs_merged": 149,
         "prs_closed_unmerged": 3,
         "issues_total": 17,
         "releases": 63,
-        "release_downloads": 880,
+        "release_downloads": 881,
         "contributors": 6,
         "external_contributors": 0,
         "packagist_downloads": 0,
@@ -297,10 +297,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 42,
+        "commits": 44,
         "issues_opened": 0,
-        "prs_opened": 21,
-        "prs_merged": 20,
+        "prs_opened": 22,
+        "prs_merged": 21,
         "releases": 2,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -424,7 +424,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 458,
+          "contributions": 460,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -460,8 +460,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/agent-rules-skill/network/dependents"
       },
-      "estimated_downstream_reach": 187,
-      "blast_radius": 187,
+      "estimated_downstream_reach": 188,
+      "blast_radius": 188,
       "archived": false
     },
     {
@@ -1333,7 +1333,7 @@
       "homepage": "https://netresearch.github.io/assetpicker",
       "default_branch": "main",
       "created_at": "2016-09-07T08:10:15Z",
-      "pushed_at": "2026-11-08T13:22:42Z",
+      "pushed_at": "2026-11-16T20:37:16Z",
       "updated_at": "2026-11-07T18:08:31Z",
       "composer_name": null,
       "lifetime": {
@@ -1341,12 +1341,12 @@
         "forks": 4,
         "watchers": 5,
         "network": 4,
-        "open_issues_plus_prs": 3,
-        "commits": 366,
+        "open_issues_plus_prs": 2,
+        "commits": 375,
         "issues_open": 1,
         "issues_closed": 2,
-        "prs_open": 2,
-        "prs_merged": 129,
+        "prs_open": 1,
+        "prs_merged": 133,
         "prs_closed_unmerged": 7,
         "issues_total": 3,
         "releases": 3,
@@ -1359,10 +1359,10 @@
         "dependents_packages": 3
       },
       "recent_30d": {
-        "commits": 14,
+        "commits": 23,
         "issues_opened": 0,
-        "prs_opened": 6,
-        "prs_merged": 7,
+        "prs_opened": 9,
+        "prs_merged": 11,
         "releases": 0,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -1409,12 +1409,12 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 95,
+          "contributions": 102,
           "url": "https://github.com/CybotTM"
         },
         {
           "login": "renovate[bot]",
-          "contributions": 87,
+          "contributions": 89,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -1440,8 +1440,8 @@
         "packages": 3,
         "url": "https://github.com/netresearch/assetpicker/network/dependents"
       },
-      "estimated_downstream_reach": 145,
-      "blast_radius": 145,
+      "estimated_downstream_reach": 149,
+      "blast_radius": 149,
       "archived": false
     },
     {
@@ -1465,7 +1465,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-01-30T19:41:25Z",
-      "pushed_at": "2026-11-15T07:06:31Z",
+      "pushed_at": "2026-11-16T04:34:16Z",
       "updated_at": "2026-11-12T00:27:24Z",
       "composer_name": null,
       "lifetime": {
@@ -1473,12 +1473,12 @@
         "forks": 0,
         "watchers": 1,
         "network": 0,
-        "open_issues_plus_prs": 1,
-        "commits": 429,
+        "open_issues_plus_prs": 2,
+        "commits": 431,
         "issues_open": 1,
         "issues_closed": 10,
-        "prs_open": 0,
-        "prs_merged": 138,
+        "prs_open": 1,
+        "prs_merged": 139,
         "prs_closed_unmerged": 1,
         "issues_total": 11,
         "releases": 40,
@@ -1491,10 +1491,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 57,
+        "commits": 59,
         "issues_opened": 0,
-        "prs_opened": 24,
-        "prs_merged": 24,
+        "prs_opened": 26,
+        "prs_merged": 25,
         "releases": 3,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -1598,7 +1598,7 @@
         },
         {
           "login": "renovate[bot]",
-          "contributions": 41,
+          "contributions": 42,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -1608,7 +1608,7 @@
         },
         {
           "login": "netresearch-project-bot[bot]",
-          "contributions": 9,
+          "contributions": 10,
           "url": "https://github.com/apps/netresearch-project-bot"
         },
         {
@@ -1624,8 +1624,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/automated-assessment-skill/network/dependents"
       },
-      "estimated_downstream_reach": 149,
-      "blast_radius": 149,
+      "estimated_downstream_reach": 150,
+      "blast_radius": 150,
       "archived": false
     },
     {
@@ -1824,7 +1824,7 @@
       "homepage": "https://netresearch.github.io/claude-code-marketplace/",
       "default_branch": "main",
       "created_at": "2025-10-18T07:59:00Z",
-      "pushed_at": "2026-11-09T12:33:38Z",
+      "pushed_at": "2026-11-16T16:29:22Z",
       "updated_at": "2026-11-15T20:33:25Z",
       "composer_name": null,
       "lifetime": {
@@ -1833,11 +1833,11 @@
         "watchers": 2,
         "network": 25,
         "open_issues_plus_prs": 1,
-        "commits": 425,
+        "commits": 427,
         "issues_open": 1,
         "issues_closed": 12,
         "prs_open": 0,
-        "prs_merged": 103,
+        "prs_merged": 104,
         "prs_closed_unmerged": 26,
         "issues_total": 13,
         "releases": 3,
@@ -1977,7 +1977,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 316,
+          "contributions": 318,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -2028,8 +2028,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/claude-code-marketplace/network/dependents"
       },
-      "estimated_downstream_reach": 178,
-      "blast_radius": 178,
+      "estimated_downstream_reach": 179,
+      "blast_radius": 179,
       "archived": false
     },
     {
@@ -2258,7 +2258,7 @@
         "release_downloads": 0,
         "contributors": 6,
         "external_contributors": 0,
-        "packagist_downloads": 29100,
+        "packagist_downloads": 29543,
         "ghcr_downloads": 0,
         "dependents_repos": 48,
         "dependents_packages": 0
@@ -2269,7 +2269,7 @@
         "prs_opened": 5,
         "prs_merged": 5,
         "releases": 0,
-        "packagist_downloads": 6141,
+        "packagist_downloads": 6338,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -2397,9 +2397,9 @@
       ],
       "packagist": {
         "name": "netresearch/composer-agent-skill-plugin",
-        "total": 29100,
-        "monthly": 6141,
-        "daily": 406,
+        "total": 29543,
+        "monthly": 6338,
+        "daily": 508,
         "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
       },
       "ghcr": null,
@@ -2448,7 +2448,7 @@
         "release_downloads": 0,
         "contributors": 16,
         "external_contributors": 12,
-        "packagist_downloads": 283622,
+        "packagist_downloads": 283759,
         "ghcr_downloads": 0,
         "dependents_repos": 48,
         "dependents_packages": 8
@@ -2459,7 +2459,7 @@
         "prs_opened": 4,
         "prs_merged": 3,
         "releases": 0,
-        "packagist_downloads": 3612,
+        "packagist_downloads": 3745,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -2612,9 +2612,9 @@
       ],
       "packagist": {
         "name": "netresearch/composer-patches-plugin",
-        "total": 283622,
-        "monthly": 3612,
-        "daily": 86,
+        "total": 283759,
+        "monthly": 3745,
+        "daily": 140,
         "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
       },
       "ghcr": null,
@@ -2846,7 +2846,7 @@
         "release_downloads": 0,
         "contributors": 8,
         "external_contributors": 4,
-        "packagist_downloads": 397959,
+        "packagist_downloads": 398252,
         "ghcr_downloads": 0,
         "dependents_repos": 20,
         "dependents_packages": 3
@@ -2857,7 +2857,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 7365,
+        "packagist_downloads": 7463,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -2942,9 +2942,9 @@
       ],
       "packagist": {
         "name": "netresearch/config-fields-m2",
-        "total": 397959,
-        "monthly": 7365,
-        "daily": 78,
+        "total": 398252,
+        "monthly": 7463,
+        "daily": 274,
         "url": "https://packagist.org/packages/netresearch/config-fields-m2"
       },
       "ghcr": null,
@@ -2988,7 +2988,7 @@
         "prs_closed_unmerged": 0,
         "issues_total": 1,
         "releases": 24,
-        "release_downloads": 472,
+        "release_downloads": 568,
         "contributors": 4,
         "external_contributors": 0,
         "packagist_downloads": 0,
@@ -3139,7 +3139,7 @@
         },
         {
           "login": "renovate[bot]",
-          "contributions": 43,
+          "contributions": 44,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -3149,7 +3149,7 @@
         },
         {
           "login": "netresearch-project-bot[bot]",
-          "contributions": 13,
+          "contributions": 14,
           "url": "https://github.com/apps/netresearch-project-bot"
         }
       ],
@@ -3178,7 +3178,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-02-25T11:46:20Z",
-      "pushed_at": "2026-11-15T18:31:19Z",
+      "pushed_at": "2026-11-16T16:46:54Z",
       "updated_at": "2026-11-12T03:36:46Z",
       "composer_name": null,
       "lifetime": {
@@ -3186,12 +3186,12 @@
         "forks": 0,
         "watchers": 1,
         "network": 0,
-        "open_issues_plus_prs": 1,
-        "commits": 309,
+        "open_issues_plus_prs": 2,
+        "commits": 311,
         "issues_open": 1,
         "issues_closed": 4,
-        "prs_open": 0,
-        "prs_merged": 113,
+        "prs_open": 1,
+        "prs_merged": 114,
         "prs_closed_unmerged": 1,
         "issues_total": 5,
         "releases": 28,
@@ -3204,10 +3204,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 72,
+        "commits": 74,
         "issues_opened": 1,
-        "prs_opened": 28,
-        "prs_merged": 27,
+        "prs_opened": 30,
+        "prs_merged": 28,
         "releases": 4,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -3316,7 +3316,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 241,
+          "contributions": 243,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -3342,8 +3342,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/data-tools-skill/network/dependents"
       },
-      "estimated_downstream_reach": 118,
-      "blast_radius": 118,
+      "estimated_downstream_reach": 119,
+      "blast_radius": 119,
       "archived": false
     },
     {
@@ -3568,7 +3568,7 @@
         "release_downloads": 0,
         "contributors": 8,
         "external_contributors": 7,
-        "packagist_downloads": 247819,
+        "packagist_downloads": 247998,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -3579,7 +3579,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 4467,
+        "packagist_downloads": 4469,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -3653,9 +3653,9 @@
       ],
       "packagist": {
         "name": "deutschepost/module-addressfactory-m2",
-        "total": 247819,
-        "monthly": 4467,
-        "daily": 75,
+        "total": 247998,
+        "monthly": 4469,
+        "daily": 165,
         "url": "https://packagist.org/packages/deutschepost/module-addressfactory-m2"
       },
       "ghcr": null,
@@ -3981,7 +3981,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 4,
-        "packagist_downloads": 248418,
+        "packagist_downloads": 248596,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -3992,7 +3992,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 4521,
+        "packagist_downloads": 4522,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -4062,9 +4062,9 @@
       ],
       "packagist": {
         "name": "deutschepost/module-autocomplete-m2",
-        "total": 248418,
-        "monthly": 4521,
-        "daily": 75,
+        "total": 248596,
+        "monthly": 4522,
+        "daily": 164,
         "url": "https://packagist.org/packages/deutschepost/module-autocomplete-m2"
       },
       "ghcr": null,
@@ -4267,7 +4267,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 4,
-        "packagist_downloads": 250564,
+        "packagist_downloads": 250741,
         "ghcr_downloads": 0,
         "dependents_repos": 4,
         "dependents_packages": 0
@@ -4331,9 +4331,9 @@
       ],
       "packagist": {
         "name": "deutschepost/module-core",
-        "total": 250564,
+        "total": 250741,
         "monthly": 4494,
-        "daily": 75,
+        "daily": 163,
         "url": "https://packagist.org/packages/deutschepost/module-core"
       },
       "ghcr": null,
@@ -4368,30 +4368,30 @@
         "forks": 0,
         "watchers": 7,
         "network": 0,
-        "open_issues_plus_prs": 1,
+        "open_issues_plus_prs": 2,
         "commits": 43,
-        "issues_open": 1,
+        "issues_open": 2,
         "issues_closed": 1,
         "prs_open": 0,
         "prs_merged": 1,
         "prs_closed_unmerged": 2,
-        "issues_total": 2,
+        "issues_total": 3,
         "releases": 22,
         "release_downloads": 0,
         "contributors": 3,
         "external_contributors": 3,
-        "packagist_downloads": 248084,
+        "packagist_downloads": 248319,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
         "commits": 0,
-        "issues_opened": 0,
+        "issues_opened": 1,
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 5394,
+        "packagist_downloads": 5435,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -4446,9 +4446,9 @@
       ],
       "packagist": {
         "name": "deutschepost/module-internetmarke",
-        "total": 248084,
-        "monthly": 5394,
-        "daily": 77,
+        "total": 248319,
+        "monthly": 5435,
+        "daily": 213,
         "url": "https://packagist.org/packages/deutschepost/module-internetmarke"
       },
       "ghcr": null,
@@ -4457,8 +4457,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/deutschepost-module-internetmarke/network/dependents"
       },
-      "estimated_downstream_reach": 12,
-      "blast_radius": 12,
+      "estimated_downstream_reach": 13,
+      "blast_radius": 13,
       "archived": false
     },
     {
@@ -4500,7 +4500,7 @@
         "release_downloads": 0,
         "contributors": 8,
         "external_contributors": 5,
-        "packagist_downloads": 441811,
+        "packagist_downloads": 442328,
         "ghcr_downloads": 0,
         "dependents_repos": 6,
         "dependents_packages": 0
@@ -4511,7 +4511,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 10721,
+        "packagist_downloads": 10985,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -4603,9 +4603,9 @@
       ],
       "packagist": {
         "name": "deutschepost/sdk-api-addressfactory",
-        "total": 441811,
-        "monthly": 10721,
-        "daily": 130,
+        "total": 442328,
+        "monthly": 10985,
+        "daily": 475,
         "url": "https://packagist.org/packages/deutschepost/sdk-api-addressfactory"
       },
       "ghcr": null,
@@ -4652,7 +4652,7 @@
         "release_downloads": 0,
         "contributors": 2,
         "external_contributors": 1,
-        "packagist_downloads": 20453,
+        "packagist_downloads": 20596,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -4663,7 +4663,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 3101,
+        "packagist_downloads": 3185,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -4760,9 +4760,9 @@
       ],
       "packagist": {
         "name": "deutschepost/sdk-api-internetmarke",
-        "total": 20453,
-        "monthly": 3101,
-        "daily": 52,
+        "total": 20596,
+        "monthly": 3185,
+        "daily": 127,
         "url": "https://packagist.org/packages/deutschepost/sdk-api-internetmarke"
       },
       "ghcr": null,
@@ -4814,7 +4814,7 @@
         "release_downloads": 0,
         "contributors": 4,
         "external_contributors": 2,
-        "packagist_downloads": 246588,
+        "packagist_downloads": 246822,
         "ghcr_downloads": 0,
         "dependents_repos": 3,
         "dependents_packages": 0
@@ -4825,7 +4825,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 5383,
+        "packagist_downloads": 5422,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -4866,9 +4866,9 @@
       ],
       "packagist": {
         "name": "deutschepost/sdk-api-prodws",
-        "total": 246588,
-        "monthly": 5383,
-        "daily": 77,
+        "total": 246822,
+        "monthly": 5422,
+        "daily": 212,
         "url": "https://packagist.org/packages/deutschepost/sdk-api-prodws"
       },
       "ghcr": null,
@@ -4921,7 +4921,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 3,
-        "packagist_downloads": 282099,
+        "packagist_downloads": 282311,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -4932,7 +4932,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 4946,
+        "packagist_downloads": 4980,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -5020,9 +5020,9 @@
       ],
       "packagist": {
         "name": "deutschepost/sdk-api-autocomplete-authentication",
-        "total": 282099,
-        "monthly": 4946,
-        "daily": 75,
+        "total": 282311,
+        "monthly": 4980,
+        "daily": 193,
         "url": "https://packagist.org/packages/deutschepost/sdk-api-autocomplete-authentication"
       },
       "ghcr": null,
@@ -5313,7 +5313,7 @@
         "release_downloads": 0,
         "contributors": 7,
         "external_contributors": 5,
-        "packagist_downloads": 275602,
+        "packagist_downloads": 275840,
         "ghcr_downloads": 0,
         "dependents_repos": 6,
         "dependents_packages": 2
@@ -5324,7 +5324,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 1,
-        "packagist_downloads": 5529,
+        "packagist_downloads": 5573,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -5456,9 +5456,9 @@
       ],
       "packagist": {
         "name": "dhl/module-carrier-paket",
-        "total": 275602,
-        "monthly": 5529,
-        "daily": 77,
+        "total": 275840,
+        "monthly": 5573,
+        "daily": 216,
         "url": "https://packagist.org/packages/dhl/module-carrier-paket"
       },
       "ghcr": null,
@@ -5505,7 +5505,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 3,
-        "packagist_downloads": 290408,
+        "packagist_downloads": 290655,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -5516,7 +5516,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6028,
+        "packagist_downloads": 6080,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -5575,9 +5575,9 @@
       ],
       "packagist": {
         "name": "dhl/module-carrier-paket-returns",
-        "total": 290408,
-        "monthly": 6028,
-        "daily": 78,
+        "total": 290655,
+        "monthly": 6080,
+        "daily": 224,
         "url": "https://packagist.org/packages/dhl/module-carrier-paket-returns"
       },
       "ghcr": null,
@@ -5630,7 +5630,7 @@
         "release_downloads": 0,
         "contributors": 2,
         "external_contributors": 2,
-        "packagist_downloads": 2876,
+        "packagist_downloads": 2884,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -5641,7 +5641,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 108,
+        "packagist_downloads": 115,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -5703,9 +5703,9 @@
       ],
       "packagist": {
         "name": "dhl/module-carrier-update",
-        "total": 2876,
-        "monthly": 108,
-        "daily": 3,
+        "total": 2884,
+        "monthly": 115,
+        "daily": 10,
         "url": "https://packagist.org/packages/dhl/module-carrier-update"
       },
       "ghcr": null,
@@ -5884,7 +5884,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 3,
-        "packagist_downloads": 340772,
+        "packagist_downloads": 341022,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -5895,7 +5895,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6105,
+        "packagist_downloads": 6160,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -5966,9 +5966,9 @@
       ],
       "packagist": {
         "name": "dhl/module-shipping-core",
-        "total": 340772,
-        "monthly": 6105,
-        "daily": 77,
+        "total": 341022,
+        "monthly": 6160,
+        "daily": 226,
         "url": "https://packagist.org/packages/dhl/module-shipping-core"
       },
       "ghcr": null,
@@ -6353,7 +6353,7 @@
         "release_downloads": 0,
         "contributors": 5,
         "external_contributors": 3,
-        "packagist_downloads": 316686,
+        "packagist_downloads": 316924,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -6364,7 +6364,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 5550,
+        "packagist_downloads": 5594,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -6410,9 +6410,9 @@
       ],
       "packagist": {
         "name": "dhl/module-unified-tracking",
-        "total": 316686,
-        "monthly": 5550,
-        "daily": 77,
+        "total": 316924,
+        "monthly": 5594,
+        "daily": 216,
         "url": "https://packagist.org/packages/dhl/module-unified-tracking"
       },
       "ghcr": null,
@@ -6798,7 +6798,7 @@
         "release_downloads": 0,
         "contributors": 7,
         "external_contributors": 4,
-        "packagist_downloads": 330966,
+        "packagist_downloads": 330976,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -6809,7 +6809,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 480,
+        "packagist_downloads": 489,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -6890,9 +6890,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-bcs",
-        "total": 330966,
-        "monthly": 480,
-        "daily": 2,
+        "total": 330976,
+        "monthly": 489,
+        "daily": 9,
         "url": "https://packagist.org/packages/dhl/sdk-api-bcs"
       },
       "ghcr": null,
@@ -6945,7 +6945,7 @@
         "release_downloads": 0,
         "contributors": 6,
         "external_contributors": 3,
-        "packagist_downloads": 248786,
+        "packagist_downloads": 248828,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -6956,7 +6956,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 837,
+        "packagist_downloads": 877,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -7074,9 +7074,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-bcs-returns",
-        "total": 248786,
-        "monthly": 837,
-        "daily": 2,
+        "total": 248828,
+        "monthly": 877,
+        "daily": 36,
         "url": "https://packagist.org/packages/dhl/sdk-api-bcs-returns"
       },
       "ghcr": null,
@@ -7289,7 +7289,7 @@
         "release_downloads": 0,
         "contributors": 2,
         "external_contributors": 1,
-        "packagist_downloads": 122663,
+        "packagist_downloads": 123009,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -7300,7 +7300,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 1,
-        "packagist_downloads": 8304,
+        "packagist_downloads": 8442,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -7403,9 +7403,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-parcel-de",
-        "total": 122663,
-        "monthly": 8304,
-        "daily": 108,
+        "total": 123009,
+        "monthly": 8442,
+        "daily": 309,
         "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de"
       },
       "ghcr": null,
@@ -7460,7 +7460,7 @@
         "release_downloads": 0,
         "contributors": 3,
         "external_contributors": 2,
-        "packagist_downloads": 93505,
+        "packagist_downloads": 93780,
         "ghcr_downloads": 0,
         "dependents_repos": 1,
         "dependents_packages": 0
@@ -7471,7 +7471,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6596,
+        "packagist_downloads": 6666,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -7555,9 +7555,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-parcel-de-returns",
-        "total": 93505,
-        "monthly": 6596,
-        "daily": 81,
+        "total": 93780,
+        "monthly": 6666,
+        "daily": 247,
         "url": "https://packagist.org/packages/dhl/sdk-api-parcel-de-returns"
       },
       "ghcr": null,
@@ -7612,7 +7612,7 @@
         "release_downloads": 0,
         "contributors": 6,
         "external_contributors": 3,
-        "packagist_downloads": 377983,
+        "packagist_downloads": 378237,
         "ghcr_downloads": 0,
         "dependents_repos": 9,
         "dependents_packages": 0
@@ -7623,7 +7623,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6033,
+        "packagist_downloads": 6092,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -7699,9 +7699,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-parcel-management",
-        "total": 377983,
-        "monthly": 6033,
-        "daily": 76,
+        "total": 378237,
+        "monthly": 6092,
+        "daily": 229,
         "url": "https://packagist.org/packages/dhl/sdk-api-parcel-management"
       },
       "ghcr": null,
@@ -7757,7 +7757,7 @@
         "release_downloads": 0,
         "contributors": 4,
         "external_contributors": 2,
-        "packagist_downloads": 346425,
+        "packagist_downloads": 346687,
         "ghcr_downloads": 0,
         "dependents_repos": 4,
         "dependents_packages": 0
@@ -7768,7 +7768,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6205,
+        "packagist_downloads": 6269,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -7840,9 +7840,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-unified-location-finder",
-        "total": 346425,
-        "monthly": 6205,
-        "daily": 76,
+        "total": 346687,
+        "monthly": 6269,
+        "daily": 236,
         "url": "https://packagist.org/packages/dhl/sdk-api-unified-location-finder"
       },
       "ghcr": null,
@@ -7899,7 +7899,7 @@
         "release_downloads": 0,
         "contributors": 7,
         "external_contributors": 3,
-        "packagist_downloads": 364838,
+        "packagist_downloads": 365110,
         "ghcr_downloads": 0,
         "dependents_repos": 3,
         "dependents_packages": 0
@@ -7910,7 +7910,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6530,
+        "packagist_downloads": 6604,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -7985,9 +7985,9 @@
       ],
       "packagist": {
         "name": "dhl/sdk-api-unified-tracking",
-        "total": 364838,
-        "monthly": 6530,
-        "daily": 76,
+        "total": 365110,
+        "monthly": 6604,
+        "daily": 245,
         "url": "https://packagist.org/packages/dhl/sdk-api-unified-tracking"
       },
       "ghcr": null,
@@ -8198,7 +8198,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-01-29T17:18:27Z",
-      "pushed_at": "2026-11-16T03:28:50Z",
+      "pushed_at": "2026-11-16T03:41:09Z",
       "updated_at": "2026-11-12T10:52:37Z",
       "composer_name": null,
       "lifetime": {
@@ -8207,11 +8207,11 @@
         "watchers": 1,
         "network": 3,
         "open_issues_plus_prs": 4,
-        "commits": 385,
+        "commits": 387,
         "issues_open": 1,
         "issues_closed": 1,
         "prs_open": 3,
-        "prs_merged": 138,
+        "prs_merged": 139,
         "prs_closed_unmerged": 2,
         "issues_total": 2,
         "releases": 40,
@@ -8224,10 +8224,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 69,
+        "commits": 71,
         "issues_opened": 0,
-        "prs_opened": 31,
-        "prs_merged": 28,
+        "prs_opened": 32,
+        "prs_merged": 29,
         "releases": 5,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -8341,7 +8341,7 @@
         },
         {
           "login": "renovate[bot]",
-          "contributions": 37,
+          "contributions": 38,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -8351,7 +8351,7 @@
         },
         {
           "login": "netresearch-project-bot[bot]",
-          "contributions": 14,
+          "contributions": 15,
           "url": "https://github.com/apps/netresearch-project-bot"
         }
       ],
@@ -8362,8 +8362,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/docker-development-skill/network/dependents"
       },
-      "estimated_downstream_reach": 146,
-      "blast_radius": 146,
+      "estimated_downstream_reach": 147,
+      "blast_radius": 147,
       "archived": false
     },
     {
@@ -8390,7 +8390,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-11-29T17:57:15Z",
-      "pushed_at": "2026-11-16T01:30:21Z",
+      "pushed_at": "2026-11-16T16:20:23Z",
       "updated_at": "2026-11-12T01:23:22Z",
       "composer_name": null,
       "lifetime": {
@@ -8399,11 +8399,11 @@
         "watchers": 1,
         "network": 2,
         "open_issues_plus_prs": 2,
-        "commits": 525,
+        "commits": 527,
         "issues_open": 1,
         "issues_closed": 3,
         "prs_open": 1,
-        "prs_merged": 171,
+        "prs_merged": 172,
         "prs_closed_unmerged": 2,
         "issues_total": 4,
         "releases": 55,
@@ -8416,10 +8416,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 61,
+        "commits": 63,
         "issues_opened": 0,
-        "prs_opened": 26,
-        "prs_merged": 27,
+        "prs_opened": 27,
+        "prs_merged": 28,
         "releases": 2,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -8523,7 +8523,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 446,
+          "contributions": 448,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -8554,8 +8554,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/enterprise-readiness-skill/network/dependents"
       },
-      "estimated_downstream_reach": 182,
-      "blast_radius": 182,
+      "estimated_downstream_reach": 183,
+      "blast_radius": 183,
       "archived": false
     },
     {
@@ -8572,7 +8572,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-02-25T11:46:13Z",
-      "pushed_at": "2026-11-16T01:59:37Z",
+      "pushed_at": "2026-11-16T16:36:32Z",
       "updated_at": "2026-11-15T06:44:04Z",
       "composer_name": null,
       "lifetime": {
@@ -8580,12 +8580,12 @@
         "forks": 5,
         "watchers": 1,
         "network": 5,
-        "open_issues_plus_prs": 3,
-        "commits": 316,
+        "open_issues_plus_prs": 2,
+        "commits": 320,
         "issues_open": 1,
         "issues_closed": 0,
-        "prs_open": 2,
-        "prs_merged": 118,
+        "prs_open": 1,
+        "prs_merged": 120,
         "prs_closed_unmerged": 1,
         "issues_total": 1,
         "releases": 19,
@@ -8598,10 +8598,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 34,
+        "commits": 38,
         "issues_opened": 0,
-        "prs_opened": 18,
-        "prs_merged": 15,
+        "prs_opened": 19,
+        "prs_merged": 17,
         "releases": 2,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -8720,12 +8720,12 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 180,
+          "contributions": 182,
           "url": "https://github.com/CybotTM"
         },
         {
           "login": "renovate[bot]",
-          "contributions": 73,
+          "contributions": 75,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -8746,8 +8746,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/file-search-skill/network/dependents"
       },
-      "estimated_downstream_reach": 129,
-      "blast_radius": 129,
+      "estimated_downstream_reach": 131,
+      "blast_radius": 131,
       "archived": false
     },
     {
@@ -8893,7 +8893,7 @@
         "prs_closed_unmerged": 1,
         "issues_total": 2,
         "releases": 17,
-        "release_downloads": 162,
+        "release_downloads": 163,
         "contributors": 6,
         "external_contributors": 2,
         "packagist_downloads": 0,
@@ -8902,10 +8902,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 45,
+        "commits": 40,
         "issues_opened": 0,
-        "prs_opened": 22,
-        "prs_merged": 21,
+        "prs_opened": 21,
+        "prs_merged": 20,
         "releases": 2,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -9075,7 +9075,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-12-13T11:57:34Z",
-      "pushed_at": "2026-11-16T01:23:49Z",
+      "pushed_at": "2026-11-16T17:33:58Z",
       "updated_at": "2026-11-11T22:56:28Z",
       "composer_name": null,
       "lifetime": {
@@ -9084,15 +9084,15 @@
         "watchers": 1,
         "network": 14,
         "open_issues_plus_prs": 3,
-        "commits": 1268,
+        "commits": 1279,
         "issues_open": 2,
         "issues_closed": 28,
         "prs_open": 1,
-        "prs_merged": 423,
+        "prs_merged": 425,
         "prs_closed_unmerged": 1,
         "issues_total": 30,
         "releases": 74,
-        "release_downloads": 883,
+        "release_downloads": 886,
         "contributors": 7,
         "external_contributors": 3,
         "packagist_downloads": 0,
@@ -9101,10 +9101,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 173,
+        "commits": 184,
         "issues_opened": 2,
-        "prs_opened": 57,
-        "prs_merged": 56,
+        "prs_opened": 59,
+        "prs_merged": 58,
         "releases": 8,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -9228,7 +9228,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 1134,
+          "contributions": 1145,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -9269,8 +9269,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/git-workflow-skill/network/dependents"
       },
-      "estimated_downstream_reach": 490,
-      "blast_radius": 490,
+      "estimated_downstream_reach": 492,
+      "blast_radius": 492,
       "archived": false
     },
     {
@@ -9306,7 +9306,7 @@
         "prs_closed_unmerged": 2,
         "issues_total": 5,
         "releases": 69,
-        "release_downloads": 869,
+        "release_downloads": 899,
         "contributors": 4,
         "external_contributors": 0,
         "packagist_downloads": 0,
@@ -9464,7 +9464,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-04-10T11:16:02Z",
-      "pushed_at": "2026-11-16T00:57:07Z",
+      "pushed_at": "2026-11-16T16:38:43Z",
       "updated_at": "2026-11-12T01:11:38Z",
       "composer_name": null,
       "lifetime": {
@@ -9473,11 +9473,11 @@
         "watchers": 1,
         "network": 0,
         "open_issues_plus_prs": 2,
-        "commits": 568,
+        "commits": 571,
         "issues_open": 1,
         "issues_closed": 13,
         "prs_open": 1,
-        "prs_merged": 218,
+        "prs_merged": 219,
         "prs_closed_unmerged": 2,
         "issues_total": 14,
         "releases": 40,
@@ -9490,10 +9490,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 115,
+        "commits": 118,
         "issues_opened": 1,
-        "prs_opened": 46,
-        "prs_merged": 45,
+        "prs_opened": 47,
+        "prs_merged": 46,
         "releases": 6,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -9592,7 +9592,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 510,
+          "contributions": 513,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -9613,8 +9613,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/github-release-skill/network/dependents"
       },
-      "estimated_downstream_reach": 232,
-      "blast_radius": 232,
+      "estimated_downstream_reach": 233,
+      "blast_radius": 233,
       "archived": false
     },
     {
@@ -9646,7 +9646,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-11-25T07:26:55Z",
-      "pushed_at": "2026-11-15T16:35:44Z",
+      "pushed_at": "2026-11-16T18:32:24Z",
       "updated_at": "2026-11-11T07:42:20Z",
       "composer_name": null,
       "lifetime": {
@@ -9654,12 +9654,12 @@
         "forks": 9,
         "watchers": 3,
         "network": 1708,
-        "open_issues_plus_prs": 11,
-        "commits": 874,
-        "issues_open": 10,
-        "issues_closed": 206,
+        "open_issues_plus_prs": 10,
+        "commits": 899,
+        "issues_open": 9,
+        "issues_closed": 207,
         "prs_open": 1,
-        "prs_merged": 252,
+        "prs_merged": 255,
         "prs_closed_unmerged": 11,
         "issues_total": 216,
         "releases": 23,
@@ -9672,10 +9672,10 @@
         "dependents_packages": 92
       },
       "recent_30d": {
-        "commits": 224,
+        "commits": 249,
         "issues_opened": 18,
-        "prs_opened": 48,
-        "prs_merged": 49,
+        "prs_opened": 51,
+        "prs_merged": 52,
         "releases": 4,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -9804,12 +9804,12 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 628,
+          "contributions": 636,
           "url": "https://github.com/CybotTM"
         },
         {
           "login": "norman-abramovitz",
-          "contributions": 72,
+          "contributions": 89,
           "url": "https://github.com/norman-abramovitz"
         },
         {
@@ -9860,8 +9860,8 @@
         "packages": 92,
         "url": "https://github.com/netresearch/go-cron/network/dependents"
       },
-      "estimated_downstream_reach": 728,
-      "blast_radius": 728,
+      "estimated_downstream_reach": 731,
+      "blast_radius": 731,
       "archived": false
     },
     {
@@ -10261,7 +10261,7 @@
         "prs_closed_unmerged": 8,
         "issues_total": 35,
         "releases": 85,
-        "release_downloads": 1509,
+        "release_downloads": 1514,
         "contributors": 21,
         "external_contributors": 14,
         "packagist_downloads": 0,
@@ -10496,7 +10496,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-04-03T08:29:24Z",
-      "pushed_at": "2026-11-16T02:50:55Z",
+      "pushed_at": "2026-11-16T19:44:02Z",
       "updated_at": "2026-11-09T03:02:58Z",
       "composer_name": null,
       "lifetime": {
@@ -10504,12 +10504,12 @@
         "forks": 4,
         "watchers": 1,
         "network": 4,
-        "open_issues_plus_prs": 8,
-        "commits": 1406,
+        "open_issues_plus_prs": 6,
+        "commits": 1410,
         "issues_open": 5,
         "issues_closed": 5,
-        "prs_open": 3,
-        "prs_merged": 279,
+        "prs_open": 1,
+        "prs_merged": 281,
         "prs_closed_unmerged": 46,
         "issues_total": 10,
         "releases": 0,
@@ -10522,10 +10522,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 53,
+        "commits": 57,
         "issues_opened": 0,
         "prs_opened": 22,
-        "prs_merged": 23,
+        "prs_merged": 25,
         "releases": 0,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -10634,7 +10634,7 @@
         },
         {
           "login": "renovate[bot]",
-          "contributions": 85,
+          "contributions": 89,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -10655,8 +10655,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/jira-to-openproject/network/dependents"
       },
-      "estimated_downstream_reach": 297,
-      "blast_radius": 297,
+      "estimated_downstream_reach": 299,
+      "blast_radius": 299,
       "archived": false
     },
     {
@@ -10697,7 +10697,7 @@
         "prs_closed_unmerged": 1,
         "issues_total": 3,
         "releases": 11,
-        "release_downloads": 175,
+        "release_downloads": 176,
         "contributors": 6,
         "external_contributors": 1,
         "packagist_downloads": 0,
@@ -10865,7 +10865,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2023-10-02T10:38:21Z",
-      "pushed_at": "2026-11-15T10:08:25Z",
+      "pushed_at": "2026-11-16T16:41:37Z",
       "updated_at": "2026-11-10T10:07:17Z",
       "composer_name": null,
       "lifetime": {
@@ -10874,30 +10874,30 @@
         "watchers": 1,
         "network": 4,
         "open_issues_plus_prs": 3,
-        "commits": 1584,
+        "commits": 1586,
         "issues_open": 1,
         "issues_closed": 11,
         "prs_open": 2,
-        "prs_merged": 664,
+        "prs_merged": 665,
         "prs_closed_unmerged": 52,
         "issues_total": 12,
         "releases": 26,
-        "release_downloads": 474,
+        "release_downloads": 475,
         "contributors": 9,
         "external_contributors": 3,
         "packagist_downloads": 0,
-        "ghcr_downloads": 37633,
+        "ghcr_downloads": 37674,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 55,
+        "commits": 57,
         "issues_opened": 0,
-        "prs_opened": 21,
-        "prs_merged": 26,
+        "prs_opened": 22,
+        "prs_merged": 27,
         "releases": 1,
         "packagist_downloads": 0,
-        "ghcr_downloads": 4659
+        "ghcr_downloads": 3906
       },
       "traffic_14d": {
         "clones_total": 964,
@@ -11008,7 +11008,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 801,
+          "contributions": 803,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -11058,20 +11058,20 @@
           {
             "package": "ldap-manager",
             "url": "https://github.com/netresearch/ldap-manager/pkgs/container/ldap-manager",
-            "total": 37633,
-            "thirty_day": 4659
+            "total": 37674,
+            "thirty_day": 3906
           }
         ],
-        "total": 37633,
-        "thirty_day": 4659
+        "total": 37674,
+        "thirty_day": 3906
       },
       "dependents": {
         "repositories": 0,
         "packages": 0,
         "url": "https://github.com/netresearch/ldap-manager/network/dependents"
       },
-      "estimated_downstream_reach": 693,
-      "blast_radius": 693,
+      "estimated_downstream_reach": 694,
+      "blast_radius": 694,
       "archived": false
     },
     {
@@ -11100,7 +11100,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2023-06-22T12:59:00Z",
-      "pushed_at": "2026-11-15T06:08:19Z",
+      "pushed_at": "2026-11-16T20:54:52Z",
       "updated_at": "2026-11-05T00:07:12Z",
       "composer_name": null,
       "lifetime": {
@@ -11108,31 +11108,31 @@
         "forks": 3,
         "watchers": 1,
         "network": 3,
-        "open_issues_plus_prs": 5,
-        "commits": 1428,
-        "issues_open": 1,
+        "open_issues_plus_prs": 6,
+        "commits": 1430,
+        "issues_open": 2,
         "issues_closed": 13,
         "prs_open": 4,
-        "prs_merged": 670,
+        "prs_merged": 671,
         "prs_closed_unmerged": 40,
-        "issues_total": 14,
+        "issues_total": 15,
         "releases": 26,
-        "release_downloads": 343,
+        "release_downloads": 345,
         "contributors": 9,
         "external_contributors": 3,
         "packagist_downloads": 0,
-        "ghcr_downloads": 32002,
+        "ghcr_downloads": 32008,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 33,
-        "issues_opened": 0,
-        "prs_opened": 15,
-        "prs_merged": 15,
+        "commits": 35,
+        "issues_opened": 1,
+        "prs_opened": 16,
+        "prs_merged": 16,
         "releases": 1,
         "packagist_downloads": 0,
-        "ghcr_downloads": 4772
+        "ghcr_downloads": 4306
       },
       "traffic_14d": {
         "clones_total": 925,
@@ -11248,7 +11248,7 @@
         },
         {
           "login": "CybotTM",
-          "contributions": 543,
+          "contributions": 545,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -11293,20 +11293,20 @@
           {
             "package": "ldap-selfservice-password-changer",
             "url": "https://github.com/netresearch/ldap-selfservice-password-changer/pkgs/container/ldap-selfservice-password-changer",
-            "total": 32002,
-            "thirty_day": 4772
+            "total": 32008,
+            "thirty_day": 4306
           }
         ],
-        "total": 32002,
-        "thirty_day": 4772
+        "total": 32008,
+        "thirty_day": 4306
       },
       "dependents": {
         "repositories": 0,
         "packages": 0,
         "url": "https://github.com/netresearch/ldap-selfservice-password-changer/network/dependents"
       },
-      "estimated_downstream_reach": 699,
-      "blast_radius": 699,
+      "estimated_downstream_reach": 701,
+      "blast_radius": 701,
       "archived": false
     },
     {
@@ -11426,7 +11426,7 @@
       "homepage": "https://github.com/netresearch/markdown-to-pdf-skill",
       "default_branch": "main",
       "created_at": "2026-04-29T10:04:58Z",
-      "pushed_at": "2026-11-15T06:54:08Z",
+      "pushed_at": "2026-11-16T16:07:41Z",
       "updated_at": "2026-11-12T04:05:46Z",
       "composer_name": null,
       "lifetime": {
@@ -11434,12 +11434,12 @@
         "forks": 0,
         "watchers": 1,
         "network": 0,
-        "open_issues_plus_prs": 1,
-        "commits": 170,
+        "open_issues_plus_prs": 2,
+        "commits": 174,
         "issues_open": 1,
         "issues_closed": 0,
-        "prs_open": 0,
-        "prs_merged": 71,
+        "prs_open": 1,
+        "prs_merged": 73,
         "prs_closed_unmerged": 0,
         "issues_total": 1,
         "releases": 10,
@@ -11452,10 +11452,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 48,
+        "commits": 52,
         "issues_opened": 0,
-        "prs_opened": 23,
-        "prs_merged": 23,
+        "prs_opened": 26,
+        "prs_merged": 25,
         "releases": 2,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -11549,17 +11549,17 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 82,
+          "contributions": 84,
           "url": "https://github.com/CybotTM"
         },
         {
           "login": "renovate[bot]",
-          "contributions": 63,
+          "contributions": 64,
           "url": "https://github.com/apps/renovate"
         },
         {
           "login": "netresearch-project-bot[bot]",
-          "contributions": 15,
+          "contributions": 16,
           "url": "https://github.com/apps/netresearch-project-bot"
         },
         {
@@ -11575,8 +11575,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/markdown-to-pdf-skill/network/dependents"
       },
-      "estimated_downstream_reach": 72,
-      "blast_radius": 72,
+      "estimated_downstream_reach": 74,
+      "blast_radius": 74,
       "archived": false
     },
     {
@@ -11608,7 +11608,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-01-31T12:42:05Z",
-      "pushed_at": "2026-11-16T01:13:44Z",
+      "pushed_at": "2026-11-16T17:11:25Z",
       "updated_at": "2026-11-12T12:05:12Z",
       "composer_name": null,
       "lifetime": {
@@ -11617,11 +11617,11 @@
         "watchers": 1,
         "network": 0,
         "open_issues_plus_prs": 3,
-        "commits": 610,
+        "commits": 614,
         "issues_open": 1,
         "issues_closed": 23,
         "prs_open": 2,
-        "prs_merged": 187,
+        "prs_merged": 188,
         "prs_closed_unmerged": 0,
         "issues_total": 24,
         "releases": 68,
@@ -11634,10 +11634,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 95,
+        "commits": 99,
         "issues_opened": 0,
-        "prs_opened": 38,
-        "prs_merged": 36,
+        "prs_opened": 39,
+        "prs_merged": 37,
         "releases": 5,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -11741,7 +11741,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 479,
+          "contributions": 483,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -11777,8 +11777,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/matrix-skill/network/dependents"
       },
-      "estimated_downstream_reach": 214,
-      "blast_radius": 214,
+      "estimated_downstream_reach": 215,
+      "blast_radius": 215,
       "archived": false
     },
     {
@@ -11820,7 +11820,7 @@
         "release_downloads": 0,
         "contributors": 2,
         "external_contributors": 2,
-        "packagist_downloads": 174359,
+        "packagist_downloads": 174592,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -11831,7 +11831,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 5323,
+        "packagist_downloads": 5362,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -11862,9 +11862,9 @@
       ],
       "packagist": {
         "name": "netresearch/module-admin-notification-feed",
-        "total": 174359,
-        "monthly": 5323,
-        "daily": 76,
+        "total": 174592,
+        "monthly": 5362,
+        "daily": 220,
         "url": "https://packagist.org/packages/netresearch/module-admin-notification-feed"
       },
       "ghcr": null,
@@ -11914,7 +11914,7 @@
         "release_downloads": 0,
         "contributors": 3,
         "external_contributors": 3,
-        "packagist_downloads": 206889,
+        "packagist_downloads": 207122,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -11925,7 +11925,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 5400,
+        "packagist_downloads": 5439,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -11961,9 +11961,9 @@
       ],
       "packagist": {
         "name": "netresearch/module-interactive-batch-processing",
-        "total": 206889,
-        "monthly": 5400,
-        "daily": 76,
+        "total": 207122,
+        "monthly": 5439,
+        "daily": 220,
         "url": "https://packagist.org/packages/netresearch/module-interactive-batch-processing"
       },
       "ghcr": null,
@@ -12014,7 +12014,7 @@
         "release_downloads": 0,
         "contributors": 3,
         "external_contributors": 2,
-        "packagist_downloads": 263001,
+        "packagist_downloads": 263250,
         "ghcr_downloads": 0,
         "dependents_repos": 18,
         "dependents_packages": 3
@@ -12025,7 +12025,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 6266,
+        "packagist_downloads": 6319,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -12109,9 +12109,9 @@
       ],
       "packagist": {
         "name": "netresearch/module-shipping-core",
-        "total": 263001,
-        "monthly": 6266,
-        "daily": 77,
+        "total": 263250,
+        "monthly": 6319,
+        "daily": 234,
         "url": "https://packagist.org/packages/netresearch/module-shipping-core"
       },
       "ghcr": null,
@@ -12281,7 +12281,7 @@
         "release_downloads": 0,
         "contributors": 4,
         "external_contributors": 4,
-        "packagist_downloads": 745,
+        "packagist_downloads": 746,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -12292,7 +12292,7 @@
         "prs_opened": 0,
         "prs_merged": 0,
         "releases": 0,
-        "packagist_downloads": 32,
+        "packagist_downloads": 27,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -12340,9 +12340,9 @@
       ],
       "packagist": {
         "name": "netresearch/module-shipping-inventory",
-        "total": 745,
-        "monthly": 32,
-        "daily": 0,
+        "total": 746,
+        "monthly": 27,
+        "daily": 1,
         "url": "https://packagist.org/packages/netresearch/module-shipping-inventory"
       },
       "ghcr": null,
@@ -12488,7 +12488,7 @@
       "homepage": "https://netresearch.github.io/netresearch-branding-skill/",
       "default_branch": "main",
       "created_at": "2025-10-18T10:33:28Z",
-      "pushed_at": "2026-11-16T03:05:33Z",
+      "pushed_at": "2026-11-17T03:19:25Z",
       "updated_at": "2026-11-09T20:20:18Z",
       "composer_name": null,
       "lifetime": {
@@ -12496,12 +12496,12 @@
         "forks": 1,
         "watchers": 1,
         "network": 1,
-        "open_issues_plus_prs": 4,
-        "commits": 534,
+        "open_issues_plus_prs": 3,
+        "commits": 538,
         "issues_open": 1,
         "issues_closed": 5,
-        "prs_open": 3,
-        "prs_merged": 154,
+        "prs_open": 2,
+        "prs_merged": 156,
         "prs_closed_unmerged": 4,
         "issues_total": 6,
         "releases": 43,
@@ -12514,10 +12514,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 182,
+        "commits": 186,
         "issues_opened": 5,
-        "prs_opened": 50,
-        "prs_merged": 46,
+        "prs_opened": 51,
+        "prs_merged": 48,
         "releases": 5,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -12636,12 +12636,12 @@
         },
         {
           "login": "renovate[bot]",
-          "contributions": 63,
+          "contributions": 66,
           "url": "https://github.com/apps/renovate"
         },
         {
           "login": "netresearch-project-bot[bot]",
-          "contributions": 35,
+          "contributions": 36,
           "url": "https://github.com/apps/netresearch-project-bot"
         },
         {
@@ -12662,8 +12662,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/netresearch-branding-skill/network/dependents"
       },
-      "estimated_downstream_reach": 165,
-      "blast_radius": 165,
+      "estimated_downstream_reach": 167,
+      "blast_radius": 167,
       "archived": false
     },
     {
@@ -12684,7 +12684,7 @@
       "homepage": "https://netresearch.github.io/node-magento-eqp",
       "default_branch": "main",
       "created_at": "2021-03-31T09:13:35Z",
-      "pushed_at": "2026-11-05T13:12:14Z",
+      "pushed_at": "2026-11-16T20:45:59Z",
       "updated_at": "2026-11-05T02:17:32Z",
       "composer_name": null,
       "lifetime": {
@@ -12693,11 +12693,11 @@
         "watchers": 1,
         "network": 1,
         "open_issues_plus_prs": 2,
-        "commits": 682,
+        "commits": 687,
         "issues_open": 1,
         "issues_closed": 0,
         "prs_open": 1,
-        "prs_merged": 533,
+        "prs_merged": 535,
         "prs_closed_unmerged": 81,
         "issues_total": 1,
         "releases": 29,
@@ -12710,10 +12710,10 @@
         "dependents_packages": 5
       },
       "recent_30d": {
-        "commits": 9,
+        "commits": 14,
         "issues_opened": 0,
-        "prs_opened": 5,
-        "prs_merged": 4,
+        "prs_opened": 7,
+        "prs_merged": 6,
         "releases": 0,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -12794,7 +12794,7 @@
         },
         {
           "login": "CybotTM",
-          "contributions": 73,
+          "contributions": 78,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -12830,8 +12830,8 @@
         "packages": 5,
         "url": "https://github.com/netresearch/node-magento-eqp/network/dependents"
       },
-      "estimated_downstream_reach": 547,
-      "blast_radius": 547,
+      "estimated_downstream_reach": 549,
+      "blast_radius": 549,
       "archived": false
     },
     {
@@ -12852,7 +12852,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2021-04-07T08:07:39Z",
-      "pushed_at": "2026-11-04T23:48:08Z",
+      "pushed_at": "2026-11-16T20:45:19Z",
       "updated_at": "2026-11-04T23:48:10Z",
       "composer_name": null,
       "lifetime": {
@@ -12861,11 +12861,11 @@
         "watchers": 1,
         "network": 1,
         "open_issues_plus_prs": 1,
-        "commits": 600,
+        "commits": 602,
         "issues_open": 1,
         "issues_closed": 1,
         "prs_open": 0,
-        "prs_merged": 399,
+        "prs_merged": 400,
         "prs_closed_unmerged": 76,
         "issues_total": 2,
         "releases": 25,
@@ -12878,10 +12878,10 @@
         "dependents_packages": 3
       },
       "recent_30d": {
-        "commits": 6,
+        "commits": 8,
         "issues_opened": 0,
-        "prs_opened": 3,
-        "prs_merged": 3,
+        "prs_opened": 4,
+        "prs_merged": 4,
         "releases": 0,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -12927,7 +12927,7 @@
         },
         {
           "login": "CybotTM",
-          "contributions": 61,
+          "contributions": 63,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -12963,8 +12963,8 @@
         "packages": 3,
         "url": "https://github.com/netresearch/node-red-contrib-magento-eqp/network/dependents"
       },
-      "estimated_downstream_reach": 413,
-      "blast_radius": 413,
+      "estimated_downstream_reach": 414,
+      "blast_radius": 414,
       "archived": false
     },
     {
@@ -12990,39 +12990,39 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2022-05-30T12:58:03Z",
-      "pushed_at": "2026-11-14T23:30:36Z",
-      "updated_at": "2026-11-09T18:53:28Z",
+      "pushed_at": "2026-11-16T20:24:36Z",
+      "updated_at": "2026-11-16T22:32:29Z",
       "composer_name": null,
       "lifetime": {
-        "stars": 71,
+        "stars": 72,
         "forks": 8,
         "watchers": 1,
         "network": 210,
-        "open_issues_plus_prs": 25,
-        "commits": 2060,
-        "issues_open": 24,
+        "open_issues_plus_prs": 26,
+        "commits": 2070,
+        "issues_open": 25,
         "issues_closed": 186,
         "prs_open": 1,
-        "prs_merged": 651,
-        "prs_closed_unmerged": 73,
-        "issues_total": 210,
-        "releases": 59,
-        "release_downloads": 4040,
+        "prs_merged": 656,
+        "prs_closed_unmerged": 74,
+        "issues_total": 211,
+        "releases": 60,
+        "release_downloads": 4191,
         "contributors": 48,
         "external_contributors": 41,
         "packagist_downloads": 0,
-        "ghcr_downloads": 728004,
+        "ghcr_downloads": 735484,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 191,
-        "issues_opened": 3,
-        "prs_opened": 60,
-        "prs_merged": 62,
-        "releases": 3,
+        "commits": 201,
+        "issues_opened": 4,
+        "prs_opened": 66,
+        "prs_merged": 67,
+        "releases": 4,
         "packagist_downloads": 0,
-        "ghcr_downloads": 192079
+        "ghcr_downloads": 192636
       },
       "traffic_14d": {
         "clones_total": 3106,
@@ -13140,20 +13140,20 @@
         ]
       },
       "latest_release": {
-        "name": "v1.2.0",
-        "tag_name": "v1.2.0",
-        "published_at": "2026-11-13T14:13:54Z",
-        "url": "https://github.com/netresearch/ofelia/releases/tag/v1.2.0"
+        "name": "v1.2.1",
+        "tag_name": "v1.2.1",
+        "published_at": "2026-11-16T20:43:14Z",
+        "url": "https://github.com/netresearch/ofelia/releases/tag/v1.2.1"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 1648,
+          "contributions": 1654,
           "url": "https://github.com/CybotTM"
         },
         {
           "login": "renovate[bot]",
-          "contributions": 68,
+          "contributions": 72,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -13203,20 +13203,20 @@
           {
             "package": "ofelia",
             "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-            "total": 728004,
-            "thirty_day": 192079
+            "total": 735484,
+            "thirty_day": 192636
           }
         ],
-        "total": 728004,
-        "thirty_day": 192079
+        "total": 735484,
+        "thirty_day": 192636
       },
       "dependents": {
         "repositories": 0,
         "packages": 0,
         "url": "https://github.com/netresearch/ofelia/network/dependents"
       },
-      "estimated_downstream_reach": 1000,
-      "blast_radius": 1000,
+      "estimated_downstream_reach": 1006,
+      "blast_radius": 1006,
       "archived": false
     },
     {
@@ -13342,7 +13342,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-04-07T11:28:33Z",
-      "pushed_at": "2026-11-15T18:31:28Z",
+      "pushed_at": "2026-11-16T16:23:10Z",
       "updated_at": "2026-11-09T19:00:35Z",
       "composer_name": null,
       "lifetime": {
@@ -13350,12 +13350,12 @@
         "forks": 1,
         "watchers": 2,
         "network": 1,
-        "open_issues_plus_prs": 2,
-        "commits": 168,
+        "open_issues_plus_prs": 3,
+        "commits": 170,
         "issues_open": 1,
         "issues_closed": 2,
-        "prs_open": 1,
-        "prs_merged": 63,
+        "prs_open": 2,
+        "prs_merged": 64,
         "prs_closed_unmerged": 1,
         "issues_total": 3,
         "releases": 12,
@@ -13368,10 +13368,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 31,
+        "commits": 33,
         "issues_opened": 0,
-        "prs_opened": 16,
-        "prs_merged": 15,
+        "prs_opened": 18,
+        "prs_merged": 16,
         "releases": 1,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -13465,7 +13465,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 80,
+          "contributions": 82,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -13511,8 +13511,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/orocommerce-skill/network/dependents"
       },
-      "estimated_downstream_reach": 74,
-      "blast_radius": 74,
+      "estimated_downstream_reach": 75,
+      "blast_radius": 75,
       "archived": false
     },
     {
@@ -13657,7 +13657,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-04-27T07:58:22Z",
-      "pushed_at": "2026-11-15T05:50:07Z",
+      "pushed_at": "2026-11-16T04:32:41Z",
       "updated_at": "2026-11-11T22:12:14Z",
       "composer_name": null,
       "lifetime": {
@@ -13665,12 +13665,12 @@
         "forks": 0,
         "watchers": 1,
         "network": 0,
-        "open_issues_plus_prs": 1,
-        "commits": 255,
+        "open_issues_plus_prs": 2,
+        "commits": 257,
         "issues_open": 1,
         "issues_closed": 4,
-        "prs_open": 0,
-        "prs_merged": 98,
+        "prs_open": 1,
+        "prs_merged": 99,
         "prs_closed_unmerged": 1,
         "issues_total": 5,
         "releases": 19,
@@ -13683,10 +13683,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 33,
+        "commits": 35,
         "issues_opened": 0,
-        "prs_opened": 17,
-        "prs_merged": 16,
+        "prs_opened": 19,
+        "prs_merged": 17,
         "releases": 1,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -13790,7 +13790,7 @@
         },
         {
           "login": "renovate[bot]",
-          "contributions": 44,
+          "contributions": 45,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -13800,7 +13800,7 @@
         },
         {
           "login": "netresearch-project-bot[bot]",
-          "contributions": 5,
+          "contributions": 6,
           "url": "https://github.com/apps/netresearch-project-bot"
         },
         {
@@ -13816,8 +13816,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/peer-qa-review-skill/network/dependents"
       },
-      "estimated_downstream_reach": 106,
-      "blast_radius": 106,
+      "estimated_downstream_reach": 107,
+      "blast_radius": 107,
       "archived": false
     },
     {
@@ -13839,7 +13839,7 @@
       "homepage": "https://netresearch.github.io/claude-code-marketplace/en/skills/php-structured-edit/",
       "default_branch": "main",
       "created_at": "2026-08-18T21:04:19Z",
-      "pushed_at": "2026-11-09T19:18:40Z",
+      "pushed_at": "2026-11-16T16:36:21Z",
       "updated_at": "2026-11-09T19:18:43Z",
       "composer_name": null,
       "lifetime": {
@@ -13848,11 +13848,11 @@
         "watchers": 1,
         "network": 0,
         "open_issues_plus_prs": 1,
-        "commits": 392,
+        "commits": 395,
         "issues_open": 1,
         "issues_closed": 4,
         "prs_open": 0,
-        "prs_merged": 108,
+        "prs_merged": 109,
         "prs_closed_unmerged": 0,
         "issues_total": 5,
         "releases": 15,
@@ -13865,10 +13865,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 30,
+        "commits": 33,
         "issues_opened": 0,
-        "prs_opened": 14,
-        "prs_merged": 14,
+        "prs_opened": 15,
+        "prs_merged": 15,
         "releases": 2,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -13915,7 +13915,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 376,
+          "contributions": 379,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -13936,8 +13936,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/php-ast-edit-skill/network/dependents"
       },
-      "estimated_downstream_reach": 113,
-      "blast_radius": 113,
+      "estimated_downstream_reach": 114,
+      "blast_radius": 114,
       "archived": false
     },
     {
@@ -13956,7 +13956,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-12-13T11:57:20Z",
-      "pushed_at": "2026-11-15T23:48:28Z",
+      "pushed_at": "2026-11-16T16:26:45Z",
       "updated_at": "2026-11-15T00:08:27Z",
       "composer_name": null,
       "lifetime": {
@@ -13965,15 +13965,15 @@
         "watchers": 1,
         "network": 4,
         "open_issues_plus_prs": 2,
-        "commits": 569,
+        "commits": 573,
         "issues_open": 1,
         "issues_closed": 2,
         "prs_open": 1,
-        "prs_merged": 183,
+        "prs_merged": 185,
         "prs_closed_unmerged": 3,
         "issues_total": 3,
         "releases": 52,
-        "release_downloads": 466,
+        "release_downloads": 468,
         "contributors": 5,
         "external_contributors": 1,
         "packagist_downloads": 0,
@@ -13982,10 +13982,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 110,
+        "commits": 114,
         "issues_opened": 0,
-        "prs_opened": 31,
-        "prs_merged": 30,
+        "prs_opened": 33,
+        "prs_merged": 32,
         "releases": 4,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -14114,7 +14114,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 479,
+          "contributions": 483,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -14145,8 +14145,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/php-modernization-skill/network/dependents"
       },
-      "estimated_downstream_reach": 197,
-      "blast_radius": 197,
+      "estimated_downstream_reach": 199,
+      "blast_radius": 199,
       "archived": false
     },
     {
@@ -14317,7 +14317,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2023-06-13T13:42:10Z",
-      "pushed_at": "2026-11-14T09:45:47Z",
+      "pushed_at": "2026-11-16T17:06:01Z",
       "updated_at": "2026-11-08T18:26:57Z",
       "composer_name": null,
       "lifetime": {
@@ -14325,13 +14325,13 @@
         "forks": 1,
         "watchers": 1,
         "network": 1,
-        "open_issues_plus_prs": 2,
-        "commits": 528,
+        "open_issues_plus_prs": 1,
+        "commits": 532,
         "issues_open": 1,
         "issues_closed": 1,
-        "prs_open": 1,
-        "prs_merged": 278,
-        "prs_closed_unmerged": 18,
+        "prs_open": 0,
+        "prs_merged": 279,
+        "prs_closed_unmerged": 19,
         "issues_total": 2,
         "releases": 14,
         "release_downloads": 121,
@@ -14343,13 +14343,13 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 22,
+        "commits": 26,
         "issues_opened": 0,
-        "prs_opened": 8,
-        "prs_merged": 10,
+        "prs_opened": 9,
+        "prs_merged": 11,
         "releases": 1,
         "packagist_downloads": 0,
-        "ghcr_downloads": 245
+        "ghcr_downloads": 207
       },
       "traffic_14d": {
         "clones_total": 446,
@@ -14434,7 +14434,7 @@
         },
         {
           "login": "CybotTM",
-          "contributions": 191,
+          "contributions": 195,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -14465,19 +14465,19 @@
             "package": "raybeam",
             "url": "https://github.com/netresearch/raybeam/pkgs/container/raybeam",
             "total": 5749,
-            "thirty_day": 245
+            "thirty_day": 207
           }
         ],
         "total": 5749,
-        "thirty_day": 245
+        "thirty_day": 207
       },
       "dependents": {
         "repositories": 0,
         "packages": 0,
         "url": "https://github.com/netresearch/raybeam/network/dependents"
       },
-      "estimated_downstream_reach": 285,
-      "blast_radius": 285,
+      "estimated_downstream_reach": 286,
+      "blast_radius": 286,
       "archived": false
     },
     {
@@ -14500,25 +14500,25 @@
       "homepage": "https://github.com/netresearch/retro-skill",
       "default_branch": "main",
       "created_at": "2026-05-12T13:08:08Z",
-      "pushed_at": "2026-11-16T02:48:35Z",
+      "pushed_at": "2026-11-16T16:17:50Z",
       "updated_at": "2026-11-15T19:58:53Z",
       "composer_name": null,
       "lifetime": {
         "stars": 30,
-        "forks": 6,
+        "forks": 7,
         "watchers": 1,
-        "network": 6,
+        "network": 7,
         "open_issues_plus_prs": 2,
-        "commits": 699,
+        "commits": 703,
         "issues_open": 1,
         "issues_closed": 20,
         "prs_open": 1,
-        "prs_merged": 207,
+        "prs_merged": 209,
         "prs_closed_unmerged": 8,
         "issues_total": 21,
         "releases": 41,
-        "release_downloads": 390,
-        "contributors": 8,
+        "release_downloads": 395,
+        "contributors": 9,
         "external_contributors": 4,
         "packagist_downloads": 0,
         "ghcr_downloads": 0,
@@ -14526,10 +14526,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 180,
+        "commits": 184,
         "issues_opened": 6,
-        "prs_opened": 52,
-        "prs_merged": 50,
+        "prs_opened": 54,
+        "prs_merged": 52,
         "releases": 7,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -14663,7 +14663,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 647,
+          "contributions": 649,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -14697,6 +14697,11 @@
           "url": "https://github.com/wuheidechuan"
         },
         {
+          "login": "magicsunday",
+          "contributions": 2,
+          "url": "https://github.com/magicsunday"
+        },
+        {
           "login": "juanazadian",
           "contributions": 1,
           "url": "https://github.com/juanazadian"
@@ -14709,8 +14714,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/retro-skill/network/dependents"
       },
-      "estimated_downstream_reach": 252,
-      "blast_radius": 252,
+      "estimated_downstream_reach": 256,
+      "blast_radius": 256,
       "archived": false
     },
     {
@@ -14747,7 +14752,7 @@
         "release_downloads": 0,
         "contributors": 4,
         "external_contributors": 0,
-        "packagist_downloads": 1067,
+        "packagist_downloads": 1068,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -14758,7 +14763,7 @@
         "prs_opened": 1,
         "prs_merged": 1,
         "releases": 0,
-        "packagist_downloads": 96,
+        "packagist_downloads": 95,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -14871,8 +14876,8 @@
       ],
       "packagist": {
         "name": "netresearch/sdk-api-central-station",
-        "total": 1067,
-        "monthly": 96,
+        "total": 1068,
+        "monthly": 95,
         "daily": 3,
         "url": "https://packagist.org/packages/netresearch/sdk-api-central-station"
       },
@@ -14925,7 +14930,7 @@
         "release_downloads": 0,
         "contributors": 4,
         "external_contributors": 0,
-        "packagist_downloads": 6679,
+        "packagist_downloads": 6725,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -14936,7 +14941,7 @@
         "prs_opened": 6,
         "prs_merged": 6,
         "releases": 0,
-        "packagist_downloads": 1155,
+        "packagist_downloads": 1201,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -15014,9 +15019,9 @@
       ],
       "packagist": {
         "name": "netresearch/sdk-api-universal-messenger",
-        "total": 6679,
-        "monthly": 1155,
-        "daily": 0,
+        "total": 6725,
+        "monthly": 1201,
+        "daily": 44,
         "url": "https://packagist.org/packages/netresearch/sdk-api-universal-messenger"
       },
       "ghcr": null,
@@ -15184,7 +15189,7 @@
         "prs_closed_unmerged": 5,
         "issues_total": 3,
         "releases": 43,
-        "release_downloads": 660,
+        "release_downloads": 663,
         "contributors": 6,
         "external_contributors": 1,
         "packagist_downloads": 0,
@@ -15384,7 +15389,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2023-06-28T08:06:06Z",
-      "pushed_at": "2026-11-13T05:06:12Z",
+      "pushed_at": "2026-11-16T16:36:25Z",
       "updated_at": "2026-11-10T00:11:41Z",
       "composer_name": null,
       "lifetime": {
@@ -15392,13 +15397,13 @@
         "forks": 1,
         "watchers": 1,
         "network": 1,
-        "open_issues_plus_prs": 3,
-        "commits": 733,
+        "open_issues_plus_prs": 2,
+        "commits": 736,
         "issues_open": 2,
         "issues_closed": 18,
-        "prs_open": 1,
-        "prs_merged": 242,
-        "prs_closed_unmerged": 9,
+        "prs_open": 0,
+        "prs_merged": 243,
+        "prs_closed_unmerged": 10,
         "issues_total": 20,
         "releases": 29,
         "release_downloads": 25,
@@ -15410,10 +15415,10 @@
         "dependents_packages": 5
       },
       "recent_30d": {
-        "commits": 23,
+        "commits": 26,
         "issues_opened": 0,
-        "prs_opened": 8,
-        "prs_merged": 11,
+        "prs_opened": 9,
+        "prs_merged": 12,
         "releases": 0,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -15507,7 +15512,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 489,
+          "contributions": 492,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -15553,8 +15558,8 @@
         "packages": 5,
         "url": "https://github.com/netresearch/simple-ldap-go/network/dependents"
       },
-      "estimated_downstream_reach": 280,
-      "blast_radius": 280,
+      "estimated_downstream_reach": 281,
+      "blast_radius": 281,
       "archived": false
     },
     {
@@ -15573,7 +15578,7 @@
       "homepage": "https://netresearch.github.io/skill-repo-skill/",
       "default_branch": "main",
       "created_at": "2025-12-16T10:15:03Z",
-      "pushed_at": "2026-11-16T02:26:37Z",
+      "pushed_at": "2026-11-16T12:40:34Z",
       "updated_at": "2026-11-12T03:29:42Z",
       "composer_name": null,
       "lifetime": {
@@ -15581,16 +15586,16 @@
         "forks": 4,
         "watchers": 1,
         "network": 4,
-        "open_issues_plus_prs": 2,
-        "commits": 1147,
+        "open_issues_plus_prs": 3,
+        "commits": 1151,
         "issues_open": 2,
         "issues_closed": 41,
-        "prs_open": 0,
-        "prs_merged": 411,
+        "prs_open": 1,
+        "prs_merged": 412,
         "prs_closed_unmerged": 7,
         "issues_total": 43,
         "releases": 95,
-        "release_downloads": 1129,
+        "release_downloads": 1132,
         "contributors": 7,
         "external_contributors": 1,
         "packagist_downloads": 0,
@@ -15599,10 +15604,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 201,
+        "commits": 205,
         "issues_opened": 2,
-        "prs_opened": 76,
-        "prs_merged": 77,
+        "prs_opened": 78,
+        "prs_merged": 78,
         "releases": 10,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -15711,7 +15716,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 873,
+          "contributions": 877,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -15752,8 +15757,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/skill-repo-skill/network/dependents"
       },
-      "estimated_downstream_reach": 559,
-      "blast_radius": 559,
+      "estimated_downstream_reach": 560,
+      "blast_radius": 560,
       "archived": false
     },
     {
@@ -15771,7 +15776,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2013-03-11T14:10:52Z",
-      "pushed_at": "2026-11-13T03:37:01Z",
+      "pushed_at": "2026-11-16T18:02:35Z",
       "updated_at": "2026-11-12T09:56:06Z",
       "composer_name": "netresearch/contexts",
       "lifetime": {
@@ -15780,18 +15785,18 @@
         "watchers": 10,
         "network": 11,
         "open_issues_plus_prs": 2,
-        "commits": 657,
+        "commits": 659,
         "issues_open": 1,
         "issues_closed": 23,
         "prs_open": 1,
-        "prs_merged": 170,
+        "prs_merged": 171,
         "prs_closed_unmerged": 38,
         "issues_total": 24,
         "releases": 14,
         "release_downloads": 157,
         "contributors": 14,
         "external_contributors": 7,
-        "packagist_downloads": 32304,
+        "packagist_downloads": 32711,
         "ghcr_downloads": 0,
         "dependents_repos": 5,
         "dependents_packages": 0
@@ -15799,10 +15804,10 @@
       "recent_30d": {
         "commits": 50,
         "issues_opened": 0,
-        "prs_opened": 21,
-        "prs_merged": 19,
+        "prs_opened": 20,
+        "prs_merged": 18,
         "releases": 3,
-        "packagist_downloads": 4567,
+        "packagist_downloads": 4881,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -15894,7 +15899,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 283,
+          "contributions": 285,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -15945,9 +15950,9 @@
       ],
       "packagist": {
         "name": "netresearch/contexts",
-        "total": 32304,
-        "monthly": 4567,
-        "daily": 166,
+        "total": 32711,
+        "monthly": 4881,
+        "daily": 374,
         "url": "https://packagist.org/packages/netresearch/contexts"
       },
       "ghcr": null,
@@ -15956,8 +15961,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-contexts/network/dependents"
       },
-      "estimated_downstream_reach": 247,
-      "blast_radius": 247,
+      "estimated_downstream_reach": 248,
+      "blast_radius": 248,
       "archived": false
     },
     {
@@ -15980,7 +15985,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2013-04-26T09:53:17Z",
-      "pushed_at": "2026-11-12T08:57:58Z",
+      "pushed_at": "2026-11-16T15:25:43Z",
       "updated_at": "2026-11-12T09:58:01Z",
       "composer_name": "netresearch/contexts-geolocation",
       "lifetime": {
@@ -15994,7 +15999,7 @@
         "issues_closed": 3,
         "prs_open": 0,
         "prs_merged": 63,
-        "prs_closed_unmerged": 16,
+        "prs_closed_unmerged": 17,
         "issues_total": 4,
         "releases": 5,
         "release_downloads": 0,
@@ -16008,7 +16013,7 @@
       "recent_30d": {
         "commits": 20,
         "issues_opened": 0,
-        "prs_opened": 9,
+        "prs_opened": 10,
         "prs_merged": 7,
         "releases": 0,
         "packagist_downloads": 0,
@@ -16119,7 +16124,7 @@
       "homepage": "https://github.com/netresearch/t3x-contexts_wurfl",
       "default_branch": "main",
       "created_at": "2013-04-12T08:21:51Z",
-      "pushed_at": "2026-11-14T00:14:07Z",
+      "pushed_at": "2026-11-16T15:25:48Z",
       "updated_at": "2026-11-12T08:45:29Z",
       "composer_name": "netresearch/contexts-wurfl",
       "lifetime": {
@@ -16133,7 +16138,7 @@
         "issues_closed": 3,
         "prs_open": 0,
         "prs_merged": 65,
-        "prs_closed_unmerged": 19,
+        "prs_closed_unmerged": 20,
         "issues_total": 4,
         "releases": 2,
         "release_downloads": 0,
@@ -16147,7 +16152,7 @@
       "recent_30d": {
         "commits": 25,
         "issues_opened": 0,
-        "prs_opened": 10,
+        "prs_opened": 11,
         "prs_merged": 9,
         "releases": 0,
         "packagist_downloads": 0,
@@ -16302,7 +16307,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2023-01-14T19:41:07Z",
-      "pushed_at": "2026-11-15T21:20:07Z",
+      "pushed_at": "2026-11-16T18:09:41Z",
       "updated_at": "2026-11-12T11:40:28Z",
       "composer_name": "netresearch/t3-cowriter",
       "lifetime": {
@@ -16311,29 +16316,29 @@
         "watchers": 5,
         "network": 1,
         "open_issues_plus_prs": 4,
-        "commits": 894,
+        "commits": 901,
         "issues_open": 1,
         "issues_closed": 20,
         "prs_open": 3,
-        "prs_merged": 244,
+        "prs_merged": 247,
         "prs_closed_unmerged": 20,
         "issues_total": 21,
-        "releases": 68,
-        "release_downloads": 676,
+        "releases": 69,
+        "release_downloads": 686,
         "contributors": 14,
         "external_contributors": 9,
-        "packagist_downloads": 16051,
+        "packagist_downloads": 16077,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 246,
+        "commits": 253,
         "issues_opened": 0,
-        "prs_opened": 74,
-        "prs_merged": 71,
-        "releases": 27,
-        "packagist_downloads": 1894,
+        "prs_opened": 77,
+        "prs_merged": 74,
+        "releases": 28,
+        "packagist_downloads": 1905,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -16427,15 +16432,15 @@
         ]
       },
       "latest_release": {
-        "name": "v3.28.5",
-        "tag_name": "v3.28.5",
-        "published_at": "2026-11-15T21:22:06Z",
-        "url": "https://github.com/netresearch/t3x-cowriter/releases/tag/v3.28.5"
+        "name": "v3.28.6",
+        "tag_name": "v3.28.6",
+        "published_at": "2026-11-16T11:03:41Z",
+        "url": "https://github.com/netresearch/t3x-cowriter/releases/tag/v3.28.6"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 718,
+          "contributions": 725,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -16486,9 +16491,9 @@
       ],
       "packagist": {
         "name": "netresearch/t3-cowriter",
-        "total": 16051,
-        "monthly": 1894,
-        "daily": 56,
+        "total": 16077,
+        "monthly": 1905,
+        "daily": 33,
         "url": "https://packagist.org/packages/netresearch/t3-cowriter"
       },
       "ghcr": null,
@@ -16497,8 +16502,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-cowriter/network/dependents"
       },
-      "estimated_downstream_reach": 294,
-      "blast_radius": 294,
+      "estimated_downstream_reach": 297,
+      "blast_radius": 297,
       "archived": false
     },
     {
@@ -16891,7 +16896,7 @@
       "homepage": "https://netresearch.github.io/t3x-nr-browser-ai/",
       "default_branch": "main",
       "created_at": "2026-07-28T14:31:41Z",
-      "pushed_at": "2026-11-16T02:16:54Z",
+      "pushed_at": "2026-11-16T17:41:48Z",
       "updated_at": "2026-11-12T09:30:50Z",
       "composer_name": null,
       "lifetime": {
@@ -16900,11 +16905,11 @@
         "watchers": 0,
         "network": 0,
         "open_issues_plus_prs": 3,
-        "commits": 348,
+        "commits": 350,
         "issues_open": 1,
         "issues_closed": 5,
         "prs_open": 2,
-        "prs_merged": 116,
+        "prs_merged": 117,
         "prs_closed_unmerged": 5,
         "issues_total": 6,
         "releases": 9,
@@ -16917,7 +16922,7 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 95,
+        "commits": 93,
         "issues_opened": 0,
         "prs_opened": 36,
         "prs_merged": 34,
@@ -16978,7 +16983,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 267,
+          "contributions": 269,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -17009,8 +17014,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-browser-ai/network/dependents"
       },
-      "estimated_downstream_reach": 122,
-      "blast_radius": 122,
+      "estimated_downstream_reach": 123,
+      "blast_radius": 123,
       "archived": false
     },
     {
@@ -17303,7 +17308,7 @@
       "homepage": "https://extensions.typo3.org/extension/nr_image_optimize",
       "default_branch": "main",
       "created_at": "2025-09-12T06:59:28Z",
-      "pushed_at": "2026-11-12T08:43:15Z",
+      "pushed_at": "2026-11-16T22:48:27Z",
       "updated_at": "2026-11-12T09:43:16Z",
       "composer_name": "netresearch/nr-image-optimize",
       "lifetime": {
@@ -17311,11 +17316,11 @@
         "forks": 0,
         "watchers": 1,
         "network": 0,
-        "open_issues_plus_prs": 4,
+        "open_issues_plus_prs": 5,
         "commits": 655,
         "issues_open": 3,
         "issues_closed": 13,
-        "prs_open": 1,
+        "prs_open": 2,
         "prs_merged": 211,
         "prs_closed_unmerged": 15,
         "issues_total": 16,
@@ -17323,18 +17328,18 @@
         "release_downloads": 11,
         "contributors": 9,
         "external_contributors": 3,
-        "packagist_downloads": 3345,
+        "packagist_downloads": 3360,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 42,
+        "commits": 40,
         "issues_opened": 1,
         "prs_opened": 18,
-        "prs_merged": 16,
+        "prs_merged": 15,
         "releases": 0,
-        "packagist_downloads": 323,
+        "packagist_downloads": 334,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -17467,9 +17472,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-image-optimize",
-        "total": 3345,
-        "monthly": 323,
-        "daily": 9,
+        "total": 3360,
+        "monthly": 334,
+        "daily": 18,
         "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
       },
       "ghcr": null,
@@ -17522,7 +17527,7 @@
         "release_downloads": 35,
         "contributors": 6,
         "external_contributors": 1,
-        "packagist_downloads": 5401,
+        "packagist_downloads": 5421,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -17533,7 +17538,7 @@
         "prs_opened": 12,
         "prs_merged": 11,
         "releases": 1,
-        "packagist_downloads": 1756,
+        "packagist_downloads": 1762,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -17649,9 +17654,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-image-sitemap",
-        "total": 5401,
-        "monthly": 1756,
-        "daily": 39,
+        "total": 5421,
+        "monthly": 1762,
+        "daily": 28,
         "url": "https://packagist.org/packages/netresearch/nr-image-sitemap"
       },
       "ghcr": null,
@@ -17691,7 +17696,7 @@
       "homepage": "https://netresearch.github.io/t3x-nr-llm/",
       "default_branch": "main",
       "created_at": "2025-12-22T23:35:44Z",
-      "pushed_at": "2026-11-16T03:22:17Z",
+      "pushed_at": "2026-11-16T23:59:31Z",
       "updated_at": "2026-11-12T16:41:13Z",
       "composer_name": "netresearch/nr-llm",
       "lifetime": {
@@ -17699,30 +17704,30 @@
         "forks": 2,
         "watchers": 2,
         "network": 2,
-        "open_issues_plus_prs": 13,
-        "commits": 4645,
+        "open_issues_plus_prs": 8,
+        "commits": 4747,
         "issues_open": 1,
         "issues_closed": 158,
-        "prs_open": 12,
-        "prs_merged": 1155,
-        "prs_closed_unmerged": 45,
+        "prs_open": 7,
+        "prs_merged": 1171,
+        "prs_closed_unmerged": 47,
         "issues_total": 159,
-        "releases": 122,
-        "release_downloads": 2112,
+        "releases": 124,
+        "release_downloads": 2187,
         "contributors": 7,
         "external_contributors": 2,
-        "packagist_downloads": 78411,
+        "packagist_downloads": 79697,
         "ghcr_downloads": 0,
         "dependents_repos": 6,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 1341,
+        "commits": 1443,
         "issues_opened": 6,
-        "prs_opened": 259,
-        "prs_merged": 316,
-        "releases": 50,
-        "packagist_downloads": 31877,
+        "prs_opened": 271,
+        "prs_merged": 332,
+        "releases": 52,
+        "packagist_downloads": 32463,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -17836,20 +17841,20 @@
         ]
       },
       "latest_release": {
-        "name": "v0.48.0",
-        "tag_name": "v0.48.0",
-        "published_at": "2026-11-15T14:03:27Z",
-        "url": "https://github.com/netresearch/t3x-nr-llm/releases/tag/v0.48.0"
+        "name": "v0.49.1",
+        "tag_name": "v0.49.1",
+        "published_at": "2026-11-16T13:21:15Z",
+        "url": "https://github.com/netresearch/t3x-nr-llm/releases/tag/v0.49.1"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 4444,
+          "contributions": 4538,
           "url": "https://github.com/CybotTM"
         },
         {
           "login": "renovate[bot]",
-          "contributions": 128,
+          "contributions": 136,
           "url": "https://github.com/apps/renovate"
         },
         {
@@ -17880,9 +17885,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-llm",
-        "total": 78411,
-        "monthly": 31877,
-        "daily": 682,
+        "total": 79697,
+        "monthly": 32463,
+        "daily": 1110,
         "url": "https://packagist.org/packages/netresearch/nr-llm"
       },
       "ghcr": null,
@@ -17891,8 +17896,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-llm/network/dependents"
       },
-      "estimated_downstream_reach": 1336,
-      "blast_radius": 1336,
+      "estimated_downstream_reach": 1352,
+      "blast_radius": 1352,
       "archived": false
     },
     {
@@ -17907,7 +17912,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-08-18T16:10:14Z",
-      "pushed_at": "2026-11-15T21:20:09Z",
+      "pushed_at": "2026-11-16T11:00:25Z",
       "updated_at": "2026-11-12T11:50:34Z",
       "composer_name": "netresearch/nr-llm-compat",
       "lifetime": {
@@ -17916,29 +17921,29 @@
         "watchers": 0,
         "network": 0,
         "open_issues_plus_prs": 1,
-        "commits": 201,
+        "commits": 205,
         "issues_open": 1,
         "issues_closed": 2,
         "prs_open": 0,
-        "prs_merged": 76,
+        "prs_merged": 78,
         "prs_closed_unmerged": 6,
         "issues_total": 3,
-        "releases": 21,
-        "release_downloads": 212,
+        "releases": 22,
+        "release_downloads": 222,
         "contributors": 2,
         "external_contributors": 0,
-        "packagist_downloads": 2731,
+        "packagist_downloads": 2752,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 60,
+        "commits": 64,
         "issues_opened": 0,
-        "prs_opened": 29,
-        "prs_merged": 26,
-        "releases": 9,
-        "packagist_downloads": 1741,
+        "prs_opened": 31,
+        "prs_merged": 28,
+        "releases": 10,
+        "packagist_downloads": 1748,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -17997,15 +18002,15 @@
         ]
       },
       "latest_release": {
-        "name": "v0.5.5",
-        "tag_name": "v0.5.5",
-        "published_at": "2026-11-15T21:21:53Z",
-        "url": "https://github.com/netresearch/t3x-nr-llm-compat/releases/tag/v0.5.5"
+        "name": "v0.5.6",
+        "tag_name": "v0.5.6",
+        "published_at": "2026-11-16T11:04:19Z",
+        "url": "https://github.com/netresearch/t3x-nr-llm-compat/releases/tag/v0.5.6"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 193,
+          "contributions": 197,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -18016,9 +18021,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-llm-compat",
-        "total": 2731,
-        "monthly": 1741,
-        "daily": 43,
+        "total": 2752,
+        "monthly": 1748,
+        "daily": 27,
         "url": "https://packagist.org/packages/netresearch/nr-llm-compat"
       },
       "ghcr": null,
@@ -18027,8 +18032,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-llm-compat/network/dependents"
       },
-      "estimated_downstream_reach": 79,
-      "blast_radius": 79,
+      "estimated_downstream_reach": 81,
+      "blast_radius": 81,
       "archived": false
     },
     {
@@ -18054,7 +18059,7 @@
       "homepage": "https://netresearch.github.io/t3x-nr-mcp-agent/",
       "default_branch": "main",
       "created_at": "2026-03-22T17:16:16Z",
-      "pushed_at": "2026-11-15T21:20:04Z",
+      "pushed_at": "2026-11-16T21:31:08Z",
       "updated_at": "2026-11-12T11:31:16Z",
       "composer_name": "netresearch/nr-mcp-agent",
       "lifetime": {
@@ -18063,29 +18068,29 @@
         "watchers": 1,
         "network": 0,
         "open_issues_plus_prs": 3,
-        "commits": 1238,
+        "commits": 1255,
         "issues_open": 2,
         "issues_closed": 13,
         "prs_open": 1,
-        "prs_merged": 333,
+        "prs_merged": 338,
         "prs_closed_unmerged": 8,
         "issues_total": 15,
-        "releases": 92,
-        "release_downloads": 1979,
+        "releases": 93,
+        "release_downloads": 1990,
         "contributors": 6,
         "external_contributors": 1,
-        "packagist_downloads": 3881,
+        "packagist_downloads": 3906,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 553,
+        "commits": 568,
         "issues_opened": 4,
-        "prs_opened": 141,
-        "prs_merged": 147,
-        "releases": 50,
-        "packagist_downloads": 1828,
+        "prs_opened": 145,
+        "prs_merged": 151,
+        "releases": 51,
+        "packagist_downloads": 1853,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -18184,15 +18189,15 @@
         ]
       },
       "latest_release": {
-        "name": "v0.38.4",
-        "tag_name": "v0.38.4",
-        "published_at": "2026-11-15T21:22:15Z",
-        "url": "https://github.com/netresearch/t3x-nr-mcp-agent/releases/tag/v0.38.4"
+        "name": "v0.38.5",
+        "tag_name": "v0.38.5",
+        "published_at": "2026-11-16T11:05:25Z",
+        "url": "https://github.com/netresearch/t3x-nr-mcp-agent/releases/tag/v0.38.5"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 981,
+          "contributions": 998,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -18223,9 +18228,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-mcp-agent",
-        "total": 3881,
-        "monthly": 1828,
-        "daily": 52,
+        "total": 3906,
+        "monthly": 1853,
+        "daily": 37,
         "url": "https://packagist.org/packages/netresearch/nr-mcp-agent"
       },
       "ghcr": null,
@@ -18234,8 +18239,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-mcp-agent/network/dependents"
       },
-      "estimated_downstream_reach": 351,
-      "blast_radius": 351,
+      "estimated_downstream_reach": 356,
+      "blast_radius": 356,
       "archived": false
     },
     {
@@ -18279,7 +18284,7 @@
         "release_downloads": 240,
         "contributors": 6,
         "external_contributors": 1,
-        "packagist_downloads": 23109,
+        "packagist_downloads": 23257,
         "ghcr_downloads": 0,
         "dependents_repos": 3,
         "dependents_packages": 0
@@ -18287,10 +18292,10 @@
       "recent_30d": {
         "commits": 55,
         "issues_opened": 0,
-        "prs_opened": 24,
+        "prs_opened": 23,
         "prs_merged": 24,
         "releases": 2,
-        "packagist_downloads": 6226,
+        "packagist_downloads": 5946,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -18423,9 +18428,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-passkeys-be",
-        "total": 23109,
-        "monthly": 6226,
-        "daily": 77,
+        "total": 23257,
+        "monthly": 5946,
+        "daily": 137,
         "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
       },
       "ghcr": null,
@@ -18470,7 +18475,7 @@
         "release_downloads": 218,
         "contributors": 4,
         "external_contributors": 0,
-        "packagist_downloads": 6648,
+        "packagist_downloads": 6711,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -18478,10 +18483,10 @@
       "recent_30d": {
         "commits": 40,
         "issues_opened": 0,
-        "prs_opened": 18,
+        "prs_opened": 17,
         "prs_merged": 16,
         "releases": 1,
-        "packagist_downloads": 3189,
+        "packagist_downloads": 3238,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -18599,9 +18604,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-passkeys-fe",
-        "total": 6648,
-        "monthly": 3189,
-        "daily": 65,
+        "total": 6711,
+        "monthly": 3238,
+        "daily": 63,
         "url": "https://packagist.org/packages/netresearch/nr-passkeys-fe"
       },
       "ghcr": null,
@@ -18626,7 +18631,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-06-08T21:31:58Z",
-      "pushed_at": "2026-11-15T21:20:11Z",
+      "pushed_at": "2026-11-16T17:58:04Z",
       "updated_at": "2026-11-12T11:28:11Z",
       "composer_name": "netresearch/nr-repurpose",
       "lifetime": {
@@ -18635,29 +18640,29 @@
         "watchers": 1,
         "network": 0,
         "open_issues_plus_prs": 3,
-        "commits": 885,
+        "commits": 891,
         "issues_open": 1,
         "issues_closed": 11,
         "prs_open": 2,
-        "prs_merged": 202,
+        "prs_merged": 205,
         "prs_closed_unmerged": 8,
         "issues_total": 12,
-        "releases": 48,
+        "releases": 49,
         "release_downloads": 516,
         "contributors": 4,
         "external_contributors": 0,
-        "packagist_downloads": 3843,
+        "packagist_downloads": 3868,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 109,
+        "commits": 113,
         "issues_opened": 0,
-        "prs_opened": 44,
-        "prs_merged": 42,
-        "releases": 14,
-        "packagist_downloads": 1788,
+        "prs_opened": 46,
+        "prs_merged": 44,
+        "releases": 15,
+        "packagist_downloads": 1799,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -18741,15 +18746,15 @@
         ]
       },
       "latest_release": {
-        "name": "v0.15.5",
-        "tag_name": "v0.15.5",
-        "published_at": "2026-11-15T21:23:25Z",
-        "url": "https://github.com/netresearch/t3x-nr-repurpose/releases/tag/v0.15.5"
+        "name": "v0.15.6",
+        "tag_name": "v0.15.6",
+        "published_at": "2026-11-16T11:04:40Z",
+        "url": "https://github.com/netresearch/t3x-nr-repurpose/releases/tag/v0.15.6"
       },
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 833,
+          "contributions": 839,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -18770,9 +18775,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-repurpose",
-        "total": 3843,
-        "monthly": 1788,
-        "daily": 52,
+        "total": 3868,
+        "monthly": 1799,
+        "daily": 35,
         "url": "https://packagist.org/packages/netresearch/nr-repurpose"
       },
       "ghcr": null,
@@ -18781,8 +18786,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-repurpose/network/dependents"
       },
-      "estimated_downstream_reach": 214,
-      "blast_radius": 214,
+      "estimated_downstream_reach": 217,
+      "blast_radius": 217,
       "archived": false
     },
     {
@@ -19135,7 +19140,7 @@
         "release_downloads": 98,
         "contributors": 8,
         "external_contributors": 2,
-        "packagist_downloads": 4799,
+        "packagist_downloads": 4817,
         "ghcr_downloads": 0,
         "dependents_repos": 1,
         "dependents_packages": 0
@@ -19146,7 +19151,7 @@
         "prs_opened": 61,
         "prs_merged": 60,
         "releases": 3,
-        "packagist_downloads": 1880,
+        "packagist_downloads": 1881,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -19279,9 +19284,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-textdb",
-        "total": 4799,
-        "monthly": 1880,
-        "daily": 40,
+        "total": 4817,
+        "monthly": 1881,
+        "daily": 28,
         "url": "https://packagist.org/packages/netresearch/nr-textdb"
       },
       "ghcr": null,
@@ -19308,7 +19313,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-12-28T09:41:02Z",
-      "pushed_at": "2026-11-16T01:20:02Z",
+      "pushed_at": "2026-11-16T20:53:49Z",
       "updated_at": "2026-11-12T20:39:54Z",
       "composer_name": "netresearch/nr-vault",
       "lifetime": {
@@ -19316,30 +19321,30 @@
         "forks": 0,
         "watchers": 2,
         "network": 0,
-        "open_issues_plus_prs": 9,
-        "commits": 2142,
-        "issues_open": 5,
-        "issues_closed": 39,
-        "prs_open": 4,
-        "prs_merged": 479,
+        "open_issues_plus_prs": 11,
+        "commits": 2151,
+        "issues_open": 6,
+        "issues_closed": 40,
+        "prs_open": 5,
+        "prs_merged": 480,
         "prs_closed_unmerged": 25,
-        "issues_total": 44,
+        "issues_total": 46,
         "releases": 49,
         "release_downloads": 769,
         "contributors": 5,
         "external_contributors": 0,
-        "packagist_downloads": 198119,
+        "packagist_downloads": 201130,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 435,
-        "issues_opened": 16,
+        "commits": 442,
+        "issues_opened": 18,
         "prs_opened": 75,
         "prs_merged": 106,
         "releases": 13,
-        "packagist_downloads": 63928,
+        "packagist_downloads": 64594,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -19446,7 +19451,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 1909,
+          "contributions": 1918,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -19472,9 +19477,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-vault",
-        "total": 198119,
-        "monthly": 63928,
-        "daily": 2144,
+        "total": 201130,
+        "monthly": 64594,
+        "daily": 2886,
         "url": "https://packagist.org/packages/netresearch/nr-vault"
       },
       "ghcr": null,
@@ -19483,8 +19488,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/t3x-nr-vault/network/dependents"
       },
-      "estimated_downstream_reach": 523,
-      "blast_radius": 523,
+      "estimated_downstream_reach": 526,
+      "blast_radius": 526,
       "archived": false
     },
     {
@@ -19519,7 +19524,7 @@
         "release_downloads": 0,
         "contributors": 3,
         "external_contributors": 0,
-        "packagist_downloads": 189,
+        "packagist_downloads": 193,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -19530,7 +19535,7 @@
         "prs_opened": 9,
         "prs_merged": 8,
         "releases": 0,
-        "packagist_downloads": 60,
+        "packagist_downloads": 64,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -19643,9 +19648,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-wellknown",
-        "total": 189,
-        "monthly": 60,
-        "daily": 2,
+        "total": 193,
+        "monthly": 64,
+        "daily": 4,
         "url": "https://packagist.org/packages/netresearch/nr-wellknown"
       },
       "ghcr": null,
@@ -20572,7 +20577,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2017-05-12T13:29:43Z",
-      "pushed_at": "2026-11-13T22:53:56Z",
+      "pushed_at": "2026-11-17T03:47:35Z",
       "updated_at": "2026-11-09T17:20:41Z",
       "composer_name": "netresearch/rte-ckeditor-image",
       "lifetime": {
@@ -20589,10 +20594,10 @@
         "prs_closed_unmerged": 68,
         "issues_total": 292,
         "releases": 70,
-        "release_downloads": 323,
+        "release_downloads": 324,
         "contributors": 51,
         "external_contributors": 44,
-        "packagist_downloads": 1176456,
+        "packagist_downloads": 1178113,
         "ghcr_downloads": 0,
         "dependents_repos": 47,
         "dependents_packages": 3
@@ -20603,7 +20608,7 @@
         "prs_opened": 36,
         "prs_merged": 31,
         "releases": 2,
-        "packagist_downloads": 33613,
+        "packagist_downloads": 34943,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -20761,9 +20766,9 @@
       ],
       "packagist": {
         "name": "netresearch/rte-ckeditor-image",
-        "total": 1176456,
-        "monthly": 33613,
-        "daily": 501,
+        "total": 1178113,
+        "monthly": 34943,
+        "daily": 1610,
         "url": "https://packagist.org/packages/netresearch/rte-ckeditor-image"
       },
       "ghcr": null,
@@ -20810,7 +20815,7 @@
         "release_downloads": 36,
         "contributors": 5,
         "external_contributors": 0,
-        "packagist_downloads": 7080,
+        "packagist_downloads": 7113,
         "ghcr_downloads": 0,
         "dependents_repos": 0,
         "dependents_packages": 0
@@ -20821,7 +20826,7 @@
         "prs_opened": 12,
         "prs_merged": 11,
         "releases": 1,
-        "packagist_downloads": 2112,
+        "packagist_downloads": 2129,
         "ghcr_downloads": 0
       },
       "traffic_14d": {
@@ -20908,9 +20913,9 @@
       ],
       "packagist": {
         "name": "netresearch/nr-scheduler",
-        "total": 7080,
-        "monthly": 2112,
-        "daily": 40,
+        "total": 7113,
+        "monthly": 2129,
+        "daily": 42,
         "url": "https://packagist.org/packages/netresearch/nr-scheduler"
       },
       "ghcr": null,
@@ -21227,7 +21232,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2024-04-24T13:18:29Z",
-      "pushed_at": "2026-11-12T10:58:37Z",
+      "pushed_at": "2026-11-17T00:58:41Z",
       "updated_at": "2026-11-12T11:58:41Z",
       "composer_name": "netresearch/universal-messenger",
       "lifetime": {
@@ -21253,10 +21258,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 50,
+        "commits": 48,
         "issues_opened": 1,
-        "prs_opened": 17,
-        "prs_merged": 16,
+        "prs_opened": 16,
+        "prs_merged": 15,
         "releases": 1,
         "packagist_downloads": 2,
         "ghcr_downloads": 0
@@ -21433,7 +21438,7 @@
         "prs_closed_unmerged": 4,
         "issues_total": 4,
         "releases": 12,
-        "release_downloads": 1139,
+        "release_downloads": 1164,
         "contributors": 23,
         "external_contributors": 19,
         "packagist_downloads": 0,
@@ -21745,7 +21750,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2016-05-12T13:47:03Z",
-      "pushed_at": "2026-11-16T02:13:58Z",
+      "pushed_at": "2026-11-16T20:59:25Z",
       "updated_at": "2026-11-11T09:25:41Z",
       "composer_name": "netresearch/timetracker",
       "lifetime": {
@@ -21753,31 +21758,31 @@
         "forks": 27,
         "watchers": 6,
         "network": 27,
-        "open_issues_plus_prs": 20,
-        "commits": 3177,
-        "issues_open": 6,
-        "issues_closed": 75,
-        "prs_open": 14,
-        "prs_merged": 691,
-        "prs_closed_unmerged": 138,
-        "issues_total": 81,
+        "open_issues_plus_prs": 5,
+        "commits": 3228,
+        "issues_open": 3,
+        "issues_closed": 82,
+        "prs_open": 2,
+        "prs_merged": 702,
+        "prs_closed_unmerged": 155,
+        "issues_total": 85,
         "releases": 37,
-        "release_downloads": 78,
+        "release_downloads": 79,
         "contributors": 10,
         "external_contributors": 5,
         "packagist_downloads": 0,
-        "ghcr_downloads": 59982,
+        "ghcr_downloads": 61355,
         "dependents_repos": 0,
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 125,
-        "issues_opened": 5,
-        "prs_opened": 98,
-        "prs_merged": 56,
+        "commits": 174,
+        "issues_opened": 9,
+        "prs_opened": 113,
+        "prs_merged": 66,
         "releases": 2,
         "packagist_downloads": 0,
-        "ghcr_downloads": 9641
+        "ghcr_downloads": 10549
       },
       "traffic_14d": {
         "clones_total": 3272,
@@ -21878,18 +21883,18 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 2631,
+          "contributions": 2678,
           "url": "https://github.com/CybotTM"
+        },
+        {
+          "login": "renovate[bot]",
+          "contributions": 105,
+          "url": "https://github.com/apps/renovate"
         },
         {
           "login": "github-actions[bot]",
           "contributions": 103,
           "url": "https://github.com/apps/github-actions"
-        },
-        {
-          "login": "renovate[bot]",
-          "contributions": 101,
-          "url": "https://github.com/apps/renovate"
         },
         {
           "login": "cweiske",
@@ -21933,20 +21938,20 @@
           {
             "package": "timetracker",
             "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-            "total": 59982,
-            "thirty_day": 9641
+            "total": 61355,
+            "thirty_day": 10549
           }
         ],
-        "total": 59982,
-        "thirty_day": 9641
+        "total": 61355,
+        "thirty_day": 10549
       },
       "dependents": {
         "repositories": 0,
         "packages": 0,
         "url": "https://github.com/netresearch/timetracker/network/dependents"
       },
-      "estimated_downstream_reach": 841,
-      "blast_radius": 841,
+      "estimated_downstream_reach": 856,
+      "blast_radius": 856,
       "archived": false
     },
     {
@@ -22503,7 +22508,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-10-18T10:14:23Z",
-      "pushed_at": "2026-11-16T03:38:20Z",
+      "pushed_at": "2026-11-16T16:37:59Z",
       "updated_at": "2026-11-12T03:37:12Z",
       "composer_name": null,
       "lifetime": {
@@ -22512,11 +22517,11 @@
         "watchers": 1,
         "network": 0,
         "open_issues_plus_prs": 2,
-        "commits": 588,
+        "commits": 591,
         "issues_open": 1,
         "issues_closed": 6,
         "prs_open": 1,
-        "prs_merged": 178,
+        "prs_merged": 179,
         "prs_closed_unmerged": 6,
         "issues_total": 7,
         "releases": 64,
@@ -22529,10 +22534,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 62,
+        "commits": 65,
         "issues_opened": 0,
-        "prs_opened": 25,
-        "prs_merged": 24,
+        "prs_opened": 26,
+        "prs_merged": 25,
         "releases": 3,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -22641,7 +22646,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 505,
+          "contributions": 508,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -22672,8 +22677,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
       },
-      "estimated_downstream_reach": 188,
-      "blast_radius": 188,
+      "estimated_downstream_reach": 189,
+      "blast_radius": 189,
       "archived": false
     },
     {
@@ -22698,7 +22703,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-10-27T12:47:18Z",
-      "pushed_at": "2026-11-16T02:33:02Z",
+      "pushed_at": "2026-11-16T15:41:22Z",
       "updated_at": "2026-11-11T22:55:00Z",
       "composer_name": null,
       "lifetime": {
@@ -22707,11 +22712,11 @@
         "watchers": 1,
         "network": 0,
         "open_issues_plus_prs": 3,
-        "commits": 383,
+        "commits": 388,
         "issues_open": 1,
         "issues_closed": 0,
         "prs_open": 2,
-        "prs_merged": 119,
+        "prs_merged": 120,
         "prs_closed_unmerged": 1,
         "issues_total": 1,
         "releases": 42,
@@ -22724,10 +22729,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 78,
+        "commits": 83,
         "issues_opened": 0,
-        "prs_opened": 32,
-        "prs_merged": 30,
+        "prs_opened": 33,
+        "prs_merged": 31,
         "releases": 5,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -22821,7 +22826,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 319,
+          "contributions": 324,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -22847,8 +22852,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-core-contributions-skill/network/dependents"
       },
-      "estimated_downstream_reach": 120,
-      "blast_radius": 120,
+      "estimated_downstream_reach": 121,
+      "blast_radius": 121,
       "archived": false
     },
     {
@@ -23567,7 +23572,7 @@
         "prs_closed_unmerged": 0,
         "issues_total": 1,
         "releases": 12,
-        "release_downloads": 358,
+        "release_downloads": 387,
         "contributors": 4,
         "external_contributors": 0,
         "packagist_downloads": 0,
@@ -23859,7 +23864,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2025-10-18T08:31:58Z",
-      "pushed_at": "2026-11-16T03:48:46Z",
+      "pushed_at": "2026-11-16T04:06:42Z",
       "updated_at": "2026-11-12T06:17:07Z",
       "composer_name": null,
       "lifetime": {
@@ -23867,12 +23872,12 @@
         "forks": 1,
         "watchers": 1,
         "network": 1,
-        "open_issues_plus_prs": 2,
-        "commits": 771,
+        "open_issues_plus_prs": 1,
+        "commits": 773,
         "issues_open": 1,
         "issues_closed": 3,
-        "prs_open": 1,
-        "prs_merged": 244,
+        "prs_open": 0,
+        "prs_merged": 245,
         "prs_closed_unmerged": 7,
         "issues_total": 4,
         "releases": 73,
@@ -23885,10 +23890,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 78,
+        "commits": 80,
         "issues_opened": 0,
-        "prs_opened": 35,
-        "prs_merged": 33,
+        "prs_opened": 34,
+        "prs_merged": 34,
         "releases": 5,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -23997,12 +24002,12 @@
         },
         {
           "login": "renovate[bot]",
-          "contributions": 47,
+          "contributions": 48,
           "url": "https://github.com/apps/renovate"
         },
         {
           "login": "netresearch-project-bot[bot]",
-          "contributions": 26,
+          "contributions": 27,
           "url": "https://github.com/apps/netresearch-project-bot"
         },
         {
@@ -24028,8 +24033,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
       },
-      "estimated_downstream_reach": 256,
-      "blast_radius": 256,
+      "estimated_downstream_reach": 257,
+      "blast_radius": 257,
       "archived": false
     },
     {
@@ -24213,7 +24218,7 @@
       "homepage": "",
       "default_branch": "main",
       "created_at": "2026-04-29T10:10:38Z",
-      "pushed_at": "2026-11-16T02:55:11Z",
+      "pushed_at": "2026-11-16T16:38:45Z",
       "updated_at": "2026-11-09T22:04:24Z",
       "composer_name": null,
       "lifetime": {
@@ -24222,11 +24227,11 @@
         "watchers": 1,
         "network": 0,
         "open_issues_plus_prs": 3,
-        "commits": 159,
+        "commits": 161,
         "issues_open": 1,
         "issues_closed": 2,
         "prs_open": 2,
-        "prs_merged": 67,
+        "prs_merged": 68,
         "prs_closed_unmerged": 1,
         "issues_total": 3,
         "releases": 11,
@@ -24239,10 +24244,10 @@
         "dependents_packages": 0
       },
       "recent_30d": {
-        "commits": 34,
+        "commits": 36,
         "issues_opened": 0,
-        "prs_opened": 18,
-        "prs_merged": 16,
+        "prs_opened": 19,
+        "prs_merged": 17,
         "releases": 1,
         "packagist_downloads": 0,
         "ghcr_downloads": 0
@@ -24299,7 +24304,7 @@
       "top_contributors": [
         {
           "login": "CybotTM",
-          "contributions": 85,
+          "contributions": 87,
           "url": "https://github.com/CybotTM"
         },
         {
@@ -24330,8 +24335,8 @@
         "packages": 0,
         "url": "https://github.com/netresearch/typo3-upgrade-effort-model-skill/network/dependents"
       },
-      "estimated_downstream_reach": 73,
-      "blast_radius": 73,
+      "estimated_downstream_reach": 74,
+      "blast_radius": 74,
       "archived": false
     },
     {
