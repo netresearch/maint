@@ -27,20 +27,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-25T07:26:55Z",
-  "pushed_at": "2026-11-16T18:32:24Z",
+  "pushed_at": "2026-11-17T10:15:58Z",
   "updated_at": "2026-11-11T07:42:20Z",
   "composer_name": null,
   "lifetime": {
     "stars": 66,
     "forks": 9,
     "watchers": 3,
-    "network": 1708,
+    "network": 1709,
     "open_issues_plus_prs": 10,
-    "commits": 899,
+    "commits": 933,
     "issues_open": 9,
     "issues_closed": 207,
     "prs_open": 1,
-    "prs_merged": 255,
+    "prs_merged": 257,
     "prs_closed_unmerged": 11,
     "issues_total": 216,
     "releases": 23,
@@ -50,22 +50,22 @@
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 70,
-    "dependents_packages": 92
+    "dependents_packages": 93
   },
   "recent_30d": {
-    "commits": 249,
+    "commits": 279,
     "issues_opened": 18,
-    "prs_opened": 51,
+    "prs_opened": 52,
     "prs_merged": 52,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2623,
-    "clones_unique": 534,
-    "views_total": 738,
-    "views_unique": 243,
+    "clones_total": 2809,
+    "clones_unique": 463,
+    "views_total": 692,
+    "views_unique": 242,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -74,13 +74,13 @@
       },
       {
         "referrer": "Google",
-        "count": 33,
-        "uniques": 22
+        "count": 36,
+        "uniques": 24
       },
       {
         "referrer": "github.com",
-        "count": 23,
-        "uniques": 15
+        "count": 17,
+        "uniques": 14
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
@@ -106,29 +106,30 @@
         "referrer": "sw360.gtlc.only.sap",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "yuanbao.tencent.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/go-cron/pulls",
         "title": "/pulls",
-        "count": 100,
-        "uniques": 2
+        "count": 94,
+        "uniques": 3
       },
       {
         "path": "/netresearch/go-cron",
         "title": "Overview",
-        "count": 92,
-        "uniques": 50
+        "count": 89,
+        "uniques": 47
       },
       {
         "path": "/netresearch/go-cron/pull/480",
         "title": "/pull/480",
+        "count": 38,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/go-cron/pull/487",
+        "title": "/pull/487",
         "count": 38,
         "uniques": 3
       },
@@ -139,28 +140,22 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/go-cron/pull/487",
-        "title": "/pull/487",
-        "count": 34,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/go-cron/issues",
         "title": "/issues",
-        "count": 26,
-        "uniques": 7
-      },
-      {
-        "path": "/netresearch/go-cron/issues/205",
-        "title": "/issues/205",
-        "count": 17,
-        "uniques": 1
+        "count": 18,
+        "uniques": 8
       },
       {
         "path": "/netresearch/go-cron/pull/479",
         "title": "/pull/479",
         "count": 13,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-cron/pull/489",
+        "title": "/pull/489",
+        "count": 11,
+        "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/blob/main/docs/adr/ADR-027-fall-back-by-rhythm.md",
@@ -185,12 +180,12 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 636,
+      "contributions": 639,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "norman-abramovitz",
-      "contributions": 89,
+      "contributions": 120,
       "url": "https://github.com/norman-abramovitz"
     },
     {
@@ -238,10 +233,10 @@
   "ghcr": null,
   "dependents": {
     "repositories": 70,
-    "packages": 92,
+    "packages": 93,
     "url": "https://github.com/netresearch/go-cron/network/dependents"
   },
-  "estimated_downstream_reach": 731,
-  "blast_radius": 731,
+  "estimated_downstream_reach": 733,
+  "blast_radius": 733,
   "archived": false
 }

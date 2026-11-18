@@ -27,7 +27,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-31T12:42:05Z",
-  "pushed_at": "2026-11-16T17:11:25Z",
+  "pushed_at": "2026-11-18T01:08:23Z",
   "updated_at": "2026-11-12T12:05:12Z",
   "composer_name": null,
   "lifetime": {
@@ -36,11 +36,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 3,
-    "commits": 614,
+    "commits": 619,
     "issues_open": 1,
     "issues_closed": 23,
     "prs_open": 2,
-    "prs_merged": 188,
+    "prs_merged": 190,
     "prs_closed_unmerged": 0,
     "issues_total": 24,
     "releases": 68,
@@ -53,19 +53,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 99,
+    "commits": 101,
     "issues_opened": 0,
-    "prs_opened": 39,
-    "prs_merged": 37,
+    "prs_opened": 41,
+    "prs_merged": 39,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2979,
-    "clones_unique": 704,
-    "views_total": 98,
-    "views_unique": 71,
+    "clones_total": 2925,
+    "clones_unique": 675,
+    "views_total": 102,
+    "views_unique": 76,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -74,8 +74,8 @@
       },
       {
         "referrer": "Google",
-        "count": 26,
-        "uniques": 15
+        "count": 27,
+        "uniques": 16
       },
       {
         "referrer": "DuckDuckGo",
@@ -92,7 +92,7 @@
       {
         "path": "/netresearch/matrix-skill",
         "title": "Overview",
-        "count": 13,
+        "count": 12,
         "uniques": 10
       },
       {
@@ -102,26 +102,20 @@
         "uniques": 4
       },
       {
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/hookshot-integration.md",
+        "title": "/blob/main/skills/matrix-communication/references/hookshot-integration.md",
+        "count": 8,
+        "uniques": 8
+      },
+      {
         "path": "/netresearch/matrix-skill/tree/main",
         "title": "/tree/main",
         "count": 5,
         "uniques": 5
       },
       {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/hookshot-integration.md",
-        "title": "/blob/main/skills/matrix-communication/references/hookshot-integration.md",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/matrix-skill/pull/49",
         "title": "/pull/49",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/matrix-skill/pulls",
-        "title": "/pulls",
         "count": 4,
         "uniques": 4
       },
@@ -144,6 +138,12 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/matrix-skill/pulls",
+        "title": "/pulls",
+        "count": 3,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/matrix-skill/tree/feat/retro-nio-e2ee-trust",
         "title": "/tree/feat/retro-nio-e2ee-trust",
         "count": 3,
@@ -160,7 +160,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 483,
+      "contributions": 488,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -196,7 +196,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/matrix-skill/network/dependents"
   },
-  "estimated_downstream_reach": 215,
-  "blast_radius": 215,
+  "estimated_downstream_reach": 217,
+  "blast_radius": 217,
   "archived": false
 }

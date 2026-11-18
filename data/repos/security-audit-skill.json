@@ -22,16 +22,16 @@
     "forks": 5,
     "watchers": 1,
     "network": 5,
-    "open_issues_plus_prs": 3,
+    "open_issues_plus_prs": 4,
     "commits": 493,
-    "issues_open": 1,
+    "issues_open": 2,
     "issues_closed": 2,
     "prs_open": 2,
     "prs_merged": 168,
     "prs_closed_unmerged": 5,
-    "issues_total": 3,
+    "issues_total": 4,
     "releases": 43,
-    "release_downloads": 663,
+    "release_downloads": 664,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -41,7 +41,7 @@
   },
   "recent_30d": {
     "commits": 55,
-    "issues_opened": 0,
+    "issues_opened": 1,
     "prs_opened": 27,
     "prs_merged": 25,
     "releases": 3,
@@ -49,20 +49,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5234,
-    "clones_unique": 858,
-    "views_total": 528,
-    "views_unique": 281,
+    "clones_total": 5984,
+    "clones_unique": 918,
+    "views_total": 497,
+    "views_unique": 258,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 203,
-        "uniques": 141
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 31,
-        "uniques": 18
+        "count": 191,
+        "uniques": 135
       },
       {
         "referrer": "aocr.org",
@@ -70,9 +65,14 @@
         "uniques": 18
       },
       {
+        "referrer": "search.brave.com",
+        "count": 16,
+        "uniques": 13
+      },
+      {
         "referrer": "github.com",
-        "count": 15,
-        "uniques": 9
+        "count": 12,
+        "uniques": 7
       },
       {
         "referrer": "Bing",
@@ -109,32 +109,32 @@
       {
         "path": "/netresearch/security-audit-skill",
         "title": "Overview",
-        "count": 304,
-        "uniques": 222
+        "count": 291,
+        "uniques": 213
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
         "title": "/blob/main/skills/security-audit/SKILL.md",
-        "count": 40,
-        "uniques": 34
+        "count": 31,
+        "uniques": 26
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
         "title": "/tree/main/skills/security-audit",
-        "count": 27,
-        "uniques": 19
+        "count": 26,
+        "uniques": 18
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/references/typo3-security.md",
         "title": "/blob/main/skills/security-audit/references/typo3-security.md",
-        "count": 16,
+        "count": 13,
         "uniques": 2
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main",
         "title": "/tree/main",
-        "count": 13,
-        "uniques": 12
+        "count": 12,
+        "uniques": 11
       },
       {
         "path": "/netresearch/security-audit-skill/issues",
@@ -143,26 +143,26 @@
         "uniques": 7
       },
       {
+        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/scripts",
+        "title": "/tree/main/skills/security-audit/scripts",
+        "count": 5,
+        "uniques": 4
+      },
+      {
         "path": "/netresearch/security-audit-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
         "count": 4,
         "uniques": 4
       },
       {
+        "path": "/netresearch/security-audit-skill/blob/main/SECURITY.md",
+        "title": "/blob/main/SECURITY.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
         "path": "/netresearch/security-audit-skill/blob/main/docs/ARCHITECTURE.md",
         "title": "/blob/main/docs/ARCHITECTURE.md",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/security-audit-skill/tree/main/scripts",
-        "title": "/tree/main/scripts",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/evals",
-        "title": "/tree/main/skills/security-audit/evals",
         "count": 4,
         "uniques": 4
       }
@@ -213,7 +213,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/security-audit-skill/network/dependents"
   },
-  "estimated_downstream_reach": 184,
-  "blast_radius": 184,
+  "estimated_downstream_reach": 185,
+  "blast_radius": 185,
   "archived": false
 }

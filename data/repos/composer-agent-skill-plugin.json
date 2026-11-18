@@ -39,7 +39,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 0,
-    "packagist_downloads": 29543,
+    "packagist_downloads": 29678,
     "ghcr_downloads": 0,
     "dependents_repos": 48,
     "dependents_packages": 0
@@ -50,14 +50,14 @@
     "prs_opened": 5,
     "prs_merged": 5,
     "releases": 0,
-    "packagist_downloads": 6338,
+    "packagist_downloads": 6235,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 216,
-    "clones_unique": 81,
-    "views_total": 51,
-    "views_unique": 41,
+    "clones_total": 200,
+    "clones_unique": 76,
+    "views_total": 72,
+    "views_unique": 60,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -65,22 +65,40 @@
         "uniques": 22
       },
       {
-        "referrer": "Google",
+        "referrer": "github.com",
         "count": 7,
-        "uniques": 7
+        "uniques": 5
       },
       {
-        "referrer": "github.com",
+        "referrer": "Google",
         "count": 6,
-        "uniques": 4
+        "uniques": 6
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 23,
-        "uniques": 16
+        "count": 25,
+        "uniques": 18
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/discussions",
+        "title": "/discussions",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/issues",
+        "title": "/issues",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/tree/cb730c356f6c83fa6de6f6969449b7cc536b8656/docs/adr",
+        "title": "/tree/cb730c356f6c83fa6de6f6969449b7cc536b8656/docs/adr",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/tree/main/src",
@@ -89,14 +107,26 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/commit/16bbe2ecb46982257a6afede98c1a2e211e0beff",
-        "title": "/commit/16bbe2ecb46982257a6afede98c1a2e211e0beff",
+        "path": "/netresearch/composer-agent-skill-plugin/blob/feat/universal-discovery-with-trust/docs/adr/002-trust-prompt-allow-plugins.md",
+        "title": "/blob/feat/universal-discovery-with-trust/docs/adr/002-trust-prompt-allow-plugins.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/issues",
-        "title": "/issues",
+        "path": "/netresearch/composer-agent-skill-plugin/blob/feat/universal-discovery-with-trust/docs/adr/005-case-sensitive-glob-matching.md",
+        "title": "/blob/feat/universal-discovery-with-trust/docs/adr/005-case-sensitive-glob-matching.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/blob/feat/universal-discovery-with-trust/docs/superpowers/plans/2026-05-01-universal-skill-discovery-with-trust.md",
+        "title": "/blob/feat/universal-discovery-with-trust/docs/superpowers/plans/2026-05-01-universal-skill-discovery-with-trust.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/commit/16bbe2ecb46982257a6afede98c1a2e211e0beff",
+        "title": "/commit/16bbe2ecb46982257a6afede98c1a2e211e0beff",
         "count": 2,
         "uniques": 2
       },
@@ -105,36 +135,6 @@
         "title": "/pull/83",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/tree/main/docs",
-        "title": "/tree/main/docs",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/actions/workflows/ci.yml",
-        "title": "/actions/workflows/ci.yml",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/LICENSE",
-        "title": "/blob/main/LICENSE",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/blob/main/docs/IMPLEMENTATION-DIRECT-SKILLS.md",
-        "title": "/blob/main/docs/IMPLEMENTATION-DIRECT-SKILLS.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-agent-skill-plugin/commit/38de97fc9be4429df49fad1ca0dc69535d531b69",
-        "title": "/commit/38de97fc9be4429df49fad1ca0dc69535d531b69",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -178,9 +178,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 29543,
-    "monthly": 6338,
-    "daily": 508,
+    "total": 29678,
+    "monthly": 6235,
+    "daily": 138,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,

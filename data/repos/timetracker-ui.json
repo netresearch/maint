@@ -49,8 +49,8 @@
   "traffic_14d": {
     "clones_total": 17,
     "clones_unique": 14,
-    "views_total": 12,
-    "views_unique": 12,
+    "views_total": 16,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -59,6 +59,12 @@
       }
     ],
     "top_paths": [
+      {
+        "path": "/netresearch/timetracker-ui/blob/main/RELEASE_NOTES_v2.0.0.md",
+        "title": "/blob/main/RELEASE_NOTES_v2.0.0.md",
+        "count": 3,
+        "uniques": 3
+      },
       {
         "path": "/netresearch/timetracker-ui/blob/main/README.md",
         "title": "/blob/main/README.md",
@@ -72,14 +78,20 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/timetracker-ui/blob/main/.editorconfig",
-        "title": "/blob/main/.editorconfig",
+        "path": "/netresearch/timetracker-ui/blob/main/.eslintignore",
+        "title": "/blob/main/.eslintignore",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/timetracker-ui/blob/main/RELEASE_NOTES_v2.0.0.md",
-        "title": "/blob/main/RELEASE_NOTES_v2.0.0.md",
+        "path": "/netresearch/timetracker-ui/blob/main/Dockerfile",
+        "title": "/blob/main/Dockerfile",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/timetracker-ui/commits/main/RELEASE_NOTES_v2.0.0.md",
+        "title": "/commits/main/RELEASE_NOTES_v2.0.0.md",
         "count": 1,
         "uniques": 1
       },
@@ -104,18 +116,6 @@
       {
         "path": "/netresearch/timetracker-ui/releases/tag/v1.0.1",
         "title": "/releases/tag/v1.0.1",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker-ui/tags",
-        "title": "/tags",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker-ui/tree/main",
-        "title": "/tree/main",
         "count": 1,
         "uniques": 1
       }

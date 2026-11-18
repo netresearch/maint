@@ -10,7 +10,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-08T21:31:58Z",
-  "pushed_at": "2026-11-16T17:58:04Z",
+  "pushed_at": "2026-11-18T01:41:01Z",
   "updated_at": "2026-11-12T11:28:11Z",
   "composer_name": "netresearch/nr-repurpose",
   "lifetime": {
@@ -18,37 +18,37 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 891,
+    "open_issues_plus_prs": 4,
+    "commits": 897,
     "issues_open": 1,
     "issues_closed": 11,
-    "prs_open": 2,
-    "prs_merged": 205,
+    "prs_open": 3,
+    "prs_merged": 208,
     "prs_closed_unmerged": 8,
     "issues_total": 12,
-    "releases": 49,
-    "release_downloads": 516,
+    "releases": 50,
+    "release_downloads": 536,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 3868,
+    "packagist_downloads": 3908,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 113,
+    "commits": 112,
     "issues_opened": 0,
-    "prs_opened": 46,
-    "prs_merged": 44,
-    "releases": 15,
-    "packagist_downloads": 1799,
+    "prs_opened": 49,
+    "prs_merged": 47,
+    "releases": 16,
+    "packagist_downloads": 1810,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5991,
-    "clones_unique": 379,
-    "views_total": 19,
-    "views_unique": 18,
+    "clones_total": 3939,
+    "clones_unique": 319,
+    "views_total": 18,
+    "views_unique": 17,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -57,28 +57,16 @@
       },
       {
         "referrer": "github.com",
-        "count": 2,
-        "uniques": 1
+        "count": 3,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
-        "path": "/netresearch/t3x-nr-repurpose/pull/195",
-        "title": "/pull/195",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/t3x-nr-repurpose",
         "title": "Overview",
-        "count": 2,
-        "uniques": 1
-      },
-      {
-        "path": "/C:/Users/John/AppData/Local/Temp/eYxajmghhjvo.html",
-        "title": "Temp/eYxajmghhjvo.html",
-        "count": 1,
-        "uniques": 1
+        "count": 3,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-repurpose/blob/f92ea9b4bf3ffc6dd2a0cb496305f59a78db5876/docs/SECURITY-ASSURANCE.md",
@@ -121,24 +109,36 @@
         "title": "/commit/d1e9cfbee49d1d927728582b17027cc79b501541",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-repurpose/issues",
+        "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-repurpose/pull/190",
+        "title": "/pull/190",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v0.15.6",
-    "tag_name": "v0.15.6",
-    "published_at": "2026-11-16T11:04:40Z",
-    "url": "https://github.com/netresearch/t3x-nr-repurpose/releases/tag/v0.15.6"
+    "name": "v0.15.7",
+    "tag_name": "v0.15.7",
+    "published_at": "2026-11-17T23:16:14Z",
+    "url": "https://github.com/netresearch/t3x-nr-repurpose/releases/tag/v0.15.7"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 839,
+      "contributions": 843,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 29,
+      "contributions": 30,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -148,15 +148,15 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 7,
+      "contributions": 8,
       "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": {
     "name": "netresearch/nr-repurpose",
-    "total": 3868,
-    "monthly": 1799,
-    "daily": 35,
+    "total": 3908,
+    "monthly": 1810,
+    "daily": 38,
     "url": "https://packagist.org/packages/netresearch/nr-repurpose"
   },
   "ghcr": null,
@@ -165,7 +165,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-repurpose/network/dependents"
   },
-  "estimated_downstream_reach": 217,
-  "blast_radius": 217,
+  "estimated_downstream_reach": 220,
+  "blast_radius": 220,
   "archived": false
 }

@@ -48,28 +48,28 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 25,
-    "clones_unique": 16,
-    "views_total": 31,
-    "views_unique": 9,
+    "clones_total": 21,
+    "clones_unique": 15,
+    "views_total": 27,
+    "views_unique": 8,
     "top_referrers": [
-      {
-        "referrer": "Google",
-        "count": 3,
-        "uniques": 3
-      },
       {
         "referrer": "aocr.org",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 2
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/ansible-role-gitlab-runner/blob/main/tasks/registration.yml",
         "title": "/blob/main/tasks/registration.yml",
-        "count": 8,
-        "uniques": 4
+        "count": 6,
+        "uniques": 3
       },
       {
         "path": "/netresearch/ansible-role-gitlab-runner",
@@ -96,20 +96,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/ansible-role-gitlab-runner/tree/main/tasks",
-        "title": "/tree/main/tasks",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/ansible-role-gitlab-runner/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/tasks/cleanup.yml",
-        "title": "/blob/main/tasks/cleanup.yml",
         "count": 1,
         "uniques": 1
       },
@@ -122,6 +110,18 @@
       {
         "path": "/netresearch/ansible-role-gitlab-runner/blob/main/templates/etc/apt/preferences.d/pin-gitlab-runner.pref.j2",
         "title": "/blob/main/templates/etc/apt/preferences.d/pin-gitlab-runner.pref.j2",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/blob/main/templates/etc/systemd/system/gitlab-runner.service.d/kill.conf.j2",
+        "title": "/blob/main/templates/etc/systemd/system/gitlab-runner.service.d/kill.conf.j2",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/ansible-role-gitlab-runner/commit/507b913eab10f4d784d93b088b603b7f6ed5cdba",
+        "title": "/commit/507b913eab10f4d784d93b088b603b7f6ed5cdba",
         "count": 1,
         "uniques": 1
       }
