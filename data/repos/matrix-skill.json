@@ -27,7 +27,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-31T12:42:05Z",
-  "pushed_at": "2026-11-18T01:08:23Z",
+  "pushed_at": "2026-11-18T09:27:52Z",
   "updated_at": "2026-11-12T12:05:12Z",
   "composer_name": null,
   "lifetime": {
@@ -36,15 +36,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 3,
-    "commits": 619,
+    "commits": 622,
     "issues_open": 1,
     "issues_closed": 23,
     "prs_open": 2,
-    "prs_merged": 190,
+    "prs_merged": 191,
     "prs_closed_unmerged": 0,
     "issues_total": 24,
-    "releases": 68,
-    "release_downloads": 988,
+    "releases": 69,
+    "release_downloads": 1002,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -53,19 +53,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 101,
+    "commits": 102,
     "issues_opened": 0,
-    "prs_opened": 41,
-    "prs_merged": 39,
-    "releases": 5,
+    "prs_opened": 40,
+    "prs_merged": 38,
+    "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2925,
-    "clones_unique": 675,
-    "views_total": 102,
-    "views_unique": 76,
+    "clones_total": 2970,
+    "clones_unique": 649,
+    "views_total": 94,
+    "views_unique": 80,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -74,32 +74,27 @@
       },
       {
         "referrer": "Google",
-        "count": 27,
-        "uniques": 16
+        "count": 29,
+        "uniques": 18
       },
       {
         "referrer": "DuckDuckGo",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "referrer": "github.com",
         "count": 1,
         "uniques": 1
       }
     ],
     "top_paths": [
       {
-        "path": "/netresearch/matrix-skill",
-        "title": "Overview",
-        "count": 12,
-        "uniques": 10
-      },
-      {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
         "title": "/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
         "count": 12,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/matrix-skill",
+        "title": "Overview",
+        "count": 11,
+        "uniques": 10
       },
       {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/hookshot-integration.md",
@@ -108,10 +103,10 @@
         "uniques": 8
       },
       {
-        "path": "/netresearch/matrix-skill/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/messaging-guide.md",
+        "title": "/blob/main/skills/matrix-communication/references/messaging-guide.md",
         "count": 5,
-        "uniques": 5
+        "uniques": 3
       },
       {
         "path": "/netresearch/matrix-skill/pull/49",
@@ -120,16 +115,10 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/messaging-guide.md",
-        "title": "/blob/main/skills/matrix-communication/references/messaging-guide.md",
+        "path": "/netresearch/matrix-skill/tree/main",
+        "title": "/tree/main",
         "count": 4,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/matrix-skill/tree/main/skills/matrix-administration",
-        "title": "/tree/main/skills/matrix-administration",
-        "count": 4,
-        "uniques": 2
+        "uniques": 4
       },
       {
         "path": "/netresearch/matrix-skill/issues/43",
@@ -138,29 +127,35 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/matrix-skill/pulls",
-        "title": "/pulls",
-        "count": 3,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/matrix-skill/tree/feat/retro-nio-e2ee-trust",
         "title": "/tree/feat/retro-nio-e2ee-trust",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/matrix-skill/commit/9d5826ab688ca4b55017f0d8da53a10f192f07e4",
+        "title": "/commit/9d5826ab688ca4b55017f0d8da53a10f192f07e4",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/scripts/matrix-key-backup.py",
+        "title": "/blob/main/skills/matrix-communication/scripts/matrix-key-backup.py",
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
   "latest_release": {
-    "name": "v4.3.1",
-    "tag_name": "v4.3.1",
-    "published_at": "2026-11-12T20:16:19Z",
-    "url": "https://github.com/netresearch/matrix-skill/releases/tag/v4.3.1"
+    "name": "v4.4.0",
+    "tag_name": "v4.4.0",
+    "published_at": "2026-11-18T09:28:21Z",
+    "url": "https://github.com/netresearch/matrix-skill/releases/tag/v4.4.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 488,
+      "contributions": 491,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -196,7 +191,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/matrix-skill/network/dependents"
   },
-  "estimated_downstream_reach": 217,
-  "blast_radius": 217,
+  "estimated_downstream_reach": 218,
+  "blast_radius": 218,
   "archived": false
 }

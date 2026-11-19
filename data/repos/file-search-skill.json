@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:13Z",
-  "pushed_at": "2026-11-16T16:36:32Z",
+  "pushed_at": "2026-11-18T17:05:29Z",
   "updated_at": "2026-11-15T06:44:04Z",
   "composer_name": null,
   "lifetime": {
@@ -21,15 +21,15 @@
     "watchers": 1,
     "network": 5,
     "open_issues_plus_prs": 2,
-    "commits": 320,
+    "commits": 322,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 1,
-    "prs_merged": 120,
+    "prs_merged": 121,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
-    "releases": 19,
-    "release_downloads": 368,
+    "releases": 20,
+    "release_downloads": 375,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -42,20 +42,20 @@
     "issues_opened": 0,
     "prs_opened": 19,
     "prs_merged": 17,
-    "releases": 2,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3627,
-    "clones_unique": 480,
-    "views_total": 224,
-    "views_unique": 109,
+    "clones_total": 3664,
+    "clones_unique": 490,
+    "views_total": 210,
+    "views_unique": 108,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 99,
-        "uniques": 71
+        "count": 96,
+        "uniques": 72
       },
       {
         "referrer": "aocr.org",
@@ -97,38 +97,26 @@
       {
         "path": "/netresearch/file-search-skill",
         "title": "Overview",
-        "count": 133,
+        "count": 126,
         "uniques": 95
       },
       {
         "path": "/netresearch/file-search-skill/tree/main/skills/file-search",
         "title": "/tree/main/skills/file-search",
-        "count": 11,
-        "uniques": 6
+        "count": 9,
+        "uniques": 4
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/skills/file-search/SKILL.md",
         "title": "/blob/main/skills/file-search/SKILL.md",
-        "count": 8,
-        "uniques": 6
+        "count": 7,
+        "uniques": 5
       },
       {
         "path": "/netresearch/file-search-skill/tree/main",
         "title": "/tree/main",
         "count": 6,
         "uniques": 5
-      },
-      {
-        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
-        "title": "/tree/main/skills/file-search/references",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/file-search-skill/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 3,
-        "uniques": 3
       },
       {
         "path": "/netresearch/file-search-skill/blob/main/hooks/hooks.json",
@@ -149,23 +137,35 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ripgrep-patterns.md",
-        "title": "/blob/main/skills/file-search/references/ripgrep-patterns.md",
+        "path": "/netresearch/file-search-skill/tree/main/hooks",
+        "title": "/tree/main/hooks",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/file-search-skill/tree/main/skills/file-search/references",
+        "title": "/tree/main/skills/file-search/references",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/file-search-skill/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "title": "/blob/main/skills/file-search/references/ast-grep-patterns.md",
+        "count": 3,
+        "uniques": 2
       }
     ]
   },
   "latest_release": {
-    "name": "v1.8.4",
-    "tag_name": "v1.8.4",
-    "published_at": "2026-11-04T13:03:48Z",
-    "url": "https://github.com/netresearch/file-search-skill/releases/tag/v1.8.4"
+    "name": "v1.8.5",
+    "tag_name": "v1.8.5",
+    "published_at": "2026-11-18T17:06:13Z",
+    "url": "https://github.com/netresearch/file-search-skill/releases/tag/v1.8.5"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 182,
+      "contributions": 184,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -191,7 +191,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/file-search-skill/network/dependents"
   },
-  "estimated_downstream_reach": 131,
-  "blast_radius": 131,
+  "estimated_downstream_reach": 132,
+  "blast_radius": 132,
   "archived": false
 }

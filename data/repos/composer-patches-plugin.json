@@ -34,7 +34,7 @@
     "release_downloads": 0,
     "contributors": 16,
     "external_contributors": 12,
-    "packagist_downloads": 283831,
+    "packagist_downloads": 284005,
     "ghcr_downloads": 0,
     "dependents_repos": 48,
     "dependents_packages": 8
@@ -45,19 +45,24 @@
     "prs_opened": 4,
     "prs_merged": 3,
     "releases": 0,
-    "packagist_downloads": 3647,
+    "packagist_downloads": 3655,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 67,
-    "clones_unique": 39,
-    "views_total": 52,
-    "views_unique": 20,
+    "clones_total": 68,
+    "clones_unique": 38,
+    "views_total": 57,
+    "views_unique": 21,
     "top_referrers": [
       {
         "referrer": "aocr.org",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "referrer": "github.com",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "Google",
@@ -68,18 +73,13 @@
         "referrer": "bitbucket.org",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/composer-patches-plugin",
         "title": "Overview",
-        "count": 29,
+        "count": 30,
         "uniques": 9
       },
       {
@@ -101,6 +101,18 @@
         "uniques": 2
       },
       {
+        "path": "/netresearch/composer-patches-plugin/commit/4d7074496eaf113d733ef58ec62bc03e2a1abd97",
+        "title": "/commit/4d7074496eaf113d733ef58ec62bc03e2a1abd97",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/composer-patches-plugin/commit/d2d5ba401670d7bf0c8f94f5601093436182dc42",
+        "title": "/commit/d2d5ba401670d7bf0c8f94f5601093436182dc42",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/composer-patches-plugin/actions/runs/41129891988",
         "title": "/actions/runs/41129891988",
         "count": 1,
@@ -113,26 +125,14 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/composer-patches-plugin/blob/887c818b3087941372ed714696b96555c4a985a3/copilot-setup-steps.yaml",
+        "title": "/blob/887c818b3087941372ed714696b96555c4a985a3/copilot-setup-steps.yaml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/composer-patches-plugin/blob/master/.gitignore",
         "title": "/blob/master/.gitignore",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-patches-plugin/blob/master/LICENSE",
-        "title": "/blob/master/LICENSE",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-patches-plugin/blob/master/renovate.json",
-        "title": "/blob/master/renovate.json",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-patches-plugin/commit/4d7074496eaf113d733ef58ec62bc03e2a1abd97",
-        "title": "/commit/4d7074496eaf113d733ef58ec62bc03e2a1abd97",
         "count": 1,
         "uniques": 1
       }
@@ -198,9 +198,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-patches-plugin",
-    "total": 283831,
-    "monthly": 3647,
-    "daily": 63,
+    "total": 284005,
+    "monthly": 3655,
+    "daily": 156,
     "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
   },
   "ghcr": null,

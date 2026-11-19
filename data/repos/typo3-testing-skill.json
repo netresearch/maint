@@ -21,7 +21,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T08:31:58Z",
-  "pushed_at": "2026-11-17T21:50:41Z",
+  "pushed_at": "2026-11-18T17:09:37Z",
   "updated_at": "2026-11-12T06:17:07Z",
   "composer_name": null,
   "lifetime": {
@@ -30,15 +30,15 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 775,
+    "commits": 783,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 246,
+    "prs_merged": 249,
     "prs_closed_unmerged": 7,
     "issues_total": 4,
-    "releases": 73,
-    "release_downloads": 611,
+    "releases": 74,
+    "release_downloads": 617,
     "contributors": 6,
     "external_contributors": 2,
     "packagist_downloads": 0,
@@ -47,19 +47,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 82,
+    "commits": 90,
     "issues_opened": 0,
-    "prs_opened": 35,
-    "prs_merged": 35,
-    "releases": 5,
+    "prs_opened": 38,
+    "prs_merged": 38,
+    "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5475,
-    "clones_unique": 338,
-    "views_total": 37,
-    "views_unique": 26,
+    "clones_total": 5650,
+    "clones_unique": 334,
+    "views_total": 33,
+    "views_unique": 23,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -68,8 +68,8 @@
       },
       {
         "referrer": "github.com",
-        "count": 5,
-        "uniques": 4
+        "count": 4,
+        "uniques": 3
       },
       {
         "referrer": "Google",
@@ -86,8 +86,8 @@
       {
         "path": "/netresearch/typo3-testing-skill",
         "title": "Overview",
-        "count": 11,
-        "uniques": 10
+        "count": 10,
+        "uniques": 9
       },
       {
         "path": "/netresearch/typo3-testing-skill/issues",
@@ -132,39 +132,39 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-testing-skill/blob/main/LICENSE-GPL-2.0",
-        "title": "/blob/main/LICENSE-GPL-2.0",
+        "path": "/netresearch/typo3-testing-skill/blob/main/scripts/verify-harness.sh",
+        "title": "/blob/main/scripts/verify-harness.sh",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-testing-skill/blob/main/scripts/verify-harness.sh",
-        "title": "/blob/main/scripts/verify-harness.sh",
+        "path": "/netresearch/typo3-testing-skill/blob/main/skills/typo3-testing/references/architecture-testing.md",
+        "title": "/blob/main/skills/typo3-testing/references/architecture-testing.md",
         "count": 1,
         "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v5.24.4",
-    "tag_name": "v5.24.4",
-    "published_at": "2026-11-15T22:48:02Z",
-    "url": "https://github.com/netresearch/typo3-testing-skill/releases/tag/v5.24.4"
+    "name": "v5.24.5",
+    "tag_name": "v5.24.5",
+    "published_at": "2026-11-18T17:10:23Z",
+    "url": "https://github.com/netresearch/typo3-testing-skill/releases/tag/v5.24.5"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 670,
+      "contributions": 676,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 49,
+      "contributions": 50,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 28,
+      "contributions": 29,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -190,7 +190,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
   },
-  "estimated_downstream_reach": 258,
-  "blast_radius": 258,
+  "estimated_downstream_reach": 261,
+  "blast_radius": 261,
   "archived": false
 }

@@ -45,15 +45,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 15,
-    "clones_unique": 14,
+    "clones_total": 14,
+    "clones_unique": 13,
     "views_total": 32,
-    "views_unique": 32,
+    "views_unique": 31,
     "top_referrers": [
       {
         "referrer": "aocr.org",
         "count": 20,
         "uniques": 20
+      },
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 1
       }
     ],
     "top_paths": [
@@ -72,8 +77,8 @@
       {
         "path": "/netresearch/dhl-module-shipping-m2",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
+        "count": 5,
+        "uniques": 4
       },
       {
         "path": "/netresearch/dhl-module-shipping-m2/blob/master/CONTRIBUTING.md",
@@ -94,12 +99,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/dhl-module-shipping-m2/blob/master/Block/Adminhtml/Order/Shipping/Address/Element/Separator.php",
-        "title": "/blob/master/Block/Adminhtml/Order/Shipping/Address/Element/Separator.php",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/dhl-module-shipping-m2/blob/master/CHANGELOG.md",
         "title": "/blob/master/CHANGELOG.md",
         "count": 1,
@@ -112,8 +111,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/dhl-module-shipping-m2/blob/master/README.md",
-        "title": "/blob/master/README.md",
+        "path": "/netresearch/dhl-module-shipping-m2/blob/master/Webservice/BcsDataMapper.php",
+        "title": "/blob/master/Webservice/BcsDataMapper.php",
         "count": 1,
         "uniques": 1
       }

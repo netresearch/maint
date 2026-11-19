@@ -32,25 +32,25 @@
     "release_downloads": 0,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 1081,
+    "packagist_downloads": 1086,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 2,
+    "commits": 0,
     "issues_opened": 0,
-    "prs_opened": 1,
-    "prs_merged": 1,
+    "prs_opened": 0,
+    "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 106,
+    "packagist_downloads": 100,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 190,
-    "clones_unique": 39,
-    "views_total": 14,
-    "views_unique": 14,
+    "clones_total": 187,
+    "clones_unique": 36,
+    "views_total": 15,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -59,8 +59,8 @@
       },
       {
         "referrer": "Google",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
       }
     ],
     "top_paths": [
@@ -69,6 +69,12 @@
         "title": "/pull/35",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/sdk-api-central-station",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/sdk-api-central-station/blob/main/doc/Basic.md",
@@ -117,12 +123,6 @@
         "title": "/commit/6296de29002134704384a81f12f7498254775567",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/sdk-api-central-station/compare/32f5faed712ea062ed2410d8c477f22dc05e35c2..62d3b3c9e0cccf9ada72f1a55980b4337f69d3e6",
-        "title": "/compare/32f5faed712ea062ed2410d8c477f22dc05e35c2..62d3b3c9e0cccf9ada72f1a55980b4337f69d3e6",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -156,9 +156,9 @@
   ],
   "packagist": {
     "name": "netresearch/sdk-api-central-station",
-    "total": 1081,
-    "monthly": 106,
-    "daily": 12,
+    "total": 1086,
+    "monthly": 100,
+    "daily": 6,
     "url": "https://packagist.org/packages/netresearch/sdk-api-central-station"
   },
   "ghcr": null,
