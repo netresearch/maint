@@ -10,7 +10,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-08-18T16:10:14Z",
-  "pushed_at": "2026-11-18T12:16:51Z",
+  "pushed_at": "2026-11-19T22:24:34Z",
   "updated_at": "2026-11-12T11:50:34Z",
   "composer_name": "netresearch/nr-llm-compat",
   "lifetime": {
@@ -18,11 +18,11 @@
     "forks": 0,
     "watchers": 0,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 213,
     "issues_open": 1,
     "issues_closed": 2,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 82,
     "prs_closed_unmerged": 6,
     "issues_total": 3,
@@ -30,25 +30,25 @@
     "release_downloads": 242,
     "contributors": 2,
     "external_contributors": 0,
-    "packagist_downloads": 2825,
+    "packagist_downloads": 2826,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 65,
+    "commits": 63,
     "issues_opened": 0,
-    "prs_opened": 34,
-    "prs_merged": 31,
-    "releases": 12,
-    "packagist_downloads": 1775,
+    "prs_opened": 31,
+    "prs_merged": 30,
+    "releases": 11,
+    "packagist_downloads": 1729,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3283,
-    "clones_unique": 193,
-    "views_total": 4,
-    "views_unique": 4,
+    "clones_total": 3566,
+    "clones_unique": 204,
+    "views_total": 6,
+    "views_unique": 6,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -75,6 +75,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/t3x-nr-llm-compat/blob/main/docs/SECURITY-ASSURANCE.md",
+        "title": "/blob/main/docs/SECURITY-ASSURANCE.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/t3x-nr-llm-compat/issues",
         "title": "/issues",
         "count": 1,
@@ -83,6 +89,12 @@
       {
         "path": "/netresearch/t3x-nr-llm-compat/pull/37",
         "title": "/pull/37",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-llm-compat/releases",
+        "title": "/releases",
         "count": 1,
         "uniques": 1
       }
@@ -108,9 +120,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-llm-compat",
-    "total": 2825,
-    "monthly": 1775,
-    "daily": 38,
+    "total": 2826,
+    "monthly": 1729,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/nr-llm-compat"
   },
   "ghcr": null,

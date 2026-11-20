@@ -24,7 +24,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-09-29T09:01:16Z",
-  "pushed_at": "2026-11-17T14:59:38Z",
+  "pushed_at": "2026-11-19T21:03:12Z",
   "updated_at": "2026-11-12T09:53:02Z",
   "composer_name": "netresearch/nr-textdb",
   "lifetime": {
@@ -32,11 +32,11 @@
     "forks": 0,
     "watchers": 4,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 871,
     "issues_open": 1,
     "issues_closed": 45,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 161,
     "prs_closed_unmerged": 28,
     "issues_total": 46,
@@ -44,25 +44,25 @@
     "release_downloads": 98,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 4904,
+    "packagist_downloads": 4905,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 122,
+    "commits": 121,
     "issues_opened": 0,
     "prs_opened": 60,
     "prs_merged": 60,
     "releases": 3,
-    "packagist_downloads": 1902,
+    "packagist_downloads": 1850,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1355,
-    "clones_unique": 128,
-    "views_total": 44,
-    "views_unique": 43,
+    "clones_total": 1359,
+    "clones_unique": 127,
+    "views_total": 40,
+    "views_unique": 39,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -95,12 +95,6 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/blob/main/ext_conf_template.txt",
-        "title": "/blob/main/ext_conf_template.txt",
-        "count": 3,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/t3x-nr-textdb/issues",
         "title": "/issues",
         "count": 2,
@@ -119,20 +113,26 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/blob/main/CONTRIBUTING.md",
-        "title": "/blob/main/CONTRIBUTING.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb/blob/main/grumphp.yml",
-        "title": "/blob/main/grumphp.yml",
+        "path": "/netresearch/t3x-nr-textdb/blob/main/ext_conf_template.txt",
+        "title": "/blob/main/ext_conf_template.txt",
         "count": 1,
         "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-textdb/blob/main/rector.php",
         "title": "/blob/main/rector.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/commit/12cd7f4",
+        "title": "/commit/12cd7f4",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/commit/470d0a970b0e5bb8e1650649c345684d1a78ea84",
+        "title": "/commit/470d0a970b0e5bb8e1650649c345684d1a78ea84",
         "count": 1,
         "uniques": 1
       }
@@ -188,9 +188,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 4904,
-    "monthly": 1902,
-    "daily": 38,
+    "total": 4905,
+    "monthly": 1850,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,

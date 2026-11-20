@@ -28,7 +28,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-11-18T19:27:02Z",
+  "pushed_at": "2026-11-19T22:48:16Z",
   "updated_at": "2026-11-11T09:25:41Z",
   "composer_name": "netresearch/timetracker",
   "lifetime": {
@@ -36,37 +36,37 @@
     "forks": 27,
     "watchers": 6,
     "network": 27,
-    "open_issues_plus_prs": 3,
+    "open_issues_plus_prs": 6,
     "commits": 3238,
     "issues_open": 2,
     "issues_closed": 83,
-    "prs_open": 1,
+    "prs_open": 4,
     "prs_merged": 705,
-    "prs_closed_unmerged": 155,
+    "prs_closed_unmerged": 154,
     "issues_total": 85,
     "releases": 37,
     "release_downloads": 79,
     "contributors": 10,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 61718,
+    "ghcr_downloads": 61854,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 159,
+    "commits": 148,
     "issues_opened": 9,
-    "prs_opened": 108,
-    "prs_merged": 64,
+    "prs_opened": 103,
+    "prs_merged": 55,
     "releases": 2,
     "packagist_downloads": 0,
-    "ghcr_downloads": 9556
+    "ghcr_downloads": 9381
   },
   "traffic_14d": {
-    "clones_total": 4423,
-    "clones_unique": 401,
-    "views_total": 390,
-    "views_unique": 378,
+    "clones_total": 5240,
+    "clones_unique": 414,
+    "views_total": 384,
+    "views_unique": 371,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -74,14 +74,14 @@
         "uniques": 323
       },
       {
-        "referrer": "Google",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "referrer": "github.com",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "Bing",
@@ -93,7 +93,7 @@
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 15,
+        "count": 16,
         "uniques": 13
       },
       {
@@ -133,12 +133,6 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/timetracker/blob/main/docs/performance.md",
-        "title": "/blob/main/docs/performance.md",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/timetracker/issues/585",
         "title": "/issues/585",
         "count": 4,
@@ -147,6 +141,12 @@
       {
         "path": "/netresearch/timetracker/pull/510/files/0bae8613e77bc8579be493a5b2655550174d5909",
         "title": "/pull/510/files/0bae8613e77bc8579be493a5b2655550174d5909",
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/timetracker/tree/fix/a11y-worktime-contrast-flake",
+        "title": "/tree/fix/a11y-worktime-contrast-flake",
         "count": 4,
         "uniques": 4
       }
@@ -216,12 +216,12 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 61718,
-        "thirty_day": 9556
+        "total": 61854,
+        "thirty_day": 9381
       }
     ],
-    "total": 61718,
-    "thirty_day": 9556
+    "total": 61854,
+    "thirty_day": 9381
   },
   "dependents": {
     "repositories": 0,

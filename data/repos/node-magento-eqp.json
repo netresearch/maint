@@ -51,17 +51,29 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 509,
-    "clones_unique": 78,
-    "views_total": 14,
-    "views_unique": 13,
-    "top_referrers": [],
+    "clones_total": 477,
+    "clones_unique": 68,
+    "views_total": 16,
+    "views_unique": 15,
+    "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/node-magento-eqp/blob/main/CONTRIBUTING.md",
         "title": "/blob/main/CONTRIBUTING.md",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/node-magento-eqp",
+        "title": "Overview",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/node-magento-eqp/blob/main/CHANGELOG.md",
@@ -76,8 +88,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/node-magento-eqp",
-        "title": "Overview",
+        "path": "/netresearch/node-magento-eqp/actions/runs/40613096959",
+        "title": "/actions/runs/40613096959",
         "count": 1,
         "uniques": 1
       },
@@ -108,12 +120,6 @@
       {
         "path": "/netresearch/node-magento-eqp/commits/main/CONTRIBUTING.md",
         "title": "/commits/main/CONTRIBUTING.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/node-magento-eqp/forks",
-        "title": "/forks",
         "count": 1,
         "uniques": 1
       }

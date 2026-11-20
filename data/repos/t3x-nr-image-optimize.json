@@ -17,7 +17,7 @@
   "homepage": "https://extensions.typo3.org/extension/nr_image_optimize",
   "default_branch": "main",
   "created_at": "2025-09-12T06:59:28Z",
-  "pushed_at": "2026-11-16T22:48:27Z",
+  "pushed_at": "2026-11-19T23:36:36Z",
   "updated_at": "2026-11-12T09:43:16Z",
   "composer_name": "netresearch/nr-image-optimize",
   "lifetime": {
@@ -25,11 +25,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 5,
+    "open_issues_plus_prs": 7,
     "commits": 655,
     "issues_open": 3,
     "issues_closed": 13,
-    "prs_open": 2,
+    "prs_open": 4,
     "prs_merged": 211,
     "prs_closed_unmerged": 15,
     "issues_total": 16,
@@ -37,25 +37,25 @@
     "release_downloads": 11,
     "contributors": 9,
     "external_contributors": 3,
-    "packagist_downloads": 3396,
+    "packagist_downloads": 3409,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 32,
+    "commits": 31,
     "issues_opened": 1,
-    "prs_opened": 16,
+    "prs_opened": 17,
     "prs_merged": 13,
     "releases": 0,
-    "packagist_downloads": 338,
+    "packagist_downloads": 344,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2397,
-    "clones_unique": 196,
-    "views_total": 16,
-    "views_unique": 15,
+    "clones_total": 1760,
+    "clones_unique": 148,
+    "views_total": 14,
+    "views_unique": 14,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -69,12 +69,6 @@
         "title": "/issues",
         "count": 4,
         "uniques": 4
-      },
-      {
-        "path": "/netresearch/t3x-nr-image-optimize/pull/214",
-        "title": "/pull/214",
-        "count": 2,
-        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-image-optimize/commit/5e8d7a593f68068e612b203d5a036a97f35f6e6b",
@@ -121,6 +115,12 @@
       {
         "path": "/netresearch/t3x-nr-image-optimize/tree/docs/agents-from-memory-cleanup",
         "title": "/tree/docs/agents-from-memory-cleanup",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-image-optimize/tree/fix/scorecard",
+        "title": "/tree/fix/scorecard",
         "count": 1,
         "uniques": 1
       }
@@ -181,9 +181,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-image-optimize",
-    "total": 3396,
-    "monthly": 338,
-    "daily": 10,
+    "total": 3409,
+    "monthly": 344,
+    "daily": 12,
     "url": "https://packagist.org/packages/netresearch/nr-image-optimize"
   },
   "ghcr": null,

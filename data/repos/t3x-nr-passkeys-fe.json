@@ -10,7 +10,7 @@
   "homepage": "https://www.netresearch.de/",
   "default_branch": "main",
   "created_at": "2026-03-15T19:35:10Z",
-  "pushed_at": "2026-11-19T03:43:14Z",
+  "pushed_at": "2026-11-19T22:49:42Z",
   "updated_at": "2026-11-12T09:58:11Z",
   "composer_name": "netresearch/nr-passkeys-fe",
   "lifetime": {
@@ -18,37 +18,37 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 5,
-    "commits": 554,
+    "open_issues_plus_prs": 2,
+    "commits": 570,
     "issues_open": 1,
     "issues_closed": 6,
-    "prs_open": 4,
-    "prs_merged": 105,
-    "prs_closed_unmerged": 7,
+    "prs_open": 1,
+    "prs_merged": 109,
+    "prs_closed_unmerged": 8,
     "issues_total": 7,
     "releases": 18,
-    "release_downloads": 218,
+    "release_downloads": 248,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 6991,
+    "packagist_downloads": 7087,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 89,
+    "commits": 104,
     "issues_opened": 0,
-    "prs_opened": 21,
-    "prs_merged": 16,
+    "prs_opened": 22,
+    "prs_merged": 20,
     "releases": 1,
-    "packagist_downloads": 3344,
+    "packagist_downloads": 3326,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1578,
-    "clones_unique": 107,
-    "views_total": 19,
-    "views_unique": 18,
+    "clones_total": 3930,
+    "clones_unique": 152,
+    "views_total": 23,
+    "views_unique": 19,
     "top_referrers": [
       {
         "referrer": "aocr.org",
@@ -57,8 +57,8 @@
       },
       {
         "referrer": "extensions.typo3.org",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "outlook.live.com",
@@ -70,8 +70,26 @@
       {
         "path": "/netresearch/t3x-nr-passkeys-fe",
         "title": "Overview",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/blob/main/Documentation/Configuration/Index.rst",
+        "title": "/blob/main/Documentation/Configuration/Index.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/blob/main/Documentation/Installation/Index.rst",
+        "title": "/blob/main/Documentation/Installation/Index.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-passkeys-fe/blob/main/Documentation/QuickStart/Index.rst",
+        "title": "/blob/main/Documentation/QuickStart/Index.rst",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-fe/commit/61d1ee2509f193a0634e67c868d5a5690e314001",
@@ -108,24 +126,6 @@
         "title": "/pull/36",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-fe/pull/39",
-        "title": "/pull/39",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-fe/pull/41",
-        "title": "/pull/41",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-fe/pull/47",
-        "title": "/pull/47",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -138,7 +138,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 503,
+      "contributions": 519,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -159,9 +159,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-fe",
-    "total": 6991,
-    "monthly": 3344,
-    "daily": 111,
+    "total": 7087,
+    "monthly": 3326,
+    "daily": 86,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-fe"
   },
   "ghcr": null,
@@ -170,7 +170,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-passkeys-fe/network/dependents"
   },
-  "estimated_downstream_reach": 112,
-  "blast_radius": 112,
+  "estimated_downstream_reach": 116,
+  "blast_radius": 116,
   "archived": false
 }
