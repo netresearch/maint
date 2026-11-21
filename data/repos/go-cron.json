@@ -50,10 +50,10 @@
     "packagist_downloads": 0,
     "ghcr_downloads": 0,
     "dependents_repos": 72,
-    "dependents_packages": 95
+    "dependents_packages": 97
   },
   "recent_30d": {
-    "commits": 277,
+    "commits": 275,
     "issues_opened": 19,
     "prs_opened": 52,
     "prs_merged": 51,
@@ -62,34 +62,29 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2729,
-    "clones_unique": 375,
-    "views_total": 680,
-    "views_unique": 241,
+    "clones_total": 2714,
+    "clones_unique": 373,
+    "views_total": 551,
+    "views_unique": 109,
     "top_referrers": [
       {
-        "referrer": "aocr.org",
-        "count": 136,
-        "uniques": 136
-      },
-      {
         "referrer": "Google",
-        "count": 34,
-        "uniques": 24
+        "count": 35,
+        "uniques": 22
       },
       {
         "referrer": "github.com",
-        "count": 13,
-        "uniques": 11
+        "count": 15,
+        "uniques": 12
+      },
+      {
+        "referrer": "awesome-go.com",
+        "count": 4,
+        "uniques": 4
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
         "count": 3,
-        "uniques": 2
-      },
-      {
-        "referrer": "awesome-go.com",
-        "count": 2,
         "uniques": 2
       },
       {
@@ -98,7 +93,17 @@
         "uniques": 1
       },
       {
+        "referrer": "aocr.org",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "referrer": "ecosia.org",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "referrer": "support.sailpoint.com",
         "count": 1,
         "uniques": 1
       },
@@ -110,16 +115,16 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/go-cron/pulls",
+        "title": "/pulls",
+        "count": 96,
+        "uniques": 5
+      },
+      {
         "path": "/netresearch/go-cron",
         "title": "Overview",
         "count": 90,
-        "uniques": 46
-      },
-      {
-        "path": "/netresearch/go-cron/pulls",
-        "title": "/pulls",
-        "count": 89,
-        "uniques": 4
+        "uniques": 43
       },
       {
         "path": "/netresearch/go-cron/pull/487",
@@ -130,20 +135,26 @@
       {
         "path": "/netresearch/go-cron/pull/480",
         "title": "/pull/480",
-        "count": 34,
+        "count": 30,
         "uniques": 3
-      },
-      {
-        "path": "/netresearch/go-cron/pull/478",
-        "title": "/pull/478",
-        "count": 25,
-        "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/issues",
         "title": "/issues",
-        "count": 18,
-        "uniques": 8
+        "count": 23,
+        "uniques": 6
+      },
+      {
+        "path": "/netresearch/go-cron/pull/478",
+        "title": "/pull/478",
+        "count": 17,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/go-cron/pull/494",
+        "title": "/pull/494",
+        "count": 17,
+        "uniques": 1
       },
       {
         "path": "/netresearch/go-cron/pull/492",
@@ -152,22 +163,16 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/go-cron/pull/479",
-        "title": "/pull/479",
-        "count": 12,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/go-cron/pull/489",
         "title": "/pull/489",
         "count": 12,
         "uniques": 1
       },
       {
-        "path": "/netresearch/go-cron/blob/main/docs/adr/ADR-027-fall-back-by-rhythm.md",
-        "title": "/blob/main/docs/adr/ADR-027-fall-back-by-rhythm.md",
-        "count": 8,
-        "uniques": 3
+        "path": "/netresearch/go-cron/pull/479",
+        "title": "/pull/479",
+        "count": 10,
+        "uniques": 2
       }
     ]
   },
@@ -233,7 +238,7 @@
   "ghcr": null,
   "dependents": {
     "repositories": 72,
-    "packages": 95,
+    "packages": 97,
     "url": "https://github.com/netresearch/go-cron/network/dependents"
   },
   "estimated_downstream_reach": 738,

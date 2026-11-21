@@ -10,7 +10,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-08T20:40:10Z",
-  "pushed_at": "2026-11-19T07:46:32Z",
+  "pushed_at": "2026-11-20T16:13:51Z",
   "updated_at": "2026-11-09T20:38:16Z",
   "composer_name": null,
   "lifetime": {
@@ -19,15 +19,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 3,
-    "commits": 171,
+    "commits": 176,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 2,
-    "prs_merged": 66,
+    "prs_merged": 68,
     "prs_closed_unmerged": 0,
     "issues_total": 2,
-    "releases": 9,
-    "release_downloads": 10,
+    "releases": 10,
+    "release_downloads": 69,
     "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -36,25 +36,20 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 30,
+    "commits": 33,
     "issues_opened": 0,
-    "prs_opened": 16,
-    "prs_merged": 14,
-    "releases": 1,
+    "prs_opened": 17,
+    "prs_merged": 15,
+    "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2128,
-    "clones_unique": 182,
-    "views_total": 23,
-    "views_unique": 20,
+    "clones_total": 2168,
+    "clones_unique": 187,
+    "views_total": 9,
+    "views_unique": 6,
     "top_referrers": [
-      {
-        "referrer": "aocr.org",
-        "count": 14,
-        "uniques": 14
-      },
       {
         "referrer": "Google",
         "count": 1,
@@ -73,50 +68,14 @@
     ],
     "top_paths": [
       {
-        "path": "/netresearch/typo3-a11y-skill/pull/12/files/054c0420e412b1f82453ca1fd651ab272b91cc53",
-        "title": "/pull/12/files/054c0420e412b1f82453ca1fd651ab272b91cc53",
-        "count": 7,
-        "uniques": 7
-      },
-      {
         "path": "/netresearch/typo3-a11y-skill",
         "title": "Overview",
         "count": 6,
         "uniques": 5
       },
       {
-        "path": "/netresearch/typo3-a11y-skill/tree/feat/absorb-frontend-patterns",
-        "title": "/tree/feat/absorb-frontend-patterns",
-        "count": 3,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/typo3-a11y-skill/blob/main/skills/typo3-a11y/SKILL.md",
         "title": "/blob/main/skills/typo3-a11y/SKILL.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-a11y-skill/commit/eaf5a0e8dee1537f1c5af7046b3aadad27af8d28",
-        "title": "/commit/eaf5a0e8dee1537f1c5af7046b3aadad27af8d28",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-a11y-skill/issues/11",
-        "title": "/issues/11",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-a11y-skill/pull/12",
-        "title": "/pull/12",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-a11y-skill/pull/2",
-        "title": "/pull/2",
         "count": 1,
         "uniques": 1
       },
@@ -135,15 +94,15 @@
     ]
   },
   "latest_release": {
-    "name": "v1.7.1",
-    "tag_name": "v1.7.1",
-    "published_at": "2026-10-23T11:59:22Z",
-    "url": "https://github.com/netresearch/typo3-a11y-skill/releases/tag/v1.7.1"
+    "name": "v1.8.0",
+    "tag_name": "v1.8.0",
+    "published_at": "2026-11-20T16:14:27Z",
+    "url": "https://github.com/netresearch/typo3-a11y-skill/releases/tag/v1.8.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 92,
+      "contributions": 97,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -174,7 +133,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-a11y-skill/network/dependents"
   },
-  "estimated_downstream_reach": 71,
-  "blast_radius": 71,
+  "estimated_downstream_reach": 73,
+  "blast_radius": 73,
   "archived": false
 }

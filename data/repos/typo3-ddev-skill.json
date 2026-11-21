@@ -22,7 +22,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-21T10:05:16Z",
-  "pushed_at": "2026-11-19T04:25:26Z",
+  "pushed_at": "2026-11-20T14:36:05Z",
   "updated_at": "2026-11-12T04:52:45Z",
   "composer_name": null,
   "lifetime": {
@@ -48,28 +48,23 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 32,
+    "commits": 30,
     "issues_opened": 0,
-    "prs_opened": 16,
-    "prs_merged": 15,
+    "prs_opened": 15,
+    "prs_merged": 14,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2968,
+    "clones_total": 3022,
     "clones_unique": 213,
-    "views_total": 47,
-    "views_unique": 45,
+    "views_total": 22,
+    "views_unique": 20,
     "top_referrers": [
       {
-        "referrer": "aocr.org",
-        "count": 23,
-        "uniques": 23
-      },
-      {
         "referrer": "Google",
-        "count": 3,
+        "count": 4,
         "uniques": 3
       },
       {
@@ -87,60 +82,60 @@
       {
         "path": "/netresearch/typo3-ddev-skill",
         "title": "Overview",
-        "count": 10,
-        "uniques": 8
+        "count": 7,
+        "uniques": 5
       },
       {
-        "path": "/netresearch/typo3-ddev-skill/activity",
-        "title": "/activity",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/GITHUB_SETUP.md",
-        "title": "/blob/main/GITHUB_SETUP.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/main/SKILL.md",
-        "title": "/blob/main/SKILL.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/compare/d01d0ee14a67ebf2babbf450b4d25d28467e3c8b..ff7e56256c286f4d46c7cfe5968f8ca7471d70f9",
-        "title": "/compare/d01d0ee14a67ebf2babbf450b4d25d28467e3c8b..ff7e56256c286f4d46c7cfe5968f8ca7471d70f9",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/pull/26",
-        "title": "/pull/26",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/pull/46",
-        "title": "/pull/46",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/tree/docs/backend-asset-cache",
-        "title": "/tree/docs/backend-asset-cache",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/tree/docs/container-file-editing",
-        "title": "/tree/docs/container-file-editing",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/typo3-ddev-skill/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
+        "title": "/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/typo3-ddev-skill/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/README.md",
         "title": "/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/0001-valkey-default-with-redis-alternative.md",
+        "title": "/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/0001-valkey-default-with-redis-alternative.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/0002-mariadb-default-with-database-alternatives.md",
+        "title": "/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/0002-mariadb-default-with-database-alternatives.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/advanced-options.md",
+        "title": "/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/advanced-options.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/documentation-rendering.md",
+        "title": "/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/documentation-rendering.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/index-page-generation.md",
+        "title": "/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/index-page-generation.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/post-setup-verification.md",
+        "title": "/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/post-setup-verification.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/prerequisites-validation.md",
+        "title": "/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/prerequisites-validation.md",
         "count": 1,
         "uniques": 1
       }

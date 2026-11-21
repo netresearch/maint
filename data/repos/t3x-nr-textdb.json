@@ -24,7 +24,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-09-29T09:01:16Z",
-  "pushed_at": "2026-11-19T21:03:12Z",
+  "pushed_at": "2026-11-20T19:01:23Z",
   "updated_at": "2026-11-12T09:53:02Z",
   "composer_name": "netresearch/nr-textdb",
   "lifetime": {
@@ -32,42 +32,42 @@
     "forks": 0,
     "watchers": 4,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 871,
+    "open_issues_plus_prs": 1,
+    "commits": 875,
     "issues_open": 1,
     "issues_closed": 45,
-    "prs_open": 1,
-    "prs_merged": 161,
+    "prs_open": 0,
+    "prs_merged": 162,
     "prs_closed_unmerged": 28,
     "issues_total": 46,
     "releases": 24,
     "release_downloads": 98,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 4905,
+    "packagist_downloads": 4907,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 121,
+    "commits": 122,
     "issues_opened": 0,
     "prs_opened": 60,
     "prs_merged": 60,
     "releases": 3,
-    "packagist_downloads": 1850,
+    "packagist_downloads": 1839,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1359,
-    "clones_unique": 127,
-    "views_total": 40,
-    "views_unique": 39,
+    "clones_total": 986,
+    "clones_unique": 118,
+    "views_total": 22,
+    "views_unique": 21,
     "top_referrers": [
       {
-        "referrer": "aocr.org",
-        "count": 18,
-        "uniques": 18
+        "referrer": "Google",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "github.com",
@@ -77,28 +77,10 @@
     ],
     "top_paths": [
       {
-        "path": "/netresearch/t3x-nr-textdb/issues/31",
-        "title": "/issues/31",
-        "count": 5,
-        "uniques": 5
-      },
-      {
         "path": "/netresearch/t3x-nr-textdb/pull/226",
         "title": "/pull/226",
         "count": 5,
         "uniques": 5
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb/issues/93",
-        "title": "/issues/93",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/t3x-nr-textdb/issues",
-        "title": "/issues",
-        "count": 2,
-        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-textdb/pull/230",
@@ -125,14 +107,32 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/commit/12cd7f4",
-        "title": "/commit/12cd7f4",
+        "path": "/netresearch/t3x-nr-textdb/commits/main/ext_conf_template.txt",
+        "title": "/commits/main/ext_conf_template.txt",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/commit/470d0a970b0e5bb8e1650649c345684d1a78ea84",
-        "title": "/commit/470d0a970b0e5bb8e1650649c345684d1a78ea84",
+        "path": "/netresearch/t3x-nr-textdb/issues/144",
+        "title": "/issues/144",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/pull/171",
+        "title": "/pull/171",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/pull/192",
+        "title": "/pull/192",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/pull/204",
+        "title": "/pull/204",
         "count": 1,
         "uniques": 1
       }
@@ -147,7 +147,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 718,
+      "contributions": 722,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -188,9 +188,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 4905,
-    "monthly": 1850,
-    "daily": 1,
+    "total": 4907,
+    "monthly": 1839,
+    "daily": 2,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,
@@ -199,7 +199,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-textdb/network/dependents"
   },
-  "estimated_downstream_reach": 215,
-  "blast_radius": 215,
+  "estimated_downstream_reach": 216,
+  "blast_radius": 216,
   "archived": false
 }

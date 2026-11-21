@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-28T08:06:06Z",
-  "pushed_at": "2026-11-16T16:36:25Z",
+  "pushed_at": "2026-11-20T05:20:53Z",
   "updated_at": "2026-11-10T00:11:41Z",
   "composer_name": null,
   "lifetime": {
@@ -21,11 +21,11 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 2,
-    "commits": 736,
+    "commits": 738,
     "issues_open": 2,
     "issues_closed": 18,
     "prs_open": 0,
-    "prs_merged": 243,
+    "prs_merged": 244,
     "prs_closed_unmerged": 10,
     "issues_total": 20,
     "releases": 29,
@@ -40,27 +40,22 @@
   "recent_30d": {
     "commits": 17,
     "issues_opened": 0,
-    "prs_opened": 8,
-    "prs_merged": 8,
+    "prs_opened": 9,
+    "prs_merged": 9,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 561,
-    "clones_unique": 81,
-    "views_total": 50,
-    "views_unique": 41,
+    "clones_total": 562,
+    "clones_unique": 80,
+    "views_total": 36,
+    "views_unique": 27,
     "top_referrers": [
       {
-        "referrer": "aocr.org",
-        "count": 21,
-        "uniques": 21
-      },
-      {
         "referrer": "Google",
-        "count": 10,
-        "uniques": 9
+        "count": 11,
+        "uniques": 10
       },
       {
         "referrer": "github.com",
@@ -72,18 +67,12 @@
       {
         "path": "/netresearch/simple-ldap-go",
         "title": "Overview",
-        "count": 10,
-        "uniques": 9
+        "count": 17,
+        "uniques": 16
       },
       {
         "path": "/netresearch/simple-ldap-go/blob/main/sam_account_type.go",
         "title": "/blob/main/sam_account_type.go",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/simple-ldap-go/pull/42/commits/c1975eb7386fdfe0a9f6e2afca12c930622d5edb",
-        "title": "/pull/42/commits/c1975eb7386fdfe0a9f6e2afca12c930622d5edb",
         "count": 2,
         "uniques": 2
       },
@@ -128,6 +117,12 @@
         "title": "/blob/main/examples/README.md",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/blob/main/examples/basic-usage/basic_usage.go",
+        "title": "/blob/main/examples/basic-usage/basic_usage.go",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -145,7 +140,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 176,
+      "contributions": 177,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -154,14 +149,14 @@
       "url": "https://github.com/TheDevMinerTV"
     },
     {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 9,
+      "url": "https://github.com/apps/netresearch-project-bot"
+    },
+    {
       "login": "dependabot[bot]",
       "contributions": 8,
       "url": "https://github.com/apps/dependabot"
-    },
-    {
-      "login": "netresearch-project-bot[bot]",
-      "contributions": 8,
-      "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
       "login": "github-actions[bot]",
@@ -186,7 +181,7 @@
     "packages": 5,
     "url": "https://github.com/netresearch/simple-ldap-go/network/dependents"
   },
-  "estimated_downstream_reach": 283,
-  "blast_radius": 283,
+  "estimated_downstream_reach": 284,
+  "blast_radius": 284,
   "archived": false
 }

@@ -16,7 +16,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2024-04-24T13:18:29Z",
-  "pushed_at": "2026-11-19T21:04:15Z",
+  "pushed_at": "2026-11-20T22:57:55Z",
   "updated_at": "2026-11-12T11:58:41Z",
   "composer_name": "netresearch/universal-messenger",
   "lifetime": {
@@ -24,14 +24,14 @@
     "forks": 0,
     "watchers": 3,
     "network": 0,
-    "open_issues_plus_prs": 21,
-    "commits": 422,
-    "issues_open": 19,
+    "open_issues_plus_prs": 20,
+    "commits": 432,
+    "issues_open": 20,
     "issues_closed": 50,
-    "prs_open": 2,
-    "prs_merged": 127,
+    "prs_open": 0,
+    "prs_merged": 130,
     "prs_closed_unmerged": 16,
-    "issues_total": 69,
+    "issues_total": 70,
     "releases": 13,
     "release_downloads": 14,
     "contributors": 6,
@@ -42,37 +42,26 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 33,
-    "issues_opened": 1,
+    "commits": 38,
+    "issues_opened": 2,
     "prs_opened": 15,
-    "prs_merged": 14,
+    "prs_merged": 17,
     "releases": 1,
     "packagist_downloads": 2,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1617,
-    "clones_unique": 134,
-    "views_total": 25,
-    "views_unique": 19,
-    "top_referrers": [
-      {
-        "referrer": "aocr.org",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "referrer": "extensions.typo3.org",
-        "count": 2,
-        "uniques": 2
-      }
-    ],
+    "clones_total": 1362,
+    "clones_unique": 126,
+    "views_total": 14,
+    "views_unique": 13,
+    "top_referrers": [],
     "top_paths": [
       {
         "path": "/netresearch/t3x-universal-messenger",
         "title": "Overview",
-        "count": 6,
-        "uniques": 6
+        "count": 4,
+        "uniques": 4
       },
       {
         "path": "/netresearch/t3x-universal-messenger/pull/203",
@@ -81,26 +70,8 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/t3x-universal-messenger/activity",
-        "title": "/activity",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-universal-messenger/branches",
-        "title": "/branches",
-        "count": 2,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/t3x-universal-messenger/blob/7a614d709a4914502f840468c4e3a9646ef5f784/docs/SECURITY-ASSURANCE.md",
         "title": "/blob/7a614d709a4914502f840468c4e3a9646ef5f784/docs/SECURITY-ASSURANCE.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-universal-messenger/blob/HEAD/docs/SECURITY-ASSURANCE.md",
-        "title": "/blob/HEAD/docs/SECURITY-ASSURANCE.md",
         "count": 1,
         "uniques": 1
       },
@@ -117,14 +88,26 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-universal-messenger/branches/all",
-        "title": "/branches/all",
+        "path": "/netresearch/t3x-universal-messenger/commit/67d1f4a855f67c3e40f796f07f0655aa9a7e23f5",
+        "title": "/commit/67d1f4a855f67c3e40f796f07f0655aa9a7e23f5",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-universal-messenger/branches/stale",
-        "title": "/branches/stale",
+        "path": "/netresearch/t3x-universal-messenger/pull/167",
+        "title": "/pull/167",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-universal-messenger/pull/202",
+        "title": "/pull/202",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-universal-messenger/releases",
+        "title": "/releases",
         "count": 1,
         "uniques": 1
       }
@@ -144,12 +127,12 @@
     },
     {
       "login": "CybotTM",
-      "contributions": 160,
+      "contributions": 168,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 30,
+      "contributions": 32,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -181,7 +164,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-universal-messenger/network/dependents"
   },
-  "estimated_downstream_reach": 196,
-  "blast_radius": 196,
+  "estimated_downstream_reach": 200,
+  "blast_radius": 200,
   "archived": false
 }

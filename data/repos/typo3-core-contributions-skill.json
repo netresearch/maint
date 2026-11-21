@@ -20,7 +20,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-27T12:47:18Z",
-  "pushed_at": "2026-11-19T20:59:58Z",
+  "pushed_at": "2026-11-20T22:22:14Z",
   "updated_at": "2026-11-11T22:55:00Z",
   "composer_name": null,
   "lifetime": {
@@ -28,16 +28,16 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 397,
+    "open_issues_plus_prs": 2,
+    "commits": 403,
     "issues_open": 1,
     "issues_closed": 0,
-    "prs_open": 2,
-    "prs_merged": 123,
+    "prs_open": 1,
+    "prs_merged": 126,
     "prs_closed_unmerged": 1,
     "issues_total": 1,
-    "releases": 43,
-    "release_downloads": 335,
+    "releases": 44,
+    "release_downloads": 341,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -46,25 +46,20 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 90,
+    "commits": 91,
     "issues_opened": 0,
-    "prs_opened": 35,
-    "prs_merged": 33,
-    "releases": 6,
+    "prs_opened": 36,
+    "prs_merged": 35,
+    "releases": 7,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4206,
-    "clones_unique": 363,
-    "views_total": 18,
-    "views_unique": 18,
+    "clones_total": 4448,
+    "clones_unique": 374,
+    "views_total": 6,
+    "views_unique": 6,
     "top_referrers": [
-      {
-        "referrer": "aocr.org",
-        "count": 9,
-        "uniques": 9
-      },
       {
         "referrer": "netresearch.github.io",
         "count": 1,
@@ -73,22 +68,16 @@
     ],
     "top_paths": [
       {
-        "path": "/netresearch/typo3-core-contributions-skill",
-        "title": "Overview",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/typo3-core-contributions-skill/blob/8a974e51868c88144719f96ecc544ed6ee83dd52/skills/typo3-core-contributions/references/gerrit-workflow.md",
         "title": "/blob/8a974e51868c88144719f96ecc544ed6ee83dd52/skills/typo3-core-contributions/references/gerrit-workflow.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/typo3-core-contributions-skill/graphs/contributors",
-        "title": "/graphs/contributors",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/typo3-core-contributions-skill",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/typo3-core-contributions-skill/blob/035b496c4fdceb9c64f96f5a2043a79ae9a10c0a/skills/typo3-core-contributions/references/troubleshooting.md",
@@ -107,53 +96,29 @@
         "title": "/blob/HEAD/skills/typo3-core-contributions/references/modern-typo3-patterns.md",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-core-contributions-skill/commit/0564248c8d2167222dea4091a97b4fd2af826bf8",
-        "title": "/commit/0564248c8d2167222dea4091a97b4fd2af826bf8",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-core-contributions-skill/forks",
-        "title": "/forks",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-core-contributions-skill/pull/104",
-        "title": "/pull/104",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-core-contributions-skill/pull/108",
-        "title": "/pull/108",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.19.4",
-    "tag_name": "v1.19.4",
-    "published_at": "2026-11-18T17:09:12Z",
-    "url": "https://github.com/netresearch/typo3-core-contributions-skill/releases/tag/v1.19.4"
+    "name": "v1.19.5",
+    "tag_name": "v1.19.5",
+    "published_at": "2026-11-20T16:05:42Z",
+    "url": "https://github.com/netresearch/typo3-core-contributions-skill/releases/tag/v1.19.5"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 333,
+      "contributions": 337,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 41,
+      "contributions": 42,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 18,
+      "contributions": 19,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -169,7 +134,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-core-contributions-skill/network/dependents"
   },
-  "estimated_downstream_reach": 124,
-  "blast_radius": 124,
+  "estimated_downstream_reach": 127,
+  "blast_radius": 127,
   "archived": false
 }

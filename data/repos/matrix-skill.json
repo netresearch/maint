@@ -27,7 +27,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-31T12:42:05Z",
-  "pushed_at": "2026-11-19T04:56:23Z",
+  "pushed_at": "2026-11-20T16:01:53Z",
   "updated_at": "2026-11-12T12:05:12Z",
   "composer_name": null,
   "lifetime": {
@@ -35,16 +35,16 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 3,
-    "commits": 622,
-    "issues_open": 1,
+    "open_issues_plus_prs": 4,
+    "commits": 631,
+    "issues_open": 2,
     "issues_closed": 23,
     "prs_open": 2,
-    "prs_merged": 191,
+    "prs_merged": 194,
     "prs_closed_unmerged": 0,
-    "issues_total": 24,
-    "releases": 69,
-    "release_downloads": 1002,
+    "issues_total": 25,
+    "releases": 70,
+    "release_downloads": 1012,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -53,29 +53,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 102,
-    "issues_opened": 0,
-    "prs_opened": 40,
-    "prs_merged": 38,
+    "commits": 107,
+    "issues_opened": 1,
+    "prs_opened": 41,
+    "prs_merged": 39,
     "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2788,
-    "clones_unique": 603,
-    "views_total": 92,
-    "views_unique": 81,
+    "clones_total": 2752,
+    "clones_unique": 563,
+    "views_total": 54,
+    "views_unique": 42,
     "top_referrers": [
-      {
-        "referrer": "aocr.org",
-        "count": 35,
-        "uniques": 35
-      },
       {
         "referrer": "Google",
         "count": 29,
-        "uniques": 19
+        "uniques": 18
       },
       {
         "referrer": "DuckDuckGo",
@@ -93,8 +88,8 @@
       {
         "path": "/netresearch/matrix-skill",
         "title": "Overview",
-        "count": 11,
-        "uniques": 11
+        "count": 10,
+        "uniques": 10
       },
       {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/hookshot-integration.md",
@@ -109,26 +104,8 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/matrix-skill/pull/49",
-        "title": "/pull/49",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/matrix-skill/tree/main",
-        "title": "/tree/main",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/matrix-skill/issues/43",
         "title": "/issues/43",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/matrix-skill/tree/feat/retro-nio-e2ee-trust",
-        "title": "/tree/feat/retro-nio-e2ee-trust",
         "count": 3,
         "uniques": 3
       },
@@ -139,23 +116,41 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/matrix-skill/commit/600fb7f48df3eb4752b257496d63a5d0b010db40",
-        "title": "/commit/600fb7f48df3eb4752b257496d63a5d0b010db40",
+        "path": "/netresearch/matrix-skill/blob/main/docs/ARCHITECTURE.md",
+        "title": "/blob/main/docs/ARCHITECTURE.md",
         "count": 2,
-        "uniques": 2
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/main/SECURITY-AUDIT.md",
+        "title": "/blob/main/SECURITY-AUDIT.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-announcement/references/glyphs.md",
+        "title": "/blob/main/skills/matrix-announcement/references/glyphs.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-announcement/references/image-cards.md",
+        "title": "/blob/main/skills/matrix-announcement/references/image-cards.md",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v4.4.0",
-    "tag_name": "v4.4.0",
-    "published_at": "2026-11-18T09:28:21Z",
-    "url": "https://github.com/netresearch/matrix-skill/releases/tag/v4.4.0"
+    "name": "v4.4.1",
+    "tag_name": "v4.4.1",
+    "published_at": "2026-11-20T16:02:58Z",
+    "url": "https://github.com/netresearch/matrix-skill/releases/tag/v4.4.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 491,
+      "contributions": 500,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -191,7 +186,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/matrix-skill/network/dependents"
   },
-  "estimated_downstream_reach": 218,
-  "blast_radius": 218,
+  "estimated_downstream_reach": 222,
+  "blast_radius": 222,
   "archived": false
 }

@@ -10,7 +10,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-10T11:16:02Z",
-  "pushed_at": "2026-11-19T04:53:38Z",
+  "pushed_at": "2026-11-20T15:55:02Z",
   "updated_at": "2026-11-12T01:11:38Z",
   "composer_name": null,
   "lifetime": {
@@ -19,15 +19,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 575,
+    "commits": 584,
     "issues_open": 1,
     "issues_closed": 13,
     "prs_open": 1,
-    "prs_merged": 221,
+    "prs_merged": 225,
     "prs_closed_unmerged": 2,
     "issues_total": 14,
-    "releases": 41,
-    "release_downloads": 378,
+    "releases": 42,
+    "release_downloads": 384,
     "contributors": 3,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -36,29 +36,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 113,
+    "commits": 120,
     "issues_opened": 1,
-    "prs_opened": 45,
-    "prs_merged": 44,
-    "releases": 6,
+    "prs_opened": 48,
+    "prs_merged": 47,
+    "releases": 7,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5310,
-    "clones_unique": 492,
-    "views_total": 124,
-    "views_unique": 94,
+    "clones_total": 5291,
+    "clones_unique": 485,
+    "views_total": 109,
+    "views_unique": 78,
     "top_referrers": [
       {
-        "referrer": "aocr.org",
-        "count": 18,
-        "uniques": 18
-      },
-      {
         "referrer": "github.com",
-        "count": 6,
-        "uniques": 4
+        "count": 8,
+        "uniques": 5
       },
       {
         "referrer": "Google",
@@ -70,24 +65,18 @@
       {
         "path": "/netresearch/github-release-skill",
         "title": "Overview",
-        "count": 12,
+        "count": 13,
         "uniques": 11
       },
       {
         "path": "/netresearch/github-release-skill/releases",
         "title": "/releases",
-        "count": 8,
-        "uniques": 8
+        "count": 7,
+        "uniques": 7
       },
       {
         "path": "/netresearch/github-release-skill/compare/v0.12.0...v0.12.1",
         "title": "/compare/v0.12.0...v0.12.1",
-        "count": 4,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/github-release-skill/issues",
-        "title": "/issues",
         "count": 4,
         "uniques": 4
       },
@@ -126,29 +115,35 @@
         "title": "/compare/v1.0.4...v1.1.0",
         "count": 3,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/github-release-skill/compare/v1.1.0...v1.2.0",
+        "title": "/compare/v1.1.0...v1.2.0",
+        "count": 3,
+        "uniques": 3
       }
     ]
   },
   "latest_release": {
-    "name": "v1.6.2",
-    "tag_name": "v1.6.2",
-    "published_at": "2026-11-18T17:06:13Z",
-    "url": "https://github.com/netresearch/github-release-skill/releases/tag/v1.6.2"
+    "name": "v1.6.3",
+    "tag_name": "v1.6.3",
+    "published_at": "2026-11-20T15:51:51Z",
+    "url": "https://github.com/netresearch/github-release-skill/releases/tag/v1.6.3"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 517,
+      "contributions": 524,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 46,
+      "contributions": 47,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 12,
+      "contributions": 13,
       "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
@@ -159,7 +154,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-release-skill/network/dependents"
   },
-  "estimated_downstream_reach": 235,
-  "blast_radius": 235,
+  "estimated_downstream_reach": 239,
+  "blast_radius": 239,
   "archived": false
 }

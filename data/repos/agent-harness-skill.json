@@ -18,7 +18,7 @@
   "homepage": "https://github.com/netresearch/claude-code-marketplace",
   "default_branch": "main",
   "created_at": "2026-03-22T09:31:51Z",
-  "pushed_at": "2026-11-19T07:43:39Z",
+  "pushed_at": "2026-11-20T12:32:51Z",
   "updated_at": "2026-11-18T13:40:34Z",
   "composer_name": null,
   "lifetime": {
@@ -44,34 +44,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 47,
+    "commits": 45,
     "issues_opened": 0,
-    "prs_opened": 21,
-    "prs_merged": 20,
+    "prs_opened": 20,
+    "prs_merged": 19,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3127,
-    "clones_unique": 336,
-    "views_total": 113,
-    "views_unique": 86,
+    "clones_total": 3063,
+    "clones_unique": 322,
+    "views_total": 93,
+    "views_unique": 69,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 58,
-        "uniques": 39
-      },
-      {
-        "referrer": "aocr.org",
-        "count": 7,
-        "uniques": 7
+        "count": 51,
+        "uniques": 34
       },
       {
         "referrer": "github.com",
-        "count": 5,
-        "uniques": 5
+        "count": 4,
+        "uniques": 4
       },
       {
         "referrer": "Bing",
@@ -83,13 +78,13 @@
       {
         "path": "/netresearch/agent-harness-skill",
         "title": "Overview",
-        "count": 55,
-        "uniques": 50
+        "count": 46,
+        "uniques": 41
       },
       {
         "path": "/netresearch/agent-harness-skill/blob/main/docs/plans/2026-10-25-review-evidence.md",
         "title": "/blob/main/docs/plans/2026-10-25-review-evidence.md",
-        "count": 9,
+        "count": 7,
         "uniques": 1
       },
       {
@@ -111,20 +106,14 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/references/adr/001-verify-first-design.md",
-        "title": "/blob/main/skills/agent-harness/references/adr/001-verify-first-design.md",
+        "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/references/adr/003-skill-delegation-model.md",
+        "title": "/blob/main/skills/agent-harness/references/adr/003-skill-delegation-model.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/agent-harness-skill/tree/main",
-        "title": "/tree/main",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/agent-harness-skill/tree/main/skills/agent-harness/references",
-        "title": "/tree/main/skills/agent-harness/references",
+        "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/references/enforcement-mechanisms.md",
+        "title": "/blob/main/skills/agent-harness/references/enforcement-mechanisms.md",
         "count": 2,
         "uniques": 2
       },
@@ -137,6 +126,12 @@
       {
         "path": "/netresearch/agent-harness-skill/blob/852504c6887f0a18b3feb47d75b51a36dff44d88/README.md",
         "title": "/blob/852504c6887f0a18b3feb47d75b51a36dff44d88/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/agent-harness-skill/blob/852504c6887f0a18b3feb47d75b51a36dff44d88/skills/agent-harness/SKILL.md",
+        "title": "/blob/852504c6887f0a18b3feb47d75b51a36dff44d88/skills/agent-harness/SKILL.md",
         "count": 1,
         "uniques": 1
       }

@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-25T11:46:20Z",
-  "pushed_at": "2026-11-19T05:51:05Z",
+  "pushed_at": "2026-11-20T17:01:51Z",
   "updated_at": "2026-11-12T03:36:46Z",
   "composer_name": null,
   "lifetime": {
@@ -21,15 +21,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 321,
+    "commits": 327,
     "issues_open": 1,
     "issues_closed": 4,
     "prs_open": 1,
-    "prs_merged": 118,
+    "prs_merged": 121,
     "prs_closed_unmerged": 1,
     "issues_total": 5,
-    "releases": 30,
-    "release_downloads": 287,
+    "releases": 31,
+    "release_downloads": 293,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -38,25 +38,20 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 82,
+    "commits": 86,
     "issues_opened": 1,
-    "prs_opened": 33,
-    "prs_merged": 31,
-    "releases": 6,
+    "prs_opened": 35,
+    "prs_merged": 33,
+    "releases": 7,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3649,
-    "clones_unique": 414,
-    "views_total": 63,
-    "views_unique": 43,
+    "clones_total": 3717,
+    "clones_unique": 417,
+    "views_total": 50,
+    "views_unique": 30,
     "top_referrers": [
-      {
-        "referrer": "aocr.org",
-        "count": 12,
-        "uniques": 12
-      },
       {
         "referrer": "Google",
         "count": 9,
@@ -98,26 +93,8 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/data-tools-skill/blob/main/skills/data-tools/references/csv-processing.md",
-        "title": "/blob/main/skills/data-tools/references/csv-processing.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/data-tools-skill/pull/35",
-        "title": "/pull/35",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/data-tools-skill/releases/tag/v1.9.12",
         "title": "/releases/tag/v1.9.12",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/data-tools-skill/tree/main",
-        "title": "/tree/main",
         "count": 2,
         "uniques": 2
       },
@@ -138,19 +115,37 @@
         "title": "/blob/97856a898011532ab0f9519c0188cf967c4f5eb8/skills/data-tools/references/mlr-cookbook.md",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/data-tools-skill/blob/HEAD/skills/data-tools/references/dasel-cookbook.md",
+        "title": "/blob/HEAD/skills/data-tools/references/dasel-cookbook.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/data-tools-skill/blob/eb5e2a0c0c4d87765fa791b3e14fc60d94abfdbc/skills/data-tools/references/csv-processing.md",
+        "title": "/blob/eb5e2a0c0c4d87765fa791b3e14fc60d94abfdbc/skills/data-tools/references/csv-processing.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/data-tools-skill/blob/eb5e2a0c0c4d87765fa791b3e14fc60d94abfdbc/skills/data-tools/references/yq-cookbook.md",
+        "title": "/blob/eb5e2a0c0c4d87765fa791b3e14fc60d94abfdbc/skills/data-tools/references/yq-cookbook.md",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v1.9.12",
-    "tag_name": "v1.9.12",
-    "published_at": "2026-11-18T17:05:01Z",
-    "url": "https://github.com/netresearch/data-tools-skill/releases/tag/v1.9.12"
+    "name": "v1.9.13",
+    "tag_name": "v1.9.13",
+    "published_at": "2026-11-20T15:42:41Z",
+    "url": "https://github.com/netresearch/data-tools-skill/releases/tag/v1.9.13"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 253,
+      "contributions": 259,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -176,7 +171,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/data-tools-skill/network/dependents"
   },
-  "estimated_downstream_reach": 123,
-  "blast_radius": 123,
+  "estimated_downstream_reach": 126,
+  "blast_radius": 126,
   "archived": false
 }

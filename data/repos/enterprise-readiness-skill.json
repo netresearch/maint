@@ -22,7 +22,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-29T17:57:15Z",
-  "pushed_at": "2026-11-19T05:33:11Z",
+  "pushed_at": "2026-11-20T15:49:17Z",
   "updated_at": "2026-11-12T01:23:22Z",
   "composer_name": null,
   "lifetime": {
@@ -31,15 +31,15 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 2,
-    "commits": 527,
+    "commits": 534,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 1,
-    "prs_merged": 172,
+    "prs_merged": 174,
     "prs_closed_unmerged": 2,
     "issues_total": 4,
-    "releases": 55,
-    "release_downloads": 365,
+    "releases": 56,
+    "release_downloads": 377,
     "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -48,25 +48,20 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 55,
+    "commits": 60,
     "issues_opened": 0,
-    "prs_opened": 24,
-    "prs_merged": 25,
-    "releases": 2,
+    "prs_opened": 25,
+    "prs_merged": 26,
+    "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3045,
-    "clones_unique": 290,
-    "views_total": 33,
-    "views_unique": 28,
+    "clones_total": 3059,
+    "clones_unique": 294,
+    "views_total": 23,
+    "views_unique": 18,
     "top_referrers": [
-      {
-        "referrer": "aocr.org",
-        "count": 13,
-        "uniques": 13
-      },
       {
         "referrer": "Google",
         "count": 7,
@@ -78,6 +73,11 @@
         "uniques": 3
       },
       {
+        "referrer": "aocr.org",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "referrer": "awesome.ecosyste.ms",
         "count": 1,
         "uniques": 1
@@ -87,30 +87,18 @@
       {
         "path": "/netresearch/enterprise-readiness-skill",
         "title": "Overview",
-        "count": 16,
-        "uniques": 11
-      },
-      {
-        "path": "/netresearch/enterprise-readiness-skill/commit/1f33a3449d8858efe7638890dbe263eaa763a9be",
-        "title": "/commit/1f33a3449d8858efe7638890dbe263eaa763a9be",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/enterprise-readiness-skill/pull/76",
-        "title": "/pull/76",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/enterprise-readiness-skill/actions/runs/39917560988",
-        "title": "/actions/runs/39917560988",
-        "count": 1,
-        "uniques": 1
+        "count": 15,
+        "uniques": 10
       },
       {
         "path": "/netresearch/enterprise-readiness-skill/blob/main/README.md",
         "title": "/blob/main/README.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/actions/runs/39917560988",
+        "title": "/actions/runs/39917560988",
         "count": 1,
         "uniques": 1
       },
@@ -121,41 +109,35 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/enterprise-readiness-skill/commit/7b205e63864ed3507ec3bf53399ccbd34c5d0ccf",
-        "title": "/commit/7b205e63864ed3507ec3bf53399ccbd34c5d0ccf",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/enterprise-readiness-skill/commit/b681179ccc32755ac1530240631e83cbf89c8067",
-        "title": "/commit/b681179ccc32755ac1530240631e83cbf89c8067",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/enterprise-readiness-skill/commit/f33135ad59768419eee9c92129302d51990ef2d7",
         "title": "/commit/f33135ad59768419eee9c92129302d51990ef2d7",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/enterprise-readiness-skill/pull/151",
-        "title": "/pull/151",
+        "path": "/netresearch/enterprise-readiness-skill/issues",
+        "title": "/issues",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/enterprise-readiness-skill/tree/main/.claude-plugin",
+        "title": "/tree/main/.claude-plugin",
         "count": 1,
         "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v4.20.0",
-    "tag_name": "v4.20.0",
-    "published_at": "2026-11-04T13:01:23Z",
-    "url": "https://github.com/netresearch/enterprise-readiness-skill/releases/tag/v4.20.0"
+    "name": "v4.20.1",
+    "tag_name": "v4.20.1",
+    "published_at": "2026-11-20T15:50:01Z",
+    "url": "https://github.com/netresearch/enterprise-readiness-skill/releases/tag/v4.20.1"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 448,
+      "contributions": 455,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -186,7 +168,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/enterprise-readiness-skill/network/dependents"
   },
-  "estimated_downstream_reach": 183,
-  "blast_radius": 183,
+  "estimated_downstream_reach": 185,
+  "blast_radius": 185,
   "archived": false
 }

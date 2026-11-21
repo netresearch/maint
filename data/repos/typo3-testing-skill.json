@@ -21,7 +21,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T08:31:58Z",
-  "pushed_at": "2026-11-20T03:09:55Z",
+  "pushed_at": "2026-11-20T21:52:01Z",
   "updated_at": "2026-11-12T06:17:07Z",
   "composer_name": null,
   "lifetime": {
@@ -30,15 +30,15 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 789,
+    "commits": 798,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 252,
+    "prs_merged": 256,
     "prs_closed_unmerged": 7,
     "issues_total": 4,
-    "releases": 74,
-    "release_downloads": 617,
+    "releases": 75,
+    "release_downloads": 623,
     "contributors": 6,
     "external_contributors": 2,
     "packagist_downloads": 0,
@@ -47,29 +47,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 96,
+    "commits": 98,
     "issues_opened": 0,
-    "prs_opened": 41,
-    "prs_merged": 41,
-    "releases": 6,
+    "prs_opened": 42,
+    "prs_merged": 42,
+    "releases": 7,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6040,
-    "clones_unique": 347,
-    "views_total": 30,
-    "views_unique": 21,
+    "clones_total": 6313,
+    "clones_unique": 363,
+    "views_total": 31,
+    "views_unique": 14,
     "top_referrers": [
       {
-        "referrer": "aocr.org",
-        "count": 9,
-        "uniques": 9
-      },
-      {
         "referrer": "Google",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "referrer": "github.com",
@@ -80,20 +75,19 @@
         "referrer": "netresearch.github.io",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "referrer": "packagist.org",
+        "count": 1,
+        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/typo3-testing-skill",
         "title": "Overview",
-        "count": 8,
-        "uniques": 8
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/issues",
-        "title": "/issues",
-        "count": 3,
-        "uniques": 3
+        "count": 10,
+        "uniques": 10
       },
       {
         "path": "/netresearch/typo3-testing-skill/pulls",
@@ -114,6 +108,18 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/typo3-testing-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/blob/main/LICENSE-CC-BY-SA-4.0",
+        "title": "/blob/main/LICENSE-CC-BY-SA-4.0",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-testing-skill/blob/main/scripts/verify-harness.sh",
         "title": "/blob/main/scripts/verify-harness.sh",
         "count": 1,
@@ -126,45 +132,39 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/typo3-testing-skill/blob/main/skills/typo3-testing/references/accessibility-testing.md",
+        "title": "/blob/main/skills/typo3-testing/references/accessibility-testing.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/typo3-testing-skill/blob/main/skills/typo3-testing/references/architecture-testing.md",
         "title": "/blob/main/skills/typo3-testing/references/architecture-testing.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/blob/main/skills/typo3-testing/references/asset-templates-guide.md",
-        "title": "/blob/main/skills/typo3-testing/references/asset-templates-guide.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-testing-skill/commit/bf12111c9dad6f0d655ba8f69befc0a6b56d24c4",
-        "title": "/commit/bf12111c9dad6f0d655ba8f69befc0a6b56d24c4",
         "count": 1,
         "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v5.24.5",
-    "tag_name": "v5.24.5",
-    "published_at": "2026-11-18T17:10:23Z",
-    "url": "https://github.com/netresearch/typo3-testing-skill/releases/tag/v5.24.5"
+    "name": "v5.24.6",
+    "tag_name": "v5.24.6",
+    "published_at": "2026-11-20T15:42:36Z",
+    "url": "https://github.com/netresearch/typo3-testing-skill/releases/tag/v5.24.6"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 676,
+      "contributions": 681,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 52,
+      "contributions": 55,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 31,
+      "contributions": 34,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -190,7 +190,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
   },
-  "estimated_downstream_reach": 264,
-  "blast_radius": 264,
+  "estimated_downstream_reach": 268,
+  "blast_radius": 268,
   "archived": false
 }
