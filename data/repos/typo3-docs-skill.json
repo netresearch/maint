@@ -22,7 +22,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T07:02:25Z",
-  "pushed_at": "2026-11-20T15:04:18Z",
+  "pushed_at": "2026-11-21T21:52:04Z",
   "updated_at": "2026-11-12T00:31:12Z",
   "composer_name": null,
   "lifetime": {
@@ -31,15 +31,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 3,
-    "commits": 529,
+    "commits": 535,
     "issues_open": 2,
     "issues_closed": 9,
     "prs_open": 1,
-    "prs_merged": 176,
+    "prs_merged": 179,
     "prs_closed_unmerged": 4,
     "issues_total": 11,
-    "releases": 65,
-    "release_downloads": 426,
+    "releases": 66,
+    "release_downloads": 436,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -48,19 +48,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 55,
+    "commits": 54,
     "issues_opened": 0,
-    "prs_opened": 23,
-    "prs_merged": 22,
-    "releases": 3,
+    "prs_opened": 24,
+    "prs_merged": 23,
+    "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4053,
-    "clones_unique": 366,
-    "views_total": 44,
-    "views_unique": 30,
+    "clones_total": 4019,
+    "clones_unique": 356,
+    "views_total": 39,
+    "views_unique": 27,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -77,18 +77,18 @@
       {
         "path": "/netresearch/typo3-docs-skill",
         "title": "Overview",
-        "count": 17,
-        "uniques": 14
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/tree/main/skills/typo3-docs",
-        "title": "/tree/main/skills/typo3-docs",
-        "count": 4,
-        "uniques": 3
+        "count": 16,
+        "uniques": 13
       },
       {
         "path": "/netresearch/typo3-docs-skill/tree/main",
         "title": "/tree/main",
+        "count": 4,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/tree/main/skills/typo3-docs",
+        "title": "/tree/main/skills/typo3-docs",
         "count": 3,
         "uniques": 2
       },
@@ -101,12 +101,6 @@
       {
         "path": "/netresearch/typo3-docs-skill/blob/main/docs/ARCHITECTURE.md",
         "title": "/blob/main/docs/ARCHITECTURE.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/typo3-docs-skill/blob/main/skills/typo3-docs/SKILL.md",
-        "title": "/blob/main/skills/typo3-docs/SKILL.md",
         "count": 2,
         "uniques": 2
       },
@@ -129,28 +123,34 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-docs-skill/blob/HEAD/skills/typo3-docs/references/asset-templates-guide.md",
-        "title": "/blob/HEAD/skills/typo3-docs/references/asset-templates-guide.md",
+        "path": "/netresearch/typo3-docs-skill/blob/HEAD/skills/typo3-docs/references/code-structure-elements.md",
+        "title": "/blob/HEAD/skills/typo3-docs/references/code-structure-elements.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-docs-skill/blob/HEAD/skills/typo3-docs/references/rendering.md",
+        "title": "/blob/HEAD/skills/typo3-docs/references/rendering.md",
         "count": 1,
         "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v2.20.9",
-    "tag_name": "v2.20.9",
-    "published_at": "2026-11-08T14:37:55Z",
-    "url": "https://github.com/netresearch/typo3-docs-skill/releases/tag/v2.20.9"
+    "name": "v2.20.10",
+    "tag_name": "v2.20.10",
+    "published_at": "2026-11-21T16:56:09Z",
+    "url": "https://github.com/netresearch/typo3-docs-skill/releases/tag/v2.20.10"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 454,
+      "contributions": 458,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 39,
+      "contributions": 40,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -160,7 +160,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 16,
+      "contributions": 17,
       "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
@@ -171,7 +171,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-docs-skill/network/dependents"
   },
-  "estimated_downstream_reach": 187,
-  "blast_radius": 187,
+  "estimated_downstream_reach": 190,
+  "blast_radius": 190,
   "archived": false
 }

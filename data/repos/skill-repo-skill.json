@@ -14,7 +14,7 @@
   "homepage": "https://netresearch.github.io/skill-repo-skill/",
   "default_branch": "main",
   "created_at": "2025-12-16T10:15:03Z",
-  "pushed_at": "2026-11-20T15:51:14Z",
+  "pushed_at": "2026-11-21T22:36:06Z",
   "updated_at": "2026-11-18T05:42:10Z",
   "composer_name": null,
   "lifetime": {
@@ -23,11 +23,11 @@
     "watchers": 1,
     "network": 4,
     "open_issues_plus_prs": 3,
-    "commits": 1175,
+    "commits": 1177,
     "issues_open": 2,
     "issues_closed": 41,
     "prs_open": 1,
-    "prs_merged": 420,
+    "prs_merged": 421,
     "prs_closed_unmerged": 7,
     "issues_total": 43,
     "releases": 98,
@@ -40,29 +40,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 195,
+    "commits": 185,
     "issues_opened": 1,
-    "prs_opened": 78,
-    "prs_merged": 78,
-    "releases": 12,
+    "prs_opened": 70,
+    "prs_merged": 70,
+    "releases": 11,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 15938,
-    "clones_unique": 639,
-    "views_total": 283,
-    "views_unique": 195,
+    "clones_total": 16727,
+    "clones_unique": 584,
+    "views_total": 293,
+    "views_unique": 192,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 154,
-        "uniques": 135
+        "count": 152,
+        "uniques": 133
       },
       {
         "referrer": "github.com",
         "count": 8,
-        "uniques": 5
+        "uniques": 4
       },
       {
         "referrer": "search.brave.com",
@@ -79,14 +79,14 @@
       {
         "path": "/netresearch/skill-repo-skill",
         "title": "Overview",
-        "count": 175,
-        "uniques": 155
+        "count": 173,
+        "uniques": 152
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo",
         "title": "/tree/main/skills/skill-repo",
-        "count": 19,
-        "uniques": 13
+        "count": 23,
+        "uniques": 15
       },
       {
         "path": "/netresearch/skill-repo-skill/releases",
@@ -95,22 +95,34 @@
         "uniques": 9
       },
       {
+        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/templates",
+        "title": "/tree/main/skills/skill-repo/templates",
+        "count": 6,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/evals",
+        "title": "/tree/main/skills/skill-repo/evals",
+        "count": 5,
+        "uniques": 5
+      },
+      {
+        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/scripts",
+        "title": "/tree/main/skills/skill-repo/scripts",
+        "count": 5,
+        "uniques": 5
+      },
+      {
         "path": "/netresearch/skill-repo-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
         "count": 4,
         "uniques": 4
       },
       {
-        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/evals",
-        "title": "/tree/main/skills/skill-repo/evals",
+        "path": "/netresearch/skill-repo-skill/tree/main",
+        "title": "/tree/main",
         "count": 4,
         "uniques": 4
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/blob/main/skills/skill-repo/SKILL.md",
-        "title": "/blob/main/skills/skill-repo/SKILL.md",
-        "count": 4,
-        "uniques": 3
       },
       {
         "path": "/netresearch/skill-repo-skill/tree/main/skills",
@@ -119,20 +131,8 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/skill-repo-skill/tree/main",
-        "title": "/tree/main",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/scripts",
-        "title": "/tree/main/skills/skill-repo/scripts",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/templates",
-        "title": "/tree/main/skills/skill-repo/templates",
+        "path": "/netresearch/skill-repo-skill/tree/main/skills/skill-repo/references",
+        "title": "/tree/main/skills/skill-repo/references",
         "count": 3,
         "uniques": 3
       }
@@ -152,7 +152,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 137,
+      "contributions": 139,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -188,7 +188,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/skill-repo-skill/network/dependents"
   },
-  "estimated_downstream_reach": 568,
-  "blast_radius": 568,
+  "estimated_downstream_reach": 569,
+  "blast_radius": 569,
   "archived": false
 }

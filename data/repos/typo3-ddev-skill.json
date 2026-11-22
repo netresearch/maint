@@ -22,7 +22,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-21T10:05:16Z",
-  "pushed_at": "2026-11-20T14:36:05Z",
+  "pushed_at": "2026-11-21T22:07:54Z",
   "updated_at": "2026-11-12T04:52:45Z",
   "composer_name": null,
   "lifetime": {
@@ -31,11 +31,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 2,
-    "commits": 358,
+    "commits": 360,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 1,
-    "prs_merged": 103,
+    "prs_merged": 104,
     "prs_closed_unmerged": 3,
     "issues_total": 1,
     "releases": 40,
@@ -48,19 +48,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 30,
+    "commits": 26,
     "issues_opened": 0,
-    "prs_opened": 15,
+    "prs_opened": 14,
     "prs_merged": 14,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3022,
-    "clones_unique": 213,
-    "views_total": 22,
-    "views_unique": 20,
+    "clones_total": 3017,
+    "clones_unique": 212,
+    "views_total": 21,
+    "views_unique": 19,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -71,11 +71,6 @@
         "referrer": "netresearch.github.io",
         "count": 2,
         "uniques": 1
-      },
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
@@ -84,6 +79,12 @@
         "title": "Overview",
         "count": 7,
         "uniques": 5
+      },
+      {
+        "path": "/netresearch/typo3-ddev-skill/blob/main/SKILL.md",
+        "title": "/blob/main/SKILL.md",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-ddev-skill/actions/workflows/copilot-pull-request-reviewer/copilot-pull-request-reviewer",
@@ -132,12 +133,6 @@
         "title": "/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/post-setup-verification.md",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ddev-skill/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/prerequisites-validation.md",
-        "title": "/blob/0f07e1dfb9bd5f7b96babb6a55d20c7bc0d1d41c/skills/typo3-ddev/references/prerequisites-validation.md",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -155,7 +150,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 34,
+      "contributions": 36,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -176,7 +171,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-ddev-skill/network/dependents"
   },
-  "estimated_downstream_reach": 106,
-  "blast_radius": 106,
+  "estimated_downstream_reach": 107,
+  "blast_radius": 107,
   "archived": false
 }

@@ -20,7 +20,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-07T10:15:13Z",
-  "pushed_at": "2026-11-20T12:58:20Z",
+  "pushed_at": "2026-11-21T21:01:57Z",
   "updated_at": "2026-11-18T12:51:51Z",
   "composer_name": null,
   "lifetime": {
@@ -29,11 +29,11 @@
     "watchers": 1,
     "network": 26,
     "open_issues_plus_prs": 2,
-    "commits": 1064,
+    "commits": 1066,
     "issues_open": 1,
     "issues_closed": 34,
     "prs_open": 1,
-    "prs_merged": 294,
+    "prs_merged": 295,
     "prs_closed_unmerged": 8,
     "issues_total": 35,
     "releases": 86,
@@ -46,52 +46,52 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 125,
+    "commits": 113,
     "issues_opened": 0,
-    "prs_opened": 47,
-    "prs_merged": 46,
+    "prs_opened": 43,
+    "prs_merged": 45,
     "releases": 9,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 8270,
-    "clones_unique": 928,
-    "views_total": 832,
-    "views_unique": 349,
+    "clones_total": 8219,
+    "clones_unique": 884,
+    "views_total": 762,
+    "views_unique": 343,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 194,
+        "count": 193,
         "uniques": 158
       },
       {
         "referrer": "Bing",
-        "count": 24,
-        "uniques": 20
+        "count": 23,
+        "uniques": 19
       },
       {
         "referrer": "github.com",
-        "count": 19,
+        "count": 21,
         "uniques": 11
       },
       {
         "referrer": "teams.public.onecdn.static.microsoft",
-        "count": 14,
-        "uniques": 8
+        "count": 12,
+        "uniques": 6
       },
       {
         "referrer": "DuckDuckGo",
-        "count": 3,
-        "uniques": 2
-      },
-      {
-        "referrer": "ecosia.org",
-        "count": 2,
-        "uniques": 2
+        "count": 4,
+        "uniques": 3
       },
       {
         "referrer": "espace.agir.orange.com",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "referrer": "search.brave.com",
         "count": 2,
         "uniques": 1
       },
@@ -106,7 +106,7 @@
         "uniques": 1
       },
       {
-        "referrer": "in.ecosrch.com",
+        "referrer": "ecosia.org",
         "count": 1,
         "uniques": 1
       }
@@ -115,49 +115,43 @@
       {
         "path": "/netresearch/jira-skill",
         "title": "Overview",
-        "count": 306,
-        "uniques": 238
+        "count": 294,
+        "uniques": 234
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 69,
-        "uniques": 51
-      },
-      {
-        "path": "/netresearch/jira-skill/tree/main/skills/jira-communication",
-        "title": "/tree/main/skills/jira-communication",
-        "count": 43,
-        "uniques": 32
+        "count": 57,
+        "uniques": 45
       },
       {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-communication/SKILL.md",
         "title": "/blob/main/skills/jira-communication/SKILL.md",
-        "count": 39,
-        "uniques": 27
+        "count": 36,
+        "uniques": 24
       },
       {
         "path": "/netresearch/jira-skill/tree/main",
         "title": "/tree/main",
-        "count": 39,
-        "uniques": 21
+        "count": 36,
+        "uniques": 20
+      },
+      {
+        "path": "/netresearch/jira-skill/tree/main/skills/jira-communication",
+        "title": "/tree/main/skills/jira-communication",
+        "count": 35,
+        "uniques": 27
       },
       {
         "path": "/netresearch/jira-skill/tree/main/scripts",
         "title": "/tree/main/scripts",
-        "count": 22,
-        "uniques": 15
+        "count": 18,
+        "uniques": 12
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills/jira-syntax",
         "title": "/tree/main/skills/jira-syntax",
-        "count": 21,
-        "uniques": 14
-      },
-      {
-        "path": "/netresearch/jira-skill/blob/main/skills/jira-syntax/SKILL.md",
-        "title": "/blob/main/skills/jira-syntax/SKILL.md",
-        "count": 15,
+        "count": 17,
         "uniques": 11
       },
       {
@@ -167,10 +161,16 @@
         "uniques": 9
       },
       {
+        "path": "/netresearch/jira-skill/blob/main/skills/jira-syntax/SKILL.md",
+        "title": "/blob/main/skills/jira-syntax/SKILL.md",
+        "count": 12,
+        "uniques": 8
+      },
+      {
         "path": "/netresearch/jira-skill/blob/main/README.md",
         "title": "/blob/main/README.md",
-        "count": 10,
-        "uniques": 10
+        "count": 11,
+        "uniques": 11
       }
     ]
   },
@@ -193,7 +193,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 52,
+      "contributions": 54,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -239,7 +239,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jira-skill/network/dependents"
   },
-  "estimated_downstream_reach": 423,
-  "blast_radius": 423,
+  "estimated_downstream_reach": 424,
+  "blast_radius": 424,
   "archived": false
 }

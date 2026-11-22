@@ -18,7 +18,7 @@
   "homepage": "https://github.com/netresearch/claude-code-marketplace",
   "default_branch": "main",
   "created_at": "2026-03-22T09:31:51Z",
-  "pushed_at": "2026-11-20T12:32:51Z",
+  "pushed_at": "2026-11-21T22:39:22Z",
   "updated_at": "2026-11-18T13:40:34Z",
   "composer_name": null,
   "lifetime": {
@@ -27,11 +27,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 2,
-    "commits": 321,
+    "commits": 323,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 1,
-    "prs_merged": 117,
+    "prs_merged": 118,
     "prs_closed_unmerged": 3,
     "issues_total": 2,
     "releases": 17,
@@ -44,24 +44,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 45,
+    "commits": 41,
     "issues_opened": 0,
-    "prs_opened": 20,
-    "prs_merged": 19,
+    "prs_opened": 19,
+    "prs_merged": 18,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3063,
-    "clones_unique": 322,
-    "views_total": 93,
-    "views_unique": 69,
+    "clones_total": 3007,
+    "clones_unique": 305,
+    "views_total": 86,
+    "views_unique": 65,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 51,
-        "uniques": 34
+        "count": 45,
+        "uniques": 31
       },
       {
         "referrer": "github.com",
@@ -78,14 +78,8 @@
       {
         "path": "/netresearch/agent-harness-skill",
         "title": "Overview",
-        "count": 46,
-        "uniques": 41
-      },
-      {
-        "path": "/netresearch/agent-harness-skill/blob/main/docs/plans/2026-10-25-review-evidence.md",
-        "title": "/blob/main/docs/plans/2026-10-25-review-evidence.md",
-        "count": 7,
-        "uniques": 1
+        "count": 43,
+        "uniques": 37
       },
       {
         "path": "/netresearch/agent-harness-skill/tree/main/skills",
@@ -104,6 +98,12 @@
         "title": "/blob/main/docs/specs/retro-skill.md",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/agent-harness-skill/blob/main/docs/plans/2026-10-25-review-evidence.md",
+        "title": "/blob/main/docs/plans/2026-10-25-review-evidence.md",
+        "count": 3,
+        "uniques": 1
       },
       {
         "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/references/adr/003-skill-delegation-model.md",
@@ -151,12 +151,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 56,
+      "contributions": 57,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 16,
+      "contributions": 17,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -187,7 +187,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/agent-harness-skill/network/dependents"
   },
-  "estimated_downstream_reach": 127,
-  "blast_radius": 127,
+  "estimated_downstream_reach": 128,
+  "blast_radius": 128,
   "archived": false
 }

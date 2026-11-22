@@ -22,7 +22,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-29T17:57:15Z",
-  "pushed_at": "2026-11-20T15:49:17Z",
+  "pushed_at": "2026-11-21T22:37:44Z",
   "updated_at": "2026-11-12T01:23:22Z",
   "composer_name": null,
   "lifetime": {
@@ -31,11 +31,11 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 2,
-    "commits": 534,
+    "commits": 536,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 1,
-    "prs_merged": 174,
+    "prs_merged": 175,
     "prs_closed_unmerged": 2,
     "issues_total": 4,
     "releases": 56,
@@ -48,34 +48,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 60,
+    "commits": 47,
     "issues_opened": 0,
-    "prs_opened": 25,
-    "prs_merged": 26,
+    "prs_opened": 23,
+    "prs_merged": 23,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3059,
-    "clones_unique": 294,
-    "views_total": 23,
-    "views_unique": 18,
+    "clones_total": 3034,
+    "clones_unique": 283,
+    "views_total": 25,
+    "views_unique": 19,
     "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 8,
+        "uniques": 3
+      },
       {
         "referrer": "Google",
         "count": 7,
         "uniques": 6
-      },
-      {
-        "referrer": "github.com",
-        "count": 7,
-        "uniques": 3
-      },
-      {
-        "referrer": "aocr.org",
-        "count": 1,
-        "uniques": 1
       },
       {
         "referrer": "awesome.ecosyste.ms",
@@ -87,8 +82,8 @@
       {
         "path": "/netresearch/enterprise-readiness-skill",
         "title": "Overview",
-        "count": 15,
-        "uniques": 10
+        "count": 17,
+        "uniques": 11
       },
       {
         "path": "/netresearch/enterprise-readiness-skill/blob/main/README.md",
@@ -109,6 +104,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/enterprise-readiness-skill/blob/main/skills/enterprise-readiness/references/python-pip-supply-chain.md",
+        "title": "/blob/main/skills/enterprise-readiness/references/python-pip-supply-chain.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/enterprise-readiness-skill/commit/f33135ad59768419eee9c92129302d51990ef2d7",
         "title": "/commit/f33135ad59768419eee9c92129302d51990ef2d7",
         "count": 1,
@@ -117,12 +118,6 @@
       {
         "path": "/netresearch/enterprise-readiness-skill/issues",
         "title": "/issues",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/enterprise-readiness-skill/tree/main/.claude-plugin",
-        "title": "/tree/main/.claude-plugin",
         "count": 1,
         "uniques": 1
       }
@@ -142,7 +137,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 41,
+      "contributions": 43,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -168,7 +163,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/enterprise-readiness-skill/network/dependents"
   },
-  "estimated_downstream_reach": 185,
-  "blast_radius": 185,
+  "estimated_downstream_reach": 186,
+  "blast_radius": 186,
   "archived": false
 }

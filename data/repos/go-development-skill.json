@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:56:59Z",
-  "pushed_at": "2026-11-20T19:44:47Z",
+  "pushed_at": "2026-11-21T21:47:53Z",
   "updated_at": "2026-11-12T03:33:09Z",
   "composer_name": null,
   "lifetime": {
@@ -23,15 +23,15 @@
     "watchers": 2,
     "network": 2,
     "open_issues_plus_prs": 2,
-    "commits": 370,
+    "commits": 378,
     "issues_open": 1,
     "issues_closed": 4,
     "prs_open": 1,
-    "prs_merged": 132,
+    "prs_merged": 135,
     "prs_closed_unmerged": 0,
     "issues_total": 5,
-    "releases": 44,
-    "release_downloads": 385,
+    "releases": 45,
+    "release_downloads": 395,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,37 +40,37 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 54,
+    "commits": 55,
     "issues_opened": 0,
     "prs_opened": 26,
     "prs_merged": 25,
-    "releases": 5,
+    "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2523,
-    "clones_unique": 327,
-    "views_total": 80,
-    "views_unique": 48,
+    "clones_total": 2535,
+    "clones_unique": 333,
+    "views_total": 75,
+    "views_unique": 46,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 28,
-        "uniques": 24
+        "count": 23,
+        "uniques": 19
       },
       {
         "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/go-development-skill",
         "title": "Overview",
-        "count": 22,
-        "uniques": 20
+        "count": 19,
+        "uniques": 17
       },
       {
         "path": "/netresearch/go-development-skill/blob/main/AGENTS.md",
@@ -85,14 +85,14 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/contracts-and-invariants.md",
-        "title": "/blob/main/skills/go-development/references/contracts-and-invariants.md",
-        "count": 4,
-        "uniques": 4
+        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/linting.md",
+        "title": "/blob/main/skills/go-development/references/linting.md",
+        "count": 5,
+        "uniques": 3
       },
       {
-        "path": "/netresearch/go-development-skill/tree/main/skills/go-development",
-        "title": "/tree/main/skills/go-development",
+        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/contracts-and-invariants.md",
+        "title": "/blob/main/skills/go-development/references/contracts-and-invariants.md",
         "count": 4,
         "uniques": 4
       },
@@ -129,31 +129,31 @@
     ]
   },
   "latest_release": {
-    "name": "v1.16.6",
-    "tag_name": "v1.16.6",
-    "published_at": "2026-11-15T21:28:23Z",
-    "url": "https://github.com/netresearch/go-development-skill/releases/tag/v1.16.6"
+    "name": "v1.16.7",
+    "tag_name": "v1.16.7",
+    "published_at": "2026-11-21T16:53:12Z",
+    "url": "https://github.com/netresearch/go-development-skill/releases/tag/v1.16.7"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 300,
+      "contributions": 306,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 38,
+      "contributions": 39,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 17,
+      "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
       "login": "github-actions[bot]",
       "contributions": 16,
       "url": "https://github.com/apps/github-actions"
-    },
-    {
-      "login": "netresearch-project-bot[bot]",
-      "contributions": 16,
-      "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": null,
@@ -163,7 +163,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/go-development-skill/network/dependents"
   },
-  "estimated_downstream_reach": 141,
-  "blast_radius": 141,
+  "estimated_downstream_reach": 144,
+  "blast_radius": 144,
   "archived": false
 }

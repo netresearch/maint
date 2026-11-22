@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2014-01-21T20:27:08Z",
-  "pushed_at": "2026-11-09T18:28:35Z",
+  "pushed_at": "2026-11-21T08:32:32Z",
   "updated_at": "2026-10-22T21:21:14Z",
   "composer_name": "netresearch/composer-patches-plugin",
   "lifetime": {
@@ -22,37 +22,37 @@
     "forks": 22,
     "watchers": 12,
     "network": 22,
-    "open_issues_plus_prs": 2,
-    "commits": 117,
+    "open_issues_plus_prs": 1,
+    "commits": 118,
     "issues_open": 1,
     "issues_closed": 30,
-    "prs_open": 1,
-    "prs_merged": 47,
-    "prs_closed_unmerged": 9,
+    "prs_open": 0,
+    "prs_merged": 48,
+    "prs_closed_unmerged": 10,
     "issues_total": 31,
     "releases": 10,
     "release_downloads": 0,
     "contributors": 16,
     "external_contributors": 12,
-    "packagist_downloads": 284443,
+    "packagist_downloads": 284463,
     "ghcr_downloads": 0,
     "dependents_repos": 48,
     "dependents_packages": 8
   },
   "recent_30d": {
-    "commits": 2,
+    "commits": 1,
     "issues_opened": 0,
-    "prs_opened": 3,
-    "prs_merged": 2,
+    "prs_opened": 2,
+    "prs_merged": 1,
     "releases": 0,
-    "packagist_downloads": 3759,
+    "packagist_downloads": 3609,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 79,
-    "clones_unique": 44,
+    "clones_total": 83,
+    "clones_unique": 41,
     "views_total": 40,
-    "views_unique": 14,
+    "views_unique": 13,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -69,14 +69,8 @@
       {
         "path": "/netresearch/composer-patches-plugin",
         "title": "Overview",
-        "count": 25,
+        "count": 26,
         "uniques": 6
-      },
-      {
-        "path": "/netresearch/composer-patches-plugin/blob/master/README.md",
-        "title": "/blob/master/README.md",
-        "count": 2,
-        "uniques": 2
       },
       {
         "path": "/netresearch/composer-patches-plugin/commit/4d7074496eaf113d733ef58ec62bc03e2a1abd97",
@@ -121,6 +115,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/composer-patches-plugin/blob/master/README.md",
+        "title": "/blob/master/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/composer-patches-plugin/blob/master/renovate.json",
         "title": "/blob/master/renovate.json",
         "count": 1,
@@ -137,7 +137,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 25,
+      "contributions": 26,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -188,9 +188,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-patches-plugin",
-    "total": 284443,
-    "monthly": 3759,
-    "daily": 165,
+    "total": 284463,
+    "monthly": 3609,
+    "daily": 20,
     "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
   },
   "ghcr": null,
@@ -199,7 +199,7 @@
     "packages": 8,
     "url": "https://github.com/netresearch/composer-patches-plugin/network/dependents"
   },
-  "estimated_downstream_reach": 254,
-  "blast_radius": 254,
+  "estimated_downstream_reach": 255,
+  "blast_radius": 255,
   "archived": false
 }

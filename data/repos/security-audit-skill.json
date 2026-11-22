@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:25Z",
-  "pushed_at": "2026-11-20T15:41:10Z",
+  "pushed_at": "2026-11-21T22:33:39Z",
   "updated_at": "2026-11-12T11:56:26Z",
   "composer_name": null,
   "lifetime": {
@@ -23,11 +23,11 @@
     "watchers": 1,
     "network": 5,
     "open_issues_plus_prs": 4,
-    "commits": 499,
+    "commits": 501,
     "issues_open": 2,
     "issues_closed": 2,
     "prs_open": 2,
-    "prs_merged": 170,
+    "prs_merged": 171,
     "prs_closed_unmerged": 5,
     "issues_total": 4,
     "releases": 44,
@@ -40,28 +40,28 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 57,
+    "commits": 52,
     "issues_opened": 1,
-    "prs_opened": 27,
-    "prs_merged": 25,
+    "prs_opened": 25,
+    "prs_merged": 23,
     "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5646,
-    "clones_unique": 844,
-    "views_total": 498,
-    "views_unique": 278,
+    "clones_total": 5615,
+    "clones_unique": 843,
+    "views_total": 505,
+    "views_unique": 293,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 189,
-        "uniques": 145
+        "count": 193,
+        "uniques": 152
       },
       {
         "referrer": "github.com",
-        "count": 18,
+        "count": 19,
         "uniques": 13
       },
       {
@@ -99,32 +99,32 @@
       {
         "path": "/netresearch/security-audit-skill",
         "title": "Overview",
-        "count": 309,
-        "uniques": 238
+        "count": 318,
+        "uniques": 247
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
         "title": "/blob/main/skills/security-audit/SKILL.md",
-        "count": 33,
-        "uniques": 27
+        "count": 36,
+        "uniques": 30
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
         "title": "/tree/main/skills/security-audit",
-        "count": 26,
-        "uniques": 21
+        "count": 25,
+        "uniques": 20
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/references/typo3-security.md",
         "title": "/blob/main/skills/security-audit/references/typo3-security.md",
         "count": 14,
-        "uniques": 2
+        "uniques": 3
       },
       {
         "path": "/netresearch/security-audit-skill/tree/main",
         "title": "/tree/main",
-        "count": 10,
-        "uniques": 9
+        "count": 9,
+        "uniques": 8
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/AGENTS.md",
@@ -133,16 +133,10 @@
         "uniques": 5
       },
       {
-        "path": "/netresearch/security-audit-skill/issues",
-        "title": "/issues",
+        "path": "/netresearch/security-audit-skill/blob/main/docs/ARCHITECTURE.md",
+        "title": "/blob/main/docs/ARCHITECTURE.md",
         "count": 5,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/scripts",
-        "title": "/tree/main/skills/security-audit/scripts",
-        "count": 5,
-        "uniques": 4
+        "uniques": 5
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/SECURITY.md",
@@ -151,10 +145,16 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/security-audit-skill/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
+        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/references",
+        "title": "/tree/main/skills/security-audit/references",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/checkpoints.yaml",
+        "title": "/blob/main/skills/security-audit/checkpoints.yaml",
+        "count": 4,
+        "uniques": 3
       }
     ]
   },
@@ -172,7 +172,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 47,
+      "contributions": 48,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -182,7 +182,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 17,
+      "contributions": 18,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -203,7 +203,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/security-audit-skill/network/dependents"
   },
-  "estimated_downstream_reach": 187,
-  "blast_radius": 187,
+  "estimated_downstream_reach": 188,
+  "blast_radius": 188,
   "archived": false
 }

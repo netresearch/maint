@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T13:14:49Z",
-  "pushed_at": "2026-11-20T17:01:40Z",
+  "pushed_at": "2026-11-21T20:54:41Z",
   "updated_at": "2026-11-13T22:16:26Z",
   "composer_name": null,
   "lifetime": {
@@ -23,15 +23,15 @@
     "watchers": 1,
     "network": 3,
     "open_issues_plus_prs": 2,
-    "commits": 864,
+    "commits": 881,
     "issues_open": 2,
     "issues_closed": 4,
     "prs_open": 0,
-    "prs_merged": 290,
+    "prs_merged": 295,
     "prs_closed_unmerged": 2,
     "issues_total": 6,
-    "releases": 71,
-    "release_downloads": 948,
+    "releases": 72,
+    "release_downloads": 984,
     "contributors": 4,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -40,19 +40,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 134,
+    "commits": 127,
     "issues_opened": 1,
-    "prs_opened": 51,
-    "prs_merged": 51,
-    "releases": 8,
+    "prs_opened": 48,
+    "prs_merged": 48,
+    "releases": 9,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4465,
-    "clones_unique": 429,
-    "views_total": 78,
-    "views_unique": 61,
+    "clones_total": 4600,
+    "clones_unique": 418,
+    "views_total": 76,
+    "views_unique": 59,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -84,8 +84,8 @@
       {
         "path": "/netresearch/github-project-skill",
         "title": "Overview",
-        "count": 39,
-        "uniques": 35
+        "count": 41,
+        "uniques": 37
       },
       {
         "path": "/netresearch/github-project-skill/tree/main/skills/github-project",
@@ -118,12 +118,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/github-project-skill/blob/main/skills/github-project/references/reusable-workflow-security.md",
-        "title": "/blob/main/skills/github-project/references/reusable-workflow-security.md",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/github-project-skill/blob/main/skills/github-project/references/workf",
         "title": "/blob/main/skills/github-project/references/workf",
         "count": 2,
@@ -140,29 +134,35 @@
         "title": "/blame/main/plugin.json",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/github-project-skill/blame/v1.0.0/plugin.json",
+        "title": "/blame/v1.0.0/plugin.json",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v2.22.4",
-    "tag_name": "v2.22.4",
-    "published_at": "2026-11-20T15:40:56Z",
-    "url": "https://github.com/netresearch/github-project-skill/releases/tag/v2.22.4"
+    "name": "v2.22.5",
+    "tag_name": "v2.22.5",
+    "published_at": "2026-11-21T16:52:23Z",
+    "url": "https://github.com/netresearch/github-project-skill/releases/tag/v2.22.5"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 785,
+      "contributions": 798,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 50,
+      "contributions": 52,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 19,
+      "contributions": 21,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -178,7 +178,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/github-project-skill/network/dependents"
   },
-  "estimated_downstream_reach": 302,
-  "blast_radius": 302,
+  "estimated_downstream_reach": 307,
+  "blast_radius": 307,
   "archived": false
 }

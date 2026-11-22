@@ -18,7 +18,7 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2020-03-12T14:54:31Z",
-  "pushed_at": "2026-11-20T18:18:32Z",
+  "pushed_at": "2026-11-21T09:02:07Z",
   "updated_at": "2026-11-12T09:58:54Z",
   "composer_name": "netresearch/nr-sync",
   "lifetime": {
@@ -27,11 +27,11 @@
     "watchers": 5,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 289,
+    "commits": 291,
     "issues_open": 2,
     "issues_closed": 6,
     "prs_open": 0,
-    "prs_merged": 60,
+    "prs_merged": 61,
     "prs_closed_unmerged": 13,
     "issues_total": 8,
     "releases": 8,
@@ -53,10 +53,10 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 694,
-    "clones_unique": 90,
-    "views_total": 3,
-    "views_unique": 3,
+    "clones_total": 758,
+    "clones_unique": 93,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -74,6 +74,12 @@
       {
         "path": "/netresearch/t3x-sync/blob/master/ext_conf_template.txt",
         "title": "/blob/master/ext_conf_template.txt",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-sync/commit/6f6c31c698f168b39cef3b2197469e620b330d59",
+        "title": "/commit/6f6c31c698f168b39cef3b2197469e620b330d59",
         "count": 1,
         "uniques": 1
       },
@@ -104,7 +110,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 18,
+      "contributions": 19,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -123,14 +129,14 @@
       "url": "https://github.com/apps/copilot-swe-agent"
     },
     {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 3,
+      "url": "https://github.com/apps/netresearch-project-bot"
+    },
+    {
       "login": "github-actions[bot]",
       "contributions": 2,
       "url": "https://github.com/apps/github-actions"
-    },
-    {
-      "login": "netresearch-project-bot[bot]",
-      "contributions": 2,
-      "url": "https://github.com/apps/netresearch-project-bot"
     }
   ],
   "packagist": {
@@ -146,7 +152,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-sync/network/dependents"
   },
-  "estimated_downstream_reach": 74,
-  "blast_radius": 74,
+  "estimated_downstream_reach": 75,
+  "blast_radius": 75,
   "archived": false
 }

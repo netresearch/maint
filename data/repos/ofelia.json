@@ -21,7 +21,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2022-05-30T12:58:03Z",
-  "pushed_at": "2026-11-20T05:40:56Z",
+  "pushed_at": "2026-11-22T01:36:39Z",
   "updated_at": "2026-11-20T07:35:51Z",
   "composer_name": null,
   "lifetime": {
@@ -30,30 +30,30 @@
     "watchers": 1,
     "network": 211,
     "open_issues_plus_prs": 28,
-    "commits": 2078,
+    "commits": 2142,
     "issues_open": 25,
-    "issues_closed": 186,
+    "issues_closed": 189,
     "prs_open": 3,
-    "prs_merged": 660,
+    "prs_merged": 674,
     "prs_closed_unmerged": 74,
-    "issues_total": 211,
+    "issues_total": 214,
     "releases": 60,
     "release_downloads": 4193,
     "contributors": 48,
     "external_contributors": 41,
     "packagist_downloads": 0,
-    "ghcr_downloads": 764789,
+    "ghcr_downloads": 772224,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 184,
-    "issues_opened": 4,
-    "prs_opened": 66,
-    "prs_merged": 62,
+    "commits": 244,
+    "issues_opened": 7,
+    "prs_opened": 79,
+    "prs_merged": 75,
     "releases": 4,
     "packagist_downloads": 0,
-    "ghcr_downloads": 195342
+    "ghcr_downloads": 195988
   },
   "traffic_14d": {
     "clones_total": 2842,
@@ -174,12 +174,12 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1654,
+      "contributions": 1709,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 77,
+      "contributions": 79,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -198,6 +198,11 @@
       "url": "https://github.com/apps/dependabot"
     },
     {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 27,
+      "url": "https://github.com/apps/netresearch-project-bot"
+    },
+    {
       "login": "nekrich",
       "contributions": 26,
       "url": "https://github.com/nekrich"
@@ -208,18 +213,13 @@
       "url": "https://github.com/apps/github-actions"
     },
     {
-      "login": "netresearch-project-bot[bot]",
-      "contributions": 25,
-      "url": "https://github.com/apps/netresearch-project-bot"
-    },
-    {
       "login": "TheDevMinerTV",
       "contributions": 20,
       "url": "https://github.com/TheDevMinerTV"
     },
     {
       "login": "KamilPesek",
-      "contributions": 15,
+      "contributions": 20,
       "url": "https://github.com/KamilPesek"
     }
   ],
@@ -229,19 +229,19 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 764789,
-        "thirty_day": 195342
+        "total": 772224,
+        "thirty_day": 195988
       }
     ],
-    "total": 764789,
-    "thirty_day": 195342
+    "total": 772224,
+    "thirty_day": 195988
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/ofelia/network/dependents"
   },
-  "estimated_downstream_reach": 1012,
-  "blast_radius": 1012,
+  "estimated_downstream_reach": 1029,
+  "blast_radius": 1029,
   "archived": false
 }

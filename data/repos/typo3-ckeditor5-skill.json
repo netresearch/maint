@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:30Z",
-  "pushed_at": "2026-11-20T14:44:39Z",
+  "pushed_at": "2026-11-21T21:35:46Z",
   "updated_at": "2026-11-11T22:35:24Z",
   "composer_name": null,
   "lifetime": {
@@ -23,11 +23,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 237,
+    "commits": 239,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 1,
-    "prs_merged": 80,
+    "prs_merged": 81,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 26,
@@ -40,18 +40,18 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 29,
+    "commits": 25,
     "issues_opened": 0,
-    "prs_opened": 15,
+    "prs_opened": 14,
     "prs_merged": 14,
     "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2466,
-    "clones_unique": 229,
-    "views_total": 10,
+    "clones_total": 2451,
+    "clones_unique": 228,
+    "views_total": 8,
     "views_unique": 6,
     "top_referrers": [
       {
@@ -91,20 +91,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-ckeditor5-skill/tree/main",
-        "title": "/tree/main",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/typo3-ckeditor5-skill/tree/main/.github/workflows",
         "title": "/tree/main/.github/workflows",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-ckeditor5-skill/tree/main/skills/typo3-ckeditor5",
-        "title": "/tree/main/skills/typo3-ckeditor5",
         "count": 1,
         "uniques": 1
       }
@@ -124,12 +112,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 35,
+      "contributions": 36,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 16,
+      "contributions": 17,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -150,7 +138,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-ckeditor5-skill/network/dependents"
   },
-  "estimated_downstream_reach": 84,
-  "blast_radius": 84,
+  "estimated_downstream_reach": 85,
+  "blast_radius": 85,
   "archived": false
 }

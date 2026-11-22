@@ -27,7 +27,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-31T12:42:05Z",
-  "pushed_at": "2026-11-20T16:01:53Z",
+  "pushed_at": "2026-11-21T22:33:40Z",
   "updated_at": "2026-11-12T12:05:12Z",
   "composer_name": null,
   "lifetime": {
@@ -36,15 +36,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 4,
-    "commits": 631,
+    "commits": 640,
     "issues_open": 2,
     "issues_closed": 23,
     "prs_open": 2,
-    "prs_merged": 194,
+    "prs_merged": 198,
     "prs_closed_unmerged": 0,
     "issues_total": 25,
-    "releases": 70,
-    "release_downloads": 1012,
+    "releases": 71,
+    "release_downloads": 1022,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -53,24 +53,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 107,
+    "commits": 110,
     "issues_opened": 1,
-    "prs_opened": 41,
-    "prs_merged": 39,
-    "releases": 6,
+    "prs_opened": 43,
+    "prs_merged": 42,
+    "releases": 7,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2752,
-    "clones_unique": 563,
-    "views_total": 54,
-    "views_unique": 42,
+    "clones_total": 2911,
+    "clones_unique": 539,
+    "views_total": 45,
+    "views_unique": 35,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 29,
-        "uniques": 18
+        "count": 24,
+        "uniques": 15
       },
       {
         "referrer": "DuckDuckGo",
@@ -80,22 +80,22 @@
     ],
     "top_paths": [
       {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
-        "title": "/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
-        "count": 12,
-        "uniques": 4
-      },
-      {
-        "path": "/netresearch/matrix-skill",
-        "title": "Overview",
-        "count": 10,
-        "uniques": 10
-      },
-      {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/hookshot-integration.md",
         "title": "/blob/main/skills/matrix-communication/references/hookshot-integration.md",
         "count": 9,
         "uniques": 9
+      },
+      {
+        "path": "/netresearch/matrix-skill",
+        "title": "Overview",
+        "count": 8,
+        "uniques": 8
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
+        "title": "/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
+        "count": 8,
+        "uniques": 2
       },
       {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/messaging-guide.md",
@@ -128,34 +128,34 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-announcement/references/glyphs.md",
-        "title": "/blob/main/skills/matrix-announcement/references/glyphs.md",
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-announcement/references/gallery.html",
+        "title": "/blob/main/skills/matrix-announcement/references/gallery.html",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-announcement/references/image-cards.md",
-        "title": "/blob/main/skills/matrix-announcement/references/image-cards.md",
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-announcement/references/glyphs.md",
+        "title": "/blob/main/skills/matrix-announcement/references/glyphs.md",
         "count": 1,
         "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v4.4.1",
-    "tag_name": "v4.4.1",
-    "published_at": "2026-11-20T16:02:58Z",
-    "url": "https://github.com/netresearch/matrix-skill/releases/tag/v4.4.1"
+    "name": "v4.4.2",
+    "tag_name": "v4.4.2",
+    "published_at": "2026-11-21T16:55:17Z",
+    "url": "https://github.com/netresearch/matrix-skill/releases/tag/v4.4.2"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 500,
+      "contributions": 507,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 47,
+      "contributions": 49,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -186,7 +186,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/matrix-skill/network/dependents"
   },
-  "estimated_downstream_reach": 222,
-  "blast_radius": 222,
+  "estimated_downstream_reach": 226,
+  "blast_radius": 226,
   "archived": false
 }
