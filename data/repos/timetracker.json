@@ -28,7 +28,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2016-05-12T13:47:03Z",
-  "pushed_at": "2026-11-21T13:35:08Z",
+  "pushed_at": "2026-11-23T01:08:50Z",
   "updated_at": "2026-11-11T09:25:41Z",
   "composer_name": "netresearch/timetracker",
   "lifetime": {
@@ -36,12 +36,12 @@
     "forks": 27,
     "watchers": 6,
     "network": 27,
-    "open_issues_plus_prs": 5,
-    "commits": 3282,
+    "open_issues_plus_prs": 6,
+    "commits": 3286,
     "issues_open": 2,
     "issues_closed": 83,
-    "prs_open": 3,
-    "prs_merged": 720,
+    "prs_open": 4,
+    "prs_merged": 722,
     "prs_closed_unmerged": 151,
     "issues_total": 85,
     "releases": 37,
@@ -49,29 +49,29 @@
     "contributors": 11,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 63323,
+    "ghcr_downloads": 63397,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 176,
+    "commits": 179,
     "issues_opened": 9,
-    "prs_opened": 104,
-    "prs_merged": 65,
+    "prs_opened": 106,
+    "prs_merged": 64,
     "releases": 0,
     "packagist_downloads": 0,
-    "ghcr_downloads": 10332
+    "ghcr_downloads": 10323
   },
   "traffic_14d": {
-    "clones_total": 5049,
-    "clones_unique": 429,
-    "views_total": 59,
-    "views_unique": 40,
+    "clones_total": 5781,
+    "clones_unique": 446,
+    "views_total": 68,
+    "views_unique": 46,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 3,
-        "uniques": 3
+        "count": 7,
+        "uniques": 7
       },
       {
         "referrer": "Google",
@@ -88,8 +88,8 @@
       {
         "path": "/netresearch/timetracker",
         "title": "Overview",
-        "count": 12,
-        "uniques": 8
+        "count": 15,
+        "uniques": 11
       },
       {
         "path": "/netresearch/timetracker/blob/main/TASKS.md",
@@ -104,16 +104,34 @@
         "uniques": 4
       },
       {
+        "path": "/netresearch/timetracker/blob/main/docs/apcu-setup.md",
+        "title": "/blob/main/docs/apcu-setup.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/timetracker/tree/main/src",
+        "title": "/tree/main/src",
+        "count": 3,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/timetracker/blob/main/docs/DEPLOYMENT_GUIDE.md",
         "title": "/blob/main/docs/DEPLOYMENT_GUIDE.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/timetracker/tree/main/src",
-        "title": "/tree/main/src",
+        "path": "/netresearch/timetracker/commit/efe8a90e231795d7199517333ea0612db6691661",
+        "title": "/commit/efe8a90e231795d7199517333ea0612db6691661",
         "count": 2,
         "uniques": 2
+      },
+      {
+        "path": "/netresearch/timetracker/blob/ea7dac9556e1df3f286ca9dc12405188209d1332/tests/Controller/AdminControllerTest.php",
+        "title": "/blob/ea7dac9556e1df3f286ca9dc12405188209d1332/tests/Controller/AdminControllerTest.php",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/timetracker/blob/main/AGENTS.md",
@@ -122,26 +140,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/timetracker/blob/main/CONTRIBUTING.md",
-        "title": "/blob/main/CONTRIBUTING.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docker/README.md",
-        "title": "/blob/main/docker/README.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs/TESTING_GUIDE.md",
-        "title": "/blob/main/docs/TESTING_GUIDE.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/timetracker/blob/main/docs/adr/ADR-004-authentication-strategy-ldap-local.md",
-        "title": "/blob/main/docs/adr/ADR-004-authentication-strategy-ldap-local.md",
+        "path": "/netresearch/timetracker/blob/main/CODE_OF_CONDUCT.md",
+        "title": "/blob/main/CODE_OF_CONDUCT.md",
         "count": 1,
         "uniques": 1
       }
@@ -161,7 +161,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 116,
+      "contributions": 118,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -191,7 +191,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 3,
+      "contributions": 5,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -211,19 +211,19 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 63323,
-        "thirty_day": 10332
+        "total": 63397,
+        "thirty_day": 10323
       }
     ],
-    "total": 63323,
-    "thirty_day": 10332
+    "total": 63397,
+    "thirty_day": 10323
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/timetracker/network/dependents"
   },
-  "estimated_downstream_reach": 874,
-  "blast_radius": 874,
+  "estimated_downstream_reach": 876,
+  "blast_radius": 876,
   "archived": false
 }

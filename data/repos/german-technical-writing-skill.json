@@ -21,7 +21,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-24T16:10:31Z",
-  "pushed_at": "2026-11-21T22:32:45Z",
+  "pushed_at": "2026-11-22T22:47:03Z",
   "updated_at": "2026-11-21T11:23:48Z",
   "composer_name": null,
   "lifetime": {
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 2,
-    "commits": 204,
+    "commits": 206,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 1,
-    "prs_merged": 86,
+    "prs_merged": 87,
     "prs_closed_unmerged": 1,
     "issues_total": 2,
     "releases": 17,
@@ -47,19 +47,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 31,
+    "commits": 30,
     "issues_opened": 0,
-    "prs_opened": 17,
-    "prs_merged": 16,
-    "releases": 2,
+    "prs_opened": 16,
+    "prs_merged": 15,
+    "releases": 1,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2125,
-    "clones_unique": 330,
-    "views_total": 88,
-    "views_unique": 56,
+    "clones_total": 2297,
+    "clones_unique": 338,
+    "views_total": 84,
+    "views_unique": 55,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -114,24 +114,6 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/german-technical-writing-skill/tree/main",
-        "title": "/tree/main",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/german-technical-writing-skill/tree/main/docs",
-        "title": "/tree/main/docs",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/german-technical-writing-skill/tree/main/skills/german-technical-writing/references",
-        "title": "/tree/main/skills/german-technical-writing/references",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/german-technical-writing-skill/actions/workflows/release.yml",
         "title": "/actions/workflows/release.yml",
         "count": 1,
@@ -140,6 +122,24 @@
       {
         "path": "/netresearch/german-technical-writing-skill/blob/02db89f7d967bf1ea75573de87f71fb024eccbd8/README.md",
         "title": "/blob/02db89f7d967bf1ea75573de87f71fb024eccbd8/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/german-technical-writing-skill/blob/02db89f7d967bf1ea75573de87f71fb024eccbd8/skills/german-technical-writing/references/anti-patterns.md",
+        "title": "/blob/02db89f7d967bf1ea75573de87f71fb024eccbd8/skills/german-technical-writing/references/anti-patterns.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/german-technical-writing-skill/blob/02db89f7d967bf1ea75573de87f71fb024eccbd8/skills/german-technical-writing/references/examples.md",
+        "title": "/blob/02db89f7d967bf1ea75573de87f71fb024eccbd8/skills/german-technical-writing/references/examples.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/german-technical-writing-skill/blob/02db89f7d967bf1ea75573de87f71fb024eccbd8/skills/german-technical-writing/references/lexicon.md",
+        "title": "/blob/02db89f7d967bf1ea75573de87f71fb024eccbd8/skills/german-technical-writing/references/lexicon.md",
         "count": 1,
         "uniques": 1
       }
@@ -159,18 +159,18 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 41,
+      "contributions": 42,
       "url": "https://github.com/apps/renovate"
+    },
+    {
+      "login": "netresearch-project-bot[bot]",
+      "contributions": 18,
+      "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
       "login": "github-actions[bot]",
       "contributions": 17,
       "url": "https://github.com/apps/github-actions"
-    },
-    {
-      "login": "netresearch-project-bot[bot]",
-      "contributions": 17,
-      "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
       "login": "Sebastian80",
@@ -190,7 +190,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/german-technical-writing-skill/network/dependents"
   },
-  "estimated_downstream_reach": 96,
-  "blast_radius": 96,
+  "estimated_downstream_reach": 97,
+  "blast_radius": 97,
   "archived": false
 }

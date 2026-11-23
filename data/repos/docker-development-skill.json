@@ -19,7 +19,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-29T17:18:27Z",
-  "pushed_at": "2026-11-21T22:22:46Z",
+  "pushed_at": "2026-11-22T20:38:34Z",
   "updated_at": "2026-11-12T10:52:37Z",
   "composer_name": null,
   "lifetime": {
@@ -28,11 +28,11 @@
     "watchers": 1,
     "network": 3,
     "open_issues_plus_prs": 3,
-    "commits": 402,
+    "commits": 404,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 2,
-    "prs_merged": 144,
+    "prs_merged": 145,
     "prs_closed_unmerged": 2,
     "issues_total": 2,
     "releases": 42,
@@ -45,19 +45,19 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 63,
+    "commits": 56,
     "issues_opened": 0,
-    "prs_opened": 28,
-    "prs_merged": 27,
-    "releases": 6,
+    "prs_opened": 25,
+    "prs_merged": 23,
+    "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 4505,
-    "clones_unique": 481,
-    "views_total": 53,
-    "views_unique": 28,
+    "clones_total": 4654,
+    "clones_unique": 488,
+    "views_total": 61,
+    "views_unique": 36,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -79,8 +79,8 @@
       {
         "path": "/netresearch/docker-development-skill",
         "title": "Overview",
-        "count": 33,
-        "uniques": 23
+        "count": 32,
+        "uniques": 22
       },
       {
         "path": "/netresearch/docker-development-skill/blob/main/skills/docker-development/SKILL.md",
@@ -107,32 +107,32 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/docker-development-skill/blob/main/Build/Scripts/check-plugin-version.sh",
-        "title": "/blob/main/Build/Scripts/check-plugin-version.sh",
+        "path": "/netresearch/docker-development-skill/blob/758e8a47f8da8050f4a2273c0e9761681216eacc/README.md",
+        "title": "/blob/758e8a47f8da8050f4a2273c0e9761681216eacc/README.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/docker-development-skill/releases/tag/v1.20.0",
-        "title": "/releases/tag/v1.20.0",
+        "path": "/netresearch/docker-development-skill/blob/758e8a47f8da8050f4a2273c0e9761681216eacc/skills/docker-development/references/bind-mount-ownership.md",
+        "title": "/blob/758e8a47f8da8050f4a2273c0e9761681216eacc/skills/docker-development/references/bind-mount-ownership.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/docker-development-skill/tree/main/Build",
-        "title": "/tree/main/Build",
+        "path": "/netresearch/docker-development-skill/blob/758e8a47f8da8050f4a2273c0e9761681216eacc/skills/docker-development/references/compose-config-and-env.md",
+        "title": "/blob/758e8a47f8da8050f4a2273c0e9761681216eacc/skills/docker-development/references/compose-config-and-env.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/docker-development-skill/tree/main/Build/Scripts",
-        "title": "/tree/main/Build/Scripts",
+        "path": "/netresearch/docker-development-skill/blob/758e8a47f8da8050f4a2273c0e9761681216eacc/skills/docker-development/references/compose-runtime-lifecycle.md",
+        "title": "/blob/758e8a47f8da8050f4a2273c0e9761681216eacc/skills/docker-development/references/compose-runtime-lifecycle.md",
         "count": 1,
         "uniques": 1
       },
       {
-        "path": "/netresearch/docker-development-skill/tree/main/skills/docker-development",
-        "title": "/tree/main/skills/docker-development",
+        "path": "/netresearch/docker-development-skill/blob/758e8a47f8da8050f4a2273c0e9761681216eacc/skills/docker-development/references/multi-stage-caching.md",
+        "title": "/blob/758e8a47f8da8050f4a2273c0e9761681216eacc/skills/docker-development/references/multi-stage-caching.md",
         "count": 1,
         "uniques": 1
       }
@@ -152,7 +152,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 39,
+      "contributions": 40,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -162,7 +162,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 16,
+      "contributions": 17,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -178,7 +178,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/docker-development-skill/network/dependents"
   },
-  "estimated_downstream_reach": 155,
-  "blast_radius": 155,
+  "estimated_downstream_reach": 156,
+  "blast_radius": 156,
   "archived": false
 }

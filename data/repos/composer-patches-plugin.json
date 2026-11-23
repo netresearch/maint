@@ -34,7 +34,7 @@
     "release_downloads": 0,
     "contributors": 16,
     "external_contributors": 12,
-    "packagist_downloads": 284463,
+    "packagist_downloads": 284468,
     "ghcr_downloads": 0,
     "dependents_repos": 48,
     "dependents_packages": 8
@@ -45,14 +45,14 @@
     "prs_opened": 2,
     "prs_merged": 1,
     "releases": 0,
-    "packagist_downloads": 3609,
+    "packagist_downloads": 3549,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 83,
-    "clones_unique": 41,
-    "views_total": 40,
-    "views_unique": 13,
+    "clones_total": 119,
+    "clones_unique": 45,
+    "views_total": 39,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -69,8 +69,20 @@
       {
         "path": "/netresearch/composer-patches-plugin",
         "title": "Overview",
-        "count": 26,
+        "count": 23,
         "uniques": 6
+      },
+      {
+        "path": "/netresearch/composer-patches-plugin/issues",
+        "title": "/issues",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/composer-patches-plugin/blob/master/README.md",
+        "title": "/blob/master/README.md",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/composer-patches-plugin/commit/4d7074496eaf113d733ef58ec62bc03e2a1abd97",
@@ -81,12 +93,6 @@
       {
         "path": "/netresearch/composer-patches-plugin/commit/d2d5ba401670d7bf0c8f94f5601093436182dc42",
         "title": "/commit/d2d5ba401670d7bf0c8f94f5601093436182dc42",
-        "count": 2,
-        "uniques": 2
-      },
-      {
-        "path": "/netresearch/composer-patches-plugin/issues",
-        "title": "/issues",
         "count": 2,
         "uniques": 2
       },
@@ -111,12 +117,6 @@
       {
         "path": "/netresearch/composer-patches-plugin/blob/master/LICENSE",
         "title": "/blob/master/LICENSE",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/composer-patches-plugin/blob/master/README.md",
-        "title": "/blob/master/README.md",
         "count": 1,
         "uniques": 1
       },
@@ -188,9 +188,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-patches-plugin",
-    "total": 284463,
-    "monthly": 3609,
-    "daily": 20,
+    "total": 284468,
+    "monthly": 3549,
+    "daily": 5,
     "url": "https://packagist.org/packages/netresearch/composer-patches-plugin"
   },
   "ghcr": null,

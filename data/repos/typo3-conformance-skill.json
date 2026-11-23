@@ -21,7 +21,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T10:14:23Z",
-  "pushed_at": "2026-11-21T22:04:53Z",
+  "pushed_at": "2026-11-22T21:48:12Z",
   "updated_at": "2026-11-21T05:33:15Z",
   "composer_name": null,
   "lifetime": {
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 607,
+    "commits": 609,
     "issues_open": 1,
     "issues_closed": 6,
     "prs_open": 1,
-    "prs_merged": 185,
+    "prs_merged": 186,
     "prs_closed_unmerged": 6,
     "issues_total": 7,
     "releases": 67,
@@ -50,21 +50,26 @@
     "commits": 57,
     "issues_opened": 0,
     "prs_opened": 25,
-    "prs_merged": 25,
+    "prs_merged": 24,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5137,
-    "clones_unique": 381,
-    "views_total": 43,
-    "views_unique": 32,
+    "clones_total": 5713,
+    "clones_unique": 419,
+    "views_total": 45,
+    "views_unique": 34,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
+      },
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
       },
       {
         "referrer": "netresearch.github.io",
@@ -76,12 +81,18 @@
       {
         "path": "/netresearch/typo3-conformance-skill",
         "title": "Overview",
-        "count": 12,
-        "uniques": 10
+        "count": 14,
+        "uniques": 12
       },
       {
         "path": "/netresearch/typo3-conformance-skill/blob/main/SKILL.md",
         "title": "/blob/main/SKILL.md",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/checkpoints.yaml",
+        "title": "/blob/main/skills/typo3-conformance/checkpoints.yaml",
         "count": 3,
         "uniques": 3
       },
@@ -102,12 +113,6 @@
         "title": "/issues",
         "count": 3,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/blob/main/skills/typo3-conformance/checkpoints.yaml",
-        "title": "/blob/main/skills/typo3-conformance/checkpoints.yaml",
-        "count": 2,
-        "uniques": 2
       },
       {
         "path": "/netresearch/typo3-conformance-skill/releases/tag/v2.19.5",
@@ -149,7 +154,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 43,
+      "contributions": 44,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -159,7 +164,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 17,
+      "contributions": 18,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -175,7 +180,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "estimated_downstream_reach": 195,
-  "blast_radius": 195,
+  "estimated_downstream_reach": 196,
+  "blast_radius": 196,
   "archived": false
 }

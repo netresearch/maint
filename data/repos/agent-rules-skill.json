@@ -20,7 +20,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T19:35:16Z",
-  "pushed_at": "2026-11-21T22:32:40Z",
+  "pushed_at": "2026-11-22T22:31:50Z",
   "updated_at": "2026-11-19T17:10:43Z",
   "composer_name": null,
   "lifetime": {
@@ -29,15 +29,15 @@
     "watchers": 1,
     "network": 11,
     "open_issues_plus_prs": 2,
-    "commits": 562,
+    "commits": 564,
     "issues_open": 1,
     "issues_closed": 16,
     "prs_open": 1,
-    "prs_merged": 156,
+    "prs_merged": 157,
     "prs_closed_unmerged": 3,
     "issues_total": 17,
     "releases": 66,
-    "release_downloads": 900,
+    "release_downloads": 902,
     "contributors": 6,
     "external_contributors": 0,
     "packagist_downloads": 0,
@@ -50,25 +50,25 @@
     "issues_opened": 0,
     "prs_opened": 25,
     "prs_merged": 24,
-    "releases": 5,
+    "releases": 4,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 3121,
-    "clones_unique": 534,
-    "views_total": 348,
-    "views_unique": 166,
+    "clones_total": 3704,
+    "clones_unique": 592,
+    "views_total": 342,
+    "views_unique": 175,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 111,
-        "uniques": 93
+        "count": 115,
+        "uniques": 97
       },
       {
         "referrer": "github.com",
-        "count": 12,
-        "uniques": 6
+        "count": 14,
+        "uniques": 7
       },
       {
         "referrer": "Bing",
@@ -81,12 +81,12 @@
         "uniques": 4
       },
       {
-        "referrer": "packagist.org",
-        "count": 2,
+        "referrer": "DuckDuckGo",
+        "count": 1,
         "uniques": 1
       },
       {
-        "referrer": "com.slack",
+        "referrer": "teams.public.onecdn.static.microsoft",
         "count": 1,
         "uniques": 1
       }
@@ -95,26 +95,20 @@
       {
         "path": "/netresearch/agent-rules-skill",
         "title": "Overview",
-        "count": 192,
-        "uniques": 140
+        "count": 198,
+        "uniques": 148
       },
       {
         "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules",
         "title": "/tree/main/skills/agent-rules",
-        "count": 30,
-        "uniques": 22
+        "count": 25,
+        "uniques": 20
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/SKILL.md",
         "title": "/blob/main/skills/agent-rules/SKILL.md",
-        "count": 18,
-        "uniques": 14
-      },
-      {
-        "path": "/netresearch/agent-rules-skill/blob/main/AGENTS.md",
-        "title": "/blob/main/AGENTS.md",
-        "count": 7,
-        "uniques": 6
+        "count": 16,
+        "uniques": 12
       },
       {
         "path": "/netresearch/agent-rules-skill/blob/main/skills/agent-rules/AGENTS.md",
@@ -135,8 +129,8 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/agent-rules-skill/tree/main",
-        "title": "/tree/main",
+        "path": "/netresearch/agent-rules-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
         "count": 5,
         "uniques": 4
       },
@@ -147,10 +141,16 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/agent-rules-skill/tree/main/skills/agent-rules/scripts",
-        "title": "/tree/main/skills/agent-rules/scripts",
+        "path": "/netresearch/agent-rules-skill/tree/main",
+        "title": "/tree/main",
         "count": 4,
         "uniques": 3
+      },
+      {
+        "path": "/netresearch/agent-rules-skill/tree/main/skills",
+        "title": "/tree/main/skills",
+        "count": 4,
+        "uniques": 2
       }
     ]
   },
@@ -168,7 +168,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 45,
+      "contributions": 46,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -178,7 +178,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 15,
+      "contributions": 16,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -199,7 +199,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/agent-rules-skill/network/dependents"
   },
-  "estimated_downstream_reach": 195,
-  "blast_radius": 195,
+  "estimated_downstream_reach": 196,
+  "blast_radius": 196,
   "archived": false
 }

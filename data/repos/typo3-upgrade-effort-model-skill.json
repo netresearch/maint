@@ -10,7 +10,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-04-29T10:10:38Z",
-  "pushed_at": "2026-11-21T22:41:58Z",
+  "pushed_at": "2026-11-22T20:40:49Z",
   "updated_at": "2026-11-09T22:04:24Z",
   "composer_name": null,
   "lifetime": {
@@ -19,15 +19,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 3,
-    "commits": 163,
+    "commits": 165,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 2,
-    "prs_merged": 69,
+    "prs_merged": 70,
     "prs_closed_unmerged": 1,
     "issues_total": 3,
     "releases": 11,
-    "release_downloads": 20,
+    "release_downloads": 27,
     "contributors": 5,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -36,28 +36,28 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 29,
+    "commits": 26,
     "issues_opened": 0,
-    "prs_opened": 16,
-    "prs_merged": 14,
-    "releases": 1,
+    "prs_opened": 15,
+    "prs_merged": 13,
+    "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2009,
-    "clones_unique": 212,
-    "views_total": 8,
-    "views_unique": 6,
+    "clones_total": 2172,
+    "clones_unique": 222,
+    "views_total": 9,
+    "views_unique": 7,
     "top_referrers": [
+      {
+        "referrer": "Google",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "referrer": "github.com",
         "count": 2,
-        "uniques": 1
-      },
-      {
-        "referrer": "Google",
-        "count": 1,
         "uniques": 1
       },
       {
@@ -70,8 +70,8 @@
       {
         "path": "/netresearch/typo3-upgrade-effort-model-skill",
         "title": "Overview",
-        "count": 5,
-        "uniques": 5
+        "count": 6,
+        "uniques": 6
       },
       {
         "path": "/netresearch/typo3-upgrade-effort-model-skill/blob/HEAD/docs/SECURITY-ASSURANCE.md",
@@ -107,7 +107,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 36,
+      "contributions": 37,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -117,7 +117,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 10,
+      "contributions": 11,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -133,7 +133,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-upgrade-effort-model-skill/network/dependents"
   },
-  "estimated_downstream_reach": 75,
-  "blast_radius": 75,
+  "estimated_downstream_reach": 76,
+  "blast_radius": 76,
   "archived": false
 }
