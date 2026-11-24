@@ -14,20 +14,20 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:56:59Z",
-  "pushed_at": "2026-11-22T22:23:24Z",
-  "updated_at": "2026-11-12T03:33:09Z",
+  "pushed_at": "2026-11-23T20:45:11Z",
+  "updated_at": "2026-11-23T15:24:40Z",
   "composer_name": null,
   "lifetime": {
-    "stars": 13,
+    "stars": 15,
     "forks": 2,
     "watchers": 2,
     "network": 2,
     "open_issues_plus_prs": 2,
-    "commits": 395,
+    "commits": 397,
     "issues_open": 1,
     "issues_closed": 4,
     "prs_open": 1,
-    "prs_merged": 140,
+    "prs_merged": 141,
     "prs_closed_unmerged": 0,
     "issues_total": 5,
     "releases": 45,
@@ -42,17 +42,17 @@
   "recent_30d": {
     "commits": 66,
     "issues_opened": 0,
-    "prs_opened": 28,
+    "prs_opened": 27,
     "prs_merged": 27,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2901,
-    "clones_unique": 365,
-    "views_total": 76,
-    "views_unique": 47,
+    "clones_total": 2960,
+    "clones_unique": 346,
+    "views_total": 62,
+    "views_unique": 35,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -61,16 +61,16 @@
       },
       {
         "referrer": "github.com",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/go-development-skill",
         "title": "Overview",
-        "count": 20,
-        "uniques": 18
+        "count": 17,
+        "uniques": 15
       },
       {
         "path": "/netresearch/go-development-skill/blob/main/AGENTS.md",
@@ -91,12 +91,6 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/contracts-and-invariants.md",
-        "title": "/blob/main/skills/go-development/references/contracts-and-invariants.md",
-        "count": 4,
-        "uniques": 4
-      },
-      {
         "path": "/netresearch/go-development-skill/blob/main/skills/go-development/SKILL.md",
         "title": "/blob/main/skills/go-development/SKILL.md",
         "count": 4,
@@ -109,22 +103,28 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/go-development-skill/issues",
-        "title": "/issues",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/go-development-skill/blob/main/scripts/verify-harness.sh",
+        "title": "/blob/main/scripts/verify-harness.sh",
+        "count": 2,
+        "uniques": 2
       },
       {
-        "path": "/netresearch/go-development-skill/issues/created_by/70)).",
-        "title": "/issues/created_by/70)).",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/go-development-skill/blob/main/skills/go-development/references/contracts-and-invariants.md",
+        "title": "/blob/main/skills/go-development/references/contracts-and-invariants.md",
+        "count": 2,
+        "uniques": 2
       },
       {
-        "path": "/netresearch/go-development-skill/releases/tag/v1.16.5",
-        "title": "/releases/tag/v1.16.5",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/go-development-skill/tree/main/scripts",
+        "title": "/tree/main/scripts",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/go-development-skill/blob/main/LICENSE-CC-BY-SA-4.0",
+        "title": "/blob/main/LICENSE-CC-BY-SA-4.0",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -142,12 +142,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 40,
+      "contributions": 41,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 18,
+      "contributions": 19,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -163,7 +163,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/go-development-skill/network/dependents"
   },
-  "estimated_downstream_reach": 149,
-  "blast_radius": 149,
+  "estimated_downstream_reach": 150,
+  "blast_radius": 150,
   "archived": false
 }

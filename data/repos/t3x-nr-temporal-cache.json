@@ -32,7 +32,7 @@
     "release_downloads": 102,
     "contributors": 4,
     "external_contributors": 0,
-    "packagist_downloads": 8,
+    "packagist_downloads": 9,
     "ghcr_downloads": 0,
     "dependents_repos": 0,
     "dependents_packages": 0
@@ -43,28 +43,16 @@
     "prs_opened": 12,
     "prs_merged": 10,
     "releases": 2,
-    "packagist_downloads": 2,
+    "packagist_downloads": 3,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1453,
-    "clones_unique": 110,
-    "views_total": 23,
-    "views_unique": 21,
+    "clones_total": 1470,
+    "clones_unique": 113,
+    "views_total": 20,
+    "views_unique": 18,
     "top_referrers": [],
     "top_paths": [
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/ext_conf_template.txt",
-        "title": "/blob/main/ext_conf_template.txt",
-        "count": 3,
-        "uniques": 3
-      },
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
@@ -90,10 +78,10 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-temporal-cache",
-        "title": "Overview",
-        "count": 1,
-        "uniques": 1
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/COVERAGE_ANALYSIS.md",
@@ -110,6 +98,18 @@
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/Documentation/Architecture/Index.rst",
         "title": "/blob/main/Documentation/Architecture/Index.rst",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/TEST_EVIDENCE_REPORT.md",
+        "title": "/blob/main/TEST_EVIDENCE_REPORT.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/TRANSLATION_ANALYSIS_REPORT.md",
+        "title": "/blob/main/TRANSLATION_ANALYSIS_REPORT.md",
         "count": 1,
         "uniques": 1
       }
@@ -145,9 +145,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-temporal-cache",
-    "total": 8,
-    "monthly": 2,
-    "daily": 0,
+    "total": 9,
+    "monthly": 3,
+    "daily": 1,
     "url": "https://packagist.org/packages/netresearch/nr-temporal-cache"
   },
   "ghcr": null,

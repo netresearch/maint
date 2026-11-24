@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 2,
-    "packagist_downloads": 264572,
+    "packagist_downloads": 264808,
     "ghcr_downloads": 0,
     "dependents_repos": 18,
     "dependents_packages": 3
@@ -47,14 +47,14 @@
     "prs_opened": 1,
     "prs_merged": 0,
     "releases": 0,
-    "packagist_downloads": 6115,
+    "packagist_downloads": 6243,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
     "clones_total": 30,
     "clones_unique": 17,
-    "views_total": 17,
-    "views_unique": 9,
+    "views_total": 16,
+    "views_unique": 8,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -100,12 +100,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/module-shipping-core/releases/tag/3.0.0",
-        "title": "/releases/tag/3.0.0",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/module-shipping-core/releases/tag/4.1.1",
         "title": "/releases/tag/4.1.1",
         "count": 1,
@@ -120,6 +114,12 @@
       {
         "path": "/netresearch/module-shipping-core/tree/main/Model/Shipping",
         "title": "/tree/main/Model/Shipping",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core/tree/main/Model/SplitAddress/SplittingRule",
+        "title": "/tree/main/Model/SplitAddress/SplittingRule",
         "count": 1,
         "uniques": 1
       }
@@ -150,9 +150,9 @@
   ],
   "packagist": {
     "name": "netresearch/module-shipping-core",
-    "total": 264572,
-    "monthly": 6115,
-    "daily": 81,
+    "total": 264808,
+    "monthly": 6243,
+    "daily": 222,
     "url": "https://packagist.org/packages/netresearch/module-shipping-core"
   },
   "ghcr": null,

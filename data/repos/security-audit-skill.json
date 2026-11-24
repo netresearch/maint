@@ -14,7 +14,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-12-13T11:57:25Z",
-  "pushed_at": "2026-11-22T19:29:51Z",
+  "pushed_at": "2026-11-23T23:50:18Z",
   "updated_at": "2026-11-12T11:56:26Z",
   "composer_name": null,
   "lifetime": {
@@ -23,15 +23,15 @@
     "watchers": 1,
     "network": 5,
     "open_issues_plus_prs": 4,
-    "commits": 506,
+    "commits": 508,
     "issues_open": 2,
     "issues_closed": 2,
     "prs_open": 2,
-    "prs_merged": 173,
+    "prs_merged": 174,
     "prs_closed_unmerged": 5,
     "issues_total": 4,
     "releases": 44,
-    "release_downloads": 677,
+    "release_downloads": 680,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -42,37 +42,42 @@
   "recent_30d": {
     "commits": 51,
     "issues_opened": 1,
-    "prs_opened": 24,
+    "prs_opened": 23,
     "prs_merged": 22,
     "releases": 3,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6049,
-    "clones_unique": 872,
-    "views_total": 519,
-    "views_unique": 296,
+    "clones_total": 6140,
+    "clones_unique": 873,
+    "views_total": 518,
+    "views_unique": 306,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 190,
-        "uniques": 153
+        "count": 200,
+        "uniques": 156
       },
       {
         "referrer": "github.com",
         "count": 20,
-        "uniques": 14
+        "uniques": 13
       },
       {
         "referrer": "search.brave.com",
-        "count": 16,
-        "uniques": 12
+        "count": 13,
+        "uniques": 10
       },
       {
         "referrer": "Bing",
-        "count": 4,
-        "uniques": 4
+        "count": 11,
+        "uniques": 9
+      },
+      {
+        "referrer": "Yahoo",
+        "count": 3,
+        "uniques": 2
       },
       {
         "referrer": "Baidu",
@@ -80,7 +85,7 @@
         "uniques": 1
       },
       {
-        "referrer": "Yahoo",
+        "referrer": "DuckDuckGo",
         "count": 1,
         "uniques": 1
       },
@@ -98,19 +103,14 @@
         "referrer": "teams.public.onecdn.static.microsoft",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "yandex.ru",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/security-audit-skill",
         "title": "Overview",
-        "count": 330,
-        "uniques": 257
+        "count": 352,
+        "uniques": 263
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/SKILL.md",
@@ -121,13 +121,13 @@
       {
         "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit",
         "title": "/tree/main/skills/security-audit",
-        "count": 31,
-        "uniques": 20
+        "count": 29,
+        "uniques": 19
       },
       {
         "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/references/typo3-security.md",
         "title": "/blob/main/skills/security-audit/references/typo3-security.md",
-        "count": 11,
+        "count": 12,
         "uniques": 3
       },
       {
@@ -137,33 +137,33 @@
         "uniques": 9
       },
       {
+        "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/checkpoints.yaml",
+        "title": "/blob/main/skills/security-audit/checkpoints.yaml",
+        "count": 5,
+        "uniques": 4
+      },
+      {
         "path": "/netresearch/security-audit-skill/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/security-audit-skill/blob/main/SECURITY.md",
-        "title": "/blob/main/SECURITY.md",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/security-audit-skill/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
-        "count": 5,
-        "uniques": 5
-      },
-      {
-        "path": "/netresearch/security-audit-skill/tree/main/skills/security-audit/references",
-        "title": "/tree/main/skills/security-audit/references",
         "count": 4,
         "uniques": 4
       },
       {
-        "path": "/netresearch/security-audit-skill/blob/main/skills/security-audit/checkpoints.yaml",
-        "title": "/blob/main/skills/security-audit/checkpoints.yaml",
+        "path": "/netresearch/security-audit-skill/blob/main/SECURITY.md",
+        "title": "/blob/main/SECURITY.md",
         "count": 4,
+        "uniques": 4
+      },
+      {
+        "path": "/netresearch/security-audit-skill/releases/tag/v2.11.11",
+        "title": "/releases/tag/v2.11.11",
+        "count": 4,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/security-audit-skill/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 3,
         "uniques": 3
       }
     ]
@@ -182,7 +182,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 49,
+      "contributions": 50,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -192,7 +192,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 19,
+      "contributions": 20,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -213,7 +213,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/security-audit-skill/network/dependents"
   },
-  "estimated_downstream_reach": 190,
-  "blast_radius": 190,
+  "estimated_downstream_reach": 191,
+  "blast_radius": 191,
   "archived": false
 }

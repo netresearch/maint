@@ -10,7 +10,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-03-15T01:15:05Z",
-  "pushed_at": "2026-11-22T22:37:52Z",
+  "pushed_at": "2026-11-23T19:55:48Z",
   "updated_at": "2026-11-12T01:17:21Z",
   "composer_name": null,
   "lifetime": {
@@ -19,11 +19,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 3,
-    "commits": 190,
+    "commits": 192,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 2,
-    "prs_merged": 73,
+    "prs_merged": 74,
     "prs_closed_unmerged": 0,
     "issues_total": 1,
     "releases": 13,
@@ -38,21 +38,21 @@
   "recent_30d": {
     "commits": 38,
     "issues_opened": 0,
-    "prs_opened": 19,
+    "prs_opened": 18,
     "prs_merged": 17,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2812,
-    "clones_unique": 278,
-    "views_total": 28,
-    "views_unique": 14,
+    "clones_total": 2738,
+    "clones_unique": 267,
+    "views_total": 30,
+    "views_unique": 15,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 11,
+        "count": 12,
         "uniques": 8
       }
     ],
@@ -66,7 +66,7 @@
       {
         "path": "/netresearch/typo3-project-upgrade-skill/tree/main/skills/typo3-project-upgrade",
         "title": "/tree/main/skills/typo3-project-upgrade",
-        "count": 5,
+        "count": 6,
         "uniques": 3
       },
       {
@@ -78,6 +78,12 @@
       {
         "path": "/netresearch/typo3-project-upgrade-skill/blob/ae426b0ea91a89eeb48662e237b8efe096185d5a/README.md",
         "title": "/blob/ae426b0ea91a89eeb48662e237b8efe096185d5a/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-project-upgrade-skill/blob/main/.pre-commit-config.yaml",
+        "title": "/blob/main/.pre-commit-config.yaml",
         "count": 1,
         "uniques": 1
       },
@@ -110,12 +116,6 @@
         "title": "/tree/main/skills",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/typo3-project-upgrade-skill/tree/main/skills/typo3-project-upgrade/evals",
-        "title": "/tree/main/skills/typo3-project-upgrade/evals",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -133,12 +133,12 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 46,
+      "contributions": 47,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 16,
+      "contributions": 17,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -154,7 +154,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-project-upgrade-skill/network/dependents"
   },
-  "estimated_downstream_reach": 74,
-  "blast_radius": 74,
+  "estimated_downstream_reach": 75,
+  "blast_radius": 75,
   "archived": false
 }

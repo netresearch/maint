@@ -21,7 +21,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2022-05-30T12:58:03Z",
-  "pushed_at": "2026-11-22T22:24:06Z",
+  "pushed_at": "2026-11-23T19:42:27Z",
   "updated_at": "2026-11-20T07:35:51Z",
   "composer_name": null,
   "lifetime": {
@@ -29,47 +29,47 @@
     "forks": 9,
     "watchers": 1,
     "network": 211,
-    "open_issues_plus_prs": 27,
-    "commits": 2200,
-    "issues_open": 26,
+    "open_issues_plus_prs": 29,
+    "commits": 2207,
+    "issues_open": 27,
     "issues_closed": 189,
-    "prs_open": 1,
-    "prs_merged": 688,
-    "prs_closed_unmerged": 75,
-    "issues_total": 215,
+    "prs_open": 2,
+    "prs_merged": 690,
+    "prs_closed_unmerged": 76,
+    "issues_total": 216,
     "releases": 60,
     "release_downloads": 4193,
-    "contributors": 48,
-    "external_contributors": 41,
+    "contributors": 47,
+    "external_contributors": 40,
     "packagist_downloads": 0,
-    "ghcr_downloads": 779226,
+    "ghcr_downloads": 786338,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 296,
-    "issues_opened": 8,
-    "prs_opened": 89,
-    "prs_merged": 85,
+    "commits": 255,
+    "issues_opened": 9,
+    "prs_opened": 84,
+    "prs_merged": 79,
     "releases": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 195923
+    "ghcr_downloads": 195707
   },
   "traffic_14d": {
-    "clones_total": 4357,
-    "clones_unique": 362,
-    "views_total": 144,
-    "views_unique": 79,
+    "clones_total": 6349,
+    "clones_unique": 460,
+    "views_total": 120,
+    "views_unique": 70,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 9,
-        "uniques": 8
+        "count": 8,
+        "uniques": 7
       },
       {
         "referrer": "Google",
-        "count": 4,
-        "uniques": 3
+        "count": 3,
+        "uniques": 2
       },
       {
         "referrer": "awesome-go.com",
@@ -87,11 +87,6 @@
         "uniques": 1
       },
       {
-        "referrer": "reddit.com",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "referrer": "search.brave.com",
         "count": 1,
         "uniques": 1
@@ -101,8 +96,8 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 50,
-        "uniques": 33
+        "count": 48,
+        "uniques": 34
       },
       {
         "path": "/netresearch/ofelia/issues",
@@ -111,22 +106,22 @@
         "uniques": 4
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
-        "title": "/blob/main/docs/CONFIGURATION.md",
-        "count": 6,
-        "uniques": 5
-      },
-      {
         "path": "/netresearch/ofelia/blob/main/docs/jobs.md",
         "title": "/blob/main/docs/jobs.md",
         "count": 5,
         "uniques": 3
       },
       {
-        "path": "/netresearch/ofelia/pull/901",
-        "title": "/pull/901",
+        "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
+        "title": "/blob/main/docs/CONFIGURATION.md",
         "count": 4,
-        "uniques": 4
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/ofelia/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/ofelia/blob/main/CONTRIBUTING.md",
@@ -147,16 +142,16 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/ofelia/pull/900",
-        "title": "/pull/900",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/ofelia/blob/main/docs/API.md",
+        "title": "/blob/main/docs/API.md",
+        "count": 2,
+        "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/releases",
-        "title": "/releases",
-        "count": 3,
-        "uniques": 3
+        "path": "/netresearch/ofelia/blob/main/docs/images/dashboard-light-dark.png",
+        "title": "/blob/main/docs/images/dashboard-light-dark.png",
+        "count": 2,
+        "uniques": 2
       }
     ]
   },
@@ -169,7 +164,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 1765,
+      "contributions": 1772,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -224,12 +219,12 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 779226,
-        "thirty_day": 195923
+        "total": 786338,
+        "thirty_day": 195707
       }
     ],
-    "total": 779226,
-    "thirty_day": 195923
+    "total": 786338,
+    "thirty_day": 195707
   },
   "dependents": {
     "repositories": 0,

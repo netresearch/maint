@@ -21,7 +21,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T10:14:23Z",
-  "pushed_at": "2026-11-22T21:48:12Z",
+  "pushed_at": "2026-11-23T17:18:15Z",
   "updated_at": "2026-11-21T05:33:15Z",
   "composer_name": null,
   "lifetime": {
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 2,
-    "commits": 609,
+    "commits": 611,
     "issues_open": 1,
     "issues_closed": 6,
     "prs_open": 1,
-    "prs_merged": 186,
+    "prs_merged": 187,
     "prs_closed_unmerged": 6,
     "issues_total": 7,
     "releases": 67,
@@ -49,17 +49,17 @@
   "recent_30d": {
     "commits": 57,
     "issues_opened": 0,
-    "prs_opened": 25,
+    "prs_opened": 24,
     "prs_merged": 24,
     "releases": 5,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 5713,
-    "clones_unique": 419,
-    "views_total": 45,
-    "views_unique": 34,
+    "clones_total": 5204,
+    "clones_unique": 407,
+    "views_total": 37,
+    "views_unique": 27,
     "top_referrers": [
       {
         "referrer": "Google",
@@ -81,8 +81,8 @@
       {
         "path": "/netresearch/typo3-conformance-skill",
         "title": "Overview",
-        "count": 14,
-        "uniques": 12
+        "count": 11,
+        "uniques": 9
       },
       {
         "path": "/netresearch/typo3-conformance-skill/blob/main/SKILL.md",
@@ -97,26 +97,14 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/typo3-conformance-skill/issues/102",
-        "title": "/issues/102",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/typo3-conformance-skill/releases/tag/v2.21.2",
-        "title": "/releases/tag/v2.21.2",
-        "count": 3,
-        "uniques": 3
-      },
-      {
         "path": "/netresearch/typo3-conformance-skill/issues",
         "title": "/issues",
         "count": 3,
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-conformance-skill/releases/tag/v2.19.5",
-        "title": "/releases/tag/v2.19.5",
+        "path": "/netresearch/typo3-conformance-skill/blob/e1add0cb55967053f834559cac3b44aabd7f557c/skills/typo3-conformance/references/extension-architecture.md",
+        "title": "/blob/e1add0cb55967053f834559cac3b44aabd7f557c/skills/typo3-conformance/references/extension-architecture.md",
         "count": 2,
         "uniques": 2
       },
@@ -137,6 +125,18 @@
         "title": "/blob/e1add0cb55967053f834559cac3b44aabd7f557c/skills/typo3-conformance/references/composer-validation.md",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/e1add0cb55967053f834559cac3b44aabd7f557c/skills/typo3-conformance/references/crowdin-integration.md",
+        "title": "/blob/e1add0cb55967053f834559cac3b44aabd7f557c/skills/typo3-conformance/references/crowdin-integration.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-conformance-skill/blob/e1add0cb55967053f834559cac3b44aabd7f557c/skills/typo3-conformance/references/multi-version-dependency-compatibility.md",
+        "title": "/blob/e1add0cb55967053f834559cac3b44aabd7f557c/skills/typo3-conformance/references/multi-version-dependency-compatibility.md",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -154,7 +154,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 44,
+      "contributions": 45,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -164,7 +164,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 18,
+      "contributions": 19,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -180,7 +180,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-conformance-skill/network/dependents"
   },
-  "estimated_downstream_reach": 196,
-  "blast_radius": 196,
+  "estimated_downstream_reach": 197,
+  "blast_radius": 197,
   "archived": false
 }

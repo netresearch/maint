@@ -20,7 +20,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-11-07T10:15:13Z",
-  "pushed_at": "2026-11-22T21:35:27Z",
+  "pushed_at": "2026-11-23T22:43:40Z",
   "updated_at": "2026-11-18T12:51:51Z",
   "composer_name": null,
   "lifetime": {
@@ -29,11 +29,11 @@
     "watchers": 1,
     "network": 26,
     "open_issues_plus_prs": 2,
-    "commits": 1068,
+    "commits": 1070,
     "issues_open": 1,
     "issues_closed": 34,
     "prs_open": 1,
-    "prs_merged": 296,
+    "prs_merged": 297,
     "prs_closed_unmerged": 8,
     "issues_total": 35,
     "releases": 86,
@@ -48,22 +48,22 @@
   "recent_30d": {
     "commits": 97,
     "issues_opened": 0,
-    "prs_opened": 38,
+    "prs_opened": 37,
     "prs_merged": 37,
     "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 8279,
-    "clones_unique": 881,
-    "views_total": 774,
-    "views_unique": 348,
+    "clones_total": 8326,
+    "clones_unique": 869,
+    "views_total": 795,
+    "views_unique": 347,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 198,
-        "uniques": 161
+        "count": 202,
+        "uniques": 163
       },
       {
         "referrer": "Bing",
@@ -115,32 +115,38 @@
       {
         "path": "/netresearch/jira-skill",
         "title": "Overview",
-        "count": 297,
-        "uniques": 234
+        "count": 304,
+        "uniques": 238
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills",
         "title": "/tree/main/skills",
-        "count": 57,
-        "uniques": 45
+        "count": 60,
+        "uniques": 47
       },
       {
         "path": "/netresearch/jira-skill/tree/main",
         "title": "/tree/main",
-        "count": 38,
+        "count": 40,
         "uniques": 21
       },
       {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-communication/SKILL.md",
         "title": "/blob/main/skills/jira-communication/SKILL.md",
-        "count": 37,
-        "uniques": 25
+        "count": 39,
+        "uniques": 26
       },
       {
         "path": "/netresearch/jira-skill/tree/main/skills/jira-communication",
         "title": "/tree/main/skills/jira-communication",
-        "count": 36,
-        "uniques": 28
+        "count": 38,
+        "uniques": 30
+      },
+      {
+        "path": "/netresearch/jira-skill/tree/main/skills/jira-syntax",
+        "title": "/tree/main/skills/jira-syntax",
+        "count": 22,
+        "uniques": 13
       },
       {
         "path": "/netresearch/jira-skill/tree/main/scripts",
@@ -149,15 +155,9 @@
         "uniques": 12
       },
       {
-        "path": "/netresearch/jira-skill/tree/main/skills/jira-syntax",
-        "title": "/tree/main/skills/jira-syntax",
-        "count": 18,
-        "uniques": 12
-      },
-      {
         "path": "/netresearch/jira-skill/blob/main/skills/jira-syntax/SKILL.md",
         "title": "/blob/main/skills/jira-syntax/SKILL.md",
-        "count": 13,
+        "count": 14,
         "uniques": 9
       },
       {
@@ -193,7 +193,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 55,
+      "contributions": 56,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -208,7 +208,7 @@
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 19,
+      "contributions": 20,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -239,7 +239,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jira-skill/network/dependents"
   },
-  "estimated_downstream_reach": 425,
-  "blast_radius": 425,
+  "estimated_downstream_reach": 426,
+  "blast_radius": 426,
   "archived": false
 }
