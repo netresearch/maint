@@ -16,7 +16,7 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2020-04-03T12:23:14Z",
-  "pushed_at": "2026-11-22T04:55:32Z",
+  "pushed_at": "2026-11-24T22:12:46Z",
   "updated_at": "2026-10-31T22:10:26Z",
   "composer_name": null,
   "lifetime": {
@@ -25,11 +25,11 @@
     "watchers": 6,
     "network": 1,
     "open_issues_plus_prs": 9,
-    "commits": 192,
+    "commits": 194,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 8,
-    "prs_merged": 148,
+    "prs_merged": 150,
     "prs_closed_unmerged": 67,
     "issues_total": 2,
     "releases": 2,
@@ -42,19 +42,19 @@
     "dependents_packages": 4
   },
   "recent_30d": {
-    "commits": 11,
+    "commits": 13,
     "issues_opened": 0,
-    "prs_opened": 13,
-    "prs_merged": 10,
+    "prs_opened": 15,
+    "prs_merged": 12,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 215,
-    "clones_unique": 33,
-    "views_total": 3,
-    "views_unique": 3,
+    "clones_total": 235,
+    "clones_unique": 39,
+    "views_total": 4,
+    "views_unique": 4,
     "top_referrers": [],
     "top_paths": [
       {
@@ -66,6 +66,12 @@
       {
         "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-library/README.md",
         "title": "/blob/master/packages/autocomplete-library/README.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/postdirekt-autocomplete-monorepo/blob/master/packages/autocomplete-library/src/api/address-data.ts",
+        "title": "/blob/master/packages/autocomplete-library/src/api/address-data.ts",
         "count": 1,
         "uniques": 1
       }
@@ -80,7 +86,7 @@
   "top_contributors": [
     {
       "login": "renovate[bot]",
-      "contributions": 120,
+      "contributions": 122,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -126,7 +132,7 @@
     "packages": 4,
     "url": "https://github.com/netresearch/postdirekt-autocomplete-monorepo/network/dependents"
   },
-  "estimated_downstream_reach": 168,
-  "blast_radius": 168,
+  "estimated_downstream_reach": 170,
+  "blast_radius": 170,
   "archived": false
 }

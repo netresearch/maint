@@ -34,7 +34,7 @@
     "issues_open": 27,
     "issues_closed": 189,
     "prs_open": 2,
-    "prs_merged": 690,
+    "prs_merged": 689,
     "prs_closed_unmerged": 76,
     "issues_total": 216,
     "releases": 60,
@@ -42,24 +42,24 @@
     "contributors": 47,
     "external_contributors": 40,
     "packagist_downloads": 0,
-    "ghcr_downloads": 786338,
+    "ghcr_downloads": 793424,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 255,
-    "issues_opened": 9,
-    "prs_opened": 84,
-    "prs_merged": 79,
+    "commits": 230,
+    "issues_opened": 8,
+    "prs_opened": 78,
+    "prs_merged": 72,
     "releases": 3,
     "packagist_downloads": 0,
-    "ghcr_downloads": 195707
+    "ghcr_downloads": 195744
   },
   "traffic_14d": {
-    "clones_total": 6349,
-    "clones_unique": 460,
-    "views_total": 120,
-    "views_unique": 70,
+    "clones_total": 6714,
+    "clones_unique": 522,
+    "views_total": 107,
+    "views_unique": 62,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -78,12 +78,12 @@
       },
       {
         "referrer": "netresearch.github.io",
-        "count": 2,
+        "count": 1,
         "uniques": 1
       },
       {
-        "referrer": "statistiques-ng-preprod.ate.e2.rie.gouv.fr",
-        "count": 2,
+        "referrer": "pkg.go.dev",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -96,14 +96,8 @@
       {
         "path": "/netresearch/ofelia",
         "title": "Overview",
-        "count": 48,
-        "uniques": 34
-      },
-      {
-        "path": "/netresearch/ofelia/issues",
-        "title": "/issues",
-        "count": 7,
-        "uniques": 4
+        "count": 42,
+        "uniques": 30
       },
       {
         "path": "/netresearch/ofelia/blob/main/docs/jobs.md",
@@ -112,26 +106,14 @@
         "uniques": 3
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
-        "title": "/blob/main/docs/CONFIGURATION.md",
+        "path": "/netresearch/ofelia/discussions",
+        "title": "/discussions",
         "count": 4,
-        "uniques": 3
+        "uniques": 2
       },
       {
         "path": "/netresearch/ofelia/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/ofelia/blob/main/CONTRIBUTING.md",
-        "title": "/blob/main/CONTRIBUTING.md",
-        "count": 3,
-        "uniques": 3
-      },
-      {
-        "path": "/netresearch/ofelia/blob/main/GOVERNANCE.md",
-        "title": "/blob/main/GOVERNANCE.md",
         "count": 3,
         "uniques": 3
       },
@@ -142,14 +124,32 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/ofelia/issues",
+        "title": "/issues",
+        "count": 3,
+        "uniques": 3
+      },
+      {
+        "path": "/netresearch/ofelia/blob/main/CONTRIBUTING.md",
+        "title": "/blob/main/CONTRIBUTING.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
+        "path": "/netresearch/ofelia/blob/main/GOVERNANCE.md",
+        "title": "/blob/main/GOVERNANCE.md",
+        "count": 2,
+        "uniques": 2
+      },
+      {
         "path": "/netresearch/ofelia/blob/main/docs/API.md",
         "title": "/blob/main/docs/API.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/ofelia/blob/main/docs/images/dashboard-light-dark.png",
-        "title": "/blob/main/docs/images/dashboard-light-dark.png",
+        "path": "/netresearch/ofelia/blob/main/docs/CONFIGURATION.md",
+        "title": "/blob/main/docs/CONFIGURATION.md",
         "count": 2,
         "uniques": 2
       }
@@ -219,19 +219,19 @@
       {
         "package": "ofelia",
         "url": "https://github.com/netresearch/ofelia/pkgs/container/ofelia",
-        "total": 786338,
-        "thirty_day": 195707
+        "total": 793424,
+        "thirty_day": 195744
       }
     ],
-    "total": 786338,
-    "thirty_day": 195707
+    "total": 793424,
+    "thirty_day": 195744
   },
   "dependents": {
     "repositories": 0,
     "packages": 0,
     "url": "https://github.com/netresearch/ofelia/network/dependents"
   },
-  "estimated_downstream_reach": 1044,
-  "blast_radius": 1044,
+  "estimated_downstream_reach": 1043,
+  "blast_radius": 1043,
   "archived": false
 }

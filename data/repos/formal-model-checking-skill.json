@@ -52,17 +52,23 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 67,
-    "clones_unique": 44,
-    "views_total": 5,
-    "views_unique": 5,
-    "top_referrers": [],
+    "clones_total": 66,
+    "clones_unique": 41,
+    "views_total": 6,
+    "views_unique": 6,
+    "top_referrers": [
+      {
+        "referrer": "github.com",
+        "count": 1,
+        "uniques": 1
+      }
+    ],
     "top_paths": [
       {
         "path": "/netresearch/formal-model-checking-skill",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       },
       {
         "path": "/netresearch/formal-model-checking-skill/blob/30153754b82e448617911ff3b900ecc2cd46bb63/skills/formal-model-checking/SKILL.md",
