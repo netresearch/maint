@@ -29,7 +29,7 @@
     "prs_closed_unmerged": 10,
     "issues_total": 20,
     "releases": 29,
-    "release_downloads": 29,
+    "release_downloads": 33,
     "contributors": 8,
     "external_contributors": 2,
     "packagist_downloads": 0,
@@ -47,20 +47,20 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 596,
-    "clones_unique": 94,
-    "views_total": 36,
-    "views_unique": 26,
+    "clones_total": 548,
+    "clones_unique": 89,
+    "views_total": 34,
+    "views_unique": 28,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 9,
-        "uniques": 8
+        "count": 8,
+        "uniques": 7
       },
       {
         "referrer": "github.com",
-        "count": 2,
-        "uniques": 2
+        "count": 3,
+        "uniques": 3
       }
     ],
     "top_paths": [
@@ -95,20 +95,8 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/simple-ldap-go/blob/main/client_enable_flags_test.go",
-        "title": "/blob/main/client_enable_flags_test.go",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/simple-ldap-go/blob/main/examples/basic-usage/basic_usage.go",
         "title": "/blob/main/examples/basic-usage/basic_usage.go",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/simple-ldap-go/blob/main/examples/performance/performance_example.go",
-        "title": "/blob/main/examples/performance/performance_example.go",
         "count": 1,
         "uniques": 1
       },
@@ -121,6 +109,18 @@
       {
         "path": "/netresearch/simple-ldap-go/blob/main/sam_account_type.go",
         "title": "/blob/main/sam_account_type.go",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/blob/main/sam_account_type_test.go",
+        "title": "/blob/main/sam_account_type_test.go",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/simple-ldap-go/blob/main/unlock.go",
+        "title": "/blob/main/unlock.go",
         "count": 1,
         "uniques": 1
       }

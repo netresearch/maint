@@ -44,7 +44,7 @@
     "release_downloads": 98,
     "contributors": 8,
     "external_contributors": 2,
-    "packagist_downloads": 4949,
+    "packagist_downloads": 4968,
     "ghcr_downloads": 0,
     "dependents_repos": 1,
     "dependents_packages": 0
@@ -55,19 +55,19 @@
     "prs_opened": 59,
     "prs_merged": 58,
     "releases": 3,
-    "packagist_downloads": 1690,
+    "packagist_downloads": 1672,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 960,
-    "clones_unique": 114,
-    "views_total": 11,
-    "views_unique": 10,
+    "clones_total": 852,
+    "clones_unique": 112,
+    "views_total": 15,
+    "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 1,
-        "uniques": 1
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "github.com",
@@ -81,6 +81,12 @@
         "title": "/pull/226",
         "count": 4,
         "uniques": 4
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/issues/144",
+        "title": "/issues/144",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/t3x-nr-textdb/pull/230",
@@ -113,8 +119,20 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/t3x-nr-textdb/issues/144",
-        "title": "/issues/144",
+        "path": "/netresearch/t3x-nr-textdb/pull/179",
+        "title": "/pull/179",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/pull/179/commits",
+        "title": "/pull/179/commits",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-textdb/pull/179/commits/c0b914060801cbcb87684efa9866ad2abd219d98",
+        "title": "/pull/179/commits/c0b914060801cbcb87684efa9866ad2abd219d98",
         "count": 1,
         "uniques": 1
       }
@@ -170,9 +188,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-textdb",
-    "total": 4949,
-    "monthly": 1690,
-    "daily": 7,
+    "total": 4968,
+    "monthly": 1672,
+    "daily": 18,
     "url": "https://packagist.org/packages/netresearch/nr-textdb"
   },
   "ghcr": null,

@@ -39,7 +39,7 @@
     "release_downloads": 0,
     "contributors": 6,
     "external_contributors": 0,
-    "packagist_downloads": 31738,
+    "packagist_downloads": 31923,
     "ghcr_downloads": 0,
     "dependents_repos": 48,
     "dependents_packages": 0
@@ -50,14 +50,14 @@
     "prs_opened": 4,
     "prs_merged": 4,
     "releases": 0,
-    "packagist_downloads": 5981,
+    "packagist_downloads": 6113,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 208,
+    "clones_total": 200,
     "clones_unique": 81,
-    "views_total": 44,
-    "views_unique": 33,
+    "views_total": 42,
+    "views_unique": 31,
     "top_referrers": [
       {
         "referrer": "github.com",
@@ -66,16 +66,16 @@
       },
       {
         "referrer": "Google",
-        "count": 6,
-        "uniques": 5
+        "count": 5,
+        "uniques": 4
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/composer-agent-skill-plugin",
         "title": "Overview",
-        "count": 21,
-        "uniques": 14
+        "count": 20,
+        "uniques": 13
       },
       {
         "path": "/netresearch/composer-agent-skill-plugin/discussions",
@@ -114,12 +114,6 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/composer-agent-skill-plugin/pulls",
-        "title": "/pulls",
-        "count": 2,
-        "uniques": 2
-      },
-      {
         "path": "/netresearch/composer-agent-skill-plugin/blob/HEAD/LICENSE",
         "title": "/blob/HEAD/LICENSE",
         "count": 1,
@@ -128,6 +122,12 @@
       {
         "path": "/netresearch/composer-agent-skill-plugin/blob/feat/universal-discovery-with-trust/docs/adr/003-pure-discovery-boundary-gate.md",
         "title": "/blob/feat/universal-discovery-with-trust/docs/adr/003-pure-discovery-boundary-gate.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/composer-agent-skill-plugin/blob/feat/universal-discovery-with-trust/docs/adr/004-atomic-write-flock-persistence.md",
+        "title": "/blob/feat/universal-discovery-with-trust/docs/adr/004-atomic-write-flock-persistence.md",
         "count": 1,
         "uniques": 1
       }
@@ -173,9 +173,9 @@
   ],
   "packagist": {
     "name": "netresearch/composer-agent-skill-plugin",
-    "total": 31738,
-    "monthly": 5981,
-    "daily": 65,
+    "total": 31923,
+    "monthly": 6113,
+    "daily": 165,
     "url": "https://packagist.org/packages/netresearch/composer-agent-skill-plugin"
   },
   "ghcr": null,

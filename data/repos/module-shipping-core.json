@@ -36,7 +36,7 @@
     "release_downloads": 0,
     "contributors": 3,
     "external_contributors": 2,
-    "packagist_downloads": 265107,
+    "packagist_downloads": 265335,
     "ghcr_downloads": 0,
     "dependents_repos": 18,
     "dependents_packages": 3
@@ -51,29 +51,17 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 28,
-    "clones_unique": 17,
-    "views_total": 15,
-    "views_unique": 7,
-    "top_referrers": [
-      {
-        "referrer": "github.com",
-        "count": 1,
-        "uniques": 1
-      }
-    ],
+    "clones_total": 29,
+    "clones_unique": 19,
+    "views_total": 13,
+    "views_unique": 6,
+    "top_referrers": [],
     "top_paths": [
       {
         "path": "/netresearch/module-shipping-core/releases/tag/5.0.1",
         "title": "/releases/tag/5.0.1",
         "count": 3,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/module-shipping-core",
-        "title": "Overview",
-        "count": 2,
-        "uniques": 2
       },
       {
         "path": "/netresearch/module-shipping-core/blob/main/CHANGELOG.md",
@@ -85,6 +73,12 @@
         "path": "/netresearch/module-shipping-core/tree/main/Model/SplitAddress",
         "title": "/tree/main/Model/SplitAddress",
         "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/module-shipping-core",
+        "title": "Overview",
+        "count": 1,
         "uniques": 1
       },
       {
@@ -116,12 +110,6 @@
         "title": "/tree/main/Model/SplitAddress/SplittingRule",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/module-shipping-core/tree/main/etc",
-        "title": "/tree/main/etc",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -150,9 +138,9 @@
   ],
   "packagist": {
     "name": "netresearch/module-shipping-core",
-    "total": 265107,
+    "total": 265335,
     "monthly": 6302,
-    "daily": 261,
+    "daily": 199,
     "url": "https://packagist.org/packages/netresearch/module-shipping-core"
   },
   "ghcr": null,
