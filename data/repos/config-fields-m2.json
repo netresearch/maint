@@ -15,7 +15,7 @@
   "homepage": "",
   "default_branch": "develop",
   "created_at": "2019-01-11T14:12:54Z",
-  "pushed_at": "2026-10-08T06:08:36Z",
+  "pushed_at": "2026-11-26T03:52:33Z",
   "updated_at": "2026-10-08T06:08:39Z",
   "composer_name": "netresearch/config-fields-m2",
   "lifetime": {
@@ -24,34 +24,34 @@
     "watchers": 8,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 41,
+    "commits": 42,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 14,
+    "prs_merged": 15,
     "prs_closed_unmerged": 3,
     "issues_total": 1,
     "releases": 12,
     "release_downloads": 0,
     "contributors": 8,
     "external_contributors": 4,
-    "packagist_downloads": 400812,
+    "packagist_downloads": 401086,
     "ghcr_downloads": 0,
     "dependents_repos": 20,
     "dependents_packages": 3
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 1,
     "issues_opened": 0,
-    "prs_opened": 0,
-    "prs_merged": 0,
+    "prs_opened": 1,
+    "prs_merged": 1,
     "releases": 0,
-    "packagist_downloads": 7421,
+    "packagist_downloads": 7365,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 61,
-    "clones_unique": 26,
+    "clones_total": 83,
+    "clones_unique": 24,
     "views_total": 1,
     "views_unique": 1,
     "top_referrers": [],
@@ -97,6 +97,11 @@
       "url": "https://github.com/magicsunday"
     },
     {
+      "login": "renovate[bot]",
+      "contributions": 2,
+      "url": "https://github.com/apps/renovate"
+    },
+    {
       "login": "moehrenzahn",
       "contributions": 1,
       "url": "https://github.com/moehrenzahn"
@@ -105,18 +110,13 @@
       "login": "powli",
       "contributions": 1,
       "url": "https://github.com/powli"
-    },
-    {
-      "login": "renovate[bot]",
-      "contributions": 1,
-      "url": "https://github.com/apps/renovate"
     }
   ],
   "packagist": {
     "name": "netresearch/config-fields-m2",
-    "total": 400812,
-    "monthly": 7421,
-    "daily": 232,
+    "total": 401086,
+    "monthly": 7365,
+    "daily": 243,
     "url": "https://packagist.org/packages/netresearch/config-fields-m2"
   },
   "ghcr": null,
@@ -125,7 +125,7 @@
     "packages": 3,
     "url": "https://github.com/netresearch/config-fields-m2/network/dependents"
   },
-  "estimated_downstream_reach": 73,
-  "blast_radius": 73,
+  "estimated_downstream_reach": 74,
+  "blast_radius": 74,
   "archived": false
 }

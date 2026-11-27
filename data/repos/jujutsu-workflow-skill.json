@@ -19,7 +19,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-06-22T22:47:47Z",
-  "pushed_at": "2026-11-21T08:44:13Z",
+  "pushed_at": "2026-11-26T23:56:12Z",
   "updated_at": "2026-11-20T09:45:25Z",
   "composer_name": null,
   "lifetime": {
@@ -28,11 +28,11 @@
     "watchers": 1,
     "network": 3,
     "open_issues_plus_prs": 1,
-    "commits": 138,
+    "commits": 140,
     "issues_open": 1,
     "issues_closed": 2,
     "prs_open": 0,
-    "prs_merged": 50,
+    "prs_merged": 51,
     "prs_closed_unmerged": 1,
     "issues_total": 3,
     "releases": 11,
@@ -45,24 +45,24 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 27,
+    "commits": 29,
     "issues_opened": 0,
-    "prs_opened": 7,
-    "prs_merged": 9,
+    "prs_opened": 8,
+    "prs_merged": 10,
     "releases": 2,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 858,
-    "clones_unique": 189,
-    "views_total": 195,
-    "views_unique": 106,
+    "clones_total": 806,
+    "clones_unique": 188,
+    "views_total": 201,
+    "views_unique": 111,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 33,
-        "uniques": 28
+        "count": 29,
+        "uniques": 24
       },
       {
         "referrer": "news.ycombinator.com",
@@ -76,6 +76,11 @@
       },
       {
         "referrer": "github.com",
+        "count": 3,
+        "uniques": 2
+      },
+      {
+        "referrer": "search.brave.com",
         "count": 3,
         "uniques": 2
       },
@@ -98,25 +103,20 @@
         "referrer": "DuckDuckGo",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "referrer": "search.brave.com",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/jujutsu-workflow-skill",
         "title": "Overview",
-        "count": 71,
-        "uniques": 58
+        "count": 68,
+        "uniques": 54
       },
       {
         "path": "/netresearch/jujutsu-workflow-skill/tree/main/skills/jujutsu-workflow",
         "title": "/tree/main/skills/jujutsu-workflow",
-        "count": 16,
-        "uniques": 13
+        "count": 15,
+        "uniques": 12
       },
       {
         "path": "/netresearch/jujutsu-workflow-skill/blob/main/skills/jujutsu-workflow/SKILL.md",
@@ -177,7 +177,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 126,
+      "contributions": 128,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -213,7 +213,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/jujutsu-workflow-skill/network/dependents"
   },
-  "estimated_downstream_reach": 62,
-  "blast_radius": 62,
+  "estimated_downstream_reach": 63,
+  "blast_radius": 63,
   "archived": false
 }

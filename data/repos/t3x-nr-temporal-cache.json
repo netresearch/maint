@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-30T15:16:56Z",
-  "pushed_at": "2026-11-21T09:02:16Z",
+  "pushed_at": "2026-11-27T02:54:08Z",
   "updated_at": "2026-11-12T09:58:43Z",
   "composer_name": "netresearch/nr-temporal-cache",
   "lifetime": {
@@ -20,11 +20,11 @@
     "forks": 0,
     "watchers": 1,
     "network": 0,
-    "open_issues_plus_prs": 1,
+    "open_issues_plus_prs": 2,
     "commits": 374,
     "issues_open": 1,
     "issues_closed": 3,
-    "prs_open": 0,
+    "prs_open": 1,
     "prs_merged": 110,
     "prs_closed_unmerged": 14,
     "issues_total": 4,
@@ -40,19 +40,25 @@
   "recent_30d": {
     "commits": 25,
     "issues_opened": 0,
-    "prs_opened": 12,
+    "prs_opened": 13,
     "prs_merged": 10,
     "releases": 2,
     "packagist_downloads": 3,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 1266,
+    "clones_total": 966,
     "clones_unique": 118,
-    "views_total": 20,
-    "views_unique": 18,
+    "views_total": 22,
+    "views_unique": 20,
     "top_referrers": [],
     "top_paths": [
+      {
+        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/README.md",
+        "title": "/blob/main/README.md",
+        "count": 3,
+        "uniques": 3
+      },
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/AGENTS.md",
         "title": "/blob/main/AGENTS.md",
@@ -72,10 +78,10 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/README.md",
-        "title": "/blob/main/README.md",
-        "count": 2,
-        "uniques": 2
+        "path": "/netresearch/t3x-nr-temporal-cache/actions/runs/23172997512",
+        "title": "/actions/runs/23172997512",
+        "count": 1,
+        "uniques": 1
       },
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/COVERAGE_ANALYSIS.md",
@@ -104,12 +110,6 @@
       {
         "path": "/netresearch/t3x-nr-temporal-cache/blob/main/TEST_EVIDENCE_REPORT.md",
         "title": "/blob/main/TEST_EVIDENCE_REPORT.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
-        "path": "/netresearch/t3x-nr-temporal-cache/blob/main/TRANSLATION_ANALYSIS_REPORT.md",
-        "title": "/blob/main/TRANSLATION_ANALYSIS_REPORT.md",
         "count": 1,
         "uniques": 1
       }

@@ -19,7 +19,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-02-09T16:08:11Z",
-  "pushed_at": "2026-11-25T23:53:45Z",
+  "pushed_at": "2026-11-27T03:18:02Z",
   "updated_at": "2026-11-12T10:12:38Z",
   "composer_name": "netresearch/nr-passkeys-be",
   "lifetime": {
@@ -27,37 +27,37 @@
     "forks": 1,
     "watchers": 1,
     "network": 1,
-    "open_issues_plus_prs": 3,
-    "commits": 795,
-    "issues_open": 1,
+    "open_issues_plus_prs": 10,
+    "commits": 799,
+    "issues_open": 7,
     "issues_closed": 8,
-    "prs_open": 2,
-    "prs_merged": 190,
+    "prs_open": 3,
+    "prs_merged": 191,
     "prs_closed_unmerged": 11,
-    "issues_total": 9,
+    "issues_total": 15,
     "releases": 28,
     "release_downloads": 250,
     "contributors": 6,
     "external_contributors": 1,
-    "packagist_downloads": 26269,
+    "packagist_downloads": 26392,
     "ghcr_downloads": 0,
     "dependents_repos": 3,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 132,
-    "issues_opened": 0,
-    "prs_opened": 34,
-    "prs_merged": 31,
+    "commits": 136,
+    "issues_opened": 6,
+    "prs_opened": 36,
+    "prs_merged": 32,
     "releases": 3,
-    "packagist_downloads": 7107,
+    "packagist_downloads": 7028,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 8127,
-    "clones_unique": 350,
-    "views_total": 27,
-    "views_unique": 9,
+    "clones_total": 8192,
+    "clones_unique": 379,
+    "views_total": 28,
+    "views_unique": 10,
     "top_referrers": [
       {
         "referrer": "extensions.typo3.org",
@@ -72,6 +72,12 @@
     ],
     "top_paths": [
       {
+        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/docs/adr/0002-no-rpid-aware-enforcement.md",
+        "title": "/blob/main/docs/adr/0002-no-rpid-aware-enforcement.md",
+        "count": 4,
+        "uniques": 4
+      },
+      {
         "path": "/netresearch/t3x-nr-passkeys-be",
         "title": "Overview",
         "count": 4,
@@ -82,12 +88,6 @@
         "title": "/pull/195",
         "count": 4,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/t3x-nr-passkeys-be/blob/main/docs/adr/0002-no-rpid-aware-enforcement.md",
-        "title": "/blob/main/docs/adr/0002-no-rpid-aware-enforcement.md",
-        "count": 3,
-        "uniques": 3
       },
       {
         "path": "/netresearch/t3x-nr-passkeys-be/blob/main/Tests/Functional/Service/Fixtures/tx_nrpasskeysbe_credential.csv",
@@ -142,7 +142,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 735,
+      "contributions": 739,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -173,9 +173,9 @@
   ],
   "packagist": {
     "name": "netresearch/nr-passkeys-be",
-    "total": 26269,
-    "monthly": 7107,
-    "daily": 72,
+    "total": 26392,
+    "monthly": 7028,
+    "daily": 110,
     "url": "https://packagist.org/packages/netresearch/nr-passkeys-be"
   },
   "ghcr": null,
@@ -184,7 +184,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-passkeys-be/network/dependents"
   },
-  "estimated_downstream_reach": 210,
-  "blast_radius": 210,
+  "estimated_downstream_reach": 217,
+  "blast_radius": 217,
   "archived": false
 }
