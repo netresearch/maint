@@ -18,7 +18,7 @@
   "homepage": "https://github.com/netresearch/claude-code-marketplace",
   "default_branch": "main",
   "created_at": "2026-03-22T09:31:51Z",
-  "pushed_at": "2026-11-23T19:00:55Z",
+  "pushed_at": "2026-11-27T11:37:58Z",
   "updated_at": "2026-11-23T15:29:32Z",
   "composer_name": null,
   "lifetime": {
@@ -27,11 +27,11 @@
     "watchers": 1,
     "network": 2,
     "open_issues_plus_prs": 2,
-    "commits": 327,
+    "commits": 332,
     "issues_open": 1,
     "issues_closed": 1,
     "prs_open": 1,
-    "prs_merged": 120,
+    "prs_merged": 121,
     "prs_closed_unmerged": 3,
     "issues_total": 2,
     "releases": 17,
@@ -44,7 +44,7 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 35,
+    "commits": 33,
     "issues_opened": 0,
     "prs_opened": 15,
     "prs_merged": 15,
@@ -53,15 +53,15 @@
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2779,
-    "clones_unique": 285,
-    "views_total": 67,
-    "views_unique": 55,
+    "clones_total": 2567,
+    "clones_unique": 260,
+    "views_total": 69,
+    "views_unique": 59,
     "top_referrers": [
       {
         "referrer": "Google",
         "count": 26,
-        "uniques": 22
+        "uniques": 24
       },
       {
         "referrer": "github.com",
@@ -78,20 +78,20 @@
       {
         "path": "/netresearch/agent-harness-skill",
         "title": "Overview",
-        "count": 34,
-        "uniques": 30
+        "count": 36,
+        "uniques": 32
       },
       {
         "path": "/netresearch/agent-harness-skill/blob/main/docs/specs/retro-skill.md",
         "title": "/blob/main/docs/specs/retro-skill.md",
-        "count": 3,
-        "uniques": 3
+        "count": 4,
+        "uniques": 4
       },
       {
-        "path": "/netresearch/agent-harness-skill/tree/main/skills",
-        "title": "/tree/main/skills",
-        "count": 3,
-        "uniques": 1
+        "path": "/netresearch/agent-harness-skill/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 2,
+        "uniques": 2
       },
       {
         "path": "/netresearch/agent-harness-skill/blob/main/skills/agent-harness/references/enforcement-mechanisms.md",
@@ -112,6 +112,12 @@
         "uniques": 1
       },
       {
+        "path": "/netresearch/agent-harness-skill/blob/852504c6887f0a18b3feb47d75b51a36dff44d88/docs/ARCHITECTURE.md",
+        "title": "/blob/852504c6887f0a18b3feb47d75b51a36dff44d88/docs/ARCHITECTURE.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
         "path": "/netresearch/agent-harness-skill/blob/852504c6887f0a18b3feb47d75b51a36dff44d88/skills/agent-harness/SKILL.md",
         "title": "/blob/852504c6887f0a18b3feb47d75b51a36dff44d88/skills/agent-harness/SKILL.md",
         "count": 1,
@@ -128,12 +134,6 @@
         "title": "/blob/852504c6887f0a18b3feb47d75b51a36dff44d88/skills/agent-harness/references/adr/004-agents-md-as-index.md",
         "count": 1,
         "uniques": 1
-      },
-      {
-        "path": "/netresearch/agent-harness-skill/blob/852504c6887f0a18b3feb47d75b51a36dff44d88/skills/agent-harness/references/adr/005-checkpoint-maturity-model.md",
-        "title": "/blob/852504c6887f0a18b3feb47d75b51a36dff44d88/skills/agent-harness/references/adr/005-checkpoint-maturity-model.md",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -146,7 +146,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 218,
+      "contributions": 223,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -187,7 +187,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/agent-harness-skill/network/dependents"
   },
-  "estimated_downstream_reach": 132,
-  "blast_radius": 132,
+  "estimated_downstream_reach": 133,
+  "blast_radius": 133,
   "archived": false
 }

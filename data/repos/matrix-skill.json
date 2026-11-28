@@ -27,7 +27,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2026-01-31T12:42:05Z",
-  "pushed_at": "2026-11-26T23:58:22Z",
+  "pushed_at": "2026-11-27T22:02:34Z",
   "updated_at": "2026-11-12T12:05:12Z",
   "composer_name": null,
   "lifetime": {
@@ -36,15 +36,15 @@
     "watchers": 1,
     "network": 0,
     "open_issues_plus_prs": 5,
-    "commits": 654,
+    "commits": 700,
     "issues_open": 2,
     "issues_closed": 23,
     "prs_open": 3,
-    "prs_merged": 203,
+    "prs_merged": 205,
     "prs_closed_unmerged": 0,
     "issues_total": 25,
-    "releases": 71,
-    "release_downloads": 1022,
+    "releases": 72,
+    "release_downloads": 1044,
     "contributors": 6,
     "external_contributors": 1,
     "packagist_downloads": 0,
@@ -53,48 +53,48 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 109,
+    "commits": 155,
     "issues_opened": 1,
-    "prs_opened": 41,
-    "prs_merged": 40,
-    "releases": 7,
+    "prs_opened": 43,
+    "prs_merged": 42,
+    "releases": 8,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 2536,
-    "clones_unique": 419,
-    "views_total": 47,
-    "views_unique": 40,
+    "clones_total": 2380,
+    "clones_unique": 383,
+    "views_total": 49,
+    "views_unique": 41,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 22,
-        "uniques": 18
+        "count": 20,
+        "uniques": 16
+      },
+      {
+        "referrer": "DuckDuckGo",
+        "count": 2,
+        "uniques": 2
       },
       {
         "referrer": "github.com",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "referrer": "DuckDuckGo",
-        "count": 1,
-        "uniques": 1
       }
     ],
     "top_paths": [
       {
         "path": "/netresearch/matrix-skill",
         "title": "Overview",
-        "count": 11,
-        "uniques": 11
+        "count": 12,
+        "uniques": 12
       },
       {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/hookshot-integration.md",
         "title": "/blob/main/skills/matrix-communication/references/hookshot-integration.md",
-        "count": 11,
-        "uniques": 10
+        "count": 12,
+        "uniques": 11
       },
       {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-communication/references/messaging-guide.md",
@@ -127,12 +127,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
-        "title": "/blob/main/skills/matrix-administration/references/synapse-admin-api.md",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/matrix-skill/blob/main/skills/matrix-announcement/references/gallery.html",
         "title": "/blob/main/skills/matrix-announcement/references/gallery.html",
         "count": 1,
@@ -143,19 +137,25 @@
         "title": "/blob/main/skills/matrix-announcement/references/glyphs.md",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/matrix-skill/blob/main/skills/matrix-announcement/references/structure.md",
+        "title": "/blob/main/skills/matrix-announcement/references/structure.md",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
   "latest_release": {
-    "name": "v4.4.2",
-    "tag_name": "v4.4.2",
-    "published_at": "2026-11-21T16:55:17Z",
-    "url": "https://github.com/netresearch/matrix-skill/releases/tag/v4.4.2"
+    "name": "v5.0.0",
+    "tag_name": "v5.0.0",
+    "published_at": "2026-11-27T22:05:26Z",
+    "url": "https://github.com/netresearch/matrix-skill/releases/tag/v5.0.0"
   },
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 517,
+      "contributions": 563,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -191,7 +191,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/matrix-skill/network/dependents"
   },
-  "estimated_downstream_reach": 231,
-  "blast_radius": 231,
+  "estimated_downstream_reach": 233,
+  "blast_radius": 233,
   "archived": false
 }

@@ -13,7 +13,7 @@
   "homepage": "",
   "default_branch": "master",
   "created_at": "2016-07-22T13:22:44Z",
-  "pushed_at": "2026-10-19T11:45:20Z",
+  "pushed_at": "2026-11-27T16:53:01Z",
   "updated_at": "2026-10-19T11:45:23Z",
   "composer_name": null,
   "lifetime": {
@@ -22,11 +22,11 @@
     "watchers": 3,
     "network": 2,
     "open_issues_plus_prs": 1,
-    "commits": 84,
+    "commits": 85,
     "issues_open": 1,
     "issues_closed": 0,
     "prs_open": 0,
-    "prs_merged": 31,
+    "prs_merged": 32,
     "prs_closed_unmerged": 2,
     "issues_total": 1,
     "releases": 4,
@@ -39,21 +39,28 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 0,
+    "commits": 1,
     "issues_opened": 0,
-    "prs_opened": 0,
-    "prs_merged": 0,
+    "prs_opened": 1,
+    "prs_merged": 1,
     "releases": 0,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 41,
-    "clones_unique": 22,
-    "views_total": 0,
-    "views_unique": 0,
+    "clones_total": 47,
+    "clones_unique": 23,
+    "views_total": 1,
+    "views_unique": 1,
     "top_referrers": [],
-    "top_paths": []
+    "top_paths": [
+      {
+        "path": "/netresearch/timalytics",
+        "title": "Overview",
+        "count": 1,
+        "uniques": 1
+      }
+    ]
   },
   "latest_release": {
     "name": "v1.3.0",
@@ -74,7 +81,7 @@
     },
     {
       "login": "renovate[bot]",
-      "contributions": 13,
+      "contributions": 14,
       "url": "https://github.com/apps/renovate"
     },
     {
@@ -110,7 +117,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/timalytics/network/dependents"
   },
-  "estimated_downstream_reach": 51,
-  "blast_radius": 51,
+  "estimated_downstream_reach": 52,
+  "blast_radius": 52,
   "archived": false
 }

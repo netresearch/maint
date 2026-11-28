@@ -12,7 +12,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2023-06-27T11:57:45Z",
-  "pushed_at": "2026-11-27T03:23:43Z",
+  "pushed_at": "2026-11-27T05:28:19Z",
   "updated_at": "2026-11-12T09:23:53Z",
   "composer_name": "netresearch/nr-saml-auth",
   "lifetime": {
@@ -20,12 +20,12 @@
     "forks": 0,
     "watchers": 4,
     "network": 0,
-    "open_issues_plus_prs": 2,
-    "commits": 278,
+    "open_issues_plus_prs": 1,
+    "commits": 281,
     "issues_open": 1,
     "issues_closed": 34,
-    "prs_open": 1,
-    "prs_merged": 98,
+    "prs_open": 0,
+    "prs_merged": 99,
     "prs_closed_unmerged": 12,
     "issues_total": 35,
     "releases": 16,
@@ -38,20 +38,25 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 43,
+    "commits": 46,
     "issues_opened": 0,
     "prs_opened": 23,
-    "prs_merged": 21,
+    "prs_merged": 22,
     "releases": 5,
     "packagist_downloads": 5,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 869,
-    "clones_unique": 104,
-    "views_total": 5,
-    "views_unique": 5,
+    "clones_total": 2601,
+    "clones_unique": 169,
+    "views_total": 22,
+    "views_unique": 8,
     "top_referrers": [
+      {
+        "referrer": "extensions.typo3.org",
+        "count": 2,
+        "uniques": 2
+      },
       {
         "referrer": "github.com",
         "count": 1,
@@ -62,8 +67,8 @@
       {
         "path": "/netresearch/t3x-nr-saml-auth",
         "title": "Overview",
-        "count": 2,
-        "uniques": 2
+        "count": 6,
+        "uniques": 4
       },
       {
         "path": "/netresearch/t3x-nr-saml-auth/blob/main/README.md",
@@ -72,8 +77,50 @@
         "uniques": 2
       },
       {
-        "path": "/netresearch/t3x-nr-saml-auth/blob/main/docs/ARCHITECTURE.md",
-        "title": "/blob/main/docs/ARCHITECTURE.md",
+        "path": "/netresearch/t3x-nr-saml-auth/blob/main/composer.json",
+        "title": "/blob/main/composer.json",
+        "count": 2,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-saml-auth/blob/main/.gitleaks.toml",
+        "title": "/blob/main/.gitleaks.toml",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-saml-auth/blob/main/AGENTS.md",
+        "title": "/blob/main/AGENTS.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-saml-auth/blob/main/CHANGELOG.md",
+        "title": "/blob/main/CHANGELOG.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-saml-auth/blob/main/CLAUDE.md",
+        "title": "/blob/main/CLAUDE.md",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-saml-auth/blob/main/Classes/Middleware/AuthnRequestCookieMiddleware.php",
+        "title": "/blob/main/Classes/Middleware/AuthnRequestCookieMiddleware.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-saml-auth/blob/main/Classes/Middleware/SingleLogoutSessionMiddleware.php",
+        "title": "/blob/main/Classes/Middleware/SingleLogoutSessionMiddleware.php",
+        "count": 1,
+        "uniques": 1
+      },
+      {
+        "path": "/netresearch/t3x-nr-saml-auth/blob/main/Makefile",
+        "title": "/blob/main/Makefile",
         "count": 1,
         "uniques": 1
       }
@@ -88,7 +135,7 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 207,
+      "contributions": 210,
       "url": "https://github.com/CybotTM"
     },
     {
@@ -121,7 +168,7 @@
     "name": "netresearch/nr-saml-auth",
     "total": 27,
     "monthly": 5,
-    "daily": 4,
+    "daily": 0,
     "url": "https://packagist.org/packages/netresearch/nr-saml-auth"
   },
   "ghcr": null,
@@ -130,7 +177,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/t3x-nr-saml-auth/network/dependents"
   },
-  "estimated_downstream_reach": 139,
-  "blast_radius": 139,
+  "estimated_downstream_reach": 140,
+  "blast_radius": 140,
   "archived": false
 }

@@ -45,38 +45,38 @@
     "prs_closed_unmerged": 158,
     "issues_total": 97,
     "releases": 41,
-    "release_downloads": 236,
+    "release_downloads": 245,
     "contributors": 11,
     "external_contributors": 5,
     "packagist_downloads": 0,
-    "ghcr_downloads": 64628,
+    "ghcr_downloads": 64666,
     "dependents_repos": 0,
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 262,
+    "commits": 250,
     "issues_opened": 20,
-    "prs_opened": 146,
-    "prs_merged": 96,
+    "prs_opened": 137,
+    "prs_merged": 94,
     "releases": 4,
     "packagist_downloads": 0,
-    "ghcr_downloads": 11462
+    "ghcr_downloads": 11468
   },
   "traffic_14d": {
-    "clones_total": 7677,
-    "clones_unique": 601,
-    "views_total": 84,
-    "views_unique": 42,
+    "clones_total": 9053,
+    "clones_unique": 1184,
+    "views_total": 87,
+    "views_unique": 45,
     "top_referrers": [
       {
         "referrer": "github.com",
-        "count": 9,
-        "uniques": 9
+        "count": 10,
+        "uniques": 10
       },
       {
         "referrer": "Google",
-        "count": 5,
-        "uniques": 5
+        "count": 4,
+        "uniques": 4
       }
     ],
     "top_paths": [
@@ -111,14 +111,20 @@
         "uniques": 3
       },
       {
+        "path": "/netresearch/timetracker/commit/27f200ad73209281e082150455ee302b3c403b5d",
+        "title": "/commit/27f200ad73209281e082150455ee302b3c403b5d",
+        "count": 3,
+        "uniques": 3
+      },
+      {
         "path": "/netresearch/timetracker/blob/main/docs/DEPLOYMENT_GUIDE.md",
         "title": "/blob/main/docs/DEPLOYMENT_GUIDE.md",
         "count": 2,
         "uniques": 2
       },
       {
-        "path": "/netresearch/timetracker/commit/27f200ad73209281e082150455ee302b3c403b5d",
-        "title": "/commit/27f200ad73209281e082150455ee302b3c403b5d",
+        "path": "/netresearch/timetracker/blob/main/docs/performance.md",
+        "title": "/blob/main/docs/performance.md",
         "count": 2,
         "uniques": 2
       },
@@ -133,12 +139,6 @@
         "title": "/tree/main/src/Service",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "path": "/netresearch/timetracker/blob/ea7dac9556e1df3f286ca9dc12405188209d1332/tests/Controller/AdminControllerTest.php",
-        "title": "/blob/ea7dac9556e1df3f286ca9dc12405188209d1332/tests/Controller/AdminControllerTest.php",
-        "count": 1,
-        "uniques": 1
       }
     ]
   },
@@ -206,12 +206,12 @@
       {
         "package": "timetracker",
         "url": "https://github.com/netresearch/timetracker/pkgs/container/timetracker",
-        "total": 64628,
-        "thirty_day": 11462
+        "total": 64666,
+        "thirty_day": 11468
       }
     ],
-    "total": 64628,
-    "thirty_day": 11462
+    "total": 64666,
+    "thirty_day": 11468
   },
   "dependents": {
     "repositories": 0,

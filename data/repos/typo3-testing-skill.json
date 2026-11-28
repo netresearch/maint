@@ -21,7 +21,7 @@
   "homepage": "",
   "default_branch": "main",
   "created_at": "2025-10-18T08:31:58Z",
-  "pushed_at": "2026-11-27T01:14:33Z",
+  "pushed_at": "2026-11-27T17:20:36Z",
   "updated_at": "2026-11-12T06:17:07Z",
   "composer_name": null,
   "lifetime": {
@@ -30,11 +30,11 @@
     "watchers": 1,
     "network": 1,
     "open_issues_plus_prs": 1,
-    "commits": 809,
+    "commits": 822,
     "issues_open": 1,
     "issues_closed": 3,
     "prs_open": 0,
-    "prs_merged": 259,
+    "prs_merged": 261,
     "prs_closed_unmerged": 7,
     "issues_total": 4,
     "releases": 75,
@@ -47,34 +47,29 @@
     "dependents_packages": 0
   },
   "recent_30d": {
-    "commits": 95,
+    "commits": 103,
     "issues_opened": 0,
-    "prs_opened": 40,
-    "prs_merged": 40,
+    "prs_opened": 41,
+    "prs_merged": 41,
     "releases": 6,
     "packagist_downloads": 0,
     "ghcr_downloads": 0
   },
   "traffic_14d": {
-    "clones_total": 6011,
-    "clones_unique": 348,
-    "views_total": 29,
-    "views_unique": 14,
+    "clones_total": 6075,
+    "clones_unique": 357,
+    "views_total": 24,
+    "views_unique": 11,
     "top_referrers": [
       {
         "referrer": "Google",
-        "count": 5,
-        "uniques": 5
+        "count": 4,
+        "uniques": 4
       },
       {
         "referrer": "github.com",
         "count": 2,
         "uniques": 2
-      },
-      {
-        "referrer": "netresearch.github.io",
-        "count": 1,
-        "uniques": 1
       },
       {
         "referrer": "packagist.org",
@@ -86,8 +81,8 @@
       {
         "path": "/netresearch/typo3-testing-skill",
         "title": "Overview",
-        "count": 10,
-        "uniques": 10
+        "count": 8,
+        "uniques": 8
       },
       {
         "path": "/netresearch/typo3-testing-skill/pulls",
@@ -120,12 +115,6 @@
         "uniques": 1
       },
       {
-        "path": "/netresearch/typo3-testing-skill/blob/main/scripts/verify-harness.sh",
-        "title": "/blob/main/scripts/verify-harness.sh",
-        "count": 1,
-        "uniques": 1
-      },
-      {
         "path": "/netresearch/typo3-testing-skill/blob/main/skills/typo3-testing/references/accessibility-testing.md",
         "title": "/blob/main/skills/typo3-testing/references/accessibility-testing.md",
         "count": 1,
@@ -142,6 +131,12 @@
         "title": "/blob/main/skills/typo3-testing/references/unit-testing.md",
         "count": 1,
         "uniques": 1
+      },
+      {
+        "path": "/netresearch/typo3-testing-skill/tree/main",
+        "title": "/tree/main",
+        "count": 1,
+        "uniques": 1
       }
     ]
   },
@@ -154,17 +149,17 @@
   "top_contributors": [
     {
       "login": "CybotTM",
-      "contributions": 690,
+      "contributions": 701,
       "url": "https://github.com/CybotTM"
     },
     {
       "login": "renovate[bot]",
-      "contributions": 56,
+      "contributions": 57,
       "url": "https://github.com/apps/renovate"
     },
     {
       "login": "netresearch-project-bot[bot]",
-      "contributions": 35,
+      "contributions": 36,
       "url": "https://github.com/apps/netresearch-project-bot"
     },
     {
@@ -190,7 +185,7 @@
     "packages": 0,
     "url": "https://github.com/netresearch/typo3-testing-skill/network/dependents"
   },
-  "estimated_downstream_reach": 271,
-  "blast_radius": 271,
+  "estimated_downstream_reach": 273,
+  "blast_radius": 273,
   "archived": false
 }
